@@ -11,3 +11,5 @@
 
 
 [#2. Desenvolvimento de Software Distribuído com Prof. Rafael Prikladnicki (PUCRS)](https://anchor.fm/fronteirases/episodes/2--Desenvolvimento-de-Software-Distribudo-com-Prof--Rafael-Prikladnicki-PUCRS-egnuaj)
+
+Em construção...
