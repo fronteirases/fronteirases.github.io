@@ -45,9 +45,6 @@ Escute todos os episódios em:
 - [RSS do Fronteiras da Engenharia de Software - aqui você encontra link para os arquivos .mp3](https://anchor.fm/s/248c0568/podcast/rss)
 
 
-<div id="sfcrrjmghfjadgdfj3848wfssj4nlhqnxm3"></div>
-<script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=rrjmghfjadgdfj3848wfssj4nlhqnxm3&down=async" async></script>
-<br><a href="https://www.freecounterstat.com">free counters</a><noscript><a href="https://www.freecounterstat.com" title="free counters"><img src="https://counter3.stat.ovh/private/freecounterstat.php?c=rrjmghfjadgdfj3848wfssj4nlhqnxm3" border="0" title="free counters" alt="free counters"></a></noscript>
   
   
 
