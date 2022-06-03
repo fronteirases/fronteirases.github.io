@@ -29,6 +29,14 @@ Escute todos os episódios em:
 *   [Marcela dos Santos (UQAC)](https://scholar.google.com/citations?user=jh9L63AAAAAJ&hl=en) - parte da temporada 1
 
 
+## Lives do Fronteiras
+
+Fazemos lives em que pesquisadores apresentam um artigo aceito recentemente em revistas ou conferências da área.
+
+[Nesta playlist](https://www.youtube.com/playlist?list=PLqYFZmKhrqupT8uSnbL8kpmJhq4f5DQoY) você pode assistir as nossas lives já realizadas.
+
+Anunciamos as nossas próximas lives em nossa conta no Twitter [https://twitter.com/fronteirases](https://twitter.com/fronteirases).
+
 ## [FAQ para pessoas convidadas](https://fronteirases.github.io/faq/faq.html)
 
 
