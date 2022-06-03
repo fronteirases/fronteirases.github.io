@@ -51,5 +51,5 @@ Escute todos os episódios em:
   
   - Twitter [https://twitter.com/fronteirases](https://twitter.com/fronteirases)
   - Linkedin [https://www.linkedin.com/company/fronteirases/](https://www.linkedin.com/company/fronteirases/)
-  - Instagram [https://insta.com/fronteirases](https://twitter.com/fronteirases)
+  - Instagram [https://instagram.com/fronteirases](https://instagram.com/fronteirases)
 
