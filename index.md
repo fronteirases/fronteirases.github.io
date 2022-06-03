@@ -1,6 +1,6 @@
 #  Fronteiras da Engenharia de Software podcast
 
-<img src="logo.png" width="150"/> Um podcast para refletir sobre o presente e o futuro da engenharia de software.
+Um podcast para refletir sobre o presente e o futuro da engenharia de software.
 
 Espisódios mensais entrevistando pesquisadores da área são publicados entre os dias 15 e 20 de cada mês.
 
@@ -10,6 +10,7 @@ Escute todos os episódios em:
 - Youtube: [Fronteiras da Engenharia de Software no YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
 - Spotify: [Fronteiras da Engenharia de Software no Spotify](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
 
+<img src="logo.png" width="150"/> 
 
 
 ## Nossa equipe:
