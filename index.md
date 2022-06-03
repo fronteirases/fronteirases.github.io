@@ -46,10 +46,9 @@ Escute todos os episódios em:
 - [RSS do Fronteiras da Engenharia de Software - aqui você encontra link para os arquivos .mp3](https://anchor.fm/s/248c0568/podcast/rss)
 
 
+ ## Nossos perfis nas redes sociais
   
-  ## Nossos perfis nas redes sociais
-  
-  - Twitter [https://twitter.com/fronteirases](https://twitter.com/fronteirases)
-  - Linkedin [https://www.linkedin.com/company/fronteirases/](https://www.linkedin.com/company/fronteirases/)
-  - Instagram [https://instagram.com/fronteirases](https://instagram.com/fronteirases)
+- Twitter [https://twitter.com/fronteirases](https://twitter.com/fronteirases)
+- Linkedin [https://www.linkedin.com/company/fronteirases/](https://www.linkedin.com/company/fronteirases/)
+- Instagram [https://instagram.com/fronteirases](https://instagram.com/fronteirases)
 
