@@ -4,22 +4,12 @@ Um podcast para refletir sobre o presente e o futuro da engenharia de software.
 
 Espisódios mensais entrevistando pesquisadores da área são publicados entre os dias 15 e 20 de cada mês.
 
-Escute todos os episódios em [https://anchor.fm/fronteirases](https://anchor.fm/fronteirases).
+Escute todos os episódios em:
 
-## Escute-nos também em:
+- Anchor: [https://anchor.fm/fronteirases](https://anchor.fm/fronteirases)
+- Youtube: [Fronteiras da Engenharia de Software no YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
+- Spotify: [Fronteiras da Engenharia de Software no Spotify](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
 
-- [Fronteiras da Engenharia de Software no YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
-- [Fronteiras da Engenharia de Software no Spotify](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
-- [Fronteiras da Engenharia de Software no Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yNDhjMDU2OC9wb2RjYXN0L3Jzcw==)
-- [Fronteiras da Engenharia de Software na Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
-- [Fronteiras da Engenharia de Software na Amazon Music](https://www.amazon.com/Fronteiras-da-Engenharia-de-Software/dp/B08K5B3H74)
-- [Fronteiras da Engenharia de Software no Audible](https://www.audible.com/pd/Fronteiras-da-Engenharia-de-Software-Podcast/B08K56JNY2)
-- [Fronteiras da Engenharia de Software no Breaker](https://www.breaker.audio/u/fronteiras_da_engenharia_de_software)
-- [Fronteiras da Engenharia de Software no Castbox](https://castbox.fm/channel/id2978228?country=br)
-- [Fronteiras da Engenharia de Software no Overcast](https://overcast.fm/itunes1517697751/fronteiras-da-engenharia-de-software)
-- [Fronteiras da Engenharia de Software no PocketCasts](https://pca.st/jcm70ijz)
-- [Fronteiras da Engenharia de Software no RadioPublic](https://radiopublic.com/fronteiras-da-engenharia-de-softw-WlZPrX)
-- [RSS do Fronteiras da Engenharia de Software - aqui você encontra link para os arquivos .mp3](https://anchor.fm/s/248c0568/podcast/rss)
 
 
 ## Nossa equipe:
@@ -37,4 +27,27 @@ Escute todos os episódios em [https://anchor.fm/fronteirases](https://anchor.fm
 *   [Marco Tulio Valente (UFMG)](https://homepages.dcc.ufmg.br/~mtov/) - temporada 1
 *   [Marcela dos Santos (UQAC)](https://scholar.google.com/citations?user=jh9L63AAAAAJ&hl=en) - parte da temporada 1
 
+
+## [FAQ para pessoas convidadas](https://fronteirases.github.io/faq/faq.html)
+
+
+## Escute-nos também em:
+
+- [Fronteiras da Engenharia de Software no Google Podcasts](https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8yNDhjMDU2OC9wb2RjYXN0L3Jzcw==)
+- [Fronteiras da Engenharia de Software na Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
+- [Fronteiras da Engenharia de Software na Amazon Music](https://www.amazon.com/Fronteiras-da-Engenharia-de-Software/dp/B08K5B3H74)
+- [Fronteiras da Engenharia de Software no Audible](https://www.audible.com/pd/Fronteiras-da-Engenharia-de-Software-Podcast/B08K56JNY2)
+- [Fronteiras da Engenharia de Software no Breaker](https://www.breaker.audio/u/fronteiras_da_engenharia_de_software)
+- [Fronteiras da Engenharia de Software no Castbox](https://castbox.fm/channel/id2978228?country=br)
+- [Fronteiras da Engenharia de Software no Overcast](https://overcast.fm/itunes1517697751/fronteiras-da-engenharia-de-software)
+- [Fronteiras da Engenharia de Software no PocketCasts](https://pca.st/jcm70ijz)
+- [Fronteiras da Engenharia de Software no RadioPublic](https://radiopublic.com/fronteiras-da-engenharia-de-softw-WlZPrX)
+- [RSS do Fronteiras da Engenharia de Software - aqui você encontra link para os arquivos .mp3](https://anchor.fm/s/248c0568/podcast/rss)
+
+
+<div id="sfcrrjmghfjadgdfj3848wfssj4nlhqnxm3"></div>
+<script type="text/javascript" src="https://counter3.stat.ovh/private/counter.js?c=rrjmghfjadgdfj3848wfssj4nlhqnxm3&down=async" async></script>
+<br><a href="https://www.freecounterstat.com">free counters</a><noscript><a href="https://www.freecounterstat.com" title="free counters"><img src="https://counter3.stat.ovh/private/freecounterstat.php?c=rrjmghfjadgdfj3848wfssj4nlhqnxm3" border="0" title="free counters" alt="free counters"></a></noscript>
+  
+  
 
