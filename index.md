@@ -65,7 +65,7 @@ Neste documento listamos algumas recomendações para as pessoas convidadas por 
 
 ## Apoio
 
-A [Zup Innovation](https://www.zup.com.br/) nos apóia fazendo a edição de nossos episódios. Não há contrapartida financeira.
+A [Zup Innovation](https://www.zup.com.br/) nos apoia fazendo a edição de nossos episódios. Não há contrapartida financeira.
 
 Quer nos apoiar e ter seu nome divugado em nosso podcast? Envie-nos um email para fronteirasesw@gmail.com (observe que o email tem um W).
 
