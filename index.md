@@ -37,7 +37,6 @@ Fazemos lives em que pesquisadores apresentam um artigo aceito recentemente em r
 
 Anunciamos as nossas próximas lives em nossa conta no Twitter [https://twitter.com/fronteirases](https://twitter.com/fronteirases).
 
-## [FAQ para pessoas convidadas](https://fronteirases.github.io/faq/faq.html)
 
 
 ## Escute-nos também em:
@@ -59,4 +58,16 @@ Anunciamos as nossas próximas lives em nossa conta no Twitter [https://twitter.
 - Twitter [https://twitter.com/fronteirases](https://twitter.com/fronteirases)
 - Linkedin [https://www.linkedin.com/company/fronteirases/](https://www.linkedin.com/company/fronteirases/)
 - Instagram [https://instagram.com/fronteirases](https://instagram.com/fronteirases)
+
+## FAQ para pessoas convidadas
+
+Neste documento listamos algumas recomendações para as pessoas convidadas por nós: [FAQ](https://fronteirases.github.io/faq/faq.html).
+
+## Apoio
+
+A [Zup Innovation](https://www.zup.com.br/) nos apóia fazendo a edição de nossos episódios. Não há contrapartida financeira.
+
+Quer nos apoiar e ter seu nome divugado em nosso podcast? Envie-nos um email para fronteirasesw@gmail.com (observe que o email tem um W).
+
+Quer divulgar um projeto sem fins lucrativos em nossas redes sociais? Entre-em contato pelo Twitter.
 
