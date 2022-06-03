@@ -3,3 +3,9 @@ theme: jekyll-theme-leap-day
 twitter_username: fronteirases # DO NOT include the @ character, or else the build will fail!
 github_username:  fronteirases # DO NOT include the @ character, or else the build will fail!
 instagram_username: fronteirases
+
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - index.md
