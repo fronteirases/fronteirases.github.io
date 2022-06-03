@@ -20,6 +20,12 @@ Escute todos os episódios em:
 - [Adolfo Gustavo Serra Seca Neto (UTFPR) - co-anfitrião](https://adolfont.github.io/)
 - [Maria Claudia Emer (UTFPR)](https://scholar.google.com.br/citations?user=4i7kDeMAAAAJ&hl=pt-BR) - co-anfitriã
 
+### Voluntários
+
+- Myrian Rodrigues da Silva (USES/UFAM)
+- Italo Santos
+- Diego Andrade
+
 
 ### Ex-membros:
 
@@ -69,5 +75,5 @@ A [Zup Innovation](https://www.zup.com.br/) nos apoia fazendo a edição de noss
 
 Quer nos apoiar e ter seu nome divugado em nosso podcast? Envie-nos um email para fronteirasesw@gmail.com (observe que o email tem um W).
 
-Quer divulgar um projeto sem fins lucrativos em nossas redes sociais? Entre-em contato pelo Twitter.
+Quer divulgar um projeto sem fins lucrativos em nossas redes sociais? Entre em contato pelo Twitter.
 
