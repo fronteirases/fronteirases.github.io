@@ -23,7 +23,7 @@ Escute todos os episódios em:
 ### Voluntários
 
 - Myrian Rodrigues da Silva (USES/UFAM)
-- Italo Santos
+- [Italo Santos (Northern Arizona University, USA)](https://sites.google.com/view/italo-santos/home)
 - Diego Andrade
 
 
