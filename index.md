@@ -24,7 +24,7 @@ Escute todos os episódios em:
 
 - Myrian Rodrigues da Silva (USES/UFAM)
 - [Italo Santos (Northern Arizona University, USA)](https://sites.google.com/view/italo-santos/home)
-- Diego Andrade
+- Diego Andrade (UFC)
 
 
 ### Ex-membros:
