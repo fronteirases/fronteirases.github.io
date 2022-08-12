@@ -1,28 +1,3 @@
-<!-- Output copied to clipboard! -->
-
-<!-----
-
-Yay, no errors, warnings, or alerts!
-
-Conversion time: 0.453 seconds.
-
-
-Using this Markdown file:
-
-1. Paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* Docs to Markdown version 1.0β33
-* Fri Aug 12 2022 06:51:27 GMT-0700 (PDT)
-* Source doc: [FES] Entrevista #2-T3: Igor Steinmacher
------>
-
-
-
 # Fronteiras da Engenharia de Software - Podcast
 
 
@@ -30,7 +5,7 @@ Conversion notes:
 
 Igor Steinmacher é professor da Northern Arizona University. Seu site é [https://www.igor.pro.br/](https://www.igor.pro.br/). Ele está no Twitter como [@igorsteinmacher](https://twitter.com/igorsteinmacher).
 
-Host: Adolfo Neto (UTFPR)
+Host: [Adolfo Neto (UTFPR)](https://adolfont.github.io/)
 
 Co-host: Maria Claudia Emer (UTFPR)
 
@@ -55,11 +30,11 @@ Hoje temos aqui, estreando como co-host do Fronteiras, Maria Claudia Emer, tamb�
 
 [ADOLFO] Hoje iremos conversar com Igor Steinmacher, professor da Northern Arizona University (vamos chamar aqui de **NAU**, para facilitar), nos Estados Unidos da América. 
 
-Igor já colaborou bastante com pessoas que já vieram aqui ao Fronteiras: Tayana Conte e Igor Wiese; 
+Igor já colaborou bastante com pessoas que já vieram aqui ao Fronteiras: [Tayana Conte](https://anchor.fm/fronteirases/episodes/10--User-Experience-UX-com-Tayana-Conte-UFAM-esqjr9) e [Igor Wiese](https://anchor.fm/fronteirases/episodes/Desenvolvimento-de-Software-Livre-com-Igor-Wiese-UTFPR-e18q33q); 
 
 com Gustavo Pinto, nosso ex-host, 
 
-e com pessoas que estiveram em live nossa (Bianca Trinkenreich) ou no nosso outro podcast, Emílias (Mairieli Wessel). 
+e com [pessoas que estiveram em live nossa (Bianca Trinkenreich)](https://youtu.be/rcubAsP9fS8) ou no nosso outro podcast, Emílias ([Mairieli Wessel](https://youtu.be/MInRTZmfXPA)). 
 
 O tema do episódio de hoje será “Contribuição em Projetos de Código Aberto”. Tudo bem, Igor? 
 
