@@ -95,7 +95,7 @@ Segunda: quais foram seus principais achados até agora (incluindo outros artigo
 
 [ADOLFO] Você publicou recentemente o artigo [“An Empirical Investigation on the Challenges Faced by Women in the Software Industry: A Case Study”](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=I8o8rfoAAAAJ&sortby=pubdate&citation_for_view=I8o8rfoAAAAJ:vbGhcppDl1QC), cuja primeira autora é a Bianca Trinkenreich, doutoranda na NAU, que já esteve na nossa live do Fronteiras (e Emílias) falando sobre um outro artigo. Neste caso, não é um artigo ligado a Código Aberto nem a contribuições, certo? Você pode falar um pouco para a gente sobre este trabalho?
 
-[MARIA]  Você recentemente anunciou sua saída da UTFPR e voltou para a NAU, onde já tinha trabalhado por um período. No podcast do Bruno Cartaxo (HiDev) você falou bastante sobre como era seu trabalho na NAU (carga horária, exigências de pesquisa, dificuldades em contratar estudantes, etc). Algum tempo depois daquela gravação você voltou para a UTFPR e agora está voltando à NAU. Você pode contar para a gente quais foram as suas motivações para este retorno?
+[MARIA]  Você recentemente anunciou sua saída da UTFPR e voltou para a NAU, onde já tinha trabalhado por um período. No [podcast do Bruno Cartaxo (HiDev)](https://anchor.fm/hidevpodcast/episodes/Como-entrar-em-projetos-Open-Source---Igor-Steinmacher---TCNICAS--TRAJETRIAS-2-eevcm0) você falou bastante sobre como era seu trabalho na NAU (carga horária, exigências de pesquisa, dificuldades em contratar estudantes, etc). Algum tempo depois daquela gravação você voltou para a UTFPR e agora está voltando à NAU. Você pode contar para a gente quais foram as suas motivações para este retorno?
 
 
 ## Parte 5: Próxima Fronteira da ES [3 min, estimativa]
