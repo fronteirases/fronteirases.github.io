@@ -36,7 +36,7 @@ Co-host: Maria Claudia Emer (UTFPR)
 
 Equipe: Danilo Ribeiro (Zup), Leonardo Fernandes (IFAL), Fabio Petrillo (ETS Montreal), Myrian Rodrigues da Silva (USES/UFAM), Italo Santos (Northern Arizona University, USA), Diego Andrade (UFC)
 
-[https://fronteirases.github.io/](https://fronteirases.github.io/) \
+[https://fronteirases.github.io/](https://fronteirases.github.io/)
 
 
  
