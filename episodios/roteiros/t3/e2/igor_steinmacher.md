@@ -3,6 +3,8 @@
 
 ## Episódio 2, Temporada 3: Contribuição em Projetos de Código Aberto, com Igor Steinmacher (Northern Arizona University)
 
+Escute este episódio nas [plataformas de áudio.](https://spotifyanchor-web.app.link/e/kHn0DbSFUsb)
+
 Igor Steinmacher é professor da Northern Arizona University. Seu site é [https://www.igor.pro.br/](https://www.igor.pro.br/). Ele está no Twitter como [@igorsteinmacher](https://twitter.com/igorsteinmacher).
 
 Host: [Adolfo Neto (UTFPR)](https://adolfont.github.io/)
