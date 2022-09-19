@@ -9,6 +9,7 @@ Escute todos os episódios em:
 - Anchor: [https://anchor.fm/fronteirases](https://anchor.fm/fronteirases)
 - Youtube: [Fronteiras da Engenharia de Software no YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
 - Spotify: [Fronteiras da Engenharia de Software no Spotify](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
+- Apple Podcasts: [Fronteiras da Engenharia de Software na Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
 
 <img src="logo.png" width="150"/> 
 
