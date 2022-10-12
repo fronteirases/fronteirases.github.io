@@ -2,7 +2,7 @@
 
 Um podcast para refletir sobre o presente e o futuro da engenharia de software.
 
-Episódios mensais entrevistando pesquisadores da área são publicados entre os dias 15 e 20 de cada mês.
+Episódios mensais entrevistando pesquisadores da área são publicados entre os dias 10 e 20 de cada mês.
 
 Escute todos os episódios em:
 
