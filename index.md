@@ -14,6 +14,9 @@ Escute todos os episódios em:
 
 <img src="logo.png" width="150"/> 
 
+Se quiser receber e-mails do Fronteiras, preencha seus dados em https://forms.gle/E5QxpzgK28aaRfFX7
+
+
 
 ## Nossa equipe:
 - [Fabio Petrillo (École de technologie supérieure - Montreal)](https://fabiopetrillo.com/)
