@@ -31,7 +31,7 @@ Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário]
 
 ### Voluntários
 
-- Myrian Rodrigues da Silva (USES/UFAM)
+- [Myrian Rodrigues da Silva (USES/UFAM)](https://www.linkedin.com/in/myrian-rodrigues-490159147/)
 - [Italo Santos (Northern Arizona University, USA)](https://sites.google.com/view/italo-santos/home)
 - Diego Andrade (UFC)
 
