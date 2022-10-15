@@ -33,7 +33,7 @@ Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário]
 
 - [Myrian Rodrigues da Silva (USES/UFAM)](https://www.linkedin.com/in/myrian-rodrigues-490159147/)
 - [Italo Santos (Northern Arizona University, USA)](https://sites.google.com/view/italo-santos/home)
-- Diego Andrade (UFC)
+- [Diego Andrade (UFC)](https://conf.researchr.org/profile/msr-2022/carlosdiegoandradedealmeida)
 
 
 ### Ex-membros:
