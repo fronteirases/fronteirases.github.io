@@ -5,10 +5,15 @@ Um podcast para refletir sobre o presente e o futuro da engenharia de software.
 Episódios mensais entrevistando pesquisadores da área são publicados entre os dias 10 e 20 de cada mês.
 
 <html>
+<twitter-share-button href="https://test.com" text="Testing URL attribute">Attribute and URL Test</twitter-share-button>
+</html>
+
+<!--- 
+<html>
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-size="large" data-text="Conheça o podcast Fronteiras da Engenharia de Software!" data-url="Conheça o podcast Fronteiras da Engenharia de Software! https://fronteirases.github.io/" data-via="fronteirases" data-show-count="true">Compartilhe!</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   <br/>
 </html>
-
+--->
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
 
