@@ -74,6 +74,11 @@ Anunciamos as nossas próximas lives em nossa conta no Twitter [https://twitter.
 - Linkedin [https://www.linkedin.com/company/fronteirases/](https://www.linkedin.com/company/fronteirases/)
 - Instagram [https://instagram.com/fronteirases](https://instagram.com/fronteirases)
 
+## Palestras sobre o Fronteiras
+
+- [Divulgação Científica: a experiência do podcast Fronteiras da Engenharia de Software](https://www.youtube.com/watch?v=BMpvytzaXxo)
+- [Seminário de 28/7/22 - A experiência do podcast Fronteiras da Engenharia de Software (Adolfo Neto)](https://www.youtube.com/watch?v=-OCBrquMp3Q)
+
 ## FAQ para pessoas convidadas
 
 Neste documento listamos algumas recomendações para as pessoas convidadas por nós: [FAQ](https://fronteirases.github.io/faq/faq.html).
