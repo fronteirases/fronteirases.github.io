@@ -1,6 +1,9 @@
 # 30: Ecossistemas de software na indústria, com Rodrigo Santos (UNIRIO) - YouTube
-https://www.youtube.com/watch?v=Ex7YC9J1JIo
-![](https://www.youtube.com/watch?v=Ex7YC9J1JIo)
+
+- Link para o vídeo  https://www.youtube.com/watch?v=Ex7YC9J1JIo.
+
+- Trasncrição feita pelo site [Glasp](https://glasp.co/)
+
 ## Transcript:
 - ([00:02](https://www.youtube.com/watch?v=Ex7YC9J1JIo&t=2s)) Este é o podcast Fronteiras da engenharia de software um podcast para refletir sobre o presente e o futuro da nossa área publicamos mensalmente entre os dias 15 e 20 de cada mês episódios em que entrevistamos pesquisadores pesquisadores da engenharia de software também realizamos palestras que são publicados em nosso canal no YouTube nosso objetivo levar o conhecimento científico para profissionais da área para outros cientistas escute nossos episódios na sua plataforma de áudio favorita Spotify Apple podcast
 - ([00:38](https://www.youtube.com/watch?v=Ex7YC9J1JIo&t=38s)) ou ainda no YouTube nosso site é fronteiras Estamos também no Twitter e no Instagram como @proteiras [Música] Olá eu sou Adolfo Neto professor da UFPR Curitiba Estou aqui com a corrucci do fronteiras Maria Cláudia emmer também da UFPR Curitiba Tudo bem Maria Cláudia tudo bem Adolfo muito feliz aqui né com mais uma entrevista no podcast e hoje com uma pessoa que a gente chegou a conhecer pessoalmente né que é o Rodrigo Santos é só explicando o contexto que aconteceu o simpósio brasileiro do sistema de informação 2022
