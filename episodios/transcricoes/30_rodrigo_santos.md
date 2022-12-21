@@ -1,4 +1,4 @@
-# (66) 30: Ecossistemas de software na indústria, com Rodrigo Santos (UNIRIO) - YouTube
+# 30: Ecossistemas de software na indústria, com Rodrigo Santos (UNIRIO) - YouTube
 https://www.youtube.com/watch?v=Ex7YC9J1JIo
 ![](https://www.youtube.com/watch?v=Ex7YC9J1JIo)
 ## Transcript:
