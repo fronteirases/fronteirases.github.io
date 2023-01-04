@@ -1,6 +1,7 @@
 # 31: UX design em startups de software, com Luciana Zaina (UFSCAR)
 
-![FronteirasIconeAnchor](https://user-images.githubusercontent.com/79562/210629257-2df3b5b6-ad70-46a5-8aee-f93fef484e9c.png)
+<img src="[drawing.jpg](https://user-images.githubusercontent.com/79562/210629257-2df3b5b6-ad70-46a5-8aee-f93fef484e9c.png)" alt="Arte Luciana Zaina" width="200"/>
+
 
 Escute no Acnhor: https://anchor.fm/fronteirases/episodes/31-UX-design-em-startups-de-software--com-Luciana-Zaina-UFSCAR-e1sh721 
 
