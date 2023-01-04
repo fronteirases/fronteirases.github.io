@@ -66,6 +66,5 @@ Nosso site é[  https://fronteirases.github.io/](https://fronteirases.github.io/
 
 Escute também:
 
--   Emílias Podcast - Mulheres na Computação[  https://anchor.fm/emilias-podcast](https://anchor.fm/emilias-podcast)
-
-Elixir em Foco[  https://anchor.fm/elixiremfoco](https://anchor.fm/elixiremfoco)
+- Emílias Podcast - Mulheres na Computação[  https://anchor.fm/emilias-podcast](https://anchor.fm/emilias-podcast)
+- Elixir em Foco[  https://anchor.fm/elixiremfoco](https://anchor.fm/elixiremfoco)
