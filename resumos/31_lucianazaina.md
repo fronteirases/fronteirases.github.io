@@ -2,10 +2,13 @@
 
 <img src="https://user-images.githubusercontent.com/79562/210629257-2df3b5b6-ad70-46a5-8aee-f93fef484e9c.png" alt="Arte Luciana Zaina" width="350"/>
 
+## Onde escutar (lançamento em 16/01/2023)
 
 Escute no Anchor (e demais plataformas de áudio ou de podcast):[  ](https://anchor.fm/fronteirases/episodes/31-UX-design-em-startups-de-software--com-Luciana-Zaina-UFSCAR-e1sh721)<https://anchor.fm/fronteirases/episodes/31-UX-design-em-startups-de-software--com-Luciana-Zaina-UFSCAR-e1sh721> 
 
 Escute no YouTube:[  ](https://youtu.be/o2kqki6VsVs)<https://youtu.be/o2kqki6VsVs> 
+
+## Resumo
 
 Luciana Zaina é Professora Associada e Pesquisadora no Departamento de Computação da UFSCAR Sorocaba.  É Bolsista de Produtividade em Desenvolvimento Tecnológico. e Extensão Inovadora do CNPq. Orienta mestrado e doutorado nos programas de pós-graduação em Ciência da Computação da UFSCAR de Sorocaba e de São Carlos  (PPGCC and PPGCCS) Faz parte de dois grupos de pesquisa, o LERIS -- Laboratory of Studies in Networks, Innovation and Software e o UXLERIS,  um grupo de pesquisa dentro do LERIS dedicado á UX.
 
