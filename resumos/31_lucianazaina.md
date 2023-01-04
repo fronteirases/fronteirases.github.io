@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/79562/210629257-2df3b5b6-ad70-46a5-8aee-f93fef484e9c.png" alt="Arte Luciana Zaina" width="350"/>
 
 
-Escute no Acnhor: [  ](https://anchor.fm/fronteirases/episodes/31-UX-design-em-startups-de-software--com-Luciana-Zaina-UFSCAR-e1sh721)<https://anchor.fm/fronteirases/episodes/31-UX-design-em-startups-de-software--com-Luciana-Zaina-UFSCAR-e1sh721> 
+Escute no Anchor (e demais plataformas de áudio ou de podcast): [  ](https://anchor.fm/fronteirases/episodes/31-UX-design-em-startups-de-software--com-Luciana-Zaina-UFSCAR-e1sh721)<https://anchor.fm/fronteirases/episodes/31-UX-design-em-startups-de-software--com-Luciana-Zaina-UFSCAR-e1sh721> 
 
 Escute no YouTube: [  ](https://youtu.be/o2kqki6VsVs)<https://youtu.be/o2kqki6VsVs> 
 
