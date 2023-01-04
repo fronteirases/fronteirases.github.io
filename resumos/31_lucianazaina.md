@@ -1,3 +1,7 @@
+# 31: UX design em startups de software, com Luciana Zaina (UFSCAR)
+
+
+
 Luciana Zaina é Professora Associada e Pesquisadora no Departamento de Computação da UFSCAR Sorocaba.  É Bolsista de Produtividade em Desenvolvimento Tecnológico. e Extensão Inovadora do CNPq. Orienta mestrado e doutorado nos programas de pós-graduação em Ciência da Computação da UFSCAR de Sorocaba e de São Carlos  (PPGCC and PPGCCS) Faz parte de dois grupos de pesquisa, o LERIS -- Laboratory of Studies in Networks, Innovation and Software e o UXLERIS,  um grupo de pesquisa dentro do LERIS dedicado á UX.
 
 -   Página: <http://uxleris.dcomp.ufscar.br/lzaina/> 
