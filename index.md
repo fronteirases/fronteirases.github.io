@@ -2,7 +2,7 @@
 
 Um podcast para refletir sobre o presente e o futuro da engenharia de software.
 
-Episódios mensais entrevistando pesquisadores da área são publicados entre os dias 10 e 20 de cada mês.
+Episódios mensais entrevistando pesquisadores da área são publicados na terceira quarta-feira do mês.
 
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
