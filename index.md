@@ -1,19 +1,20 @@
-#  Fronteiras da Engenharia de Software podcast
+#  Fronteiras da Engenharia de Software 
 
-Um podcast para refletir sobre o presente e o futuro da engenharia de software.
+Fronteiras da Engenharia de Software é um podcast para refletir sobre o presente e o futuro da engenharia de software. Publicamos episódios mensais em que entrevistamos pessoas pesquisadoras da área. Este podcast é uma atividade de divulgação científica associada ao [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba.](http://bit.ly/3mVfjhF)
 
-Episódios mensais entrevistando pesquisadores da área são publicados entre os dias 10 e 20 de cada mês.
 
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
 
+- [Episódio 33: Engenharia de Sistemas de Software Contemporâneos, com Guilherme Horta Travassos (COPPE/UFRJ)
+](https://spotifyanchor-web.app.link/e/fzfviGDKbyb)
 - [Episódio 32: Cognitive-Driven Development, com Gustavo Pinto (Zup Innovation e UFPA)](https://spotifyanchor-web.app.link/e/Hb1M8aytYxb)
 - [Episódio 31: UX design em startups de software, com Luciana Zaina (UFSCAR)](https://fronteirases.github.io/resumos/31_lucianazaina)
 
 
 Escute todos os episódios em:
 
-- Anchor: [https://anchor.fm/fronteirases](https://anchor.fm/fronteirases)
+- Spotify for Podcasters: [https://podcasters.spotify.com/pod/show/fronteirases](https://podcasters.spotify.com/pod/show/fronteirases)
 - Youtube: [Fronteiras da Engenharia de Software no YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
 - Spotify: [Fronteiras da Engenharia de Software no Spotify](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
 - Apple Podcasts: [Fronteiras da Engenharia de Software na Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
