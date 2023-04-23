@@ -2,12 +2,14 @@
 
 Fronteiras da Engenharia de Software é um podcast para refletir sobre o presente e o futuro da engenharia de software. Publicamos episódios mensais em que entrevistamos pessoas pesquisadoras da área. Este podcast é uma atividade de divulgação científica associada ao [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba.](http://bit.ly/3mVfjhF)
 
+Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Software? Será avisado(a) do lançamento de cada episódio e também de outras atividades em que estivermos envolvidos. Se sim, preencha seus dados [neste formulário](https://bit.ly/3N7brVL). 
+
 
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
 
-- [Episódio 33: Engenharia de Sistemas de Software Contemporâneos, com Guilherme Horta Travassos (COPPE/UFRJ)
-](https://spotifyanchor-web.app.link/e/fzfviGDKbyb)
+- [Episódio 34: Interação da pesquisa com a indústria, com Sérgio Soares (CIn UFPE)](https://open.spotify.com/episode/2LCEQisNwfZisXt12xtiNW)
+- [Episódio 33: Engenharia de Sistemas de Software Contemporâneos, com Guilherme Horta Travassos (COPPE/UFRJ)](https://spotifyanchor-web.app.link/e/fzfviGDKbyb)
 - [Episódio 32: Cognitive-Driven Development, com Gustavo Pinto (Zup Innovation e UFPA)](https://spotifyanchor-web.app.link/e/Hb1M8aytYxb)
 - [Episódio 31: UX design em startups de software, com Luciana Zaina (UFSCAR)](https://fronteirases.github.io/resumos/31_lucianazaina)
 - [Episódio 25: Estudos Secundários em Engenharia de Software, com Katia Felizardo (UTFPR)](https://podcasters.spotify.com/pod/show/fronteirases/episodes/25-Estudos-Secundrios-em-Engenharia-de-Software--com-Katia-Felizardo-UTFPR-e1k0fhg/a-a847bkg)
