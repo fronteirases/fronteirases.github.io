@@ -74,6 +74,8 @@ Anunciamos as nossas próximas lives em nossa conta no Twitter [https://twitter.
 - [Fronteiras da Engenharia de Software no Overcast](https://overcast.fm/itunes1517697751/fronteiras-da-engenharia-de-software)
 - [Fronteiras da Engenharia de Software no PocketCasts](https://pca.st/jcm70ijz)
 - [Fronteiras da Engenharia de Software no RadioPublic](https://radiopublic.com/fronteiras-da-engenharia-de-softw-WlZPrX)
+- [Fronteiras da Engenharia de Software no Deezer](https://www.deezer.com/br/show/1356352)
+- [Fronteiras da Engenharia de Software no Resso](https://www.resso.com/) - procure por Fronteiras da Engenharia de Software
 - [RSS do Fronteiras da Engenharia de Software - aqui você encontra link para os arquivos .mp3](https://anchor.fm/s/248c0568/podcast/rss)
 
 
