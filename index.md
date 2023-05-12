@@ -8,6 +8,7 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
 
+- [Episódio 35: Modernização de Software, com Wesley Klewerton](https://youtu.be/9jFOx22TP10)
 - [Episódio 34: Interação da pesquisa com a indústria, com Sérgio Soares (CIn UFPE)](https://open.spotify.com/episode/2LCEQisNwfZisXt12xtiNW)
 - [Episódio 33: Engenharia de Sistemas de Software Contemporâneos, com Guilherme Horta Travassos (COPPE/UFRJ)](https://spotifyanchor-web.app.link/e/fzfviGDKbyb)
 - [Episódio 32: Cognitive-Driven Development, com Gustavo Pinto (Zup Innovation e UFPA)](https://spotifyanchor-web.app.link/e/Hb1M8aytYxb)
