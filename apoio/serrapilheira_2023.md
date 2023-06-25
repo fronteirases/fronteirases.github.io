@@ -33,7 +33,7 @@ Entrevistas com pesquisadores da área de Engenharia de Software para trazer o c
 
 O podcast 'Fronteiras da Engenharia de Software' apresenta entrevistas exclusivas com pesquisadores renomados na área, oferecendo aos desenvolvedores de software acesso direto às últimas tendências e avanços em pesquisa. O objetivo é permitir que esses desenvolvedores apliquem esses conhecimentos em seu trabalho e se mantenham atualizados com as inovações que estão moldando o futuro da Engenharia de Software.
 
-No contexto cultural em que este podcast se insere, é comum que os desenvolvedores deem mais atenção às opiniões de outros desenvolvedores do que aos resultados de pesquisas acadêmicas sérias na área.
+No contexto cultural em que este podcast se insere, é comum que as pessoas desenvolvedoras dêem mais atenção às opiniões de outros desenvolvedores do que aos resultados de pesquisas acadêmicas sérias na área.
  
 ## Explique o que seu projeto tem de novo em relação a outros podcasts ou projetos que contam histórias ou promovem debates sobre ciência. Como e quando você pretende abordar aspectos, personagens e temas científicos no podcast?
 
