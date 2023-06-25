@@ -1,4 +1,4 @@
-#  🇺🇸 Frontiers of Software Engineering 
+#  Frontiers of Software Engineering 
 
 **Frontiers of Software Engineering** (🇧🇷 Fronteiras da Engenharia de Software) is a podcast to reflect on the present and future of software engineering. We publish monthly episodes, usually in Portuguese, where we interview researchers in the field. This podcast is a scientific outreach activity associated with the [Graduate Program in Applied Computing at UTFPR Curitiba.](https://bit.ly/42X2LFQ).
 
