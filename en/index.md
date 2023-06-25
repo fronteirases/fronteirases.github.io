@@ -7,6 +7,6 @@
 -->
 
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Follow%20%40fronteirases)](https://twitter.com/fronteirases)
 
 - [Episódio 36: Software Security with Laurie Williams (North Carolina State University)](https://youtu.be/WyTOtlY3NFY) - Our first episode in English!
