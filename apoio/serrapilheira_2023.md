@@ -21,7 +21,7 @@ Caso os canais de publicação e divulgação do projeto já existam, qual é a 
 - Total de downloads nas plataformas de podcast: 26334
 - Média de visualizações por vídeo no YouTube: 150
 
-# Formato do programa. Qual das opções abaixo melhor descreve o formato do seu podcast? 
+## Formato do programa. Qual das opções abaixo melhor descreve o formato do seu podcast? 
 
 Entrevista
 
