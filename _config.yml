@@ -1,4 +1,4 @@
-theme: minimal  # era jekyll-theme-leap-day
+theme:  jekyll-theme-leap-day  # tentei minimal mas não deu certo
 
 #remote_theme: pages-themes/minimal@v0.2.0
 #plugins:
