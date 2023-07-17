@@ -2,7 +2,9 @@
 
 In this episode, we interviewed Laurie Williams, a Distinguished University Professor at the Department of Computer Science at North Carolina State University (NCSU or NC State).
 
+## Video on YouTube, with subtitles in English and Portuguese
 
+{% include youtube.html id="WyTOtlY3NFY" %}
 
 ## Podcast episode
 
@@ -11,7 +13,5 @@ In this episode, we interviewed Laurie Williams, a Distinguished University Prof
 {% include spotify.html id="0bOyUIgGKa08IZUv5w5vSd" %}
 
 
-## Video on YouTube
 
-{% include youtube.html id="WyTOtlY3NFY" %}
 
