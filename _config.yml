@@ -1,9 +1,9 @@
-theme:  jekyll-theme-leap-day  # tentei minimal mas não deu certo
-logo: /logo.png
+#theme:  jekyll-theme-leap-day  # tentei minimal mas não deu certo
 
-#remote_theme: pages-themes/minimal@v0.2.0
-#plugins:
-#- jekyll-remote-theme # add this line to the plugins list if you already have one
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+logo: /logo.png
 
 twitter_username: fronteirases # DO NOT include the @ character, or else the build will fail!
 github_username:  fronteirases # DO NOT include the @ character, or else the build will fail!
