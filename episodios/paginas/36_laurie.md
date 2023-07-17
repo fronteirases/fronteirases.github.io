@@ -8,11 +8,17 @@ In this episode, we interviewed Laurie Williams, a Distinguished University Prof
 
 ## Podcast episode
 
-[Software Security with Laurie Williams (North Carolina State University)](https://podcasters.spotify.com/pod/show/fronteirases/episodes/36-Software-Security-with-Laurie-Williams-North-Carolina-State-University-e25vn50)
+
+### Spotify
 
 {% include spotify.html id="0bOyUIgGKa08IZUv5w5vSd" %}
+
+### Spotify for Podcasters
 
 {% include anchor.html id="36-Software-Security-with-Laurie-Williams-North-Carolina-State-University-e25vn50" %}
 
 
+### All other platforms
+
+[Software Security with Laurie Williams (North Carolina State University)](https://podcasters.spotify.com/pod/show/fronteirases/episodes/36-Software-Security-with-Laurie-Williams-North-Carolina-State-University-e25vn50)
 
