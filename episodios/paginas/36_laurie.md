@@ -12,6 +12,7 @@ In this episode, we interviewed Laurie Williams, a Distinguished University Prof
 
 {% include spotify.html id="0bOyUIgGKa08IZUv5w5vSd" %}
 
+{% include anchor.html id="36-Software-Security-with-Laurie-Williams-North-Carolina-State-University-e25vn50" %}
 
 
 
