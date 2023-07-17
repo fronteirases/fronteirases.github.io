@@ -11,5 +11,5 @@ include:
   - index.md
 
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
-og_image: /logo.png # The site-wide (default for all links) Open Graph preview image
+og_image: logo.png # The site-wide (default for all links) Open Graph preview image
 
