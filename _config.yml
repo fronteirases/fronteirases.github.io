@@ -1,4 +1,4 @@
-theme: jekyll-theme-leap-day
+theme: minimal  # era jekyll-theme-leap-day
 og_image: logo.png # The site-wide (default for all links) Open Graph preview image
 
 twitter_username: fronteirases # DO NOT include the @ character, or else the build will fail!
