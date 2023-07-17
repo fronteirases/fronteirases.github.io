@@ -1,5 +1,7 @@
 # 36: Software Security with Laurie Williams (North Carolina State University)
 
+In this episode, we interviewed Laurie Williams, a Distinguished University Professor at the Department of Computer Science at North Carolina State University (NCSU or NC State).
+
 {% include youtube.html id="WyTOtlY3NFY" %}
 
 
