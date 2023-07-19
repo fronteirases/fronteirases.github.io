@@ -14,6 +14,9 @@ Neste episódio do Fronteiras, entrevistamos Monalessa Barcellos, uma renomada p
 [Medição de Software, com Monalessa Barcellos (UFES)](https://podcasters.spotify.com/pod/show/fronteirases/episodes/37-Medio-de-Software--com-Monalessa-Barcellos-UFES-e26un2n)
 
 
+### Spotify
+
+{% include spotify.html id="0bcKmkR0fBgogTESJdyhTL" %}
 
 ### Spotify para Podcasters
 
