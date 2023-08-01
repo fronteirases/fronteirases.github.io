@@ -19,7 +19,7 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 - [Episódio 32: Cognitive-Driven Development, com Gustavo Pinto (Zup Innovation e UFPA)](https://spotifyanchor-web.app.link/e/Hb1M8aytYxb)
 - [Episódio 31: UX design em startups de software, com Luciana Zaina (UFSCAR)](https://fronteirases.github.io/resumos/31_lucianazaina)
 - [Episódio 25: Estudos Secundários em Engenharia de Software, com Katia Felizardo (UTFPR)](https://podcasters.spotify.com/pod/show/fronteirases/episodes/25-Estudos-Secundrios-em-Engenharia-de-Software--com-Katia-Felizardo-UTFPR-e1k0fhg/a-a847bkg)
-
+- e muito mais...
 
 
 Escute todos os episódios em:
