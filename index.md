@@ -4,16 +4,22 @@ Fronteiras da Engenharia de Software é um podcast para refletir sobre o present
 
 Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Software? Será avisado(a) do lançamento de cada episódio e também de outras atividades em que estivermos envolvidos. Se sim, preencha seus dados [neste formulário](https://bit.ly/3N7brVL). 
 
+[🇺🇸 Our page in English / 🇧🇷 Nossa página em inglês](https://fronteirases.github.io/en)
+
+
 
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
 
+- [Episódio 37: Medição de Software, com Monalessa Barcellos (UFES)](episodios/paginas/37_monalessa)
+- [Episódio 36: Software Security with Laurie Williams (North Carolina State University)](episodios/paginas/36_laurie) - Our first episode in English!
+- [Episódio 35: Modernização de Software, com Wesley Klewerton](episodios/paginas/35_wesley)
 - [Episódio 34: Interação da pesquisa com a indústria, com Sérgio Soares (CIn UFPE)](https://open.spotify.com/episode/2LCEQisNwfZisXt12xtiNW)
 - [Episódio 33: Engenharia de Sistemas de Software Contemporâneos, com Guilherme Horta Travassos (COPPE/UFRJ)](https://spotifyanchor-web.app.link/e/fzfviGDKbyb)
 - [Episódio 32: Cognitive-Driven Development, com Gustavo Pinto (Zup Innovation e UFPA)](https://spotifyanchor-web.app.link/e/Hb1M8aytYxb)
 - [Episódio 31: UX design em startups de software, com Luciana Zaina (UFSCAR)](https://fronteirases.github.io/resumos/31_lucianazaina)
 - [Episódio 25: Estudos Secundários em Engenharia de Software, com Katia Felizardo (UTFPR)](https://podcasters.spotify.com/pod/show/fronteirases/episodes/25-Estudos-Secundrios-em-Engenharia-de-Software--com-Katia-Felizardo-UTFPR-e1k0fhg/a-a847bkg)
-
+- e muito mais...
 
 
 Escute todos os episódios em:
@@ -74,6 +80,8 @@ Anunciamos as nossas próximas lives em nossa conta no Twitter [https://twitter.
 - [Fronteiras da Engenharia de Software no Overcast](https://overcast.fm/itunes1517697751/fronteiras-da-engenharia-de-software)
 - [Fronteiras da Engenharia de Software no PocketCasts](https://pca.st/jcm70ijz)
 - [Fronteiras da Engenharia de Software no RadioPublic](https://radiopublic.com/fronteiras-da-engenharia-de-softw-WlZPrX)
+- [Fronteiras da Engenharia de Software no Deezer](https://www.deezer.com/br/show/1356352)
+- [Fronteiras da Engenharia de Software no Resso](https://www.resso.com/) - procure por Fronteiras da Engenharia de Software
 - [RSS do Fronteiras da Engenharia de Software - aqui você encontra link para os arquivos .mp3](https://anchor.fm/s/248c0568/podcast/rss)
 
 

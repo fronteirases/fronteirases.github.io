@@ -1,4 +1,11 @@
-theme: jekyll-theme-leap-day
+#theme:  jekyll-theme-leap-day  # tentei minimal mas não deu certo
+
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+logo: /logo.png
+title: Fronteiras da Engenharia de Software
+description: um podcast de divulgação científica
 
 twitter_username: fronteirases # DO NOT include the @ character, or else the build will fail!
 github_username:  fronteirases # DO NOT include the @ character, or else the build will fail!
@@ -9,3 +16,5 @@ relative_links:
   collections: true
 include:
   - index.md
+
+
