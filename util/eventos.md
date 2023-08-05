@@ -20,4 +20,4 @@
 
 ## 2026
 
-- [ICSE 2026: Apr 2026, Rio de Janeiro, Brazil](http://www.icse-conferences.org/index.html)
+- [ICSE 2026:, Rio de Janeiro, RJ](http://www.icse-conferences.org/index.html) - [10 a 19 de abril](https://twitter.com/FronteirasES/status/1628728478966095873?s=20)
