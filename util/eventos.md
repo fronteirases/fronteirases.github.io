@@ -12,4 +12,5 @@
 ## 2024
 
 - [CIbSE Conferencia Iberoamericana de Software Engineering](http://www.wikicfp.com/cfp/program?id=447) - Curitiba, 6-10 May 2024
-- CBSOFT 2024, Curitiba
+- [ESEC/FSE 2024, Porto de Galinhas, PE, 2024](https://www.esec-fse.org/upcoming_events)
+- CBSOFT 2024, Curitiba,PR
