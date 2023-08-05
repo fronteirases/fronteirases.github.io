@@ -7,3 +7,8 @@
 - [Congresso Brasileiro de Software: Teoria e Prática (CBSoft)de 25 a 29 de setembro em Campo Grande, Mato Grosso do Sul](https://cbsoft2023.ufms.br/)
 
 - [Simpósio Brasileiro de Qualidade de Software (SBQS), 7 a 10 de novembro em Brasília-DF](http://sbqs.sbc.org.br/2023/index.php/pt/)
+
+
+## 2024
+
+- [CIbSE Conferencia Iberoamericana de Software Engineering](http://www.wikicfp.com/cfp/program?id=447) - Curitiba, 6-10 May 2024
