@@ -2,11 +2,11 @@
 
 ## 2023
 
-- [WER, 15 a 17/08, Porto Alegre-RS](https://organizacaower.github.io/wer2023/)
+- [WER](https://organizacaower.github.io/wer2023/) - 15 a 17/08, Porto Alegre-RS
 
-- [Congresso Brasileiro de Software: Teoria e Prática (CBSoft), de 25 a 29 de setembro em Campo Grande, Mato Grosso do Sul](https://cbsoft2023.ufms.br/)
+- [Congresso Brasileiro de Software: Teoria e Prática (CBSoft)](https://cbsoft2023.ufms.br/) - de 25 a 29 de setembro em Campo Grande, Mato Grosso do Sul
 
-- [Simpósio Brasileiro de Qualidade de Software (SBQS), 7 a 10 de novembro em Brasília-DF](http://sbqs.sbc.org.br/2023/index.php/pt/)
+- [Simpósio Brasileiro de Qualidade de Software (SBQS)](http://sbqs.sbc.org.br/2023/index.php/pt/) - de 7 a 10 de novembro em Brasília-DF
 
 
 ## 2024
