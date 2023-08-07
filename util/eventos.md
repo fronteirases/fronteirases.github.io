@@ -4,7 +4,7 @@
 
 - [Workshop sobre Aspectos Sociais, Humanos e Econômicos de Software](https://sol.sbc.org.br/index.php/washes/issue/view/1116), agosto de 2023, João Pessoa-PB
 
-- [WER](https://organizacaower.github.io/wer2023/) - 15 a 17/08, Porto Alegre-RS
+- [Workshop de Engenharia de Requisitos (WER)](https://organizacaower.github.io/wer2023/) - 15 a 17/08, Porto Alegre-RS
 
 - [Congresso Brasileiro de Software: Teoria e Prática (CBSoft)](https://cbsoft2023.ufms.br/) - de 25 a 29 de setembro em Campo Grande, Mato Grosso do Sul
 
