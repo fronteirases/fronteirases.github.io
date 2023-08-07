@@ -1,4 +1,4 @@
-# Eventos em Engenharia de Software no Brasil
+# Eventos acadêmicos em Engenharia de Software no Brasil
 
 ## 2023
 
@@ -7,6 +7,8 @@
 - [Congresso Brasileiro de Software: Teoria e Prática (CBSoft)](https://cbsoft2023.ufms.br/) - de 25 a 29 de setembro em Campo Grande, Mato Grosso do Sul
 
 - [Simpósio Brasileiro de Qualidade de Software (SBQS)](http://sbqs.sbc.org.br/2023/index.php/pt/) - de 7 a 10 de novembro em Brasília-DF
+
+- [Escola Regional de Engenharia de Software (ERES)](https://eres-sbc-br.github.io/eres2023/) - de 6 a 8 de dezembro em Maringá-PR
 
 
 ## 2024
