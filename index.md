@@ -6,10 +6,17 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 [🇺🇸 Our page in English / 🇧🇷 Nossa página em inglês](https://fronteirases.github.io/en)
 
-
-
-
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
+
+## Novidades
+
+- [CBSOFT 2023](https://cbsoft2023.ufms.br/cbsoft)
+- [Elixir Fortaleza](https://elixiremfoco.github.io/elixirfortaleza/)
+- [SBQS 2023](http://sbqs.sbc.org.br/2023/)
+- [FSE 204 em Porto de Galinhas]([FSE 2024 in Porto de Galinhas, Brazil!](https://adolfon.substack.com/p/fse-2024-in-porto-de-galinhas-brazil)
+
+## Episódios
+
 
 - [Episódio 37: Medição de Software, com Monalessa Barcellos (UFES)](episodios/paginas/37_monalessa)
 - [Episódio 36: Software Security with Laurie Williams (North Carolina State University)](episodios/paginas/36_laurie) - Our first episode in English!
