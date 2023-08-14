@@ -1,7 +1,17 @@
 # 38: Anotações de Código (e frameworks que as usam), com Eduardo Guerra
 
 
-Neste episódio do Fronteiras, entrevistamos Monalessa Barcellos, uma renomada pesquisadora e professora do Departamento de Informática da Universidade Federal do Espírito Santo (UFES). Monalessa é membro sênior do Núcleo de Estudos em Modelagem Conceitual e Ontologias (NEMO) e co-coordenadora do Laboratório de Práticas de Engenharia de Software "Ricardo de Almeida Falbo" (LabES). Além disso, ela é uma das autoras do livro "Medição de Software e Controle Estatístico de Processos".
+Neste episódio, Adolfo Neto e Maria Claudia Emer, professores da UTFPR Curitiba, entrevistam Eduardo Guerra, pesquisador da Universidade Livre de Bozen-Bolzano, sobre anotações de código e frameworks baseados em metadados.
+
+Adolfo e Maria Claudia iniciam a conversa com a definição de anotações de código e sua utilização em frameworks. Eduardo explora desafios na construção desses frameworks.
+
+Os resultados da pesquisa de Eduardo são discutidos, incluindo métricas de abuso de anotações e ferramentas de visualização. A validação de anotações em software orientado a objetos é comparada à validação tradicional.
+
+A trajetória de Eduardo, desde a revista MundoJ até seu envolvimento com o mercado, é abordada. Ele compartilha motivos para sua mudança do INPE para a Universidade Livre de Bozen-Bolzano.
+
+O episódio encerra com uma visão das próximas fronteiras da Engenharia de Software, incluindo arquitetura evolutiva e a integração de IA no desenvolvimento.
+
+Este episódio fornece insights profundos sobre anotações de código e frameworks, revelando seu impacto crucial na Engenharia de Software.
 
 
 ## Vídeo no YouTube
