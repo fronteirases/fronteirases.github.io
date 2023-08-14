@@ -1,6 +1,6 @@
 ## Links
 
-Padrões e Práticas  
+### Padrões e Práticas  
   
 Guerra, E., Alves, F., Kulesza, U., & Fernandes, C. (2013). A reference architecture for organizing the internal structure of metadata-based frameworks.e of metadata-based frameworks. Journal of Systems and Software, 86(5), 1239-1256.
 
@@ -14,7 +14,7 @@ Guerra, E., Fernandes, C., & Silveira, F. F. (2010, October). Architectural patt
 
 [https://dl.acm.org/doi/abs/10.1145/2493288.2493292](https://www.google.com/url?q=https://dl.acm.org/doi/abs/10.1145/2493288.2493292&sa=D&source=editors&ust=1692051845452543&usg=AOvVaw0J3C_ySheJHkdP5J-Xkw1v) 
 
-Soluções Específicas (trabalhos sobre frameworks específicos)
+### Soluções Específicas (trabalhos sobre frameworks específicos)
 
 (Access Control) Silva, J. O., Guerra, E. M., & Fernandes, C. T. (2013). An extensible and decoupled architectural model for authorization frameworks. In Computational Science and Its Applications–ICCSA 2013: 13th International Conference, Ho Chi Minh City, Vietnam, June 24-27, 2013, Proceedings, Part IV 13 (pp. 614-628). Springer Berlin Heidelberg.
 
@@ -30,7 +30,7 @@ Soluções Específicas (trabalhos sobre frameworks específicos)
 (Continuus experimentation - A/B testing) De Souza, W. S., Pereira, F. O., Albuquerque, V. G., Melegati, J., & Guerra, E. (2022, June). A Framework Model to Support A/B Tests at the Class and Component Level. In 2022 IEEE 46th Annual Computers, Software, and Applications Conference (COMPSAC) (pp. 860-865). IEEE.  
 [https://ieeexplore.ieee.org/abstract/document/9842657](https://www.google.com/url?q=https://ieeexplore.ieee.org/abstract/document/9842657&sa=D&source=editors&ust=1692051845456376&usg=AOvVaw23_OR6kXX_wM6XkQteqUmJ) 
 
-Metricas e Visualização  
+### Metricas e Visualização  
   
 Lima, P., Guerra, E., Meirelles, P., Kanashiro, L., Silva, H., & Silveira, F. F. (2018). A metrics suite for code annotation assessment. Journal of Systems and Software, 137, 163-18
 
@@ -45,7 +45,7 @@ Guerra, E., Gomes, E., Ferreira, J., Wiese, I., Lima, P., Gerosa, M., & Meirelle
 
 [https://www.researchsquare.com/article/rs-2256326/v1](https://www.google.com/url?q=https://www.researchsquare.com/article/rs-2256326/v1&sa=D&source=editors&ust=1692051845458906&usg=AOvVaw0yWKill2zXmRRIBG0jPvfB)   
 
-Esfinge Metadata - Proposal of new API for consume annotations
+### Esfinge Metadata - Proposal of new API for consume annotations
 
 de Siqueira, J. L., Silveira, F. F., & Guerra, E. M. (2016). An approach for code annotation validation with metadata location transparency. In Computational Science and Its Applications--ICCSA 2016: 16th International Conference, Beijing, China, July 4-7, 2016, Proceedings, Part IV 16 (pp. 422-438). Springer International Publishing.
 
