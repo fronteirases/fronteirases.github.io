@@ -70,3 +70,123 @@ Guerra, E., Lima, P., Choma, J., Nardes, M., Silva, T., Lanza, M., & Meirelles, 
 
 Unpublished: Gomes, E., Guerra, E., Lima, P., & Meirelles, P. (2023). An Approach Based on Metadata to Implement Convention over Configuration Decoupled from Framework Logic.
 [https://www.authorea.com/doi/full/10.22541/au.168067455.55373151](https://www.google.com/url?q=https://www.authorea.com/doi/full/10.22541/au.168067455.55373151&sa=D&source=editors&ust=1692051845461964&usg=AOvVaw0ir5qCblYQzVJy0EcXhHzI)
+
+
+## Roteiro
+
+### PARTE 1 - APRESENTAÇÃO DOS HOSTS E DA  PESSOA ENTREVISTADA
+
+
+(ADOLFO)
+Olá,
+eu sou Adolfo Neto,
+professor da UTFPR Curitiba e do Programa de Pós-Graduação em Computação Aplicada (PPGCA).
+Estou aqui com a co-host do Fronteiras, Maria Claudia Emer, também da UTFPR Curitiba e do PPGCA.
+Tudo bem, Maria Claudia?
+
+(MARIA CLAUDIA) Tudo bem. Preparada para mais uma conversa sobre um tema importante da Engenharia de Software com o nosso entrevistado.
+
+(ADOLFO)
+Hoje vamos entrevistar 
+Eduardo Guerra
+Ele é pesquisador na Universidade Livre de Bozen-Bolzano, onde ministra aulas de Técnicas Avançadas de Design de Software e Arquitetura de Sistemas de Software. Além disso, faz pesquisa nos seguintes temas:
+
+Métodos Ágeis,
+Desenvolvimento de Frameworks,
+Padrões de Software,
+Arquiteturas Dinâmicas e
+Software Startups.
+
+O tema principal desta entrevista é 
+Anotações de código (e frameworks que as usam).
+
+Tudo bem, Eduardo, você tem algo a complementar nesta sua apresentação?
+
+(EDUARDO)
+
+
+### PARTE 2 - CONCEITOS BÁSICOS
+
+(ADOLFO) Vamos começar falando sobre o tema principal de nossa entrevista: o que são anotações de código? 
+
+
+(EDUARDO)
+
+
+(MARIA CLAUDIA) E o que são e para que são usados os frameworks baseados em metadados?
+
+(EDUARDO)
+
+(ADOLFO) Quais são alguns dos problemas encontrados na construção de frameworks baseados em metadados?
+
+(EDUARDO)
+
+
+### PARTE 3 - PESQUISA
+
+(ADOLFO) Ao longo do tempo, você publicou alguns artigos relacionados ao tema de  frameworks baseados em metadados. Vamos deixar o link de três deles na descrição do episódio. Quais foram os principais resultados destes trabalhos?
+
+(EDUARDO) (a) suíte de métricas e abusos das anotações; (b) ferramenta de visualização e conexão das anotações com arquitetura; (c) 
+
+(MARIA CLAUDIA) Existe uma forma de garantir que as anotações sejam colocadas apenas em elementos válidos? E como testar se as anotações geraram o comportamento esperado?
+ Como a validação das anotações de código em software orientado a objetos com transparência de localização difere da validação tradicional?
+(EDUARDO)
+
+(ADOLFO) O que é o projeto Esfinge?
+
+
+(EDUARDO)
+
+(ADOLFO) Quais são as vantagens e diferenças de usar a API Esfinge Metadata em comparação com a API Java Reflection para consumir e processar anotações no desenvolvimento de frameworks baseados em metadados e aplicações baseadas em anotações personalizadas?
+
+(EDUARDO)
+
+(MARIA CLAUDIA)  Você também tem trabalhado com a visualização da distribuição das anotações de código (por exemplo, na ferramenta Annotation Visualizer). Como esta visualização pode ajudar as pessoas desenvolvedoras?
+
+(EDUARDO)
+
+
+(ADOLFO) E você e alguns coautores (entre eles, Igor Wiese, que foi entrevistado por nós aqui) têm um preprint  sobre “Como as anotações afetam a legibilidade do código Java?”. Como foi feito este trabalho e quais são os resultados até agora? 
+
+(EDUARDO)
+
+
+### PARTE 4  - OUTROS TEMAS
+
+
+(ADOLFO)  Agora vou listar algumas de suas atividades ao longo da sua carreira:
+Você foi editor-chefe, por mais de 7 anos,  da revista MundoJ, uma revista da comunidade da linguagem Java. 
+Você foi professor do Instituto Tecnológico de Aeronáutica (ITA) por 6 anos, sendo um dos responsáveis por diversos cursos na plataforma Coursera. Achamos 5 cursos seus lá, sobre temas como TDD, Padrões e Agilidade. 
+Você escreveu ou co-escreveu 2 livros voltados para um público de pessoas desenvolvedoras.
+E você tem um canal no YouTube com vídeos de palestras sobre seus artigos e tutoriais, entre outros vídeos, além de participar de podcasts (como sua entrevista para o podcast HiDev, do Bruno Cartaxo).
+Entre outras coisas…
+Qual é sua motivação para esta aproximação com o mercado?
+
+
+(EDUARDO)
+
+
+(MARIA CLAUDIA)  
+Você trabalhou de 2013 a 2020 no INPE, Instituto Nacional de Pesquisas Espaciais, como pesquisador. Desde 2020 você está como pesquisador na Universidade Livre de Bozen-Bolzano, na Itália. Você pode nos contar um pouco sobre as motivações desta mudança?
+
+
+(EDUARDO)
+
+
+### PARTE 5  - PRÓXIMA FRONTEIRA
+
+(ADOLFO) Para você, qual é a próxima fronteira da engenharia de software? (pode ser algo que você acha que vai acontecer ou que você gostaria que acontecesse em nossa área)
+
+(EDUARDO) (a) Uma técnica efetiva para arquitetura de software evolutiva; (b) Integração efetiva de ferramentas baseadas em IA nos times.
+
+
+### PARTE 6  - FINAL
+
+(ADOLFO) Agradece e passa para o(a) entrevistado(a). 
+
+(EDUARDO)
+
+(MARIA) Fecha o episódio com algo como “Agradecemos a todos os nossos e nossas ouvintes, e até o próximo episódio do Fronteiras da Engenharia de Software” 
+
+(EDUARDO)
+
