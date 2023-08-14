@@ -1,4 +1,4 @@
-# 38: Anotações de Código (e frameworks que as usam), com Eduardo Guerra
+# 38: Anotações de Código (e frameworks que as usam), com Eduardo Guerra (UniBZ)
 
 Neste episódio, Adolfo Neto e Maria Claudia Emer, professores da UTFPR Curitiba, entrevistam Eduardo Guerra, pesquisador da Universidade Livre de Bozen-Bolzano, sobre anotações de código e frameworks baseados em metadados. A discussão abrange conceitos fundamentais, desafios na construção de frameworks, resultados de pesquisas anteriores de Eduardo, validação de anotações em software orientado a objetos e comparações com a validação tradicional. A trajetória profissional de Eduardo, incluindo sua mudança do INPE para a Universidade Livre de Bozen-Bolzano, é explorada, assim como suas atividades no mercado. O episódio termina com uma visão das próximas fronteiras da Engenharia de Software, abordando arquitetura evolutiva e integração de IA no desenvolvimento.
 
@@ -6,13 +6,13 @@ Neste episódio, Adolfo Neto e Maria Claudia Emer, professores da UTFPR Curitiba
 
 ## Vídeo no YouTube
 
-{% include youtube.html id="ry3ahtlH_QY" %}
+{% include youtube.html id="KGM84Ek5Koc" %}
 
 ## Podcast episode
 
 ### Todas as plataformas
 
-[Medição de Software, com Monalessa Barcellos (UFES)](https://podcasters.spotify.com/pod/show/fronteirases/episodes/37-Medio-de-Software--com-Monalessa-Barcellos-UFES-e26un2n)
+[Anotações de Código (e frameworks que as usam), com Eduardo Guerra (UniBZ)](https://podcasters.spotify.com/pod/show/fronteirases/episodes/38-Anotaes-de-Cdigo-e-frameworks-que-as-usam--com-Eduardo-Guerra-UniBZ-e283tr2)
 
 
 ### Spotify
