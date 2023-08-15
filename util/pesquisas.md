@@ -32,13 +32,8 @@ Caso tenha alguma dúvida ou precise de mais informações, estou à disposiçã
 
 Desde já, agradeço sua atenção e colaboração.
 
--------------------
 Prof. Dr. Fabio Gomes Rocha
---------------------------------------------------
 Head of Software Architecture, DevOps and Machine Learning - SafeLabs (ISH)
 Permanent Professor of the Master's Degree in Computer Science (PROCC/UFS)
 Certification of Scrum Master/Scrum Master Professional/ Scrum Developer - Scrum Alliance
 SafeLabs | PROCC/UFS
---------------------------------------------------
-Author Profile & Networks at ORCID 
-https://orcid.org/0000-0002-0512-5406
