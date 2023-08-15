@@ -4,6 +4,14 @@ Abaixo deixamos chamadas para participação em pesquisas. Em alguns casos, a pe
 
 ## Agosto de 2023
 
+## Pesquisa sobre a experiência dos profissionais de engenharia de software e seus níveis de saúde mental
+
+"Este questionário tem como objetivo coletar dados sobre a experiência dos profissionais de engenharia de software e seus níveis de saúde mental. As suas respostas serão usadas para entender os desafios enfrentados por esses profissionais e identificar maneiras de melhorar o ambiente de trabalho. Por favor, lembre-se de responder as perguntas com sinceridade e com base em sua própria experiência. Todas as informações fornecidas serão usadas exclusivamente para fins desta pesquisa e não serão compartilhadas com terceiros. Caso você tenha alguma dúvida ou precise de mais informações, sinta-se à vontade para entrar em contato com o pesquisador responsável pelo e-mail memgra AT cin.ufpe.br.
+
+Esta pesquisa está sendo feita sob orientação do Prof. Kiev Gama (CIn/UFPE) e da Profa. Aline Lacerda (CFCH/UFPE)"
+
+Link: [https://forms.gle/U5riNCH8VQ7yGJB87](https://bit.ly/3YzLTnW).
+
 ## Comunicação entre profissionais de UX e outras áreas da tecnologia
 
 Pesquisa sobre desafios e boas práticas relacionadas a  como os profissionais de UX (User eXperience) e de outras áreas da tecnologia se comunicam e colaboram em projetos de TI (Tecnologia de Informação).
