@@ -24,5 +24,6 @@ Para participar, basta clicar no link a seguir para acessar ao questionário: Ve
 
 Versão em inglês: [https://forms.gle/rHMqgKoaLBigRU5U8](https://forms.gle/rHMqgKoaLBigRU5U8).
 
+Dúvidas: Fabio Gomes Rocha gomesrocha AT gmail.com.
 
 
