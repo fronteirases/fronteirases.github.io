@@ -13,7 +13,7 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 - [CBSOFT 2023](https://cbsoft2023.ufms.br/cbsoft)
 - [Elixir Fortaleza](https://elixiremfoco.github.io/elixirfortaleza/)
 - [SBQS 2023](http://sbqs.sbc.org.br/2023/)
-- [FSE 204 em Porto de Galinhas]([FSE 2024 in Porto de Galinhas, Brazil!](https://adolfon.substack.com/p/fse-2024-in-porto-de-galinhas-brazil)
+- [FSE 204 em Porto de Galinhas](https://adolfon.substack.com/p/fse-2024-in-porto-de-galinhas-brazil)
 
 ## Episódios
 
