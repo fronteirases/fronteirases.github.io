@@ -31,7 +31,7 @@ O tempo estimado para responder este questionário é de, aproximadamente, 8 min
 
 Desde já, agradecemos a sua participação
 
-Link do formulário: [https://forms.gle/h3KW5HoWbmPmrMEy8](https://forms.gle/h3KW5HoWbmPmrMEy8)
+Link do formulário: [https://forms.gle/h3KW5HoWbmPmrMEy8](https://bit.ly/3OXeC2Q)
 
 
 Ana Cláudia de Lima - Product Designer (Grupo Boticário) - Graduanda em Sistemas de Informação (CIn/UFPE) - acl5 AT cin.ufpe.br
@@ -53,7 +53,7 @@ A avaliação consistirá em responder a um questionário composto de 12 pergunt
 As informações coletadas serão estritamente confidenciais e utilizadas apenas para fins acadêmicos. Sua participação é extremamente valiosa e contribuirá significativamente para a pesquisa.
 
 
-Para participar, basta clicar no link a seguir para acessar ao questionário: Versão em português: [https://forms.gle/JKt4YNXw9xgxRsDH7](https://forms.gle/JKt4YNXw9xgxRsDH7). 
+Para participar, basta clicar no link a seguir para acessar ao questionário: Versão em português: [https://forms.gle/JKt4YNXw9xgxRsDH7](https://bit.ly/3QBgvnf). 
 
 Versão em inglês: [https://forms.gle/rHMqgKoaLBigRU5U8](https://forms.gle/rHMqgKoaLBigRU5U8).
 
