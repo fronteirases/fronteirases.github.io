@@ -2,6 +2,8 @@
 
 Abaixo deixamos chamadas para participação em pesquisas. Em alguns casos, a pesquisa pode já ter encerrado.
 
+Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](https://github.com/fronteirases/fronteirases.github.io/)_.
+
 ## Agosto de 2023
 
 ### Survey Sobre Disciplinas de Engenharia de Software
