@@ -7,8 +7,6 @@ Abaixo deixamos chamadas para participação em pesquisas. Em alguns casos, a pe
 
 ### Análise de aspectos relacionados ao Behavior-Driven Development (BDD)
 
-Saudações,
-
 
 Eu sou Shexmo Richarlison Ribeiro, estudante de mestrado no PROCC/UFS, orientado pela Prof. Fabio Gomes Rocha, e estou conduzindo esta pesquisa como parte do meu projeto de mestrado na área de Engenharia de Software.
 
@@ -27,13 +25,4 @@ Para participar, basta clicar no link a seguir para acessar ao questionário: Ve
 Versão em inglês: [https://forms.gle/rHMqgKoaLBigRU5U8](https://forms.gle/rHMqgKoaLBigRU5U8).
 
 
-Caso tenha alguma dúvida ou precise de mais informações, estou à disposição para ajudar.
 
-
-Desde já, agradeço sua atenção e colaboração.
-
-Prof. Dr. Fabio Gomes Rocha
-Head of Software Architecture, DevOps and Machine Learning - SafeLabs (ISH)
-Permanent Professor of the Master's Degree in Computer Science (PROCC/UFS)
-Certification of Scrum Master/Scrum Master Professional/ Scrum Developer - Scrum Alliance
-SafeLabs | PROCC/UFS
