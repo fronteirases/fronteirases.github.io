@@ -14,6 +14,8 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 - [Elixir Fortaleza](https://elixiremfoco.github.io/elixirfortaleza/)
 - [SBQS 2023](http://sbqs.sbc.org.br/2023/)
 - [FSE 204 em Porto de Galinhas](https://adolfon.substack.com/p/fse-2024-in-porto-de-galinhas-brazil)
+- [Ajude a Pesquisa Brasileira, repsondendo a questionários ou participando de entrevistas](https://fronteirases.github.io/util/pesquisas)
+
 
 ## Episódios
 
