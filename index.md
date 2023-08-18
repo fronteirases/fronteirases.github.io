@@ -40,6 +40,7 @@ Escute todos os episódios em:
 - Apple Podcasts: [Fronteiras da Engenharia de Software na Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
 - Google Podcasts: [Fronteiras da Engenharia de Software no Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yNDhjMDU2OC9wb2RjYXN0L3Jzcw==)
 - Amazon Music: [Fronteiras da Engenharia de Software na Amazon Music](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
+- Headliner: [Fronteiras da Engenharia de Software no Headliner](https://play.headliner.app/podcast/23829)
 
 <img src="logo.png" width="150"/> 
 
