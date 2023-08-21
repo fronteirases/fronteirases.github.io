@@ -12,7 +12,7 @@ Olá pessoal, me chamo Simone, e sou aluna de doutorado na Universidade Estadual
 
 Link formulário: [https://forms.gle/isBJTtKW3tjLmTCY7](https://bit.ly/3qCs7vp)
 
-### Pesquisa sobre a experiência dos profissionais de engenharia de software e seus níveis de saúde mental
+### (ENCERRADA) Pesquisa sobre a experiência dos profissionais de engenharia de software e seus níveis de saúde mental
 
 "Este questionário tem como objetivo coletar dados sobre a experiência dos profissionais de engenharia de software e seus níveis de saúde mental. As suas respostas serão usadas para entender os desafios enfrentados por esses profissionais e identificar maneiras de melhorar o ambiente de trabalho. Por favor, lembre-se de responder as perguntas com sinceridade e com base em sua própria experiência. Todas as informações fornecidas serão usadas exclusivamente para fins desta pesquisa e não serão compartilhadas com terceiros. Caso você tenha alguma dúvida ou precise de mais informações, sinta-se à vontade para entrar em contato com o pesquisador responsável pelo e-mail memgra AT cin.ufpe.br.
 
