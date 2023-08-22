@@ -6,6 +6,24 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 
 ## Agosto de 2023
 
+
+### Engenharia de Requisitos em Projetos Ágeis
+
+Olá, 
+
+Você está sendo convidado para responder a Pesquisa de Opinião sobre a sua experiência em como a Engenharia de Requisitos vem sendo conduzida em projetos para o desenvolvimento de software e que adotam metodologias ágeis.
+A pesquisadora envolvida com esta pesquisa é a Mestranda Lucimara Pereira, do PPGCA - Programa de Pós-Graduação em Computação Aplicada da UTFPR -Universidade Tecnológica Federal do Paraná.
+
+Caso você queira participar da pesquisa, você deverá enviar um e-mail para pesquisadora (de forma individual) dizendo que aceita participar da pesquisa. 
+
+Para receber o link do questionário você poderá enviar um e-mail para a pesquisadora no endereço: lucimarapereira@alunos.utfpr.edu.br
+
+A pesquisadora então responderá ao e-mail (de forma individual) contendo o link do formulário online.
+
+Muito Obrigada pela atenção.
+
+Lucimara Pereira
+
 ### Survey Sobre Disciplinas de Engenharia de Software
 
 Olá pessoal, me chamo Simone, e sou aluna de doutorado na Universidade Estadual de Maringá (UEM), orientada pelo prof. Igor Steinmacher e profa. Thelma Colanzi. Estamos levantando informações sobre disciplinas da área de ES para condução de um estudo futuro. Caso você atue nessa área, ficaríamos gratos se pudesse responder o formulário abaixo, são poucos minutos, e contribuirá muito com minha pesquisa :)
