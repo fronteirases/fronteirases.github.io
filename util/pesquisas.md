@@ -12,11 +12,12 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 Olá, 
 
 Você está sendo convidado para responder a Pesquisa de Opinião sobre a sua experiência em como a Engenharia de Requisitos vem sendo conduzida em projetos para o desenvolvimento de software e que adotam metodologias ágeis.
+
 A pesquisadora envolvida com esta pesquisa é a Mestranda Lucimara Pereira, do PPGCA - Programa de Pós-Graduação em Computação Aplicada da UTFPR -Universidade Tecnológica Federal do Paraná.
 
 Caso você queira participar da pesquisa, você deverá enviar um e-mail para pesquisadora (de forma individual) dizendo que aceita participar da pesquisa. 
 
-Para receber o link do questionário você poderá enviar um e-mail para a pesquisadora no endereço: lucimarapereira@alunos.utfpr.edu.br
+Para receber o link do questionário você poderá enviar um e-mail para a pesquisadora no endereço: [(cliue aqui para ver o e-mail)](https://bit.ly/3qKK4rR). 
 
 A pesquisadora então responderá ao e-mail (de forma individual) contendo o link do formulário online.
 
