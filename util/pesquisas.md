@@ -6,6 +6,26 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 
 ## Agosto de 2023
 
+### Discussões de Requisitos Não Funcionais em Desenvolvimento de Software
+
+Prezado(a),
+Somos parte do grupo de pesquisa, OPUS, da PUC-Rio, liderada pelo professor Alessandro Garcia. Gostaríamos de o(a) convidar a compartilhar sua valiosa experiência como desenvolvedor(a) de software em nossa investigação sobre as Discussões de Requisitos Não Funcionais (RNFs) que ocorrem durante o processo de desenvolvimento.
+
+Sobre a Pesquisa:
+O objetivo da nossa pesquisa é compreender como os desenvolvedores identificam, discutem e abordam requisitos não funcionais (RNFs) durante o desenvolvimento de software. Suas respostas serão fundamentais para aprimorar a conscientização e as práticas relacionadas a RNFs, contribuindo para o desenvolvimento de ferramentas e diretrizes que beneficiem a comunidade de desenvolvedores. Seu conhecimento também nos ajudará a entender a importância das discussões de NFRs e seu impacto nos resultados dos projetos.
+
+Como participar:
+Para participar, solicitamos que reserve cerca de 12 minutos para preencher o questionário online. Suas respostas serão tratadas com confidencialidade e anonimato. Sua contribuição é voluntária e suas percepções são extremamente valiosas para nós.
+
+Link para o questionário em inglês: [https://forms.gle/AycrYAoSCAgaDZ1K6](https://forms.gle/AycrYAoSCAgaDZ1K6)
+Link para o questionário em português: [https://forms.gle/8vpEiRtbvH71WWqa9](https://forms.gle/8vpEiRtbvH71WWqa9)
+
+Gostaríamos de agradecer antecipadamente por considerar participar desta pesquisa. Suas respostas contribuirão para avanços significativos na área de desenvolvimento de software e beneficiarão outros profissionais como você.
+
+Pedimos gentilmente que você conclua a pesquisa até o dia 2 de Setembro para garantir que suas percepções enriqueçam nossa análise. Muito obrigado por sua atenção e colaboração.
+
+Atenciosamente,
+Anderson Oliveira
 
 ### Engenharia de Requisitos em Projetos Ágeis
 
