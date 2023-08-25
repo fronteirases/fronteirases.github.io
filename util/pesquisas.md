@@ -6,6 +6,46 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 
 ## Agosto de 2023
 
+
+### Pesquisa sobre as práticas da indústria em relação à especificação de casos de teste no desenvolvimento orientado por comportamento (Behavior Driven Development)
+
+
+
+Prezado participante,
+Através deste questionário, convidamos você a participar da pesquisa intitulada "Explorando as práticas da indústria em relação à especificação de casos de teste no desenvolvimento orientado por comportamento (Behavior Driven Development).”
+
+Esta pesquisa faz parte de um trabalho de doutorado do programa de pós-graduação do Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE).
+
+Este questionário tem a finalidade de coletar informações para investigar como a indústria de desenvolvimento de software vem realizando a especificação de casos de teste no contexto de projetos que adotam as práticas ágeis de BDD. 
+
+Gostaríamos de enfatizar que:
+
+1. Sua participação é totalmente voluntária e anônima.
+
+2. Nosso interesse é de investigar apenas a sua opinião profissional perante a área de estudo e o objeto desta pesquisa. 
+
+3. A qualquer momento durante o preenchimento do questionário você pode desistir de participar da pesquisa e retirar seu consentimento. 
+
+4. Os dados coletados neste questionário serão divulgados de forma a não possibilitar a identificação do seu respondente.
+
+Pesquisadores Responsáveis:
+
+- Maria Yêda de Melo Lima (Doutoranda do Programa de Pós-graduação em Ciência da Computação - CIn/UFPE) - myml@cin.ufpe.br
+
+- Profª Drª Carla Silva (CIn/UFPE) - ctlls@cin.ufpe.br
+
+- Profª Drª Renata Souza (CIn/UFPE) - rmcrs@cin.ufpe.br
+
+Caso necessário, fique à vontade para entrar em contato com os responsáveis mencionados acima.
+
+Este questionário é composto de 8 perguntas rápidas sobre seu perfil e experiência profissional e por mais 8 perguntas relacionadas com as práticas utilizadas na indústria de desenvolvimento de software e na especificação de casos de teste em projetos que adotam BDD. 
+
+O tempo estimado para responder este questionário é de, aproximadamente, 10 minutos. 
+
+Desde já, agradecemos a sua participação.
+
+Link: [https://www.cin.ufpe.br/~dare/limesurvey/index.php/10](https://bit.ly/3YOtvYw)
+
 ### Discussões de Requisitos Não Funcionais em Desenvolvimento de Software
 
 Prezado(a),
