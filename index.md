@@ -49,11 +49,11 @@ Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário]
 
 
 ## Nossa equipe:
-- [Fabio Petrillo (École de technologie supérieure - Montreal)](https://fabiopetrillo.com/)
+- [Adolfo Gustavo Serra Seca Neto (UTFPR) - coordenador, roteirista, editor e apresentador](https://adolfont.github.io/)
+- [Maria Claudia Emer (UTFPR)](https://scholar.google.com.br/citations?user=4i7kDeMAAAAJ&hl=pt-BR) - apresentadora
 - [Danilo Monteiro (Zup)](https://github.com/dan1lo)
 - [Leonardo Fernandes (IFAL)](https://sigaa.ifal.edu.br/sigaa/public/docente/portal.jsf?siape=1887897)
-- [Adolfo Gustavo Serra Seca Neto (UTFPR) - co-anfitrião](https://adolfont.github.io/)
-- [Maria Claudia Emer (UTFPR)](https://scholar.google.com.br/citations?user=4i7kDeMAAAAJ&hl=pt-BR) - co-anfitriã
+- [Fabio Petrillo (École de technologie supérieure - Montreal)](https://fabiopetrillo.com/)
 
 ### Voluntários
 
