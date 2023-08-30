@@ -6,6 +6,20 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 
 ## Agosto de 2023
 
+### Adaptação transcultural de uma escala que mede a experiência em plataformas lúdicas
+
+Olá! Meu orientando Luiz Junior, está desenvolvendo uma pesquisa visando a adaptação transcultural de uma escala que mede a experiência em plataformas lúdicas. Gostaria de convidar você a participar desse processo conosco.
+
+Para nos ajudar, é muito simples, basta usar a plataforma Duolingo por cerca de 20 minutos, experimentando as atividades oferecidas. Feito isso, clique no link do formulário a seguir e responda as questões, levando em conta a experiência que você acabou de ter ao usar o Duolingo.
+
+Ficarei muito agradecido se você puder nos ajudar, e acredito que você vai gastar poucos minutos do seu tempo.
+
+Desde já agradecemos!
+
+Link para preenchimento do formulário: [https://forms.gle/cHZhpWwruj93zFJm6](https://bit.ly/3QVntUd)
+
+Atenciosamente,
+Wilk Oliveira Dos Santos (TAU) 
 
 ### Pesquisa sobre as práticas da indústria em relação à especificação de casos de teste no desenvolvimento orientado por comportamento (Behavior Driven Development)
 
