@@ -13,8 +13,9 @@ Estamos realizando uma pesquisa sobre a percepção das profissionais de ICT mul
 
 Esta pesquisa é voltada para mulheres que estejam, ou já estiveram, inseridas no mercado de trabalho de ICT. A pesquisa é anônima e levará cerca de 5 minutos para ser concluída.
 
- Se você está interessada em participar, por favor, preencha o formulário abaixo.
-https://bit.ly/45PaA2d
+ Se você está interessada em participar, por favor, preencha o formulário abaixo:
+ 
+[https://bit.ly/45PaA2d](https://bit.ly/45PaA2d)
 
 
 ### Adaptação transcultural de uma escala que mede a experiência em plataformas lúdicas
