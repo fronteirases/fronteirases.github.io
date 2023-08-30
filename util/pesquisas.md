@@ -6,6 +6,17 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 
 ## Agosto de 2023
 
+
+### Percepção das profissionais de Tecnologia da Informação e Comunicação (ICT)
+
+Estamos realizando uma pesquisa sobre a percepção das profissionais de ICT mulheres em relação às suas expectativas no mercado de trabalho para o nosso Trabalho de Conclusão de Curso na Universidade de Brasília.
+
+Esta pesquisa é voltada para mulheres que estejam, ou já estiveram, inseridas no mercado de trabalho de ICT. A pesquisa é anônima e levará cerca de 5 minutos para ser concluída.
+
+ Se você está interessada em participar, por favor, preencha o formulário abaixo.
+https://bit.ly/45PaA2d
+
+
 ### Adaptação transcultural de uma escala que mede a experiência em plataformas lúdicas
 
 Olá! Meu orientando Luiz Junior, está desenvolvendo uma pesquisa visando a adaptação transcultural de uma escala que mede a experiência em plataformas lúdicas. Gostaria de convidar você a participar desse processo conosco.
