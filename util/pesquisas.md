@@ -7,21 +7,7 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 ## Agosto de 2023
 
 
-### Pesquisa sobre como estudantes vivenciam seu ambiente educacional em relação a equidade de gênero
 
-Prezadas/Prezados estudantes,
-
-Gostaríamos de fazer uma pesquisa anual com todo o corpo discente, de graduação e pós-graduação, do CIn para entender como os estudantes vivenciam seu ambiente educacional, quais melhorias podem ser necessárias para garantir a igualdade de oportunidades e avaliar o impacto das iniciativas implementadas neste centro. 
-
-Esta pesquisa é completamente anônima e o link do questionário é: [https://forms.gle/fXZQYam1YsWMrAyP6](https://bit.ly/44Cz4ul)
-
-O CIn usará as respostas deste questionário para realizar melhorias nas suas ações e políticas internas. Este questionário é uma tradução adaptada do questionário utilizado na Universidade de Essex no Reino Unido, instituição participante do projeto “Women in Science: UK-Brazil Gender Equality Partnerships Call 2022”, promovido pelo British Council para promover equidade de gênero em Instituições de Ensino Superior, projeto do qual o CIn faz parte.
-
-Obrigada por dedicar seu tempo para preencher a pesquisa. Se você tiver alguma dúvida, envie um e-mail para Carla Silva (ctlls@cin.ufpe.br)
-
-Atenciosamente,
-
-Carla
 
 
 ### Percepção das profissionais de Tecnologia da Informação e Comunicação (ICT)
