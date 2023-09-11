@@ -102,8 +102,7 @@ Os autores interessados em submeter artigos de periódicos para o CIbSE 2024 dev
   
 **_\*\*\*Simpósio de Doutorado\*\*\*_**
 
-**_\=======================  
-_**O Simpósio de Doutorado tem como objetivo divulgar pesquisas em andamento de pesquisadores juniores, onde um painel de especialistas discutirá com pesquisadores para sugerir novas perspectivas e melhorias para teses de doutorado.  
+O Simpósio de Doutorado tem como objetivo divulgar pesquisas em andamento de pesquisadores juniores, onde um painel de especialistas discutirá com pesquisadores para sugerir novas perspectivas e melhorias para teses de doutorado.  
   
 A investigação submetida pode abordar qualquer um dos temas de interesse do CIbSE 2024. Recomendamos, mas não exigimos, que a investigação se encontre numa fase intermédia (~2º ano) para que sugestões de especialistas possam ser incluídas na tese de doutoramento.  
   
