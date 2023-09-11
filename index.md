@@ -59,7 +59,7 @@ Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário]
 - [Danilo Monteiro (Zup)](https://github.com/dan1lo)
 - [Leonardo Fernandes (IFAL)](https://sigaa.ifal.edu.br/sigaa/public/docente/portal.jsf?siape=1887897)
 - [Italo Santos (Northern Arizona University, USA)](https://sites.google.com/view/italo-santos/home)
-- Odwald Schreder (PPGCA)
+- [Odwald Schreder (PPGCA)](https://www.linkedin.com/in/odwald-schreder-11a43b24)
 
 ### Consultor
 
