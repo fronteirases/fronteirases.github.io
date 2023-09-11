@@ -89,10 +89,9 @@ Os trabalhos que não estejam no âmbito do congresso, que não sigam as diretri
 
   
   
-**_\*\*\*Journal First\*\*\*_**
+### Journal First
 
-**_\==============  
-_**Autores de artigos sobre os temas de interesse da conferência e aceitos nas revistas JCR Q1 ou Q2 são convidados a apresentar seus trabalhos de pesquisa no CIbSE. Isto proporciona uma oportunidade para os autores discutirem o seu trabalho com a comunidade, bem como para enriquecer o programa técnico do CIbSE. As apresentações destes artigos serão incluídas no programa CIbSE 2024.  
+Autores de artigos sobre os temas de interesse da conferência e aceitos nas revistas JCR Q1 ou Q2 são convidados a apresentar seus trabalhos de pesquisa no CIbSE. Isto proporciona uma oportunidade para os autores discutirem o seu trabalho com a comunidade, bem como para enriquecer o programa técnico do CIbSE. As apresentações destes artigos serão incluídas no programa CIbSE 2024.  
   
 O principal critério de avaliação para seleção de artigos é a descrição de resultados originais que não sejam extensões de trabalhos de conferências anteriores. Além disso, o artigo deve ter sido aceito para publicação na revista durante 2022, e não deve ter sido apresentado em nenhuma outra conferência como primeira contribuição da revista.  
   
@@ -100,7 +99,7 @@ Pelo menos um autor de cada artigo selecionado deverá inscrever-se antes da dat
   
 Os autores interessados em submeter artigos de periódicos para o CIbSE 2024 deverão submeter suas propostas de no máximo uma página, em formato PDF via EasyChair. Deverão ser fornecidas as seguintes informações: (i) título do artigo; (ii) lista de autores; (iii) filiação; (iv) palavras-chave; (v) periódico e informações sobre seu fator de impacto, ranking e quartil (Q1 ou Q2); (vi) DOI; e (vii) resumo. Os artigos deverão ser escritos em inglês, português ou espanhol.  
   
-**_\*\*\*Simpósio de Doutorado\*\*\*_**
+### Simpósio de Doutorado
 
 O Simpósio de Doutorado tem como objetivo divulgar pesquisas em andamento de pesquisadores juniores, onde um painel de especialistas discutirá com pesquisadores para sugerir novas perspectivas e melhorias para teses de doutorado.  
   
@@ -121,8 +120,9 @@ Os trabalhos para o Simpósio de Doutorado serão redigidos exclusivamente por d
   
 Os trabalhos aceitos serão incluídos nos anais do congresso. Os autores dos trabalhos aceitos deverão se inscrever antes do prazo final para a versão final. Os trabalhos poderão ser apresentados presencialmente ou online (híbrido), sendo esta última opção recomendada. Por fim, o melhor trabalho receberá um certificado de reconhecimento.  
   
-**_EIBAIS  
-\======_**  
+### EIBAIS  
+
+ 
 A Escola Avançada Ibero-Americana de Engenharia de Software (EIbAIS) representa a iniciativa do CIbSE para difundir o conhecimento da Engenharia de Software na Ibero-América.  
   
 O EIbAIS tem como objetivo promover um fórum de discussão sobre Engenharia de Software e suas tecnologias e fundamentos teóricos relacionados, por meio da participação de profissionais, estudantes de graduação e pós-graduação e pesquisadores. Os tutoriais são ministrados por voluntários empenhados em contribuir com a comunidade CIbSE e em difundir o conhecimento da Engenharia de Software na Ibero-América.  
@@ -135,9 +135,9 @@ As sessões de última geração oferecem discussão sobre tópicos de interesse
   
 Todos os participantes nas sessões receberão um certificado de participação, com indicação das sessões, docentes e conteúdos.  
   
-_**Industry Talks  
-\==============**  
-_Industry Talks visam fornecer aos profissionais um meio para apresentar e discutir seu trabalho atual em relação às aplicações reais de Engenharia de Software. Palestras explorando melhores práticas, problemas e soluções, desafios emergentes na indústria e outros tópicos relacionados à Engenharia de Software são bem-vindos. Profissionais e pesquisadores são convidados a trabalhar juntos para explorar como os processos, métodos, técnicas e ferramentas de Engenharia de Software podem fornecer melhores soluções à indústria.  
+### Industry Talks  
+
+Industry Talks visam fornecer aos profissionais um meio para apresentar e discutir seu trabalho atual em relação às aplicações reais de Engenharia de Software. Palestras explorando melhores práticas, problemas e soluções, desafios emergentes na indústria e outros tópicos relacionados à Engenharia de Software são bem-vindos. Profissionais e pesquisadores são convidados a trabalhar juntos para explorar como os processos, métodos, técnicas e ferramentas de Engenharia de Software podem fornecer melhores soluções à indústria.  
   
   
 **COMITÊ DE ORGANIZAÇÃO GERAL  
