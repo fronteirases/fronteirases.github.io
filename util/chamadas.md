@@ -81,7 +81,7 @@ Os artigos sobre ideias emergentes serão avaliados principalmente pelo seu nív
   
 **Submissão  
 \=========  
-**Todos os trabalhos deverão ser submetidos através do EasyChair, somente em formato PDF (a URL de submissão será disponibilizada em breve). As submissões devem seguir o estilo da Sociedade Brasileira de Computação para trabalhos de conferência ([https://www.sbc.org.br/documentos-da-sbc/summary/169-templates-para-artigos-e-capitulos-de-livros/878-](https://www.sbc.org.br/documentos-da-sbc/summary/169-templates-para-artigos-e-capitulos-de-livros/878-) modelosparapublicaodeartigos).  
+**Todos os trabalhos deverão ser submetidos através do EasyChair, somente em formato PDF (a URL de submissão será disponibilizada em breve). As submissões devem seguir o estilo da Sociedade Brasileira de Computação para trabalhos de conferência ([https://www.sbc.org.br/documentos-da-sbc/summary/169-templates-para-artigos-e-capitulos-de-livros/878-modelosparapublicaodeartigos](https://www.sbc.org.br/documentos-da-sbc/summary/169-templates-para-artigos-e-capitulos-de-livros/878-modelosparapublicaodeartigos) ).  
 Os artigos técnicos e de ideias emergentes aceitos serão incluídos nos anais do congresso, que serão disponibilizados na Biblioteca Digital Aberta da Sociedade Brasileira de Computação - SOL ([https://sol.sbc.org.br/index.php/anais](https://sol.sbc.org.br/index.php/anais)) e Curran Associates ([http://www.proceedings.com/](http://www.proceedings.com/)), e posteriormente indexado em DBLP e Scopus. Os artigos aceitos sobre projetos de P&D aplicados ou contratos com empresas, e pôsteres, serão publicados através do CEUR Proceedings.  
 Pelo menos um autor de cada artigo aceito deverá se inscrever antes do prazo final para a versão final. Uma inscrição corresponde a apenas um artigo. Qualquer autor de cada artigo aceito deverá enviá-lo pessoalmente ou o artigo será excluído dos anais. Caso um autor tenha mais de um artigo aceito, é possível pagar 50% da taxa de inscrição para o segundo trabalho em coautoria e subsequentes.  
   
@@ -179,29 +179,3 @@ Luan Mello (Escola Politécnica, PUCRPR, Brasil)
 
   
 
-\--  
-
-Atenciosamente,  
-
-Edson OliveiraJr  
-  
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*  
-**Prof. Dr. Edson OliveiraJr**  
-_Associate Professor of Software Engineering  
-[Informatics Department](http://www.din.uem.br/) - [State University of Maringá](http://www.uem.br/)_  
-Maringá-PR Brazil  
-[edson@din.uem.br](mailto:edson@din.uem.br)  
-+55 44 3011 5121 (Office)  
-ORCID: 0000-0002-4760-1626
-
-ACM Member #1783962
-
-CV (Brazilian Lattes): [http://lattes.cnpq.br/8717980588591239](http://lattes.cnpq.br/8717980588591239)  
-
-CV: [https://github.com/edson-ao-junior/cv/blob/main/CV\_Prof-Edson\_OliveiraJr.pdf](https://github.com/edson-ao-junior/cv/blob/main/CV_Prof-Edson_OliveiraJr.pdf)  
-
-DBLP: [https://dblp.org/pid/04/2051.html](https://dblp.org/pid/04/2051.html)  
-
-Professional Certifications: SCJP, SCJD, SCWCD, SCJA, SCBCD  
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
