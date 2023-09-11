@@ -49,16 +49,25 @@ Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário]
 
 
 ## Nossa equipe:
-- [Adolfo Gustavo Serra Seca Neto (UTFPR) - coordenador, roteirista, editor e apresentador](https://adolfont.github.io/)
-- [Maria Claudia Emer (UTFPR)](https://scholar.google.com.br/citations?user=4i7kDeMAAAAJ&hl=pt-BR) - apresentadora
+
+### Apresentadores
+
+- [Adolfo Gustavo Serra Seca Neto (UTFPR) - também coordenador, roteirista, editor](https://adolfont.github.io/)
+- [Maria Claudia Emer (UTFPR)](https://scholar.google.com.br/citations?user=4i7kDeMAAAAJ&hl=pt-BR)
+
+### Equipe de pauta 
 - [Danilo Monteiro (Zup)](https://github.com/dan1lo)
 - [Leonardo Fernandes (IFAL)](https://sigaa.ifal.edu.br/sigaa/public/docente/portal.jsf?siape=1887897)
+- [Italo Santos (Northern Arizona University, USA)](https://sites.google.com/view/italo-santos/home)
+- Odwald Schreder (PPGCA)
+
+### Consultor
+
 - [Fabio Petrillo (École de technologie supérieure - Montreal)](https://fabiopetrillo.com/)
 
 ### Voluntários
 
 - [Myrian Rodrigues da Silva (USES/UFAM)](https://www.linkedin.com/in/myrian-rodrigues-490159147/)
-- [Italo Santos (Northern Arizona University, USA)](https://sites.google.com/view/italo-santos/home)
 - [Diego Andrade (UFC)](https://conf.researchr.org/profile/msr-2022/carlosdiegoandradedealmeida)
 
 
