@@ -19,7 +19,7 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 ## Episódios
 
-
+- [Episódio 39: Pesquisa na Indústria, com Bruno Cartaxo (IFPE e StackSpot)](episodios/paginas/39)
 - [Episódio 38: Anotações de Código (e frameworks que as usam), com Eduardo Guerra (UniBZ)](episodios/paginas/38)
 - [Episódio 37: Medição de Software, com Monalessa Barcellos (UFES)](episodios/paginas/37_monalessa)
 - [Episódio 36: Software Security with Laurie Williams (North Carolina State University)](episodios/paginas/36_laurie) - Our first episode in English!
