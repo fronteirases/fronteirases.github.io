@@ -8,7 +8,19 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 
 
 
+### Avaliação da Transferência de Conhecimento na Prática
 
+Estamos conduzindo uma pesquisa focada na avaliação da Transferência de Conhecimento (TC) com o intuito de compreender como ocorre o processo, identificar possíveis barreiras e analisar potenciais fatores de sucesso, objetivando auxiliar as organizações na tomada de decisão.
+
+Buscamos profissionais que tenham experiência com avaliação de TC em projetos desenvolvidos em instituições de pesquisa e empresas de diferentes portes, sejam elas públicas ou privadas para uma entrevista em ambiente remoto com aproximadamente 30 minutos de duração.
+
+Caso tenha interesse, pedimos que preencha o formulário indicando o e-mail e a disponibilidade (data e hora): https://forms.gle/pLyvkCq8Bf5PddhW6
+Para mais informações acesse: https://wa.me/5583996542026
+
+Atenciosamente,
+Williby Ferreira (Aluno Doutorado)
+Juliana Saraiva (Coorientadora)
+Sérgio Soares (Orientador)
 
 ### Percepção das profissionais de Tecnologia da Informação e Comunicação (ICT)
 
