@@ -44,7 +44,7 @@ Among other goals, we aim to build and help others build support tools that are 
 
 Thank you for considering our invitation, and we look forward to your valuable insights.
 
-If you have any questions, please contact us using the email <j.p.biazotto@rug.nl> .
+If you have any questions, please contact us using the email j.p.biazotto AT rug.nl.
 
 Sincerely,
 
