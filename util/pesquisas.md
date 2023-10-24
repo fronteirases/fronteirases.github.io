@@ -4,8 +4,55 @@ Abaixo deixamos chamadas para participação em pesquisas. Em alguns casos, a pe
 
 Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](https://github.com/fronteirases/fronteirases.github.io/)_, editando o arquivo "util/pesquisas.md".
 
-## Agosto de 2023
+## Outubro de 2023
 
+### 
+
+Olá Pessoal,
+
+Meu nome é João Paulo Biazotto e sou aluno de doutorado sob supervisão da Profᵃ. Elisa Yumi Nakagawa (USP) e dos professores Paris Avgeriou e Daniel Feitosa (Universidade de Groningen).
+
+Estamos conduzindo uma pesquisa sobre a utilização de ferramentas de apoio para manutenção de software. Gostaria de pedir o auxílio de vocês na disseminação desse survey para a sua rede de contatos. O público-alvo da pesquisa são profissionais de software que atuam na indústria.
+
+Abaixo segue o convite para a participação.
+
+Desde já, agradeço imensamente a colaboração de todas e todos ;)
+
+Abraços,
+
+João
+
+---
+
+Dear all,
+
+We are researchers in the field of software engineering at the University of Groningen (The Netherlands) and the University of São Paulo (Brazil). Our objective is to better understand your views regarding the utilization of tools for facilitating software maintenance in practice.
+
+To help us, you can answer one or more of five short surveys (approx. 5-8 minutes each). Each survey addresses a specific scenario illustrating a tool usage:
+
+-   A bot that labels issues based on issue text: <https://forms.gle/oYTyxhbhirTaMgY3A>
+
+-   A dashboard that presents the amount of code smells and technical debt: <https://forms.gle/Jc6fsAeh2VsAHLe29>
+
+-   A ItelliJ IDEA plugin that suggests refactoring actions: <https://forms.gle/Tz3XcaCQ9jxiCg297>
+
+-   A Travis CI job that notifies stakeholders considering quality metrics: <https://forms.gle/MghJLApVPeMYLyYC7>
+
+-   A bot that facilitates code review in Github pull requests: <https://forms.gle/bZkSBcjbXfmfavQ48>
+
+Among other goals, we aim to build and help others build support tools that are driven by the added value for the developer.
+
+Thank you for considering our invitation, and we look forward to your valuable insights.
+
+If you have any questions, please contact us using the email <j.p.biazotto@rug.nl> .
+
+Sincerely,
+
+
+João Paulo Biazotto - PhD Student @ ICMC/USP -  [CV Lattes](http://lattes.cnpq.br/6925679889563832) - [LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-paulo-biazotto-53601897)
+
+
+## Agosto de 2023
 
 
 ### Avaliação da Transferência de Conhecimento na Prática
