@@ -6,7 +6,7 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 
 ## Outubro de 2023
 
-### 
+### Pesquisa sobre a utilização de ferramentas de apoio para manutenção de software
 
 Olá Pessoal,
 
