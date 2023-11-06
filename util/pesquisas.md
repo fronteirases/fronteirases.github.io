@@ -4,6 +4,27 @@ Abaixo deixamos chamadas para participação em pesquisas. Em alguns casos, a pe
 
 Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](https://github.com/fronteirases/fronteirases.github.io/)_, editando o arquivo "util/pesquisas.md".
 
+## Novembro de 2023
+
+
+## Pesquisa sobre Podcasts 
+
+![image](https://github.com/fronteirases/fronteirases.github.io/assets/79562/6b6919c8-739f-47e2-80ea-dfefccc3d198)
+
+🎙️ Participe da pesquisa "O Impacto dos Podcasts de Tecnologia no Desenvolvimento Profissional de Desenvolvedores de Software"! Sua opinião é fundamental para a nossa pesquisa.
+
+✨ Ajude-nos a compreender como os podcasts podem influenciar positivamente suas habilidades e avanço profissional.
+
+⏱ Tempo estimado para participar: Apenas 5 minutos do seu dia!
+
+🔗 Link para a pesquisa: <https://lnkd.in/deVvNnHt>
+
+Inscreva-se aqui e faça parte dessa importante investigação.
+
+Juntos, podemos explorar o potencial dos podcasts para aprimorar o desenvolvimento de software. Sua contribuição é valiosa!
+
+#Pesquisa #DesenvolvimentoProfissional #Podcasts #Tecnologia #Desenvolvedores
+
 ## Outubro de 2023
 
 ### Pesquisa sobre a utilização de ferramentas de apoio para manutenção de software
