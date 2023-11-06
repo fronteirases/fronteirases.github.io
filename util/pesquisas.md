@@ -17,7 +17,7 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 
 ⏱ Tempo estimado para participar: Apenas 5 minutos do seu dia!
 
-🔗 Link para a pesquisa: <[https://lnkd.in/deVvNnHt](https://docs.google.com/forms/d/e/1FAIpQLSfVknUuVv0CuX3R2TP8wJdf9-ILu08vnu_lgGKEGTTDkiOrbw/viewform)>
+🔗 Link para a pesquisa: <[https://bit.ly/PesquisaTechPodcasts](https://bit.ly/PesquisaTechPodcasts)>
 
 Faça parte dessa importante investigação.
 
