@@ -17,9 +17,9 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 
 ⏱ Tempo estimado para participar: Apenas 5 minutos do seu dia!
 
-🔗 Link para a pesquisa: <https://lnkd.in/deVvNnHt>
+🔗 Link para a pesquisa: <[https://lnkd.in/deVvNnHt](https://docs.google.com/forms/d/e/1FAIpQLSfVknUuVv0CuX3R2TP8wJdf9-ILu08vnu_lgGKEGTTDkiOrbw/viewform)>
 
-Inscreva-se aqui e faça parte dessa importante investigação.
+Faça parte dessa importante investigação.
 
 Juntos, podemos explorar o potencial dos podcasts para aprimorar o desenvolvimento de software. Sua contribuição é valiosa!
 
