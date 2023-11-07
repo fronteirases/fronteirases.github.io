@@ -7,7 +7,7 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 ## Novembro de 2023
 
 
-## Pesquisa sobre Podcasts 
+### Pesquisa sobre Podcasts 
 
 ![image](https://github.com/fronteirases/fronteirases.github.io/assets/79562/6b6919c8-739f-47e2-80ea-dfefccc3d198)
 
@@ -24,6 +24,22 @@ Faça parte dessa importante investigação.
 Juntos, podemos explorar o potencial dos podcasts para aprimorar o desenvolvimento de software. Sua contribuição é valiosa!
 
 #Pesquisa #DesenvolvimentoProfissional #Podcasts #Tecnologia #Desenvolvedores
+
+###  Pesquisa sobre Engenharia de Requisitos em Startups 
+
+Meu nome é Guilherme, sou mestrando no Instituto de Computação da UNICAMP e estou conduzindo uma pesquisa sobre Engenharia de Requisitos em Startups sob a supervisão do Prof. Breno de França.
+
+Se você trabalha com produtos em startups, convido você a participar deste estudo pois sua experiência e insights são fundamentais para compreendermos melhor os desafios e práticas relacionadas à descoberta de produtos de software no contexto de startups. Sinta-se à vontade para encaminhar esse survey para seus contatos dentro desse contexto.
+
+O questionário leva em média 12 minutos para ser concluído, aceitará respostas por 30 dias e todas as respostas serão tratadas com confidencialidade. Sua contribuição será extremamente valiosa para o avanço do conhecimento nessa área.
+
+Link para o questionário: [https://forms.gle/CJMq7uKQgRkP3phE7](https://bit.ly/3Qt3uKP)
+
+Agradecemos desde já pela sua atenção e colaboração. Estamos à disposição caso tenha dúvidas ou queira fazer algum comentário.
+
+Atenciosamente,
+
+Guilherme e Breno
 
 ## Outubro de 2023
 
