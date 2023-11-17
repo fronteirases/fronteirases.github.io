@@ -3,3 +3,4 @@
 - [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba](https://bit.ly/3L0l9HT)
 - [Mestrado e Doutorado em Ciência da Computação no INF/UFG, Goiânia-GO](https://bit.ly/3YRKER6)
 - [Mestrado e Doutorado no PPGCC/PUCRS](https://bit.ly/3QFRLsl)
+- [MESTRADO e DOUTORADO em COMPUTAÇÃO na UFF - 2024](https://bit.ly/3QGZqXu)
