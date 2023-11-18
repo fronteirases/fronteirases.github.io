@@ -6,3 +6,4 @@
 - [MESTRADO e DOUTORADO em COMPUTAÇÃO na UFF - 2024](https://bit.ly/3QGZqXu)
 - [Mestrado e Doutorado em Ciência da Computação na UNESP](https://bit.ly/3stPlVO)
 - [Mestrado e Doutorado em Ciência da Computanção na UFC, Fortaleza-CE](http://bit.ly/49B0qoJ)
+- [Mestrado e Doutorado em Ciência da Computação na UFV, Viçosa-MG](https://bit.ly/ppgcc-ufv)
