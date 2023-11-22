@@ -1,4 +1,7 @@
 # Seleções de Mestrado e Doutorado em Computação no Brasil
+
+Algumas das seleções abaixo já encerraram suas inscrições.
+
 - [Mestrado e Doutorado em Ciência da Computação da Universidade Federal de Ouro Preto (UFOP)](http://www.decom.ufop.br/pos/processoseletivo/)
 - [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba](https://bit.ly/3L0l9HT)
 - [Mestrado e Doutorado em Ciência da Computação no INF/UFG, Goiânia-GO](https://bit.ly/3YRKER6)
