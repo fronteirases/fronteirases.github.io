@@ -1,9 +1,11 @@
 # Seleções de Mestrado e Doutorado em Computação no Brasil
 
+## 2023 - 2024
+
 Algumas das seleções abaixo já encerraram suas inscrições.
 
 - [Mestrado e Doutorado em Ciência da Computação da Universidade Federal de Ouro Preto (UFOP)](http://www.decom.ufop.br/pos/processoseletivo/)
-- [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba](https://bit.ly/3L0l9HT)
+- [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba](https://bit.ly/3L0l9HT) (inscrições encerradas)
 - [Mestrado e Doutorado em Ciência da Computação no INF/UFG, Goiânia-GO](https://bit.ly/3YRKER6)
 - [Mestrado e Doutorado no PPGCC/PUCRS](https://bit.ly/3QFRLsl)
 - [MESTRADO e DOUTORADO em COMPUTAÇÃO na UFF - 2024](https://bit.ly/3QGZqXu)
