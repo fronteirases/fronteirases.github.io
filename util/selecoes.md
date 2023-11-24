@@ -13,5 +13,6 @@ Algumas das seleções abaixo já encerraram suas inscrições.
 - [Mestrado e Doutorado em Ciência da Computanção na UFC, Fortaleza-CE](http://bit.ly/49B0qoJ)
 - [Mestrado e Doutorado em Ciência da Computação na UFV, Viçosa-MG](https://bit.ly/ppgcc-ufv)
 - [EDITAL DE SELEÇÃO DE MESTRADO 2024 - PUCPR](https://www.ppgia.pucpr.br/pt/arquivos/editais/Edital_Processo_Seletivo_-_Mestrado_2024.pdf)
+- [Mestrado Profissional em Tecnologia da Informação (PPGTI) - IPFB - para o período de 2024.1](https://sites.google.com/ifpb.edu.br/selecao2023ppgti/)
 
 Se quiser adicionar um programa aqui, faça um Pull Request!
