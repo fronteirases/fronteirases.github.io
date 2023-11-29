@@ -6,6 +6,12 @@ Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](htt
 
 ## Novembro de 2023
 
+### Desafios profissionais de pessoas neurodivergentes trabalhando na Engenharia de Software
+
+Estou fazendo pesquisa sobre devs neurodivergentes há alguns meses. Precisamos entrevistar devs TDAH ou autistas para entendermos melhor as dificuldades que vivenciam no trabalho. Como parte do doutorado de uma aluna autista, co-orientada por uma pesquisadora da Psicologia, protocolamos o projeto no comitê de ética, que foi aprovado. Quem quiser participar de uma
+entrevista para ajudar no estudo, pfv preenche o form de participação:
+
+[Formulário de Participação no estudo](https://bit.ly/3QYjXXz)
 
 ### Pesquisa sobre Podcasts 
 
