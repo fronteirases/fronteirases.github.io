@@ -1,6 +1,6 @@
 # Seleções de Mestrado e Doutorado em Computação no Brasil
 
-## 2023 1. 2024
+## 2024
 
 Algumas das seleções abaixo já encerraram suas inscrições.
 1. [Mestrado e Doutorado (PPgEEC-UFRN)](https://sigaa.ufrn.br/sigaa/public/programa/portal.jsf?id=103)
