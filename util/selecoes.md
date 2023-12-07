@@ -3,6 +3,7 @@
 ## 2023 - 2024
 
 Algumas das seleções abaixo já encerraram suas inscrições.
+- [Mestrado e Doutorado (PPgEEC-UFRN)](https://sigaa.ufrn.br/sigaa/public/programa/portal.jsf?id=103)
 - [Programa de Pós-Graduação em Ciência da Computação da Universidade Federal de Mato Grosso do Sul (UFMS) em Campo Grande, MS](https://posgraduacao.ufms.br/portal)
 - [PROGRAMA DE PÓS-GRADUAÇÃO EM INFORMÁTICA, NÍVEL MESTRADO PROFISSIONAL, DA UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ – CAMPUS CORNÉLIO PROCÓPIO](https://sei.utfpr.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=4137053&id_orgao_publicacao=0)
 - [Mestrado e Doutorado em Ciência da Computação da Universidade Federal de Ouro Preto (UFOP)](http://www.decom.ufop.br/pos/processoseletivo/)
