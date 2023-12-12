@@ -3,6 +3,7 @@
 ## 2024
 
 Algumas das seleções abaixo já encerraram suas inscrições.
+1. [UEM](http://www.pcc.uem.br/documentos/outros/edital-no-058-23-processo-seletivo-alunos-regulares-assinado.pdf)
 1. [Mestrado e Doutorado (PPgEEC-UFRN)](https://sigaa.ufrn.br/sigaa/public/programa/portal.jsf?id=103)
 1. [Programa de Pós-Graduação em Ciência da Computação da Universidade Federal de Mato Grosso do Sul (UFMS) em Campo Grande, MS](https://posgraduacao.ufms.br/portal)
 1. [PROGRAMA DE PÓS-GRADUAÇÃO EM INFORMÁTICA, NÍVEL MESTRADO PROFISSIONAL, DA UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ – CAMPUS CORNÉLIO PROCÓPIO](https://sei.utfpr.edu.br/sei/publicacoes/controlador_publicacoes.php?acao=publicacao_visualizar&id_documento=4137053&id_orgao_publicacao=0)
