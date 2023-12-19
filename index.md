@@ -19,6 +19,7 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 ## Episódios
 
+- [Episódio 42: Arquiteturas de Referência, com Pablo Antonino (Fraunhofer IESE)](episodios/paginas/42)
 - [Episódio 41: Lean e Verificação de Software, com Leonardo de Moura (AWS)](episodios/paginas/41)
 - [Episódio 40: Versionamento de Software, com Leonardo Murta (UFF)](episodios/paginas/40)
 - [Episódio 39: Pesquisa na Indústria, com Bruno Cartaxo (IFPE e StackSpot)](episodios/paginas/39)
