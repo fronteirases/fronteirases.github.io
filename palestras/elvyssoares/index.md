@@ -3,4 +3,4 @@
 
 
 
-<img src="ElvysBestPaperAward.jpeg" alt="IEEE Best Paper Award"  height="600">
+<img src="ElvysBestPaperAward.jpeg" alt="IEEE Best Paper Award"  width="400" height="300">
