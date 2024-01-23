@@ -21,6 +21,9 @@ Ficaremos muito gratos pela sua participação e ainda mais se puder nos ajudar 
 Grata,
 Paola Accioly"
 
+![image](https://github.com/fronteirases/fronteirases.github.io/assets/79562/515a9c96-0ace-4e16-8e38-1bdf4aa52ad6)
+
+
 
 ## Novembro de 2023
 
