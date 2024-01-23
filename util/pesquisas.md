@@ -4,6 +4,24 @@ Abaixo deixamos chamadas para participação em pesquisas. Em alguns casos, a pe
 
 Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](https://github.com/fronteirases/fronteirases.github.io/)_, editando o arquivo "util/pesquisas.md".
 
+## Janeiro de 2024
+
+"Prezados colegas,
+
+Estou orientando a pesquisa de TCC do aluno  Pedro Henrique Lopes dos Santos, estudante de Ciência da Computação na Universidade Federal do Cariri (UFCA). Sua pesquisa foca em entender como os desenvolvedores trabalham com diferentes fluxos de trabalho no Git. Para atingir esse nosso objetivo, nós criamos um Questionário com perguntas para desenvolvedores que trabalham com o Git. Acredito que, caso você se encaixe no público-alvo, sua visão seria extremamente valiosa para enriquecer os resultados da minha pesquisa.
+
+
+A pesquisa é anônima e não exigirá mais do que 15 minutos do seu tempo. Para participar, basta seguir o link abaixo:
+
+
+https://bit.ly/workflows-survey-pt
+
+Ficaremos muito gratos pela sua participação e ainda mais se puder nos ajudar compartilhando essa pesquisa.
+
+Grata,
+Paola Accioly"
+
+
 ## Novembro de 2023
 
 ### Desafios profissionais de pessoas neurodivergentes trabalhando na Engenharia de Software
