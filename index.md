@@ -55,6 +55,9 @@ Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário]
 
 ### Apresentadores
 
+{% avatar adolfont %}
+
+
 - [Adolfo Gustavo Serra Seca Neto (UTFPR) - também coordenador, roteirista, editor](https://adolfont.github.io/)
 - [Maria Claudia Emer (UTFPR)](https://scholar.google.com.br/citations?user=4i7kDeMAAAAJ&hl=pt-BR)
 
