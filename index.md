@@ -37,7 +37,7 @@ Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário]
 ## Podcasts associados ao Fronteiras
 
 - [Elixir em Foco](https://www.elixiremfoco.com/)
-- [Emílias Podcast - Mulheres na COmputação](https://podcasters.spotify.com/pod/show/emilias-podcast)
+- [Emílias Podcast - Mulheres na Computação](https://podcasters.spotify.com/pod/show/emilias-podcast)
 - [Professor Adolfo Neto](https://podcasters.spotify.com/pod/show/adolfont)
 
 ## Nossa equipe:
