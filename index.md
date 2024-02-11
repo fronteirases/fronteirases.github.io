@@ -20,7 +20,6 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 - [Episódio 41: Lean e Verificação de Software, com Leonardo de Moura (AWS)](episodios/paginas/41)
 - [Episódio 40: Versionamento de Software, com Leonardo Murta (UFF)](episodios/paginas/40)
 
-
 Escute todos os episódios em:
 
 - Spotify for Podcasters: [https://podcasters.spotify.com/pod/show/fronteirases](https://podcasters.spotify.com/pod/show/fronteirases)
@@ -31,11 +30,14 @@ Escute todos os episódios em:
 - Amazon Music: [Fronteiras da Engenharia de Software na Amazon Music](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
 - Headliner: [Fronteiras da Engenharia de Software no Headliner](https://play.headliner.app/podcast/23829)
 
-<img src="logo.png" width="150"/> 
 
 Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário](https://forms.gle/E5QxpzgK28aaRfFX7).
 
+## Podcasts associados ao Fronteiras
 
+- [Elixir em Foco](https://www.elixiremfoco.com/)
+- [Emílias Podcast - Mulheres na COmputação](https://podcasters.spotify.com/pod/show/emilias-podcast)
+- [Professor Adolfo Neto](https://podcasters.spotify.com/pod/show/adolfont)
 
 ## Nossa equipe:
 
