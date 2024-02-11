@@ -23,13 +23,13 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 Escute todos os episódios em:
 
-- Spotify for Podcasters: [https://podcasters.spotify.com/pod/show/fronteirases](https://podcasters.spotify.com/pod/show/fronteirases)
-- Youtube: [Fronteiras da Engenharia de Software no YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
-- Spotify: [Fronteiras da Engenharia de Software no Spotify](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
-- Apple Podcasts: [Fronteiras da Engenharia de Software na Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
-- Google Podcasts: [Fronteiras da Engenharia de Software no Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yNDhjMDU2OC9wb2RjYXN0L3Jzcw==)
-- Amazon Music: [Fronteiras da Engenharia de Software na Amazon Music](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
-- Headliner: [Fronteiras da Engenharia de Software no Headliner](https://play.headliner.app/podcast/23829)
+- [Spotify for Podcasters: https://podcasters.spotify.com/pod/show/fronteirases](https://podcasters.spotify.com/pod/show/fronteirases)
+- [Fronteiras da Engenharia de Software no YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
+- [Fronteiras da Engenharia de Software no Spotify](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
+- [Fronteiras da Engenharia de Software na Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
+- [Fronteiras da Engenharia de Software no Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yNDhjMDU2OC9wb2RjYXN0L3Jzcw==)
+- [Fronteiras da Engenharia de Software na Amazon Music](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
+- [Fronteiras da Engenharia de Software no Headliner](https://play.headliner.app/podcast/23829)
 
 
 Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário](https://forms.gle/E5QxpzgK28aaRfFX7).
