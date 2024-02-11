@@ -10,29 +10,15 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 ## Novidades
 
-- [CBSOFT 2023](https://cbsoft2023.ufms.br/cbsoft)
-- [Elixir Fortaleza](https://elixiremfoco.github.io/elixirfortaleza/)
-- [SBQS 2023](http://sbqs.sbc.org.br/2023/)
 - [FSE 204 em Porto de Galinhas](https://adolfon.substack.com/p/fse-2024-in-porto-de-galinhas-brazil)
 - [Ajude a Pesquisa Brasileira, respondendo a questionários ou participando de entrevistas](https://fronteirases.github.io/util/pesquisas)
 
 
-## Episódios
+## Episódios recentes
 
 - [Episódio 42: Arquiteturas de Referência, com Pablo Antonino (Fraunhofer IESE)](episodios/paginas/42)
 - [Episódio 41: Lean e Verificação de Software, com Leonardo de Moura (AWS)](episodios/paginas/41)
 - [Episódio 40: Versionamento de Software, com Leonardo Murta (UFF)](episodios/paginas/40)
-- [Episódio 39: Pesquisa na Indústria, com Bruno Cartaxo (IFPE e StackSpot)](episodios/paginas/39)
-- [Episódio 38: Anotações de Código (e frameworks que as usam), com Eduardo Guerra (UniBZ)](episodios/paginas/38)
-- [Episódio 37: Medição de Software, com Monalessa Barcellos (UFES)](episodios/paginas/37_monalessa)
-- [Episódio 36: Software Security with Laurie Williams (North Carolina State University)](episodios/paginas/36_laurie) - Our first episode in English!
-- [Episódio 35: Modernização de Software, com Wesley Klewerton](episodios/paginas/35_wesley)
-- [Episódio 34: Interação da pesquisa com a indústria, com Sérgio Soares (CIn UFPE)](https://fronteirases.github.io/episodios/paginas/34)
-- [Episódio 33: Engenharia de Sistemas de Software Contemporâneos, com Guilherme Horta Travassos (COPPE/UFRJ)](https://spotifyanchor-web.app.link/e/fzfviGDKbyb)
-- [Episódio 32: Cognitive-Driven Development, com Gustavo Pinto (Zup Innovation e UFPA)](https://spotifyanchor-web.app.link/e/Hb1M8aytYxb)
-- [Episódio 31: UX design em startups de software, com Luciana Zaina (UFSCAR)](https://fronteirases.github.io/resumos/31_lucianazaina)
-- [Episódio 25: Estudos Secundários em Engenharia de Software, com Katia Felizardo (UTFPR)](https://podcasters.spotify.com/pod/show/fronteirases/episodes/25-Estudos-Secundrios-em-Engenharia-de-Software--com-Katia-Felizardo-UTFPR-e1k0fhg/a-a847bkg)
-- e muito mais...
 
 
 Escute todos os episódios em:
@@ -119,6 +105,21 @@ Anunciamos as nossas próximas lives em nossa conta no Twitter [https://twitter.
 
 - [Divulgação Científica: a experiência do podcast Fronteiras da Engenharia de Software](https://www.youtube.com/watch?v=BMpvytzaXxo)
 - [Seminário de 28/7/22 - A experiência do podcast Fronteiras da Engenharia de Software (Adolfo Neto)](https://www.youtube.com/watch?v=-OCBrquMp3Q)
+
+## Episódios anteriores
+
+- [Episódio 39: Pesquisa na Indústria, com Bruno Cartaxo (IFPE e StackSpot)](episodios/paginas/39)
+- [Episódio 38: Anotações de Código (e frameworks que as usam), com Eduardo Guerra (UniBZ)](episodios/paginas/38)
+- [Episódio 37: Medição de Software, com Monalessa Barcellos (UFES)](episodios/paginas/37_monalessa)
+- [Episódio 36: Software Security with Laurie Williams (North Carolina State University)](episodios/paginas/36_laurie) - Our first episode in English!
+- [Episódio 35: Modernização de Software, com Wesley Klewerton](episodios/paginas/35_wesley)
+- [Episódio 34: Interação da pesquisa com a indústria, com Sérgio Soares (CIn UFPE)](https://fronteirases.github.io/episodios/paginas/34)
+- [Episódio 33: Engenharia de Sistemas de Software Contemporâneos, com Guilherme Horta Travassos (COPPE/UFRJ)](https://spotifyanchor-web.app.link/e/fzfviGDKbyb)
+- [Episódio 32: Cognitive-Driven Development, com Gustavo Pinto (Zup Innovation e UFPA)](https://spotifyanchor-web.app.link/e/Hb1M8aytYxb)
+- [Episódio 31: UX design em startups de software, com Luciana Zaina (UFSCAR)](https://fronteirases.github.io/resumos/31_lucianazaina)
+- [Episódio 25: Estudos Secundários em Engenharia de Software, com Katia Felizardo (UTFPR)](https://podcasters.spotify.com/pod/show/fronteirases/episodes/25-Estudos-Secundrios-em-Engenharia-de-Software--com-Katia-Felizardo-UTFPR-e1k0fhg/a-a847bkg)
+- e muito mais...
+
 
 ## FAQ para pessoas convidadas
 
