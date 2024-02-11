@@ -10,6 +10,7 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 ## Novidades
 
+- [Blog do Fronteiras da Engenharia de Software no Dev.to](https://dev.to/fronteirases)
 - [FSE 204 em Porto de Galinhas](https://adolfon.substack.com/p/fse-2024-in-porto-de-galinhas-brazil)
 - [Ajude a Pesquisa Brasileira, respondendo a questionários ou participando de entrevistas](https://fronteirases.github.io/util/pesquisas)
 
