@@ -18,6 +18,7 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 ## Episódios recentes
 
 - [43: Engenharia de Software para Cidades Inteligentes, com Thais Batista (UFRN)](episodios/paginas/43)
+- [Extra: Itana Gimenes - Pioneira da Engenharia de Software](https://podcasters.spotify.com/pod/show/fronteirases/episodes/Itana-Gimenes-pioneira-da-Engenharia-de-Software-e2dh6b5)
 - [42: Arquiteturas de Referência, com Pablo Antonino (Fraunhofer IESE)](episodios/paginas/42)
 - [41: Lean e Verificação de Software, com Leonardo de Moura (AWS)](episodios/paginas/41)
 - [40: Versionamento de Software, com Leonardo Murta (UFF)](episodios/paginas/40)
