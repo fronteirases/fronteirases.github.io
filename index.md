@@ -14,6 +14,15 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 - [FSE 204 em Porto de Galinhas](https://adolfon.substack.com/p/fse-2024-in-porto-de-galinhas-brazil)
 - [Ajude a Pesquisa Brasileira, respondendo a questionários ou participando de entrevistas](https://fronteirases.github.io/util/pesquisas)
 
+## Próximos episódios
+
+- Março: DevOps, com Leonardo Leit (SERPRO), Fabio Kon (IME-USP) e Paulo Meirelles (IME-USP)
+- Abril: Ana Regina (UFRJ)
+- Maio: Rui Abreu (Universidade do Porto)
+- Junho: Fernanda Madeiral (Vrije) - a confirmar
+
+Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
+
 
 ## Episódios recentes
 
