@@ -4,6 +4,38 @@ Abaixo deixamos chamadas para participação em pesquisas. Em alguns casos, a pe
 
 Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](https://github.com/fronteirases/fronteirases.github.io/)_, editando o arquivo "util/pesquisas.md".
 
+## Março de 2024
+
+"Um aluno que oriento está conduzindo uma pesquisa de TCC e gostaria do apoio de desenvolvedores ou líderes de projeto para responder um breve formulário anônimo. 
+
+Gostaríamos de contar com sua contribuição respondendo e/ou compartilhando esta mensagem! 
+
+Ficaremos muito gratos se você puder dedicar aproximadamente 5 minutos para contribuir com a pesquisa preenchendo um breve formulário com algumas questões de múltipla escolha. Além de ajudar a pesquisa, acreditamos que isso vai ajudá-lo a refletir um pouco sobre a transformação atual que o mercado de desenvolvimento está passando.
+
+A pesquisa é sobre o uso de ferramentas de IA generativa entre profissionais de desenvolvimento de software e o possível impacto desse uso no mercado de trabalho. 
+
+A participação de alunos de graduação também é muito bem-vinda, mas gostaríamos de captar principalmente a opinião daqueles que já estejam atuando no mercado de trabalho (por exemplo, em estágio ou em projeto de P&D).
+
+A seguir, estão dois links, um para desenvolvedores e outro para gestores de projetos de desenvolvimento. Escolha o que está mais alinhado ao seu perfil. Porém, se julgar que você se enquadra em ambos os perfis, é possível preencher ambos os questionários.
+
+Para garantir sua privacidade e anonimidade, é possível preencher este formulário utilizando uma aba anônima do seu navegador de internet. Porém, mesmo sem utilizar este recurso, nenhuma informação será coletada.
+
+FORMULÁRIO PARA DESENVOLVEDORES:
+https://docs.google.com/forms/d/e/1FAIpQLSf56dAuzKyD8oM8Sf_t4p9mJS4PD1HDNGfPrNprQP5lzD0RvQ/viewform?usp=sharing
+
+FORMULÁRIO PARA GESTORES:
+https://docs.google.com/forms/d/e/1FAIpQLSfGHt8cG2ZtBQkNN-21zKDoU1UQAy06yWl17pi807wSbQBBrg/viewform?usp=sharing
+
+Favor encaminhar este e-mail para colegas da área a fim de atingir o maior número de participantes da área de tecnologia da informação.
+
+Obrigado !!
+
+
+--
+Victor Braga (Aluno)
+Cláudio Campelo (Orientador)
+Computação @ UFCG"
+
 ## Janeiro de 2024
 
 "Prezados colegas,
