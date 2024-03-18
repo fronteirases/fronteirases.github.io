@@ -26,6 +26,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [44: Como se faz DevOps, com Leonardo Leite, Paulo Meirelles e Fabio Kon](episodios/paginas/44)
 - [43: Engenharia de Software para Cidades Inteligentes, com Thais Batista (UFRN)](episodios/paginas/43)
 - [Extra: Itana Gimenes - Pioneira da Engenharia de Software](https://podcasters.spotify.com/pod/show/fronteirases/episodes/Itana-Gimenes-pioneira-da-Engenharia-de-Software-e2dh6b5)
 - [42: Arquiteturas de Referência, com Pablo Antonino (Fraunhofer IESE)](episodios/paginas/42)
