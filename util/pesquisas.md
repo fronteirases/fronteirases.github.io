@@ -21,10 +21,10 @@ A seguir, estão dois links, um para desenvolvedores e outro para gestores de pr
 Para garantir sua privacidade e anonimidade, é possível preencher este formulário utilizando uma aba anônima do seu navegador de internet. Porém, mesmo sem utilizar este recurso, nenhuma informação será coletada.
 
 FORMULÁRIO PARA DESENVOLVEDORES:
-https://docs.google.com/forms/d/e/1FAIpQLSf56dAuzKyD8oM8Sf_t4p9mJS4PD1HDNGfPrNprQP5lzD0RvQ/viewform?usp=sharing
+<https://docs.google.com/forms/d/e/1FAIpQLSf56dAuzKyD8oM8Sf_t4p9mJS4PD1HDNGfPrNprQP5lzD0RvQ/viewform?usp=sharing>
 
 FORMULÁRIO PARA GESTORES:
-https://docs.google.com/forms/d/e/1FAIpQLSfGHt8cG2ZtBQkNN-21zKDoU1UQAy06yWl17pi807wSbQBBrg/viewform?usp=sharing
+<https://docs.google.com/forms/d/e/1FAIpQLSfGHt8cG2ZtBQkNN-21zKDoU1UQAy06yWl17pi807wSbQBBrg/viewform?usp=sharing>
 
 Favor encaminhar este e-mail para colegas da área a fim de atingir o maior número de participantes da área de tecnologia da informação.
 
