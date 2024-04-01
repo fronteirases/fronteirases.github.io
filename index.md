@@ -16,10 +16,9 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 ## Próximos episódios
 
-- Março: DevOps, com Leonardo Leit (SERPRO), Fabio Kon (IME-USP) e Paulo Meirelles (IME-USP)
 - Abril: Ana Regina (UFRJ)
 - Maio: Rui Abreu (Universidade do Porto)
-- Junho: Fernanda Madeiral (Vrije) - a confirmar
+- Junho: Fernanda Madeiral (Vrije)
 
 Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
 
