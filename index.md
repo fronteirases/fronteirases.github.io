@@ -8,6 +8,12 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
 
+## Nosso episódio mais recente
+
+{% include youtube.html id="M4BmrNwvBZA" %}
+
+{% include spotify.html id="3bUBIgM8WVWfHBugDn8wdH" %}
+
 ## Novidades
 
 - [Blog do Fronteiras da Engenharia de Software no Dev.to](https://dev.to/fronteirases)
