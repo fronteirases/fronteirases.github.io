@@ -26,7 +26,6 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 ## Próximos episódios
 
-- Abril: Ana Regina (UFRJ)
 - Maio: Rui Abreu (Universidade do Porto)
 - Junho: Fernanda Madeiral (Vrije)
 
@@ -35,6 +34,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [45:  Formação de Recursos Humanos de Excelência, com Ana Regina Cavalcanti da Rocha (COPPE UFRJ)](episodios/paginas/45)
 - [44: Como se faz DevOps, com Leonardo Leite, Paulo Meirelles e Fabio Kon](episodios/paginas/44)
 - [43: Engenharia de Software para Cidades Inteligentes, com Thais Batista (UFRN)](episodios/paginas/43)
 - [Extra: Itana Gimenes - Pioneira da Engenharia de Software](https://podcasters.spotify.com/pod/show/fronteirases/episodes/Itana-Gimenes-pioneira-da-Engenharia-de-Software-e2dh6b5)
