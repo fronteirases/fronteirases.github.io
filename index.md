@@ -26,14 +26,15 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 ## Próximos episódios
 
-- Maio: Rui Abreu (Universidade do Porto)
 - Junho: Fernanda Madeiral (Vrije)
+- Julho: Davi Viana (UFMA) - a ser gravado
 
 Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
 
 
 ## Episódios recentes
 
+- [46: Localização de Falhas de Software, com Rui Maranhão Abreu (Universidade do Porto e Meta)](episodios/paginas/46)
 - [45:  Formação de Recursos Humanos de Excelência, com Ana Regina Cavalcanti da Rocha (COPPE UFRJ)](episodios/paginas/45)
 - [44: Como se faz DevOps, com Leonardo Leite, Paulo Meirelles e Fabio Kon](episodios/paginas/44)
 - [43: Engenharia de Software para Cidades Inteligentes, com Thais Batista (UFRN)](episodios/paginas/43)
