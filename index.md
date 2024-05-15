@@ -12,11 +12,12 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 #### No YouTube
 
-{% include youtube.html id="73akU58d-TY" %}
+{% include youtube.html id="MVXPUJ_Y0RM" %}
+
 
 #### No Spotify
 
-{% include spotify.html id="3KHgCLU8M8p5F0DJIWM4Tx" %}
+{% include spotify.html id="42XnrEndRmRCeUwPgnReVO" %} 
 
 ## Novidades
 
