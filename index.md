@@ -4,6 +4,8 @@ Fronteiras da Engenharia de Software é um podcast para refletir sobre o present
 
 Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Software? Será avisado(a) do lançamento de cada episódio e também de outras atividades em que estivermos envolvidos. Se sim, preencha seus dados [neste formulário](https://bit.ly/3N7brVL). 
 
+Se quiser nos ajudar, entre em nosso [Apoia-se](https://apoia.se/fronteirases).
+
 [🇺🇸 Our page in English / 🇧🇷 Nossa página em inglês](https://fronteirases.github.io/en)
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
