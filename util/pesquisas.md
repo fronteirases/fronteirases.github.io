@@ -4,6 +4,14 @@ Abaixo deixamos chamadas para participação em pesquisas. Em alguns casos, a pe
 
 Se quiser ver sua pesquisa aqui, faça um _pull request [neste repositório](https://github.com/fronteirases/fronteirases.github.io/)_, editando o arquivo "util/pesquisas.md".
 
+
+## Maio de 2024
+
+Olá! 👋 a PUC-Rio junto com a UFC e UNEB estão realizando a pesquisa "Inclusão e Diversidade em Organizações de Desenvolvimento de Software" e precisamos da SUA ajuda para fazer a diferença. Se você atua na área de desenvolvimento, sua experiência pode nos ajudar a criar ambientes mais acolhedores e diversificados.
+📝 Como participar? Simples! Acesse nosso survey no Google Forms <https://docs.google.com/forms/d/e/1FAIpQLSdwAkgefxPZrgMhZjhaK8y0ukNyb5yaay30JDYaVuHBIjkdLg/viewform> e compartilhe suas experiências e opiniões. São apenas alguns minutos que podem contribuir para um grande impacto!
+✨ Vamos juntos construir um futuro mais inclusivo para todos no desenvolvimento de software. Contamos com você! 🌈
+
+
 ## Março de 2024
 
 "Um aluno que oriento está conduzindo uma pesquisa de TCC e gostaria do apoio de desenvolvedores ou líderes de projeto para responder um breve formulário anônimo. 
