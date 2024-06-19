@@ -38,6 +38,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [47: Reparo Automático de Programas, com Fernanda Madeiral (Vrije Universiteit Amsterdam)](episodios/paginas/47)
 - [46: Localização de Falhas de Software, com Rui Maranhão Abreu (Universidade do Porto e Meta)](episodios/paginas/46)
 - [45:  Formação de Recursos Humanos de Excelência, com Ana Regina Cavalcanti da Rocha (COPPE UFRJ)](episodios/paginas/45)
 - [44: Como se faz DevOps, com Leonardo Leite, Paulo Meirelles e Fabio Kon](episodios/paginas/44)
