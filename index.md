@@ -30,7 +30,6 @@ Se quiser nos ajudar, entre em nosso [Apoia-se](https://apoia.se/fronteirases).
 
 ## Próximos episódios
 
-- Junho: Fernanda Madeiral (Vrije)
 - Julho: Davi Viana (UFMA) - a ser gravado
 
 Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
