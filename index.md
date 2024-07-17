@@ -14,13 +14,13 @@ Se quiser nos ajudar, entre em nosso [Apoia-se](https://apoia.se/fronteirases).
 
 #### No YouTube
 
-{% include youtube.html id="lajquaSQqYk" %}  
+{% include youtube.html id="2gra4SPzEz0" %}  
 
 
 
 #### No Spotify
 
-{% include spotify.html id="7lFkZ1NZtulksRl894RfeF" %} 
+{% include spotify.html id="3RjjznpvhCGHJIEhiPhCmg" %} 
 
 ## Novidades
 
@@ -30,13 +30,12 @@ Se quiser nos ajudar, entre em nosso [Apoia-se](https://apoia.se/fronteirases).
 
 ## Próximos episódios
 
-- Julho: Davi Viana (UFMA) - a ser gravado
-
 Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
 
 
 ## Episódios recentes
 
+- [48: Educação em Engenharia de Software, com Davi Viana (UFMA)](episodios/paginas/48)
 - [47: Reparo Automático de Programas, com Fernanda Madeiral (Vrije Universiteit Amsterdam)](episodios/paginas/47)
 - [46: Localização de Falhas de Software, com Rui Maranhão Abreu (Universidade do Porto e Meta)](episodios/paginas/46)
 - [45:  Formação de Recursos Humanos de Excelência, com Ana Regina Cavalcanti da Rocha (COPPE UFRJ)](episodios/paginas/45)
