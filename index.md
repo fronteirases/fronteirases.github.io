@@ -14,13 +14,13 @@ Se quiser nos ajudar, entre em nosso [Apoia-se](https://apoia.se/fronteirases).
 
 #### No YouTube
 
-{% include youtube.html id="2gra4SPzEz0" %}  
+{% include youtube.html id="K7_RpxOdETU" %}  
 
 
 
 #### No Spotify
 
-{% include spotify.html id="3RjjznpvhCGHJIEhiPhCmg" %} 
+{% include spotify.html id="55fnOm9ZdQ687AL3pcEybJ" %} 
 
 ## Novidades
 
@@ -35,6 +35,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [49: Ciência Aberta em Engenharia de Software, com Edson Oliveira Junior (UEM)](episodios/paginas/49)
 - [48: Educação em Engenharia de Software, com Davi Viana (UFMA)](episodios/paginas/48)
 - [47: Reparo Automático de Programas, com Fernanda Madeiral (Vrije Universiteit Amsterdam)](episodios/paginas/47)
 - [46: Localização de Falhas de Software, com Rui Maranhão Abreu (Universidade do Porto e Meta)](episodios/paginas/46)
