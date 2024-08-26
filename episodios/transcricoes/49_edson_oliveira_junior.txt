@@ -1,0 +1,925 @@
+0:04
+Olá, eu sou Adolfo Neto, professor da Universidade Tecnológica Federal do Paraná, Campos Curitiba, e este é o Fronteiro da Engenharia de Software, um podcast para refletir sobre o presente e o futuro da engenharia de software. Nós
+publicamos episódios Mingsize, em que entrevistamos pessoas, pesquisadoras da área, abordando temas de interesse de pessoas que praticam engenharia de software e de pessoas pesquisadoras. Somos
+0:29
+uma atividade de divulgação científica associada ao programa de pós -graduação em computação aplicada, PPGCA, da UTFPR Curitiba, e ao Emilias Armação em Bit, que é um programa de extensão também da UTFPR. Por
+falar nisso, nós estamos com inscrições abertas para a turma 2025 do mestrado em computação aplicada, estamos agora em agosto de 2024. Vou
+0:52
+deixar o link para acessar o edital, que é bit .ly -ppgca 2025, o PPGCA tudo em minúscula. E
+vamos deixar também na descrição o link do mestrado e do autorado em ciência de computação na UEN, Universidade Estadual do Maringá, que tem uma sigla sugestiva de PCC. Então,
+1:13
+continuando, estamos aqui com a Corehost do Fronteiro da Engenharia de Software, coordenadora do Emilias Armação em Bit, Maria Claudia Emmer, também da UTFPR Curitiba, também do PPGCA. Tudo
+bem, Maria Claudia? Tudo
+bem, Adolfo. Estou
+1:30
+aqui na expectativa de que teremos uma outra entrevista muito proveitosa para os nossos ouvintes. Então,
+hoje vamos entrevistar o professor Edson Oliveira Jr. E
+o tema será Ciência aberta na Engenharia de Software. Edson
+1:46
+é professor associado de Engenharia de Software e Forense Digital na Universidade Estadual do Maringá. Eu
+falo UEN, não sei se vocês falam aí de diferente em Maringá, UEM, que é uma Universidade Estadual tradicional no interior do Paraná. É
+2:05
+curioso, porque as principais universidades estaduais do Paraná ficam no interior. É
+UEN, é UEL que é em Londrina, tem também a União Oeste, cujo campo principal é Cascabel, tem algumas mais novas como a Unicentro e aqui em Curitiba tem campos da UNESCO. Edson
+2:25
+é doutor em computação pelo ICMC da USP São Carlos, onde foi orientado por José Carlos Maldonado e corentado pela professora Itanas Jiménez da UEN, que já entrevistamos lá no UEMilha Podcast e republicamos esse episódio com a professora Itanas aqui no Fronteiras em fevereiro de 2024. Edson
+2:47
+é mestre em ciência da computação e graduado em formática pela UEN. Então,
+fez sua formação inicial na UEN, voltou para ser professora da UEN, é atualmente bolsista de produtividade em pesquisa do CNPQ, nível 2, docente permanente do programa de post graduação em ciência da computação, aí vem a sigla PCC da UEN. Isso
+3:08
+é a lista de interesse de pesquisa que está no seu site e é bem longa, eu inclui aqui 3 itens que são reúso de software com linhas de produto e processo de software, educação e engenharia de software e o tema principal da entrevista de hoje, ciência aberta para pesquisa e engenharia de software. Tudo
+3:28
+bem Edson? Muito
+obrigado por ter aceito nosso convite. Você
+tem algo a complementar nesta sua apresentação? Obrigado,
+Adolfo, Rubio Mentador, Maria Cláudia, obrigado pela super oportunidade de estar aqui. Esses
+episódios ótimos, eu não assisto, mas eu escuto, eu coloco, às vezes, para escutar o que pode ser, se não mais. E
+3:48
+aí é interessante que a gente pode dar uma visão que às vezes os ativos não dão, se a gente pedir para os alunos leirem ativo e a gente hoje tem que ser muito seletivo em ativos para ler porque a gente não tem tempo e a gente vive em torno de prazos e tudo mais. Então,
+4:05
+às vezes está lá até mesmo fazendo um exercício, uma coisa na academia, você pode pescar no software e lá você consegue já de repente pescar alguma coisa que você gostaria de trabalhar, se interessa um pouco mais, então eu acho ótimo. Parabéns
+pela iniciativa. Única
+complementação, bem complementação, só ficou engraçado por causa da sigla PCC que a gente usa. São
+4:25
+a determinação da UN, todos os setores da UN tem que ter três letras. E
+aí na época da criação do mestrado, o nosso programa acabou caindo, que não tinha combinação disponível e ficou PCC e isso é motivo de brincadeiro na própria universidade. A
+4:43
+gente brinca, a gente é lado PCC, então, vocês têm que levar séries com as que a gente está falando. Mas
+enfim, basicamente é isso, obrigado pela apresentação, é isso, não precisa complementar mais nada, toda dúvida. Legal,
+é, só falar, é uma curiosidade que eu acho aqui na UTFPR, quase tudo, é quatro ou cinco letras, a gente está no PPCA, tem um CPGI, mas, por exemplo, lá em Cornelius Procop, tem um PPGI, que também é um programa de mestrado profissional. E
+5:10
+a questão sobre escutar e assistir, na verdade, a gente publica os nossos episódios, já faz, eu acho, uns dez episódios que a gente tem publicado em vídeo, tanto no Spotify quanto no YouTube, mas a ideia sempre foi ser um podcast e nos primeiros episódios eram só em áudio, então quem só escuta não está perdendo nenhuma grande informação do episódio. Hoje,
+5:32
+a gente vai falar sobre ciência aberta em engenharia de software. Em
+primeiro lugar, eu peço o que você explique para a nossa audiência, que eu suponho, eu acredito, inclui pessoas que fazem ciência, mestrando, os doutorandas, professores, pesquisadoras, mas também pessoas do mercado, pessoas desenvolvedoras, CTOs, Team Leaders, etc. Então,
+5:54
+para esse público amplo, o que é ciência aberta? Tá,
+vamos lá. Não
+tem uma definição ainda consolidada, mas a definição que a gente tem trabalhado e que a gente tem usado, principalmente, aquele nosso grupo de pesquisa que a gente busca divulgar, é a definição que a gente tem na recomendação sobre ciência aberta da UNESCO. A
+6:21
+UNESCO é um setor, uma parte da organização das Nações Unidas, que a UNESCO busca avanços em educação, inovação e tecnologia. E
+a UNESCO, ela tem uma recomendação de ciência aberta, e isso é um dos grandes avanços da última década praticamente, desde antes mesmo daquele projeto europeu enorme chamado Horizon 2020, que tinha milhões e milhares de euros disponíveis para pesquisa e tudo mais. Então,
+6:53
+a UNESCO acabou sendo um dos carros a chamar, fazer o apelo para ciência aberta. Bom,
+o que a UNESCO diz? A
+UNESCO diz que ciência aberta é uma mudança de paradigma de pesquisa, em que a ideia é repensar esse paradigma, para que qualquer cidadão, não importa quem seja a pessoa, ela possa ter acesso à pesquisa, ou às pesquisas desenvolvidas. Quando
+7:22
+a gente fala de pesquisa, a gente está falando do guarda -chuva inteiro da pesquisa. Desde
+os planos, protocolos, artefatos, tudo aquilo que foi produzido, gerado ou até mesmo reutilizado de outras pesquisas, e assim, qualquer pessoa mesmo, que a pessoa não tenha conhecimento sobre o assunto, ela possa utilizar, ela pode ter acesso a isso. E
+7:44
+de repente, outros grupos que às vezes, aparentemente, não tem nada a ver com uma determinada pesquisa, acabam descobrindo que eles poderiam utilizar dados ou artefatos para fazer as suas pesquisas. Então,
+essa é a ideia, é a abertura desses artefatos, desses elementos e do próprio projeto entre si. Principalmente
+8:07
+aqueles projetos que têm financiamento público, porque o dinheiro vem do cidadão, e como pesquisa, a ciência deve retornar ao cidadão. Então,
+essa é uma visão geral da Unesco, de uma forma, talvez, mais direta, é mudar a forma como a gente tem pensado em fazer pesquisa, conduzir a pesquisa e comunicar essa pesquisa. A
+8:33
+comunicação, talvez, seja o grande highlight, digamos assim, de ciência aberta. A
+gente faz a pesquisa, a gente planeja, a gente realiza a pesquisa, mas, em determinado momento, a gente vem falhando muitas vezes na comunicação da pesquisa. Então,
+8:51
+basicamente, esse é o objetivo. E
+aí, claro, se a gente for entrar fundo, tem muita coisa a envolver. Então,
+se tem uma ideia básica inicial, é mais ou menos isso. Tá
+certo, então. Bom,
+9:07
+Edson, você pode contar para nós como as empresas podem se beneficiar de ciência aberta? Pois
+é, uma ótima pergunta, é isso. Porque
+muitas vezes a gente fala de ciência aberta e a gente consegue enxergar muito bem os benefícios para o nosso público, que são pesquisadores de gramos, basicamente, os pesquisadores. A
+9:30
+gente pesquisa nós, orientadores, para o programa de pós -graduação, os mestrandos, doutorandos, os fuzados, alguns de iniciação científica, iniciação tecnológica e pra ir lá. Mas
+tem um lance também da empresa, do negócio, do business. Eu
+li um artigo recentemente bastante interessante que falava sobre seis razões para que as empresas pudessem se beneficiar de ciência aberta. Então,
+9:56
+se a gente for resgatar o histórico de ciência aberta, pelo menos aquele em que eu tive contato e eu pude ler, eu li muitos relatórios técnicos, muitos serveis por órgãos que vão lá desde a Comissão Europeia, no Edge, educação, de ensino, fomento, tudo mais. Até
+10:16
+alguns relatórios canadenses, por exemplo, são órgãos e pessoas extremamente preocupadas com o futuro. Então,
+eles olham 20, 30 anos à frente e tentam estabelecer algumas metas. Se
+a gente olhar um pouquinho mais de calma, a gente vai ver que uma das fontes ou uma das demandas da ciência aberta é o setor privado. Por
+10:38
+quê? Porque
+uma das reclamações que o setor privado tem é de que eles não têm acesso à pesquisa. Quando
+a gente fala que não tem acesso à pesquisa ou o setor privado reclama, basicamente, eles estão dizendo o seguinte, olha, vocês fazem pesquisa e publicam em veículos que nós temos que pagar para ter acesso. A
+10:56
+gente não tem acesso a não ser aqueles que são de acesso aberto e a gente pode poder entrar numa discussão de horas e horas falando sobre tipos de acesso aberto e tudo mais. Então,
+essa é uma reclamação básica da indústria. Se
+11:15
+a gente pegar, por exemplo, países emergentes, pega o Brasil, por exemplo, empresas dificilmente vão pagar para ter acesso a veículos de publicação. A
+gente está sofrendo atualmente com o problema de contrato com a própria CME, a CAPS, que paga para esses acessos para as universidades públicas. Então,
+11:35
+assim, é muito caro, é muito dinheiro e a empresa às vezes não tem esse investimento para fazer. Então,
+uma das origens vem daí, então, se a gente está aberta, pode, de uma certa maneira, beneficiar diretamente as empresas. Essas
+11:52
+práticas de ciência aberta, elas também podem ajudar as empresas, porque outra, o que está acontecendo, o que vem acontecendo atualmente, pelo menos nos países europeus, na União Europeia, onde a ideia de ciência aberta é muito forte e ela já está espingando aquele Brasil, são os editais de momento que vem exigindo algumas práticas de ciência aberta, mesmo que não tenha esse nome de ciência aberta, essa denominação. Então,
+12:18
+por exemplo, no ano passado, o CNPQ lançou um edital de parcerias internacionais, tinha bolsas de post -docs, de Doutorado Sanduíche e tudo mais, e um dos itens do projeto era que o pesquisador fornecesse um plano de gestão de dados. Planos
+12:35
+de gestão de dados, é uma das práticas de ciência aberta e tem tudo a ver com dados abertos. O
+que você faz com os dados? Eles
+vão estar abertos, eles vão estar fechados por quanto tempo, qual a razão disso? Como
+é que você vai armazenar esses dados? Como
+é que você vai garantir a segurança desses dados, que ninguém vai ter acesso, o inapropriado? Qual
+12:54
+é a licença desses dados? Enfim,
+nós temos um monte de corescente. Retomar
+aquele questionário que veio em um temporeitizinho para a gente preencher. Ele
+tem ali umas 15 perguntas e você tem que pensar realmente, poxa, como é que eu vou fazer isso? Eu
+13:09
+nunca pensei em fazer isso na minha pesquisa. Então,
+qual é a reclamação da indústria? A
+reclamação da indústria também é de que eles também podem participar muitas vezes desses editais de fomento. E
+se eles vão participar dos editais de fomento, eles não sabem como praticar ciência aberta. Então,
+13:26
+praticar ciência aberta no sentido de olhar para a indústria e a indústria também entender também vai beneficiar a indústria tentando buscar fomento. Essas
+participícias que se fazem de empresas, universidades, editais, por exemplo, como da Finep e ainda não exigem, mas provavelmente imagino que vai ser exigido em algum momento. Uma
+13:46
+outra maneira, eu sei que a resposta é um pouquinho longa, mas tem vários, talvez seja algo que possa chamar a indústria para nos ajudar nessa definição, nessas práticas que a gente tem. Uma
+14:03
+delas é de uma maneira tentar formalizar ou organizar a pesquisa interna desses exemplos. Querendo
+ou não, as empresas fazem pesquisa. Pode
+não ser formalizado do jeito que a gente faz. Vamos
+definir um protocolo, vamos definir a metodologia, por que a gente faz essa etapa depois essa? Vamos
+14:23
+usar uma técnica de análise de dados, uma técnica de análise de dados qualitativos. Eles
+fazem, mas não fazem de uma forma então prescritiva como a gente normalmente faz nos nossos pesquisas. Então,
+14:39
+entendendo essas práticas de como organizar os dados, como usar um depositório, mesmo que interno deles, que eles não abram os dados, mas que eles possam trabalhar em cima desses dados e tudo mais, é uma coisa interessante. Então,
+a ciência aberta de muitas práticas que ajudam isso. Tem
+14:56
+estudos mostrando, por exemplo, proveniência de dados e de decisões de projeto dentro do processo dos orimentos de software. O
+donado Murta, por exemplo, tem uns trabalhos de proveniência. Isso
+é interessante, porque proveniência é uma das características de ciência aberta. Então,
+15:15
+isso pode ser também implementado para dados, pesquisas, experimentos que possam ser feitos internamente. Então,
+de uma maneira ou outra, isso ajuda a organizar um histórico, um backtrack do que se foi feito, decisões tomadas e tudo mais, para futuros estudos e defes da própria interesse. E
+15:31
+só para terminar a pergunta, desculpa que eu não estou me alunhando muito, a gente tem visto um perfil, com a vez até um encargo, um role novo surgindo, que é o de Research Software Engineer, que é aquela pessoa que está dentro de uma empresa ou de uma instituição de pesquisa, pode até ser uma universidade. Ele
+15:55
+não precisa ser obrigatoriamente um professor, pesquisador, mas pode ser uma pessoa contratada, em que ela tem conhecimento de práticas de ciência aberta, essas práticas que engolvam ciência aberta, mas também tem muita prática em pesquisa, em desenvolvimento de estudos, de experimentos e tudo mais, porque essa pessoa, além de ter esse conhecimento, ela também tem conhecimento de desenvolvimento de software. Então,
+16:23
+ninguém melhor do que nós da Ingeria de Software para entender as técnicas, as paradigmas, as abordagens que existem para a construção de software. E
+aí essa pessoa também entra como um desenvolvedor de software para pesquisa, que é o Research Software. Muita
+16:43
+gente tem pesquisado sobre isso, a professora Cristina Van Fla, Fabio Pôn, esse pessoal tem que trabalhar sobre Research Software e é uma área bem interessante. Então,
+software que são desenvolvidos para ajudar na pesquisa. Então,
+16:58
+assim, basicamente tem muito mais argumentos para ajudar a convencer de uma certa maneira sobre os benefícios que o setor privado pode ter sobre ciência aberta. Bem
+interessante, porque foi uma das coisas que eu pensei quando a gente pensou em fazer esse episódio, qual é a relevância para o mercado. E
+17:23
+aí, uma coisa que você falou, que eu só quero enfatizar, que eu acho que essa crise que a gente está tendo agora entre o governo brasileiro e a CME meio que deixa claro como talvez muitas pessoas da empresa devem se sentir em relação a pesquisa. Quer
+dizer, eu não vou usar aquilo ali, porque eu não consigo ler. A
+17:41
+gente está tendo dificuldade para... O
+mais básico é que simplesmente tem acesso ao PDF do artigo. Eu
+tive que pedir alguns artigos para você pelo WhatsApp, porque... Eu
+não tive acesso. Eu
+tive até um outro problema também com escopos, que eu acho que é outra coisa mais interna da universidade, mas no caso da CME realmente é uma coisa que está demorando muito. Mas
+18:04
+aí tem outra questão, que é essa, assim, por exemplo, essa questão de que adotar práticas de ciência aberta para você fazer isso, você precisa ter um pouco mais de trabalho. Então,
+por exemplo, recentemente eu tive um artigo aceito no... Os
+18:20
+anais vão ser publicados pela CME, né? E
+aí, claro, uma das coisas que muitos pesquisadores fazem, ah, não, vou deixar um preprint lá no archive. Até,
+ó, esse evento, ele vê isso com bons olhos, até com uma programação, tem um espaçozinho para você deixar o link para o preprint. Mas
+18:36
+é um trabalho adicional, né? Imagina
+outras coisas... Outro
+exemplo que eu tive foi, eu estava lendo um artigo que falava umas coisas meio ruins da linguagem de programação, que eu amo, que é LX. E
+aí ele falou, não, a gente selecionou tais repositórios, tais commits. Aí
+18:56
+eu li o artigo todo, cadê? Não
+tem a lista dos repositórios nem dos commits. Eu
+pedi para o autor, ele me mandou a planilha, mas você sabe que existem ferramentas, sites, como Zenodo, Fickshare, onde você pode deixar vários pesquisadores brasileiros já fazem isso. Do
+19:14
+mundo todo, né? Aí
+vem a pergunta para você, esse esforço que você tenha mais de deixar esses artefatos como ciência aberta em algum lugar, você tem um esforço adicional? Isso
+compensa? Ou
+19:31
+as pessoas só fazem porque a partir de um determinado momento, Jules, Naos e conferências estão exigindo que os autores façam isso? Bom,
+é um bom ponto de levantar. Você
+tem uma discussão bem interessante. Só
+para a gente começar rapidamente essa discussão. Três,
+19:47
+dois mil e vinte e um três anos atrás, um aluno de PCC me fez um, rodou um server aqui na UEM. Com
+todos os pesquisadores, a gente pegou todos os pesquisadores por meio da porreitoria de pesquisa, a porreitoria de pesquisa nos ajudou a divulgar esse server. Aqui
+a gente tem, eu acho que, se eu não me engano, em dois mil e vinte e um eram mais de novecentos pesquisadores atuando em programas de pós -credulação, né? E
+20:08
+desses novecentos, dez por cento conseguiu responder. Em
+torno de novecentos, se não me engano, a nossa mostra foi de novecentos e um pesquisadores. Qual
+uma mostra inicial interessante. E
+a gente perguntou coisas básicas, assim, de sem saber. Pegou
+20:23
+alguns conceitos principais, né? Pesas,
+acho que o server tinha, acho que, quinze perguntas, alguma coisa desse tipo. Depois
+eu até posso... Está
+disponível porque a gente publicou isso no OpenSIM. É
+o simpósito de colaboração aberta, que tem a cada dois anos. E
+20:41
+aí apareceu dois fatores principais, quer dizer, dos novecentos pesquisadores que responderam, eles falavam que não, a gente não pratica nenhuma dessas atividades ou práticas que vocês listaram aqui. Que
+era, por exemplo, preparar os dados, abertura dos dados, ou depositar ou deixar esses dados compartilhados em algum, alguma URL, enfim, repositórios, esse tipo de coisa. Se
+21:07
+os artefatos que eles usaram, por exemplo, a pessoa trabalhou com script, de URL, gerou scripts, alguns têm conhecimento de programação, por exemplo, gerou script em pai, alguma coisa dessa maneira. E
+eles falavam que eles não tinham feito isso, eles não praticavam esse tipo de coisa. E
+21:25
+aí tem duas associais principais, né? Um
+deles é o esforço, barra tem, por quê? Porque
+basicamente as nossas pesquisas, a gente vive isso em cima de prazos. A
+gente tem prazo para começar o trabalho, a gente tem prazo para qualificar, tem prazo para defender, e alguns programas de pós -graduação ainda exigem publicação de artigos antes da defesa. Então
+21:49
+a gente está basicamente vivendo em prazos. Não
+que isso seja ruim, porque todo o projeto tem que ter um início e fim, não é? Mas
+a grande... A
+grande argumento deles é que a gente mal tem tempo de fazer a pesquisa. A
+22:06
+gente sempre faz a pesquisa, vai publicar e tudo mais, sempre as pressas. Então
+quanto mais... Como
+é que a gente vai ter tempo para publicar os dados, preparar a nossa pesquisa para estar aberta, e auxiliar talvez outros grupos? Então
+quando precisa, a gente gera os dados, entrega os dados e tudo mais. E
+22:24
+aí junto com o tempo e o esforço, a gente tem de novo o prazo. Então
+eles acabam fazendo um try -dough, e olha, eu termino minha pesquisa, escrevo artigo e publico, ou eu vou ter que dedicar mais tempo, talvez o aluno daqui de prorrogação, e tudo mais, para poder preparar os dados, e deixar tudo prontinho e bonitinho, vamos pensar assim no mundo, o topo, talvez ideal, e deixar toda aquela pesquisa disponível para que outras pessoas possam utilizar. Claro
+22:53
+que aí vem vários argumentos do tipo eu não abro meus dados, porque as pessoas podem, os grupos ou alguns interessados podem pegar esses dados, eles podem gerar informação com isso, ganhar dinheiro e tudo mais. Só
+23:09
+que a gente tem alguns pontos que são importantes, como por exemplo, licenciamento de artefatos, dados e tudo mais, que é uma coisa legalmente aceita no Brasil. Então
+você pode colocar licenças, que são exclusivas para a Código de Fonte, licenças que são para texto, documento, então tudo isso pode ser licenciado. E
+23:31
+claro que nem todos os dados, por confidência de verdade, podem ser abertos, mas normalmente o que se tem, e que a gente vê nas pesquisas internacionais, é um tempo de, entre aspas, se giro dos dados, e depois isso pode ser aberto e tudo mais, até porque tem finançamento público, e é uma questão assim, uma questão mais legal de direito e tudo mais. Mas
+23:53
+o pessoal basicamente não tem feito isso por causa do tempo e da pressão. Mas
+eu penso que, e é o que eu tento transmitir para o nosso grupo de pesquisas aqui, pelo menos para quem eu tenho oportunidade de falar, como hoje, por exemplo, claro que a gente tem que estabelecer os prazos, a gente tem que respeitar os prazos e tudo mais, mas se a gente pensar que nós somos pesquisadores, então a gente parte do princípio de que a gente tem uma obrigação ética, moral, de que o que a gente faz é ciência. E
+24:32
+para que se passa ciência se não for para a melhoria da sociedade? Não
+é só para a gente estudar, fazer um concurso, de forma como a gente faz no Brasil, entra numa instituição pública, tem a sua dedicação exclusiva, tem a sua estabilidade no emprego, e aí, entretanto, você fica, de certa maneira, brincando de fazer pesquisa. A
+24:54
+gente quer ter impacto em isso, a gente quer ser reconhecido. Então
+essa obrigação ética, nossa, ela acaba, ela vai acabar nossas pesquisas, vai acabar tendo um impacto social muitas vezes. A
+gente acha que um trabalhinho que a gente fez pequeno, ele não tem um impacto, a gente publicou o artigo, a gente teve duas, três citações, mas quando a gente vai ver o impacto da aplicação daquele lá que não é medida por citação, ele é muito maior. Vou
+25:24
+dar um exemplo aqui de um colega que tem aqui nosso programa, ele fez um software nas pesquisas com os alunos, que é para o agendamento de horários de disciplinas e cargos de artigos nas escolas do estado do Paraná. Ele
+publicou um artigo sobre essa ferramenta, e a ferramenta ela é utilizada em mais de 2 .500 escolas do estado do Paraná. Então,
+25:50
+assim, o impacto que isso teve, cada mês ele recebe mais pedidos de convênio com a universidade para usar a ferramenta e tudo mais, então é só como é que isso impactou a sociedade, de uma madeira ali, um nicho específico da sociedade, sem ter muita publicação. Então,
+26:08
+a gente como pesquisador, a gente tem essa obrigação de olhar para esse impacto que a sociedade vai produzir não só o número dos artigos publicados e citados. A
+gente pode ver isso pela última avaliação quadrional, não sei se todos poderiam acompanhar, mas a última avaliação quadrional da CAHPS, dos programas de pós -graduação, ela já teve um item específico de impacto social, que a gente tinha que descrever o impacto social das pesquisas do programa de pós -graduação. E
+26:39
+para isso, a gente já começa a verificar na avaliação quadrional que não se está mais exigindo todo o rol de publicações de todos os pesquisadores do programa. Eles
+26:55
+querem saber principalmente as principais publicações, que é aquele 4N que eles pedem. Quais
+são as principais publicações de cada... Desculpa,
+publicação não, produção. Quais
+são as principais produções de cada orientador do programa? Por
+quê? Porque
+está citando essa ideia de que somente a publicação talvez não tenha o impacto social desejado da pesquisa, da sociedade. Mas
+27:19
+sim aquilo que a gente faz que diretamente impacta. E
+aí vale a pena até nossa audiência se tiver curiosidade, aqueles que não conhecem ainda, olhar as metas de desormece sustentável da ONU. Eles
+27:34
+têm 17 metas, que são metas bem interessantes e que a gente consegue basicamente já poder dar uma boa olhada com, cá está ali, por exemplo, 3 ou 4 metas nas nossas pesquisas de engenhar de sóculo. Então
+a gente consegue colaborar muito com a sociedade. Então
+27:51
+a gente acaba não fazendo esse esforço para colocar as nossas práticas em se aberta e a gente perde a oportunidade de colaborações, por exemplo, de um conjunto de dados, ou um software que você desenvolveu, dele ter citações de uso em artigos. A
+28:10
+gente entender, por exemplo, como é que um conjunto de dados de uma pesquisa pode ter impactado em outra pesquisa e dali isso vai ser ramificando para outras pesquisas. Uma
+coisa interessante disso, é saber de onde surgiram aqueles dados, qual foi a pesquisa seminal, ali que gerou os dados, que foram usados, enfim, tem um monte de coisa. Então
+28:29
+respondendo de uma forma direta, compensa sim, dá muito trabalho, porque a gente ainda precisa aprender mais sobre as práticas de se aberta. Ainda
+é um universo que a gente está navegando. Mas
+será que eu faço isso, ou eu faço aquilo? Porque
+28:45
+as áreas de pesquisa são diferentes. A
+medicina é diferente da física, a gente vai ver a computação, é diferente daquilo. Então
+para alguns determinados aperfatos, são mais importantes para outros, não. Então
+talvez começar a olhar para nossa área, por exemplo, o direito de software, o que é importante para a gente? Abrir
+29:02
+ou poder abrir esse esforço e colocar isso como uma possibilidade de colaboração e de impacto social. Eu
+tenho pedido para os alunos, todos que entram agora nos últimos anos, eles colocaram sempre uma linha no cronograma de atividades dele, que é preparar a pesquisa para ciência aberta. Desde
+29:19
+o início. Vai
+começar um protocolo de uma revisão semática, por exemplo, ou vai fazer um server, já prepara isso tudo de acordo com formas de deixar isso aberto e tudo mais. Tem
+algumas recomendações bem legais na literatura que a gente tem seguido e que a gente pode basicamente utilizar para isso. Só
+29:39
+para fechar essa pergunta, tem três pilares que eu tenho tentado trabalhar na pesquisa para, de uma certa maneira, justificar esse trabalho, recompensar esse investimento todo em preparar pesquisa. Aqui
+29:55
+para mim acho que são fundamentais. Uma
+que é o Furnace, outro que é a reproducibilidade, o reproducibilize e as práticas de opensar e esqui -englobam esses três elementos. Então,
+eu acho que isso aí é muito importante, principalmente para quem a gente quer, para quem a gente quer alcançar que é a sociedade. E
+30:14
+nós como software, direito de software, direito de software é transversal a todas as áreas. Então,
+a gente sem querer impacta as outras áreas de alguma maneira. Certo,
+Edison, com toda essa contextualização, falando um pouco a respeito de como, mesmo que o esforço seja grande, quanto é importante que a gente pense e pratique a ciência aberta, tem aqui uma afirmação para você que eu não sei se você vai concordar ou não, mas, de sua opinião, porque a ciência aberta ainda não deslanchou. Pois
+30:56
+é, é uma boa afirmação, talvez até uma pergunta e mais um ponto de discussão. Verdade,
+talvez uma pergunta mesmo. Eu
+concordo, em parte, que ela não deslanchou. Por
+que eu concordo em parte? Porque
+na nossa área, computação, vamos falar de computação principalmente, que a gente desce um pouquinho com a engenharia, isso não ainda não está muito avançado em termos do que se gostaria que tivesse. Com
+31:25
+a Comissão Europeia, a América do Norte, esse tipo de relatórios que ele tem, de guidelines talvez, para seguir metas e tudo mais. Mas
+outras áreas na Europa, principalmente, eu tenho visto o pessoal de ciências biológicas, medicina, farmácia, eles lidam com muitos dados. Eu
+31:47
+estou falando de dados por ser o principal artefato, toda a pesquisa acaba gerando, mas tem outros artefatos que são peculiários a cada área. Mas
+fazendo um paralelo com essas áreas, eu vejo que Engenharia de Software está ainda engatinhando. Estamos
+começando a olhar para isso e a gente pode ver que outras áreas tem, por exemplo, planos de gestão de dados bem formalizados. Se
+32:14
+a gente entrar, por exemplo, tem um framework bem interessante, uma aplicação web, chama Open Science Framework, o ASF. Lá
+a gente consegue colocar as nossas pesquisas, abrir, criar os protocolos e tudo mais. Se
+a gente for fazer uma busca, a gente vai ver computação, bem pouquinho que tem, e as outras áreas explodindo de coisas interessantes que tem lá para compartilhar dados e tudo mais. Então
+32:36
+eu acho que a computação ainda está resolvendo problemas, que ela ainda mesmo não conseguiu resolver dela mesmo, por exemplo, inteligência artificial, a gente está lidando com isso agora. Agora
+não, já faz alguns anos, mas está realmente no pico, é agora, né? E
+32:54
+porque Engenharia de Software e Computação se tem muito novo, a gente não tem 200 anos, 160, 70 anos por aí, então nós somos muito novos ainda. Mas
+o que me chama a atenção é que nós somos a área que tem o maior potencial de impacto para as outras áreas para ajudar na disseminação e adoção das práticas de ciência aberta. Por
+33:15
+quê? Porque
+a gente consegue construir coisas que os outros podem utilizar, software, plataforma, hardware, enfim, aplicativos, e que outras áreas não têm esse conhecimento. Então
+eu concordo que ela não desancho ainda para a nossa área olhando, porque a gente precisa olhar para isso com mais afinco, mais seriedade, porque outras áreas já estão bem avançadas, e essas áreas têm demonstrado o que é possível fazer. Se
+33:47
+nós que somos provedores de ferramental e tudo mais que pode ser utilizado por outras áreas, por que a gente não consegue aplicar as práticas para a nossa própria área? Então
+é só uma reflexão que a gente vem fazendo. Quando
+a gente criou o workshop de Ciência Aberta do Dentro de Software, Open Science, eu e a Cristina Avonflah, a gente tinha a ideia de que a gente precisa despertar essa discussão na área de gerir de software, e talvez até subir um pouco mais para a sociedade de base de computação, CAP, CNPQ, porque basicamente que gerir de software e computação são as áreas que conseguem fornecer os meios para isso. A
+34:31
+gente pode, de certa maneira, construir, automatizar tudo que outras áreas, praticamente tudo que outras áreas precisam. Então
+nós somos um meio, talvez, mais indicado para estarar todo esse processo e permitir para a nossa própria área também. Então
+a gente precisa entrar mais a fundo. O
+34:48
+que eu venho percebendo é que falta... faltam
+duas coisas, na verdade. Uma
+delas é o conhecimento sobre Ciência Aberta. Se
+a gente falar Ciência Aberta, ele é um top muito alto. Tem
+muita coisa lá dentro. É
+igual a que eu preciso aprender sobre inteligência artificial. Tem
+35:06
+muita coisa. Onde
+você vai focar. Então
+ele precisa ser instruído em Ciência Aberta. Então
+essa é uma das coisas que eu acho que precisam ser feitas. A
+Cristina já começou uma disciplina lá na Federal da Bahia. A
+35:23
+gente começou agora nesse mês uma disciplina de Ciência Aberta aqui na UEM. A
+gente fez o presencial e provavelmente nos próximos anos a gente vai fazer ela online para permitir que outras pessoas possam participar. Então
+a gente está começando a tentar trabalhar de forma instrucional. De
+35:42
+forma formativa. Tentar
+levar o conhecimento das pessoas para que daí elas despertem de aquele gancho de, poxa, eu podia fazer isso aqui na minha área. Eu
+trabalho com mineração de repositoros. Eu
+poderia fazer isso. Eu
+trabalho com software de pesquisa. Eu
+35:57
+poderia aplicar isso. Eu
+trabalho principalmente com experimentos. Como
+é que eu faço proveniência, curadoria, preservação de dados. Enfim,
+tem um monte de coisas que a gente, de engenharia de software, consegue resolver, mas precisa a gente levar a fundo. Outro
+36:17
+argumento, ou talvez outro fato, que talvez ainda não tenha despertado é que nós, por enquanto, não estamos obrigados a fazer nada nesse sentido. Em
+termos institucionais, a própria instituição, as próprias instituições podem não ainda ter esse conhecimento sobre si em se aberta e de uma certa maneira levar isso para os pesquisadores e exigirem isso. Exigirem
+36:46
+um termo forte, mas comentar, promover. E
+a gente também ainda não tem muita recompensa para quem pratica a ciência aberta. Que
+é uma coisa que, por exemplo, na Europa, se a gente pegar as universidades holandêsas, nem todas, mas grande parte delas, elas têm usado o engajamento e a ciência aberta para a avaliação da carreira dos professores e não somente publicação e o quanto de dinheiro se traz para a universidade, aquele modelo americanizado. Do
+37:18
+quanto o pesquisador consegue de dinheiro, traz para a universidade e as publicações que ele tem. Mas
+sim olhar para a abertura das pesquisas o quanto que aquela universidade ou aquele professor ou pesquisador está envolvido. E
+aí eles começam a usar isso como formas de subir na carreira, promover a carreira. Então,
+37:34
+assim, tem várias coisas que eu acho que falta também uma discussão um pouco mais aprofundada nas nossas entidades. SBC,
+por exemplo, que é a nossa entidade da computação. CAP,
+37:49
+CNPQ, até alguma iniciativa, começou alguma coisa com o CNPQ e BICT, que era um plano nacional de ciência aberta e eu acho que acabou não indo muito para frente. Então,
+assim, tem essas... está
+38:04
+faltando isso ainda um pouco a gente olhar mais e despertar esse conhecimento. Está
+parecendo, muitas vezes parece que CNPQ é algo bonito que eu vou colocar no meu trabalho. Ou
+que, poxa, se der tempo eu faço, não der, vou publicar e vamos embora. Eu
+38:21
+acho que CNPQ vem um pouquinho para derrubar aquele PubShorePers, que a gente já conhece, e tentar olhar para esse lado de pesquisa ético que a gente tem e de impacto na sociedade principalmente. Porque
+38:37
+aquilo que a gente faz tem que impactar a sociedade. Certo.
+Agora
+a gente vai entrar em uma segunda fase da nossa entrevista, em que a gente conversa sobre alguns artigos específicos da pessoa entrevistada. Eu
+38:54
+vou aproveitar e também avisar que eu vou deixar na descrição do episódio o link para uma apresentação que você fez lá no fórum dos programas de pós -graduação e computação do Paraná, que é a palestra se chama Open Science as the theft fair reproducible. Computer
+39:09
+Science Research, pesado o nome está em inglês, a palestra foi em português. Foi,
+eu falei isso. Ou
+seja, muitas pessoas quisessem se aprofundar, mas o artigo que eu vou fazer a pergunta sobre ele para você se chama Uma visão sobre Ciência Aberta para a Evolução da Pesquisa e Prata em Engenho e de Software. E
+39:29
+novamente, como a gente geralmente faz, eu traduz o título do artigo, mas o link para o artigo está na descrição do episódio, se bem que, como a gente já falou, nem todo título de artigo que a gente coloca, você vai conseguir encontrar o PDF dele. Mas
+39:46
+enfim, esse artigo foi apresentado no FSE 2024, aconteceu recentemente em Porto de Galinhas. Tem
+como qual autor, as duas pessoas que já estiveram aqui no podcast, a Fernanda Madeira e o Sérgio Soares, que se não me engano, são os responsáveis esse ano pelo Open Science CC, que é um evento que vai acontecer no Congresso CB Software, aqui em Curitiba, e também são autores ao Semir Santos e a Cristina Van Flaak que você mencionou. Nesse
+40:14
+artigo, vocês compartilham uma visão para Ciência Aberta. Qual
+é esta visão? Como
+é que pesquisadores e pesquisadoras podem adotar a Ciência Aberta como um requisito de pesquisa de primeira classe? Legal,
+só fazer um esclarecimento, rapidinho, o artigo FSE, ele é um artigo de visão, artigo curto, cinco páginas, se não me engano, a gente tem a nossa versão no archive, então você pode passar o link também, porque a versão original ela está aplicada na CIN. Bom,
+40:45
+essa visão que a gente tem, ela é fruto de pesquisas que cada um de nós cinco autores tem feito nos últimos anos aí e tentando encaixar isso tudo, são cinco pessoas que gostam, são muitos rastras da ideia de Ciência Aberta, cada um tem a sua visão, claro que puxa isso para as suas pesquisas, a gente consegue relacionar isso tudo. Então,
+41:15
+o que a gente pensou nesse artigo foi tentar juntar experiências que cada um tem, o que está começando a ter em Ciência Aberta, porque se a gente for buscar o tema Ciência Aberta em gerido de software, a gente não vai achar quase nada, mas então o que a gente faz? A
+41:31
+gente olha para as práticas que permeiam Ciência Aberta, o que Ciência Aberta engloba e aí a gente consegue trazer coisas que estão sendo feitas para essa discussão. Então
+essa ideia foi olhar para essas experiências que a gente está tendo e que a gente entende que a área de gerido de software deveria ter uma visão baseada no que a gente vem lendo, no que a gente vem participando, alguns de nós participou de workshops na Europa sobre Ciência Aberta, atividades de curadoria, atividades de como se coloca um software de pesquisa, como se abre esse software, como se pratica Ciência Cidadã, por exemplo, traz as pessoas para colaborar em pesquisa. E
+42:17
+aí a gente acabou caindo, estruturando, a gente chamou de um framework, e esse framework tem basicamente seis dimensões, a gente entende que se relacionam e que as pessoas podem olhar para esse framework e muitas vezes tentarem encaixar sua pesquisa em uma ou mais dimensões daquele framework. Como
+42:38
+é que eu posso praticar Ciência Aberta olhando para uma dessas dimensões ou dimensões relacionadas umas com as outras? E
+aí no artigo, como é um artigo curto, a gente fala um pouco sobre cada dimensão. O
+que se espera daquela dimensão? O
+que se está fazendo? Qual
+42:55
+é o nosso ponto de vista que poderia ser feito para ajudar até a deslanchar Ciência Aberta em direitos de software? Então
+a gente começa a trabalhar com um deles, alguns deles. Então
+a gente basicamente definiu uma dimensão que é para reconhecimento e premiação de pesquisadores. Eu
+43:14
+discuti um pouquinho naquela pergunta anterior, porque, por exemplo, a Holanda tem feito isso, ela tem premiado esses pesquisadores na avaliação das suas carreiras pela aplicação de Ciência Aberta. Como
+é que isso pode ser feito? Por
+exemplo, como é que a gente pode compartilhar os nossos artefatos? Por
+43:32
+exemplo, várias trilhas dos principais eventos internacionais de direitos de software, eles têm chamada de avaliação de artefatos. Esse
+ano o Open Science está implementando isso. Está
+chamando os artigos, aceitos dos BES para mandar em seus artefatos para o Open Science, para ter avaliação, receber os BEDs. Esses
+43:53
+internacionais recebem os BEDs, normalmente da CME ou algum outro, no Open Science e foram definidos BEDs do CBSoft. Então
+isso de uma certa maneira traz premiações, traz reconhecimento, traz citações para esses artefatos. Isso
+44:09
+é uma coisa interessante. Essa
+é uma dimensão, a outra dimensão. A
+gente tem trabalhado nessa ideia de como a gente publica a pesquisa tentando praticar Ciência Aberta. Como
+é que eu coloco um repositório? Como
+é que eu defino meus dados? Por
+44:25
+exemplo, não posso sempre nem pegar uma planilha do Excel, por exemplo, e colocar no repositório, porque é um formato próprio. Apesar
+de que o Microsoft tinha adotado formatos abertos aí, mas enfim, é um formato um pouco mais difícil de processar. Então
+por que eu não coloco meus dados no formato CSV, por exemplo, que a gente pode processar, porque eu não abro os meus scripts R, script Python, enfim, tudo que é feito. E
+44:49
+isso tem a ver também com o que o ador falou no início, que os periódicos estão exigindo cada vez mais os dados, os artefatos e tudo mais. Então
+a gente já está se preparando para quando pedirem isso para a gente até pronto. Infraestrutura
+como código, como é que a gente organiza uma infraestrutura de código para que isso possa ser compartilhado? Por
+45:12
+exemplo, códigos que são submetidos para publicação em periódicos ou eventos e que você precisa anonimizar esse código, pelo menos na forma de avaliação. Então
+existe, por exemplo, o Anonymous GitHub, que teve algumas das primeiras palestras que a gente teve no Pensais 2021. O
+45:33
+rapaz que criou o Anonymous GitHub, ele trouxe para a gente uma forma de fazer isso, uma organização de código, uma coisa bem interessante. Outra
+dimensão importante que é de estudos emídicos, como é que a gente traz um pouco mais de rigor, o que a gente precisa fazer, que a gente não alcançou ainda em termos de rigor científico para os nossos estudos, experimentos, surveys, entrevistas, tudo aquilo. Você
+46:00
+falou no início, Adolfo, eu fui pesquisar lá, tinha um paper que falava mal lá da linguagem, eu fui pedir os repositórios porque não tinha. E
+aí você passa para o cara que foi o autor, o autor não sabe que está no grupo, e aí está dando uma página que quebrou o link e mais aí você perde. Então
+46:19
+a gente tem visto isso nos service que a gente faz com frequência. O
+que mais? Educação
+e treinamento. Educação
+e treinamento no sentido de educar sobre ciência aberta, instruir as pessoas sobre o que é ciência aberta e como ela pode ser praticada nas nossas áreas. Esse
+46:38
+é o objetivo principal dessa disciplina que eu falei, que a Fisica também tem. Então
+começar aos pouquinhos formar as pessoas com esse conhecimento e aí começar desse conhecimento as pessoas irem pincelando para os seus projetos de pesquisa o que elas conseguem fazer, sugerindo formas de praticar ciência aberta. Então
+46:58
+esse foi o principal objetivo do workshop que a gente criou, quando a gente criou, vou pensar, isso era isso. Trazer
+criatividade das pessoas no que elas poderiam fazer para ir ao encontro das práticas de ciência aberta. E
+aí por último, mas não menos importante, e é o que a Engelite Software sabe fazer, que é apoio ferramental. Construir
+47:20
+ferramentas, software, scripts, tudo mais que possam dar apoio para praticar ciência aberta. Por
+exemplo, eu quero transformar dados, sei lá, de CSV para um outro formato, eu quero processar os dados de uma planilha que foram disponibilizados, eu posso disponibilizar os dados, eu posso ter os metadados desses dados e eu posso ter um script que processa esses dados, por exemplo. Então
+47:42
+uma coisa interessante de ser feito, a gente tem esse conhecimento para fazer isso, Engelite Software é mais do que apropriada para esse tipo de coisa. Então
+aí para cá ver uma dessas visões, a gente tentou delinear alguns caminhos que os nossos colegas da Engelite Software podem tentar entrar um pouquinho mais a fundo. Tem
+48:04
+pessoas que se identificam mais com ferramentas, tem pessoas que gostam dos estudos entre os mais, gostam de fazer revisão sistemática, gostam de fazer isso, como é que eles podem melhorar a comunicação dos seus estudos. Pessoas
+que gostam muito dessa questão de, olha, será que a gente não consegue começar um movimento de valorização do profissional, olhando o tanto que era impacto na sociedade, talvez a variação dos programas de pós -graduação. Então
+48:31
+é para começar mesmo a provocar a nossa comunidade para que ela possa aos pouquinhos e fazendo suas pesquisas aos poucos e isso de uma certa forma criando um corpo interessante para que a gente tenha novas tecnologias que possam ser utilizadas, novos checklists, novos guidelines, enfim, tudo isso que possa ajudar a comunidade a pensar em como implementar essas ideias. Vale
+48:59
+a pena, é um artigo curto, acho que uma horinha você veria assim bem tranquilamente, não tem nada muito difícil, claro que vai ter que, talvez depois buscar alguns conceitos que complementam, mas a ideia é que a gente consiga implementar esse framework aí nos próximos anos. Muito
+49:19
+bom. Bem,
+agora a gente vai falar de um outro artigo, não é? O
+título desse artigo é como a experimentação em engenharia de software tem sido ensinada, pesquisa e agenda de pesquisa. Esse
+artigo foi publicado no ISE 2022 e aqui também a gente tem um dos co -outores que já foi entrevistado pelo Fronteiro de Engenharia de Software, que é o Igor Steinmaker. Bem,
+49:48
+a gente sabe que fazer experimentos é muito importante na engenharia de software e que é muito difícil fazer bem feito também, então nós precisamos, é claro, planejar bem, ter autorização do comitê de ética, encontrar os sujeitos, ou seja, as pessoas que vão participar do experimento, entre outras coisas. Sabemos
+50:12
+também que um experimento em ciência é diferente do que a população em geral chama de experimento, é um processo bem mais rigoroso. Sendo
+assim, é muito importante ensinar os jovens pesquisadores a fazer experimentos. Bem,
+50:29
+aí vem esse artigo, nesse artigo você procurou, ou pelo artigo, a gente consegue entender como a experimentação em engenharia de software tem sido ensinada e o que nós queremos saber aqui é quais foram os principais resultados desse artigo. Legal,
+50:55
+esse artigo surgiu de um aluno de mestrado, meu ex -aluno de mestrado e hoje ele faz do outro lado, no mesmo tema, o Carlos Danilo. A
+ideia foi a gente tentar entender como é que a comunidade ensina a experimentação em engenharia de software. Então,
+51:14
+a gente tem vários fontes de informação, vários textos de referência, muito bons. A
+gente tem o livro do Bolin, tem o namorando da matalha jurista, então você tem referências clássicas na área. Mas
+51:31
+a gente não tem assim muitos indícios de, por exemplo, como é que isso tem sido feito, como é que tem sido ensinado a experimentação. E
+aí tem aqui, eu não me engano, acho que são dois artigos, um do Bolin e o outro me falha o autor agora, mas que falam sobre isso, como ensinar a experimentação e discorrem um pouquinho, mas eles não trazem elementos que fazem parte do ensino. Por
+51:57
+exemplo, quais são os materiais, como esses materiais são disponibilizados aos alunos, existe uma fonte, um repositório que a gente poderia recorrer para pegar, por exemplo, alguns exemplos trabalhados desses experimentos. Enfim,
+52:13
+se colocando na posição de professores de experimentação, quais materiais, além do nosso que a gente tem, que a gente recorre, que poderiam nos ajudar a melhorar as nossas aulas. Então,
+sempre é bom ter exemplos, tipos de atividades que são feitas, além daquelas clássicas que a gente conhece. E
+52:31
+eu venho ministrando a experimentação há mais de dez anos aqui no nosso programa, cada ano. Então,
+tento melhorar um pouquinho mais, será que o artigo é um artigo novos, porque sempre é um tema de discussão, bastante interessante, principalmente da comunidade de direitos de software de Nier, que é o software mental, o Nier, e eu tinha curiosidade de saber como é que as pessoas, principalmente, de comunidade internacional, estavam trabalhando com o tema. E
+53:01
+eu tenho um interesse muito grande, sempre foi um interesse meu particular de experimentos controlados. Eu
+gosto muito, eu acho muito interessante a forma que eu estou a fazer, eu sei que não é fácil fazer, a gente já fez vários aqui, é difícil a gente trazer as condições, que são ideais para um experimento controlado, e a gente acaba normalmente fazendo o que a gente chama de quase experimento controlado. Enfim,
+53:27
+a gente queria entender como isso, e aí ele fez esse server, tipo, ele foi no server e distribuiu em vários canais de comunicação, mandou para autores de antigos, as várias conferências internacionais que a gente tem no top, na nossa área, Ezen, UYAS, e a gente mandou na E -LIX, enfim, várias conferências que normalmente têm se discutido sobre experimentação. A
+53:51
+gente tinha, se eu não me engano, uma amostra estimada de 300 pessoas, para quem a gente mandou convite. E
+a gente conseguiu, na nossa final, 31 pessoas. Por
+ser um server um pouco mais demorado, porque exige a pessoa pensar um pouco como ela organiza sua disciplina, localizar materiais que ela usa, as vezes materiais estão brincados em fontes diferentes e tudo mais, a gente conseguiu 31 pessoas e a gente ficou bem feliz com isso. A
+54:22
+gente imaginava que daria bem menos. Enfim,
+quando a gente pode olhar os dados desse server, a gente olhou basicamente como é que os materiais, que tipo de material é usado, como é que eles eram organizados, que práticas de ensino e aprendizagem são usadas, que tipo de avaliação de aprendizagem foi feita para saber se o aluno absorveu o conteúdo ou não, se tem sido utilizada alguma forma de aprendizagem ativa, que tipo de avaliação que é feita e por aí vai. Então,
+54:59
+assim, do que a gente conseguiu extrair esses dados e essas pessoas ajudaram demais, porque elas foram, grande parte delas, foi bem minuciosa na hora de responder os servers, colocando inclusive sugestões e outras coisas assim, foi um sujo bem bacana. Então,
+55:17
+o que a gente acabou trazendo, o que a gente conseguiu obter de dados e de aprendizagem com esse estudo, foi que grande parte dos respondentes, eles se dedicam a ensinar experimentação em uma disciplina exclusiva para isso. Porque
+55:36
+tem um artigo do Bollin de 2015 se eu não me engano, em que ele discute formas de ensinar. Pode
+ser um experimento, uma disciplina específica para a experimentação, pode ser uma disciplina em que a experimentação faz parte da avaliação de aprendizagem, pode ser uma disciplina em que conceitos de experimentação estão diluídos com o conceito de, por exemplo, qualidade de software, eminendação de repositórios, ou algo desse tipo. Então,
+56:01
+basicamente o que a gente pode perceber e foram respostas diretas, é que as pessoas têm uma disciplina exclusiva de experimentação que eles estudam, mas isso é majoritariamente. Então,
+tem pessoas que ainda diluem o conteúdo em outros disciplinos. Outras
+56:18
+coisas, texto de referência continua sendo do Bollin, da Natalia Jury, do Ida Ana Moreno, artigos mais recentes, por exemplo, artigos, por exemplo, no gato tem um conjunto de cinco ou seis artigos que discutem bastante sobre o uso de estudantes em experimentação. Isso
+56:37
+é uma coisa bastante legal. Tem
+artigos novos, recentes, agora de 2000, recentes para o DIPAC foi feita a pesquisa, de 2020, se eu não me engano, que falam sobre como é que se analisa a validade do experimento, mostrando, por exemplo, a relação que tem de uma validade interna, externa, de construito, de conclusão, fazendo essas relações porque o argumento deles é que muitos dos experimentos publicados, essa relação não está correta ou ela é subjetiva. Enfim,
+57:11
+tem muitas coisas que a gente aprendeu. Formas,
+por exemplo, de como avaliar se os alunos absorveram conteúdo ou não. Grande
+parte respondeu dizendo que eles perdem para os alunos fazerem reprodução de experimentos já publicados. Isso
+57:28
+é uma coisa interessante, até porque geram uma discussão sobre reputibilidade, de metodologia, escolhida, dados e tudo mais. Convidar
+palestrantes que têm bastante experiência para o assunto, chamar as pessoas para mostrar que muitas vezes o aluno não acredita muito naquilo que o professor está falando. Isso
+57:48
+é uma coisa interessante. Eu
+vejo isso muito na graduação. A
+gente está falando e eles falam assim, mas será que é isso mesmo? Então,
+se você chama uma pessoa de fora, dá uma palestra legal, mostra o que está acontecendo, e eles já falam que é legal e conseguem aplicar um pouco mais. Projetos
+práticos, provas escritas. Então,
+58:05
+você vê que não foge muito daquela cultura que a gente tem de provas escritas, exames, esses tipos de coisas que eles também utilizam em outros países. Materiais
+disponíveis, por exemplo, em ambientes de como mudam, por exemplo, ambientes virtuais, que permitem interação, criação de tarefas, esse tipo de coisa. Materiais
+58:29
+em repositórios que são comuns. Tem
+alguns materiais bem interessantes em sites, como por exemplo, alguns sites que são linkados com a CM e SIGSORT. É
+bem interessante esses materiais. Tem
+o pessoal, o Paul Ralph. Ele
+58:46
+tem um conjunto de guidelines, experimentos. Esse
+conjunto é muito utilizado para algumas diretrizes de ciência aberta, que várias das conferências internacionais estão implementando. Então,
+são materiais bem interessantes, mas a gente não vê, assim, nenhum, o que a gente pode perceber que não tem nenhum estudo, mostrando ou encaminhando para que materiais possam ser desenvolvidos de forma colaborativa para melhorar o ensino de experimentação. Por
+59:17
+exemplo, resolver um recurso educacional aberto, um look em que pessoas possam compartilhar e melhorar esses materiais, assim como os projetos compensores que são feitos no GitHub, por exemplo. Se
+pode abrir um projeto para as pessoas que são colaboradores, melhorar, isso é uma coisa que eu acho que seria bem interessante a gente ter na área, porque as pessoas de diferentes locais podem ter exemplos diferentes dos seus arranjos produtivos locais, por exemplo, ou de comunidades em que interage mais, e esses exemplos podem ser inseridos e melhorar muito a qualidade dos materiais. Então,
+59:53
+assim, tem várias coisas que a gente conseguiu captar, instalar, isso daí, e muita coisa que precisa ser feita ainda, que poderia ser feita, é o oportuno, para melhorar o ensino e a aprendizagem de engenharia de software experimental. Esse
+artigo, o interessante dele, não está no artigo, mas o trabalho de mestrado desse meu aluno, a partir desse server, junto com a revisão de literatura que eu fiz, foi gerar um modelo conceitual sobre experimentação e ensino de experimentação. E
+1:00:24
+aí, a gente pediu para algumas pessoas avaliarem, e as pessoas começaram a dizer, oh, que legal esse modelo, porque eu consigo relacionar os assuntos, os conceitos, eu posso usar ele, por exemplo, como um cheque listo para um experimento, ou eu posso usar ele como um cheque listo para eu preparar o meu sílabos, a minha estrutura de disciplina, com plano da disciplina, plano de aula, referências, guias de estudos e tudo mais. Então,
+1:00:51
+ficou um negócio bem bacana, que as pessoas podem ir seguindo o modelo conceitual e entendermos os elementos que tem relação entre si. Então,
+fica bacana, então, para um artigo, por exemplo, para aplicar o experimento, será que eu estou aderindo a esses conceitos aqui? Será
+que não é importante eu publicar esse, ou descrever melhor, metodologia, aspectos de tomada de decisão, aspectos de análise, de dados, técnicas e estatísticas aplicadas, inscrips que eu rodei no R, que me ajudaram, enfim. Tem
+1:01:24
+um monte de coisa aqui que a gente pode extrair esse trabalho. E
+agora ele está continuando um doutorado pensando em algum método, metodologia que apoia o ensino de experimentação. Inclusive,
+ele acabou de replicar esse experimento, a gente conseguiu mais 35 respostas, então a gente vai voltar e analisar tudo junto para ver o que teve diferente um do outro, o que pode ajudar a evoluir esse modelo conceitual. E
+1:01:50
+provavelmente ele vai para um caminho de desenvolver uma autologia para isso e para mesmo um portal que a gente já vem pensando aqui no doutorado, um portal de experimentos que a gente possa, além de poder ter acesso a experimentos, a gente ter práticas e aí voltando para ciência aberta, que a gente possa nos ajudar a melhorar a reproductibilidade, fazer o rastreamento dos dados e artefatos, enfim. Está
+1:02:15
+pensando em criar um portal nesse sentido de disseminar, comunicar aquilo que é feito mais aqui no caso em termos de experimentos. Então,
+basicamente, esse artigo gêro isso e desenhou, que está no decorreto do trabalho do doutorado, ele não qualificou, deve qualificar nos próximos meses, e o Higgs continua nos apoiando aí, participando do Higgs, é interessante, ele acaba tendo uma visão bem legal para nos ajudar. Legal.
+1:02:42
+Agora,
+a última pergunta sobre artigos, aqui você falou que você tem experiência em forense digital, está lá na sua página, web, inclusive, vem pesquisando e aplicando os conceitos de ciência aberta em gênero de software e em forense digital para ter mais reproductibilidade de experimentos controlados nessas áreas, e aí você tem um artigo chamado para um modelo conceitual para promover experimentos em forense digital. É
+1:03:11
+meio difícil traduzir esse título assim, mas é que vocês e seus coautores apresentaram o Expert DF -CM, um modelo conceitual para auxiliar pesquisadores em forense digital no planejamento, execução, análise e disseminação dos experimentos. Então,
+1:03:29
+para ir para a gente quais foram os principais resultados dessa avaliação desse modelo conceitual, como é que ele pode contribuir para facilitar a reprodução dos experimentos em forense digital? Bom,
+deixa eu só fazer um contexto rapidinho. Minha
+1:03:45
+vasta experiência em forense digital. Ela
+começou em 2018, na verdade. surgiu
+uma oportunidade de fazer um postdoc na PUC de Porto Alegre para o Sr. Avelino.
+Já
+colaborava com Avelino em outros projetos. E
+aí a PUC é uma das que estartou, que coordena o INCT de Ciências Forense, que é o nacional ciência de tecnologia, dentro daqueles vários INCTs que tinham um deles é o Ciências Forense, e uma das ramos de Ciência Forense era chamar de Informática Forense. Então,
+1:04:17
+eu pude trabalhar e entrar já nesse contexto. Mas
+qual foi a motivação de eu entrar numa área que eu basicamente não tinha conhecimento, só tinha ouvido falar de Ciências Forense, não tinha ouvido falar de Forense Digital. Na
+verdade, o termo que eu tinha ouvido falar era Computação Forense, e esse termo é um termo que caiu em desuso até por causa da evolução dos tipos de dispositivos que a gente tem digitais. Então,
+1:04:46
+a Computação Forense se restringia basicamente à computadora pessoal, à análise de computação de computador pessoal. E
+Forense Digital é qualquer dispositivo. Então,
+só para contextualizar o que é Ciências Forense? Ciências
+Forense é uma área que busca fazer com que uma determinada evidência que ela possa ser ou não utilizada em um processo criminal. Posso
+1:05:11
+ser utilizada legalmente. E
+aí existem vários tipos de evidência. E
+um dos ramos é onde entra a computação e foi chamado de Forense Digital porque é todo tipo de evidência no formato digital. Então,
+um vídeo está no formato digital, é representado com texto, um áudio, enfim. Qualquer
+1:05:35
+uma figura, uma imagem, um texto do WhatsApp, por exemplo, qualquer elemento digital pode ser uma evidência para um processo criminal. E
+aí o que eu pensei, e eu como sempre fui um entusiasta de experimentação, ingere de sótria, desde a minha graduação, sempre gostei muito. E
+1:05:55
+pude trabalhar com isso nos últimos anos, principalmente quando eu trabalhei com linha de produto, eu fiz muitos experimentos, então pude pegar gosto mesmo pelo tema. E
+eu queria aprender um pouco mais sobre experimentação no sentido de tentar ser mais rigoroso. Porque
+1:06:15
+muitos experimentos que eu pegava para revisar, em periódicos ou principalmente em conferências, eu acabava sempre tendo os mesmos problemas do tipo, ah, mas cadê os dados? Como
+é que os dados foram ferados? O
+que foi feito para chegar nessas conclusões? Os
+1:06:34
+dados dão respaldo, o corroboram para as conclusões, enfim, eu ficava sempre nesse... Se
+eu não consigo ter acesso a isso e não consigo entender as decisões tomadas, como é que eu vou me basear no experimento para eu ter essas evidências e aí seguir minha linha de pesquisa a partir desses experimentos? Então
+1:06:55
+eu queria aprender um pouco mais para melhorar os experimentos de gerençófico. Então,
+surgiu a oportunidade de trabalhar com forense, eu imaginei a minha premissa é de que, tipo, a parte porém -se, ela trabalha com evidências e as evidências são cruciais, ou importantes, estão mais importantes do que a argumentação do advogado, da testemunha, do júri, por exemplo, para condenação a não de uma pessoa. Imagine
+1:07:20
+que os experimentos lá em forense digital devem ser super rigorosos. Então,
+é uma oportunidade. Vamos
+olhar para essa área, vamos aprender, e aí a gente pode talvez trazer alguma coisa para a engenharia de sótria, contribuir a aprender como é que eu faço. Como
+já foi feito o processo de experimentação básico, desde a definição de hipóteses, de normais, isso não é da computação, todo mundo sabe, isso aí é milenar, e a gente impresta muita coisa da medicina, impresta muita coisa das ciências sociais e traz para a engenharia de sótria. Então,
+1:07:50
+foi mais uma ideia de, tipo, vamos olhar o que eles estão fazendo lá diferente, para tentar trazer isso para a engenharia de sótria. E
+aí, eu entrei no projeto, no postdoc, fiz um mapamento sistemático de experimentos, eu analisei mais de 300 experimentos, e aí, de vários veículos de publicação de forense digital, workshops, conferências, jornal, etc. E
+1:08:17
+aí, na hora que eu peguei os dados que eu fui extrair demais, e aí fui fazer análise, a minha surpresa foi de que era algo bastante informal. Exemplos
+assim, de coisas que a gente via. Conclusões
+1:08:33
+baseadas na média, por exemplo, de um algoritmo ser melhor que outro. Então,
+a gente sabe que a média, por si só, ela não é uma medida muito inteligente de se utilizar, mas combinada com outras, como, por exemplo, um teste de hipótese, ela é fundamental. Porque
+1:08:53
+a gente analisa a distância dos data points para a média e tudo mais, e vai analisando a variação disso aí dentro de um teste de hipótese. Então,
+a gente via coisas assim, tipo, o algoritmo deu 0 ,1 melhor que o outro. Então,
+1:09:08
+isso aqui já conclui, aquele era melhor. Mas
+o que é o 0 ,1? O
+qual é o impacto disso para o estado da arte daquele algoritmo, por exemplo? Então,
+assim, coisas que não eram muito formalizadas. E
+1:09:23
+uma coisa interessante é que nessa área, eles têm, assim, normalmente uma sessão, experimenta o data, dados experimentais, experimenta o Results, Resultados do experimento. Mas
+não tem a definição do experimento protocolo e não tem um link ou um ponteiro para esse protocolo externo e tal desse tipo. Então,
+1:09:46
+eu comecei a ficar até assustado. Eu
+falei, poxa, como é que softwares, plataformas, são desenvolvidas? Para,
+por exemplo, você analisar dados de um dispositivo móvel, umas conversas do WhatsApp, por exemplo, de uma pessoa que está ameacendo outra, como isso poderia ser utilizado, se na hora que se faz a análise e aquele algoritmo usado não tinha tanta evidência científica, experimental necessária, coisas bem formais, então eu fiquei bastante assustado. E
+1:10:21
+aí, eu pensei, poxa, eu acho que eles estão precisando mais da nossa ajuda do que a gente deles. Então,
+eu acho que eu vou acabar contribuindo mais do que eles poder contribuir com a experimentação para a engenharia de sorte. E
+até tem um dos autores bem conhecidos, que é o Norgan Casey. Ele
+1:10:38
+é uma diversidade dos Estados Unidos e ele fala muito que Estados Unidos é o país mais forte em forense digital. Eles
+são extremamente experts. Tanto
+é que a gente tem os vários CSI programas, os Estados Unidos leva isso muito a sério, desde atentados do World Trade Center e tudo mais, isso virou meio que uma obsessão para eles. Então,
+1:10:58
+os Estados Unidos e China têm investido muito nisso. Enfim,
+e esse autor fala sobre dificuldade de planejar e montar experimentos em forense digital e tudo mais. Mas
+1:11:13
+eu já troquei umas ideias com ele, a gente já publicou esses artigos e o pessoal de forense digital tem aceitado muito, tem gostado por ao menos essa ideia de que precisa de rigor científico mesmo. E
+1:11:29
+principalmente porque a forense digital tem um aspecto, dois aspectos, um deles é que eles têm muito produto caixa preta, particular, é propretado. Então,
+as empresas que, entretanto, dominam o mercado, em que eles têm uma caixa preta praticamente, em que você põe o seu dispositivo móvel lá e ele gera o resultado. Não
+1:11:53
+é bem assim, mas basicamente é isso. Se
+você não conhece o algoritmo que está ali dentro, você não conhece o que está acontecendo, não tem dado sobre isso. E
+o Jury, a Corte têm aceitado muito esses dispositivos porque de uma certa maneira eles seguem uma homologação que tem americana sobre forense e tudo mais. Mas
+1:12:13
+a gente não tem acesso. E
+o outro problema que a gente tem é que tudo aquilo que não é proprietário, que está aberto em termos de pesquisa, tem essa falha experimental grande, de não ser rigoroso, de não poder reproduzir os estudos, etc. Então,
+1:12:32
+a pessoa tem olhado, o ar começado, olha um pouco mais para esse rigor experimental. E
+guarda a evidência, na verdade, não é só experimental, é da evidência desde a metodologia da construção, da causa e efeito até chegar na interpretação do resultado, de uma hipótese, do teste hipótese, e como isso acaba sendo importante a não para as outras áreas, as áreas que estão circulando dentro de fome digital. E
+1:13:04
+aí a gente tem mobile, forensics, cloud, forensics, tem database, forensics, tem um monte de áreas que são as áreas da computação, todas elas dentro de forensics digital. Então,
+você imagina, é um maranhado de coisas aí que a gente não tem muita essa evidência que deveria. E
+1:13:23
+só para concluir essa experiência e já falo rapidinho em seu veículo artigo, isso tanto é evidente que ano passado eu dei uma palestra no Interforensics, que é um evento internacional de forensics, e foi em Brasília. E
+lá estavam peritos da Polícia Federal, Polícia científica, todos os ditados do Brasil estavam políticos, chefes de gabinete, pessoal de mais alto escalão que tenha vindo com segurança pública. E
+1:13:53
+esse pessoal realmente acabou de uma certa maneira vendo que precisa ser mais rigoroso, principalmente aqui na Polícia científica, as nossas polícias. A
+gente ainda não tem esse aspecto de rigor, eles sabarem, eles envolvem software e tudo mais, mas eles realmente falam, olha, a gente não tem feito isso mesmo, é mais na base da tentativa e erro, a gente vai trabalhando, vai analisando o que vai acontecendo e a gente vai utilizando para fazer perícia. Então,
+1:14:21
+por exemplo, no Paraná, a gente tem um engargalo muito grande de perícia forensics digital, em Curitiba, porque Curitiba é a única que faz análise forense em dispositivos móveis, por exemplo. A
+gente não tem isso na região Marigal, Andrín e outros lugares. Por
+1:14:37
+isso que surgiu no Estado Paraná em 2022, uma residencia tech de forensics para formar mão de obra para lançar um concurso para empregar pessoas. E
+aí eu sou um desses coordinadores, mais junto com outras pessoas aqui da UEM, a gente coordena essa residencia tech de forensics e a gente vê que realmente tem essa mão de obra, essa demanda. Então
+1:14:58
+fica até uma dica para o pessoal de computação, até engenharia de software, tem uma área de engenharia de software para forense, chamada Forensic Redness Software Engineering. Então,
+fica uma oportunidade de as pessoas talvez dê uma olhada nesse tema, por quê? Porque
+1:15:13
+são pessoas que têm conhecimento engenharia de software e do processo de desenvolvimento de software que podem desenvolver o software pronto para períces. Fraude,
+desvio de recurso, enfim, um monte de coisa. E
+os software normalmente têm que passar a curperiças, os software, por exemplo, de órgãos públicos e tudo mais, eles acabam passando para a auditoria de tempos em tempos. Então,
+1:15:35
+um dos ramos na engenharia de software que está começando a surgir é esse para preparar para forensics. Bom,
+eu fiz toda essa entrada, se criando, para falar desse artigo. Então,
+nesse artigo, a gente fez essa revisão, esse mapeamento eu fiz, e desse mapeamento tirei um modelo conceitual, com a mesma ideia, basicamente, daquele de ensino de experimentação, só que para os experimentos de forense digital, mostrando quais são os elementos mais importantes que têm sido reportados, aquilo que está faltando. E
+1:16:10
+aí usei, com base, lógico, a experiência de experimentação de direito de software, e trouxe para a forense digital esses elementos, então, quais são as fases de um experimento, como é que isso impacta, por exemplo, nas fases de investigação criminal de forense digital, que é, por exemplo, a identificação de uma evidência, a aquisição da evidência em si. Então,
+1:16:30
+por exemplo, tem uma data de busca na casa de uma pessoa, a pessoa está lá mexendo em seu computador, a primeira coisa que essa pessoa vai fazer é tentar desligar o computador, quebrar todos as suas conexões e tudo mais. Então,
+tem que ter, por exemplo, uma forma muito cuidadosa de adquirir esses dados, que estão nos dispositivos móveis, qualquer dispositivo que gere evidência digital, até mesmo o computador ligado. Se
+1:17:02
+você desliga o computador, você perde, por exemplo, a evidência que pode estar na memória RAM, que se chama Live Forensics. Então,
+essa é uma coisa assim que tem um processo todo, de chama de cadeia, de custódia também, como é que você pega essa evidência, como é que você armazena isso, como é que você duplica essa informação sem alterar o estado original, então, assim, tem um monte de coisa. Então,
+1:17:23
+como é que a experimentação acaba afetando essas áreas? E
+isso foi uma das coisas que o modelo conceitual ajudou a preparar. E
+agora eu tenho um aluno que está trabalhando em como que se... Qual
+1:17:38
+seria um aspecto, ou como que a gente poderia fazer para passar esse conhecimento para os practitioners, os profissionais de forense, para que eles possam aprender a fazer isso e para a parte acadêmica também. Uma
+certa maneira como ensinar a fazer esses experimentos, que parece não ser muito do conhecimento deles assim. Eu
+1:17:59
+achei acho que dois ativos muito bem estruturados, mas o resto era... coisa
+assim que está lá, se você disponíveis quem quiser dar uma olhada, assim, coisa de três, quatro pedagas sobre o estudo experimental, e aí mostrando ali a média, ou uma curácia criada lá e tudo mais, e já partiu as conclusões. Enfim,
+1:18:18
+basicamente, é isso e esse ativo, então, ele acaba trazendo essa relação do modelo conceitual dos estudos experimentais, basicamente o que a gente é a fase de softwares, só que daí relacionando as fases de investigação criminal que passa a forense digital. Eu
+1:18:34
+acho assim um assunto bem interessante, gostei muito, eu estou investindo mais nesse assunto. A
+gente está terminando a residencia técnica aqui, provavelmente a gente vai começar uma a outra, o ano que vem. Então,
+assim, tem muita coisa que a engenharia de software e a computação podem contribuir diretamente na área de forense digital. É
+1:18:57
+basicamente isso. Isso
+que é tão legal, né? Na
+engenharia de software, na computação, a gente acaba tendo a possibilidade de auxiliar, de apoiar muitas outras áreas, né? E
+1:19:12
+bem interessante você ir com uma expectativa e de repente perceber que era um otário, você ia se voar auxiliando bastante também nos experimentos lá e criando um modelo muito legal. É,
+eu imaginava algo de tipo assim, eles devem evitar o máximo, o falso positivo, né? Que
+1:19:32
+é o erro experimental lá, mais grande, né? Por
+exemplo, você condenar uma pessoa à prisão sendo uma pessoa inocente. Imagina
+por causa de um software que fez uma leitura não correta, fez um processamento errado e aquilo ser fundamental para a decisão do juro, né? Então,
+1:19:50
+imagina assim, aí chegando até ao extremo, né? Será
+que alguém já não foi condenado à prisão perfeita? Era
+de morte por causa de alguma coisa? Não
+sei, não sei. Tem
+alguns ativos que exporrem sobre isso, mas nada... Não
+deu nenhum exemplo lá, fulano foi condenado. Ficamos
+1:20:08
+assim que eu sei dos Estados Unidos, que eu vi já em alguns ativos, que a pessoa ficou presa 15, 20 anos, né? E
+que uma perícia, a curada mais moderna, revelou que a pessoa... A
+perícia é de forense digital. Revelou
+que a pessoa, ela era inocente, tinha vários indícios, mas a pessoa ficou presa 15 anos, né? Como
+1:20:28
+é que ele envolve isso para a pessoa? Não
+tem como, né? Não
+há o que pague esse tempo. É
+isso que eu acho, o GILITSOFT, eu acho que é a área assim, a gente é privilegiado. Porque
+a gente consegue contribuir, porque a gente tem o conhecimento de construção, de sorte e ele... A
+1:20:45
+gente está aprendendo, lógico, né? A
+gente é muito novo ainda. Mas
+a gente tem a possibilidade de contribuir, acho que, com todas as áreas. A
+gente contribui para as outras áreas da computação e também para as outras áreas da ciência. Também
+1:21:01
+concordo com você. Bem,
+vamos lá. Então,
+passando aqui para outros temas agora, você fez graduação em mestrado, em Maringá, né? E
+depois saiu para fazer doutorado em São Carlos. Voltou
+para ser professora em Maringá. E
+1:21:16
+aí a gente pergunta, né? Como
+era ontem e é hoje o cenário da tecnologia e da pesquisa em computação em Maringá? Bom,
+mudou muito, muito, muito. Mudou
+demais, isso... Eu
+me formei na graduação em 2002, em 2003 comecei a meçar, até a minha segunda -feira em 2005. Então,
+1:21:37
+vamos colocar aí 20 anos, né? Então,
+é demais. Maringá,
+ela virou praticamente um polo de tecnologia, tá? Nesses
+últimos... Vamos
+colocar aí 15, 20 anos, né? Teve
+muitas ações da prefeitura, do Estado, entre mais que ajudaram isso. Maringá
+1:21:56
+tem uma particularidade que é uma cidade ainda com um custo de vida legal e interessante, né? Para
+morar. Ela
+tem atraído muita gente. A
+gente, inclusive, vê como pessoas de outros lugares têm vindo para cá. Não
+1:22:14
+só mão de obra qualificada, né? Mas
+a gente pega até, por exemplo, pessoas de outros países. A
+gente vê vinesoelorâmos, pessoal que tudo vindo para cá, pela qualidade de vida da cidade. A
+gente até foi... Foi
+matéria de reportagem de que era a melhor cidade para morar no Brasil e tudo mais. As
+1:22:34
+empresas, como elas não são bombas, elas sabem disso, né? E
+elas investem muito, têm investido muito em Maringá, têm vindo empresas de grande porte para cá. Mas,
+principalmente, têm surgido muita empresa de pequena e média de porte, né? E
+1:22:49
+Maringá, ela... Até
+conversei ontem com o presidente da Sotter Bay Maringá, que é uma associação aqui, que grande parte das empresas se associa, está relacionado, né? E
+ele me falou que tem um último pesquisa, último serve de 2022, se falar no engano, que tinha em torno de 945 empresas de TI. Então,
+1:23:13
+hoje deve estar aberrando o miú. Vou
+colocar miú, tá? Miú
+empresas de TI. Alunos
+aqui da UEM de faculdades particulares, eles, basicamente, que têm conhecimento inicial de programação, em primeiros, segundo anos, já estão praticamente empregados. Então,
+1:23:32
+assim, o mercado está bem aquecido aqui. Tem
+ex -alunos nossos que estão trabalhando com empresas de outros países, Estados Unidos, Canadá, Europa, né? E
+que optaram por continuar morando em Maringá pela qualidade de vida e tudo mais. Recebendo
+1:23:50
+um dólar, eu, é muito bom também. Então,
+assim, é uma cidade, é um polo, Maringá é região muito propício para tecnologia. Tecnologia,
+informação, comunicação, inovação, principalmente. O
+1:24:06
+pessoal tem atraído muito essa questão da inovação, com parque tecnológico. Enfim,
+é uma cidade que hoje, por exemplo, eu dificilmente eu sairia daqui. Eu,
+como pesquisador, professor, a universidade me dá muitas coisas daquilo que eu preciso, mas como profissional mesmo, uma pessoa formada na área, mas ela tem tido oportunidade para trabalhar aqui, sim. Claro
+1:24:32
+que passa pelos vários estágios da carreira, mas não tem faltado, não tem tido índices de desemprego de tecnologia, pelo contrário. A
+concorrência é bem grande. E
+assim, eles pegam o pessoal dos primeiros anos para ter toda uma formação das características organizacionais e tudo mais, essa pessoa vai escalando. E
+1:24:57
+assim, uma coisa que eu tenho notado também, e isso me parece interessante, os tempos atrás acharia meio que uma loucura, é a alta rotatividade das pessoas que eu tenho visto. Porque
+as pessoas vão ganhando conhecimento e as empresas, a empresa maior, mesmo na região, pega esse pessoal, ele ganha mais um pouco de experiência e outra empresa vem e pega. Então,
+1:25:18
+isso me parece ser hoje uma característica interessante, essa rotatividade positiva, antigamente a gente via como uma coisa meio negativa, poxa, a pessoa não vai no emprego nenhum, mas não para hoje porque ela está crescendo. Tanto
+que a gente tem reestruturado os nossos cursos aqui da UEM, o curso da noite, e ele chamava a Bachelarda Informática, e a gente transformou ele para a partir de 2026, a Bachelarda Injeira do Sópio, e a gente está aos poucos trabalhando em isso para formar essa mão de obra para demanda, não só básica, a gente já for, nacional e internacional, mas para tentar também atender o mercado daqui, que tem uma alta demanda realmente para os profissionais. Então
+1:26:02
+assim, mudou totalmente. Eu
+lembro disso, no final da graduação de 2002, estaram surgindo algumas empresas, alguns colegas, meus, criaram empresas, depois acabaram vendendo as empresas deles para outras empresas maiores. Então
+1:26:18
+foi uma coisa assim, meio que aos poucos e dele a pouco deu um boom, que maringar surgindo no cenário nacional, assim como o Polto Tecnológico. Então,
+é essa visão que eu tenho dos últimos anos, e tem muita oportunidade de se tornar. Muito
+bem. E
+1:26:34
+aí até me veio uma curiosidade, e com relação a parcerias da universidade, com essas empresas, como é? Vocês
+têm muitas parcerias ou não? Então,
+Maricórdia, a gente tem visto a busca das empresas para nossos parcerias. Então
+1:26:53
+assim, algumas empresas já bem conhecidas aqui da região, elas estão sempre em interação aqui para o departamento. Tem
+professores que desenvolvem projetos com eles, ou eles estão sempre entre aspas, se oferecer, a gente pode dar um treinamento, ou a gente pode dar uma palestra, porque daí eles começam a falar das coisas, a luz começa a se interessar, de repente a Rígia é algo entremediação. Agora,
+1:27:16
+projetos de pesquisa mesmo, têm acontecido, mas não tem tido, porque eu acho que é comum até para o cenário brasileiro, não tem tido o investimento do fomento da empresa para a universidade. Isso
+1:27:32
+é uma coisa difícil ainda, eu espero que seja uma mudança cultural mais para frente, essas são as coisas que eu espero, que as empresas olhem mais para as universidades, tem uma coisa talvez meio polêmica, mas me parece que a sociedade não entende o papel da universidade, ainda não entende, a gente tem muito discurso de que a universidade acabei de de emprego para professores que não quer trabalhar, com curso, aquelas coisas que a gente não precisa entrar em detalhes aqui, que de uma certa maneira desmerecem o trabalho do que a gente faz. Claro
+1:28:12
+que sempre tem uma pessoa que é a dessa. Esse
+tipo, mais pessoas que tem uma vida em pesquisa, mais pessoas não estão brincando, e a gente tem outras tribuções, então talvez, e aí talvez entra uma coisa legal, que dá para a gente relacionar com o síncio aberto, se a gente começar a mostrar o que está sendo feito, abrir mais, chegar para uma empresa e falar assim, aqui nós estamos no cenário de empresa de tecnologia, para chegar para uma empresa e falar, olha só o trabalho que está sendo feito lá, olha os dados dessa pesquisa aqui, será que se vocês aplicarem isso aqui na empresa, vocês não vão conseguir dar resultados próximos, ou alguma coisa desse tipo, sabe, está faltando esse tipo de coisa, porque a gente não tem isso pronto para apresentar muitas vezes. Não
+1:28:57
+chega uma empresa que tem uma oportunidade e tem que sair correndo para preparar uma apresentação para mostrar isso aqui, talvez, a gente, preparando para abrir a nossa pesquisa, a gente tenha mais conteúdos, tenha mais formas de interagir com a empresa, e por isso eles acessarem as nossas pesquisas, que hoje eles não têm acesso, a não ser pedindo para a gente. Por
+1:29:18
+favor, você tem um artigo legal aí, disponibiliza para mim, na verdade, nem poderia fazer isso, às vezes a gente acaba mandando, e enfim, talvez isso seja uma forma de chegar mais próximo. Eu
+sei que as empresas, eu converso com várias pessoas, colegas meus, que têm empresas de software, eles falam que o que eles pagam de carga tributária é um absurdo, eles não conseguem muitas vezes sobreviver quem dirá poder colocar dinheiro numa universidade para fazer uma pesquisa. É
+1:29:46
+muito diferente do cenário americano, do europeu, talvez do Canadá, alguma coisa assim que... As
+empresas têm milhões, os dólares, uma cultura em que o ex -aluno ajuda a universidade, doa dinheiro para a universidade, esse tipo de coisa a gente não tem aqui. O
+1:30:04
+que parece que a universidade não é muito bem vista, eu não sei, é uma coisa meio duelista assim, ao mesmo tempo em que ela forma uma pessoa e forma pessoas importantes nas suas carreiras, essas pessoas talvez não... às
+1:30:19
+vezes até com uma visão política, talvez não sei, do ambiente e tal, ela não consegue olhar para trás e ver como a universidade foi importante. Elas
+entendem talvez com uma obrigação do estado ter me formado, porque eu paguei imposto a vida inteira, meu pai paguei imposto a vida inteira, minha mãe, a empresa da minha família paguei imposto. Então
+1:30:36
+assim, é mais algo de, assim, desesigem que se faça uma coisa de graça, porque isso é do estado. O
+estado tem que fazer isso, mas a gente sabe que o dinheiro sai de algum lugar. Então,
+é difícil, essa é uma conversa muito difícil, assim, e a gente vai ficar falando, falando, falando e não vai ter... não
+1:30:56
+vai conseguir ter um ponto de saída ali, não tem muito o que fazer. Então,
+e aqui no Paraná, a coisa está muito fria em relação à universidade pública e ao governo estadual. Vocês
+são do Paraná, vocês são da Federal, talvez vocês não tenham muito essa... não
+1:31:15
+tenham acompanhado muito, mas as 7 universidades estaduais do Paraná, elas estão sofrendo ataxas terrivers, do tipo, basicamente, preparem sempre que vocês vão acabar sendo privatizados em uma hora, vocês vão morrer, vão morrer sem nada, praticamente. Está
+1:31:34
+muito difícil a situação. Existem
+leis estaduais para a reparação do salário dos professores, das perdas com inflação e o governo não cumpre desde outros governadores a outro governador atrás. Então,
+muito difícil a situação e a universidade parece que ela está meio que numa ladeira abaixo e se a sociedade não apoiar, eu acho que vai ser bem difícil. Então,
+1:31:58
+talvez uma forma de a gente fazer com que a sociedade em pena mais o papel da universidade possa ser um pedacinho com ciência aberta. Levar
+isso para a sociedade, mostrar o impacto com a sociedade. Basicamente,
+isso é cenário, mas, em termos de tecnológicos, eu acho que está muito bem -vindo para quem quiser, para cá, você está bem legal. E
+1:32:22
+é uma cidade muito legal, bastante arborizada, a gente tem índices bem baixas de criminalidade, enfim. Está
+crescendo, né? Então,
+pode ser que isso, há 20 anos atrás, o homem de Marigate tinha 200 depucos do governo, hoje está passando de 400 mil, quase 500 mil, eu acho, cresceu demais nos últimos anos. Bom,
+1:32:47
+mas era isso que nós queríamos saber e aí também, né? Abrimos
+aqui antes de uma, da pergunta final um espaço para que você possa convidar pessoas que queiram fazer mestrado ou doutorado com você, e também, as empresas e pesquisadores que queiram colaborar com as suas pesquisas. Fátima,
+1:33:10
+esse espaço é importantíssimo. Bom,
+quem quiser saber um pouquinho mais sobre o nosso Programa de Pós -Credoação, é fácil de lembrar, que é www .pcc .em .pr Por favor, não confundam com outro PCC. E
+1:33:28
+a gente tem vários pesquisadores aqui na área de Gered Software, tá? A
+gente tem pesquisas nas mais variadas áreas também, além da Gered Software, computação aplicada, inteligência computacional, mas não vale a pena entrar no nosso site, dar uma olhada dar uma olhada nos pesquisadores, olha o currículo deles, o LACS, que é o nome de a gente, coloca as nossas nossas produções e atividades, mas olha a página pessoal também, dos professores, eu acho interessante. Eu
+1:34:00
+tenho a minha página fácil também, se alguém quiser acessar diretamente, é Edson, traço AOR traçojunior .github .io E lá eu coloco normalmente as produções, os projetos, tá faltando só atualizar um pouquinho mais os projetos, mas basicamente ali tem tudo que eu tenho feito com um grupo de pesquisa nosso aqui da WAN contatos, eu estou sempre disponível para fazer parcerias, eu acho bem legal, eu gosto muito dessas parcerias, tenho feito com vários os estudadores, ele tem dado muito certo e em termos de empresas, o que eu tenho buscado o que eu busco são empresas que tenham vontade de melhorar esses processos internos que eles têm de experimentação. Não
+1:34:52
+é? empresas
+normalmente fazem experimentação contínuas, ciclos mais curtos de experimentação, mais, mais experimentação mais sistemática e eu gostaria muito de tentar olhar essa forma, tentar contribuir como é que a gente poderia melhorar isso para a própria empresa reaproveitar os seus experimentos, melhorar a reproductividade dos experimentos, a organização dos seus experimentos abrir, fazer um processo de extensa aberta interno da própria empresa e claro que aquilo que eles puderem abrir para outras comunidades seria ótimo porque às vezes a gente pensa que existe uma competição muito grande de empresas, claro que é competição financeira de recursos e tudo mais, mas muitas vezes empresas podem ser parceiras para conseguir fomento do governo isso é uma coisa interessante, às vezes a gente não viu donos de empresas, às vezes talvez não pensem muito, mas tem muito edital interessante que tem muito dinheiro para parceria empresas e universidade, né? Então
+1:35:55
+assim, é assim, coisas de milhões de reais e dá muito certo, eu tenho visto vários trabalhos aí e várias parcerias dando muito certo então a minha ideia é tentar olhar para isso e tentar começar os pouquinhos olhar para esse processo forense dentro da engenharia de software como é que se prepara como é que é o desenvolvimento de software preparado para a área forense, para uma perícia, para uma auditoria para por exemplo, se a pessoa é responsável por chamado para um processo criminal para depois ter que mostrar o que está acontecendo, o que está sendo feito isso é uma coisa bastante interessante uma tendência aí, o Brasil está começando aí para esse lado de forneça levando mais a sério um pouco e são essas grandes áreas que eu tenho aí de interesse e em cima, né? Educação,
+1:36:46
+tudo aquilo que eu puder colocar na prática, aquelas coisas que a gente vem trabalhando para a educação aqui ensino de ciência aberta, ensino de experimentação seria ótimo porque para a gente mergulhar em ambientes reais isso é uma coisa muito difícil de acontecer então empresas interessadas nesse tipo de... que
+1:37:02
+permitem essa possibilidade seria muito interessante fazer uma parceria acho que é isso, basicamente e fiquei à vontade para entrar em contato maravilha e agora a gente vai chegar na última pergunta que é a pergunta que define o podcast e eu gosto sempre de lembrar para os nossos... nossas
+1:37:23
+entrevistadas que pode ser algo que você acha que vai acontecer, ou algo que você gostaria que acontecesse na nossa área porque a gente sabe que ninguém é capaz de prever o futuro, para você qual é a próxima fronteira da engenharia do software Edson Pergunta, eu fiquei pensando nisso e falei o que eu vou responder né eu acho que tem duas coisas talvez são duas coisas que eu gostaria de perguntar isso uma delas é que a gente levasse muito a sério essa questão de ciência aberta não só como uma... buscando
+1:38:01
+por resultados os resultados eu digo ser citado deixar disponível se nós não vai ter fatos, esse tipo de coisa mas no sentido no sentido global do que é ser pesquisador pesquisadora, estudante que é olhar o impacto disso que pode acontecer futuramente às vezes no aluno de mestrado já escutei isso de alguns e ele falou assim mas eu vou fazer aqui uma melhoria só uma coisa que o aluno fez na outra dissertação ou é uma parte da tese de alguém que está fazendo doutorado como que isso aqui vai vai gerar um impacto e eu falo assim é a mesma coisa que todos os alunos falam assim ah, por ser desculpa, minha pergunta é meio boba talvez não existe pergunta boba porque a tua dúvida pode ser a dúvida do colégio e quando eu respondo a tua dúvida eu estou respondendo a de outros então para mim, por menor que seja o escopo, aquela intervenção que você está fazendo a sua pesquisa, em algum momento ela pode impactar não sei agora, pode ser no futuro de repente surgem novas tecnologias que voltam a analisar coisas que já foram feitas no passado então isso pode impactar em algum momento e se ele tiver um pouquinho de impacto uma tese, por exemplo, se é do guarda -chuva de mãos da pesquisa e essa tese tiver um impacto social, depois tiver um retorno para a sociedade você faz parte disso você ajudou a contribuir então imagine isso como mesmo sejam um grão de areia mas se ele tiver um mínimo de impacto que ele pode modificar que ele pode contribuir com a sociedade a tua pesquisa está valendo eu sei que talvez para o aluno é meio difícil de avaliar isso, cabe mais às vezes a orientador tem mais experiência ele consegue enxergar mais aonde isso pode impactar, então assim, eu acho que sim se a Veta ajuda muito ou vai ajudar muito nesse sentido de olhar e pensar principalmente no impacto daquela pesquisa nos artefatos que a gente está disponibilizando e tudo mais para a sociedade não importa qual nível da sociedade ou qual subconjunto da sociedade desde que tenha um impacto então se a gente começar a pensar se colocar atividades de ciência aberta durante um projeto de pesquisa eu acho que ele começa plantando uma sementinha aos poucos isso se torna uma coisa natural porque os grupos, as áreas vão ter os seus procedimentos definidos de ciência aberta, de prato de ciência aberta e isso vai se tornar mais aceito, ou menos aceito pela comunidade e vai ficar mais fácil, é que nós estamos no início de um processo nós aqui, na Europa, já está bem mais avançado e uma outra coisa que eu gostaria de ver e aí assim eu não sou especialista na área mas eu tenho de uma certa forma isso tem me incomodado eu tenho me preocupado um pouco é com a introdução de alguns fatores de inteligência artificial nos trabalhos de engenhar e sofrer claro que inteligência artificial é importantíssimo mas eu tenho visto alguns trabalhos que basicamente não têm muita quanteria a necessidade de ter todo um apelo de ir a e tudo mais porque o contexto no qual ele está não consegue justificar muito bem aquela intervenção será que precisa mesmo ter e a gente está vendo isso aí surgir muito nos trabalhos de eleitos ótimos a gente está em uma equilibra onda de ir a talvez seja uma forma de garantir talvez uma aceitação do trabalho melhor ou algo assim eu sou totalmente a favor da área eu gosto muito da área de inteligência artificial vejo alguns trabalhos de recomendação de mineração de repositórios uma coisa bem interessante tem muita coisa de inteligência os algoritmos parece que está meio forçado isso e eu estou vendo também pessoas de outras áreas dando palestras sobre inteligência artificial meio que formando opinião talvez às vezes até um sentido errado daquele lado você pode ver assim vários entrevistas com pessoas de outras áreas e que essas pessoas não é especialista inteligência artificial é especialista quem trabalha com inteligência artificial e da cada façã basicamente que sabe criar os algoritmos sabe o quanto de inteligência tem naquilo, sério eurísticas trabalho e cotilização são coisas que eu acho que estão incomodando um pouquinho tem que conversar com alguns colegas e o pessoal acha que está meio demais assim talvez não tem que ter essa necessidade de colocar não é se possível tentar contextualizar melhor onde isso está entrando e engenharia de sorte porque tem pessoas de outras áreas que falam assim é verdade que vai acabar o programador não vai ter mais programador o pessoal está introduzindo programação no ensino médio lógico de programação fundamentos e tudo mais dizem que com a inteligência artificial isso vai acabar não vai ter mais programadores eu acho que a criatividade humana tem outro dia teve uma palestra bem legal aqui na web do Bruno que é um dos nossos professores aqui do programa e ele falou assim que a gente mudar um parâmetro ou outro de algoritmo muito mais não ajuda a comunidade de avançar o que avança mesmo é fazer comparações do impacto disso grandes entradas de dados enfim esse monte de coisa e aí eu falei para ele brincando e falei assim eu acabo enquanto a IA for generativa eu não estou preocupado eu acho que o problema talvez seja quando a IA se tornar criativa se é que isso vai acontecer um dia do tipo aí sim se a IA tiver o poder de criação aquele poder nosso do ser humano de talento de criar de especular formas diferentes formas diferentes de fazer as coisas aqui sim acho que talvez começassem um problema então sim cuidado com as fontes que os alunos estão consumindo sobre a de novo não sou especialista mas eu tenho tido um certo receio de começar pesquisas em IA muitas vezes no meu projeto porque eu ainda não sei muito bem a de topizando parece que ainda dá um negócio meio ainda daqui a pouco espero que o negócio fique mais tranquilo, mais consistente e a gente passe um pouco desse desespero de todo mundo falar de IA e a gente vê que pessoas acabam falando muitas coisas que mesmo eu não sou especialista mas nós somos da computação e a gente tem a base da computação a gente consegue já tirar algumas coisas que não é verdade isso forma opinião então talvez a próxima fronteira nesse sentido seja a gente conseguir ter uma estabilidade da aplicação de IA em GXSorto e ver coisas mais efetivas na IA mesmo afetando ferramentas esse tipo de coisa eu acho que vai ser a próxima fronteira e que vai ajudar muito o desenvolvimento de som muito bom então nós chegamos ao final desse episódio eu só quero lembrar a todo mundo que está escutando ou assistindo ainda em agosto de 2024 que é quando vamos publicar esse episódio que a gente vai ter aqui em Curitiba o Congresso Brasileiro de Software que é o Congresso Brasileiro de Software Teoria Prática CBsoft e vai ser presencial de 30 de setembro a 4 de outubro de 2024 depois de novembro a gente tem outro evento que vai ser o simpósio brasilero de qualidade de software, vai ser lá em Salvador então eu chamo todo mundo pra ver pra Curitiba e eu agradeço e passa a palavra pra você Edson, da suas palavras finais para os nossos ouvintes Joia eu quero agradecer a Dofio Maria Clórdia pela oportunidade muito legal, quero agradecer principalmente o meu grupo de pesquisa aqui na ONU tem os alunos a gente não consegue fazer basicamente quase nada, a gente tem que fazer pesquisa por isso só a gente faz mas grande parte da pesquisa é toda dos alunos eles têm um grupo muito bom o pessoal tem dedicado bastante e aí também agradecer, lógico, que as parcerias que eu tenho basicamente os órgãos de fomento que nos possibilitam de fazer várias coisas se ele pique e caps e abrir aí eu fico à disposição para vocês, se tiverem dúvidas podem mandar às vezes demoram por aqui pra responder mas acabam respondendo todos todos, todo mundo e assim, como eu falei no início pode que este como este é bem interessante, você vê, uma hora e quarenta e outra, você vai ter os cortes depois vai reduzir, uma hora e meia, digamos assim uma hora, uma hora e meia de conteúdo que as pessoas podem escutar e de repente uma fala, outra desperta uma fazquinha para a pessoa procurar mais e as vezes a pessoa até se interessa sobre isso foi assim que aconteceu comigo em Ciência Médio eu estava navegando no Twitter, aqui na rede social que eu mais uso, o X e aí começou a surgir algumas coisas sobre Europa para começar a Europa e assim se aberta porque legal, esse negócio, assim se aberta como eu estava sempre gostando de experimentação e pedados e como fazer os experimentos e tudo mais sempre reclamava que eu revisava os artigos e não tinha isso mas que legal, isso, né? Tinha
+1:47:57
+que olhar um pouco mais e aí isso foi muito espertão e aí eu comecei a olhar mais de perto e descobrir coisas que são para mim assim muito interessantes eu achei, hoje eu tenho eu tenho prazer em pesquisar isso eu acho bem legal eu gosto de ler coisas novas sobre isso o que as empresas as universidades estão fazendo os governos estão fazendo principalmente então assim, eu vejo vantagem para todo mundo principalmente para a sociedade que é impactada então a gente meio que tem essa condição, ou essa deveria ter essa condição ética de trabalhar em prol da sociedade basicamente é isso, eu agradeço de novo espero que o pessoal possa assistir o podcast e que a gente tenha dúvida, fica à vontade de entrar em contato eu estou disponível aí para qualquer tipo de interação que vocês quiserem para a gente conversar mais sobre esse assunto Muito bem, agradeço novamente a Edison, então, sua participação aqui, essa conversa que foi muito interessante e também agradecemos a todos os nossos e as nossas ouvintes até o próximo episódio do Fronteiras da Engenharia de Software e as palestras que estão publicadas em nosso canal no YouTube nosso objetivo é levar o conhecimento científico para profissionais da área e para outros cientistas escute nossos episódios na sua plataforma de áudio favorita Spotify, Apple Podcasts Encords, ou outras ou ainda no YouTube nosso site é fronteirasas .github .io estamos também no Twitter e no Instagram como a rouba, fronteiras e essa
