@@ -12,6 +12,10 @@ Esta rede tem os seguintes podcasts:
 - [Hello, Erlang!](https://helloerlang.github.io/)
 
 
+Equipe:
+- Coordenador da Rede Emílias de Podcasts: [Adolfo Neto](https://adolfont.github.io/)
+- Coordenadora do Programa de Extensão "Emílias - Armação em Bits": [Maria Claudia Emer](http://lattes.cnpq.br/8275326076771841)
+
 ## Sobre nossos podcasts
 
 O [Emílias Podcast - Mulheres na Computação](https://adolfont.github.io/extension/podcasts/emilias), criado em 2019, tem como objetivo promover a representatividade feminina na tecnologia. Nele, entrevistamos mulheres que atuam na área de computação e afins, explorando suas trajetórias, desafios e motivações. Também temos episódios em diferentes formatos que discutem temas relevantes para a computação e a sociedade. Publicamos dois episódios por mês (segunda e quarta quinta-feira do mês).
