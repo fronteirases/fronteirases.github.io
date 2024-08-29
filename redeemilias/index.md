@@ -24,7 +24,12 @@ O podcast [Fronteiras da Engenharia de Software](https://fronteirases.github.io/
 
 [Elixir em Foco](http://elixiremfoco.com), criado em 2021, é o podcast da comunidade brasileira de Elixir. Nele, conversamos com pessoas desenvolvedoras de software e membros da comunidade sobre a linguagem de programação [Elixir](https://adolfont.github.io/util/elixir), abordando desde questões técnicas até experiências pessoais no uso da linguagem. Também cobrimos, eventualmente, outras linguagens de programação (principalmente aquelas ligadas à BEAM, a máquina virtual de Erlang) e outros temas de tecnologia. Nosso objetivo é fortalecer a comunidade de Elixir e do [ecossistema de Erlang](https://bit.ly/3Sl8XTO) no Brasil e promover o compartilhamento de conhecimentos.
 
-[Professor Adolfo Neto](https://adolfont.github.io/extension/podcasts/adolfont), criado em 2019 e reormulado em 2023, é um podcast em inglês em que [Adolfo Neto](https://adolfont.github.io/) entrevista profissionais da área da computação e de áreas afins. O objetivo é entender melhor como esses profissionais se interessaram por suas respectivas profissões, como é o dia a dia deles e quais são suas motivações, dificuldades e desafios. É um espaço de troca de experiências e aprendizados para todos que desejam se aprofundar na área de tecnologia.
+[Professor Adolfo Neto](https://adolfont.github.io/extension/podcasts/adolfont), criado em 2019 e reformulado em 2023, é um podcast em inglês em que [Adolfo Neto](https://adolfont.github.io/) entrevista profissionais da área da computação e de áreas afins. O objetivo é entender melhor como esses profissionais se interessaram por suas respectivas profissões, como é o dia a dia deles e quais são suas motivações, dificuldades e desafios. É um espaço de troca de experiências e aprendizados para todos que desejam se aprofundar na área de tecnologia.
 
 [Hello, Erlang!](https://helloerlang.github.io/), criado em 2022, é um podcast em inglês focado na comunidade de programação Erlang. Neste show, discutimos tópicos relacionados ao [ecossistema de Erlang](https://bit.ly/3Sl8XTO) e à BEAM, sempre com pessoas dispostas a compartilhar seus conhecimentos e suas experiências. É o ponto de encontro perfeito para quem quer mergulhar no universo Erlang e aprender com os melhores.
+
+
+## Criação da rede
+
+A rede foi criada em agosto de 2024, unindo podcasts já existentes.
 
