@@ -11,6 +11,9 @@ Esta rede tem os seguintes podcasts:
 - [Professor Adolfo Neto](https://adolfont.github.io/extension/podcasts/adolfont)
 - [Hello, Erlang!](https://helloerlang.github.io/)
 
+Estamos nas seguintes redes:
+  - [Mastodon](http://bertha.social/@redeemilias)
+  - [Bluesky](https://bsky.app/profile/redeemilias.bsky.social) 
 
 Equipe:
 - Coordenador da Rede Emílias de Podcasts: [Adolfo Neto](https://adolfont.github.io/)
