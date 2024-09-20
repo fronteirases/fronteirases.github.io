@@ -14,13 +14,13 @@ Se quiser nos ajudar, entre em nosso [Apoia-se](https://apoia.se/fronteirases).
 
 #### No YouTube
 
-{% include youtube.html id="K7_RpxOdETU" %}  
+{% include youtube.html id="K0F3SO2uZ2w" %}  
 
 
 
 #### No Spotify
 
-{% include spotify.html id="55fnOm9ZdQ687AL3pcEybJ" %} 
+{% include spotify.html id="28bq6iF9dRf6PlxKfjOXLW" %} 
 
 ## Novidades
 
@@ -35,6 +35,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [50: Arquitetura de Software e Sistemas Adaptativos, com Cecília Rubira (UNICAMP)](episodios/paginas/50)
 - [49: Ciência Aberta em Engenharia de Software, com Edson Oliveira Junior (UEM)](episodios/paginas/49)
 - [48: Educação em Engenharia de Software, com Davi Viana (UFMA)](episodios/paginas/48)
 - [47: Reparo Automático de Programas, com Fernanda Madeiral (Vrije Universiteit Amsterdam)](episodios/paginas/47)
