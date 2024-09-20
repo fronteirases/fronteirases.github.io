@@ -20,7 +20,8 @@ Se quiser nos ajudar, entre em nosso [Apoia-se](https://apoia.se/fronteirases).
 
 #### No Spotify
 
-{% include spotify.html id="28bq6iF9dRf6PlxKfjOXLW" %} 
+{% include spotify.html id="28bq6iF9dRf6PlxKfjOXLW" %}
+
 
 ## Novidades
 
