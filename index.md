@@ -36,6 +36,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [51: Ontologias em Engenharia de Software, com Giancarlo Guizzardi (University of Twente)](episodios/paginas/51)
 - [50: Arquitetura de Software e Sistemas Adaptativos, com Cecília Rubira (UNICAMP)](episodios/paginas/50)
 - [49: Ciência Aberta em Engenharia de Software, com Edson Oliveira Junior (UEM)](episodios/paginas/49)
 - [48: Educação em Engenharia de Software, com Davi Viana (UFMA)](episodios/paginas/48)
