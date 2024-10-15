@@ -82,7 +82,7 @@ Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário]
 - [Italo Santos (Northern Arizona University, USA)](https://sites.google.com/view/italo-santos/home)
 - [Odwald Schreder (UEA e PPGCA UTFPR)](https://www.linkedin.com/in/odwald-schreder-11a43b24) - desde agosto de 2023
 - [Heitor Augustus Xavier Costa (UFLA)](https://dcc.ufla.br/equipe/equipe/430-heitor-augustus-xavier-costa) - desde novembro de 2023
-- [Lazaro de Almeida (TCU e egresso PPGCA UTFPR)](https://www.linkedin.com/in/lazarodealmeida/) - desde maio de 2024
+- [Lazaro de Almeida (TCU e egresso PPGCA UTFPR)](https://www.linkedin.com/in/lazarodealmeida/) - desde agosto de 2024
 - [Gilmar Gomes do Nascimento (IFAM e PPGCA UTFPR)](https://www.linkedin.com/in/gilmar-gomes-do-nascimento-0996a0195) - desde outubro de 2024
 
 ### Consultor
