@@ -73,16 +73,16 @@ Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário]
 
 ### Apresentadores
 
-- [{% avatar adolfont size=50 %} Adolfo Gustavo Serra Seca Neto (UTFPR) - também coordenador, roteirista, editor](https://adolfont.github.io/)
-- [Maria Claudia Emer (UTFPR)](https://scholar.google.com.br/citations?user=4i7kDeMAAAAJ&hl=pt-BR)
+- [{% avatar adolfont size=50 %} Adolfo Gustavo Serra Seca Neto (PPGCA UTFPR) - também coordenador, roteirista, editor](https://adolfont.github.io/)
+- [Maria Claudia Emer (PPGCA UTFPR)](https://scholar.google.com.br/citations?user=4i7kDeMAAAAJ&hl=pt-BR)
 
 ### Equipe de pauta (em ordem de entrada no podcast)
 - [Leonardo Fernandes (IFAL)](https://sigaa.ifal.edu.br/sigaa/public/docente/portal.jsf?siape=1887897)
 - [Danilo Monteiro (Zup)](https://github.com/dan1lo)
 - [Italo Santos (Northern Arizona University, USA)](https://sites.google.com/view/italo-santos/home)
-- [Odwald Schreder (PPGCA)](https://www.linkedin.com/in/odwald-schreder-11a43b24) - desde agosto de 2023
+- [Odwald Schreder (UEA e PPGCA UTFPR)](https://www.linkedin.com/in/odwald-schreder-11a43b24) - desde agosto de 2023
 - [Heitor Augustus Xavier Costa (UFLA)](https://dcc.ufla.br/equipe/equipe/430-heitor-augustus-xavier-costa) - desde novembro de 2023
-- [Gilmar Gomes do Nascimento (IFAM)](https://www.linkedin.com/in/gilmar-gomes-do-nascimento-0996a0195) - desde outubro de 2024
+- [Gilmar Gomes do Nascimento (IFAM e PPGCA UTFPR)](https://www.linkedin.com/in/gilmar-gomes-do-nascimento-0996a0195) - desde outubro de 2024
 
 ### Consultor
 
