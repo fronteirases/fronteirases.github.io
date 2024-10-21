@@ -14,13 +14,13 @@ Se quiser nos ajudar, entre em nosso [Apoia-se](https://apoia.se/fronteirases).
 
 #### No YouTube
 
-{% include youtube.html id="K0F3SO2uZ2w" %}  
+{% include youtube.html id="hH1ht7XDbrY" %}  
 
 
 
 #### No Spotify
 
-{% include spotify.html id="28bq6iF9dRf6PlxKfjOXLW" %}
+{% include spotify.html id="46evvbtV8eMFQ4TFbNjuDS" %}
 
 
 ## Novidades
