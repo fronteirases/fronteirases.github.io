@@ -36,6 +36,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [52: A linguagem de programação Lua (e seu impacto na Engenharia de Software), com Roberto Ierusalimschy (PUC-Rio)](episodios/paginas/52)
 - [51: Ontologias em Engenharia de Software, com Giancarlo Guizzardi (University of Twente)](episodios/paginas/51)
 - [50: Arquitetura de Software e Sistemas Adaptativos, com Cecília Rubira (UNICAMP)](episodios/paginas/50)
 - [49: Ciência Aberta em Engenharia de Software, com Edson Oliveira Junior (UEM)](episodios/paginas/49)
