@@ -12,15 +12,13 @@ Se quiser nos ajudar, entre em nosso [Apoia-se](https://apoia.se/fronteirases).
 
 ## Nosso episódio mais recente
 
-#### No YouTube
-
-{% include youtube.html id="HcaUsJ_nn_Q" %}
-
-
-
 #### No Spotify
 
 {% include spotify.html id="2HlvnIxDjfqgA4s0Q5ITWg" %}
+
+#### No YouTube
+
+{% include youtube.html id="HcaUsJ_nn_Q" %}
 
 
 ## Novidades
