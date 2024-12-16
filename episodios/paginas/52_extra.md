@@ -55,6 +55,11 @@ Nosso site é: ⁠⁠⁠⁠⁠[https://fronteirases.github.io⁠](https://fronte
 
 Data de publicação: 18 de dezembro de 2024.
 
+## Como citar este episódio
+
+FRONTEIRAS DA ENGENHARIA DE SOFTWARE EP. EXTRA DEZEMBRO 2024:  A Próxima Fronteira: Reflexões de 2024 na Engenharia de Software. \[Locução de\]: Adolfo Neto e Gilmar Gomes. S. l.: Fronteiras da Engenharia de Software, 18 dez. 2024\. Podcast. Disponível em: ⁠⁠⁠[⁠https://fronteirases.github.io/episodios/paginas/52_extra⁠](https://fronteirases.github.io/episodios/paginas/52_extra). ⁠Acesso em: 18 dez. 2024\.
+
+
 # EXTRA
 
 ## Prompt
