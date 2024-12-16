@@ -1,5 +1,29 @@
 # A Próxima Fronteira: Reflexões de 2024 na Engenharia de Software
 
+## Áudio/vídeo no Spotify
+
+
+{% include spotify.html id="2HlvnIxDjfqgA4s0Q5ITWg" %} 
+
+## Vídeo no YouTube
+
+{% include youtube.html id="3HW_hplx8ds" %}  
+
+### Áudio no Spotify para Criadores
+
+
+{% include anchor.html id="A-linguagem-de-programao-Lua-e-seu-impacto-na-Engenharia-de-Software-e2r5et0" %}
+
+
+### Todas as plataformas
+
+
+[52: A linguagem de programação Lua (e seu impacto na Engenharia de Software), com Roberto Ierusalimschy (PUC-Rio)](https://creators.spotify.com/pod/show/fronteirases/episodes/A-linguagem-de-programao-Lua-e-seu-impacto-na-Engenharia-de-Software-e2r5et0)
+
+
+
+## Resumo
+
 
 Neste episódio especial do **Fronteiras da Engenharia de Software**, reunimos todas as respostas dadas em 2024 à pergunta central do nosso podcast: *"Qual é a próxima fronteira da engenharia de software?"*. Este episódio oferece uma síntese de perspectivas, apresentando as opiniões de pesquisadores que participaram dos nossos episódios ao longo do ano.
 
