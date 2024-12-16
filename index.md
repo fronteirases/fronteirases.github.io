@@ -8,7 +8,10 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 [🇺🇸 Our page in English / 🇧🇷 Nossa página em inglês](https://fronteirases.github.io/en)
 
+<!-- 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fronteirases.svg?style=social&label=Siga%20%40fronteirases)](https://twitter.com/fronteirases)
+
+-->
 
 Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www.youtube.com/@CortesDoFronteiras)
 
