@@ -1,4 +1,37 @@
-# Próxima Fronteira
+# A Próxima Fronteira: Reflexões de 2024 na Engenharia de Software
+
+
+Neste episódio especial do **Fronteiras da Engenharia de Software**, reunimos todas as respostas dadas em 2024 à pergunta central do nosso podcast: *"Qual é a próxima fronteira da engenharia de software?"*. Este episódio oferece uma síntese de perspectivas, apresentando as opiniões de pesquisadores que participaram dos nossos episódios ao longo do ano.
+
+Os apresentadores, **Adolfo Neto**, professor e organizador do podcast, e **Gilmar Gomes**, professor do Instituto Federal do Amazonas e mestrando na UTFPR Curitiba, fazem breves comentários ao longo do episódio.
+
+No episódio, ouvimos as contribuições de diversos especialistas que abordaram tópicos ao longo de 2024, como:
+
+- **Thaís Batista** (UFRN), que falou sobre engenharia de software para cidades inteligentes.  
+- **Elvis Soares** (IFAL), que discutiu a análise de testes manuais em linguagem natural.  
+- **Leonardo Leite, Paulo Meireles e Fábio Kon** (IME-USP), com suas perspectivas sobre DevOps.  
+- **Ana Regina Cavalcante da Rocha** (COPPE-UFRJ), que falou sobre formação de recursos humanos de excelência.  
+- **Rui Maranhão Abreu** (Universidade do Porto e Meta), com foco em localização de falhas de software.  
+- **Fernanda Madeiral** (Universidade Livre de Amsterdam), que abordou reparo automático de programas.  
+- **Davi Viana** (UFMA), discutindo educação em engenharia de software.  
+- **Edson Oliveira Junior** (UEM), explorando ciência aberta na área.  
+- **Cecília Rubira** (Unicamp), com reflexões sobre arquitetura de software e sistemas adaptativos.  
+- **Giancarlo Guizzardi** (University of Twente), discutindo ontologias aplicadas à engenharia de software.  
+- **Roberto Ierusalimschy** (PUC-Rio), que compartilhou o impacto da linguagem Lua na engenharia de software.
+
+Além disso, contamos com uma participação bônus de **Alessandro Garcia** (PUC-Rio), que discutiu a refatoração em seu episódio.
+
+Este episódio também convida os ouvintes a refletirem sobre o formato do podcast, sugerirem novos temas e comentarem sobre como a integração de pesquisa acadêmica e prática industrial pode transformar a engenharia de software. E, claro, já olhamos para o futuro, com menções aos eventos que marcam o calendário da área, como **Congresso da SBC 2025**, **CBSOFT 2025**, **SQBS 2025** e o **ICSE 2025 e 2026**.
+
+Alguns dos cortes deste episódio estão e serão publicados em nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www.youtube.com/@CortesDoFronteiras) 
+
+Comente no YouTube, no Spotify ou pelo email ⁠fronteirasesw@gmail.com⁠
+
+Nosso site é: ⁠⁠⁠⁠⁠[https://fronteirases.github.io⁠](https://fronteirases.github.io⁠)  ⁠
+
+Data de publicação: 18 de dezembro de 2024.
+
+# EXTRA
 
 ## Prompt
 
