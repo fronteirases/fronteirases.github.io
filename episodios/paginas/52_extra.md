@@ -12,13 +12,13 @@
 ### Áudio no Spotify para Criadores
 
 
-{% include anchor.html id="A-linguagem-de-programao-Lua-e-seu-impacto-na-Engenharia-de-Software-e2r5et0" %}
+{% include anchor.html id="A-Prxima-Fronteira-Reflexes-de-2024-na-Engenharia-de-Software-e2sd5c3" %}
 
 
 ### Todas as plataformas
 
 
-[52: A linguagem de programação Lua (e seu impacto na Engenharia de Software), com Roberto Ierusalimschy (PUC-Rio)](https://creators.spotify.com/pod/show/fronteirases/episodes/A-linguagem-de-programao-Lua-e-seu-impacto-na-Engenharia-de-Software-e2r5et0)
+[A Próxima Fronteira: Reflexões de 2024 na Engenharia de Software](https://creators.spotify.com/pod/show/fronteirases/episodes/A-Prxima-Fronteira-Reflexes-de-2024-na-Engenharia-de-Software-e2sd5c3)
 
 
 
