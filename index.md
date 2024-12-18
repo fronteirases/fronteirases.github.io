@@ -19,7 +19,7 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 
 #### No Spotify
 
-{% include spotify.html id="2HlvnIxDjfqgA4s0Q5ITWg" %}
+{% include spotify.html id="1gkJAQp66v31NO6GxZuQdI" %}
 
 #### No YouTube
 
