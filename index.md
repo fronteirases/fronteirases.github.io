@@ -17,13 +17,13 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 
 ## Nosso episódio mais recente
 
-#### No Spotify
+## Áudio/vídeo no Spotify
 
-{% include spotify.html id="1gkJAQp66v31NO6GxZuQdI" %}
+{% include spotify.html id="1ha2FZptgX4o3O7WibgoCJ" %} 
 
-#### No YouTube
+## Vídeo no YouTube
 
-{% include youtube.html id="3HW_hplx8ds" %}
+{% include youtube.html id="4x17fh83SOs" %}  
 
 
 ## Novidades
@@ -39,6 +39,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [Um Catálogo de Antipadrões de Micro Frontends, Nabson Silva](episodios/paginas/52_extra_palestra)
 - [A Próxima Fronteira: Reflexões de 2024 na Engenharia de Software](episodios/paginas/52_extra)
 - [52: A linguagem de programação Lua (e seu impacto na Engenharia de Software), com Roberto Ierusalimschy (PUC-Rio)](episodios/paginas/52)
 - [51: Ontologias em Engenharia de Software, com Giancarlo Guizzardi (University of Twente)](episodios/paginas/51)
