@@ -14,18 +14,16 @@
 ### Áudio no Spotify para Criadores
 
 
-<!-- 
-{% include anchor.html id="A-Prxima-Fronteira-Reflexes-de-2024-na-Engenharia-de-Software-e2sd5c3" %}
+{% include anchor.html id="Um-Catlogo-de-Antipadres-de-Micro-Frontends--Nabson-Silva-e2tpvsg" %}
 
 
 
 ### Todas as plataformas
 
 
-[Um Catálogo de Antipadrões de Micro Frontends, Nabson Silva](https://creators.spotify.com/pod/show/fronteirases/episodes/A-Prxima-Fronteira-Reflexes-de-2024-na-Engenharia-de-Software-e2sd5c3)
+[Um Catálogo de Antipadrões de Micro Frontends, Nabson Silva](https://creators.spotify.com/pod/show/fronteirases/episodes/Um-Catlogo-de-Antipadres-de-Micro-Frontends--Nabson-Silva-e2tpvsg)
 
 
--->
 
 ## Resumo
 
@@ -36,6 +34,41 @@ Durante a apresentação, Nabson explicou como o catálogo foi construído a par
 Nabson também compartilhou insights sobre sua trajetória acadêmica e profissional, desde sua formação técnica no IFAM até o mestrado no IComp/UFAM, orientado pela professora Tayana Conte, que já participou do Fronteiras e do Emílias Podcast. Ele falou sobre os desafios de conciliar mestrado e trabalho na Méliuz e seus planos para apresentar o artigo no ICSE 2025, em Ottawa, Canadá.
 
 No final, Nabson destacou a importância de identificar e evitar antipadrões para criar aplicações MFE mais robustas e manuteníveis, e convidou a comunidade a contribuir com o catálogo por meio de pull requests no repositório do projeto.
+
+Links mencionados no episódio:
+
+- Preprint do artigo: [⁠http://arxiv.org/abs/2411.19472⁠](http://arxiv.org/abs/2411.19472)
+
+- Thread sobre o artigo: [⁠http://x.com/nabsonp/status/1853665471008043251⁠](http://x.com/nabsonp/status/1853665471008043251)
+
+- Aplicação web do catálogo: [⁠http://mfe-anti-patterns.online/micro-frontends-anti-patterns/\#/catalog⁠](http://mfe-anti-patterns.online/micro-frontends-anti-patterns/#/catalog)
+
+- Repositório do projeto: [⁠http://github.com/nabsonp/micro-frontends-anti-patterns⁠](http://github.com/nabsonp/micro-frontends-anti-patterns)
+
+ -A Catalog of Micro Frontends Anti-patterns \- Notebook LM-Generated Podcast Episode [⁠https://youtu.be/oJO9jxKcizE⁠](https://youtu.be/oJO9jxKcizE)
+
+Perfis do Nabson:
+
+- LinkedIn: [⁠http://linkedin.com/in/nabson-paiva/⁠](http://linkedin.com/in/nabson-paiva/)
+
+- X/Twitter: [⁠http://x.com/nabsonp⁠](http://x.com/nabsonp)
+
+- Lattes: [⁠http://lattes.cnpq.br/3417438004428426⁠](http://lattes.cnpq.br/3417438004428426)
+
+
+ICSE 2025: [⁠http://conf.researchr.org/home/icse-2025⁠](http://conf.researchr.org/home/icse-2025)
+
+Episódios com Tayana Conte:
+
+- Fronteiras: [⁠http://open.spotify.com/episode/1uYOxUZZVjDghqExFkfAYX⁠](http://open.spotify.com/episode/1uYOxUZZVjDghqExFkfAYX)
+
+- Emílias: [⁠http://open.spotify.com/episode/0Dgu9viCu8NO2ktcfA1xSV⁠](http://open.spotify.com/episode/0Dgu9viCu8NO2ktcfA1xSV)
+
+Siga o Fronteiras da Engenharia de Software:
+
+- Site: [⁠http://fronteirases.github.io⁠](http://fronteirases.github.io)
+
+-  Rede Emílias de Podcasts: [⁠http://fronteirases.github.io/redeemilias/](http://fronteirases.github.io/redeemilias/)
 
 ## Como citar este episódio
 
