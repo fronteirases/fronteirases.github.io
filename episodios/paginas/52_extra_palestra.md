@@ -45,7 +45,7 @@ Links mencionados no episódio:
 
 - Repositório do projeto: [⁠http://github.com/nabsonp/micro-frontends-anti-patterns⁠](http://github.com/nabsonp/micro-frontends-anti-patterns)
 
- -A Catalog of Micro Frontends Anti-patterns \- Notebook LM-Generated Podcast Episode [⁠https://youtu.be/oJO9jxKcizE⁠](https://youtu.be/oJO9jxKcizE)
+- A Catalog of Micro Frontends Anti-patterns \- Notebook LM-Generated Podcast Episode [⁠https://youtu.be/oJO9jxKcizE⁠](https://youtu.be/oJO9jxKcizE)
 
 Perfis do Nabson:
 
