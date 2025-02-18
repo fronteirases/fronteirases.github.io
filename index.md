@@ -39,6 +39,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [53: Diversidade e Inclusão em Engenharia de Software, com Kiev Gama (CIn UFPE)](episodios/paginas/53)
 - [Um Catálogo de Antipadrões de Micro Frontends, Nabson Silva](episodios/paginas/52_extra_palestra)
 - [A Próxima Fronteira: Reflexões de 2024 na Engenharia de Software](episodios/paginas/52_extra)
 - [52: A linguagem de programação Lua (e seu impacto na Engenharia de Software), com Roberto Ierusalimschy (PUC-Rio)](episodios/paginas/52)
