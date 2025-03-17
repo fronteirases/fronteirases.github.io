@@ -1,6 +1,6 @@
 # Índice dos Roteiros
-- [01_ FabioKon](md/01_ FabioKon.md)
-- [02_ RafaelPrikladnicki](md/02_ RafaelPrikladnicki.md)
+- [01_FabioKon](md/01_ FabioKon.md)
+- [02_RafaelPrikladnicki](md/02_ RafaelPrikladnicki.md)
 - [03_DanielaSoaresCruzes](md/03_DanielaSoaresCruzes.md)
 - [04_MarceloMaia](md/04_MarceloMaia.md)
 - [05_AlessandroGarcia](md/05_AlessandroGarcia.md)
