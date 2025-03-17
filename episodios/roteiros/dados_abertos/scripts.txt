@@ -1,0 +1,14 @@
+https://chatgpt.com/c/67d85c0f-5400-8002-8198-6f6dc3990d89
+
+
+echo "# Índice" > index.md
+for file in md/*.md; do
+    filename=$(basename "$file")
+    echo "- [${filename%.md}](md/$filename)" >> index.md
+done
+
+echo "# Índice de Arquivos DOCX" > index_docx.md
+for file in docx/*.docx; do
+    filename=$(basename "$file")
+    echo "- [${filename%.docx}](docx/$filename)" >> index_docx.md
+done
