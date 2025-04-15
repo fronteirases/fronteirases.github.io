@@ -40,6 +40,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [55: Pesquisas Qualitativas na Engenharia de Software, com Jorge Melegati (Free University of Bozen-Bolzano)](episodios/paginas/55)
 - [54: A linguagem de programação Elixir, com José Valim (Dashbit)](episodios/paginas/54)
 - [53: Diversidade e Inclusão em Engenharia de Software, com Kiev Gama (CIn UFPE)](episodios/paginas/53)
 - [Um Catálogo de Antipadrões de Micro Frontends, Nabson Silva](episodios/paginas/52_extra_palestra)
