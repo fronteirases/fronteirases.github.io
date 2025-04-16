@@ -20,11 +20,13 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 
 ## Áudio/vídeo no Spotify
 
-{% include spotify.html id="7CSQLDnl5LRPT0UE2cvZIF" %}
+
+{% include spotify.html id="1g7aX4ZUQSd7pPr0Gm0jaz" %}
+
 
 ## Vídeo no YouTube
 
-{% include youtube.html id="LkBd-x9OLcE" %}  
+{% include youtube.html id="4NWAcNMmgnI" %}  
 
 
 ## Novidades
