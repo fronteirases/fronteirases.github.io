@@ -28,13 +28,6 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 
 {% include youtube.html id="4NWAcNMmgnI" %}  
 
-
-## Novidades
-
-- [Blog do Fronteiras da Engenharia de Software no Dev.to](https://dev.to/fronteirases)
-- [FSE 204 em Porto de Galinhas](https://adolfon.substack.com/p/fse-2024-in-porto-de-galinhas-brazil)
-- [Ajude a Pesquisa Brasileira, respondendo a questionários ou participando de entrevistas](https://fronteirases.github.io/util/pesquisas)
-
 ## Próximos episódios
 
 Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
