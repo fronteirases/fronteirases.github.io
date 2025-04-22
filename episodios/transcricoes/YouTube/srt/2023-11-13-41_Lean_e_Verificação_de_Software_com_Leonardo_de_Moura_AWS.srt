@@ -1,0 +1,7307 @@
+1
+00:00:00,960 --> 00:00:05,278
+Olá este é o Fronteiras da engenharia de
+
+2
+00:00:03,080 --> 00:00:07,000
+software um podcast em que convidamos
+
+3
+00:00:05,278 --> 00:00:09,120
+pesquisadores e pesquisadoras para
+
+4
+00:00:07,000 --> 00:00:10,638
+falarem sobre a sua pesquisa e refletir
+
+5
+00:00:09,119 --> 00:00:12,638
+sobre o presente e o futuro da
+
+6
+00:00:10,638 --> 00:00:15,320
+engenharia de software eu sou Adolfo
+
+7
+00:00:12,638 --> 00:00:17,118
+Neto professor da UTFPR Curitiba e do
+
+8
+00:00:15,320 --> 00:00:19,560
+programa de pós-graduação em computação
+
+9
+00:00:17,118 --> 00:00:21,600
+aplicada ppgca a professora Maria
+
+10
+00:00:19,559 --> 00:00:24,118
+Cláudia Emer minha colega de bancada não
+
+11
+00:00:21,600 --> 00:00:26,840
+pode participar desta gravação hoje
+
+12
+00:00:24,118 --> 00:00:29,039
+Vamos entrevistar Leonardo de Moura em
+
+13
+00:00:26,839 --> 00:00:33,119
+primeiro lugar muito obrigado Leonardo
+
+14
+00:00:29,039 --> 00:00:35,760
+por ter aceito eu vou eh falar algumas
+
+15
+00:00:33,119 --> 00:00:38,238
+coisas aqui se você vê alguma coisa
+
+16
+00:00:35,759 --> 00:00:40,718
+errada por favor me corrija então
+
+17
+00:00:38,238 --> 00:00:42,959
+Leonardo fez doutorado em informática na
+
+18
+00:00:40,719 --> 00:00:45,120
+área de engenharia de software lá na PUC
+
+19
+00:00:42,960 --> 00:00:48,359
+Rio orientado pelo Professor Carlos
+
+20
+00:00:45,119 --> 00:00:51,599
+Lucena e co orientado por Edward Herman
+
+21
+00:00:48,359 --> 00:00:53,479
+hausler difícil falar o sobrenome do
+
+22
+00:00:51,600 --> 00:00:56,079
+professor Herman certo geralmente
+
+23
+00:00:53,479 --> 00:00:59,078
+pessoal fala só herma mesmo
+
+24
+00:00:56,079 --> 00:01:00,878
+né o título da tese defendido em 2000
+
+25
+00:00:59,079 --> 00:01:03,120
+foi um Frame work para análise e
+
+26
+00:01:00,878 --> 00:01:05,840
+verificação de programas aí depois do
+
+27
+00:01:03,119 --> 00:01:08,840
+doutorado o Leonardo trabalhou por quase
+
+28
+00:01:05,840 --> 00:01:11,000
+6 anos no Instituto de Pesquisa sri na
+
+29
+00:01:08,840 --> 00:01:13,600
+Califórnia trabalhou então por mais de
+
+30
+00:01:11,000 --> 00:01:15,478
+16 anos na Microsoft research onde foi
+
+31
+00:01:13,599 --> 00:01:18,359
+responsável entre outros projetos pelo
+
+32
+00:01:15,478 --> 00:01:21,319
+provador de Teorema Z3 atualmente
+
+33
+00:01:18,359 --> 00:01:23,879
+Leonardo é Senior principal applied
+
+34
+00:01:21,319 --> 00:01:25,118
+Scientist alguma coisa como cientista
+
+35
+00:01:23,879 --> 00:01:27,679
+Senior
+
+36
+00:01:25,118 --> 00:01:30,599
+principal aplicado no grupo de
+
+37
+00:01:27,680 --> 00:01:33,399
+raciocínio automatizado na aw
+
+38
+00:01:30,599 --> 00:01:36,239
+Amazon Web Services e também Chief
+
+39
+00:01:33,399 --> 00:01:39,920
+architect e board member arquiteto che
+
+40
+00:01:36,239 --> 00:01:43,118
+chefe e membro de conselho da lin frro
+
+41
+00:01:39,920 --> 00:01:46,680
+LM frro organização de pesquisa focada
+
+42
+00:01:43,118 --> 00:01:51,560
+em LM Leonardo é co-criador com Nicolai
+
+43
+00:01:46,680 --> 00:01:53,880
+Borner Levin nmon e Christoph Winters
+
+44
+00:01:51,560 --> 00:01:56,280
+geister eu vi você numa palestra
+
+45
+00:01:53,879 --> 00:01:58,839
+colocando o Nicolai e o Christopher mas
+
+46
+00:01:56,280 --> 00:02:01,640
+não colocando leve mas em outro lugar eu
+
+47
+00:01:58,840 --> 00:02:02,920
+vi colocando os quatro nomes do como
+
+48
+00:02:01,640 --> 00:02:08,679
+criadores dos
+
+49
+00:02:02,920 --> 00:02:11,920
+E3 uhum uhum então e a o o o
+
+50
+00:02:08,679 --> 00:02:15,640
+o porque o o Live veio muito depois eu
+
+51
+00:02:11,919 --> 00:02:17,878
+eu mal eu nunca tive interseção com Live
+
+52
+00:02:15,639 --> 00:02:21,119
+no Z3 eu tinha parado de trabalhar no Z3
+
+53
+00:02:17,878 --> 00:02:25,439
+quando o Live veio ajudar o Nicolai né
+
+54
+00:02:21,120 --> 00:02:27,159
+a eu trabalhei eh eu comecei o Z3 o
+
+55
+00:02:25,439 --> 00:02:29,039
+Nicolai se juntou Logo no início do
+
+56
+00:02:27,159 --> 00:02:31,959
+projeto a gente trabalhou nós dois
+
+57
+00:02:29,039 --> 00:02:35,120
+juntos maior parte do tempo aí depois de
+
+58
+00:02:31,959 --> 00:02:38,000
+alguns anos o o o o o o Christopher se
+
+59
+00:02:35,120 --> 00:02:40,519
+juntou a gente Christopher ajudou muito
+
+60
+00:02:38,000 --> 00:02:43,598
+depois o Christofer saiu não depois eu
+
+61
+00:02:40,519 --> 00:02:45,319
+eu eu fui Pro Z3 pro liin eu comecei a
+
+62
+00:02:43,598 --> 00:02:49,280
+trabalhar no lim e no Z3 ao mesmo tempo
+
+63
+00:02:45,318 --> 00:02:52,639
+mas depois de se meses eu acabei fazendo
+
+64
+00:02:49,280 --> 00:02:55,158
+100% link aí depois de uns anos o
+
+65
+00:02:52,639 --> 00:02:58,759
+Christopher saiu tambémm aí foi só o
+
+66
+00:02:55,158 --> 00:03:02,598
+Nicolai aí depois veio o l ajudou o
+
+67
+00:02:58,759 --> 00:03:06,519
+Nicolai jo jo então só clarificando isso
+
+68
+00:03:02,598 --> 00:03:08,119
+o Z3 é um SMT S um tipo de provador de
+
+69
+00:03:06,519 --> 00:03:10,519
+teoremas a gente não vai explicar tudo
+
+70
+00:03:08,120 --> 00:03:11,799
+isso aqui a questão é que se a gente
+
+71
+00:03:10,519 --> 00:03:13,280
+fosse falar sobre tudo que você fez na
+
+72
+00:03:11,799 --> 00:03:15,640
+sua carreira precisaria de algumas horas
+
+73
+00:03:13,280 --> 00:03:19,719
+não a gente pretende fazer algo com
+
+74
+00:03:15,639 --> 00:03:22,839
+duração no máximo de 1 hora meia e o o o
+
+75
+00:03:19,719 --> 00:03:25,400
+o o Z3 é usado para verificação de
+
+76
+00:03:22,840 --> 00:03:27,360
+programa geração de caso de testes Entre
+
+77
+00:03:25,400 --> 00:03:30,599
+várias aplicações isso está lá na página
+
+78
+00:03:27,360 --> 00:03:32,519
+do do Z3 uma um fato interessante sobre
+
+79
+00:03:30,598 --> 00:03:35,280
+o Z3 é que ele ganhou o programming
+
+80
+00:03:32,519 --> 00:03:38,680
+language software Awards da sigplan né
+
+81
+00:03:35,280 --> 00:03:40,318
+lá da ACM por exemplo para para deixar
+
+82
+00:03:38,680 --> 00:03:41,640
+isso claro pro pras pessoas que nos
+
+83
+00:03:40,318 --> 00:03:42,878
+escutam aqui que são mais da área de
+
+84
+00:03:41,639 --> 00:03:45,000
+engenheria de software mas que
+
+85
+00:03:42,878 --> 00:03:47,239
+provavelmente talvez alguns não conheçam
+
+86
+00:03:45,000 --> 00:03:50,199
+os E3 mas conhecem outros vencedores
+
+87
+00:03:47,239 --> 00:03:54,319
+deste prêmio Como por exemplo o Glasgow
+
+88
+00:03:50,199 --> 00:03:59,639
+haskel compiler o ghc o cock proof
+
+89
+00:03:54,318 --> 00:04:02,598
+assistant o gnu compiler Collection gcc
+
+90
+00:03:59,639 --> 00:04:05,598
+Rocket Scala ou Camel então é um prêmio
+
+91
+00:04:02,598 --> 00:04:07,280
+bastante importante você e o Nicolai
+
+92
+00:04:05,598 --> 00:04:09,759
+também receberam o prêmio herbrand de
+
+93
+00:04:07,280 --> 00:04:11,438
+2019 por contribuições de destaque para
+
+94
+00:04:09,759 --> 00:04:12,878
+o raciocínio automatizado em
+
+95
+00:04:11,438 --> 00:04:16,439
+reconhecimento ao seu trabalho na
+
+96
+00:04:12,878 --> 00:04:20,199
+promoção da prova de teoremas com Z3 e
+
+97
+00:04:16,439 --> 00:04:23,279
+você é criador do liin E aí também V vem
+
+98
+00:04:20,199 --> 00:04:28,040
+a pergunta você começou o Lim
+
+99
+00:04:23,279 --> 00:04:30,359
+eh sozinho mas em algum momento a a a
+
+100
+00:04:28,040 --> 00:04:32,439
+linguagem se tornou uma linguagem de
+
+101
+00:04:30,360 --> 00:04:34,280
+programação dá para dizer que você é o
+
+102
+00:04:32,439 --> 00:04:36,639
+único criador do link como linguagem de
+
+103
+00:04:34,279 --> 00:04:41,079
+programação ou
+
+104
+00:04:36,639 --> 00:04:43,280
+não não e tem toda a comunidade por trás
+
+105
+00:04:41,079 --> 00:04:45,599
+tem colaboração de tanta gente por
+
+106
+00:04:43,279 --> 00:04:47,879
+quando comecei o Lin eu comecei com sunr
+
+107
+00:04:45,600 --> 00:04:50,520
+era meu estagiário na época agora Ele é
+
+108
+00:04:47,879 --> 00:04:51,759
+meu colega na Amazon é o mundo da voltas
+
+109
+00:04:50,519 --> 00:04:54,758
+né
+
+110
+00:04:51,759 --> 00:04:58,520
+Eh tem essas pessoas que foram tiveram
+
+111
+00:04:54,759 --> 00:05:01,080
+uma contribuição incrível sunr é muito
+
+112
+00:04:58,519 --> 00:05:03,319
+muito é de outro mundo ele e o Sebastian
+
+113
+00:05:01,079 --> 00:05:06,959
+foram os meus melhores Estagiários
+
+114
+00:05:03,319 --> 00:05:10,560
+disparado disparado Ah então o Sebastian
+
+115
+00:05:06,959 --> 00:05:12,239
+ah ajudou muito o surr ajudou muito aí
+
+116
+00:05:10,560 --> 00:05:14,560
+teve várias pessoas na comunidade o
+
+117
+00:05:12,240 --> 00:05:18,280
+Mário Carneiro que não é brasileiro mas
+
+118
+00:05:14,560 --> 00:05:23,519
+o spar dele são brasileiros né o Mário
+
+119
+00:05:18,279 --> 00:05:25,638
+e pô o cara é uma máquina tem o Gabriel
+
+120
+00:05:23,519 --> 00:05:30,240
+Abner que agora tá na Microsoft research
+
+121
+00:05:25,639 --> 00:05:32,079
+eh ah tem milhões de pessoas Desculpa se
+
+122
+00:05:30,240 --> 00:05:34,400
+eu esqueci alguns nomes mas são milhares
+
+123
+00:05:32,079 --> 00:05:38,240
+de pessoas que ajudaram Então você é é
+
+124
+00:05:34,399 --> 00:05:40,560
+um dos criadores né Talvez o o nome que
+
+125
+00:05:38,240 --> 00:05:42,519
+tá é mais conhecido por trás do do LM
+
+126
+00:05:40,560 --> 00:05:44,639
+que é um provador de teoremas um
+
+127
+00:05:42,519 --> 00:05:46,240
+assistente de provas e uma linguagem de
+
+128
+00:05:44,639 --> 00:05:48,720
+programação funcional a gente vai falar
+
+129
+00:05:46,240 --> 00:05:50,840
+mais sobre isso daqui a pouco ou como
+
+130
+00:05:48,720 --> 00:05:52,800
+diz a página de LM lin ou linguagem de
+
+131
+00:05:50,839 --> 00:05:55,638
+programação funcional que torna mais
+
+132
+00:05:52,800 --> 00:05:58,240
+fácil escrever código correto e de fácil
+
+133
+00:05:55,639 --> 00:06:00,840
+manutenção Então acho que essa essa
+
+134
+00:05:58,240 --> 00:06:02,400
+linha aqui vai deixar o os nossos
+
+135
+00:06:00,839 --> 00:06:04,959
+ouvintes interessados em saber mais
+
+136
+00:06:02,399 --> 00:06:06,758
+sobre o Lim eu gosto de dizer que lim é
+
+137
+00:06:04,959 --> 00:06:08,680
+uma das três linguagens de programação
+
+138
+00:06:06,759 --> 00:06:10,520
+criadas por brasileiros e usadas no
+
+139
+00:06:08,680 --> 00:06:13,160
+mundo todo né as outras duas são lua que
+
+140
+00:06:10,519 --> 00:06:15,879
+acabou de completar 30 anos teve uma
+
+141
+00:06:13,160 --> 00:06:17,759
+cerimônia hoje a gente tá gravando em 20
+
+142
+00:06:15,879 --> 00:06:20,918
+de outubro essa semana teve uma
+
+143
+00:06:17,759 --> 00:06:24,520
+cerimônia lá com com o Roberto dando uma
+
+144
+00:06:20,918 --> 00:06:28,439
+palestra e alir que acabou de completar
+
+145
+00:06:24,519 --> 00:06:30,680
+11 anos e nós nós dois já conversamos
+
+146
+00:06:28,439 --> 00:06:32,719
+antes meu podcast pessoal mas lá o foco
+
+147
+00:06:30,680 --> 00:06:34,199
+maior foi Em lógica e hoje o foco maior
+
+148
+00:06:32,720 --> 00:06:36,960
+vai ser em desenvolvimento e verificação
+
+149
+00:06:34,199 --> 00:06:38,639
+de software com link uh então Leonardo
+
+150
+00:06:36,959 --> 00:06:41,159
+Depois de toda essa longa apresentação
+
+151
+00:06:38,639 --> 00:06:44,680
+Você tem alguma coisa a
+
+152
+00:06:41,160 --> 00:06:47,599
+complementar eu tenho curiosidades like
+
+153
+00:06:44,680 --> 00:06:51,079
+por exemplo o até o LM 2 a linguagem de
+
+154
+00:06:47,598 --> 00:06:54,959
+extensão do LM era o lua
+
+155
+00:06:51,079 --> 00:06:56,318
+ah Coincidência né não sabia não é
+
+156
+00:06:54,959 --> 00:06:58,399
+coincidência porque eu fui aluno do
+
+157
+00:06:56,319 --> 00:07:00,560
+Roberto né então não é tanta
+
+158
+00:06:58,399 --> 00:07:01,799
+coincidência
+
+159
+00:07:00,560 --> 00:07:04,439
+Mas eu achei interessante que você
+
+160
+00:07:01,800 --> 00:07:06,800
+listou essas três linguagens e e o Lin e
+
+161
+00:07:04,439 --> 00:07:09,839
+o lua estão de certa forma relacionados
+
+162
+00:07:06,800 --> 00:07:12,160
+no ponto na história do lin é já que
+
+163
+00:07:09,839 --> 00:07:15,159
+você citou um fato curioso a pergunta
+
+164
+00:07:12,160 --> 00:07:17,800
+como é que foi escolhido o nome do lin é
+
+165
+00:07:15,160 --> 00:07:21,439
+porque começa com le como seu
+
+166
+00:07:17,800 --> 00:07:22,879
+nome não não não pior que já me
+
+167
+00:07:21,439 --> 00:07:24,519
+perguntaram isso mas não tem nada a ver
+
+168
+00:07:22,879 --> 00:07:26,000
+ela ideia de esse negócio nos Estados
+
+169
+00:07:24,519 --> 00:07:28,719
+Unidos tem esse negócio
+
+170
+00:07:26,000 --> 00:07:31,079
+lin é tipo assim você tem uma coisa que
+
+171
+00:07:28,720 --> 00:07:34,440
+a gente queria tem um Kernel pro LM bem
+
+172
+00:07:31,079 --> 00:07:37,719
+pequeno a a parte que é que você tem que
+
+173
+00:07:34,439 --> 00:07:39,759
+confiar né que ch trusted Kernel Então
+
+174
+00:07:37,720 --> 00:07:42,520
+esse a gente queria que ele fosse
+
+175
+00:07:39,759 --> 00:07:44,759
+minimalista a A então por isso o LM vem
+
+176
+00:07:42,519 --> 00:07:49,279
+daí a ideia de ser
+
+177
+00:07:44,759 --> 00:07:51,360
+mínimos não ter gordura extra lá essa
+
+178
+00:07:49,279 --> 00:07:53,878
+era a ideia é e eu acho que Teve uma
+
+179
+00:07:51,360 --> 00:07:55,560
+época que é assim eu fiz doutorado em
+
+180
+00:07:53,879 --> 00:07:57,439
+lógica para computação aí acabei vindo
+
+181
+00:07:55,560 --> 00:08:00,560
+aqui para o tpr
+
+182
+00:07:57,439 --> 00:08:03,360
+desão só tive um aluno de TCC que fez
+
+183
+00:08:00,560 --> 00:08:05,560
+alguma coisa Em lógica e no mestrado eu
+
+184
+00:08:03,360 --> 00:08:07,598
+trabalho mais com engenharia de software
+
+185
+00:08:05,560 --> 00:08:10,038
+mas Teve uma época que tinha uns link
+
+186
+00:08:07,598 --> 00:08:12,279
+tbl prover link não sei o que eram uns
+
+187
+00:08:10,038 --> 00:08:16,318
+artigos científicos
+
+188
+00:08:12,279 --> 00:08:18,878
+apresentando versões link de de sistemas
+
+189
+00:08:16,319 --> 00:08:20,840
+de prova mas ok vamos começar falando
+
+190
+00:08:18,879 --> 00:08:23,720
+sobre o tema principal dessa entrevista
+
+191
+00:08:20,839 --> 00:08:25,598
+verificação de software algumas pessoas
+
+192
+00:08:23,720 --> 00:08:27,240
+talvez muitas que nos escutam já devem
+
+193
+00:08:25,598 --> 00:08:29,560
+saber o que é verificação de software
+
+194
+00:08:27,240 --> 00:08:32,038
+Mas você pode explicar novamente pros no
+
+195
+00:08:29,560 --> 00:08:32,038
+e nossos
+
+196
+00:08:32,158 --> 00:08:38,439
+ouvintes ya eu eu eu gosto de ver
+
+197
+00:08:35,599 --> 00:08:41,360
+verificação de software
+
+198
+00:08:38,440 --> 00:08:43,200
+como imagina que você tem um programa né
+
+199
+00:08:41,360 --> 00:08:45,000
+hoje em dia eu acho tá muito popular
+
+200
+00:08:43,200 --> 00:08:47,600
+usar assertiva né as pessoas colocam
+
+201
+00:08:45,000 --> 00:08:50,278
+assertiva Nos programas nos seus
+
+202
+00:08:47,600 --> 00:08:53,080
+programas E checam durante tempo de
+
+203
+00:08:50,278 --> 00:08:56,039
+execução se assertiva vale ou não e é
+
+204
+00:08:53,080 --> 00:08:58,200
+super válida usar esses assertivos Eu
+
+205
+00:08:56,039 --> 00:09:00,480
+por exemplo quando alguém me dá alguma
+
+206
+00:08:58,200 --> 00:09:03,320
+coisa que eu escrevi há muito tempo
+
+207
+00:09:00,480 --> 00:09:04,639
+atrás alguém escreveu eu tenho que
+
+208
+00:09:03,320 --> 00:09:07,160
+consertar a primeira coisa que eu vou
+
+209
+00:09:04,639 --> 00:09:08,600
+fazendo é é é colocando assertiva eu vou
+
+210
+00:09:07,159 --> 00:09:10,399
+entendendo fal assim ó eu acho que isso
+
+211
+00:09:08,600 --> 00:09:13,600
+daqui é verdade nesse ponto então eu
+
+212
+00:09:10,399 --> 00:09:15,600
+escrevo assertiva lá e depois eu tento
+
+213
+00:09:13,600 --> 00:09:18,320
+rodar a bateria de testes que eles tem
+
+214
+00:09:15,600 --> 00:09:19,120
+que eu que eu tenho e e vejo se bate o
+
+215
+00:09:18,320 --> 00:09:21,839
+meu
+
+216
+00:09:19,120 --> 00:09:25,240
+entendimento do minha interpretação do
+
+217
+00:09:21,839 --> 00:09:26,880
+programa tá batendo com a o que ele é de
+
+218
+00:09:25,240 --> 00:09:30,600
+Fato
+
+219
+00:09:26,879 --> 00:09:32,159
+né verificação formal Vai um nesse caso
+
+220
+00:09:30,600 --> 00:09:33,879
+daí eu tô tendo que executar o programa
+
+221
+00:09:32,159 --> 00:09:35,120
+eu tenho que ter uma bateria de testes
+
+222
+00:09:33,879 --> 00:09:38,360
+né
+
+223
+00:09:35,120 --> 00:09:41,200
+E mesmo que eu passe a bateria de testes
+
+224
+00:09:38,360 --> 00:09:44,560
+isso não é uma prova que assertiva vale
+
+225
+00:09:41,200 --> 00:09:46,278
+tá é uma prova que ela passou ela vale
+
+226
+00:09:44,559 --> 00:09:48,679
+na bateria de testes que você tem mas
+
+227
+00:09:46,278 --> 00:09:51,240
+pode ter alguma coisa que você esqueceu
+
+228
+00:09:48,679 --> 00:09:52,919
+que faz o seu software eh não funciona
+
+229
+00:09:51,240 --> 00:09:55,600
+daquele jeito que você tá alegando que
+
+230
+00:09:52,919 --> 00:09:59,240
+ele funciona né na verificação de
+
+231
+00:09:55,600 --> 00:10:02,639
+software em usando ferramentas como Z3 e
+
+232
+00:09:59,240 --> 00:10:04,480
+lin A ideia é você ter um um um um
+
+233
+00:10:02,639 --> 00:10:06,278
+estaticamente você checar essa
+
+234
+00:10:04,480 --> 00:10:09,079
+propriedade Ele tá dizendo assim Olha
+
+235
+00:10:06,278 --> 00:10:12,679
+isso aqui funciona é sem isso é sempre
+
+236
+00:10:09,078 --> 00:10:14,039
+verdade eh então eu eu vejo como uma
+
+237
+00:10:12,679 --> 00:10:16,919
+essas ferramentas de verificação de
+
+238
+00:10:14,039 --> 00:10:19,240
+software com uma forma de você aumentar
+
+239
+00:10:16,919 --> 00:10:21,439
+a a tua produtividade Você tem uma
+
+240
+00:10:19,240 --> 00:10:24,959
+garantia estática que alguma coisa é
+
+241
+00:10:21,440 --> 00:10:27,160
+verdade eh o o um dos nossos sonhos é
+
+242
+00:10:24,958 --> 00:10:30,239
+que no futuro você possa conversar com a
+
+243
+00:10:27,159 --> 00:10:32,159
+máquina eu falo assim eu faço sa eu
+
+244
+00:10:30,240 --> 00:10:33,639
+alego que isso aqui é verdade e ela vai
+
+245
+00:10:32,159 --> 00:10:36,319
+me dizer checar para mim se isso é
+
+246
+00:10:33,639 --> 00:10:38,439
+verdade ou não e e me ajuda a
+
+247
+00:10:36,320 --> 00:10:40,399
+desenvolver o software nessa iteração
+
+248
+00:10:38,440 --> 00:10:42,720
+então eu eu vejo verificação de forma
+
+249
+00:10:40,399 --> 00:10:44,600
+verificação de software dessa forma tem
+
+250
+00:10:42,720 --> 00:10:46,639
+gente que Verê Ah você tá usando métodos
+
+251
+00:10:44,600 --> 00:10:49,759
+lógicos matemáticos mas eu acho que são
+
+252
+00:10:46,639 --> 00:10:52,120
+os detalhes eu gosto de de escrever do
+
+253
+00:10:49,759 --> 00:10:53,679
+ponto de vista do desenvolvedor né
+
+254
+00:10:52,120 --> 00:10:56,360
+desenvolvedor você imagina você tem uma
+
+255
+00:10:53,679 --> 00:10:58,199
+pilha de código você quer entendê-lo
+
+256
+00:10:56,360 --> 00:10:59,720
+então você vai fazer alegações sobre
+
+257
+00:10:58,200 --> 00:11:01,600
+esse código vai dizer di Ah isso aqui eu
+
+258
+00:10:59,720 --> 00:11:04,800
+acho que que o x essa variável X é
+
+259
+00:11:01,600 --> 00:11:06,360
+sempre maior que zero nesse ponto ah e e
+
+260
+00:11:04,799 --> 00:11:07,838
+eu vou ter uma ferramenta que me diz se
+
+261
+00:11:06,360 --> 00:11:10,959
+isso é verdade ou
+
+262
+00:11:07,839 --> 00:11:12,480
+não exatamente Então você já respondeu
+
+263
+00:11:10,958 --> 00:11:14,479
+um pouco da próxima pergunta né que é
+
+264
+00:11:12,480 --> 00:11:16,200
+como provadores teoremas ou assistentes
+
+265
+00:11:14,480 --> 00:11:19,039
+de prova são usados na verificação
+
+266
+00:11:16,200 --> 00:11:21,639
+formal de software e eu tava assistindo
+
+267
+00:11:19,039 --> 00:11:23,958
+uma palestra sua lá no sobre o Z3 acho
+
+268
+00:11:21,639 --> 00:11:26,560
+foi lá no touring institute e você
+
+269
+00:11:23,958 --> 00:11:28,000
+listou até várias ferramentas a da época
+
+270
+00:11:26,559 --> 00:11:30,638
+que você ainda tava lá na Microsoft
+
+271
+00:11:28,000 --> 00:11:33,639
+research né que usam oos E3 por trás
+
+272
+00:11:30,639 --> 00:11:35,079
+para fazer essa essa verificação E aí um
+
+273
+00:11:33,639 --> 00:11:37,720
+um dos exemplos que eu queria que você
+
+274
+00:11:35,078 --> 00:11:39,958
+comentasse é como o Z3 ajuda os
+
+275
+00:11:37,720 --> 00:11:44,000
+desenvolvedores a encontrarem bugs em
+
+276
+00:11:39,958 --> 00:11:46,278
+seus programas Ah tá tá
+
+277
+00:11:44,000 --> 00:11:49,399
+Aim eu acho que a ferramenta mais
+
+278
+00:11:46,278 --> 00:11:51,320
+popular do construída no topo do Z3 na
+
+279
+00:11:49,399 --> 00:11:53,600
+Microsoft foi o
+
+280
+00:11:51,320 --> 00:11:57,720
+Sage o
+
+281
+00:11:53,600 --> 00:11:59,879
+Sade ele é um eles chamam de fuzer de
+
+282
+00:11:57,720 --> 00:12:01,360
+caixa branca você eu tenho esses fers
+
+283
+00:11:59,879 --> 00:12:03,720
+hoje em dia que são esses programas que
+
+284
+00:12:01,360 --> 00:12:05,600
+ficam gerando entrada aleatória pro teu
+
+285
+00:12:03,720 --> 00:12:08,959
+programa para tentar derrubar o programa
+
+286
+00:12:05,600 --> 00:12:11,320
+ou ou ter uma falha de segurança ou
+
+287
+00:12:08,958 --> 00:12:13,198
+achar um bug no programa Mas eles estão
+
+288
+00:12:11,320 --> 00:12:15,040
+fazendo de forma aleatória ficam mutando
+
+289
+00:12:13,198 --> 00:12:17,078
+a entrada até que eles conseguem
+
+290
+00:12:15,039 --> 00:12:19,759
+derrubar o teu
+
+291
+00:12:17,078 --> 00:12:21,519
+programa você consegue essas ferramentas
+
+292
+00:12:19,759 --> 00:12:25,879
+são muito úteis essas ferramentas de
+
+293
+00:12:21,519 --> 00:12:27,120
+fuzzing né mas aí você eventualmente
+
+294
+00:12:25,879 --> 00:12:28,679
+você percebe que você tem alguns
+
+295
+00:12:27,120 --> 00:12:31,399
+caminhos de execução no teu programa que
+
+296
+00:12:28,679 --> 00:12:33,599
+você nunca consegue achar a entrada
+
+297
+00:12:31,399 --> 00:12:36,278
+aleatória que vai te a entrada que vai
+
+298
+00:12:33,600 --> 00:12:39,720
+fazer você conseguir executar aquele
+
+299
+00:12:36,278 --> 00:12:41,000
+aquele caminho do programa e o Sade
+
+300
+00:12:39,720 --> 00:12:42,920
+basicamente ele tinha uma máquina
+
+301
+00:12:41,000 --> 00:12:45,320
+virtual que fica rodando o programa na
+
+302
+00:12:42,919 --> 00:12:46,799
+máquina virtual ele fica monitorando os
+
+303
+00:12:45,320 --> 00:12:50,000
+caminhos de execução que foram
+
+304
+00:12:46,799 --> 00:12:54,559
+executados quais não foram Quais que
+
+305
+00:12:50,000 --> 00:12:55,679
+levam a a a a falhas de segurança né el
+
+306
+00:12:54,559 --> 00:12:57,479
+fal assim olha eu tenho esse caminho
+
+307
+00:12:55,679 --> 00:12:59,838
+aqui que eu não tô esse caminho aqui dá
+
+308
+00:12:57,480 --> 00:13:02,000
+uma falha de segurança é possível
+
+309
+00:12:59,839 --> 00:13:03,760
+executar esse caminho você consegue
+
+310
+00:13:02,000 --> 00:13:07,679
+transformar esse problema num problema
+
+311
+00:13:03,759 --> 00:13:10,198
+em lógica ele é uma fórmula matemática
+
+312
+00:13:07,679 --> 00:13:13,000
+se você consegue achar o valor das a
+
+313
+00:13:10,198 --> 00:13:17,039
+entrada do seu programa se transforma em
+
+314
+00:13:13,000 --> 00:13:19,399
+variáveis nessa fórmula aí é tipo como
+
+315
+00:13:17,039 --> 00:13:22,399
+você pode ver como um jogo você consegue
+
+316
+00:13:19,399 --> 00:13:24,919
+achar valor para essas variáveis que
+
+317
+00:13:22,399 --> 00:13:27,440
+tornem essa fórmula verdadeira essa
+
+318
+00:13:24,919 --> 00:13:30,360
+fórmula só é verdadeira se existir um
+
+319
+00:13:27,440 --> 00:13:31,959
+caminho de execução no programa
+
+320
+00:13:30,360 --> 00:13:34,800
+e isso daí
+
+321
+00:13:31,958 --> 00:13:38,119
+parece viagem Total mas isso daí
+
+322
+00:13:34,799 --> 00:13:40,078
+funciona na verdade para chave o Z3 for
+
+323
+00:13:38,120 --> 00:13:43,600
+usado maciçamente para esse tipo de
+
+324
+00:13:40,078 --> 00:13:46,679
+problema eles acharam tanto tanto bug
+
+325
+00:13:43,600 --> 00:13:49,000
+fala de segurança o patri codef que é o
+
+326
+00:13:46,679 --> 00:13:52,278
+líder do Sage ele tem gráfico mostrando
+
+327
+00:13:49,000 --> 00:13:54,919
+a redução nas falhas de segurança e um
+
+328
+00:13:52,278 --> 00:13:57,720
+monte de de
+
+329
+00:13:54,919 --> 00:13:59,759
+eh Retorno dos Engenheiros falando assim
+
+330
+00:13:57,720 --> 00:14:02,959
+caramba is tem inteligência artificial o
+
+331
+00:13:59,759 --> 00:14:08,240
+que que é isso tem a gente atingiu o Adi
+
+332
+00:14:02,958 --> 00:14:11,559
+já a a a mas não não é só o Z3 fazendo
+
+333
+00:14:08,240 --> 00:14:15,120
+busca fazendo uma busca inteligente no
+
+334
+00:14:11,559 --> 00:14:17,078
+espaço de soluções né dessa fórmula e
+
+335
+00:14:15,120 --> 00:14:19,519
+esse tipo de ferramenta tem milhões de
+
+336
+00:14:17,078 --> 00:14:21,799
+variações desse tipo de ferramenta mas o
+
+337
+00:14:19,519 --> 00:14:25,078
+Sade é mais popular na
+
+338
+00:14:21,799 --> 00:14:27,000
+Microsoft Certo certo e quem quiser
+
+339
+00:14:25,078 --> 00:14:28,799
+saber mais até sobre a história do Z3 Eu
+
+340
+00:14:27,000 --> 00:14:30,480
+recomendo que o pessoal escute lá o
+
+341
+00:14:28,799 --> 00:14:32,719
+podcast se você foi entrevistado lá no
+
+342
+00:14:30,480 --> 00:14:35,240
+Type Theory for All do Pedro Abreu que é
+
+343
+00:14:32,720 --> 00:14:37,240
+um estudante de doutorado brasileiro e
+
+344
+00:14:35,240 --> 00:14:38,680
+tem tem bastante história interessante
+
+345
+00:14:37,240 --> 00:14:40,799
+lá
+
+346
+00:14:38,679 --> 00:14:43,519
+e
+
+347
+00:14:40,799 --> 00:14:47,399
+é você tá rindo porque foi foi foi bem
+
+348
+00:14:43,519 --> 00:14:50,560
+engraçado também umas partes né mas foi
+
+349
+00:14:47,399 --> 00:14:52,879
+foi a gente contou curiosidade disso eu
+
+350
+00:14:50,559 --> 00:14:56,838
+achei que ninguém na Amazon ia escutar
+
+351
+00:14:52,879 --> 00:14:59,879
+esse podcast né Putz eu fiz um monte de
+
+352
+00:14:56,839 --> 00:15:02,839
+piada no no podcast
+
+353
+00:14:59,879 --> 00:15:06,639
+agora Vazou para um monte de gente
+
+354
+00:15:02,839 --> 00:15:12,880
+pessoa me manda e-mail sobre
+
+355
+00:15:06,639 --> 00:15:15,919
+essc é legal legal o Pedro já sabe
+
+356
+00:15:12,879 --> 00:15:18,039
+disso não vou vou comentar com ele eu
+
+357
+00:15:15,919 --> 00:15:20,198
+esqueci disso certo certo depois eu eu
+
+358
+00:15:18,039 --> 00:15:23,759
+mando essa gravação aqui para ele e E aí
+
+359
+00:15:20,198 --> 00:15:23,758
+ele ele fica sabendo por
+
+360
+00:15:23,919 --> 00:15:29,000
+você agora a gente vai falar um pouco
+
+361
+00:15:26,320 --> 00:15:30,519
+sobre o Lim E aí eu vou dividir duas
+
+362
+00:15:29,000 --> 00:15:35,519
+partes né A primeira parte eu vou falar
+
+363
+00:15:30,519 --> 00:15:38,240
+o LM como software né então Eh o LM eu
+
+364
+00:15:35,519 --> 00:15:40,759
+eu acho que escutei eu falo escutei Eu
+
+365
+00:15:38,240 --> 00:15:42,759
+vi na sua página né como eu contei lá na
+
+366
+00:15:40,759 --> 00:15:45,240
+na outra entrevista Eu geralmente falava
+
+367
+00:15:42,759 --> 00:15:46,759
+Olha tem esse brasileiro aqui eu eu
+
+368
+00:15:45,240 --> 00:15:49,680
+realmente não lembro como foi que eu
+
+369
+00:15:46,759 --> 00:15:51,879
+descobri sobre que você existia mas eu
+
+370
+00:15:49,679 --> 00:15:54,000
+eu lembro que eu par num determinado
+
+371
+00:15:51,879 --> 00:15:57,759
+momento disim olha esse negócio de
+
+372
+00:15:54,000 --> 00:16:00,120
+lógica aqui é tão tão valioso que é o
+
+373
+00:15:57,759 --> 00:16:03,039
+pessoal lá na Microsoft paga um
+
+374
+00:16:00,120 --> 00:16:05,480
+brasileiro para para trabalhar com isso
+
+375
+00:16:03,039 --> 00:16:09,599
+e eu acho que agora o argumento ficou
+
+376
+00:16:05,480 --> 00:16:13,278
+mais forte né porque agora eu através da
+
+377
+00:16:09,600 --> 00:16:16,040
+sua contratação lá n a Amazon paga um
+
+378
+00:16:13,278 --> 00:16:18,039
+grupo imenso de pessoas né num grupo de
+
+379
+00:16:16,039 --> 00:16:21,159
+raciocínio automatizado para trabalhar
+
+380
+00:16:18,039 --> 00:16:22,399
+com isso mas enfim eu eu escutei pela
+
+381
+00:16:21,159 --> 00:16:25,519
+primeira vez eu acho que quando eu era
+
+382
+00:16:22,399 --> 00:16:27,958
+LM do ou LM 3 o que era o liin até sua
+
+383
+00:16:25,519 --> 00:16:29,679
+versão TR Porque Pelo que eu entendi não
+
+384
+00:16:27,958 --> 00:16:32,479
+vocês não se apresentavam como uma
+
+385
+00:16:29,679 --> 00:16:34,638
+linguagem de programação era mais como
+
+386
+00:16:32,480 --> 00:16:37,720
+um software bastante útil pros
+
+387
+00:16:34,639 --> 00:16:41,519
+matemáticos fazerem demonstrações é
+
+388
+00:16:37,720 --> 00:16:43,720
+isso não o LM começou e essa pergunta é
+
+389
+00:16:41,519 --> 00:16:46,399
+excelente o o o o LM
+
+390
+00:16:43,720 --> 00:16:50,120
+começou porque o Z3 a gente falou dessas
+
+391
+00:16:46,399 --> 00:16:51,799
+aplicações de achar bug né mas o Z3
+
+392
+00:16:50,120 --> 00:16:55,039
+também foi usada na Microsoft para
+
+393
+00:16:51,799 --> 00:16:56,919
+verificar código eh mostrar que você põe
+
+394
+00:16:55,039 --> 00:16:59,078
+a sua propriedade ele prova uma vez por
+
+395
+00:16:56,919 --> 00:17:02,439
+todas aquela propriedade sempre ele vale
+
+396
+00:16:59,078 --> 00:17:06,438
+né o o se não consegue fazer isso o se
+
+397
+00:17:02,440 --> 00:17:08,720
+ele consegue analisar milhões de casos é
+
+398
+00:17:06,439 --> 00:17:11,519
+como se tivesse o você consegue provar
+
+399
+00:17:08,720 --> 00:17:13,240
+que se você executou menos de 10.000
+
+400
+00:17:11,519 --> 00:17:14,759
+passos no seu programa aquela
+
+401
+00:17:13,240 --> 00:17:18,919
+propriedade
+
+402
+00:17:14,759 --> 00:17:21,160
+funcionou É verdade mas talvez ela não
+
+403
+00:17:18,919 --> 00:17:24,120
+Valha se você executar 1 milhão de vezes
+
+404
+00:17:21,160 --> 00:17:26,480
+Passos né então o se tem limitações mas
+
+405
+00:17:24,119 --> 00:17:29,359
+o Z3 também foi usado para verificação
+
+406
+00:17:26,480 --> 00:17:31,200
+de software tá tem Fer entas tipo uma
+
+407
+00:17:29,359 --> 00:17:33,959
+muito popular era o vcc que era o
+
+408
+00:17:31,200 --> 00:17:36,960
+verified c compiler né que a Microsoft
+
+409
+00:17:33,960 --> 00:17:40,480
+research desenvolveu o vcc foi usado num
+
+410
+00:17:36,960 --> 00:17:43,319
+projeto chamado Hyper hyperv hyperv é
+
+411
+00:17:40,480 --> 00:17:45,480
+uma uma essa plataforma de virtualização
+
+412
+00:17:43,319 --> 00:17:48,480
+na Microsoft entre o sistema operacional
+
+413
+00:17:45,480 --> 00:17:50,200
+e o sistema operacional na máquina o
+
+414
+00:17:48,480 --> 00:17:51,558
+hardware e o sistema operacional
+
+415
+00:17:50,200 --> 00:17:55,720
+desculpa
+
+416
+00:17:51,558 --> 00:17:57,759
+ecam provar que o Hyper era correto né
+
+417
+00:17:55,720 --> 00:18:00,000
+Foi um projeto maciço eles provaram um
+
+418
+00:17:57,759 --> 00:18:01,720
+monte de coisa sobre Mas eles falharam
+
+419
+00:18:00,000 --> 00:18:05,000
+em provar a propriedade principal que
+
+420
+00:18:01,720 --> 00:18:07,440
+era isolamento né que você tem duas dois
+
+421
+00:18:05,000 --> 00:18:09,919
+eh sistemas operacionais rodando na na
+
+422
+00:18:07,440 --> 00:18:12,360
+mesma máquina não pode ter comunicação
+
+423
+00:18:09,919 --> 00:18:14,400
+Não tá vazando informação entre eles
+
+424
+00:18:12,359 --> 00:18:15,678
+isso daí é uma propriedade importante
+
+425
+00:18:14,400 --> 00:18:18,798
+você tá querendo vender para teus
+
+426
+00:18:15,679 --> 00:18:20,960
+clientes que que não as pessoas não
+
+427
+00:18:18,798 --> 00:18:23,798
+podem roubar os teus dados né Eh alguém
+
+428
+00:18:20,960 --> 00:18:26,400
+põe uma outra máquina virtual lá codando
+
+429
+00:18:23,798 --> 00:18:29,839
+na no azure né eles conseguem roubar os
+
+430
+00:18:26,400 --> 00:18:31,080
+teus dados né Eh Ah então isso é uma
+
+431
+00:18:29,839 --> 00:18:33,359
+propriedade que as pessoas queriam
+
+432
+00:18:31,079 --> 00:18:36,439
+provar não conseguiram provar eles
+
+433
+00:18:33,359 --> 00:18:39,199
+tentar usar o Z3 com vcc eles provaram
+
+434
+00:18:36,440 --> 00:18:42,000
+muitas coisas mas foi um desastre e e
+
+435
+00:18:39,200 --> 00:18:45,279
+porque o z é completamente
+
+436
+00:18:42,000 --> 00:18:47,558
+automático depois tá tá coisas simples
+
+437
+00:18:45,279 --> 00:18:49,879
+ele é maravilhoso e que a gente chama
+
+438
+00:18:47,558 --> 00:18:52,918
+que é decidível fragmentos são decidí
+
+439
+00:18:49,880 --> 00:18:56,000
+que tem algoritmo que se vai terminar o
+
+440
+00:18:52,919 --> 00:18:59,280
+algoritmo mas a lógica em
+
+441
+00:18:56,000 --> 00:19:01,000
+geral é indecidível você decidir se uma
+
+442
+00:18:59,279 --> 00:19:03,839
+fórmula é verdade ou não
+
+443
+00:19:01,000 --> 00:19:05,519
+Ah é impossível escrever um programa que
+
+444
+00:19:03,839 --> 00:19:08,000
+consiga dar a resposta sim ou não é que
+
+445
+00:19:05,519 --> 00:19:10,798
+nem o problema da parada em cência da
+
+446
+00:19:08,000 --> 00:19:12,400
+Computação então tem sempre heurística
+
+447
+00:19:10,798 --> 00:19:13,558
+um provador automático vai ter
+
+448
+00:19:12,400 --> 00:19:17,320
+heurística
+
+449
+00:19:13,558 --> 00:19:20,240
+né então a o Z3 tem um monte de
+
+450
+00:19:17,319 --> 00:19:22,519
+heurística eh tem todos esses prêmios
+
+451
+00:19:20,240 --> 00:19:24,798
+que você falou el T muito sucesso na
+
+452
+00:19:22,519 --> 00:19:27,200
+parte de achar bug mais para verificar
+
+453
+00:19:24,798 --> 00:19:29,158
+software nunca funcionou direito é
+
+454
+00:19:27,200 --> 00:19:30,919
+sempre a mesma coisa começa provando um
+
+455
+00:19:29,159 --> 00:19:34,080
+monte coisa simples quando a a
+
+456
+00:19:30,919 --> 00:19:36,919
+complexidade aumenta ele começa a falhar
+
+457
+00:19:34,079 --> 00:19:39,879
+e tem tem fenômenos As pessoas dizem ah
+
+458
+00:19:36,919 --> 00:19:42,440
+eh estabilidade de prova que às vezes
+
+459
+00:19:39,880 --> 00:19:44,320
+ele provou mas você começa a modificar
+
+460
+00:19:42,440 --> 00:19:47,120
+fazendo coisas que não modifica
+
+461
+00:19:44,319 --> 00:19:48,960
+semântica do problema mas a prova falha
+
+462
+00:19:47,119 --> 00:19:51,439
+ele não consegue provar
+
+463
+00:19:48,960 --> 00:19:54,079
+automaticamente há uma variação mínima
+
+464
+00:19:51,440 --> 00:19:55,960
+do que da Fórmula Então as pessoas
+
+465
+00:19:54,079 --> 00:19:58,558
+estavam muito frustradas com isso e o
+
+466
+00:19:55,960 --> 00:20:00,720
+Lin começou disso vamos fazer um no novo
+
+467
+00:19:58,558 --> 00:20:02,879
+sistema que as pessoas podem provar
+
+468
+00:20:00,720 --> 00:20:05,200
+automático que nem Z3 Mas elas também
+
+469
+00:20:02,880 --> 00:20:07,640
+conseguem provar manualmente Porque
+
+470
+00:20:05,200 --> 00:20:10,279
+alguns dos Engenheiros trabalh no hyperv
+
+471
+00:20:07,640 --> 00:20:14,038
+falavam para mim pô eu eu sei a prova
+
+472
+00:20:10,279 --> 00:20:17,399
+aqui eu sei a prova P cara
+
+473
+00:20:14,038 --> 00:20:21,079
+P essa ferramenta tá não tá me ajudando
+
+474
+00:20:17,400 --> 00:20:23,919
+tá me atrapalhando eu sei a prova então
+
+475
+00:20:21,079 --> 00:20:26,119
+o LM Veio desse dessa
+
+476
+00:20:23,919 --> 00:20:29,960
+necessidade e mas pegou com os
+
+477
+00:20:26,119 --> 00:20:31,319
+matemáticos foi uma incidência que eu
+
+478
+00:20:29,960 --> 00:20:33,360
+posso te contar como é que aconteceu é
+
+479
+00:20:31,319 --> 00:20:36,798
+uma história um pouco longa mas
+
+480
+00:20:33,359 --> 00:20:38,918
+e o primeiro usuário foi o Jeremy avig
+
+481
+00:20:36,798 --> 00:20:41,879
+ele não é do departamento de Matemática
+
+482
+00:20:38,919 --> 00:20:43,640
+departamento de lógica de filosofia da
+
+483
+00:20:41,880 --> 00:20:48,200
+da
+
+484
+00:20:43,640 --> 00:20:50,480
+ciu e o sunr é ele era um aluno com ed
+
+485
+00:20:48,200 --> 00:20:54,120
+Clark o Ed Clark é um cara muito famoso
+
+486
+00:20:50,480 --> 00:20:55,759
+igual prémio touring Ah e um dia o Ed
+
+487
+00:20:54,119 --> 00:20:59,519
+Clark chegou assim pra gente falou assim
+
+488
+00:20:55,759 --> 00:21:01,519
+vamos dar um curso do LM aqui na cmu no
+
+489
+00:20:59,519 --> 00:21:04,440
+departamento de computação né aí a gente
+
+490
+00:21:01,519 --> 00:21:07,359
+deu o curso e uma pessoa que veio pro
+
+491
+00:21:04,440 --> 00:21:10,159
+curso foi o Tom rails né o Tom R é um
+
+492
+00:21:07,359 --> 00:21:13,558
+matemático famoso ele tinha Já usado
+
+493
+00:21:10,159 --> 00:21:15,880
+sistemas de verif de eu tinha usado H
+
+494
+00:21:13,558 --> 00:21:19,720
+usado o Isabel que são outros sistemas
+
+495
+00:21:15,880 --> 00:21:22,679
+tipo lin né então ele veio e o próximo
+
+496
+00:21:19,720 --> 00:21:25,679
+projeto dele ele falou vou fazer usando
+
+497
+00:21:22,679 --> 00:21:28,519
+LM então a gente tinha um seminário que
+
+498
+00:21:25,679 --> 00:21:30,240
+tava Tom re ele falou para todo vem um
+
+499
+00:21:28,519 --> 00:21:32,519
+monte de matemático TIM gowers que é um
+
+500
+00:21:30,240 --> 00:21:35,519
+Field madal estava nesse seminário lá em
+
+501
+00:21:32,519 --> 00:21:38,599
+Cambridge e o Tom Rey anunciou que ele
+
+502
+00:21:35,519 --> 00:21:41,000
+tava usando o Lin aí tinha o Kevin
+
+503
+00:21:38,599 --> 00:21:43,719
+buzzard lá que é matemático que ele
+
+504
+00:21:41,000 --> 00:21:45,679
+trouxe muita gente pro lin né o Kevin
+
+505
+00:21:43,720 --> 00:21:47,519
+buzzard estava nesse seminário e falou
+
+506
+00:21:45,679 --> 00:21:49,640
+assim se o Tom reos tá usando o
+
+507
+00:21:47,519 --> 00:21:52,158
+Lin eu vou usar o Lin também por esse é
+
+508
+00:21:49,640 --> 00:21:53,320
+o caminho porque ele falou assim esses
+
+509
+00:21:52,159 --> 00:21:55,278
+caras que estão usando esses provador de
+
+510
+00:21:53,319 --> 00:21:57,599
+assistente de prova para mim esses caras
+
+511
+00:21:55,278 --> 00:21:59,519
+não sabem o que estão fazendo eh
+
+512
+00:21:57,599 --> 00:22:02,399
+provando coisa que matemático não tá nem
+
+513
+00:21:59,519 --> 00:22:04,278
+interessado Tom reos eu eu confio nele
+
+514
+00:22:02,400 --> 00:22:06,720
+ele é ele fala minha linguagem ele é
+
+515
+00:22:04,278 --> 00:22:10,679
+matemático ele não é um centista da
+
+516
+00:22:06,720 --> 00:22:13,600
+Computação aí aí o Kevin veio trouxe
+
+517
+00:22:10,679 --> 00:22:15,360
+muita gente né de matemática né por isso
+
+518
+00:22:13,599 --> 00:22:18,839
+que o Lin ficou muito popular em
+
+519
+00:22:15,359 --> 00:22:22,079
+matemática é um monte de coincidência
+
+520
+00:22:18,839 --> 00:22:25,038
+né tipo uma escadinha de Coincidências
+
+521
+00:22:22,079 --> 00:22:28,399
+é muito interessante até sobre o Jeremy
+
+522
+00:22:25,038 --> 00:22:29,879
+avig ele falou agora né no no t quer
+
+523
+00:22:28,400 --> 00:22:33,000
+dizer não sei se foi só no Twitter mas
+
+524
+00:22:29,880 --> 00:22:36,240
+ele falou que ele ganhou né um uma verba
+
+525
+00:22:33,000 --> 00:22:39,200
+para provar com o Lin o último teorema
+
+526
+00:22:36,240 --> 00:22:41,278
+de fermar e a verba para ele o Kevin o
+
+527
+00:22:39,200 --> 00:22:44,240
+Kevin Ah foi o Kevin é não desculpa
+
+528
+00:22:41,278 --> 00:22:46,599
+troquei foi foi e e a questão é que ele
+
+529
+00:22:44,240 --> 00:22:49,240
+disse ah é verba para 5 anos eu acho que
+
+530
+00:22:46,599 --> 00:22:52,519
+não vai dar para fazer em 5 anos né mas
+
+531
+00:22:49,240 --> 00:22:55,000
+enfim e eu acho assim se fosse só uma
+
+532
+00:22:52,519 --> 00:22:56,679
+ferramenta para matemático já daria para
+
+533
+00:22:55,000 --> 00:22:58,798
+dizer que o Lin é um grande sucesso n
+
+534
+00:22:56,679 --> 00:23:00,759
+tem muitos usuários né para esse tipo de
+
+535
+00:22:58,798 --> 00:23:02,918
+ferramenta né não é não é um Facebook
+
+536
+00:23:00,759 --> 00:23:05,400
+que todo mundo usa mas tem bastante
+
+537
+00:23:02,919 --> 00:23:07,679
+gente usando organizados numa comunidade
+
+538
+00:23:05,400 --> 00:23:09,440
+né no zulip comunidade fantástica on
+
+539
+00:23:07,679 --> 00:23:12,759
+mesmo fiz uma pergunta lá já tive uma
+
+540
+00:23:09,440 --> 00:23:15,400
+uma resposta eh essa comunidade se ajuda
+
+541
+00:23:12,759 --> 00:23:18,919
+e obtém resultados de destaque né o MEF
+
+542
+00:23:15,400 --> 00:23:20,679
+Lib o Liquid tensor experiment não sei
+
+543
+00:23:18,919 --> 00:23:23,840
+se foi o Liquid tensor que foi notícia
+
+544
+00:23:20,679 --> 00:23:26,600
+na Nature mas teve algumas notícias na
+
+545
+00:23:23,839 --> 00:23:29,319
+Nature ou quer dizer uma na Nature uma
+
+546
+00:23:26,599 --> 00:23:31,839
+ou outra lá naquela revista quanta né
+
+547
+00:23:29,319 --> 00:23:33,918
+revista site uhum como você acabou de
+
+548
+00:23:31,839 --> 00:23:37,199
+dizer vários usuários usuários famosos
+
+549
+00:23:33,919 --> 00:23:40,480
+né o Jeremy avad o medalhista Fields
+
+550
+00:23:37,200 --> 00:23:42,080
+Peter chose outros usuários não famosos
+
+551
+00:23:40,480 --> 00:23:44,960
+mas que o interessante é que eles podem
+
+552
+00:23:42,079 --> 00:23:47,639
+aprender a fazer matemática com LM E
+
+553
+00:23:44,960 --> 00:23:50,319
+como você fala é uma ferramenta de
+
+554
+00:23:47,640 --> 00:23:52,559
+democratização porque a pessoa tem a a
+
+555
+00:23:50,319 --> 00:23:54,839
+demonstração validada pelo sistema então
+
+556
+00:23:52,558 --> 00:23:56,480
+pela ferramenta então a pessoa chega lá
+
+557
+00:23:54,839 --> 00:23:58,240
+se ela provar algum resultado assim
+
+558
+00:23:56,480 --> 00:24:00,839
+muito útil paraos matemáticos que ela
+
+559
+00:23:58,240 --> 00:24:03,960
+não precisa e da benção de ninguém tá lá
+
+560
+00:24:00,839 --> 00:24:07,879
+a demonstração lá com lin Outro fator
+
+561
+00:24:03,960 --> 00:24:10,000
+muito interessante né é que tem um ótimo
+
+562
+00:24:07,880 --> 00:24:12,159
+suporte em um dos editores de código né
+
+563
+00:24:10,000 --> 00:24:14,319
+um ide mais usados pelas pessoas
+
+564
+00:24:12,159 --> 00:24:15,799
+desenvolvedoras mas também pelo jeito
+
+565
+00:24:14,319 --> 00:24:18,278
+são usado é usado também pelos
+
+566
+00:24:15,798 --> 00:24:20,879
+matemáticos por causa disso que é o vs
+
+567
+00:24:18,278 --> 00:24:22,839
+coat Então você já falou um pouco mais
+
+568
+00:24:20,880 --> 00:24:25,440
+tem Você tem mais alguma coisa
+
+569
+00:24:22,839 --> 00:24:29,359
+complementar sobre como você acha que o
+
+570
+00:24:25,440 --> 00:24:31,320
+Lin chegou a tudo isso
+
+571
+00:24:29,359 --> 00:24:32,959
+[Música]
+
+572
+00:24:31,319 --> 00:24:36,960
+Ah
+
+573
+00:24:32,960 --> 00:24:40,880
+foi uma vez as pessoas me perguntam
+
+574
+00:24:36,960 --> 00:24:43,000
+assim dá para reproduzir a a gente não
+
+575
+00:24:40,880 --> 00:24:45,399
+esperava que ia chegar aonde a gente
+
+576
+00:24:43,000 --> 00:24:47,480
+chegou né ninguém esperava às vezes eu
+
+577
+00:24:45,398 --> 00:24:51,278
+eu brinco com o j j foi o primeiro
+
+578
+00:24:47,480 --> 00:24:54,079
+usuário né Ah ele usou o sistema numa
+
+579
+00:24:51,278 --> 00:24:56,038
+época que era horroroso de usar né não
+
+580
+00:24:54,079 --> 00:24:58,278
+tinha nenhuma dessas ferramentas tudo
+
+581
+00:24:56,038 --> 00:24:59,879
+isso que você falou ess fermentos que a
+
+582
+00:24:58,278 --> 00:25:01,798
+comunidade usa hoje não existiam na
+
+583
+00:24:59,880 --> 00:25:05,440
+época ele usavam um editor texto e
+
+584
+00:25:01,798 --> 00:25:09,519
+comando de linha para com LM né
+
+585
+00:25:05,440 --> 00:25:11,759
+Ah mas é é aquilo de eu acho que
+
+586
+00:25:09,519 --> 00:25:15,960
+perseverança a
+
+587
+00:25:11,759 --> 00:25:19,240
+gente fiz o linum para aprender aí no LM
+
+588
+00:25:15,960 --> 00:25:21,200
+do a gente foi melhor ainda aí eu me
+
+589
+00:25:19,240 --> 00:25:23,359
+lembro no LM do que eu falei assim não
+
+590
+00:25:21,200 --> 00:25:25,319
+eh a gente chegou no limite dessa
+
+591
+00:25:23,359 --> 00:25:28,119
+arquitetura né a gente vai ter que fazer
+
+592
+00:25:25,319 --> 00:25:31,278
+o linter né vrias pessoas fala assim não
+
+593
+00:25:28,119 --> 00:25:33,959
+isso é absurdo se mas a o Lin aumentou
+
+594
+00:25:31,278 --> 00:25:36,919
+muito que até o Lin 2 era a galerinha da
+
+595
+00:25:33,960 --> 00:25:40,200
+seuna que usava né tinha o Gêmeos
+
+596
+00:25:36,919 --> 00:25:45,759
+estudantes outros professores mas era
+
+597
+00:25:40,200 --> 00:25:50,159
+era 20 pessoas no máximo 30 na no LM 2
+
+598
+00:25:45,759 --> 00:25:53,200
+no LM 3 e e que começou a vir o Kevin
+
+599
+00:25:50,159 --> 00:25:55,880
+veem muita gente e uma das coisas
+
+600
+00:25:53,200 --> 00:25:59,919
+críticas no no LM 3 é que o LM 3 é
+
+601
+00:25:55,880 --> 00:26:01,760
+extensível né você pode usar o LM 3 para
+
+602
+00:25:59,919 --> 00:26:03,919
+est você pode usar o Lim para estender o
+
+603
+00:26:01,759 --> 00:26:07,000
+Lim no lim 3 foi a primeira vez que você
+
+604
+00:26:03,919 --> 00:26:09,360
+podia adicionar seus próprios recursos
+
+605
+00:26:07,000 --> 00:26:12,720
+suas próprias táticas as suas próprio o
+
+606
+00:26:09,359 --> 00:26:15,240
+seu estender o parer tudo usando o LM a
+
+607
+00:26:12,720 --> 00:26:19,000
+linguagem lin para isso
+
+608
+00:26:15,240 --> 00:26:20,960
+né Isso daí deu muito deu muita
+
+609
+00:26:19,000 --> 00:26:23,640
+flexibilidade pra Comunidade da
+
+610
+00:26:20,960 --> 00:26:25,919
+Microsoft já tava sozinho até só agora
+
+611
+00:26:23,640 --> 00:26:29,559
+que a gente tem a fundação por então eu
+
+612
+00:26:25,919 --> 00:26:31,559
+tava sozinho na Microsoft a Eles te dão
+
+613
+00:26:29,558 --> 00:26:33,440
+muito até naquela época eles te davam
+
+614
+00:26:31,558 --> 00:26:37,519
+muita liberdade para trabalhar no que
+
+615
+00:26:33,440 --> 00:26:39,080
+você quer mas você não tem recursos né E
+
+616
+00:26:37,519 --> 00:26:40,759
+você tem liberdade mas não tinha
+
+617
+00:26:39,079 --> 00:26:45,038
+recursos né
+
+618
+00:26:40,759 --> 00:26:46,759
+Eh então Eh fazer extensível não é só
+
+619
+00:26:45,038 --> 00:26:49,679
+tipo assim
+
+620
+00:26:46,759 --> 00:26:50,679
+ah eu acho legal ser extensível mas a
+
+621
+00:26:49,679 --> 00:26:52,880
+também uma
+
+622
+00:26:50,679 --> 00:26:54,960
+necessidade e e é engraçado que você
+
+623
+00:26:52,880 --> 00:26:58,440
+fala do Lua mas essa coisa de linguagem
+
+624
+00:26:54,960 --> 00:26:59,720
+extensível vem da pu que né e da
+
+625
+00:26:58,440 --> 00:27:02,120
+interação com Roberta eu me lembro
+
+626
+00:26:59,720 --> 00:27:04,960
+quando ele começou a Lu eu tava na PUC
+
+627
+00:27:02,119 --> 00:27:07,879
+quando ele começou o Lua né Eh e tinha
+
+628
+00:27:04,960 --> 00:27:10,600
+esse negócio de linguagem extensível
+
+629
+00:27:07,880 --> 00:27:13,039
+A então sempre
+
+630
+00:27:10,599 --> 00:27:14,558
+ficou na minha mente essa ideia ah você
+
+631
+00:27:13,038 --> 00:27:18,000
+tem que fazer o sistema ser extensível
+
+632
+00:27:14,558 --> 00:27:20,278
+né e no LM TR a gente fez o o LM ser
+
+633
+00:27:18,000 --> 00:27:22,440
+extensível usando LM mesmo e a
+
+634
+00:27:20,278 --> 00:27:25,159
+comunidade implementou Mita mas muita
+
+635
+00:27:22,440 --> 00:27:26,960
+extensão por né se você vai no maf Lib
+
+636
+00:27:25,159 --> 00:27:28,919
+nessa biblioteca de matemática não é só
+
+637
+00:27:26,960 --> 00:27:31,798
+matemática tem um monte de extensão que
+
+638
+00:27:28,919 --> 00:27:33,720
+eles escreveram então a habilidade que
+
+639
+00:27:31,798 --> 00:27:36,599
+eles tiveram de fazer as próprias
+
+640
+00:27:33,720 --> 00:27:39,120
+extensões e fazer o sistema se comportar
+
+641
+00:27:36,599 --> 00:27:42,158
+do jeito que eles queriam sem ter que
+
+642
+00:27:39,119 --> 00:27:45,918
+ficar dependendo de mim isso eu acho que
+
+643
+00:27:42,159 --> 00:27:49,519
+foi uma das coisas que pesou muito né o
+
+644
+00:27:45,919 --> 00:27:51,919
+zulip também ajudou muito né o zulip as
+
+645
+00:27:49,519 --> 00:27:55,440
+pessoas falam que a gente tem dúvida
+
+646
+00:27:51,919 --> 00:27:56,519
+sobre o LM em 5 minutos alguém no zulip
+
+647
+00:27:55,440 --> 00:27:59,038
+vai responder
+
+648
+00:27:56,519 --> 00:28:02,798
+né isso ajudou muito também
+
+649
+00:27:59,038 --> 00:28:07,079
+ah e e pessoas tipo assim que eu falo
+
+650
+00:28:02,798 --> 00:28:11,519
+assim que são guerreiros mesmo tipo sunr
+
+651
+00:28:07,079 --> 00:28:13,639
+Sebastian Esses caras são de outro mundo
+
+652
+00:28:11,519 --> 00:28:14,720
+que nem eu tava na Amazon agora tava
+
+653
+00:28:13,640 --> 00:28:17,320
+falando assim
+
+654
+00:28:14,720 --> 00:28:19,759
+e eu tava começando um novo projeto na
+
+655
+00:28:17,319 --> 00:28:21,480
+Amazon lá de verificação aí eu tava
+
+656
+00:28:19,759 --> 00:28:22,839
+falando assim os Car pert o quem você
+
+657
+00:28:21,480 --> 00:28:24,278
+quer eu falei eu quero o surr aí o
+
+658
+00:28:22,839 --> 00:28:26,079
+pessoal assim não você quer o surro não
+
+659
+00:28:24,278 --> 00:28:27,679
+a gente não pô mas o surro tá em outro
+
+660
+00:28:26,079 --> 00:28:30,278
+projeto eu falei não não não não a gente
+
+661
+00:28:27,679 --> 00:28:33,519
+te dá 10 caras não não não eu quero sunr
+
+662
+00:28:30,278 --> 00:28:36,519
+em vez desses 10 caras sa porque e
+
+663
+00:28:33,519 --> 00:28:40,679
+pessoas desse tipo tipo sunr Sebastian
+
+664
+00:28:36,519 --> 00:28:43,120
+eles valem por 10 20 desenvolvedores a
+
+665
+00:28:40,679 --> 00:28:45,480
+pessoa tem que ter paixão né esses caras
+
+666
+00:28:43,119 --> 00:28:48,119
+T paixão pelo que fazem né a pessoa sem
+
+667
+00:28:45,480 --> 00:28:49,240
+paixão cara eu eu só gosto de trabalhar
+
+668
+00:28:48,119 --> 00:28:52,798
+com pessoa
+
+669
+00:28:49,240 --> 00:28:58,159
+que tem paixão pelo que faz né então
+
+670
+00:28:52,798 --> 00:29:00,759
+esse o segredo paixão determinação e eh
+
+671
+00:28:58,159 --> 00:29:02,720
+deixar a comunidade crescer o sistema
+
+672
+00:29:00,759 --> 00:29:04,359
+sem ter que depender da gente acho que
+
+673
+00:29:02,720 --> 00:29:06,440
+esses são os
+
+674
+00:29:04,359 --> 00:29:07,678
+ingredientes certo e aí agora a gente
+
+675
+00:29:06,440 --> 00:29:09,919
+vai chegar a uma parte que eu acho que
+
+676
+00:29:07,679 --> 00:29:12,640
+vai ser até mais interessante pro perfil
+
+677
+00:29:09,919 --> 00:29:15,399
+dos nossos ouvintes aqui é que a partir
+
+678
+00:29:12,640 --> 00:29:17,440
+da versão 4 o Lin se tornou se
+
+679
+00:29:15,398 --> 00:29:19,599
+apresentou explicitamente com a
+
+680
+00:29:17,440 --> 00:29:22,080
+linguagem de programação funcional Por
+
+681
+00:29:19,599 --> 00:29:22,079
+que que isso
+
+682
+00:29:22,119 --> 00:29:26,038
+aconteceu Ótima pergunta então no link 3
+
+683
+00:29:24,880 --> 00:29:28,000
+eu te falei que pessoal começou a
+
+684
+00:29:26,038 --> 00:29:30,119
+estender o link usando
+
+685
+00:29:28,000 --> 00:29:31,960
+né mas era limitado que as pessoas
+
+686
+00:29:30,119 --> 00:29:35,359
+conseguiam fazer porque o Lin até então
+
+687
+00:29:31,960 --> 00:29:36,558
+era implementado em C C mais mais né Ah
+
+688
+00:29:35,359 --> 00:29:39,839
+então você conseguia fazer algumas
+
+689
+00:29:36,558 --> 00:29:41,759
+extensões mas o sistema basicamente a
+
+690
+00:29:39,839 --> 00:29:44,278
+gente deu que nem o pessoal que escreve
+
+691
+00:29:41,759 --> 00:29:46,879
+código C C mais mais e usa lua para
+
+692
+00:29:44,278 --> 00:29:48,558
+estender Você tem uma tem aquela ipinha
+
+693
+00:29:46,880 --> 00:29:51,440
+ali que você consegue usar para estender
+
+694
+00:29:48,558 --> 00:29:53,119
+o teu jogo o Lin é a mesma coisa tinha
+
+695
+00:29:51,440 --> 00:29:55,519
+uma camada que você conseguia estender
+
+696
+00:29:53,119 --> 00:29:58,079
+mas não tudo porque não é o sistema não
+
+697
+00:29:55,519 --> 00:30:00,079
+foi implementado em mim
+
+698
+00:29:58,079 --> 00:30:01,678
+Então tinha várias limitações paraa
+
+699
+00:30:00,079 --> 00:30:04,000
+extensibilidade e o pessoal que tava
+
+700
+00:30:01,679 --> 00:30:05,840
+querendo fazer mais extensões né a gente
+
+701
+00:30:04,000 --> 00:30:07,519
+dizer a gente vivia dizendo Ah isso não
+
+702
+00:30:05,839 --> 00:30:11,439
+dá para fazer isso aqui não dá para
+
+703
+00:30:07,519 --> 00:30:13,159
+fazer aí aí a gente chegou no limite
+
+704
+00:30:11,440 --> 00:30:14,399
+falou assim não não vamos usar o Lim
+
+705
+00:30:13,159 --> 00:30:17,480
+cheguei pro pessoal fal assim vamos
+
+706
+00:30:14,398 --> 00:30:19,678
+fazer o LM no LM aí várias pessoas falam
+
+707
+00:30:17,480 --> 00:30:22,159
+assim não você tá louco você não vai dar
+
+708
+00:30:19,679 --> 00:30:24,880
+certo mas o Sebastian levantou Não não
+
+709
+00:30:22,159 --> 00:30:27,720
+vamos lá eu eu faço
+
+710
+00:30:24,880 --> 00:30:30,278
+contigo e a gente começou a fazer aí a
+
+711
+00:30:27,720 --> 00:30:32,640
+gente começou a escrever o LM no
+
+712
+00:30:30,278 --> 00:30:37,038
+LM foi muito mais difícil que eu
+
+713
+00:30:32,640 --> 00:30:41,080
+esperava mas eh também foi muito
+
+714
+00:30:37,038 --> 00:30:43,119
+mais p a a a a sensação quando a gente
+
+715
+00:30:41,079 --> 00:30:46,158
+conseguiu compilar o linho usando ele
+
+716
+00:30:43,119 --> 00:30:49,398
+mesmo foi indescritível para mim e agora
+
+717
+00:30:46,159 --> 00:30:53,360
+a comunidade tá muito muito
+
+718
+00:30:49,398 --> 00:30:55,439
+eh motivada na com essa com nova versão
+
+719
+00:30:53,359 --> 00:30:56,839
+e também abriu novas possibilidades Por
+
+720
+00:30:55,440 --> 00:30:59,360
+exemplo agora na Amazon a gente já tem
+
+721
+00:30:56,839 --> 00:31:03,879
+um projeto projeto sidar que é uma um
+
+722
+00:30:59,359 --> 00:31:06,798
+sistema de de de ch de tem uma linguagem
+
+723
+00:31:03,880 --> 00:31:10,519
+para você descrever as suas regras de
+
+724
+00:31:06,798 --> 00:31:14,638
+acesso a aos recursos da Amazon né chama
+
+725
+00:31:10,519 --> 00:31:17,798
+sidar essa linguagem então uma colega
+
+726
+00:31:14,638 --> 00:31:21,240
+minha ela portou ela fez um modelo do
+
+727
+00:31:17,798 --> 00:31:24,558
+sidar no lin vai ser open source ela tá
+
+728
+00:31:21,240 --> 00:31:26,638
+o o rfc né dela já foi aprovada para
+
+729
+00:31:24,558 --> 00:31:30,599
+transformar em open source já tem um
+
+730
+00:31:26,638 --> 00:31:33,158
+ance ente no no no no github do sidar né
+
+731
+00:31:30,599 --> 00:31:35,359
+E vai tá lá vai ser a primeira de muitas
+
+732
+00:31:33,159 --> 00:31:37,000
+aplicações do LM né que são só se
+
+733
+00:31:35,359 --> 00:31:38,879
+tornaram possíveis porque agora o LM É
+
+734
+00:31:37,000 --> 00:31:43,319
+uma linguagem de programação
+
+735
+00:31:38,880 --> 00:31:45,200
+também como é que o Lin o usar o LM pode
+
+736
+00:31:43,319 --> 00:31:48,319
+ajudar as pessoas desenvolvedoras a
+
+737
+00:31:45,200 --> 00:31:50,200
+criar software mais corretos mais livres
+
+738
+00:31:48,319 --> 00:31:53,759
+de bugs
+
+739
+00:31:50,200 --> 00:31:55,600
+etc eh é porque o link você consegue
+
+740
+00:31:53,759 --> 00:31:57,558
+fazer as duas você consegue escrever
+
+741
+00:31:55,599 --> 00:31:59,359
+usando a mesma linguagem você consegue
+
+742
+00:31:57,558 --> 00:32:00,879
+escrever o programa e provar que ele tá
+
+743
+00:31:59,359 --> 00:32:03,918
+correto você não precisa inventar uma
+
+744
+00:32:00,880 --> 00:32:06,000
+nova linguagem é tudo uniforme acho que
+
+745
+00:32:03,919 --> 00:32:09,320
+a a beleza no lim tá na
+
+746
+00:32:06,000 --> 00:32:11,398
+uniformidade você consegue provar seus
+
+747
+00:32:09,319 --> 00:32:14,519
+programas você consegue escrever os seus
+
+748
+00:32:11,398 --> 00:32:16,239
+programas tudo no mesmo sistema Ah claro
+
+749
+00:32:14,519 --> 00:32:18,519
+que agora a biblioteca do lin de
+
+750
+00:32:16,240 --> 00:32:20,440
+matemática é gigantesca tem mais de 1
+
+751
+00:32:18,519 --> 00:32:22,399
+milhão de linhas de código mas a maior é
+
+752
+00:32:20,440 --> 00:32:25,000
+focada muito na matemática com da
+
+753
+00:32:22,398 --> 00:32:27,678
+comunidade mas a gente tá fazendo a
+
+754
+00:32:25,000 --> 00:32:31,359
+gente tá puxando para engenheria de só
+
+755
+00:32:27,679 --> 00:32:33,720
+agora tanto na Amazon quanto na
+
+756
+00:32:31,359 --> 00:32:36,079
+Fundação também tem o pessoal de Ai que
+
+757
+00:32:33,720 --> 00:32:38,639
+é muito forte agora muito gente
+
+758
+00:32:36,079 --> 00:32:40,839
+Inteligência Artificial tá usando link
+
+759
+00:32:38,638 --> 00:32:42,879
+tem duas startups eu tava na BL duas
+
+760
+00:32:40,839 --> 00:32:46,480
+semanas atrás tem duas startups usando
+
+761
+00:32:42,880 --> 00:32:48,200
+link para para o negócio deles é criado
+
+762
+00:32:46,480 --> 00:32:51,079
+em torno do link né
+
+763
+00:32:48,200 --> 00:32:53,558
+Ah então a gente
+
+764
+00:32:51,079 --> 00:32:55,079
+vai as bibliotecas a gente vai ter muito
+
+765
+00:32:53,558 --> 00:32:58,278
+mais biblioteca em breve para
+
+766
+00:32:55,079 --> 00:33:00,759
+desenvolvimento de software e e também
+
+767
+00:32:58,278 --> 00:33:03,638
+para quem quer verificar propriedade
+
+768
+00:33:00,759 --> 00:33:04,798
+sobre o seu programa mesmo você às vezes
+
+769
+00:33:03,638 --> 00:33:07,079
+a gente fala assim você não precisa
+
+770
+00:33:04,798 --> 00:33:09,038
+provar tudo mas às vezes só a habilidade
+
+771
+00:33:07,079 --> 00:33:11,319
+de você provar algumas coisas sobre o
+
+772
+00:33:09,038 --> 00:33:13,480
+seu software estaticamente já é válido
+
+773
+00:33:11,319 --> 00:33:15,678
+usar biblioteca por exemplo a biblioteca
+
+774
+00:33:13,480 --> 00:33:18,319
+que você tem a biblioteca de árvore do
+
+775
+00:33:15,679 --> 00:33:20,880
+link tá ela é verificada você sabe que
+
+776
+00:33:18,319 --> 00:33:22,439
+não tem bug nela Então você como usuário
+
+777
+00:33:20,880 --> 00:33:24,720
+você pode usar assim eu tô usando essa
+
+778
+00:33:22,440 --> 00:33:26,038
+biblioteca alguém provou ela correta
+
+779
+00:33:24,720 --> 00:33:28,120
+para mim não preciso fazer esforço
+
+780
+00:33:26,038 --> 00:33:30,278
+nenhum eu tem uma biblioteca agora que
+
+781
+00:33:28,119 --> 00:33:33,000
+foi provada corretamente por por outra
+
+782
+00:33:30,278 --> 00:33:34,638
+pessoa ela tá lá disponível para eu usar
+
+783
+00:33:33,000 --> 00:33:37,480
+então mesmo que você não tenha interesse
+
+784
+00:33:34,638 --> 00:33:40,000
+nenhum em provar nada você consegue se
+
+785
+00:33:37,480 --> 00:33:42,960
+beneficiar dessas bibliotecas que foram
+
+786
+00:33:40,000 --> 00:33:45,519
+provadas corretamente e
+
+787
+00:33:42,960 --> 00:33:47,880
+mais você pode ver os teoremas que as
+
+788
+00:33:45,519 --> 00:33:49,798
+pessoas provaram por exemplo na árvore
+
+789
+00:33:47,880 --> 00:33:52,080
+vai dizer se você inserir um elemento na
+
+790
+00:33:49,798 --> 00:33:54,759
+árvore e você procura o elemento você
+
+791
+00:33:52,079 --> 00:33:56,319
+vai achar ele lá uma propriedade básica
+
+792
+00:33:54,759 --> 00:33:58,200
+Mas ela tá lá você pode ver isso como se
+
+793
+00:33:56,319 --> 00:33:59,720
+fosse uma forma de de documentação tá
+
+794
+00:33:58,200 --> 00:34:02,399
+dizendo assim a propriedade da árvore tá
+
+795
+00:33:59,720 --> 00:34:05,079
+dizendo lá eles provaram que a árvore é
+
+796
+00:34:02,398 --> 00:34:07,558
+sempre balanceada Às vezes tem bug
+
+797
+00:34:05,079 --> 00:34:10,639
+nessas bibliotecas de árvore balanceada
+
+798
+00:34:07,558 --> 00:34:12,559
+tem caso assim Aquele caso aquele ali
+
+799
+00:34:10,639 --> 00:34:15,358
+aquela exceção da exceção que a árvore
+
+800
+00:34:12,559 --> 00:34:17,039
+Tá desbalanceada mas no lin não is
+
+801
+00:34:15,358 --> 00:34:19,119
+provável que a árvore tá sempre
+
+802
+00:34:17,039 --> 00:34:20,679
+balanceada Você pode ter essa certeza
+
+803
+00:34:19,119 --> 00:34:24,440
+absoluta desse
+
+804
+00:34:20,679 --> 00:34:26,119
+fato então a gente tá apostando nisso
+
+805
+00:34:24,440 --> 00:34:29,838
+muita gente De in artificial tá
+
+806
+00:34:26,119 --> 00:34:31,639
+apostando que no futuro o a a a o mais
+
+807
+00:34:29,838 --> 00:34:35,759
+importante com uma linguagem até essa
+
+808
+00:34:31,639 --> 00:34:37,320
+habilidade de provar o que porque muita
+
+809
+00:34:35,760 --> 00:34:40,079
+gente tá apostando que a eii vai est
+
+810
+00:34:37,320 --> 00:34:41,359
+sintetizando código mais e mais código e
+
+811
+00:34:40,079 --> 00:34:42,399
+ter a habilidade de provar que esse
+
+812
+00:34:41,358 --> 00:34:46,078
+código tá
+
+813
+00:34:42,398 --> 00:34:48,398
+correto vai ser uma é um vai ser um
+
+814
+00:34:46,079 --> 00:34:50,280
+recurso fundamental numa linguagem né
+
+815
+00:34:48,398 --> 00:34:51,960
+então tem muita gente apostando nisso e
+
+816
+00:34:50,280 --> 00:34:55,639
+a gente também a gente na Fundação a
+
+817
+00:34:51,960 --> 00:34:58,358
+gente tá apostando nisso sim eu a a
+
+818
+00:34:55,639 --> 00:34:59,838
+próxima pergunta tá relacionada um pouco
+
+819
+00:34:58,358 --> 00:35:01,480
+que questão é aqui além de ser uma
+
+820
+00:34:59,838 --> 00:35:04,239
+linguagem de programação funcional né o
+
+821
+00:35:01,480 --> 00:35:06,119
+sistema lógico no qual link 4 se baseia
+
+822
+00:35:04,239 --> 00:35:08,559
+é uma versão da teoria dos tipos
+
+823
+00:35:06,119 --> 00:35:10,519
+dependentes então eu lembro que eu ouvi
+
+824
+00:35:08,559 --> 00:35:11,719
+falar pela primeira vez quer dizer eu eu
+
+825
+00:35:10,519 --> 00:35:13,199
+realmente não lembro se foi a primeira
+
+826
+00:35:11,719 --> 00:35:15,679
+vez mas uma das vezes que eu ouvi falar
+
+827
+00:35:13,199 --> 00:35:17,759
+foi um um site aqui dos professores
+
+828
+00:35:15,679 --> 00:35:21,000
+Fabrício olivet de França e Emílio
+
+829
+00:35:17,760 --> 00:35:22,960
+francisquini lá da Federal do ABC eles
+
+830
+00:35:21,000 --> 00:35:25,760
+até coloca aqui tipos dependentes tipos
+
+831
+00:35:22,960 --> 00:35:27,960
+que dependem de valores então depois eu
+
+832
+00:35:25,760 --> 00:35:31,079
+V se eu lembro de colocar o o link aqui
+
+833
+00:35:27,960 --> 00:35:33,440
+na descrição mas o que que são tipos
+
+834
+00:35:31,079 --> 00:35:37,200
+dependentes E porque você e a equipe
+
+835
+00:35:33,440 --> 00:35:40,200
+escolheram tipos dependentes para lim
+
+836
+00:35:37,199 --> 00:35:42,078
+ah é quando eu quando eu decidi que eu
+
+837
+00:35:40,199 --> 00:35:45,199
+ia fazer o Lim eu comecei a estudar essa
+
+838
+00:35:42,079 --> 00:35:48,560
+área de assistente de prova né
+
+839
+00:35:45,199 --> 00:35:50,399
+ah e e uma vantagem na Microsoft resarch
+
+840
+00:35:48,559 --> 00:35:53,119
+que eu tive que eu tive muitos colegas
+
+841
+00:35:50,400 --> 00:35:55,960
+né que por exemplo tinha o Jorge contier
+
+842
+00:35:53,119 --> 00:35:57,358
+ele tava usando coque na época e ele táa
+
+843
+00:35:55,960 --> 00:36:00,440
+fazendo um projeto de verificação em
+
+844
+00:35:57,358 --> 00:36:02,920
+matemática Aí ele começou a me mostrar o
+
+845
+00:36:00,440 --> 00:36:06,240
+poder dessa da linguagem tipos
+
+846
+00:36:02,920 --> 00:36:09,480
+dependentes né A é uma das coisas que eu
+
+847
+00:36:06,239 --> 00:36:11,118
+achei muito irada na época é você tem
+
+848
+00:36:09,480 --> 00:36:13,760
+uma estrutura de dados Você tem uma
+
+849
+00:36:11,119 --> 00:36:16,559
+structs que nem structs do do C você tem
+
+850
+00:36:13,760 --> 00:36:19,800
+um struct Você tem o teus Campos lá você
+
+851
+00:36:16,559 --> 00:36:22,759
+tem o X é um valor inteiro Você tem o y
+
+852
+00:36:19,800 --> 00:36:25,519
+é uma string aí você pode colocar lá tem
+
+853
+00:36:22,760 --> 00:36:27,520
+um outro Campo que é uma propriedade é
+
+854
+00:36:25,519 --> 00:36:29,519
+um campo não tem nada
+
+855
+00:36:27,519 --> 00:36:34,000
+você diz só esse campo
+
+856
+00:36:29,519 --> 00:36:37,079
+aqui é meu invariante dizendo que o o
+
+857
+00:36:34,000 --> 00:36:39,599
+tamanho da string é menor que o x
+
+858
+00:36:37,079 --> 00:36:41,359
+sempre então isso vai te garantir o
+
+859
+00:36:39,599 --> 00:36:42,838
+sistema vai te forar para conseguir
+
+860
+00:36:41,358 --> 00:36:44,960
+criar um elemento dessa estrutura de
+
+861
+00:36:42,838 --> 00:36:48,440
+dados você tem que provar evidência que
+
+862
+00:36:44,960 --> 00:36:51,280
+isso é verdade então você vê um campo o
+
+863
+00:36:48,440 --> 00:36:53,679
+tipo do campo que é esse fato que o
+
+864
+00:36:51,280 --> 00:36:58,359
+tamanho da string é menor que o que o
+
+865
+00:36:53,679 --> 00:37:00,799
+valor do X né valor x Isso aí é um tipo
+
+866
+00:36:58,358 --> 00:37:02,799
+no link em qualquer linguagem que tem
+
+867
+00:37:00,800 --> 00:37:06,000
+tipos dependentes Isso aí é um tipo
+
+868
+00:37:02,800 --> 00:37:07,400
+também e ele depende dos outros Campos
+
+869
+00:37:06,000 --> 00:37:09,199
+por isso que é chamado de tipos
+
+870
+00:37:07,400 --> 00:37:11,318
+dependentes Você pode ter argumentos que
+
+871
+00:37:09,199 --> 00:37:13,399
+dependem em outros o tipo de um
+
+872
+00:37:11,318 --> 00:37:16,159
+argumento Depende de um tipo de um outro
+
+873
+00:37:13,400 --> 00:37:18,400
+argumento né do valor de um outro
+
+874
+00:37:16,159 --> 00:37:19,960
+argumento desculpa e a mesma coisa PR
+
+875
+00:37:18,400 --> 00:37:24,240
+inses de
+
+876
+00:37:19,960 --> 00:37:27,920
+dadas e e é muito bonita essa teoria que
+
+877
+00:37:24,239 --> 00:37:29,639
+é minimalista né Então você tem sistemas
+
+878
+00:37:27,920 --> 00:37:33,318
+que você pensa assim ah eu tenho que ter
+
+879
+00:37:29,639 --> 00:37:37,159
+um uma linguagem para propriedades eu
+
+880
+00:37:33,318 --> 00:37:39,719
+tenho uma sintaxe para teoremas mas no
+
+881
+00:37:37,159 --> 00:37:42,838
+lin tudo é a mesma coisa teorema uma
+
+882
+00:37:39,719 --> 00:37:45,639
+definição e um teorema são a mesma coisa
+
+883
+00:37:42,838 --> 00:37:49,679
+internamente não tem diferença nenhuma
+
+884
+00:37:45,639 --> 00:37:53,000
+eles têm um tipo Eles TM uma
+
+885
+00:37:49,679 --> 00:37:55,879
+implementação a prova e código são a
+
+886
+00:37:53,000 --> 00:37:58,679
+mesma coisa nesses sistemas então é essa
+
+887
+00:37:55,880 --> 00:38:01,400
+beleza essa a redução do número de
+
+888
+00:37:58,679 --> 00:38:03,279
+conceitos né por tipo assim tem gente
+
+889
+00:38:01,400 --> 00:38:06,000
+tem linguagem que tem Ah eu tenho
+
+890
+00:38:03,280 --> 00:38:07,839
+módulos eu tenho functors entre os
+
+891
+00:38:06,000 --> 00:38:09,960
+módulos no LM não você pode representar
+
+892
+00:38:07,838 --> 00:38:13,799
+o módulo como insu de dados que tem api
+
+893
+00:38:09,960 --> 00:38:16,400
+tem interface um structs e uma e um
+
+894
+00:38:13,800 --> 00:38:20,519
+functor uma função pega essa struct e
+
+895
+00:38:16,400 --> 00:38:24,039
+transforma em outra struct né Então essa
+
+896
+00:38:20,519 --> 00:38:26,800
+uniformidade eh eu fiquei Maravilhado na
+
+897
+00:38:24,039 --> 00:38:30,000
+época quando eu tava aprendendo eh o l
+
+898
+00:38:26,800 --> 00:38:33,560
+essa teoria e dá muita flexibilidade pra
+
+899
+00:38:30,000 --> 00:38:37,760
+matemática pra verificação de software
+
+900
+00:38:33,559 --> 00:38:39,799
+a foi foi ess foram esses os motivos é
+
+901
+00:38:37,760 --> 00:38:41,480
+eu já ouvi falar de pessoas até do do
+
+902
+00:38:39,800 --> 00:38:43,240
+mercado mesmo desenvolvedores que falam
+
+903
+00:38:41,480 --> 00:38:45,039
+Maravilhas aí de tipos dependentes mas
+
+904
+00:38:43,239 --> 00:38:48,318
+eu realmente ainda não parei para
+
+905
+00:38:45,039 --> 00:38:51,119
+estudar agora tivemos as duas perguntas
+
+906
+00:38:48,318 --> 00:38:55,079
+foram feitas pelo Twitter ou ex Twitter
+
+907
+00:38:51,119 --> 00:38:59,280
+X por Tomás Gomes que é orientado de
+
+908
+00:38:55,079 --> 00:39:01,640
+Mestrado do professor Barbosa na UFMG
+
+909
+00:38:59,280 --> 00:39:03,760
+que Até onde eu sei que quer dizer eu
+
+910
+00:39:01,639 --> 00:39:06,279
+não pesquisei muito mas foi alguém que
+
+911
+00:39:03,760 --> 00:39:09,640
+em algum momento dis ah ele trabalha com
+
+912
+00:39:06,280 --> 00:39:12,040
+com lin a pergunta do Tomás a primeira
+
+913
+00:39:09,639 --> 00:39:13,838
+pergunta é sobre usar liin fora do Meio
+
+914
+00:39:12,039 --> 00:39:15,519
+acadêmico já existe alguma empresa
+
+915
+00:39:13,838 --> 00:39:17,039
+interessada em usar algum projeto Você
+
+916
+00:39:15,519 --> 00:39:20,559
+acabou de falar da Amazon Mas você sabe
+
+917
+00:39:17,039 --> 00:39:24,318
+de mais alguma outra tem tem a a morph
+
+918
+00:39:20,559 --> 00:39:26,639
+dso is a Startup na bebia né eles já
+
+919
+00:39:24,318 --> 00:39:29,719
+acabaram de anunciar o modelo eles
+
+920
+00:39:26,639 --> 00:39:32,838
+construíram P lin dizendo e eh solving
+
+921
+00:39:29,719 --> 00:39:34,799
+math solving solve programming né o moto
+
+922
+00:39:32,838 --> 00:39:36,679
+deles eh a ideia que eles estão usando
+
+923
+00:39:34,800 --> 00:39:38,400
+Inteligência Artificial a ideia que
+
+924
+00:39:36,679 --> 00:39:40,919
+Inteligência Artificial e sistemas que
+
+925
+00:39:38,400 --> 00:39:43,119
+nem o Lin que tem provas é são o futuro
+
+926
+00:39:40,920 --> 00:39:46,119
+out Startup que vai ainda não tá
+
+927
+00:39:43,119 --> 00:39:49,880
+totalmente Public pública ainda é o
+
+928
+00:39:46,119 --> 00:39:52,280
+harmonic mas tem pessoa do tem Vlad
+
+929
+00:39:49,880 --> 00:39:54,880
+tenev o cara que fundou o Robin hoods
+
+930
+00:39:52,280 --> 00:40:00,280
+Esse sistema de investimento tá por trás
+
+931
+00:39:54,880 --> 00:40:03,640
+também ah a el vão ter a Open ai usou o
+
+932
+00:40:00,280 --> 00:40:06,160
+link já no passado a met ai usou né
+
+933
+00:40:03,639 --> 00:40:09,000
+também é o pessoal de ai tá muito tem
+
+934
+00:40:06,159 --> 00:40:11,920
+muita gente nessa área de ai usando link
+
+935
+00:40:09,000 --> 00:40:13,920
+e na parte de verificação de software a
+
+936
+00:40:11,920 --> 00:40:16,519
+Amazon vai ser é um gigante a gente vai
+
+937
+00:40:13,920 --> 00:40:18,039
+ter várias a gente tá otimista que a
+
+938
+00:40:16,519 --> 00:40:21,318
+gente vai ter várias aplicações do lin
+
+939
+00:40:18,039 --> 00:40:24,800
+na Amazon e meu sonho é ter na Apple
+
+940
+00:40:21,318 --> 00:40:29,920
+também a Apple também é muito grande em
+
+941
+00:40:24,800 --> 00:40:32,920
+verificação matf mais usar assistente de
+
+942
+00:40:29,920 --> 00:40:34,519
+prova se um dos objetivos da fundação um
+
+943
+00:40:32,920 --> 00:40:40,079
+dos me sonhos PR a fundação que a Apple
+
+944
+00:40:34,519 --> 00:40:40,079
+vai assumir em 5 anos que Eles
+
+945
+00:40:40,559 --> 00:40:46,719
+mudaram dinheiro a gente sabe que não
+
+946
+00:40:42,719 --> 00:40:49,318
+falta para eles né mas agora vontade a
+
+947
+00:40:46,719 --> 00:40:53,679
+outra pergunta do Tomás foi e o suporte
+
+948
+00:40:49,318 --> 00:40:57,400
+PR teoria da otopia que é em inglês Quer
+
+949
+00:40:53,679 --> 00:41:00,919
+dizer Theory fou trás
+
+950
+00:40:57,400 --> 00:41:03,599
+mesmo ficou ficou ficou no começo eu
+
+951
+00:41:00,920 --> 00:41:06,318
+tava tava na época eu comecei o Lin esse
+
+952
+00:41:03,599 --> 00:41:10,440
+negócio tava era muito tava muito em
+
+953
+00:41:06,318 --> 00:41:14,079
+alta né Por tinha o o vods que ele é um
+
+954
+00:41:10,440 --> 00:41:15,400
+também é um FS medalist né ah eh então
+
+955
+00:41:14,079 --> 00:41:17,480
+ele tava interessado ele tava
+
+956
+00:41:15,400 --> 00:41:20,000
+trabalhando nessa área Pô eu conversei
+
+957
+00:41:17,480 --> 00:41:25,480
+com ele ele usou o Lin Ele usou o Lin no
+
+958
+00:41:20,000 --> 00:41:28,280
+começo o LM do Ele usou a a Aí estava em
+
+959
+00:41:25,480 --> 00:41:30,559
+alta na época muito por cusa dood né Ele
+
+960
+00:41:28,280 --> 00:41:32,079
+tava dando muita palestra ele é um cara
+
+961
+00:41:30,559 --> 00:41:36,358
+muito
+
+962
+00:41:32,079 --> 00:41:39,400
+influente mas no final das contas PR
+
+963
+00:41:36,358 --> 00:41:42,279
+matemática matem tem muito debate se
+
+964
+00:41:39,400 --> 00:41:44,800
+precisa de teoria essa teoria como
+
+965
+00:41:42,280 --> 00:41:47,720
+fundamento da Matemática
+
+966
+00:41:44,800 --> 00:41:50,400
+n o Consenso entre os matemáticos em
+
+967
+00:41:47,719 --> 00:41:54,559
+geral é que não precisa né Por exemplo o
+
+968
+00:41:50,400 --> 00:41:57,440
+Kevin buz nunca ficou el teve debate Sem
+
+969
+00:41:54,559 --> 00:42:00,239
+Fim com o pessoal de rumo
+
+970
+00:41:57,440 --> 00:42:03,679
+homot Type Theory né e nunca chegou a
+
+971
+00:42:00,239 --> 00:42:06,639
+conclusão nenhuma ah em de software eu
+
+972
+00:42:03,679 --> 00:42:08,279
+tenho nunca me mostraram um exemplo que
+
+973
+00:42:06,639 --> 00:42:09,719
+isia é útil para alguma coisa ele
+
+974
+00:42:08,280 --> 00:42:12,000
+consegue fazer as coisas ficarem muito
+
+975
+00:42:09,719 --> 00:42:13,639
+mais difíceis que nem eu falo para eles
+
+976
+00:42:12,000 --> 00:42:15,159
+pô não dá os engenheiros já estão
+
+977
+00:42:13,639 --> 00:42:17,639
+sofrendo vou chegar para eles assim olha
+
+978
+00:42:15,159 --> 00:42:18,920
+pessoal vamos usar teoria como top Type
+
+979
+00:42:17,639 --> 00:42:20,838
+Theory a pessoal vai falar vai ficar
+
+980
+00:42:18,920 --> 00:42:23,440
+mais fácil não vai ficar mais difícil
+
+981
+00:42:20,838 --> 00:42:25,159
+não dá não dá o bloqueio Tem muita gente
+
+982
+00:42:23,440 --> 00:42:27,920
+que acha que as pessoas não
+
+983
+00:42:25,159 --> 00:42:30,719
+usam esses assistentes de prova
+
+984
+00:42:27,920 --> 00:42:32,280
+maciçamente na indústria eles acham que
+
+985
+00:42:30,719 --> 00:42:35,078
+é por causa da da
+
+986
+00:42:32,280 --> 00:42:38,760
+fundação se é romotop Type Theory se é o
+
+987
+00:42:35,079 --> 00:42:42,400
+calculos of constructions se se é High
+
+988
+00:42:38,760 --> 00:42:45,720
+Order Logic Não é isso não é é é é a
+
+989
+00:42:42,400 --> 00:42:47,318
+engenharia que tá em cima a usabilidade
+
+990
+00:42:45,719 --> 00:42:49,959
+fazer as coisas serem fáceis de serem
+
+991
+00:42:47,318 --> 00:42:53,079
+usadas serem acessíveis para seus
+
+992
+00:42:49,960 --> 00:42:55,079
+usuárias é é tudo sobre Engenharia não
+
+993
+00:42:53,079 --> 00:42:58,280
+tem nada a ver com a fundação os
+
+994
+00:42:55,079 --> 00:43:01,280
+matemáticos não estão nem aí eles venem
+
+995
+00:42:58,280 --> 00:43:02,359
+a romotop d algumas vantagens mas tem um
+
+996
+00:43:01,280 --> 00:43:05,720
+monte
+
+997
+00:43:02,358 --> 00:43:09,318
+de desvantagem não é só assim só a
+
+998
+00:43:05,719 --> 00:43:12,480
+vantagem um monte de desvantagem também
+
+999
+00:43:09,318 --> 00:43:15,239
+e o pessoals vezes quea essas coisas não
+
+1000
+00:43:12,480 --> 00:43:17,280
+são honestos sobre a desvantagem tem um
+
+1001
+00:43:15,239 --> 00:43:21,000
+monte deisa que é muito legal sobre essa
+
+1002
+00:43:17,280 --> 00:43:23,720
+teoria de homot Type mas tem um monte de
+
+1003
+00:43:21,000 --> 00:43:25,079
+desvantagem E no fim das contas eu meio
+
+1004
+00:43:23,719 --> 00:43:26,759
+muito hoje em dia principalmente com a
+
+1005
+00:43:25,079 --> 00:43:28,680
+fundação
+
+1006
+00:43:26,760 --> 00:43:31,359
+a gente tem que ter os olhos de impacto
+
+1007
+00:43:28,679 --> 00:43:34,799
+não dá para ficar fazendo coisa que é só
+
+1008
+00:43:31,358 --> 00:43:39,358
+por porque é divertido né Por exemplo de
+
+1009
+00:43:34,800 --> 00:43:42,839
+ferm ex de fermar do do do Kevin
+
+1010
+00:43:39,358 --> 00:43:44,960
+né Isso vai vai rolar o Kevin vai puxar
+
+1011
+00:43:42,838 --> 00:43:47,799
+o que outra curiosidade o orientador
+
+1012
+00:43:44,960 --> 00:43:50,720
+dele é o cara que provou Fer né o
+
+1013
+00:43:47,800 --> 00:43:53,559
+orientador dele é tipo na verdade é o
+
+1014
+00:43:50,719 --> 00:43:55,799
+Richard Taylor que ajudou o o Andrew
+
+1015
+00:43:53,559 --> 00:43:58,720
+Willis o Andrew Wills é o avô acadêmico
+
+1016
+00:43:55,800 --> 00:44:01,359
+do Kevin e o Richard Taylor é o pai
+
+1017
+00:43:58,719 --> 00:44:04,519
+acadêmico dele né então vai Isso vai
+
+1018
+00:44:01,358 --> 00:44:06,480
+acontecer eh eh eh então a gente quer
+
+1019
+00:44:04,519 --> 00:44:09,199
+projetos dessa Man tipo o esse fodo
+
+1020
+00:44:06,480 --> 00:44:12,679
+Liquid tenso experiments né do do do
+
+1021
+00:44:09,199 --> 00:44:16,279
+Peter show é é é são projetos de impacto
+
+1022
+00:44:12,679 --> 00:44:18,039
+né é um cara um o Peter show é super
+
+1023
+00:44:16,280 --> 00:44:20,280
+influente hoje em dia falando assim olha
+
+1024
+00:44:18,039 --> 00:44:23,800
+o sistema de
+
+1025
+00:44:20,280 --> 00:44:25,319
+prova me ajudou a a navegar sobre no
+
+1026
+00:44:23,800 --> 00:44:27,280
+resultado que eu não conseguia ter tudo
+
+1027
+00:44:25,318 --> 00:44:30,318
+na minha cabeça
+
+1028
+00:44:27,280 --> 00:44:32,240
+E o que mais impressionou ele que o
+
+1029
+00:44:30,318 --> 00:44:35,039
+pessoal que verificou o resultado no fim
+
+1030
+00:44:32,239 --> 00:44:37,799
+das contas simplificou a prova dele sem
+
+1031
+00:44:35,039 --> 00:44:40,519
+entender a prova as pessoas conseguiram
+
+1032
+00:44:37,800 --> 00:44:42,960
+achar uma prova mais simples para alguns
+
+1033
+00:44:40,519 --> 00:44:45,480
+passos que tinha feito sem ter entendido
+
+1034
+00:44:42,960 --> 00:44:47,159
+a prova então é tipo assim o computador
+
+1035
+00:44:45,480 --> 00:44:51,199
+te
+
+1036
+00:44:47,159 --> 00:44:53,118
+ajudando conseguiu te te dar mais poder
+
+1037
+00:44:51,199 --> 00:44:55,159
+fazer você ficar conseguir fazer coisas
+
+1038
+00:44:53,119 --> 00:44:57,720
+que você não conseguiria fazer sozinho
+
+1039
+00:44:55,159 --> 00:44:59,719
+então é é é esse tipo de projeto que a
+
+1040
+00:44:57,719 --> 00:45:02,959
+gente tá puxando Então
+
+1041
+00:44:59,719 --> 00:45:05,000
+é eu adoro essa teoria de romotop Type 3
+
+1042
+00:45:02,960 --> 00:45:08,318
+eu acho Super Interessante mas eu não
+
+1043
+00:45:05,000 --> 00:45:10,000
+vejo Impacto imediato né quando o
+
+1044
+00:45:08,318 --> 00:45:13,318
+pessoal fala hoje em dia eu falo vai usa
+
+1045
+00:45:10,000 --> 00:45:14,960
+o tem o cubic águida né Eu acho que é um
+
+1046
+00:45:13,318 --> 00:45:18,519
+projeto super influente pra pessoa que
+
+1047
+00:45:14,960 --> 00:45:22,280
+tá interessada nisso ó tenta usar o KB
+
+1048
+00:45:18,519 --> 00:45:25,480
+águida a a é um projeto
+
+1049
+00:45:22,280 --> 00:45:27,160
+interessante certo e você falou dessa
+
+1050
+00:45:25,480 --> 00:45:29,400
+questão do do Liquid tensor já foi com
+
+1051
+00:45:27,159 --> 00:45:31,838
+Link 4 esse essa questão do Liquid
+
+1052
+00:45:29,400 --> 00:45:38,358
+tensor Não esse daí o Liquid tensor foi
+
+1053
+00:45:31,838 --> 00:45:40,719
+com o o link3 a a a mas agora com l 4 A
+
+1054
+00:45:38,358 --> 00:45:42,799
+tá começando a firmar L né eles estão
+
+1055
+00:45:40,719 --> 00:45:45,679
+vão tentar aportar prova do do Liquid
+
+1056
+00:45:42,800 --> 00:45:48,920
+tensor pro 3 que acabou de portar do
+
+1057
+00:45:45,679 --> 00:45:54,118
+meses atrás que acabou de portar
+
+1058
+00:45:48,920 --> 00:45:56,720
+M 4 né então tem o ferm que vai rolar
+
+1059
+00:45:54,119 --> 00:45:59,838
+Tem a a outra novidade que é o tal que é
+
+1060
+00:45:56,719 --> 00:46:03,879
+o o maior matemático vivo na atualidade
+
+1061
+00:45:59,838 --> 00:46:06,920
+tá usando LM e e tá posting no mastodon
+
+1062
+00:46:03,880 --> 00:46:09,280
+todo dia falando da da experiência dele
+
+1063
+00:46:06,920 --> 00:46:11,720
+ele tem um setup muito interessante que
+
+1064
+00:46:09,280 --> 00:46:15,079
+ele tem o o link com o chat de GPT do
+
+1065
+00:46:11,719 --> 00:46:17,399
+lado né e ele pergunta pro chat GPT eh
+
+1066
+00:46:15,079 --> 00:46:20,559
+ah eu tô aqui que que é isso no lin o
+
+1067
+00:46:17,400 --> 00:46:23,480
+chat GPT explica ele já ele já postou a
+
+1068
+00:46:20,559 --> 00:46:26,000
+primeira prova que ele fez no lin é é
+
+1069
+00:46:23,480 --> 00:46:28,960
+muito interessante e e pra gente é é
+
+1070
+00:46:26,000 --> 00:46:32,440
+maravilhoso ter o o tal usando porque
+
+1071
+00:46:28,960 --> 00:46:33,679
+ele é um gigante na matemática né É É
+
+1072
+00:46:32,440 --> 00:46:36,440
+verdade
+
+1073
+00:46:33,679 --> 00:46:38,759
+e agora vou pedir para você imaginar
+
+1074
+00:46:36,440 --> 00:46:40,920
+algumas coisas Claro baseado um pouco na
+
+1075
+00:46:38,760 --> 00:46:43,280
+sua experiência Mas quais são algumas
+
+1076
+00:46:40,920 --> 00:46:46,440
+das possibilidades de pesquisa que já
+
+1077
+00:46:43,280 --> 00:46:49,440
+existem ou que você visualiza com o Link
+
+1078
+00:46:46,440 --> 00:46:53,800
+4 em desenvolvimento e verificação de
+
+1079
+00:46:49,440 --> 00:46:56,000
+software Ah tá ótimo ótimo o uma área
+
+1080
+00:46:53,800 --> 00:46:59,559
+que eu acho que a gente quia puxar muito
+
+1081
+00:46:56,000 --> 00:47:03,159
+no link qu agora é usar suas provas não
+
+1082
+00:46:59,559 --> 00:47:04,920
+só para a garantir que o software tá
+
+1083
+00:47:03,159 --> 00:47:06,799
+correto mas garantir que a gente
+
+1084
+00:47:04,920 --> 00:47:09,079
+consegue gerar código mais eficiente
+
+1085
+00:47:06,800 --> 00:47:11,519
+ainda código que a gente
+
+1086
+00:47:09,079 --> 00:47:13,519
+vai conseguir produzir performance
+
+1087
+00:47:11,519 --> 00:47:15,079
+melhor do que C porque você não vai
+
+1088
+00:47:13,519 --> 00:47:16,719
+obviamente se você colocasse um monte de
+
+1089
+00:47:15,079 --> 00:47:19,760
+energia você conseguiria escrever esse
+
+1090
+00:47:16,719 --> 00:47:22,838
+código C Mas seria tão complexo que
+
+1091
+00:47:19,760 --> 00:47:26,319
+ninguém escreve então com as provas te
+
+1092
+00:47:22,838 --> 00:47:27,880
+dariam garantia extras para você eh
+
+1093
+00:47:26,318 --> 00:47:30,199
+que permitiriam que o teu compilador
+
+1094
+00:47:27,880 --> 00:47:32,280
+gerasse código ainda mais eficiente Isso
+
+1095
+00:47:30,199 --> 00:47:33,399
+é uma área que a gente pula em quatro
+
+1096
+00:47:32,280 --> 00:47:36,960
+que a gente é uma das coisas que a gente
+
+1097
+00:47:33,400 --> 00:47:37,960
+quer investir no futuro né Outra coisa
+
+1098
+00:47:36,960 --> 00:47:39,720
+desenvolver a gente vai est
+
+1099
+00:47:37,960 --> 00:47:42,159
+desenvolvendo mais e mais
+
+1100
+00:47:39,719 --> 00:47:44,118
+e ferramentas de automação de prova
+
+1101
+00:47:42,159 --> 00:47:45,358
+principalmente em engenharia de software
+
+1102
+00:47:44,119 --> 00:47:49,200
+por exemplo os
+
+1103
+00:47:45,358 --> 00:47:52,279
+matemáticos Eles amam prova né
+
+1104
+00:47:49,199 --> 00:47:54,279
+eles eles adoram transformar a prova
+
+1105
+00:47:52,280 --> 00:47:56,400
+fazer ela ficar bonita por exemplo né
+
+1106
+00:47:54,280 --> 00:47:58,240
+então pulim para el eles a automação que
+
+1107
+00:47:56,400 --> 00:48:00,358
+tem no lin hoje em dia é maravilhoso
+
+1108
+00:47:58,239 --> 00:48:03,279
+eles são super felizes com a automação
+
+1109
+00:48:00,358 --> 00:48:05,960
+obviamente eles reclamam de performance
+
+1110
+00:48:03,280 --> 00:48:08,240
+melhorar performance do que já existe a
+
+1111
+00:48:05,960 --> 00:48:09,639
+usabilidade mas eles não pedem ah a
+
+1112
+00:48:08,239 --> 00:48:10,959
+gente precisa de mais automação eles
+
+1113
+00:48:09,639 --> 00:48:13,598
+pedem muito a gente precisa de mais
+
+1114
+00:48:10,960 --> 00:48:16,760
+performance precisa de mais usabilidade
+
+1115
+00:48:13,599 --> 00:48:18,720
+Eh esses são os o que eles pedem mais e
+
+1116
+00:48:16,760 --> 00:48:20,240
+mais documentação né são as três coisas
+
+1117
+00:48:18,719 --> 00:48:23,519
+que eles pedem mas o pessoal de
+
+1118
+00:48:20,239 --> 00:48:25,719
+engenharia de software e é o oposto o
+
+1119
+00:48:23,519 --> 00:48:27,759
+engenheria de software o o o que eles
+
+1120
+00:48:25,719 --> 00:48:29,558
+amam é o código né eles querem fazer o
+
+1121
+00:48:27,760 --> 00:48:32,599
+código ficar bonito a prova é como se
+
+1122
+00:48:29,559 --> 00:48:34,000
+fosse assim ah isso aí é um tipo assim
+
+1123
+00:48:32,599 --> 00:48:36,480
+eu não gosto de fazer isso eu queria que
+
+1124
+00:48:34,000 --> 00:48:38,119
+isso fosse automático né Então essa é
+
+1125
+00:48:36,480 --> 00:48:40,639
+uma área que a gente quer melhorar muito
+
+1126
+00:48:38,119 --> 00:48:44,519
+automação paraas pessoas que usam LM
+
+1127
+00:48:40,639 --> 00:48:47,000
+para escrever código verificado e e e e
+
+1128
+00:48:44,519 --> 00:48:50,079
+obviamente não dá para deixar de fora a
+
+1129
+00:48:47,000 --> 00:48:52,960
+inteligência artificial né tem muitos
+
+1130
+00:48:50,079 --> 00:48:56,680
+grupos puxando essa semana essa semana a
+
+1131
+00:48:52,960 --> 00:48:59,920
+gente teve dois tanto a morph e teve o o
+
+1132
+00:48:56,679 --> 00:49:02,159
+lema que tem o lem né da Meta que esse
+
+1133
+00:48:59,920 --> 00:49:04,039
+open source Model E agora tem o lema que
+
+1134
+00:49:02,159 --> 00:49:06,838
+é para da matemática que foi treinado
+
+1135
+00:49:04,039 --> 00:49:08,279
+usando lin usando Isabel usando um monte
+
+1136
+00:49:06,838 --> 00:49:12,039
+de recurso de
+
+1137
+00:49:08,280 --> 00:49:14,920
+matemática e a ideia é que um dia esse
+
+1138
+00:49:12,039 --> 00:49:16,920
+tipo de sistema a gente viu que o tens o
+
+1139
+00:49:14,920 --> 00:49:18,798
+chat de PT tá ajudando tens tal sem
+
+1140
+00:49:16,920 --> 00:49:20,440
+saber muito de matemática então o futuro
+
+1141
+00:49:18,798 --> 00:49:22,719
+é imagina esses assistentes quando eles
+
+1142
+00:49:20,440 --> 00:49:24,599
+forem muitos muito muito bons para
+
+1143
+00:49:22,719 --> 00:49:26,838
+matemática eles vão conseguir ajudar
+
+1144
+00:49:24,599 --> 00:49:29,559
+muito mais não só os matemáticos mas os
+
+1145
+00:49:26,838 --> 00:49:31,358
+engenheiros de software o futuro onde
+
+1146
+00:49:29,559 --> 00:49:34,960
+você tem um ambiente de desenvolvimento
+
+1147
+00:49:31,358 --> 00:49:37,480
+que você tem um assistente lá te
+
+1148
+00:49:34,960 --> 00:49:39,400
+ajudando não só a escrever o código mas
+
+1149
+00:49:37,480 --> 00:49:41,599
+ao verificar que o código tá correto tá
+
+1150
+00:49:39,400 --> 00:49:45,039
+interagindo com você tá mostrando ah
+
+1151
+00:49:41,599 --> 00:49:47,720
+você fez esse erro aqui tenta mudar isso
+
+1152
+00:49:45,039 --> 00:49:50,880
+e é eu acho que o futuro vai ser
+
+1153
+00:49:47,719 --> 00:49:53,199
+incrível né mas todas as três árias eu
+
+1154
+00:49:50,880 --> 00:49:56,000
+tô super
+
+1155
+00:49:53,199 --> 00:49:57,358
+motivado hoje em dia eu eu passo mais
+
+1156
+00:49:56,000 --> 00:49:59,400
+tempo conversando com pessoas do que
+
+1157
+00:49:57,358 --> 00:50:02,119
+fazendo pesquisa é o mesmo eu tenho que
+
+1158
+00:49:59,400 --> 00:50:04,960
+ficar motivando as pessoas influenciando
+
+1159
+00:50:02,119 --> 00:50:08,358
+as pessoas no caminho da fundação e da
+
+1160
+00:50:04,960 --> 00:50:11,079
+Amazon mas se eu se eu fosse jovem eu
+
+1161
+00:50:08,358 --> 00:50:14,199
+estaria trabalhando direto nessas três
+
+1162
+00:50:11,079 --> 00:50:16,200
+áreas muito bom eu tive assim até uma
+
+1163
+00:50:14,199 --> 00:50:18,159
+outra ideia que eu realmente não sei até
+
+1164
+00:50:16,199 --> 00:50:20,719
+que ponto é factível mas por exemplo tem
+
+1165
+00:50:18,159 --> 00:50:24,838
+alguma coisa estilo Júpiter notebook
+
+1166
+00:50:20,719 --> 00:50:27,239
+eh para lim né Apesar de que o o o vs
+
+1167
+00:50:24,838 --> 00:50:29,759
+code é muito M bom você programar de
+
+1168
+00:50:27,239 --> 00:50:32,118
+forma interativa né mas a vantagem de
+
+1169
+00:50:29,760 --> 00:50:33,680
+algo como o Júpiter notebook seria que
+
+1170
+00:50:32,119 --> 00:50:35,798
+daria para rodar online Eu acho que
+
+1171
+00:50:33,679 --> 00:50:40,159
+vscode dá também para rodar online né na
+
+1172
+00:50:35,798 --> 00:50:40,159
+Microsoft tem agora tem vai no
+
+1173
+00:50:40,559 --> 00:50:46,440
+live.org aparece no teu browser você
+
+1174
+00:50:42,920 --> 00:50:47,720
+pode usar me tudo uma das vantagens da
+
+1175
+00:50:46,440 --> 00:50:49,880
+fundação agora é que a gente consegue
+
+1176
+00:50:47,719 --> 00:50:53,118
+ter esse tipo de serviço PR comunidade
+
+1177
+00:50:49,880 --> 00:50:55,480
+né E vai tá conectado com a documentação
+
+1178
+00:50:53,119 --> 00:50:57,000
+tudo o nosso sonho daqui alguns meses
+
+1179
+00:50:55,480 --> 00:50:59,480
+meses toda a documentação vai ser que
+
+1180
+00:50:57,000 --> 00:51:02,719
+nem a do Rust você clica no exemplo ele
+
+1181
+00:50:59,480 --> 00:51:06,719
+vai para esse live.
+
+1182
+00:51:02,719 --> 00:51:08,838
+llor e tá o editor lá o vs Code com tudo
+
+1183
+00:51:06,719 --> 00:51:13,239
+Não é o vs code mas tem todas as
+
+1184
+00:51:08,838 --> 00:51:16,119
+capacidades do vs code né rodando no seu
+
+1185
+00:51:13,239 --> 00:51:18,598
+browser muito bom vou vou procurar aqui
+
+1186
+00:51:16,119 --> 00:51:19,720
+e deixar um um projeto que eu achei eu
+
+1187
+00:51:18,599 --> 00:51:22,440
+realmente não me lembro se alguém
+
+1188
+00:51:19,719 --> 00:51:25,959
+indicou ou se eu achei por acaso mas é é
+
+1189
+00:51:22,440 --> 00:51:29,200
+é um sats over em LM
+
+1190
+00:51:25,960 --> 00:51:32,159
+e é checado pelo LM garantido que
+
+1191
+00:51:29,199 --> 00:51:33,679
+termina e que dá uma resposta correta né
+
+1192
+00:51:32,159 --> 00:51:37,558
+Chama
+
+1193
+00:51:33,679 --> 00:51:39,679
+saturn eu conheci eu fiquei eu eu fiquei
+
+1194
+00:51:37,559 --> 00:51:42,359
+impressionado eu pensei que ela um aluno
+
+1195
+00:51:39,679 --> 00:51:44,598
+porque tem aluno pessoas jovens fazem
+
+1196
+00:51:42,358 --> 00:51:46,199
+essas coisas né às vezes né eles fazem
+
+1197
+00:51:44,599 --> 00:51:48,880
+esses projetos assim
+
+1198
+00:51:46,199 --> 00:51:50,159
+gigantescos eu fico assim uau fal assim
+
+1199
+00:51:48,880 --> 00:51:53,400
+eu penso assim ah esse cara é um cara
+
+1200
+00:51:50,159 --> 00:51:56,078
+jovem na Índia aí eu falou assim vou me
+
+1201
+00:51:53,400 --> 00:51:57,960
+encontrar com esse cara pô o cara é um
+
+1202
+00:51:56,079 --> 00:51:59,880
+professor de matemática ele é da minha
+
+1203
+00:51:57,960 --> 00:52:02,880
+idade coroa que nem eu eu fiquei assim
+
+1204
+00:51:59,880 --> 00:52:08,559
+uau F ass o cara é matemático e consegue
+
+1205
+00:52:02,880 --> 00:52:10,838
+programar e provar aprendeu é sidf ele é
+
+1206
+00:52:08,559 --> 00:52:12,559
+incrível ele tá ele tá fazendo a
+
+1207
+00:52:10,838 --> 00:52:15,480
+inteligência artificial P linho agora
+
+1208
+00:52:12,559 --> 00:52:18,920
+também ele tem o blog dele ele é muito
+
+1209
+00:52:15,480 --> 00:52:21,199
+legal muito gente boa agora vamos falar
+
+1210
+00:52:18,920 --> 00:52:23,039
+de de outros temas talvez até um pouco
+
+1211
+00:52:21,199 --> 00:52:25,798
+mais leves mas que eu acho que estão
+
+1212
+00:52:23,039 --> 00:52:28,759
+relacionados com a a possível
+
+1213
+00:52:25,798 --> 00:52:31,838
+popularização de linha aqui no Brasil né
+
+1214
+00:52:28,760 --> 00:52:33,880
+Eu acho que muitas pessoas muitos
+
+1215
+00:52:31,838 --> 00:52:35,639
+desenvolvedores desenvolvedoras mesmo
+
+1216
+00:52:33,880 --> 00:52:37,200
+pessoal Mestrando doutorando Professor
+
+1217
+00:52:35,639 --> 00:52:40,519
+engenheiro de software que que nos
+
+1218
+00:52:37,199 --> 00:52:43,159
+Escuta aqui eh não sabem né do da
+
+1219
+00:52:40,519 --> 00:52:45,119
+existência de linha Eu imagino ou sabem
+
+1220
+00:52:43,159 --> 00:52:47,679
+sabem muito por cima e recentemente
+
+1221
+00:52:45,119 --> 00:52:49,079
+aconteceu um evento esse eu esse evento
+
+1222
+00:52:47,679 --> 00:52:51,440
+eu fiquei sabendo da existência dele
+
+1223
+00:52:49,079 --> 00:52:54,000
+porque eu tô lá no Twitter e eu sigo e
+
+1224
+00:52:51,440 --> 00:52:56,440
+muita gente que eu me segue que é da
+
+1225
+00:52:54,000 --> 00:53:00,239
+comunidade de pessoas desenvolvedoras né
+
+1226
+00:52:56,440 --> 00:53:01,838
+ó pessoal Dev que foi a rinha de backend
+
+1227
+00:53:00,239 --> 00:53:03,479
+então a ideia da rinha era que as
+
+1228
+00:53:01,838 --> 00:53:05,318
+pessoas participassem trouxesse a
+
+1229
+00:53:03,480 --> 00:53:07,240
+implementação de um api definida nas
+
+1230
+00:53:05,318 --> 00:53:08,440
+regras da competição então obviamente
+
+1231
+00:53:07,239 --> 00:53:10,239
+pessoal que vai fazer isso
+
+1232
+00:53:08,440 --> 00:53:12,679
+principalmente como tinha umas
+
+1233
+00:53:10,239 --> 00:53:15,759
+exigências de performance ah fazem Rust
+
+1234
+00:53:12,679 --> 00:53:20,000
+CC mais mais sei lá e duas pessoas
+
+1235
+00:53:15,760 --> 00:53:23,000
+algebraic Sofia que é o ar dela mas o
+
+1236
+00:53:20,000 --> 00:53:24,480
+sobrenome é Rodrigues e algebraic Gabi
+
+1237
+00:53:23,000 --> 00:53:26,798
+que eu realmente não sei o sobrenome
+
+1238
+00:53:24,480 --> 00:53:30,838
+dela parpar dessa
+
+1239
+00:53:26,798 --> 00:53:34,199
+competição escrevendo em LM e c+ mais né
+
+1240
+00:53:30,838 --> 00:53:37,358
+LM 4 e o mais espantoso é que ficaram em
+
+1241
+00:53:34,199 --> 00:53:39,919
+quarto lugar né porque como tinha essas
+
+1242
+00:53:37,358 --> 00:53:42,000
+regras muita gente que fez em em outras
+
+1243
+00:53:39,920 --> 00:53:43,760
+linguagens acabou ah se alguma coisa
+
+1244
+00:53:42,000 --> 00:53:47,239
+como não era uma coisa assim valendo
+
+1245
+00:53:43,760 --> 00:53:48,799
+dinheiro nada era só uma diversão então
+
+1246
+00:53:47,239 --> 00:53:50,519
+elas conseguiram quer dizer eu não sei
+
+1247
+00:53:48,798 --> 00:53:54,480
+também porque
+
+1248
+00:53:50,519 --> 00:53:56,639
+eh elas descreveram assim usamos LM 4 e
+
+1249
+00:53:54,480 --> 00:54:00,199
+c mais mais para fazer o servidor
+
+1250
+00:53:56,639 --> 00:54:02,639
+postgressql para Database aí elas
+
+1251
+00:54:00,199 --> 00:54:05,679
+colocaram ainda assim o mundo precisa de
+
+1252
+00:54:02,639 --> 00:54:08,598
+mons e o
+
+1253
+00:54:05,679 --> 00:54:11,199
+o o interessante é que o programador
+
+1254
+00:54:08,599 --> 00:54:13,599
+empresário Fábio aquita youtuber também
+
+1255
+00:54:11,199 --> 00:54:16,598
+né ele tem um canal no YouTube podcast
+
+1256
+00:54:13,599 --> 00:54:18,798
+com muitas visualizações ele fez um
+
+1257
+00:54:16,599 --> 00:54:21,280
+vídeo descrevendo cada solução que ele
+
+1258
+00:54:18,798 --> 00:54:22,960
+conseguiu ver da da da rinha de backend
+
+1259
+00:54:21,280 --> 00:54:26,079
+e ele ficou impressionado com a solução
+
+1260
+00:54:22,960 --> 00:54:28,318
+em lin aí depois disso a s escreveu dois
+
+1261
+00:54:26,079 --> 00:54:30,720
+blog posts sobre LM no blog de
+
+1262
+00:54:28,318 --> 00:54:34,880
+engenharia da empresa do do aquita que é
+
+1263
+00:54:30,719 --> 00:54:37,919
+o a cod Miner né então como é que você
+
+1264
+00:54:34,880 --> 00:54:40,440
+vê essa possibilidade do lin chegar a
+
+1265
+00:54:37,920 --> 00:54:44,079
+mais pessoas desenvolvedores de software
+
+1266
+00:54:40,440 --> 00:54:48,119
+apesar do de palavras da Sofia né ter um
+
+1267
+00:54:44,079 --> 00:54:50,880
+ecossistema quase inexistente
+
+1268
+00:54:48,119 --> 00:54:55,960
+é para desenvolvimento de software ela
+
+1269
+00:54:50,880 --> 00:54:58,200
+tá certa o o o a bioteca do linha é
+
+1270
+00:54:55,960 --> 00:55:01,039
+maciçamente pr matemática hoje em dia né
+
+1271
+00:54:58,199 --> 00:55:05,078
+não tem biblioteca para fazer
+
+1272
+00:55:01,039 --> 00:55:06,199
+comunicação TCP IP essas coisas que
+
+1273
+00:55:05,079 --> 00:55:08,519
+estão em outras linguagens de
+
+1274
+00:55:06,199 --> 00:55:11,439
+programação mas isso vai mudar essa é a
+
+1275
+00:55:08,519 --> 00:55:13,920
+boa notícia a boa notícia a fundação do
+
+1276
+00:55:11,440 --> 00:55:16,318
+LM começou em agosto desse ano é a
+
+1277
+00:55:13,920 --> 00:55:19,000
+primeira vez que a gente tem um time um
+
+1278
+00:55:16,318 --> 00:55:22,079
+monte de gente Estelar no
+
+1279
+00:55:19,000 --> 00:55:25,239
+time Então vai ter vai ter isso vai
+
+1280
+00:55:22,079 --> 00:55:27,318
+acontecer a vai ser a primeira vez que
+
+1281
+00:55:25,239 --> 00:55:29,399
+tem um time a a usabilidade vai aumentar
+
+1282
+00:55:27,318 --> 00:55:32,679
+muito performance vai aumentar muito as
+
+1283
+00:55:29,400 --> 00:55:35,280
+bibliotecas vão aumentar muito a a isso
+
+1284
+00:55:32,679 --> 00:55:37,318
+vai rolar a a mas eu fiquei muito feliz
+
+1285
+00:55:35,280 --> 00:55:41,119
+quando você me mandou você me mandou e
+
+1286
+00:55:37,318 --> 00:55:44,199
+esse post da Sofia há alguns dias atrás
+
+1287
+00:55:41,119 --> 00:55:45,640
+umas semanas atrás né Eh você fez meu
+
+1288
+00:55:44,199 --> 00:55:48,639
+dia eu fiquei muito
+
+1289
+00:55:45,639 --> 00:55:52,078
+feliz que bom eu gosto muito de ver e e
+
+1290
+00:55:48,639 --> 00:55:55,199
+e e elas são jovens né Eu acho bem
+
+1291
+00:55:52,079 --> 00:55:58,519
+jovens bem jovens é é é eu fiquei eu eu
+
+1292
+00:55:55,199 --> 00:56:00,759
+eu encro eu eu fico e é engraçado que
+
+1293
+00:55:58,519 --> 00:56:02,719
+quando eu comecei a a a vender o Lim
+
+1294
+00:56:00,760 --> 00:56:05,359
+dentro da Amazon o pessoal falou assim
+
+1295
+00:56:02,719 --> 00:56:07,798
+não não isso é muito caramba is uma de
+
+1296
+00:56:05,358 --> 00:56:10,038
+mona linguagem funcional ISO É muito
+
+1297
+00:56:07,798 --> 00:56:11,639
+difícil você tem que ter um phd para
+
+1298
+00:56:10,039 --> 00:56:13,920
+desenvolver isso eu falou assim olha só
+
+1299
+00:56:11,639 --> 00:56:17,759
+olha só essas duas meninas
+
+1300
+00:56:13,920 --> 00:56:20,480
+aí el deve est Na graduação ainda
+
+1301
+00:56:17,760 --> 00:56:22,880
+né eu cheg assim olha só tem gente que
+
+1302
+00:56:20,480 --> 00:56:25,880
+aprende e tem eu eu encontro gente
+
+1303
+00:56:22,880 --> 00:56:28,000
+Espetacular todo dia e eu acho que
+
+1304
+00:56:25,880 --> 00:56:31,640
+ferramenta tipo esse assistente de prova
+
+1305
+00:56:28,000 --> 00:56:33,239
+tipo lim vai permitir Hoje em dia a
+
+1306
+00:56:31,639 --> 00:56:36,879
+gente acha essas pessoas excepcionais
+
+1307
+00:56:33,239 --> 00:56:39,078
+que nem elas com desenvolvimento né Elas
+
+1308
+00:56:36,880 --> 00:56:41,440
+aprendem a programar sozinhas lendo
+
+1309
+00:56:39,079 --> 00:56:43,240
+tutorial na internet eu acho que no
+
+1310
+00:56:41,440 --> 00:56:46,599
+futuro consistente de prova que nem o
+
+1311
+00:56:43,239 --> 00:56:47,959
+nin o cooc as pess você vai encontrar um
+
+1312
+00:56:46,599 --> 00:56:49,640
+monte de gente que é muito forte em
+
+1313
+00:56:47,960 --> 00:56:51,838
+matemática também que aprendeu sozinho
+
+1314
+00:56:49,639 --> 00:56:55,118
+também do mesmo jeito que eles estão
+
+1315
+00:56:51,838 --> 00:56:56,880
+aprendendo a a a a a programar estão a
+
+1316
+00:56:55,119 --> 00:57:00,358
+aprendendo a fazer uma demonstração
+
+1317
+00:56:56,880 --> 00:57:02,440
+formal precisa sozinho sem ajuda de
+
+1318
+00:57:00,358 --> 00:57:04,519
+ninguém olhando eu acho que o mundo tá
+
+1319
+00:57:02,440 --> 00:57:07,599
+cheio de pessoas incríveis que nem elas
+
+1320
+00:57:04,519 --> 00:57:09,838
+elas me impressionaram o código é a
+
+1321
+00:57:07,599 --> 00:57:13,760
+Sofia Rodrigues ela vai fazer uma live
+
+1322
+00:57:09,838 --> 00:57:17,519
+em 9 de novembro meio de30 no horário de
+
+1323
+00:57:13,760 --> 00:57:18,960
+Brasília para chamado exploring Link 4
+
+1324
+00:57:17,519 --> 00:57:21,639
+não sei se vai ser em português ou
+
+1325
+00:57:18,960 --> 00:57:24,119
+inglês masal acho que o esse episódio
+
+1326
+00:57:21,639 --> 00:57:26,679
+vai sair um pouco depois mas eu vou já
+
+1327
+00:57:24,119 --> 00:57:29,119
+divulguei vou divulgar lá nas nas redes
+
+1328
+00:57:26,679 --> 00:57:31,000
+do fronteiras nas minhas redes pessoais
+
+1329
+00:57:29,119 --> 00:57:36,000
+eu vou assistir
+
+1330
+00:57:31,000 --> 00:57:38,559
+e você eh falou agora da lim frro né
+
+1331
+00:57:36,000 --> 00:57:41,000
+você faz parte do do Conselho é uma
+
+1332
+00:57:38,559 --> 00:57:42,798
+organização focada em pesquisa do lim o
+
+1333
+00:57:41,000 --> 00:57:44,679
+Tomás até comentou que queria dizer que
+
+1334
+00:57:42,798 --> 00:57:46,559
+estou super impressionado com tanto de
+
+1335
+00:57:44,679 --> 00:57:50,358
+ferramenta nova e interessante que está
+
+1336
+00:57:46,559 --> 00:57:52,200
+vindo com com a lim FR Uhum você podia
+
+1337
+00:57:50,358 --> 00:57:53,798
+falar um pouco mais sobre Por que surgiu
+
+1338
+00:57:52,199 --> 00:57:59,159
+a linha
+
+1339
+00:57:53,798 --> 00:58:03,159
+fru é para manter um projeto desse
+
+1340
+00:57:59,159 --> 00:58:04,719
+tipo você precisa de foco e recursos né
+
+1341
+00:58:03,159 --> 00:58:08,798
+você tem que por exemplo a gente
+
+1342
+00:58:04,719 --> 00:58:10,759
+contratou várias pessoas na nessa nessa
+
+1343
+00:58:08,798 --> 00:58:13,280
+institui nessa Fundação sem fins
+
+1344
+00:58:10,760 --> 00:58:16,359
+lucrativos né você precisa de recursos
+
+1345
+00:58:13,280 --> 00:58:19,079
+para fazer isso ah tem projetos que nem
+
+1346
+00:58:16,358 --> 00:58:22,798
+o link eh vai ter tá tendo impacto na
+
+1347
+00:58:19,079 --> 00:58:25,079
+matemática mas para uma empresa eles não
+
+1348
+00:58:22,798 --> 00:58:27,679
+vem isso como uma coisa valiosa n eles
+
+1349
+00:58:25,079 --> 00:58:30,920
+querem gerar mais dinheiro
+
+1350
+00:58:27,679 --> 00:58:33,038
+né na academia também é complicada puxar
+
+1351
+00:58:30,920 --> 00:58:35,039
+um pejar desse tipo né porque você
+
+1352
+00:58:33,039 --> 00:58:38,240
+precisa de Engenheiros você precisa os
+
+1353
+00:58:35,039 --> 00:58:40,200
+engenheiros são super caros e então é
+
+1354
+00:58:38,239 --> 00:58:42,000
+muito caro pra academia na academia não
+
+1355
+00:58:40,199 --> 00:58:44,439
+tem suporte para esses projetos de longo
+
+1356
+00:58:42,000 --> 00:58:48,239
+prazo e na indústria eles querem
+
+1357
+00:58:44,440 --> 00:58:51,240
+monetizar eles querem gerar dinheiro né
+
+1358
+00:58:48,239 --> 00:58:53,399
+então não se precisa de um novo modelo e
+
+1359
+00:58:51,239 --> 00:58:55,838
+a convergence research tá puxando esse
+
+1360
+00:58:53,400 --> 00:58:58,318
+novo modelo de de essas esses
+
+1361
+00:58:55,838 --> 00:59:02,119
+instituições sem fins lucrativos
+
+1362
+00:58:58,318 --> 00:59:05,239
+ah elas dão muito a a convergence Foi
+
+1363
+00:59:02,119 --> 00:59:07,358
+incrível porque é muito difícil criar um
+
+1364
+00:59:05,239 --> 00:59:09,078
+negócio desses a mim eu não tinha eu não
+
+1365
+00:59:07,358 --> 00:59:12,199
+conseguiria fazer sozinho sem a ajuda
+
+1366
+00:59:09,079 --> 00:59:16,280
+deles né Eh porque você precisa de apoio
+
+1367
+00:59:12,199 --> 00:59:19,439
+de advogado pessoa de Recursos Humanos
+
+1368
+00:59:16,280 --> 00:59:22,519
+eh ca Tod o sistema de pagamento tipo
+
+1369
+00:59:19,440 --> 00:59:25,440
+assim a gente tem pessoas na Alemanha na
+
+1370
+00:59:22,519 --> 00:59:28,000
+Dinamarca na Austrália nos Estados
+
+1371
+00:59:25,440 --> 00:59:31,400
+Unidos né e e e
+
+1372
+00:59:28,000 --> 00:59:33,480
+e setar isso daí é super complicado né
+
+1373
+00:59:31,400 --> 00:59:35,240
+eles T sabem tudo como é que seta isso
+
+1374
+00:59:33,480 --> 00:59:38,480
+que tem que ter intermediários tem que
+
+1375
+00:59:35,239 --> 00:59:42,519
+ter companhia entre é é uma é muito
+
+1376
+00:59:38,480 --> 00:59:45,358
+complicado e eles ajudaram muito ah ah e
+
+1377
+00:59:42,519 --> 00:59:47,159
+a gente eu tô super motivada mem eu
+
+1378
+00:59:45,358 --> 00:59:49,358
+acordo todo dia super cedo porque a
+
+1379
+00:59:47,159 --> 00:59:51,679
+maior parte das pessoas estão na Europa
+
+1380
+00:59:49,358 --> 00:59:55,960
+então eu tenho reunião com eles de manhã
+
+1381
+00:59:51,679 --> 00:59:58,199
+cedo aí às 9 eu começo a trabalhar na
+
+1382
+00:59:55,960 --> 00:59:59,119
+paraa Amazon fazendo coisa que é útil
+
+1383
+00:59:58,199 --> 01:00:02,439
+paraa
+
+1384
+00:59:59,119 --> 01:00:04,920
+Amazon aí no fim do dia eu volto
+
+1385
+01:00:02,440 --> 01:00:07,519
+trabalhar aí o Scott que tá na na
+
+1386
+01:00:04,920 --> 01:00:09,559
+Austrália aí a gente intersecta tem
+
+1387
+01:00:07,519 --> 01:00:12,159
+interseção com ele né o Scott tá na
+
+1388
+01:00:09,559 --> 01:00:15,240
+Austrália a gente vai discutindo as
+
+1389
+01:00:12,159 --> 01:00:18,838
+coisas mais à tarde lá tipo 7 horas da
+
+1390
+01:00:15,239 --> 01:00:20,959
+noite tá aqui e para ele de manhã é só
+
+1391
+01:00:18,838 --> 01:00:24,838
+curios você tá em searo né quer dizer na
+
+1392
+01:00:20,960 --> 01:00:30,679
+região de searo tô tô certo tô tô que a
+
+1393
+01:00:24,838 --> 01:00:34,159
+a mas a a a Amazon a aws ela tem uma sed
+
+1394
+01:00:30,679 --> 01:00:37,960
+enciar ou ou tem tem a sede principal é
+
+1395
+01:00:34,159 --> 01:00:42,399
+enorme tem mais de 30 prédios em Seat os
+
+1396
+01:00:37,960 --> 01:00:45,119
+prédios vários vários prédios eles tem
+
+1397
+01:00:42,400 --> 01:00:47,000
+nomes é incrível eu não sabia até eu
+
+1398
+01:00:45,119 --> 01:00:48,240
+comecei a trabalhar lá eu sabia que a
+
+1399
+01:00:47,000 --> 01:00:52,358
+séia era lá mas não sabia que tinha
+
+1400
+01:00:48,239 --> 01:00:55,358
+tanto PR né é a sede em
+
+1401
+01:00:52,358 --> 01:00:58,798
+cato uma curiosidade porque que por
+
+1402
+01:00:55,358 --> 01:01:01,000
+exemplo eu falei de de elixir né elixir
+
+1403
+01:00:58,798 --> 01:01:02,838
+na verdade assim não não tem uma
+
+1404
+01:01:01,000 --> 01:01:05,119
+fundação de elixir tem uma fundação do
+
+1405
+01:01:02,838 --> 01:01:09,199
+ecossistema de erlang que envolve elixir
+
+1406
+01:01:05,119 --> 01:01:11,680
+erlang e várias outras foi eh é custeada
+
+1407
+01:01:09,199 --> 01:01:13,519
+por várias empresas LX pelas
+
+1408
+01:01:11,679 --> 01:01:15,719
+características dela tem várias empresas
+
+1409
+01:01:13,519 --> 01:01:17,199
+já no mundo que usam E aí elas para
+
+1410
+01:01:15,719 --> 01:01:18,719
+participarem da fundação Elas têm que
+
+1411
+01:01:17,199 --> 01:01:22,038
+pagar anualmente um valor que é uma
+
+1412
+01:01:18,719 --> 01:01:23,598
+percentagem do seu faturamento etc então
+
+1413
+01:01:22,039 --> 01:01:25,640
+é uma Fundação que tem dinheiro
+
+1414
+01:01:23,599 --> 01:01:27,359
+obviamente aí provalmente se comparar
+
+1415
+01:01:25,639 --> 01:01:29,759
+com a de Python não tem tanto dinheiro
+
+1416
+01:01:27,358 --> 01:01:31,798
+mas tem dinheiro já e não depende mais
+
+1417
+01:01:29,760 --> 01:01:33,880
+de por exemplo de uma convergent
+
+1418
+01:01:31,798 --> 01:01:35,679
+research Mas também eu acho que não não
+
+1419
+01:01:33,880 --> 01:01:39,039
+tem esse papel que vocês estão fazendo
+
+1420
+01:01:35,679 --> 01:01:41,199
+na na linha fru é bem diferente mas uma
+
+1421
+01:01:39,039 --> 01:01:43,160
+das coisas uma outra iniciativa que na
+
+1422
+01:01:41,199 --> 01:01:46,439
+verdade foi mais do do José Valinho o
+
+1423
+01:01:43,159 --> 01:01:48,719
+criador da da linguagem elixir né que
+
+1424
+01:01:46,440 --> 01:01:50,720
+ele fez ele aí ele entrou em contato com
+
+1425
+01:01:48,719 --> 01:01:53,278
+outras empresas e criou um projeto aqui
+
+1426
+01:01:50,719 --> 01:01:55,959
+no Brasil chamado pesquise com elixir
+
+1427
+01:01:53,278 --> 01:01:57,639
+que paga bolsas de mestrado e doutorado
+
+1428
+01:01:55,960 --> 01:01:59,000
+nesse caso aí só para brasileiros eu
+
+1429
+01:01:57,639 --> 01:02:00,400
+falei da fundação que a fundação tá
+
+1430
+01:01:59,000 --> 01:02:02,000
+aberta a pagar bolsas de mestrado e
+
+1431
+01:02:00,400 --> 01:02:03,920
+doutorado para pessoas do mundo todo mas
+
+1432
+01:02:02,000 --> 01:02:06,599
+o pesquisas com LX paga só para
+
+1433
+01:02:03,920 --> 01:02:08,680
+brasileiros né E vocês pretendem fazer
+
+1434
+01:02:06,599 --> 01:02:10,680
+alguma coisa desse tipo dizer ah tem um
+
+1435
+01:02:08,679 --> 01:02:13,118
+aluno aqui que quer fazer mestrado com
+
+1436
+01:02:10,679 --> 01:02:17,278
+isso e precisa de uma bolsa vocês têm
+
+1437
+01:02:13,119 --> 01:02:19,599
+essa possibilidade Pô gostei da ideia
+
+1438
+01:02:17,278 --> 01:02:21,880
+não tinha isso não tinha passado na
+
+1439
+01:02:19,599 --> 01:02:23,640
+nossa cabeça essa possibilidade a gente
+
+1440
+01:02:21,880 --> 01:02:26,278
+tá a gente tá querendo ter o que passou
+
+1441
+01:02:23,639 --> 01:02:28,759
+na nossa cabeça e talvez seja o meio do
+
+1442
+01:02:26,278 --> 01:02:32,119
+caminho era estágio né oferecer estágio
+
+1443
+01:02:28,760 --> 01:02:34,680
+de verão na na Fundação né
+
+1444
+01:02:32,119 --> 01:02:36,519
+Eh outra coisa também a gente já tá
+
+1445
+01:02:34,679 --> 01:02:38,759
+fazendo é tem gente que é contratada
+
+1446
+01:02:36,519 --> 01:02:42,119
+pessoa que quer trabalhar um tempo só
+
+1447
+01:02:38,760 --> 01:02:44,839
+para por exemplo ele é um aluno de de
+
+1448
+01:02:42,119 --> 01:02:47,920
+pós-doutorado mas aí ele vai ter vai
+
+1449
+01:02:44,838 --> 01:02:50,759
+pegar um vai parar um pouco TRS meses aí
+
+1450
+01:02:47,920 --> 01:02:53,159
+trabalha TRS meses pra gente mas ele
+
+1451
+01:02:50,760 --> 01:02:55,559
+quer retornar ele quer ter uma posição
+
+1452
+01:02:53,159 --> 01:02:59,078
+acadêmica às ve vezes tava pensando
+
+1453
+01:02:55,559 --> 01:02:59,079
+nesses modelos Mas isso é interessante
+
+1454
+01:03:00,400 --> 01:03:07,480
+e o o o truck é como fazer acontecer
+
+1455
+01:03:04,358 --> 01:03:09,759
+Porque tem toda a parte burocrática e de
+
+1456
+01:03:07,480 --> 01:03:12,119
+como transferir o dinheiro pro Brasil
+
+1457
+01:03:09,760 --> 01:03:13,680
+ess tipo de mas iso é uma ideia
+
+1458
+01:03:12,119 --> 01:03:15,720
+interessante eu vou discutir com o
+
+1459
+01:03:13,679 --> 01:03:18,440
+pessoal da convergence que o eles que
+
+1460
+01:03:15,719 --> 01:03:20,480
+sabem da parte legal como é que consegue
+
+1461
+01:03:18,440 --> 01:03:23,000
+fazer esses mecanismos para fazer
+
+1462
+01:03:20,480 --> 01:03:24,838
+acontecer é o que eu que eu posso dizer
+
+1463
+01:03:23,000 --> 01:03:27,920
+é que por exemplo no caso do pesquisa
+
+1464
+01:03:24,838 --> 01:03:29,679
+com alir eh na verdade assim eu ele
+
+1465
+01:03:27,920 --> 01:03:31,240
+serve de intermediário mas acaba sendo
+
+1466
+01:03:29,679 --> 01:03:33,519
+uma coisa entre a empresa e a
+
+1467
+01:03:31,239 --> 01:03:35,118
+universidade o pesquisa com alix Não
+
+1468
+01:03:33,519 --> 01:03:37,719
+acho não tem nemhum uma existência
+
+1469
+01:03:35,119 --> 01:03:39,720
+formal e Claro aí tem que ver a questão
+
+1470
+01:03:37,719 --> 01:03:41,959
+das Diferenças né eu sei que eu passei
+
+1471
+01:03:39,719 --> 01:03:43,679
+um ano aí no nos Estados Unidos Lá em
+
+1472
+01:03:41,960 --> 01:03:45,880
+rool lá na North Carolina state
+
+1473
+01:03:43,679 --> 01:03:48,239
+University o que eu observava né que o
+
+1474
+01:03:45,880 --> 01:03:50,160
+pessoal geralmente pegava assim os três
+
+1475
+01:03:48,239 --> 01:03:53,838
+meses do verão ia para alguma empresa
+
+1476
+01:03:50,159 --> 01:03:54,798
+Microsoft Google às vezes até pro pro
+
+1477
+01:03:53,838 --> 01:03:57,000
+exterior
+
+1478
+01:03:54,798 --> 01:03:59,719
+aqui no no Brasil não tem essa prática
+
+1479
+01:03:57,000 --> 01:04:04,239
+né o pessoal recebe quando recebe Bolsa
+
+1480
+01:03:59,719 --> 01:04:06,318
+recebe 12 meses de bolsa né Por 3 4 anos
+
+1481
+01:04:04,239 --> 01:04:10,239
+dependendo clar mestrado doutorado 2
+
+1482
+01:04:06,318 --> 01:04:11,960
+anos mestrado 2 anos doutorado 4 anos e
+
+1483
+01:04:10,239 --> 01:04:14,439
+Mas aí o problema que a gente tá tendo
+
+1484
+01:04:11,960 --> 01:04:18,440
+aqui já há um bom tempo e
+
+1485
+01:04:14,440 --> 01:04:21,119
+Eh agora piorou nos últimos 4 anos e
+
+1486
+01:04:18,440 --> 01:04:23,039
+agora tá recuperando um pouco é a falta
+
+1487
+01:04:21,119 --> 01:04:25,640
+de bolsas e o baixo valor das bolsas
+
+1488
+01:04:23,039 --> 01:04:28,520
+então por isso que pesquisa com LX serve
+
+1489
+01:04:25,639 --> 01:04:30,960
+para isso para Ah o pessoal não tem
+
+1490
+01:04:28,519 --> 01:04:36,278
+bolsa então eles já pagaram bolsas lá
+
+1491
+01:04:30,960 --> 01:04:39,199
+para pessoal da UFMG e E então tem essas
+
+1492
+01:04:36,278 --> 01:04:43,559
+possibilidades agora um um Ah
+
+1493
+01:04:39,199 --> 01:04:45,719
+legal uma uma penúltima pergunta é que
+
+1494
+01:04:43,559 --> 01:04:48,240
+você falou né Você acabou de falar do M
+
+1495
+01:04:45,719 --> 01:04:50,480
+prover né eu tô lendo aqui do do da
+
+1496
+01:04:48,239 --> 01:04:52,239
+descrição o primeiro modelo de código
+
+1497
+01:04:50,480 --> 01:04:55,760
+aberto treinado como assistente de
+
+1498
+01:04:52,239 --> 01:04:58,118
+conversação para usuários de LM
+
+1499
+01:04:55,760 --> 01:05:01,278
+pergunta Ah sim uma outra curiosidade é
+
+1500
+01:04:58,119 --> 01:05:02,760
+que ontem mesmo a já foi um tema de de
+
+1501
+01:05:01,278 --> 01:05:04,119
+uma entrevista aqui que a gente fez com
+
+1502
+01:05:02,760 --> 01:05:06,039
+a professora que me recebeu lá nos
+
+1503
+01:05:04,119 --> 01:05:09,640
+Estados Unidos a lur Williams a questão
+
+1504
+01:05:06,039 --> 01:05:11,799
+de que às vezes esses eh chat GPT co
+
+1505
+01:05:09,639 --> 01:05:15,519
+Pilot eles geram código mas código cheio
+
+1506
+01:05:11,798 --> 01:05:18,880
+de bugs e é e um artigo que ainda tá no
+
+1507
+01:05:15,519 --> 01:05:22,000
+Archive não sei se se vai ser se já foi
+
+1508
+01:05:18,880 --> 01:05:26,440
+publicado em algum evento o Journal mas
+
+1509
+01:05:22,000 --> 01:05:27,838
+é a professora Carla Silva da UFPE ela
+
+1510
+01:05:26,440 --> 01:05:29,440
+compartilhou um artigo que na verdade
+
+1511
+01:05:27,838 --> 01:05:31,759
+tinha sido compartilhado por uma outra
+
+1512
+01:05:29,440 --> 01:05:34,039
+pessoa por senal se vocês se vocês
+
+1513
+01:05:31,760 --> 01:05:36,720
+quiserem entrar em contato com com um
+
+1514
+01:05:34,039 --> 01:05:37,880
+cara que assim ele faz muita divulgação
+
+1515
+01:05:36,719 --> 01:05:40,519
+de pesquisa pro pessoal do
+
+1516
+01:05:37,880 --> 01:05:43,760
+desenvolvimento né e com com público
+
+1517
+01:05:40,519 --> 01:05:45,838
+americano Europeu é o Greg Wilson ele
+
+1518
+01:05:43,760 --> 01:05:49,400
+tem um evento
+
+1519
+01:05:45,838 --> 01:05:49,400
+eh um blog
+
+1520
+01:05:49,639 --> 01:05:55,798
+Nothing não não não funciona na na
+
+1521
+01:05:52,798 --> 01:05:58,679
+teoria alguma coisa assim mas ele é bem
+
+1522
+01:05:55,798 --> 01:06:00,400
+bem ativo nessas coisas aí e o artigo
+
+1523
+01:05:58,679 --> 01:06:02,960
+que ela
+
+1524
+01:06:00,400 --> 01:06:05,400
+recompartilhar de segurança do código
+
+1525
+01:06:02,960 --> 01:06:07,760
+gerado pelo CoPilot n
+
+1526
+01:06:05,400 --> 01:06:10,639
+github a pergunta que eu vou fazer é
+
+1527
+01:06:07,760 --> 01:06:13,720
+mais geral como é que o LM e o seu
+
+1528
+01:06:10,639 --> 01:06:16,038
+desenvolvimento beneficia ou pode se
+
+1529
+01:06:13,719 --> 01:06:21,798
+beneficiar dos avanços em a large
+
+1530
+01:06:16,039 --> 01:06:24,400
+language models chat GPT CoPilot etc há
+
+1531
+01:06:21,798 --> 01:06:26,199
+muito ISS aí e essas empresas tão
+
+1532
+01:06:24,400 --> 01:06:29,000
+interessadas justamente por causa disso
+
+1533
+01:06:26,199 --> 01:06:31,679
+por exemplo a morph eles querem verify
+
+1534
+01:06:29,000 --> 01:06:34,039
+de cod sntese códo sintetizado
+
+1535
+01:06:31,679 --> 01:06:37,199
+verificado né por isso que eles estão
+
+1536
+01:06:34,039 --> 01:06:40,079
+investindo no link a a que eles vem um
+
+1537
+01:06:37,199 --> 01:06:43,118
+futuro onde a a ai tá gerando não só o
+
+1538
+01:06:40,079 --> 01:06:45,359
+código mas eh transformando a sua
+
+1539
+01:06:43,119 --> 01:06:48,559
+especificação em formal o que você pediu
+
+1540
+01:06:45,358 --> 01:06:51,679
+usando o inglês numa especificação
+
+1541
+01:06:48,559 --> 01:06:56,079
+formal e mostrando que o código satisfaz
+
+1542
+01:06:51,679 --> 01:06:58,838
+essa especificação né então o isso daí é
+
+1543
+01:06:56,079 --> 01:07:01,079
+o o interesse das das Por que tem
+
+1544
+01:06:58,838 --> 01:07:04,480
+companhias investindo nessa área com lin
+
+1545
+01:07:01,079 --> 01:07:06,680
+né mas pro LM mesmo para usabilidade de
+
+1546
+01:07:04,480 --> 01:07:11,039
+sistema tem milhões de possibilidades né
+
+1547
+01:07:06,679 --> 01:07:13,639
+Eh por exemplo eh ter um um ambiente que
+
+1548
+01:07:11,039 --> 01:07:16,559
+nem o do ten tal tá mas mais
+
+1549
+01:07:13,639 --> 01:07:18,480
+e todo integrado que tem um assistente
+
+1550
+01:07:16,559 --> 01:07:21,359
+ali te ajudando a aprender a nova
+
+1551
+01:07:18,480 --> 01:07:23,960
+linguagem né ajudando a você entender
+
+1552
+01:07:21,358 --> 01:07:25,960
+porque alguma coisa não tá funcionando
+
+1553
+01:07:23,960 --> 01:07:29,599
+então em usabilidade Eu acho que o
+
+1554
+01:07:25,960 --> 01:07:33,639
+impacto pode ser tremendo por exemplo o
+
+1555
+01:07:29,599 --> 01:07:36,559
+o o Jess que é o CEO da da morp ele tava
+
+1556
+01:07:33,639 --> 01:07:39,960
+falando assim não eu vou criar o o o um
+
+1557
+01:07:36,559 --> 01:07:42,519
+uma zulip que é você pode ter na tua
+
+1558
+01:07:39,960 --> 01:07:44,318
+máquina ele ele treinou o a o l lengua
+
+1559
+01:07:42,519 --> 01:07:47,159
+de modo dele usando todos os logs da
+
+1560
+01:07:44,318 --> 01:07:49,719
+zulip do lim né dessa dessa área de
+
+1561
+01:07:47,159 --> 01:07:51,558
+discussão do lim ele quer ter um
+
+1562
+01:07:49,719 --> 01:07:54,239
+assistente que seja como se fosse aquela
+
+1563
+01:07:51,559 --> 01:07:55,400
+pessoa que tá no zulip te ajudando O
+
+1564
+01:07:54,239 --> 01:07:57,118
+problema é que essas pessoas não
+
+1565
+01:07:55,400 --> 01:08:00,119
+conseguem se a comunidade ficar
+
+1566
+01:07:57,119 --> 01:08:02,480
+gigantesca não dá não tem material
+
+1567
+01:08:00,119 --> 01:08:04,519
+humano suficiente para fazer isso mas se
+
+1568
+01:08:02,480 --> 01:08:06,480
+você conseguisse ter esse assistente do
+
+1569
+01:08:04,519 --> 01:08:10,880
+teu lado na tua máquina rodando te
+
+1570
+01:08:06,480 --> 01:08:12,719
+ajudando seria valioso aí também ajudar
+
+1571
+01:08:10,880 --> 01:08:14,920
+quando você tá Às vezes emperrado você
+
+1572
+01:08:12,719 --> 01:08:17,519
+tem você tá tentando provar alguma coisa
+
+1573
+01:08:14,920 --> 01:08:19,960
+não tá conseguindo ter um assistente ali
+
+1574
+01:08:17,520 --> 01:08:24,000
+do teu lado que tá te auxiliando ah por
+
+1575
+01:08:19,960 --> 01:08:25,520
+você não tenta isso né aí aí tem o o o a
+
+1576
+01:08:24,000 --> 01:08:27,960
+viagem total que algumas pessoas
+
+1577
+01:08:25,520 --> 01:08:29,960
+acreditam mas eu acho que tá muito longe
+
+1578
+01:08:27,960 --> 01:08:32,119
+disso é que um dia a inteligência
+
+1579
+01:08:29,960 --> 01:08:35,119
+artificial vai conseguir provar teorema
+
+1580
+01:08:32,119 --> 01:08:38,838
+tipo último teorema de ferm ou ú
+
+1581
+01:08:35,119 --> 01:08:41,198
+automaticamente ou wom hypothesis que tá
+
+1582
+01:08:38,838 --> 01:08:42,519
+aberto ainda né Eh que não tem nem as
+
+1583
+01:08:41,198 --> 01:08:44,919
+pessoas não sabem nem se é verdade ou
+
+1584
+01:08:42,520 --> 01:08:46,759
+não tem uma inteligência artificial que
+
+1585
+01:08:44,920 --> 01:08:50,679
+prove uma dessas conjecturas que estão
+
+1586
+01:08:46,759 --> 01:08:53,640
+em aberto P igual NP P versus P versus
+
+1587
+01:08:50,679 --> 01:08:54,600
+NP né em Ciência da Computação isso tudo
+
+1588
+01:08:53,640 --> 01:08:57,480
+tá Tá em
+
+1589
+01:08:54,600 --> 01:09:00,039
+aberto tem gente acredita que
+
+1590
+01:08:57,479 --> 01:09:01,959
+Inteligência Artificial vai chegar lá
+
+1591
+01:09:00,039 --> 01:09:04,920
+mas se chegar lá você vai ter que ter
+
+1592
+01:09:01,960 --> 01:09:07,000
+prova formal eu acho que como é que você
+
+1593
+01:09:04,920 --> 01:09:09,000
+vai saber que a prova tá correta né hoje
+
+1594
+01:09:07,000 --> 01:09:11,119
+em dia a gente tem provas escritas por
+
+1595
+01:09:09,000 --> 01:09:13,679
+humanos que a gente tipo essa do Peter
+
+1596
+01:09:11,119 --> 01:09:16,798
+sch que ele mesmo não sabia ninguém
+
+1597
+01:09:13,679 --> 01:09:19,600
+conseguiu entender a prova sem ter o a a
+
+1598
+01:09:16,798 --> 01:09:22,278
+a versão formal tinha dúvidas se a prova
+
+1599
+01:09:19,600 --> 01:09:25,079
+tava correta ou não tem essa ABC
+
+1600
+01:09:22,279 --> 01:09:27,000
+conjecture que tá a mais de 10 anos em
+
+1601
+01:09:25,079 --> 01:09:29,719
+aberto gente as pessoas debatendo se
+
+1602
+01:09:27,000 --> 01:09:31,880
+estão é correta ou não a prova imagina
+
+1603
+01:09:29,719 --> 01:09:34,480
+agora uma inteligência artificial
+
+1604
+01:09:31,880 --> 01:09:37,520
+gerando uma prova
+
+1605
+01:09:34,479 --> 01:09:39,479
+que gigantesca Você Vai checar
+
+1606
+01:09:37,520 --> 01:09:42,159
+manualmente inviável
+
+1607
+01:09:39,479 --> 01:09:44,718
+Então você tem que ter uma uma prova
+
+1608
+01:09:42,158 --> 01:09:47,278
+formal que pode ser checada
+
+1609
+01:09:44,719 --> 01:09:48,920
+eficientemente por uma máquina né de uma
+
+1610
+01:09:47,279 --> 01:09:51,880
+forma
+
+1611
+01:09:48,920 --> 01:09:54,880
+determinística então isso essa é uma
+
+1612
+01:09:51,880 --> 01:09:56,600
+viagem Total mas essa as máquinas estão
+
+1613
+01:09:54,880 --> 01:09:59,600
+provando teoremas em aberto da
+
+1614
+01:09:56,600 --> 01:10:03,039
+matemática mas excitante né aquele
+
+1615
+01:09:59,600 --> 01:10:06,000
+negócio assim uau isso daí
+
+1616
+01:10:03,039 --> 01:10:08,399
+seria incrível se isso acontecesse eu
+
+1617
+01:10:06,000 --> 01:10:10,000
+acho que no no no futuro próximo é o quê
+
+1618
+01:10:08,399 --> 01:10:12,439
+se a gente tem assistente que ajuda a
+
+1619
+01:10:10,000 --> 01:10:14,238
+gente a programar mais eficiente que
+
+1620
+01:10:12,439 --> 01:10:16,079
+ajuda a ensinar a gente as bibliotecas
+
+1621
+01:10:14,238 --> 01:10:19,839
+ajuda a gente a Navegar outra outra área
+
+1622
+01:10:16,079 --> 01:10:21,559
+que a a ência artificial vai ajudar a a
+
+1623
+01:10:19,840 --> 01:10:23,719
+biblioteca de código hoje em dia são
+
+1624
+01:10:21,560 --> 01:10:26,480
+gigantescas que nem as de matemática são
+
+1625
+01:10:23,719 --> 01:10:29,800
+tem milhares e milhares de funções né
+
+1626
+01:10:26,479 --> 01:10:32,559
+achar alguma coisa lá dentro de forma
+
+1627
+01:10:29,800 --> 01:10:34,480
+efetiva é super útil ter inteligência
+
+1628
+01:10:32,560 --> 01:10:36,880
+artificial Para isso elas vão elas vão
+
+1629
+01:10:34,479 --> 01:10:38,759
+fazer completude de completar o código
+
+1630
+01:10:36,880 --> 01:10:40,719
+de forma mais eficiente pra gente
+
+1631
+01:10:38,760 --> 01:10:44,119
+sugerir fazer sugestões
+
+1632
+01:10:40,719 --> 01:10:46,760
+né o futuro eu queria estar aqui por
+
+1633
+01:10:44,119 --> 01:10:50,719
+mais uns 50 anos para ver isso
+
+1634
+01:10:46,760 --> 01:10:53,280
+tudo certo eu eu acho assim primeiro
+
+1635
+01:10:50,719 --> 01:10:54,520
+lugar a próxima pergunta é uma pergunta
+
+1636
+01:10:53,279 --> 01:10:56,479
+que a gente a gente sempre faz aqui só
+
+1637
+01:10:54,520 --> 01:10:58,880
+que a gente geralmente traz pessoas que
+
+1638
+01:10:56,479 --> 01:11:02,000
+são bem mais da engenharia de software
+
+1639
+01:10:58,880 --> 01:11:03,560
+né e a gente Pergunta algo que você acha
+
+1640
+01:11:02,000 --> 01:11:05,238
+que vai acontecer o que você gostaria
+
+1641
+01:11:03,560 --> 01:11:07,560
+que acontecesse na área de engenheiria
+
+1642
+01:11:05,238 --> 01:11:09,479
+de software mas aí talvez essa pergunta
+
+1643
+01:11:07,560 --> 01:11:11,440
+Você acabou respondendo várias vezes ao
+
+1644
+01:11:09,479 --> 01:11:13,519
+longo da entrevista então só queria
+
+1645
+01:11:11,439 --> 01:11:15,799
+saber se você tem alguma coisa para
+
+1646
+01:11:13,520 --> 01:11:17,800
+complementar de para você qual é a
+
+1647
+01:11:15,800 --> 01:11:19,400
+próxima fronteira da engenharia de
+
+1648
+01:11:17,800 --> 01:11:22,400
+software
+
+1649
+01:11:19,399 --> 01:11:24,079
+Ah para mim para mim eu seu lin
+
+1650
+01:11:22,399 --> 01:11:27,198
+linguagem de desv
+
+1651
+01:11:24,079 --> 01:11:29,119
+doento tipo Rust né que é tem adoção
+
+1652
+01:11:27,198 --> 01:11:31,799
+tipo do Rust né e as pessoas estão
+
+1653
+01:11:29,119 --> 01:11:34,559
+usando prova verificação você tem
+
+1654
+01:11:31,800 --> 01:11:36,480
+Inteligência Artificial as provas
+
+1655
+01:11:34,560 --> 01:11:38,840
+formais o sistema de desenvolvimento com
+
+1656
+01:11:36,479 --> 01:11:40,879
+a biblioteca que a Sofia tá querendo
+
+1657
+01:11:38,840 --> 01:11:44,000
+tudo isso junto de uma forma integrada e
+
+1658
+01:11:40,880 --> 01:11:47,039
+sendo usada na indústria transformando
+
+1659
+01:11:44,000 --> 01:11:49,439
+métodos formais e uma coisa que é hoje
+
+1660
+01:11:47,039 --> 01:11:51,560
+em dia é muito nicho né poucas empresas
+
+1661
+01:11:49,439 --> 01:11:54,158
+usam métodos formais você tem a Amazon
+
+1662
+01:11:51,560 --> 01:11:57,560
+que usa muito tem a Apple que usa muito
+
+1663
+01:11:54,158 --> 01:11:58,359
+tem algumas empresas de de de blockchain
+
+1664
+01:11:57,560 --> 01:12:01,239
+que
+
+1665
+01:11:58,359 --> 01:12:04,158
+tão tavam usando não sei se colapsou
+
+1666
+01:12:01,238 --> 01:12:07,559
+tudo mas eh eh eh tinha algumas empresas
+
+1667
+01:12:04,158 --> 01:12:10,479
+usando tem empresa empresa de aviação
+
+1668
+01:12:07,560 --> 01:12:14,480
+essas a NASA usou métodos formá com
+
+1669
+01:12:10,479 --> 01:12:16,559
+muitos anos ah rockwell Collins Ah tem
+
+1670
+01:12:14,479 --> 01:12:19,198
+essas empresas de aviação
+
+1671
+01:12:16,560 --> 01:12:22,760
+Ah mas é muito nicho hoje em dia né o
+
+1672
+01:12:19,198 --> 01:12:25,119
+pessoal de crypto usa seria ideal se
+
+1673
+01:12:22,760 --> 01:12:28,560
+isso daí fosse o o
+
+1674
+01:12:25,119 --> 01:12:29,439
+padrão daqu no futuro né então esse uma
+
+1675
+01:12:28,560 --> 01:12:31,520
+coisa que eu queria muito que
+
+1676
+01:12:29,439 --> 01:12:34,198
+acontecesse isso n for
+
+1677
+01:12:31,520 --> 01:12:36,159
+é é parte natural do mesmo jeito que
+
+1678
+01:12:34,198 --> 01:12:38,519
+antigamente quando eu era aluno botar
+
+1679
+01:12:36,158 --> 01:12:40,519
+acertiva no código não era mainstream né
+
+1680
+01:12:38,520 --> 01:12:42,239
+Não era todo mundo fazia hoje em dia
+
+1681
+01:12:40,520 --> 01:12:44,840
+todo mundo faz todo mundo faz unit
+
+1682
+01:12:42,238 --> 01:12:48,439
+testing hoje em dia né Eu queria que
+
+1683
+01:12:44,840 --> 01:12:51,639
+metform fossem mainstream no futuro né
+
+1684
+01:12:48,439 --> 01:12:54,879
+Eu espero que ten um futuro muito
+
+1685
+01:12:51,639 --> 01:12:57,359
+próximo muito bom então eu agradeço mais
+
+1686
+01:12:54,880 --> 01:12:59,480
+uma vez Leonardo por essa entrevista eu
+
+1687
+01:12:57,359 --> 01:13:01,679
+até digo pro pessoal quiser ver o
+
+1688
+01:12:59,479 --> 01:13:04,039
+Leonardo em Ação digamos assim tem um
+
+1689
+01:13:01,679 --> 01:13:06,880
+monte de palestra no no YouTube né Na
+
+1690
+01:13:04,039 --> 01:13:09,679
+sua página lá Tá bem organizadinha então
+
+1691
+01:13:06,880 --> 01:13:11,239
+tem tem bastante coisa lá mas eu
+
+1692
+01:13:09,679 --> 01:13:14,319
+agradeço e passo a palavra para você
+
+1693
+01:13:11,238 --> 01:13:16,198
+para você se despedir dos nossos nossas
+
+1694
+01:13:14,319 --> 01:13:18,759
+ouvintes
+
+1695
+01:13:16,198 --> 01:13:20,638
+Ah eu eu gostei de ver mais aplicações
+
+1696
+01:13:18,760 --> 01:13:24,320
+do lindo Brasil eu fiquei super feliz
+
+1697
+01:13:20,639 --> 01:13:26,279
+com a Sofia e da Gabi queria ver mais
+
+1698
+01:13:24,319 --> 01:13:28,319
+eu fiquei Decepcionado dia você postou
+
+1699
+01:13:26,279 --> 01:13:30,840
+lá no Twitter que o Roberto esqueceu o
+
+1700
+01:13:28,319 --> 01:13:33,679
+Roberto eu fui aluno dele ele esqueceu o
+
+1701
+01:13:30,840 --> 01:13:33,679
+nome do L
+
+1702
+01:13:34,319 --> 01:13:41,039
+pô pô eu queria ter mais impacto no
+
+1703
+01:13:38,158 --> 01:13:44,119
+Brasil o link ter mais impacto no Brasil
+
+1704
+01:13:41,039 --> 01:13:46,519
+a eu tenho colegas noo o
+
+1705
+01:13:44,119 --> 01:13:48,079
+Raniel é engraçado que a gente se
+
+1706
+01:13:46,520 --> 01:13:50,760
+conheceu quando eu tava na minha vida
+
+1707
+01:13:48,079 --> 01:13:54,119
+passada nos né Mas agora ele tem pessoas
+
+1708
+01:13:50,760 --> 01:13:55,480
+usando LM no grupo dele tem o r eu tenho
+
+1709
+01:13:54,119 --> 01:13:57,319
+alguns amigos
+
+1710
+01:13:55,479 --> 01:13:59,158
+meus
+
+1711
+01:13:57,319 --> 01:14:03,479
+Alexandre
+
+1712
+01:13:59,158 --> 01:14:06,599
+rmer Cristiano Braga que já usaram o l
+
+1713
+01:14:03,479 --> 01:14:09,439
+ou usam ainda mas é muito pouco no
+
+1714
+01:14:06,600 --> 01:14:11,760
+Brasil né eu tenho o Herman o Herman um
+
+1715
+01:14:09,439 --> 01:14:14,960
+aluno do Herman comentou que foi me
+
+1716
+01:14:11,760 --> 01:14:16,600
+coorientador também usa mas eu gostaria
+
+1717
+01:14:14,960 --> 01:14:17,439
+muito que tivesse mais gente usando ali
+
+1718
+01:14:16,600 --> 01:14:19,560
+no
+
+1719
+01:14:17,439 --> 01:14:22,279
+Brasil já que você falou do Roberto fo
+
+1720
+01:14:19,560 --> 01:14:26,840
+isso foi numa entrevista que ele deu num
+
+1721
+01:14:22,279 --> 01:14:30,759
+num num podcast recente lá da é é uma
+
+1722
+01:14:26,840 --> 01:14:33,159
+organização que que o foco é levar a
+
+1723
+01:14:30,760 --> 01:14:35,239
+computação para iniciantes né então eles
+
+1724
+01:14:33,158 --> 01:14:37,759
+eles TM uma aula por exemplo lá de de
+
+1725
+01:14:35,238 --> 01:14:39,399
+alir que eu acho que tem mais de 26.000
+
+1726
+01:14:37,760 --> 01:14:42,360
+visualizações no YouTube pior que eu
+
+1727
+01:14:39,399 --> 01:14:46,319
+esqueci agora qual qual o nome mas é ó
+
+1728
+01:14:42,359 --> 01:14:51,079
+tô tô igual Roberto esqueci mas é
+
+1729
+01:14:46,319 --> 01:14:52,519
+um cod School alguma coisa assim mas e o
+
+1730
+01:14:51,079 --> 01:14:56,679
+Roberto tá trabalhando com coque agora
+
+1731
+01:14:52,520 --> 01:14:58,600
+né é outra pô
+
+1732
+01:14:56,679 --> 01:15:01,079
+Roberto fala
+
+1733
+01:14:58,600 --> 01:15:03,079
+sério outra outra curiosidade outra
+
+1734
+01:15:01,079 --> 01:15:04,679
+curiosidade é quem com quem você acha
+
+1735
+01:15:03,079 --> 01:15:08,880
+que eu aprendi
+
+1736
+01:15:04,679 --> 01:15:11,880
+moan 30 anos atrás eu eu eu fiz uma tipo
+
+1737
+01:15:08,880 --> 01:15:14,279
+tipo uma minação científica com Roberto
+
+1738
+01:15:11,880 --> 01:15:15,840
+Ele que me deu um monte na época monad
+
+1739
+01:15:14,279 --> 01:15:17,039
+estava começando ele falou assim Ah toma
+
+1740
+01:15:15,840 --> 01:15:19,520
+esses P aí para você dar uma olhada
+
+1741
+01:15:17,039 --> 01:15:22,198
+vamos descutir esses papers fo o Roberto
+
+1742
+01:15:19,520 --> 01:15:24,800
+botando esse caminho de mon linguagem
+
+1743
+01:15:22,198 --> 01:15:27,439
+funcional foi há 30 anos
+
+1744
+01:15:24,800 --> 01:15:29,639
+atrás foi antes de lua e não tinha nem
+
+1745
+01:15:27,439 --> 01:15:32,279
+começado lua eu acho nessa época quando
+
+1746
+01:15:29,639 --> 01:15:34,000
+ó eu quando ele me deu esse negó que com
+
+1747
+01:15:32,279 --> 01:15:35,759
+com a internet a gente acaba ficando com
+
+1748
+01:15:34,000 --> 01:15:38,079
+com a memória ruim eu lembrei agora do
+
+1749
+01:15:35,760 --> 01:15:40,440
+nome do podcast é free code Camp mas é o
+
+1750
+01:15:38,079 --> 01:15:42,359
+free code camp em português né nield da
+
+1751
+01:15:40,439 --> 01:15:45,439
+Carla entrevistadora ficou muito boa
+
+1752
+01:15:42,359 --> 01:15:47,759
+essa entrevista eu já falo aqui vou
+
+1753
+01:15:45,439 --> 01:15:51,759
+falar em público mas eu realmente eu não
+
+1754
+01:15:47,760 --> 01:15:53,560
+tenho grande interferência nisso em 2024
+
+1755
+01:15:51,760 --> 01:15:56,079
+vai acontecer aqui em Curitiba o
+
+1756
+01:15:53,560 --> 01:15:57,360
+Congresso Brasileiro de software e
+
+1757
+01:15:56,079 --> 01:15:58,960
+dentro do Congresso Brasileiro de
+
+1758
+01:15:57,359 --> 01:16:01,479
+software tem um simpósio brasileiro de
+
+1759
+01:15:58,960 --> 01:16:02,880
+linguagem de programação eu não faço
+
+1760
+01:16:01,479 --> 01:16:05,000
+parte da comunidade de pesquisa
+
+1761
+01:16:02,880 --> 01:16:08,000
+linguagem de programação eu tô lá na na
+
+1762
+01:16:05,000 --> 01:16:10,600
+lista deles mas não realmente não nunca
+
+1763
+01:16:08,000 --> 01:16:12,439
+publiquei nada assim mas eu Eu até
+
+1764
+01:16:10,600 --> 01:16:14,760
+comentei com o professor Francisco Eron
+
+1765
+01:16:12,439 --> 01:16:16,919
+lá Federal do Ceará P seria eu acho que
+
+1766
+01:16:14,760 --> 01:16:20,320
+ele que deu uma ideia aí eu disse ah eu
+
+1767
+01:16:16,920 --> 01:16:24,319
+complementei seria legal ter aqui em
+
+1768
+01:16:20,319 --> 01:16:26,759
+Curitiba ano que vem você o Val e o
+
+1769
+01:16:24,319 --> 01:16:28,920
+Roberto né Talvez os colegas é que o
+
+1770
+01:16:26,760 --> 01:16:31,360
+Roberto aparece mais na nas questões de
+
+1771
+01:16:28,920 --> 01:16:33,079
+Lua né aí seriam os três criadores de
+
+1772
+01:16:31,359 --> 01:16:35,079
+linguagens assim que são usadas no mundo
+
+1773
+01:16:33,079 --> 01:16:38,119
+todo no no simpósio para linguagem de
+
+1774
+01:16:35,079 --> 01:16:40,279
+programação o Valim já esteve uma vez o
+
+1775
+01:16:38,119 --> 01:16:42,840
+O Roberto tá sempre lá porque o Roberto
+
+1776
+01:16:40,279 --> 01:16:45,719
+é professor né seria legal ter ter você
+
+1777
+01:16:42,840 --> 01:16:47,520
+também lancei a ideia aí ia ser legal eu
+
+1778
+01:16:45,719 --> 01:16:49,439
+eu não vejo Roberto H uns 10 anos a
+
+1779
+01:16:47,520 --> 01:16:52,080
+última vez que eu vi foi no aniversário
+
+1780
+01:16:49,439 --> 01:16:56,000
+do Herman o
+
+1781
+01:16:52,079 --> 01:16:57,800
+Roberto mais de 10 anos atrás é eu eu
+
+1782
+01:16:56,000 --> 01:16:59,719
+realmente eu eu acho que eu devo ter
+
+1783
+01:16:57,800 --> 01:17:02,279
+visto ele em algum evento Não tenho
+
+1784
+01:16:59,719 --> 01:17:04,119
+certeza mas eu o último contato que eu
+
+1785
+01:17:02,279 --> 01:17:06,800
+tive assim indiretamente com ele é que
+
+1786
+01:17:04,119 --> 01:17:09,760
+ele tem aquele livro programing Lua né e
+
+1787
+01:17:06,800 --> 01:17:12,119
+ele foi feito numa daquelas editoras que
+
+1788
+01:17:09,760 --> 01:17:14,000
+imprimem sob demanda alguma coisa assim
+
+1789
+01:17:12,119 --> 01:17:16,519
+mas eles imprimiram bastante Sobrou um
+
+1790
+01:17:14,000 --> 01:17:20,238
+pouco né claro eh livro sempre sobra um
+
+1791
+01:17:16,520 --> 01:17:21,719
+pouco e aí eu a Valéria de Paiva né que
+
+1792
+01:17:20,238 --> 01:17:23,678
+não sei se você conhece também é egressa
+
+1793
+01:17:21,719 --> 01:17:25,880
+lá da P conheço cono
+
+1794
+01:17:23,679 --> 01:17:28,239
+ela me deu uns quatro exemplares lá do
+
+1795
+01:17:25,880 --> 01:17:29,480
+do programming lua que é é um livro que
+
+1796
+01:17:28,238 --> 01:17:33,879
+ensina
+
+1797
+01:17:29,479 --> 01:17:36,079
+lua então eu ah antes também tem um
+
+1798
+01:17:33,880 --> 01:17:38,639
+material muito bom né functional
+
+1799
+01:17:36,079 --> 01:17:41,559
+programming with link lá no site não é
+
+1800
+01:17:38,639 --> 01:17:43,480
+um livro mas é é um material ótimo é tem
+
+1801
+01:17:41,560 --> 01:17:45,840
+a consistência de um livro mas tá lá na
+
+1802
+01:17:43,479 --> 01:17:46,718
+na página Então eu vou deixar também na
+
+1803
+01:17:45,840 --> 01:17:49,239
+na
+
+1804
+01:17:46,719 --> 01:17:51,439
+descrição então eu V ter mais vão ter
+
+1805
+01:17:49,238 --> 01:17:51,439
+mais
+
+1806
+01:17:52,000 --> 01:17:57,560
+livros ade também aqui no Brasil tem uma
+
+1807
+01:17:54,880 --> 01:18:00,400
+editora que é bem focada em em livros de
+
+1808
+01:17:57,560 --> 01:18:01,960
+programação chamada casa do código eles
+
+1809
+01:18:00,399 --> 01:18:03,759
+não nos patrocino mas se quiserem
+
+1810
+01:18:01,960 --> 01:18:06,319
+Patrocinar também a gente entrevistou
+
+1811
+01:18:03,760 --> 01:18:08,639
+até um autor de livro deles recentemente
+
+1812
+01:18:06,319 --> 01:18:10,599
+Ó quem sabe alguém escreve um livro
+
+1813
+01:18:08,639 --> 01:18:12,600
+sobre limpa casa do código e é legal
+
+1814
+01:18:10,600 --> 01:18:14,280
+porque assim os livros deles são
+
+1815
+01:18:12,600 --> 01:18:16,280
+digitais né tem a versão impressa mas
+
+1816
+01:18:14,279 --> 01:18:18,238
+tem digital e também é meio que impresso
+
+1817
+01:18:16,279 --> 01:18:20,399
+sobre demanda então atualizou o link
+
+1818
+01:18:18,238 --> 01:18:22,119
+pode fazer uma nova versão e a pessoa
+
+1819
+01:18:20,399 --> 01:18:23,519
+recebe uma versão mais atualizada Ah
+
+1820
+01:18:22,119 --> 01:18:26,559
+legal legal
+
+1821
+01:18:23,520 --> 01:18:31,520
+então eu eu é eu adoraria que alguém
+
+1822
+01:18:26,560 --> 01:18:35,480
+fizesse isso P ficaria muito feliz eu
+
+1823
+01:18:31,520 --> 01:18:37,639
+fecho o episódio agradecendo a você aos
+
+1824
+01:18:35,479 --> 01:18:39,839
+nossos e nossas ouvintes e eu digo a
+
+1825
+01:18:37,639 --> 01:18:41,639
+todo mundo até o próximo episódio do
+
+1826
+01:18:39,840 --> 01:18:44,639
+fronteiras de engenheria de
+
+1827
+01:18:41,639 --> 01:18:44,639
+software

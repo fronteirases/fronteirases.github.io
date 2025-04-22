@@ -1,0 +1,6535 @@
+1
+00:00:00,000 --> 00:00:02,000
+e
+
+2
+00:00:04,400 --> 00:00:09,960
+isso é o podcast Fronteiras da
+
+3
+00:00:07,440 --> 00:00:12,300
+engenharia de software o podcast para
+
+4
+00:00:09,960 --> 00:00:14,759
+refletir sobre o presente e o futuro da
+
+5
+00:00:12,300 --> 00:00:17,278
+nossa área este podcast tem o apoio da
+
+6
+00:00:14,759 --> 00:00:19,969
+zup innovation empresa que cria
+
+7
+00:00:17,278 --> 00:00:23,969
+tecnologia impulsiona o crescimento
+
+8
+00:00:19,969 --> 00:00:23,969
+exponencial da
+
+9
+00:00:24,589 --> 00:00:28,730
+e
+
+10
+00:00:26,079 --> 00:00:31,129
+hoje no Fronteiras da engenharia de
+
+11
+00:00:28,730 --> 00:00:35,239
+software vamos conversar com awdren
+
+12
+00:00:31,129 --> 00:00:37,640
+fontão professor da UFV MS Universidade
+
+13
+00:00:35,238 --> 00:00:41,558
+Federal do Mato Grosso do Sul o tema do
+
+14
+00:00:37,640 --> 00:00:44,480
+episódio do Ceará deve réu ou de verão
+
+15
+00:00:41,558 --> 00:00:45,619
+tudo bem ordem Audrey você pode se
+
+16
+00:00:44,479 --> 00:00:48,789
+apresentar para as pessoas que nos
+
+17
+00:00:45,619 --> 00:00:51,799
+escutam Oi pessoal primeira bastante
+
+18
+00:00:48,789 --> 00:00:55,250
+agradecer a vocês pelo com a população
+
+19
+00:00:51,799 --> 00:00:56,769
+de Belo é o e eu só vende de uma função
+
+20
+00:00:55,250 --> 00:01:00,320
+uso mais largo então
+
+21
+00:00:56,770 --> 00:01:02,090
+eu sou Curumim de Manaus muito orgulho e
+
+22
+00:01:00,320 --> 00:01:03,890
+também sou torcedor do agressiva é
+
+23
+00:01:02,090 --> 00:01:06,140
+aquele parente está correndo está está
+
+24
+00:01:03,890 --> 00:01:08,390
+lá eu fiz a graduação em Ciência da
+
+25
+00:01:06,140 --> 00:01:11,509
+Computação ou mais rápido para atingir
+
+26
+00:01:08,390 --> 00:01:14,540
+esse profissional fã no encontro ao
+
+27
+00:01:11,509 --> 00:01:17,269
+coração pelas o nortista e há dois anos
+
+28
+00:01:14,540 --> 00:01:18,950
+eu viro centro-oeste todos estão a
+
+29
+00:01:17,269 --> 00:01:22,609
+faculdade de computação da Universidade
+
+30
+00:01:18,950 --> 00:01:27,900
+Federal de Mato Grosso do Sul de Mato
+
+31
+00:01:22,609 --> 00:01:31,200
+Grosso né Eu já peguei em algum é moldes
+
+32
+00:01:27,900 --> 00:01:33,118
+daqui da região de água Cisper é gosta
+
+33
+00:01:31,200 --> 00:01:35,549
+do pôr do sol da cidade morrendo E como
+
+34
+00:01:33,118 --> 00:01:39,299
+estão Campo Grande centro para skalma
+
+35
+00:01:35,549 --> 00:01:42,030
+pela sorteios White balance animais da
+
+36
+00:01:39,299 --> 00:01:43,950
+minha geração EA dissertação de Mestrado
+
+37
+00:01:42,030 --> 00:01:47,118
+foi nada de ecossistema de solta eu acho
+
+38
+00:01:43,950 --> 00:01:49,590
+uma eu investigar alguma questão de
+
+39
+00:01:47,118 --> 00:01:52,530
+processos aplicados a certificação de
+
+40
+00:01:49,590 --> 00:01:54,780
+aplicações de treinamentos que eram mais
+
+41
+00:01:52,530 --> 00:01:57,960
+rápidos é uma duração mais rápido a
+
+42
+00:01:54,780 --> 00:02:00,420
+questão Um peixe que serve E aí a minha
+
+43
+00:01:57,959 --> 00:02:02,038
+tese de doutorado já foi na área de
+
+44
+00:02:00,420 --> 00:02:04,259
+relação as conversas com pessoas Sudeste
+
+45
+00:02:02,039 --> 00:02:06,960
+com ela e por isso ele falou por lei eu
+
+46
+00:02:04,259 --> 00:02:09,419
+trabalhei nessa área principalmente como
+
+47
+00:02:06,959 --> 00:02:12,689
+Evangelista de desenvolvedores nas novas
+
+48
+00:02:09,419 --> 00:02:14,488
+tecnologias a época como compra nas
+
+49
+00:02:12,689 --> 00:02:16,639
+unidades positivo irmão vez pela
+
+50
+00:02:14,489 --> 00:02:20,930
+Microsoft eu acabei entrando para
+
+51
+00:02:16,639 --> 00:02:22,919
+formalidade réu ao Windows Phone na
+
+52
+00:02:20,930 --> 00:02:24,610
+Microsoft e eles problemas ficar
+
+53
+00:02:22,919 --> 00:02:26,769
+identifiquei as
+
+54
+00:02:24,610 --> 00:02:29,680
+eu disse que vai para fazer o mestrado
+
+55
+00:02:26,770 --> 00:02:32,020
+eo doutorado eu fico à disposição de
+
+56
+00:02:29,680 --> 00:02:34,780
+vocês que a gente bater se fala sobre
+
+57
+00:02:32,020 --> 00:02:37,990
+aquela noite padrinho começando do
+
+58
+00:02:34,780 --> 00:02:40,000
+princípio o que que deve réu Ingrid
+
+59
+00:02:37,990 --> 00:02:43,469
+primeiro obrigado pela pergunta aí de
+
+60
+00:02:40,000 --> 00:02:45,969
+mais de um milhão de reais ou dólares
+
+61
+00:02:43,469 --> 00:02:47,620
+eu vou começar com o cenário para ajudar
+
+62
+00:02:45,969 --> 00:02:49,539
+no entendimento desse conceito tá
+
+63
+00:02:47,620 --> 00:02:51,640
+imagina que você faz parte mobilização
+
+64
+00:02:49,539 --> 00:02:53,439
+você pode ser diretora dessa rização e
+
+65
+00:02:51,639 --> 00:02:56,109
+tem uma plataforma de solta que já está
+
+66
+00:02:53,439 --> 00:02:58,090
+sendo utilizada e você percebe que não
+
+67
+00:02:56,110 --> 00:02:59,950
+consigo esse de negócios ela tem um
+
+68
+00:02:58,090 --> 00:03:02,229
+potencial enorme de gerar contribuições
+
+69
+00:02:59,949 --> 00:03:04,629
+em torno dela Claro e potencializar sua
+
+70
+00:03:02,229 --> 00:03:07,119
+competitividade essas contribuições em
+
+71
+00:03:04,629 --> 00:03:09,789
+torno sua plataforma de software elas
+
+72
+00:03:07,120 --> 00:03:12,340
+ajudariam expõe dessa plataforma e
+
+73
+00:03:09,789 --> 00:03:14,049
+gerarem oportunidades de negócio e valor
+
+74
+00:03:12,340 --> 00:03:15,849
+para os stakeholders e usuários que
+
+75
+00:03:14,050 --> 00:03:19,140
+demandam soluções a partir da plataforma
+
+76
+00:03:15,849 --> 00:03:23,349
+o exemplo clássico plataforma Android
+
+77
+00:03:19,139 --> 00:03:25,759
+IOS Amazon WS e onde eu gosto de trazer
+
+78
+00:03:23,349 --> 00:03:27,859
+fora desse cenário de é mas é o próprio
+
+79
+00:03:25,759 --> 00:03:29,329
+com a bunda então para quem dá aula de
+
+80
+00:03:27,860 --> 00:03:31,550
+mandar esse processo de negócio aquela
+
+81
+00:03:29,330 --> 00:03:34,940
+plataforma que tem a modelagem de
+
+82
+00:03:31,550 --> 00:03:37,010
+workflow né para BPMN essas organizações
+
+83
+00:03:34,939 --> 00:03:39,829
+sozinha Só se não conseguem atender a
+
+84
+00:03:37,009 --> 00:03:42,139
+demanda de pessoas desenvolvedor aí e de
+
+85
+00:03:39,830 --> 00:03:43,430
+usuários então quantas pessoas
+
+86
+00:03:42,139 --> 00:03:45,649
+desenvolvedores o que eu falo e de
+
+87
+00:03:43,430 --> 00:03:47,330
+demanda é recurso técnico para que elas
+
+88
+00:03:45,650 --> 00:03:50,150
+possam desenvolver e evoluir
+
+89
+00:03:47,330 --> 00:03:53,299
+contribuições técnicas ou não técnicas
+
+90
+00:03:50,150 --> 00:03:57,409
+como o vídeo de hoje é postagens em
+
+91
+00:03:53,299 --> 00:03:59,209
+blogs e para usuários finais entre "são
+
+92
+00:03:57,409 --> 00:04:00,650
+os produtos gerados a partir dessas
+
+93
+00:03:59,209 --> 00:04:02,420
+contribuições dessas pessoas
+
+94
+00:04:00,650 --> 00:04:04,310
+desenvolvedores e eu quê que acontece
+
+95
+00:04:02,419 --> 00:04:06,979
+uma organização você vai tentar abrir
+
+96
+00:04:04,310 --> 00:04:08,959
+estrutura para que comunidades externas
+
+97
+00:04:06,979 --> 00:04:11,479
+a estrutura ali da sua organização
+
+98
+00:04:08,959 --> 00:04:13,909
+estrutura interna forma e comunidades
+
+99
+00:04:11,479 --> 00:04:16,399
+especializadas por com comunidades
+
+100
+00:04:13,909 --> 00:04:18,350
+especializadas você consegue dar espaço
+
+101
+00:04:16,399 --> 00:04:19,879
+para abertura da plataforma essas
+
+102
+00:04:18,350 --> 00:04:21,950
+comunidades elas precisam compartilhar
+
+103
+00:04:19,879 --> 00:04:23,779
+de um ambiente mais infraestrutura em
+
+104
+00:04:21,949 --> 00:04:26,279
+torno da sua plataforma e elas vão
+
+105
+00:04:23,779 --> 00:04:28,049
+começar a colaborar e na engenharia de
+
+106
+00:04:26,279 --> 00:04:29,759
+software a gente avesso dando como
+
+107
+00:04:28,050 --> 00:04:32,310
+ecossistema então aquele conceito de
+
+108
+00:04:29,759 --> 00:04:35,009
+comunidade secar Agile operando em um
+
+109
+00:04:32,310 --> 00:04:37,680
+ambiente hoje bem mas como que você
+
+110
+00:04:35,009 --> 00:04:39,659
+abrir estrutura EA organizações hoje
+
+111
+00:04:37,680 --> 00:04:41,730
+ficarem começar a interagir com
+
+112
+00:04:39,660 --> 00:04:43,890
+desenvolvedores em uma perspectiva de
+
+113
+00:04:41,730 --> 00:04:46,800
+relação esse perigo você tem que ter um
+
+114
+00:04:43,889 --> 00:04:49,620
+produto para desenvolvedor E aí pode ser
+
+115
+00:04:46,800 --> 00:04:52,050
+uma p e uma ferramenta Algum serviço S
+
+116
+00:04:49,620 --> 00:04:54,540
+de cais e aqui é importante guardar esse
+
+117
+00:04:52,050 --> 00:04:56,550
+pouco possuir um produto para
+
+118
+00:04:54,540 --> 00:04:59,580
+desenvolvedores E aí só tá tudo
+
+119
+00:04:56,550 --> 00:05:03,270
+resolvido já tenho o produto e pronto eu
+
+120
+00:04:59,579 --> 00:05:05,459
+já tenho deve réu não é a produtos e
+
+121
+00:05:03,269 --> 00:05:07,049
+todo mundo a gente se questiona se a
+
+122
+00:05:05,459 --> 00:05:09,149
+produtos e todo mundo vai contribuir
+
+123
+00:05:07,050 --> 00:05:11,189
+para ser produtivo gerar vários nichos
+
+124
+00:05:09,149 --> 00:05:13,709
+sustentar comunidades e consequente
+
+125
+00:05:11,189 --> 00:05:15,629
+ecossistema isso não é simples você não
+
+126
+00:05:13,709 --> 00:05:18,359
+coloca um produto e todo mundo começar a
+
+127
+00:05:15,629 --> 00:05:21,170
+usar e geral contribuições com qualidade
+
+128
+00:05:18,360 --> 00:05:22,800
+e você Ingrid possui objetivos
+
+129
+00:05:21,170 --> 00:05:24,960
+estratégicos você não quer
+
+130
+00:05:22,800 --> 00:05:27,819
+disponibilizar algo e abrir essa cor nós
+
+131
+00:05:24,959 --> 00:05:30,818
+somos por aí você tem o objetivo de
+
+132
+00:05:27,819 --> 00:05:32,669
+estratégia e precisa ser atingido e as
+
+133
+00:05:30,819 --> 00:05:34,658
+pessoas desenvolvedores possuem
+
+134
+00:05:32,668 --> 00:05:38,348
+expectativas uma jornada de experiências
+
+135
+00:05:34,658 --> 00:05:39,839
+alegrias frustrações necessidades e aqui
+
+136
+00:05:38,348 --> 00:05:43,418
+um pouco que a gente precisa estabelecer
+
+137
+00:05:39,839 --> 00:05:45,399
+nesse caos digamos assim essa energia é
+
+138
+00:05:43,418 --> 00:05:48,279
+como eu que livro Os meus objetivos
+
+139
+00:05:45,399 --> 00:05:51,908
+organizacionais com essas experiências E
+
+140
+00:05:48,279 --> 00:05:53,288
+aí experiência a equilibrar essa
+
+141
+00:05:51,908 --> 00:05:55,779
+experiência objetivo gente precisa de
+
+142
+00:05:53,288 --> 00:05:57,968
+relacionar interagir e conectar e por
+
+143
+00:05:55,779 --> 00:05:59,769
+isso surge a área uma área
+
+144
+00:05:57,968 --> 00:06:02,949
+organizacional chamada de deve ela por
+
+145
+00:05:59,769 --> 00:06:05,049
+lei ou de Réu que é uma estratégia para
+
+146
+00:06:02,949 --> 00:06:07,569
+apoiar essa capacidade do ecossistema de
+
+147
+00:06:05,050 --> 00:06:09,759
+manter essas comunidades durante o tempo
+
+148
+00:06:07,569 --> 00:06:12,310
+e sobreviver também a qualquer possível
+
+149
+00:06:09,759 --> 00:06:14,110
+Cultura né que tá ligado a robustez ou
+
+150
+00:06:12,310 --> 00:06:16,418
+Qualquer mudança então a gente pode
+
+151
+00:06:14,110 --> 00:06:18,460
+entender deve réu como uma área que
+
+152
+00:06:16,418 --> 00:06:20,978
+estabelece relações entre as comunidades
+
+153
+00:06:18,459 --> 00:06:23,198
+de desenvolvedores e a organização em
+
+154
+00:06:20,978 --> 00:06:25,849
+torno de produtos de solta Então você
+
+155
+00:06:23,199 --> 00:06:27,860
+tem que ter um produto E aí é bem assim
+
+156
+00:06:25,850 --> 00:06:29,480
+tudo aqui que poderiam sei E para isso
+
+157
+00:06:27,860 --> 00:06:31,639
+ela envolver tá envolve um conjunto de
+
+158
+00:06:29,480 --> 00:06:34,129
+instrumento para criar nutrir essa
+
+159
+00:06:31,639 --> 00:06:36,169
+comunidade em torno da sua plataforma e
+
+160
+00:06:34,129 --> 00:06:37,430
+isso é uma tarefa altamente crítica
+
+161
+00:06:36,170 --> 00:06:40,340
+porque a gente tá com uma de interação
+
+162
+00:06:37,430 --> 00:06:42,590
+de comunidade e tem que ser confiável
+
+163
+00:06:40,339 --> 00:06:44,539
+com a tua organização e Vale deixar
+
+164
+00:06:42,589 --> 00:06:46,909
+claro precisar de produto e não se
+
+165
+00:06:44,540 --> 00:06:49,910
+limita a enviar e-mail comercial para
+
+166
+00:06:46,910 --> 00:06:52,790
+vender um produto isso não é ruim Claro
+
+167
+00:06:49,910 --> 00:06:54,740
+faz parte da atividade mais só isso é
+
+168
+00:06:52,790 --> 00:06:56,450
+marketing e a gente não tá falando de
+
+169
+00:06:54,740 --> 00:06:59,269
+Marketing e porquê deve ela é mais
+
+170
+00:06:56,449 --> 00:07:01,339
+abrangente e envolve sensibilizar atrair
+
+171
+00:06:59,269 --> 00:07:03,949
+permite sentado um gordinho de net
+
+172
+00:07:01,339 --> 00:07:05,899
+Barretos e reconhecer e fazer com que
+
+173
+00:07:03,949 --> 00:07:08,750
+você torne pessoas a convidar de
+
+174
+00:07:05,899 --> 00:07:10,789
+referência Que bom atuar como braços da
+
+175
+00:07:08,750 --> 00:07:13,250
+sua organização em torno de algo que
+
+176
+00:07:10,790 --> 00:07:16,400
+seja tangível para eles só para vocês
+
+177
+00:07:13,250 --> 00:07:18,620
+terem uma noção que a gente buscar é
+
+178
+00:07:16,399 --> 00:07:20,509
+recentemente no Linkedin vagas e deve lá
+
+179
+00:07:18,620 --> 00:07:23,360
+por Leite vocês vão tem mais de duas mil
+
+180
+00:07:20,509 --> 00:07:25,379
+vagas abertas nem realmente para
+
+181
+00:07:23,360 --> 00:07:26,490
+profissionais de dela para é e quais
+
+182
+00:07:25,379 --> 00:07:28,949
+seriam os exemplos de algumas das
+
+183
+00:07:26,490 --> 00:07:31,290
+atividades desses profissionais o Rafa
+
+184
+00:07:28,949 --> 00:07:33,089
+Tom programas de reconhecimento de
+
+185
+00:07:31,290 --> 00:07:37,560
+desenvolvedores como o Google Express
+
+186
+00:07:33,089 --> 00:07:39,689
+Microsoft MPC Amazon Heroes produção de
+
+187
+00:07:37,560 --> 00:07:42,230
+conteúdo técnico tutoriais vídeos e
+
+188
+00:07:39,689 --> 00:07:45,360
+sempre kójico e suporte essas pessoas
+
+189
+00:07:42,230 --> 00:07:47,400
+organização de eventos e palestras E aí
+
+190
+00:07:45,360 --> 00:07:49,949
+tem alguns papéis profissional
+
+191
+00:07:47,399 --> 00:07:51,419
+Evangelista vai no correio o engenheiro
+
+192
+00:07:49,949 --> 00:07:53,729
+te dar valor para Xperia E se o
+
+193
+00:07:51,420 --> 00:07:57,740
+marketing de 10 e o escritor técnica
+
+194
+00:07:53,730 --> 00:08:01,410
+então deixa a versão entende então é
+
+195
+00:07:57,740 --> 00:08:04,370
+exceção empresas que possuem um produto
+
+196
+00:08:01,410 --> 00:08:07,560
+que o jogo usuários finais sejam
+
+197
+00:08:04,370 --> 00:08:11,870
+desenvolvedores e o que a empresa as
+
+198
+00:08:07,560 --> 00:08:14,370
+empresas querem fazer é a recrutar
+
+199
+00:08:11,870 --> 00:08:18,899
+desenvolvedores para contribuírem
+
+200
+00:08:14,370 --> 00:08:21,620
+espontaneamente né não como como como
+
+201
+00:08:18,899 --> 00:08:25,568
+funcionários mas como contribuidores
+
+202
+00:08:21,620 --> 00:08:28,538
+de projetos o consórcio e para esse
+
+203
+00:08:25,569 --> 00:08:30,848
+produto é isso isso pode Não somente
+
+204
+00:08:28,538 --> 00:08:33,098
+Open stance mas pode ser uma plataforma
+
+205
+00:08:30,848 --> 00:08:35,968
+proprietária pode ser uma plataforma
+
+206
+00:08:33,099 --> 00:08:38,289
+híbrida como são as plataformas móveis
+
+207
+00:08:35,969 --> 00:08:40,329
+naquilo que uma estratégia de uma loja
+
+208
+00:08:38,288 --> 00:08:43,000
+de apps por exemplo é proprietário mas o
+
+209
+00:08:40,328 --> 00:08:45,009
+seu dever de repositórios community Hub
+
+210
+00:08:43,000 --> 00:08:47,769
+para conseguir com que vocês vão
+
+211
+00:08:45,009 --> 00:08:50,789
+credores utilizem seus conteúdos Então
+
+212
+00:08:47,769 --> 00:08:52,839
+esse fazer essa atração retenção e
+
+213
+00:08:50,789 --> 00:08:55,000
+reconhecimento de desenvolvedores em
+
+214
+00:08:52,839 --> 00:08:57,310
+torno de seus produtos e aí com isso
+
+215
+00:08:55,000 --> 00:08:59,230
+elas conseguem gerar expansão da
+
+216
+00:08:57,309 --> 00:09:00,419
+plataforma com qualidade Então essa
+
+217
+00:08:59,230 --> 00:09:03,970
+série A
+
+218
+00:09:00,419 --> 00:09:05,309
+catástrofe palhador sem remuneração ou
+
+219
+00:09:03,970 --> 00:09:09,160
+perguntar
+
+220
+00:09:05,309 --> 00:09:11,469
+pergunta tempo né não é sem remuneração
+
+221
+00:09:09,159 --> 00:09:13,088
+porta a gente pode até conversar mais à
+
+222
+00:09:11,470 --> 00:09:15,399
+frente porque é um top porque tem
+
+223
+00:09:13,089 --> 00:09:17,350
+questão do valor então o que deve réu
+
+224
+00:09:15,399 --> 00:09:20,379
+procura é conseguir quando eu falei da
+
+225
+00:09:17,350 --> 00:09:22,450
+sinergia em expectativas das pessoas
+
+226
+00:09:20,379 --> 00:09:23,980
+desenvolvedora cê alinhamento com os
+
+227
+00:09:22,450 --> 00:09:26,500
+objetivos organizacionais você como
+
+228
+00:09:23,980 --> 00:09:29,120
+diretor ainda a organização que quer
+
+229
+00:09:26,500 --> 00:09:31,789
+aplicar o Mary Ann Esse é o marido deve
+
+230
+00:09:29,120 --> 00:09:34,460
+réu é que tem uma perspectiva de valor
+
+231
+00:09:31,789 --> 00:09:37,250
+que não é só monetário porque eu posso
+
+232
+00:09:34,460 --> 00:09:39,769
+também é ao desenvolver uma aplicação
+
+233
+00:09:37,250 --> 00:09:41,450
+Android eu posso adquirir conhecimento
+
+234
+00:09:39,769 --> 00:09:43,039
+que vai aumentar miCoach cólica uma vaga
+
+235
+00:09:41,450 --> 00:09:45,470
+de emprego e não necessariamente nessa
+
+236
+00:09:43,039 --> 00:09:48,230
+organização eu posso ser sucesso com a
+
+237
+00:09:45,470 --> 00:09:51,410
+minha publicação e aí eu tenho minha
+
+238
+00:09:48,230 --> 00:09:53,450
+própria Startup gerar vi um negócio meu
+
+239
+00:09:51,409 --> 00:09:55,459
+mas eu não sou profissional eu não sou
+
+240
+00:09:53,450 --> 00:09:57,470
+funcionário da Google mais claro isso
+
+241
+00:09:55,460 --> 00:09:59,000
+vai favorecer eu ecossistema da Google e
+
+242
+00:09:57,470 --> 00:10:01,820
+vai favorecer também a minha perspectiva
+
+243
+00:09:59,000 --> 00:10:04,279
+de valor que eu espero então eu posso
+
+244
+00:10:01,820 --> 00:10:05,870
+ser reconhecido referência e me tornar
+
+245
+00:10:04,279 --> 00:10:08,509
+funcionário da empresa numa pessoa
+
+246
+00:10:05,870 --> 00:10:10,580
+também de recrutamento pode acontecer é
+
+247
+00:10:08,509 --> 00:10:11,870
+um estágio mais avançado né dessa eu te
+
+248
+00:10:10,580 --> 00:10:13,970
+conheço alguém que é muito importante da
+
+249
+00:10:11,870 --> 00:10:16,370
+comunidade de trazer para dentro mas não
+
+250
+00:10:13,970 --> 00:10:18,830
+necessariamente só isso então outra
+
+251
+00:10:16,370 --> 00:10:21,080
+pergunta que como você já viu o nome
+
+252
+00:10:18,830 --> 00:10:24,600
+significa relações com desenvolvedores
+
+253
+00:10:21,080 --> 00:10:27,000
+né que é fiel mas por que somente
+
+254
+00:10:24,600 --> 00:10:29,310
+o porquê que o termo não inclui a
+
+255
+00:10:27,000 --> 00:10:31,230
+primeira a primeira coisa que me vem à
+
+256
+00:10:29,309 --> 00:10:33,448
+cabeça minha questão do da linguagem
+
+257
+00:10:31,230 --> 00:10:36,420
+inclusiva não devia desenvolvedores
+
+258
+00:10:33,448 --> 00:10:38,008
+nascem pessoas desenvolvedora mas é sabe
+
+259
+00:10:36,419 --> 00:10:39,659
+que desenvolvedores é uma palavra que
+
+260
+00:10:38,009 --> 00:10:42,509
+termina com então é menos problemática
+
+261
+00:10:39,659 --> 00:10:45,360
+Talvez mas E por que não inclui também
+
+262
+00:10:42,509 --> 00:10:48,060
+outros papéis como o pessoal testador
+
+263
+00:10:45,360 --> 00:10:50,430
+pode fazer devops etc essa é uma
+
+264
+00:10:48,059 --> 00:10:52,138
+pergunta para intrigantes até e algo que
+
+265
+00:10:50,429 --> 00:10:55,318
+eu venho pensando mais nesse ano e
+
+266
+00:10:52,139 --> 00:10:56,579
+refletindo é que a sua mente daquela por
+
+267
+00:10:55,318 --> 00:10:58,948
+letras que envolvem pessoas que
+
+268
+00:10:56,578 --> 00:11:01,439
+prestadores designer enfim outros tipos
+
+269
+00:10:58,948 --> 00:11:03,419
+de papéis estão também envolvidas para
+
+270
+00:11:01,440 --> 00:11:06,180
+presente deixar a 14 metros são equipes
+
+271
+00:11:03,419 --> 00:11:08,969
+mais misturadas em perfis e consomem
+
+272
+00:11:06,179 --> 00:11:11,338
+realmente esses produtos e o produzem
+
+273
+00:11:08,970 --> 00:11:14,129
+também em torno das plataformas só que
+
+274
+00:11:11,339 --> 00:11:16,680
+no momento na indústria de Pesquisas
+
+275
+00:11:14,129 --> 00:11:20,429
+existentes tratam as pessoas dentro da
+
+276
+00:11:16,679 --> 00:11:23,458
+mesma ação né tipo como pessoas em torno
+
+277
+00:11:20,429 --> 00:11:26,409
+do desenvolvimento na inclusive vale uma
+
+278
+00:11:23,458 --> 00:11:29,439
+reflexão em si o termo tem que ser mesmo
+
+279
+00:11:26,409 --> 00:11:31,569
+daquela por Leite futuramente ou ao mas
+
+280
+00:11:29,440 --> 00:11:33,519
+se comigo e tirou as chances Não sei
+
+281
+00:11:31,570 --> 00:11:36,010
+ainda algo para gente refletir só que
+
+282
+00:11:33,519 --> 00:11:38,919
+realmente hoje o volume de produtos
+
+283
+00:11:36,009 --> 00:11:41,610
+existentes para para expansão da
+
+284
+00:11:38,919 --> 00:11:44,769
+plataforma são focados para
+
+285
+00:11:41,610 --> 00:11:47,649
+desenvolvedores Então os próprias ideias
+
+286
+00:11:44,769 --> 00:11:50,560
+SDK sepias o volume de materiais
+
+287
+00:11:47,649 --> 00:11:54,399
+existentes para favorecer uma expansão e
+
+288
+00:11:50,559 --> 00:11:57,759
+adesão mais rápida plataforma é com os
+
+289
+00:11:54,399 --> 00:12:00,519
+desenvolvedores Talvez seja isso né que
+
+290
+00:11:57,759 --> 00:12:04,600
+considere que o cenário atual né mas e
+
+291
+00:12:00,519 --> 00:12:07,750
+existente é das ações seja focado mais
+
+292
+00:12:04,600 --> 00:12:09,389
+nas nas pessoas desenvolvedores mas vale
+
+293
+00:12:07,750 --> 00:12:13,059
+a reflexão realmente
+
+294
+00:12:09,389 --> 00:12:15,159
+inclusive na coletiva ele artigos não
+
+295
+00:12:13,059 --> 00:12:17,578
+deve community em 1 milhão de pessoas de
+
+296
+00:12:15,159 --> 00:12:20,409
+valor por lei chance alguns comentam já
+
+297
+00:12:17,578 --> 00:12:21,599
+essa necessidade de olhar os outros
+
+298
+00:12:20,409 --> 00:12:24,370
+papéis
+
+299
+00:12:21,600 --> 00:12:27,620
+principalmente a as pessoas da área de
+
+300
+00:12:24,370 --> 00:12:29,840
+ir e por exemplo de design falando de
+
+301
+00:12:27,620 --> 00:12:31,639
+uma forma mais Ampla trabalhar no
+
+302
+00:12:29,840 --> 00:12:33,830
+desenvolvimento de software um trabalho
+
+303
+00:12:31,639 --> 00:12:36,259
+realizado em equipe não acontece em
+
+304
+00:12:33,830 --> 00:12:40,550
+várias outras profissões né porque que
+
+305
+00:12:36,259 --> 00:12:42,710
+essa questão né de access violation na é
+
+306
+00:12:40,549 --> 00:12:44,599
+uma coisa que está aparecendo só para
+
+307
+00:12:42,710 --> 00:12:47,420
+desenvolvedores Por quê Por quê que a
+
+308
+00:12:44,600 --> 00:12:51,019
+área de desenvolvimento especial para
+
+309
+00:12:47,419 --> 00:12:52,939
+ter um papéis Associados a sua os
+
+310
+00:12:51,019 --> 00:12:56,120
+relacionamentos de forma específica
+
+311
+00:12:52,940 --> 00:12:58,660
+então eu vou trazer o contexto de
+
+312
+00:12:56,120 --> 00:13:00,799
+desenvolvimento em um cenário de
+
+313
+00:12:58,659 --> 00:13:03,079
+ecossistema quando a gente fala disso
+
+314
+00:13:00,799 --> 00:13:05,839
+nós vamos ter várias comunidades você
+
+315
+00:13:03,080 --> 00:13:07,790
+não conhece mas enquanto a organização
+
+316
+00:13:05,840 --> 00:13:10,370
+todo mundo aqui com essa comunidade um
+
+317
+00:13:07,789 --> 00:13:12,349
+exemplo básico a gente pega a área de
+
+318
+00:13:10,370 --> 00:13:14,659
+desenvolvimento distribuído de Tokyo é
+
+319
+00:13:12,350 --> 00:13:18,019
+nessa ele vem um pouco antes da
+
+320
+00:13:14,659 --> 00:13:19,149
+menstruação porém com esses temos a
+
+321
+00:13:18,019 --> 00:13:21,559
+gente conhece
+
+322
+00:13:19,149 --> 00:13:24,600
+aquele profissional que está no outro
+
+323
+00:13:21,559 --> 00:13:27,028
+país não é o horário fuso né então tem E
+
+324
+00:13:24,600 --> 00:13:29,220
+aí fica estratégias aplicadas na
+
+325
+00:13:27,028 --> 00:13:31,740
+indústria voltados é quando a gente olha
+
+326
+00:13:29,220 --> 00:13:34,410
+pro cenário dia que o sistema o volume
+
+327
+00:13:31,740 --> 00:13:37,528
+de pessoas trabalhando nas comunidade
+
+328
+00:13:34,409 --> 00:13:39,328
+como elas interagem inclusive nas
+
+329
+00:13:37,528 --> 00:13:41,429
+próprias comunidades e começa convidados
+
+330
+00:13:39,328 --> 00:13:43,109
+interagirem entre si nos então não tem
+
+331
+00:13:41,429 --> 00:13:45,750
+como controlar então é muito conteúdo
+
+332
+00:13:43,110 --> 00:13:46,889
+gerado né também tiver compartilhado É
+
+333
+00:13:45,750 --> 00:13:49,799
+muita gente gerando evoluindo
+
+334
+00:13:46,889 --> 00:13:51,629
+contribuições e essas pessoas diferente
+
+335
+00:13:49,799 --> 00:13:54,028
+exclusivos nada sobre do DDS que é um
+
+336
+00:13:51,629 --> 00:13:56,068
+pouco mais próximo elas não tem Contrato
+
+337
+00:13:54,028 --> 00:13:58,500
+quanto a organização tinha inclusive foi
+
+338
+00:13:56,068 --> 00:14:00,659
+um pouco da pergunta que você fez na
+
+339
+00:13:58,500 --> 00:14:02,759
+igreja anteriormente no máximo que a
+
+340
+00:14:00,659 --> 00:14:04,409
+gente aceita um termo para usar alguma
+
+341
+00:14:02,759 --> 00:14:06,959
+ferramenta que às vezes a gente tem lei
+
+342
+00:14:04,409 --> 00:14:09,509
+toda né isso aí ao submeter uma
+
+343
+00:14:06,958 --> 00:14:11,189
+aplicação como aplicações numa loja Você
+
+344
+00:14:09,509 --> 00:14:13,769
+aceita lá que você já que a gente vai
+
+345
+00:14:11,190 --> 00:14:16,290
+pagar trem você vai receber por exemplo
+
+346
+00:14:13,769 --> 00:14:18,600
+setenta por cento do valor gerado com a
+
+347
+00:14:16,289 --> 00:14:21,389
+venda da aplicação trinta por cento fica
+
+348
+00:14:18,600 --> 00:14:23,399
+para lá empresa então o máximo que a
+
+349
+00:14:21,389 --> 00:14:26,169
+gente aceitam um contratinho onde para
+
+350
+00:14:23,399 --> 00:14:28,028
+usar aquele ambiente e para tirar dados
+
+351
+00:14:26,169 --> 00:14:30,990
+isso é importante para o negócio da
+
+352
+00:14:28,028 --> 00:14:33,629
+organização então não tem como a gente
+
+353
+00:14:30,990 --> 00:14:36,129
+governar seja estabelecer diretrizes
+
+354
+00:14:33,629 --> 00:14:38,230
+estratégias e políticas Price
+
+355
+00:14:36,129 --> 00:14:39,490
+desenvolvimento de pó de só nessa
+
+356
+00:14:38,230 --> 00:14:41,649
+perspectiva de que o sistema de uma
+
+357
+00:14:39,490 --> 00:14:43,839
+forma tradicional então aí eu volto para
+
+358
+00:14:41,649 --> 00:14:46,629
+a questão da sinergia Imagina você ela é
+
+359
+00:14:43,839 --> 00:14:49,300
+de novo Ingrid a diretora da organização
+
+360
+00:14:46,629 --> 00:14:51,399
+Abril plataforma você tem seus objetivos
+
+361
+00:14:49,299 --> 00:14:53,109
+de Meu Deus agora Como que eu faço para
+
+362
+00:14:51,399 --> 00:14:54,639
+que essas comunidades que estão
+
+363
+00:14:53,110 --> 00:14:56,350
+utilizando minha plataforma enrolando
+
+364
+00:14:54,639 --> 00:14:59,078
+contribuição em realmente Kame no
+
+365
+00:14:56,350 --> 00:15:02,409
+sentido um dos objetivos que eu tenho os
+
+366
+00:14:59,078 --> 00:15:04,659
+objetivos estratégicos e aí é saindo
+
+367
+00:15:02,409 --> 00:15:06,659
+desse cenário mais tradicional também a
+
+368
+00:15:04,659 --> 00:15:09,699
+gente precisa estabelecer relações
+
+369
+00:15:06,659 --> 00:15:12,578
+estabelecer relação não é tão sim feliz
+
+370
+00:15:09,700 --> 00:15:14,379
+mais somente nós tivemos de novo o
+
+371
+00:15:12,578 --> 00:15:16,120
+generalizar mas geralmente profissional
+
+372
+00:15:14,379 --> 00:15:18,399
+da área de computação não tem todas as
+
+373
+00:15:16,120 --> 00:15:21,039
+habilidades sociais numa discussão na
+
+374
+00:15:18,399 --> 00:15:22,809
+mais claro e aí a gente desenvolve essas
+
+375
+00:15:21,039 --> 00:15:25,339
+relações a gente consegue fazer com que
+
+376
+00:15:22,809 --> 00:15:27,469
+esses desenvolvedores que são o que
+
+377
+00:15:25,340 --> 00:15:29,930
+tenham acesso ao Road map dia que vocês
+
+378
+00:15:27,470 --> 00:15:31,639
+estão atualizados eles vão divulgar a
+
+379
+00:15:29,929 --> 00:15:34,159
+organização onde prata marca Wolff
+
+380
+00:15:31,639 --> 00:15:36,289
+engajar vão contribuir inclusive prazer
+
+381
+00:15:34,159 --> 00:15:39,350
+outras pessoas estão não é somente o
+
+382
+00:15:36,289 --> 00:15:43,209
+desenvolver as contribuições né mas sim
+
+383
+00:15:39,350 --> 00:15:46,399
+evoluir a comunidade as comunidades para
+
+384
+00:15:43,210 --> 00:15:47,720
+incluir a tua plataforma E aí essa
+
+385
+00:15:46,399 --> 00:15:50,720
+evolução na pode iniciar de forma
+
+386
+00:15:47,720 --> 00:15:53,750
+estruturada ou seja totalmente conduzida
+
+387
+00:15:50,720 --> 00:15:55,700
+pelo teu time de dela ou ela ir para e
+
+388
+00:15:53,750 --> 00:15:58,279
+alcançar para o orgânico que é o que a
+
+389
+00:15:55,700 --> 00:16:00,259
+gente espera em breve réu Ou seja você
+
+390
+00:15:58,279 --> 00:16:03,259
+reduz o custo porque você deixa a
+
+391
+00:16:00,259 --> 00:16:05,120
+comunidade já trabalha nos teus os assim
+
+392
+00:16:03,259 --> 00:16:07,159
+trabalhando se engajam no para os seus
+
+393
+00:16:05,120 --> 00:16:10,129
+objetivos pelo menos ali um pouco mais
+
+394
+00:16:07,159 --> 00:16:13,639
+direcionada este mal e uma certa um
+
+395
+00:16:10,129 --> 00:16:15,110
+certo nível e reduz o curso porque a tua
+
+396
+00:16:13,639 --> 00:16:16,460
+área de serviço não vai pensar que o ar
+
+397
+00:16:15,110 --> 00:16:19,909
+em uma comida diferente porque ela
+
+398
+00:16:16,460 --> 00:16:22,129
+caminha sozinho então é É nesse sentido
+
+399
+00:16:19,909 --> 00:16:25,409
+né não é o tradicional principalmente
+
+400
+00:16:22,129 --> 00:16:29,698
+pelas interações da Dica Olá seja um
+
+401
+00:16:25,409 --> 00:16:31,919
+orgânicas e olha não pouco sobre a
+
+402
+00:16:29,698 --> 00:16:34,379
+perspectiva das empresas na uma
+
+403
+00:16:31,919 --> 00:16:36,809
+preocupação que eu teria uma empresa
+
+404
+00:16:34,379 --> 00:16:38,639
+seria a qualidade daquilo que está sendo
+
+405
+00:16:36,809 --> 00:16:41,338
+contribuído porque não adianta nada eu
+
+406
+00:16:38,639 --> 00:16:43,560
+ter novas fitas desenvolvidas mas o meu
+
+407
+00:16:41,339 --> 00:16:46,769
+código O código foi entregue e não tá
+
+408
+00:16:43,559 --> 00:16:48,838
+manutenir e eu assim eu já fiz bastante
+
+409
+00:16:46,769 --> 00:16:51,509
+pesquisa com projetos o consórcio assim
+
+410
+00:16:48,839 --> 00:16:53,970
+de ter que analisar assim tu vê cada
+
+411
+00:16:51,509 --> 00:16:56,278
+coisa que dá vontade de chorar assim
+
+412
+00:16:53,970 --> 00:16:57,720
+principalmente os projetos JavaScript eu
+
+413
+00:16:56,278 --> 00:17:00,659
+sei que no Twitter ele tem um monte de
+
+414
+00:16:57,720 --> 00:17:03,509
+gente que ama JavaScript Mas assim vai a
+
+415
+00:17:00,659 --> 00:17:06,599
+função dentro de função que retorna tu
+
+416
+00:17:03,509 --> 00:17:09,088
+com raiva ordem fandoms e passem o olho
+
+417
+00:17:06,599 --> 00:17:11,038
+meu Deus e que eu já tinha empresas né
+
+418
+00:17:09,088 --> 00:17:12,899
+aí eu fico até pensando se não é agora
+
+419
+00:17:11,038 --> 00:17:16,288
+tô falando da questão da contribuição
+
+420
+00:17:12,900 --> 00:17:18,780
+aqui captada pelo pelos deve réu será se
+
+421
+00:17:16,288 --> 00:17:21,150
+esqueçam foi uma consequência disso
+
+422
+00:17:18,779 --> 00:17:23,849
+então a como é que é como é que a
+
+423
+00:17:21,150 --> 00:17:26,679
+empresa não consegui assim garantir que
+
+424
+00:17:23,849 --> 00:17:28,568
+esses e de fato façam contribuições que
+
+425
+00:17:26,679 --> 00:17:31,210
+não tenham Impacto negativo na evolução
+
+426
+00:17:28,568 --> 00:17:33,220
+do produto a gente tenta estabelecer e
+
+427
+00:17:31,210 --> 00:17:35,470
+não pelo menos uns processo estão
+
+428
+00:17:33,220 --> 00:17:37,210
+falando direito só fica né eu o portão
+
+429
+00:17:35,470 --> 00:17:39,160
+está falando daquela fazer o leite não
+
+430
+00:17:37,210 --> 00:17:41,798
+ele precisa compreender essa perspectiva
+
+431
+00:17:39,160 --> 00:17:44,980
+dos processos organizacionais né aquele
+
+432
+00:17:41,798 --> 00:17:47,798
+conseguir o aí monitorar Então o que a
+
+433
+00:17:44,980 --> 00:17:50,349
+gente chama mais geral vai definir
+
+434
+00:17:47,798 --> 00:17:52,690
+diretrizes um processo básico que a
+
+435
+00:17:50,349 --> 00:17:55,928
+gente consegue reproduzir nesse processo
+
+436
+00:17:52,690 --> 00:17:57,370
+bastante em olhou o professor precisa
+
+437
+00:17:55,929 --> 00:18:00,910
+garantir e só que é o marido fez
+
+438
+00:17:57,369 --> 00:18:04,019
+entender é na questão de estabelecer
+
+439
+00:18:00,910 --> 00:18:06,940
+processos para que a gente possa é
+
+440
+00:18:04,019 --> 00:18:09,460
+divulgar disseminar diretrizes de
+
+441
+00:18:06,940 --> 00:18:12,220
+qualidade Então como que a loja de
+
+442
+00:18:09,460 --> 00:18:15,190
+aplicação por exemplo faz ela tem
+
+443
+00:18:12,220 --> 00:18:16,960
+critérios que podem ser mais restritivos
+
+444
+00:18:15,190 --> 00:18:20,350
+ou não dependendo do momento da
+
+445
+00:18:16,960 --> 00:18:23,529
+estratégia de qualidade Então agora eu
+
+446
+00:18:20,349 --> 00:18:26,569
+só vou aceitar aplicações móveis e tenho
+
+447
+00:18:23,529 --> 00:18:29,720
+todas essas opções a configuração seja
+
+448
+00:18:26,569 --> 00:18:32,839
+dessa forma e passe pelos testes aqui em
+
+449
+00:18:29,720 --> 00:18:34,579
+unidades funcionais automatizados E aí a
+
+450
+00:18:32,839 --> 00:18:37,369
+gente definir esses critérios para ter
+
+451
+00:18:34,579 --> 00:18:39,168
+uma barreira de qualidade na Então mas
+
+452
+00:18:37,369 --> 00:18:41,028
+aí eu tô falando de uma estratégia que
+
+453
+00:18:39,169 --> 00:18:43,309
+ela é híbrida certo que você tem um
+
+454
+00:18:41,028 --> 00:18:46,460
+amigo proprietário que a loja e você tem
+
+455
+00:18:43,308 --> 00:18:48,019
+aí a comunidade em outros ambientes
+
+456
+00:18:46,460 --> 00:18:50,900
+podem ser com condições ou pessoas
+
+457
+00:18:48,019 --> 00:18:53,028
+tentando migrar e colocar essa aplicação
+
+458
+00:18:50,900 --> 00:18:55,909
+numa loja aí eu vou ter uma barreira
+
+459
+00:18:53,028 --> 00:18:58,640
+digamos assim em Barreira Nossa quando a
+
+460
+00:18:55,909 --> 00:19:00,890
+sentido de que dificulta a pessoa
+
+461
+00:18:58,640 --> 00:19:03,740
+participar mas é como se fosse vou usar
+
+462
+00:19:00,890 --> 00:19:05,600
+feltro um filtro e qualidade para que
+
+463
+00:19:03,740 --> 00:19:08,089
+ela aplicação seja feita pela
+
+464
+00:19:05,599 --> 00:19:11,028
+contribuição seja sei quando a gente vai
+
+465
+00:19:08,089 --> 00:19:13,908
+para a comunidade mais pensou se numa
+
+466
+00:19:11,028 --> 00:19:16,190
+perspectiva de qualidade da existe
+
+467
+00:19:13,909 --> 00:19:18,649
+daquela por leite é como você diz
+
+468
+00:19:16,190 --> 00:19:22,090
+terminar inclusive os seus recursos
+
+469
+00:19:18,648 --> 00:19:25,409
+técnicos o as suas próprias
+
+470
+00:19:22,089 --> 00:19:27,559
+disponibilizar um pouco tempo e o tempo
+
+471
+00:19:25,410 --> 00:19:30,450
+que eu deitei lá o texto explicando
+
+472
+00:19:27,559 --> 00:19:31,919
+vídeos e o próprio corpo sente indicando
+
+473
+00:19:30,450 --> 00:19:35,100
+o que se espera de qualidade daquele
+
+474
+00:19:31,920 --> 00:19:37,440
+código os padrões utilizados padronizar
+
+475
+00:19:35,099 --> 00:19:39,869
+texturais ou de estilo e devem ser
+
+476
+00:19:37,440 --> 00:19:42,029
+utilizados para contribuição na
+
+477
+00:19:39,869 --> 00:19:44,489
+contribuição que vai ser Aceita esse daí
+
+478
+00:19:42,029 --> 00:19:46,319
+essa conta do que já vem sendo feito na
+
+479
+00:19:44,490 --> 00:19:48,509
+tecido qualidade para contribuições ao
+
+480
+00:19:46,319 --> 00:19:51,029
+pensam outra outro ponto de atenção
+
+481
+00:19:48,509 --> 00:19:53,670
+nesse sentido é que os próprios
+
+482
+00:19:51,029 --> 00:19:58,649
+profissionais de pelas legiões começam a
+
+483
+00:19:53,670 --> 00:20:01,590
+tua curando entre aspas é os conteúdos
+
+484
+00:19:58,650 --> 00:20:03,300
+que estão em repositórios contribuindo
+
+485
+00:20:01,589 --> 00:20:05,159
+muito ativamente para a nossa comunidade
+
+486
+00:20:03,299 --> 00:20:07,409
+a gente vai fazer um trabalho mais
+
+487
+00:20:05,160 --> 00:20:09,960
+próximo com essas pessoas para ajudar
+
+488
+00:20:07,410 --> 00:20:12,720
+the seminar e tornar essa pessoa também
+
+489
+00:20:09,960 --> 00:20:14,640
+uma influenciadora digamos assim né Tem
+
+490
+00:20:12,720 --> 00:20:18,329
+pesquisas influência na área de
+
+491
+00:20:14,640 --> 00:20:20,250
+ecossistemas E aí essa pessoa é começa
+
+492
+00:20:18,329 --> 00:20:23,849
+também a me ajudar a divulgar o que que
+
+493
+00:20:20,250 --> 00:20:26,859
+eu espero de qualidade Audrey o que uma
+
+494
+00:20:23,849 --> 00:20:29,319
+empresa PC o benefício ao designar
+
+495
+00:20:26,859 --> 00:20:31,449
+pessoas para o papel de deve chão isso é
+
+496
+00:20:29,319 --> 00:20:33,730
+algo que inclusive você ainda chegou em
+
+497
+00:20:31,450 --> 00:20:36,880
+um de seus artigos sobre o assunto tem
+
+498
+00:20:33,730 --> 00:20:39,819
+essa daqui vai de encontro a uma das
+
+499
+00:20:36,880 --> 00:20:42,730
+perguntas iniciais de você relacionadas
+
+500
+00:20:39,819 --> 00:20:45,490
+ao ao valor percepção de valor então eu
+
+501
+00:20:42,730 --> 00:20:47,829
+trago aqui primeiro uma definição de é
+
+502
+00:20:45,490 --> 00:20:50,319
+muito fez lote em 2001 sobre valor em
+
+503
+00:20:47,829 --> 00:20:52,720
+negócios E aí eles falam a partir de uma
+
+504
+00:20:50,319 --> 00:20:55,569
+perspectiva da economia e de e-business
+
+505
+00:20:52,720 --> 00:20:57,279
+que o valor direciona a diferenciação do
+
+506
+00:20:55,569 --> 00:20:59,950
+produto então ele sempre vai ser
+
+507
+00:20:57,279 --> 00:21:03,879
+resultado de transações geradas de
+
+508
+00:20:59,950 --> 00:21:05,650
+interações humanas e aí é MT Zotti eles
+
+509
+00:21:03,880 --> 00:21:08,740
+organizam quatro fontes de criação de
+
+510
+00:21:05,650 --> 00:21:10,990
+valor eficiência retenção inovação e
+
+511
+00:21:08,740 --> 00:21:13,240
+complementaridade e cada uma dessas
+
+512
+00:21:10,990 --> 00:21:15,308
+Fontes tem itens que nos ajudam a
+
+513
+00:21:13,240 --> 00:21:17,380
+entender melhor como a gente entende
+
+514
+00:21:15,308 --> 00:21:19,539
+essa percepção do valor principalmente
+
+515
+00:21:17,380 --> 00:21:22,240
+em dezembro só nessa pesquisa que você
+
+516
+00:21:19,539 --> 00:21:25,399
+mencionou encher os ou esse treino work
+
+517
+00:21:22,240 --> 00:21:27,409
+conversou com vários profissional e os
+
+518
+00:21:25,400 --> 00:21:30,710
+países para entender como eles percebiam
+
+519
+00:21:27,409 --> 00:21:32,750
+o valor da ação das ações as estratégias
+
+520
+00:21:30,710 --> 00:21:36,140
+de deve réu Vale destacar que o produto
+
+521
+00:21:32,750 --> 00:21:38,240
+que foi se eles eram ali é motivar os é
+
+522
+00:21:36,140 --> 00:21:41,299
+discutir em cerâmica que os histéricos
+
+523
+00:21:38,240 --> 00:21:43,640
+como código fonte de eventos soluções
+
+524
+00:21:41,298 --> 00:21:45,679
+técnicas envolvimentos em portais de
+
+525
+00:21:43,640 --> 00:21:47,840
+perguntas e respostas repositório do
+
+526
+00:21:45,679 --> 00:21:49,850
+pessoas que ele se envolveu ali na fonte
+
+527
+00:21:47,839 --> 00:21:52,519
+deve réu a gente conseguir sair com ela
+
+528
+00:21:49,849 --> 00:21:55,668
+essa percepção de valor então a gente eu
+
+529
+00:21:52,519 --> 00:21:58,759
+vou trazer só que é uma cunhado Claro e
+
+530
+00:21:55,669 --> 00:22:01,009
+essa discussão está toda presente no ar
+
+531
+00:21:58,759 --> 00:22:03,679
+filho a eficiência por exemplo ela vai
+
+532
+00:22:01,009 --> 00:22:05,329
+sugerir enquanto fonte que quanto mais
+
+533
+00:22:03,679 --> 00:22:08,570
+minhas transações nessas relações
+
+534
+00:22:05,329 --> 00:22:10,278
+eleições tente eu vou reduzir o custo
+
+535
+00:22:08,569 --> 00:22:13,250
+das transações dentro do ecossistema
+
+536
+00:22:10,278 --> 00:22:16,398
+então eu quero poder véu por exemplo é
+
+537
+00:22:13,250 --> 00:22:18,200
+fazer com que eu tenho é transações que
+
+538
+00:22:16,398 --> 00:22:20,928
+são eficientes para sempre trazendo um
+
+539
+00:22:18,200 --> 00:22:22,669
+exemplo da tia Ingrid me questionou em
+
+540
+00:22:20,929 --> 00:22:24,600
+relação à qualidade né como a gente
+
+541
+00:22:22,669 --> 00:22:27,930
+trata então
+
+542
+00:22:24,599 --> 00:22:29,490
+como aumentar o serant submeter uma
+
+543
+00:22:27,930 --> 00:22:31,259
+contribuição uma transação porque um
+
+544
+00:22:29,490 --> 00:22:33,240
+conjunto de operações que a pessoa vai
+
+545
+00:22:31,259 --> 00:22:35,220
+executar parece-me ter essa contribuição
+
+546
+00:22:33,240 --> 00:22:36,599
+eu quero que ela seja eficiente do ponto
+
+547
+00:22:35,220 --> 00:22:39,180
+de vista de qualidade é que eu não vou
+
+548
+00:22:36,599 --> 00:22:41,129
+entrar encontro de indicador E aí eu
+
+549
+00:22:39,180 --> 00:22:44,160
+quero que é suficiente somente para
+
+550
+00:22:41,130 --> 00:22:46,470
+reduzir o meu posto né que eu tenho com
+
+551
+00:22:44,160 --> 00:22:48,330
+esse cuidado de qualidade então a
+
+552
+00:22:46,470 --> 00:22:50,250
+eficiência com a conta de valor Taís que
+
+553
+00:22:48,329 --> 00:22:51,929
+foi um dos pontos bem comentados pelos
+
+554
+00:22:50,250 --> 00:22:54,599
+personagens nas entrevistas E aí o que
+
+555
+00:22:51,930 --> 00:22:57,330
+eles destacaram foi uma a existência de
+
+556
+00:22:54,599 --> 00:22:59,669
+Um item chamado faixa de seleção o que
+
+557
+00:22:57,329 --> 00:23:02,009
+que trata esse valor em Daniel é como a
+
+558
+00:22:59,670 --> 00:23:04,170
+organização vai perceber quais são os
+
+559
+00:23:02,009 --> 00:23:07,980
+recursos desejados pelos desenvolvedores
+
+560
+00:23:04,170 --> 00:23:10,950
+e podem gerar transações monetárias pode
+
+561
+00:23:07,980 --> 00:23:13,200
+gerar dinheiro e aí é isso é um primeiro
+
+562
+00:23:10,950 --> 00:23:16,200
+ponto que ele se identificou como a ti
+
+563
+00:23:13,200 --> 00:23:18,480
+pode indicar a organização consecutiva
+
+564
+00:23:16,200 --> 00:23:20,759
+do valor Outro ponto é o conjunto de
+
+565
+00:23:18,480 --> 00:23:22,500
+produtos Terra relação disponibiliza a
+
+566
+00:23:20,759 --> 00:23:24,089
+questão de estar porque se eu tenho
+
+567
+00:23:22,500 --> 00:23:26,200
+produto que são destaque de produtos
+
+568
+00:23:24,089 --> 00:23:28,000
+para Deus se eu consigo promover a
+
+569
+00:23:26,200 --> 00:23:29,830
+qualidade da minha plataforma tanto para
+
+570
+00:23:28,000 --> 00:23:32,609
+desenvolvedores quanto para o usuário e
+
+571
+00:23:29,829 --> 00:23:34,960
+para que esses recursos desejados sejam
+
+572
+00:23:32,609 --> 00:23:37,419
+oferecidos e produtos sejam promovidos
+
+573
+00:23:34,960 --> 00:23:39,429
+como deixar é o ponto de vista que é
+
+574
+00:23:37,420 --> 00:23:41,230
+muito importante é capacitar
+
+575
+00:23:39,429 --> 00:23:43,350
+Tecnicamente essas minhas comunidades
+
+576
+00:23:41,230 --> 00:23:47,170
+então por isso que vai ter ação de
+
+577
+00:23:43,349 --> 00:23:49,659
+vocês verem para Android aí ó esse essas
+
+578
+00:23:47,170 --> 00:23:51,910
+opções de exemplo eles têm portagens não
+
+579
+00:23:49,660 --> 00:23:54,519
+eles têm canais no YouTube presente no
+
+580
+00:23:51,910 --> 00:23:56,769
+clipe em outras redes sociais como forma
+
+581
+00:23:54,519 --> 00:23:59,109
+também de atingir é a capacitação
+
+582
+00:23:56,769 --> 00:24:01,210
+técnica e aí essa capacitação não pode
+
+583
+00:23:59,109 --> 00:24:02,889
+ser promovida por que na mente hoje né
+
+584
+00:24:01,210 --> 00:24:04,569
+que são planejados e executados pelos
+
+585
+00:24:02,890 --> 00:24:07,090
+profissionais deve é outro elemento
+
+586
+00:24:04,569 --> 00:24:10,240
+muito importante é um beijo saciante
+
+587
+00:24:07,089 --> 00:24:11,859
+parecida Israel é a retenção você quer
+
+588
+00:24:10,240 --> 00:24:13,929
+sair na minha tá esse foi um ponto que
+
+589
+00:24:11,859 --> 00:24:16,959
+foi mas destacado pelos profissionais
+
+590
+00:24:13,929 --> 00:24:19,870
+participar e é isso essa as estratégias
+
+591
+00:24:16,960 --> 00:24:21,700
+para reter alguém engajar alguém que ela
+
+592
+00:24:19,869 --> 00:24:23,678
+permaneça ele contribuído com as mais
+
+593
+00:24:21,700 --> 00:24:26,900
+desafiadores o objetivo é que realmente
+
+594
+00:24:23,679 --> 00:24:29,059
+essa transa um beijão mais contínuas e
+
+595
+00:24:26,900 --> 00:24:30,679
+que os desenvolvedores estejam dispostos
+
+596
+00:24:29,058 --> 00:24:33,288
+a continuar o relacionamento com a
+
+597
+00:24:30,679 --> 00:24:35,120
+organização e aí dentro da retenção o
+
+598
+00:24:33,288 --> 00:24:37,038
+que os profissionais destacaram como
+
+599
+00:24:35,119 --> 00:24:40,069
+item de valor para a organização é o
+
+600
+00:24:37,038 --> 00:24:41,990
+ponto de comprar que é o valor percebido
+
+601
+00:24:40,069 --> 00:24:43,668
+a partir da boa relação do bom
+
+602
+00:24:41,990 --> 00:24:45,950
+relacionamento de profissionais de
+
+603
+00:24:43,669 --> 00:24:47,390
+Daniel e as pessoas desenvolvedores
+
+604
+00:24:45,950 --> 00:24:50,538
+porque isso Vai facilitar o entendimento
+
+605
+00:24:47,390 --> 00:24:52,669
+das expectativas do desenvolvido E aí a
+
+606
+00:24:50,538 --> 00:24:54,379
+essa ação isso favorece a mediação de
+
+607
+00:24:52,669 --> 00:24:56,630
+deve ela deve se aproximar mais os
+
+608
+00:24:54,380 --> 00:24:59,120
+desenvolvedores para que ele consiga
+
+609
+00:24:56,630 --> 00:25:02,090
+obter feedback e traga esse direto não
+
+610
+00:24:59,119 --> 00:25:03,439
+somente para Suarez deve real interna
+
+611
+00:25:02,089 --> 00:25:05,269
+mas tá todos os setores da organização
+
+612
+00:25:03,440 --> 00:25:06,798
+pelo apresenta a partir da minha
+
+613
+00:25:05,269 --> 00:25:09,440
+experiência na indústria é o que a gente
+
+614
+00:25:06,798 --> 00:25:12,980
+fazia a gente ela tá com cartão assim
+
+615
+00:25:09,440 --> 00:25:15,200
+bay ou uma palestra e a gente ouvia que
+
+616
+00:25:12,980 --> 00:25:16,970
+tiver que positivo e negativo mas trás
+
+617
+00:25:15,200 --> 00:25:19,250
+vimos isso pela organização isso
+
+618
+00:25:16,970 --> 00:25:22,100
+alimentava outros setores setor de
+
+619
+00:25:19,250 --> 00:25:24,599
+marketing de produtos e todos de
+
+620
+00:25:22,099 --> 00:25:28,469
+engenharia de qualidade então acaba o
+
+621
+00:25:24,599 --> 00:25:30,419
+time o ponto de contato é bem destacado
+
+622
+00:25:28,470 --> 00:25:32,339
+Por que você não é ponto de contato só
+
+623
+00:25:30,420 --> 00:25:34,380
+dentro da comunidade Você também é um
+
+624
+00:25:32,339 --> 00:25:36,720
+futuro de contato da comunidade externa
+
+625
+00:25:34,380 --> 00:25:38,760
+com sua qualidade de terra e você é
+
+626
+00:25:36,720 --> 00:25:42,269
+ponto de contato entre as duas áreas
+
+627
+00:25:38,759 --> 00:25:44,789
+internas da organização o outro conta se
+
+628
+00:25:42,269 --> 00:25:46,769
+destacaram é a perspectiva de
+
+629
+00:25:44,789 --> 00:25:49,019
+complementaridade aí quando você agrupa
+
+630
+00:25:46,769 --> 00:25:51,660
+vários produtos para gerar mais valor e
+
+631
+00:25:49,019 --> 00:25:54,289
+também posso ter por exemplo uma
+
+632
+00:25:51,660 --> 00:25:56,690
+aplicação Android que ela roda no
+
+633
+00:25:54,289 --> 00:26:00,359
+dispositivo móvel
+
+634
+00:25:56,690 --> 00:26:02,309
+smartphone E aí eu complemento isso leva
+
+635
+00:26:00,359 --> 00:26:05,939
+nessa unidade complementar experiências
+
+636
+00:26:02,309 --> 00:26:07,349
+com experiência em um Smart então vai
+
+637
+00:26:05,940 --> 00:26:09,330
+ficar comprando mentalidade tá falando
+
+638
+00:26:07,349 --> 00:26:11,399
+isso tanto quanto eu consigo agrupar
+
+639
+00:26:09,329 --> 00:26:14,639
+mais produtos em formalizar contribuição
+
+640
+00:26:11,400 --> 00:26:16,530
+e aí os participantes nas das
+
+641
+00:26:14,640 --> 00:26:18,600
+entrevistas comentaram sobre a questão
+
+642
+00:26:16,529 --> 00:26:21,329
+do valor percebido a partir do
+
+643
+00:26:18,599 --> 00:26:23,369
+investimento financeiro que os
+
+644
+00:26:21,329 --> 00:26:25,449
+desenvolvedores fazem dos recursos para
+
+645
+00:26:23,369 --> 00:26:29,109
+quando eu pago fora pela paz é de uma
+
+646
+00:26:25,450 --> 00:26:31,330
+versão avançada o crime onde uma ideia
+
+647
+00:26:29,109 --> 00:26:34,719
+ou quanto eu pago por um treinamento
+
+648
+00:26:31,329 --> 00:26:36,639
+mais avançado Ou pelo menos certificação
+
+649
+00:26:34,720 --> 00:26:38,740
+então o valor que eu trago aproveita se
+
+650
+00:26:36,640 --> 00:26:41,350
+não pode também ser tratado a partir
+
+651
+00:26:38,740 --> 00:26:42,789
+disso eles investem financeiramente E
+
+652
+00:26:41,349 --> 00:26:45,699
+para isso é super importante você
+
+653
+00:26:42,789 --> 00:26:47,950
+encontra ligação que deseja implantar
+
+654
+00:26:45,700 --> 00:26:50,980
+deve réu hetero eu vou de metro de
+
+655
+00:26:47,950 --> 00:26:53,048
+estabelecido tá e o último ponto e valor
+
+656
+00:26:50,980 --> 00:26:56,410
+por ele está cadelinha oração e é
+
+657
+00:26:53,048 --> 00:26:59,230
+explorar essas novas aí é os novos
+
+658
+00:26:56,410 --> 00:27:03,190
+produtos e serviços hoje e surgem como
+
+659
+00:26:59,230 --> 00:27:04,990
+um com sucesso né a partir da comunidade
+
+660
+00:27:03,190 --> 00:27:08,140
+que podem ser incorporadas a tua
+
+661
+00:27:04,990 --> 00:27:10,419
+plataforma E aí se destacam e isso leva
+
+662
+00:27:08,140 --> 00:27:12,400
+em conta o valor para a organização uma
+
+663
+00:27:10,419 --> 00:27:15,640
+reestruturação de processos e das suas
+
+664
+00:27:12,400 --> 00:27:18,009
+transações então só Ares deve relação
+
+665
+00:27:15,640 --> 00:27:20,080
+essencial estrobilização porque ela vai
+
+666
+00:27:18,009 --> 00:27:22,629
+se concentrar nos cursos específicos e
+
+667
+00:27:20,079 --> 00:27:25,908
+também na maturidade tendo em vista né
+
+668
+00:27:22,630 --> 00:27:27,110
+claro o produto pessoal feliz o medo e
+
+669
+00:27:25,909 --> 00:27:29,720
+aí ouvindo isso não vai se arrepender
+
+670
+00:27:27,109 --> 00:27:31,788
+que essa área quisesse realmente ficar
+
+671
+00:27:29,720 --> 00:27:34,880
+nessa jornada de experiência gera
+
+672
+00:27:31,788 --> 00:27:38,210
+receita eu dei alguns exemplos FM certo
+
+673
+00:27:34,880 --> 00:27:39,710
+com medo dos desses os outros serviços e
+
+674
+00:27:38,210 --> 00:27:43,548
+ajuda também no reconhecimento da marca
+
+675
+00:27:39,710 --> 00:27:46,069
+o que realmente vocês devem ter algum em
+
+676
+00:27:43,548 --> 00:27:48,288
+algum produto produtos de desenvolvedor
+
+677
+00:27:46,069 --> 00:27:51,319
+que vocês gostam de usar se vocês vão
+
+678
+00:27:48,288 --> 00:27:54,500
+defender as aulas eu falei ou nas
+
+679
+00:27:51,319 --> 00:27:56,629
+conversas de calma e isso é um exemplo
+
+680
+00:27:54,500 --> 00:27:58,548
+de como a gente também influenciada a
+
+681
+00:27:56,630 --> 00:28:00,230
+parte da nossa experiência nesses
+
+682
+00:27:58,548 --> 00:28:02,450
+produtos para desenvolvedores é isso
+
+683
+00:28:00,230 --> 00:28:05,360
+aqui é um resíduo caro lá tem diversos
+
+684
+00:28:02,450 --> 00:28:06,980
+ou ele é elements tipo itens que nos
+
+685
+00:28:05,359 --> 00:28:08,079
+ajudam a entender o valor que tem que
+
+686
+00:28:06,980 --> 00:28:10,240
+ser
+
+687
+00:28:08,079 --> 00:28:11,629
+divulgado aí em
+
+688
+00:28:10,240 --> 00:28:13,460
+determinado para que a organização
+
+689
+00:28:11,630 --> 00:28:16,250
+entendeu porque ela tem que investir
+
+690
+00:28:13,460 --> 00:28:18,079
+numa área desce e como esse papel ele
+
+691
+00:28:16,250 --> 00:28:19,609
+deve réu se diferencia para
+
+692
+00:28:18,079 --> 00:28:22,819
+desenvolvedores que atua em diferentes
+
+693
+00:28:19,609 --> 00:28:25,649
+nichos assim como por exemplo frontend a
+
+694
+00:28:22,819 --> 00:28:27,029
+gente tem a parte web mobile É mas não
+
+695
+00:28:25,650 --> 00:28:29,910
+vai cair em Deus nos tem as várias
+
+696
+00:28:27,029 --> 00:28:33,059
+plataformas e linguagens associadas a
+
+697
+00:28:29,910 --> 00:28:37,980
+gente tem que ter um deve réu para cada
+
+698
+00:28:33,059 --> 00:28:42,049
+cada um nicho sou o réu do geral como
+
+699
+00:28:37,980 --> 00:28:45,779
+como isso tem acontecido pela pergunta é
+
+700
+00:28:42,049 --> 00:28:47,669
+Ingrid então só as estratégias parecer
+
+701
+00:28:45,779 --> 00:28:49,910
+base em Ação ativação retenção
+
+702
+00:28:47,670 --> 00:28:52,380
+reconhecimento certo o
+
+703
+00:28:49,910 --> 00:28:53,790
+produto ele pode variar tapete por uma
+
+704
+00:28:52,380 --> 00:28:55,860
+perspectiva de usos e costumes por
+
+705
+00:28:53,789 --> 00:28:57,930
+exemplo nós aqui individualmente tem
+
+706
+00:28:55,859 --> 00:28:59,159
+umas experiências diferentes os produtos
+
+707
+00:28:57,930 --> 00:29:00,630
+que a gente chegou agora vai continuar
+
+708
+00:28:59,160 --> 00:29:02,340
+para desenvolvedor eu não vou levar
+
+709
+00:29:00,630 --> 00:29:03,930
+levantar aquele os sintomas existe
+
+710
+00:29:02,339 --> 00:29:05,879
+preferem um editor de texto para
+
+711
+00:29:03,930 --> 00:29:08,660
+desenvolver o dar não é desenvolver
+
+712
+00:29:05,880 --> 00:29:11,010
+cores expressar uma ideia e
+
+713
+00:29:08,660 --> 00:29:13,560
+gosta de outras ferramentas à nossa
+
+714
+00:29:11,009 --> 00:29:14,970
+frente javali agora tem isso quando você
+
+715
+00:29:13,559 --> 00:29:17,579
+como profissional que vai colocar o
+
+716
+00:29:14,970 --> 00:29:19,559
+leite em e trabalhar com produtos que
+
+717
+00:29:17,579 --> 00:29:21,299
+são diferentes são as estratégias não
+
+718
+00:29:19,559 --> 00:29:23,190
+vale porque a experiência então de
+
+719
+00:29:21,299 --> 00:29:24,609
+cabelo produto produto do desenvolvido
+
+720
+00:29:23,190 --> 00:29:26,769
+vai ser diferente também
+
+721
+00:29:24,609 --> 00:29:28,899
+e o que é que vai variar quando eu vou
+
+722
+00:29:26,769 --> 00:29:31,420
+planejar uma ação eu preciso identificar
+
+723
+00:29:28,900 --> 00:29:32,380
+o perfil da minha comunidade Então eu
+
+724
+00:29:31,420 --> 00:29:34,420
+tenho que entender isso aquela
+
+725
+00:29:32,380 --> 00:29:36,670
+comunidade de desenvolvimento sustenta
+
+726
+00:29:34,420 --> 00:29:38,860
+que uma lei deles utilizam nessa é uma
+
+727
+00:29:36,670 --> 00:29:40,450
+comunidade que já utiliza é uma
+
+728
+00:29:38,859 --> 00:29:44,079
+determinada tecnologia em torno de um
+
+729
+00:29:40,450 --> 00:29:47,048
+domínio de gramas Mas é uma comunidade e
+
+730
+00:29:44,079 --> 00:29:48,789
+é muito do iOS mas eu quero fazer uma
+
+731
+00:29:47,048 --> 00:29:50,679
+ação do Android eu quero porque eu quero
+
+732
+00:29:48,789 --> 00:29:53,769
+entrar naquela comunidade para fazer
+
+733
+00:29:50,679 --> 00:29:56,170
+café ele já conhecem uma tecnologia tem
+
+734
+00:29:53,769 --> 00:29:58,569
+algum conhecimento do domínio móvel mas
+
+735
+00:29:56,170 --> 00:30:00,970
+como vai ser minha atuação não é porque
+
+736
+00:29:58,569 --> 00:30:03,909
+a gente sabe que às vezes a meio inchada
+
+737
+00:30:00,970 --> 00:30:05,558
+iOS mas devedores are Used for the
+
+738
+00:30:03,910 --> 00:30:07,720
+Horizon Android então a identificação de
+
+739
+00:30:05,558 --> 00:30:09,910
+perfis quais os ambientes né que essa
+
+740
+00:30:07,720 --> 00:30:12,789
+tua comunidade está mais presente e isso
+
+741
+00:30:09,910 --> 00:30:14,830
+vai infância Então qual é o teu ponto de
+
+742
+00:30:12,789 --> 00:30:16,480
+contato como você vai estabelecer o
+
+743
+00:30:14,829 --> 00:30:18,460
+contato com ela que eu mandei de
+
+744
+00:30:16,480 --> 00:30:21,130
+proprietário é a parte de portagem da
+
+745
+00:30:18,460 --> 00:30:24,590
+equipe de desenvolvedores estão nos
+
+746
+00:30:21,130 --> 00:30:27,940
+fóruns oficiais você vai ter uma sono tá
+
+747
+00:30:24,589 --> 00:30:30,408
+a pouco ele vai respondendo questões lá
+
+748
+00:30:27,940 --> 00:30:32,150
+moderando e vai entrar em contato
+
+749
+00:30:30,409 --> 00:30:33,830
+diretamente com as pessoas para fazer
+
+750
+00:30:32,150 --> 00:30:36,798
+café você vai se envolver em canais de
+
+751
+00:30:33,829 --> 00:30:40,069
+comunicação como o glitter Flash
+
+752
+00:30:36,798 --> 00:30:41,650
+integrante deve votar seja você vai mal
+
+753
+00:30:40,069 --> 00:30:44,480
+dela conteúdo no
+
+754
+00:30:41,650 --> 00:30:47,330
+repositório estão de Kleber derrame e
+
+755
+00:30:44,480 --> 00:30:49,640
+age O que é essencial e que vai mudar
+
+756
+00:30:47,329 --> 00:30:51,980
+então assim por exemplo eu trabalhava
+
+757
+00:30:49,640 --> 00:30:54,559
+com comunidade já vi tive que mudar para
+
+758
+00:30:51,980 --> 00:30:57,169
+a comunidade que era de fechar e nem na
+
+759
+00:30:54,558 --> 00:30:58,519
+época que era o windows phone né porque
+
+760
+00:30:57,169 --> 00:31:01,610
+eu trabalhei a forma de abordagem
+
+761
+00:30:58,519 --> 00:31:04,009
+totalmente diferente inclusive do perfil
+
+762
+00:31:01,609 --> 00:31:06,109
+das Comunidades então comunidade salvar
+
+763
+00:31:04,009 --> 00:31:08,808
+a gente gosta de Dalva aí deve ter ido
+
+764
+00:31:06,109 --> 00:31:11,298
+já vai querer aparecendo na época aqui a
+
+765
+00:31:08,808 --> 00:31:14,269
+nossa educação Android por exemplo e não
+
+766
+00:31:11,298 --> 00:31:16,278
+fosse eu a Colômbia então tinham um
+
+767
+00:31:14,269 --> 00:31:17,710
+discurso está esperando diferente e
+
+768
+00:31:16,278 --> 00:31:21,619
+quando a gente atuava com Windows Phone
+
+769
+00:31:17,710 --> 00:31:24,600
+já era o outro tipo de perfil quando eu
+
+770
+00:31:21,619 --> 00:31:25,399
+inclusive você não responder já conhecia
+
+771
+00:31:24,599 --> 00:31:27,599
+a
+
+772
+00:31:25,400 --> 00:31:30,170
+Microsoft então inclusive alguns
+
+773
+00:31:27,599 --> 00:31:33,269
+treinamentos era até mais fácil a gente
+
+774
+00:31:30,170 --> 00:31:35,759
+vender a mensagem estabelecer relações
+
+775
+00:31:33,269 --> 00:31:37,920
+então resumindo e esses perfis
+
+776
+00:31:35,759 --> 00:31:41,759
+influenciam muito na estratégia que vai
+
+777
+00:31:37,920 --> 00:31:45,029
+ser respira inclusive até no e quem era
+
+778
+00:31:41,759 --> 00:31:47,940
+o Stitch vai para aquela aquela ação e
+
+779
+00:31:45,029 --> 00:31:49,920
+aí eu trazia Paris faltou cultural da
+
+780
+00:31:47,940 --> 00:31:51,450
+perspectiva tecnológica né então que
+
+781
+00:31:49,920 --> 00:31:53,430
+isso influencia Também quem é que tem
+
+782
+00:31:51,450 --> 00:31:55,230
+mais o perfil para atuar com isso e
+
+783
+00:31:53,430 --> 00:31:56,970
+desenvolvedor aqui que vai saber falar
+
+784
+00:31:55,230 --> 00:31:59,819
+essa linguagem veio e aí envolve o
+
+785
+00:31:56,970 --> 00:32:02,069
+estudo das Comunidades e o estudo o cara
+
+786
+00:31:59,819 --> 00:32:04,319
+da tecnologia que já se espera que esse
+
+787
+00:32:02,069 --> 00:32:06,379
+teu profissional e deve ele tem esse
+
+788
+00:32:04,319 --> 00:32:09,240
+conhecimento técnico na área de dormir
+
+789
+00:32:06,380 --> 00:32:12,000
+alguém falando de projetos de software
+
+790
+00:32:09,240 --> 00:32:14,970
+de código aberto código fechado Será que
+
+791
+00:32:12,000 --> 00:32:18,299
+existe uma diferença em como o deve réu
+
+792
+00:32:14,970 --> 00:32:21,029
+atua nesse tipo de projeto o cara que
+
+793
+00:32:18,299 --> 00:32:23,369
+não faz sentido papel de deve réu fora
+
+794
+00:32:21,029 --> 00:32:26,940
+do contexto de empresas bem eu vou
+
+795
+00:32:23,369 --> 00:32:29,139
+responder ácido SP o primeiro pai
+
+796
+00:32:26,940 --> 00:32:31,929
+diferença eu vou explicar agora e depois
+
+797
+00:32:29,140 --> 00:32:34,210
+eu falo do sentido do Papel fora do
+
+798
+00:32:31,929 --> 00:32:36,548
+contexto de uma empresa primeiro cenário
+
+799
+00:32:34,210 --> 00:32:38,500
+é a empresa tem uma estratégia de
+
+800
+00:32:36,548 --> 00:32:40,480
+sistema híbrido né então é uma
+
+801
+00:32:38,500 --> 00:32:42,519
+plataforma proprietário mas que tem
+
+802
+00:32:40,480 --> 00:32:44,110
+pontos de abertura à comunidade usando
+
+803
+00:32:42,519 --> 00:32:47,259
+algumas estratégias o pessoas por
+
+804
+00:32:44,109 --> 00:32:49,959
+exemplo a Microsoft e Amazon Google
+
+805
+00:32:47,259 --> 00:32:52,029
+fazem o outro ecossistema pensou se as
+
+806
+00:32:49,960 --> 00:32:54,940
+contribuições estão abertas ao restante
+
+807
+00:32:52,029 --> 00:32:57,279
+dos atores ao público EA que os valores
+
+808
+00:32:54,940 --> 00:32:58,929
+das contribuições e se referem com
+
+809
+00:32:57,279 --> 00:33:02,139
+pessoas que não são monetárias num
+
+810
+00:32:58,929 --> 00:33:04,660
+conhecimento experiência e satisfação aí
+
+811
+00:33:02,140 --> 00:33:06,970
+foi em nome dessa faixa e outros
+
+812
+00:33:04,660 --> 00:33:08,259
+ecossistemas a gente sabe como exemplo
+
+813
+00:33:06,970 --> 00:33:09,970
+ele o Finn um ecossistema do
+
+814
+00:33:08,259 --> 00:33:12,339
+proprietário e que a plataforma tem
+
+815
+00:33:09,970 --> 00:33:14,919
+pontos específicos para uma vez ações
+
+816
+00:33:12,339 --> 00:33:16,659
+que são parceiras né a partir de
+
+817
+00:33:14,919 --> 00:33:18,549
+contrate que são bem mais saborosos
+
+818
+00:33:16,660 --> 00:33:19,740
+normalmente protegido o processo de
+
+819
+00:33:18,548 --> 00:33:22,150
+gerenciamento de propriedade intelectual
+
+820
+00:33:19,740 --> 00:33:24,339
+e aí O valor vai se referir mais
+
+821
+00:33:22,150 --> 00:33:27,019
+aconteça sua mãe é pra todos esses três
+
+822
+00:33:24,339 --> 00:33:29,269
+Senna o barco tipo de ecossistemas uma
+
+823
+00:33:27,019 --> 00:33:32,240
+perspectiva de negócio pode seu trabalho
+
+824
+00:33:29,269 --> 00:33:34,429
+deve el tono tem fã o objetivo principal
+
+825
+00:33:32,240 --> 00:33:36,679
+é ajudar os desenvolvedores na
+
+826
+00:33:34,429 --> 00:33:38,809
+coordenada tecnologia e resolver
+
+827
+00:33:36,679 --> 00:33:41,298
+problemas na comunidade tá tá melhor
+
+828
+00:33:38,808 --> 00:33:44,269
+forma e o mais rápido possível em São
+
+829
+00:33:41,298 --> 00:33:46,278
+resumido tá no híbrido é um contexto
+
+830
+00:33:44,269 --> 00:33:48,740
+mais ganha-ganha então ela que lembra
+
+831
+00:33:46,278 --> 00:33:50,390
+entre a necessidade de autonomia EA
+
+832
+00:33:48,740 --> 00:33:53,058
+integridade da plataforma para os
+
+833
+00:33:50,390 --> 00:33:55,850
+desenvolvedores não proprietário essa
+
+834
+00:33:53,058 --> 00:33:57,500
+estabelecer mecanismos para monitorar os
+
+835
+00:33:55,849 --> 00:33:59,449
+fatores que afetam a instalação da
+
+836
+00:33:57,500 --> 00:34:01,250
+plataforma o ambiente econômico
+
+837
+00:33:59,450 --> 00:34:04,490
+principalmente dessas organizações
+
+838
+00:34:01,250 --> 00:34:06,259
+parceiras e para controlar o que esse
+
+839
+00:34:04,490 --> 00:34:07,880
+desenvolvedores fazem Por meios
+
+840
+00:34:06,259 --> 00:34:09,378
+tecnológicos e não ter que não gosta
+
+841
+00:34:07,880 --> 00:34:11,269
+então nesse três tipos que a gente
+
+842
+00:34:09,378 --> 00:34:13,368
+consegue acredita que a gente deve el
+
+843
+00:34:11,269 --> 00:34:17,389
+quais sentido deve real fora das
+
+844
+00:34:13,369 --> 00:34:20,030
+empresas eu ajustar ia na sexta essa
+
+845
+00:34:17,389 --> 00:34:22,399
+frase para não faz sentido deve Réus em
+
+846
+00:34:20,030 --> 00:34:24,320
+produto para dela né e outros tem o
+
+847
+00:34:22,398 --> 00:34:26,400
+objetivo de estabelecer relações estejam
+
+848
+00:34:24,320 --> 00:34:28,380
+com e tem que qualquer um organização de
+
+849
+00:34:26,400 --> 00:34:30,300
+suas comunidades se você tem um produto
+
+850
+00:34:28,380 --> 00:34:31,640
+uma plataforma que favorece essa
+
+851
+00:34:30,300 --> 00:34:34,200
+interação entre os desenvolvedores
+
+852
+00:34:31,639 --> 00:34:36,690
+organização você pode ser o marido de
+
+853
+00:34:34,199 --> 00:34:39,269
+vela para o leite então o que você tem
+
+854
+00:34:36,690 --> 00:34:41,670
+que possuir um produto o conjunto de
+
+855
+00:34:39,269 --> 00:34:43,530
+produtos né para desenvolvedores e você
+
+856
+00:34:41,670 --> 00:34:45,960
+quer estabelecer relações se você não
+
+857
+00:34:43,530 --> 00:34:46,880
+tem isso aí você não faz sentindo certo
+
+858
+00:34:45,960 --> 00:34:50,280
+você
+
+859
+00:34:46,880 --> 00:34:52,920
+querer implantar uma rede tv aparecida
+
+860
+00:34:50,280 --> 00:34:54,570
+tem um projeto open-source é um produto
+
+861
+00:34:52,920 --> 00:34:59,639
+para desenvolvedores que nenhuma empresa
+
+862
+00:34:54,570 --> 00:35:01,860
+por trás eu não enxergo como que não vai
+
+863
+00:34:59,639 --> 00:35:04,199
+ter ninguém para contratar um deve réu
+
+864
+00:35:01,860 --> 00:35:05,789
+para fazer esse papel entendi porque eu
+
+865
+00:35:04,199 --> 00:35:07,399
+não projeto open-source que não tem uma
+
+866
+00:35:05,789 --> 00:35:09,300
+empresa por trás um papel definido
+
+867
+00:35:07,400 --> 00:35:11,940
+simplesmente tem contribuidores
+
+868
+00:35:09,300 --> 00:35:14,880
+espontâneos então como como que esse
+
+869
+00:35:11,940 --> 00:35:17,849
+papel de réu surgiria nesse compensa
+
+870
+00:35:14,880 --> 00:35:19,680
+aqui é um pouco de uma visão mais do
+
+871
+00:35:17,849 --> 00:35:22,079
+futuro da área assim como a gente tem
+
+872
+00:35:19,679 --> 00:35:25,079
+hoje pessoas desenvolvedores testadores
+
+873
+00:35:22,079 --> 00:35:27,489
+que não necessariamente estão a festa se
+
+874
+00:35:25,079 --> 00:35:29,860
+desenvolvem algo que eu falei foi no
+
+875
+00:35:27,489 --> 00:35:33,389
+sentido de que nesse cenário que você
+
+876
+00:35:29,860 --> 00:35:36,070
+trouxe a Ingrid eu posso ter ações de
+
+877
+00:35:33,389 --> 00:35:39,219
+ideia até lá pro elation né não
+
+878
+00:35:36,070 --> 00:35:41,380
+necessariamente estão dormir no numa
+
+879
+00:35:39,219 --> 00:35:45,339
+organização que investe nesse então se
+
+880
+00:35:41,380 --> 00:35:47,800
+você tem um projeto é o pensou sistema
+
+881
+00:35:45,340 --> 00:35:50,170
+que você quer e as pessoas contribuam
+
+882
+00:35:47,800 --> 00:35:52,420
+você poderia atuar com ações do
+
+883
+00:35:50,170 --> 00:35:54,940
+aplicativo protege de Bebel e você
+
+884
+00:35:52,420 --> 00:35:57,250
+inicialmente começar para atrair pessoas
+
+885
+00:35:54,940 --> 00:36:00,190
+para se engajar no seu projeto feitor
+
+886
+00:35:57,250 --> 00:36:01,900
+sim então aqui eu foi até expoentes da
+
+887
+00:36:00,190 --> 00:36:04,900
+sua pergunta porque eu não posso lembrar
+
+888
+00:36:01,900 --> 00:36:07,599
+de como eu vejo a área perto mais para
+
+889
+00:36:04,900 --> 00:36:10,930
+frente não necessariamente atrelada só
+
+890
+00:36:07,599 --> 00:36:13,809
+uma organização não tenho e tu tem um
+
+891
+00:36:10,929 --> 00:36:15,579
+estudo que investigou o papel de réu
+
+892
+00:36:13,809 --> 00:36:17,769
+considerando diversas fontes de
+
+893
+00:36:15,579 --> 00:36:20,500
+informação e pode visitar um Panorama
+
+894
+00:36:17,769 --> 00:36:21,969
+das conclusões desse estudo boa é no
+
+895
+00:36:20,500 --> 00:36:24,590
+início da entrevista eu acabei falando
+
+896
+00:36:21,969 --> 00:36:28,009
+brevemente sobre os papéis né quando eu
+
+897
+00:36:24,590 --> 00:36:30,019
+o conceito de deve ela é na época do meu
+
+898
+00:36:28,010 --> 00:36:31,940
+doutorado na Ted Apesar desse tipo de
+
+899
+00:36:30,019 --> 00:36:33,829
+escrever eu vou escrever na festa de
+
+900
+00:36:31,940 --> 00:36:35,450
+deve passar por lei Chan e o modelo para
+
+901
+00:36:33,829 --> 00:36:37,309
+daquela que o eixo eu fico uma
+
+902
+00:36:35,449 --> 00:36:40,189
+inquietação porque quando eu olhar vai
+
+903
+00:36:37,309 --> 00:36:41,929
+ficar área de foco questão de Daniel eu
+
+904
+00:36:40,190 --> 00:36:44,300
+vi aqui eu ainda não dei escrevi naquele
+
+905
+00:36:41,929 --> 00:36:47,059
+momento naqueles corpo e papéis
+
+906
+00:36:44,300 --> 00:36:48,620
+compunham aquela estrutura de uma área
+
+907
+00:36:47,059 --> 00:36:49,849
+certo então eu fiquei com essa
+
+908
+00:36:48,619 --> 00:36:51,440
+inquietação de realizar um trabalho
+
+909
+00:36:49,849 --> 00:36:54,289
+futuro te ajudar você a compreender
+
+910
+00:36:51,440 --> 00:36:56,150
+esses papéis para fundamentar melhor
+
+911
+00:36:54,289 --> 00:36:57,739
+caminho de entendimento de como as
+
+912
+00:36:56,150 --> 00:37:00,470
+pessoas podem atuar de quais são as
+
+913
+00:36:57,739 --> 00:37:02,169
+habilidades necessário e Fundamental no
+
+914
+00:37:00,469 --> 00:37:04,489
+caminho para que as organizações
+
+915
+00:37:02,170 --> 00:37:06,950
+outras pessoas que desejam implantar
+
+916
+00:37:04,489 --> 00:37:09,199
+deve real conseguiu estruturar a TIM e
+
+917
+00:37:06,949 --> 00:37:11,779
+essa inquietação pois a falar não é só
+
+918
+00:37:09,199 --> 00:37:13,099
+era canto da comunidade científica nós
+
+919
+00:37:11,780 --> 00:37:14,750
+como da comunidade científica da
+
+920
+00:37:13,099 --> 00:37:17,360
+indústria que a gente considera a
+
+921
+00:37:14,750 --> 00:37:20,000
+indústria a discussões sobre papel de
+
+922
+00:37:17,360 --> 00:37:22,849
+Daniel Por exemplo tá meio tempo que a
+
+923
+00:37:20,000 --> 00:37:25,679
+diretoria deve réu agora na cá muda nela
+
+924
+00:37:22,849 --> 00:37:29,250
+e Inclusive a altura de um ano o velho
+
+925
+00:37:25,679 --> 00:37:33,269
+óptico leitor ou i-tec boca meninas Park
+
+926
+00:37:29,250 --> 00:37:34,949
+New York quer um aqui uma livro que a
+
+927
+00:37:33,269 --> 00:37:36,360
+gente até usa como base aquela casa
+
+928
+00:37:34,949 --> 00:37:39,539
+experiências né que você falou para mim
+
+929
+00:37:36,360 --> 00:37:42,090
+lá trabalha lá nesse livro A Light está
+
+930
+00:37:39,539 --> 00:37:43,829
+uma a uma variedade de papéis Ltda réu
+
+931
+00:37:42,090 --> 00:37:46,440
+Mas nenhum deles faz um trabalho
+
+932
+00:37:43,829 --> 00:37:48,630
+particularmente bom e descrever
+
+933
+00:37:46,440 --> 00:37:51,900
+exatamente cada qualquer um bolo e aí
+
+934
+00:37:48,630 --> 00:37:54,170
+aqui Magda outra mulher e uma das
+
+935
+00:37:51,900 --> 00:37:56,369
+autoras do estudo que a gente fez na do
+
+936
+00:37:54,170 --> 00:37:58,769
+todos os artigos identificados neste
+
+937
+00:37:56,369 --> 00:38:01,469
+mundo que ele fez ela também diretores
+
+938
+00:37:58,769 --> 00:38:04,559
+das réu é uma empresa ela argumenta por
+
+939
+00:38:01,469 --> 00:38:06,239
+exemplo o DJ aperte Ok e o evangelho de
+
+940
+00:38:04,559 --> 00:38:09,269
+desenvolvedores São frequentemente
+
+941
+00:38:06,239 --> 00:38:10,709
+usados de forma intercambiável seja como
+
+942
+00:38:09,269 --> 00:38:13,079
+se fosse em si mesmas coisas podem
+
+943
+00:38:10,710 --> 00:38:15,179
+termos de prática ela menciona advocacia
+
+944
+00:38:13,079 --> 00:38:17,009
+Evangelistas não sou e nem e quando nós
+
+945
+00:38:15,179 --> 00:38:19,799
+analisamos a comunidade científica não
+
+946
+00:38:17,010 --> 00:38:22,860
+existe de pesquisa não somente ainda
+
+947
+00:38:19,800 --> 00:38:25,350
+Delta quando terminou mas literatura
+
+948
+00:38:22,860 --> 00:38:28,300
+sobre tipo de direito só tem como o
+
+949
+00:38:25,349 --> 00:38:31,509
+top apesar de existir há poucos estudos
+
+950
+00:38:28,300 --> 00:38:33,640
+que me tornem Evangelistas époque nenhum
+
+951
+00:38:31,510 --> 00:38:35,410
+estudo investigou esse papel e eu vi que
+
+952
+00:38:33,639 --> 00:38:37,809
+nós fizemos assim só para dar um
+
+953
+00:38:35,409 --> 00:38:39,460
+Panorama e eu entrar na o resumo que
+
+954
+00:38:37,809 --> 00:38:41,279
+você pediu mas não sei que estamos um
+
+955
+00:38:39,460 --> 00:38:43,720
+estudo como parte de um tecido de rolo
+
+956
+00:38:41,280 --> 00:38:45,580
+Rafaela que é para ver aquilo os
+
+957
+00:38:43,719 --> 00:38:48,250
+créditos para ele tem que usei foi
+
+958
+00:38:45,579 --> 00:38:50,110
+publicado nos 10/2021 muita gente
+
+959
+00:38:48,250 --> 00:38:52,480
+investigou esses papéis escrevendo
+
+960
+00:38:50,110 --> 00:38:54,700
+definições e habilidade para cada um dos
+
+961
+00:38:52,480 --> 00:38:56,740
+papéis reeditado e esse estudo ele foi
+
+962
+00:38:54,699 --> 00:38:59,409
+conduzido usando o Messenger literature
+
+963
+00:38:56,739 --> 00:39:02,139
+review os valores fontes do vídeo e do
+
+964
+00:38:59,409 --> 00:39:03,460
+deve come um tomate buscavam os artigos
+
+965
+00:39:02,139 --> 00:39:05,769
+que eram voltamos a palavra chave
+
+966
+00:39:03,460 --> 00:39:09,159
+daquela por leite e nós garantimos a
+
+967
+00:39:05,769 --> 00:39:11,259
+qualidade desses desses artigos se
+
+968
+00:39:09,159 --> 00:39:13,210
+aquele voltou a partir de uma análise do
+
+969
+00:39:11,260 --> 00:39:14,650
+perfil dele não entendi realmente tem
+
+970
+00:39:13,210 --> 00:39:17,769
+uma experiência da Vila por leite então
+
+971
+00:39:14,650 --> 00:39:19,630
+nós alcançamos aí 132 artigos de 116
+
+972
+00:39:17,769 --> 00:39:23,139
+profissionais aí aplicamos entre
+
+973
+00:39:19,630 --> 00:39:25,369
+sistemático e discuti-las 9 papéis
+
+974
+00:39:23,139 --> 00:39:27,289
+existem na área 1 a própria
+
+975
+00:39:25,369 --> 00:39:29,239
+profissionais da própria lei do outro
+
+976
+00:39:27,289 --> 00:39:31,880
+Evangelistas desenvolvedores ou
+
+977
+00:39:29,239 --> 00:39:33,409
+evangeliz um camiseiro português o
+
+978
+00:39:31,880 --> 00:39:35,510
+terceiro nesse defensor de
+
+979
+00:39:33,409 --> 00:39:37,969
+desenvolvedores mais chamado quanto é
+
+980
+00:39:35,510 --> 00:39:39,830
+que é uma tradução para português mas a
+
+981
+00:39:37,969 --> 00:39:41,509
+gente foram travadas é o Edson quei
+
+982
+00:39:39,829 --> 00:39:43,250
+gerente daquela por lei são os
+
+983
+00:39:41,510 --> 00:39:45,260
+organizadores e convidados engenheiro de
+
+984
+00:39:43,250 --> 00:39:47,809
+programas desenvolvedores Engenheiro
+
+985
+00:39:45,260 --> 00:39:50,060
+diferentes produto marketing de deves e
+
+986
+00:39:47,809 --> 00:39:51,440
+o escritor ou escritora técnico aqui eu
+
+987
+00:39:50,059 --> 00:39:53,599
+vou passar só por 3 que são mais
+
+988
+00:39:51,440 --> 00:39:56,539
+frequentes no artigo tomate utilize
+
+989
+00:39:53,599 --> 00:39:58,190
+papéis é diferença entre eles e aí um
+
+990
+00:39:56,539 --> 00:39:59,630
+profissional de desenho por exemplo é um
+
+991
+00:39:58,190 --> 00:40:01,760
+papel que a gente percebeu com mais
+
+992
+00:39:59,630 --> 00:40:04,730
+genérico você não tem ainda muitas
+
+993
+00:40:01,760 --> 00:40:06,710
+estratégias definidas ou mais diretas na
+
+994
+00:40:04,730 --> 00:40:08,360
+próxima da comunidade e você não quer
+
+995
+00:40:06,710 --> 00:40:11,360
+também investir em papéis específicos
+
+996
+00:40:08,360 --> 00:40:13,640
+você contrata um profissional de Daniel
+
+997
+00:40:11,360 --> 00:40:16,789
+e aí você consegue iniciar a área ele
+
+998
+00:40:13,639 --> 00:40:20,839
+consegue executar ações mas em largura
+
+999
+00:40:16,789 --> 00:40:22,969
+né palestra em as partes de vídeo enfim
+
+1000
+00:40:20,840 --> 00:40:25,320
+até a gente somente largura que alcançou
+
+1001
+00:40:22,969 --> 00:40:26,489
+mais Multidões em Piraju o que você
+
+1002
+00:40:25,320 --> 00:40:29,850
+também pode ser assuntos mais de
+
+1003
+00:40:26,489 --> 00:40:33,419
+advocacia é que quando você faz aquele
+
+1004
+00:40:29,849 --> 00:40:36,239
+contato um da curadoria Você conhece mas
+
+1005
+00:40:33,420 --> 00:40:37,710
+os desenvolvedores que estão mais ali e
+
+1006
+00:40:36,239 --> 00:40:39,509
+potencialmente contribuir com mais
+
+1007
+00:40:37,710 --> 00:40:41,220
+qualidade para tua colocar forma
+
+1008
+00:40:39,510 --> 00:40:43,440
+especificamente Evangelista elétrico
+
+1009
+00:40:41,219 --> 00:40:46,199
+quente que apareceram muito nessa também
+
+1010
+00:40:43,440 --> 00:40:47,369
+nos papéis indicado vamos dizer que o
+
+1011
+00:40:46,199 --> 00:40:50,699
+evangelista inclusive ter uma
+
+1012
+00:40:47,369 --> 00:40:53,159
+curiosidade em alguns países que por
+
+1013
+00:40:50,699 --> 00:40:55,079
+exemplo prática o Islamismo as empresas
+
+1014
+00:40:53,159 --> 00:40:57,299
+não usa evangelismo porque tem a questão
+
+1015
+00:40:55,079 --> 00:40:59,639
+cultural então isso aqui até bem
+
+1016
+00:40:57,300 --> 00:41:01,350
+interessante trazer o evangelista ele
+
+1017
+00:40:59,639 --> 00:41:02,460
+pode ser a favor da organização ele é
+
+1018
+00:41:01,349 --> 00:41:04,619
+mais visto como a favor da organização
+
+1019
+00:41:02,460 --> 00:41:06,599
+esteja Assumir mais a venda do seu
+
+1020
+00:41:04,619 --> 00:41:07,699
+produto e das relações de produção
+
+1021
+00:41:06,599 --> 00:41:10,199
+relações
+
+1022
+00:41:07,699 --> 00:41:12,689
+atingido ecossistema de largura Então é
+
+1023
+00:41:10,199 --> 00:41:14,309
+ele que vai lá conversa com grande parte
+
+1024
+00:41:12,690 --> 00:41:16,230
+das pessoas e divulga mais a mensagem
+
+1025
+00:41:14,309 --> 00:41:18,420
+estava para fechar nossa especialmente o
+
+1026
+00:41:16,230 --> 00:41:20,610
+Edson Ok Ele parece isso é a parte do
+
+1027
+00:41:18,420 --> 00:41:22,070
+que foi analisado mas a favor dos
+
+1028
+00:41:20,610 --> 00:41:25,710
+desenvolvedores dentro da organização
+
+1029
+00:41:22,070 --> 00:41:28,600
+então ele tenta ao máximo e é
+
+1030
+00:41:25,710 --> 00:41:31,269
+potencializar o ter visto da organização
+
+1031
+00:41:28,599 --> 00:41:33,460
+aos desenvolvedores Pode parecer que o
+
+1032
+00:41:31,269 --> 00:41:35,829
+Edson que ele não prioriza os objetivos
+
+1033
+00:41:33,460 --> 00:41:37,030
+da organização naquele prioriza né só
+
+1034
+00:41:35,829 --> 00:41:39,250
+que ele faz a partir de uma relação
+
+1035
+00:41:37,030 --> 00:41:40,690
+muito mais próxima com uma pessoa
+
+1036
+00:41:39,250 --> 00:41:42,880
+desenvolvedora bem aqui que a gente
+
+1037
+00:41:40,690 --> 00:41:45,070
+percebeu assim segunda parte dessa
+
+1038
+00:41:42,880 --> 00:41:47,980
+pergunta como implicações desse estudo
+
+1039
+00:41:45,070 --> 00:41:50,769
+para pesquisa a gente até percebeu e o
+
+1040
+00:41:47,980 --> 00:41:52,179
+que existe deve réu na literatura
+
+1041
+00:41:50,769 --> 00:41:53,259
+direita e solta até menciona alguns
+
+1042
+00:41:52,179 --> 00:41:56,259
+papéis que não mencionei anteriormente
+
+1043
+00:41:53,260 --> 00:41:58,150
+fora em a gente entende que é necessário
+
+1044
+00:41:56,260 --> 00:42:00,100
+pesquisar mais pra entendesse papéis que
+
+1045
+00:41:58,150 --> 00:42:02,079
+nós identificamos estão impactados pela
+
+1046
+00:42:00,099 --> 00:42:04,329
+cultura como eu exemplo do evangelista e
+
+1047
+00:42:02,079 --> 00:42:06,819
+o Islamismo estratégia organizacional
+
+1048
+00:42:04,329 --> 00:42:09,130
+parece ou é impactado por isso até já
+
+1049
+00:42:06,820 --> 00:42:11,170
+organização não existe alguma função que
+
+1050
+00:42:09,130 --> 00:42:13,300
+é mais importante para concientizar o
+
+1051
+00:42:11,170 --> 00:42:16,450
+engajar as comunidades outros objetivos
+
+1052
+00:42:13,300 --> 00:42:18,370
+de fato Outro ponto também é como essas
+
+1053
+00:42:16,449 --> 00:42:20,589
+equipes deve elas são formadas
+
+1054
+00:42:18,369 --> 00:42:22,269
+dependendo do tamanho da organização e
+
+1055
+00:42:20,590 --> 00:42:25,510
+dependendo também dos objetivos que você
+
+1056
+00:42:22,269 --> 00:42:27,710
+tem para a indústria a gente for é algo
+
+1057
+00:42:25,510 --> 00:42:30,980
+inicialmente que serve de base para
+
+1058
+00:42:27,710 --> 00:42:33,079
+definir papéis as atividades e essas
+
+1059
+00:42:30,980 --> 00:42:35,480
+informações que nós identificamos elas
+
+1060
+00:42:33,079 --> 00:42:37,549
+ajudam a responder de forma interna da
+
+1061
+00:42:35,480 --> 00:42:39,050
+tua organização e externa para as
+
+1062
+00:42:37,550 --> 00:42:41,289
+comunidades envolvidas negócios temos
+
+1063
+00:42:39,050 --> 00:42:44,690
+uma pergunta que é muito frequente
+
+1064
+00:42:41,289 --> 00:42:47,000
+inclusive motivo né Aí é só o que é
+
+1065
+00:42:44,690 --> 00:42:48,920
+ótimo para quem está tempo que um
+
+1066
+00:42:47,000 --> 00:42:50,960
+profissional deve rolls-royce então
+
+1067
+00:42:48,920 --> 00:42:54,019
+esses profissionais podem nos papéis
+
+1068
+00:42:50,960 --> 00:42:57,889
+para compor a equipe né inclusive para
+
+1069
+00:42:54,019 --> 00:43:00,170
+ajudar a entender a maturidade mas dos
+
+1070
+00:42:57,889 --> 00:43:03,139
+processos organizacionais em torno de de
+
+1071
+00:43:00,170 --> 00:43:05,210
+vieram para educação que algo que eu
+
+1072
+00:43:03,139 --> 00:43:06,650
+tenho tem investido na pesquisa agora
+
+1073
+00:43:05,210 --> 00:43:09,079
+tem uma aluna trabalhando em modelo de
+
+1074
+00:43:06,650 --> 00:43:10,910
+habilidades para nos ajudar a formar
+
+1075
+00:43:09,079 --> 00:43:12,380
+profissionais de Daniel lembrando da
+
+1076
+00:43:10,909 --> 00:43:15,289
+quantidade de vagas que Eu mencionei no
+
+1077
+00:43:12,380 --> 00:43:16,849
+início que existem né a gente vai sair
+
+1078
+00:43:15,289 --> 00:43:19,130
+pelos cursos de graduação e demais
+
+1079
+00:43:16,849 --> 00:43:20,289
+modalidades de ensino não contém plantar
+
+1080
+00:43:19,130 --> 00:43:23,090
+a
+
+1081
+00:43:20,289 --> 00:43:25,829
+conteúdos que estão decidir essa
+
+1082
+00:43:23,090 --> 00:43:27,990
+formação de competências e para deve réu
+
+1083
+00:43:25,829 --> 00:43:30,569
+a isso aqui é uma discussão de venda
+
+1084
+00:43:27,989 --> 00:43:32,009
+aqui os habilidades brandas que não são
+
+1085
+00:43:30,570 --> 00:43:34,440
+as permissões de Daniel mas que a gente
+
+1086
+00:43:32,010 --> 00:43:37,220
+tava discutindo na essa Mas como que a
+
+1087
+00:43:34,440 --> 00:43:39,570
+gente forma então pessoas que vão saber
+
+1088
+00:43:37,219 --> 00:43:41,730
+trabalhar o ponto de vista econômico de
+
+1089
+00:43:39,570 --> 00:43:43,860
+negócio percepção de valor tem uma
+
+1090
+00:43:41,730 --> 00:43:46,860
+pessoa que são técnica de monitoramento
+
+1091
+00:43:43,860 --> 00:43:49,380
+de gerência pé tem pessoas que saem da
+
+1092
+00:43:46,860 --> 00:43:51,510
+graduação e acabam assumindo o papel
+
+1093
+00:43:49,380 --> 00:43:52,710
+inicial de dela para leite mas é claro
+
+1094
+00:43:51,510 --> 00:43:55,260
+que eles são não são todas as
+
+1095
+00:43:52,710 --> 00:43:57,960
+responsabilidades que um tem não teria
+
+1096
+00:43:55,260 --> 00:43:59,790
+mais como que a gente prepara festa do
+
+1097
+00:43:57,960 --> 00:44:02,820
+consigo esteja educação como que a gente
+
+1098
+00:43:59,789 --> 00:44:05,639
+ajuda é essa geração que vai sendo
+
+1099
+00:44:02,820 --> 00:44:07,530
+formado agora a também conseguir já tem
+
+1100
+00:44:05,639 --> 00:44:09,839
+submeter para Vargas Desde daquela por
+
+1101
+00:44:07,530 --> 00:44:11,460
+leite então discutir essa importância
+
+1102
+00:44:09,840 --> 00:44:14,880
+desse profissional é importante para
+
+1103
+00:44:11,460 --> 00:44:16,740
+educação e começa a disciplina e que nós
+
+1104
+00:44:14,880 --> 00:44:18,599
+ministramos Hoje pensamos contribuir
+
+1105
+00:44:16,739 --> 00:44:20,099
+para suas atividades e aí esse é o ponto
+
+1106
+00:44:18,599 --> 00:44:21,809
+que eu considero mais importante do
+
+1107
+00:44:20,099 --> 00:44:25,529
+ponto de vista desse estudo nos papéis
+
+1108
+00:44:21,809 --> 00:44:28,779
+são as habilidades que nós precisamos a
+
+1109
+00:44:25,530 --> 00:44:30,670
+desenvolver para conseguir além das
+
+1110
+00:44:28,780 --> 00:44:33,370
+técnicas a gente conseguir também
+
+1111
+00:44:30,670 --> 00:44:35,460
+trabalhar e como é dentro dessa área
+
+1112
+00:44:33,369 --> 00:44:39,460
+Claro quem quiser Ah
+
+1113
+00:44:35,460 --> 00:44:45,179
+e eu tenho duas perguntas a falou assim
+
+1114
+00:44:39,460 --> 00:44:48,220
+com base nessa tua resposta a primeira é
+
+1115
+00:44:45,179 --> 00:44:50,259
+com relação ao tamanho da empresa não é
+
+1116
+00:44:48,219 --> 00:44:52,569
+o pano que faz sentido a gente pensar em
+
+1117
+00:44:50,260 --> 00:44:53,640
+todos esses papéis que momento que uma
+
+1118
+00:44:52,570 --> 00:44:56,610
+empresa
+
+1119
+00:44:53,639 --> 00:44:58,929
+deve investir nisso e
+
+1120
+00:44:56,610 --> 00:45:01,090
+considerando o que ela tem um cenário né
+
+1121
+00:44:58,929 --> 00:45:04,509
+Tem um produto para desenvolvedores a
+
+1122
+00:45:01,090 --> 00:45:06,970
+segunda pergunta é que tu mencionou a
+
+1123
+00:45:04,510 --> 00:45:11,070
+respeito da formação que a gente deve
+
+1124
+00:45:06,969 --> 00:45:14,769
+dar mas para mim não fica claro que o
+
+1125
+00:45:11,070 --> 00:45:16,600
+vamos ver o alvo do Davi Réus são os
+
+1126
+00:45:14,769 --> 00:45:19,420
+desenvolvedores mas para mim não fica
+
+1127
+00:45:16,599 --> 00:45:21,880
+claro que o papel de deve réu deve ser
+
+1128
+00:45:19,420 --> 00:45:23,260
+comido por um alguém que é um cientista
+
+1129
+00:45:21,880 --> 00:45:26,180
+da Computação engenharia da computação
+
+1130
+00:45:23,260 --> 00:45:27,950
+porque me para é muito mais aí a parte
+
+1131
+00:45:26,179 --> 00:45:30,859
+pouco de administração um pouco de
+
+1132
+00:45:27,949 --> 00:45:32,230
+marketing Então para mim não fica claro
+
+1133
+00:45:30,860 --> 00:45:35,180
+que isso
+
+1134
+00:45:32,230 --> 00:45:37,639
+uma ingresso de um curso da Computação
+
+1135
+00:45:35,179 --> 00:45:40,279
+seja a pessoa mais adequada para
+
+1136
+00:45:37,639 --> 00:45:43,429
+preencher uma vaga de deve bem Agradeço
+
+1137
+00:45:40,280 --> 00:45:46,760
+as perguntas ainda de novo é a primeira
+
+1138
+00:45:43,429 --> 00:45:49,279
+relacionada ao tamanho da empresa bem é
+
+1139
+00:45:46,760 --> 00:45:51,430
+bem natural nosso mesmo é empresas
+
+1140
+00:45:49,280 --> 00:45:54,080
+multinacionais que já tem uma super bem
+
+1141
+00:45:51,429 --> 00:45:56,349
+estabelecida né que tem orçamento é para
+
+1142
+00:45:54,079 --> 00:45:58,489
+conseguir investimentos Inclusive tem
+
+1143
+00:45:56,349 --> 00:46:01,449
+desenvolvedores os olhos que demandam
+
+1144
+00:45:58,489 --> 00:46:04,699
+muito realmente produtos na prefeitura
+
+1145
+00:46:01,449 --> 00:46:05,829
+desenvolvedor. Produtos aí já gerados a
+
+1146
+00:46:04,699 --> 00:46:07,939
+partir dessas contribuições
+
+1147
+00:46:05,829 --> 00:46:11,710
+desenvolvedores ali por usuários que não
+
+1148
+00:46:07,940 --> 00:46:14,780
+bem é mais a empresa também que tem
+
+1149
+00:46:11,710 --> 00:46:17,389
+enviais é que tem ferramentas que não
+
+1150
+00:46:14,780 --> 00:46:20,210
+são tão grandes e precisão nem
+
+1151
+00:46:17,389 --> 00:46:23,000
+estabelecer um melhor contato é com as
+
+1152
+00:46:20,210 --> 00:46:24,599
+suas comunidade acho que o acredita
+
+1153
+00:46:23,000 --> 00:46:26,750
+ponto de análise
+
+1154
+00:46:24,599 --> 00:46:30,360
+e se tiver da gente
+
+1155
+00:46:26,750 --> 00:46:33,300
+implantar uma área de Daniel seja a tua
+
+1156
+00:46:30,360 --> 00:46:35,910
+necessidade de expansão e cuidado da
+
+1157
+00:46:33,300 --> 00:46:37,980
+relação com a sua comunidade tão
+
+1158
+00:46:35,909 --> 00:46:40,460
+provavelmente alguns algum em algum
+
+1159
+00:46:37,980 --> 00:46:42,719
+cenário você vai sentir esta necessidade
+
+1160
+00:46:40,460 --> 00:46:44,400
+de que você vai ter que cuidar da
+
+1161
+00:46:42,719 --> 00:46:46,019
+comunidade Porque tem uma perda de ficar
+
+1162
+00:46:44,400 --> 00:46:48,450
+começando a existir começou a existir
+
+1163
+00:46:46,019 --> 00:46:51,300
+organicamente ali provavelmente É um
+
+1164
+00:46:48,449 --> 00:46:53,429
+cenário e você pode se aproveitar dessa
+
+1165
+00:46:51,300 --> 00:46:55,070
+situação para trazer a melhoria e
+
+1166
+00:46:53,429 --> 00:47:00,000
+expansão da sua plataforma
+
+1167
+00:46:55,070 --> 00:47:01,920
+outro é outra cenário é você já tem essa
+
+1168
+00:47:00,000 --> 00:47:03,780
+planta como de soft e você vê que ela
+
+1169
+00:47:01,920 --> 00:47:05,519
+tem muito potencial a gente tem um
+
+1170
+00:47:03,780 --> 00:47:07,650
+negócio bom e ela permite potenciar o
+
+1171
+00:47:05,519 --> 00:47:10,110
+dia que algumas pessoas usem essa UTI
+
+1172
+00:47:07,650 --> 00:47:13,590
+por exemplo e começa a trazer outras
+
+1173
+00:47:10,110 --> 00:47:15,780
+outras contribuições em torno ali da sua
+
+1174
+00:47:13,590 --> 00:47:18,360
+plataforma é veja que aí a gente pode
+
+1175
+00:47:15,780 --> 00:47:19,680
+perceber nesse breve cenários que a
+
+1176
+00:47:18,360 --> 00:47:20,720
+gente pode ser também somente de
+
+1177
+00:47:19,679 --> 00:47:23,669
+empresas
+
+1178
+00:47:20,719 --> 00:47:28,449
+diferente não é mais o cuidado a questão
+
+1179
+00:47:23,670 --> 00:47:31,450
+de a decisão aqui não é nem tô tamanho
+
+1180
+00:47:28,449 --> 00:47:33,369
+Mas é o que você tem contra objetivo ou
+
+1181
+00:47:31,449 --> 00:47:36,519
+estratégico em torno da sua plataforma
+
+1182
+00:47:33,369 --> 00:47:37,859
+se você sente necessidade você percebe
+
+1183
+00:47:36,519 --> 00:47:40,210
+que há um potencial
+
+1184
+00:47:37,860 --> 00:47:41,789
+né de comunidade que já são
+
+1185
+00:47:40,210 --> 00:47:45,670
+especializadas em torno da tua
+
+1186
+00:47:41,789 --> 00:47:47,369
+plataforma você pode investir você
+
+1187
+00:47:45,670 --> 00:47:50,860
+percebe que não a minha plataforma da
+
+1188
+00:47:47,369 --> 00:47:54,039
+imatura ou mesmo eu ainda não vejo o
+
+1189
+00:47:50,860 --> 00:47:56,289
+negócio né assim de uma forma mais clara
+
+1190
+00:47:54,039 --> 00:47:58,630
+em Turma da minha plataforma deixa o
+
+1191
+00:47:56,289 --> 00:48:00,969
+amadurecer na plataforma primeiro E aí
+
+1192
+00:47:58,630 --> 00:48:03,130
+eu vou analisar como que eu vou abrir
+
+1193
+00:48:00,969 --> 00:48:05,289
+essa plataforma de destaque estável
+
+1194
+00:48:03,130 --> 00:48:08,980
+robusto não é para que eu criei me encho
+
+1195
+00:48:05,289 --> 00:48:11,199
+de comunidades ao redor né é esse essa
+
+1196
+00:48:08,980 --> 00:48:14,440
+análise que tem que ser feito bem
+
+1197
+00:48:11,199 --> 00:48:15,969
+respondendo a segunda pergunta que o
+
+1198
+00:48:14,440 --> 00:48:17,500
+profissional de comunicação entre a
+
+1199
+00:48:15,969 --> 00:48:19,119
+situação da Computação o que
+
+1200
+00:48:17,500 --> 00:48:21,489
+profissional que pessoas que nós estamos
+
+1201
+00:48:19,119 --> 00:48:23,889
+formando de pode pode a tua mensagem
+
+1202
+00:48:21,489 --> 00:48:26,089
+quem é o precisa eu por exemplo sua
+
+1203
+00:48:23,889 --> 00:48:29,359
+necessidade eu não falei isso não é
+
+1204
+00:48:26,090 --> 00:48:30,650
+migrei para a direita e solta é o falar
+
+1205
+00:48:29,360 --> 00:48:31,910
+parte da minha experiência da
+
+1206
+00:48:30,650 --> 00:48:35,139
+experiência de outros colegas também
+
+1207
+00:48:31,909 --> 00:48:37,609
+conta é importante na verdade cara
+
+1208
+00:48:35,139 --> 00:48:39,980
+formação dentro das nossas áreas Então
+
+1209
+00:48:37,610 --> 00:48:42,200
+vou priorizar a primeira que eu lado da
+
+1210
+00:48:39,980 --> 00:48:43,490
+computação em nuvem sustentação Ângela
+
+1211
+00:48:42,199 --> 00:48:45,919
+da Computação sistemas de informação
+
+1212
+00:48:43,489 --> 00:48:47,750
+engenharia de software é área
+
+1213
+00:48:45,920 --> 00:48:49,220
+determinada as ações que a gente precisa
+
+1214
+00:48:47,750 --> 00:48:52,630
+por exemplo conversa sobre desenho que
+
+1215
+00:48:49,219 --> 00:48:56,179
+tem eu lembro que quando eu trabalhava
+
+1216
+00:48:52,630 --> 00:48:58,940
+Evangelistas de Nokia series 40 olha
+
+1217
+00:48:56,179 --> 00:49:01,099
+empregando aí a a minha idade quando eu
+
+1218
+00:48:58,940 --> 00:49:02,690
+trabalhava com a gente está indo até 140
+
+1219
+00:49:01,099 --> 00:49:06,079
+a gente é muita preocupação em alguns
+
+1220
+00:49:02,690 --> 00:49:08,030
+dispositivos com a forma que a pessoa ou
+
+1221
+00:49:06,079 --> 00:49:09,619
+ente ficava por exemplo um laço de
+
+1222
+00:49:08,030 --> 00:49:12,380
+repetição que ela colocava uma
+
+1223
+00:49:09,619 --> 00:49:13,909
+declaração lá é de variável do índice
+
+1224
+00:49:12,380 --> 00:49:16,970
+dentro do aço que aconteceu muito
+
+1225
+00:49:13,909 --> 00:49:19,579
+dependendo da comida e aí ou o bloco que
+
+1226
+00:49:16,969 --> 00:49:21,829
+ela colocava dentro dessas repetições ou
+
+1227
+00:49:19,579 --> 00:49:23,869
+no carregamento da aplicação que às
+
+1228
+00:49:21,829 --> 00:49:27,889
+vezes vai levar o plano de dados todinho
+
+1229
+00:49:23,869 --> 00:49:30,839
+da pessoa o desempenho computacional dos
+
+1230
+00:49:27,889 --> 00:49:32,639
+computadores de memória que vai consumir
+
+1231
+00:49:30,840 --> 00:49:35,640
+essa declaração da variável dependendo
+
+1232
+00:49:32,639 --> 00:49:38,009
+do dispositivo vai consumir não tá
+
+1233
+00:49:35,639 --> 00:49:41,400
+inclusive memória vai levar consumo de
+
+1234
+00:49:38,010 --> 00:49:44,010
+energia vai é perder bateria sido um
+
+1235
+00:49:41,400 --> 00:49:46,019
+pouco dispositivo reduzido então esses
+
+1236
+00:49:44,010 --> 00:49:49,590
+conhecimentos são de alguém tiver eu
+
+1237
+00:49:46,019 --> 00:49:53,119
+converso da computação é complexidade do
+
+1238
+00:49:49,590 --> 00:49:56,700
+algoritmo boas práticas decodificação
+
+1239
+00:49:53,119 --> 00:49:59,579
+pensar o projeto certo então são
+
+1240
+00:49:56,699 --> 00:50:02,519
+elementos que vem aí do profissional e
+
+1241
+00:49:59,579 --> 00:50:04,699
+que pode ser direcionado essa
+
+1242
+00:50:02,519 --> 00:50:07,769
+perspectiva muito mais técnica e
+
+1243
+00:50:04,699 --> 00:50:09,629
+pesada pode ser 3 horas é mais técnica e
+
+1244
+00:50:07,769 --> 00:50:12,989
+necessárias um personagem dela para hoje
+
+1245
+00:50:09,630 --> 00:50:15,390
+vou destacar outros pontos da Computação
+
+1246
+00:50:12,989 --> 00:50:17,250
+que são importantes que eu acabei
+
+1247
+00:50:15,389 --> 00:50:19,949
+falando essa questão da retomando a
+
+1248
+00:50:17,250 --> 00:50:23,699
+questão do dele a pessoa ter feito um
+
+1249
+00:50:19,949 --> 00:50:27,000
+código ali com enfim um um corpo de
+
+1250
+00:50:23,699 --> 00:50:29,619
+senhora que ele colocou e a o código de
+
+1251
+00:50:27,000 --> 00:50:31,210
+consumo de materiais dentro de uma se
+
+1252
+00:50:29,619 --> 00:50:33,190
+repetindo sempre que a pessoa ver
+
+1253
+00:50:31,210 --> 00:50:35,170
+aplicação por exemplo e vai usando todo
+
+1254
+00:50:33,190 --> 00:50:36,760
+quando os dados da pessoa cuidados
+
+1255
+00:50:35,170 --> 00:50:40,690
+básicos que a gente aprende também nossa
+
+1256
+00:50:36,760 --> 00:50:42,640
+na área de computação é Então essa
+
+1257
+00:50:40,690 --> 00:50:44,260
+discussão inclusive da computação e de
+
+1258
+00:50:42,639 --> 00:50:45,549
+porções de água por leite eu falei para
+
+1259
+00:50:44,260 --> 00:50:47,410
+vocês que ele também necessário
+
+1260
+00:50:45,550 --> 00:50:49,480
+internamente então às vezes é necessário
+
+1261
+00:50:47,409 --> 00:50:51,609
+que o porções da Bela por leite os
+
+1262
+00:50:49,480 --> 00:50:53,199
+dentes da sua organização passam análise
+
+1263
+00:50:51,610 --> 00:50:54,090
+de viabilidade de um estudo de uma nova
+
+1264
+00:50:53,199 --> 00:50:57,730
+tecnologia
+
+1265
+00:50:54,090 --> 00:51:00,579
+benchmark programme desenvolva é
+
+1266
+00:50:57,730 --> 00:51:04,090
+distribua conteúdo técnico em código ou
+
+1267
+00:51:00,579 --> 00:51:07,569
+e 30 técnica ou e vídeo com certo Rigor
+
+1268
+00:51:04,090 --> 00:51:09,610
+Que Nós aprendemos Na graduação para a
+
+1269
+00:51:07,570 --> 00:51:11,170
+para que as comunidades entendam aquele
+
+1270
+00:51:09,610 --> 00:51:13,450
+monstro aquele produto com qualidade a
+
+1271
+00:51:11,170 --> 00:51:15,880
+ali também a qualidade do que está sendo
+
+1272
+00:51:13,449 --> 00:51:19,469
+um espelho para não liberar um conteúdo
+
+1273
+00:51:15,880 --> 00:51:21,750
+que é incorreto o que vai gerar é
+
+1274
+00:51:19,469 --> 00:51:24,589
+problemas na inclusive decorrida
+
+1275
+00:51:21,750 --> 00:51:26,869
+respecone mal estruturado por explicar é
+
+1276
+00:51:24,590 --> 00:51:28,880
+feito na mão do usuário mas não foi mais
+
+1277
+00:51:26,869 --> 00:51:31,849
+fácil então aqui eu só para destacar o
+
+1278
+00:51:28,880 --> 00:51:33,579
+quanto é importante a gente ter um
+
+1279
+00:51:31,849 --> 00:51:36,349
+profissional com uma boa carga de
+
+1280
+00:51:33,579 --> 00:51:40,130
+computação atuando no Daniel áudio mas
+
+1281
+00:51:36,349 --> 00:51:43,699
+tem outra parte aí administrativa partir
+
+1282
+00:51:40,130 --> 00:51:46,460
+de gestão não é a partir de relações a
+
+1283
+00:51:43,699 --> 00:51:48,409
+partir de market boa 300 no comer fala
+
+1284
+00:51:46,460 --> 00:51:49,820
+Minha experiência do que eu vivi e do
+
+1285
+00:51:48,409 --> 00:51:51,859
+que eu sei que ainda acontece hoje a
+
+1286
+00:51:49,820 --> 00:51:54,380
+partir das intermitente para fazer as
+
+1287
+00:51:51,860 --> 00:51:57,260
+pesquisas em andamento bem Eu por
+
+1288
+00:51:54,380 --> 00:51:58,700
+exemplo se eu soubesse que eu trabalhar
+
+1289
+00:51:57,260 --> 00:52:00,590
+em algum momento quando ela parou aqui
+
+1290
+00:51:58,699 --> 00:52:02,839
+na minha vida eu teria valorizado mais a
+
+1291
+00:52:00,590 --> 00:52:04,640
+cadeira que eu tinha de Economia
+
+1292
+00:52:02,840 --> 00:52:06,829
+introdução à economia na comparação
+
+1293
+00:52:04,639 --> 00:52:08,989
+anual fã por exemplo quem é valorizada
+
+1294
+00:52:06,829 --> 00:52:11,090
+mais teoria geral da administração tinha
+
+1295
+00:52:08,989 --> 00:52:15,799
+valorizado outras disciplinas de gestão
+
+1296
+00:52:11,090 --> 00:52:17,990
+gerência e me ajudariam na a olhar
+
+1297
+00:52:15,800 --> 00:52:19,700
+melhor é esses elementos teria
+
+1298
+00:52:17,989 --> 00:52:22,219
+valorizado na disputa na modelagem de
+
+1299
+00:52:19,699 --> 00:52:24,629
+processo de negócio essa soubesse que
+
+1300
+00:52:22,219 --> 00:52:27,629
+existisse naquela época só profissão tá
+
+1301
+00:52:24,630 --> 00:52:30,390
+certo aí quando eu formei terminar a
+
+1302
+00:52:27,630 --> 00:52:32,550
+graduação 2009 2010 colei grau aí eu
+
+1303
+00:52:30,389 --> 00:52:34,769
+tava começando a ter disposição em
+
+1304
+00:52:32,550 --> 00:52:36,510
+alguns livros sobre permite evangelismo
+
+1305
+00:52:34,769 --> 00:52:38,340
+então para perceber que se eu tivesse já
+
+1306
+00:52:36,510 --> 00:52:39,630
+está visão e conseguiria colocar eu
+
+1307
+00:52:38,340 --> 00:52:41,490
+quero que para manter essa carreira
+
+1308
+00:52:39,630 --> 00:52:44,309
+então eu vou me dedicar Vou cobrar do
+
+1309
+00:52:41,489 --> 00:52:47,009
+professor cenários aplicados a Débora
+
+1310
+00:52:44,309 --> 00:52:50,940
+por lei a partir de gestão de ban de
+
+1311
+00:52:47,010 --> 00:52:54,660
+orçamentos né mas as outras Partes como
+
+1312
+00:52:50,940 --> 00:52:57,030
+eu interagir com pessoas é estabelecer
+
+1313
+00:52:54,659 --> 00:52:58,679
+relações são habilidades mais sociais eu
+
+1314
+00:52:57,030 --> 00:53:00,390
+Talvez teria aproveitado mais
+
+1315
+00:52:58,679 --> 00:53:03,109
+oportunidades que eu tive de apresentar
+
+1316
+00:53:00,389 --> 00:53:05,069
+trabalho de interagir em grupos né
+
+1317
+00:53:03,110 --> 00:53:07,170
+vivido mais experiências de organização
+
+1318
+00:53:05,070 --> 00:53:09,690
+de eventos dentro da Universidade então
+
+1319
+00:53:07,170 --> 00:53:11,070
+sempre soubesse da área eu teria
+
+1320
+00:53:09,690 --> 00:53:12,869
+desenvolvido inicialmente algumas
+
+1321
+00:53:11,070 --> 00:53:14,700
+Temporadas no verão nas habilidades
+
+1322
+00:53:12,869 --> 00:53:16,409
+porque eu dou certeza consideraria ser
+
+1323
+00:53:14,699 --> 00:53:18,960
+um profissional comigo fui né e agora
+
+1324
+00:53:16,409 --> 00:53:21,569
+pesquisador da área então assim operação
+
+1325
+00:53:18,960 --> 00:53:23,639
+stephanye pesquisa P essa parte técnica
+
+1326
+00:53:21,570 --> 00:53:26,350
+porque imagina você e você vai para
+
+1327
+00:53:23,639 --> 00:53:29,650
+evento E aí e fala sei vou usar frente
+
+1328
+00:53:26,349 --> 00:53:32,440
+aqui para conseguir se você aí é mais
+
+1329
+00:53:29,650 --> 00:53:34,570
+pra caramba de leitura então venham
+
+1330
+00:53:32,440 --> 00:53:36,639
+profissional que vai trabalhar lá na tua
+
+1331
+00:53:34,570 --> 00:53:38,950
+Universidade ele é um pouco mais daquela
+
+1332
+00:53:36,639 --> 00:53:40,829
+por leite alguma organização eficaz com
+
+1333
+00:53:38,949 --> 00:53:44,799
+você e aí Ele comete um erro de
+
+1334
+00:53:40,829 --> 00:53:46,690
+arquitetura na na sala dele né eu ele
+
+1335
+00:53:44,800 --> 00:53:49,480
+explicando algo que a tecnologia precisa
+
+1336
+00:53:46,690 --> 00:53:51,550
+usar aí a confiança sua em relação
+
+1337
+00:53:49,480 --> 00:53:53,440
+aquele profissional tá Inclusive a sua
+
+1338
+00:53:51,550 --> 00:53:55,120
+consciência e sua relação com a
+
+1339
+00:53:53,440 --> 00:53:57,639
+orientação que mandou aquele
+
+1340
+00:53:55,119 --> 00:53:59,829
+profissional que já dente não teve uma
+
+1341
+00:53:57,639 --> 00:54:02,289
+fala confiável no livro de conhecimento
+
+1342
+00:53:59,829 --> 00:54:04,840
+então esses profissionais precisam ter
+
+1343
+00:54:02,289 --> 00:54:07,840
+essa base técnica para conseguir ter um
+
+1344
+00:54:04,840 --> 00:54:10,120
+bom desempenho Aldrin No Brasil existem
+
+1345
+00:54:07,840 --> 00:54:12,670
+grandes Universidades situadas em
+
+1346
+00:54:10,119 --> 00:54:15,369
+cidades maiores São Paulo Rio Belo
+
+1347
+00:54:12,670 --> 00:54:17,680
+Horizonte e que historicamente atrai
+
+1348
+00:54:15,369 --> 00:54:19,029
+mais é cursos facilitando o
+
+1349
+00:54:17,679 --> 00:54:21,759
+desenvolvimento pessoal do
+
+1350
+00:54:19,030 --> 00:54:24,100
+professor-pesquisador você é professor
+
+1351
+00:54:21,760 --> 00:54:27,530
+da Universidade Federal do Mato Grosso
+
+1352
+00:54:24,099 --> 00:54:29,389
+Do e se observa que a desafios em atuar
+
+1353
+00:54:27,530 --> 00:54:33,410
+como professor fora dos tradicionais
+
+1354
+00:54:29,389 --> 00:54:35,960
+centros de pesquisa a diferença é essa
+
+1355
+00:54:33,409 --> 00:54:38,359
+questão até é algo motivador para mim
+
+1356
+00:54:35,960 --> 00:54:40,250
+então como vocês sabem Eu já falei eu
+
+1357
+00:54:38,360 --> 00:54:43,490
+vindo e com o teu fã Então já vi de uma
+
+1358
+00:54:40,250 --> 00:54:46,670
+região do norte e o salário já não é tão
+
+1359
+00:54:43,489 --> 00:54:48,169
+assim é positiva para que eu encontro
+
+1360
+00:54:46,670 --> 00:54:51,139
+ele vive uma realidade que esse tipo de
+
+1361
+00:54:48,170 --> 00:54:53,030
+empresa ali no norte mas é os incentivos
+
+1362
+00:54:51,139 --> 00:54:54,349
+né a partir da lei de informática então
+
+1363
+00:54:53,030 --> 00:54:55,970
+eu bebi Essa realidade durante a
+
+1364
+00:54:54,349 --> 00:54:58,610
+graduação na que tá de doutorado
+
+1365
+00:54:55,969 --> 00:55:00,469
+inclusive trabalhei empresa lá em Manaus
+
+1366
+00:54:58,610 --> 00:55:03,710
+então quando eu decidi aqui para falar
+
+1367
+00:55:00,469 --> 00:55:06,349
+com para o SMS também foi pelo desafio
+
+1368
+00:55:03,710 --> 00:55:08,570
+Eu lembro que eu sempre falava nas
+
+1369
+00:55:06,349 --> 00:55:11,360
+indústrias meu orientador né o arilo
+
+1370
+00:55:08,570 --> 00:55:12,710
+Rodrigo que eu gosto de desafio né claro
+
+1371
+00:55:11,360 --> 00:55:14,480
+que ele também só vou dizer aqui vamos
+
+1372
+00:55:12,710 --> 00:55:16,220
+desafio com o sofrimento é um pouquinho
+
+1373
+00:55:14,480 --> 00:55:17,420
+aí mas tem que ser desafiado e quando eu
+
+1374
+00:55:16,219 --> 00:55:20,719
+gostei fazer concurso para o
+
+1375
+00:55:17,420 --> 00:55:22,360
+centro-oeste ou SMS 21 tal né que foi
+
+1376
+00:55:20,719 --> 00:55:24,919
+que eu bloqueio que eu queria e passar
+
+1377
+00:55:22,360 --> 00:55:27,030
+eu acreditava que o centro-oeste e
+
+1378
+00:55:24,920 --> 00:55:28,769
+personalizado tem um potencial enorme
+
+1379
+00:55:27,030 --> 00:55:30,060
+para o meu desenvolvimento e para
+
+1380
+00:55:28,769 --> 00:55:32,639
+contribuir com o desenvolvimento da
+
+1381
+00:55:30,059 --> 00:55:34,829
+região então o primeiro desafio e eu
+
+1382
+00:55:32,639 --> 00:55:36,869
+considerei para mim eu compartilho a
+
+1383
+00:55:34,829 --> 00:55:38,969
+partir de conversa com os colegas é
+
+1384
+00:55:36,869 --> 00:55:41,039
+estabelecer uma identidade daqui da
+
+1385
+00:55:38,969 --> 00:55:42,509
+região Mato Grosso do Sul identificar
+
+1386
+00:55:41,039 --> 00:55:44,250
+nossas potencialidades identificadas
+
+1387
+00:55:42,510 --> 00:55:45,900
+para aqueles para criar um plano
+
+1388
+00:55:44,250 --> 00:55:47,789
+estratégico para a área de direito só
+
+1389
+00:55:45,900 --> 00:55:49,920
+estamos inclusive vai conversar
+
+1390
+00:55:47,789 --> 00:55:53,519
+internamente inclusive em saber alguns
+
+1391
+00:55:49,920 --> 00:55:55,769
+passos né esse pão outro desafio é
+
+1392
+00:55:53,519 --> 00:55:57,929
+contribuir para fomentar um ecossistema
+
+1393
+00:55:55,769 --> 00:55:59,909
+que entre empresas e instituições de
+
+1394
+00:55:57,929 --> 00:56:02,759
+ensino locais organismos externos a
+
+1395
+00:55:59,909 --> 00:56:05,039
+nossa região outros estados e países que
+
+1396
+00:56:02,760 --> 00:56:07,110
+gerem valor e programas existentes nas
+
+1397
+00:56:05,039 --> 00:56:10,139
+comunidades para todos os envolvidos
+
+1398
+00:56:07,110 --> 00:56:12,059
+aqui no Mato Grosso do Sul certo no
+
+1399
+00:56:10,139 --> 00:56:15,960
+próximo passo aí que é muito desafiantes
+
+1400
+00:56:12,059 --> 00:56:18,420
+justamente pela região aqui ser afastada
+
+1401
+00:56:15,960 --> 00:56:20,820
+deste grandes centros é valorizar os
+
+1402
+00:56:18,420 --> 00:56:23,700
+talentos locais e aqueles que acreditam
+
+1403
+00:56:20,820 --> 00:56:27,130
+né na facom ufms para educação a gente
+
+1404
+00:56:23,699 --> 00:56:29,799
+tem grupo D em recente de alto nível de
+
+1405
+00:56:27,130 --> 00:56:31,240
+docente também que pode ser conectado a
+
+1406
+00:56:29,800 --> 00:56:32,920
+oportunidade então ter problemas com
+
+1407
+00:56:31,239 --> 00:56:36,159
+atualização do isolamento nosso programa
+
+1408
+00:56:32,920 --> 00:56:39,010
+de pós né a nossa própria graduação em
+
+1409
+00:56:36,159 --> 00:56:40,989
+seu acho isso ruim pode fazer isso não
+
+1410
+00:56:39,010 --> 00:56:43,600
+né porque senão não estaria aqui já há
+
+1411
+00:56:40,989 --> 00:56:46,359
+dois anos é o que isso me uma obra esse
+
+1412
+00:56:43,599 --> 00:56:48,549
+desafio me move e o que a gente quer eu
+
+1413
+00:56:46,360 --> 00:56:50,980
+fiquei um curso meus colegas da com essa
+
+1414
+00:56:48,550 --> 00:56:52,480
+minha antes de começar e direto foca é
+
+1415
+00:56:50,980 --> 00:56:55,539
+deixar nossa marca para história dessa
+
+1416
+00:56:52,480 --> 00:56:58,449
+região então é desafiantes não é o país
+
+1417
+00:56:55,539 --> 00:57:00,009
+é um país Continental Mas o que eu vejo
+
+1418
+00:56:58,449 --> 00:57:02,259
+da comida direito protestante gente
+
+1419
+00:57:00,010 --> 00:57:04,870
+consegue fazer essas essas relações a
+
+1420
+00:57:02,260 --> 00:57:07,120
+indicações colaborações dinheiro de paz
+
+1421
+00:57:04,869 --> 00:57:09,880
+e as pessoas da comunidade tem essa
+
+1422
+00:57:07,119 --> 00:57:12,819
+preocupação inclusive na formação de nós
+
+1423
+00:57:09,880 --> 00:57:14,980
+que somos aí jovens Doutor pois eu deixo
+
+1424
+00:57:12,820 --> 00:57:16,960
+meu agradecimento aqui na inclusive não
+
+1425
+00:57:14,980 --> 00:57:19,030
+comissão a todas as pessoas mas aqui em
+
+1426
+00:57:16,960 --> 00:57:21,369
+nome de gostei de quem escuta porque é
+
+1427
+00:57:19,030 --> 00:57:22,990
+uma comunidade que nos direciona para eu
+
+1428
+00:57:21,369 --> 00:57:25,429
+falar para te dar uma experiência nessa
+
+1429
+00:57:22,989 --> 00:57:27,319
+ainda Doutora Alice nós vamos bom e as
+
+1430
+00:57:25,429 --> 00:57:29,239
+pessoas vêm conversam faz isso
+
+1431
+00:57:27,320 --> 00:57:31,820
+colaborando nessa perspectiva porque vem
+
+1432
+00:57:29,239 --> 00:57:33,529
+a importância de que seus resultados se
+
+1433
+00:57:31,820 --> 00:57:34,880
+desenvolvem as regiões se desenvolve a
+
+1434
+00:57:33,530 --> 00:57:37,730
+comunidade no Brasil também se
+
+1435
+00:57:34,880 --> 00:57:39,980
+desenvolve então acredito que para o
+
+1436
+00:57:37,730 --> 00:57:42,050
+nosso corpo pelo nosso corpo da frente
+
+1437
+00:57:39,980 --> 00:57:44,240
+endireite porta daqui três também se
+
+1438
+00:57:42,050 --> 00:57:46,280
+passado por cento são mais tradicionais
+
+1439
+00:57:44,239 --> 00:57:48,439
+a gente consegue trazer essa visão
+
+1440
+00:57:46,280 --> 00:57:51,350
+também né mas estratégica para o
+
+1441
+00:57:48,440 --> 00:57:53,570
+desenvolvimento local e regional bacana
+
+1442
+00:57:51,349 --> 00:57:57,230
+muito legal é esse hein tem muita gente
+
+1443
+00:57:53,570 --> 00:58:00,070
+as para de brasileiros na vida cérebro é
+
+1444
+00:57:57,230 --> 00:58:03,219
+muito legal o dia não
+
+1445
+00:58:00,070 --> 00:58:06,350
+uma fala né a prova Brasil para o
+
+1446
+00:58:03,219 --> 00:58:10,129
+desenvolvimento né e através de inovação
+
+1447
+00:58:06,349 --> 00:58:12,980
+que que a gente consegue né colocar um
+
+1448
+00:58:10,130 --> 00:58:16,309
+país para frente então e falando do
+
+1449
+00:58:12,980 --> 00:58:18,829
+Congresso Brasileiro de torta né o sobre
+
+1450
+00:58:16,309 --> 00:58:20,960
+soft do qual se possa o brasileiro de
+
+1451
+00:58:18,829 --> 00:58:23,719
+engenharia de software faz parte ele vai
+
+1452
+00:58:20,960 --> 00:58:26,329
+ser organizado na tua cidade porque e
+
+1453
+00:58:23,719 --> 00:58:30,480
+outras organizações o
+
+1454
+00:58:26,329 --> 00:58:32,579
+2023/2024 vai ser virtual e2023 né se
+
+1455
+00:58:30,480 --> 00:58:36,480
+Deus quiser Voltaremos a ser presidência
+
+1456
+00:58:32,579 --> 00:58:40,559
+ao aí então Mato Grosso do Sul o que que
+
+1457
+00:58:36,480 --> 00:58:42,360
+motivou a tua e a equipe toda nessas
+
+1458
+00:58:40,559 --> 00:58:46,190
+organizadores a fazer essa candidatura
+
+1459
+00:58:42,360 --> 00:58:49,829
+em primeira mão aqui no pronto e nós nos
+
+1460
+00:58:46,190 --> 00:58:52,470
+candidatamos então para 2003 e aqui eu
+
+1461
+00:58:49,829 --> 00:58:54,539
+começo a falam falando do time né pois
+
+1462
+00:58:52,469 --> 00:58:57,179
+eu vou acabar em posição algumas falas
+
+1463
+00:58:54,539 --> 00:59:00,090
+deles que é o Bruno caffeu a Débora tá
+
+1464
+00:58:57,179 --> 00:59:02,699
+ao Débora faz outro bosta Maristela e a
+
+1465
+00:59:00,090 --> 00:59:04,670
+Patrícia masturbar então de fato Todos
+
+1466
+00:59:02,699 --> 00:59:07,469
+nós temos uma ligação muito forte de
+
+1467
+00:59:04,670 --> 00:59:08,849
+formação de contribuição propiciada pelo
+
+1468
+00:59:07,469 --> 00:59:11,489
+congresso Então as apresentações de
+
+1469
+00:59:08,849 --> 00:59:12,769
+artigos participação de Octopus na época
+
+1470
+00:59:11,489 --> 00:59:15,539
+do mestrado e doutorado
+
+1471
+00:59:12,769 --> 00:59:17,400
+comitês de programa concurso de teses
+
+1472
+00:59:15,539 --> 00:59:20,000
+dissertações colaborações que foram
+
+1473
+00:59:17,400 --> 00:59:22,320
+estabelecidas no Congresso então a gente
+
+1474
+00:59:20,000 --> 00:59:24,610
+acreditou e acredita que já era um
+
+1475
+00:59:22,320 --> 00:59:27,640
+momento de uma forma muito respeitosa a
+
+1476
+00:59:24,610 --> 00:59:30,400
+ver a comunidade de software né eu
+
+1477
+00:59:27,639 --> 00:59:32,589
+viciando essa experiência de vocês virem
+
+1478
+00:59:30,400 --> 00:59:35,470
+a nossa casa então a gente aceitou E
+
+1479
+00:59:32,590 --> 00:59:37,990
+compre e desafios de organizar os
+
+1480
+00:59:35,469 --> 00:59:40,000
+cabeçote aqui na cidade morena o yin
+
+1481
+00:59:37,989 --> 00:59:41,619
+22023 né no Mato Grosso do Sul
+
+1482
+00:59:40,000 --> 00:59:44,409
+praticamente na faculdade de computação
+
+1483
+00:59:41,619 --> 00:59:46,809
+e a gente vai expandir a senha dando
+
+1484
+00:59:44,409 --> 00:59:48,190
+spoiler né a experiência de vocês para
+
+1485
+00:59:46,809 --> 00:59:50,199
+outra cidade nossa história então
+
+1486
+00:59:48,190 --> 00:59:52,690
+pressão sempre opte em Campo Grande mas
+
+1487
+00:59:50,199 --> 00:59:54,759
+com experiência expandida pelo nosso
+
+1488
+00:59:52,690 --> 00:59:56,530
+estado temos mundialmente conhecido aí
+
+1489
+00:59:54,760 --> 00:59:59,110
+pelo ecoturismo né como as cidades de
+
+1490
+00:59:56,530 --> 01:00:01,990
+Bonito vale a pena então Esperei a
+
+1491
+00:59:59,110 --> 01:00:04,420
+identidade visual que destaque o
+
+1492
+01:00:01,989 --> 01:00:07,299
+ecoturismo EA gente também é um grupo de
+
+1493
+01:00:04,420 --> 01:00:09,579
+flexo né mas não sei gerações informação
+
+1494
+01:00:07,300 --> 01:00:12,160
+e a gente tem muita vontade de marcar a
+
+1495
+01:00:09,579 --> 01:00:13,929
+facom ufms no mapa brasileiro da
+
+1496
+01:00:12,159 --> 01:00:15,059
+comunidade direita e solta e a gente tem
+
+1497
+01:00:13,929 --> 01:00:17,500
+um plano estratégico
+
+1498
+01:00:15,059 --> 01:00:19,570
+conversado entre os professores e
+
+1499
+01:00:17,500 --> 01:00:21,250
+organizar um congresso como ser detox
+
+1500
+01:00:19,570 --> 01:00:24,590
+comprar essa que a gente não tem estava
+
+1501
+01:00:21,250 --> 01:00:26,599
+agora mas surgiu a gente toca é
+
+1502
+01:00:24,590 --> 01:00:28,730
+é como se ele só que é uma das nossas
+
+1503
+01:00:26,599 --> 01:00:31,190
+metas dentro dos nossos Pilares
+
+1504
+01:00:28,730 --> 01:00:33,860
+estratégicos então para a gente discutir
+
+1505
+01:00:31,190 --> 01:00:36,349
+quando veio o convite e não houve
+
+1506
+01:00:33,860 --> 01:00:38,450
+nenhuma versão à vontade de você realiza
+
+1507
+01:00:36,349 --> 01:00:40,519
+Aí talvez esteja mais motivador
+
+1508
+01:00:38,449 --> 01:00:43,730
+inclusive para mim né vindo pressão
+
+1509
+01:00:40,519 --> 01:00:45,829
+Universidade O que é o a nossa voz a já
+
+1510
+01:00:43,730 --> 01:00:47,829
+deixa aqui para você né inclusive esse
+
+1511
+01:00:45,829 --> 01:00:50,630
+dia a gente já vem fazendo reunião
+
+1512
+01:00:47,829 --> 01:00:52,069
+discutindo muito é proporcionar uma
+
+1513
+01:00:50,630 --> 01:00:53,470
+excelente experiência para vocês
+
+1514
+01:00:52,070 --> 01:00:58,130
+principalmente
+
+1515
+01:00:53,469 --> 01:01:00,049
+dando a que a gente é discutir muito e
+
+1516
+01:00:58,130 --> 01:01:03,470
+determina muito aqui no Mato Grosso do
+
+1517
+01:01:00,050 --> 01:01:06,050
+Sul que as nossas ações elas estejam tem
+
+1518
+01:01:03,469 --> 01:01:07,339
+o ar da sustentabilidade Então a nossa
+
+1519
+01:01:06,050 --> 01:01:08,840
+proposta ela vai girar em torno de um
+
+1520
+01:01:07,340 --> 01:01:10,190
+serviço para ti com essa mensagem da
+
+1521
+01:01:08,840 --> 01:01:13,130
+sustentabilidade que é muito importante
+
+1522
+01:01:10,190 --> 01:01:16,309
+de agricultor ige assim como uma forte
+
+1523
+01:01:13,130 --> 01:01:18,769
+conexão com a gente desenvolver para que
+
+1524
+01:01:16,309 --> 01:01:21,369
+os cabeçotes também nos ajude a
+
+1525
+01:01:18,769 --> 01:01:24,599
+desenvolver mas essa ecossistema a
+
+1526
+01:01:21,369 --> 01:01:27,929
+valorizar é os nossos alunos os nossos é
+
+1527
+01:01:24,599 --> 01:01:29,250
+então que vocês conheçam a nossa casa
+
+1528
+01:01:27,929 --> 01:01:31,139
+com certeza que vão gostar uns de
+
+1529
+01:01:29,250 --> 01:01:35,130
+experiência está se dedicando para isso
+
+1530
+01:01:31,139 --> 01:01:39,449
+e eu espero vocês Esperamos vocês no
+
+1531
+01:01:35,130 --> 01:01:42,360
+Mato Grosso do Sul tá aí para gente Para
+
+1532
+01:01:39,449 --> 01:01:43,949
+que quando eu vier tá respeito aos meus
+
+1533
+01:01:42,360 --> 01:01:47,039
+amigos do Mato Grosso Mas precisamos
+
+1534
+01:01:43,949 --> 01:01:49,919
+Mato Grosso do Sul e é isso Esperamos
+
+1535
+01:01:47,039 --> 01:01:51,599
+vocês muito bom muito bom eu eu nasci
+
+1536
+01:01:49,920 --> 01:01:55,050
+antes de existir o Mato Grosso do Sul
+
+1537
+01:01:51,599 --> 01:01:57,269
+não sei se lembra né só era só o estado
+
+1538
+01:01:55,050 --> 01:01:59,130
+era uma figuraça é um dia ser ó coração
+
+1539
+01:01:57,269 --> 01:02:00,869
+dois Mato Grosso e Mato Grosso e
+
+1540
+01:01:59,130 --> 01:02:02,550
+segurança é que não que é que não
+
+1541
+01:02:00,869 --> 01:02:05,130
+chamaram Mato Grosso e cima de Mato
+
+1542
+01:02:02,550 --> 01:02:06,840
+Grosso do Norte lá dos Estados Unidos
+
+1543
+01:02:05,130 --> 01:02:09,599
+tem a Carolina do Norte Carolina do Sul
+
+1544
+01:02:06,840 --> 01:02:11,329
+vai ser enfim eu sou né também Rio
+
+1545
+01:02:09,599 --> 01:02:13,469
+Grande do Sul Rio Grande do Norte e
+
+1546
+01:02:11,329 --> 01:02:17,719
+nunca dei um problema de Serra Rio
+
+1547
+01:02:13,469 --> 01:02:17,719
+Grande do Sul
+
+1548
+01:02:18,500 --> 01:02:25,239
+Mas vamos chegando então a pergunta que
+
+1549
+01:02:21,780 --> 01:02:27,160
+definir aqui o nosso podcast Semp e eu
+
+1550
+01:02:25,239 --> 01:02:29,709
+gosto de lembrar que pode se algo que
+
+1551
+01:02:27,159 --> 01:02:31,929
+você acha que vai acontecer ou que você
+
+1552
+01:02:29,710 --> 01:02:34,929
+gostaria que acontecesse em nossa área
+
+1553
+01:02:31,929 --> 01:02:37,480
+para você qual é a próxima fronteira da
+
+1554
+01:02:34,929 --> 01:02:39,579
+engenharia de software a partir da
+
+1555
+01:02:37,480 --> 01:02:41,619
+discussão vocês perceberam aqui para mim
+
+1556
+01:02:39,579 --> 01:02:43,869
+aí fundamentais isso transparente
+
+1557
+01:02:41,619 --> 01:02:45,609
+developer with não verificação como a
+
+1558
+01:02:43,869 --> 01:02:48,519
+gente forma essas novas gerações não
+
+1559
+01:02:45,610 --> 01:02:50,470
+somente para atuar com de vapor leite
+
+1560
+01:02:48,519 --> 01:02:52,840
+mas principalmente na Perspectiva do
+
+1561
+01:02:50,469 --> 01:02:54,699
+entendimento de negócio valor em todos
+
+1562
+01:02:52,840 --> 01:02:57,390
+os tópicos não são perspectiva até aqui
+
+1563
+01:02:54,699 --> 01:03:00,129
+mas como essa perspectiva técnica é
+
+1564
+01:02:57,389 --> 01:03:02,650
+influencia né nos negócios que são
+
+1565
+01:03:00,130 --> 01:03:04,090
+desenvolvidos em torno só ter e que
+
+1566
+01:03:02,650 --> 01:03:07,119
+geram o valor que não é somente
+
+1567
+01:03:04,090 --> 01:03:09,910
+monetário né e move essa demanda Global
+
+1568
+01:03:07,119 --> 01:03:12,880
+da indústria principalmente a educação
+
+1569
+01:03:09,909 --> 01:03:16,119
+em um momento que é uma discussão né em
+
+1570
+01:03:12,880 --> 01:03:18,460
+alguns lugares se a necessidade mesmo de
+
+1571
+01:03:16,119 --> 01:03:21,670
+um diploma eu te falei que ar né a gente
+
+1572
+01:03:18,460 --> 01:03:24,590
+sabe como essas do papel da Universidade
+
+1573
+01:03:21,670 --> 01:03:25,119
+da função da Universidade então a gente
+
+1574
+01:03:24,590 --> 01:03:29,390
+e
+
+1575
+01:03:25,119 --> 01:03:31,369
+firmar mais ainda dá valor ao que as
+
+1576
+01:03:29,389 --> 01:03:34,849
+gerações anteriores da primeira direita
+
+1577
+01:03:31,369 --> 01:03:36,469
+e posta eu falo né pela geração é mais
+
+1578
+01:03:34,849 --> 01:03:38,150
+nova e te dá valor todo o trabalho que
+
+1579
+01:03:36,469 --> 01:03:40,639
+tem sido feito em torno da engenharia de
+
+1580
+01:03:38,150 --> 01:03:44,059
+software para trazer essa comunicação
+
+1581
+01:03:40,639 --> 01:03:46,369
+esse avanço do valor da área é para as
+
+1582
+01:03:44,059 --> 01:03:48,019
+novas gerações é tudo o entendimento as
+
+1583
+01:03:46,369 --> 01:03:50,539
+disciplinas que envolvem o Rigor
+
+1584
+01:03:48,019 --> 01:03:54,159
+necessário em torno da da engenharia de
+
+1585
+01:03:50,539 --> 01:03:56,960
+software e aí é para fechar com 10 Hair
+
+1586
+01:03:54,159 --> 01:04:00,739
+avaliar também eu acho que muito Impacto
+
+1587
+01:03:56,960 --> 01:04:03,289
+cultural da diversidade né das ações
+
+1588
+01:04:00,739 --> 01:04:06,049
+mais globais ou locais que estão aí em
+
+1589
+01:04:03,289 --> 01:04:09,110
+torno dessas relações com as comunidades
+
+1590
+01:04:06,050 --> 01:04:10,850
+de desenvolvedores Muito obrigado Alden
+
+1591
+01:04:09,110 --> 01:04:12,650
+foi um prazer conversar com você eu
+
+1592
+01:04:10,849 --> 01:04:14,449
+passo a palavra para você para você se
+
+1593
+01:04:12,650 --> 01:04:17,289
+despedir dos nossos em nossos ouvidos
+
+1594
+01:04:14,449 --> 01:04:20,409
+bem agradeço muito pelo convite
+
+1595
+01:04:17,289 --> 01:04:25,289
+confesso que eu me sinto muito honrado
+
+1596
+01:04:20,409 --> 01:04:28,259
+eu escuto o codefast as minhas ao e a
+
+1597
+01:04:25,289 --> 01:04:30,809
+corrida Enfim tudo que eu faço para
+
+1598
+01:04:28,260 --> 01:04:33,540
+ficar atualizado vocês são pessoas que
+
+1599
+01:04:30,809 --> 01:04:35,519
+eu admiro a Então os que estão aqui a
+
+1600
+01:04:33,539 --> 01:04:37,079
+pressão da comunidade as pessoas que eu
+
+1601
+01:04:35,519 --> 01:04:38,909
+admiro também das mandar direito só com
+
+1602
+01:04:37,079 --> 01:04:42,269
+Agradeço ao do saindo então Danilo
+
+1603
+01:04:38,909 --> 01:04:44,460
+Leonardo alfaro augustavo porque vocês
+
+1604
+01:04:42,269 --> 01:04:47,519
+também ele influenciaram de alguma forma
+
+1605
+01:04:44,460 --> 01:04:49,260
+eu optar o homem para a área de
+
+1606
+01:04:47,519 --> 01:04:51,809
+engenharia de posta então eu lembro da
+
+1607
+01:04:49,260 --> 01:04:55,110
+Ingrid por exemplo em um acho que foi
+
+1608
+01:04:51,809 --> 01:04:57,119
+escrever só e informação Carlos de
+
+1609
+01:04:55,110 --> 01:04:58,800
+vergonha da comunidade foi Nossa como
+
+1610
+01:04:57,119 --> 01:05:00,289
+Aquela bolsa ela se pronuncia legal né
+
+1611
+01:04:58,800 --> 01:05:03,300
+fala que conhecimento
+
+1612
+01:05:00,289 --> 01:05:05,699
+técnico em torno do tela do que ela fala
+
+1613
+01:05:03,300 --> 01:05:07,920
+então você fora vocês né a dos padrão
+
+1614
+01:05:05,699 --> 01:05:10,319
+que ele trabalha com Danilo aí Cristiane
+
+1615
+01:05:07,920 --> 01:05:13,320
+e as outras pessoas estão me sinto muito
+
+1616
+01:05:10,320 --> 01:05:16,320
+honrado e agradeço e fico à disposição
+
+1617
+01:05:13,320 --> 01:05:18,059
+também a ida dos ouvintes que nos
+
+1618
+01:05:16,320 --> 01:05:20,760
+acompanharam a qualquer dúvida
+
+1619
+01:05:18,059 --> 01:05:23,460
+relacionada à área muito obrigado mesmo
+
+1620
+01:05:20,760 --> 01:05:27,760
+muito obrigada pela aquelas palavras e
+
+1621
+01:05:23,460 --> 01:05:29,740
+eu a contribuição da eu aprendi o monte
+
+1622
+01:05:27,760 --> 01:05:31,870
+nessa Episódio é já sabia muito pouco
+
+1623
+01:05:29,739 --> 01:05:33,939
+sobre deve real até a primeira vez que
+
+1624
+01:05:31,869 --> 01:05:36,789
+ouvi o termo mamãe Portuguesa de fala
+
+1625
+01:05:33,940 --> 01:05:40,260
+deve réu né que aqui você viu HD inglês
+
+1626
+01:05:36,789 --> 01:05:40,259
+eu achei que era o inferno dos
+
+1627
+01:05:40,800 --> 01:05:49,420
+e mas não deve auditivo leichan aferição
+
+1628
+01:05:45,940 --> 01:05:51,550
+deve réu então muito obrigado então foi
+
+1629
+01:05:49,420 --> 01:05:54,070
+um monte de coisa para aprender assim
+
+1630
+01:05:51,550 --> 01:05:56,950
+reconhecer né que nós temos um novo
+
+1631
+01:05:54,070 --> 01:05:59,289
+papel aí tá surgindo nas empresas né
+
+1632
+01:05:56,949 --> 01:06:02,829
+Espero que como eu os nossos ouvintes
+
+1633
+01:05:59,289 --> 01:06:06,900
+tenham apreciada o conteúdo e esperamos
+
+1634
+01:06:02,829 --> 01:06:06,900
+todos no nosso próximo episódio

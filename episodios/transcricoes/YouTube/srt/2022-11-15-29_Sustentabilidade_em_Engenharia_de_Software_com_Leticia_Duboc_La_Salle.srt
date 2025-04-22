@@ -1,0 +1,4559 @@
+1
+00:00:01,820 --> 00:00:06,960
+Este é o podcast Fronteiras da
+
+2
+00:00:04,500 --> 00:00:09,419
+engenharia de software um podcast para
+
+3
+00:00:06,960 --> 00:00:12,359
+refletir sobre o presente e o futuro da
+
+4
+00:00:09,419 --> 00:00:15,599
+nossa área publicamos mensalmente entre
+
+5
+00:00:12,359 --> 00:00:16,858
+os dias 15 e 20 de cada mês episódios em
+
+6
+00:00:15,599 --> 00:00:19,140
+que entrevistamos pesquisadores
+
+7
+00:00:16,859 --> 00:00:21,480
+pesquisadores da engenharia de software
+
+8
+00:00:19,140 --> 00:00:23,300
+também realizamos palestras que são
+
+9
+00:00:21,480 --> 00:00:25,920
+publicados em nosso canal no YouTube
+
+10
+00:00:23,300 --> 00:00:28,080
+nosso objetivo elevar o conhecimento
+
+11
+00:00:25,920 --> 00:00:31,560
+científico para profissionais da área
+
+12
+00:00:28,079 --> 00:00:33,359
+para outros cientistas escute nossos
+
+13
+00:00:31,559 --> 00:00:37,699
+episódios na sua plataforma de áudio
+
+14
+00:00:33,359 --> 00:00:41,238
+favorita Spotify Apple podcast
+
+15
+00:00:37,700 --> 00:00:44,239
+ou ainda no YouTube nosso site é
+
+16
+00:00:41,238 --> 00:00:44,238
+fronteiras
+
+17
+00:00:45,020 --> 00:00:49,079
+Estamos também no Twitter e no Instagram
+
+18
+00:00:47,640 --> 00:00:52,079
+como
+
+19
+00:00:49,079 --> 00:00:52,079
+@ fronteiras
+
+20
+00:00:53,189 --> 00:00:56,329
+[Música]
+
+21
+00:00:59,899 --> 00:01:05,879
+Olá pessoal alguns avisos antes de
+
+22
+00:01:03,238 --> 00:01:08,000
+começar a professora Letícia do boc
+
+23
+00:01:05,879 --> 00:01:10,579
+pediu para avisar que o programa
+
+24
+00:01:08,000 --> 00:01:13,260
+software engenheiros
+
+25
+00:01:10,579 --> 00:01:16,200
+que ela menciona descreve Durante a
+
+26
+00:01:13,260 --> 00:01:19,320
+entrevista está com vagas especiais para
+
+27
+00:01:16,200 --> 00:01:22,740
+brasileiros e o deadline e agora em
+
+28
+00:01:19,319 --> 00:01:26,419
+Janeiro de 2023 o link está na descrição
+
+29
+00:01:22,739 --> 00:01:29,339
+do Episódio A bolsa é de 100%
+
+30
+00:01:26,420 --> 00:01:31,560
+outra coisa que eu quero avisar é que
+
+31
+00:01:29,340 --> 00:01:34,200
+essa gravação não ficou muito boa
+
+32
+00:01:31,560 --> 00:01:37,200
+qualidade certo então vocês vão ver um
+
+33
+00:01:34,200 --> 00:01:39,500
+chiados uns ruídos vai ter um momento em
+
+34
+00:01:37,200 --> 00:01:42,240
+que a professora Letícia do Block fala
+
+35
+00:01:39,500 --> 00:01:45,719
+stakeholders e não sai o som completo
+
+36
+00:01:42,239 --> 00:01:47,699
+então eu peço para vocês perdoarem a
+
+37
+00:01:45,719 --> 00:01:50,158
+gente mas eu acho que o conteúdo dessa
+
+38
+00:01:47,700 --> 00:01:52,680
+entrevista está muito bom então eu
+
+39
+00:01:50,159 --> 00:01:53,830
+decidi publicar assim mesmo vamos à
+
+40
+00:01:52,680 --> 00:01:57,000
+entrevista
+
+41
+00:01:53,829 --> 00:02:00,118
+[Música]
+
+42
+00:01:57,000 --> 00:02:03,239
+Olá eu sou Adolfo Neto professor da
+
+43
+00:02:00,118 --> 00:02:05,700
+UTFPR Curitiba hoje temos aqui estreando
+
+44
+00:02:03,239 --> 00:02:09,179
+como corrúsa fronteiras Miriam Rodrigues
+
+45
+00:02:05,700 --> 00:02:11,459
+da Silva Mestrando do grupo uzis da
+
+46
+00:02:09,179 --> 00:02:14,000
+Universidade Federal do Amazonas tudo
+
+47
+00:02:11,459 --> 00:02:14,000
+bem Miriam
+
+48
+00:02:21,860 --> 00:02:29,040
+legal então Hoje iremos conversar com
+
+49
+00:02:25,739 --> 00:02:32,939
+Letícia do boc pesquisadora lá na La
+
+50
+00:02:29,039 --> 00:02:36,120
+Salle Universitário Ramon Yuri Barcelona
+
+51
+00:02:32,939 --> 00:02:38,039
+Espanha depois você corrige direito a
+
+52
+00:02:36,120 --> 00:02:41,219
+pronúncia o tema do episódio de hoje
+
+53
+00:02:38,039 --> 00:02:43,259
+será sustentabilidade e engenharia de
+
+54
+00:02:41,219 --> 00:02:45,239
+software a gente fala muito desse tema
+
+55
+00:02:43,259 --> 00:02:46,859
+sustentabilidade mas que eu achei
+
+56
+00:02:45,239 --> 00:02:49,200
+interessante quando eu achei o currículo
+
+57
+00:02:46,860 --> 00:02:51,840
+da Letícia foi justamente engenharia de
+
+58
+00:02:49,199 --> 00:02:53,399
+software Então Letícia tudo bem você
+
+59
+00:02:51,840 --> 00:02:54,680
+pode se apresentar para as pessoas que
+
+60
+00:02:53,400 --> 00:02:58,140
+nos escutam
+
+61
+00:02:54,680 --> 00:03:00,480
+Oi tudo bem Obrigada Adolfo obrigada
+
+62
+00:02:58,139 --> 00:03:03,299
+pelo convite um prazer conhecer você
+
+63
+00:03:00,479 --> 00:03:06,840
+conhecer a Miriam e participar daqui
+
+64
+00:03:03,300 --> 00:03:10,280
+desse podcast bom eu sou do Rio de
+
+65
+00:03:06,840 --> 00:03:12,800
+Janeiro fui nascido criada lá estudei na
+
+66
+00:03:10,280 --> 00:03:17,280
+UFRJ que é Federal do Rio de Janeiro
+
+67
+00:03:12,800 --> 00:03:21,140
+fiz minha graduação e não mostrado lá e
+
+68
+00:03:17,280 --> 00:03:21,140
+o meu doutorado eu fiz na universidade
+
+69
+00:03:26,840 --> 00:03:31,500
+trabalhei tanto em empresas como
+
+70
+00:03:29,639 --> 00:03:34,439
+Trabalhei na parte acadêmica no Brasil
+
+71
+00:03:31,500 --> 00:03:38,658
+na Inglaterra e agora eu tô na Espanha e
+
+72
+00:03:34,439 --> 00:03:38,658
+meu interesse é engenheiro software
+
+73
+00:03:40,939 --> 00:03:47,359
+sustentabilidade e essa intercessão da
+
+74
+00:03:44,699 --> 00:03:47,359
+sustentabilidade
+
+75
+00:03:47,878 --> 00:03:53,219
+Então hoje nós vamos conversar sobre
+
+76
+00:03:50,360 --> 00:03:55,500
+sustentabilidade Letícia vocês podem
+
+77
+00:03:53,219 --> 00:03:58,158
+você pode nos dar uma definição do termo
+
+78
+00:03:55,500 --> 00:03:58,158
+sustentabilidade
+
+79
+00:03:59,180 --> 00:04:03,540
+né quando a gente quer aprender alguma
+
+80
+00:04:01,439 --> 00:04:05,519
+coisa eu sempre falo que a gente faz
+
+81
+00:04:03,539 --> 00:04:07,158
+busca no dicionário a gente busca Um
+
+82
+00:04:05,519 --> 00:04:10,379
+cenário encontra
+
+83
+00:04:07,158 --> 00:04:12,959
+definição maravilhosa encontra a
+
+84
+00:04:10,378 --> 00:04:15,479
+capacidade sustentar aí a gente tem que
+
+85
+00:04:12,959 --> 00:04:18,439
+procurar o que quer sustentar aí diz
+
+86
+00:04:15,479 --> 00:04:21,539
+capacidade de manter capacidade suportar
+
+87
+00:04:18,439 --> 00:04:23,279
+e parece bem inútil mas na verdade
+
+88
+00:04:21,540 --> 00:04:24,419
+Exatamente isso quando a gente tá
+
+89
+00:04:23,279 --> 00:04:26,159
+falando de sustentabilidade a gente está
+
+90
+00:04:24,418 --> 00:04:30,000
+falando a capacidade de manter alguma
+
+91
+00:04:26,160 --> 00:04:31,860
+coisa por um determinado tempo então se
+
+92
+00:04:30,000 --> 00:04:33,660
+a gente tá falando do nosso planeta a
+
+93
+00:04:31,860 --> 00:04:35,340
+gente tá falando da capacidade de manter
+
+94
+00:04:33,660 --> 00:04:38,460
+o nosso planeta tem que ser capaz de
+
+95
+00:04:35,339 --> 00:04:40,619
+promover todos os serviços né que a
+
+96
+00:04:38,459 --> 00:04:43,319
+gente todos os outros seres vivos
+
+97
+00:04:40,620 --> 00:04:46,500
+necessitam é por um determinado número
+
+98
+00:04:43,319 --> 00:04:49,219
+de tempo a questão aqui é por quanto
+
+99
+00:04:46,500 --> 00:04:52,379
+tempo a gente quer manter né
+
+100
+00:04:49,220 --> 00:04:53,580
+existem se a gente pensar muito a curto
+
+101
+00:04:52,379 --> 00:04:56,279
+prazo a gente tá pensando na nossa
+
+102
+00:04:53,579 --> 00:04:59,758
+geração a gente está pensando né quem
+
+103
+00:04:56,279 --> 00:05:02,819
+sabe nas próximas de quatro gerações mas
+
+104
+00:04:59,759 --> 00:05:06,600
+a gente via tá pensando muito mais muito
+
+105
+00:05:02,819 --> 00:05:10,079
+muito além disso né e eu acho que aqui
+
+106
+00:05:06,600 --> 00:05:13,320
+tem um tem um problema que tem relação
+
+107
+00:05:10,079 --> 00:05:15,539
+com a tecnologia que é que existe uma
+
+108
+00:05:13,319 --> 00:05:17,519
+confiança excessiva na tecnologia que a
+
+109
+00:05:15,540 --> 00:05:21,120
+gente acha que a tecnologia vai me
+
+110
+00:05:17,519 --> 00:05:24,359
+salvar em relação e a gente já sabe como
+
+111
+00:05:21,120 --> 00:05:26,038
+que a mudança climática já está aqui né
+
+112
+00:05:24,360 --> 00:05:30,000
+que a gente sabe que algumas dessas
+
+113
+00:05:26,038 --> 00:05:32,599
+mudanças serão irreversíveis e
+
+114
+00:05:30,000 --> 00:05:35,459
+e a gente tá aqui continuando nossa vida
+
+115
+00:05:32,600 --> 00:05:36,960
+aqui mantendo o nosso status quorra e
+
+116
+00:05:35,459 --> 00:05:39,779
+confiando que vai aparecer essa
+
+117
+00:05:36,959 --> 00:05:42,500
+tecnologia mágica e vai que vai nos
+
+118
+00:05:39,779 --> 00:05:44,819
+salvar e não é bem assim
+
+119
+00:05:42,500 --> 00:05:46,620
+então quando a gente fala também
+
+120
+00:05:44,819 --> 00:05:48,478
+sustentabilidade é importante entender
+
+121
+00:05:46,620 --> 00:05:50,160
+uma coisa que se chama o tripé da
+
+122
+00:05:48,478 --> 00:05:52,019
+sustentabilidade então a
+
+123
+00:05:50,160 --> 00:05:54,960
+sustentabilidade ela busca Um Certo
+
+124
+00:05:52,019 --> 00:05:57,779
+equilíbrio entre diferentes sistemas o
+
+125
+00:05:54,959 --> 00:06:00,899
+sistema ambiental só social e o
+
+126
+00:05:57,779 --> 00:06:01,819
+econômico agora um pouco também enganoso
+
+127
+00:06:00,899 --> 00:06:04,560
+falar
+
+128
+00:06:01,819 --> 00:06:07,439
+desses sistemas né dessa equilíbrio
+
+129
+00:06:04,560 --> 00:06:10,259
+porque tem tem pesquisadores que
+
+130
+00:06:07,439 --> 00:06:13,139
+argumentam que se você pensar o sistema
+
+131
+00:06:10,259 --> 00:06:15,680
+econômico tá dentro do sistema social e
+
+132
+00:06:13,139 --> 00:06:20,579
+sistema social tá dentro do sistema
+
+133
+00:06:15,680 --> 00:06:22,500
+ambiental se a gente acaba com nossa com
+
+134
+00:06:20,579 --> 00:06:25,620
+nosso sistema ambiental
+
+135
+00:06:22,500 --> 00:06:28,079
+os outros sistemas não tem como sobre
+
+136
+00:06:25,620 --> 00:06:28,918
+então aqui é importante entender que
+
+137
+00:06:28,079 --> 00:06:30,180
+quando a gente tá falando a
+
+138
+00:06:28,918 --> 00:06:32,519
+sustentabilidade a gente não está só
+
+139
+00:06:30,180 --> 00:06:33,840
+falando do meio ambiente mais que o meio
+
+140
+00:06:32,519 --> 00:06:35,639
+ambiente é extremamente importante
+
+141
+00:06:33,839 --> 00:06:38,159
+porque a base de tudo
+
+142
+00:06:35,639 --> 00:06:40,860
+e outro conceito que também é importante
+
+143
+00:06:38,160 --> 00:06:42,419
+entender que é o conceito da que também
+
+144
+00:06:40,860 --> 00:06:44,180
+bastante conhecido é o conceito do
+
+145
+00:06:42,418 --> 00:06:47,099
+desenvolvimento sustentável
+
+146
+00:06:44,180 --> 00:06:48,959
+que nos é dado pela comissão mundial do
+
+147
+00:06:47,100 --> 00:06:51,600
+meio ambiente do desenvolvimento e que
+
+148
+00:06:48,959 --> 00:06:54,060
+fala que é um desenvolvimento que
+
+149
+00:06:51,600 --> 00:06:57,120
+procura satisfazer as necessidades da
+
+150
+00:06:54,060 --> 00:06:59,399
+nossa geração né da geração atual tem
+
+151
+00:06:57,120 --> 00:07:01,500
+comprometer a capacidade das culturas
+
+152
+00:06:59,399 --> 00:07:04,138
+gerações de satisfazer isso as próprias
+
+153
+00:07:01,500 --> 00:07:05,639
+necessidades e aqui de novo a gente tem
+
+154
+00:07:04,139 --> 00:07:08,120
+que pensar que que significa satisfazer
+
+155
+00:07:05,639 --> 00:07:08,120
+a nossa necessidade
+
+156
+00:07:10,038 --> 00:07:13,918
+não necessariamente porque uma outra
+
+157
+00:07:12,120 --> 00:07:16,199
+coisa que comissão fala ela fala da
+
+158
+00:07:13,918 --> 00:07:19,079
+Justiça é distributiva né que a gente
+
+159
+00:07:16,199 --> 00:07:21,720
+tem que dar prioridade absoluta da
+
+160
+00:07:19,079 --> 00:07:24,719
+aprendizagem necessidade dos pobres
+
+161
+00:07:21,720 --> 00:07:26,240
+então não necessariamente é continuar do
+
+162
+00:07:24,720 --> 00:07:29,039
+jeito que a gente dá
+
+163
+00:07:26,240 --> 00:07:32,460
+uma vida digna
+
+164
+00:07:29,038 --> 00:07:34,439
+para a gente agora e sem impedir que no
+
+165
+00:07:32,459 --> 00:07:36,359
+futuro outra gerações que possam viver
+
+166
+00:07:34,439 --> 00:07:39,660
+também de uma forma decente de uma forma
+
+167
+00:07:36,360 --> 00:07:42,720
+de Letícia qual o papel da igreja de
+
+168
+00:07:39,660 --> 00:07:46,460
+software na sustentabilidade Bom eu acho
+
+169
+00:07:42,720 --> 00:07:48,960
+logicamente eu acho muito importante né
+
+170
+00:07:46,459 --> 00:07:50,519
+acontece que se você pensa os sistemas
+
+171
+00:07:48,959 --> 00:07:53,279
+de softwares eles estão integrados
+
+172
+00:07:50,519 --> 00:07:56,459
+absolutamente todos os lugares da nossas
+
+173
+00:07:53,279 --> 00:07:57,659
+vidas né todas em todos os estágios em
+
+174
+00:07:56,459 --> 00:08:01,379
+todos os lugares que a gente pode
+
+175
+00:07:57,660 --> 00:08:04,039
+imaginar e nas últimas décadas se você
+
+176
+00:08:01,379 --> 00:08:07,740
+pensa sobre a tecnologia
+
+177
+00:08:04,038 --> 00:08:09,899
+Eles foram uma força de disruptiva
+
+178
+00:08:07,740 --> 00:08:12,060
+enorme gigantesca que mudou nossa
+
+179
+00:08:09,899 --> 00:08:14,098
+própria forma de viver
+
+180
+00:08:12,060 --> 00:08:15,180
+e agora sustentabilidade tá acontecendo
+
+181
+00:08:14,098 --> 00:08:17,038
+mesmo com sustentabilidade
+
+182
+00:08:15,180 --> 00:08:19,560
+sustentabilidade está vindo com uma
+
+183
+00:08:17,038 --> 00:08:20,878
+força muito grande eu notei muita
+
+184
+00:08:19,560 --> 00:08:22,139
+diferença de quando eu comecei a
+
+185
+00:08:20,879 --> 00:08:24,620
+trabalhar com sustentabilidade não faz
+
+186
+00:08:22,139 --> 00:08:27,120
+nada faz 10 anos
+
+187
+00:08:24,620 --> 00:08:29,280
+da reação das empresas naquela época
+
+188
+00:08:27,120 --> 00:08:30,240
+quando eu falava com elas Ah não eu acho
+
+189
+00:08:29,279 --> 00:08:32,779
+que a gente tem que integrar
+
+190
+00:08:30,240 --> 00:08:32,779
+sustentabilidade
+
+191
+00:08:38,179 --> 00:08:42,958
+como é que a gente faz para entregar
+
+192
+00:08:40,080 --> 00:08:45,959
+sustentabilidade nos nossos sonhos Então
+
+193
+00:08:42,958 --> 00:08:48,119
+são duas forças que que vão se convergir
+
+194
+00:08:45,958 --> 00:08:51,299
+vão se converter cada vez mais
+
+195
+00:08:48,120 --> 00:08:53,600
+É e aqui os sistemas de softwares são
+
+196
+00:08:51,299 --> 00:08:57,000
+muito importantes porque eles vão ajudar
+
+197
+00:08:53,600 --> 00:09:00,240
+a alcançar a sustentabilidade e na
+
+198
+00:08:57,000 --> 00:09:01,879
+verdade eles existem uma isso é muito
+
+199
+00:09:00,240 --> 00:09:04,440
+importante entender
+
+200
+00:09:01,879 --> 00:09:07,919
+que existe uma grande oportunidade de
+
+201
+00:09:04,440 --> 00:09:12,660
+negócio que existe um mercado de 12
+
+202
+00:09:07,919 --> 00:09:14,120
+trilhões por ano até 2030 Só em quatro
+
+203
+00:09:12,659 --> 00:09:17,159
+sistemas econômicos
+
+204
+00:09:14,120 --> 00:09:18,679
+relacionados às metas globais então se
+
+205
+00:09:17,159 --> 00:09:21,480
+você pensar em comida agricultura
+
+206
+00:09:18,679 --> 00:09:24,599
+cidades energia e materiais saúde
+
+207
+00:09:21,480 --> 00:09:28,639
+bem-estar tem toda essa oportunidade de
+
+208
+00:09:24,600 --> 00:09:30,720
+negócios vão dar um suporte e vão ajudar
+
+209
+00:09:28,639 --> 00:09:32,879
+então Claro quando a gente está
+
+210
+00:09:30,720 --> 00:09:37,100
+construindo o sistema né a gente tem que
+
+211
+00:09:32,879 --> 00:09:37,100
+construir sistemas com esses propósitos
+
+212
+00:09:38,120 --> 00:09:42,560
+que estão bem construídos né
+
+213
+00:09:48,059 --> 00:09:53,338
+tem que importar com facilidade de
+
+214
+00:09:50,039 --> 00:09:54,599
+manter escalabilidade obviamente a gente
+
+215
+00:09:53,339 --> 00:09:57,000
+tem que tentar reduzir o uso de energia
+
+216
+00:09:54,600 --> 00:10:00,300
+desses sistemas
+
+217
+00:09:57,000 --> 00:10:01,740
+mas não é só isso né não se trata Essa é
+
+218
+00:10:00,299 --> 00:10:04,740
+o que a gente chama é sustentabilidade
+
+219
+00:10:01,740 --> 00:10:06,839
+técnica que depois eu posso explicar um
+
+220
+00:10:04,740 --> 00:10:09,360
+pouquinho mas não é só isso a gente tem
+
+221
+00:10:06,839 --> 00:10:11,820
+que pensar Qual é o propósito do sistema
+
+222
+00:10:09,360 --> 00:10:14,759
+e os possíveis efeitos positivos e
+
+223
+00:10:11,820 --> 00:10:16,580
+negativos porque nem sempre são bons um
+
+224
+00:10:14,759 --> 00:10:19,740
+exemplo que eu sempre que eu sempre uso
+
+225
+00:10:16,580 --> 00:10:23,580
+que ilustra bem com os meus alunos é o
+
+226
+00:10:19,740 --> 00:10:26,659
+airbnb existem estudos que que mostram
+
+227
+00:10:23,580 --> 00:10:26,660
+que se você tem né
+
+228
+00:10:27,139 --> 00:10:32,879
+em Nova York por exemplo isso faz com
+
+229
+00:10:30,179 --> 00:10:35,759
+que você ganha 55% a mais do que se você
+
+230
+00:10:32,879 --> 00:10:38,278
+coloca essa casa no mercado de aluguel a
+
+231
+00:10:35,759 --> 00:10:41,338
+longo prazo lógico e que você vai
+
+232
+00:10:38,278 --> 00:10:43,500
+escolher né então muitas pessoas decidem
+
+233
+00:10:41,339 --> 00:10:45,620
+fazer isso quando você quando muitas
+
+234
+00:10:43,500 --> 00:10:45,620
+pessoas
+
+235
+00:10:48,799 --> 00:10:54,958
+você tá diminuindo a oferta
+
+236
+00:10:52,440 --> 00:10:57,779
+se você em Nova York por exemplo
+
+237
+00:10:54,958 --> 00:11:00,239
+assistindo que o édenb tirou entre 7 mil
+
+238
+00:10:57,778 --> 00:11:04,500
+e treze mil moradias do mercado de
+
+239
+00:11:00,240 --> 00:11:06,720
+aluguel e isso logicamente você diminui
+
+240
+00:11:04,500 --> 00:11:10,500
+a oferta a demanda continua a mesma o
+
+241
+00:11:06,720 --> 00:11:12,360
+aumenta e leva a um aumento dos dos
+
+242
+00:11:10,500 --> 00:11:15,480
+aluguéis em Nova York Isso foi um
+
+243
+00:11:12,360 --> 00:11:18,000
+momento de um ponto quatro por cento
+
+244
+00:11:15,480 --> 00:11:19,860
+E por aí e a coisa vai complicando
+
+245
+00:11:18,000 --> 00:11:21,980
+porque o que acontece as pessoas que
+
+246
+00:11:19,860 --> 00:11:24,600
+querem criar colocar as casas na rede
+
+247
+00:11:21,980 --> 00:11:26,700
+sabem o tipo de gostos que as pessoas
+
+248
+00:11:24,600 --> 00:11:29,399
+que querem alugar tem então Elas começam
+
+249
+00:11:26,700 --> 00:11:31,620
+a reformar essas casas começam a mudar o
+
+250
+00:11:29,399 --> 00:11:36,200
+ambiente começa a mudar Aquela aquele
+
+251
+00:11:31,620 --> 00:11:36,200
+bairro e isso leva a processos
+
+252
+00:11:39,559 --> 00:11:45,539
+possam levar a separação racial porque a
+
+253
+00:11:42,600 --> 00:11:48,240
+maior parte desses lugares estão em
+
+254
+00:11:45,539 --> 00:11:50,338
+comunidades que são comunidades que não
+
+255
+00:11:48,240 --> 00:11:52,039
+são brancas e o que acontece essas
+
+256
+00:11:50,339 --> 00:11:54,000
+pessoas que viveram lá toda a vida
+
+257
+00:11:52,039 --> 00:11:55,860
+começam a sentir que aquele lugar não é
+
+258
+00:11:54,000 --> 00:12:00,379
+mais delas elas não tem mais condições
+
+259
+00:11:55,860 --> 00:12:00,379
+de pagar os aluguéis quando né
+
+260
+00:12:01,399 --> 00:12:09,919
+então isso
+
+261
+00:12:04,820 --> 00:12:09,920
+aumentar a separação racial agora
+
+262
+00:12:12,919 --> 00:12:18,838
+a nossa
+
+263
+00:12:15,419 --> 00:12:20,099
+uma casa ficar no lugar mais autêntico a
+
+264
+00:12:18,839 --> 00:12:22,980
+pessoa que tem a casa também ganha mais
+
+265
+00:12:20,100 --> 00:12:26,459
+um pouco Parecia um e ruim quando eu
+
+266
+00:12:22,980 --> 00:12:27,500
+duvido que os engenheiros de softwares
+
+267
+00:12:26,458 --> 00:12:31,259
+que fizeram
+
+268
+00:12:27,500 --> 00:12:32,820
+pensavam que eles iam estar que eles iam
+
+269
+00:12:31,259 --> 00:12:37,078
+estar levando a esses efeitos a longo
+
+270
+00:12:32,820 --> 00:12:39,000
+prazo mas levam e vai viver uma das dos
+
+271
+00:12:37,078 --> 00:12:40,620
+exemplos assim milhões as redes sociais
+
+272
+00:12:39,000 --> 00:12:43,320
+por exemplo a gente tá cansado de saber
+
+273
+00:12:40,620 --> 00:12:46,500
+os efeitos negativos das redes sociais
+
+274
+00:12:43,320 --> 00:12:48,060
+e é isso então eu acho que como
+
+275
+00:12:46,500 --> 00:12:50,759
+engenheiro de softwares a gente tem que
+
+276
+00:12:48,059 --> 00:12:53,278
+entender que o sistema simpático eles
+
+277
+00:12:50,759 --> 00:12:55,200
+não são uma ferramenta quem o problema
+
+278
+00:12:53,278 --> 00:12:56,820
+de quem usa de quem pede e que eu tô
+
+279
+00:12:55,200 --> 00:13:00,180
+aqui construindo uma coisa técnica ponto
+
+280
+00:12:56,820 --> 00:13:01,920
+final na verdade a gente a gente tá tem
+
+281
+00:13:00,179 --> 00:13:03,838
+condições de entender as possíveis
+
+282
+00:13:01,919 --> 00:13:05,719
+consequências desse tema e levantar
+
+283
+00:13:03,839 --> 00:13:07,920
+armas e dizer olha só
+
+284
+00:13:05,720 --> 00:13:09,660
+isso aqui pode acontecer como é que a
+
+285
+00:13:07,919 --> 00:13:11,879
+gente pode evitar Vamos tentar entender
+
+286
+00:13:09,659 --> 00:13:15,539
+Quais são as necessidades os dilemas de
+
+287
+00:13:11,879 --> 00:13:18,299
+todos envolvidos nessa nesse sistema e
+
+288
+00:13:15,539 --> 00:13:20,699
+basicamente assumir responsabilidade do
+
+289
+00:13:18,299 --> 00:13:22,859
+que a gente está fazendo
+
+290
+00:13:20,700 --> 00:13:26,360
+é interessante esse seu comentário sobre
+
+291
+00:13:22,860 --> 00:13:30,720
+o airbnb porque eu passei um ano em
+
+292
+00:13:26,360 --> 00:13:34,980
+Holly offline 2014 a 2015 e eu peguei
+
+293
+00:13:30,720 --> 00:13:37,800
+muito Uber e lift e na época o perfil do
+
+294
+00:13:34,980 --> 00:13:39,360
+Uber e do motorista de Uber literalmente
+
+295
+00:13:37,799 --> 00:13:41,578
+alguém que tinha algum emprego e
+
+296
+00:13:39,360 --> 00:13:43,320
+simplesmente Ah tô aqui saindo do
+
+297
+00:13:41,578 --> 00:13:45,539
+trabalho saindo trabalho às 4:00 vou
+
+298
+00:13:43,320 --> 00:13:47,399
+ficar de quatro às seis uma graninha
+
+299
+00:13:45,539 --> 00:13:49,219
+extra no Uber mas hoje em dia aqui no
+
+300
+00:13:47,399 --> 00:13:52,139
+Brasil o Uber é uma profissão
+
+301
+00:13:49,220 --> 00:13:54,379
+de Uber de lift de aplique motorista de
+
+302
+00:13:52,139 --> 00:13:54,379
+aplicativo
+
+303
+00:13:56,539 --> 00:14:03,599
+outros trabalhadores têm né então
+
+304
+00:14:00,799 --> 00:14:05,939
+bom mas isso por isso a gente tem que
+
+305
+00:14:03,600 --> 00:14:08,899
+pensar nos efeitos a longo prazo e
+
+306
+00:14:05,940 --> 00:14:11,820
+trabalhar com diferentes coisas
+
+307
+00:14:08,899 --> 00:14:13,620
+interessadas com os clientes governos
+
+308
+00:14:11,820 --> 00:14:16,079
+para tentar entender todo esse
+
+309
+00:14:13,620 --> 00:14:18,778
+ecossistema que é super complexo e
+
+310
+00:14:16,078 --> 00:14:20,719
+buscar a forma de criar serviços que
+
+311
+00:14:18,778 --> 00:14:24,600
+sejam responsáveis
+
+312
+00:14:20,720 --> 00:14:26,820
+sejam favoráveis né para os referências
+
+313
+00:14:24,600 --> 00:14:30,600
+aqui foi o momento onde a professora
+
+314
+00:14:26,820 --> 00:14:30,600
+Letícia falou stakeholders
+
+315
+00:14:31,919 --> 00:14:36,958
+e como é que os objetivos de
+
+316
+00:14:34,139 --> 00:14:39,360
+desenvolvimento sustentável das Nações
+
+317
+00:14:36,958 --> 00:14:43,099
+Unidas se relacionam com a engenharia de
+
+318
+00:14:39,360 --> 00:14:43,100
+requisitos e de software
+
+319
+00:14:43,820 --> 00:14:51,180
+esses objetivos não são os 17 objetivos
+
+320
+00:14:46,620 --> 00:14:54,480
+eles são foram assinadas pelos 193
+
+321
+00:14:51,179 --> 00:14:55,559
+estados membros das Nações Unidas e a
+
+322
+00:14:54,480 --> 00:14:57,839
+gente tem que entender o que que ele
+
+323
+00:14:55,559 --> 00:15:00,059
+significam na verdade isso significa uma
+
+324
+00:14:57,839 --> 00:15:02,820
+chamada de ação para todos os países
+
+325
+00:15:00,059 --> 00:15:06,000
+pobres e Ricos para que a gente possa
+
+326
+00:15:02,820 --> 00:15:06,680
+promover prosperidade e cuidar do meio
+
+327
+00:15:06,000 --> 00:15:10,259
+ambiente
+
+328
+00:15:06,679 --> 00:15:12,559
+é claro para você alcançar esses
+
+329
+00:15:10,259 --> 00:15:12,559
+objetivos
+
+330
+00:15:14,778 --> 00:15:21,720
+você precisa de muita tecnologia
+
+331
+00:15:17,899 --> 00:15:24,000
+sempre lembrando que a tecnologia não é
+
+332
+00:15:21,720 --> 00:15:27,120
+a única solução né a gente aqui pelo
+
+333
+00:15:24,000 --> 00:15:28,679
+amor de Deus um técnico não por favor a
+
+334
+00:15:27,120 --> 00:15:31,500
+gente tem que saber que a gente tem que
+
+335
+00:15:28,679 --> 00:15:33,899
+mudar o nosso comportamento e tem que né
+
+336
+00:15:31,500 --> 00:15:35,339
+tem que tem que mudar são essas mudanças
+
+337
+00:15:33,899 --> 00:15:37,440
+muito Profundas que a gente necessita
+
+338
+00:15:35,339 --> 00:15:40,440
+para realmente ser uma sociedade
+
+339
+00:15:37,440 --> 00:15:41,579
+sustentável Mas de qualquer forma a
+
+340
+00:15:40,440 --> 00:15:42,560
+gente não pode negar o papel da
+
+341
+00:15:41,578 --> 00:15:45,059
+tecnologia
+
+342
+00:15:42,559 --> 00:15:46,379
+é importantíssimo em alcançar esses
+
+343
+00:15:45,059 --> 00:15:49,739
+objetivos
+
+344
+00:15:46,379 --> 00:15:51,360
+e aqui a gente tem que pensar que como
+
+345
+00:15:49,740 --> 00:15:52,919
+eu tava falando antes a gente positivos
+
+346
+00:15:51,360 --> 00:15:54,778
+e negativos quando a gente está
+
+347
+00:15:52,919 --> 00:15:58,879
+construindo um software a gente pode
+
+348
+00:15:54,778 --> 00:16:02,698
+pensar para que objetivo esse software
+
+349
+00:15:58,879 --> 00:16:04,439
+Está contribuindo Qual dos objetivos de
+
+350
+00:16:02,698 --> 00:16:06,479
+desenvolvimento sustentáveis e tentar
+
+351
+00:16:04,440 --> 00:16:09,779
+fazer o melhor que a gente possa para
+
+352
+00:16:06,480 --> 00:16:12,659
+alcançar para construir esse software de
+
+353
+00:16:09,778 --> 00:16:14,278
+forma que ele Maximize esses objetivos
+
+354
+00:16:12,659 --> 00:16:16,740
+mas também a gente tem que perguntar ao
+
+355
+00:16:14,278 --> 00:16:19,500
+contrário que objetivos a gente pode
+
+356
+00:16:16,740 --> 00:16:21,620
+estar atrapalhando né que objetivos a
+
+357
+00:16:19,500 --> 00:16:24,500
+gente pode esse software pode estar
+
+358
+00:16:21,620 --> 00:16:26,578
+impedindo porque
+
+359
+00:16:24,500 --> 00:16:29,820
+sustentabilidade é muito complexa os
+
+360
+00:16:26,578 --> 00:16:33,379
+objetivos eles são todos relacionados É
+
+361
+00:16:29,820 --> 00:16:33,379
+muito difícil você conseguir
+
+362
+00:16:36,860 --> 00:16:41,240
+sempre entender isso e você me perguntou
+
+363
+00:16:42,659 --> 00:16:46,519
+e aqui principalmente os engenheiros de
+
+364
+00:16:44,879 --> 00:16:49,500
+requisitos Eles estão numa posição
+
+365
+00:16:46,519 --> 00:16:51,120
+fantástica porque é durante a engenharia
+
+366
+00:16:49,500 --> 00:16:54,179
+de requisitos né que a gente está
+
+367
+00:16:51,120 --> 00:16:56,339
+definindo o propósito do sistema é
+
+368
+00:16:54,179 --> 00:16:58,138
+quando a gente pode desafiar o propósito
+
+369
+00:16:56,339 --> 00:16:59,519
+do sistema é quando a gente pode se
+
+370
+00:16:58,139 --> 00:17:00,620
+perguntar eu deveria realmente estar
+
+371
+00:16:59,519 --> 00:17:02,940
+fazendo isso
+
+372
+00:17:00,620 --> 00:17:05,400
+ou se eu deveria estar fazendo isso Essa
+
+373
+00:17:02,940 --> 00:17:09,539
+realmente é a forma correta de fazer
+
+374
+00:17:05,400 --> 00:17:12,740
+isso então o engenheiro de software e o
+
+375
+00:17:09,539 --> 00:17:16,019
+dinheiro principalmente ele tem essa
+
+376
+00:17:12,740 --> 00:17:17,880
+alcance dele diferentes existem holders
+
+377
+00:17:16,019 --> 00:17:20,879
+as diferentes pessoas com diferentes
+
+378
+00:17:17,880 --> 00:17:24,900
+necessidades interesses ele é capaz de
+
+379
+00:17:20,880 --> 00:17:29,160
+entender os dilemas né tentar acomodar
+
+380
+00:17:24,900 --> 00:17:32,900
+essas essas necessidades então é aqui
+
+381
+00:17:29,160 --> 00:17:32,900
+que a gente tá um dia de requisitos
+
+382
+00:17:33,558 --> 00:17:39,918
+várias técnicas que a gente vai aplicar
+
+383
+00:17:35,940 --> 00:17:39,919
+para conseguir a sustentabilidade
+
+384
+00:17:42,599 --> 00:17:45,839
+toma cuidado com esses efeitos né
+
+385
+00:17:44,279 --> 00:17:47,538
+positivos e negativos que o software
+
+386
+00:17:45,839 --> 00:17:51,298
+pode ter
+
+387
+00:17:47,538 --> 00:17:53,160
+questões importantíssimas e Letícia como
+
+388
+00:17:51,298 --> 00:17:57,779
+foi que surgiu o teu interesse nesse
+
+389
+00:17:53,160 --> 00:17:59,340
+tema bom isso é eu fiz meu doutorado na
+
+390
+00:17:57,779 --> 00:18:01,200
+Inglaterra e moderado eu sempre fui
+
+391
+00:17:59,339 --> 00:18:05,519
+sempre fui muito muito técnica né Muito
+
+392
+00:18:01,200 --> 00:18:05,519
+da área de programação escolaridade
+
+393
+00:18:07,740 --> 00:18:14,279
+e quando eu terminei eu
+
+394
+00:18:12,000 --> 00:18:16,919
+interessante e tal mas eu sentia que
+
+395
+00:18:14,279 --> 00:18:19,798
+para mim faltava um propósito
+
+396
+00:18:16,919 --> 00:18:23,340
+faltava algo que que realmente eu
+
+397
+00:18:19,798 --> 00:18:24,839
+quisesse dedicar minha vida para para o
+
+398
+00:18:23,339 --> 00:18:27,720
+mundo melhor para algo que eu
+
+399
+00:18:24,839 --> 00:18:29,639
+acreditasse e nessa época eu comecei a
+
+400
+00:18:27,720 --> 00:18:32,519
+aprender um pouco sobre sustentabilidade
+
+401
+00:18:29,640 --> 00:18:35,520
+entender essa relação do software com a
+
+402
+00:18:32,519 --> 00:18:37,379
+sustentabilidade e na verdade que eu
+
+403
+00:18:35,519 --> 00:18:39,179
+tive muita resistência né eu tive
+
+404
+00:18:37,380 --> 00:18:42,179
+colegas meus dizendo mas isso não tem
+
+405
+00:18:39,179 --> 00:18:43,620
+nada a ver com informática você seu
+
+406
+00:18:42,179 --> 00:18:45,240
+currículo não vem daqui você não vai
+
+407
+00:18:43,619 --> 00:18:47,538
+conseguir fazer pesquisa nessa área
+
+408
+00:18:45,240 --> 00:18:50,220
+Ninguém vai querer trabalhar com você
+
+409
+00:18:47,538 --> 00:18:52,379
+você não tem experiência é aquela coisa
+
+410
+00:18:50,220 --> 00:18:54,360
+de Mais do Mesmo né vamos vamos fazer
+
+411
+00:18:52,380 --> 00:18:57,179
+Mais do Mesmo porque você já vendeu de
+
+412
+00:18:54,359 --> 00:19:01,500
+um caminho agora vou fazer aquilo ali e
+
+413
+00:18:57,179 --> 00:19:04,220
+mas assim eu quero que eu queria eu
+
+414
+00:19:01,500 --> 00:19:08,400
+comecei com alunos de graduação
+
+415
+00:19:04,220 --> 00:19:11,538
+que eu tinha é que foram fantásticos eu
+
+416
+00:19:08,400 --> 00:19:14,220
+tô muito interessados muito animados e
+
+417
+00:19:11,538 --> 00:19:17,900
+com esses alunos imagina como alunas de
+
+418
+00:19:14,220 --> 00:19:17,900
+graduação a gente publicou
+
+419
+00:19:18,079 --> 00:19:25,379
+uma das maiores conferências de
+
+420
+00:19:21,440 --> 00:19:28,940
+equisitos do mundo que é TRE e eu fui lá
+
+421
+00:19:25,380 --> 00:19:32,700
+apresentar e quando eu fui lá
+
+422
+00:19:28,940 --> 00:19:35,038
+eu conheci um grupo que um grupo de
+
+423
+00:19:32,700 --> 00:19:37,500
+outros pesquisadores que também estavam
+
+424
+00:19:35,038 --> 00:19:39,980
+interessados no tema e com esse grupo a
+
+425
+00:19:37,500 --> 00:19:43,519
+gente criou o prós cronário
+
+426
+00:19:39,980 --> 00:19:43,519
+que é um grupo de
+
+427
+00:19:43,759 --> 00:19:49,679
+pesquisadores internacionais sempre
+
+428
+00:19:46,919 --> 00:19:51,740
+sobre o tema de sustentabilidade a gente
+
+429
+00:19:49,679 --> 00:19:54,679
+se encontra todas as semanas
+
+430
+00:19:51,740 --> 00:19:58,519
+trabalha junto uma hora e meia por dia
+
+431
+00:19:54,679 --> 00:20:03,440
+uma hora e meia porque por semana e
+
+432
+00:19:58,519 --> 00:20:03,440
+isso já faz 10 anos
+
+433
+00:20:04,819 --> 00:20:09,240
+é um pouquinho difícil conseguir entrar
+
+434
+00:20:07,319 --> 00:20:11,099
+no ritmo né porque a gente se conhece há
+
+435
+00:20:09,240 --> 00:20:13,460
+muito tempo mas a gente tem membros
+
+436
+00:20:11,099 --> 00:20:13,459
+novos também
+
+437
+00:20:14,099 --> 00:20:20,879
+Letícia um dos seus artigos mais citados
+
+438
+00:20:17,220 --> 00:20:22,980
+publicado em 2015 na E3 é software se
+
+439
+00:20:20,880 --> 00:20:25,320
+chama requisitos a chave para
+
+440
+00:20:22,980 --> 00:20:27,240
+sustentabilidade e aqui eu vou só deixar
+
+441
+00:20:25,319 --> 00:20:28,859
+um alerta para os ouvintes que a gente
+
+442
+00:20:27,240 --> 00:20:30,660
+está traduzindo o título quem quiser
+
+443
+00:20:28,859 --> 00:20:34,259
+depois entra lá na descrição do episódio
+
+444
+00:20:30,660 --> 00:20:37,860
+e consegue o título inglês e o link
+
+445
+00:20:34,259 --> 00:20:40,798
+então neste artigo você e seus coautores
+
+446
+00:20:37,859 --> 00:20:43,379
+afirmam que entre aspas como Engenheiros
+
+447
+00:20:40,798 --> 00:20:45,418
+de software somos responsáveis pelas
+
+448
+00:20:43,380 --> 00:20:46,460
+consequências a longo prazo de nossos
+
+449
+00:20:45,419 --> 00:20:48,600
+software
+
+450
+00:20:46,460 --> 00:20:52,440
+independentemente do Objetivo principal
+
+451
+00:20:48,599 --> 00:20:54,899
+do sistema e que os requisitos são abre
+
+452
+00:20:52,440 --> 00:20:56,700
+aspas novamente o principal ponto de
+
+453
+00:20:54,900 --> 00:20:58,798
+alavancagem para os profissionais que
+
+454
+00:20:56,700 --> 00:21:01,380
+desejam desenvolver sistemas
+
+455
+00:20:58,798 --> 00:21:03,720
+sustentáveis e intensivos em software
+
+456
+00:21:01,380 --> 00:21:06,299
+Como se dá o desenvolvimento de sistemas
+
+457
+00:21:03,720 --> 00:21:07,100
+quando se leva a sustentabilidade em
+
+458
+00:21:06,298 --> 00:21:11,839
+conta
+
+459
+00:21:07,099 --> 00:21:11,839
+o primeiro que eu queria né
+
+460
+00:21:14,038 --> 00:21:19,440
+o nosso manifesto né A Gente esse grupo
+
+461
+00:21:16,819 --> 00:21:21,240
+a gente preparou um manifesto que é o
+
+462
+00:21:19,440 --> 00:21:23,940
+croscunho da manifestando labirintite
+
+463
+00:21:21,240 --> 00:21:25,558
+design e eu acho que ele é uma base
+
+464
+00:21:23,940 --> 00:21:29,519
+importante é uma base interessante que
+
+465
+00:21:25,558 --> 00:21:31,200
+já já está sendo bastante excitada e a
+
+466
+00:21:29,519 --> 00:21:35,759
+gente agora a gente acredita que tá
+
+467
+00:21:31,200 --> 00:21:37,319
+começa a ter Impacto e o que ele pede é
+
+468
+00:21:35,759 --> 00:21:39,658
+um literalmente uma mudança de
+
+469
+00:21:37,319 --> 00:21:42,558
+mentalidade né que a gente realmente
+
+470
+00:21:39,659 --> 00:21:44,480
+assuma responsabilidade porque até agora
+
+471
+00:21:42,558 --> 00:21:46,859
+os engenheiros
+
+472
+00:21:44,480 --> 00:21:48,960
+software com quem a gente falava sempre
+
+473
+00:21:46,859 --> 00:21:51,298
+assim Ah mas isso não é comigo não isso
+
+474
+00:21:48,960 --> 00:21:52,460
+é o cliente que me pediu né Eu só tô
+
+475
+00:21:51,298 --> 00:21:54,619
+construindo
+
+476
+00:21:52,460 --> 00:21:58,259
+e eu acho que
+
+477
+00:21:54,619 --> 00:22:01,319
+esse Manifesto ele pede uma mudança de
+
+478
+00:21:58,259 --> 00:22:03,839
+mensalidade de mentalidade na forma como
+
+479
+00:22:01,319 --> 00:22:06,480
+a gente vê a nossa profissão e na forma
+
+480
+00:22:03,839 --> 00:22:08,639
+como a gente constrói só então ele lista
+
+481
+00:22:06,480 --> 00:22:11,159
+diferentes pontos que eu acho que porque
+
+482
+00:22:08,640 --> 00:22:13,980
+ajudam nessa mudança de mentalidade né
+
+483
+00:22:11,159 --> 00:22:15,980
+então antigamente a gente pensava que a
+
+484
+00:22:13,980 --> 00:22:15,980
+gente
+
+485
+00:22:19,038 --> 00:22:24,658
+mas vão proteger um ambiente Ou pelo
+
+486
+00:22:21,659 --> 00:22:26,220
+menos não vão fazer mal né e não é bem
+
+487
+00:22:24,659 --> 00:22:27,600
+assim a gente tem que entender que a
+
+488
+00:22:26,220 --> 00:22:30,538
+sustentabilidade ela é uma propriedade
+
+489
+00:22:27,599 --> 00:22:32,759
+sistêmica e que a gente tem feitos em
+
+490
+00:22:30,538 --> 00:22:35,279
+diferentes dimensões a gente vai ter
+
+491
+00:22:32,759 --> 00:22:36,740
+feito obviamente na no meio ambiente mas
+
+492
+00:22:35,279 --> 00:22:38,759
+a gente vai ter efeitos na sociedade
+
+493
+00:22:36,740 --> 00:22:40,919
+entende o nosso sistema econômicos
+
+494
+00:22:38,759 --> 00:22:42,960
+efeitos nas pessoas que estão
+
+495
+00:22:40,919 --> 00:22:45,480
+construindo e utilizando e sendo
+
+496
+00:22:42,960 --> 00:22:47,038
+afetadas por aqui software e os nossos
+
+497
+00:22:45,480 --> 00:22:50,058
+efeitos no próprio software que a gente
+
+498
+00:22:47,038 --> 00:22:54,119
+fala de sustentabilidade técnica né
+
+499
+00:22:50,058 --> 00:22:56,220
+também uma outra forma de pensar que tem
+
+500
+00:22:54,119 --> 00:22:58,379
+que a gente acredita que mudar é que
+
+501
+00:22:56,220 --> 00:23:01,500
+sustentabilidade é algo distinto de
+
+502
+00:22:58,380 --> 00:23:03,840
+computação né é algo que não tem nada a
+
+503
+00:23:01,500 --> 00:23:05,960
+ver assim a gente pode colaborar né tem
+
+504
+00:23:03,839 --> 00:23:08,639
+necessariamente entender muito do outro
+
+505
+00:23:05,960 --> 00:23:10,919
+e não pode ser assim essa
+
+506
+00:23:08,640 --> 00:23:13,919
+sustentabilidade Ela realmente tem que
+
+507
+00:23:10,919 --> 00:23:16,380
+estar integrado em todas as áreas
+
+508
+00:23:13,919 --> 00:23:19,200
+Agora ela tem que ser uma pré-condição
+
+509
+00:23:16,380 --> 00:23:21,299
+não uma qualidade desejável como a gente
+
+510
+00:23:19,200 --> 00:23:22,919
+via antes né assim Ah tudo bem a gente
+
+511
+00:23:21,298 --> 00:23:25,139
+faz tudo isso e aqui ainda tem mais essa
+
+512
+00:23:22,919 --> 00:23:27,659
+aqui se der se der a gente faz que sofre
+
+513
+00:23:25,140 --> 00:23:30,740
+também seja sustentável e não devia ser
+
+514
+00:23:27,659 --> 00:23:34,620
+assim deve ser uma premodição para o
+
+515
+00:23:30,740 --> 00:23:36,720
+também tem isso ainda tem muito nessa
+
+516
+00:23:34,619 --> 00:23:39,719
+tendência de pensar nos impactos
+
+517
+00:23:36,720 --> 00:23:42,779
+imediatos do Sol né se a gente voltando
+
+518
+00:23:39,720 --> 00:23:45,659
+o exemplo tem vários impactos
+
+519
+00:23:42,779 --> 00:23:48,298
+imediatos que são legais né você você
+
+520
+00:23:45,659 --> 00:23:51,320
+economiza dinheiro você fica num lugar
+
+521
+00:23:48,298 --> 00:23:51,319
+mais autêntico
+
+522
+00:23:52,759 --> 00:23:58,859
+Você conhece
+
+523
+00:23:54,500 --> 00:24:00,720
+o seu entorno tem vários impactos legais
+
+524
+00:23:58,859 --> 00:24:03,719
+imediatos mas que a gente tem que pensar
+
+525
+00:24:00,720 --> 00:24:05,720
+que tem muito outro tipo de impactos né
+
+526
+00:24:03,720 --> 00:24:08,519
+que são os impactos de
+
+527
+00:24:05,720 --> 00:24:10,620
+longo prazo de terceira ordem que são os
+
+528
+00:24:08,519 --> 00:24:13,579
+impactos cumulativos como uma coisa leva
+
+529
+00:24:10,619 --> 00:24:16,038
+a outra e que o exemplo das Meninas
+
+530
+00:24:13,579 --> 00:24:19,859
+nos mostra muito bem
+
+531
+00:24:16,038 --> 00:24:22,140
+outra mudança por exemplo dizer que ver
+
+532
+00:24:19,859 --> 00:24:23,759
+quando se meu projeto de software foi um
+
+533
+00:24:22,140 --> 00:24:26,220
+sucesso né o meu projeto de software
+
+534
+00:24:23,759 --> 00:24:29,879
+sucesso Porque eu peguei empreguei o meu
+
+535
+00:24:26,220 --> 00:24:31,140
+software a tempo ele funciona tá lá para
+
+536
+00:24:29,880 --> 00:24:34,559
+o cliente o cliente está satisfeito
+
+537
+00:24:31,140 --> 00:24:37,320
+então o projeto é um sucesso a gente tá
+
+538
+00:24:34,558 --> 00:24:40,319
+limitando naquele ponto final de entrega
+
+539
+00:24:37,319 --> 00:24:42,960
+do projeto quando a gente deveria pensar
+
+540
+00:24:40,319 --> 00:24:45,298
+que um projeto só que você não é um
+
+541
+00:24:42,960 --> 00:24:47,179
+sucesso se depois daquele ponto a gente
+
+542
+00:24:45,298 --> 00:24:50,460
+tá criando um monte de efeitos negativos
+
+543
+00:24:47,179 --> 00:24:53,100
+para nosso meio ambiente para nossa
+
+544
+00:24:50,460 --> 00:24:56,100
+sociedade então a gente quer ampliar
+
+545
+00:24:53,099 --> 00:24:59,099
+Essa visão né e pensar para que seja
+
+546
+00:24:56,099 --> 00:25:01,500
+sucesso tem que ver se ele sofrer a
+
+547
+00:24:59,099 --> 00:25:03,500
+longo prazo e vê Quais são os efeitos
+
+548
+00:25:01,500 --> 00:25:05,700
+que ele tá no caminho
+
+549
+00:25:03,500 --> 00:25:07,940
+outras coisas que essas sustentabilidade
+
+550
+00:25:05,700 --> 00:25:11,038
+a gente pode alcançar
+
+551
+00:25:07,940 --> 00:25:15,419
+mudanças na verdade não infelizmente a
+
+552
+00:25:11,038 --> 00:25:15,419
+gente precisa de mudanças enormes
+
+553
+00:25:15,960 --> 00:25:21,840
+é realmente a gente tem que mudar Nossa
+
+554
+00:25:17,880 --> 00:25:23,100
+forma de ver as coisas de te consumir se
+
+555
+00:25:21,839 --> 00:25:25,740
+a gente faz por exemplo da economia
+
+556
+00:25:23,099 --> 00:25:28,399
+circular né economia circular não é
+
+557
+00:25:25,740 --> 00:25:31,980
+simplesmente você criar
+
+558
+00:25:28,400 --> 00:25:34,620
+produtos que depois você pode tirar as
+
+559
+00:25:31,980 --> 00:25:36,480
+partes dele e aproveitar né só isso a
+
+560
+00:25:34,619 --> 00:25:38,219
+gente tem que mudar a gente passar por
+
+561
+00:25:36,480 --> 00:25:40,259
+uma economia de serviços a gente tem que
+
+562
+00:25:38,220 --> 00:25:43,640
+consumir menos a gente tem que sair
+
+563
+00:25:40,259 --> 00:25:43,640
+dessa dessa nossa
+
+564
+00:25:44,538 --> 00:25:50,339
+forma de gerar lucro que é sempre
+
+565
+00:25:47,960 --> 00:25:52,798
+comprando e jogando fora comprando o
+
+566
+00:25:50,339 --> 00:25:55,319
+outro próximo Modelo E aí por diante
+
+567
+00:25:52,798 --> 00:25:57,839
+isso requer isso precisa de uma mudança
+
+568
+00:25:55,319 --> 00:25:59,278
+de mentalidade muito forte então uma vez
+
+569
+00:25:57,839 --> 00:26:02,038
+que você tem essa mudança de mentalidade
+
+570
+00:25:59,278 --> 00:26:04,558
+aí já é bem mais fácil né Aí você
+
+571
+00:26:02,038 --> 00:26:06,119
+procura as técnicas né Tem métodos tem
+
+572
+00:26:04,558 --> 00:26:06,859
+técnicas que te ajudam a criar essa
+
+573
+00:26:06,119 --> 00:26:11,038
+visão
+
+574
+00:26:06,859 --> 00:26:13,079
+que te ajudar vou desenhar soluções aqui
+
+575
+00:26:11,038 --> 00:26:15,480
+você pode usar o pensamento sistêmico
+
+576
+00:26:13,079 --> 00:26:17,339
+você pode entender que o sistema de
+
+577
+00:26:15,480 --> 00:26:18,960
+software tá isolados são sistemas
+
+578
+00:26:17,339 --> 00:26:20,819
+sociotécnicos que estão integrados
+
+579
+00:26:18,960 --> 00:26:23,038
+dentro de uma sociedade dentro de um
+
+580
+00:26:20,819 --> 00:26:25,139
+contexto entender as diferentes partes
+
+581
+00:26:23,038 --> 00:26:27,558
+do sistema como elas se relacionam como
+
+582
+00:26:25,140 --> 00:26:30,179
+se relacionam com outros sistemas
+
+583
+00:26:27,558 --> 00:26:33,500
+como funciona dentro de um determinado
+
+584
+00:26:30,179 --> 00:26:35,940
+contexto e nunca terminado o tempo pode
+
+585
+00:26:33,500 --> 00:26:37,880
+experimentar com as fronteiras né e sim
+
+586
+00:26:35,940 --> 00:26:40,980
+meu sistema não é só
+
+587
+00:26:37,880 --> 00:26:44,400
+isso aqui né só a funcionalidade sofre
+
+588
+00:26:40,980 --> 00:26:45,778
+um pouquinho mais para lá né e aqui você
+
+589
+00:26:44,400 --> 00:26:47,759
+Experimenta coisas diferentes fronteiras
+
+590
+00:26:45,778 --> 00:26:50,819
+e ver os diferentes efeitos que isso
+
+591
+00:26:47,759 --> 00:26:52,859
+pode ter você pode buscar os Loops que a
+
+592
+00:26:50,819 --> 00:26:54,960
+gente chama dos grupos de reforço os
+
+593
+00:26:52,859 --> 00:26:57,298
+looks de reforço eles são como que uma
+
+594
+00:26:54,960 --> 00:26:59,600
+coisa leva outra né se você pensa por
+
+595
+00:26:57,298 --> 00:27:02,599
+exemplo que você consegue fazer
+
+596
+00:26:59,599 --> 00:27:02,599
+roupas
+
+597
+00:27:06,380 --> 00:27:12,080
+as empresas que estão fazendo essas
+
+598
+00:27:08,278 --> 00:27:15,839
+roupas Elas têm mais dinheiro podem
+
+599
+00:27:12,079 --> 00:27:18,298
+investir mais em tecnologia em
+
+600
+00:27:15,839 --> 00:27:21,480
+mais pressão nos seus nos seus
+
+601
+00:27:18,298 --> 00:27:25,379
+fornecedores fazem roupas do rosto e
+
+602
+00:27:21,480 --> 00:27:26,579
+aqui a gente vai né esses clubes de
+
+603
+00:27:25,380 --> 00:27:28,380
+reforço aqui tem um nome engraçado
+
+604
+00:27:26,579 --> 00:27:30,439
+porque eles são chamados grupos
+
+605
+00:27:28,380 --> 00:27:33,120
+positivos na verdade eles não são
+
+606
+00:27:30,440 --> 00:27:35,159
+sustentáveis eles são grupos pequenos
+
+607
+00:27:33,119 --> 00:27:38,459
+levam a um comportamento exponencial e
+
+608
+00:27:35,159 --> 00:27:39,900
+que algum momento a gente cai né a
+
+609
+00:27:38,460 --> 00:27:44,278
+natureza não é assim a natureza ela vai
+
+610
+00:27:39,900 --> 00:27:46,019
+assim ondas né as coisas se você vai um
+
+611
+00:27:44,278 --> 00:27:47,579
+pouquinho para um lado volta vai para
+
+612
+00:27:46,019 --> 00:27:49,980
+outro lado volta se você pensar os
+
+613
+00:27:47,579 --> 00:27:51,899
+preços esses predadores né quando você
+
+614
+00:27:49,980 --> 00:27:53,839
+come muitas presas fica muito
+
+615
+00:27:51,900 --> 00:27:58,340
+espredadores mas aí você
+
+616
+00:27:53,839 --> 00:27:58,339
+acaba umas presas Então os predadores
+
+617
+00:28:00,558 --> 00:28:04,798
+então tem também outros treinos que
+
+618
+00:28:03,240 --> 00:28:07,140
+ajudam a entender possíveis efeitos
+
+619
+00:28:04,798 --> 00:28:09,778
+positivos e negativos em diferentes
+
+620
+00:28:07,140 --> 00:28:12,360
+dimensões e uma coisa muito importante é
+
+621
+00:28:09,778 --> 00:28:14,720
+poder desenhar code desenhar as soluções
+
+622
+00:28:12,359 --> 00:28:18,178
+com os nossos
+
+623
+00:28:14,720 --> 00:28:21,659
+não são só quem tá pagando pelos outros
+
+624
+00:28:18,179 --> 00:28:24,659
+nossos clientes Não os nossos são
+
+625
+00:28:21,659 --> 00:28:27,419
+qualquer pessoa ou representante porque
+
+626
+00:28:24,659 --> 00:28:30,539
+também a natureza onde tem outros
+
+627
+00:28:27,419 --> 00:28:32,778
+animais podem ser os terrores é que
+
+628
+00:28:30,538 --> 00:28:34,798
+estão representando as diferentes
+
+629
+00:28:32,778 --> 00:28:38,038
+interesses e a gente tem que pôr
+
+630
+00:28:34,798 --> 00:28:42,179
+desenhar soluções com essas pessoas
+
+631
+00:28:38,038 --> 00:28:44,640
+e bom é isso eles não são fontes né eles
+
+632
+00:28:42,179 --> 00:28:46,820
+têm que ser desenhadores nas nossas
+
+633
+00:28:44,640 --> 00:28:46,820
+Soluções
+
+634
+00:28:47,460 --> 00:28:52,500
+e
+
+635
+00:28:49,859 --> 00:28:55,439
+falando é traduzido como engenharia de
+
+636
+00:28:52,500 --> 00:28:57,359
+requisitos para sustentabilidade uma
+
+637
+00:28:55,440 --> 00:28:59,940
+estrutura de conscientização para
+
+638
+00:28:57,359 --> 00:29:00,979
+projetar sistema de software para o
+
+639
+00:28:59,940 --> 00:29:04,019
+amanhã melhor
+
+640
+00:29:00,980 --> 00:29:07,319
+você e seus coautores vocês apresentaram
+
+641
+00:29:04,019 --> 00:29:09,658
+Framework baseado em perguntas para
+
+642
+00:29:07,319 --> 00:29:12,119
+aumentar a conscientização sobre os
+
+643
+00:29:09,659 --> 00:29:15,000
+efeitos potenciais do sistema de
+
+644
+00:29:12,119 --> 00:29:16,798
+software na sustentabilidade você
+
+645
+00:29:15,000 --> 00:29:19,700
+poderia explicar um pouquinho mais de
+
+646
+00:29:16,798 --> 00:29:19,700
+trabalho para a gente
+
+647
+00:29:24,019 --> 00:29:28,759
+e ele vende suspernability
+
+648
+00:29:29,058 --> 00:29:34,319
+ou seja ele é um freio morto de
+
+649
+00:29:31,859 --> 00:29:37,859
+conscientização porque o que que a gente
+
+650
+00:29:34,319 --> 00:29:42,178
+a gente notou que nas nossas nossas
+
+651
+00:29:37,859 --> 00:29:47,058
+pesquisas que falta que os engenheiros
+
+652
+00:29:42,179 --> 00:29:49,860
+de software e as empresas de general
+
+653
+00:29:47,058 --> 00:29:51,538
+assumam essa responsabilidade e entendam
+
+654
+00:29:49,859 --> 00:29:53,759
+as consequências das coisas que eles
+
+655
+00:29:51,538 --> 00:29:56,220
+estão criando Então esse esse tremor que
+
+656
+00:29:53,759 --> 00:29:57,778
+ele busca Exatamente isso e é fácil
+
+657
+00:29:56,220 --> 00:30:00,259
+entender o senhor porque ele é na
+
+658
+00:29:57,778 --> 00:30:04,019
+verdade uma técnica de bens dorme
+
+659
+00:30:00,259 --> 00:30:07,558
+basicamente só que que a gente faz a
+
+660
+00:30:04,019 --> 00:30:09,898
+gente para fazer esse transtorno a gente
+
+661
+00:30:07,558 --> 00:30:13,398
+faz um brinde dorme em diferentes
+
+662
+00:30:09,898 --> 00:30:13,398
+dimensões de sustentabilidade
+
+663
+00:30:19,558 --> 00:30:24,538
+individual e humano e o outro que é o
+
+664
+00:30:22,558 --> 00:30:26,940
+técnico então quando a gente tá falando
+
+665
+00:30:24,538 --> 00:30:29,460
+do da dimensão ambiental a gente tá
+
+666
+00:30:26,940 --> 00:30:31,620
+falando dos nossos sistemas naturais os
+
+667
+00:30:29,460 --> 00:30:33,200
+ecossistemas a mudança climática
+
+668
+00:30:31,619 --> 00:30:35,699
+produção de alimentos
+
+669
+00:30:33,200 --> 00:30:38,298
+o social a gente está falando de
+
+670
+00:30:35,700 --> 00:30:40,980
+igualdade Justiça emprego democracia
+
+671
+00:30:38,298 --> 00:30:43,379
+Econômica a gente tá falando de Como
+
+672
+00:30:40,980 --> 00:30:44,419
+podemos manter o capital o valor
+
+673
+00:30:43,380 --> 00:30:47,179
+agregado
+
+674
+00:30:44,419 --> 00:30:49,440
+inovação ou prosperidade
+
+675
+00:30:47,179 --> 00:30:52,380
+quando a gente tá falando de do
+
+676
+00:30:49,440 --> 00:30:54,840
+individual humano estamos falando de do
+
+677
+00:30:52,380 --> 00:30:56,760
+bem-estar nosso próprio bem-estar nosso
+
+678
+00:30:54,839 --> 00:30:59,359
+bem estar físico nosso bem estar Mental
+
+679
+00:30:56,759 --> 00:31:02,778
+é a nossa educação
+
+680
+00:30:59,359 --> 00:31:06,719
+autoestima nossa capacidade de
+
+681
+00:31:02,778 --> 00:31:08,220
+mover de tomar decisões e finalmente o
+
+682
+00:31:06,720 --> 00:31:11,159
+técnico é o que a gente conhece né o
+
+683
+00:31:08,220 --> 00:31:12,538
+técnico é quanto pode durar os nossos
+
+684
+00:31:11,159 --> 00:31:14,700
+sistemas que a gente também quer que os
+
+685
+00:31:12,538 --> 00:31:16,460
+nossos sistemas durem né porque a gente
+
+686
+00:31:14,700 --> 00:31:20,038
+tem que entender
+
+687
+00:31:16,460 --> 00:31:21,720
+a energia o trabalho que por dentro
+
+688
+00:31:20,038 --> 00:31:24,119
+desses temas os materiais que você
+
+689
+00:31:21,720 --> 00:31:27,179
+colocaram nesse sistema então a gente tá
+
+690
+00:31:24,119 --> 00:31:28,939
+falando de coisas como amamentação a
+
+691
+00:31:27,179 --> 00:31:31,919
+Inovação
+
+692
+00:31:28,940 --> 00:31:33,659
+escolaridade portabilidade e todas essas
+
+693
+00:31:31,919 --> 00:31:36,059
+qualidades de softwares que a gente
+
+694
+00:31:33,659 --> 00:31:39,720
+conhece então o que que a gente faz esse
+
+695
+00:31:36,058 --> 00:31:41,418
+freio ele olha em diferentes ordens de
+
+696
+00:31:39,720 --> 00:31:44,278
+efeito
+
+697
+00:31:41,419 --> 00:31:46,740
+Você tem uma ordem a primeira ordem de
+
+698
+00:31:44,278 --> 00:31:49,940
+efeito é basicamente o que você precisa
+
+699
+00:31:46,740 --> 00:31:49,940
+para aquilo ali existir
+
+700
+00:31:50,058 --> 00:31:56,759
+você precisa de minerais você precisa de
+
+701
+00:31:54,359 --> 00:31:59,278
+energia você precisa de pessoas que
+
+702
+00:31:56,759 --> 00:32:01,740
+desenvolvam que eles sofrem é isso tudo
+
+703
+00:31:59,278 --> 00:32:03,240
+então tem feitos Lógico né se eu preciso
+
+704
+00:32:01,740 --> 00:32:05,359
+de servidores eu preciso de energia eu
+
+705
+00:32:03,240 --> 00:32:07,919
+tô criando certos efeitos
+
+706
+00:32:05,359 --> 00:32:10,579
+aí tem a segunda ordem que são ordens
+
+707
+00:32:07,919 --> 00:32:13,460
+que é uma ordem que está relacionada ao
+
+708
+00:32:10,579 --> 00:32:18,599
+a funcionalidade daquele software então
+
+709
+00:32:13,460 --> 00:32:20,778
+voltando ao exemplo é quando eu alugo um
+
+710
+00:32:18,599 --> 00:32:20,778
+apartamento
+
+711
+00:32:20,960 --> 00:32:25,620
+de segunda ordem e depois a gente tá
+
+712
+00:32:23,819 --> 00:32:28,619
+falando dos efeitos de terceira ordem
+
+713
+00:32:25,619 --> 00:32:31,439
+Esses são sistêmicos que são aqueles que
+
+714
+00:32:28,619 --> 00:32:33,538
+quando muitas pessoas começam a utilizar
+
+715
+00:32:31,440 --> 00:32:36,659
+o software ou muito software parecidos
+
+716
+00:32:33,538 --> 00:32:38,298
+por muito tempo né então aqui podemos
+
+717
+00:32:36,659 --> 00:32:40,159
+falar de meses
+
+718
+00:32:38,298 --> 00:32:42,859
+de anos
+
+719
+00:32:40,159 --> 00:32:47,179
+e é o que leva
+
+720
+00:32:42,859 --> 00:32:49,918
+por exemplo os processos de entretração
+
+721
+00:32:47,179 --> 00:32:51,538
+de efeito
+
+722
+00:32:49,919 --> 00:32:54,778
+então o que que a gente faz como é que a
+
+723
+00:32:51,538 --> 00:32:57,359
+gente faz esse brinde a gente tem umas
+
+724
+00:32:54,778 --> 00:33:00,538
+para cada dimensão a gente tem cinco
+
+725
+00:32:57,359 --> 00:33:02,158
+palavras-chaves então e a gente tem
+
+726
+00:33:00,538 --> 00:33:05,720
+perguntas associadas àquelas
+
+727
+00:33:02,159 --> 00:33:10,100
+palavras-chaves E essas perguntas ajudam
+
+728
+00:33:05,720 --> 00:33:13,220
+aos pensarem possíveis efeitos positivos
+
+729
+00:33:10,099 --> 00:33:16,439
+negativos e nas três ordens de efeitos
+
+730
+00:33:13,220 --> 00:33:21,200
+Então se a gente pensa na dimensão
+
+731
+00:33:16,440 --> 00:33:21,200
+social as palavras-chaves são saúde
+
+732
+00:33:21,558 --> 00:33:28,139
+comunidade confiança inclusão igualdade
+
+733
+00:33:25,558 --> 00:33:29,819
+e participação né então a gente faz
+
+734
+00:33:28,140 --> 00:33:31,740
+perguntas relacionadas a isso e as
+
+735
+00:33:29,819 --> 00:33:33,240
+pessoas vão tendo ideias né Quanto mais
+
+736
+00:33:31,740 --> 00:33:37,519
+ideias melhor quanto mais loucas melhor
+
+737
+00:33:33,240 --> 00:33:41,240
+quanto mais melhor e isso depois a gente
+
+738
+00:33:37,519 --> 00:33:41,240
+tentar priorizar
+
+739
+00:33:46,220 --> 00:33:51,679
+os efeitos negativos e possa aproveitar
+
+740
+00:33:49,140 --> 00:33:51,679
+os
+
+741
+00:33:55,319 --> 00:33:59,398
+interessante Então isso está disponível
+
+742
+00:33:57,359 --> 00:34:02,719
+para as pessoas que vão desenvolver
+
+743
+00:33:59,398 --> 00:34:02,719
+sistemas a partir de agora né
+
+744
+00:34:03,200 --> 00:34:08,300
+esse esse freio que ele tá em frente do
+
+745
+00:34:06,720 --> 00:34:11,338
+comandos
+
+746
+00:34:08,300 --> 00:34:16,519
+e a gente já utilizou com muitas
+
+747
+00:34:11,338 --> 00:34:16,519
+empresas a gente alunos então
+
+748
+00:34:17,000 --> 00:34:21,858
+muitas muitas a gente já Ensina esse
+
+749
+00:34:19,619 --> 00:34:26,300
+freio tem várias universidades no mundo
+
+750
+00:34:21,858 --> 00:34:26,299
+e ele tá ele tá disponível
+
+751
+00:34:31,760 --> 00:34:35,639
+e qualquer um pode usar e se quiser
+
+752
+00:34:34,559 --> 00:34:39,440
+entrar em contato com a gente a gente
+
+753
+00:34:35,639 --> 00:34:39,440
+ajuda também a utilizar
+
+754
+00:34:44,179 --> 00:34:49,079
+o outro artigo do qual você qual a
+
+755
+00:34:46,800 --> 00:34:50,639
+autora se chama o elefante na sala é
+
+756
+00:34:49,079 --> 00:34:52,259
+educando os praticantes sobre
+
+757
+00:34:50,639 --> 00:34:54,780
+desenvolvimento de software para
+
+758
+00:34:52,260 --> 00:34:57,960
+sustentabilidade Quais são os desafios
+
+759
+00:34:54,780 --> 00:34:59,700
+para educar atuais e futuras pessoas do
+
+760
+00:34:57,960 --> 00:35:03,199
+desenvolvedores de software em
+
+761
+00:34:59,699 --> 00:35:03,199
+desenvolvimento com sustentabilidade
+
+762
+00:35:05,599 --> 00:35:10,440
+dentro das Universidades de mudar dentro
+
+763
+00:35:08,219 --> 00:35:13,139
+das Universidades do grupo que eu tô
+
+764
+00:35:10,440 --> 00:35:17,099
+algumas já estão mudando Eu tenho um
+
+765
+00:35:13,139 --> 00:35:18,358
+colega meu que eu coletes é que ele tá
+
+766
+00:35:17,099 --> 00:35:19,579
+responsável por integrar
+
+767
+00:35:18,358 --> 00:35:23,960
+sustentabilidade
+
+768
+00:35:19,579 --> 00:35:25,859
+dentro da Computação né interessante
+
+769
+00:35:23,960 --> 00:35:26,720
+Eu também gostaria de fazer uma coisa
+
+770
+00:35:25,858 --> 00:35:29,000
+assim
+
+771
+00:35:26,719 --> 00:35:31,919
+onde eu tô
+
+772
+00:35:29,000 --> 00:35:33,179
+e eu acho que primeiro a gente tem que
+
+773
+00:35:31,920 --> 00:35:39,358
+entender que a parte da nossa disciplina
+
+774
+00:35:33,179 --> 00:35:39,358
+não é outra né que sustentabilidade
+
+775
+00:35:41,159 --> 00:35:45,679
+Então a gente tem um mínimo que a gente
+
+776
+00:35:43,440 --> 00:35:48,420
+tem que entender né então esse mínimo
+
+777
+00:35:45,679 --> 00:35:50,519
+obviamente tem toda a parte da
+
+778
+00:35:48,420 --> 00:35:52,980
+sustentabilidade técnica toda a parte do
+
+779
+00:35:50,519 --> 00:35:56,099
+uso de energia mas também tem o mínimo
+
+780
+00:35:52,980 --> 00:35:58,559
+que é ser capaz de entender as
+
+781
+00:35:56,099 --> 00:36:01,380
+diferentes dimensões e como elas se
+
+782
+00:35:58,559 --> 00:36:04,320
+inter-relacionam para que a gente possa
+
+783
+00:36:01,380 --> 00:36:07,260
+pensar nesses nessas possíveis
+
+784
+00:36:04,320 --> 00:36:09,119
+consequências e falar com outros de
+
+785
+00:36:07,260 --> 00:36:10,800
+terrores entender outras existem outras
+
+786
+00:36:09,119 --> 00:36:13,079
+isso é capaz de trabalhar com pessoas
+
+787
+00:36:10,800 --> 00:36:14,339
+que são especialistas nos diferentes
+
+788
+00:36:13,079 --> 00:36:17,640
+temas porque o problema da
+
+789
+00:36:14,338 --> 00:36:21,739
+sustentabilidade é que é muito complexo
+
+790
+00:36:17,639 --> 00:36:26,000
+é muito é muito grande é tudo é
+
+791
+00:36:21,739 --> 00:36:29,000
+interconectado ninguém ninguém entende
+
+792
+00:36:26,000 --> 00:36:29,000
+sustentabilidade
+
+793
+00:36:31,880 --> 00:36:37,019
+Então mas eu tenho uma base a gente tem
+
+794
+00:36:34,980 --> 00:36:39,780
+que ter e essa base a gente tem que
+
+795
+00:36:37,019 --> 00:36:41,699
+estar ensinando em todas as
+
+796
+00:36:39,780 --> 00:36:43,320
+Universidades agora aqui eu não sei né
+
+797
+00:36:41,699 --> 00:36:47,059
+Talvez algumas pessoas acham muito
+
+798
+00:36:43,320 --> 00:36:47,059
+extrema mas não pode ser uma disciplina
+
+799
+00:36:47,300 --> 00:36:51,260
+que a gente faz sustentabilidade
+
+800
+00:36:58,159 --> 00:37:04,739
+em todas as nossas disciplinas
+
+801
+00:37:02,179 --> 00:37:06,539
+integrar esses conceitos né quando a
+
+802
+00:37:04,739 --> 00:37:09,539
+gente está aprendendo a programar como é
+
+803
+00:37:06,539 --> 00:37:11,159
+que a gente pode criar um programa que
+
+804
+00:37:09,539 --> 00:37:13,019
+utilizam a menos quantidade de energia
+
+805
+00:37:11,159 --> 00:37:14,659
+possível por exemplo até quando a gente
+
+806
+00:37:13,019 --> 00:37:16,980
+está aprendendo a fazer
+
+807
+00:37:14,659 --> 00:37:19,259
+análise de sistemas como é que a gente
+
+808
+00:37:16,980 --> 00:37:20,579
+pode falar com os outros e como desenhar
+
+809
+00:37:19,260 --> 00:37:22,619
+com eles como é que a gente pode
+
+810
+00:37:20,579 --> 00:37:24,900
+entender os diferentes efeitos e assim
+
+811
+00:37:22,619 --> 00:37:27,059
+você pode pensar em todas as disciplinas
+
+812
+00:37:24,900 --> 00:37:29,940
+dentro da computação e como que a gente
+
+813
+00:37:27,059 --> 00:37:32,578
+sempre pode ter esse esse ponto de vista
+
+814
+00:37:29,940 --> 00:37:34,139
+porque tinha que ser uma pregação né e
+
+815
+00:37:32,579 --> 00:37:36,480
+eu acho que outra coisa muito importante
+
+816
+00:37:34,139 --> 00:37:37,379
+que eu acho que a gente não dá atenção e
+
+817
+00:37:36,480 --> 00:37:39,719
+que é muito importante principalmente
+
+818
+00:37:37,380 --> 00:37:43,260
+para essa parte agora né a gente tá numa
+
+819
+00:37:39,719 --> 00:37:46,078
+eu acho que a gente tá numa mudança de
+
+820
+00:37:43,260 --> 00:37:50,060
+mentalidade é que as pessoas técnicas
+
+821
+00:37:46,079 --> 00:37:50,060
+Elas têm que ser capazes de entender
+
+822
+00:37:50,480 --> 00:37:54,480
+o caso de negócio né que a gente chama
+
+823
+00:37:53,039 --> 00:37:56,880
+de Business que é isso o caso de negócio
+
+824
+00:37:54,480 --> 00:37:59,400
+porque a gente tem que argumentar com as
+
+825
+00:37:56,880 --> 00:38:01,500
+empresas que isso é importante e que é
+
+826
+00:37:59,400 --> 00:38:04,858
+bom para ela então a gente tem que
+
+827
+00:38:01,500 --> 00:38:07,739
+entender Quais são as vantagens para as
+
+828
+00:38:04,858 --> 00:38:08,819
+empresas de implementar a
+
+829
+00:38:07,739 --> 00:38:09,959
+sustentabilidade considerar
+
+830
+00:38:08,820 --> 00:38:11,940
+sustentabilidade quando a gente está
+
+831
+00:38:09,960 --> 00:38:14,300
+criando esse software agora a gente fez
+
+832
+00:38:11,940 --> 00:38:17,940
+um outro grupo
+
+833
+00:38:14,300 --> 00:38:20,400
+eu participei de uma pesquisa a gente
+
+834
+00:38:17,940 --> 00:38:21,900
+entrevistou 28 empresas que são uma
+
+835
+00:38:20,400 --> 00:38:25,200
+empresa de softwares que têm
+
+836
+00:38:21,900 --> 00:38:28,019
+desenvolvimento de software interno é e
+
+837
+00:38:25,199 --> 00:38:29,159
+para ver o que que elas entendiam o
+
+838
+00:38:28,019 --> 00:38:31,440
+posto de rentabilidade Quais as
+
+839
+00:38:29,159 --> 00:38:34,679
+necessidades que elas queriam de
+
+840
+00:38:31,440 --> 00:38:36,200
+conhecer e competências e conhecimentos
+
+841
+00:38:34,679 --> 00:38:38,699
+para
+
+842
+00:38:36,199 --> 00:38:41,159
+os engenheiros de software e pessoas
+
+843
+00:38:38,699 --> 00:38:42,719
+técnicas e a gente viu que ainda tem uma
+
+844
+00:38:41,159 --> 00:38:45,980
+visão bastante limitada ainda tem uma
+
+845
+00:38:42,719 --> 00:38:49,699
+visão que é muito só ambiente energia
+
+846
+00:38:45,980 --> 00:38:49,699
+de conhecimentos e
+
+847
+00:38:57,858 --> 00:39:03,179
+mas tem que tem que ir mais com mais
+
+848
+00:39:01,320 --> 00:39:06,059
+mais para lá né então a gente viu que
+
+849
+00:39:03,179 --> 00:39:07,799
+tem essa necessidade de falar a
+
+850
+00:39:06,059 --> 00:39:09,838
+linguagem das empresas porque a gente
+
+851
+00:39:07,800 --> 00:39:11,820
+precisa ser capaz de traduzir esses
+
+852
+00:39:09,838 --> 00:39:14,039
+benefícios ambientais e sociais em
+
+853
+00:39:11,820 --> 00:39:16,680
+benefícios econômicos como isso vai
+
+854
+00:39:14,039 --> 00:39:19,139
+ajudar as empresas a gente tem que olhar
+
+855
+00:39:16,679 --> 00:39:21,299
+tanto o desenvolvimento tanto sofrência
+
+856
+00:39:19,139 --> 00:39:22,920
+como todos os processos que estão ao
+
+857
+00:39:21,300 --> 00:39:24,839
+redor desse software inclusive o
+
+858
+00:39:22,920 --> 00:39:29,338
+processo de desenvolvimento do software
+
+859
+00:39:24,838 --> 00:39:31,078
+a gente tem que ajudar a facilitar Essa
+
+860
+00:39:29,338 --> 00:39:33,239
+energia de facilitar alianças
+
+861
+00:39:31,079 --> 00:39:34,980
+sustentabilidade complexo sozinho a
+
+862
+00:39:33,239 --> 00:39:38,098
+gente não vai resolver então a gente
+
+863
+00:39:34,980 --> 00:39:40,740
+precisa que a gente e pessoas que sejam
+
+864
+00:39:38,099 --> 00:39:43,079
+capazes de fazer isso capazes de criar
+
+865
+00:39:40,739 --> 00:39:45,659
+essas redes de colaboração isso não
+
+866
+00:39:43,079 --> 00:39:47,880
+tinha que ser parte do currículo sabe
+
+867
+00:39:45,659 --> 00:39:51,179
+fazer para que sustentabilidade
+
+868
+00:39:47,880 --> 00:39:52,619
+realmente seja uma parte integral do
+
+869
+00:39:51,179 --> 00:39:55,379
+desenvolvimento de software da nossa
+
+870
+00:39:52,619 --> 00:39:57,000
+disciplina então agora a gente chega na
+
+871
+00:39:55,380 --> 00:39:58,740
+parte onde a gente faz outras perguntas
+
+872
+00:39:57,000 --> 00:40:01,019
+não relacionadas ao tema
+
+873
+00:39:58,739 --> 00:40:02,519
+sustentabilidade depois a gente vai ter
+
+874
+00:40:01,019 --> 00:40:05,159
+a pergunta final Provavelmente você vai
+
+875
+00:40:02,519 --> 00:40:06,960
+mencionar o tema novamente mas é que
+
+876
+00:40:05,159 --> 00:40:09,440
+aqui no podcast nós já entrevistamos
+
+877
+00:40:06,960 --> 00:40:12,300
+vários pesquisadores e pesquisadoras que
+
+878
+00:40:09,440 --> 00:40:14,519
+atuam no exterior em alguns casos até
+
+879
+00:40:12,300 --> 00:40:16,380
+por exemplo nossa última entrevista com
+
+880
+00:40:14,519 --> 00:40:17,880
+professor Igor está em maca a última
+
+881
+00:40:16,380 --> 00:40:18,920
+publicada né No dia que a gente tá
+
+882
+00:40:17,880 --> 00:40:21,780
+gravando
+
+883
+00:40:18,920 --> 00:40:23,460
+quando a gente combinou entrevista Ele
+
+884
+00:40:21,780 --> 00:40:25,200
+tá trabalhando no Brasil quando a gente
+
+885
+00:40:23,460 --> 00:40:27,599
+entrevistou ele já tava trabalhando nos
+
+886
+00:40:25,199 --> 00:40:29,338
+Estados Unidos teve outros casos que a
+
+887
+00:40:27,599 --> 00:40:30,960
+gente tava conversando com a pessoa e no
+
+888
+00:40:29,338 --> 00:40:32,880
+final da entrevista quando não tava mais
+
+889
+00:40:30,960 --> 00:40:36,838
+gravado Olha já tô certo que eu vou para
+
+890
+00:40:32,880 --> 00:40:39,420
+outro país aqui mas obviamente que as
+
+891
+00:40:36,838 --> 00:40:41,519
+pessoas variam com suas motivações O que
+
+892
+00:40:39,420 --> 00:40:44,460
+é que te levou a ir trabalhar no
+
+893
+00:40:41,519 --> 00:40:46,380
+exterior mas especificamente a Espanha
+
+894
+00:40:44,460 --> 00:40:49,980
+bom gente aqui eu tenho que Honrar essa
+
+895
+00:40:46,380 --> 00:40:52,160
+mulher maravilhosa que é minha avó
+
+896
+00:40:49,980 --> 00:40:55,159
+é Dona Maria Silvia
+
+897
+00:40:52,159 --> 00:40:57,719
+e eu fui
+
+898
+00:40:55,159 --> 00:40:59,519
+praticamente criada com ela né porque a
+
+899
+00:40:57,719 --> 00:41:01,679
+gente vai trabalhar com todo mundo e eu
+
+900
+00:40:59,519 --> 00:41:03,960
+passava o dia inteiro com a minha avó e
+
+901
+00:41:01,679 --> 00:41:06,419
+a minha avó ela repetia duas coisas para
+
+902
+00:41:03,960 --> 00:41:08,760
+mim uma ela que eu tinha que conhecer o
+
+903
+00:41:06,420 --> 00:41:10,559
+mundo tinha que conhecer o mundo e ponto
+
+904
+00:41:08,760 --> 00:41:13,680
+final e a outra que eu não podia
+
+905
+00:41:10,559 --> 00:41:15,900
+defender de homem nenhum eu acho que as
+
+906
+00:41:13,679 --> 00:41:17,879
+duas grandes era de preocupação da minha
+
+907
+00:41:15,900 --> 00:41:19,980
+avó e com isso eu criei uma obsessão de
+
+908
+00:41:17,880 --> 00:41:22,200
+conhecer o mundo né então não sei porque
+
+909
+00:41:19,980 --> 00:41:24,320
+quando eu cresci quando eu tava
+
+910
+00:41:22,199 --> 00:41:26,578
+crescendo né
+
+911
+00:41:24,320 --> 00:41:28,800
+eu ia viver em Londres de qualquer
+
+912
+00:41:26,579 --> 00:41:30,359
+maneira e quando as pessoas quando eu
+
+913
+00:41:28,800 --> 00:41:32,339
+falava com as pessoas não falava ai eu
+
+914
+00:41:30,358 --> 00:41:34,199
+gostaria de ter em Londres eu dizia
+
+915
+00:41:32,338 --> 00:41:36,799
+quando eu for morar em Londres eu vou
+
+916
+00:41:34,199 --> 00:41:36,799
+fazer isso isso
+
+917
+00:41:46,199 --> 00:41:50,519
+centenas de empresas não sei se estão
+
+918
+00:41:48,300 --> 00:41:52,500
+centenas meus dezenas Com certeza de
+
+919
+00:41:50,519 --> 00:41:56,000
+empresas em Londres pedindo no estágio e
+
+920
+00:41:52,500 --> 00:41:56,000
+no final com ajuda de um professor
+
+921
+00:41:57,980 --> 00:42:03,619
+eu consegui um estágio na Inglaterra e
+
+922
+00:42:01,380 --> 00:42:08,000
+eu fui trabalhar numa
+
+923
+00:42:03,619 --> 00:42:11,338
+numa empresa que na época se chama
+
+924
+00:42:08,000 --> 00:42:14,960
+e era uma empresa que criava software
+
+925
+00:42:11,338 --> 00:42:18,320
+para contra lavagem de dinheiro
+
+926
+00:42:14,960 --> 00:42:21,900
+e eu trabalhava na área de pesquisa
+
+927
+00:42:18,320 --> 00:42:23,660
+dessa empresa e foi Foi incrível né
+
+928
+00:42:21,900 --> 00:42:26,579
+assim foi o trabalho dos sonhos porque
+
+929
+00:42:23,659 --> 00:42:28,559
+me pagavam para eu brincar não era assim
+
+930
+00:42:26,579 --> 00:42:31,680
+que eu via porque meu trabalho era
+
+931
+00:42:28,559 --> 00:42:35,099
+criança ler sobre as tecnologias novas
+
+932
+00:42:31,679 --> 00:42:36,319
+Criar prototipos e dizer para eles o que
+
+933
+00:42:35,099 --> 00:42:39,059
+que eu achava
+
+934
+00:42:36,320 --> 00:42:41,640
+era realmente um trabalho de sonho e
+
+935
+00:42:39,059 --> 00:42:46,139
+então que era para ser um ano virou 10
+
+936
+00:42:41,639 --> 00:42:48,179
+né eu fui muito que eu fui ficando
+
+937
+00:42:46,139 --> 00:42:49,559
+aí eu acabei eu cheguei a voltar Brasil
+
+938
+00:42:48,179 --> 00:42:51,719
+para terminar minha gravação fiz meu
+
+939
+00:42:49,559 --> 00:42:54,838
+mestrado mas depois voltei para lá fiz
+
+940
+00:42:51,719 --> 00:42:57,239
+doutorado continuei trabalhando eh nessa
+
+941
+00:42:54,838 --> 00:42:58,279
+empresa depois fui Trabalhei na
+
+942
+00:42:57,239 --> 00:43:01,019
+universidade
+
+943
+00:42:58,280 --> 00:43:02,060
+e quando e quando eu terminei meu
+
+944
+00:43:01,019 --> 00:43:04,858
+doutorado
+
+945
+00:43:02,059 --> 00:43:07,858
+eu ainda tinha aquela aquela vozinha da
+
+946
+00:43:04,858 --> 00:43:10,858
+minha vó né tem que conhecer o mundo tem
+
+947
+00:43:07,858 --> 00:43:12,539
+que conhecer o mundo e eu tinha eu tinha
+
+948
+00:43:10,858 --> 00:43:15,000
+já viajado muito porque é muito mais
+
+949
+00:43:12,539 --> 00:43:18,599
+fácil viajar quando você tá na Europa é
+
+950
+00:43:15,000 --> 00:43:20,460
+bem mais barato e então eu decidi que eu
+
+951
+00:43:18,599 --> 00:43:22,200
+ia fazer uma viagem de volta ao mundo e
+
+952
+00:43:20,460 --> 00:43:25,818
+eu comecei a fazer minha viagem eu fui
+
+953
+00:43:22,199 --> 00:43:25,818
+sozinha tinha 30 anos
+
+954
+00:43:25,880 --> 00:43:30,119
+primeiro mês da minha viagem eu tava lá
+
+955
+00:43:28,260 --> 00:43:32,760
+na Ilha de Páscoa que a ilha mais remota
+
+956
+00:43:30,119 --> 00:43:34,858
+do mundo e eu conheci meu marido
+
+957
+00:43:32,760 --> 00:43:36,480
+e também tava fazendo maquiagem a gente
+
+958
+00:43:34,858 --> 00:43:38,239
+volta ao mundo ele tava no segundo mês
+
+959
+00:43:36,480 --> 00:43:42,059
+da viagem dele e a gente continua junto
+
+960
+00:43:38,239 --> 00:43:43,559
+a gente viajou por 18 meses e depois
+
+961
+00:43:42,059 --> 00:43:45,299
+disso a gente voltou para o Brasil
+
+962
+00:43:43,559 --> 00:43:47,179
+porque eu já tava tantos anos de
+
+963
+00:43:45,300 --> 00:43:50,519
+história do Brasil
+
+964
+00:43:47,179 --> 00:43:52,019
+10 anos para o Brasil e eu queria muito
+
+965
+00:43:50,519 --> 00:43:54,300
+passar mais tempo minha família a gente
+
+966
+00:43:52,019 --> 00:43:56,699
+voltou para o Brasil ficou 5 anos no
+
+967
+00:43:54,300 --> 00:43:59,880
+Brasil eu tava trabalhando na UERJ nessa
+
+968
+00:43:56,699 --> 00:44:01,559
+época e chegou um momento de que era vez
+
+969
+00:43:59,880 --> 00:44:02,780
+da gente vir para cá por isso eu tô na
+
+970
+00:44:01,559 --> 00:44:06,000
+Espanha
+
+971
+00:44:02,780 --> 00:44:08,660
+por família né tô aqui com ele com meu
+
+972
+00:44:06,000 --> 00:44:08,659
+marido com as crianças
+
+973
+00:44:16,579 --> 00:44:21,359
+eu gostava muito essa pergunta e você
+
+974
+00:44:19,800 --> 00:44:24,480
+falou que você já trabalhou né com
+
+975
+00:44:21,358 --> 00:44:27,358
+alunos de graduação então assim se algum
+
+976
+00:44:24,480 --> 00:44:29,699
+aluno de graduação de mestrado é gostou
+
+977
+00:44:27,358 --> 00:44:32,699
+aqui do que escutou e quiser fazer o
+
+978
+00:44:29,699 --> 00:44:37,578
+doutorado com você nesse tema é possível
+
+979
+00:44:32,699 --> 00:44:37,578
+que precisa ser feito gente por favor
+
+980
+00:44:39,739 --> 00:44:46,858
+pessoas interessadas não venham venham
+
+981
+00:44:43,199 --> 00:44:48,480
+venham não Sim claro eu acho que a gente
+
+982
+00:44:46,858 --> 00:44:50,338
+está sempre à procura de pessoas
+
+983
+00:44:48,480 --> 00:44:54,240
+animadas de pessoas interessadas pessoas
+
+984
+00:44:50,338 --> 00:44:55,279
+que tenham paixão pelo que pelo que elas
+
+985
+00:44:54,239 --> 00:44:58,500
+estão fazendo
+
+986
+00:44:55,280 --> 00:45:02,160
+logicamente não é fácil né a gente sabe
+
+987
+00:44:58,500 --> 00:45:04,338
+que estudar no exterior não é fácil que
+
+988
+00:45:02,159 --> 00:45:09,199
+a gente precisa buscar
+
+989
+00:45:04,338 --> 00:45:11,639
+formas de financiar isso mas
+
+990
+00:45:09,199 --> 00:45:15,598
+na minha universidade a gente tem
+
+991
+00:45:11,639 --> 00:45:17,639
+programa De Tanto de tem tem gente tem
+
+992
+00:45:15,599 --> 00:45:20,280
+graduação tem mestrado tem um doutorado
+
+993
+00:45:17,639 --> 00:45:23,460
+agora por exemplo vou fazer um pouco de
+
+994
+00:45:20,280 --> 00:45:25,800
+outra vez publicidade tem um programa de
+
+995
+00:45:23,460 --> 00:45:28,139
+doutorado que eu estou grávida de
+
+996
+00:45:25,800 --> 00:45:32,180
+Mestrado que eu faço parte que é um
+
+997
+00:45:28,139 --> 00:45:32,179
+projeto é um projeto Europeu é um Erasmo
+
+998
+00:45:36,920 --> 00:45:42,440
+e agora mesmo eu acho que a gente acabou
+
+999
+00:45:40,739 --> 00:45:47,299
+de
+
+1000
+00:45:42,440 --> 00:45:50,400
+escolher o segundo segundos alunos né
+
+1001
+00:45:47,300 --> 00:45:52,019
+Esses são a gente tem mais uns dois ou
+
+1002
+00:45:50,400 --> 00:45:55,318
+três anos de projeto ainda vai ter a
+
+1003
+00:45:52,019 --> 00:45:59,099
+possibilidade de fazer literalmente e
+
+1004
+00:45:55,318 --> 00:46:00,838
+nessa área e esse esse mestrado é muito
+
+1005
+00:45:59,099 --> 00:46:02,640
+legal porque você vive em três países
+
+1006
+00:46:00,838 --> 00:46:06,960
+Diferentes né então você vive na
+
+1007
+00:46:02,639 --> 00:46:09,379
+Finlândia você vive na Itália e você
+
+1008
+00:46:06,960 --> 00:46:13,318
+vive na Holanda
+
+1009
+00:46:09,380 --> 00:46:15,358
+e no quarto período porque são dois anos
+
+1010
+00:46:13,318 --> 00:46:16,980
+você pode viver em qualquer outros dos
+
+1011
+00:46:15,358 --> 00:46:19,019
+parceiros eu sou uma das parceiras Então
+
+1012
+00:46:16,980 --> 00:46:21,780
+eu tenho alunos que vem aqui para
+
+1013
+00:46:19,019 --> 00:46:25,619
+Espanha também nesse programa e se você
+
+1014
+00:46:21,780 --> 00:46:28,040
+consegue a bolsa é tudo pago né então
+
+1015
+00:46:25,619 --> 00:46:31,640
+são todos
+
+1016
+00:46:28,039 --> 00:46:35,159
+os seus gastos
+
+1017
+00:46:31,639 --> 00:46:37,559
+a matrícula tudo então eu acho que vale
+
+1018
+00:46:35,159 --> 00:46:38,578
+a pena pesquisar sobre sobre esse é um
+
+1019
+00:46:37,559 --> 00:46:39,960
+programa maravilhoso Porque eu conheço
+
+1020
+00:46:38,579 --> 00:46:42,480
+todo mundo que tá nesse programa eu
+
+1021
+00:46:39,960 --> 00:46:44,599
+organizei agora a escola de verão foi
+
+1022
+00:46:42,480 --> 00:46:47,099
+aqui em Barcelona e foi eu que organizei
+
+1023
+00:46:44,599 --> 00:46:49,140
+Mas sempre tem outras possibilidades né
+
+1024
+00:46:47,099 --> 00:46:52,859
+também né Tem até as forças do Brasil
+
+1025
+00:46:49,139 --> 00:46:55,739
+tem bolsas aqui da Espanha e também a
+
+1026
+00:46:52,858 --> 00:46:57,539
+nível de voz doutorado após doutorado
+
+1027
+00:46:55,739 --> 00:47:01,500
+então tem programas que são específicos
+
+1028
+00:46:57,539 --> 00:47:03,599
+para trazer é talentos eu vim para
+
+1029
+00:47:01,500 --> 00:47:05,300
+Espanha num desses programas na verdade
+
+1030
+00:47:03,599 --> 00:47:09,240
+que era o técnico
+
+1031
+00:47:05,300 --> 00:47:12,318
+que eles buscam pessoas com doutorado
+
+1032
+00:47:09,239 --> 00:47:16,098
+com uma certa experiência para
+
+1033
+00:47:12,318 --> 00:47:16,099
+capturar talentos
+
+1034
+00:47:17,639 --> 00:47:23,639
+então entrou em contato e a gente busca
+
+1035
+00:47:21,179 --> 00:47:25,379
+vamos ver né
+
+1036
+00:47:23,639 --> 00:47:28,199
+certo como a gente vai deixar o link
+
+1037
+00:47:25,380 --> 00:47:31,019
+para sua página né para o seu LinkedIn é
+
+1038
+00:47:28,199 --> 00:47:33,598
+pessoa consegue entrar em contato agora
+
+1039
+00:47:31,019 --> 00:47:37,259
+a gente chega na pergunta que define o
+
+1040
+00:47:33,599 --> 00:47:39,119
+podcast que pode ser algo que você acha
+
+1041
+00:47:37,260 --> 00:47:41,520
+que vai acontecer o que você gostaria
+
+1042
+00:47:39,119 --> 00:47:44,400
+que acontecesse em nossa área engenharia
+
+1043
+00:47:41,519 --> 00:47:47,099
+de software ou computação para você
+
+1044
+00:47:44,400 --> 00:47:49,440
+Letícia qual é a próxima fronteira da
+
+1045
+00:47:47,099 --> 00:47:52,019
+engenharia de software
+
+1046
+00:47:49,440 --> 00:47:54,300
+existe eu acho que a gente não vai mais
+
+1047
+00:47:52,019 --> 00:47:56,179
+com sustentabilidade não pode mais ser
+
+1048
+00:47:54,300 --> 00:47:59,880
+opcional Eu acho que
+
+1049
+00:47:56,179 --> 00:48:02,279
+já existe uma mudança muito grande e eu
+
+1050
+00:47:59,880 --> 00:48:03,660
+acho que isso é inevitável porque já
+
+1051
+00:48:02,280 --> 00:48:05,220
+existe uma mudança muito grande na nossa
+
+1052
+00:48:03,659 --> 00:48:08,039
+sociedade já existe uma mudança muito
+
+1053
+00:48:05,219 --> 00:48:10,379
+grande nos nossos consumidores gente já
+
+1054
+00:48:08,039 --> 00:48:12,960
+existe uma mudança grande nas empresas a
+
+1055
+00:48:10,380 --> 00:48:15,000
+gente agora tem uma nova geração é uma
+
+1056
+00:48:12,960 --> 00:48:17,159
+geração que tá vindo e é uma geração que
+
+1057
+00:48:15,000 --> 00:48:18,599
+tá que tá chegando aqui com muito mais
+
+1058
+00:48:17,159 --> 00:48:21,299
+consciência do que a minha geração
+
+1059
+00:48:18,599 --> 00:48:22,079
+chegou muito mais consciência do meu
+
+1060
+00:48:21,300 --> 00:48:23,579
+ambiente muito mais consciência
+
+1061
+00:48:22,079 --> 00:48:28,380
+sustentabilidade muito mais consciência
+
+1062
+00:48:23,579 --> 00:48:30,180
+de várias de vários desses temas e a
+
+1063
+00:48:28,380 --> 00:48:33,900
+gente tem que pensar que essa geração
+
+1064
+00:48:30,179 --> 00:48:35,338
+elas são os nossos próximos consumidores
+
+1065
+00:48:33,900 --> 00:48:39,139
+e eles são os nossos próximos
+
+1066
+00:48:35,338 --> 00:48:42,059
+profissionais então a
+
+1067
+00:48:39,139 --> 00:48:44,159
+sustentabilidade realmente vai ter que
+
+1068
+00:48:42,059 --> 00:48:46,199
+ser parte da Computação vai ter que ser
+
+1069
+00:48:44,159 --> 00:48:49,799
+parte da engenharia de software as
+
+1070
+00:48:46,199 --> 00:48:51,598
+empresas têm que acordar para isso né
+
+1071
+00:48:49,800 --> 00:48:53,280
+porque os consumidores vão pedir os
+
+1072
+00:48:51,599 --> 00:48:55,099
+consumidores já estão pedindo os seus
+
+1073
+00:48:53,280 --> 00:48:57,660
+profissionais vão pedir as pessoas
+
+1074
+00:48:55,099 --> 00:48:59,880
+querem trabalhar para coisas que elas
+
+1075
+00:48:57,659 --> 00:49:02,299
+acreditam elas querem trabalhar para
+
+1076
+00:48:59,880 --> 00:49:05,940
+empresas que tem os mesmos valores que é
+
+1077
+00:49:02,300 --> 00:49:08,700
+então eu acho que não é mais uma coisa
+
+1078
+00:49:05,940 --> 00:49:11,280
+legal sabe não toma mais naquela fase de
+
+1079
+00:49:08,699 --> 00:49:13,379
+que ah sim vamos fazer alguma coisa com
+
+1080
+00:49:11,280 --> 00:49:15,420
+sustentabilidade de imagem de marketing
+
+1081
+00:49:13,380 --> 00:49:17,240
+já não é mais assim é realmente uma
+
+1082
+00:49:15,420 --> 00:49:20,519
+questão sobrevivência
+
+1083
+00:49:17,239 --> 00:49:23,039
+que as empresas vão de tecnologia vão
+
+1084
+00:49:20,519 --> 00:49:25,619
+precisar levar sustentabilidade a sério
+
+1085
+00:49:23,039 --> 00:49:28,318
+e vão precisar de profissionais que
+
+1086
+00:49:25,619 --> 00:49:29,880
+entendam disso então eu acho que a nossa
+
+1087
+00:49:28,318 --> 00:49:31,679
+separação Fronteira é essa é fazer
+
+1088
+00:49:29,880 --> 00:49:34,579
+sustentabilidade uma parte integral da
+
+1089
+00:49:31,679 --> 00:49:37,379
+engenharia de engenharia de software e
+
+1090
+00:49:34,579 --> 00:49:41,818
+mudar Nossa forma a nossa nosso sistema
+
+1091
+00:49:37,380 --> 00:49:43,559
+educativo mudar Nossa forma de pensar e
+
+1092
+00:49:41,818 --> 00:49:45,179
+realmente assumir responsabilidade pelo
+
+1093
+00:49:43,559 --> 00:49:47,699
+que a gente está construindo e ganhar
+
+1094
+00:49:45,179 --> 00:49:49,980
+todas essas conhecimentos né que são
+
+1095
+00:49:47,699 --> 00:49:52,338
+fantásticos são muito importantes muito
+
+1096
+00:49:49,980 --> 00:49:55,199
+interessantes e
+
+1097
+00:49:52,338 --> 00:49:57,000
+para realmente integrar essas duas áreas
+
+1098
+00:49:55,199 --> 00:49:59,578
+de verdade
+
+1099
+00:49:57,000 --> 00:50:02,159
+muito bem Letícia foi um excelente
+
+1100
+00:49:59,579 --> 00:50:04,560
+Episódio eu agradeço aqui a sua presença
+
+1101
+00:50:02,159 --> 00:50:07,019
+passo a palavra para você para você se
+
+1102
+00:50:04,559 --> 00:50:09,299
+despedir dos nossos e nossas ouvintes
+
+1103
+00:50:07,019 --> 00:50:12,079
+muito obrigada já falei isso antes né
+
+1104
+00:50:09,300 --> 00:50:14,640
+super muito interessante
+
+1105
+00:50:12,079 --> 00:50:16,099
+na verdade né quando Adolfo me convidou
+
+1106
+00:50:14,639 --> 00:50:19,759
+eu tava assim ai meu Deus que vergonha
+
+1107
+00:50:16,099 --> 00:50:23,960
+mas eu gostei muito
+
+1108
+00:50:19,760 --> 00:50:28,079
+e eu espero que isso não espero que esse
+
+1109
+00:50:23,960 --> 00:50:30,480
+podcast possa motivar Alguns alguns
+
+1110
+00:50:28,079 --> 00:50:31,980
+alunos algumas pessoas a procurar
+
+1111
+00:50:30,480 --> 00:50:34,199
+aprender mais sobre essa área que
+
+1112
+00:50:31,980 --> 00:50:36,900
+realmente é uma área muito interessante
+
+1113
+00:50:34,199 --> 00:50:38,539
+e assim só tem que agradecer pela
+
+1114
+00:50:36,900 --> 00:50:40,858
+oportunidade
+
+1115
+00:50:38,539 --> 00:50:42,119
+de conhecer vocês de conversar com vocês
+
+1116
+00:50:40,858 --> 00:50:44,338
+aqui
+
+1117
+00:50:42,119 --> 00:50:47,460
+Letícia eu quero te agradecer demais
+
+1118
+00:50:44,338 --> 00:50:48,679
+pela tua participação eu considero do
+
+1119
+00:50:47,460 --> 00:50:51,000
+tema realmente muito interessante
+
+1120
+00:50:48,679 --> 00:50:52,440
+importantíssimo e eu tenho certeza de
+
+1121
+00:50:51,000 --> 00:50:55,260
+que envolventes vão aproveitar bastante
+
+1122
+00:50:52,440 --> 00:50:56,880
+o conteúdo que você trouxe hoje eu
+
+1123
+00:50:55,260 --> 00:51:00,960
+fiquei bem feliz de poder conversar com
+
+1124
+00:50:56,880 --> 00:51:03,660
+você com Adolfo e assim então eu encerro
+
+1125
+00:51:00,960 --> 00:51:06,240
+Episódio de hoje e eu espero vocês no
+
+1126
+00:51:03,659 --> 00:51:09,078
+vídeos no próximo episódio fronteira da
+
+1127
+00:51:06,239 --> 00:51:09,078
+engenharia de software
+
+1128
+00:51:11,090 --> 00:51:15,059
+[Música]
+
+1129
+00:51:12,380 --> 00:51:17,880
+isso é um podcast fronteiras do
+
+1130
+00:51:15,059 --> 00:51:20,700
+engenheiro de software episódios mensais
+
+1131
+00:51:17,880 --> 00:51:22,440
+com pesquisadores e pesquisadores da
+
+1132
+00:51:20,699 --> 00:51:26,159
+área de engenharia de software no Brasil
+
+1133
+00:51:22,440 --> 00:51:28,500
+e no mundo nossa equipe é Fábio petrillo
+
+1134
+00:51:26,159 --> 00:51:31,858
+Danilo Monteiro Leonardo Fernandes
+
+1135
+00:51:28,500 --> 00:51:34,260
+Adolfo Neto eu Maria Cláudia emmer
+
+1136
+00:51:31,858 --> 00:51:37,858
+Miriam Rodrigues da Silva e pelo Santos
+
+1137
+00:51:34,260 --> 00:51:38,660
+e Diego Andrade estamos no Twitter e no
+
+1138
+00:51:37,858 --> 00:51:43,769
+Instagram
+
+1139
+00:51:38,659 --> 00:51:47,859
+como@ fronteiras e s
+
+1140
+00:51:43,769 --> 00:51:47,860
+[Música]

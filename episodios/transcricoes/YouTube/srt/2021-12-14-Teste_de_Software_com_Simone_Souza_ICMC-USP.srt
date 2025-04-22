@@ -1,0 +1,5319 @@
+1
+00:00:00,000 --> 00:00:02,000
+e
+
+2
+00:00:04,370 --> 00:00:09,960
+isso é o podcast Fronteiras da
+
+3
+00:00:07,440 --> 00:00:12,300
+engenharia de software o podcast para
+
+4
+00:00:09,960 --> 00:00:14,759
+refletir sobre o presente e o futuro da
+
+5
+00:00:12,300 --> 00:00:17,278
+nossa área este podcast tem o apoio da
+
+6
+00:00:14,759 --> 00:00:19,939
+Azul innovation empresa que cria
+
+7
+00:00:17,278 --> 00:00:23,140
+tecnologia impulsiona o crescimento
+
+8
+00:00:19,939 --> 00:00:24,789
+exponencial do
+
+9
+00:00:23,140 --> 00:00:26,160
+[Música]
+
+10
+00:00:24,789 --> 00:00:28,689
+e
+
+11
+00:00:26,160 --> 00:00:30,969
+hoje no Fronteiras da engenharia de
+
+12
+00:00:28,689 --> 00:00:33,359
+software vamos conversar com Simone
+
+13
+00:00:30,969 --> 00:00:36,969
+Sousa professora do
+
+14
+00:00:33,359 --> 00:00:40,359
+icmc-usp o tema do episódio de hoje será
+
+15
+00:00:36,969 --> 00:00:42,039
+teste de software Tudo bem Simone você
+
+16
+00:00:40,359 --> 00:00:43,570
+pode se apresentar para as pessoas que
+
+17
+00:00:42,039 --> 00:00:46,659
+não escutam
+
+18
+00:00:43,570 --> 00:00:48,340
+o Olá Dolphin colegas e o Agradeço o
+
+19
+00:00:46,659 --> 00:00:51,849
+convite é um prazer estar aqui
+
+20
+00:00:48,340 --> 00:00:54,700
+conversando com vocês eu chamo Simone do
+
+21
+00:00:51,850 --> 00:00:56,260
+Rocio seja de Souza Sou professora da
+
+22
+00:00:54,700 --> 00:00:58,329
+área de engenharia de software do
+
+23
+00:00:56,259 --> 00:01:01,390
+Instituto de Ciências Matemáticas e de
+
+24
+00:00:58,329 --> 00:01:03,100
+computação da USP São Carlos quando um
+
+25
+00:01:01,390 --> 00:01:04,930
+pouquinho de mim é eu fiz minha
+
+26
+00:01:03,100 --> 00:01:07,060
+graduação na Universidade Estadual de
+
+27
+00:01:04,930 --> 00:01:10,390
+Ponta Grossa Paraná e logo que eu
+
+28
+00:01:07,060 --> 00:01:12,250
+finalizei a graduação em 1990 eu passei
+
+29
+00:01:10,390 --> 00:01:15,159
+no concurso para ser docente nessa
+
+30
+00:01:12,250 --> 00:01:17,560
+Universidade na época não era necessário
+
+31
+00:01:15,159 --> 00:01:19,599
+ter mestrado ou doutorado uma carreira
+
+32
+00:01:17,560 --> 00:01:22,509
+docente Eu senti falta de um
+
+33
+00:01:19,599 --> 00:01:24,699
+aperfeiçoamento acadêmico isso fez com
+
+34
+00:01:22,509 --> 00:01:27,310
+que buscasse o gastar foi quando eu
+
+35
+00:01:24,700 --> 00:01:29,049
+conheci uma e sem ser e o professor José
+
+36
+00:01:27,310 --> 00:01:31,590
+Carlos Maldonado que foi meu orientador
+
+37
+00:01:29,049 --> 00:01:34,299
+bem estar nessa época
+
+38
+00:01:31,590 --> 00:01:36,759
+1994 foi quando comecei a aprender mais
+
+39
+00:01:34,299 --> 00:01:39,129
+sobre teste de Tokyo e gostar da área
+
+40
+00:01:36,759 --> 00:01:41,409
+que tem um mestrado sobre avaliação
+
+41
+00:01:39,129 --> 00:01:44,869
+experimental de critérios de teste de só
+
+42
+00:01:41,409 --> 00:01:47,319
+na época Ainda não existiu a engenharia
+
+43
+00:01:44,870 --> 00:01:50,600
+de software experimental mas a gente
+
+44
+00:01:47,319 --> 00:01:53,629
+trabalhava auxilar aí só valendo o custo
+
+45
+00:01:50,599 --> 00:01:55,459
+esforço e eficácia de critérios no
+
+46
+00:01:53,629 --> 00:01:58,159
+doutorado continua investigando o teste
+
+47
+00:01:55,459 --> 00:01:59,899
+de software mas olhando questões e peste
+
+48
+00:01:58,159 --> 00:02:02,479
+para quem especificação formal de
+
+49
+00:01:59,900 --> 00:02:04,160
+sistemas reativos também Sob orientação
+
+50
+00:02:02,480 --> 00:02:07,550
+do professor Mauro Bonna quando eu
+
+51
+00:02:04,159 --> 00:02:09,949
+finalizei a pós-graduação e no ano 2000
+
+52
+00:02:07,549 --> 00:02:11,750
+retornei para o EPG e comecei minhas
+
+53
+00:02:09,949 --> 00:02:13,789
+pesquisas sobre teste de software
+
+54
+00:02:11,750 --> 00:02:17,240
+aplicável programas concorrentes e
+
+55
+00:02:13,789 --> 00:02:20,060
+Paralelos toda essa trajetória na UEPG
+
+56
+00:02:17,240 --> 00:02:22,219
+mês e você ficou realizado em parceria
+
+57
+00:02:20,060 --> 00:02:24,379
+com meu esposo Professor Paulo Sérgio
+
+58
+00:02:22,219 --> 00:02:26,300
+Lopes de Souza que pesquisa na área de
+
+59
+00:02:24,379 --> 00:02:28,729
+computação de Alto desempenho pois a
+
+60
+00:02:26,300 --> 00:02:31,189
+pesquisa de teste sofre nessa área foi
+
+61
+00:02:28,729 --> 00:02:34,310
+bem natural para mim após um tempo na
+
+62
+00:02:31,189 --> 00:02:36,560
+UEPG em 2005 resolvemos pescar concurso
+
+63
+00:02:34,310 --> 00:02:38,870
+umas CNC e teremos a oportunidade de
+
+64
+00:02:36,560 --> 00:02:41,390
+voltarmos para cá como professores onde
+
+65
+00:02:38,870 --> 00:02:43,560
+estamos até hoje eu a turma o
+
+66
+00:02:41,389 --> 00:02:46,049
+departamento de sistemas de computação
+
+67
+00:02:43,560 --> 00:02:48,060
+em minhas pesquisas junto ao laboratório
+
+68
+00:02:46,050 --> 00:02:49,980
+de engenharia de software minhas
+
+69
+00:02:48,060 --> 00:02:52,348
+pesquisas concentram-se nada que impeça
+
+70
+00:02:49,979 --> 00:02:54,988
+de sócio em relação a proposição se
+
+71
+00:02:52,348 --> 00:02:57,419
+técnicas mistérios ferramentas e
+
+72
+00:02:54,989 --> 00:03:00,420
+avaliação experimental Vai que vai dar
+
+73
+00:02:57,419 --> 00:03:03,089
+não a trajetória vem legal Simone de
+
+74
+00:03:00,419 --> 00:03:07,199
+forma geral qualquer pessoa que começa a
+
+75
+00:03:03,090 --> 00:03:09,239
+programar ela começa a testar aquilo que
+
+76
+00:03:07,199 --> 00:03:10,979
+ela programa ou seja executar aquilo que
+
+77
+00:03:09,239 --> 00:03:12,989
+ela programou Mas se a gente pensar no
+
+78
+00:03:10,979 --> 00:03:15,238
+contexto da engenharia de software ou
+
+79
+00:03:12,989 --> 00:03:17,519
+seja o desenvolvimento de uma forma
+
+80
+00:03:15,239 --> 00:03:20,039
+organizada e sistemática como é que a
+
+81
+00:03:17,519 --> 00:03:22,319
+gente pode definir teste de software e
+
+82
+00:03:20,039 --> 00:03:27,030
+quais os principais conceitos associadas
+
+83
+00:03:22,318 --> 00:03:29,339
+não Ingrid É de fato o testar de criação
+
+84
+00:03:27,030 --> 00:03:32,549
+rápida de quem problema né mas assim tem
+
+85
+00:03:29,340 --> 00:03:34,860
+um pequeno equívoco que as pessoas
+
+86
+00:03:32,549 --> 00:03:38,010
+pensam que estão testando corretamente
+
+87
+00:03:34,860 --> 00:03:40,709
+né e veja se o teste foi realizado para
+
+88
+00:03:38,009 --> 00:03:42,568
+mostrar que programa funciona é isso não
+
+89
+00:03:40,709 --> 00:03:44,560
+é testar então sim pra entender
+
+90
+00:03:42,568 --> 00:03:47,669
+atividades de teste e nós precisamos
+
+91
+00:03:44,560 --> 00:03:50,139
+inverter esse pensamento né e tem um sax
+
+92
+00:03:47,669 --> 00:03:52,030
+estamos para encontrar defeitos e não
+
+93
+00:03:50,139 --> 00:03:55,150
+para mostrar o que quisermos Está
+
+94
+00:03:52,030 --> 00:03:57,430
+correto né então um teste bem-sucedido é
+
+95
+00:03:55,150 --> 00:03:59,590
+aquele que enquanto o efeito novo os era
+
+96
+00:03:57,430 --> 00:04:01,629
+uma falha ainda não encontraram ele tem
+
+97
+00:03:59,590 --> 00:04:03,519
+várias definições mas eu gosto da
+
+98
+00:04:01,628 --> 00:04:06,039
+definição que diz que teste uma
+
+99
+00:04:03,519 --> 00:04:08,408
+atividade de garantia de qualidade Elisa
+
+100
+00:04:06,039 --> 00:04:10,289
+mostrar que o programa executa
+
+101
+00:04:08,408 --> 00:04:12,218
+corretamente as funções pretendidas
+
+102
+00:04:10,289 --> 00:04:14,679
+Então é isso é importante selecionar
+
+103
+00:04:12,218 --> 00:04:17,048
+bons casos de teste E para isso os
+
+104
+00:04:14,680 --> 00:04:19,389
+conceitos Associados envolvem técnicas e
+
+105
+00:04:17,048 --> 00:04:21,488
+peche as quais relacionam-se com as
+
+106
+00:04:19,389 --> 00:04:24,098
+informações de origem para gerar os
+
+107
+00:04:21,488 --> 00:04:26,409
+testes por exemplo especificação ocorre
+
+108
+00:04:24,098 --> 00:04:29,139
+outro conceito importante associada ao
+
+109
+00:04:26,410 --> 00:04:31,509
+conceito de critério de teste critérios
+
+110
+00:04:29,139 --> 00:04:34,300
+ele Sistema X o processo de geração ou
+
+111
+00:04:31,509 --> 00:04:36,939
+seleção de casos de peças auxiliando a
+
+112
+00:04:34,300 --> 00:04:38,978
+decidir quando parar atividade 10 por
+
+113
+00:04:36,939 --> 00:04:41,199
+exemplo critério de teste poderia ser
+
+114
+00:04:38,978 --> 00:04:42,519
+testar todos os comandos do colégio aí
+
+115
+00:04:41,199 --> 00:04:45,139
+se eu conseguir ao menos um caso de
+
+116
+00:04:42,519 --> 00:04:47,750
+teste fazer cor e o satisfizesse
+
+117
+00:04:45,139 --> 00:04:49,579
+critério e posso encerrar o processo de
+
+118
+00:04:47,750 --> 00:04:51,319
+teste e assim com isso a gente pode
+
+119
+00:04:49,579 --> 00:04:53,689
+medir a produção das atividades de teste
+
+120
+00:04:51,319 --> 00:04:55,430
+e garantir a sua qualidade é isso os
+
+121
+00:04:53,689 --> 00:04:58,029
+critérios utilização que chamamos
+
+122
+00:04:55,430 --> 00:05:00,920
+requisitos de teste a ser encoberto
+
+123
+00:04:58,029 --> 00:05:03,769
+existem vários critérios cada um com sua
+
+124
+00:05:00,920 --> 00:05:05,569
+eficácia em revelar defeitos e custo
+
+125
+00:05:03,769 --> 00:05:07,669
+associado estratégias e cresce quando
+
+126
+00:05:05,569 --> 00:05:09,860
+ser definidas de modo a contemplar mais
+
+127
+00:05:07,670 --> 00:05:12,170
+seu critério e dependendo do tempo e
+
+128
+00:05:09,860 --> 00:05:13,939
+recursos disponíveis podem considerar
+
+129
+00:05:12,170 --> 00:05:16,580
+critério mais caros porém mais eficaz
+
+130
+00:05:13,939 --> 00:05:19,219
+está reclamar deles e Simone como é que
+
+131
+00:05:16,579 --> 00:05:21,019
+o teste de software então aparece no
+
+132
+00:05:19,220 --> 00:05:23,510
+desenvolvimento de software um que
+
+133
+00:05:21,019 --> 00:05:25,519
+momento nós temos que pensar nisso
+
+134
+00:05:23,509 --> 00:05:27,769
+principalmente se estamos falando do que
+
+135
+00:05:25,519 --> 00:05:31,250
+a maioria ou que grande parte das
+
+136
+00:05:27,769 --> 00:05:33,139
+empresas hoje em dia usam que são os
+
+137
+00:05:31,250 --> 00:05:35,779
+métodos de desenvolvimento de software
+
+138
+00:05:33,139 --> 00:05:37,490
+ágil Quais são os papéis envolvidos no
+
+139
+00:05:35,779 --> 00:05:40,459
+desenvolvimento de software para quem
+
+140
+00:05:37,490 --> 00:05:42,949
+faz testes legal essa é uma ótima
+
+141
+00:05:40,459 --> 00:05:46,079
+pergunta Adolfo é é como tirar desse
+
+142
+00:05:42,949 --> 00:05:47,490
+elas o código Uma Lição de que estamos
+
+143
+00:05:46,079 --> 00:05:51,000
+pensar em péssimo momento da
+
+144
+00:05:47,490 --> 00:05:52,918
+qualificação do sócio e de fato Nossa
+
+145
+00:05:51,000 --> 00:05:56,069
+pegamos sucesso e quando temos o código
+
+146
+00:05:52,918 --> 00:05:58,469
+a ser testado Por que a trate ela é uma
+
+147
+00:05:56,069 --> 00:06:01,050
+atividade dinâmica igual a execução do
+
+148
+00:05:58,470 --> 00:06:03,090
+código entretanto nós devemos pensar em
+
+149
+00:06:01,050 --> 00:06:04,800
+tese no início do desenvolvimento quando
+
+150
+00:06:03,089 --> 00:06:06,989
+estamos definindo os requisitos do
+
+151
+00:06:04,800 --> 00:06:08,910
+software nesse momento é possível
+
+152
+00:06:06,990 --> 00:06:12,360
+realizar o planejamento da atividade de
+
+153
+00:06:08,910 --> 00:06:13,950
+teste ou o teste design e a partir da
+
+154
+00:06:12,360 --> 00:06:16,319
+especificação dos requisitos podemos
+
+155
+00:06:13,949 --> 00:06:18,569
+pensar em cenários de teste que deve ser
+
+156
+00:06:16,319 --> 00:06:21,389
+considerados essa atividade é importante
+
+157
+00:06:18,569 --> 00:06:23,759
+Inclusive a rever os requisitos estão
+
+158
+00:06:21,389 --> 00:06:25,228
+claramente definidos no contexto do
+
+159
+00:06:23,759 --> 00:06:27,990
+desenvolvimento ágil isso não é
+
+160
+00:06:25,228 --> 00:06:30,659
+diferente tem seu papel de Peters O que
+
+161
+00:06:27,990 --> 00:06:33,418
+as e foco em projetar os testes enquanto
+
+162
+00:06:30,660 --> 00:06:36,540
+a equipe deve projeto a solução está
+
+163
+00:06:33,418 --> 00:06:39,209
+linha uma proposta interessante é um PT
+
+164
+00:06:36,540 --> 00:06:41,610
+de não ter sido em diversos ou
+
+165
+00:06:39,209 --> 00:06:43,799
+desenvolvimento orientado a testes no
+
+166
+00:06:41,610 --> 00:06:46,389
+qual o objetivo descrever os casos GPS e
+
+167
+00:06:43,800 --> 00:06:48,038
+é mais relacionada a quantificação do
+
+168
+00:06:46,389 --> 00:06:49,199
+que a fase de requisitos Mas é uma
+
+169
+00:06:48,038 --> 00:06:51,368
+estratégia assim bem interessante
+
+170
+00:06:49,199 --> 00:06:53,050
+desafiadora no qual o projeto é se os
+
+171
+00:06:51,369 --> 00:06:55,389
+casos de teste e depois implementa o
+
+172
+00:06:53,050 --> 00:06:56,348
+código que passa nos pés isso faz com
+
+173
+00:06:55,389 --> 00:06:59,079
+que se Garanta que as funcionalidades
+
+174
+00:06:56,348 --> 00:07:01,628
+foram testados e com relação aos papéis
+
+175
+00:06:59,079 --> 00:07:04,329
+envolvidos na atividade de teste existe
+
+176
+00:07:01,629 --> 00:07:06,369
+em geral pessoal dedicado à atividade de
+
+177
+00:07:04,329 --> 00:07:08,528
+teste denominado então é como eu falei
+
+178
+00:07:06,369 --> 00:07:10,719
+anteriormente e pedestres do que as e
+
+179
+00:07:08,528 --> 00:07:12,999
+projeto peças trabalhar seus próprios e
+
+180
+00:07:10,718 --> 00:07:15,459
+pode ser utilizado pelo cliente Relaxa
+
+181
+00:07:12,999 --> 00:07:17,469
+mal de teste de aceitação e Vale
+
+182
+00:07:15,459 --> 00:07:20,079
+ressaltar também que um dos papéis do
+
+183
+00:07:17,468 --> 00:07:22,329
+bebe o desenvolvedor do código é também
+
+184
+00:07:20,079 --> 00:07:24,128
+pensar nos pés do seu código porém
+
+185
+00:07:22,329 --> 00:07:26,649
+também então ele dá ferramentas que
+
+186
+00:07:24,129 --> 00:07:29,379
+automatizam a execução e avaliação dos
+
+187
+00:07:26,649 --> 00:07:32,499
+seus pés bom então isso foi mais olhando
+
+188
+00:07:29,379 --> 00:07:34,778
+então para atividade de teste como um
+
+189
+00:07:32,499 --> 00:07:37,539
+todo né E quando a gente olha para a
+
+190
+00:07:34,778 --> 00:07:39,368
+área de testes a gente tem diferentes
+
+191
+00:07:37,538 --> 00:07:42,038
+formas de classificar a teste de
+
+192
+00:07:39,369 --> 00:07:44,780
+software a gente pode pensar por exemplo
+
+193
+00:07:42,038 --> 00:07:46,909
+o que que a gente tá dando né você é
+
+194
+00:07:44,779 --> 00:07:49,699
+apenas uma classe o sistema como um todo
+
+195
+00:07:46,910 --> 00:07:53,300
+gente usa ou não o código para elaborar
+
+196
+00:07:49,699 --> 00:07:56,000
+a casa de teste ou que aspecto que a
+
+197
+00:07:53,300 --> 00:07:59,030
+gente está testando né como por exemplo
+
+198
+00:07:56,000 --> 00:08:01,189
+uma funcionalidade ou performance Neto
+
+199
+00:07:59,029 --> 00:08:03,379
+já tinha falado né questão do desempenho
+
+200
+00:08:01,189 --> 00:08:05,480
+que poderia por favor explicar Então
+
+201
+00:08:03,379 --> 00:08:07,779
+essas formas de classificação e como ela
+
+202
+00:08:05,480 --> 00:08:11,000
+se relacionam
+
+203
+00:08:07,779 --> 00:08:13,189
+5S diversas formas de classificar o
+
+204
+00:08:11,000 --> 00:08:15,310
+teste sofre e se relaciona com algumas
+
+205
+00:08:13,189 --> 00:08:17,480
+questões que precisam ser respondidas
+
+206
+00:08:15,310 --> 00:08:20,209
+quando eu tirar ele dessa está sendo
+
+207
+00:08:17,480 --> 00:08:23,300
+planejado então questões como quando
+
+208
+00:08:20,209 --> 00:08:25,579
+testar o quis testar Quando parar de
+
+209
+00:08:23,300 --> 00:08:28,970
+testar e qual que é o objetivo dos
+
+210
+00:08:25,579 --> 00:08:30,859
+Testes então assim o quando testar ele
+
+211
+00:08:28,970 --> 00:08:33,320
+tem a ver com o nível de peça ser
+
+212
+00:08:30,860 --> 00:08:35,840
+realizado e que ele pode ser teste de
+
+213
+00:08:33,320 --> 00:08:37,940
+unidade né quando nós consideramos as
+
+214
+00:08:35,840 --> 00:08:39,860
+unidades de código que seria em módulos
+
+215
+00:08:37,940 --> 00:08:41,300
+ou classes E aí um teste de unidade
+
+216
+00:08:39,860 --> 00:08:45,000
+normalmente é feita pelo próprio
+
+217
+00:08:41,299 --> 00:08:46,649
+desenvolvedor é outro nível a integração
+
+218
+00:08:45,000 --> 00:08:48,990
+que tem a ver com garantir que as
+
+219
+00:08:46,649 --> 00:08:51,959
+unidades testadas funciona bem quando
+
+220
+00:08:48,990 --> 00:08:53,759
+estão colocadas juntas Então se teste
+
+221
+00:08:51,960 --> 00:08:56,519
+olha para cá comunicação entre as
+
+222
+00:08:53,759 --> 00:08:59,129
+unidades por exemplo chamada de funções
+
+223
+00:08:56,519 --> 00:09:01,289
+Alberto dos passagem de parâmetros E aí
+
+224
+00:08:59,129 --> 00:09:03,059
+o ideal é que as unidades testadas seja
+
+225
+00:09:01,289 --> 00:09:05,039
+integrada seguindo algumas estratégias
+
+226
+00:09:03,059 --> 00:09:07,259
+que favoreçam um bom teste de integração
+
+227
+00:09:05,039 --> 00:09:09,419
+e por último um outro nível de teste eu
+
+228
+00:09:07,259 --> 00:09:11,100
+peço de sistema o qual tem o objetivo de
+
+229
+00:09:09,419 --> 00:09:12,719
+avaliar essas funcionalidades do
+
+230
+00:09:11,100 --> 00:09:15,000
+software estão funcionando corretamente
+
+231
+00:09:12,720 --> 00:09:17,610
+no ambiente em que o software foi
+
+232
+00:09:15,000 --> 00:09:19,500
+projetado não olha estrutura interna do
+
+233
+00:09:17,610 --> 00:09:21,950
+soft mas coloca bastante requisitos
+
+234
+00:09:19,500 --> 00:09:24,539
+não-funcionais o performance
+
+235
+00:09:21,950 --> 00:09:26,550
+portabilidade dos habilidade deficiência
+
+236
+00:09:24,539 --> 00:09:29,699
+entre outros tipos de testes que podem
+
+237
+00:09:26,549 --> 00:09:31,819
+ser realizados a nem sempre utilizamos o
+
+238
+00:09:29,700 --> 00:09:34,200
+código para elaborar o espaço de teste
+
+239
+00:09:31,820 --> 00:09:36,420
+dos cabos até expoentes elaborados a
+
+240
+00:09:34,200 --> 00:09:39,150
+partir de informações a especificação
+
+241
+00:09:36,419 --> 00:09:41,039
+também e isso dependerá estratégicas
+
+242
+00:09:39,149 --> 00:09:44,279
+empregada para a realização da atividade
+
+243
+00:09:41,039 --> 00:09:47,559
+de teste e a questão sobre o quê o
+
+244
+00:09:44,279 --> 00:09:50,230
+outro está tem a ver com o objetivo da
+
+245
+00:09:47,559 --> 00:09:52,179
+atividade de teste sabemos que sempre o
+
+246
+00:09:50,230 --> 00:09:54,550
+proposta garante a qualidade do software
+
+247
+00:09:52,179 --> 00:09:57,279
+Mas dependendo do tipo de aplicação
+
+248
+00:09:54,549 --> 00:10:00,159
+alguns tipos de testes são fundamentais
+
+249
+00:09:57,279 --> 00:10:02,529
+por exemplo é uma aplicação web é
+
+250
+00:10:00,159 --> 00:10:04,870
+necessário elaborar desce que a Vale
+
+251
+00:10:02,529 --> 00:10:07,029
+além da funcionalidade aspectos de
+
+252
+00:10:04,870 --> 00:10:09,279
+disponibilidade e confiabilidade por
+
+253
+00:10:07,029 --> 00:10:11,409
+outro lado se estivermos considerando um
+
+254
+00:10:09,279 --> 00:10:13,629
+sistema crítico por exemplo o controle
+
+255
+00:10:11,409 --> 00:10:15,789
+de pressão de uma caldeira importante
+
+256
+00:10:13,629 --> 00:10:18,939
+avaliar a eficiência e confiabilidade do
+
+257
+00:10:15,789 --> 00:10:20,639
+sistema teto e são esclarecimentos sobre
+
+258
+00:10:18,940 --> 00:10:23,860
+essa questão de
+
+259
+00:10:20,639 --> 00:10:25,960
+testes unitários e de integração então
+
+260
+00:10:23,860 --> 00:10:28,659
+sempre quando a gente vê a literatura o
+
+261
+00:10:25,960 --> 00:10:30,759
+exemplo de teste unitário é uma classe
+
+262
+00:10:28,659 --> 00:10:33,549
+isolada que a gente olha o corpo dos
+
+263
+00:10:30,759 --> 00:10:36,580
+métodos e os métodos não tem chamadas
+
+264
+00:10:33,549 --> 00:10:38,709
+alguma para alguma outra classe bastante
+
+265
+00:10:36,580 --> 00:10:40,660
+cansar nosso sistema real o número de
+
+266
+00:10:38,710 --> 00:10:43,550
+classes número de métodos onde isso
+
+267
+00:10:40,659 --> 00:10:47,208
+acontece é muito pequeno na prática é tu
+
+268
+00:10:43,549 --> 00:10:50,409
+a integração ou teste de unidade é
+
+269
+00:10:47,208 --> 00:10:52,939
+quando a gente só simula o comportamento
+
+270
+00:10:50,409 --> 00:10:54,319
+das outras classes e métodos dos quais a
+
+271
+00:10:52,940 --> 00:10:56,540
+gente Depende onde é que fica sem
+
+272
+00:10:54,320 --> 00:10:58,970
+limites sem o que é o teste de unidade
+
+273
+00:10:56,539 --> 00:11:01,000
+que quer o teste integração se de forma
+
+274
+00:10:58,970 --> 00:11:03,259
+geral existe bastante
+
+275
+00:11:01,000 --> 00:11:06,139
+comunicação Independência entre entre as
+
+276
+00:11:03,259 --> 00:11:07,730
+partes e seus métodos legal e isso é
+
+277
+00:11:06,139 --> 00:11:11,929
+verdade né a integração e comunicação
+
+278
+00:11:07,730 --> 00:11:15,259
+existe e a estratégia é essa que você
+
+279
+00:11:11,929 --> 00:11:17,599
+coletou ele solar um dar né de alguma
+
+280
+00:11:15,259 --> 00:11:20,360
+forma eu quero ver preocupava-se unidade
+
+281
+00:11:17,600 --> 00:11:22,700
+então eu simulo entradas valores para
+
+282
+00:11:20,360 --> 00:11:25,009
+que ela funcione também seguro quem está
+
+283
+00:11:22,700 --> 00:11:28,310
+recebendo essas informações então o
+
+284
+00:11:25,009 --> 00:11:29,809
+propósito é a gente isolar para testar
+
+285
+00:11:28,309 --> 00:11:32,028
+que habilitar ou que a mente essa
+
+286
+00:11:29,809 --> 00:11:35,149
+unidade pode ser o conjunto de métodos
+
+287
+00:11:32,028 --> 00:11:37,730
+um conjunto de funções ai vai ser um
+
+288
+00:11:35,149 --> 00:11:40,039
+objetivo do desenvolvedor né desenvolver
+
+289
+00:11:37,730 --> 00:11:43,560
+uma funcionalidade e ela tem um grupo de
+
+290
+00:11:40,039 --> 00:11:45,599
+de classes né informações então é o
+
+291
+00:11:43,559 --> 00:11:48,569
+cenário então Conquista utilidade
+
+292
+00:11:45,600 --> 00:11:51,090
+depende muito e como a equipe ver
+
+293
+00:11:48,570 --> 00:11:53,970
+atividade de teste né a nossa academia
+
+294
+00:11:51,090 --> 00:11:57,269
+Nossa vemos da maneira que você comentou
+
+295
+00:11:53,970 --> 00:11:59,879
+uma unidade Apesar dela ter chamadas ela
+
+296
+00:11:57,269 --> 00:12:02,069
+é considerado isoladamente né garanto o
+
+297
+00:11:59,879 --> 00:12:04,740
+seu funcionamento e depois eu vou
+
+298
+00:12:02,070 --> 00:12:06,960
+agregando as outras unidades de moda
+
+299
+00:12:04,740 --> 00:12:09,180
+mostrar esse teste de integração e
+
+300
+00:12:06,960 --> 00:12:10,620
+interação entre as unidades É bem esse
+
+301
+00:12:09,179 --> 00:12:12,778
+conceito em mesmo que você comentou
+
+302
+00:12:10,620 --> 00:12:15,799
+então Simone você acabou já falando um
+
+303
+00:12:12,778 --> 00:12:18,360
+pouco né sobre casos e testes Mas
+
+304
+00:12:15,799 --> 00:12:21,059
+falando novamente não é um ponto-chave
+
+305
+00:12:18,360 --> 00:12:24,330
+em teste de software elaboração de casos
+
+306
+00:12:21,059 --> 00:12:26,729
+de teste e saber o quão bons eles são o
+
+307
+00:12:24,330 --> 00:12:29,160
+que seria um bom caso de teste e como
+
+308
+00:12:26,730 --> 00:12:31,950
+elaboramos bons casos de teste isso
+
+309
+00:12:29,159 --> 00:12:35,209
+depende de um projeto em questão empresa
+
+310
+00:12:31,950 --> 00:12:38,339
+ou existe uma definição geral ok Google
+
+311
+00:12:35,210 --> 00:12:40,620
+não precisa costumamos dizer que o
+
+312
+00:12:38,339 --> 00:12:42,930
+sucesso da atividade peça e se relaciona
+
+313
+00:12:40,620 --> 00:12:45,450
+com a escolha de bons casos de pectus
+
+314
+00:12:42,929 --> 00:12:48,169
+bom então bom com as BTS aquele que
+
+315
+00:12:45,450 --> 00:12:50,370
+encontra um defeito ainda não revelar
+
+316
+00:12:48,169 --> 00:12:52,500
+sabemos que o espaço de valores de
+
+317
+00:12:50,370 --> 00:12:56,009
+entrada para testar o programa atendeu
+
+318
+00:12:52,500 --> 00:12:57,649
+infinito e muitos muitos deles vão ter o
+
+319
+00:12:56,009 --> 00:13:00,389
+mesmo comportamento quando executar
+
+320
+00:12:57,649 --> 00:13:02,580
+então seu desafio que está dura escolher
+
+321
+00:13:00,389 --> 00:13:05,250
+Aquele caso de teste é capaz de revelar
+
+322
+00:13:02,580 --> 00:13:08,820
+um defeito a isso ele pode se apoiar
+
+323
+00:13:05,250 --> 00:13:10,220
+então das técnicas esferas mas nem
+
+324
+00:13:08,820 --> 00:13:13,050
+sempre isso é suficiente
+
+325
+00:13:10,220 --> 00:13:15,480
+então assim eu diria que a elaboração de
+
+326
+00:13:13,049 --> 00:13:18,179
+bons casos de peças Depende de uma boa
+
+327
+00:13:15,480 --> 00:13:20,700
+dose de intuição e de pensar fora da
+
+328
+00:13:18,179 --> 00:13:23,009
+Caixa ou seja pensar em situações não
+
+329
+00:13:20,700 --> 00:13:25,470
+previstas ou não inspiradas a
+
+330
+00:13:23,009 --> 00:13:27,689
+experiência com uma textura e até como
+
+331
+00:13:25,470 --> 00:13:30,300
+desenvolvedor são rudes a projetar bons
+
+332
+00:13:27,690 --> 00:13:31,649
+caso de e um ponto que você já tinha me
+
+333
+00:13:30,299 --> 00:13:33,719
+ensinado também essa questão de
+
+334
+00:13:31,649 --> 00:13:35,580
+automação de testes né E hoje em dia
+
+335
+00:13:33,720 --> 00:13:39,389
+quando a gente fala de teste em projetos
+
+336
+00:13:35,580 --> 00:13:41,879
+né Isso aí é meio que muito comum ouvir
+
+337
+00:13:39,389 --> 00:13:45,100
+isso né implica conhecer todo um
+
+338
+00:13:41,879 --> 00:13:47,399
+ferramental eu poderia então dá para nós
+
+339
+00:13:45,100 --> 00:13:48,850
+uma visão Geral do que que pode ser
+
+340
+00:13:47,399 --> 00:13:52,120
+automatizado e das ferramentas
+
+341
+00:13:48,850 --> 00:13:54,879
+utilizadas para isso assim sem dúvida a
+
+342
+00:13:52,120 --> 00:13:58,210
+automatização é essencial é porque a
+
+343
+00:13:54,879 --> 00:14:00,159
+atividade humana é suscetível engano a
+
+344
+00:13:58,210 --> 00:14:01,810
+então se eu quero avaliar a qualidade de
+
+345
+00:14:00,159 --> 00:14:04,149
+um produto eu tenho que realizar uma
+
+346
+00:14:01,809 --> 00:14:05,889
+atividade teste com qualidade também né
+
+347
+00:14:04,149 --> 00:14:07,569
+então ferramenta que elas colaboram
+
+348
+00:14:05,889 --> 00:14:11,110
+nesse sentido a gente consegue
+
+349
+00:14:07,570 --> 00:14:12,850
+automatizar eu diria parcialmente as
+
+350
+00:14:11,110 --> 00:14:15,970
+atividades porque ainda depende da
+
+351
+00:14:12,850 --> 00:14:19,350
+interferência do testador hoje a gente
+
+352
+00:14:15,970 --> 00:14:22,000
+fala de automatizar utilizam técnicas de
+
+353
+00:14:19,350 --> 00:14:25,960
+algoritmos genéticos né automatizar
+
+354
+00:14:22,000 --> 00:14:28,629
+geração automática de dados de teste mas
+
+355
+00:14:25,960 --> 00:14:31,389
+ainda não existem algoritmos tão
+
+356
+00:14:28,629 --> 00:14:34,870
+eficientes quanto a a capacidade humana
+
+357
+00:14:31,389 --> 00:14:37,929
+de gerar bons testes então ainda tem
+
+358
+00:14:34,870 --> 00:14:41,440
+feito estudos nessa direção né mas assim
+
+359
+00:14:37,929 --> 00:14:44,059
+a gente tem utilizado o ferramentas e
+
+360
+00:14:41,440 --> 00:14:46,250
+vão automatizar os aspectos e o qualquer
+
+361
+00:14:44,059 --> 00:14:49,219
+coisa aplicação do critério de 10 tipo
+
+362
+00:14:46,250 --> 00:14:51,019
+de avaliar a evolução da actividade de
+
+363
+00:14:49,220 --> 00:14:54,139
+pesca o quanto do copo pode que foi
+
+364
+00:14:51,019 --> 00:14:56,419
+coberto ou não pelo processo de Décio
+
+365
+00:14:54,139 --> 00:14:59,120
+ajudar na decisão né de parar o processo
+
+366
+00:14:56,419 --> 00:15:02,958
+de teste e outras informações que forem
+
+367
+00:14:59,120 --> 00:15:04,850
+relevantes para o preto e teste né uma
+
+368
+00:15:02,958 --> 00:15:07,338
+ferramenta bastante empregada que
+
+369
+00:15:04,850 --> 00:15:11,180
+automatiza o caso de teste é a famosa
+
+370
+00:15:07,339 --> 00:15:12,079
+veio Unity né e similares né E que ela
+
+371
+00:15:11,179 --> 00:15:13,939
+funciona com outras ferramentas
+
+372
+00:15:12,078 --> 00:15:16,519
+avaliando o progresso para atividade de
+
+373
+00:15:13,940 --> 00:15:19,399
+até a grande vantagem da gente utilizar
+
+374
+00:15:16,519 --> 00:15:23,360
+a automatização hoje dar um código de
+
+375
+00:15:19,399 --> 00:15:27,049
+teste e a organização na busca de teste
+
+376
+00:15:23,360 --> 00:15:28,789
+o de executar o processo de execução e e
+
+377
+00:15:27,049 --> 00:15:30,469
+também avaliar a cobertura do colégio e
+
+378
+00:15:28,789 --> 00:15:32,809
+ele também é bastante bastante útil para
+
+379
+00:15:30,470 --> 00:15:35,028
+aplicação de tdd o mesmo processo
+
+380
+00:15:32,809 --> 00:15:38,028
+tradicional de teste né Esqueci
+
+381
+00:15:35,028 --> 00:15:39,919
+Framework o réu a gente fala do Reino
+
+382
+00:15:38,028 --> 00:15:41,600
+Unido é o mais conhecido mas ele tem
+
+383
+00:15:39,919 --> 00:15:43,799
+variações de acordo com a linguagem de
+
+384
+00:15:41,600 --> 00:15:47,159
+programação para eles Oi gente as
+
+385
+00:15:43,799 --> 00:15:49,379
+ferramentas elas são muito ligadas ao
+
+386
+00:15:47,159 --> 00:15:51,809
+linguagem de programação Então esse é o
+
+387
+00:15:49,379 --> 00:15:54,059
+desafio é isso é toda vez que eu tenho
+
+388
+00:15:51,809 --> 00:15:55,859
+uma nova maneira de eu programar uma
+
+389
+00:15:54,059 --> 00:15:57,959
+nova linguagem as ferramentas elas
+
+390
+00:15:55,860 --> 00:16:00,120
+precisam atender às características da
+
+391
+00:15:57,960 --> 00:16:01,560
+linguagem né lá no comentário aqui sobre
+
+392
+00:16:00,120 --> 00:16:04,440
+a qualidade dos casos de pressa
+
+393
+00:16:01,559 --> 00:16:06,778
+automatizados né a veio muito e
+
+394
+00:16:04,440 --> 00:16:08,100
+similares elas são considerados a gente
+
+395
+00:16:06,778 --> 00:16:10,559
+fala de ferramenta na seleção mais um
+
+396
+00:16:08,100 --> 00:16:13,200
+Framework né e elas não têm assim o
+
+397
+00:16:10,559 --> 00:16:15,028
+propósito de avaliar de alguma forma a
+
+398
+00:16:13,200 --> 00:16:17,310
+qualidade do conjunto de caso de teste
+
+399
+00:16:15,028 --> 00:16:19,259
+não colabora com a purificação desse
+
+400
+00:16:17,309 --> 00:16:21,000
+espaço de teste e aí por isso um
+
+401
+00:16:19,259 --> 00:16:24,028
+trabalho relevante avaliar a qualidade
+
+402
+00:16:21,000 --> 00:16:25,889
+desses testes né ou seja Será que não há
+
+403
+00:16:24,028 --> 00:16:27,360
+erros no meu teste né então isso é
+
+404
+00:16:25,889 --> 00:16:29,458
+chamado que a gente chama hoje de pés
+
+405
+00:16:27,360 --> 00:16:32,100
+smells né E tem sido amplamente
+
+406
+00:16:29,458 --> 00:16:34,289
+pesquisado atualmente depois as outras
+
+407
+00:16:32,100 --> 00:16:37,620
+ferramentas úteis você tá algumas que
+
+408
+00:16:34,289 --> 00:16:39,990
+são ferramentas livres e gratuitas que
+
+409
+00:16:37,620 --> 00:16:42,659
+podem ser utilizadas na academia ou até
+
+410
+00:16:39,990 --> 00:16:46,600
+empresas utilizam que são ferramentas de
+
+411
+00:16:42,659 --> 00:16:48,309
+pé e como por exemplo a e clima a gente
+
+412
+00:16:46,600 --> 00:16:50,259
+também tem ferramenta que apóia o
+
+413
+00:16:48,309 --> 00:16:53,109
+gerenciamento da atividade de teste que
+
+414
+00:16:50,259 --> 00:16:54,240
+acontece ling e a ferramenta Selene O
+
+415
+00:16:53,110 --> 00:16:57,490
+que é bastante empregada na indústria
+
+416
+00:16:54,240 --> 00:17:00,639
+porque ela apoia a avaliação do teste
+
+417
+00:16:57,490 --> 00:17:01,889
+Unidos sistemas e aplicações web existem
+
+418
+00:17:00,639 --> 00:17:04,180
+também várias outras ferramentas
+
+419
+00:17:01,889 --> 00:17:06,129
+acadêmicas né aqui só acaba sendo prova
+
+420
+00:17:04,180 --> 00:17:08,860
+de conceitos são usados em
+
+421
+00:17:06,130 --> 00:17:10,720
+experimentação e algumas até são usadas
+
+422
+00:17:08,859 --> 00:17:12,279
+na indústria mas ainda gente precisa de
+
+423
+00:17:10,720 --> 00:17:15,130
+alguma evolução e até escalabilidade
+
+424
+00:17:12,279 --> 00:17:18,160
+dessas ferramentas aí Para apoiar a
+
+425
+00:17:15,130 --> 00:17:20,830
+atividade de teste Simone existem alguns
+
+426
+00:17:18,160 --> 00:17:22,779
+termos no contexto de teste e são bem
+
+427
+00:17:20,829 --> 00:17:25,779
+recorrentes que estão sempre aparecendo
+
+428
+00:17:22,779 --> 00:17:28,839
+por exemplo teste de regressão teste de
+
+429
+00:17:25,779 --> 00:17:31,149
+desempenho teste de estresse além disso
+
+430
+00:17:28,839 --> 00:17:33,220
+em pesquisa na área de testes temos
+
+431
+00:17:31,150 --> 00:17:35,800
+também teste de mutação que até o tinha
+
+432
+00:17:33,220 --> 00:17:38,019
+visto algumas pessoas usando isso no
+
+433
+00:17:35,799 --> 00:17:40,149
+mundo real deixarmos assim né não que a
+
+434
+00:17:38,019 --> 00:17:43,329
+pesquisa não seja mundo real O que
+
+435
+00:17:40,150 --> 00:17:45,410
+significam esses termos por exemplo o
+
+436
+00:17:43,329 --> 00:17:48,919
+desempenho e teste de estresse
+
+437
+00:17:45,410 --> 00:17:52,220
+normalmente são confundidos entre si em
+
+438
+00:17:48,920 --> 00:17:55,430
+Adolfo uma boa pergunta né esse tema são
+
+439
+00:17:52,220 --> 00:17:58,970
+bem recorrente as usuais né se eu
+
+440
+00:17:55,430 --> 00:18:01,310
+perguntar sobre o teste de regressão ele
+
+441
+00:17:58,970 --> 00:18:04,039
+ele é chamado de um Teste realizado após
+
+442
+00:18:01,309 --> 00:18:05,359
+o softer sofrer alguma modificação e o
+
+443
+00:18:04,039 --> 00:18:07,759
+que pode ser considerado um nível de
+
+444
+00:18:05,359 --> 00:18:09,169
+teste mas os níveis de teste eles se
+
+445
+00:18:07,759 --> 00:18:11,329
+relacionam com o processo de
+
+446
+00:18:09,170 --> 00:18:13,310
+desenvolvimento do código o teste de
+
+447
+00:18:11,329 --> 00:18:15,589
+regressão ele tem a ver com o software
+
+448
+00:18:13,309 --> 00:18:18,169
+já está em uso e ele precisar de algum
+
+449
+00:18:15,589 --> 00:18:21,409
+tipo de modificação e uma pessoa se o
+
+450
+00:18:18,170 --> 00:18:23,570
+nome dessa de regressão ele vem do
+
+451
+00:18:21,410 --> 00:18:25,730
+Objetivo que aparece o software não
+
+452
+00:18:23,569 --> 00:18:28,220
+regrediu o termos de funcionalidade
+
+453
+00:18:25,730 --> 00:18:30,860
+qualidade com as mudanças realizadas não
+
+454
+00:18:28,220 --> 00:18:33,620
+é seu propósito e normalmente o teste de
+
+455
+00:18:30,859 --> 00:18:34,819
+regressão ele utiliza os casos de teste
+
+456
+00:18:33,619 --> 00:18:36,829
+que são produzidos ao longo do
+
+457
+00:18:34,819 --> 00:18:38,929
+desenvolvimento tematicamente de um
+
+458
+00:18:36,829 --> 00:18:41,000
+sábio que com o tempo a quantidade de
+
+459
+00:18:38,930 --> 00:18:42,930
+casos de teste pode ser muito grande e
+
+460
+00:18:41,000 --> 00:18:46,160
+isso a gente pensar hoje em integração
+
+461
+00:18:42,930 --> 00:18:48,660
+Oi e que eu custa uma ser alto
+
+462
+00:18:46,160 --> 00:18:51,660
+utilizamos tecnologias e peço como um
+
+463
+00:18:48,660 --> 00:18:53,730
+serviço tão grande desafio a seleção é
+
+464
+00:18:51,660 --> 00:18:55,700
+quais casos de teste utilizar durante o
+
+465
+00:18:53,730 --> 00:18:58,620
+resto de graça tanto teste de regressão
+
+466
+00:18:55,700 --> 00:19:00,240
+E então esse algumas técnicas para isso
+
+467
+00:18:58,619 --> 00:19:02,279
+as quais normalmente se baseia nas
+
+468
+00:19:00,240 --> 00:19:04,019
+partes modificadas do Sol E aí
+
+469
+00:19:02,279 --> 00:19:06,779
+Respondendo a sua outra a questão sobre
+
+470
+00:19:04,019 --> 00:19:09,240
+peça desempenho PS3 eles são
+
+471
+00:19:06,779 --> 00:19:11,519
+considerados dois tipos de teste sistema
+
+472
+00:19:09,240 --> 00:19:13,319
+ou seja eles são realizadas quando sofre
+
+473
+00:19:11,519 --> 00:19:14,569
+está completo e tem o objetivo de
+
+474
+00:19:13,319 --> 00:19:17,129
+trabalhar o seu comportamento
+
+475
+00:19:14,569 --> 00:19:20,039
+comportamento no ambiente para o qual
+
+476
+00:19:17,130 --> 00:19:22,230
+lhe foi desenvolvido hoje cada a cada
+
+477
+00:19:20,039 --> 00:19:24,779
+vez mais queremos soluções de software
+
+478
+00:19:22,230 --> 00:19:26,630
+rápidas por exemplo uma aplicação web em
+
+479
+00:19:24,779 --> 00:19:29,339
+que esperado o tempo de resposta mais
+
+480
+00:19:26,630 --> 00:19:31,290
+esse valor baixo é o que foi acordado
+
+481
+00:19:29,339 --> 00:19:33,419
+durante o desenvolvimento então assim
+
+482
+00:19:31,289 --> 00:19:37,269
+durante o péssimo desempenho Médici com
+
+483
+00:19:33,420 --> 00:19:39,039
+rápido sofre responde as escolas e já o
+
+484
+00:19:37,269 --> 00:19:40,779
+teste de stress tem a ver com o volume
+
+485
+00:19:39,039 --> 00:19:42,539
+de transações que só será capaz de
+
+486
+00:19:40,779 --> 00:19:45,700
+receber e ainda funcionar adequadamente
+
+487
+00:19:42,539 --> 00:19:47,409
+um exemplo é uma aplicação web de venda
+
+488
+00:19:45,700 --> 00:19:49,539
+de ingressos para o show quanto
+
+489
+00:19:47,410 --> 00:19:50,790
+acreditou que tem menos ingressos que
+
+490
+00:19:49,539 --> 00:19:53,589
+pessoas interessadas
+
+491
+00:19:50,789 --> 00:19:55,269
+teremos que várias pessoas vão tentar ao
+
+492
+00:19:53,589 --> 00:19:57,609
+mesmo tempo a comprar os ingressos no
+
+493
+00:19:55,269 --> 00:19:59,259
+momento o que assim água sanitária E aí
+
+494
+00:19:57,609 --> 00:20:01,240
+se volume de transações é uma sobrecarga
+
+495
+00:19:59,259 --> 00:20:03,069
+no sofre e ele tem que ser capaz de
+
+496
+00:20:01,240 --> 00:20:04,990
+lidar com essa sobrecarga isso que a
+
+497
+00:20:03,069 --> 00:20:07,659
+gente também tem um stress ele dá para
+
+498
+00:20:04,990 --> 00:20:10,900
+essa sobrecarga bom E durante o teste de
+
+499
+00:20:07,660 --> 00:20:12,820
+stress o software é submetido a altas
+
+500
+00:20:10,900 --> 00:20:15,310
+cargas de transações tentando simular
+
+501
+00:20:12,819 --> 00:20:17,849
+essas situações e avalia o comportamento
+
+502
+00:20:15,309 --> 00:20:20,230
+dos postos alguns atores inclusive
+
+503
+00:20:17,849 --> 00:20:22,929
+consideram peça de stress Qual é o tipo
+
+504
+00:20:20,230 --> 00:20:25,660
+de peça desempenho olhando a capacidade
+
+505
+00:20:22,930 --> 00:20:27,940
+de estabilidade do Sol Último Ponto que
+
+506
+00:20:25,660 --> 00:20:30,400
+você é considerou né que você comentou
+
+507
+00:20:27,940 --> 00:20:33,880
+foi sobre o teste de mutação ele é uma
+
+508
+00:20:30,400 --> 00:20:36,170
+técnica de teste né bastante eu não tive
+
+509
+00:20:33,880 --> 00:20:39,470
+que é bastante conhecida Mas ela é Oi
+
+510
+00:20:36,170 --> 00:20:41,150
+gente porque ela utiliza informações
+
+511
+00:20:39,470 --> 00:20:43,670
+sobre os defeitos mais comuns que podem
+
+512
+00:20:41,150 --> 00:20:45,860
+ser cometidas pelo programador imagina
+
+513
+00:20:43,670 --> 00:20:47,630
+que você seja capaz de mostrar que todos
+
+514
+00:20:45,859 --> 00:20:50,569
+os defeitos que poderiam ser cometidos
+
+515
+00:20:47,630 --> 00:20:52,820
+no software não existe e assim que essa
+
+516
+00:20:50,569 --> 00:20:54,500
+técnica mais ou menos funciona ela
+
+517
+00:20:52,819 --> 00:20:56,599
+realiza isso por meio de pequenas
+
+518
+00:20:54,500 --> 00:20:58,970
+modificações no sócio a gente chama de
+
+519
+00:20:56,599 --> 00:21:01,789
+mutações as quais representam esses
+
+520
+00:20:58,970 --> 00:21:04,640
+possíveis defeitos uma ideia é projetar
+
+521
+00:21:01,789 --> 00:21:06,470
+casa de peças que mostram esses defeitos
+
+522
+00:21:04,640 --> 00:21:07,700
+não estão presentes no software O que é
+
+523
+00:21:06,470 --> 00:21:10,430
+obtido pela diferença de comportamento
+
+524
+00:21:07,700 --> 00:21:12,200
+entre o software eo só ser mutante é
+
+525
+00:21:10,430 --> 00:21:14,390
+produzir o problema dela que ela é uma
+
+526
+00:21:12,200 --> 00:21:16,850
+técnica cara pois ela existe um grande
+
+527
+00:21:14,390 --> 00:21:18,230
+esforço de teste do testador o qual
+
+528
+00:21:16,849 --> 00:21:20,119
+precisa lidar com o problema de
+
+529
+00:21:18,230 --> 00:21:21,579
+equivalência entre o problema original e
+
+530
+00:21:20,119 --> 00:21:24,399
+eu programado
+
+531
+00:21:21,579 --> 00:21:26,869
+mas apesar disso não é uma técnica
+
+532
+00:21:24,400 --> 00:21:30,259
+considerada mais eficaz para revelar
+
+533
+00:21:26,869 --> 00:21:32,389
+defeitos presentes no solo e aí dar essa
+
+534
+00:21:30,259 --> 00:21:34,279
+característica por ela ser adaptável a
+
+535
+00:21:32,390 --> 00:21:36,840
+qualquer nível de teste É por isso aqui
+
+536
+00:21:34,279 --> 00:21:40,230
+ela é empregada como é que e você
+
+537
+00:21:36,839 --> 00:21:42,990
+comentou né em outros níveis de teste a
+
+538
+00:21:40,230 --> 00:21:45,089
+comunidade integração sistemas e até em
+
+539
+00:21:42,990 --> 00:21:46,980
+outras outros tipos de teste então o
+
+540
+00:21:45,089 --> 00:21:49,439
+exemplo conhecido é a utilização do
+
+541
+00:21:46,980 --> 00:21:51,690
+teste de mutação para simular possíveis
+
+542
+00:21:49,440 --> 00:21:54,150
+ataques e uma rede de modo a avaliar a
+
+543
+00:21:51,690 --> 00:21:56,279
+segurança de um sócio encontrar
+
+544
+00:21:54,150 --> 00:21:57,930
+vulnerabilidades nessa história e aí
+
+545
+00:21:56,279 --> 00:22:00,420
+então as mutações representam os
+
+546
+00:21:57,930 --> 00:22:02,130
+possíveis ataques e acaba é um software
+
+547
+00:22:00,420 --> 00:22:04,350
+que você capaz de se defender das mesmas
+
+548
+00:22:02,130 --> 00:22:05,880
+é uma aplicação interessante do teste de
+
+549
+00:22:04,349 --> 00:22:07,649
+mutação e tem um efeito bastante
+
+550
+00:22:05,880 --> 00:22:10,410
+positivo para avaliar a qualidade do
+
+551
+00:22:07,650 --> 00:22:13,080
+solo deixar perguntar um refinamento
+
+552
+00:22:10,410 --> 00:22:14,700
+dessa pergunta assim eu tinha feito
+
+553
+00:22:13,079 --> 00:22:16,409
+aquela pergunta sobre a classificação de
+
+554
+00:22:14,700 --> 00:22:18,180
+teste né ele tinha mencionado das
+
+555
+00:22:16,410 --> 00:22:20,250
+dimensões então a gente já falou algumas
+
+556
+00:22:18,180 --> 00:22:23,130
+aqui teste desempenho a teste de stress
+
+557
+00:22:20,250 --> 00:22:25,650
+a gente conhece outras dimensões estão
+
+558
+00:22:23,130 --> 00:22:28,320
+por exemplo testar questões relacionadas
+
+559
+00:22:25,650 --> 00:22:30,930
+à segurança testar questões relacionadas
+
+560
+00:22:28,319 --> 00:22:32,519
+com a usabilidade mas eu consigo
+
+561
+00:22:30,930 --> 00:22:33,769
+imaginar que isso requer um certo
+
+562
+00:22:32,519 --> 00:22:35,849
+conhecimento
+
+563
+00:22:33,769 --> 00:22:37,480
+especializado né então alguém que vai
+
+564
+00:22:35,849 --> 00:22:39,039
+ter e tem que ter o conhecimento sobre
+
+565
+00:22:37,480 --> 00:22:41,140
+segurança alguém que vai testar os
+
+566
+00:22:39,039 --> 00:22:45,069
+habilidades tem que ter noções na área
+
+567
+00:22:41,140 --> 00:22:46,840
+de interação com o usuário Então como
+
+568
+00:22:45,069 --> 00:22:49,569
+que isso aparece dentro das equipes de
+
+569
+00:22:46,839 --> 00:22:52,119
+software né acaba que a gente nas
+
+570
+00:22:49,569 --> 00:22:54,700
+equipes faz as coisas de formas mais
+
+571
+00:22:52,119 --> 00:22:57,669
+reativas aparecem os problemas e a gente
+
+572
+00:22:54,700 --> 00:22:59,710
+tem que interessar ou existem pessoas
+
+573
+00:22:57,670 --> 00:23:02,620
+que são dedicadas para explorar essas
+
+574
+00:22:59,710 --> 00:23:05,559
+dimensões na hora de testar o soft como
+
+575
+00:23:02,619 --> 00:23:08,909
+que isso acontece na prática o que ele
+
+576
+00:23:05,559 --> 00:23:12,399
+seja quando acontece essas
+
+577
+00:23:08,910 --> 00:23:14,259
+características em geral é a equipe
+
+578
+00:23:12,400 --> 00:23:16,930
+trabalhando que tem um domínio né que
+
+579
+00:23:14,259 --> 00:23:20,259
+envolve essas questões então quando a
+
+580
+00:23:16,930 --> 00:23:21,549
+segurança é um aspecto importante é ele
+
+581
+00:23:20,259 --> 00:23:25,329
+é somente ela vai ter pessoas
+
+582
+00:23:21,549 --> 00:23:28,990
+qualificadas para lidar ou testar
+
+583
+00:23:25,329 --> 00:23:32,169
+segurança na ferramental e acaba
+
+584
+00:23:28,990 --> 00:23:34,120
+permeando outras várias né a segurança
+
+585
+00:23:32,170 --> 00:23:36,140
+de sistemas ele não é sua dentro da
+
+586
+00:23:34,119 --> 00:23:38,659
+engenharia de Top né Ele é uma
+
+587
+00:23:36,140 --> 00:23:39,940
+é a parte também cobrir olha para as
+
+588
+00:23:38,660 --> 00:23:43,040
+questões relacionadas à segurança
+
+589
+00:23:39,940 --> 00:23:44,720
+desempenho também ele vai muito próximo
+
+590
+00:23:43,039 --> 00:23:46,509
+da questão de sistemas de Alto
+
+591
+00:23:44,720 --> 00:23:50,059
+desempenho em Sistemas distribuídos
+
+592
+00:23:46,509 --> 00:23:52,730
+Então você tem razão quando você fala
+
+593
+00:23:50,059 --> 00:23:55,629
+que você especialista você precisa que
+
+594
+00:23:52,730 --> 00:23:57,319
+se você está desenvolvendo
+
+595
+00:23:55,630 --> 00:23:59,960
+sistemas que tem essas características
+
+596
+00:23:57,319 --> 00:24:01,789
+que precisam ser consideradas as
+
+597
+00:23:59,960 --> 00:24:04,279
+características é importante que você
+
+598
+00:24:01,789 --> 00:24:07,609
+tenha profissionais que saibam avaliar
+
+599
+00:24:04,279 --> 00:24:09,950
+essas características é claro que outras
+
+600
+00:24:07,609 --> 00:24:12,109
+funções vermelho início com um sistema
+
+601
+00:24:09,950 --> 00:24:15,370
+web né é importante que ele também tem
+
+602
+00:24:12,109 --> 00:24:17,719
+algumas características a nisso E aí o
+
+603
+00:24:15,369 --> 00:24:20,149
+testador ele teria que ser capaz de
+
+604
+00:24:17,720 --> 00:24:21,620
+olhar isso e confrontar com o requisito
+
+605
+00:24:20,150 --> 00:24:23,840
+né porque precisa parecer um requisito
+
+606
+00:24:21,619 --> 00:24:27,229
+de segurança importante né ver a questão
+
+607
+00:24:23,839 --> 00:24:29,029
+da vulnerabilidade E aí como que eu peço
+
+608
+00:24:27,230 --> 00:24:31,039
+essas informações mais ou menos
+
+609
+00:24:29,029 --> 00:24:33,440
+requisitos novamente é isso aqui é
+
+610
+00:24:31,039 --> 00:24:34,789
+aceito né E aí quando você precisa disso
+
+611
+00:24:33,440 --> 00:24:38,370
+que vocês tenham mais criticam sistema
+
+612
+00:24:34,789 --> 00:24:40,609
+de tempo real aí e outros elementos para
+
+613
+00:24:38,369 --> 00:24:44,099
+você poder testar melhores
+
+614
+00:24:40,609 --> 00:24:45,659
+excelente bom então nossa próxima
+
+615
+00:24:44,099 --> 00:24:48,389
+pergunta Justamente esse conta que
+
+616
+00:24:45,660 --> 00:24:50,370
+comentou que a respeito dos requisitos
+
+617
+00:24:48,390 --> 00:24:52,950
+né porque a gente tava falando de testes
+
+618
+00:24:50,369 --> 00:24:54,659
+só que para definir o que testar é
+
+619
+00:24:52,950 --> 00:24:56,370
+fundamental a gente entender os
+
+620
+00:24:54,660 --> 00:24:59,640
+requisitos do projeto até eu conheço uma
+
+621
+00:24:56,369 --> 00:25:01,709
+frase de não ter quer que falou né que
+
+622
+00:24:59,640 --> 00:25:03,600
+quando a gente não conhece você quiser
+
+623
+00:25:01,710 --> 00:25:05,340
+sistema ele não pode estar certo ou
+
+624
+00:25:03,599 --> 00:25:07,649
+errado o máximo que ele pode fazer nos
+
+625
+00:25:05,339 --> 00:25:09,689
+surpreender tão que que tu pode dizer a
+
+626
+00:25:07,650 --> 00:25:11,730
+respeito disso como você quiser se devem
+
+627
+00:25:09,690 --> 00:25:14,430
+ser expressos por que os casos de testes
+
+628
+00:25:11,730 --> 00:25:18,720
+sejam elaborados muito ruim Exatamente
+
+629
+00:25:14,430 --> 00:25:21,210
+isso até porque você a realização o
+
+630
+00:25:18,720 --> 00:25:22,620
+projeto de casa de teste você tem que
+
+631
+00:25:21,210 --> 00:25:25,319
+ser um parar em algo que você acredita
+
+632
+00:25:22,619 --> 00:25:28,619
+que esteja correto né então eu lembro
+
+633
+00:25:25,319 --> 00:25:30,629
+que quando eu pesquisar meu doutorado né
+
+634
+00:25:28,619 --> 00:25:33,269
+a nossa preocupação era essa né A gente
+
+635
+00:25:30,630 --> 00:25:35,190
+tem a especificação que representa o
+
+636
+00:25:33,269 --> 00:25:37,539
+sistema através de modelos né gente
+
+637
+00:25:35,190 --> 00:25:39,880
+utilizava modelos é uma coisa tirar
+
+638
+00:25:37,539 --> 00:25:41,619
+teste a partir desses modelos né a outra
+
+639
+00:25:39,880 --> 00:25:43,870
+é a gente avaliasse para a correta
+
+640
+00:25:41,619 --> 00:25:46,479
+especificação tem algumas áreas de
+
+641
+00:25:43,869 --> 00:25:48,459
+pesquisa e até São aplicadas na
+
+642
+00:25:46,480 --> 00:25:51,150
+indústria que é o teste baseado em
+
+643
+00:25:48,460 --> 00:25:53,920
+modelos então que você representa a
+
+644
+00:25:51,150 --> 00:25:56,200
+especificação dos requisitos do modelo
+
+645
+00:25:53,920 --> 00:25:58,660
+que gera os testes a partir dele você
+
+646
+00:25:56,200 --> 00:26:00,370
+assumir esse modelo que eu sempre brinco
+
+647
+00:25:58,660 --> 00:26:01,660
+que tem um colega aqui no departamento
+
+648
+00:26:00,369 --> 00:26:03,729
+trabalha com isso eu falei mais e se
+
+649
+00:26:01,660 --> 00:26:05,050
+tiver errado você modelo a luz dessas
+
+650
+00:26:03,730 --> 00:26:06,970
+vão estar errados que vai na linha
+
+651
+00:26:05,049 --> 00:26:08,589
+porque você comentou né se eu não tenho
+
+652
+00:26:06,970 --> 00:26:11,289
+muita certeza sobre os requisitos o que
+
+653
+00:26:08,589 --> 00:26:13,509
+fizeram eu tenho que aceitar então ele
+
+654
+00:26:11,289 --> 00:26:16,899
+disse quem trabalha com modelos assumir
+
+655
+00:26:13,509 --> 00:26:18,460
+Aquele modelo Tá certo então de fato a
+
+656
+00:26:16,900 --> 00:26:19,810
+atividade de texto é uma carta mente
+
+657
+00:26:18,460 --> 00:26:22,740
+relacionada com o entendimento do
+
+658
+00:26:19,809 --> 00:26:26,259
+ceticismo mas uma questão é bastante
+
+659
+00:26:22,740 --> 00:26:28,109
+interessante é que normalmente têm
+
+660
+00:26:26,259 --> 00:26:31,180
+trabalho com o planejamento dos Testes
+
+661
+00:26:28,109 --> 00:26:33,879
+está olhamos para os requisitos esse
+
+662
+00:26:31,180 --> 00:26:37,600
+olhar para os requisitos acaba validam
+
+663
+00:26:33,880 --> 00:26:39,680
+os requisitos porque se por e o que
+
+664
+00:26:37,599 --> 00:26:42,349
+testar uma característica relacionada
+
+665
+00:26:39,680 --> 00:26:44,480
+tempo de resposta não sistema web Olha
+
+666
+00:26:42,349 --> 00:26:46,129
+tem tempo tempo de resposta rápido mas
+
+667
+00:26:44,480 --> 00:26:47,960
+isso é isso que tá escrito requisito não
+
+668
+00:26:46,130 --> 00:26:51,230
+é suficiente para elaborar um teste eu
+
+669
+00:26:47,960 --> 00:26:53,480
+ia Então vamos lá vamos melhorar o
+
+670
+00:26:51,230 --> 00:26:56,360
+requisito né o outro você quiser vocês
+
+671
+00:26:53,480 --> 00:26:58,819
+estão incompletos ambíguos né Então
+
+672
+00:26:56,359 --> 00:27:02,349
+essas questões elas acabam se
+
+673
+00:26:58,819 --> 00:27:05,470
+complementando toma toma uma questão
+
+674
+00:27:02,349 --> 00:27:07,429
+importante no processo né
+
+675
+00:27:05,470 --> 00:27:09,410
+importante a mente muitas vezes
+
+676
+00:27:07,430 --> 00:27:11,620
+requisitos não-funcionais o índice de
+
+677
+00:27:09,410 --> 00:27:13,250
+qualidade uma sempre estão em e
+
+678
+00:27:11,619 --> 00:27:15,979
+explícitos no documento de requisitos
+
+679
+00:27:13,250 --> 00:27:19,369
+nessa questão de segurança na questão da
+
+680
+00:27:15,980 --> 00:27:20,660
+vulnerabilidade E aí então esta como eu
+
+681
+00:27:19,369 --> 00:27:23,539
+falei ele tem que ter uma certa intuição
+
+682
+00:27:20,660 --> 00:27:25,070
+tem que buscar isso e confrontar e
+
+683
+00:27:23,539 --> 00:27:27,889
+eventualmente até melhorar esse esse
+
+684
+00:27:25,069 --> 00:27:29,659
+documento de requisitos uma atividade
+
+685
+00:27:27,890 --> 00:27:32,000
+importante também caminha junto com o
+
+686
+00:27:29,660 --> 00:27:34,580
+teste é inspeção de software e a
+
+687
+00:27:32,000 --> 00:27:37,349
+expressão lá pode ocorrer em código ou
+
+688
+00:27:34,579 --> 00:27:39,750
+na especificação e tô morando porque
+
+689
+00:27:37,349 --> 00:27:41,789
+você vai foi realizada no processo de
+
+690
+00:27:39,750 --> 00:27:43,710
+desenvolvimento ela pode chegar esses
+
+691
+00:27:41,789 --> 00:27:46,109
+problemas né de consistência de
+
+692
+00:27:43,710 --> 00:27:48,000
+ambiguidade é um funções e melhorar esse
+
+693
+00:27:46,109 --> 00:27:50,219
+documento a própria descrição de
+
+694
+00:27:48,000 --> 00:27:53,250
+requisitos ela já é suficiente para
+
+695
+00:27:50,220 --> 00:27:55,529
+elaborar os casos de teste então pode
+
+696
+00:27:53,250 --> 00:27:57,420
+ser usado um documento de requisitos ou
+
+697
+00:27:55,529 --> 00:28:00,059
+até uma especificação mais informal que
+
+698
+00:27:57,420 --> 00:28:03,150
+é utilizado nessa mensagem uma histórias
+
+699
+00:28:00,059 --> 00:28:05,129
+né que são adequadas o que o teste ele
+
+700
+00:28:03,150 --> 00:28:07,440
+costuma fazer é utilizar esses
+
+701
+00:28:05,130 --> 00:28:09,870
+documentos e a partir dele definir
+
+702
+00:28:07,440 --> 00:28:11,430
+cenários de uso relacionados a cada
+
+703
+00:28:09,869 --> 00:28:12,929
+requisito E se ele não conseguir
+
+704
+00:28:11,430 --> 00:28:15,390
+construir o cenário significa que tá
+
+705
+00:28:12,930 --> 00:28:17,130
+incompleto Então volta checad melhoria
+
+706
+00:28:15,390 --> 00:28:18,900
+você que sim então acaba sendo uma
+
+707
+00:28:17,130 --> 00:28:21,540
+atividade importante de melhoria de
+
+708
+00:28:18,900 --> 00:28:26,250
+qualidade lá na fase de especificação do
+
+709
+00:28:21,539 --> 00:28:28,920
+solo e aí o que o teste realiza com
+
+710
+00:28:26,250 --> 00:28:30,900
+esses cenários é trabalhar com possíveis
+
+711
+00:28:28,920 --> 00:28:32,970
+situações que estão previstas mas
+
+712
+00:28:30,900 --> 00:28:34,710
+principalmente as não previstas então
+
+713
+00:28:32,970 --> 00:28:37,029
+ele ele vai se concentrar em cenário que
+
+714
+00:28:34,710 --> 00:28:38,950
+a gente chama cenário um rap Oi e aquele
+
+715
+00:28:37,029 --> 00:28:42,009
+que é esperado que o funcionamento do
+
+716
+00:28:38,950 --> 00:28:43,509
+requisito e aquele cenário hum rap e as
+
+717
+00:28:42,009 --> 00:28:46,150
+situações de problemas que podem
+
+718
+00:28:43,509 --> 00:28:47,680
+acontecer e conhecendo agora os casos de
+
+719
+00:28:46,150 --> 00:28:49,960
+testes baseados nesses requisitos não
+
+720
+00:28:47,680 --> 00:28:52,000
+sei que eles são muito importantes né E
+
+721
+00:28:49,960 --> 00:28:54,340
+quando eu falo de requisito é uma
+
+722
+00:28:52,000 --> 00:28:56,680
+descrição pessoal requisito o modelo
+
+723
+00:28:54,339 --> 00:28:59,319
+também oferece informações relevantes
+
+724
+00:28:56,680 --> 00:29:02,110
+daí pro para elaboração dos casos de
+
+725
+00:28:59,319 --> 00:29:04,539
+teste e fazendo um garante também a
+
+726
+00:29:02,109 --> 00:29:07,479
+gente tinha falado né como aparece
+
+727
+00:29:04,539 --> 00:29:09,279
+atividade de teste né tatuagens né das
+
+728
+00:29:07,480 --> 00:29:10,900
+formas na forma mais antiga né
+
+729
+00:29:09,279 --> 00:29:12,789
+tradicional a gente tinha os casos de
+
+730
+00:29:10,900 --> 00:29:15,790
+uso que era uma especificação completa
+
+731
+00:29:12,789 --> 00:29:18,639
+dos requisitos não é exatamente o passo
+
+732
+00:29:15,789 --> 00:29:20,319
+a passo disso servir de input Tanto para
+
+733
+00:29:18,640 --> 00:29:22,060
+quem fosse elaborar os casos de teste e
+
+734
+00:29:20,319 --> 00:29:24,309
+como quem fosse desenvolvendo só que
+
+735
+00:29:22,059 --> 00:29:26,679
+mato a gente tem os requisitos expressos
+
+736
+00:29:24,309 --> 00:29:28,750
+de uma forma mais informal nas histórias
+
+737
+00:29:26,680 --> 00:29:31,480
+né que vai ser quebradas em tarefas né
+
+738
+00:29:28,750 --> 00:29:34,619
+então qual é o momento em que esses
+
+739
+00:29:31,480 --> 00:29:36,759
+requisitos são de fato
+
+740
+00:29:34,619 --> 00:29:39,679
+especificados de uma oi oi
+
+741
+00:29:36,759 --> 00:29:43,309
+completa e métodos ágeis na Em que
+
+742
+00:29:39,680 --> 00:29:45,549
+momento a gente faz isso pensando no
+
+743
+00:29:43,309 --> 00:29:48,409
+processo de desenvolvimento
+
+744
+00:29:45,549 --> 00:29:50,750
+deixou até onde eu intenso né Eu acho
+
+745
+00:29:48,410 --> 00:29:52,340
+que compõem algumas equipes aqui uma
+
+746
+00:29:50,750 --> 00:29:54,589
+empresa né que usou a gente a gente
+
+747
+00:29:52,339 --> 00:29:58,369
+acompanhe trabalho em projetos práticos
+
+748
+00:29:54,589 --> 00:30:00,230
+na direito só ser com eles e a maneira
+
+749
+00:29:58,369 --> 00:30:04,189
+que eles atuam acho que seja uma maneira
+
+750
+00:30:00,230 --> 00:30:05,720
+que é normal né quem do Soajo É sim te
+
+751
+00:30:04,190 --> 00:30:08,539
+falar você tem uma descrição bem
+
+752
+00:30:05,720 --> 00:30:12,289
+informal né da funcionalidade e um toque
+
+753
+00:30:08,539 --> 00:30:14,599
+para você poder trabalhar não sou o
+
+754
+00:30:12,289 --> 00:30:17,240
+teste mas o desenvolvimento você precisa
+
+755
+00:30:14,599 --> 00:30:19,599
+extrair mais informação que existe um
+
+756
+00:30:17,240 --> 00:30:22,220
+trabalho conjunto junto com quem entende
+
+757
+00:30:19,599 --> 00:30:24,439
+da especificação que pode ser o próprio
+
+758
+00:30:22,220 --> 00:30:28,309
+pior dentro da equipe ou uma conversa
+
+759
+00:30:24,440 --> 00:30:32,059
+com o cliente e validar é esse estresse
+
+760
+00:30:28,309 --> 00:30:33,829
+é um mente é o cliente ele está
+
+761
+00:30:32,059 --> 00:30:35,359
+acompanhando nessa uma característica do
+
+762
+00:30:33,829 --> 00:30:37,649
+método ágil ele está acompanhando o
+
+763
+00:30:35,359 --> 00:30:40,259
+processo desenvolver bom então quando a
+
+764
+00:30:37,650 --> 00:30:42,030
+equipe de teste que tá trabalhando em
+
+765
+00:30:40,259 --> 00:30:45,299
+paralelo com aqui que ele desenvolveu um
+
+766
+00:30:42,029 --> 00:30:48,450
+tempo no mesmo print ela apresenta para
+
+767
+00:30:45,299 --> 00:30:50,250
+o cliente um aos testes de aceitação que
+
+768
+00:30:48,450 --> 00:30:53,190
+foram desenvolvidos E aí nesse momento
+
+769
+00:30:50,250 --> 00:30:56,240
+ele pode tá tirando dúvidas e explorando
+
+770
+00:30:53,190 --> 00:30:59,100
+melhor mais características né então
+
+771
+00:30:56,240 --> 00:31:01,440
+detalhando mais o que é esperar então
+
+772
+00:30:59,099 --> 00:31:04,139
+isso é algo que pode ser feito até para
+
+773
+00:31:01,440 --> 00:31:07,049
+construção mesmo do da especificação do
+
+774
+00:31:04,140 --> 00:31:09,620
+caso de teste então isso isso é algo
+
+775
+00:31:07,049 --> 00:31:13,349
+legal Vale ressaltar também que muitas
+
+776
+00:31:09,619 --> 00:31:15,569
+empresas que sério um processo ágil eles
+
+777
+00:31:13,349 --> 00:31:17,969
+utilizam também alguns modelos como caso
+
+778
+00:31:15,569 --> 00:31:20,369
+de uso como cenário para ser um parar
+
+779
+00:31:17,970 --> 00:31:23,279
+porque é importante né Precisa modelar
+
+780
+00:31:20,369 --> 00:31:25,169
+as funcionalidades precisa modelar banco
+
+781
+00:31:23,279 --> 00:31:27,059
+de dados né então não é livre de
+
+782
+00:31:25,170 --> 00:31:29,039
+utilizar esses modelos então medida que
+
+783
+00:31:27,059 --> 00:31:32,039
+isso vai acontecendo com equipe de
+
+784
+00:31:29,039 --> 00:31:33,869
+desenvolvimento vai também haverá uma
+
+785
+00:31:32,039 --> 00:31:36,129
+interação e um feedback para quem está
+
+786
+00:31:33,869 --> 00:31:38,679
+desenvolvendo os pés eu acho que alguns
+
+787
+00:31:36,130 --> 00:31:41,320
+é natural que vai acontecer dentro dos
+
+788
+00:31:38,680 --> 00:31:43,060
+sprints né que são os pintos de projeto
+
+789
+00:31:41,319 --> 00:31:45,220
+de bicicleta para ver o ensinamento do
+
+790
+00:31:43,059 --> 00:31:48,549
+projeto para depois partir para o código
+
+791
+00:31:45,220 --> 00:31:50,650
+Então entendo que isso ele com tecido e
+
+792
+00:31:48,549 --> 00:31:52,240
+não dá para separar aquilo que já
+
+793
+00:31:50,650 --> 00:31:54,370
+existia da engenheira de software né
+
+794
+00:31:52,240 --> 00:31:55,569
+você tem menos documentação mas não
+
+795
+00:31:54,369 --> 00:31:57,969
+seguinte aqui você não tem documentação
+
+796
+00:31:55,569 --> 00:31:59,439
+você precisa ter alguns elementos né
+
+797
+00:31:57,970 --> 00:32:02,350
+alguns modelos de apoio aí para o
+
+798
+00:31:59,440 --> 00:32:05,170
+desenvolvimento Simone agora vamos falar
+
+799
+00:32:02,349 --> 00:32:07,419
+sobre a sua pesquisa nós falamos de
+
+800
+00:32:05,170 --> 00:32:09,580
+técnicas de teste e você tem alguns
+
+801
+00:32:07,420 --> 00:32:11,920
+artigos que abordam a seleção de
+
+802
+00:32:09,579 --> 00:32:14,169
+técnicas de teste um exemplo é um
+
+803
+00:32:11,920 --> 00:32:16,000
+mapeamento sistemático publicado no
+
+804
+00:32:14,170 --> 00:32:18,220
+simpósio brasileiro de engenharia de
+
+805
+00:32:16,000 --> 00:32:19,559
+software Quais são os achados dessa sua
+
+806
+00:32:18,220 --> 00:32:22,809
+pesquisa
+
+807
+00:32:19,559 --> 00:32:25,450
+Adolfo é essa nossa pesquisa era iniciou
+
+808
+00:32:22,809 --> 00:32:28,359
+com aquela a preocupação de que nós
+
+809
+00:32:25,450 --> 00:32:30,490
+temos várias técnicas e pode ser
+
+810
+00:32:28,359 --> 00:32:34,750
+aplicadas dentro do processo de
+
+811
+00:32:30,490 --> 00:32:37,009
+desenvolvimento e fica uma dúvida em
+
+812
+00:32:34,750 --> 00:32:39,319
+qual que é a melhor técnica pra Nós não
+
+813
+00:32:37,009 --> 00:32:40,670
+sabemos que nós temos diferentes
+
+814
+00:32:39,319 --> 00:32:43,669
+domínios de aplicação sendo
+
+815
+00:32:40,670 --> 00:32:45,830
+desenvolvidos e nem sempre você precisa
+
+816
+00:32:43,670 --> 00:32:48,380
+usar a técnica mais cara fazer-se uma
+
+817
+00:32:45,829 --> 00:32:49,789
+técnica simples eu já mais fácil para
+
+818
+00:32:48,380 --> 00:32:51,800
+uma equipe E se a gente pensar em uma
+
+819
+00:32:49,789 --> 00:32:54,170
+Startup mas tem poucas pessoas
+
+820
+00:32:51,799 --> 00:32:56,839
+envolvidas numa equipe então foi isso
+
+821
+00:32:54,170 --> 00:32:59,710
+que motivou esse trabalho ele tá mais
+
+822
+00:32:56,839 --> 00:33:01,669
+focado no contexto de
+
+823
+00:32:59,710 --> 00:33:04,279
+desenvolvimento de programas
+
+824
+00:33:01,670 --> 00:33:05,830
+concorrentes que é uma pesquisa que Eu
+
+825
+00:33:04,279 --> 00:33:09,410
+desenrolo né como eu falei anteriormente
+
+826
+00:33:05,829 --> 00:33:10,419
+então nós conhecíamos para as técnicas a
+
+827
+00:33:09,410 --> 00:33:14,690
+gente já tinha feito um mapeamento
+
+828
+00:33:10,420 --> 00:33:18,019
+anterior que tinha elencado bares várias
+
+829
+00:33:14,690 --> 00:33:20,240
+técnicas diferentes Proteste Então essa
+
+830
+00:33:18,019 --> 00:33:22,809
+pesquisa de abastecimento foi relacionar
+
+831
+00:33:20,240 --> 00:33:24,680
+para um determinado projeto
+
+832
+00:33:22,809 --> 00:33:26,329
+como que a gente pode escolher uma
+
+833
+00:33:24,680 --> 00:33:28,580
+técnica de teste então nós definimos uma
+
+834
+00:33:26,329 --> 00:33:31,399
+ferramenta de apoio e ajuda na seleção
+
+835
+00:33:28,579 --> 00:33:33,679
+de técnicas e a ideia que você fazia um
+
+836
+00:33:31,400 --> 00:33:37,320
+repositório onde a gente tem trabalhos
+
+837
+00:33:33,680 --> 00:33:39,840
+científicos que propõe tecn o mistérios
+
+838
+00:33:37,319 --> 00:33:41,609
+né e ferramentas de teste de sofre mas
+
+839
+00:33:39,839 --> 00:33:44,099
+que foram avaliadas experimentalmente ou
+
+840
+00:33:41,609 --> 00:33:47,039
+seja tem uma certa avaliação em termos
+
+841
+00:33:44,099 --> 00:33:49,289
+de qualidade da proposta do trabalho e e
+
+842
+00:33:47,039 --> 00:33:50,730
+a gente construiu uma maneira de aqui o
+
+843
+00:33:49,289 --> 00:33:52,740
+testador ou a equipe que está
+
+844
+00:33:50,730 --> 00:33:53,910
+desenvolvendo o projeto ele pode colocar
+
+845
+00:33:52,740 --> 00:33:56,279
+alguns atributos que para ele é
+
+846
+00:33:53,910 --> 00:33:59,070
+importante Então olha eu tenho interesse
+
+847
+00:33:56,279 --> 00:34:01,379
+de olhar para a segurança do sistema eu
+
+848
+00:33:59,069 --> 00:34:04,079
+tenho interesse de olhar uma técnica que
+
+849
+00:34:01,380 --> 00:34:07,260
+seja estrutural nessa olha código ele
+
+850
+00:34:04,079 --> 00:34:09,090
+pode colocar vários elementos E aí é
+
+851
+00:34:07,259 --> 00:34:12,449
+feito uma pesquisa nesse repositório e
+
+852
+00:34:09,090 --> 00:34:15,360
+apresentado então para o testador Eu não
+
+853
+00:34:12,449 --> 00:34:17,849
+quem tá liderando o projeto Quais as
+
+854
+00:34:15,360 --> 00:34:19,950
+técnicas mais adequadas para ele
+
+855
+00:34:17,849 --> 00:34:21,659
+utilizar Então essa proposta é uma
+
+856
+00:34:19,949 --> 00:34:24,178
+maneira assim auxiliar esse processo de
+
+857
+00:34:21,659 --> 00:34:26,640
+seleção então A ideia é essa mesmo né
+
+858
+00:34:24,179 --> 00:34:28,889
+oferecer para a indústria o que existe
+
+859
+00:34:26,639 --> 00:34:31,559
+pesquisa científica sobre técnicas e
+
+860
+00:34:28,889 --> 00:34:34,049
+critérios de teste de modo que possa ser
+
+861
+00:34:31,559 --> 00:34:35,519
+utilizadas em seus projetos de impede a
+
+862
+00:34:34,050 --> 00:34:38,380
+nossa pesquisa fica mais concentrado em
+
+863
+00:34:35,519 --> 00:34:39,699
+teste de É mas eu não se deve lançar
+
+864
+00:34:38,380 --> 00:34:41,500
+também para o teste de software de
+
+865
+00:34:39,699 --> 00:34:43,719
+maneira geral que acaba sendo um pouco
+
+866
+00:34:41,500 --> 00:34:45,969
+mais desafiador que tem muita coisa né
+
+867
+00:34:43,719 --> 00:34:48,939
+então pra gente explorar todas as
+
+868
+00:34:45,969 --> 00:34:50,829
+contribuições que existem científica
+
+869
+00:34:48,940 --> 00:34:52,059
+sobre proposta de teste do toque então a
+
+870
+00:34:50,829 --> 00:34:54,460
+gente vai levar um certo tempo para
+
+871
+00:34:52,059 --> 00:34:56,889
+fazer isso não a gente mas ainda está em
+
+872
+00:34:54,460 --> 00:35:01,389
+construção esse processo nessa pesquisa
+
+873
+00:34:56,889 --> 00:35:04,480
+massa e já mencionou algumas vezes né os
+
+874
+00:35:01,389 --> 00:35:06,489
+trabalhos que tem a sobre teste em
+
+875
+00:35:04,480 --> 00:35:09,039
+aplicações concorrentes na Inclusive tem
+
+876
+00:35:06,489 --> 00:35:10,689
+um artigo recente que trata sobre a
+
+877
+00:35:09,039 --> 00:35:13,420
+teste programas onde ocorre essa
+
+878
+00:35:10,690 --> 00:35:15,369
+execução em paralelo então tu podia
+
+879
+00:35:13,420 --> 00:35:17,559
+detalhar um pouquinho mais assim sobre
+
+880
+00:35:15,369 --> 00:35:19,119
+os desafios Nesse contexto né porque que
+
+881
+00:35:17,559 --> 00:35:21,009
+é difícil você sabe que ações
+
+882
+00:35:19,119 --> 00:35:23,679
+concorrentes e quais são as soluções
+
+883
+00:35:21,010 --> 00:35:27,400
+propostas para endereçar esses Desafios
+
+884
+00:35:23,679 --> 00:35:29,710
+que a gente acaba olhando é
+
+885
+00:35:27,400 --> 00:35:32,079
+características diferentes dependendo do
+
+886
+00:35:29,710 --> 00:35:34,869
+tipo de aplicação então muitas coisas
+
+887
+00:35:32,079 --> 00:35:38,569
+que é comum na atividade de teste só
+
+888
+00:35:34,869 --> 00:35:41,179
+quero entender o Mack domínio e entender
+
+889
+00:35:38,570 --> 00:35:43,340
+que tipos de defeitos são cometidos
+
+890
+00:35:41,179 --> 00:35:45,139
+naquele Domingo então é só colar de
+
+891
+00:35:43,340 --> 00:35:47,030
+corrente colar de web né quando eu tô
+
+892
+00:35:45,139 --> 00:35:48,769
+pensando nesse momento l e tipo de
+
+893
+00:35:47,030 --> 00:35:50,780
+defeito essas pessoas cometem quando
+
+894
+00:35:48,769 --> 00:35:52,219
+desenvolvem essas aplicações não é
+
+895
+00:35:50,780 --> 00:35:55,220
+porque tem aquela se defeitos que são
+
+896
+00:35:52,219 --> 00:35:58,789
+comuns para qualquer tipo de aplicação
+
+897
+00:35:55,219 --> 00:36:01,219
+até própria programação concorrente e
+
+898
+00:35:58,789 --> 00:36:03,440
+ela é composta de vários processos dos
+
+899
+00:36:01,219 --> 00:36:05,989
+processos ele acaba tendo um
+
+900
+00:36:03,440 --> 00:36:07,849
+comportamento sequencial Então muitos
+
+901
+00:36:05,989 --> 00:36:11,349
+dos defeitos e muitas das questões são
+
+902
+00:36:07,849 --> 00:36:13,849
+tratadas na programa que a gente chama
+
+903
+00:36:11,349 --> 00:36:17,239
+tradicionais não sequenciais ele a gente
+
+904
+00:36:13,849 --> 00:36:19,309
+acaba incorporando mas tem outras outros
+
+905
+00:36:17,239 --> 00:36:20,539
+desafios né então não tem que a
+
+906
+00:36:19,309 --> 00:36:22,699
+concorrência está cada vez mais
+
+907
+00:36:20,539 --> 00:36:24,130
+presentes no nosso dia-a-dia a e as
+
+908
+00:36:22,699 --> 00:36:26,750
+aplicações
+
+909
+00:36:24,130 --> 00:36:28,910
+desenvolvidas acabam tendo que tratar
+
+910
+00:36:26,750 --> 00:36:31,179
+esses aspectos de concorrência quando a
+
+911
+00:36:28,909 --> 00:36:34,849
+gente tem um programa concorrente ele
+
+912
+00:36:31,179 --> 00:36:37,649
+única os seus processos né o prédio e
+
+913
+00:36:34,849 --> 00:36:39,868
+essa uma a minha fonte importante para a
+
+914
+00:36:37,650 --> 00:36:43,079
+atividade de teste porque é Um Desafio
+
+915
+00:36:39,869 --> 00:36:44,519
+que acontece é ii-ocorre essas
+
+916
+00:36:43,079 --> 00:36:45,539
+aplicações Elas têm um comportamento que
+
+917
+00:36:44,519 --> 00:36:49,139
+a gente chama comportamento
+
+918
+00:36:45,539 --> 00:36:50,970
+não-determinismo porque a Como existe a
+
+919
+00:36:49,139 --> 00:36:54,210
+comunicação entre os processos EA
+
+920
+00:36:50,969 --> 00:36:56,848
+sincronização isso pode variar durante a
+
+921
+00:36:54,210 --> 00:36:59,010
+execução Então o que acontece em termos
+
+922
+00:36:56,849 --> 00:37:01,140
+de atividade de teste é que no mesmo
+
+923
+00:36:59,010 --> 00:37:03,839
+lugar do BTS se ele for executado mais
+
+924
+00:37:01,139 --> 00:37:06,269
+de uma vez ele pode ter saídas
+
+925
+00:37:03,838 --> 00:37:08,880
+diferentes e muitas vezes saídas
+
+926
+00:37:06,269 --> 00:37:12,480
+corretas diferença então a decisão
+
+927
+00:37:08,880 --> 00:37:15,930
+difícil é saber oque Sera que eu já
+
+928
+00:37:12,480 --> 00:37:19,740
+expulso sofre a todas as saídas corretas
+
+929
+00:37:15,929 --> 00:37:21,358
+possíveis Será que tem alguma saída que
+
+930
+00:37:19,739 --> 00:37:23,909
+ainda pode ser produzida que eu não
+
+931
+00:37:21,358 --> 00:37:26,818
+avaliei e isso é um problema da de
+
+932
+00:37:23,909 --> 00:37:28,288
+reprodução do problema do defeito vamos
+
+933
+00:37:26,818 --> 00:37:30,389
+porque eu encontrei um defeito vira um
+
+934
+00:37:28,289 --> 00:37:32,430
+comportamento não esperado e muitas
+
+935
+00:37:30,389 --> 00:37:33,838
+vezes eu não consigo repetir essa
+
+936
+00:37:32,429 --> 00:37:36,129
+cenário por causa de um determinismo
+
+937
+00:37:33,838 --> 00:37:38,289
+então esses desafios a gente tenta atrás
+
+938
+00:37:36,130 --> 00:37:41,849
+de alguma forma colocando alguns
+
+939
+00:37:38,289 --> 00:37:43,750
+elementos né E e aí a gente precisa
+
+940
+00:37:41,849 --> 00:37:47,469
+garante então que a gente vai testar
+
+941
+00:37:43,750 --> 00:37:49,510
+todas as coisas assim como Estações e o
+
+942
+00:37:47,469 --> 00:37:51,669
+que possa também ser muito caro porque o
+
+943
+00:37:49,510 --> 00:37:54,340
+problema é que pode ter muitas tá então
+
+944
+00:37:51,670 --> 00:37:56,289
+que a gente investiga basicamente é uma
+
+945
+00:37:54,340 --> 00:37:59,350
+camento de critérios de teste para o
+
+946
+00:37:56,289 --> 00:38:01,119
+contexto da concorrência Então como que
+
+947
+00:37:59,349 --> 00:38:03,969
+hora comunicação como que é olha a
+
+948
+00:38:01,119 --> 00:38:06,429
+sincronização e posta o testador a
+
+949
+00:38:03,969 --> 00:38:08,709
+pensar em situações de teste de óleo e
+
+950
+00:38:06,429 --> 00:38:11,500
+essas dessas situações a gente trabalha
+
+951
+00:38:08,710 --> 00:38:13,929
+também com a geração automática de dados
+
+952
+00:38:11,500 --> 00:38:16,179
+de teste olhando esses cenários A Gente
+
+953
+00:38:13,929 --> 00:38:17,980
+Tem trabalhado com ferramentas de apoio
+
+954
+00:38:16,179 --> 00:38:20,129
+como eu falei são ferramentas mais
+
+955
+00:38:17,980 --> 00:38:22,840
+acadêmicas mas que a gente já tem
+
+956
+00:38:20,130 --> 00:38:25,119
+repetido uso em diversos projetos né
+
+957
+00:38:22,840 --> 00:38:27,490
+dentro do todas as nossas pesquisas e
+
+958
+00:38:25,119 --> 00:38:29,829
+também avaliação experimental das nossas
+
+959
+00:38:27,489 --> 00:38:32,109
+propostas mas não é agência contribuição
+
+960
+00:38:29,829 --> 00:38:34,119
+dentro disso então nessa direção da
+
+961
+00:38:32,110 --> 00:38:36,519
+responsável também tempo da concorrência
+
+962
+00:38:34,119 --> 00:38:40,819
+existem diferentes tipos de os
+
+963
+00:38:36,519 --> 00:38:42,380
+paradigmas então passagem de mensagem é
+
+964
+00:38:40,820 --> 00:38:44,000
+memória compartilhada então a gente
+
+965
+00:38:42,380 --> 00:38:47,090
+tenta tratar também se diferentes
+
+966
+00:38:44,000 --> 00:38:49,579
+paradigmas ele tentando olhar como que a
+
+967
+00:38:47,090 --> 00:38:52,130
+gente colabora e com a qualidade dessas
+
+968
+00:38:49,579 --> 00:38:54,880
+aplicar essa questão que também Cianorte
+
+969
+00:38:52,130 --> 00:38:57,980
+fazer um caso de teste ter diferente
+
+970
+00:38:54,880 --> 00:39:00,110
+resultados para me lembrou a questão dos
+
+971
+00:38:57,980 --> 00:39:02,119
+freepass que há outro termo que tem
+
+972
+00:39:00,110 --> 00:39:05,090
+Aparecida podia comentar um pouco a
+
+973
+00:39:02,119 --> 00:39:07,069
+respeito dos conectar e exatamente ele é
+
+974
+00:39:05,090 --> 00:39:08,300
+um tempo que apareceu e é muito
+
+975
+00:39:07,070 --> 00:39:11,090
+relacionado com o problema da
+
+976
+00:39:08,300 --> 00:39:14,080
+concorrência se a gente olhar o problema
+
+977
+00:39:11,090 --> 00:39:16,670
+do fez teste ele tem a ver com a
+
+978
+00:39:14,079 --> 00:39:19,549
+colocar atrasos no caso de teste né
+
+979
+00:39:16,670 --> 00:39:21,320
+então o que acontece com o playtest é
+
+980
+00:39:19,550 --> 00:39:22,940
+que é um caso de teste que uma hora ele
+
+981
+00:39:21,320 --> 00:39:24,680
+se comporta de um jeito outra hora que
+
+982
+00:39:22,940 --> 00:39:26,630
+se completa de outro jeito o que é
+
+983
+00:39:24,679 --> 00:39:28,489
+interessante que ele é muito próximo do
+
+984
+00:39:26,630 --> 00:39:31,010
+que a gente trabalha mas assim a gente
+
+985
+00:39:28,489 --> 00:39:33,229
+tá focando esse comportamento de Hora de
+
+986
+00:39:31,010 --> 00:39:35,840
+um jeito ou de outro no código da
+
+987
+00:39:33,230 --> 00:39:39,358
+aplicação e o flextest isso acontece no
+
+988
+00:39:35,840 --> 00:39:41,809
+cod bom então não gosto do teste acaba
+
+989
+00:39:39,358 --> 00:39:44,009
+aqui como tem você precisa para testando
+
+990
+00:39:41,809 --> 00:39:45,420
+características de concorrência o
+
+991
+00:39:44,010 --> 00:39:48,210
+testador acaba colocando por exemplo
+
+992
+00:39:45,420 --> 00:39:50,099
+alguns deles né para bater um atraso de
+
+993
+00:39:48,210 --> 00:39:53,760
+comportamento para ativar outras preces
+
+994
+00:39:50,099 --> 00:39:56,220
+e isso faz com que o comportamento deles
+
+995
+00:39:53,760 --> 00:39:58,140
+seja inesperado Isso é muito ruim porque
+
+996
+00:39:56,219 --> 00:40:00,298
+se você tem um processo de teste de
+
+997
+00:39:58,139 --> 00:40:02,730
+regressão Você não sabe o seu problema
+
+998
+00:40:00,298 --> 00:40:05,730
+tá o seu código só um defeito no código
+
+999
+00:40:02,730 --> 00:40:07,798
+ou se é chato o problema do Playstation
+
+1000
+00:40:05,730 --> 00:40:09,990
+então desafia o que que as pessoas têm
+
+1001
+00:40:07,798 --> 00:40:11,460
+explorado hoje é como que eu isolam né
+
+1002
+00:40:09,989 --> 00:40:14,308
+esses playtest para que eles não
+
+1003
+00:40:11,460 --> 00:40:17,190
+interfiram tanto na atividade de teste
+
+1004
+00:40:14,309 --> 00:40:19,559
+Simone atualmente muitos sistemas de
+
+1005
+00:40:17,190 --> 00:40:21,480
+software são concebidos com arquiteturas
+
+1006
+00:40:19,559 --> 00:40:24,630
+distribuídas e são hospedados na nuvem
+
+1007
+00:40:21,480 --> 00:40:26,760
+você já investigou a respeito o que muda
+
+1008
+00:40:24,630 --> 00:40:27,740
+quando testamos sistemas com essas
+
+1009
+00:40:26,760 --> 00:40:31,410
+características
+
+1010
+00:40:27,739 --> 00:40:33,868
+do Ovo nós já investigamos a atividade
+
+1011
+00:40:31,409 --> 00:40:36,129
+de teste para sistemas na nuvem ou
+
+1012
+00:40:33,869 --> 00:40:39,160
+sistemas que a gente chama as as isso a
+
+1013
+00:40:36,130 --> 00:40:40,990
+casa serve quando a gente pensa em ter
+
+1014
+00:40:39,159 --> 00:40:43,929
+sistemas existem novas características
+
+1015
+00:40:40,989 --> 00:40:46,839
+que precisam ser consideradas os e
+
+1016
+00:40:43,929 --> 00:40:50,199
+sistemas eles são compostos por pequenos
+
+1017
+00:40:46,840 --> 00:40:52,120
+o Inquilinos representam versões
+
+1018
+00:40:50,199 --> 00:40:54,819
+diferentes da mesma aplicação para
+
+1019
+00:40:52,119 --> 00:40:57,670
+entender múltiplas organizações Então
+
+1020
+00:40:54,820 --> 00:40:59,200
+cinco o texto que o sistema faz ele ele
+
+1021
+00:40:57,670 --> 00:41:02,980
+precisa considerar outros requisitos
+
+1022
+00:40:59,199 --> 00:41:04,589
+funcionais como elasticidade e
+
+1023
+00:41:02,980 --> 00:41:06,670
+escalabilidade
+
+1024
+00:41:04,590 --> 00:41:08,620
+claro que coisa também validar as
+
+1025
+00:41:06,670 --> 00:41:10,210
+funções dos componentes integração e
+
+1026
+00:41:08,619 --> 00:41:12,869
+serviços funcionários assim como ocorre
+
+1027
+00:41:10,210 --> 00:41:15,550
+em Sistemas distribuídos convencionais
+
+1028
+00:41:12,869 --> 00:41:17,859
+nossa pesquisa o que nós fizemos foi
+
+1029
+00:41:15,550 --> 00:41:20,800
+definir critérios de teste para sistema
+
+1030
+00:41:17,860 --> 00:41:22,410
+as os quais explora os defeitos
+
+1031
+00:41:20,800 --> 00:41:25,990
+relacionados ao atendimento de
+
+1032
+00:41:22,409 --> 00:41:28,509
+requisições e redirecionamentos e são
+
+1033
+00:41:25,989 --> 00:41:30,609
+operações e se relacionam com as
+
+1034
+00:41:28,510 --> 00:41:32,140
+diferentes temas da aplicação
+
+1035
+00:41:30,610 --> 00:41:34,150
+Aproveitamos a nossa experiência
+
+1036
+00:41:32,139 --> 00:41:36,139
+investigamos defeitos relacionados à
+
+1037
+00:41:34,150 --> 00:41:38,840
+concorrência dessas aplicações
+
+1038
+00:41:36,139 --> 00:41:41,119
+e ainda está em aberto e se muita coisa
+
+1039
+00:41:38,840 --> 00:41:42,740
+para ser investigará se contexto e que
+
+1040
+00:41:41,119 --> 00:41:45,019
+envolve novas características e novos
+
+1041
+00:41:42,739 --> 00:41:47,089
+comportamentos das aplicações isso foi
+
+1042
+00:41:45,019 --> 00:41:50,059
+assim uma bolsinha porque nós fizemos
+
+1043
+00:41:47,090 --> 00:41:52,370
+até agora com sistemas na nuvem tu tem
+
+1044
+00:41:50,059 --> 00:41:54,710
+bastante atuação na área de educação em
+
+1045
+00:41:52,369 --> 00:41:56,690
+engenharia de software inclusive foi foi
+
+1046
+00:41:54,710 --> 00:41:58,670
+coordenadora da trilha da Educação do
+
+1047
+00:41:56,690 --> 00:42:01,840
+simpósio brasileiro de software que
+
+1048
+00:41:58,670 --> 00:42:04,730
+aconteceu esse ano Mas em particular né
+
+1049
+00:42:01,840 --> 00:42:07,670
+da tua bastante na parte de ensino de
+
+1050
+00:42:04,730 --> 00:42:11,570
+teste de software e isso inclusive foi o
+
+1051
+00:42:07,670 --> 00:42:13,730
+tópico Episódio 9 do nosso podcast né
+
+1052
+00:42:11,570 --> 00:42:16,970
+que é tratou a educação engenharia de
+
+1053
+00:42:13,730 --> 00:42:19,039
+software com Marco Túlio Valente tu tem
+
+1054
+00:42:16,969 --> 00:42:22,099
+artigos que investigam Como é o ensino
+
+1055
+00:42:19,039 --> 00:42:25,039
+de testes o uso de game ficar são para
+
+1056
+00:42:22,099 --> 00:42:27,710
+na testes Quais são os seus conselhos
+
+1057
+00:42:25,039 --> 00:42:29,480
+para quem ensina testes com base na sua
+
+1058
+00:42:27,710 --> 00:42:32,630
+pesquisa e na sua experiência como
+
+1059
+00:42:29,480 --> 00:42:34,909
+Educadora legal hein E o assistência que
+
+1060
+00:42:32,630 --> 00:42:38,039
+Platinum ontem né do celular cultura
+
+1061
+00:42:34,909 --> 00:42:40,379
+muito interessante Como surgiu o que que
+
+1062
+00:42:38,039 --> 00:42:43,500
+ensina que estes obra deveria assistir
+
+1063
+00:42:40,380 --> 00:42:45,680
+eu acho excelentes dicas e e a gente
+
+1064
+00:42:43,500 --> 00:42:47,818
+conta ensina a gente que é
+
+1065
+00:42:45,679 --> 00:42:50,879
+ensinar da melhor forma né que a gente
+
+1066
+00:42:47,818 --> 00:42:53,608
+sempre busca experiências de colegas
+
+1067
+00:42:50,880 --> 00:42:56,400
+para fazer isso né eu acabo atuando
+
+1068
+00:42:53,608 --> 00:42:59,429
+também pelo ativos né contribuições
+
+1069
+00:42:56,400 --> 00:43:01,559
+porque a gente acaba Aproveitando né o o
+
+1070
+00:42:59,429 --> 00:43:03,568
+ensino da disciplina vende ele toca ele
+
+1071
+00:43:01,559 --> 00:43:05,190
+tá te seguindo ali dessa história para
+
+1072
+00:43:03,568 --> 00:43:07,829
+fazer alguns experimentos para avaliar
+
+1073
+00:43:05,190 --> 00:43:11,700
+os trabalhos nossos né Tem alguns alunos
+
+1074
+00:43:07,829 --> 00:43:14,010
+que investir com a área de educação e a
+
+1075
+00:43:11,699 --> 00:43:16,618
+com relação à conselhos né Eu entendo
+
+1076
+00:43:14,010 --> 00:43:18,869
+assim que testes o teste de software ela
+
+1077
+00:43:16,619 --> 00:43:21,119
+acaba sendo a área muito Ampla e ela
+
+1078
+00:43:18,869 --> 00:43:24,150
+envolve tanto aspectos teóricos como
+
+1079
+00:43:21,119 --> 00:43:26,670
+práticos eu gostei até que o teste de
+
+1080
+00:43:24,150 --> 00:43:28,160
+software ele ele é um processo a parte
+
+1081
+00:43:26,670 --> 00:43:30,200
+durante o processo de desenvolvimento
+
+1082
+00:43:28,159 --> 00:43:32,368
+aquele vai acompanhando todo o processo
+
+1083
+00:43:30,199 --> 00:43:34,169
+desenvolvimento né Então muitos
+
+1084
+00:43:32,369 --> 00:43:36,660
+elementos envolvidos E aí quando eu vou
+
+1085
+00:43:34,170 --> 00:43:39,240
+pensar ensinar e
+
+1086
+00:43:36,659 --> 00:43:41,980
+acaba sendo desafiador Porque
+
+1087
+00:43:39,239 --> 00:43:44,679
+precisamos pensar em aspectos práticos e
+
+1088
+00:43:41,980 --> 00:43:47,679
+ferramentas associadas que bem apoio e
+
+1089
+00:43:44,679 --> 00:43:51,309
+EA necessário mostrar ao estudante que
+
+1090
+00:43:47,679 --> 00:43:53,199
+aprendeu a testar é importante não menti
+
+1091
+00:43:51,309 --> 00:43:55,630
+para ele conhecer sobre teste e como
+
+1092
+00:43:53,199 --> 00:43:57,399
+utilizá-lo mas também para melhorar a
+
+1093
+00:43:55,630 --> 00:43:59,320
+maneira que o código é desenvolvido
+
+1094
+00:43:57,400 --> 00:44:00,849
+Porque a partir do momento que você tem
+
+1095
+00:43:59,320 --> 00:44:03,220
+a capacidade de pensar como um testador
+
+1096
+00:44:00,849 --> 00:44:05,199
+que você tem uma visão invertida né Eu
+
+1097
+00:44:03,219 --> 00:44:07,719
+quero encontrar problemas eu vou
+
+1098
+00:44:05,199 --> 00:44:08,769
+produzir um código melhor né Então essa
+
+1099
+00:44:07,719 --> 00:44:10,389
+é uma premissa que a gente tem um
+
+1100
+00:44:08,769 --> 00:44:13,030
+trabalho em sala de aula a gente fala do
+
+1101
+00:44:10,389 --> 00:44:15,879
+teste e aí como eu disse assim caras
+
+1102
+00:44:13,030 --> 00:44:18,280
+conhecimentos envolvidos sofre o ideal é
+
+1103
+00:44:15,880 --> 00:44:20,230
+que existe uma disciplina dedicada ao em
+
+1104
+00:44:18,280 --> 00:44:23,050
+cima de teste de som Nossa que nos
+
+1105
+00:44:20,230 --> 00:44:24,510
+iniciamos temos uma disciplina nós temos
+
+1106
+00:44:23,050 --> 00:44:26,820
+três cursos de
+
+1107
+00:44:24,510 --> 00:44:29,590
+graduação em computação
+
+1108
+00:44:26,820 --> 00:44:32,620
+então nós temos disciplinas prontos
+
+1109
+00:44:29,590 --> 00:44:34,870
+cursos ela tá passando seu obrigatório
+
+1110
+00:44:32,619 --> 00:44:37,099
+né que a nossa sistemas de informação e
+
+1111
+00:44:34,869 --> 00:44:38,440
+pelo curso de ciências de é mentira de
+
+1112
+00:44:37,099 --> 00:44:42,469
+computação queria uma disciplina
+
+1113
+00:44:38,440 --> 00:44:45,409
+optativa o mercado ele está buscando os
+
+1114
+00:44:42,469 --> 00:44:47,689
+profissionais dessa exposta ela ele é
+
+1115
+00:44:45,409 --> 00:44:49,099
+mais a pena que tem a atende a alta
+
+1116
+00:44:47,690 --> 00:44:52,369
+demanda de alunos Sem interesse de
+
+1117
+00:44:49,099 --> 00:44:54,679
+realizar né então desafio como docente é
+
+1118
+00:44:52,369 --> 00:44:56,989
+tentar mostrar o que que acontece no dia
+
+1119
+00:44:54,679 --> 00:44:58,759
+a dia de um testador e E aí a gente
+
+1120
+00:44:56,989 --> 00:45:01,129
+utiliza então assim ótimos materiais
+
+1121
+00:44:58,760 --> 00:45:04,190
+disponíveis para ensino né desde vídeo
+
+1122
+00:45:01,130 --> 00:45:06,559
+aulas e livros didáticos têm cursos né
+
+1123
+00:45:04,190 --> 00:45:09,110
+de teste sofre disponível por exemplo
+
+1124
+00:45:06,559 --> 00:45:10,699
+certo não tem tem um custo aquela que
+
+1125
+00:45:09,110 --> 00:45:12,680
+foi produzido por pesquisadores aqui dos
+
+1126
+00:45:10,699 --> 00:45:14,299
+Sims e o nosso grupo de teste de
+
+1127
+00:45:12,679 --> 00:45:16,250
+software em conjunto com outros
+
+1128
+00:45:14,300 --> 00:45:18,789
+pesquisadores na área área no Brasil
+
+1129
+00:45:16,250 --> 00:45:22,070
+eles também construíram um livro de
+
+1130
+00:45:18,789 --> 00:45:24,259
+mesmo texto né introdução texto de Tokyo
+
+1131
+00:45:22,070 --> 00:45:27,170
+e pode ser utilizada como apoio Então
+
+1132
+00:45:24,260 --> 00:45:28,580
+são dicas assim e que eu posso dar tem
+
+1133
+00:45:27,170 --> 00:45:30,590
+também a partir de um trabalho de
+
+1134
+00:45:28,579 --> 00:45:32,480
+Mestrado que orientei nós estamos
+
+1135
+00:45:30,590 --> 00:45:34,390
+construindo o catálogo de materiais que
+
+1136
+00:45:32,480 --> 00:45:37,048
+podem ser utilizados para apoios ao
+
+1137
+00:45:34,389 --> 00:45:40,078
+envolver o material te dar o chefe da
+
+1138
+00:45:37,048 --> 00:45:42,389
+quantidade de obras educacionais lista
+
+1139
+00:45:40,079 --> 00:45:44,910
+de exercícios dentro desse o SUS porque
+
+1140
+00:45:42,389 --> 00:45:46,348
+nós que pesquisamos em teste de software
+
+1141
+00:45:44,909 --> 00:45:48,598
+mais fácil da gente organizar o material
+
+1142
+00:45:46,349 --> 00:45:50,430
+então ele não é toda a universidade que
+
+1143
+00:45:48,599 --> 00:45:51,930
+nós temos pesquisadores de teste de
+
+1144
+00:45:50,429 --> 00:45:53,730
+sorte então se a gente conseguir
+
+1145
+00:45:51,929 --> 00:45:56,399
+oferecer materiais para que outros
+
+1146
+00:45:53,730 --> 00:45:58,679
+possam aplicar da melhor forma né então
+
+1147
+00:45:56,400 --> 00:46:00,990
+é isso que a gente busca com essa
+
+1148
+00:45:58,679 --> 00:46:03,179
+divulgação né e para quem vai encarar o
+
+1149
+00:46:00,989 --> 00:46:04,919
+desafio aí ensinasse a disciplina ou
+
+1150
+00:46:03,179 --> 00:46:06,480
+ensinar teste dentro da engenharia de
+
+1151
+00:46:04,920 --> 00:46:09,778
+história e assim o meu conselho final
+
+1152
+00:46:06,480 --> 00:46:12,539
+então né dessa minha é eu acho assim que
+
+1153
+00:46:09,778 --> 00:46:14,519
+o meu conselho é uso usar preparar um
+
+1154
+00:46:12,539 --> 00:46:16,170
+curso dinâmico em que o aluno seja
+
+1155
+00:46:14,519 --> 00:46:18,420
+exposto a problemas que ele poderá
+
+1156
+00:46:16,170 --> 00:46:20,250
+enfrentar quando estiver testamos só e
+
+1157
+00:46:18,420 --> 00:46:22,858
+que ser o curso com ferramentas de apoio
+
+1158
+00:46:20,250 --> 00:46:24,349
+e um projeto interessante colabora com o
+
+1159
+00:46:22,858 --> 00:46:27,389
+aprendizado EA motivação dos Estudantes
+
+1160
+00:46:24,349 --> 00:46:30,329
+muito bom e aí uma pergunta adicional é
+
+1161
+00:46:27,389 --> 00:46:32,879
+quais são os principais gaps as
+
+1162
+00:46:30,329 --> 00:46:35,099
+principais lacunas entre o ensino de
+
+1163
+00:46:32,880 --> 00:46:37,780
+teste de software e o que indústria
+
+1164
+00:46:35,099 --> 00:46:39,700
+deseja que o eu saiba a gente vai
+
+1165
+00:46:37,780 --> 00:46:41,560
+acompanhado até por conta de um dessas
+
+1166
+00:46:39,699 --> 00:46:43,929
+pesquisas que eu tenho educação aqui em
+
+1167
+00:46:41,559 --> 00:46:46,059
+cima de teste de torque tem alguma e tem
+
+1168
+00:46:43,929 --> 00:46:49,299
+sido apresentada na literatura então um
+
+1169
+00:46:46,059 --> 00:46:52,090
+serviço e o que a literatura mostra para
+
+1170
+00:46:49,300 --> 00:46:53,769
+gente que eu fiz alguém aqui ainda é
+
+1171
+00:46:52,090 --> 00:46:56,740
+falta de profissional qualificado para
+
+1172
+00:46:53,769 --> 00:46:58,539
+atuar na área de teste de som são poucas
+
+1173
+00:46:56,739 --> 00:47:00,399
+as Universidades aqui no país que elas
+
+1174
+00:46:58,539 --> 00:47:02,889
+possuem uma de uma disciplina dedicada
+
+1175
+00:47:00,400 --> 00:47:04,570
+ao ensino detesto de solta se eu for
+
+1176
+00:47:02,889 --> 00:47:05,579
+ensinado essa história dentro tem
+
+1177
+00:47:04,570 --> 00:47:07,990
+dinheiro de sobra
+
+1178
+00:47:05,579 --> 00:47:10,000
+eu não tenho espaço ela é uma disciplina
+
+1179
+00:47:07,989 --> 00:47:12,809
+muito Ampla né Tem muita coisa
+
+1180
+00:47:10,000 --> 00:47:15,369
+interessante para ser ensinada então
+
+1181
+00:47:12,809 --> 00:47:18,099
+quando eu não tenho a possibilidade de
+
+1182
+00:47:15,369 --> 00:47:20,079
+ter disciplina acaba não tendo a pessoa
+
+1183
+00:47:18,099 --> 00:47:22,000
+capacitaram de dança assim para entender
+
+1184
+00:47:20,079 --> 00:47:24,369
+toda essa teoria envolve eu preciso
+
+1185
+00:47:22,000 --> 00:47:26,829
+também que ninguém existente seja elas
+
+1186
+00:47:24,369 --> 00:47:28,750
+tomadas tecnologias EA maneira que a
+
+1187
+00:47:26,829 --> 00:47:30,250
+indústria realiza a atividade de teste
+
+1188
+00:47:28,750 --> 00:47:32,260
+de software a gente sabe que o que a
+
+1189
+00:47:30,250 --> 00:47:34,210
+gente pesquisa muitas vezes não essa
+
+1190
+00:47:32,260 --> 00:47:36,170
+briga diretamente na indústria não tem
+
+1191
+00:47:34,210 --> 00:47:39,699
+indústria sob as pressões de prazo às
+
+1192
+00:47:36,170 --> 00:47:43,190
+vezes de pessoas possam local uma equipe
+
+1193
+00:47:39,699 --> 00:47:44,989
+a tempo nasceu o teste de software é um
+
+1194
+00:47:43,190 --> 00:47:46,309
+processo em paralelo ele vai consumir
+
+1195
+00:47:44,989 --> 00:47:47,959
+tempo para o seu desenvolvimento nem
+
+1196
+00:47:46,309 --> 00:47:50,750
+sempre as equipes vão poder trabalhar
+
+1197
+00:47:47,960 --> 00:47:53,000
+com isso então acaba aqui eles adaptar
+
+1198
+00:47:50,750 --> 00:47:56,929
+tudo isso daí então o que eu vejo muitas
+
+1199
+00:47:53,000 --> 00:48:00,079
+vezes o estudante ele não Conhece essas
+
+1200
+00:47:56,929 --> 00:48:01,519
+questões não é o que seu corpo rap e o
+
+1201
+00:48:00,079 --> 00:48:03,049
+acredito que uma parceria maior que a
+
+1202
+00:48:01,519 --> 00:48:05,690
+indústria foi em cima de teste de
+
+1203
+00:48:03,050 --> 00:48:07,789
+software traz benefícios para ambos né
+
+1204
+00:48:05,690 --> 00:48:09,590
+ele pode colaborar com a formação de
+
+1205
+00:48:07,789 --> 00:48:11,690
+bons profissionais de teste de sol Então
+
+1206
+00:48:09,590 --> 00:48:14,660
+vamos à pergunta que dá nome é o podcast
+
+1207
+00:48:11,690 --> 00:48:16,789
+para você qual é a próxima fronteira da
+
+1208
+00:48:14,659 --> 00:48:19,369
+engenharia de software pode ser algo que
+
+1209
+00:48:16,789 --> 00:48:21,559
+você acha que vai acontecer Qual o que
+
+1210
+00:48:19,369 --> 00:48:24,259
+você gostaria que acontecesse em nossa
+
+1211
+00:48:21,559 --> 00:48:26,469
+área é uma pergunta então cada vez mais
+
+1212
+00:48:24,260 --> 00:48:29,390
+difícil de responder né porque tem tanto
+
+1213
+00:48:26,469 --> 00:48:31,219
+assunto tanto Episódio interessante está
+
+1214
+00:48:29,389 --> 00:48:34,159
+lá disponível mas assim eu fiquei
+
+1215
+00:48:31,219 --> 00:48:36,980
+pensando e eu acredito que o tema
+
+1216
+00:48:34,159 --> 00:48:39,239
+relevante a ser explorado é o
+
+1217
+00:48:36,980 --> 00:48:41,639
+software em Sistemas que a gente
+
+1218
+00:48:39,239 --> 00:48:43,679
+considera os contemporâneo ou sejam
+
+1219
+00:48:41,639 --> 00:48:46,440
+sistemas que e tem características como
+
+1220
+00:48:43,679 --> 00:48:49,980
+sensíveis ao contexto na internet das
+
+1221
+00:48:46,440 --> 00:48:52,289
+coisas sistemas cibernéticos Any
+
+1222
+00:48:49,980 --> 00:48:54,449
+sistemas e observe que tem novos
+
+1223
+00:48:52,289 --> 00:48:56,880
+desafios e vocês vão ser tratado em
+
+1224
+00:48:54,449 --> 00:48:58,980
+termos da engenharia de só então a gente
+
+1225
+00:48:56,880 --> 00:49:00,798
+precisa mapear para esses novos domínios
+
+1226
+00:48:58,980 --> 00:49:04,108
+por exemplo tipos de arquiteturas de
+
+1227
+00:49:00,798 --> 00:49:06,389
+sistemas tipo de comportamento e também
+
+1228
+00:49:04,108 --> 00:49:08,219
+novos tipos de defeitos em outras
+
+1229
+00:49:06,389 --> 00:49:12,389
+características então assim eu considero
+
+1230
+00:49:08,219 --> 00:49:14,699
+que a gente nós pesquisadores da área de
+
+1231
+00:49:12,389 --> 00:49:17,730
+hip-hop de precisamos estar atentos a
+
+1232
+00:49:14,699 --> 00:49:19,558
+esses temas e atentos em Como Nossos
+
+1233
+00:49:17,730 --> 00:49:21,659
+esforços na academia podem colaborar com
+
+1234
+00:49:19,559 --> 00:49:25,099
+a melhoria de qualidade do sistema deixa
+
+1235
+00:49:21,659 --> 00:49:27,690
+eu fazer uma pergunta que provavelmente
+
+1236
+00:49:25,099 --> 00:49:30,269
+vocês que vai saber responder eu mas eu
+
+1237
+00:49:27,690 --> 00:49:33,829
+acho aqui ninguém sabe a resposta hoje
+
+1238
+00:49:30,269 --> 00:49:36,130
+em dia né que é o teste de
+
+1239
+00:49:33,829 --> 00:49:39,039
+aprendizado de máquina né porque a Pri a
+
+1240
+00:49:36,130 --> 00:49:41,800
+estudar os dados né Já Era um modelo de
+
+1241
+00:49:39,039 --> 00:49:43,570
+aprendizado e Esperamos que esteja certo
+
+1242
+00:49:41,800 --> 00:49:46,330
+algoritmo né porque ninguém sabe da
+
+1243
+00:49:43,570 --> 00:49:47,940
+resposta tão como a gente pode testar
+
+1244
+00:49:46,329 --> 00:49:51,340
+isso legal
+
+1245
+00:49:47,940 --> 00:49:53,200
+para você ter perguntado isso nossa eu
+
+1246
+00:49:51,340 --> 00:49:56,320
+em conjunto com o professor de mamar
+
+1247
+00:49:53,199 --> 00:49:58,509
+aquele conhecer a gente começou o ano
+
+1248
+00:49:56,320 --> 00:49:59,920
+passado uma pesquisa nessa nessa direção
+
+1249
+00:49:58,510 --> 00:50:02,290
+né olhando como é que a gente pode
+
+1250
+00:49:59,920 --> 00:50:05,170
+aplicar e nascemos detesto de sócio eu
+
+1251
+00:50:02,289 --> 00:50:07,750
+tô contexto de uma aplicação Maxwell ele
+
+1252
+00:50:05,170 --> 00:50:09,940
+fato é diferente tem outros desafios
+
+1253
+00:50:07,750 --> 00:50:12,340
+ainda já tive exatamente isso que você
+
+1254
+00:50:09,940 --> 00:50:14,320
+comentou eu tenho problema é importante
+
+1255
+00:50:12,340 --> 00:50:15,910
+que a gente relata é o problema do
+
+1256
+00:50:14,320 --> 00:50:17,920
+Oráculo quando penso em teste de
+
+1257
+00:50:15,909 --> 00:50:20,859
+software eu acabei não comentando ao
+
+1258
+00:50:17,920 --> 00:50:23,110
+longo da explanação mas a gente precisa
+
+1259
+00:50:20,860 --> 00:50:25,420
+saber qual a resposta esperada porque
+
+1260
+00:50:23,110 --> 00:50:27,460
+veja se eu espero você é um ser resposta
+
+1261
+00:50:25,420 --> 00:50:30,940
+esperada qualquer resposta certa e aí no
+
+1262
+00:50:27,460 --> 00:50:34,420
+contexto o problema ele ele fica maior é
+
+1263
+00:50:30,940 --> 00:50:37,730
+porque uma coisa é um treinar e esperar
+
+1264
+00:50:34,420 --> 00:50:40,670
+um comportamento das aplicar e o outro é
+
+1265
+00:50:37,730 --> 00:50:42,619
+ela agora trabalhar com o uso de dados e
+
+1266
+00:50:40,670 --> 00:50:43,360
+ela tem um comportamento e se relaciona
+
+1267
+00:50:42,619 --> 00:50:46,789
+com o
+
+1268
+00:50:43,360 --> 00:50:48,200
+algoritmo que tá aprender então muitas
+
+1269
+00:50:46,789 --> 00:50:51,409
+vezes a gente não sabe o seu problema
+
+1270
+00:50:48,199 --> 00:50:54,529
+está na aplicação propriamente dita ou
+
+1271
+00:50:51,409 --> 00:50:56,929
+os dados ou no treinamento feio então
+
+1272
+00:50:54,530 --> 00:51:00,590
+que nós temos feito a gente tempo tá
+
+1273
+00:50:56,929 --> 00:51:03,949
+tentando olhar a aplicação então modelar
+
+1274
+00:51:00,590 --> 00:51:05,960
+ela através de modelos Como por exemplo
+
+1275
+00:51:03,949 --> 00:51:08,960
+o trabalho que nós estamos investigando
+
+1276
+00:51:05,960 --> 00:51:12,409
+o que a gente até teve um trabalho agora
+
+1277
+00:51:08,960 --> 00:51:16,610
+no sistema é no site né no simpósio de
+
+1278
+00:51:12,409 --> 00:51:20,409
+esporte ano foi olhar árvores de decisão
+
+1279
+00:51:16,610 --> 00:51:24,200
+que representam então o funcionamento do
+
+1280
+00:51:20,409 --> 00:51:26,299
+programa de imaginar E aí então a gente
+
+1281
+00:51:24,199 --> 00:51:28,159
+percorrer isso que a gente tirar os pés
+
+1282
+00:51:26,300 --> 00:51:30,710
+e apagar você está se comportando
+
+1283
+00:51:28,159 --> 00:51:33,109
+comprar umas piaba tem muita coisa para
+
+1284
+00:51:30,710 --> 00:51:34,460
+ser feita ainda a gente tá pensando tá
+
+1285
+00:51:33,110 --> 00:51:38,309
+ficando pensando em aplicar também
+
+1286
+00:51:34,460 --> 00:51:40,380
+mutação em cima this é mas ainda a gente
+
+1287
+00:51:38,309 --> 00:51:42,510
+enfrenta o problema do Oráculo né então
+
+1288
+00:51:40,380 --> 00:51:44,130
+a gente tem que olhar o que o que nós
+
+1289
+00:51:42,510 --> 00:51:48,119
+queremos considerar para essas
+
+1290
+00:51:44,130 --> 00:51:49,980
+aplicações né É temos um possível
+
+1291
+00:51:48,119 --> 00:51:51,720
+cenário desesperado porque a gente possa
+
+1292
+00:51:49,980 --> 00:51:53,849
+se concentrar e ter uma contribuição de
+
+1293
+00:51:51,719 --> 00:51:56,608
+peça de som mas eu tenho que amar é bem
+
+1294
+00:51:53,849 --> 00:51:58,920
+desafiadora sem dúvida então Simone
+
+1295
+00:51:56,608 --> 00:52:00,900
+Muito obrigado foi um prazer conversar
+
+1296
+00:51:58,920 --> 00:52:03,028
+com você eu passo a palavra para você
+
+1297
+00:52:00,900 --> 00:52:06,210
+para você se despedir dos nossos nossos
+
+1298
+00:52:03,028 --> 00:52:09,179
+ouvidos porque Adolfo english demais
+
+1299
+00:52:06,210 --> 00:52:11,338
+equipe e Eu que agradeço o convite por
+
+1300
+00:52:09,179 --> 00:52:13,739
+ele tá participando aqui Contando um
+
+1301
+00:52:11,338 --> 00:52:16,500
+pouco da Minha experiência é Espero que
+
+1302
+00:52:13,739 --> 00:52:18,989
+seja útil para profissionais e
+
+1303
+00:52:16,500 --> 00:52:21,630
+pesquisadores né o material que você que
+
+1304
+00:52:18,989 --> 00:52:24,629
+a gente preparou hoje eu quero
+
+1305
+00:52:21,630 --> 00:52:26,430
+parabenizar a iniciativa como eu falei
+
+1306
+00:52:24,630 --> 00:52:29,460
+eu tenho acompanhado os episódios eu
+
+1307
+00:52:26,429 --> 00:52:32,159
+acho que ele tá muito rico né eu tenho a
+
+1308
+00:52:29,460 --> 00:52:34,079
+luz de pós que acompanham e até
+
+1309
+00:52:32,159 --> 00:52:37,149
+comentaram comigo acho que variação peço
+
+1310
+00:52:34,079 --> 00:52:39,700
+para vocês e postou um animal com a
+
+1311
+00:52:37,150 --> 00:52:41,889
+minha pesquisa eu vou lá e assisto o
+
+1312
+00:52:39,699 --> 00:52:43,929
+episódio né E aí isso me dá uma
+
+1313
+00:52:41,889 --> 00:52:45,940
+motivação Então eu acho que ele tá com
+
+1314
+00:52:43,929 --> 00:52:48,929
+problema de várias maneiras a esse
+
+1315
+00:52:45,940 --> 00:52:52,360
+material então eu quero parabenizar
+
+1316
+00:52:48,929 --> 00:52:54,129
+vocês e que continuem Ótica muita coisa
+
+1317
+00:52:52,360 --> 00:52:55,809
+para explorar ainda nem que eles mostram
+
+1318
+00:52:54,130 --> 00:53:00,250
+tá muito rica tem muitos profissionais
+
+1319
+00:52:55,809 --> 00:53:02,769
+bons no país E aí me despedir de vocês
+
+1320
+00:53:00,250 --> 00:53:05,230
+Espera aí acompanhar os próximos bons
+
+1321
+00:53:02,769 --> 00:53:07,900
+Episódios que vão surgir bom até mais
+
+1322
+00:53:05,230 --> 00:53:09,369
+pressão muito obrigado então Simone por
+
+1323
+00:53:07,900 --> 00:53:11,320
+todas as contribuições e
+
+1324
+00:53:09,369 --> 00:53:13,509
+compartilhamento de experiências na
+
+1325
+00:53:11,320 --> 00:53:15,930
+espero que depois de eu vi esse episódio
+
+1326
+00:53:13,510 --> 00:53:18,730
+né todos nós ouvintes
+
+1327
+00:53:15,929 --> 00:53:21,099
+produção software de maior qualidade e
+
+1328
+00:53:18,730 --> 00:53:23,860
+com isso a gente fecha o o episódio
+
+1329
+00:53:21,099 --> 00:53:28,440
+Então desse mês e a gente aguarda todos
+
+1330
+00:53:23,860 --> 00:53:28,440
+vocês é no nosso próximo episódio

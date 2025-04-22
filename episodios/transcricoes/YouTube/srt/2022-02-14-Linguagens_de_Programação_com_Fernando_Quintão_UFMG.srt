@@ -1,0 +1,7071 @@
+1
+00:00:00,000 --> 00:00:02,000
+e
+
+2
+00:00:04,370 --> 00:00:09,960
+isso é o podcast Fronteiras da
+
+3
+00:00:07,440 --> 00:00:12,300
+engenharia de software o podcast para
+
+4
+00:00:09,960 --> 00:00:14,730
+refletir sobre o presente e o futuro da
+
+5
+00:00:12,300 --> 00:00:17,278
+nossa área este podcast tem o apoio da
+
+6
+00:00:14,730 --> 00:00:19,939
+Azul innovation empresa que cria
+
+7
+00:00:17,278 --> 00:00:23,140
+tecnologia impulsiona o crescimento
+
+8
+00:00:19,939 --> 00:00:24,789
+exponencial do
+
+9
+00:00:23,140 --> 00:00:25,829
+[Música]
+
+10
+00:00:24,789 --> 00:00:28,359
+e
+
+11
+00:00:25,829 --> 00:00:30,789
+hoje na Fronteiras da engenharia de
+
+12
+00:00:28,359 --> 00:00:33,160
+software vamos conversar com Fernando
+
+13
+00:00:30,789 --> 00:00:36,698
+Quintão professor da Universidade
+
+14
+00:00:33,159 --> 00:00:38,859
+Federal de Minas Gerais UFMG o tema do
+
+15
+00:00:36,698 --> 00:00:41,738
+episódio de hoje será linguagens de
+
+16
+00:00:38,859 --> 00:00:43,000
+programação Tudo bem Fernando você pode
+
+17
+00:00:41,738 --> 00:00:46,390
+se apresentar para as pessoas que nos
+
+18
+00:00:43,000 --> 00:00:48,128
+escutam Oi Adolfo Ingrid Obrigado pelo
+
+19
+00:00:46,390 --> 00:00:51,189
+convite um prazer estar aqui com vocês
+
+20
+00:00:48,128 --> 00:00:52,539
+pois então eu me sinto Fernando eu eu
+
+21
+00:00:51,189 --> 00:00:54,789
+vivo em Belo Horizonte em Minas Gerais
+
+22
+00:00:52,539 --> 00:00:56,738
+Eu sou professor no departamento de
+
+23
+00:00:54,789 --> 00:01:01,149
+ciência da computação da Universidade
+
+24
+00:00:56,738 --> 00:01:05,018
+Federal de Minas Gerais desde de 2009 Eu
+
+25
+00:01:01,149 --> 00:01:07,359
+terminei o doutorado no em dezembro 2008
+
+26
+00:01:05,019 --> 00:01:08,740
+em janeiro de 2009 eu vou ter Brasil fez
+
+27
+00:01:07,359 --> 00:01:11,500
+doutorado na Universidade da Califórnia
+
+28
+00:01:08,739 --> 00:01:14,289
+em Los Angeles meu orientador é na época
+
+29
+00:01:11,500 --> 00:01:17,290
+não havia resposta então Desde aquela
+
+30
+00:01:14,290 --> 00:01:19,750
+época eu tô na UFMG onde eu ensino
+
+31
+00:01:17,290 --> 00:01:22,840
+linguagem de programação eu faço
+
+32
+00:01:19,750 --> 00:01:24,799
+pesquisa com compiladores Então hoje a
+
+33
+00:01:22,840 --> 00:01:28,280
+gente tem o laboratório de compilador c
+
+34
+00:01:24,799 --> 00:01:30,019
+e eu acho eu dou acordar na com e
+
+35
+00:01:28,280 --> 00:01:32,780
+horinha faz alunos de mestrado e
+
+36
+00:01:30,019 --> 00:01:34,969
+doutorado EA gente realiza projetos
+
+37
+00:01:32,780 --> 00:01:36,920
+também com algumas empresas envolvem
+
+38
+00:01:34,969 --> 00:01:39,049
+teoria de compilação em qualquer na
+
+39
+00:01:36,920 --> 00:01:42,740
+prática da construção de compiladores e
+
+40
+00:01:39,049 --> 00:01:45,769
+é bem isso nossa Fernanda é um prazer
+
+41
+00:01:42,739 --> 00:01:49,129
+ter que ter aqui no nosso podcast né E
+
+42
+00:01:45,769 --> 00:01:51,890
+que foca em engenharia de software e
+
+43
+00:01:49,129 --> 00:01:55,069
+quando a gente fala nisso né com relação
+
+44
+00:01:51,890 --> 00:01:58,129
+a implementação a linguagem ou as
+
+45
+00:01:55,069 --> 00:01:59,719
+linguagens de programação escolhida para
+
+46
+00:01:58,129 --> 00:02:02,659
+o projeto de software tem uma
+
+47
+00:01:59,719 --> 00:02:04,879
+importância muito grande eu poderia dar
+
+48
+00:02:02,659 --> 00:02:06,619
+uma visão Geral do Panorama que a gente
+
+49
+00:02:04,879 --> 00:02:08,409
+tem hoje em dia de paradigmas de
+
+50
+00:02:06,620 --> 00:02:11,870
+linguagens de programação
+
+51
+00:02:08,409 --> 00:02:15,229
+a gente tem em Teoria em princípio né
+
+52
+00:02:11,870 --> 00:02:17,480
+vários paradigmas de programação algumas
+
+53
+00:02:15,229 --> 00:02:19,849
+formas de organizar softer Então a gente
+
+54
+00:02:17,479 --> 00:02:21,469
+tem o parar de enganar objetos que já é
+
+55
+00:02:19,849 --> 00:02:23,509
+antigo por outro lado é ainda é muito
+
+56
+00:02:21,469 --> 00:02:24,780
+popular a gente tem o paradigma de
+
+57
+00:02:23,509 --> 00:02:27,599
+programação funcional
+
+58
+00:02:24,780 --> 00:02:29,640
+eu chego nessa surgiu com isso nos anos
+
+59
+00:02:27,599 --> 00:02:32,129
+60 Mas até hoje tem alguma popularidade
+
+60
+00:02:29,639 --> 00:02:33,899
+vem crescendo Cruze a gente tem o
+
+61
+00:02:32,129 --> 00:02:35,969
+paradigma para segurar o que é
+
+62
+00:02:33,900 --> 00:02:37,800
+normalmente a forma como os alunos de
+
+63
+00:02:35,969 --> 00:02:40,229
+ciência da computação e sistemas de
+
+64
+00:02:37,800 --> 00:02:44,160
+informação são alfabetizados em em
+
+65
+00:02:40,229 --> 00:02:46,889
+programação que é algo que também já é
+
+66
+00:02:44,159 --> 00:02:49,650
+assim uma técnica de programação muito
+
+67
+00:02:46,889 --> 00:02:51,539
+antiga né já vinha de forte olhar 250
+
+68
+00:02:49,650 --> 00:02:54,539
+mas que cresceu muito com linguagens
+
+69
+00:02:51,539 --> 00:02:56,189
+como o rei da seresta Pascal a gente tem
+
+70
+00:02:54,539 --> 00:02:58,229
+alguns paradigmas que eu chamar ela de
+
+71
+00:02:56,189 --> 00:03:00,539
+novo exatamente esotéricos né mas é
+
+72
+00:02:58,229 --> 00:03:01,979
+muito pouco usados principalmente na
+
+73
+00:03:00,539 --> 00:03:03,929
+indústria né que seria por causa
+
+74
+00:03:01,979 --> 00:03:06,780
+paradigma lógico onde a gente tem é
+
+75
+00:03:03,930 --> 00:03:09,300
+prólogo que come o representante mas
+
+76
+00:03:06,780 --> 00:03:10,979
+embora existam outras linguagens né no
+
+77
+00:03:09,300 --> 00:03:14,160
+mundo de quantidades como deitar logo
+
+78
+00:03:10,979 --> 00:03:16,560
+por exemplo então é esse a gente tem uma
+
+79
+00:03:14,159 --> 00:03:18,750
+riqueza muito grande né em linguagens de
+
+80
+00:03:16,560 --> 00:03:20,909
+programação agora é enterro de
+
+81
+00:03:18,750 --> 00:03:22,769
+desenvolvimento de software é esse
+
+82
+00:03:20,909 --> 00:03:24,419
+paradigma imperativo né que segue modelo
+
+83
+00:03:22,769 --> 00:03:26,610
+da máquina de turing onde a gente tem
+
+84
+00:03:24,419 --> 00:03:29,768
+está e hoje a gente tem contabilidade
+
+85
+00:03:26,610 --> 00:03:32,019
+ele é ideia dominante né assim vai as
+
+86
+00:03:29,769 --> 00:03:34,890
+mais populares elas de fato vão seguir
+
+87
+00:03:32,019 --> 00:03:38,019
+esse modelo e não conseguir só
+
+88
+00:03:34,889 --> 00:03:40,688
+organizacional a gente ainda tem a
+
+89
+00:03:38,019 --> 00:03:42,700
+orientação a objetos não é muito forte
+
+90
+00:03:40,688 --> 00:03:45,549
+muito popular principalmente no mercado
+
+91
+00:03:42,699 --> 00:03:47,738
+brasileiro Então a gente tem linguagens
+
+92
+00:03:45,549 --> 00:03:50,260
+como Java por exemplo que é uma
+
+93
+00:03:47,739 --> 00:03:52,569
+linguagem de programação muito popular
+
+94
+00:03:50,259 --> 00:03:54,968
+no mundo mas extremamente popular em
+
+95
+00:03:52,568 --> 00:03:56,560
+software houses no Brasil mas a gente se
+
+96
+00:03:54,968 --> 00:03:58,239
+linguagens multiparadigmas que vem se
+
+97
+00:03:56,560 --> 00:04:00,729
+tornando cada vez mais populares eu acho
+
+98
+00:03:58,239 --> 00:04:03,430
+que talvez a grande Vedete nessa linha
+
+99
+00:04:00,729 --> 00:04:06,668
+seja pai então eu antes da entrevista
+
+100
+00:04:03,430 --> 00:04:09,189
+aqui até dar uma olhada hoje esse
+
+101
+00:04:06,669 --> 00:04:10,680
+rolamento 2021 já com vários Spice
+
+102
+00:04:09,188 --> 00:04:13,810
+acetona linguagem mais popular
+
+103
+00:04:10,680 --> 00:04:15,579
+entre os programadores Então é por
+
+104
+00:04:13,810 --> 00:04:18,519
+exemplo em termos de busca no Google e
+
+105
+00:04:15,579 --> 00:04:20,049
+termos de número de tutoriais é é uma
+
+106
+00:04:18,519 --> 00:04:22,120
+linguagem de programação extremamente
+
+107
+00:04:20,048 --> 00:04:24,339
+Popular muitas pessoas vão usá-la como
+
+108
+00:04:22,120 --> 00:04:26,959
+linguagem orientada a objeto mas muitas
+
+109
+00:04:24,339 --> 00:04:28,158
+pessoas é uma linguagem funcional por
+
+110
+00:04:26,959 --> 00:04:29,538
+exemplo aqui na UFMG a gente tem um
+
+111
+00:04:28,158 --> 00:04:31,459
+curso de extensão que é programação
+
+112
+00:04:29,538 --> 00:04:34,009
+funcional em paz ela gente ensina na
+
+113
+00:04:31,459 --> 00:04:36,318
+essa forma de pensar nessa forma essa
+
+114
+00:04:34,009 --> 00:04:38,780
+metodologia de pensar no programa de
+
+115
+00:04:36,319 --> 00:04:41,629
+maneira funcional sendo o programa em
+
+116
+00:04:38,779 --> 00:04:44,269
+transformado os dados né É em paz então
+
+117
+00:04:41,629 --> 00:04:46,699
+a ciência de dados né eu crescimento
+
+118
+00:04:44,269 --> 00:04:48,348
+ciência de data de evento dessa dessa
+
+119
+00:04:46,699 --> 00:04:50,120
+dessas técnicas de mineração de das
+
+120
+00:04:48,348 --> 00:04:52,219
+tornaram o planeta uma linguagem de
+
+121
+00:04:50,120 --> 00:04:53,810
+cinema desculpa lá e não é exatamente
+
+122
+00:04:52,220 --> 00:04:56,120
+Claro qual o paradigma de programação
+
+123
+00:04:53,810 --> 00:04:57,889
+que ela ao colo saber qual nasceram
+
+124
+00:04:56,120 --> 00:04:59,840
+linguagem multi paradigma tão inscritos
+
+125
+00:04:57,889 --> 00:05:01,668
+paz após análise de dados não serão
+
+126
+00:04:59,839 --> 00:05:03,439
+necessariamente orientada a objetos
+
+127
+00:05:01,668 --> 00:05:05,329
+sentido de que eles não essas
+
+128
+00:05:03,439 --> 00:05:08,120
+programadores Não se preocupa com padrão
+
+129
+00:05:05,329 --> 00:05:10,189
+hoje projeto ou com princípios consolas
+
+130
+00:05:08,120 --> 00:05:13,490
+por exemplo Eles escrevem ou
+
+131
+00:05:10,189 --> 00:05:16,129
+transformava de dados um deitar grande é
+
+132
+00:05:13,490 --> 00:05:17,840
+isso que que eu escravos eram ela falou
+
+133
+00:05:16,129 --> 00:05:19,490
+que tinha de transformar dados de se
+
+134
+00:05:17,839 --> 00:05:22,218
+escreve pequenos transformadores de
+
+135
+00:05:19,490 --> 00:05:24,780
+idade Então acho que é isso Mais ou
+
+136
+00:05:22,218 --> 00:05:27,149
+menos né é interessante eu
+
+137
+00:05:24,779 --> 00:05:29,250
+Olá eu sou grande fã da comunidade
+
+138
+00:05:27,149 --> 00:05:31,979
+Brasileira de paz o velho só camisa do
+
+139
+00:05:29,250 --> 00:05:33,750
+evento super exclusivos já entrevistei
+
+140
+00:05:31,980 --> 00:05:35,850
+algumas mulheres da comunidade Lá na
+
+141
+00:05:33,750 --> 00:05:38,879
+milhas podcast Inclusive eu acho que
+
+142
+00:05:35,850 --> 00:05:41,910
+agora a Presidenta da organização do
+
+143
+00:05:38,879 --> 00:05:44,040
+Brasileira de Paiva PIB né Associação
+
+144
+00:05:41,910 --> 00:05:47,250
+pai tão Brasil é uma mulher pela
+
+145
+00:05:44,040 --> 00:05:49,580
+primeira vez e eu particulamente tenho
+
+146
+00:05:47,250 --> 00:05:53,129
+trabalhado bastante com elixir mas
+
+147
+00:05:49,579 --> 00:05:56,490
+ensinando né vídeos no podcast a lixeira
+
+148
+00:05:53,129 --> 00:05:57,870
+em Foco participando da comunidade ele
+
+149
+00:05:56,490 --> 00:05:59,730
+tinha costurado uma linguagem funcional
+
+150
+00:05:57,870 --> 00:06:01,949
+apesar de não ser linguagem puramente
+
+151
+00:05:59,730 --> 00:06:04,169
+funcional mas é funcional funciona o
+
+152
+00:06:01,949 --> 00:06:06,329
+concorrente né porque tem a Binho por
+
+153
+00:06:04,168 --> 00:06:08,490
+trás a máquina costal 2 lanças e a gente
+
+154
+00:06:06,329 --> 00:06:10,259
+fica curioso quem faz parte da
+
+155
+00:06:08,490 --> 00:06:13,139
+comunidade quem conhece as linguagens
+
+156
+00:06:10,259 --> 00:06:15,870
+funcionais e eu acho que até talvez até
+
+157
+00:06:13,139 --> 00:06:20,490
+para outras linguagens Como faz que é o
+
+158
+00:06:15,870 --> 00:06:23,220
+anel lisp Ok meu o pessoal adora assim a
+
+159
+00:06:20,490 --> 00:06:25,629
+linguagem e fica por quê que elas são
+
+160
+00:06:23,220 --> 00:06:28,030
+são tão populares e dos e como as
+
+161
+00:06:25,629 --> 00:06:30,790
+linguagens loretta orientadas a objetos
+
+162
+00:06:28,029 --> 00:06:31,689
+com Java Java script Python que você
+
+163
+00:06:30,790 --> 00:06:34,689
+acabou de falar que é meio
+
+164
+00:06:31,689 --> 00:06:37,180
+multiparadigma né Existe alguma razão
+
+165
+00:06:34,689 --> 00:06:39,850
+que você com sua experiência consegue
+
+166
+00:06:37,180 --> 00:06:42,250
+ver para essas outras serem mais
+
+167
+00:06:39,850 --> 00:06:43,810
+populares que fatores devem ser levados
+
+168
+00:06:42,250 --> 00:06:45,600
+em consideração para escolher um
+
+169
+00:06:43,810 --> 00:06:49,180
+Paradigma e uma linguagem de programação
+
+170
+00:06:45,600 --> 00:06:52,270
+é essa é uma questão curiosa né Se a
+
+171
+00:06:49,180 --> 00:06:54,189
+gente for analisar uma linguagem assim
+
+172
+00:06:52,269 --> 00:06:55,990
+que alguém chamaram de um negócio assim
+
+173
+00:06:54,189 --> 00:06:57,610
+estritamente funcional negócio mais
+
+174
+00:06:55,990 --> 00:07:00,430
+funcional com g natural programar de
+
+175
+00:06:57,610 --> 00:07:06,879
+forma funcional por exemplo o resto que
+
+176
+00:07:00,430 --> 00:07:08,980
+o Essa Não Quem a mesmo OLX é ruim elas
+
+177
+00:07:06,879 --> 00:07:11,709
+não tem comunidades pequenos comparados
+
+178
+00:07:08,980 --> 00:07:14,200
+com essas outras linguagens são os bebês
+
+179
+00:07:11,709 --> 00:07:17,199
+mortos da das linguagens de programação
+
+180
+00:07:14,199 --> 00:07:19,300
+né então já vai ter uma comunidade de
+
+181
+00:07:17,199 --> 00:07:22,329
+milhões de usuários para Então vai ter
+
+182
+00:07:19,300 --> 00:07:24,280
+uma comunidade longe usuários E essas
+
+183
+00:07:22,329 --> 00:07:27,560
+outras linguagens assim quando muito
+
+184
+00:07:24,279 --> 00:07:31,068
+pelas motel em 3D de usuários né por
+
+185
+00:07:27,560 --> 00:07:34,009
+outro lado é uma coisa curiosa quando a
+
+186
+00:07:31,069 --> 00:07:35,419
+gente olha um programa igual falei antes
+
+187
+00:07:34,009 --> 00:07:38,150
+não é a gente pegar um programa de um
+
+188
+00:07:35,418 --> 00:07:40,788
+cientista de dados ele vai carregar um
+
+189
+00:07:38,149 --> 00:07:42,589
+arquivo csv erro arquivo e a Mel ele vai
+
+190
+00:07:40,788 --> 00:07:44,628
+processar aquilo de alguma forma aí
+
+191
+00:07:42,589 --> 00:07:47,568
+filtrar os dados que ele quer ele vai
+
+192
+00:07:44,629 --> 00:07:49,819
+mapear alguns dados em outro tipo de
+
+193
+00:07:47,569 --> 00:07:52,310
+informação é possível criar como de
+
+194
+00:07:49,819 --> 00:07:54,500
+alguma informação ali some passou a
+
+195
+00:07:52,310 --> 00:07:58,399
+média enfim eu não vou escrever uma
+
+196
+00:07:54,500 --> 00:08:01,009
+classe para para fazer isso é muito
+
+197
+00:07:58,399 --> 00:08:03,468
+Possivelmente ele assim jamais pensarem
+
+198
+00:08:01,009 --> 00:08:05,419
+de qualquer forma usar técnicas mais
+
+199
+00:08:03,468 --> 00:08:07,490
+complicadas programação o como herança
+
+200
+00:08:05,418 --> 00:08:09,168
+por exemplo para analisar esses dados a
+
+201
+00:08:07,490 --> 00:08:12,949
+gente vai ver um programa funcional ali
+
+202
+00:08:09,168 --> 00:08:15,439
+então é mesmo por exemplo a gente vai
+
+203
+00:08:12,949 --> 00:08:18,560
+ler JavaScript a gente pega um programa
+
+204
+00:08:15,439 --> 00:08:20,930
+que faz algum tipo de processamento em
+
+205
+00:08:18,560 --> 00:08:22,490
+Pense também aqueles varão entra por
+
+206
+00:08:20,930 --> 00:08:25,769
+exemplo também é a mesma coisa a gente
+
+207
+00:08:22,490 --> 00:08:29,129
+vê é muitos essas Kombi o mapa de
+
+208
+00:08:25,769 --> 00:08:31,649
+filtros de aglutina Dores então é
+
+209
+00:08:29,129 --> 00:08:33,658
+exatamente um programa é orientado já
+
+210
+00:08:31,649 --> 00:08:34,918
+5:00 a gente possa programação orientada
+
+211
+00:08:33,658 --> 00:08:38,668
+a objetos enviados por isso parece
+
+212
+00:08:34,918 --> 00:08:41,279
+recortar escrito Então é eu acho que é
+
+213
+00:08:38,668 --> 00:08:43,500
+de fato a as imagens mais populares elas
+
+214
+00:08:41,279 --> 00:08:44,789
+não seriam funcionais assim me deixa a
+
+215
+00:08:43,500 --> 00:08:47,100
+Maria já vai ter uma linguagem funcional
+
+216
+00:08:44,789 --> 00:08:49,620
+ou já vi escrito não embaixo funcional
+
+217
+00:08:47,100 --> 00:08:51,000
+mas o pai de baixo Nacional mas a
+
+218
+00:08:49,620 --> 00:08:53,700
+programação funciona pelo menos as
+
+219
+00:08:51,000 --> 00:08:56,399
+técnicas de programação funcional elas
+
+220
+00:08:53,700 --> 00:08:59,580
+elas existem ali e mesmo linguagens que
+
+221
+00:08:56,399 --> 00:09:01,860
+onde seria muito antinatural programar
+
+222
+00:08:59,580 --> 00:09:03,990
+de forma funcional por exemplo essas
+
+223
+00:09:01,860 --> 00:09:05,879
+iguais foram evoluindo e hoje elas
+
+224
+00:09:03,990 --> 00:09:07,820
+incorporam é características de
+
+225
+00:09:05,879 --> 00:09:10,620
+problemas funcionais por exemplo Java
+
+226
+00:09:07,820 --> 00:09:13,320
+eventualmente adotou este polimorfismo
+
+227
+00:09:10,620 --> 00:09:15,330
+paramétrico né a lista de é assim o tipo
+
+228
+00:09:13,320 --> 00:09:18,240
+genérico que é uma característica que
+
+229
+00:09:15,330 --> 00:09:20,910
+vende linguagens funcionais Né desde ml
+
+230
+00:09:18,240 --> 00:09:23,730
+tava presente resque ou então já acabou
+
+231
+00:09:20,909 --> 00:09:26,909
+do time sem nos anos 90 eventualmente né
+
+232
+00:09:23,730 --> 00:09:30,009
+assim depois de o tipo de muito Java
+
+233
+00:09:26,909 --> 00:09:30,939
+adotou as funções lambda neocolours não
+
+234
+00:09:30,009 --> 00:09:34,299
+ser possível passar uma função
+
+235
+00:09:30,940 --> 00:09:36,220
+comparando já antes ela era horroroso né
+
+236
+00:09:34,299 --> 00:09:38,679
+para fazer para simular alguns padrões
+
+237
+00:09:36,220 --> 00:09:40,629
+simples em Java por exemplo passar um
+
+238
+00:09:38,679 --> 00:09:42,609
+algoritmo de ordenação genética né que é
+
+239
+00:09:40,629 --> 00:09:44,919
+rodeada pra cima para baixo a gente usar
+
+240
+00:09:42,610 --> 00:09:47,320
+esse padrão os projetos é templo as
+
+241
+00:09:44,919 --> 00:09:50,289
+metas 3D então assim eu teria que
+
+242
+00:09:47,320 --> 00:09:52,960
+estender classes classes anônimas eu
+
+243
+00:09:50,289 --> 00:09:54,519
+hoje Java tem essa noção de closures ela
+
+244
+00:09:52,960 --> 00:09:56,530
+a gente consegue fazer esses algoritmos
+
+245
+00:09:54,519 --> 00:09:58,210
+com lacunas né ela tem o esqueleto de um
+
+246
+00:09:56,529 --> 00:10:00,189
+algoritmo e eu preencher algumas lacunas
+
+247
+00:09:58,210 --> 00:10:02,650
+ali a operação de comparação por exemplo
+
+248
+00:10:00,190 --> 00:10:04,540
+com funções de alta ordem O que é um
+
+249
+00:10:02,649 --> 00:10:07,329
+padrão de programação extremamente
+
+250
+00:10:04,539 --> 00:10:09,219
+funcional então ainda que não seja
+
+251
+00:10:07,330 --> 00:10:12,370
+natural eu programar de forma funcional
+
+252
+00:10:09,220 --> 00:10:14,649
+em Java a programação funcional tá ali
+
+253
+00:10:12,370 --> 00:10:17,379
+vem aumentando assim os programas se
+
+254
+00:10:14,649 --> 00:10:19,419
+tornam mais funcionais com a adoção de
+
+255
+00:10:17,379 --> 00:10:21,490
+características que é presença em
+
+256
+00:10:19,419 --> 00:10:22,990
+linguagens de programação funcional o
+
+257
+00:10:21,490 --> 00:10:25,820
+outro exemplo super marca é pai tão
+
+258
+00:10:22,990 --> 00:10:28,070
+Paiva agora vai ter casamento eu faço...
+
+259
+00:10:25,820 --> 00:10:30,440
+Dessa já veio com um casamento de
+
+260
+00:10:28,070 --> 00:10:32,740
+padrões que é algo a seguir
+
+261
+00:10:30,440 --> 00:10:34,839
+provavelmente é o Instituto da
+
+262
+00:10:32,740 --> 00:10:37,430
+programação funcional
+
+263
+00:10:34,839 --> 00:10:40,040
+em bom programa orientado a objeto a
+
+264
+00:10:37,429 --> 00:10:42,828
+gente cápsula as partes internas do
+
+265
+00:10:40,039 --> 00:10:44,299
+dados né e usa polimorfismo tipo de
+
+266
+00:10:42,828 --> 00:10:45,889
+Paraty para fazer invocação que a gente
+
+267
+00:10:44,299 --> 00:10:47,539
+quer sobre aqueles dados aprovar o
+
+268
+00:10:45,889 --> 00:10:49,278
+programa funciona o abre aqui você deve
+
+269
+00:10:47,539 --> 00:10:51,159
+casar nos padrões a gente constrói o
+
+270
+00:10:49,278 --> 00:10:54,200
+tipo transpõe para o
+
+271
+00:10:51,159 --> 00:10:56,838
+código cliente né O que que eu o tipo
+
+272
+00:10:54,200 --> 00:10:58,519
+tem internamente Então se são maneiras
+
+273
+00:10:56,839 --> 00:11:01,190
+bem diferentes de de organizar o
+
+274
+00:10:58,519 --> 00:11:02,839
+software e agora vai ter isso então é
+
+275
+00:11:01,190 --> 00:11:04,490
+possível desconstruir uma classe
+
+276
+00:11:02,839 --> 00:11:06,920
+desconstruir uma lista de concessões
+
+277
+00:11:04,490 --> 00:11:08,289
+curiosidades expor as minúcias da
+
+278
+00:11:06,919 --> 00:11:11,149
+implementação daquelas habilidades
+
+279
+00:11:08,289 --> 00:11:12,349
+programador via casamentos padrões agora
+
+280
+00:11:11,149 --> 00:11:15,049
+porque ele vai as estritamente
+
+281
+00:11:12,350 --> 00:11:17,320
+funcionais no São é tão populares quanto
+
+282
+00:11:15,049 --> 00:11:19,609
+a alguns razões sem
+
+283
+00:11:17,320 --> 00:11:22,750
+principalmente razões históricas assim
+
+284
+00:11:19,610 --> 00:11:25,950
+tem que começa normalmente frente a
+
+285
+00:11:22,750 --> 00:11:28,289
+popular mais atentamente bom Então agora
+
+286
+00:11:25,950 --> 00:11:29,879
+temos problemas um programa estritamente
+
+287
+00:11:28,289 --> 00:11:31,679
+funcional Você programa puramente
+
+288
+00:11:29,879 --> 00:11:34,080
+funcional ele tende a ser menos
+
+289
+00:11:31,679 --> 00:11:36,149
+eficiente Imagina eu quero fazer uma
+
+290
+00:11:34,080 --> 00:11:38,610
+tabela hash se eu não vou conseguir usar
+
+291
+00:11:36,149 --> 00:11:40,049
+o arranjo você não consigo não tem muita
+
+292
+00:11:38,610 --> 00:11:41,519
+habilidade né então eu vou ter que fazer
+
+293
+00:11:40,049 --> 00:11:43,740
+aquilo que uma árvore e acaba tendo uma
+
+294
+00:11:41,519 --> 00:11:45,569
+componente logarítmico aqui tem problema
+
+295
+00:11:43,740 --> 00:11:48,419
+de decoração então de comprar um
+
+296
+00:11:45,570 --> 00:11:50,790
+programa funcional uma vez que essa
+
+297
+00:11:48,419 --> 00:11:53,009
+noção de estado não é tão forte no
+
+298
+00:11:50,789 --> 00:11:54,449
+programa funcional eu coloco um
+
+299
+00:11:53,009 --> 00:11:56,309
+break-point eu vou inspecionar o que
+
+300
+00:11:54,450 --> 00:11:58,410
+então é onde que eu coloco para o
+
+301
+00:11:56,309 --> 00:11:59,549
+expoente em Paulínia a ordem que as
+
+302
+00:11:58,409 --> 00:12:01,289
+coisas acontecem e já não é tão
+
+303
+00:11:59,549 --> 00:12:03,179
+importante né eu deveria não ser tão
+
+304
+00:12:01,289 --> 00:12:04,500
+importante Então como que eu faço para
+
+305
+00:12:03,179 --> 00:12:07,439
+depurar um programa desse O que que é
+
+306
+00:12:04,500 --> 00:12:09,750
+uma boa ati para esposo programador no
+
+307
+00:12:07,440 --> 00:12:11,640
+momento Snapchat da execução do programa
+
+308
+00:12:09,750 --> 00:12:13,649
+eu tenho que ser uma boa ferramenta para
+
+309
+00:12:11,639 --> 00:12:16,019
+isso programação também alguns gráficos
+
+310
+00:12:13,649 --> 00:12:18,029
+e os programas industriais dos seus
+
+311
+00:12:16,019 --> 00:12:20,069
+gráficos apresentam up de telefone vai
+
+312
+00:12:18,029 --> 00:12:23,220
+entrar e com usuário de alguma forma tem
+
+313
+00:12:20,070 --> 00:12:25,720
+um sistema de janelas ali isso tende a
+
+314
+00:12:23,220 --> 00:12:28,720
+envolver Estado então Como que escreve
+
+315
+00:12:25,720 --> 00:12:32,170
+tração entre os vários da do aplicativo
+
+316
+00:12:28,720 --> 00:12:34,210
+e o aplicativo então em programa
+
+317
+00:12:32,169 --> 00:12:36,189
+funcional já é mais difícil eu tenho que
+
+318
+00:12:34,210 --> 00:12:38,620
+é simular esse estado eu vou ter que
+
+319
+00:12:36,190 --> 00:12:40,180
+passar esse estado como parâmetro para
+
+320
+00:12:38,620 --> 00:12:42,310
+próxima função né que a Continuação
+
+321
+00:12:40,179 --> 00:12:45,069
+daquele daquele código então isso acaba
+
+322
+00:12:42,309 --> 00:12:47,979
+sendo não sempre eficiente de certa
+
+323
+00:12:45,070 --> 00:12:50,140
+forma não é tão natural é embora é claro
+
+324
+00:12:47,980 --> 00:12:53,019
+que pudesse ser feito também se falou do
+
+325
+00:12:50,139 --> 00:12:55,240
+Elite assim é a gente tem servidores
+
+326
+00:12:53,019 --> 00:12:57,490
+Neve e sistemas de banco de dados é
+
+327
+00:12:55,240 --> 00:12:58,659
+implementado de forma funcional o senhor
+
+328
+00:12:57,490 --> 00:13:02,200
+recursivamente eu passo a quantidade
+
+329
+00:12:58,659 --> 00:13:04,990
+próxima função mas já não é algo assim
+
+330
+00:13:02,200 --> 00:13:07,750
+tão natural que seria no modelo mais
+
+331
+00:13:04,990 --> 00:13:10,899
+interativo de programação tá você tem
+
+332
+00:13:07,750 --> 00:13:13,629
+esses esses problemas nesses essas
+
+333
+00:13:10,899 --> 00:13:16,299
+deficiências é deficiência certa forma
+
+334
+00:13:13,629 --> 00:13:17,740
+que o programa funcionará quanto daria
+
+335
+00:13:16,299 --> 00:13:20,769
+para lidar como os sistemas que envolvem
+
+336
+00:13:17,740 --> 00:13:22,840
+estar de votação Onde está então deixa
+
+337
+00:13:20,769 --> 00:13:26,299
+fazer uma pergunta assim um pouco
+
+338
+00:13:22,840 --> 00:13:27,740
+polêmica por quê e quando a gente pensa
+
+339
+00:13:26,299 --> 00:13:30,169
+a linguagem de programação no meu
+
+340
+00:13:27,740 --> 00:13:32,330
+entendimento a gente tem que pensar nós
+
+341
+00:13:30,169 --> 00:13:35,269
+sabe expressões que vão reduzir a
+
+342
+00:13:32,330 --> 00:13:38,870
+probabilidade do programador introduzir
+
+343
+00:13:35,269 --> 00:13:42,649
+erros na e também facilitar evolução na
+
+344
+00:13:38,870 --> 00:13:46,429
+do sistema e até assim quando Java
+
+345
+00:13:42,649 --> 00:13:49,159
+surgiu né ouvi se tirou certas
+
+346
+00:13:46,429 --> 00:13:51,828
+propriedades do que ia vir em duas
+
+347
+00:13:49,159 --> 00:13:53,929
+plantas na justamente por causa desses
+
+348
+00:13:51,828 --> 00:13:56,870
+erros comuns por exemplo manipulação de
+
+349
+00:13:53,929 --> 00:13:58,489
+ponteiros herança múltipla né em Java
+
+350
+00:13:56,870 --> 00:14:00,850
+deliberadamente não existe a nossa
+
+351
+00:13:58,490 --> 00:14:03,528
+multiplica por causa dos problemas
+
+352
+00:14:00,850 --> 00:14:05,389
+da herança músculo e daí quando a gente
+
+353
+00:14:03,528 --> 00:14:10,070
+faz fala de linguagens multiparadigmas
+
+354
+00:14:05,389 --> 00:14:12,049
+né senha tu olha o código fica na
+
+355
+00:14:10,070 --> 00:14:13,550
+responsabilidade do programador usar
+
+356
+00:14:12,049 --> 00:14:15,828
+isso de uma maneira Consciente e
+
+357
+00:14:13,549 --> 00:14:18,559
+organizada eu tô fazendo por exemplo um
+
+358
+00:14:15,828 --> 00:14:21,259
+estudo com o projeto JavaScript tu ver
+
+359
+00:14:18,559 --> 00:14:23,119
+de tudo lindo é fácil de interface aí
+
+360
+00:14:21,259 --> 00:14:26,039
+uma hora tu ver função uma hora do ver
+
+361
+00:14:23,120 --> 00:14:29,970
+classe não existe da redação do código
+
+362
+00:14:26,039 --> 00:14:32,610
+então assim eu entendo o que pode ser
+
+363
+00:14:29,970 --> 00:14:34,529
+mais rápido para eu fazer agora a tarefa
+
+364
+00:14:32,610 --> 00:14:37,289
+que eu esteja precisando né eu vou lá às
+
+365
+00:14:34,529 --> 00:14:39,539
+vezes faz rápido com uma certa maneira
+
+366
+00:14:37,289 --> 00:14:43,349
+conseguindo certo paradinho mas isso aí
+
+367
+00:14:39,539 --> 00:14:45,329
+já era um spaghetti alla no código então
+
+368
+00:14:43,350 --> 00:14:47,909
+isso aí não pode ser uma coisa se não é
+
+369
+00:14:45,330 --> 00:14:50,820
+eu acho que é uma faca de dois gumes Mas
+
+370
+00:14:47,909 --> 00:14:53,100
+será que assim não isso não sem pode
+
+371
+00:14:50,820 --> 00:14:55,110
+gerar o senso de produtividade que a
+
+372
+00:14:53,100 --> 00:14:58,080
+longo prazo não se palha eu acho que a
+
+373
+00:14:55,110 --> 00:15:00,720
+pergunta é nesse número de linguagens de
+
+374
+00:14:58,080 --> 00:15:03,060
+programação a linguagem que oferece mais
+
+375
+00:15:00,720 --> 00:15:04,560
+esse oferecer mais uma ilusório né no
+
+376
+00:15:03,059 --> 00:15:07,259
+sentido que você pode ir aumentando a
+
+377
+00:15:04,559 --> 00:15:10,979
+complexidade do software onde é certa
+
+378
+00:15:07,259 --> 00:15:13,740
+forma é claro mas a gente eu gosto de
+
+379
+00:15:10,980 --> 00:15:15,409
+pensar em Natividade programação como
+
+380
+00:15:13,740 --> 00:15:18,360
+uma atividade ainda artesanal
+
+381
+00:15:15,409 --> 00:15:21,209
+extremamente artística no sentido de que
+
+382
+00:15:18,360 --> 00:15:23,399
+é possível pintar de diversas formas
+
+383
+00:15:21,210 --> 00:15:25,900
+diferentes né então a gente tem estilos
+
+384
+00:15:23,399 --> 00:15:27,579
+de pintura por exemplo e é possível
+
+385
+00:15:25,899 --> 00:15:29,379
+escrever um programa de diversas formas
+
+386
+00:15:27,580 --> 00:15:32,320
+diferentes também e algumas são
+
+387
+00:15:29,379 --> 00:15:32,970
+esteticamente muito bonitas né Por
+
+388
+00:15:32,320 --> 00:15:36,460
+exemplo
+
+389
+00:15:32,970 --> 00:15:38,620
+ontem a gente tava bom ensinou a
+
+390
+00:15:36,460 --> 00:15:41,170
+programação de cada objeto também então
+
+391
+00:15:38,620 --> 00:15:41,940
+a gente tava discutindo testes de
+
+392
+00:15:41,169 --> 00:15:44,709
+primalidade
+
+393
+00:15:41,940 --> 00:15:47,440
+Então é os meninos estavam tentando
+
+394
+00:15:44,710 --> 00:15:50,410
+reduzir o tamanho do programa em
+
+395
+00:15:47,440 --> 00:15:52,950
+caracteres ASCII mesmo então ele tava
+
+396
+00:15:50,409 --> 00:15:56,620
+escrevendo aí um
+
+397
+00:15:52,950 --> 00:15:58,030
+incrível net um crivo em baixo com 23 ou
+
+398
+00:15:56,620 --> 00:16:00,279
+24 mesmo assim eu vou conseguir de
+
+399
+00:15:58,029 --> 00:16:03,639
+estudar muito pequena dia que é que tem
+
+400
+00:16:00,279 --> 00:16:05,139
+ele tem pai é o programa da Letícia né
+
+401
+00:16:03,639 --> 00:16:07,269
+quem pode a de novo não está dando nunca
+
+402
+00:16:05,139 --> 00:16:10,419
+fica aquilo tá fazendo mas é mas existe
+
+403
+00:16:07,269 --> 00:16:12,340
+essa beleza artística nesse essa beleza
+
+404
+00:16:10,419 --> 00:16:14,439
+Criativa no desenvolvimento de programa
+
+405
+00:16:12,340 --> 00:16:17,070
+então eu isso programador eles são
+
+406
+00:16:14,440 --> 00:16:20,470
+criativos sim em Ciência da Computação
+
+407
+00:16:17,070 --> 00:16:22,600
+existem esses dois limites é que os
+
+408
+00:16:20,470 --> 00:16:24,800
+programadores eles têm que obedecer não
+
+409
+00:16:22,600 --> 00:16:27,409
+precisa se naturais né eu tô grávida e
+
+410
+00:16:24,799 --> 00:16:29,240
+no painel resolvido é tem então esses
+
+411
+00:16:27,409 --> 00:16:31,939
+limites para trás que impõe limite
+
+412
+00:16:29,240 --> 00:16:34,009
+complexidade limite decidibilidade a
+
+413
+00:16:31,940 --> 00:16:35,600
+gente tem do lado essas vezes atrás e
+
+414
+00:16:34,009 --> 00:16:37,250
+depois a gente não criatividade das
+
+415
+00:16:35,600 --> 00:16:39,560
+pessoas assim elas vão fazer qualquer
+
+416
+00:16:37,250 --> 00:16:42,828
+coisa que elas puderem fazer só porque
+
+417
+00:16:39,559 --> 00:16:44,869
+elas têm a liberdade de fazer aqui e
+
+418
+00:16:42,828 --> 00:16:48,019
+pode ter problemas de produtividade Sem
+
+419
+00:16:44,870 --> 00:16:50,480
+dúvida é uma linguagem eu acho que
+
+420
+00:16:48,019 --> 00:16:52,549
+conhecer você mais mais em Java você
+
+421
+00:16:50,480 --> 00:16:55,879
+mais mais hoje já falei mas muito grande
+
+422
+00:16:52,549 --> 00:16:57,289
+mas ainda no início dos anos 90 né
+
+423
+00:16:55,879 --> 00:17:00,289
+quando eu chegava Subtil era uma
+
+424
+00:16:57,289 --> 00:17:01,909
+linguagem muito menor então assim até
+
+425
+00:17:00,289 --> 00:17:03,769
+hoje já viu ainda tem um pouco desse
+
+426
+00:17:01,909 --> 00:17:05,750
+legado né assim não eu não consigo criar
+
+427
+00:17:03,769 --> 00:17:07,519
+uma função foge magoasse então assim é
+
+428
+00:17:05,750 --> 00:17:09,769
+uma decisão para diminuir o tamanho da
+
+429
+00:17:07,519 --> 00:17:11,209
+linguagem então sim toda a função ela
+
+430
+00:17:09,769 --> 00:17:13,549
+tem que ter sobrenome que é o nome
+
+431
+00:17:11,209 --> 00:17:15,620
+daquela classe não falou lá foi criado é
+
+432
+00:17:13,549 --> 00:17:17,299
+um pouco diferente você mais mais por
+
+433
+00:17:15,619 --> 00:17:20,359
+exemplo mano você é mais mais já vê como
+
+434
+00:17:17,299 --> 00:17:22,188
+esse super conjunto de ser ser mais raça
+
+435
+00:17:20,359 --> 00:17:25,459
+muito mais aberta do que já rápido assim
+
+436
+00:17:22,189 --> 00:17:28,019
+é possível escrever programas de forma e
+
+437
+00:17:25,460 --> 00:17:31,110
+embora hoje já foi mudou bastante então
+
+438
+00:17:28,019 --> 00:17:33,450
+é hoje Java está bem mais próximo de ser
+
+439
+00:17:31,109 --> 00:17:36,179
+mais mais ou não mande a conta modelo de
+
+440
+00:17:33,450 --> 00:17:38,670
+memória mas um programa Java já consegue
+
+441
+00:17:36,180 --> 00:17:39,990
+se parecer mais com um programa l por
+
+442
+00:17:38,670 --> 00:17:41,850
+exemplo não é assim você mais mais
+
+443
+00:17:39,990 --> 00:17:43,710
+mistérios do que quando eu já tá surgiu
+
+444
+00:17:41,849 --> 00:17:47,279
+não estava sem foi perdendo um pouco
+
+445
+00:17:43,710 --> 00:17:49,620
+dessa desse ligou é sentido e forçava
+
+446
+00:17:47,279 --> 00:17:51,720
+programas orientados a objetos e mas até
+
+447
+00:17:49,619 --> 00:17:54,089
+assim embora até hoje eu tenho legado
+
+448
+00:17:51,720 --> 00:17:56,039
+disso ele é um função tática entrava
+
+449
+00:17:54,089 --> 00:17:58,319
+ainda manter o povo Espero que voy o
+
+450
+00:17:56,039 --> 00:18:01,349
+nome da função o negócio muito nervosa
+
+451
+00:17:58,319 --> 00:18:04,189
+Mas enfim Java surgiu dessa forma mais
+
+452
+00:18:01,349 --> 00:18:06,419
+estrita e foi se abrindo foi
+
+453
+00:18:04,190 --> 00:18:09,840
+receber Eu falei o bicho paramétrico
+
+454
+00:18:06,420 --> 00:18:13,009
+recebeu classe liberação recebeu várias
+
+455
+00:18:09,839 --> 00:18:15,959
+bibliotecas de concorrência diferentes
+
+456
+00:18:13,009 --> 00:18:18,180
+funções lambida por exemplo que demorado
+
+457
+00:18:15,960 --> 00:18:19,980
+acharem ser mais mais também então eu
+
+458
+00:18:18,180 --> 00:18:23,789
+acho que a comunidade daquela linguagem
+
+459
+00:18:19,980 --> 00:18:26,079
+quando cresce ela acaba pedindo é por
+
+460
+00:18:23,789 --> 00:18:28,839
+extensões contexto é tão diferente assim
+
+461
+00:18:26,079 --> 00:18:30,849
+até hoje então é isso aconteceu com a
+
+462
+00:18:28,839 --> 00:18:32,349
+chave acontecer com JavaScript né Hoje é
+
+463
+00:18:30,849 --> 00:18:34,149
+possível escrever um problema com praças
+
+464
+00:18:32,349 --> 00:18:36,009
+Jardins públicos quando métrica diabos
+
+465
+00:18:34,150 --> 00:18:38,620
+que sempre foi o exemplo da linguagem
+
+466
+00:18:36,009 --> 00:18:40,779
+agendar o dia sem classe então e as
+
+467
+00:18:38,619 --> 00:18:43,779
+pessoas que assim acabaram demandando a
+
+468
+00:18:40,779 --> 00:18:45,250
+essa noção solicitação de classe para
+
+469
+00:18:43,779 --> 00:18:47,259
+organizar os problemas porque escolhemos
+
+470
+00:18:45,250 --> 00:18:49,119
+um crescendo também quando a comunidade
+
+471
+00:18:47,259 --> 00:18:50,920
+da linguagem cresce normalmente a
+
+472
+00:18:49,119 --> 00:18:52,449
+linguagem cresce se ela embaixo e não
+
+473
+00:18:50,920 --> 00:18:55,180
+cresce a comunidade não cresce mais e
+
+474
+00:18:52,450 --> 00:18:56,650
+fez volta eu acho que a gramática de
+
+475
+00:18:55,180 --> 00:18:59,380
+volta ao creme ajuda essa palavra chave
+
+476
+00:18:56,650 --> 00:19:01,750
+a linguagem super pequena então assim a
+
+477
+00:18:59,380 --> 00:19:04,120
+gente tem essa noção de dados e
+
+478
+00:19:01,750 --> 00:19:06,849
+mensagens e eu escrevo programas dessa
+
+479
+00:19:04,119 --> 00:19:09,039
+forma e tipos primitivos nas montanhas
+
+480
+00:19:06,849 --> 00:19:10,990
+mas antes motivos é mais assim o número
+
+481
+00:19:09,039 --> 00:19:12,579
+de operadores e todas as coisas dos
+
+482
+00:19:10,990 --> 00:19:15,609
+componentes cidades linguagem são
+
+483
+00:19:12,579 --> 00:19:17,619
+objetos são lo de muito pequeno de de
+
+484
+00:19:15,609 --> 00:19:19,539
+programação mas esmalte toque sempre
+
+485
+00:19:17,619 --> 00:19:21,399
+teve uma comunidade muito pequena quando
+
+486
+00:19:19,539 --> 00:19:24,609
+a linguagem surgiu sem assim a problemas
+
+487
+00:19:21,400 --> 00:19:26,840
+deficiência Eu também na a imagem que eu
+
+488
+00:19:24,609 --> 00:19:28,699
+fiz e quem é que fosse a linguagem
+
+489
+00:19:26,839 --> 00:19:30,889
+orientada a objeto para todos combinar e
+
+490
+00:19:28,700 --> 00:19:33,380
+isso nunca aconteceu você mais mais
+
+491
+00:19:30,890 --> 00:19:35,000
+chegou esse supriu um problema que você
+
+492
+00:19:33,380 --> 00:19:36,590
+tinha né que era falta de habitações
+
+493
+00:19:35,000 --> 00:19:38,269
+para desenvolver programa de pontos
+
+494
+00:19:36,589 --> 00:19:40,250
+grande carregando os outros usuários
+
+495
+00:19:38,269 --> 00:19:42,349
+maldoc você ninguém eventualmente para
+
+496
+00:19:40,250 --> 00:19:44,720
+chamar mesmo o toque mais porque havia
+
+497
+00:19:42,349 --> 00:19:46,759
+essa alternativa muito mais eficiente
+
+498
+00:19:44,720 --> 00:19:49,490
+muito mais prática com essa problemática
+
+499
+00:19:46,759 --> 00:19:52,369
+que era ser mais mais Então é assim
+
+500
+00:19:49,490 --> 00:19:54,349
+assim sem problemas de produtividade mas
+
+501
+00:19:52,369 --> 00:19:56,149
+como com crescimento da comunidade da
+
+502
+00:19:54,349 --> 00:19:59,209
+linguagem linguagem cresce ou ela morre
+
+503
+00:19:56,150 --> 00:20:01,370
+massa e ainda fazendo assim esse
+
+504
+00:19:59,210 --> 00:20:02,990
+Panorama do antes e depois né eu me
+
+505
+00:20:01,369 --> 00:20:05,959
+lembro lá quando eu tava na graduação
+
+506
+00:20:02,990 --> 00:20:07,970
+assim você realmente a gente tinha que
+
+507
+00:20:05,960 --> 00:20:10,640
+escolher Dois caminhos né hoje a gente
+
+508
+00:20:07,970 --> 00:20:12,799
+era desenvolvedor.net ou desenvolvedor
+
+509
+00:20:10,640 --> 00:20:14,690
+Java na nem precisava saber os dois
+
+510
+00:20:12,799 --> 00:20:17,329
+escolheu um e se especializavam naquilo
+
+511
+00:20:14,690 --> 00:20:20,360
+E aí você gente olha hoje em dia não
+
+512
+00:20:17,329 --> 00:20:22,009
+existe uma grande variedade tão primeiro
+
+513
+00:20:20,359 --> 00:20:24,799
+porque que existe essa cenário de
+
+514
+00:20:22,009 --> 00:20:28,170
+proliferação de linguagens e segunda é
+
+515
+00:20:24,799 --> 00:20:29,779
+realmente precisa tantas opções assim ou
+
+516
+00:20:28,170 --> 00:20:32,130
+isso traz algum benefício
+
+517
+00:20:29,779 --> 00:20:34,639
+então primeiro porque existem muitas e
+
+518
+00:20:32,130 --> 00:20:36,870
+muitas linguagens
+
+519
+00:20:34,640 --> 00:20:38,730
+quantas linguagens são muitas linguagens
+
+520
+00:20:36,869 --> 00:20:41,099
+né quando eu dou aula de linguagens de
+
+521
+00:20:38,730 --> 00:20:42,569
+programação assim o primeiro ouro na
+
+522
+00:20:41,099 --> 00:20:45,419
+primeira aula né a gente contas iguais
+
+523
+00:20:42,569 --> 00:20:47,250
+Valeu que pede a páginas linguagem sem
+
+524
+00:20:45,420 --> 00:20:48,750
+contar que quando uma 600 então assim
+
+525
+00:20:47,250 --> 00:20:51,089
+tem uma 600 linguagens de programação
+
+526
+00:20:48,750 --> 00:20:52,859
+com barragens na Wikipédia que não são
+
+527
+00:20:51,089 --> 00:20:54,720
+aqueles são distantes né assim artigos
+
+528
+00:20:52,859 --> 00:20:56,789
+que tem alguém escrever alguma coisa é
+
+529
+00:20:54,720 --> 00:20:58,470
+600 iguais programação muito linguagem
+
+530
+00:20:56,789 --> 00:21:00,899
+né ninguém nunca vai conseguir programar
+
+531
+00:20:58,470 --> 00:21:03,450
+ver todas elas por outro lado esse mundo
+
+532
+00:21:00,900 --> 00:21:05,160
+não é não é o mundo democrático não é
+
+533
+00:21:03,450 --> 00:21:06,840
+assim a gente com filtrar linguagem que
+
+534
+00:21:05,160 --> 00:21:09,740
+tem mais de mil usuários ali é
+
+535
+00:21:06,839 --> 00:21:12,869
+provavelmente a gente corta sei lá no
+
+536
+00:21:09,740 --> 00:21:14,849
+esquadro química da desse dessas
+
+537
+00:21:12,869 --> 00:21:18,209
+linguagens é ninguém programa aí para
+
+538
+00:21:14,849 --> 00:21:20,730
+mim* assim então assim normalmente a
+
+539
+00:21:18,210 --> 00:21:22,380
+gente não a gente não acabou encontrando
+
+540
+00:21:20,730 --> 00:21:24,789
+essas linguagens mas ele chega em torno
+
+541
+00:21:22,380 --> 00:21:26,530
+de a gente será que a gente vai ter cima
+
+542
+00:21:24,789 --> 00:21:29,099
+as imagens programação com mais de 1
+
+543
+00:21:26,529 --> 00:21:31,539
+milhão de usuários é provavelmente não é
+
+544
+00:21:29,099 --> 00:21:34,240
+linguagem com 10 milhões de usuários
+
+545
+00:21:31,539 --> 00:21:36,899
+sobre as ele acha umas seis sete
+
+546
+00:21:34,240 --> 00:21:40,000
+linguagens de programação hoje talvez
+
+547
+00:21:36,900 --> 00:21:41,310
+então eu mundo ainda é dividida né a
+
+548
+00:21:40,000 --> 00:21:44,430
+gente ainda tem
+
+549
+00:21:41,309 --> 00:21:47,079
+vb.net esse short nesse mundo da net da
+
+550
+00:21:44,430 --> 00:21:49,029
+Microsoft que a gente essa imagem se de
+
+551
+00:21:47,079 --> 00:21:50,559
+software aberto embora é claro nessa
+
+552
+00:21:49,029 --> 00:21:52,480
+interação ganhando cada vez mais
+
+553
+00:21:50,559 --> 00:21:55,029
+importância porque hoje a gente vive
+
+554
+00:21:52,480 --> 00:21:56,349
+nesse mundo em que uma BMW Brasília
+
+555
+00:21:55,029 --> 00:21:58,059
+consumir assim tão que é zero na
+
+556
+00:21:56,349 --> 00:22:00,039
+internet né se eu vou usar a sorte lá
+
+557
+00:21:58,059 --> 00:22:02,529
+dentro então é é muito difícil competir
+
+558
+00:22:00,039 --> 00:22:04,839
+com a comunidade só cidade é só será
+
+559
+00:22:02,529 --> 00:22:07,359
+aberto nesse sentido de preço agora
+
+560
+00:22:04,839 --> 00:22:09,480
+porque tem plantas iguais porque vocês
+
+561
+00:22:07,359 --> 00:22:11,889
+podem fazer né Assim táxi não é
+
+562
+00:22:09,480 --> 00:22:13,680
+patenteável é o seu ninguém pode existir
+
+563
+00:22:11,890 --> 00:22:15,730
+um copo argentino
+
+564
+00:22:13,680 --> 00:22:18,160
+do consciência aberto não consegue
+
+565
+00:22:15,730 --> 00:22:20,710
+fechado por exemplo né então e as
+
+566
+00:22:18,160 --> 00:22:23,140
+pessoas vão normalmente construir essas
+
+567
+00:22:20,710 --> 00:22:25,549
+linguagens de programação agora a gente
+
+568
+00:22:23,140 --> 00:22:28,100
+tem uns nichos então O que é uma
+
+569
+00:22:25,549 --> 00:22:30,379
+linguagem de programação que vai ser boa
+
+570
+00:22:28,099 --> 00:22:32,779
+em todos os nichos sem a gente temos
+
+571
+00:22:30,380 --> 00:22:35,390
+negócio é muito famosa por exemplo Java
+
+572
+00:22:32,779 --> 00:22:38,210
+é uma linguagem que assim tende a
+
+573
+00:22:35,390 --> 00:22:40,490
+brilharem em vários nichos diferentes
+
+574
+00:22:38,210 --> 00:22:42,559
+por outro lado a gente não vai encontrar
+
+575
+00:22:40,490 --> 00:22:44,809
+nenhum sistema operacional nenhum
+
+576
+00:22:42,559 --> 00:22:47,569
+navegador bem um desses videogame de
+
+577
+00:22:44,809 --> 00:22:49,159
+Alto desempenho que são feitas em Java
+
+578
+00:22:47,569 --> 00:22:51,349
+com que a gente está falando de
+
+579
+00:22:49,160 --> 00:22:53,029
+linguagem sistema não sei se é mais mais
+
+580
+00:22:51,349 --> 00:22:56,629
+agora de graça você não é também para
+
+581
+00:22:53,029 --> 00:22:59,029
+esse nicho da mochila mas você ainda é
+
+582
+00:22:56,630 --> 00:23:01,070
+igual a vila dos galpões laje Asterix né
+
+583
+00:22:59,029 --> 00:23:03,470
+assim eu só mando dominaram toda a
+
+584
+00:23:01,069 --> 00:23:06,169
+França e sobrou aquele que tá aquilo ali
+
+585
+00:23:03,470 --> 00:23:08,630
+que ainda não é essa é isso é mais mais
+
+586
+00:23:06,170 --> 00:23:09,850
+nesse mundo desses então uma então assim
+
+587
+00:23:08,630 --> 00:23:12,440
+a gente
+
+588
+00:23:09,849 --> 00:23:14,179
+naturalmente acabam surgindo alguns
+
+589
+00:23:12,440 --> 00:23:16,850
+nichos em que alguns linguagem você mas
+
+590
+00:23:14,180 --> 00:23:20,570
+é predominantes por exemplo movimento de
+
+591
+00:23:16,849 --> 00:23:22,159
+lábios até hoje PHP que não é uma em
+
+592
+00:23:20,569 --> 00:23:24,500
+termos de projetos em baixo programação
+
+593
+00:23:22,160 --> 00:23:28,019
+em várias oficinas Mas até hoje pega até
+
+594
+00:23:24,500 --> 00:23:29,849
+um ano É nesse nesse mundo de WhatsApp é
+
+595
+00:23:28,019 --> 00:23:31,500
+muito em parte por causa das bibliotecas
+
+596
+00:23:29,849 --> 00:23:33,359
+que surgiram também né assim as pessoas
+
+597
+00:23:31,500 --> 00:23:35,279
+não querem começar a escrever código do
+
+598
+00:23:33,359 --> 00:23:37,589
+zero é uma solução que o que já tem
+
+599
+00:23:35,279 --> 00:23:39,240
+pronta a gente tem esse mundo é sinistro
+
+600
+00:23:37,589 --> 00:23:41,129
+de ciência dos dados e que já vão nunca
+
+601
+00:23:39,240 --> 00:23:43,589
+brigou e a gente é a que a gente acaba
+
+602
+00:23:41,130 --> 00:23:46,020
+tendo linguagens como o pai vão né Agora
+
+603
+00:23:43,589 --> 00:23:50,240
+sim é que domina segunda de ciência dos
+
+604
+00:23:46,019 --> 00:23:52,859
+dados mas a gente tem R lá a gente tem
+
+605
+00:23:50,240 --> 00:23:56,390
+Júlia de certa forma né um pouco agora
+
+606
+00:23:52,859 --> 00:23:58,319
+então são linguagens que
+
+607
+00:23:56,390 --> 00:24:00,180
+normalmente a gente não vai encontrar um
+
+608
+00:23:58,319 --> 00:24:02,460
+programa no estado objetos nesse nesse
+
+609
+00:24:00,180 --> 00:24:04,590
+nicho né mas você mais em Salvador de
+
+610
+00:24:02,460 --> 00:24:06,350
+dados então naturalmente começa a gente
+
+611
+00:24:04,589 --> 00:24:08,669
+tem os nichos de
+
+612
+00:24:06,349 --> 00:24:10,980
+Que Clama por algumas necessidades
+
+613
+00:24:08,670 --> 00:24:12,750
+diferentes acaba surgindo linguagens que
+
+614
+00:24:10,980 --> 00:24:14,880
+vão ser dominantes Naquele lixo mas como
+
+615
+00:24:12,750 --> 00:24:16,650
+nós esse tantos nichos assim a gente tem
+
+616
+00:24:14,880 --> 00:24:18,900
+poucas linguagem dominante então assim
+
+617
+00:24:16,650 --> 00:24:21,150
+como eu falei eu acho que especialmente
+
+618
+00:24:18,900 --> 00:24:22,700
+a gente vai encontrar mais dessa embaixo
+
+619
+00:24:21,150 --> 00:24:25,780
+a gente programação
+
+620
+00:24:22,700 --> 00:24:28,240
+10 milhões de usuários mas e nada hoje
+
+621
+00:24:25,779 --> 00:24:32,139
+que conseguiria escrever um pouquinho
+
+622
+00:24:28,240 --> 00:24:34,990
+pelo amor naquela linguagem e lua é lua
+
+623
+00:24:32,140 --> 00:24:38,470
+é uma linguagem muito bacana no sentido
+
+624
+00:24:34,990 --> 00:24:39,970
+de que é com cinza é um negócio pequena
+
+625
+00:24:38,470 --> 00:24:42,460
+sem a gramática de lua vai ser
+
+626
+00:24:39,970 --> 00:24:45,069
+pequenininho em cima e é uma linguagem
+
+627
+00:24:42,460 --> 00:24:48,130
+extremamente pragmática no sentido de
+
+628
+00:24:45,069 --> 00:24:50,649
+que ela executa em qualquer lugar basta
+
+629
+00:24:48,130 --> 00:24:52,840
+tem um compilador de c é sem chances e
+
+630
+00:24:50,650 --> 00:24:55,269
+que a gente consegue instalar e fazer
+
+631
+00:24:52,839 --> 00:24:57,970
+lua funcionar eu acho que não tem uma
+
+632
+00:24:55,269 --> 00:25:00,250
+coisa super elegante né ela quer é uma
+
+633
+00:24:57,970 --> 00:25:01,930
+linguagem construída em torno das
+
+634
+00:25:00,250 --> 00:25:04,079
+estruturas de dados em tão
+
+635
+00:25:01,930 --> 00:25:06,490
+desconcertante tabela então é
+
+636
+00:25:04,079 --> 00:25:08,679
+normalmente a linguagem oferecem algumas
+
+637
+00:25:06,490 --> 00:25:09,880
+historicidade assim eu vou linguagem
+
+638
+00:25:08,680 --> 00:25:11,350
+orientada a objetos vai ter muitas
+
+639
+00:25:09,880 --> 00:25:14,170
+estruturas de dados e os programadores
+
+640
+00:25:11,349 --> 00:25:15,329
+resolver outras estruturas de dar a lua
+
+641
+00:25:14,170 --> 00:25:17,650
+é uma linguagem de programação
+
+642
+00:25:15,329 --> 00:25:19,419
+conspirador nos conselhos tabela do
+
+643
+00:25:17,650 --> 00:25:20,800
+mesmo jeito visto por exemplo foi a
+
+644
+00:25:19,420 --> 00:25:23,410
+linguagem programação conseguir em torno
+
+645
+00:25:20,799 --> 00:25:26,809
+do conceito de lista Então nesse sentido
+
+646
+00:25:23,410 --> 00:25:29,660
+filosóficos as barragens programação eu
+
+647
+00:25:26,809 --> 00:25:31,879
+acho super bacana porque com tabelas eu
+
+648
+00:25:29,660 --> 00:25:34,130
+consigo conseguir funções eu consigo
+
+649
+00:25:31,880 --> 00:25:37,400
+construir objetos ou seja ela tem uma
+
+650
+00:25:34,130 --> 00:25:40,940
+tabela com as funções né método J ordem
+
+651
+00:25:37,400 --> 00:25:43,340
+alguns atributos são restritas ao objeto
+
+652
+00:25:40,940 --> 00:25:46,340
+eu consigo fazer tudo então acaba tendo
+
+653
+00:25:43,339 --> 00:25:49,519
+uma gramática pequena o modelo de
+
+654
+00:25:46,339 --> 00:25:51,230
+execução elegante passo é fácil instalar
+
+655
+00:25:49,519 --> 00:25:52,970
+e fácil de alguma resposta embarcados
+
+656
+00:25:51,230 --> 00:25:54,380
+por exemplo assim que e acaba
+
+657
+00:25:52,970 --> 00:25:57,799
+encontrando uma comunidade de
+
+658
+00:25:54,380 --> 00:26:00,260
+desenvolvedores que se constrói em torno
+
+659
+00:25:57,799 --> 00:26:01,519
+dessa simplicidade então no ponto de
+
+660
+00:26:00,259 --> 00:26:04,039
+vista de simplicidade já chegou uma
+
+661
+00:26:01,519 --> 00:26:06,259
+linguagem extremamente elegante Eu acho
+
+662
+00:26:04,039 --> 00:26:08,509
+que eu faço de diabo escritos tecido a
+
+663
+00:26:06,259 --> 00:26:10,490
+linguagem na internet talvez você é um
+
+664
+00:26:08,509 --> 00:26:11,900
+acidente porque na época não é que
+
+665
+00:26:10,490 --> 00:26:14,000
+quando colocar não quero discutir não né
+
+666
+00:26:11,900 --> 00:26:17,509
+troquei se conhecesse lua Talvez hoje
+
+667
+00:26:14,000 --> 00:26:19,970
+que você iria a Brenda Nike né tivesse
+
+668
+00:26:17,509 --> 00:26:22,519
+decidido mexer com a coluna na época
+
+669
+00:26:19,970 --> 00:26:25,430
+talvez de uma Hoje seria a linguagem na
+
+670
+00:26:22,519 --> 00:26:28,410
+internet porque eu acho modelo muito o
+
+671
+00:26:25,430 --> 00:26:31,860
+Diego esse uma sim táxi mas fica ligado
+
+672
+00:26:28,410 --> 00:26:35,220
+porque ele já fiz que eu acho que isso é
+
+673
+00:26:31,859 --> 00:26:36,959
+uma coisa que eu não sou de longe nenhum
+
+674
+00:26:35,220 --> 00:26:38,610
+especialista em História linguagem
+
+675
+00:26:36,960 --> 00:26:41,009
+programação às vezes quando eu vejo uma
+
+676
+00:26:38,609 --> 00:26:43,289
+coisa ou outra parece muito muito das
+
+677
+00:26:41,009 --> 00:26:45,720
+coisas que acontecem é pela caso né e
+
+678
+00:26:43,289 --> 00:26:48,450
+com relação à lua eu aproveito para
+
+679
+00:26:45,720 --> 00:26:50,910
+recomendar quem tá no tem um episódio do
+
+680
+00:26:48,450 --> 00:26:53,299
+podcast os programadores muito bom que
+
+681
+00:26:50,910 --> 00:26:55,620
+ele Marcelo quer
+
+682
+00:26:53,299 --> 00:26:57,649
+criador desse podcast ele entrevistou
+
+683
+00:26:55,619 --> 00:27:00,659
+Roberto ierusalimschy
+
+684
+00:26:57,650 --> 00:27:02,759
+aqui eu acho que assim para um Siena é
+
+685
+00:27:00,660 --> 00:27:05,370
+um dos criadores de lua junto com o
+
+686
+00:27:02,759 --> 00:27:08,809
+Valdemar pele e Luiz Henrique de
+
+687
+00:27:05,369 --> 00:27:12,239
+Figueiredo destruição professores da PUC
+
+688
+00:27:08,809 --> 00:27:14,730
+e considerando o cenário atual ou é o
+
+689
+00:27:12,240 --> 00:27:17,730
+Pedro eu tenho vontade de jacko tem
+
+690
+00:27:14,730 --> 00:27:19,549
+escrevi pequeninos programa sem lua mas
+
+691
+00:27:17,730 --> 00:27:21,509
+é Um Desafio pessoalmente para
+
+692
+00:27:19,549 --> 00:27:23,519
+desenvolvedores profissionais conhecer
+
+693
+00:27:21,509 --> 00:27:26,710
+muitos linguagem de programação é só não
+
+694
+00:27:23,519 --> 00:27:28,720
+vai conseguir dominar e não basta se
+
+695
+00:27:26,710 --> 00:27:30,220
+conhecer sim táxi de uma linguagem lua
+
+696
+00:27:28,720 --> 00:27:32,860
+tem a syntax mas eu acho que você ser
+
+697
+00:27:30,220 --> 00:27:35,049
+realmente produtivo lua OLX Uberlândia
+
+698
+00:27:32,859 --> 00:27:38,199
+você conhecer as tecnologias as
+
+699
+00:27:35,049 --> 00:27:40,930
+bibliotecas os Formou eu acrescentaria
+
+700
+00:27:38,200 --> 00:27:42,490
+que talvez participar da comunidade para
+
+701
+00:27:40,930 --> 00:27:43,990
+ver o que que tá acontecendo de novo
+
+702
+00:27:42,490 --> 00:27:45,519
+porque às vezes você tá fazendo uma
+
+703
+00:27:43,990 --> 00:27:47,620
+coisa de um jeito e a comunidade de
+
+704
+00:27:45,519 --> 00:27:50,529
+estar fazendo toda ela de outro jeito
+
+705
+00:27:47,619 --> 00:27:53,049
+usando outra biblioteca e se você pensar
+
+706
+00:27:50,529 --> 00:27:56,019
+em não conseguir um emprego ou ocupação
+
+707
+00:27:53,049 --> 00:27:58,149
+nessa nessa comunidade e uma empresa que
+
+708
+00:27:56,019 --> 00:28:00,009
+faz parte da que usar linguagem faz
+
+709
+00:27:58,150 --> 00:28:02,620
+parte da comunidade que você pode ficar
+
+710
+00:28:00,009 --> 00:28:04,480
+por fora então pensando nisso é só nem
+
+711
+00:28:02,619 --> 00:28:06,719
+ter uma carreira profissional existe uma
+
+712
+00:28:04,480 --> 00:28:10,059
+estratégia melhor Fernando
+
+713
+00:28:06,720 --> 00:28:13,930
+você deve se especializar em uma
+
+714
+00:28:10,059 --> 00:28:16,990
+linguagem duas em três em cinco conhecer
+
+715
+00:28:13,930 --> 00:28:19,269
+10 15 linguagem superficialmente seja
+
+716
+00:28:16,990 --> 00:28:21,910
+você tem Como orientar as pessoas nisso
+
+717
+00:28:19,269 --> 00:28:24,490
+e como o mercado de trabalho se
+
+718
+00:28:21,910 --> 00:28:28,220
+diferencia nos diferentes paradigmas de
+
+719
+00:28:24,490 --> 00:28:29,620
+linguagens e eu não sei eu não sei se
+
+720
+00:28:28,220 --> 00:28:33,490
+altamente se
+
+721
+00:28:29,619 --> 00:28:37,039
+você não era só poderia né dizer dar uma
+
+722
+00:28:33,490 --> 00:28:39,140
+recomendar algo dessa forma eu não sei
+
+723
+00:28:37,039 --> 00:28:41,420
+se vale a pena Talvez o programada se
+
+724
+00:28:39,140 --> 00:28:44,240
+especializar profundamente né em baixo
+
+725
+00:28:41,420 --> 00:28:46,490
+programação a conhecer ao algumas eu
+
+726
+00:28:44,240 --> 00:28:48,380
+acho que os caminhos podem ser bons é
+
+727
+00:28:46,490 --> 00:28:49,460
+assim não pode virar profissional é
+
+728
+00:28:48,380 --> 00:28:52,640
+claro que vai depender muito da
+
+729
+00:28:49,460 --> 00:28:53,870
+competência da seção é por outro lado
+
+730
+00:28:52,640 --> 00:28:56,240
+uma das linguagens de programação
+
+731
+00:28:53,869 --> 00:28:58,519
+fascinante então assim sendo possível
+
+732
+00:28:56,240 --> 00:29:00,799
+conhecer mais de uma é claro que me a
+
+733
+00:28:58,519 --> 00:29:02,420
+minha posição é tendenciosa porque o
+
+734
+00:29:00,799 --> 00:29:04,639
+ensino de baixo programação não acredito
+
+735
+00:29:02,420 --> 00:29:06,710
+mas em sendo possível conhecer mais de
+
+736
+00:29:04,640 --> 00:29:09,500
+uma é eu acho que as pessoas abriram
+
+737
+00:29:06,710 --> 00:29:12,860
+agarrar essa oportunidade é um pouco me
+
+738
+00:29:09,500 --> 00:29:14,809
+falar mais de uma língua Sim Isso é abre
+
+739
+00:29:12,859 --> 00:29:16,250
+portas para a gente a gente vai conhecer
+
+740
+00:29:14,809 --> 00:29:18,740
+a comunidade a gente vai conhecer essa
+
+741
+00:29:16,250 --> 00:29:22,160
+forma de programar outra forma de se
+
+742
+00:29:18,740 --> 00:29:23,690
+expressar agora é o programado que se
+
+743
+00:29:22,160 --> 00:29:26,190
+especializa em uma única linguagem
+
+744
+00:29:23,690 --> 00:29:28,799
+programação é uma o Pálio é se ele corre
+
+745
+00:29:26,190 --> 00:29:31,680
+o risco Óbvio é daquela plataforma se
+
+746
+00:29:28,799 --> 00:29:35,190
+tornar obsoleta Então é isso acontece
+
+747
+00:29:31,680 --> 00:29:39,299
+por exemplo Object Object se a linguagem
+
+748
+00:29:35,190 --> 00:29:41,910
+do iOS a ex linguagem do iOS né assim a
+
+749
+00:29:39,299 --> 00:29:44,730
+durante muitos anos as os sistemas
+
+750
+00:29:41,910 --> 00:29:48,090
+embarcados da da Apple eles eram
+
+751
+00:29:44,730 --> 00:29:50,370
+escritos em Object se mas que é uma
+
+752
+00:29:48,089 --> 00:29:51,839
+linguagem antiga assim que é claro deixa
+
+753
+00:29:50,369 --> 00:29:53,909
+muito a desejar mas quando surgiu o
+
+754
+00:29:51,839 --> 00:29:56,639
+iPhone com surgiram assim essa
+
+755
+00:29:53,910 --> 00:29:58,920
+comunidade ecossistema de ai coisas
+
+756
+00:29:56,640 --> 00:30:01,259
+negócio pessoas falam aí tem as pessoas
+
+757
+00:29:58,920 --> 00:30:03,480
+começaram a usar muito objeto desse e é
+
+758
+00:30:01,259 --> 00:30:06,269
+comunidade objeto que você saiu do
+
+759
+00:30:03,480 --> 00:30:09,029
+completo ostracismo se tornou é grande
+
+760
+00:30:06,269 --> 00:30:11,940
+por outro lado é alguns anos atrás a
+
+761
+00:30:09,029 --> 00:30:14,460
+Apple não sou Swift que hoje é a
+
+762
+00:30:11,940 --> 00:30:16,799
+linguagem utilizada para programar o iOS
+
+763
+00:30:14,460 --> 00:30:19,380
+e quando a gente olha a quantidade de
+
+764
+00:30:16,799 --> 00:30:22,919
+repositórios do hip-hop em objective-c
+
+765
+00:30:19,380 --> 00:30:24,790
+em Swift é um X perfeito enquanto a
+
+766
+00:30:22,920 --> 00:30:27,509
+mulher que se somente caem
+
+767
+00:30:24,789 --> 00:30:30,299
+e somente aumenta então assim claramente
+
+768
+00:30:27,509 --> 00:30:32,920
+Comunidades a senhora Swift da
+
+769
+00:30:30,299 --> 00:30:35,529
+canibalizando os usuários de objetos que
+
+770
+00:30:32,920 --> 00:30:38,830
+sim então os programadores que conheciam
+
+771
+00:30:35,529 --> 00:30:41,619
+somente Object Object se você tiver que
+
+772
+00:30:38,829 --> 00:30:43,779
+aprender essa missão Ou eles saíram do
+
+773
+00:30:41,619 --> 00:30:45,429
+mercado não consegui trabalhar E isso
+
+774
+00:30:43,779 --> 00:30:46,259
+acontece com outras linguagens também
+
+775
+00:30:45,430 --> 00:30:50,259
+por exemplo
+
+776
+00:30:46,259 --> 00:30:51,970
+typescript scripts que são formas
+
+777
+00:30:50,259 --> 00:30:54,700
+alternativas de desenvolvimento de
+
+778
+00:30:51,970 --> 00:30:56,980
+aplicativos web é no cliente Hoje quase
+
+779
+00:30:54,700 --> 00:30:59,279
+ninguém usa Top Secret mas a linguagem
+
+780
+00:30:56,980 --> 00:31:02,470
+quando surgiu era uma promessa de suprir
+
+781
+00:30:59,279 --> 00:31:04,930
+deficiências de diabo scripts mas é mas
+
+782
+00:31:02,470 --> 00:31:06,190
+então surge split ela sente de fato uma
+
+783
+00:31:04,930 --> 00:31:10,240
+linguagem que tem suporte corporativo
+
+784
+00:31:06,190 --> 00:31:11,710
+que tem eh ferramentas ideias e e a
+
+785
+00:31:10,240 --> 00:31:14,559
+gente também contra o ser humano que se
+
+786
+00:31:11,710 --> 00:31:15,850
+a quantidade de gente repositório de uma
+
+787
+00:31:14,559 --> 00:31:18,940
+linguagem na outra vitamina eu x
+
+788
+00:31:15,849 --> 00:31:20,289
+enquanto corre scripts desaparece táxi
+
+789
+00:31:18,940 --> 00:31:21,610
+cresceu hoje é uma linguagem bastante
+
+790
+00:31:20,289 --> 00:31:24,190
+Popular deve estar entre os iguais
+
+791
+00:31:21,609 --> 00:31:26,209
+certamente dos quinze em bairros mais
+
+792
+00:31:24,190 --> 00:31:28,850
+populares e assim Já possui vários
+
+793
+00:31:26,210 --> 00:31:31,009
+vários índices diferentes Então existe
+
+794
+00:31:28,849 --> 00:31:32,990
+essa esse perigo né de você colocar
+
+795
+00:31:31,009 --> 00:31:35,960
+todas as laranjas na os seus ovos da
+
+796
+00:31:32,990 --> 00:31:38,569
+mesma na mesma cesta assim então no
+
+797
+00:31:35,960 --> 00:31:40,970
+conjunto pragmático é existe esse esse
+
+798
+00:31:38,569 --> 00:31:43,460
+perigo mas se como eu disse antes Eu
+
+799
+00:31:40,970 --> 00:31:44,870
+acho que quando a gente aprende mais de
+
+800
+00:31:43,460 --> 00:31:48,140
+uma linguagem preferência linguagens
+
+801
+00:31:44,869 --> 00:31:49,579
+diferentes age isso abrir um pouco a
+
+802
+00:31:48,140 --> 00:31:52,820
+visão da gente sobre o que que é um
+
+803
+00:31:49,579 --> 00:31:54,679
+programa então um programar você mais
+
+804
+00:31:52,819 --> 00:31:56,629
+mais não vai conseguir escrever um deles
+
+805
+00:31:54,680 --> 00:31:58,220
+em Java do mesmo jeito que um
+
+806
+00:31:56,630 --> 00:32:00,260
+programador Java Talvez fosse bom
+
+807
+00:31:58,220 --> 00:32:02,180
+aprender a escrever de leite e ser mais
+
+808
+00:32:00,259 --> 00:32:04,069
+mais de vez em quando então é porque as
+
+809
+00:32:02,180 --> 00:32:05,900
+linguagens e de fato são diferentes um
+
+810
+00:32:04,069 --> 00:32:08,450
+programador funcionam não tem que nem
+
+811
+00:32:05,900 --> 00:32:10,790
+abrir uma classe para fazer processo
+
+812
+00:32:08,450 --> 00:32:12,559
+algum tipo de dado certo do mesmo jeito
+
+813
+00:32:10,789 --> 00:32:15,259
+que alguém pode querer aprender a lidar
+
+814
+00:32:12,559 --> 00:32:17,329
+com o Estados É uma opção e calma que
+
+815
+00:32:15,259 --> 00:32:19,369
+são padrões para a gente tipo coisa no
+
+816
+00:32:17,329 --> 00:32:21,500
+bairro orientadas a objetos então a
+
+817
+00:32:19,369 --> 00:32:23,839
+gente cresce enquanto programado antes
+
+818
+00:32:21,500 --> 00:32:26,640
+de virar professora eu estagiei na
+
+819
+00:32:23,839 --> 00:32:29,099
+Google isso aí A moradora e na época
+
+820
+00:32:26,640 --> 00:32:30,300
+isso em 2008 a gente precisava para
+
+821
+00:32:29,099 --> 00:32:33,089
+conseguir o que ele chamava de
+
+822
+00:32:30,299 --> 00:32:35,759
+herdabilidade assim capacidade de ler
+
+823
+00:32:33,089 --> 00:32:39,209
+código em três linguagens diferentes né
+
+824
+00:32:35,759 --> 00:32:42,269
+e as linguagens recomendados eram já vão
+
+825
+00:32:39,210 --> 00:32:44,549
+ser mais mais e pai então é ou seja
+
+826
+00:32:42,269 --> 00:32:46,349
+assim a prova empresa né tinha essa
+
+827
+00:32:44,549 --> 00:32:48,299
+noção de que ser interessante que os
+
+828
+00:32:46,349 --> 00:32:50,579
+programadores pudessem conhecer é mais
+
+829
+00:32:48,299 --> 00:32:53,789
+de uma linguagem de programação é o
+
+830
+00:32:50,579 --> 00:32:55,649
+Quando eu fez graduação eu teve uma
+
+831
+00:32:53,789 --> 00:32:56,849
+disciplina que era modelos de linguagem
+
+832
+00:32:55,650 --> 00:32:59,490
+de programação que eu acho que está
+
+833
+00:32:56,849 --> 00:33:02,039
+presente na maior parte dos cursos né e
+
+834
+00:32:59,490 --> 00:33:04,259
+o objetivo é justamente esse tu ver os
+
+835
+00:33:02,039 --> 00:33:05,659
+diferentes paradigmas né com exemplo em
+
+836
+00:33:04,259 --> 00:33:08,910
+algumas linguagens
+
+837
+00:33:05,660 --> 00:33:11,190
+representativa e pelo menos tu conhecer
+
+838
+00:33:08,910 --> 00:33:13,830
+as diferentes Abstrações disponíveis né
+
+839
+00:33:11,190 --> 00:33:15,750
+e assim tu conhece as ferramentas e
+
+840
+00:33:13,829 --> 00:33:18,539
+depois podes especializada que acordo
+
+841
+00:33:15,750 --> 00:33:20,430
+com sua necessidade mas tanto que a
+
+842
+00:33:18,539 --> 00:33:23,460
+gente tem conversado até aqui como no
+
+843
+00:33:20,430 --> 00:33:25,930
+caso dessa disciplina né É focando no
+
+844
+00:33:23,460 --> 00:33:28,180
+aprendizado e em linguagens de
+
+845
+00:33:25,930 --> 00:33:31,420
+programação mas a gente olhar para os
+
+846
+00:33:28,180 --> 00:33:33,430
+currículos de bacharelado de ciências da
+
+847
+00:33:31,420 --> 00:33:35,230
+ciência da computação né Eu acho que em
+
+848
+00:33:33,430 --> 00:33:37,870
+outros cursos da Computação isso também
+
+849
+00:33:35,230 --> 00:33:40,630
+aparece tem disciplinas como linguagens
+
+850
+00:33:37,869 --> 00:33:42,309
+formais e compiladores né eu me lembro
+
+851
+00:33:40,630 --> 00:33:45,970
+quando eu fiz a graduação seu famoso
+
+852
+00:33:42,309 --> 00:33:48,009
+livro do dragão para calculadoras e
+
+853
+00:33:45,970 --> 00:33:50,710
+tinha senão conhecimento aprofundado em
+
+854
+00:33:48,009 --> 00:33:52,779
+linguagens de programação inclusive para
+
+855
+00:33:50,710 --> 00:33:54,880
+desenvolver novas linguagens qual a
+
+856
+00:33:52,779 --> 00:33:57,190
+importância disso na formação de um
+
+857
+00:33:54,880 --> 00:33:59,940
+profissional da área eu sou pergunta
+
+858
+00:33:57,190 --> 00:34:03,279
+polêmica também uma Jefferson ganhar
+
+859
+00:33:59,940 --> 00:34:06,430
+esse ano agora né os autores do dois
+
+860
+00:34:03,279 --> 00:34:07,990
+autores do livro do dragão e quando a
+
+861
+00:34:06,430 --> 00:34:10,539
+gente olha os ganhadores do prêmio
+
+862
+00:34:07,990 --> 00:34:12,130
+thoreau chutaria que um quarto deles
+
+863
+00:34:10,539 --> 00:34:14,909
+mexendo aqui embaixo programação de
+
+864
+00:34:12,130 --> 00:34:18,820
+alguma forma a gente tem o
+
+865
+00:34:14,909 --> 00:34:23,678
+vacas com forte ou uma carte com lista o
+
+866
+00:34:18,820 --> 00:34:27,260
+hit com o seu coque com a Intel é quem
+
+867
+00:34:23,679 --> 00:34:29,990
+tava Sampaio tel bom então assim é a
+
+868
+00:34:27,260 --> 00:34:31,400
+gente é assim esses profissionais né de
+
+869
+00:34:29,989 --> 00:34:33,349
+ciência da computação espera Impacto
+
+870
+00:34:31,400 --> 00:34:35,450
+muito grande Ciência da Computação agora
+
+871
+00:34:33,349 --> 00:34:36,519
+com treinadores por exemplo não é uma
+
+872
+00:34:35,449 --> 00:34:39,649
+disciplina obrigatória
+
+873
+00:34:36,519 --> 00:34:41,389
+no curso de ciência da computação de
+
+874
+00:34:39,650 --> 00:34:43,369
+acordo com o currículo da cm por exemplo
+
+875
+00:34:41,389 --> 00:34:45,650
+então é o curso de paradigmas de
+
+876
+00:34:43,369 --> 00:34:48,230
+linguagem programação ele é obrigatório
+
+877
+00:34:45,650 --> 00:34:50,000
+Você tem uma parte dele que é
+
+878
+00:34:48,230 --> 00:34:53,269
+obrigatório de acordo com o currículo da
+
+879
+00:34:50,000 --> 00:34:54,949
+ciência é compiladores não é e eu faço
+
+880
+00:34:53,269 --> 00:34:57,559
+pesquisa compiladores não é claro né
+
+881
+00:34:54,949 --> 00:34:59,119
+cabeça deveria ser mesmo um bom
+
+882
+00:34:57,559 --> 00:35:02,269
+programador não precisa conhecer
+
+883
+00:34:59,119 --> 00:35:04,670
+compiladores para programar bem por
+
+884
+00:35:02,269 --> 00:35:06,590
+outro lado eu acho que se ele conhecer
+
+885
+00:35:04,670 --> 00:35:08,180
+mais sobre compiladores eu acho que ele
+
+886
+00:35:06,590 --> 00:35:10,250
+vai programa melhor então assim não
+
+887
+00:35:08,179 --> 00:35:12,019
+precisa disso para pagar bem mas eu acho
+
+888
+00:35:10,250 --> 00:35:14,599
+que consegue além do que ele consegue
+
+889
+00:35:12,019 --> 00:35:17,409
+fazer conhecendo como que um compilado
+
+890
+00:35:14,599 --> 00:35:19,759
+Funciona porque isso acaba também é
+
+891
+00:35:17,409 --> 00:35:22,730
+Existem muitos falácias que a gente tem
+
+892
+00:35:19,760 --> 00:35:24,810
+de imaginação são naturais né e que não
+
+893
+00:35:22,730 --> 00:35:27,750
+são por exemplo é quando a gente Oi
+
+894
+00:35:24,809 --> 00:35:29,730
+gente o rabanete os alunos em Ciência da
+
+895
+00:35:27,750 --> 00:35:31,530
+Computação eles eles tendem a usar o
+
+896
+00:35:29,730 --> 00:35:34,619
+nome da variável que eles acham que está
+
+897
+00:35:31,530 --> 00:35:36,480
+poupando memória do do do programa põe
+
+898
+00:35:34,619 --> 00:35:38,519
+atende não né esse até bonito da
+
+899
+00:35:36,480 --> 00:35:39,900
+ingenuidade Mas eu sempre calculadora
+
+900
+00:35:38,519 --> 00:35:41,579
+que eles não tem nada a ver um com o
+
+901
+00:35:39,900 --> 00:35:44,070
+outro não sei que eu desaparece esses
+
+902
+00:35:41,579 --> 00:35:46,559
+novos que programado a ver eles têm eles
+
+903
+00:35:44,070 --> 00:35:48,570
+eram fantasmas do programa o combinado
+
+904
+00:35:46,559 --> 00:35:51,690
+arranjar arranjar aquilo de uma forma
+
+905
+00:35:48,570 --> 00:35:53,039
+que o programa Vai provavelmente a ser
+
+906
+00:35:51,690 --> 00:35:55,230
+muito melhor do que qualquer programa
+
+907
+00:35:53,039 --> 00:35:57,900
+que ele pudesse escrever se esforçando
+
+908
+00:35:55,230 --> 00:35:59,699
+muito então é assim a gente acaba
+
+909
+00:35:57,900 --> 00:36:01,769
+relegando no congelador essa tarefa de
+
+910
+00:35:59,699 --> 00:36:04,859
+utilizar o código né eu vejo por exemplo
+
+911
+00:36:01,769 --> 00:36:07,110
+às vezes alunos declararam o imperador
+
+912
+00:36:04,860 --> 00:36:10,650
+do contador que fazer interação do Astra
+
+913
+00:36:07,110 --> 00:36:11,630
+como um charme sesmt porque eu já que
+
+914
+00:36:10,650 --> 00:36:16,769
+vai só até
+
+915
+00:36:11,630 --> 00:36:18,150
+25 m2550d menos menos bonitos aqui eu
+
+916
+00:36:16,769 --> 00:36:19,559
+comprei lá que eu vou fazer aquilo para
+
+917
+00:36:18,150 --> 00:36:21,300
+ele para nós vamos que não conheço
+
+918
+00:36:19,559 --> 00:36:23,549
+aparecer esse era tão pequena não dá
+
+919
+00:36:21,300 --> 00:36:25,539
+para desenrolar aqui eu vejo assim as
+
+920
+00:36:23,550 --> 00:36:26,800
+pessoas discutindo por exemplo E aí vou
+
+921
+00:36:25,539 --> 00:36:28,329
+fazer uma máquina aqui porque não deu
+
+922
+00:36:26,800 --> 00:36:30,460
+curso de chamar a atenção é
+
+923
+00:36:28,329 --> 00:36:32,679
+provavelmente o campeonato é integrar
+
+924
+00:36:30,460 --> 00:36:34,240
+aquele código também então ou então as
+
+925
+00:36:32,679 --> 00:36:35,829
+pessoas discutindo por exemplo armas só
+
+926
+00:36:34,239 --> 00:36:37,779
+tem herança sendo que chama ao método
+
+927
+00:36:35,829 --> 00:36:39,759
+vai ser mais gostoso é quando na verdade
+
+928
+00:36:37,780 --> 00:36:41,920
+aqui numa linguagem estaticamente espada
+
+929
+00:36:39,760 --> 00:36:44,610
+igual Java ou você é mais mais vai fazer
+
+930
+00:36:41,920 --> 00:36:46,480
+diferença nenhuma então eu acho que o
+
+931
+00:36:44,610 --> 00:36:48,490
+programador ela acaba conhecendo um
+
+932
+00:36:46,480 --> 00:36:50,619
+pouco melhor como que é a ferramenta que
+
+933
+00:36:48,489 --> 00:36:52,389
+ele usa que te falar Tu é o compilador
+
+934
+00:36:50,619 --> 00:36:53,710
+uma máquina virtual que seja né que
+
+935
+00:36:52,389 --> 00:36:55,839
+também vai ter um compilador de assim
+
+936
+00:36:53,710 --> 00:36:58,960
+time ali muitas vezes então acabou
+
+937
+00:36:55,840 --> 00:37:02,650
+usando a a ferramenta de trabalho dele
+
+938
+00:36:58,960 --> 00:37:05,889
+de forma é melhor e eu acho que o mesmo
+
+939
+00:37:02,650 --> 00:37:08,079
+raciocínio análogo ele se aplica a curso
+
+940
+00:37:05,889 --> 00:37:11,589
+de métodos formais por exemplo as
+
+941
+00:37:08,079 --> 00:37:14,949
+pessoas torcem o nariz para a recursão é
+
+942
+00:37:11,590 --> 00:37:16,809
+por outro lado é recursão dá margem a
+
+943
+00:37:14,949 --> 00:37:19,419
+uma técnica de prova chamada indução
+
+944
+00:37:16,809 --> 00:37:21,429
+estrutural que que é super natural e
+
+945
+00:37:19,420 --> 00:37:24,130
+ajuda a gente entender que um programa é
+
+946
+00:37:21,429 --> 00:37:27,199
+correto né então assim é merda do senhor
+
+947
+00:37:24,130 --> 00:37:29,960
+mais certa e a gente vai escrever código
+
+948
+00:37:27,199 --> 00:37:31,759
+que que tende a ser mais sólido que
+
+949
+00:37:29,960 --> 00:37:35,720
+sempre que tende a ser mais consistente
+
+950
+00:37:31,760 --> 00:37:37,340
+agora é não é necessário que essas
+
+951
+00:37:35,719 --> 00:37:39,980
+disciplinas estão presentes no currículo
+
+952
+00:37:37,340 --> 00:37:41,990
+do curso não é por exemplo no curso de
+
+953
+00:37:39,980 --> 00:37:43,760
+sistemas de informação aqui na UFMG não
+
+954
+00:37:41,989 --> 00:37:45,109
+existe uma disciplina obrigatória e
+
+955
+00:37:43,760 --> 00:37:46,820
+metas formais não existe disciplina
+
+956
+00:37:45,110 --> 00:37:48,920
+obrigatória de compiladores é embora
+
+957
+00:37:46,820 --> 00:37:50,990
+exista o curso de combinado hoje é
+
+958
+00:37:48,920 --> 00:37:53,269
+obrigatório no curso de ciência da
+
+959
+00:37:50,989 --> 00:37:54,379
+computação e e mesmo no curso de ciência
+
+960
+00:37:53,269 --> 00:37:56,300
+da computação não tá claro na minha
+
+961
+00:37:54,380 --> 00:37:58,099
+cabeça que essa é a melhor a melhor
+
+962
+00:37:56,300 --> 00:37:59,780
+forma de organizar o curso eu acho que a
+
+963
+00:37:58,099 --> 00:38:01,639
+gente não tivesse seja se diz o
+
+964
+00:37:59,780 --> 00:38:03,320
+currículo da sendo estritamente e
+
+965
+00:38:01,639 --> 00:38:06,799
+deixasse confinadores conectar tivesse
+
+966
+00:38:03,320 --> 00:38:08,570
+não seria ruim é também ou o aluno que
+
+967
+00:38:06,800 --> 00:38:11,180
+tivesse especializar especializar em
+
+968
+00:38:08,570 --> 00:38:12,890
+programação é em programação Industrial
+
+969
+00:38:11,179 --> 00:38:14,329
+poder fazer o curso por exemplo né e
+
+970
+00:38:12,889 --> 00:38:16,549
+outro quiser seguir uma carreira
+
+971
+00:38:14,329 --> 00:38:18,710
+gerencial que talvez fosse passar por
+
+972
+00:38:16,550 --> 00:38:20,030
+cima disso não conceder isso mas aí como
+
+973
+00:38:18,710 --> 00:38:22,130
+eu falei quem que é ser um programador
+
+974
+00:38:20,030 --> 00:38:24,620
+melhor eu acho que convém conhecer pelo
+
+975
+00:38:22,130 --> 00:38:27,119
+menos como combinado Funciona porque é a
+
+976
+00:38:24,619 --> 00:38:29,579
+fim Se ele deixasse a fazer ela falou eu
+
+977
+00:38:27,119 --> 00:38:31,230
+fiz isso porque assim essa ideia assim
+
+978
+00:38:29,579 --> 00:38:33,239
+ah tá ele não vai usar no dia a dia
+
+979
+00:38:31,230 --> 00:38:35,579
+nunca vai escrever um computador então
+
+980
+00:38:33,239 --> 00:38:37,500
+não precisa então seria quase que pensa
+
+981
+00:38:35,579 --> 00:38:39,360
+assim vamos passar o que o profissional
+
+982
+00:38:37,500 --> 00:38:41,130
+preciso para diretamente sentar numa
+
+983
+00:38:39,360 --> 00:38:42,329
+mesa de trabalhar essencialmente do
+
+984
+00:38:41,130 --> 00:38:43,800
+preciso ensinar uma linguagem de
+
+985
+00:38:42,329 --> 00:38:46,650
+programação prontos o curso de
+
+986
+00:38:43,800 --> 00:38:48,240
+computação mas eu eu vejo assim que sem
+
+987
+00:38:46,650 --> 00:38:51,869
+por exemplo se conhecer arquitetura de
+
+988
+00:38:48,239 --> 00:38:54,479
+computadores tu conhecer compiladores né
+
+989
+00:38:51,869 --> 00:38:56,429
+É isso que vai fazer diferença de Tu
+
+990
+00:38:54,480 --> 00:38:59,219
+realmente tem um cientista da Computação
+
+991
+00:38:56,429 --> 00:39:00,869
+da Computação um profissional na área e
+
+992
+00:38:59,219 --> 00:39:02,279
+não simplesmente alguém que sentou aí
+
+993
+00:39:00,869 --> 00:39:04,710
+eles vão curso de programação para
+
+994
+00:39:02,280 --> 00:39:07,200
+começar a escrever código em alguns
+
+995
+00:39:04,710 --> 00:39:09,539
+meses e eu como eu tenho essa trabalho
+
+996
+00:39:07,199 --> 00:39:12,649
+the application level Cash né eu vejo
+
+997
+00:39:09,539 --> 00:39:14,820
+que para te entender performance né É
+
+998
+00:39:12,650 --> 00:39:17,160
+fundamental tu entender como funciona a
+
+999
+00:39:14,820 --> 00:39:20,190
+máquina né Como como o seu programa vai
+
+1000
+00:39:17,159 --> 00:39:23,279
+rodar o que que assim teu noções do por
+
+1001
+00:39:20,190 --> 00:39:25,840
+baixo dos panos para te conseguir na tua
+
+1002
+00:39:23,280 --> 00:39:29,170
+camada de abstração trabalha bom então
+
+1003
+00:39:25,840 --> 00:39:31,840
+assim realmente se não é porque se eu
+
+1004
+00:39:29,170 --> 00:39:33,760
+não vou usar no dia a dia não é a gente
+
+1005
+00:39:31,840 --> 00:39:35,920
+pode realmente descartar e colocar com
+
+1006
+00:39:33,760 --> 00:39:37,810
+uma seletiva o curso difícil da
+
+1007
+00:39:35,920 --> 00:39:39,369
+Computação o curso de sistema de
+
+1008
+00:39:37,809 --> 00:39:42,250
+informação Hoje nossa ele tem 3 mil
+
+1009
+00:39:39,369 --> 00:39:43,779
+horas então é eu falo do curso de
+
+1010
+00:39:42,250 --> 00:39:45,219
+sistemas de informação eu não gosto de
+
+1011
+00:39:43,780 --> 00:39:49,000
+ciência da computação Ele tem 13 horas
+
+1012
+00:39:45,219 --> 00:39:51,509
+ele envolve Ciência da Computação ele
+
+1013
+00:39:49,000 --> 00:39:54,340
+envolve ciências contábeis ele envolve
+
+1014
+00:39:51,510 --> 00:39:56,080
+administração e ele envolve a
+
+1015
+00:39:54,340 --> 00:39:59,140
+organização de informação que eu assim
+
+1016
+00:39:56,079 --> 00:40:01,960
+arquivologia e biblioteconomia então ele
+
+1017
+00:39:59,139 --> 00:40:04,480
+tem mais ou menos um pouquinho mais
+
+1018
+00:40:01,960 --> 00:40:06,699
+assim é quase dois terços do currículo é
+
+1019
+00:40:04,480 --> 00:40:08,650
+formado de disciplinas obrigatórias e o
+
+1020
+00:40:06,699 --> 00:40:11,619
+resto é formado de disciplinas optativas
+
+1021
+00:40:08,650 --> 00:40:13,990
+então os alunos eles vão ter a chance de
+
+1022
+00:40:11,619 --> 00:40:16,059
+escolher qual caminho eles vão seguir é
+
+1023
+00:40:13,989 --> 00:40:18,279
+vários vários alunos vão querer de fato
+
+1024
+00:40:16,059 --> 00:40:21,449
+que tá aparecendo é carreira mais esses
+
+1025
+00:40:18,280 --> 00:40:24,310
+aspectos mas gerencial da indústria de
+
+1026
+00:40:21,449 --> 00:40:26,989
+informação é outros de fato vão se
+
+1027
+00:40:24,309 --> 00:40:29,329
+tornar um dos profissionais assim hoje
+
+1028
+00:40:26,989 --> 00:40:31,459
+vários nós sabe onde de sistemas de
+
+1029
+00:40:29,329 --> 00:40:34,400
+informação trabalham grandes empresas de
+
+1030
+00:40:31,460 --> 00:40:36,139
+computação enquanto programadores então
+
+1031
+00:40:34,400 --> 00:40:39,170
+esses talvez queiram aprender um pouco
+
+1032
+00:40:36,139 --> 00:40:41,150
+mais sobre compilação por exemplo para
+
+1033
+00:40:39,170 --> 00:40:43,250
+entender por exemplo de onde que vende
+
+1034
+00:40:41,150 --> 00:40:44,780
+entende programas Quando que o programa
+
+1035
+00:40:43,250 --> 00:40:46,820
+estabiliza porque a primeira vez que
+
+1036
+00:40:44,780 --> 00:40:49,070
+esse culto Igreja Que devagar e depois
+
+1037
+00:40:46,820 --> 00:40:52,130
+ele começa a executar mais rápido é que
+
+1038
+00:40:49,070 --> 00:40:54,260
+mágica aqui que acontece com o programa
+
+1039
+00:40:52,130 --> 00:40:56,510
+agora outros alunos eles vão querer
+
+1040
+00:40:54,260 --> 00:40:59,140
+aprender a programar gente lidar com
+
+1041
+00:40:56,510 --> 00:41:03,850
+pessoas eles vão querer aprender
+
+1042
+00:40:59,139 --> 00:41:06,230
+técnicas de organização de times de
+
+1043
+00:41:03,849 --> 00:41:10,190
+cinco meteorologista Criar e organizar
+
+1044
+00:41:06,230 --> 00:41:11,240
+empresas então o curso é amplo por isso
+
+1045
+00:41:10,190 --> 00:41:14,360
+que não curso de sistemas de informação
+
+1046
+00:41:11,239 --> 00:41:17,000
+por exemplo é o curso de compiladores
+
+1047
+00:41:14,360 --> 00:41:18,380
+ele não é obrigatório assim e embora ele
+
+1048
+00:41:17,000 --> 00:41:21,050
+exista e como uma disciplina optativa
+
+1049
+00:41:18,380 --> 00:41:22,550
+não consiste essa comparação de fato não
+
+1050
+00:41:21,050 --> 00:41:24,500
+é obrigatório sem porque não
+
+1051
+00:41:22,550 --> 00:41:27,000
+entendimento é de quem matou o currículo
+
+1052
+00:41:24,500 --> 00:41:29,579
+não e as pessoas que montaram na época a
+
+1053
+00:41:27,000 --> 00:41:31,800
+disciplina é importante e como fala aí
+
+1054
+00:41:29,579 --> 00:41:34,559
+né não é mesmo no curso da CM o curso de
+
+1055
+00:41:31,800 --> 00:41:36,300
+compiladores ele ele não é obrigatório
+
+1056
+00:41:34,559 --> 00:41:38,820
+mas é assim mas eu falo isso mas é claro
+
+1057
+00:41:36,300 --> 00:41:40,350
+assim eu defendo que o salão aqui da
+
+1058
+00:41:38,820 --> 00:41:42,120
+barn comigo tá todos eles são
+
+1059
+00:41:40,349 --> 00:41:43,920
+eventualmente fazer o que os
+
+1060
+00:41:42,119 --> 00:41:45,329
+controladores o concessionário estática
+
+1061
+00:41:43,920 --> 00:41:48,599
+de código porque eles vão se
+
+1062
+00:41:45,329 --> 00:41:50,730
+especializar é nessa área e pensando em
+
+1063
+00:41:48,599 --> 00:41:52,949
+queira atuar especificamente na área de
+
+1064
+00:41:50,730 --> 00:41:54,900
+linguagens de programação trabalhar com
+
+1065
+00:41:52,949 --> 00:41:57,059
+linguagens compiladores e
+
+1066
+00:41:54,900 --> 00:41:58,800
+interpretadores qual seria o mercado de
+
+1067
+00:41:57,059 --> 00:42:01,440
+trabalho para esse profissional no
+
+1068
+00:41:58,800 --> 00:42:04,289
+Brasil e no exterior Eu imagino que você
+
+1069
+00:42:01,440 --> 00:42:06,300
+tem exemplos concretos de seus alunos o
+
+1070
+00:42:04,289 --> 00:42:08,039
+alunos de Mestrado doutorado que estão
+
+1071
+00:42:06,300 --> 00:42:09,650
+atuando na área é eu tive que fazer um
+
+1072
+00:42:08,039 --> 00:42:14,329
+memorial para progressão nas carreiras
+
+1073
+00:42:09,650 --> 00:42:17,280
+Então hoje já formaram comigo 31 alunos
+
+1074
+00:42:14,329 --> 00:42:21,840
+27 alunos de mestrado e 4 alunos do
+
+1075
+00:42:17,280 --> 00:42:23,610
+parar nesses 11 anos nesse g1fg e desses
+
+1076
+00:42:21,840 --> 00:42:24,789
+deixa eu fazer uma pergunta para você
+
+1077
+00:42:23,610 --> 00:42:28,180
+sabe me informar
+
+1078
+00:42:24,789 --> 00:42:31,650
+a 31 é mestrado e doutorado quantos
+
+1079
+00:42:28,179 --> 00:42:31,649
+vocês acham que tô na academia hoje
+
+1080
+00:42:34,170 --> 00:42:41,230
+33 que coisa absurda
+
+1081
+00:42:36,929 --> 00:42:43,000
+Não não eu tiro que eu sei que pessoal
+
+1082
+00:42:41,230 --> 00:42:44,860
+de Mestrado geralmente a maioria não vai
+
+1083
+00:42:43,000 --> 00:42:46,269
+para academia é só doutorado o dinheiro
+
+1084
+00:42:44,860 --> 00:42:47,740
+tá cada vez mais difícil você
+
+1085
+00:42:46,269 --> 00:42:49,750
+praticamente aqui do Brasil considerando
+
+1086
+00:42:47,739 --> 00:42:53,589
+que você é um professor jovem entrar na
+
+1087
+00:42:49,750 --> 00:42:56,289
+academia e o resto não é todos os alunos
+
+1088
+00:42:53,590 --> 00:42:57,970
+22 alunos na verdade dois desses fazendo
+
+1089
+00:42:56,289 --> 00:43:00,309
+doutorado hoje tem um Marco civil que o
+
+1090
+00:42:57,969 --> 00:43:02,769
+foi para Tóquio e o Gabriel ele tá
+
+1091
+00:43:00,309 --> 00:43:05,679
+buscando o doutorado em está forte eles
+
+1092
+00:43:02,769 --> 00:43:07,119
+ainda não terminaram mas é todos os
+
+1093
+00:43:05,679 --> 00:43:08,829
+outros alunos hoje tá uma indústria
+
+1094
+00:43:07,119 --> 00:43:10,960
+alguns trabalham diretamente com a
+
+1095
+00:43:08,829 --> 00:43:12,909
+linguagem de programação por exemplo é
+
+1096
+00:43:10,960 --> 00:43:17,050
+dois alunos trabalham na com sites que a
+
+1097
+00:43:12,909 --> 00:43:19,719
+empresa do pai forte do pai é sim com os
+
+1098
+00:43:17,050 --> 00:43:21,400
+prédios horizontes então o Gomes atender
+
+1099
+00:43:19,719 --> 00:43:24,399
+40 que a gente assim o patrão desse
+
+1100
+00:43:21,400 --> 00:43:26,780
+agora é o Caio parecia que trabalha na
+
+1101
+00:43:24,400 --> 00:43:30,200
+garra é diretamente implementação de
+
+1102
+00:43:26,780 --> 00:43:33,470
+Atos que lhes cortam é assim ó o motor
+
+1103
+00:43:30,199 --> 00:43:37,369
+de a biscoito do safari no Browser são
+
+1104
+00:43:33,469 --> 00:43:39,289
+cinco anos hoje na Microsoft pão é então
+
+1105
+00:43:37,369 --> 00:43:42,769
+assim que emigraram né acabaram de sair
+
+1106
+00:43:39,289 --> 00:43:44,420
+do país tem uma ndml dois anos na que aí
+
+1107
+00:43:42,769 --> 00:43:46,509
+nessa tem dois anos na área trabalham
+
+1108
+00:43:44,420 --> 00:43:50,210
+diretamente com compiladores para
+
+1109
+00:43:46,510 --> 00:43:53,090
+esses também migraram um deles fica na
+
+1110
+00:43:50,210 --> 00:43:54,860
+Inglaterra ou tá na França mas é e tem
+
+1111
+00:43:53,090 --> 00:43:57,380
+várias empresas de análise estática de
+
+1112
+00:43:54,860 --> 00:43:59,809
+código que hoje começa aqui para Minas
+
+1113
+00:43:57,380 --> 00:44:02,059
+Gerais então eu contei quatro então a
+
+1114
+00:43:59,809 --> 00:44:04,489
+gente precisa algumas e inclusive do um
+
+1115
+00:44:02,059 --> 00:44:06,289
+bolso dimensionados para gente é bolsa
+
+1116
+00:44:04,489 --> 00:44:09,259
+de iniciação científica é quatro
+
+1117
+00:44:06,289 --> 00:44:11,210
+empresas californianas é hoje contratam
+
+1118
+00:44:09,260 --> 00:44:12,770
+alunos aqui para ficar bem aqui E é
+
+1119
+00:44:11,210 --> 00:44:15,309
+claro que para eles estão minas de ouro
+
+1120
+00:44:12,769 --> 00:44:18,110
+né assim os engenheiros nas Formosas MG
+
+1121
+00:44:15,309 --> 00:44:19,969
+São várias vezes melhores do que
+
+1122
+00:44:18,110 --> 00:44:20,990
+qualquer engenheiro que vai ser formada
+
+1123
+00:44:19,969 --> 00:44:24,779
+melhor a Universidade da Califórnia
+
+1124
+00:44:20,989 --> 00:44:27,209
+assim em graduação assim ó
+
+1125
+00:44:24,780 --> 00:44:29,310
+e essa muito mal enquanto programado
+
+1126
+00:44:27,210 --> 00:44:31,019
+hoje eu digo assim já correspondência
+
+1127
+00:44:29,309 --> 00:44:32,190
+que eu tenho mas eu coloco a minha mão
+
+1128
+00:44:31,019 --> 00:44:34,559
+no fogo eu vou colocar Universidade
+
+1129
+00:44:32,190 --> 00:44:38,190
+Brasileira é Federal Não é o clico pra
+
+1130
+00:44:34,559 --> 00:44:40,380
+entrar é muito pesado Sim Isso é uma
+
+1131
+00:44:38,190 --> 00:44:42,809
+selva nessa Então alguns alunos para uma
+
+1132
+00:44:40,380 --> 00:44:45,090
+vaga então aqui é algo totalmente fora
+
+1133
+00:44:42,809 --> 00:44:47,219
+da realidade americana por exemplo então
+
+1134
+00:44:45,090 --> 00:44:48,870
+assim o naturalmente as nossas
+
+1135
+00:44:47,219 --> 00:44:51,059
+universidades federais a fio vamos lá
+
+1136
+00:44:48,869 --> 00:44:53,039
+vamos então forma-se excelentes alunos
+
+1137
+00:44:51,059 --> 00:44:55,500
+diferentes programado hoje que hoje
+
+1138
+00:44:53,039 --> 00:44:56,789
+conhecem duas bem então e o nosso fuso
+
+1139
+00:44:55,500 --> 00:44:59,340
+horário dos Estados Unidos não é ruim
+
+1140
+00:44:56,789 --> 00:45:01,829
+então é várias as empresas começam a
+
+1141
+00:44:59,340 --> 00:45:03,600
+contratar lá Salmos aqui por exemplo a
+
+1142
+00:45:01,829 --> 00:45:05,819
+última ligação que a gente recebeu foi
+
+1143
+00:45:03,599 --> 00:45:07,849
+da sai eles contrataram Oi Pablo no já
+
+1144
+00:45:05,820 --> 00:45:10,470
+do laboratório de compiladores é
+
+1145
+00:45:07,849 --> 00:45:12,809
+Engenheiros para trabalharem aqui eu
+
+1146
+00:45:10,469 --> 00:45:14,429
+chuto que eles paguem mais ou menos é um
+
+1147
+00:45:12,809 --> 00:45:16,619
+terço do salário de um engenheiro de
+
+1148
+00:45:14,429 --> 00:45:18,149
+software na Califórnia é o que
+
+1149
+00:45:16,619 --> 00:45:19,559
+provavelmente aqui é mais do dobro do
+
+1150
+00:45:18,150 --> 00:45:21,869
+que uma pessoa receber em início de
+
+1151
+00:45:19,559 --> 00:45:23,670
+carreira no Brasil porque é um
+
+1152
+00:45:21,869 --> 00:45:26,109
+profissional especializado em
+
+1153
+00:45:23,670 --> 00:45:28,930
+compiladores né aí a cobra muito difícil
+
+1154
+00:45:26,110 --> 00:45:32,559
+de encontrar então é isso Acabou valendo
+
+1155
+00:45:28,929 --> 00:45:34,449
+dinheiro ele tem valor um valor alto no
+
+1156
+00:45:32,559 --> 00:45:35,559
+mercado de trabalho é na minha época de
+
+1157
+00:45:34,449 --> 00:45:37,359
+Google trabalhava não tinha de
+
+1158
+00:45:35,559 --> 00:45:39,670
+compiladores a gente fazia código podia
+
+1159
+00:45:37,360 --> 00:45:42,010
+ser era um pouco mais de 20 pessoas
+
+1160
+00:45:39,670 --> 00:45:44,740
+assim só mexendo acontecer a gente
+
+1161
+00:45:42,010 --> 00:45:47,380
+imagina que você queria ser nessa montar
+
+1162
+00:45:44,739 --> 00:45:50,259
+um um compilador de código aberto ele é
+
+1163
+00:45:47,380 --> 00:45:52,329
+mantido por hobbistas né entusiasmadas é
+
+1164
+00:45:50,260 --> 00:45:54,220
+Solitário na mesa dele você vai num de
+
+1165
+00:45:52,329 --> 00:45:55,569
+noite depois do trabalho profissional
+
+1166
+00:45:54,219 --> 00:45:57,849
+deles aqui não tem nada a ver com a
+
+1167
+00:45:55,570 --> 00:45:59,680
+realidade assim que ser hoje é um
+
+1168
+00:45:57,849 --> 00:46:02,469
+compilador extremamente Industrial
+
+1169
+00:45:59,679 --> 00:46:04,329
+senhor lcm que a gente usa pesquisa né
+
+1170
+00:46:02,469 --> 00:46:06,519
+também é um compilador extremamente
+
+1171
+00:46:04,329 --> 00:46:08,289
+Industrial é e vira e mexe aparece
+
+1172
+00:46:06,519 --> 00:46:10,719
+anúncio de emprego Sine tem muita alunos
+
+1173
+00:46:08,289 --> 00:46:12,670
+empregos aqui é para trabalhar com ele
+
+1174
+00:46:10,719 --> 00:46:15,069
+ele vem então é hoje ou é deve ser
+
+1175
+00:46:12,670 --> 00:46:17,320
+mantido pela Google pela Apple
+
+1176
+00:46:15,070 --> 00:46:20,019
+principalmente né por causa dos Swift
+
+1177
+00:46:17,320 --> 00:46:21,789
+então é é gratuito de fato é só será
+
+1178
+00:46:20,019 --> 00:46:23,920
+aberto mas ele é mantido por
+
+1179
+00:46:21,789 --> 00:46:26,300
+profissionais que pagam assim que por
+
+1180
+00:46:23,920 --> 00:46:28,010
+empresa que paga a programar a ver com
+
+1181
+00:46:26,300 --> 00:46:30,950
+essas ferramentas e alguém tem que fazer
+
+1182
+00:46:28,010 --> 00:46:32,600
+isso então existe muito raro existe
+
+1183
+00:46:30,949 --> 00:46:34,759
+muita linguagem de programação Alguém
+
+1184
+00:46:32,599 --> 00:46:36,739
+tem que te faz é construir as pontes
+
+1185
+00:46:34,760 --> 00:46:38,720
+entre uma árvore a linguagem de
+
+1186
+00:46:36,739 --> 00:46:40,489
+programação agora é a maior parte dos
+
+1187
+00:46:38,719 --> 00:46:41,859
+seguintes alunos que forma como eles vão
+
+1188
+00:46:40,489 --> 00:46:44,539
+trabalhar em segurança
+
+1189
+00:46:41,860 --> 00:46:46,640
+segurança internet é analisando o
+
+1190
+00:46:44,539 --> 00:46:49,219
+programa então por exemplo tem o Leandro
+
+1191
+00:46:46,639 --> 00:46:51,769
+que trabalham nas yf os meninos são é
+
+1192
+00:46:49,219 --> 00:46:54,529
+empresa que fazem certa forma segurança
+
+1193
+00:46:51,769 --> 00:46:56,150
+de dados por exemplo eles ficam
+
+1194
+00:46:54,530 --> 00:46:58,910
+condições sintetizador de gramática para
+
+1195
+00:46:56,150 --> 00:47:02,180
+aprender o formato linguagem de log para
+
+1196
+00:46:58,909 --> 00:47:03,679
+saber se é o buscar né para esconder a
+
+1197
+00:47:02,179 --> 00:47:06,109
+informação que seja nós agora com essa
+
+1198
+00:47:03,679 --> 00:47:09,289
+lei de proteção dos dados então é muito
+
+1199
+00:47:06,110 --> 00:47:10,760
+bacana assim oh eles tem o banco de
+
+1200
+00:47:09,289 --> 00:47:12,529
+dados vai tirando logo que eles não
+
+1201
+00:47:10,760 --> 00:47:14,450
+conhecem gramática ele descobre a
+
+1202
+00:47:12,530 --> 00:47:17,150
+gramática daqui é usando técnicas
+
+1203
+00:47:14,449 --> 00:47:20,000
+formais e sintetizam o buscador para
+
+1204
+00:47:17,150 --> 00:47:22,340
+aquelas ferramentas então assim hoje a
+
+1205
+00:47:20,000 --> 00:47:24,889
+gente tem assim é ser essas
+
+1206
+00:47:22,340 --> 00:47:27,870
+possibilidades não é de gerar ferrar Oi
+
+1207
+00:47:24,889 --> 00:47:30,809
+gente alto valor agregado que envolvem a
+
+1208
+00:47:27,869 --> 00:47:33,359
+teoria muito bonita aqui no Brasil mas
+
+1209
+00:47:30,809 --> 00:47:36,210
+para a indústria estrangeira então se eu
+
+1210
+00:47:33,360 --> 00:47:37,740
+vejo os meninos portando eu faço eu falo
+
+1211
+00:47:36,210 --> 00:47:39,449
+meninos mas assim a gente ó uma duas
+
+1212
+00:47:37,739 --> 00:47:41,489
+meninas aqui formaram-se em nosso
+
+1213
+00:47:39,449 --> 00:47:43,739
+laboratório mas é pouco ainda
+
+1214
+00:47:41,489 --> 00:47:45,659
+infelizmente em termos de diversidade a
+
+1215
+00:47:43,739 --> 00:47:48,899
+gente tem é falhado Mas a gente pode
+
+1216
+00:47:45,659 --> 00:47:51,049
+falar essa hora mas mas enfim é hoje eu
+
+1217
+00:47:48,900 --> 00:47:53,639
+acho que é possível a gente suportar
+
+1218
+00:47:51,050 --> 00:47:55,740
+serviço intelectual em vez porta essas
+
+1219
+00:47:53,639 --> 00:47:58,500
+hora de ferro é a gente consegue de fato
+
+1220
+00:47:55,739 --> 00:48:00,689
+sim é receber essa essa esse serviço
+
+1221
+00:47:58,500 --> 00:48:03,059
+você demora de serviço trabalhar com
+
+1222
+00:48:00,690 --> 00:48:06,150
+isso aqui no Brasil e mandar o retorno
+
+1223
+00:48:03,059 --> 00:48:08,009
+na intelectual de volta sem uma cidade
+
+1224
+00:48:06,150 --> 00:48:11,220
+que o mundo é tão tão globalizado e
+
+1225
+00:48:08,010 --> 00:48:13,410
+falando da tua pesquisa é tu tem
+
+1226
+00:48:11,219 --> 00:48:16,049
+diversos artigos publicados sobre a
+
+1227
+00:48:13,409 --> 00:48:17,429
+alocação de registradores que seria isso
+
+1228
+00:48:16,050 --> 00:48:20,280
+e porque esse é um problema é importante
+
+1229
+00:48:17,429 --> 00:48:21,809
+para se investigar científicamente assim
+
+1230
+00:48:20,280 --> 00:48:24,000
+eu fiz o doutorado é uma oração
+
+1231
+00:48:21,809 --> 00:48:25,509
+adminstradores mas não achava algo
+
+1232
+00:48:24,000 --> 00:48:27,460
+fascinante né Esse é um problema
+
+1233
+00:48:25,510 --> 00:48:30,580
+combinatório é que tem aplicação prática
+
+1234
+00:48:27,460 --> 00:48:32,320
+muito grande então os essa que depois
+
+1235
+00:48:30,579 --> 00:48:34,090
+modernas estão passando os computadores
+
+1236
+00:48:32,320 --> 00:48:36,820
+modernos ele tem uma hierarquia de
+
+1237
+00:48:34,090 --> 00:48:39,670
+memória e no topo dessa hierarquia eu
+
+1238
+00:48:36,820 --> 00:48:41,230
+tenho assim os pontos de memória que são
+
+1239
+00:48:39,670 --> 00:48:43,150
+muito rápidos Mas eles existem em
+
+1240
+00:48:41,230 --> 00:48:44,920
+quantidade pequena então é no topo de
+
+1241
+00:48:43,150 --> 00:48:46,869
+Será que eu tenho certificadores então
+
+1242
+00:48:44,920 --> 00:48:48,970
+São Gonçalo unidade de memória é que
+
+1243
+00:48:46,869 --> 00:48:52,869
+existem em quantidade pequena em cima
+
+1244
+00:48:48,969 --> 00:48:55,119
+por exemplo 8 16 32 registradores uma
+
+1245
+00:48:52,869 --> 00:48:58,059
+máquina tem mas que as podem ser lidos e
+
+1246
+00:48:55,119 --> 00:48:59,619
+escritos é sem penalidade no parque lá
+
+1247
+00:48:58,059 --> 00:49:02,440
+em da máquina nessa não precisa fazer um
+
+1248
+00:48:59,619 --> 00:49:04,659
+um louro João Vitor para alterados né
+
+1249
+00:49:02,440 --> 00:49:07,960
+então é como vem deixar as variáveis que
+
+1250
+00:49:04,659 --> 00:49:10,809
+você usadas mais tempo no programa em
+
+1251
+00:49:07,960 --> 00:49:12,490
+registradores então na época que eu fiz
+
+1252
+00:49:10,809 --> 00:49:15,849
+eu acho que na época em que eu trabalhei
+
+1253
+00:49:12,489 --> 00:49:18,449
+com locação de tratores Fronteira linha
+
+1254
+00:49:15,849 --> 00:49:20,650
+né uma de problema deixou de fato de ser
+
+1255
+00:49:18,449 --> 00:49:23,469
+interessante né poucos artigos surgiram
+
+1256
+00:49:20,650 --> 00:49:26,030
+depois então É mas na época a gente ele
+
+1257
+00:49:23,469 --> 00:49:28,099
+percebeu assim eu e ela O que foi foi
+
+1258
+00:49:26,030 --> 00:49:30,350
+até uma coincidência que é programas em
+
+1259
+00:49:28,099 --> 00:49:32,480
+determinado formato é possível fazer
+
+1260
+00:49:30,349 --> 00:49:33,679
+alocação ótima economia esse em qualquer
+
+1261
+00:49:32,480 --> 00:49:37,880
+programa podia ser colocado naquele
+
+1262
+00:49:33,679 --> 00:49:39,919
+formar então é disso veio né o meu
+
+1263
+00:49:37,880 --> 00:49:44,210
+projeto de doutorado o algoritmo acabou
+
+1264
+00:49:39,920 --> 00:49:47,139
+fechado é a gosto da Intel Então é assim
+
+1265
+00:49:44,210 --> 00:49:50,300
+é patente até agora tirou agora em 2019
+
+1266
+00:49:47,139 --> 00:49:53,150
+e a gente mais novo Então esse foi assim
+
+1267
+00:49:50,300 --> 00:49:54,740
+ah o que eu trabalhei durante o
+
+1268
+00:49:53,150 --> 00:49:56,119
+doutorado e depois que eu terminei o
+
+1269
+00:49:54,739 --> 00:49:58,549
+doutorado eu ainda trabalho um pouquinho
+
+1270
+00:49:56,119 --> 00:49:59,719
+com a locação de geradores mas muito
+
+1271
+00:49:58,550 --> 00:50:02,750
+pouco e assim eu achava interessante
+
+1272
+00:49:59,719 --> 00:50:05,089
+Fatos e até hoje acho fascinante que é
+
+1273
+00:50:02,750 --> 00:50:08,420
+muito exceção entre geometria e
+
+1274
+00:50:05,090 --> 00:50:11,390
+linguagem de programação mas é assim eu
+
+1275
+00:50:08,420 --> 00:50:13,490
+comprava de forte assim e 54 já fazia na
+
+1276
+00:50:11,389 --> 00:50:15,739
+caixa registradora então é um problema
+
+1277
+00:50:13,489 --> 00:50:17,779
+que de fato apanhou até morrer da
+
+1278
+00:50:15,739 --> 00:50:20,239
+comunidade de pesquisa é difícil de
+
+1279
+00:50:17,780 --> 00:50:21,790
+levar para os resultados é disso hoje em
+
+1280
+00:50:20,239 --> 00:50:26,129
+alocação utilizados
+
+1281
+00:50:21,789 --> 00:50:27,840
+um artigo seu bastante se tá o killbits
+
+1282
+00:50:26,130 --> 00:50:31,650
+vocês assim que fala que o bicho é
+
+1283
+00:50:27,840 --> 00:50:33,840
+location alocação de bits e que fala
+
+1284
+00:50:31,650 --> 00:50:36,840
+sobre o problema da locação de Clubes em
+
+1285
+00:50:33,840 --> 00:50:39,269
+computadores quânticos O que diferencia
+
+1286
+00:50:36,840 --> 00:50:41,610
+as linguagens de programação atuais das
+
+1287
+00:50:39,269 --> 00:50:43,170
+possíveis futuras linguagens para
+
+1288
+00:50:41,610 --> 00:50:44,970
+computadores quânticos não sei se já
+
+1289
+00:50:43,170 --> 00:50:47,550
+existem linguagens para computadores
+
+1290
+00:50:44,969 --> 00:50:48,839
+quânticos e talvez vale apenas os
+
+1291
+00:50:47,550 --> 00:50:51,600
+introduzir para aqui para a nossa
+
+1292
+00:50:48,840 --> 00:50:54,630
+audiência O que é um computador quântico
+
+1293
+00:50:51,599 --> 00:50:56,639
+é esse esse aqui o Pizza location ele
+
+1294
+00:50:54,630 --> 00:50:58,680
+foi trabalho do Marcos do Marcos e o tio
+
+1295
+00:50:56,639 --> 00:51:00,599
+é o que hoje faz doutorado na
+
+1296
+00:50:58,679 --> 00:51:02,339
+universidade de Tóquio ele ganhou essa
+
+1297
+00:51:00,599 --> 00:51:04,199
+dissertação do SPC desse concurso de
+
+1298
+00:51:02,340 --> 00:51:07,950
+dissertações tá se você das pessoas que
+
+1299
+00:51:04,199 --> 00:51:10,529
+passam é com esse trabalho então é o Max
+
+1300
+00:51:07,949 --> 00:51:12,629
+genial né então o médico disso é todo
+
+1301
+00:51:10,530 --> 00:51:14,040
+mesmo o senhor se ele ficar no Japão
+
+1302
+00:51:12,630 --> 00:51:16,530
+Japão ganha muito se ele voltar pro
+
+1303
+00:51:14,039 --> 00:51:18,119
+Brasil a gente que Mas enfim então é
+
+1304
+00:51:16,530 --> 00:51:19,890
+deixa começa a última pergunta não quer
+
+1305
+00:51:18,119 --> 00:51:24,029
+computador quântico é um computador
+
+1306
+00:51:19,889 --> 00:51:26,710
+quântico ele é um uma calculadora super
+
+1307
+00:51:24,030 --> 00:51:28,690
+especializada bom então é um eu posso
+
+1308
+00:51:26,710 --> 00:51:31,539
+imaginar eu acho que é melhor talvez uma
+
+1309
+00:51:28,690 --> 00:51:34,599
+analogia seria imaginar um computador
+
+1310
+00:51:31,539 --> 00:51:36,340
+ponte como uma GPU sentar as cálculos
+
+1311
+00:51:34,599 --> 00:51:37,869
+superespecializados é claro que o
+
+1312
+00:51:36,340 --> 00:51:40,150
+computador quântico graduação em
+
+1313
+00:51:37,869 --> 00:51:42,519
+computação gráfica né mas ele faz
+
+1314
+00:51:40,150 --> 00:51:44,740
+cálculo superespecializados ele consegue
+
+1315
+00:51:42,519 --> 00:51:47,110
+é capitalizar em cima de fenômenos
+
+1316
+00:51:44,739 --> 00:51:49,079
+quânticos É principalmente essa é uma
+
+1317
+00:51:47,110 --> 00:51:53,680
+coisa que os físicos gosta de chamar de
+
+1318
+00:51:49,079 --> 00:51:56,079
+sobreposição então é um um estado
+
+1319
+00:51:53,679 --> 00:51:58,149
+quântico ele na verdade é um ajuntamento
+
+1320
+00:51:56,079 --> 00:52:00,250
+de probabilidades de estado quando você
+
+1321
+00:51:58,150 --> 00:52:03,660
+mede o estado só mas assim a vários
+
+1322
+00:52:00,250 --> 00:52:06,099
+probabilidades ele é de estados então é
+
+1323
+00:52:03,659 --> 00:52:08,829
+enquanto você não mede todos Eles
+
+1324
+00:52:06,099 --> 00:52:11,079
+continuam é o curioso até quando todos
+
+1325
+00:52:08,829 --> 00:52:13,239
+eles continue assistindo assim é mesmo
+
+1326
+00:52:11,079 --> 00:52:14,769
+que seja somente as prováveis é para
+
+1327
+00:52:13,239 --> 00:52:16,719
+fins de cálculo Eles continuam existindo
+
+1328
+00:52:14,769 --> 00:52:18,420
+então é possível usar um computador
+
+1329
+00:52:16,719 --> 00:52:21,029
+quântico para
+
+1330
+00:52:18,420 --> 00:52:22,960
+simular uma quantidade de policial de
+
+1331
+00:52:21,030 --> 00:52:24,400
+representar quantidades potencial de
+
+1332
+00:52:22,960 --> 00:52:25,389
+estados então se eu tenho ele que eu
+
+1333
+00:52:24,400 --> 00:52:28,340
+pizza o
+
+1334
+00:52:25,389 --> 00:52:29,839
+design é estados possíveis ainda que só
+
+1335
+00:52:28,340 --> 00:52:32,030
+tem um estado ali todas as
+
+1336
+00:52:29,840 --> 00:52:33,950
+probabilidades de estados elas a gente
+
+1337
+00:52:32,030 --> 00:52:36,680
+vai fazer cálculos com elas é computação
+
+1338
+00:52:33,949 --> 00:52:38,750
+computadores quânticos eles podem
+
+1339
+00:52:36,679 --> 00:52:42,349
+acelerar o acredito que naqueles podem
+
+1340
+00:52:38,750 --> 00:52:44,570
+acelerar é comutação e seriam não tem
+
+1341
+00:52:42,349 --> 00:52:45,469
+factíveis no computador clássico eu acho
+
+1342
+00:52:44,570 --> 00:52:48,530
+que vai dar exemplo talvez você
+
+1343
+00:52:45,469 --> 00:52:50,269
+fatoração de números primos Então existe
+
+1344
+00:52:48,530 --> 00:52:52,190
+um algoritmo alguns algoritmos de
+
+1345
+00:52:50,269 --> 00:52:54,440
+fatoração em computadores quânticos é o
+
+1346
+00:52:52,190 --> 00:52:56,420
+principal algoritmo de shor então é é
+
+1347
+00:52:54,440 --> 00:52:58,510
+possível faturar pelo menos em princípio
+
+1348
+00:52:56,420 --> 00:53:02,480
+na teoria números primos muito grandes
+
+1349
+00:52:58,510 --> 00:53:04,580
+usando esse fenômeno disse preposição e
+
+1350
+00:53:02,480 --> 00:53:07,369
+a menstruação posterior então É nesse
+
+1351
+00:53:04,579 --> 00:53:10,340
+sentido a bom sem os físicos e os
+
+1352
+00:53:07,369 --> 00:53:11,929
+cientistas tentação acreditam que a
+
+1353
+00:53:10,340 --> 00:53:14,720
+computação quântica pode fazer mudar
+
+1354
+00:53:11,929 --> 00:53:16,639
+algumas áreas da Computação como busca
+
+1355
+00:53:14,719 --> 00:53:18,829
+em banco de dados a criptografia né Por
+
+1356
+00:53:16,639 --> 00:53:20,779
+causa da essa questão da Federação Então
+
+1357
+00:53:18,829 --> 00:53:23,269
+são essas Procuradores é super
+
+1358
+00:53:20,780 --> 00:53:26,370
+especializados é esse algumas físicas
+
+1359
+00:53:23,269 --> 00:53:28,739
+hoje né a IBM para e é Como consegue
+
+1360
+00:53:26,369 --> 00:53:30,630
+comercializar computadores quânticos é é
+
+1361
+00:53:28,739 --> 00:53:33,269
+possível inclusive utilizar computadores
+
+1362
+00:53:30,630 --> 00:53:35,519
+quânticos na um serviço de nuvem da IBM
+
+1363
+00:53:33,269 --> 00:53:37,139
+Mas eles em poucos clubes então você não
+
+1364
+00:53:35,519 --> 00:53:38,849
+é algo necessário para atingir o que a
+
+1365
+00:53:37,139 --> 00:53:42,269
+gente na área de supremacia conte e
+
+1366
+00:53:38,849 --> 00:53:43,949
+mesmo aparecer essa aqui Essa oração é
+
+1367
+00:53:42,269 --> 00:53:45,630
+assim até surdina relatórios números
+
+1368
+00:53:43,949 --> 00:53:47,099
+grandes que foram para tornar fazer mais
+
+1369
+00:53:45,630 --> 00:53:49,140
+a gente o maior número de Eldorado assim
+
+1370
+00:53:47,099 --> 00:53:52,500
+consistentemente até hoje eu Suponho
+
+1371
+00:53:49,139 --> 00:53:55,679
+seja 15 então é mas eu imagino que assim
+
+1372
+00:53:52,500 --> 00:53:57,119
+É já é possível passar disso é óbvio né
+
+1373
+00:53:55,679 --> 00:53:59,369
+mas assim talvez uma certa consistência
+
+1374
+00:53:57,119 --> 00:54:01,109
+é isso ainda é um pouco fugidinha né Tem
+
+1375
+00:53:59,369 --> 00:54:04,170
+muito erro computação quântica tem muito
+
+1376
+00:54:01,110 --> 00:54:05,700
+erro eu te de mensurar Essa agora é E
+
+1377
+00:54:04,170 --> 00:54:08,550
+essas arquiteturas agora tem que ser
+
+1378
+00:54:05,699 --> 00:54:10,559
+programadas então esse senão a gente de
+
+1379
+00:54:08,550 --> 00:54:12,960
+programação para comprar Sampaio mas eu
+
+1380
+00:54:10,559 --> 00:54:14,909
+acho que tem um dia analogia é hoje o
+
+1381
+00:54:12,960 --> 00:54:17,099
+que a gente tem de abstração para
+
+1382
+00:54:14,909 --> 00:54:18,659
+programação de computador quântico seria
+
+1383
+00:54:17,099 --> 00:54:21,329
+mais ou menos um círculo de portas
+
+1384
+00:54:18,659 --> 00:54:24,329
+lógicas então é pior do que acendem em
+
+1385
+00:54:21,329 --> 00:54:26,769
+termos de abstração ou programador vai
+
+1386
+00:54:24,329 --> 00:54:29,440
+escrevendo é realmente plugando portas
+
+1387
+00:54:26,769 --> 00:54:33,519
+lógicas é essas portas assim sem uma
+
+1388
+00:54:29,440 --> 00:54:37,200
+lojinha né mas são operações que a gente
+
+1389
+00:54:33,519 --> 00:54:39,820
+executa sobre estes que são É de fato é
+
+1390
+00:54:37,199 --> 00:54:42,279
+essa unidade de armazenamento de dados
+
+1391
+00:54:39,820 --> 00:54:45,250
+que podem ser sobrepostas e que de fato
+
+1392
+00:54:42,280 --> 00:54:47,140
+são passíveis de efeitos quânticos Então
+
+1393
+00:54:45,250 --> 00:54:49,570
+a gente tem alguns operadores para
+
+1394
+00:54:47,139 --> 00:54:53,019
+sobrepor kyubit para fazer o quê de mim
+
+1395
+00:54:49,570 --> 00:54:54,910
+tem bônus dos times têm operadores para
+
+1396
+00:54:53,019 --> 00:54:59,409
+Leis Que objeto alterar as diversas
+
+1397
+00:54:54,909 --> 00:55:01,899
+formas ou caso me deu é o que é a SMT a
+
+1398
+00:54:59,409 --> 00:55:04,420
+linguagem mais comum em e compra em
+
+1399
+00:55:01,900 --> 00:55:06,220
+contato quântica né ela parece com a
+
+1400
+00:55:04,420 --> 00:55:09,010
+partitura musical assim a cada nota
+
+1401
+00:55:06,219 --> 00:55:12,099
+seria uma porta lógica e a gente tem o
+
+1402
+00:55:09,010 --> 00:55:15,370
+fluxo de tempo do programa né como as
+
+1403
+00:55:12,099 --> 00:55:18,279
+minhas musicais então assim ainda são
+
+1404
+00:55:15,369 --> 00:55:20,079
+são linguagens carecem de de Abstrações
+
+1405
+00:55:18,280 --> 00:55:22,840
+Net programação pois não faz muito
+
+1406
+00:55:20,079 --> 00:55:25,670
+sentido tem muitas situações quando a
+
+1407
+00:55:22,840 --> 00:55:27,829
+gente consegue manipular 5 e para sempre
+
+1408
+00:55:25,670 --> 00:55:30,019
+na verdade mesmo que isso transformar é
+
+1409
+00:55:27,829 --> 00:55:32,809
+confiável então É mas é algo que
+
+1410
+00:55:30,019 --> 00:55:34,820
+provavelmente ainda tem entende assim já
+
+1411
+00:55:32,809 --> 00:55:37,389
+falei demais e sem algo que vai deve
+
+1412
+00:55:34,820 --> 00:55:39,880
+comer demais e Fernanda
+
+1413
+00:55:37,389 --> 00:55:42,559
+como estudantes entusiastas
+
+1414
+00:55:39,880 --> 00:55:44,480
+podem contribuir para o desenvolvimento
+
+1415
+00:55:42,559 --> 00:55:48,679
+de linguagem de programação de código
+
+1416
+00:55:44,480 --> 00:55:52,490
+livre hoje hoje isso é muito fácil né
+
+1417
+00:55:48,679 --> 00:55:54,829
+porque muda muito pedindo então é a
+
+1418
+00:55:52,489 --> 00:55:56,599
+maior parte das linguagens as imagens
+
+1419
+00:55:54,829 --> 00:55:59,119
+mais populares hoje elas são abertas por
+
+1420
+00:55:56,599 --> 00:56:01,429
+exemplo e em ferramentas mais populares
+
+1421
+00:55:59,119 --> 00:56:04,219
+eu tenho vence abertas também a gente
+
+1422
+00:56:01,429 --> 00:56:07,009
+usa muito lvn para fazer pesquisa ou ela
+
+1423
+00:56:04,219 --> 00:56:09,559
+vem minha mãe fruto de compilação e são
+
+1424
+00:56:07,010 --> 00:56:12,710
+é uma sigla para ela leva o show na
+
+1425
+00:56:09,559 --> 00:56:15,500
+China então é um compilador industrial
+
+1426
+00:56:12,710 --> 00:56:18,280
+de código aberto com a comunidade super
+
+1427
+00:56:15,500 --> 00:56:21,409
+receptivo inclusive Então é os alunos
+
+1428
+00:56:18,280 --> 00:56:22,720
+ex-alunos e entusiastas né hoje eles
+
+1429
+00:56:21,409 --> 00:56:25,859
+conseguem por exemplo
+
+1430
+00:56:22,719 --> 00:56:27,500
+resolver bancos né pegar ela é aberto
+
+1431
+00:56:25,860 --> 00:56:30,900
+nessas linguagens consegue resolver
+
+1432
+00:56:27,500 --> 00:56:32,670
+vários desses bancos eles conseguem
+
+1433
+00:56:30,900 --> 00:56:35,250
+interagir com a comunidade via fórum
+
+1434
+00:56:32,670 --> 00:56:37,440
+Então essa em cada comunidade tem a sua
+
+1435
+00:56:35,250 --> 00:56:40,949
+o seu canal de comunicação né ainda tem
+
+1436
+00:56:37,440 --> 00:56:42,780
+fóruns de emails não tem tempo discordo
+
+1437
+00:56:40,949 --> 00:56:44,039
+é vários tipos diferentes canais de
+
+1438
+00:56:42,780 --> 00:56:46,470
+comunicação então assim é possível
+
+1439
+00:56:44,039 --> 00:56:48,420
+entrar nessa comunidade até respondendo
+
+1440
+00:56:46,469 --> 00:56:50,159
+perguntas por exemplo e tem essas
+
+1441
+00:56:48,420 --> 00:56:52,230
+iniciativas abertas né que são
+
+1442
+00:56:50,159 --> 00:56:52,849
+financiadas por grandes empresas por
+
+1443
+00:56:52,230 --> 00:56:56,880
+exemplo
+
+1444
+00:56:52,849 --> 00:56:58,500
+a Google tem o Summer of code então em
+
+1445
+00:56:56,880 --> 00:56:59,789
+vários alunos aqui do lac no trabalho a
+
+1446
+00:56:58,500 --> 00:57:02,340
+taxa acumulada hoje é participar não
+
+1447
+00:56:59,789 --> 00:57:04,679
+sabe os posts em várias embaixo cima
+
+1448
+00:57:02,340 --> 00:57:06,630
+diferentes não a gente a TV dois na Rose
+
+1449
+00:57:04,679 --> 00:57:09,690
+lá assim para desenvolver o compilador
+
+1450
+00:57:06,630 --> 00:57:11,910
+Java scripts já teve três com lvm a
+
+1451
+00:57:09,690 --> 00:57:15,119
+gente teve um só não ficou descongelar
+
+1452
+00:57:11,909 --> 00:57:19,139
+gás e que é o compilador derretam então
+
+1453
+00:57:15,119 --> 00:57:22,289
+é o aluno recebe uma como uma bolsa né
+
+1454
+00:57:19,139 --> 00:57:25,750
+Assim hoje hoje é só que eu acho que só
+
+1455
+00:57:22,289 --> 00:57:28,779
+é $5000 eu fazer um trabalho Há quase
+
+1456
+00:57:25,750 --> 00:57:30,760
+quatro meses e e nesse assim tem ele vai
+
+1457
+00:57:28,780 --> 00:57:33,250
+entrar com tutor da comunidade quase
+
+1458
+00:57:30,760 --> 00:57:34,810
+aberto mas há outras também né Por
+
+1459
+00:57:33,250 --> 00:57:37,480
+exemplo a linguagem de negócio
+
+1460
+00:57:34,809 --> 00:57:41,019
+programação dele financiou o Wilson
+
+1461
+00:57:37,480 --> 00:57:42,730
+ficou deles então eles têm o Então a
+
+1462
+00:57:41,019 --> 00:57:45,369
+gente tem um aluno bolsista também que
+
+1463
+00:57:42,730 --> 00:57:47,980
+contribuiu para a linguagem dele então
+
+1464
+00:57:45,369 --> 00:57:51,549
+assim a várias dessas iniciativas mas eu
+
+1465
+00:57:47,980 --> 00:57:54,579
+acho que o o primeiro caminho é buscar
+
+1466
+00:57:51,550 --> 00:57:56,500
+conhecer a comunidade sem ler os fóruns
+
+1467
+00:57:54,579 --> 00:57:58,840
+é possível alguém ser a resolver algum
+
+1468
+00:57:56,500 --> 00:58:01,329
+algum Bank É possivelmente responde a
+
+1469
+00:57:58,840 --> 00:58:03,789
+perguntas assim até mesmo no exterior
+
+1470
+00:58:01,329 --> 00:58:05,319
+overflow que é possível que seja a
+
+1471
+00:58:03,789 --> 00:58:08,079
+ferramenta mais útil que a gente para
+
+1472
+00:58:05,320 --> 00:58:10,539
+todos os programadores Então é eu acho
+
+1473
+00:58:08,079 --> 00:58:12,880
+que você tenta buscar inicialmente é
+
+1474
+00:58:10,539 --> 00:58:14,710
+conhecer a comunidade bem interessante
+
+1475
+00:58:12,880 --> 00:58:17,200
+eu concordo plenamente com essa
+
+1476
+00:58:14,710 --> 00:58:18,909
+comunidade eu aproveito e faço um lanche
+
+1477
+00:58:17,199 --> 00:58:20,529
+aqui para o pessoal da Islândia
+
+1478
+00:58:18,909 --> 00:58:22,029
+consciência fondation Se alguém quiser
+
+1479
+00:58:20,530 --> 00:58:24,800
+especificamente contribui com a
+
+1480
+00:58:22,030 --> 00:58:27,320
+comunidade de elixir Lang tem os outros
+
+1481
+00:58:24,800 --> 00:58:29,810
+em qualquer pessoa pode entrar fazer
+
+1482
+00:58:27,320 --> 00:58:32,090
+parte da fundação e e dá até para
+
+1483
+00:58:29,809 --> 00:58:34,070
+conseguir alguma ajuda financeira casar
+
+1484
+00:58:32,090 --> 00:58:36,440
+eu quero resolver esse problema aqui é
+
+1485
+00:58:34,070 --> 00:58:37,910
+uma não sei dizer não acompanha as
+
+1486
+00:58:36,440 --> 00:58:39,590
+outras comunidades mas sei que nessa
+
+1487
+00:58:37,909 --> 00:58:41,929
+comunidade tem a possibilidade de óleo
+
+1488
+00:58:39,590 --> 00:58:44,360
+preciso de dinheiro para quero fazer
+
+1489
+00:58:41,929 --> 00:58:46,399
+isso aqui ou você pede o dinheiro como é
+
+1490
+00:58:44,360 --> 00:58:48,110
+que foi estudante até de dinheiro às
+
+1491
+00:58:46,400 --> 00:58:49,730
+vezes não dá o dinheiro mas ele te dão
+
+1492
+00:58:48,110 --> 00:58:52,190
+um ingresso para eventos né que
+
+1493
+00:58:49,730 --> 00:58:53,840
+ultimamente só tem acontecido online mas
+
+1494
+00:58:52,190 --> 00:58:55,700
+aí agora a gente vai chegar naquela
+
+1495
+00:58:53,840 --> 00:58:58,640
+pergunta que meio que define o nosso
+
+1496
+00:58:55,699 --> 00:59:00,589
+podcast mas eu já aviso que a gente não
+
+1497
+00:58:58,639 --> 00:59:03,109
+espera que você Prevejo o futuro somente
+
+1498
+00:59:00,590 --> 00:59:05,030
+que você diga alguma coisa que você acha
+
+1499
+00:59:03,110 --> 00:59:07,280
+que vai acontecer que pode acontecer
+
+1500
+00:59:05,030 --> 00:59:11,019
+para você Fernando Qual é a próxima
+
+1501
+00:59:07,280 --> 00:59:15,560
+fronteira da engenharia de software
+
+1502
+00:59:11,019 --> 00:59:18,650
+essa bom de fato eu acho que talvez a
+
+1503
+00:59:15,559 --> 00:59:21,380
+fronteira algo que vai acontecer é que
+
+1504
+00:59:18,650 --> 00:59:24,110
+programação vai se tornar é algo de todo
+
+1505
+00:59:21,380 --> 00:59:26,400
+mundo é pai também mostrando isso né a
+
+1506
+00:59:24,110 --> 00:59:28,680
+gente tem O que é programadores formados
+
+1507
+00:59:26,400 --> 00:59:30,720
+em cursos técnicos de informática
+
+1508
+00:59:28,679 --> 00:59:33,629
+experiência com minha esposa programa
+
+1509
+00:59:30,719 --> 00:59:36,480
+pouco em paz e ela nunca fez essa
+
+1510
+00:59:33,630 --> 00:59:38,640
+comparação é ela mexe com bioquímica da
+
+1511
+00:59:36,480 --> 00:59:41,039
+professora também e eu vejo muito isso
+
+1512
+00:59:38,639 --> 00:59:42,690
+no na próxima doação de bioinformática
+
+1513
+00:59:41,039 --> 00:59:45,029
+as pessoas programa limpar então por
+
+1514
+00:59:42,690 --> 00:59:47,369
+exemplo então é tá então tem
+
+1515
+00:59:45,030 --> 00:59:49,980
+popularizado a programação isso a gente
+
+1516
+00:59:47,369 --> 00:59:51,420
+pensa bem é mais da metade da população
+
+1517
+00:59:49,980 --> 00:59:54,539
+do mundo tem um telefone celular por
+
+1518
+00:59:51,420 --> 00:59:56,639
+exemplo assim vai baixar o que a gente
+
+1519
+00:59:54,539 --> 00:59:58,889
+mude é para você vai interagir com
+
+1520
+00:59:56,639 --> 01:00:01,829
+aquilo é quantas pessoas fazem esses
+
+1521
+00:59:58,889 --> 01:00:04,349
+apps não é impressionante que no mundo
+
+1522
+01:00:01,829 --> 01:00:07,079
+de sete milhões e meio de pessoas a
+
+1523
+01:00:04,349 --> 01:00:09,389
+quantidade de pessoas escrevem os
+
+1524
+01:00:07,079 --> 01:00:11,639
+programas que todo mundo usa é tão
+
+1525
+01:00:09,389 --> 01:00:13,609
+pequena assim é quantas pessoas
+
+1526
+01:00:11,639 --> 01:00:17,579
+influentes em linguagem de programação
+
+1527
+01:00:13,610 --> 01:00:19,320
+no meio dessa 7.5 é milhões de pessoas
+
+1528
+01:00:17,579 --> 01:00:20,909
+será que a gente encontra 100 milhões de
+
+1529
+01:00:19,320 --> 01:00:24,059
+pessoas que conseguem escrever programas
+
+1530
+01:00:20,909 --> 01:00:27,069
+assim programa só vai 50 é linhas de
+
+1531
+01:00:24,059 --> 01:00:29,380
+código e é possivelmente que não é eu
+
+1532
+01:00:27,070 --> 01:00:32,260
+não sei assim 100 milhões de pessoas no
+
+1533
+01:00:29,380 --> 01:00:35,590
+grande excesso de compensar É nisso
+
+1534
+01:00:32,260 --> 01:00:39,360
+então eu acho que programação ela tende
+
+1535
+01:00:35,590 --> 01:00:42,760
+a se tornar algo cada vez mais presente
+
+1536
+01:00:39,360 --> 01:00:43,750
+na vida das pessoas por exemplo fazendo
+
+1537
+01:00:42,760 --> 01:00:46,210
+parte do currículo de escolas
+
+1538
+01:00:43,750 --> 01:00:49,119
+secundárias secundaristas por exemplo e
+
+1539
+01:00:46,210 --> 01:00:51,970
+tchau que vai acontecer também é que a
+
+1540
+01:00:49,119 --> 01:00:55,389
+programação da desvencilha em um pouco
+
+1541
+01:00:51,969 --> 01:00:57,669
+do formalismo de uma sim táxi é algo que
+
+1542
+01:00:55,389 --> 01:01:00,009
+eu vejo muito em em conferência de
+
+1543
+01:00:57,670 --> 01:01:01,869
+linguagem programação são artigos sobre
+
+1544
+01:01:00,010 --> 01:01:04,540
+síntese de programas e a gente vai isso
+
+1545
+01:01:01,869 --> 01:01:06,219
+na prática né que usa Excel é talvez
+
+1546
+01:01:04,539 --> 01:01:07,809
+tenha percebido mas não é que saiu hoje
+
+1547
+01:01:06,219 --> 01:01:10,359
+consegue sintetizar alguns programas não
+
+1548
+01:01:07,809 --> 01:01:12,849
+triviais é a parte de exemplos eu tenho
+
+1549
+01:01:10,360 --> 01:01:16,269
+a coluna eu marco alguns elementos na
+
+1550
+01:01:12,849 --> 01:01:18,460
+coluna é eu escrevo a a saída do que eu
+
+1551
+01:01:16,269 --> 01:01:21,579
+quero e ele consegue sintetizar por
+
+1552
+01:01:18,460 --> 01:01:23,230
+exemplo transformar o formato de data em
+
+1553
+01:01:21,579 --> 01:01:26,090
+outros formatos de data não é a partir
+
+1554
+01:01:23,230 --> 01:01:28,070
+de exemplos que usuários e tchau muito
+
+1555
+01:01:26,090 --> 01:01:30,140
+trabalho até uma pessoa só né que eu
+
+1556
+01:01:28,070 --> 01:01:34,070
+sumi seguro ano eu tentei aqui no Brasil
+
+1557
+01:01:30,139 --> 01:01:35,750
+2015 talvez 2015 não não não seja sorte
+
+1558
+01:01:34,070 --> 01:01:38,090
+ou é que você achou a síntese de
+
+1559
+01:01:35,750 --> 01:01:40,219
+programa o Google spreadsheet ele
+
+1560
+01:01:38,090 --> 01:01:41,360
+sintetiza alguns programas muito simples
+
+1561
+01:01:40,219 --> 01:01:44,329
+né ele consegue a parte de alguns
+
+1562
+01:01:41,360 --> 01:01:46,309
+exemplos é preencher colunas por exemplo
+
+1563
+01:01:44,329 --> 01:01:47,840
+Então eu imagino que se Universo de
+
+1564
+01:01:46,309 --> 01:01:50,119
+síntese né assim a partir da
+
+1565
+01:01:47,840 --> 01:01:52,789
+especificação de altíssimo nível que é
+
+1566
+01:01:50,119 --> 01:01:54,829
+assim que a ferramenta né máquina seja
+
+1567
+01:01:52,789 --> 01:01:56,869
+capaz de sintetizar um código que atenda
+
+1568
+01:01:54,829 --> 01:01:59,029
+daquela especificação eu acredito que
+
+1569
+01:01:56,869 --> 01:02:01,099
+isso tende a se tornar ao cada vez mais
+
+1570
+01:01:59,030 --> 01:02:03,530
+corriqueiro cada vez mais comum É
+
+1571
+01:02:01,099 --> 01:02:06,309
+principalmente para trazer programação
+
+1572
+01:02:03,530 --> 01:02:09,080
+para junto das pessoas que não são
+
+1573
+01:02:06,309 --> 01:02:11,449
+expert em programação temos que fizeram
+
+1574
+01:02:09,079 --> 01:02:14,029
+curso de complexidade aqui não precisa
+
+1575
+01:02:11,449 --> 01:02:16,069
+no curso de algoritmos que não são
+
+1576
+01:02:14,030 --> 01:02:18,769
+fluentes na syntax for Mouse embaixo
+
+1577
+01:02:16,070 --> 01:02:21,410
+programação então Imagino que e aqui a
+
+1578
+01:02:18,769 --> 01:02:24,949
+gente milhões de desafios né porque
+
+1579
+01:02:21,409 --> 01:02:27,509
+situações formais Elas têm assim o pé a
+
+1580
+01:02:24,949 --> 01:02:31,139
+línguas então começa que lidar com
+
+1581
+01:02:27,510 --> 01:02:33,270
+qualquer ambiguidade mas mas a gente tem
+
+1582
+01:02:31,139 --> 01:02:35,039
+todo um ferramental de processamento de
+
+1583
+01:02:33,269 --> 01:02:37,320
+linguagens naturais que já vem sendo
+
+1584
+01:02:35,039 --> 01:02:39,210
+adotado em em desenvolvimento de
+
+1585
+01:02:37,320 --> 01:02:41,180
+programas né então talvez seja uma
+
+1586
+01:02:39,210 --> 01:02:44,429
+consequência desse
+
+1587
+01:02:41,179 --> 01:02:46,799
+dessa popularidade é popularidade do de
+
+1588
+01:02:44,429 --> 01:02:49,469
+técnicas de aprendizagem automaticamente
+
+1589
+01:02:46,800 --> 01:02:52,440
+regressões estocando as dicas Então eu
+
+1590
+01:02:49,469 --> 01:02:55,199
+imagino que o que vai algo que tem de
+
+1591
+01:02:52,440 --> 01:02:57,750
+acontecer isso que cada vez mais pessoas
+
+1592
+01:02:55,199 --> 01:02:59,819
+que não seja espertas é tem a
+
+1593
+01:02:57,750 --> 01:03:02,010
+possibilidade de escrever programas é
+
+1594
+01:02:59,820 --> 01:03:04,289
+programas complexos assim programas
+
+1595
+01:03:02,010 --> 01:03:06,300
+nível app sim que consegue interagir com
+
+1596
+01:03:04,289 --> 01:03:08,400
+usuários e consegue fazer cores esse
+
+1597
+01:03:06,300 --> 01:03:10,769
+monte complexo essa sua resposta Me
+
+1598
+01:03:08,400 --> 01:03:12,570
+lembrou um pouco do trabalho da Celine
+
+1599
+01:03:10,769 --> 01:03:14,219
+Hair mas não sei se você já ouviu falar
+
+1600
+01:03:12,570 --> 01:03:16,110
+o trabalho dela que ela acho que ela fez
+
+1601
+01:03:14,219 --> 01:03:18,119
+doutorado sobre planilhas Eu acho que o
+
+1602
+01:03:16,110 --> 01:03:20,280
+orientador dela eu lembro que ela tem
+
+1603
+01:03:18,119 --> 01:03:21,989
+como que você quiser encontrar da
+
+1604
+01:03:20,280 --> 01:03:25,230
+felinos se encontra palestras que ela
+
+1605
+01:03:21,989 --> 01:03:27,759
+vai eventos de pessoas resolvi a
+
+1606
+01:03:25,230 --> 01:03:30,849
+escrever um livro agora de programas
+
+1607
+01:03:27,760 --> 01:03:34,960
+Breno então tem ela ela própria era
+
+1608
+01:03:30,849 --> 01:03:38,440
+co-host eu acho ainda tu S rádio né que
+
+1609
+01:03:34,960 --> 01:03:40,210
+é o podcast da três é não me engano mas
+
+1610
+01:03:38,440 --> 01:03:42,190
+ela falou que ela ela foi fazer o
+
+1611
+01:03:40,210 --> 01:03:43,480
+dourado e o orientador Gustavo vai lá
+
+1612
+01:03:42,190 --> 01:03:46,329
+naquele lugar onde pessoal tá usando
+
+1613
+01:03:43,480 --> 01:03:48,519
+planilha e Bolinha uma dsl Aí eu disse
+
+1614
+01:03:46,329 --> 01:03:51,130
+não não preciso pessoal tá você tá
+
+1615
+01:03:48,519 --> 01:03:53,469
+fazendo programação companhia né Essa é
+
+1616
+01:03:51,130 --> 01:03:55,059
+a ideia geral que eu lembro o trabalho
+
+1617
+01:03:53,469 --> 01:03:57,369
+dela E aí eu acho que ela fez o trabalho
+
+1618
+01:03:55,059 --> 01:03:58,929
+sobre Bad smell sem planilhas mas depois
+
+1619
+01:03:57,369 --> 01:04:01,420
+ela já fez muita coisa a gente já faz
+
+1620
+01:03:58,929 --> 01:04:04,210
+uns 5 6 anos pelo menos então eu
+
+1621
+01:04:01,420 --> 01:04:05,769
+agradeço muito Fernando Foi um prazer
+
+1622
+01:04:04,210 --> 01:04:07,840
+conversar com você novamente a gente
+
+1623
+01:04:05,769 --> 01:04:10,409
+conversou presencialmente naquela época
+
+1624
+01:04:07,840 --> 01:04:12,460
+do passado que existiam eventos
+
+1625
+01:04:10,409 --> 01:04:14,440
+presenciais né lá no simpósio brasileiro
+
+1626
+01:04:12,460 --> 01:04:16,510
+de engenharia de software para quem não
+
+1627
+01:04:14,440 --> 01:04:18,369
+sabe quem nunca foi cidade assim o
+
+1628
+01:04:16,510 --> 01:04:19,870
+Congresso Brasileiro de software dentro
+
+1629
+01:04:18,369 --> 01:04:21,250
+dele que é o simpósio brasileiro de
+
+1630
+01:04:19,869 --> 01:04:22,809
+engenharia de software e teu simpósio
+
+1631
+01:04:21,250 --> 01:04:24,800
+brasileiro de linguagem de programação
+
+1632
+01:04:22,809 --> 01:04:26,779
+né geralmente é um pouquinho menor o
+
+1633
+01:04:24,800 --> 01:04:29,300
+engenheiro de software mais sem
+
+1634
+01:04:26,780 --> 01:04:31,100
+interessante ficar todo mundo junto lá e
+
+1635
+01:04:29,300 --> 01:04:33,430
+dá para interagir a comunidade de
+
+1636
+01:04:31,099 --> 01:04:35,299
+linguagem de programação com as diversas
+
+1637
+01:04:33,429 --> 01:04:37,369
+subcomunidades engenharia de software
+
+1638
+01:04:35,300 --> 01:04:40,220
+Então passa a palavra para você Fernando
+
+1639
+01:04:37,369 --> 01:04:43,460
+para você se despedir dos nossos nossos
+
+1640
+01:04:40,219 --> 01:04:45,069
+ouvidos é Eu que agradeço a oportunidade
+
+1641
+01:04:43,460 --> 01:04:48,889
+tá aqui
+
+1642
+01:04:45,070 --> 01:04:51,890
+sim o sblp ele acontece junto com o S10
+
+1643
+01:04:48,889 --> 01:04:54,710
+Eu já vi vocês dois né mas sabe a Ingrid
+
+1644
+01:04:51,889 --> 01:04:56,599
+na você dorme também e algo interessante
+
+1645
+01:04:54,710 --> 01:04:58,159
+aqui assim você falou que o expert tepee
+
+1646
+01:04:56,599 --> 01:05:00,589
+que não der comparado com esse Best
+
+1647
+01:04:58,159 --> 01:05:02,569
+Western que é microscópico não é a nossa
+
+1648
+01:05:00,590 --> 01:05:06,110
+comunidade linguagem programação aqui no
+
+1649
+01:05:02,570 --> 01:05:08,720
+Brasil ela é pequenininha cima o que é
+
+1650
+01:05:06,110 --> 01:05:10,490
+uma tenda porque fui eu porque o Brasil
+
+1651
+01:05:08,719 --> 01:05:13,009
+ele tem uma certa tradição em linguagens
+
+1652
+01:05:10,489 --> 01:05:14,779
+de programação da medida de que possa a
+
+1653
+01:05:13,010 --> 01:05:16,580
+gente vai o José valia brasileiro então
+
+1654
+01:05:14,780 --> 01:05:18,290
+a gente pode imaginar aqui O Alex é uma
+
+1655
+01:05:16,579 --> 01:05:20,299
+imagem brasileira né Nós Talvez assim
+
+1656
+01:05:18,289 --> 01:05:22,550
+ele tem desenvolvido ela fora também
+
+1657
+01:05:20,300 --> 01:05:24,780
+você mora na Polônia mas assim o negócio
+
+1658
+01:05:22,550 --> 01:05:27,840
+brasileira e a gente tem lua né tô um
+
+1659
+01:05:24,780 --> 01:05:29,700
+dos melhores animes que esses colegas na
+
+1660
+01:05:27,840 --> 01:05:33,300
+puc-rio então assim se a gente foi
+
+1661
+01:05:29,699 --> 01:05:35,009
+imaginar aqui abaixo do Equador é minha
+
+1662
+01:05:33,300 --> 01:05:36,750
+bota Paris desenvolver a linguagem de
+
+1663
+01:05:35,010 --> 01:05:38,670
+programação que tem assim a comunidade
+
+1664
+01:05:36,750 --> 01:05:40,289
+usuários tão grande é então o braço
+
+1665
+01:05:38,670 --> 01:05:42,630
+pensa importância e temos ele vai a
+
+1666
+01:05:40,289 --> 01:05:44,820
+gente programação hoje faço comunidade a
+
+1667
+01:05:42,630 --> 01:05:47,010
+linguagem de programação é muito pequena
+
+1668
+01:05:44,820 --> 01:05:49,710
+O que é uma tenda porque como eu disse
+
+1669
+01:05:47,010 --> 01:05:52,860
+antes é a um excelente oportunidade de
+
+1670
+01:05:49,710 --> 01:05:55,380
+emprego sim isso não é demagogia mim né
+
+1671
+01:05:52,860 --> 01:05:57,180
+se eu usar não se formaram no seu like
+
+1672
+01:05:55,380 --> 01:05:59,610
+hoje eles são muito bem empregados
+
+1673
+01:05:57,179 --> 01:06:03,719
+alguns a indústria pesada de informática
+
+1674
+01:05:59,610 --> 01:06:06,269
+é vários em desenvolvendo serviço
+
+1675
+01:06:03,719 --> 01:06:08,219
+técnico para assim muito especializados
+
+1676
+01:06:06,269 --> 01:06:11,969
+para prestar táxi Laranjeiras também
+
+1677
+01:06:08,219 --> 01:06:13,230
+então é e e é fascinante então é
+
+1678
+01:06:11,969 --> 01:06:14,519
+interessante que a gente tem essa
+
+1679
+01:06:13,230 --> 01:06:17,400
+abertura para conversar com as pessoas
+
+1680
+01:06:14,519 --> 01:06:19,320
+trazer mais pessoas para para para esse
+
+1681
+01:06:17,400 --> 01:06:20,670
+Universo de linguagem de programação
+
+1682
+01:06:19,320 --> 01:06:22,980
+para que a gente tenha mais
+
+1683
+01:06:20,670 --> 01:06:26,740
+especialistas uma massa crítica maior
+
+1684
+01:06:22,980 --> 01:06:29,170
+aqui no Brasil para a pesquisa é cada
+
+1685
+01:06:26,739 --> 01:06:31,149
+vez mais avançada aqui no Brasil e me
+
+1686
+01:06:29,170 --> 01:06:32,680
+para que a gente consiga atingir a
+
+1687
+01:06:31,150 --> 01:06:35,170
+independência tecnológica né o Brasil
+
+1688
+01:06:32,679 --> 01:06:37,389
+infelizmente aí nós faz muito dependente
+
+1689
+01:06:35,170 --> 01:06:40,030
+tecnologicamente o que novamente também
+
+1690
+01:06:37,389 --> 01:06:42,879
+é uma pena né a gente exporta muito com
+
+1691
+01:06:40,030 --> 01:06:46,510
+Mods e pouco serviço intelectual então é
+
+1692
+01:06:42,880 --> 01:06:49,780
+e quebrar esse ciclo passa por construir
+
+1693
+01:06:46,510 --> 01:06:51,790
+uma comunidade Expert né que que tem que
+
+1694
+01:06:49,780 --> 01:06:53,890
+ser cuidada sem a gente a gente tem que
+
+1695
+01:06:51,789 --> 01:06:56,079
+cuidar das pessoas que têm interesse por
+
+1696
+01:06:53,889 --> 01:06:58,000
+isso e trazer mais pessoas para essas
+
+1697
+01:06:56,079 --> 01:07:01,900
+comunidades com a gente eu acho que é
+
+1698
+01:06:58,000 --> 01:07:05,800
+isso eu sempre tento concordo contigo
+
+1699
+01:07:01,900 --> 01:07:08,170
+sobre o nosso capital humano assim eu eu
+
+1700
+01:07:05,800 --> 01:07:10,180
+tive oportunidade de visitar vários
+
+1701
+01:07:08,170 --> 01:07:12,849
+universidades no exterior em diferentes
+
+1702
+01:07:10,179 --> 01:07:15,190
+países e Eu Fico impressionada com a
+
+1703
+01:07:12,849 --> 01:07:17,619
+qualidade do pessoal aqui no nosso
+
+1704
+01:07:15,190 --> 01:07:19,990
+potencial de Capital humana e se a gente
+
+1705
+01:07:17,619 --> 01:07:22,029
+conseguisse trazer todo mundo aqui de
+
+1706
+01:07:19,989 --> 01:07:24,099
+fora de volta na tenho certeza que o
+
+1707
+01:07:22,030 --> 01:07:26,570
+Brasil seria uma potência em termos de
+
+1708
+01:07:24,099 --> 01:07:28,039
+Tecnologia e talvez o que falte seja
+
+1709
+01:07:26,570 --> 01:07:29,990
+parte de empreendedorismo e inovação
+
+1710
+01:07:28,039 --> 01:07:33,170
+para a gente ter empresas aqui dentro
+
+1711
+01:07:29,989 --> 01:07:36,139
+contratar esse pessoal né é que eles
+
+1712
+01:07:33,170 --> 01:07:38,690
+Tragam o potencial para gente eu queria
+
+1713
+01:07:36,139 --> 01:07:40,129
+colocar alguma coisa respeito disso Sim
+
+1714
+01:07:38,690 --> 01:07:41,750
+essa a gente trouxe essas pessoas de
+
+1715
+01:07:40,130 --> 01:07:43,610
+fora né seria excelente se a gente
+
+1716
+01:07:41,750 --> 01:07:46,280
+conseguisse manter os nossos alunos aqui
+
+1717
+01:07:43,610 --> 01:07:48,380
+seria excelente mas eu queria as altas
+
+1718
+01:07:46,280 --> 01:07:50,330
+ponta do capital humano é assim eu eu
+
+1719
+01:07:48,380 --> 01:07:53,240
+Doutor em né no Universidade estrangeira
+
+1720
+01:07:50,329 --> 01:07:55,429
+então eu tive oportunidade ensinar lá
+
+1721
+01:07:53,239 --> 01:07:58,729
+também e eu sei que ela mente existe uma
+
+1722
+01:07:55,429 --> 01:08:00,349
+diferença muito grande entre os alunos e
+
+1723
+01:07:58,730 --> 01:08:02,780
+alunas que ele conta aqui no braço e os
+
+1724
+01:08:00,349 --> 01:08:06,230
+alunos e alunos se encontrava na inicial
+
+1725
+01:08:02,780 --> 01:08:08,990
+é não que eles fossem ruins Mas mas por
+
+1726
+01:08:06,230 --> 01:08:11,809
+exemplo lá é é mais ou menos um ano
+
+1727
+01:08:08,989 --> 01:08:14,629
+assim cinco alunos tentando a cada uma
+
+1728
+01:08:11,809 --> 01:08:17,149
+vaga é no curso aqui depois e com o
+
+1729
+01:08:14,630 --> 01:08:19,569
+exame nacional e aqui conciso a gente já
+
+1730
+01:08:17,149 --> 01:08:23,420
+tá passando de 30 anos tentando uma vaga
+
+1731
+01:08:19,569 --> 01:08:27,690
+Então é assim a gente vai ter esse tipo
+
+1732
+01:08:23,420 --> 01:08:29,759
+de fio e ainda na China é assim no Goiás
+
+1733
+01:08:27,689 --> 01:08:32,759
+no site da Índia nas grandes empresas
+
+1734
+01:08:29,759 --> 01:08:35,250
+chinesas então de fato a gente tem uma
+
+1735
+01:08:32,759 --> 01:08:38,578
+nas universidades federais um
+
+1736
+01:08:35,250 --> 01:08:41,099
+ajuntamento muito grande é de capacidade
+
+1737
+01:08:38,578 --> 01:08:42,960
+intelectual muito alta então É de fato é
+
+1738
+01:08:41,099 --> 01:08:44,788
+um tesouro que a gente tem mesmo os
+
+1739
+01:08:42,960 --> 01:08:47,730
+alunos que vão embora eu não sei se isso
+
+1740
+01:08:44,788 --> 01:08:50,729
+é ruim também porque eu fui lá no final
+
+1741
+01:08:47,729 --> 01:08:54,209
+das contas é eles contribuem também é de
+
+1742
+01:08:50,729 --> 01:08:57,269
+volta né mas mas de fato é é e eu acho
+
+1743
+01:08:54,210 --> 01:08:59,099
+que o Brasil é bom assim é claro que dá
+
+1744
+01:08:57,270 --> 01:09:00,719
+das suas proporções é pelo menos na
+
+1745
+01:08:59,099 --> 01:09:02,578
+América Latina a gente é uma potência em
+
+1746
+01:09:00,719 --> 01:09:04,559
+termos de software e e comparado com
+
+1747
+01:09:02,578 --> 01:09:05,849
+alguns países europeus também né então
+
+1748
+01:09:04,559 --> 01:09:08,819
+assim é claro que a gente muito atrás
+
+1749
+01:09:05,849 --> 01:09:10,650
+dos Estados Unidos assim na China também
+
+1750
+01:09:08,819 --> 01:09:12,150
+da Alemanha na Inglaterra em termos de
+
+1751
+01:09:10,649 --> 01:09:13,649
+produção de software Mas a gente não
+
+1752
+01:09:12,149 --> 01:09:15,689
+está tão atrás da França e fica frente
+
+1753
+01:09:13,649 --> 01:09:17,278
+detalhe Espanha que são para aí só para
+
+1754
+01:09:15,689 --> 01:09:20,250
+resolver o que você muito avançadas né
+
+1755
+01:09:17,279 --> 01:09:23,609
+em termos de produção de software Então
+
+1756
+01:09:20,250 --> 01:09:25,838
+eu acho que é o capital que a gente tem
+
+1757
+01:09:23,609 --> 01:09:27,850
+que cuidar aqui em conta pro a obrigação
+
+1758
+01:09:25,838 --> 01:09:30,159
+de cuidar mas que isso é interessante
+
+1759
+01:09:27,850 --> 01:09:32,470
+que Dulce nacional que percebesse também
+
+1760
+01:09:30,159 --> 01:09:36,159
+né o valor que que isso tem a ver com
+
+1761
+01:09:32,470 --> 01:09:38,289
+certeza bom então conheço a gente fecha
+
+1762
+01:09:36,159 --> 01:09:40,989
+o nosso Episódio de hoje Fernando muito
+
+1763
+01:09:38,289 --> 01:09:43,199
+obrigada por todo teu compartilhamento
+
+1764
+01:09:40,989 --> 01:09:45,909
+de conhecimento assim é
+
+1765
+01:09:43,199 --> 01:09:47,529
+impressionante assim o domínio né que tu
+
+1766
+01:09:45,909 --> 01:09:51,579
+tem sobre linguagem de programação e
+
+1767
+01:09:47,529 --> 01:09:55,679
+várias né É obrigada pela compartilhar
+
+1768
+01:09:51,579 --> 01:09:55,680
+isso com a gente e aguardamos por

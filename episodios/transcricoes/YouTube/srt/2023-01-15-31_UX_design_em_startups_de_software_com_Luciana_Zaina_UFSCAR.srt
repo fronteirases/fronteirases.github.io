@@ -1,0 +1,5287 @@
+1
+00:00:01,820 --> 00:00:06,960
+Este é o podcast Fronteiras da
+
+2
+00:00:04,559 --> 00:00:09,480
+engenharia de software o podcast para
+
+3
+00:00:06,960 --> 00:00:12,359
+refletir sobre o presente e o futuro da
+
+4
+00:00:09,480 --> 00:00:15,599
+nossa área publicamos mensalmente entre
+
+5
+00:00:12,359 --> 00:00:16,858
+os dias 15 e 20 de cada mês episódios em
+
+6
+00:00:15,599 --> 00:00:19,199
+que entrevistamos pesquisadores
+
+7
+00:00:16,859 --> 00:00:21,480
+pesquisadores do engenharia de software
+
+8
+00:00:19,199 --> 00:00:23,359
+também realizamos palestras que são
+
+9
+00:00:21,480 --> 00:00:25,920
+publicados em nosso canal no YouTube
+
+10
+00:00:23,359 --> 00:00:28,080
+nosso objetivo elevar o conhecimento
+
+11
+00:00:25,920 --> 00:00:31,560
+científico para profissionais da área
+
+12
+00:00:28,079 --> 00:00:33,359
+para outros cientistas escute nossos
+
+13
+00:00:31,559 --> 00:00:37,759
+episódios na sua plataforma de áudio
+
+14
+00:00:33,359 --> 00:00:41,299
+favorita Spotify Apple podcast
+
+15
+00:00:37,759 --> 00:00:44,299
+ou ainda no YouTube nosso site é
+
+16
+00:00:41,299 --> 00:00:44,299
+fronteiras
+
+17
+00:00:45,020 --> 00:00:49,140
+Estamos também no Twitter e no Instagram
+
+18
+00:00:47,700 --> 00:00:52,100
+como
+
+19
+00:00:49,140 --> 00:00:52,100
+@ronte
+
+20
+00:00:53,189 --> 00:00:59,399
+[Música]
+
+21
+00:00:56,039 --> 00:01:01,679
+Olá eu sou Adolfo Neto professor da UFPR
+
+22
+00:00:59,399 --> 00:01:03,239
+Curitiba Estou aqui com a corrucci do
+
+23
+00:01:01,679 --> 00:01:05,760
+fronteiras Professor Maria Cláudia
+
+24
+00:01:03,238 --> 00:01:09,239
+hemmer também da UFPR Curitiba Tudo bem
+
+25
+00:01:05,760 --> 00:01:11,700
+Maria Cláudia tudo bem Adolfo vamos a
+
+26
+00:01:09,239 --> 00:01:13,438
+mais um episódio Então hoje vamos sim
+
+27
+00:01:11,700 --> 00:01:16,040
+então hoje a gente vai entrevistar
+
+28
+00:01:13,438 --> 00:01:19,079
+professora Luciana Zaina é professora
+
+29
+00:01:16,040 --> 00:01:22,799
+associada e pesquisadora no departamento
+
+30
+00:01:19,079 --> 00:01:24,780
+de computação da UFSCar Sorocaba no
+
+31
+00:01:22,799 --> 00:01:27,360
+interior de São Paulo né mas Sorocaba é
+
+32
+00:01:24,780 --> 00:01:29,519
+bem pertinho da capital São Paulo ela é
+
+33
+00:01:27,359 --> 00:01:31,680
+bolsista de produtividade em
+
+34
+00:01:29,519 --> 00:01:34,859
+desenvolvimento tecnológico e extensão
+
+35
+00:01:31,680 --> 00:01:36,618
+inovadora do CNPQ orienta mestrado e
+
+36
+00:01:34,859 --> 00:01:39,780
+doutorado dos programas de pós-graduação
+
+37
+00:01:36,618 --> 00:01:41,459
+em Ciência da Computação na UFSCAR de
+
+38
+00:01:39,780 --> 00:01:47,180
+Sorocaba e também lá desse São Carlos
+
+39
+00:01:41,459 --> 00:01:50,578
+que são ppgcc no São Carlos e o ppgss
+
+40
+00:01:47,180 --> 00:01:52,320
+Sorocaba faz parte de dois grupos de
+
+41
+00:01:50,578 --> 00:01:56,239
+pesquisa Na verdade acho que um grupo é
+
+42
+00:01:52,319 --> 00:01:56,239
+uma parte do outro né que é o Lélis
+
+43
+00:01:59,959 --> 00:02:06,000
+que é um grupo de pesquisa dentro do
+
+44
+00:02:02,280 --> 00:02:08,159
+Lellis dedicado aí o x Oi Luciana
+
+45
+00:02:06,000 --> 00:02:09,959
+obrigado por ter aceito nosso convite e
+
+46
+00:02:08,159 --> 00:02:12,618
+você tem algo complementar nessa sua
+
+47
+00:02:09,959 --> 00:02:12,618
+apresentação
+
+48
+00:02:16,039 --> 00:02:22,019
+com vocês agradeço imensamente pelo
+
+49
+00:02:19,080 --> 00:02:24,239
+convite para estar aqui com vocês muito
+
+50
+00:02:22,020 --> 00:02:28,379
+obrigada pela apresentação muito bem
+
+51
+00:02:24,239 --> 00:02:30,840
+feita né falando aí que sou de Sorocaba
+
+52
+00:02:28,378 --> 00:02:32,639
+interior de São Paulo mas não tão
+
+53
+00:02:30,840 --> 00:02:34,039
+interior assim que é pertinho de São
+
+54
+00:02:32,639 --> 00:02:38,059
+Paulo né
+
+55
+00:02:34,039 --> 00:02:40,979
+acho que para acrescentar aí é só
+
+56
+00:02:38,060 --> 00:02:43,680
+colocar aqui na verdade eu sou a líder
+
+57
+00:02:40,979 --> 00:02:46,318
+do grupo e o x leds né o Lélis é o nosso
+
+58
+00:02:43,680 --> 00:02:48,360
+grupo de pesquisa cadastrado no CNPQ mas
+
+59
+00:02:46,318 --> 00:02:52,439
+que envolve professores de outras áreas
+
+60
+00:02:48,360 --> 00:02:55,080
+como redes E aí como o grupo relacionado
+
+61
+00:02:52,439 --> 00:02:58,560
+a e os Experience cresceu a gente formou
+
+62
+00:02:55,080 --> 00:03:01,140
+uma célula dentro do maior grupo que é o
+
+63
+00:02:58,560 --> 00:03:04,439
+Lelis o grupo maior eu era esse Eu
+
+64
+00:03:01,139 --> 00:03:06,738
+trabalho com o ex LED
+
+65
+00:03:04,439 --> 00:03:09,239
+mas Muito Obrigada
+
+66
+00:03:06,739 --> 00:03:12,300
+nós agradecemos então agora a gente vai
+
+67
+00:03:09,239 --> 00:03:14,039
+começar conversando sobre alguns dos
+
+68
+00:03:12,300 --> 00:03:15,620
+conceitos básicos relacionados ao tema
+
+69
+00:03:14,039 --> 00:03:19,139
+de hoje que é
+
+70
+00:03:15,620 --> 00:03:22,019
+experiência do usuário e o x Design na
+
+71
+00:03:19,139 --> 00:03:23,939
+York Design em startups de software a
+
+72
+00:03:22,019 --> 00:03:28,019
+gente já teve um episódio sobre o ex
+
+73
+00:03:23,939 --> 00:03:30,060
+aqui com Taiana conte e mas como a gente
+
+74
+00:03:28,019 --> 00:03:32,280
+não sabe se todo mundo que tá nos
+
+75
+00:03:30,060 --> 00:03:34,680
+escutando agora escutou aquele Episódio
+
+76
+00:03:32,280 --> 00:03:36,919
+você pode começar explicando para nós O
+
+77
+00:03:34,680 --> 00:03:39,260
+que é e o x design
+
+78
+00:03:36,919 --> 00:03:42,119
+sim Bom
+
+79
+00:03:39,259 --> 00:03:44,219
+na verdade quando a gente fala de o x
+
+80
+00:03:42,120 --> 00:03:45,658
+design vamos voltar um pouquinho e
+
+81
+00:03:44,219 --> 00:03:48,479
+entender o que que é o conceito
+
+82
+00:03:45,658 --> 00:03:50,399
+fundamento de wex né quando a gente fala
+
+83
+00:03:48,479 --> 00:03:52,798
+de wex nós estamos falando da
+
+84
+00:03:50,400 --> 00:03:55,920
+experiência do usuário ou e os
+
+85
+00:03:52,799 --> 00:03:58,340
+Experience que essa experiência com o
+
+86
+00:03:55,919 --> 00:04:01,979
+usuário ela vai acontecer
+
+87
+00:03:58,340 --> 00:04:04,920
+desde do momento em que esse usuário ele
+
+88
+00:04:01,979 --> 00:04:07,259
+tem uma interação com um produto que no
+
+89
+00:04:04,919 --> 00:04:10,979
+nosso caso um software um produto ou um
+
+90
+00:04:07,259 --> 00:04:12,780
+serviço até a interação que ele tem o
+
+91
+00:04:10,979 --> 00:04:15,060
+contato que ele tem com a empresa né
+
+92
+00:04:12,780 --> 00:04:18,000
+então há um vínculo quando a gente fala
+
+93
+00:04:15,060 --> 00:04:20,699
+de experiência do usuário ao vínculo do
+
+94
+00:04:18,000 --> 00:04:21,959
+usuário com o produto com a empresa com
+
+95
+00:04:20,699 --> 00:04:24,840
+a marca
+
+96
+00:04:21,959 --> 00:04:27,000
+quando a gente fala de use Experience
+
+97
+00:04:24,839 --> 00:04:30,359
+design o que nós estamos querendo falar
+
+98
+00:04:27,000 --> 00:04:34,500
+é do Design da experiência do usuário
+
+99
+00:04:30,360 --> 00:04:37,080
+porque a experiência é o sentimento é o
+
+100
+00:04:34,500 --> 00:04:39,600
+retorno que aquele usuário vai ter a
+
+101
+00:04:37,079 --> 00:04:43,258
+usar um produto quando a gente coloca a
+
+102
+00:04:39,600 --> 00:04:46,020
+palavra Design no ex design e que nós
+
+103
+00:04:43,259 --> 00:04:49,620
+estamos querendo abordar a ação as
+
+104
+00:04:46,019 --> 00:04:52,099
+práticas as etapas as atividades que nós
+
+105
+00:04:49,620 --> 00:04:55,379
+vamos fazer para que a gente possa
+
+106
+00:04:52,100 --> 00:04:58,259
+construir uma boa experiência para o
+
+107
+00:04:55,379 --> 00:05:00,959
+usuário Então e o x design nada mais é
+
+108
+00:04:58,259 --> 00:05:05,040
+do que a área aonde a gente vai discutir
+
+109
+00:05:00,959 --> 00:05:07,859
+as abordagens as práticas os métodos as
+
+110
+00:05:05,040 --> 00:05:10,319
+técnicas que nos ajudam no
+
+111
+00:05:07,860 --> 00:05:13,259
+desenvolvimento da experiência na
+
+112
+00:05:10,319 --> 00:05:16,019
+concepção da experiência do usuário no
+
+113
+00:05:13,259 --> 00:05:17,939
+acompanhamento na avaliação dessa
+
+114
+00:05:16,019 --> 00:05:20,299
+experiência ao longo do tempo que ele
+
+115
+00:05:17,939 --> 00:05:23,120
+vai usar um determinado produto
+
+116
+00:05:20,300 --> 00:05:26,280
+certo Luciana e
+
+117
+00:05:23,120 --> 00:05:29,819
+para falar um pouquinho mais né a
+
+118
+00:05:26,279 --> 00:05:33,659
+respeito também além de e o x design né
+
+119
+00:05:29,819 --> 00:05:36,478
+falar sobre Startup de software Nós
+
+120
+00:05:33,660 --> 00:05:38,699
+gostaríamos que você falasse para os
+
+121
+00:05:36,478 --> 00:05:40,379
+nossos ouvintes O que é uma Startup de
+
+122
+00:05:38,699 --> 00:05:43,259
+software
+
+123
+00:05:40,379 --> 00:05:46,860
+se é só uma empresa Nova uma empresa
+
+124
+00:05:43,259 --> 00:05:49,379
+pequena ou se tem algo mais aí que acaba
+
+125
+00:05:46,860 --> 00:05:52,319
+definindo uma Startup
+
+126
+00:05:49,379 --> 00:05:56,159
+legal Maria Cláudia essa essa é uma
+
+127
+00:05:52,319 --> 00:05:59,159
+discussão muito interessante e que tem
+
+128
+00:05:56,160 --> 00:06:01,880
+assim visões diferentes quando a gente
+
+129
+00:05:59,160 --> 00:06:06,360
+começa a conversar com as pessoas né
+
+130
+00:06:01,879 --> 00:06:08,819
+primeiro não há um consenso quando a
+
+131
+00:06:06,360 --> 00:06:10,560
+gente vai olhar a literatura ou quando a
+
+132
+00:06:08,819 --> 00:06:13,740
+gente vai olhar o que as pessoas falam
+
+133
+00:06:10,560 --> 00:06:17,100
+não há um consenso sobre a definição de
+
+134
+00:06:13,740 --> 00:06:20,400
+Startup no seguinte sentido existe uma
+
+135
+00:06:17,100 --> 00:06:23,039
+linha que olha Startup como empresas
+
+136
+00:06:20,399 --> 00:06:25,799
+novas empresas que estão começando que
+
+137
+00:06:23,038 --> 00:06:29,879
+querem se posicionar no mercado são
+
+138
+00:06:25,800 --> 00:06:31,918
+empresas normalmente pequenas né etc mas
+
+139
+00:06:29,879 --> 00:06:35,459
+existe uma outra linha que não olha
+
+140
+00:06:31,918 --> 00:06:38,219
+Startup com essa visão que para eles uma
+
+141
+00:06:35,459 --> 00:06:40,560
+Startup ela é muito mais uma mentalidade
+
+142
+00:06:38,220 --> 00:06:43,020
+do que uma caracterização por
+
+143
+00:06:40,560 --> 00:06:45,720
+simplesmente de uma empresa então
+
+144
+00:06:43,019 --> 00:06:48,659
+Existem algumas discussões que falam que
+
+145
+00:06:45,720 --> 00:06:49,319
+eu posso ter uma Startup dentro do
+
+146
+00:06:48,660 --> 00:06:53,819
+Facebook
+
+147
+00:06:49,319 --> 00:06:56,340
+por exemplo tá e surgem até hoje tem até
+
+148
+00:06:53,819 --> 00:07:00,300
+algumas novas definições que falam sobre
+
+149
+00:06:56,339 --> 00:07:02,879
+interna ou startups que são as startups
+
+150
+00:07:00,300 --> 00:07:06,600
+que surgem dentro dessas gigantes Google
+
+151
+00:07:02,879 --> 00:07:08,519
+Facebook que são empresas montadas às
+
+152
+00:07:06,600 --> 00:07:11,639
+vezes com profissionais dessas gigantes
+
+153
+00:07:08,519 --> 00:07:13,879
+com fomento dessas gigantes para se
+
+154
+00:07:11,639 --> 00:07:17,519
+desenvolver uma nova ideia uma ideia
+
+155
+00:07:13,879 --> 00:07:20,819
+discutiva então eu acho que o ponto que
+
+156
+00:07:17,519 --> 00:07:23,758
+marca a definição de uma Startup não é o
+
+157
+00:07:20,819 --> 00:07:26,340
+fato dela ser pequena não é isso que
+
+158
+00:07:23,759 --> 00:07:30,000
+marca é que ela é uma empresa que
+
+159
+00:07:26,339 --> 00:07:32,638
+trabalha com tecnologia disruptiva
+
+160
+00:07:30,000 --> 00:07:35,939
+é uma empresa que ela está o tempo todo
+
+161
+00:07:32,639 --> 00:07:38,519
+buscando uma maturidade no processo de
+
+162
+00:07:35,939 --> 00:07:40,800
+negócio dela então ela não tem um
+
+163
+00:07:38,519 --> 00:07:44,038
+processo de negócio maduro ela está
+
+164
+00:07:40,800 --> 00:07:45,079
+buscando isso ela está buscando uma
+
+165
+00:07:44,038 --> 00:07:49,259
+colocação
+
+166
+00:07:45,079 --> 00:07:52,978
+um posicionamento no mercado também isso
+
+167
+00:07:49,259 --> 00:07:55,319
+independente da idade dessa Startup né
+
+168
+00:07:52,978 --> 00:07:59,279
+então você tá procurando colocar um
+
+169
+00:07:55,319 --> 00:08:00,720
+produto dentro do mercado e o que a
+
+170
+00:07:59,279 --> 00:08:04,198
+gente tem como característica
+
+171
+00:08:00,720 --> 00:08:08,280
+normalmente das startups além né dela
+
+172
+00:08:04,199 --> 00:08:10,978
+mexer com produtos discutivos e etc e
+
+173
+00:08:08,279 --> 00:08:14,939
+está buscando né pela amadurecimento do
+
+174
+00:08:10,978 --> 00:08:18,300
+negócio é que ela tem pessoas com
+
+175
+00:08:14,939 --> 00:08:21,680
+mentalidade de empreendedorismo de
+
+176
+00:08:18,300 --> 00:08:25,560
+inovação que normalmente
+
+177
+00:08:21,680 --> 00:08:28,978
+fazendo com que o ambiente da Startup
+
+178
+00:08:25,560 --> 00:08:31,860
+meu ambiente que tem que funciona no
+
+179
+00:08:28,978 --> 00:08:33,838
+mundo acelerado né ele funciona no
+
+180
+00:08:31,860 --> 00:08:36,778
+acelerado Ele tá mudando o tempo inteiro
+
+181
+00:08:33,839 --> 00:08:38,760
+ele tá pivotando ele tá buscando novos
+
+182
+00:08:36,778 --> 00:08:41,278
+investimentos ele tá trazendo coisas
+
+183
+00:08:38,759 --> 00:08:44,580
+diferentes para dentro ali da empresa e
+
+184
+00:08:41,278 --> 00:08:47,820
+ela ela acontece tudo muito rápido
+
+185
+00:08:44,580 --> 00:08:49,560
+a gente pode ter né a gente discute que
+
+186
+00:08:47,820 --> 00:08:52,680
+a gente pode ter startups também com
+
+187
+00:08:49,559 --> 00:08:54,179
+diferentes características Você pode ter
+
+188
+00:08:52,679 --> 00:08:56,338
+uma Startup que é o que a gente está
+
+189
+00:08:54,179 --> 00:08:59,299
+falando que ela tá lançando aí no
+
+190
+00:08:56,339 --> 00:09:02,160
+produto Você pode ter uma Startup que tá
+
+191
+00:08:59,299 --> 00:09:04,259
+desenvolvendo uma outra que já tá no
+
+192
+00:09:02,159 --> 00:09:07,620
+ponto de escalar esse produto Então você
+
+193
+00:09:04,259 --> 00:09:10,319
+também tem diferentes momentos de
+
+194
+00:09:07,620 --> 00:09:11,700
+maturidade de um produto dentro de uma
+
+195
+00:09:10,320 --> 00:09:15,600
+Startup
+
+196
+00:09:11,700 --> 00:09:17,899
+quando a gente fala de Startup de
+
+197
+00:09:15,600 --> 00:09:20,540
+software né agora pegando aí
+
+198
+00:09:17,899 --> 00:09:23,639
+a pergunta em si
+
+199
+00:09:20,539 --> 00:09:28,379
+o conceito de Startup de software ele
+
+200
+00:09:23,639 --> 00:09:31,919
+nasce para caracterizar aquelas startups
+
+201
+00:09:28,379 --> 00:09:34,500
+que tem um uso intenso de software em
+
+202
+00:09:31,919 --> 00:09:36,899
+que sentido o produto que ela tá
+
+203
+00:09:34,500 --> 00:09:40,799
+vendendo ou serviço que ela tá vendendo
+
+204
+00:09:36,899 --> 00:09:43,620
+é suportado por software e aí você tem
+
+205
+00:09:40,799 --> 00:09:44,479
+as práticas da engenharia de software é
+
+206
+00:09:43,620 --> 00:09:47,278
+muito
+
+207
+00:09:44,480 --> 00:09:50,459
+intrínsecas e muito forte para suportar
+
+208
+00:09:47,278 --> 00:09:52,860
+o trabalho daquela daquela Startup E
+
+209
+00:09:50,458 --> 00:09:55,319
+hoje você tem muitas startups nessa
+
+210
+00:09:52,860 --> 00:09:57,360
+característica né hoje software é um
+
+211
+00:09:55,320 --> 00:10:00,060
+negócio que a gente encontra na maioria
+
+212
+00:09:57,360 --> 00:10:01,220
+dos produtos né que a gente vai vender
+
+213
+00:10:00,059 --> 00:10:03,899
+então
+
+214
+00:10:01,220 --> 00:10:06,180
+é aquela que faz uso intenso das
+
+215
+00:10:03,899 --> 00:10:08,940
+práticas de engenharia de software para
+
+216
+00:10:06,179 --> 00:10:11,639
+o desenvolvimento do seu produto e saber
+
+217
+00:10:08,940 --> 00:10:14,220
+usar essas práticas de maneira correta
+
+218
+00:10:11,639 --> 00:10:16,439
+saber aplicá-las vai ter um impacto
+
+219
+00:10:14,220 --> 00:10:19,019
+direto no negócio porque ele depende
+
+220
+00:10:16,440 --> 00:10:21,019
+daquilo para o desenvolvimento do
+
+221
+00:10:19,019 --> 00:10:24,360
+produto dele tá
+
+222
+00:10:21,019 --> 00:10:27,019
+é só para complementar né e finalizar a
+
+223
+00:10:24,360 --> 00:10:30,720
+pergunta tem um negócio interessante que
+
+224
+00:10:27,019 --> 00:10:34,519
+no ano passado a gente teve um Marco
+
+225
+00:10:30,720 --> 00:10:37,519
+legal das startups né que foram foi aí
+
+226
+00:10:34,519 --> 00:10:40,200
+assinado né pelo governo porque
+
+227
+00:10:37,519 --> 00:10:42,959
+justamente por essa questão de que
+
+228
+00:10:40,200 --> 00:10:46,680
+muitas vezes você tinha empresas que já
+
+229
+00:10:42,958 --> 00:10:50,278
+faturavam né Muito alto e empresas muito
+
+230
+00:10:46,679 --> 00:10:51,958
+grandes que se autodenominavam startups
+
+231
+00:10:50,278 --> 00:10:54,179
+mas que elas tinham muito mais
+
+232
+00:10:51,958 --> 00:10:57,179
+características do que nós chamamos de
+
+233
+00:10:54,179 --> 00:10:59,759
+empresas consolidadas elas tinham um
+
+234
+00:10:57,179 --> 00:11:02,219
+modelo de negócio Mais maduro né não era
+
+235
+00:10:59,759 --> 00:11:05,519
+algo que estava constante em movimento e
+
+236
+00:11:02,220 --> 00:11:07,860
+aí esse Marco legal ele colocou algumas
+
+237
+00:11:05,519 --> 00:11:09,778
+características para se definir uma
+
+238
+00:11:07,860 --> 00:11:11,579
+Startup para dizer olha isso é uma
+
+239
+00:11:09,778 --> 00:11:15,240
+Startup de fato isso é uma empresa
+
+240
+00:11:11,578 --> 00:11:18,659
+estabelecida e dentre esse esses
+
+241
+00:11:15,240 --> 00:11:21,600
+elementos para se definir Startup tem o
+
+242
+00:11:18,659 --> 00:11:23,100
+faturamento tem o tempo de vida que se
+
+243
+00:11:21,600 --> 00:11:24,839
+eu não me engano para ser caracterizada
+
+244
+00:11:23,100 --> 00:11:27,899
+como essa etapa ela tem que ter menos de
+
+245
+00:11:24,839 --> 00:11:29,480
+10 anos né então tem algum conjunto de
+
+246
+00:11:27,899 --> 00:11:32,578
+fatores que
+
+247
+00:11:29,480 --> 00:11:34,680
+tentam ajudar melhor a definir o que que
+
+248
+00:11:32,578 --> 00:11:36,059
+é uma Startup ou é aquela empresa que já
+
+249
+00:11:34,679 --> 00:11:37,879
+está escalando aí para uma empresa
+
+250
+00:11:36,059 --> 00:11:42,239
+estabelecida
+
+251
+00:11:37,879 --> 00:11:44,220
+E por que o iOS design é importante para
+
+252
+00:11:42,240 --> 00:11:46,200
+startups
+
+253
+00:11:44,220 --> 00:11:48,720
+o primeiro eu queria dizer que ele é
+
+254
+00:11:46,200 --> 00:11:50,540
+importante para tudo né já querendo
+
+255
+00:11:48,720 --> 00:11:53,160
+vender aí o peixe
+
+256
+00:11:50,539 --> 00:11:56,099
+eu acho que antes da gente dizer porque
+
+257
+00:11:53,159 --> 00:11:58,740
+que ele é importante para Startup eu
+
+258
+00:11:56,100 --> 00:12:01,740
+acho que teve um movimento na área do ex
+
+259
+00:11:58,740 --> 00:12:03,959
+muito muito interessante que é uma
+
+260
+00:12:01,740 --> 00:12:04,700
+evolução eu acho que tudo ela é uma
+
+261
+00:12:03,958 --> 00:12:07,739
+evolução
+
+262
+00:12:04,700 --> 00:12:09,000
+um dos pontos que a gente vê com relação
+
+263
+00:12:07,740 --> 00:12:12,480
+ao
+
+264
+00:12:09,000 --> 00:12:15,720
+iux que eu acho que aí que começou a se
+
+265
+00:12:12,480 --> 00:12:19,259
+ver a importância é que se percebeu que
+
+266
+00:12:15,720 --> 00:12:22,259
+o ex design ou a experiência do usuário
+
+267
+00:12:19,259 --> 00:12:25,319
+ela não vale só no momento em que você
+
+268
+00:12:22,259 --> 00:12:27,299
+vai criar o produto a experiência do
+
+269
+00:12:25,320 --> 00:12:29,519
+usuário né você vai desenvolver o
+
+270
+00:12:27,299 --> 00:12:32,039
+produto vamos falar assim em termos de
+
+271
+00:12:29,519 --> 00:12:34,259
+engenharia a experiência do usuário
+
+272
+00:12:32,039 --> 00:12:37,019
+Design da experiência do usuário ele
+
+273
+00:12:34,259 --> 00:12:40,319
+começa com o negócio
+
+274
+00:12:37,019 --> 00:12:43,980
+Então esse movimento de olhar a
+
+275
+00:12:40,320 --> 00:12:47,220
+experiência do usuário atrelado ao
+
+276
+00:12:43,980 --> 00:12:51,680
+sucesso do negócio ao benefício do
+
+277
+00:12:47,220 --> 00:12:55,200
+negócio e a gente vê os as pessoas
+
+278
+00:12:51,679 --> 00:12:58,259
+encargos gerenciais mais altos falando
+
+279
+00:12:55,200 --> 00:13:00,899
+de experiência do usuário comprando essa
+
+280
+00:12:58,259 --> 00:13:04,500
+ideia de como a experiência do usuário
+
+281
+00:13:00,899 --> 00:13:07,019
+pode ajudar nos processos decisórios do
+
+282
+00:13:04,500 --> 00:13:09,059
+seu produto do seu negócio então eu acho
+
+283
+00:13:07,019 --> 00:13:11,220
+que esse foi o movimento esse a gente
+
+284
+00:13:09,059 --> 00:13:12,479
+pode dizer que é um momento que tornou a
+
+285
+00:13:11,220 --> 00:13:14,940
+experiência do usuário importante para
+
+286
+00:13:12,480 --> 00:13:18,180
+uma empresa e que hoje ela começa a
+
+287
+00:13:14,940 --> 00:13:20,760
+olhar não só como Aquela etapa o design
+
+288
+00:13:18,179 --> 00:13:22,439
+Day o X é uma etapa que tá lá no meio da
+
+289
+00:13:20,759 --> 00:13:25,799
+engenharia de software não ela começa
+
+290
+00:13:22,440 --> 00:13:29,100
+antes ela começa na discussão do negócio
+
+291
+00:13:25,799 --> 00:13:31,078
+E aí se a gente pegar prazo startups né
+
+292
+00:13:29,100 --> 00:13:35,159
+então direcionando para o que você
+
+293
+00:13:31,078 --> 00:13:37,679
+perguntou Adolfo eu acho que ela é Ela é
+
+294
+00:13:35,159 --> 00:13:41,219
+importante porque Esta etapa ela precisa
+
+295
+00:13:37,679 --> 00:13:43,319
+sobreviver no mercado e ela tá no
+
+296
+00:13:41,220 --> 00:13:46,019
+mercado que é uma selva porque ela tem
+
+297
+00:13:43,320 --> 00:13:49,379
+os concorrentes Ela não é uma empresa
+
+298
+00:13:46,019 --> 00:13:52,379
+que se sustenta muitas vezes do ponto de
+
+299
+00:13:49,379 --> 00:13:55,919
+vista financeiro ela tem aportes que ela
+
+300
+00:13:52,379 --> 00:13:58,439
+recebe né de investidoris anjos ou de
+
+301
+00:13:55,919 --> 00:14:01,559
+chamadas que existem para ajudar
+
+302
+00:13:58,440 --> 00:14:04,920
+financeiramente Então ela precisa se
+
+303
+00:14:01,559 --> 00:14:06,899
+sustentar no mercado e ai o ex design
+
+304
+00:14:04,919 --> 00:14:09,419
+que é o desenvolvimento da experiência
+
+305
+00:14:06,899 --> 00:14:13,019
+do usuário no Design da experiência do
+
+306
+00:14:09,419 --> 00:14:15,799
+usuário pode ajudar a entender melhor
+
+307
+00:14:13,019 --> 00:14:18,139
+quem é o seu público-alvo e
+
+308
+00:14:15,799 --> 00:14:21,120
+consequentemente fazer
+
+309
+00:14:18,139 --> 00:14:23,700
+especificações tomada de decisão Em
+
+310
+00:14:21,120 --> 00:14:26,299
+relação ao seu produto ou serviço mas
+
+311
+00:14:23,700 --> 00:14:30,000
+assertiva mas
+
+312
+00:14:26,299 --> 00:14:33,539
+mais direto ao ponto sabendo o que de
+
+313
+00:14:30,000 --> 00:14:36,958
+fato que ela pode fazer de inovador e
+
+314
+00:14:33,539 --> 00:14:40,319
+que vai ter um impacto no usuário porque
+
+315
+00:14:36,958 --> 00:14:42,359
+alguma coisa eu ter uma boa ideia Ah eu
+
+316
+00:14:40,320 --> 00:14:45,899
+tenho uma boa ideia boa ideia Todos nós
+
+317
+00:14:42,360 --> 00:14:48,419
+temos né todo mundo nasce acorda com uma
+
+318
+00:14:45,899 --> 00:14:51,360
+boa ideia mas a gente precisa saber se
+
+319
+00:14:48,419 --> 00:14:54,479
+essa ideia ela é viável e não é só do
+
+320
+00:14:51,360 --> 00:14:56,659
+ponto de vista técnico tecnológico se
+
+321
+00:14:54,480 --> 00:15:00,120
+ela é viável para quem eu estou fazendo
+
+322
+00:14:56,659 --> 00:15:02,939
+uma coisa eu imaginar que um usuário
+
+323
+00:15:00,120 --> 00:15:04,679
+precisa ter uma funcionalidade num
+
+324
+00:15:02,940 --> 00:15:06,240
+produto outra coisa eu tenho certeza de
+
+325
+00:15:04,679 --> 00:15:09,539
+que aquilo vai trazer valor para ele
+
+326
+00:15:06,240 --> 00:15:14,539
+então o design da experiência do usuário
+
+327
+00:15:09,539 --> 00:15:17,299
+ajuda as startups a entenderem inclusive
+
+328
+00:15:14,539 --> 00:15:19,919
+antecipadamente antes de gastar esforço
+
+329
+00:15:17,299 --> 00:15:24,240
+implementando coisas que podem não dá
+
+330
+00:15:19,919 --> 00:15:27,599
+certo a entender se uma boa ideia ou se
+
+331
+00:15:24,240 --> 00:15:29,639
+uma determinada demanda pode de fato e
+
+332
+00:15:27,600 --> 00:15:31,860
+deve de fato ser agregada aquele produto
+
+333
+00:15:29,639 --> 00:15:35,278
+ao desenvolvimento daquele produto ou
+
+334
+00:15:31,860 --> 00:15:37,800
+serviço a partir não só dos achismos mas
+
+335
+00:15:35,278 --> 00:15:40,919
+sim da visão dos usuários aplicando
+
+336
+00:15:37,799 --> 00:15:43,019
+técnicas que nos permitam ter uma maior
+
+337
+00:15:40,919 --> 00:15:46,379
+certeza de que aquilo que eu tô fazendo
+
+338
+00:15:43,019 --> 00:15:48,120
+vai ser benéfico para mim em termos de
+
+339
+00:15:46,379 --> 00:15:51,720
+mercado
+
+340
+00:15:48,120 --> 00:15:55,220
+certo Luciana e concordo com certeza né
+
+341
+00:15:51,720 --> 00:15:58,740
+não seria somente no contexto de
+
+342
+00:15:55,220 --> 00:16:01,680
+startups mas nós também queremos saber
+
+343
+00:15:58,740 --> 00:16:04,940
+quais são as características que acabam
+
+344
+00:16:01,679 --> 00:16:08,759
+tornando as startups né
+
+345
+00:16:04,940 --> 00:16:12,660
+empresas que precisam ter aí um cuidado
+
+346
+00:16:08,759 --> 00:16:16,220
+com a experiência do usuário e fazem com
+
+347
+00:16:12,659 --> 00:16:20,519
+que isso se torne algo desafiador
+
+348
+00:16:16,220 --> 00:16:23,220
+Eu acho que o cuidado é justamente para
+
+349
+00:16:20,519 --> 00:16:26,639
+que as Startup
+
+350
+00:16:23,220 --> 00:16:29,639
+o grande parte delas né Elas têm um
+
+351
+00:16:26,639 --> 00:16:31,079
+problema de recursos e quando eu falo de
+
+352
+00:16:29,639 --> 00:16:33,299
+recurso eu não tô falando só de recurso
+
+353
+00:16:31,078 --> 00:16:36,838
+financeiro né Às vezes tem um problema
+
+354
+00:16:33,299 --> 00:16:43,559
+de recurso de RH de pessoas trabalhando
+
+355
+00:16:36,839 --> 00:16:46,199
+né E aí imagina se eu estou fazendo a
+
+356
+00:16:43,559 --> 00:16:48,179
+implementação de uma nova Fit ou de uma
+
+357
+00:16:46,198 --> 00:16:50,879
+nova funcionalidade eu decido que eu
+
+358
+00:16:48,179 --> 00:16:53,519
+quero fazer sem ter a certeza de que
+
+359
+00:16:50,879 --> 00:16:55,980
+essa nova funcionalidade Ela é legal
+
+360
+00:16:53,519 --> 00:16:59,698
+para o produto e vai ser bem Aceita né
+
+361
+00:16:55,980 --> 00:17:02,699
+pelos usuários pelos clientes se eu faço
+
+362
+00:16:59,698 --> 00:17:05,578
+isso sem usar as técnicas sem ir lá para
+
+363
+00:17:02,698 --> 00:17:08,220
+o mercado fazer uma pesquisa rápida ou
+
+364
+00:17:05,578 --> 00:17:10,980
+fazer uma coleta juntos usuário se eu
+
+365
+00:17:08,220 --> 00:17:12,838
+faço isso eu enquanto Startup que tem um
+
+366
+00:17:10,980 --> 00:17:15,720
+poucos recursos não posso perder tempo
+
+367
+00:17:12,838 --> 00:17:18,298
+tem que ter um processo decisório rápido
+
+368
+00:17:15,720 --> 00:17:20,578
+porque se eu perco tempo eu tenho meu
+
+369
+00:17:18,298 --> 00:17:21,779
+concorrente que tá aqui atrás de mim ele
+
+370
+00:17:20,578 --> 00:17:24,779
+vai me passar
+
+371
+00:17:21,779 --> 00:17:28,439
+então se eu tenho a capacidade de usar
+
+372
+00:17:24,779 --> 00:17:31,558
+esses métodos e essas técnicas indo lá e
+
+373
+00:17:28,439 --> 00:17:34,380
+tomando uma decisão realmente com o
+
+374
+00:17:31,558 --> 00:17:37,319
+olhar do que o usuário e do que o
+
+375
+00:17:34,380 --> 00:17:41,160
+cliente pensa sobre aquilo eu enquanto
+
+376
+00:17:37,319 --> 00:17:43,798
+Startup eu vou não ter um desperdício de
+
+377
+00:17:41,160 --> 00:17:46,500
+tempo e um desperdício consequentemente
+
+378
+00:17:43,798 --> 00:17:51,538
+de dinheiro que para mim faz muita falta
+
+379
+00:17:46,500 --> 00:17:54,960
+né enquanto Startup Além disso as
+
+380
+00:17:51,538 --> 00:17:58,200
+startups Elas costumam Muitas delas Elas
+
+381
+00:17:54,960 --> 00:18:00,000
+costumam até coletar muitos dados né dos
+
+382
+00:17:58,200 --> 00:18:04,620
+usuários tem algumas startups que elas
+
+383
+00:18:00,000 --> 00:18:07,140
+usam muito canais de redes sociais e etc
+
+384
+00:18:04,619 --> 00:18:10,558
+como uma forma de coletar dados dos
+
+385
+00:18:07,140 --> 00:18:12,538
+usuários feedbacks usuários Ah legal eu
+
+386
+00:18:10,558 --> 00:18:14,940
+coleto isso eu tenho um volume de
+
+387
+00:18:12,538 --> 00:18:17,519
+informações grande mas como é que eu
+
+388
+00:18:14,940 --> 00:18:19,620
+enquanto Startup eu vou tomar essa
+
+389
+00:18:17,519 --> 00:18:21,720
+decisão só que eu preciso que essa
+
+390
+00:18:19,619 --> 00:18:23,939
+decisão seja rápida Eu tenho pouco
+
+391
+00:18:21,720 --> 00:18:26,940
+reforços como é que eu vou usar todos
+
+392
+00:18:23,940 --> 00:18:29,038
+esses dados e tomar uma decisão mais
+
+393
+00:18:26,940 --> 00:18:30,900
+voltada para a experiência do usuário
+
+394
+00:18:29,038 --> 00:18:33,240
+Então se de repente eu for usar o
+
+395
+00:18:30,900 --> 00:18:35,580
+mecanismo aí para avaliar melhor esses
+
+396
+00:18:33,240 --> 00:18:39,538
+dados isso pode ser benéfico então eu
+
+397
+00:18:35,579 --> 00:18:43,139
+vejo que o IOT design ela ajuda a
+
+398
+00:18:39,538 --> 00:18:45,538
+Startup a tomar essa decisão se ela deve
+
+399
+00:18:43,140 --> 00:18:49,500
+ou não ir por um determinado caminho
+
+400
+00:18:45,538 --> 00:18:52,619
+dentro do negócio dentro do produto e
+
+401
+00:18:49,500 --> 00:18:55,679
+isso é importante porque ela acaba tendo
+
+402
+00:18:52,619 --> 00:18:58,379
+menos desperdício de tempo e de recurso
+
+403
+00:18:55,679 --> 00:19:01,200
+em cima de algo que ela tá trabalhando
+
+404
+00:18:58,380 --> 00:19:04,740
+nesse sentido então agora nós vamos
+
+405
+00:19:01,200 --> 00:19:07,080
+falar sobre alguns dos seus artigos né A
+
+406
+00:19:04,740 --> 00:19:08,700
+gente entra numa parte do podcast que a
+
+407
+00:19:07,079 --> 00:19:11,460
+gente fala mais sobre a pesquisa da
+
+408
+00:19:08,700 --> 00:19:13,080
+pessoa entrevistada e uma coisa que eu
+
+409
+00:19:11,460 --> 00:19:15,600
+quero explicar que a gente sempre fala
+
+410
+00:19:13,079 --> 00:19:18,720
+dos títulos dos artigos em português mas
+
+411
+00:19:15,599 --> 00:19:20,519
+no na descrição do episódio tem o título
+
+412
+00:19:18,720 --> 00:19:22,259
+do artigo inglês e um link para quem
+
+413
+00:19:20,519 --> 00:19:24,000
+quiser ler o artigo completo obviamente
+
+414
+00:19:22,259 --> 00:19:28,079
+não vai dar tempo de falar tudo de todos
+
+415
+00:19:24,000 --> 00:19:30,720
+os artigos mas no artigo influência dos
+
+416
+00:19:28,079 --> 00:19:32,159
+fatores influências dos fatores de iox
+
+417
+00:19:30,720 --> 00:19:35,759
+no contexto de
+
+418
+00:19:32,160 --> 00:19:38,519
+iex ágil das startups de software você e
+
+419
+00:19:35,759 --> 00:19:40,980
+seus coautores fizeram a Surf uma série
+
+420
+00:19:38,519 --> 00:19:44,099
+de mandar um questionário e se as
+
+421
+00:19:40,980 --> 00:19:47,099
+pessoas responderam com 97 profissionais
+
+422
+00:19:44,099 --> 00:19:49,859
+de startups de software e chegaram a
+
+423
+00:19:47,099 --> 00:19:51,619
+quatro achados vocês é uma tradução que
+
+424
+00:19:49,859 --> 00:19:54,599
+a gente tá dando aqui para take aways
+
+425
+00:19:51,619 --> 00:19:58,558
+achados para ajudar os praticantes a
+
+426
+00:19:54,599 --> 00:20:00,899
+adotar égio e o ex e o hexa no contexto
+
+427
+00:19:58,558 --> 00:20:03,599
+de startups de software Você pode falar
+
+428
+00:20:00,900 --> 00:20:07,740
+um pouco para nós sobre este artigo
+
+429
+00:20:03,599 --> 00:20:11,819
+sim é esse foi esta foi um Survey né um
+
+430
+00:20:07,740 --> 00:20:14,640
+server que nós rodamos em 2000 aonde nós
+
+431
+00:20:11,819 --> 00:20:17,418
+rodamos juntos a profissionais que
+
+432
+00:20:14,640 --> 00:20:20,220
+trabalhavam em startups de software
+
+433
+00:20:17,419 --> 00:20:23,820
+esses profissionais Eles podiam ser
+
+434
+00:20:20,220 --> 00:20:26,160
+profissionais Desde da gestão né que
+
+435
+00:20:23,819 --> 00:20:28,740
+trabalhassem congestão mas que tivessem
+
+436
+00:20:26,160 --> 00:20:32,160
+essa visão de desenvolvimento é
+
+437
+00:20:28,740 --> 00:20:33,900
+desenvolvedores e o ex designers e o ex
+
+438
+00:20:32,160 --> 00:20:37,558
+resetteres né então pessoas que
+
+439
+00:20:33,900 --> 00:20:39,240
+trabalhavam em áreas diversas na Startup
+
+440
+00:20:37,558 --> 00:20:41,940
+mas que de alguma maneira estavam
+
+441
+00:20:39,240 --> 00:20:43,339
+envolvidas aí com o desenvolvimento de
+
+442
+00:20:41,940 --> 00:20:48,240
+produto né
+
+443
+00:20:43,339 --> 00:20:51,000
+E aí desse servem nós tínhamos diversas
+
+444
+00:20:48,240 --> 00:20:54,720
+questões desde o cargo que a pessoa
+
+445
+00:20:51,000 --> 00:20:57,179
+ocupava a idade da Startup a gente tinha
+
+446
+00:20:54,720 --> 00:20:59,640
+o tempo em que esse etapa e fazia o x ou
+
+447
+00:20:57,179 --> 00:21:02,460
+se ela não fazia e o x que nós
+
+448
+00:20:59,640 --> 00:21:04,980
+poderíamos ter sido
+
+449
+00:21:02,460 --> 00:21:08,640
+se ela fazia em que ponto da engenharia
+
+450
+00:21:04,980 --> 00:21:11,179
+de software saiu x era feita né Nós
+
+451
+00:21:08,640 --> 00:21:11,179
+coletamos também
+
+452
+00:21:12,919 --> 00:21:18,840
+qual era o que que ela achava que era o
+
+453
+00:21:16,380 --> 00:21:21,000
+benefício em adotar o x e aquilo que ela
+
+454
+00:21:18,839 --> 00:21:25,079
+achava que era o impedimento que ela
+
+455
+00:21:21,000 --> 00:21:28,619
+tinha em para usar o x dentro da Startup
+
+456
+00:21:25,079 --> 00:21:32,480
+E aí o nós pegamos essa amostra né como
+
+457
+00:21:28,619 --> 00:21:35,939
+você falou de respostas e nós fizemos um
+
+458
+00:21:32,480 --> 00:21:37,679
+uma avaliação uma análise estatística né
+
+459
+00:21:35,940 --> 00:21:40,259
+como nós tínhamos uma amostra Grande a
+
+460
+00:21:37,679 --> 00:21:42,200
+gente fez uma análise estatística aonde
+
+461
+00:21:40,259 --> 00:21:45,200
+a gente observou
+
+462
+00:21:42,200 --> 00:21:48,360
+a influência
+
+463
+00:21:45,200 --> 00:21:50,640
+tanto negativa quanto positivo os
+
+464
+00:21:48,359 --> 00:21:53,759
+fatores que influenciavam negativo e
+
+465
+00:21:50,640 --> 00:21:55,559
+positivamente em quatro áreas que nós
+
+466
+00:21:53,759 --> 00:21:59,359
+chamamos de dimensões
+
+467
+00:21:55,558 --> 00:22:02,819
+nós olhamos sobre o ponto de vista de
+
+468
+00:21:59,359 --> 00:22:05,459
+processo de desenvolvimento de produto e
+
+469
+00:22:02,819 --> 00:22:08,339
+processo nós olhamos sobre o ponto de
+
+470
+00:22:05,460 --> 00:22:11,819
+vista de trabalho de wecks e times tanto
+
+471
+00:22:08,339 --> 00:22:14,279
+times de software quanto times de X nós
+
+472
+00:22:11,819 --> 00:22:16,558
+olhamos do ponto de vista de Business e
+
+473
+00:22:14,279 --> 00:22:19,139
+marketing né porque nós lutamos só
+
+474
+00:22:16,558 --> 00:22:21,960
+olhando o x dentro da engenharia de
+
+475
+00:22:19,140 --> 00:22:25,520
+software mas o atrelamento dela com o
+
+476
+00:22:21,960 --> 00:22:29,460
+vizinho marketing e nós olhamos também
+
+477
+00:22:25,519 --> 00:22:31,918
+do ponto de vista do cliente e do
+
+478
+00:22:29,460 --> 00:22:35,519
+usuário né da informação do cliente do
+
+479
+00:22:31,919 --> 00:22:38,159
+usuário e aí olhando estatisticamente
+
+480
+00:22:35,519 --> 00:22:41,519
+dessa nessa visão dessas quatro
+
+481
+00:22:38,159 --> 00:22:43,679
+dimensões foram aí que a gente tirou os
+
+482
+00:22:41,519 --> 00:22:46,859
+achados né que são você que é o ex que
+
+483
+00:22:43,679 --> 00:22:49,559
+você tá falando que na verdade esses
+
+484
+00:22:46,859 --> 00:22:51,000
+achados o nosso objetivo era falar o
+
+485
+00:22:49,558 --> 00:22:55,500
+seguinte olha como é que você consegue
+
+486
+00:22:51,000 --> 00:22:58,079
+usar o x design a seu favor
+
+487
+00:22:55,500 --> 00:23:01,859
+dentro considerando as características
+
+488
+00:22:58,079 --> 00:23:04,859
+de startups e considerando esse mundo
+
+489
+00:23:01,859 --> 00:23:07,079
+ágil né o desenvolvimento ágil porque
+
+490
+00:23:04,859 --> 00:23:09,479
+porque grande parte das startups elas
+
+491
+00:23:07,079 --> 00:23:11,879
+vão fazer o desenvolvimento de software
+
+492
+00:23:09,480 --> 00:23:14,480
+usando práticas ágeis então
+
+493
+00:23:11,880 --> 00:23:17,340
+como é que junta todos esses elementos
+
+494
+00:23:14,480 --> 00:23:19,558
+agilidade ou ex design as
+
+495
+00:23:17,339 --> 00:23:21,418
+características das startups né os
+
+496
+00:23:19,558 --> 00:23:25,918
+poucos recursos e a gente tira
+
+497
+00:23:21,419 --> 00:23:28,280
+benefícios do ex design e aí um dos
+
+498
+00:23:25,919 --> 00:23:34,140
+primeiros achados que a gente tem que é
+
+499
+00:23:28,279 --> 00:23:37,259
+o ajayo x que é casal o uso do X dentro
+
+500
+00:23:34,140 --> 00:23:41,038
+da perspectiva ágil então consegui fazer
+
+501
+00:23:37,259 --> 00:23:43,980
+o balanço dessas duas áreas e fazer com
+
+502
+00:23:41,038 --> 00:23:47,339
+que elas possam ser usadas de maneira
+
+503
+00:23:43,980 --> 00:23:50,460
+sinérgica né então pensando primeiro no
+
+504
+00:23:47,339 --> 00:23:54,379
+pênis e no marketing né Uma das coisas
+
+505
+00:23:50,460 --> 00:23:57,659
+que a gente coloca é trazer
+
+506
+00:23:54,380 --> 00:24:01,799
+os resultados da aplicação das técnicas
+
+507
+00:23:57,659 --> 00:24:04,260
+e das práticas de West design para serem
+
+508
+00:24:01,798 --> 00:24:07,319
+discutidas sobre o ponto de vista do
+
+509
+00:24:04,259 --> 00:24:10,700
+marketing então o quanto que essas
+
+510
+00:24:07,319 --> 00:24:14,038
+práticas e essas
+
+511
+00:24:10,700 --> 00:24:16,319
+técnicas que a gente tá usando elas
+
+512
+00:24:14,038 --> 00:24:18,480
+estão conseguindo dentro do
+
+513
+00:24:16,319 --> 00:24:21,178
+desenvolvimento trazer benefícios que
+
+514
+00:24:18,480 --> 00:24:24,779
+estão sendo vistos do ponto de vista de
+
+515
+00:24:21,179 --> 00:24:28,159
+Business né Então aí tem todo um track
+
+516
+00:24:24,779 --> 00:24:31,918
+da gente conseguir acompanhar isso então
+
+517
+00:24:28,159 --> 00:24:36,179
+trazer essa discussão para os times
+
+518
+00:24:31,919 --> 00:24:39,000
+junto com os ciaoms de como que isso
+
+519
+00:24:36,179 --> 00:24:41,519
+pode estar ajudando aí na melhoria do
+
+520
+00:24:39,000 --> 00:24:44,220
+Business um outro achado que a gente
+
+521
+00:24:41,519 --> 00:24:46,500
+também discutiu foi do ponto de vista do
+
+522
+00:24:44,220 --> 00:24:51,360
+produto e do processo que é uma outra
+
+523
+00:24:46,500 --> 00:24:53,339
+dimensão né que é a gente né dentro do
+
+524
+00:24:51,359 --> 00:24:55,219
+levantamento a gente viu que ainda
+
+525
+00:24:53,339 --> 00:25:00,658
+existe uma dificuldade
+
+526
+00:24:55,220 --> 00:25:04,140
+em fazer com que o ajay e o ex design
+
+527
+00:25:00,659 --> 00:25:07,039
+eles possam ter um casamento mais feliz
+
+528
+00:25:04,140 --> 00:25:09,659
+né O que que eu quero dizer com isso
+
+529
+00:25:07,038 --> 00:25:12,839
+quando a gente olha para as práticas
+
+530
+00:25:09,659 --> 00:25:14,600
+ágeis as práticas ágeis elas funcionam
+
+531
+00:25:12,839 --> 00:25:18,500
+muito
+
+532
+00:25:14,599 --> 00:25:21,319
+além da maneira dinâmica e interativa né
+
+533
+00:25:18,500 --> 00:25:25,019
+Elas acabam
+
+534
+00:25:21,319 --> 00:25:28,319
+funcionando e incrementos e o que a
+
+535
+00:25:25,019 --> 00:25:32,819
+gente vê muito acontecer no mundo de o x
+
+536
+00:25:28,319 --> 00:25:36,178
+design é o que a gente chama do ex
+
+537
+00:25:32,819 --> 00:25:39,178
+design up front então a gente vê muitas
+
+538
+00:25:36,179 --> 00:25:42,240
+empresas trabalhando fazendo toda a
+
+539
+00:25:39,179 --> 00:25:45,778
+parte de pesquisa com usuário definição
+
+540
+00:25:42,240 --> 00:25:49,798
+do Design etc antes de todas as
+
+541
+00:25:45,778 --> 00:25:52,500
+interações e aí acontece muitas vezes um
+
+542
+00:25:49,798 --> 00:25:54,599
+desbalanço porque você vai ter a
+
+543
+00:25:52,500 --> 00:25:57,359
+interação do ágio aí de repente tem
+
+544
+00:25:54,599 --> 00:25:59,399
+alguma coisa do backlog que mudou e toda
+
+545
+00:25:57,359 --> 00:26:02,459
+aquelas decisões que foram feitas
+
+546
+00:25:59,400 --> 00:26:06,720
+anffronte às vezes elas podem não estar
+
+547
+00:26:02,460 --> 00:26:08,880
+num casamento feliz junto ali com o ágio
+
+548
+00:26:06,720 --> 00:26:12,778
+Isso é uma das dificuldades que existem
+
+549
+00:26:08,880 --> 00:26:15,659
+ainda né tem algumas atitudes que estão
+
+550
+00:26:12,778 --> 00:26:18,480
+sendo feitas para tentar melhorar esse
+
+551
+00:26:15,659 --> 00:26:21,539
+casamento Mas ainda é um problema real
+
+552
+00:26:18,480 --> 00:26:24,419
+ele ainda existe dentro desses dois
+
+553
+00:26:21,538 --> 00:26:28,079
+mundos E aí dentro do processo dessa
+
+554
+00:26:24,419 --> 00:26:31,200
+questão do produto e do processo né a
+
+555
+00:26:28,079 --> 00:26:33,839
+gente fala justamente das startups que
+
+556
+00:26:31,200 --> 00:26:36,120
+estão começando que são as ervas tendes
+
+557
+00:26:33,839 --> 00:26:38,278
+que a gente chama elas são as que tem
+
+558
+00:26:36,119 --> 00:26:42,678
+uma maior dificuldade de fazer esse
+
+559
+00:26:38,278 --> 00:26:42,679
+casamento dos dois afrouxos
+
+560
+00:26:42,980 --> 00:26:50,278
+design quanto do ágio tem um casamento
+
+561
+00:26:45,960 --> 00:26:53,278
+melhor E aí um dos achados uma das
+
+562
+00:26:50,278 --> 00:26:57,000
+coisas que a gente fala nessa discussão
+
+563
+00:26:53,278 --> 00:27:00,079
+é que talvez o erro seja Porque estão
+
+564
+00:26:57,000 --> 00:27:04,798
+tentando fazer algo
+
+565
+00:27:00,079 --> 00:27:07,678
+inteiro ah não vamos já integrar e o x
+
+566
+00:27:04,798 --> 00:27:10,558
+design com a Jairo em vez de tentar
+
+567
+00:27:07,679 --> 00:27:12,900
+integrar e o x design a Jaia de uma vez
+
+568
+00:27:10,558 --> 00:27:14,038
+que tal fazer esse incrementalmente
+
+569
+00:27:12,900 --> 00:27:17,580
+também
+
+570
+00:27:14,038 --> 00:27:21,900
+Que tal começar a usar algumas técnicas
+
+571
+00:27:17,579 --> 00:27:22,939
+de web design junto com Age um
+
+572
+00:27:21,900 --> 00:27:26,159
+alimentando
+
+573
+00:27:22,940 --> 00:27:28,558
+progressivamente e isso vai se tornando
+
+574
+00:27:26,159 --> 00:27:31,860
+cultural Então porque não trabalhar
+
+575
+00:27:28,558 --> 00:27:34,259
+sobre Essa visão uma Terceira Dimensão
+
+576
+00:27:31,859 --> 00:27:37,339
+que a gente também discutiu foi a
+
+577
+00:27:34,259 --> 00:27:41,759
+questão dos usuários e dos
+
+578
+00:27:37,339 --> 00:27:44,158
+clientes né se por um lado uma das
+
+579
+00:27:41,759 --> 00:27:45,140
+coisas que nós coletamos no sorvete é
+
+580
+00:27:44,159 --> 00:27:48,059
+que
+
+581
+00:27:45,140 --> 00:27:50,520
+as startups né os profissionais eles
+
+582
+00:27:48,058 --> 00:27:52,678
+enxergam que é muito legal esse
+
+583
+00:27:50,519 --> 00:27:54,900
+engajamento do usuário e o Age estimula
+
+584
+00:27:52,679 --> 00:27:57,080
+isso também o engajamento do usuário
+
+585
+00:27:54,900 --> 00:27:59,700
+dentro do processo de desenvolvimento
+
+586
+00:27:57,079 --> 00:28:01,619
+dentro das startups existe uma
+
+587
+00:27:59,700 --> 00:28:03,720
+dificuldade grande de trazer esse
+
+588
+00:28:01,619 --> 00:28:06,000
+usuário para dentro do processo Porque
+
+589
+00:28:03,720 --> 00:28:08,659
+às vezes esse usuário ele não é
+
+590
+00:28:06,000 --> 00:28:11,278
+facilmente
+
+591
+00:28:08,659 --> 00:28:14,100
+eu não consigo ter facilidade para
+
+592
+00:28:11,278 --> 00:28:16,500
+chegar até esse usuário em algumas
+
+593
+00:28:14,099 --> 00:28:19,319
+porque ele tá desenvolvendo um negócio
+
+594
+00:28:16,500 --> 00:28:22,679
+Ele tá desenvolvendo a massa ainda de
+
+595
+00:28:19,319 --> 00:28:26,220
+clientes né então uma das colunas
+
+596
+00:28:22,679 --> 00:28:28,740
+achados que a gente fala também é em vez
+
+597
+00:28:26,220 --> 00:28:31,620
+de você já querer trazer o usuário logo
+
+598
+00:28:28,740 --> 00:28:33,839
+de cara por que que você não pega os
+
+599
+00:28:31,619 --> 00:28:36,418
+dados as informações que você já tem
+
+600
+00:28:33,839 --> 00:28:39,058
+desse usuário para que você possa focar
+
+601
+00:28:36,419 --> 00:28:42,000
+melhor no porquê que você precisa trazer
+
+602
+00:28:39,058 --> 00:28:44,819
+esse usuário Em que momento você precisa
+
+603
+00:28:42,000 --> 00:28:48,058
+trazer esse usuário para dentro da
+
+604
+00:28:44,819 --> 00:28:50,700
+Startup para E aí uma coleta para poder
+
+605
+00:28:48,058 --> 00:28:53,278
+usar as informações dele aí para o Whats
+
+606
+00:28:50,700 --> 00:28:56,519
+design e por último a gente fala do
+
+607
+00:28:53,278 --> 00:28:59,240
+trabalho do ex e dos times e aqui a
+
+608
+00:28:56,519 --> 00:29:02,538
+gente tem algo interessante isso né Tem
+
+609
+00:28:59,240 --> 00:29:07,259
+Dois Mundos que nós conseguimos coletar
+
+610
+00:29:02,538 --> 00:29:09,179
+existe um mundo que é das startups que
+
+611
+00:29:07,259 --> 00:29:10,980
+nem tem um profissional de o x
+
+612
+00:29:09,179 --> 00:29:15,059
+trabalhando lá dentro mas ela quer fazer
+
+613
+00:29:10,980 --> 00:29:17,400
+o x ela tem iniciativas de quer e
+
+614
+00:29:15,058 --> 00:29:21,298
+algumas coisas ela já tenta fazer então
+
+615
+00:29:17,400 --> 00:29:24,480
+por esse lado a gente viu que essas
+
+616
+00:29:21,298 --> 00:29:26,819
+startups a dificuldade delas em saber
+
+617
+00:29:24,480 --> 00:29:29,519
+usar técnicas porque realmente ela não
+
+618
+00:29:26,819 --> 00:29:31,980
+tem um profissional ali para direcionar
+
+619
+00:29:29,519 --> 00:29:34,079
+do outro lado quando a gente pega as
+
+620
+00:29:31,980 --> 00:29:37,019
+tratadas mais consolidadas as maiores
+
+621
+00:29:34,079 --> 00:29:38,819
+que tem e tem profissionais de uex
+
+622
+00:29:37,019 --> 00:29:42,119
+trabalhando e às vezes tem até times de
+
+623
+00:29:38,819 --> 00:29:46,678
+o ex trabalhando é Elas têm uma outra
+
+624
+00:29:42,119 --> 00:29:49,439
+dificuldade que é a comunicação entre os
+
+625
+00:29:46,679 --> 00:29:53,460
+times de x e os times de desenvolvimento
+
+626
+00:29:49,440 --> 00:29:55,558
+de software então aqui existe a
+
+627
+00:29:53,460 --> 00:29:57,480
+diferença de como que eu vou tratar esse
+
+628
+00:29:55,558 --> 00:29:59,879
+problema de um lado eu vou tratar
+
+629
+00:29:57,480 --> 00:30:02,339
+daquelas que não tem em que eu vou
+
+630
+00:29:59,880 --> 00:30:04,860
+introduzir técnicas que precisam ser
+
+631
+00:30:02,339 --> 00:30:07,619
+mais enxutas mais fáceis de ser
+
+632
+00:30:04,859 --> 00:30:10,619
+utilizadas e do outro lado eu preciso
+
+633
+00:30:07,619 --> 00:30:12,538
+implementar mecanismos que abreviam essa
+
+634
+00:30:10,619 --> 00:30:15,538
+distância de comunicação que existem
+
+635
+00:30:12,538 --> 00:30:17,158
+entre os times tanto de o x quanto de
+
+636
+00:30:15,538 --> 00:30:20,398
+desenvolvimento de uma maneira geral
+
+637
+00:30:17,159 --> 00:30:24,080
+Esses foram alguns achados
+
+638
+00:30:20,398 --> 00:30:25,859
+falando de outro artigo um pouco então
+
+639
+00:30:24,079 --> 00:30:28,678
+no artigo
+
+640
+00:30:25,859 --> 00:30:30,959
+ioex trabalho em startups de software
+
+641
+00:30:28,679 --> 00:30:34,200
+desafios do Estado atual da prática
+
+642
+00:30:30,960 --> 00:30:36,659
+novamente você e seus autores
+
+643
+00:30:34,200 --> 00:30:39,659
+investigaram como as startups de
+
+644
+00:30:36,659 --> 00:30:41,820
+software lidam com as atividades de
+
+645
+00:30:39,659 --> 00:30:45,659
+iox durante o desenvolvimento de
+
+646
+00:30:41,819 --> 00:30:48,418
+software e como aioex é relevante para
+
+647
+00:30:45,659 --> 00:30:53,059
+os profissionais dessas empresas Quais
+
+648
+00:30:48,419 --> 00:30:53,059
+foram os principais achados deste artigo
+
+649
+00:30:53,898 --> 00:31:02,219
+a gente trabalhou com o mesmo surgem
+
+650
+00:30:59,419 --> 00:31:04,940
+só que nós exploramos questões
+
+651
+00:31:02,220 --> 00:31:04,940
+diferentes
+
+652
+00:31:05,839 --> 00:31:11,639
+e esse artigo Na verdade ele foi até o
+
+653
+00:31:09,960 --> 00:31:14,399
+primeiro que a gente acabou trabalhando
+
+654
+00:31:11,640 --> 00:31:17,640
+com os dados e foi muito interessante
+
+655
+00:31:14,398 --> 00:31:21,178
+porque ele nos deu uma visão de desafios
+
+656
+00:31:17,640 --> 00:31:23,940
+então o que que é Um Desafio que as
+
+657
+00:31:21,179 --> 00:31:26,278
+startups tem para colocar o trabalho de
+
+658
+00:31:23,940 --> 00:31:30,019
+o ex em prática né para fazer com que o
+
+659
+00:31:26,278 --> 00:31:33,599
+design ele seja realmente executado
+
+660
+00:31:30,019 --> 00:31:37,679
+E aí o que nós avaliamos o que nós
+
+661
+00:31:33,599 --> 00:31:39,599
+exploramos foi Em que momento do
+
+662
+00:31:37,679 --> 00:31:43,500
+desenvolvimento de software estão
+
+663
+00:31:39,599 --> 00:31:45,359
+fazendo aí design né então isso foi um
+
+664
+00:31:43,500 --> 00:31:49,220
+dos pontos acho que Chaves que a gente
+
+665
+00:31:45,359 --> 00:31:52,678
+olhou Em que momento se
+
+666
+00:31:49,220 --> 00:31:55,079
+o e o design ele tava sendo feito tanto
+
+667
+00:31:52,679 --> 00:31:57,480
+startups que tinha um profissionais e o
+
+668
+00:31:55,079 --> 00:32:00,418
+ex quanto que não tinham quantos
+
+669
+00:31:57,480 --> 00:32:03,839
+profissionais de o ex tinham E aí a
+
+670
+00:32:00,419 --> 00:32:07,020
+gente descobriu dentro desse primeiro né
+
+671
+00:32:03,839 --> 00:32:10,678
+dessa primeira exploração de dados que
+
+672
+00:32:07,019 --> 00:32:12,720
+se fazia muito e o WhatsApp no ponto do
+
+673
+00:32:10,679 --> 00:32:15,778
+requisito que é aquilo que eu tava
+
+674
+00:32:12,720 --> 00:32:18,720
+falando né para vocês que é aquela
+
+675
+00:32:15,778 --> 00:32:21,240
+aquele up front né a gente vai fazer o
+
+676
+00:32:18,720 --> 00:32:24,058
+design lá no começo mas daí a roda
+
+677
+00:32:21,240 --> 00:32:27,778
+começa a girar no desenvolvimento e o ex
+
+678
+00:32:24,058 --> 00:32:31,019
+design ele começa a não girar junto aí
+
+679
+00:32:27,778 --> 00:32:34,079
+com o mundo ágil então a gente descobriu
+
+680
+00:32:31,019 --> 00:32:37,679
+isso que era muito feito lá no começo
+
+681
+00:32:34,079 --> 00:32:40,699
+mas que depois ele ia se perdendo ele ia
+
+682
+00:32:37,679 --> 00:32:43,980
+se dissolvendo ao longo do caminho né
+
+683
+00:32:40,700 --> 00:32:47,399
+ele acabava se dissolvendo ao longo do
+
+684
+00:32:43,980 --> 00:32:50,339
+caminho e aí dentro dos resultados que a
+
+685
+00:32:47,398 --> 00:32:51,839
+gente olhou né dentro dos Desafios que a
+
+686
+00:32:50,339 --> 00:32:54,058
+gente foi olhar e até por isso que eu
+
+687
+00:32:51,839 --> 00:32:57,798
+falei que ele é o primeiro e motivou o
+
+688
+00:32:54,058 --> 00:33:02,038
+outro artigo a gente tem como desafios
+
+689
+00:32:57,798 --> 00:33:06,480
+um ponto é como que eu consigo usar
+
+690
+00:33:02,038 --> 00:33:08,819
+algumas técnicas de design dentro de
+
+691
+00:33:06,480 --> 00:33:11,880
+startups sendo que muitas dessas
+
+692
+00:33:08,819 --> 00:33:13,019
+técnicas elas são pesadas elas exigem
+
+693
+00:33:11,880 --> 00:33:15,960
+muito tempo
+
+694
+00:33:13,019 --> 00:33:18,298
+elas exigem esforço ela existe um
+
+695
+00:33:15,960 --> 00:33:21,778
+profissional que tem um expertise maior
+
+696
+00:33:18,298 --> 00:33:26,460
+Então como é que eu torno essas práticas
+
+697
+00:33:21,778 --> 00:33:29,519
+mais Lins né mas enxutas de maneira que
+
+698
+00:33:26,460 --> 00:33:31,500
+quem tá numa Startup com poucos recursos
+
+699
+00:33:29,519 --> 00:33:34,440
+muitas vezes não tem aquele profissional
+
+700
+00:33:31,500 --> 00:33:37,440
+dedicado ele consegue usar essas
+
+701
+00:33:34,440 --> 00:33:39,960
+técnicas em seu benefício Esse foi um
+
+702
+00:33:37,440 --> 00:33:42,659
+dos Desafios que a gente viu um outro
+
+703
+00:33:39,960 --> 00:33:44,759
+desafio que eu acabei de comentar no
+
+704
+00:33:42,659 --> 00:33:47,100
+artigo né a gente foi mais profundo no
+
+705
+00:33:44,759 --> 00:33:50,038
+outro artigo mas que a gente já achou
+
+706
+00:33:47,099 --> 00:33:52,319
+logo de cara que é o alinhamento o
+
+707
+00:33:50,038 --> 00:33:55,278
+alinhamento do desenvolvimento ágil com
+
+708
+00:33:52,319 --> 00:33:58,200
+o iowatch design o balanceamento
+
+709
+00:33:55,278 --> 00:34:00,960
+alinhamento do trabalho que não era
+
+710
+00:33:58,200 --> 00:34:03,899
+alinhado eles não aconteciam de formas
+
+711
+00:34:00,960 --> 00:34:07,798
+de forma alinhada e isso prejudicava
+
+712
+00:34:03,898 --> 00:34:11,638
+também o andamento uma outra questão é
+
+713
+00:34:07,798 --> 00:34:12,960
+sobre o valor do X qual é o valor de um
+
+714
+00:34:11,639 --> 00:34:15,838
+X para empresa
+
+715
+00:34:12,960 --> 00:34:18,059
+é o valor de um X para Startup E aí a
+
+716
+00:34:15,838 --> 00:34:21,418
+gente viu também que não havia uma
+
+717
+00:34:18,059 --> 00:34:23,759
+uniformização do valor de o hexa tanto
+
+718
+00:34:21,418 --> 00:34:25,980
+do ponto de vista daqueles que
+
+719
+00:34:23,760 --> 00:34:28,560
+trabalhavam diretamente com iox design
+
+720
+00:34:25,980 --> 00:34:31,260
+quanto daqueles que trabalhavam mais com
+
+721
+00:34:28,559 --> 00:34:34,559
+desenvolvimento e muitas vezes uma super
+
+722
+00:34:31,260 --> 00:34:37,800
+valorização na codificação sem olhar
+
+723
+00:34:34,559 --> 00:34:39,779
+Quais são os benefícios que o ex design
+
+724
+00:34:37,800 --> 00:34:42,480
+poderia trazer
+
+725
+00:34:39,780 --> 00:34:46,200
+e agora uma pergunta complementar porque
+
+726
+00:34:42,480 --> 00:34:50,099
+tem lá no existe um relatório técnico
+
+727
+00:34:46,199 --> 00:34:52,319
+que o grupo fez né chama e o x startups
+
+728
+00:34:50,099 --> 00:34:54,240
+brasileiros a gente vai deixar o link é
+
+729
+00:34:52,320 --> 00:34:55,440
+baseado na mesma cerva e dos dois
+
+730
+00:34:54,239 --> 00:34:58,219
+artigos anteriores
+
+731
+00:34:55,440 --> 00:35:02,338
+é esse esse relatório
+
+732
+00:34:58,219 --> 00:35:04,319
+foi uma uma decisão que nós tomamos né
+
+733
+00:35:02,338 --> 00:35:07,799
+no grupo
+
+734
+00:35:04,320 --> 00:35:12,240
+que é nós queríamos atingir os
+
+735
+00:35:07,800 --> 00:35:15,680
+profissionais também né porque a gente
+
+736
+00:35:12,239 --> 00:35:18,118
+sabe né A Dulce Maria Cláudia aqui
+
+737
+00:35:15,679 --> 00:35:20,940
+artigo científico não é uma leitura
+
+738
+00:35:18,119 --> 00:35:22,619
+fácil para um profissional que tá lá no
+
+739
+00:35:20,940 --> 00:35:26,338
+mercado e que não tem uma vivência
+
+740
+00:35:22,619 --> 00:35:29,039
+científica Então a gente tem resultados
+
+741
+00:35:26,338 --> 00:35:32,159
+científicos que foram esses né você já
+
+742
+00:35:29,039 --> 00:35:34,679
+comentaram mas nós queríamos que os
+
+743
+00:35:32,159 --> 00:35:36,500
+próprios respondentes do Subway que as
+
+744
+00:35:34,679 --> 00:35:40,199
+próprias pessoas que estão no mercado
+
+745
+00:35:36,500 --> 00:35:42,780
+entender sim os resultados também e
+
+746
+00:35:40,199 --> 00:35:45,659
+vissem uma contribuição dos resultados
+
+747
+00:35:42,780 --> 00:35:49,740
+então nós desenvolvemos esse relatório
+
+748
+00:35:45,659 --> 00:35:52,500
+técnico aonde nós temos gráficos bem
+
+749
+00:35:49,739 --> 00:35:55,858
+simples de serem interpretados que falam
+
+750
+00:35:52,500 --> 00:35:59,099
+de técnicas mais usadas dependendo do
+
+751
+00:35:55,858 --> 00:36:01,199
+tamanho da Startup dependendo da idade
+
+752
+00:35:59,099 --> 00:36:04,260
+da Startup dependendo de quanto tempo
+
+753
+00:36:01,199 --> 00:36:07,379
+ela faz o Épica então eu consigo ver por
+
+754
+00:36:04,260 --> 00:36:09,420
+por exemplo que tem uma técnica x que
+
+755
+00:36:07,380 --> 00:36:12,059
+ela é mais usada por uma Startup que já
+
+756
+00:36:09,420 --> 00:36:16,260
+tem mais maturidade né então eu consigo
+
+757
+00:36:12,059 --> 00:36:19,139
+ter essa visão e esse relatório a gente
+
+758
+00:36:16,260 --> 00:36:24,660
+tem ele disponível né online e nós
+
+759
+00:36:19,139 --> 00:36:28,679
+também é publicamos ele através de um de
+
+760
+00:36:24,659 --> 00:36:30,899
+uma Magazine né de um de um blog que é o
+
+761
+00:36:28,679 --> 00:36:32,940
+ex collect então a gente consegue
+
+762
+00:36:30,900 --> 00:36:35,639
+acessar esse relatório tanto direto pelo
+
+763
+00:36:32,940 --> 00:36:39,599
+link quanto através do iOS collective
+
+764
+00:36:35,639 --> 00:36:42,118
+porque a nossa ideia era atingir os
+
+765
+00:36:39,599 --> 00:36:45,960
+profissionais e não só os cientistas que
+
+766
+00:36:42,119 --> 00:36:47,640
+têm interesse aí dentro da área bem
+
+767
+00:36:45,960 --> 00:36:49,079
+interessante é um pouco que a gente
+
+768
+00:36:47,639 --> 00:36:52,078
+tenta fazer aqui você tem que a gente
+
+769
+00:36:49,079 --> 00:36:54,060
+tenta fazer algo no meio né parte do
+
+770
+00:36:52,079 --> 00:36:56,280
+nosso público a gente acha a gente
+
+771
+00:36:54,059 --> 00:36:58,799
+confirma que são Mestrando os doutorando
+
+772
+00:36:56,280 --> 00:37:01,079
+as pessoas que estão pós-graduação né E
+
+773
+00:36:58,800 --> 00:37:03,839
+também a gente quer alcançar pessoas que
+
+774
+00:37:01,079 --> 00:37:05,460
+estão no mercado e aí por isso a
+
+775
+00:37:03,838 --> 00:37:08,159
+pergunta que eu faço que é sobre o
+
+776
+00:37:05,460 --> 00:37:10,199
+artigo trabalho de o ex em startups e
+
+777
+00:37:08,159 --> 00:37:12,659
+software uma análise temática da
+
+778
+00:37:10,199 --> 00:37:14,578
+literatura eu antes de falar desse
+
+779
+00:37:12,659 --> 00:37:17,578
+artigo um detalhe interessante para quem
+
+780
+00:37:14,579 --> 00:37:20,519
+é Mestrando tem um abstrato gráfico né
+
+781
+00:37:17,579 --> 00:37:23,220
+um resumo gráfico bem interessante Nesse
+
+782
+00:37:20,519 --> 00:37:25,500
+artigo mas você e seus autores fizeram
+
+783
+00:37:23,219 --> 00:37:28,799
+análise uma análise temática da
+
+784
+00:37:25,500 --> 00:37:32,039
+literatura buscando investigar como as
+
+785
+00:37:28,800 --> 00:37:34,140
+startups de software trabalha com o x e
+
+786
+00:37:32,039 --> 00:37:35,940
+também buscando descobrir relação entre
+
+787
+00:37:34,139 --> 00:37:39,000
+as práticas de desenvolvimento de
+
+788
+00:37:35,940 --> 00:37:41,338
+software e o excesso mas antes de você
+
+789
+00:37:39,000 --> 00:37:45,300
+falar sobre artigo eu queria saber o que
+
+790
+00:37:41,338 --> 00:37:48,358
+é uma análise temática da literatura
+
+791
+00:37:45,300 --> 00:37:49,500
+bom é na verdade deixa eu falar um
+
+792
+00:37:48,358 --> 00:37:51,019
+pouquinho porque que a gente resolveu
+
+793
+00:37:49,500 --> 00:37:54,260
+fazer isso né
+
+794
+00:37:51,019 --> 00:37:57,420
+Esse foi um artigo que nós precisamos
+
+795
+00:37:54,260 --> 00:38:00,599
+entender um pouco qual era o estado da
+
+796
+00:37:57,420 --> 00:38:03,000
+arte sobre trabalho de um ex na
+
+797
+00:38:00,599 --> 00:38:05,820
+literatura né nós precisávamos nos
+
+798
+00:38:03,000 --> 00:38:08,219
+posicionar enquanto o grupo porque o
+
+799
+00:38:05,820 --> 00:38:12,180
+grupo precisava entender que caminho que
+
+800
+00:38:08,219 --> 00:38:15,299
+iria dentro desse desse contexto aí de o
+
+801
+00:38:12,179 --> 00:38:16,759
+ex design para startups E aí nós
+
+802
+00:38:15,300 --> 00:38:19,859
+resolvemos fazer
+
+803
+00:38:16,760 --> 00:38:22,260
+uma revisão da literatura nós queríamos
+
+804
+00:38:19,858 --> 00:38:24,598
+fazer uma revisão da literatura seguindo
+
+805
+00:38:22,260 --> 00:38:29,160
+todo o processo sistemático de uma
+
+806
+00:38:24,599 --> 00:38:31,260
+revisão da literatura Mas isso é uma
+
+807
+00:38:29,159 --> 00:38:34,379
+coisa que eu converso muito né aqui
+
+808
+00:38:31,260 --> 00:38:37,079
+dentro do grupo e a gente fala que a
+
+809
+00:38:34,380 --> 00:38:38,720
+revisão sistemática da literatura que
+
+810
+00:38:37,079 --> 00:38:42,539
+apresenta
+
+811
+00:38:38,719 --> 00:38:45,858
+apenas números bibliométricos então ele
+
+812
+00:38:42,539 --> 00:38:49,199
+fala tem tanto artigo x estamos do
+
+813
+00:38:45,858 --> 00:38:52,319
+e faz um breve resumo ele não traz
+
+814
+00:38:49,199 --> 00:38:53,000
+contribuições Profundas ele vai dar uma
+
+815
+00:38:52,320 --> 00:38:56,338
+visão
+
+816
+00:38:53,000 --> 00:38:59,219
+geral da área né tentando os artigos
+
+817
+00:38:56,338 --> 00:39:01,259
+para cá tantos artigos para lá e o que
+
+818
+00:38:59,219 --> 00:39:04,019
+nós queremos era um estudo mais
+
+819
+00:39:01,260 --> 00:39:06,300
+aprofundado e foi aí que a gente foi
+
+820
+00:39:04,019 --> 00:39:08,159
+para análise temática então primeiro
+
+821
+00:39:06,300 --> 00:39:10,220
+respondendo o que que é uma análise
+
+822
+00:39:08,159 --> 00:39:14,179
+temática da literatura
+
+823
+00:39:10,219 --> 00:39:17,578
+análise temática é um método qualitativo
+
+824
+00:39:14,179 --> 00:39:20,399
+aonde ele funciona com base em
+
+825
+00:39:17,579 --> 00:39:23,339
+codificação Então dentro de uma análise
+
+826
+00:39:20,400 --> 00:39:26,300
+temática num primeiro passo a gente faz
+
+827
+00:39:23,338 --> 00:39:30,119
+uma análise qualitativa interpretativa
+
+828
+00:39:26,300 --> 00:39:31,740
+de textos ele pode análise temática ela
+
+829
+00:39:30,119 --> 00:39:34,019
+pode ser feita como uma entrevista né
+
+830
+00:39:31,739 --> 00:39:36,659
+Qualquer dado qualitativo no nosso caso
+
+831
+00:39:34,019 --> 00:39:39,119
+a gente fez com a literatura com os
+
+832
+00:39:36,659 --> 00:39:42,239
+artigos então o primeiro etapa é um
+
+833
+00:39:39,119 --> 00:39:46,260
+processo de codificação aberta aonde a
+
+834
+00:39:42,239 --> 00:39:49,039
+gente vai ler o artigo e a gente vai
+
+835
+00:39:46,260 --> 00:39:51,560
+puxar Quais são os códigos que
+
+836
+00:39:49,039 --> 00:39:54,420
+representam
+
+837
+00:39:51,559 --> 00:39:58,500
+o objetivo Mor que a gente tem ali
+
+838
+00:39:54,420 --> 00:40:00,599
+dentro daquela análise no nosso caso a
+
+839
+00:39:58,500 --> 00:40:02,880
+gente queria entender como é que era o
+
+840
+00:40:00,599 --> 00:40:06,300
+trabalho de wex dentro das empresas
+
+841
+00:40:02,880 --> 00:40:10,260
+então nós fizemos esse primeiro passo
+
+842
+00:40:06,300 --> 00:40:13,079
+que é uma codificação aberta e aí o
+
+843
+00:40:10,260 --> 00:40:15,960
+segundo passo que é a construção dos
+
+844
+00:40:13,079 --> 00:40:19,019
+temas que nada mais é do que você pegar
+
+845
+00:40:15,960 --> 00:40:23,659
+o seu resultado da codificação aberta e
+
+846
+00:40:19,019 --> 00:40:27,659
+você fazer um refinamento gerando temas
+
+847
+00:40:23,659 --> 00:40:30,598
+categorias que descrevem os outros
+
+848
+00:40:27,659 --> 00:40:32,639
+achados que são os códigos menores que a
+
+849
+00:40:30,599 --> 00:40:35,039
+gente tem então isso é uma análise
+
+850
+00:40:32,639 --> 00:40:36,779
+temática análise temática é o método
+
+851
+00:40:35,039 --> 00:40:38,820
+qualitativo eu posso usar em qualquer
+
+852
+00:40:36,780 --> 00:40:41,460
+dado qualitativo no nosso caso a gente
+
+853
+00:40:38,820 --> 00:40:43,140
+usou na literatura como um método de
+
+854
+00:40:41,460 --> 00:40:45,720
+análise da literatura
+
+855
+00:40:43,139 --> 00:40:48,420
+e você poderia contar para os nossos
+
+856
+00:40:45,719 --> 00:40:52,618
+ouvintes alguns dos achados deste artigo
+
+857
+00:40:48,420 --> 00:40:56,639
+Luciana Legal vamos lá então Nesse
+
+858
+00:40:52,619 --> 00:40:59,240
+artigo né a gente começou usando o Rigor
+
+859
+00:40:56,639 --> 00:41:02,578
+científico da revisão da literatura
+
+860
+00:40:59,239 --> 00:41:04,739
+aí nós descobrimos poucos artigos então
+
+861
+00:41:02,579 --> 00:41:08,940
+a gente já imaginava que era uma área
+
+862
+00:41:04,739 --> 00:41:10,379
+ainda bem pouco explorada Aí como eu
+
+863
+00:41:08,940 --> 00:41:12,420
+disse a gente passou pelo processo de
+
+864
+00:41:10,380 --> 00:41:15,000
+análise temática da codificação aberta
+
+865
+00:41:12,420 --> 00:41:19,280
+lendo os artigos estranhos códigos
+
+866
+00:41:15,000 --> 00:41:21,780
+depois Nós criamos as categorias também
+
+867
+00:41:19,280 --> 00:41:23,640
+e a gente Nesse artigo é muito
+
+868
+00:41:21,780 --> 00:41:25,980
+interessante que a gente seguiu um Rigor
+
+869
+00:41:23,639 --> 00:41:27,139
+científico muito grande então tanto na
+
+870
+00:41:25,980 --> 00:41:29,699
+codificação
+
+871
+00:41:27,139 --> 00:41:32,338
+aberta quanto na fechada a gente teve
+
+872
+00:41:29,699 --> 00:41:34,679
+várias passadas e refinamentos né então
+
+873
+00:41:32,338 --> 00:41:37,858
+a gente não teve um pesquisador só
+
+874
+00:41:34,679 --> 00:41:40,559
+fazendo esse procedimento todo
+
+875
+00:41:37,858 --> 00:41:43,019
+E aí o que que nós descobrimos Bom vamos
+
+876
+00:41:40,559 --> 00:41:44,279
+lá foram várias descobertas né a
+
+877
+00:41:43,019 --> 00:41:47,219
+primeira que tinha pouca gente
+
+878
+00:41:44,280 --> 00:41:50,579
+pesquisando exatamente sobre o x
+
+879
+00:41:47,219 --> 00:41:53,279
+trabalho X em startups um segundo ponto
+
+880
+00:41:50,579 --> 00:41:55,500
+que nós descobrimos e tudo isso se
+
+881
+00:41:53,280 --> 00:41:59,400
+encontra no artigo né o segundo ponto
+
+882
+00:41:55,500 --> 00:42:02,039
+que nós descobrimos foi que é grande
+
+883
+00:41:59,400 --> 00:42:04,740
+parte dos trabalhos da Europa
+
+884
+00:42:02,039 --> 00:42:07,858
+né então assim uns poucas poucos
+
+885
+00:42:04,739 --> 00:42:10,379
+resultados que vinham de outros lugares
+
+886
+00:42:07,858 --> 00:42:12,598
+que eram relatados nos artigos e que
+
+887
+00:42:10,380 --> 00:42:15,380
+vinham de outros lugares então grande
+
+888
+00:42:12,599 --> 00:42:19,980
+parte dos trabalhos da Europa
+
+889
+00:42:15,380 --> 00:42:22,079
+e olhando para as categorias para os
+
+890
+00:42:19,980 --> 00:42:25,920
+temas que a gente conseguiu descobrir
+
+891
+00:42:22,079 --> 00:42:28,680
+dentro da nossa análise temática um
+
+892
+00:42:25,920 --> 00:42:31,740
+outro ponto que a gente observou é que
+
+893
+00:42:28,679 --> 00:42:39,679
+grande parte dos artigos eles discutiam
+
+894
+00:42:31,739 --> 00:42:42,239
+muito os desafios o panorama o overview
+
+895
+00:42:39,679 --> 00:42:44,598
+eles discutiam mais eles tinham
+
+896
+00:42:42,239 --> 00:42:48,539
+discussões mais em alto nível
+
+897
+00:42:44,599 --> 00:42:51,960
+do que era o trabalho de o ex em
+
+898
+00:42:48,539 --> 00:42:55,139
+startups e não trazendo cases não
+
+899
+00:42:51,960 --> 00:42:59,579
+trazendo estudos de caso e aí tendo algo
+
+900
+00:42:55,139 --> 00:43:01,799
+mais na prática para discutir né tinham
+
+901
+00:42:59,579 --> 00:43:04,920
+alguns que traziam entrevistas Não tô
+
+902
+00:43:01,800 --> 00:43:07,680
+dizendo mas a gente observou que havia
+
+903
+00:43:04,920 --> 00:43:10,800
+uma não havia muita discussão de
+
+904
+00:43:07,679 --> 00:43:13,219
+detalhes de práticas de implementação de
+
+905
+00:43:10,800 --> 00:43:16,318
+práticas do como fazer
+
+906
+00:43:13,219 --> 00:43:20,879
+tinham discussões mais em Alto níveis de
+
+907
+00:43:16,318 --> 00:43:23,279
+desafios do que é se imaginava que
+
+908
+00:43:20,880 --> 00:43:25,200
+deveria ser feito então as nossas
+
+909
+00:43:23,280 --> 00:43:27,839
+categorias quando a gente começou a
+
+910
+00:43:25,199 --> 00:43:31,338
+categorizar a gente criou um conjunto de
+
+911
+00:43:27,838 --> 00:43:34,440
+categorias que falavam sobre o panorama
+
+912
+00:43:31,338 --> 00:43:37,318
+tinham outras que falavam sobre práticas
+
+913
+00:43:34,440 --> 00:43:40,260
+mesmo alguns artigos falavam de práticas
+
+914
+00:43:37,318 --> 00:43:42,900
+que eram utilizadas tem outras que
+
+915
+00:43:40,260 --> 00:43:45,960
+falavam mais dos aspectos de Skills
+
+916
+00:43:42,900 --> 00:43:48,780
+necessários para se trabalhar com o x
+
+917
+00:43:45,960 --> 00:43:51,480
+dentro descartáveis então a gente criou
+
+918
+00:43:48,780 --> 00:43:54,480
+um conjunto de categorias e essas
+
+919
+00:43:51,480 --> 00:43:57,358
+categorias elas foram ligadas as
+
+920
+00:43:54,480 --> 00:44:00,240
+diferentes literaturas então no artigo a
+
+921
+00:43:57,358 --> 00:44:02,759
+gente traz um mapa mental mostrando como
+
+922
+00:44:00,239 --> 00:44:05,039
+que essas categorias se
+
+923
+00:44:02,760 --> 00:44:07,079
+item em tópicos menores como que eles
+
+924
+00:44:05,039 --> 00:44:09,900
+estão ligados aos diferentes artigos
+
+925
+00:44:07,079 --> 00:44:13,260
+então ah eu tenho interesse desenvolver
+
+926
+00:44:09,900 --> 00:44:15,900
+algo sobre Skills né e o ex Skills ai
+
+927
+00:44:13,260 --> 00:44:19,740
+essa esse conjunto de artigos aqui eles
+
+928
+00:44:15,900 --> 00:44:22,740
+me contam algo eu vejo que esse esse
+
+929
+00:44:19,739 --> 00:44:24,299
+artigo da análise temática ele é um bom
+
+930
+00:44:22,739 --> 00:44:27,118
+ponto de partida para quem tá querendo
+
+931
+00:44:24,300 --> 00:44:29,160
+começar a trabalhar na área né a gente
+
+932
+00:44:27,119 --> 00:44:32,700
+sabe que é uma fotografia que outras
+
+933
+00:44:29,159 --> 00:44:34,078
+publicações ela surgiram mas ele é um
+
+934
+00:44:32,699 --> 00:44:36,960
+bom ponto de partida para a gente
+
+935
+00:44:34,079 --> 00:44:39,599
+entender um pouco aí como tá a área e a
+
+936
+00:44:36,960 --> 00:44:42,119
+gente também pontua algumas questões de
+
+937
+00:44:39,599 --> 00:44:46,140
+pesquisa aberta né então que ainda não
+
+938
+00:44:42,119 --> 00:44:47,700
+foram investigadas como que as startups
+
+939
+00:44:46,139 --> 00:44:51,179
+conseguem trabalhar com as informações
+
+940
+00:44:47,699 --> 00:44:53,699
+que elas coletam como que ela qual é o
+
+941
+00:44:51,179 --> 00:44:56,519
+impacto das práticas de uso de práticas
+
+942
+00:44:53,699 --> 00:44:59,159
+informais né sem usar as práticas de
+
+943
+00:44:56,519 --> 00:45:01,380
+maneiras mais sistematizadas então a
+
+944
+00:44:59,159 --> 00:45:02,639
+gente também abre um leque aí de
+
+945
+00:45:01,380 --> 00:45:05,900
+oportunidade atividades que são
+
+946
+00:45:02,639 --> 00:45:11,059
+perguntas de pesquisa que podem ser
+
+947
+00:45:05,900 --> 00:45:11,059
+exploradas em outras em outros estudos
+
+948
+00:45:11,219 --> 00:45:15,959
+interessante e
+
+949
+00:45:12,858 --> 00:45:18,000
+você escreveu um post nesse blog que
+
+950
+00:45:15,960 --> 00:45:21,358
+você já mencionou o blog e o ex
+
+951
+00:45:18,000 --> 00:45:23,039
+collective que se chama you startups e
+
+952
+00:45:21,358 --> 00:45:25,380
+software um retrato no cenário
+
+953
+00:45:23,039 --> 00:45:27,659
+brasileiro o que eu queria saber a
+
+954
+00:45:25,380 --> 00:45:29,700
+curiosidade é como surgiu esse post você
+
+955
+00:45:27,659 --> 00:45:31,318
+já conheciam esse blog como foi a
+
+956
+00:45:29,699 --> 00:45:34,279
+experiência de escrever diretamente para
+
+957
+00:45:31,318 --> 00:45:34,279
+um público profissional
+
+958
+00:45:35,539 --> 00:45:42,300
+na verdade assim eu já conhecia né o ex
+
+959
+00:45:38,940 --> 00:45:45,119
+collect e o ex collect ele é um ele é
+
+960
+00:45:42,300 --> 00:45:47,880
+uma publicação é um blog muito conhecido
+
+961
+00:45:45,119 --> 00:45:50,400
+no meio de o ex Design no Brasil e no
+
+962
+00:45:47,880 --> 00:45:52,680
+mundo porque tenho e o ex colectivo que
+
+963
+00:45:50,400 --> 00:45:54,660
+tem uma curadoria brasileira que tem
+
+964
+00:45:52,679 --> 00:45:57,239
+algumas pessoas no Brasil que fazem a
+
+965
+00:45:54,659 --> 00:46:01,679
+curadoria e tenho internacional também
+
+966
+00:45:57,239 --> 00:46:04,939
+então tem os dois blogs né E eles são
+
+967
+00:46:01,679 --> 00:46:10,259
+separados eles têm curadorias diferentes
+
+968
+00:46:04,940 --> 00:46:14,280
+isso a escrita para para ele foi uma
+
+969
+00:46:10,260 --> 00:46:16,440
+decisão de vamos vamos até as pessoas né
+
+970
+00:46:14,280 --> 00:46:18,780
+Vamos até os profissionais não vão
+
+971
+00:46:16,440 --> 00:46:21,539
+querer que eles venham até nós vamos até
+
+972
+00:46:18,780 --> 00:46:24,420
+eles contar o que que a gente descobriu
+
+973
+00:46:21,539 --> 00:46:26,460
+e eu acho que o primeiro exercício é
+
+974
+00:46:24,420 --> 00:46:29,280
+muito interessante que é a gente precisa
+
+975
+00:46:26,460 --> 00:46:31,920
+se desapegar do modo científico de
+
+976
+00:46:29,280 --> 00:46:36,060
+escrever a gente tem que escrever de uma
+
+977
+00:46:31,920 --> 00:46:39,119
+maneira mais informal né a gente escreve
+
+978
+00:46:36,059 --> 00:46:41,880
+de uma maneira mais informal para que
+
+979
+00:46:39,119 --> 00:46:43,680
+seja uma leitura mais rápida né são
+
+980
+00:46:41,880 --> 00:46:46,800
+artigos que tem que ter uma leitura mais
+
+981
+00:46:43,679 --> 00:46:49,500
+rápida mais focada são muito ilustrados
+
+982
+00:46:46,800 --> 00:46:51,260
+com imagens a gente coloca imagens para
+
+983
+00:46:49,500 --> 00:46:54,539
+ilustrar aquilo que a gente está fazendo
+
+984
+00:46:51,260 --> 00:46:57,720
+e o legal do ex collective que o pessoal
+
+985
+00:46:54,539 --> 00:46:59,940
+que faz a curadoria eles têm um lugar de
+
+986
+00:46:57,719 --> 00:47:01,618
+Line que eles passam para gente sobre o
+
+987
+00:46:59,940 --> 00:47:03,179
+que a gente deve se preocupar quando
+
+988
+00:47:01,619 --> 00:47:06,119
+está escrevendo um artigo para eles
+
+989
+00:47:03,179 --> 00:47:09,358
+então eles são muito bem organizados
+
+990
+00:47:06,119 --> 00:47:10,579
+nesse sentido e como que funciona a
+
+991
+00:47:09,358 --> 00:47:14,578
+gente escreve
+
+992
+00:47:10,579 --> 00:47:17,099
+esse post né esse artigo no vídeo então
+
+993
+00:47:14,579 --> 00:47:19,980
+a gente escreve no nosso próprio vídeo e
+
+994
+00:47:17,099 --> 00:47:22,338
+aí a gente passa o direito para eles
+
+995
+00:47:19,980 --> 00:47:25,380
+para Procuradoria quando a gente termina
+
+996
+00:47:22,338 --> 00:47:27,900
+eles fazem uma revisão Então não é
+
+997
+00:47:25,380 --> 00:47:30,660
+automático a publicação eles fazem uma
+
+998
+00:47:27,900 --> 00:47:34,019
+revisão para verificar se não tem
+
+999
+00:47:30,659 --> 00:47:35,460
+nenhuma regra que a gente tá não tá
+
+1000
+00:47:34,019 --> 00:47:38,818
+seguindo por exemplo não pode fazer
+
+1001
+00:47:35,460 --> 00:47:41,280
+propaganda de produto né então eles vem
+
+1002
+00:47:38,818 --> 00:47:43,619
+se a gente tá fazendo tudo conforme as
+
+1003
+00:47:41,280 --> 00:47:46,560
+regras do blog E aí ele sobem para
+
+1004
+00:47:43,619 --> 00:47:48,900
+publicação depois disso e passa a ficar
+
+1005
+00:47:46,559 --> 00:47:51,539
+ali disponível para esse público de
+
+1006
+00:47:48,900 --> 00:47:54,480
+profissionais Então para mim foi uma
+
+1007
+00:47:51,539 --> 00:47:57,000
+experiência muito gostosa eu confesso
+
+1008
+00:47:54,480 --> 00:47:58,318
+que no começo parecia que não saía
+
+1009
+00:47:57,000 --> 00:48:00,318
+escrita né que a gente tem que tomar
+
+1010
+00:47:58,318 --> 00:48:03,838
+cuidado para não ficar
+
+1011
+00:48:00,318 --> 00:48:05,219
+algo muito rebuscado mas eu senti o
+
+1012
+00:48:03,838 --> 00:48:08,960
+prazer enorme descrever Eu gostei muito
+
+1013
+00:48:05,219 --> 00:48:08,959
+de escrever esse post
+
+1014
+00:48:11,480 --> 00:48:18,000
+é um grande desafio também né Luciana
+
+1015
+00:48:14,880 --> 00:48:19,579
+escreveu de uma outra forma mas muito
+
+1016
+00:48:18,000 --> 00:48:23,159
+legal
+
+1017
+00:48:19,579 --> 00:48:26,400
+também nesse blog né uma aluna do grupo
+
+1018
+00:48:23,159 --> 00:48:28,618
+de pesquisa e o ex-lares Sofia Silveira
+
+1019
+00:48:26,400 --> 00:48:31,760
+escreveu o post
+
+1020
+00:48:28,619 --> 00:48:36,119
+ioex em startups quais práticas utilizar
+
+1021
+00:48:31,760 --> 00:48:38,400
+12 práticas úteis para o designers que
+
+1022
+00:48:36,119 --> 00:48:41,220
+trabalham diretamente com produtos de
+
+1023
+00:48:38,400 --> 00:48:43,940
+startups quais são algumas dessas
+
+1024
+00:48:41,219 --> 00:48:47,159
+práticas Luciana
+
+1025
+00:48:43,940 --> 00:48:50,099
+esse artigo ele foi liderado pela Sofia
+
+1026
+00:48:47,159 --> 00:48:52,559
+né que é essa primeira autora mas teve a
+
+1027
+00:48:50,099 --> 00:48:55,920
+participação de outras alunas também na
+
+1028
+00:48:52,559 --> 00:48:57,739
+época que foi a Júlia Saad e a Suellen
+
+1029
+00:48:55,920 --> 00:49:00,240
+Martinelli né
+
+1030
+00:48:57,739 --> 00:49:03,118
+na verdade o que que as meninas fizeram
+
+1031
+00:49:00,239 --> 00:49:06,000
+elas pegaram o conjunto de práticas que
+
+1032
+00:49:03,119 --> 00:49:08,880
+dentro do que elas estavam estudando né
+
+1033
+00:49:06,000 --> 00:49:11,039
+a Sofia foi uma aluna que participou
+
+1034
+00:49:08,880 --> 00:49:13,559
+diretamente do Subway que a gente rodou
+
+1035
+00:49:11,039 --> 00:49:16,858
+com os profissionais então elas pegaram
+
+1036
+00:49:13,559 --> 00:49:20,400
+um conjunto de práticas e aí elas
+
+1037
+00:49:16,858 --> 00:49:22,380
+buscaram traduzir o como essas práticas
+
+1038
+00:49:20,400 --> 00:49:26,280
+poderiam ajudar os profissionais de
+
+1039
+00:49:22,380 --> 00:49:28,500
+startups nas descobertas né sobre a
+
+1040
+00:49:26,280 --> 00:49:31,440
+experiência do usuário e aí elas
+
+1041
+00:49:28,500 --> 00:49:34,739
+dividiram essas práticas em dois grandes
+
+1042
+00:49:31,440 --> 00:49:36,200
+grupos elas colocaram essas práticas em
+
+1043
+00:49:34,739 --> 00:49:38,338
+grupos de
+
+1044
+00:49:36,199 --> 00:49:40,078
+Oxford então quando a gente está
+
+1045
+00:49:38,338 --> 00:49:43,139
+querendo fazer a pesquisa sobre
+
+1046
+00:49:40,079 --> 00:49:45,240
+experiência do usuário e um outro grupo
+
+1047
+00:49:43,139 --> 00:49:46,400
+algo que é o grupo de wex e valuation
+
+1048
+00:49:45,239 --> 00:49:50,098
+que é quando a gente está querendo
+
+1049
+00:49:46,400 --> 00:49:52,260
+avaliar a experiência do usuário e um
+
+1050
+00:49:50,099 --> 00:49:54,838
+ponto interessante é que elas mostraram
+
+1051
+00:49:52,260 --> 00:49:56,760
+que algumas práticas inclusive pode ser
+
+1052
+00:49:54,838 --> 00:49:59,159
+usada para as duas coisas elas podem
+
+1053
+00:49:56,760 --> 00:50:01,800
+usar tanto para pesquisa quanto que elas
+
+1054
+00:49:59,159 --> 00:50:04,940
+podem usar para avaliação E aí elas
+
+1055
+00:50:01,800 --> 00:50:07,560
+listaram práticas como por exemplo
+
+1056
+00:50:04,940 --> 00:50:09,679
+personas para que eu possa mapear as
+
+1057
+00:50:07,559 --> 00:50:14,279
+características do usuário
+
+1058
+00:50:09,679 --> 00:50:18,000
+e criar um usuário representativo isso é
+
+1059
+00:50:14,280 --> 00:50:21,540
+uma coisa muito importante para o time
+
+1060
+00:50:18,000 --> 00:50:24,719
+da Startup tá focado no quem é o público
+
+1061
+00:50:21,539 --> 00:50:27,779
+alvo elas falam de uma técnica chamada
+
+1062
+00:50:24,719 --> 00:50:30,239
+card sorte que muitas vezes tem gente
+
+1063
+00:50:27,780 --> 00:50:33,359
+que não conhece não é uma técnica tão
+
+1064
+00:50:30,239 --> 00:50:35,639
+conhecida que é uma técnica que permite
+
+1065
+00:50:33,358 --> 00:50:38,219
+que a gente faça a organização de
+
+1066
+00:50:35,639 --> 00:50:42,059
+cartões para ver como que são
+
+1067
+00:50:38,219 --> 00:50:45,118
+agrupamentos né então esses cartões eles
+
+1068
+00:50:42,059 --> 00:50:48,259
+vão conter por por exemplo é conceitos
+
+1069
+00:50:45,119 --> 00:50:50,700
+eles podem conter imagens eles podem ser
+
+1070
+00:50:48,260 --> 00:50:53,040
+agrupamentos de menus que eu quero
+
+1071
+00:50:50,699 --> 00:50:56,818
+entender como que o usuário entende
+
+1072
+00:50:53,039 --> 00:50:59,279
+esses agrupamentos né ou temas que para
+
+1073
+00:50:56,818 --> 00:51:02,039
+o usuário faz mais sentido ficar junto
+
+1074
+00:50:59,280 --> 00:51:05,160
+então o card sorte ele pode ser
+
+1075
+00:51:02,039 --> 00:51:07,800
+utilizado tanto para o ex research
+
+1076
+00:51:05,159 --> 00:51:10,318
+quando eu quero entender como que o
+
+1077
+00:51:07,800 --> 00:51:12,740
+usuário compreende temas e como é que
+
+1078
+00:51:10,318 --> 00:51:15,539
+ele relaciona determinadas nomenclaturas
+
+1079
+00:51:12,739 --> 00:51:17,338
+isso vai me dar um impacto por exemplo
+
+1080
+00:51:15,539 --> 00:51:20,338
+em nomenclaturas que eu vou usar dentro
+
+1081
+00:51:17,338 --> 00:51:22,980
+de uma própria interface né
+
+1082
+00:51:20,338 --> 00:51:25,519
+ou eu posso estar avaliando eu posso
+
+1083
+00:51:22,980 --> 00:51:29,039
+usar como uma avaliação eu quero
+
+1084
+00:51:25,519 --> 00:51:31,739
+avaliar se os elementos que eu defini aí
+
+1085
+00:51:29,039 --> 00:51:34,619
+para construção de um menu eles estão
+
+1086
+00:51:31,739 --> 00:51:36,598
+adequados e intangíveis da forma que eu
+
+1087
+00:51:34,619 --> 00:51:39,539
+imaginei que eles deveriam ficar então
+
+1088
+00:51:36,599 --> 00:51:41,760
+eu posso usar as práticas e para
+
+1089
+00:51:39,539 --> 00:51:45,599
+diferentes propósitos e o que as meninas
+
+1090
+00:51:41,760 --> 00:51:48,599
+fazem é trazer como que essas práticas
+
+1091
+00:51:45,599 --> 00:51:51,240
+podem ajudar as espetáculos em
+
+1092
+00:51:48,599 --> 00:51:53,660
+diferentes momentos e elas estão aí esse
+
+1093
+00:51:51,239 --> 00:51:56,759
+conjunto de 12 práticas
+
+1094
+00:51:53,659 --> 00:51:58,739
+muito legal e você coordena também um
+
+1095
+00:51:56,760 --> 00:52:02,400
+projeto chamado cesta de ferramentas
+
+1096
+00:51:58,739 --> 00:52:04,379
+enxutas para aí o x Design em que você e
+
+1097
+00:52:02,400 --> 00:52:06,599
+sua equipe desenvolvem ferramentas para
+
+1098
+00:52:04,380 --> 00:52:08,400
+facilitar o trabalho com o ex por
+
+1099
+00:52:06,599 --> 00:52:10,740
+profissionais que não tem conhecimento
+
+1100
+00:52:08,400 --> 00:52:13,760
+de wrex você pode falar para gente um
+
+1101
+00:52:10,739 --> 00:52:13,759
+pouco sobre esse projeto
+
+1102
+00:52:14,480 --> 00:52:21,179
+na verdade de extensão
+
+1103
+00:52:18,420 --> 00:52:24,780
+ele não é um projeto científico é lógico
+
+1104
+00:52:21,179 --> 00:52:26,519
+tem acaba tendo né uma ligação com a
+
+1105
+00:52:24,780 --> 00:52:29,040
+outra porque as descobertas científicas
+
+1106
+00:52:26,519 --> 00:52:33,179
+ela ajudam também no desenvolvimento da
+
+1107
+00:52:29,039 --> 00:52:36,900
+extensão mas esse esse projeto ele tem
+
+1108
+00:52:33,179 --> 00:52:39,719
+dois propósitos um primeiro propósito é
+
+1109
+00:52:36,900 --> 00:52:42,420
+a gente desenvolver ferramentas mais
+
+1110
+00:52:39,719 --> 00:52:45,419
+simples de serem usadas
+
+1111
+00:52:42,420 --> 00:52:47,639
+área de o x né de o x design muitas
+
+1112
+00:52:45,420 --> 00:52:50,280
+vezes ela tem fama de que algumas
+
+1113
+00:52:47,639 --> 00:52:53,519
+técnicas elas são difíceis e prolixas
+
+1114
+00:52:50,280 --> 00:52:56,400
+para se usar e aí o que a gente faz
+
+1115
+00:52:53,519 --> 00:53:00,599
+dentro desse grupo é construir algumas
+
+1116
+00:52:56,400 --> 00:53:03,800
+ferramentas mais fáceis ou automatizando
+
+1117
+00:53:00,599 --> 00:53:06,300
+alguns processos que se ele for utilizar
+
+1118
+00:53:03,800 --> 00:53:09,720
+no dia a dia com uma outra ferramenta
+
+1119
+00:53:06,300 --> 00:53:12,420
+não apropriada não específica para
+
+1120
+00:53:09,719 --> 00:53:15,719
+aquilo fica mais difícil então por
+
+1121
+00:53:12,420 --> 00:53:18,980
+exemplo a gente tem uma ferramenta que
+
+1122
+00:53:15,719 --> 00:53:21,118
+nós desenvolvemos que é o lipessona
+
+1123
+00:53:18,980 --> 00:53:23,880
+a pessoa é uma técnica bastante
+
+1124
+00:53:21,119 --> 00:53:26,099
+conhecida dentro da área de WhatsApp mas
+
+1125
+00:53:23,880 --> 00:53:29,160
+ela é uma técnica tida como difícil de
+
+1126
+00:53:26,099 --> 00:53:31,440
+se usar e ela é uma técnica demorada se
+
+1127
+00:53:29,159 --> 00:53:35,420
+ela for ser utilizada da maneira
+
+1128
+00:53:31,440 --> 00:53:40,019
+tradicional o que a gente fez foi trazer
+
+1129
+00:53:35,420 --> 00:53:44,280
+uma outra roupagem é uma outra forma de
+
+1130
+00:53:40,019 --> 00:53:48,539
+usar técnica que é Persona que foi
+
+1131
+00:53:44,280 --> 00:53:51,480
+desenvolvida pelo botelf que o gutel fi
+
+1132
+00:53:48,539 --> 00:53:55,619
+ele é o autor do Linux que é o ex enxuto
+
+1133
+00:53:51,480 --> 00:53:58,440
+né então ali a linha é a limpessona ela
+
+1134
+00:53:55,619 --> 00:54:01,680
+foi proposta pelo botelf e a gente
+
+1135
+00:53:58,440 --> 00:54:04,679
+trouxe incrementou porque o hotel Fi ele
+
+1136
+00:54:01,679 --> 00:54:06,960
+ele traz a construção da Persona por
+
+1137
+00:54:04,679 --> 00:54:09,659
+quadrantes ele fala olha nesse quadrante
+
+1138
+00:54:06,960 --> 00:54:12,539
+são os dados pessoais esse aqui você vai
+
+1139
+00:54:09,659 --> 00:54:15,480
+falar os objetivos da pessoa e aí a
+
+1140
+00:54:12,539 --> 00:54:18,599
+gente deu uma
+
+1141
+00:54:15,480 --> 00:54:20,519
+uma nova velha né um novo afrouxa ali
+
+1142
+00:54:18,599 --> 00:54:23,338
+nessa técnica onde a gente coloca a
+
+1143
+00:54:20,519 --> 00:54:25,559
+perguntas guias que ajudam as pessoas a
+
+1144
+00:54:23,338 --> 00:54:28,440
+construir essas personas Então a gente
+
+1145
+00:54:25,559 --> 00:54:30,119
+tem uma ferramenta automatizada que tem
+
+1146
+00:54:28,440 --> 00:54:33,059
+as perguntas minhas que tem os
+
+1147
+00:54:30,119 --> 00:54:35,818
+quadrantes que permitem que quem vai
+
+1148
+00:54:33,059 --> 00:54:38,519
+construir as personas use essa
+
+1149
+00:54:35,818 --> 00:54:41,880
+ferramenta e tenha visualmente a Persona
+
+1150
+00:54:38,519 --> 00:54:44,219
+construída no final Então e o x design
+
+1151
+00:54:41,880 --> 00:54:47,640
+ele pode tanto construir personas
+
+1152
+00:54:44,219 --> 00:54:49,919
+isoladamente ele pode fazer um workshop
+
+1153
+00:54:47,639 --> 00:54:52,379
+onde várias pessoas constroem personas
+
+1154
+00:54:49,920 --> 00:54:54,838
+diferentes e depois ele consolida e cria
+
+1155
+00:54:52,380 --> 00:54:58,380
+personas únicas então tem diferentes
+
+1156
+00:54:54,838 --> 00:55:00,838
+formas de usar a ferramenta Então esse
+
+1157
+00:54:58,380 --> 00:55:03,900
+foi um uma das Ferramentas que a gente
+
+1158
+00:55:00,838 --> 00:55:05,519
+desenvolveu uma outra ferramenta que a
+
+1159
+00:55:03,900 --> 00:55:08,280
+gente desenvolveu também foi uma
+
+1160
+00:55:05,519 --> 00:55:10,440
+ferramenta de checklist assim a gente
+
+1161
+00:55:08,280 --> 00:55:12,300
+tem muito checklists que podem ser
+
+1162
+00:55:10,440 --> 00:55:15,780
+utilizados Ah eu posso fazer um
+
+1163
+00:55:12,300 --> 00:55:18,839
+checklist no forno do Google
+
+1164
+00:55:15,780 --> 00:55:21,480
+Mas a nossa ferramenta além de permitir
+
+1165
+00:55:18,838 --> 00:55:25,980
+o uso do check-list ela gera gráficos
+
+1166
+00:55:21,480 --> 00:55:29,338
+depois mostrando Quais foram os dentro
+
+1167
+00:55:25,980 --> 00:55:32,460
+da check-list Quais foram os mais usados
+
+1168
+00:55:29,338 --> 00:55:35,578
+se você tem um check list de avaliação
+
+1169
+00:55:32,460 --> 00:55:38,460
+por exemplo dentro de uma pergunta quais
+
+1170
+00:55:35,579 --> 00:55:40,380
+foram as respostas mais recebidas né
+
+1171
+00:55:38,460 --> 00:55:43,858
+então a gente gera a gente tem um
+
+1172
+00:55:40,380 --> 00:55:47,160
+dashboard cheio de gráficos mostrando os
+
+1173
+00:55:43,858 --> 00:55:50,098
+resultados então para facilitar também a
+
+1174
+00:55:47,159 --> 00:55:52,858
+interpretação Então esse projeto tem
+
+1175
+00:55:50,099 --> 00:55:55,079
+como o primeiro braço e isso o
+
+1176
+00:55:52,858 --> 00:55:59,818
+desenvolvimento dessas ferramentas
+
+1177
+00:55:55,079 --> 00:56:02,880
+um segundo braço que aí não é o objetivo
+
+1178
+00:55:59,818 --> 00:56:05,818
+alvo mas a gente acaba fazendo isso é
+
+1179
+00:56:02,880 --> 00:56:08,000
+que dentro desse projeto quem atua são
+
+1180
+00:56:05,818 --> 00:56:11,759
+alunos de graduação
+
+1181
+00:56:08,000 --> 00:56:16,019
+e como o projeto de extensão e para eles
+
+1182
+00:56:11,760 --> 00:56:19,020
+é uma experiência neste projeto que é o
+
+1183
+00:56:16,019 --> 00:56:23,119
+cabo trazendo isso de como trabalhar com
+
+1184
+00:56:19,019 --> 00:56:24,800
+projetos reais aonde a gente faz
+
+1185
+00:56:23,119 --> 00:56:28,318
+reuniões
+
+1186
+00:56:24,800 --> 00:56:30,359
+regulares né tipo um stand up meeting
+
+1187
+00:56:28,318 --> 00:56:34,259
+para discutir Como que tá a
+
+1188
+00:56:30,358 --> 00:56:38,219
+implementação eles trocam entre eles as
+
+1189
+00:56:34,260 --> 00:56:41,300
+experiências então também tem braço na
+
+1190
+00:56:38,219 --> 00:56:44,098
+formação dos alunos de graduação como
+
+1191
+00:56:41,300 --> 00:56:46,440
+desenvolvedores de software e
+
+1192
+00:56:44,099 --> 00:56:49,140
+desenvolvedores de ferramentas aí para
+
+1193
+00:56:46,440 --> 00:56:51,559
+ajudar os outros desenvolvedores de
+
+1194
+00:56:49,139 --> 00:56:51,558
+software
+
+1195
+00:56:51,659 --> 00:56:57,659
+muito bem então estamos chegando a
+
+1196
+00:56:54,179 --> 00:56:59,399
+penúltima parte aqui do nosso Episódio é
+
+1197
+00:56:57,659 --> 00:57:01,259
+a parte que a gente pergunta sobre a
+
+1198
+00:56:59,400 --> 00:57:04,440
+próxima Fronteira eu gosto sempre de
+
+1199
+00:57:01,260 --> 00:57:07,319
+lembrar que não espera que ninguém prevê
+
+1200
+00:57:04,440 --> 00:57:09,539
+futuro pode ser algo que você acha que
+
+1201
+00:57:07,318 --> 00:57:12,358
+vai acontecer o que você gostaria que
+
+1202
+00:57:09,539 --> 00:57:14,880
+acontecesse em nossa área na sua área
+
+1203
+00:57:12,358 --> 00:57:18,619
+para você Luciana qual é a próxima
+
+1204
+00:57:14,880 --> 00:57:21,960
+fronteira da engenharia de software
+
+1205
+00:57:18,619 --> 00:57:23,519
+olha essa pergunta é difícil né de
+
+1206
+00:57:21,960 --> 00:57:26,119
+responder a gente fica pensando a gente
+
+1207
+00:57:23,519 --> 00:57:29,759
+quer que tanta coisa aconteça né
+
+1208
+00:57:26,119 --> 00:57:30,920
+Eu olhando um pouquinho para o meu lado
+
+1209
+00:57:29,760 --> 00:57:34,099
+né
+
+1210
+00:57:30,920 --> 00:57:37,019
+do que eu venho desenvolvendo
+
+1211
+00:57:34,099 --> 00:57:39,900
+se olhar um pouco vou falar primeiro
+
+1212
+00:57:37,019 --> 00:57:43,400
+dessa integração né se olhar pouco essa
+
+1213
+00:57:39,900 --> 00:57:46,318
+integração de uex e desenvolvimento
+
+1214
+00:57:43,400 --> 00:57:50,519
+ágil eu acho que uma das coisas que a
+
+1215
+00:57:46,318 --> 00:57:53,539
+gente quer mais ver nessa área são as
+
+1216
+00:57:50,519 --> 00:57:57,480
+coisas mais embutidas uma na outra
+
+1217
+00:57:53,539 --> 00:58:01,400
+aí o x design e o desenvolvimento Eles
+
+1218
+00:57:57,480 --> 00:58:04,800
+ainda são vistos de forma separado né eu
+
+1219
+00:58:01,400 --> 00:58:06,838
+fiz acabei nem comentando aqui mas eu
+
+1220
+00:58:04,800 --> 00:58:09,660
+fiz o meu pós-doutorado né O meu
+
+1221
+00:58:06,838 --> 00:58:14,400
+sabático em 2017/2018 com a professora
+
+1222
+00:58:09,659 --> 00:58:16,858
+Helen Sharp lá no Reino Unido e uma das
+
+1223
+00:58:14,400 --> 00:58:19,440
+coisas que o meu projeto eu fiquei três
+
+1224
+00:58:16,858 --> 00:58:22,739
+meses dentro de uma empresa observando
+
+1225
+00:58:19,440 --> 00:58:26,280
+times de software e uma das coisas que a
+
+1226
+00:58:22,739 --> 00:58:28,439
+gente descobriu era que o x acabava
+
+1227
+00:58:26,280 --> 00:58:30,900
+ficando escondido dentro dos artefatos
+
+1228
+00:58:28,440 --> 00:58:33,659
+os dados sobre a experiência do usuário
+
+1229
+00:58:30,900 --> 00:58:36,539
+eles ficavam escondidos dentro dos
+
+1230
+00:58:33,659 --> 00:58:39,539
+artefatos e dissolvidos e dispersos
+
+1231
+00:58:36,539 --> 00:58:42,298
+então às vezes a gente escuta falar
+
+1232
+00:58:39,539 --> 00:58:45,000
+assim olha eu não faço pesquisa com
+
+1233
+00:58:42,298 --> 00:58:46,440
+usuário eu não faço o x ele faz mas ele
+
+1234
+00:58:45,000 --> 00:58:49,019
+não sabe
+
+1235
+00:58:46,440 --> 00:58:53,240
+não tem essa consciência porque está
+
+1236
+00:58:49,019 --> 00:58:55,980
+disperso está escondido Então essa esse
+
+1237
+00:58:53,239 --> 00:58:59,039
+aparecer né esse ano cover das coisas
+
+1238
+00:58:55,980 --> 00:59:02,039
+ele fazer com que as pessoas enxerguem
+
+1239
+00:58:59,039 --> 00:59:03,960
+essa melhor integração entre os dois
+
+1240
+00:59:02,039 --> 00:59:06,679
+mundos Eu acho que eu diria que é o que
+
+1241
+00:59:03,960 --> 00:59:09,539
+eu gostaria que fosse
+
+1242
+00:59:06,679 --> 00:59:11,639
+uma nova fronteira para ser trabalhada
+
+1243
+00:59:09,539 --> 00:59:13,440
+né que as coisas não fossem tão
+
+1244
+00:59:11,639 --> 00:59:17,098
+separadas
+
+1245
+00:59:13,440 --> 00:59:19,139
+e olhando um pouco para engenharia de
+
+1246
+00:59:17,099 --> 00:59:22,200
+software a minha impressão é que uma
+
+1247
+00:59:19,139 --> 00:59:25,318
+fronteira é como é que nós vamos
+
+1248
+00:59:22,199 --> 00:59:28,318
+trabalhar com tanto dado né Nós geramos
+
+1249
+00:59:25,318 --> 00:59:31,679
+muitos dados hoje muitos muitos muitos
+
+1250
+00:59:28,318 --> 00:59:34,318
+muitos e Nós não sabemos trabalhar eu
+
+1251
+00:59:31,679 --> 00:59:36,239
+falo que mesmo na área de o X para mim
+
+1252
+00:59:34,318 --> 00:59:39,000
+nós estamos entrando numa área da
+
+1253
+00:59:36,239 --> 00:59:42,118
+informação do volume de dados do volume
+
+1254
+00:59:39,000 --> 00:59:45,179
+de informação nós temos e não
+
+1255
+00:59:42,119 --> 00:59:47,940
+trabalhamos e não aproveitamos e vai
+
+1256
+00:59:45,179 --> 00:59:50,039
+faltar o quê vai faltar até a técnica
+
+1257
+00:59:47,940 --> 00:59:52,440
+vai faltar visualização vai faltar
+
+1258
+00:59:50,039 --> 00:59:54,298
+método de como trabalhar com tudo isso
+
+1259
+00:59:52,440 --> 00:59:56,099
+como é que a gente consegue tirar
+
+1260
+00:59:54,298 --> 00:59:59,280
+benefício a gente precisa tirar
+
+1261
+00:59:56,099 --> 01:00:02,760
+benefício desses dados que estão aí né
+
+1262
+00:59:59,280 --> 01:00:03,900
+então eu vejo que bem esse lado como é
+
+1263
+01:00:02,760 --> 01:00:06,660
+que nós vamos trabalhar com esse mundo
+
+1264
+01:00:03,900 --> 01:00:08,940
+de dados que estão sendo gerados em
+
+1265
+01:00:06,659 --> 01:00:12,239
+benefício da melhoria do trabalho do
+
+1266
+01:00:08,940 --> 01:00:14,880
+time da comunicação do time de melhoria
+
+1267
+01:00:12,239 --> 01:00:18,679
+de produto de tudo como é que nós
+
+1268
+01:00:14,880 --> 01:00:18,680
+conseguimos lidar com tudo isso
+
+1269
+01:00:18,900 --> 01:00:24,539
+muito bom muito obrigado professora
+
+1270
+01:00:21,480 --> 01:00:26,460
+Luciana então eu em nome de toda a
+
+1271
+01:00:24,539 --> 01:00:28,259
+equipe do Fronteira de engenharia de
+
+1272
+01:00:26,460 --> 01:00:30,179
+software a gente agradece aqui a sua
+
+1273
+01:00:28,260 --> 01:00:33,660
+presença a gente passa a palavra para
+
+1274
+01:00:30,179 --> 01:00:37,519
+você para dar seus suas palavras finais
+
+1275
+01:00:33,659 --> 01:00:37,519
+para os nossos e nossas ouvintes
+
+1276
+01:00:40,858 --> 01:00:44,940
+temos esse bate-papo para mim foi um
+
+1277
+01:00:43,079 --> 01:00:48,480
+bate-papo muito gostoso que a gente teve
+
+1278
+01:00:44,940 --> 01:00:49,818
+aqui falando aí nessa visão de ueques em
+
+1279
+01:00:48,480 --> 01:00:53,460
+startups
+
+1280
+01:00:49,818 --> 01:00:56,460
+eu eu acho que o que eu queria deixar
+
+1281
+01:00:53,460 --> 01:00:58,559
+com mensagem é que tem muito trabalho
+
+1282
+01:00:56,460 --> 01:01:01,619
+ainda para ser feito dentro da área de
+
+1283
+01:00:58,559 --> 01:01:04,079
+design tanto em pesquisa quanto na
+
+1284
+01:01:01,619 --> 01:01:07,318
+prática a gente tem tido muito contato
+
+1285
+01:01:04,079 --> 01:01:09,720
+com profissionais dentro dos projetos
+
+1286
+01:01:07,318 --> 01:01:12,358
+que a gente coordena né que nós estamos
+
+1287
+01:01:09,719 --> 01:01:14,759
+sempre ali com o pezinho junto com os
+
+1288
+01:01:12,358 --> 01:01:16,679
+profissionais e a gente tem visto que
+
+1289
+01:01:14,760 --> 01:01:19,160
+tem muito trabalho ainda para ser feito
+
+1290
+01:01:16,679 --> 01:01:21,598
+nessa área de WhatsApp
+
+1291
+01:01:19,159 --> 01:01:25,139
+ou seja em qualquer outro tipo de
+
+1292
+01:01:21,599 --> 01:01:28,619
+empresa Então as oportunidades elas são
+
+1293
+01:01:25,139 --> 01:01:29,539
+muitas eu acho que vale a pena dar uma
+
+1294
+01:01:28,619 --> 01:01:33,180
+olhada
+
+1295
+01:01:29,539 --> 01:01:34,920
+Quais são as portas que estão abertas e
+
+1296
+01:01:33,179 --> 01:01:37,699
+quais são os buracos que ainda não foram
+
+1297
+01:01:34,920 --> 01:01:40,559
+tratados né que precisam ser explorados
+
+1298
+01:01:37,699 --> 01:01:42,298
+dentro dessa área aí que é uma área
+
+1299
+01:01:40,559 --> 01:01:44,819
+muito uma emissora que eu vejo como
+
+1300
+01:01:42,298 --> 01:01:46,739
+bastante promissora que é trabalhar com
+
+1301
+01:01:44,818 --> 01:01:49,558
+a experiência
+
+1302
+01:01:46,739 --> 01:01:52,318
+do usuário muito bem Luciana então com
+
+1303
+01:01:49,559 --> 01:01:54,180
+esse seu chamamento né as pessoas para
+
+1304
+01:01:52,318 --> 01:01:57,480
+que trabalhem com
+
+1305
+01:01:54,179 --> 01:01:58,338
+ioex design nós fechamos o Episódio de
+
+1306
+01:01:57,480 --> 01:02:01,980
+hoje
+
+1307
+01:01:58,338 --> 01:02:03,838
+agradecemos a todos os nossos ouvintes e
+
+1308
+01:02:01,980 --> 01:02:06,298
+as nossas ouvintes e até o próximo
+
+1309
+01:02:03,838 --> 01:02:08,659
+episódio do Fronteiras da engenharia de
+
+1310
+01:02:06,298 --> 01:02:08,659
+software
+
+1311
+01:02:10,949 --> 01:02:17,338
+[Música]
+
+1312
+01:02:13,880 --> 01:02:19,559
+da engenheiro de software episódios
+
+1313
+01:02:17,338 --> 01:02:21,539
+mensais com pesquisadores e
+
+1314
+01:02:19,559 --> 01:02:24,298
+pesquisadores da área de engenharia de
+
+1315
+01:02:21,539 --> 01:02:27,119
+software no Brasil e no mundo nossa
+
+1316
+01:02:24,298 --> 01:02:30,659
+equipe é Fábio petrillo Danilo Monteiro
+
+1317
+01:02:27,119 --> 01:02:33,539
+Leonardo Fernandes Adolfo Neto eu Maria
+
+1318
+01:02:30,659 --> 01:02:36,719
+Cláudia Emer Miriam Rodrigues da Silva e
+
+1319
+01:02:33,539 --> 01:02:39,539
+thanos Santos e Diego Andrade estamos no
+
+1320
+01:02:36,719 --> 01:02:43,659
+Twitter e no Instagram como
+
+1321
+01:02:39,539 --> 01:02:47,739
+@ fronteiras e s
+
+1322
+01:02:43,659 --> 01:02:47,739
+[Música]

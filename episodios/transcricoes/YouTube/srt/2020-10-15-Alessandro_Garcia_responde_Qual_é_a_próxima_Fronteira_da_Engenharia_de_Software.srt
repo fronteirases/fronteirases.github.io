@@ -1,0 +1,339 @@
+1
+00:00:00,160 --> 00:00:05,719
+então chegamos à nossa última pergunta
+
+2
+00:00:02,560 --> 00:00:09,040
+Alessandro para você qual é a próxima
+
+3
+00:00:05,719 --> 00:00:14,559
+fronteira da engenharia de software
+
+4
+00:00:09,039 --> 00:00:17,038
+eh então eh eh relacionado ao tema de
+
+5
+00:00:14,558 --> 00:00:19,278
+refatoração como eu disse acho que eh
+
+6
+00:00:17,039 --> 00:00:22,199
+refatoração é um problema que surgiu tão
+
+7
+00:00:19,278 --> 00:00:25,079
+logo surgiu a construção de um primeiro
+
+8
+00:00:22,199 --> 00:00:25,960
+software né que precisava ser mantido
+
+9
+00:00:25,079 --> 00:00:30,278
+depois
+
+10
+00:00:25,960 --> 00:00:32,239
+eh e o que eu vejo é que eh
+
+11
+00:00:30,278 --> 00:00:34,640
+tendências né recentes mas também que
+
+12
+00:00:32,238 --> 00:00:38,599
+foram ocorrendo ao longo da da da
+
+13
+00:00:34,640 --> 00:00:41,840
+evolução Daia de software é que eh novos
+
+14
+00:00:38,600 --> 00:00:45,079
+estilos arquiteturais são criados né Eh
+
+15
+00:00:41,840 --> 00:00:47,559
+soa né arquitetura orientada a serviços
+
+16
+00:00:45,079 --> 00:00:51,280
+arquitetura orientada microsserviços
+
+17
+00:00:47,558 --> 00:00:53,119
+eh sistemas baseados em blockchain
+
+18
+00:00:51,280 --> 00:00:55,960
+contratos inteligentes tem também tem
+
+19
+00:00:53,119 --> 00:00:59,959
+uma arquitetura diferente
+
+20
+00:00:55,960 --> 00:01:02,320
+eh sistemas baseados em eh cuja
+
+21
+00:00:59,960 --> 00:01:04,799
+aquitetura tem influência né Tem módulos
+
+22
+00:01:02,320 --> 00:01:06,920
+responsáveis por aprendizado de máquina
+
+23
+00:01:04,799 --> 00:01:10,240
+como refatorar esses módulos pode ser
+
+24
+00:01:06,920 --> 00:01:14,359
+ligeiramente diferente diferente né como
+
+25
+00:01:10,239 --> 00:01:17,879
+refatorar eh partes né do algoritmo ou
+
+26
+00:01:14,359 --> 00:01:19,599
+mesmo modelo de aprendizado né daquele
+
+27
+00:01:17,879 --> 00:01:23,000
+sistema então eu diria assim existem
+
+28
+00:01:19,599 --> 00:01:26,039
+novas arquiteturas que estão que as
+
+29
+00:01:23,000 --> 00:01:29,920
+organizações hoje em dia estão adotando
+
+30
+00:01:26,040 --> 00:01:33,680
+mas que existe muito pouco apoio para a
+
+31
+00:01:29,920 --> 00:01:36,159
+fatoração eh as o as ides usualmente
+
+32
+00:01:33,680 --> 00:01:37,159
+elas dão apoio né as pesquisas elas se
+
+33
+00:01:36,159 --> 00:01:41,520
+concentram
+
+34
+00:01:37,159 --> 00:01:45,880
+eh Principalmente as refatorações eh
+
+35
+00:01:41,519 --> 00:01:50,399
+genéricas Independentes de de domínio
+
+36
+00:01:45,879 --> 00:01:51,959
+mas eh cada sistema tem uma arquitetura
+
+37
+00:01:50,399 --> 00:01:53,478
+específica né então não dá para dizer
+
+38
+00:01:51,959 --> 00:01:57,399
+que uma arquitetura orientada a
+
+39
+00:01:53,478 --> 00:01:59,959
+microsserviços é a mesma deum sistema de
+
+40
+00:01:57,399 --> 00:02:03,039
+uma arquitetura baseada em Blackboard ou
+
+41
+00:01:59,959 --> 00:02:05,959
+então elas são eh diferentes Então acho
+
+42
+00:02:03,039 --> 00:02:08,280
+que um um um desafio grande sempre
+
+43
+00:02:05,959 --> 00:02:11,759
+permanente é na medida que surgem novos
+
+44
+00:02:08,280 --> 00:02:14,000
+tipos de arquitetura como ajudar eh a a
+
+45
+00:02:11,759 --> 00:02:16,159
+migrar estruturalmente o sistema ou
+
+46
+00:02:14,000 --> 00:02:18,400
+parcialmente ou totalmente o sistema
+
+47
+00:02:16,159 --> 00:02:20,280
+para uma de uma arquitetura a manter as
+
+48
+00:02:18,400 --> 00:02:22,000
+funcionalidades né mas para uma
+
+49
+00:02:20,280 --> 00:02:24,318
+arquitetura B para um design
+
+50
+00:02:22,000 --> 00:02:26,039
+arquitetural B para isso é um Desafio eu
+
+51
+00:02:24,318 --> 00:02:31,719
+vejo bastante trabalho já aparecendo
+
+52
+00:02:26,039 --> 00:02:38,039
+incluindo eh um nosso me apoi
+
+53
+00:02:31,719 --> 00:02:41,560
+fazer parte de de eh eh eh se tornar o
+
+54
+00:02:38,039 --> 00:02:45,079
+microsserviço né ou ou extrair vários
+
+55
+00:02:41,560 --> 00:02:47,840
+microsserviços eh e isso que existem
+
+56
+00:02:45,080 --> 00:02:51,319
+vários outros tipos de arquitetura né Eh
+
+57
+00:02:47,840 --> 00:02:53,680
+eh como como aquelas que eu eu disse
+
+58
+00:02:51,318 --> 00:02:55,399
+anteriormente eu acho que sempre acho
+
+59
+00:02:53,680 --> 00:02:58,200
+que a nossa ênfase sempre nossa
+
+60
+00:02:55,400 --> 00:03:01,599
+Fronteira é é eu acho que é permanente
+
+61
+00:02:58,199 --> 00:03:03,919
+assim é sempre como ajudar cada vez mais
+
+62
+00:03:01,598 --> 00:03:07,119
+o desenvolvedor a aplicar uma tarefa que
+
+63
+00:03:03,919 --> 00:03:09,039
+aparentemente é recorrente né e em
+
+64
+00:03:07,120 --> 00:03:12,719
+refatoração como eu tava mencionando
+
+65
+00:03:09,039 --> 00:03:16,719
+existem ainda muitos desafios básicos
+
+66
+00:03:12,719 --> 00:03:16,719
+para tornar automatizáveis
+
+67
+00:03:22,239 --> 00:03:28,959
+Com mais confiança pro desenvolvedor
+
+68
+00:03:25,598 --> 00:03:34,359
+então eu diria que qualquer coisa que
+
+69
+00:03:28,959 --> 00:03:38,598
+ajude automatizar eh refatorações né e
+
+70
+00:03:34,360 --> 00:03:40,480
+eh é ainda é é desafiador existem vários
+
+71
+00:03:38,598 --> 00:03:42,919
+subproblemas Como Eu mencionei ao longo
+
+72
+00:03:40,479 --> 00:03:44,479
+da minha fala aqui que ainda não tão
+
+73
+00:03:42,919 --> 00:03:46,158
+resolvidos como essa questão uma das
+
+74
+00:03:44,479 --> 00:03:49,199
+questões que Eu mencionei foi o apoio a
+
+75
+00:03:46,158 --> 00:03:50,560
+a a refatoração customizada de acordo ao
+
+76
+00:03:49,199 --> 00:03:53,199
+contexto que o desenvolvedor tá
+
+77
+00:03:50,560 --> 00:03:56,199
+trabalhando Então eu diria que são essas
+
+78
+00:03:53,199 --> 00:03:58,598
+alguns casos de possíveis fronteiras aí
+
+79
+00:03:56,199 --> 00:04:01,719
+mas mais associado com o tema da minha
+
+80
+00:03:58,598 --> 00:04:04,839
+aqui da do
+
+81
+00:04:01,719 --> 00:04:07,400
+né Muito obrigado Alessandro foi um
+
+82
+00:04:04,840 --> 00:04:10,560
+prazer conversar com você
+
+83
+00:04:07,400 --> 00:04:13,158
+e é isso nos vemos no próximo episódio
+
+84
+00:04:10,560 --> 00:04:16,158
+do fronteiras de engenharia de soft
+
+85
+00:04:13,158 --> 00:04:16,158
+obrigado

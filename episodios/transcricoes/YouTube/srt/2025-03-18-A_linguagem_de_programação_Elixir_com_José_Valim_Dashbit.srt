@@ -1,0 +1,6735 @@
+1
+00:00:03,080 --> 00:00:08,480
+olá pessoal este é um episódio conjunto
+
+2
+00:00:06,040 --> 00:00:11,519
+dos podcasts Fronteiras da Engenharia de
+
+3
+00:00:08,480 --> 00:00:14,280
+Software e Alist Foco que fazem parte da
+
+4
+00:00:11,519 --> 00:00:17,079
+Rede Emílias de Podcasts eu estou aqui
+
+5
+00:00:14,279 --> 00:00:20,960
+com Zo Pessanha do List Foco tudo bem
+
+6
+00:00:17,079 --> 00:00:25,159
+Zoei olá alquimistas hoje tematizada
+
+7
+00:00:20,960 --> 00:00:27,599
+cabelo roxo roupa roxa e é isso
+
+8
+00:00:25,160 --> 00:00:29,759
+joia o Hermínio Torres que também é do
+
+9
+00:00:27,599 --> 00:00:32,679
+Alestrina em Foco não pôde participar
+
+10
+00:00:29,759 --> 00:00:34,600
+hoje e estou aqui também com Maria
+
+11
+00:00:32,679 --> 00:00:36,200
+Cláudia Emer que é do Fronteiras da
+
+12
+00:00:34,600 --> 00:00:38,039
+Engenharia de Software do Programa de
+
+13
+00:00:36,200 --> 00:00:40,200
+Pós-Graduação em Computação Aplicada
+
+14
+00:00:38,039 --> 00:00:43,039
+coordenadora do Emílias Armação e Bits
+
+15
+00:00:40,200 --> 00:00:46,160
+do qual faz parte o a rede Emílias de
+
+16
+00:00:43,039 --> 00:00:49,320
+Podcasts tudo bem Maria Cláudia
+
+17
+00:00:46,159 --> 00:00:52,759
+tudo bem Adolfo muito feliz aqui de
+
+18
+00:00:49,320 --> 00:00:55,719
+estar presente também no podcast né
+
+19
+00:00:52,759 --> 00:00:57,399
+juntando aí o Elixir em Foco certo a
+
+20
+00:00:55,719 --> 00:00:59,518
+gente já tinha entrevistado pessoas de
+
+21
+00:00:57,399 --> 00:01:01,359
+elixir lá no no Emílias Podcast que é
+
+22
+00:00:59,518 --> 00:01:03,719
+outro podcast da rede mas você nunca
+
+23
+00:01:01,359 --> 00:01:06,159
+participou de um do episódio do do
+
+24
+00:01:03,719 --> 00:01:07,879
+Elixir em Foco e eu começo dando as
+
+25
+00:01:06,159 --> 00:01:10,799
+boas-vindas ao nosso entrevistado de
+
+26
+00:01:07,879 --> 00:01:13,839
+hoje José Valim tudo bem Valm obrigado
+
+27
+00:01:10,799 --> 00:01:17,118
+por ter aceito o nosso convite
+
+28
+00:01:13,840 --> 00:01:18,280
+tudo ótimo obrigado por me ter aqui nos
+
+29
+00:01:17,118 --> 00:01:20,920
+dois
+
+30
+00:01:18,280 --> 00:01:24,640
+podcasts joia sua primeira vez no
+
+31
+00:01:20,920 --> 00:01:26,400
+Fronteiras mas já esteve no Elxin Foco
+
+32
+00:01:24,640 --> 00:01:28,280
+dá para contar duas vezes porque teve
+
+33
+00:01:26,400 --> 00:01:31,320
+uma vez que foi parte lá da da Elxir
+
+34
+00:01:28,280 --> 00:01:33,439
+Brasil e eu vou fazer uma rápida
+
+35
+00:01:31,319 --> 00:01:35,679
+apresentação pro pessoal principalmente
+
+36
+00:01:33,438 --> 00:01:38,039
+pro pessoal do do Fronteiras que
+
+37
+00:01:35,680 --> 00:01:39,479
+obviamente quem quem tá escutando a
+
+38
+00:01:38,040 --> 00:01:41,000
+listra em Foco e é da comunidade quer
+
+39
+00:01:39,478 --> 00:01:43,679
+dizer pessoa pode escutar sem ser da
+
+40
+00:01:41,000 --> 00:01:45,438
+comunidade que seria até bom pra gente
+
+41
+00:01:43,680 --> 00:01:48,439
+mas quem é da comunidade sabe quem é
+
+42
+00:01:45,438 --> 00:01:51,559
+você quem quem não souber vai descobrir
+
+43
+00:01:48,438 --> 00:01:54,158
+agora então José Valim é um engenheiro
+
+44
+00:01:51,560 --> 00:01:56,118
+brasileiro formado pela USP inclusive a
+
+45
+00:01:54,159 --> 00:01:58,560
+gente foi até contemporâneo ali por um
+
+46
+00:01:56,118 --> 00:02:01,039
+por um tempo sem nunca ter se encontrado
+
+47
+00:01:58,560 --> 00:02:04,519
+com mestrado pelo Instituto Politécnico
+
+48
+00:02:01,039 --> 00:02:07,239
+de Turim é fundador e Chief Adoption
+
+49
+00:02:04,519 --> 00:02:09,280
+Officer da Dashbit empresa que contribui
+
+50
+00:02:07,239 --> 00:02:11,560
+para o ecossistema de elixir tem uns
+
+51
+00:02:09,280 --> 00:02:14,039
+serviços aí de consultoria para as
+
+52
+00:02:11,560 --> 00:02:16,159
+empresas que usam elixir em produção e
+
+53
+00:02:14,039 --> 00:02:18,199
+patrocina a Ecossistem Foundation eu
+
+54
+00:02:16,159 --> 00:02:20,919
+acho importante falar isso porque nós o
+
+55
+00:02:18,199 --> 00:02:23,000
+Elxir Fox somos patrocinados pela
+
+56
+00:02:20,919 --> 00:02:25,199
+Elishira Ecossistem Foundation e elixir
+
+57
+00:02:23,000 --> 00:02:30,680
+não Herlangosistem Foundation desculpa
+
+58
+00:02:25,199 --> 00:02:32,598
+troquei aí mas antes de criar o Elishir
+
+59
+00:02:30,680 --> 00:02:34,599
+a linguagem de programação Elishir né
+
+60
+00:02:32,598 --> 00:02:36,839
+foi um dos principais contribuidores do
+
+61
+00:02:34,598 --> 00:02:41,119
+Rubiion Rails que o Rubion Ross é um
+
+62
+00:02:36,840 --> 00:02:42,439
+framework pra linguagem Ruby que foi
+
+63
+00:02:41,120 --> 00:02:45,719
+criada
+
+64
+00:02:42,439 --> 00:02:49,680
+pelo Mats né qual é o sobrenome do Mats
+
+65
+00:02:45,719 --> 00:02:51,318
+mesmo eh Yukiro Matsumoto ah é Mats na
+
+66
+00:02:49,680 --> 00:02:54,280
+verdade é o sobrenome né yukiro
+
+67
+00:02:51,318 --> 00:02:57,639
+Matsumoto é o criador da linguagem rub
+
+68
+00:02:54,280 --> 00:03:00,120
+ou Ruby ou Ruby e tem lá dentro um
+
+69
+00:02:57,639 --> 00:03:02,598
+framework chamado Rubian Rails e você
+
+70
+00:03:00,120 --> 00:03:04,920
+era um dos principais contribuidores e
+
+71
+00:03:02,598 --> 00:03:06,679
+aí em 2011 você começou o
+
+72
+00:03:04,919 --> 00:03:09,679
+desenvolvimento dessa linguagem de
+
+73
+00:03:06,680 --> 00:03:12,000
+programação elixir para rodar na BIM que
+
+74
+00:03:09,680 --> 00:03:13,680
+é a máquina virtual de Airlang enquanto
+
+75
+00:03:12,000 --> 00:03:16,439
+você ainda estava numa empresa chamada
+
+76
+00:03:13,680 --> 00:03:18,840
+Plataforma Tec empresa brasileira a
+
+77
+00:03:16,439 --> 00:03:20,919
+gente já entrevistou no Altin Foco duas
+
+78
+00:03:18,840 --> 00:03:23,400
+pessoas que como você eram sócios dessa
+
+79
+00:03:20,919 --> 00:03:26,359
+empresa o Hugo Baraúna e o Jorge
+
+80
+00:03:23,400 --> 00:03:28,200
+Guimarães e você já disse acho que no
+
+81
+00:03:26,360 --> 00:03:31,239
+Twitter que a primeira versão do Lixir
+
+82
+00:03:28,199 --> 00:03:33,959
+que se assemelha ao elixir atual 0.5 5
+
+83
+00:03:31,239 --> 00:03:36,319
+na verdade foi lançada em 24 de maio de
+
+84
+00:03:33,959 --> 00:03:39,158
+2012 por isso que é o aniversário de de
+
+85
+00:03:36,318 --> 00:03:43,079
+Alixi então começou em 2011 mas 2012 que
+
+86
+00:03:39,158 --> 00:03:45,438
+realmente começou a ganhar mais tração e
+
+87
+00:03:43,080 --> 00:03:47,480
+elixir é bastante usado em sistemas
+
+88
+00:03:45,438 --> 00:03:49,639
+distribuídos em concorrentes empresas ao
+
+89
+00:03:47,479 --> 00:03:51,158
+redor do mundo de vez em quando eu tô lá
+
+90
+00:03:49,639 --> 00:03:53,279
+no LinkedIn alguém fala: "Ó a gente tá
+
+91
+00:03:51,158 --> 00:03:55,560
+usando elixir aqui" acho que a mais
+
+92
+00:03:53,280 --> 00:03:57,680
+recente que me falaram foi a uma empresa
+
+93
+00:03:55,560 --> 00:04:00,039
+chamada Link que trabalha com
+
+94
+00:03:57,680 --> 00:04:03,480
+estacionamentos então se a pessoa
+
+95
+00:04:00,039 --> 00:04:06,199
+estaciona um carro no Brasil talvez o o
+
+96
+00:04:03,479 --> 00:04:10,359
+processo lá passa por linhas de código
+
+97
+00:04:06,199 --> 00:04:13,438
+em elixir e existe um um site um site
+
+98
+00:04:10,360 --> 00:04:14,879
+que talvez agora com IA vai perder um
+
+99
+00:04:13,438 --> 00:04:16,399
+pouco de espaço
+
+100
+00:04:14,878 --> 00:04:18,759
+sacow
+
+101
+00:04:16,399 --> 00:04:20,000
+mas é é interessante que eu tô falando
+
+102
+00:04:18,759 --> 00:04:21,359
+assim como se o pessoal do engenheiro de
+
+103
+00:04:20,000 --> 00:04:22,680
+software não soubesse mas na realidade o
+
+104
+00:04:21,358 --> 00:04:25,159
+pessoal do engenheiro de software já fez
+
+105
+00:04:22,680 --> 00:04:27,478
+tanta pesquisa com cycare reflow tem
+
+106
+00:04:25,160 --> 00:04:29,720
+muita pesquisa com cycflow por quê
+
+107
+00:04:27,478 --> 00:04:32,439
+porque o cycfle libera os dados para
+
+108
+00:04:29,720 --> 00:04:36,240
+pesquisa e aí ele todo eles todo ano
+
+109
+00:04:32,439 --> 00:04:39,560
+fazem uma uma survey e el tá lá entre as
+
+110
+00:04:36,240 --> 00:04:42,360
+linguagens mais eh apreciadas amadas é
+
+111
+00:04:39,560 --> 00:04:44,918
+meio difícil de de traduzir mudou mudou
+
+112
+00:04:42,360 --> 00:04:48,960
+também né tipo os termos né mas teve uma
+
+113
+00:04:44,918 --> 00:04:51,198
+vez que foi a segunda mais amada atrás
+
+114
+00:04:48,959 --> 00:04:54,680
+do do Rust
+
+115
+00:04:51,199 --> 00:04:57,240
+uhum e é uma linguagem que se diferencia
+
+116
+00:04:54,680 --> 00:04:58,560
+de irlang por introduzir macros e outras
+
+117
+00:04:57,240 --> 00:05:00,759
+melhorias enfim a gente não tem tempo
+
+118
+00:04:58,560 --> 00:05:05,240
+para falar tudo que elir tem diferente
+
+119
+00:05:00,759 --> 00:05:08,000
+de mas tem características diferentes de
+
+120
+00:05:05,240 --> 00:05:11,000
+Airlang você tem algo a acrescentar aí
+
+121
+00:05:08,000 --> 00:05:14,439
+sobre el Valin
+
+122
+00:05:11,000 --> 00:05:17,240
+não eu acho que só mencionaria também
+
+123
+00:05:14,439 --> 00:05:20,519
+que embora tenha diferenças com Orlang
+
+124
+00:05:17,240 --> 00:05:23,720
+eles têm muito mais em comum muito muito
+
+125
+00:05:20,519 --> 00:05:27,079
+mais do que do que diferenças né então
+
+126
+00:05:23,720 --> 00:05:28,560
+da mesma forma que na máquina virtual do
+
+127
+00:05:27,079 --> 00:05:31,159
+Java existem várias linguagens de
+
+128
+00:05:28,560 --> 00:05:35,680
+programação Java Cotlin na máquina
+
+129
+00:05:31,160 --> 00:05:38,160
+virtual do Ellang tem Lang elixir e e
+
+130
+00:05:35,680 --> 00:05:40,400
+outras e já aviso que eu vai sair uns
+
+131
+00:05:38,160 --> 00:05:43,360
+elixir também aqui do meu
+
+132
+00:05:40,399 --> 00:05:47,758
+lado de vez em quando que é a força do
+
+133
+00:05:43,360 --> 00:05:52,160
+hábito ah é é eu tava em 2019 na Elxir
+
+134
+00:05:47,759 --> 00:05:53,759
+Brasil 2019 né 2019 sim mas o o Luciano
+
+135
+00:05:52,160 --> 00:05:55,280
+Ramalho ele deu uma palestra o Luciano
+
+136
+00:05:53,759 --> 00:05:58,360
+Ramalho é uma pessoa que escreveu um
+
+137
+00:05:55,279 --> 00:06:01,079
+livro muito famoso de Python o Python
+
+138
+00:05:58,360 --> 00:06:03,680
+Fluent tem até tradução em português
+
+139
+00:06:01,079 --> 00:06:05,399
+gratuito na internet mas vocês podem
+
+140
+00:06:03,680 --> 00:06:06,720
+comprar também o livro e aí ele falou:
+
+141
+00:06:05,399 --> 00:06:08,079
+"Ah não quando eu falo em português eu
+
+142
+00:06:06,720 --> 00:06:10,199
+falo em elixir quando eu falo em inglês
+
+143
+00:06:08,079 --> 00:06:12,680
+eu falo em elixir" aí eu passei a adotar
+
+144
+00:06:10,199 --> 00:06:14,439
+meio a Mas eu sei que para você é mais
+
+145
+00:06:12,680 --> 00:06:17,439
+difícil porque você trabalha em inglês
+
+146
+00:06:14,439 --> 00:06:19,959
+então tudo bem é ele falou para mim
+
+147
+00:06:17,439 --> 00:06:21,879
+também aí eu falei: "Você tá certo?"
+
+148
+00:06:19,959 --> 00:06:24,318
+Antes do elixir dele falou: "Pô cara
+
+149
+00:06:21,879 --> 00:06:27,240
+você tem que falar eleixir" aí eu falei:
+
+150
+00:06:24,319 --> 00:06:29,400
+"Tá certo eu concordo"
+
+151
+00:06:27,240 --> 00:06:31,918
+certo mas é assim a gente já entrevistou
+
+152
+00:06:29,399 --> 00:06:34,038
+várias pessoas que trabalham em inglês
+
+153
+00:06:31,918 --> 00:06:35,680
+brasileiras trabalham em inglês e tanto
+
+154
+00:06:34,038 --> 00:06:37,918
+no Fronteiras quanto no Alexin Fox e é
+
+155
+00:06:35,680 --> 00:06:40,079
+difícil mesmo para vocês porque vocês
+
+156
+00:06:37,918 --> 00:06:42,959
+estão lá às vezes esquece até qual é a
+
+157
+00:06:40,079 --> 00:06:43,719
+palavra em português para isso né então
+
+158
+00:06:42,959 --> 00:06:46,399
+é
+
+159
+00:06:43,720 --> 00:06:48,120
+complicado ah e sobre linguagens que
+
+160
+00:06:46,399 --> 00:06:50,679
+rodam na BIM o nosso episódio anterior
+
+161
+00:06:48,120 --> 00:06:54,560
+do Elim Foco foi sobre a Glen que é uma
+
+162
+00:06:50,680 --> 00:06:56,639
+linguagem relativamente nova né que roda
+
+163
+00:06:54,560 --> 00:06:59,240
+também na máquina virtual de
+
+164
+00:06:56,639 --> 00:07:01,598
+Arlangin agora eu vou fazer uma pergunta
+
+165
+00:06:59,240 --> 00:07:03,598
+que é relacionada também ao episódio que
+
+166
+00:07:01,598 --> 00:07:07,478
+a gente já teve aqui que é
+
+167
+00:07:03,598 --> 00:07:09,360
+o trabalho lá do Lucas Veco Túlivalente
+
+168
+00:07:07,478 --> 00:07:11,079
+o Lucas Ve é lá da Universidade Federal
+
+169
+00:07:09,360 --> 00:07:13,598
+de Viçosa marco Túlio Valente da
+
+170
+00:07:11,079 --> 00:07:15,279
+Universidade Federal de Minas Gerais eh
+
+171
+00:07:13,598 --> 00:07:17,000
+os dois já foram entrevistados no
+
+172
+00:07:15,279 --> 00:07:19,079
+Alistino em Foco marco Túlio já foi
+
+173
+00:07:17,000 --> 00:07:20,879
+entrevistado no Fronteiras o Lucas em
+
+174
+00:07:19,079 --> 00:07:24,120
+breve vai participar aqui para falar
+
+175
+00:07:20,879 --> 00:07:26,840
+sobre o doutorado dele ele acabou de
+
+176
+00:07:24,120 --> 00:07:29,000
+concluir o doutorado então vou
+
+177
+00:07:26,839 --> 00:07:31,239
+contextualizar porque tem um pouco a ver
+
+178
+00:07:29,000 --> 00:07:32,959
+com o próprio podcast em 2020 a gente
+
+179
+00:07:31,240 --> 00:07:35,478
+entrevistou o professor Marcelo Maia que
+
+180
+00:07:32,959 --> 00:07:37,959
+é um professor que conhece muito de Cod
+
+181
+00:07:35,478 --> 00:07:40,839
+Mells ela da Universidade Federal de
+
+182
+00:07:37,959 --> 00:07:42,799
+Uberlândia então na ocasião a gente
+
+183
+00:07:40,839 --> 00:07:44,918
+estava na entrevista ele tava falando
+
+184
+00:07:42,800 --> 00:07:47,158
+sobre Codesmels e eu perguntei para ele
+
+185
+00:07:44,918 --> 00:07:49,918
+sobre a existência de pesquisas
+
+186
+00:07:47,158 --> 00:07:51,879
+relacionadas a codes mels em linguagens
+
+187
+00:07:49,918 --> 00:07:53,918
+de programação funcionais pois a maioria
+
+188
+00:07:51,879 --> 00:07:55,639
+dos estudos que ele tava mencionando
+
+189
+00:07:53,918 --> 00:07:57,918
+focava em linguagens orientadas a
+
+190
+00:07:55,639 --> 00:08:00,800
+objetos e aí o interessante que a
+
+191
+00:07:57,918 --> 00:08:03,639
+resposta dele acabou chegando lá no
+
+192
+00:08:00,800 --> 00:08:05,520
+Lucas Verge e foi uma um dos fatores que
+
+193
+00:08:03,639 --> 00:08:08,879
+influenciou ele escolher o tema de
+
+194
+00:08:05,519 --> 00:08:11,878
+doutorado dele que foi inicialmente Cod
+
+195
+00:08:08,879 --> 00:08:15,479
+Mels em Alixir eles realizaram uma
+
+196
+00:08:11,879 --> 00:08:17,960
+revisão multivocal eles saíram
+
+197
+00:08:15,478 --> 00:08:19,758
+pesquisando não artigos científicos mas
+
+198
+00:08:17,959 --> 00:08:23,519
+sim blog
+
+199
+00:08:19,759 --> 00:08:27,879
+posts vídeos etc slides de
+
+200
+00:08:23,519 --> 00:08:29,318
+palestras eh sobre cods em Alixi o que é
+
+201
+00:08:27,879 --> 00:08:32,200
+que as pessoas da comunidade de Alixi
+
+202
+00:08:29,319 --> 00:08:35,158
+falavam sobre Codes Mels depois disso
+
+203
+00:08:32,200 --> 00:08:38,240
+eles fizeram um repositório até você
+
+204
+00:08:35,158 --> 00:08:41,679
+participou né Valin foi lá e comentou
+
+205
+00:08:38,240 --> 00:08:44,440
+contribuiu com com
+
+206
+00:08:41,679 --> 00:08:48,439
+desmels depois eles fizeram pesquisa
+
+207
+00:08:44,440 --> 00:08:51,080
+eles eh pesquisam no sentido de escrever
+
+208
+00:08:48,440 --> 00:08:54,160
+eh enviar formulário para pessoas da
+
+209
+00:08:51,080 --> 00:08:57,040
+comunidade o repositório do do de
+
+210
+00:08:54,159 --> 00:08:58,958
+SMência dos SMS que foi foi muito
+
+211
+00:08:57,039 --> 00:09:01,120
+interessante dava pra comunidade a
+
+212
+00:08:58,958 --> 00:09:02,679
+comunidade falava: "Olha eu acho que
+
+213
+00:09:01,120 --> 00:09:05,399
+esse daqui ocorre muito esse daqui
+
+214
+00:09:02,679 --> 00:09:09,039
+ocorre pouco e por aí vai"
+
+215
+00:09:05,399 --> 00:09:12,039
+e aí uma das coisas que é assim muito
+
+216
+00:09:09,039 --> 00:09:14,039
+desejada pelas pessoas da engenharia de
+
+217
+00:09:12,039 --> 00:09:17,439
+software é que a sua pesquisa tenha um
+
+218
+00:09:14,039 --> 00:09:20,319
+impacto no mundo real né claro e tem
+
+219
+00:09:17,440 --> 00:09:25,000
+vários tipos diferentes de impacto e no
+
+220
+00:09:20,320 --> 00:09:27,440
+no nesse caso aqui vocês lá do coream do
+
+221
+00:09:25,000 --> 00:09:30,480
+da equipe principal de pessoas
+
+222
+00:09:27,440 --> 00:09:32,680
+que cuidam da linguagem elixi resolveram
+
+223
+00:09:30,480 --> 00:09:35,079
+criar uma página de antipadrões na
+
+224
+00:09:32,679 --> 00:09:37,319
+documentação de elixi e citaram esse
+
+225
+00:09:35,078 --> 00:09:39,439
+trabalho do do Lucas e do Marcos você
+
+226
+00:09:37,320 --> 00:09:44,680
+pode contar um pouco como é que surgiu
+
+227
+00:09:39,440 --> 00:09:50,600
+essa ideia lá de criar essa página
+
+228
+00:09:44,679 --> 00:09:55,120
+hum não sei se tenho muito a a adicionar
+
+229
+00:09:50,600 --> 00:09:57,680
+foi eh quando eles eu não lembro quando
+
+230
+00:09:55,120 --> 00:10:00,720
+o timeline mas eu acho que relativamente
+
+231
+00:09:57,679 --> 00:10:02,599
+cedo posso estar errado eh eles entraram
+
+232
+00:10:00,720 --> 00:10:05,160
+em contato comigo eu falei que tinha
+
+233
+00:10:02,600 --> 00:10:08,278
+interesse então às vezes eles me
+
+234
+00:10:05,159 --> 00:10:12,919
+mandavam updates do do
+
+235
+00:10:08,278 --> 00:10:14,278
+projeto e e e essa de forma geral foi
+
+236
+00:10:12,919 --> 00:10:16,000
+uma área que que eu sempre tive
+
+237
+00:10:14,278 --> 00:10:18,320
+interesse do ponto de vista exatamente
+
+238
+00:10:16,000 --> 00:10:19,839
+pelo que você falou tem muitas poucas
+
+239
+00:10:18,320 --> 00:10:24,959
+coisas
+
+240
+00:10:19,839 --> 00:10:26,920
+relacionadas à programação funcional e e
+
+241
+00:10:24,958 --> 00:10:30,359
+não só na parte de code smells mas
+
+242
+00:10:26,919 --> 00:10:33,719
+também na parte de design patterns
+
+243
+00:10:30,360 --> 00:10:36,399
+refactoring e até no caso do do Erlang e
+
+244
+00:10:33,720 --> 00:10:39,160
+e do elixir que eu gostaria muito de ter
+
+245
+00:10:36,399 --> 00:10:42,600
+também era pattern de concorrência de
+
+246
+00:10:39,159 --> 00:10:44,879
+tolerância a falhas então sempre achei
+
+247
+00:10:42,600 --> 00:10:47,759
+que tinha muito muito pouco gostaria de
+
+248
+00:10:44,879 --> 00:10:50,399
+ver mais isso de certa forma em
+
+249
+00:10:47,759 --> 00:10:52,360
+algumas você escutava algumas pessoas
+
+250
+00:10:50,399 --> 00:10:55,759
+falar: "Não é programação funcional você
+
+251
+00:10:52,360 --> 00:10:58,278
+não precisa de deside patterns né eh
+
+252
+00:10:55,759 --> 00:11:01,360
+tipo não tem
+
+253
+00:10:58,278 --> 00:11:03,559
+Celse e então quando eles começaram o
+
+254
+00:11:01,360 --> 00:11:05,639
+trabalho eu sempre tive interesse eu não
+
+255
+00:11:03,559 --> 00:11:08,559
+lembro quando eu acho que desde o começo
+
+256
+00:11:05,639 --> 00:11:10,278
+eu já havia comunicado para eles que eu
+
+257
+00:11:08,559 --> 00:11:12,000
+eventualmente ter o interesse de trazer
+
+258
+00:11:10,278 --> 00:11:15,360
+isso para pra parte da
+
+259
+00:11:12,000 --> 00:11:17,759
+documentação da linguagem mesmo né então
+
+260
+00:11:15,360 --> 00:11:19,560
+eh a gente menciona eles mas é tipo
+
+261
+00:11:17,759 --> 00:11:22,480
+assim foi o trabalho que eles
+
+262
+00:11:19,559 --> 00:11:25,119
+desenvolveram né então eh eles fizeram
+
+263
+00:11:22,480 --> 00:11:27,000
+todo um processo de levantar os smells
+
+264
+00:11:25,120 --> 00:11:30,519
+né da
+
+265
+00:11:27,000 --> 00:11:32,639
+o os antipadrões né tanto da da
+
+266
+00:11:30,519 --> 00:11:34,078
+literatura quanto da literatura cinza
+
+267
+00:11:32,639 --> 00:11:36,480
+que você mencionou então eles fizeram
+
+268
+00:11:34,078 --> 00:11:39,599
+todo esse trabalho deram exemplos a
+
+269
+00:11:36,480 --> 00:11:41,879
+comunidade veio né aí nós pegamos esse
+
+270
+00:11:39,600 --> 00:11:44,159
+trabalho demos mais uma refinada
+
+271
+00:11:41,879 --> 00:11:46,000
+trouxemos pra documentação do elixir
+
+272
+00:11:44,159 --> 00:11:47,519
+coletamos ainda mais feedback da
+
+273
+00:11:46,000 --> 00:11:50,120
+comunidade porque agora que você traz
+
+274
+00:11:47,519 --> 00:11:52,879
+pra documentação fica algo ainda mais
+
+275
+00:11:50,120 --> 00:11:54,399
+visível refinamos um pouco e é legal que
+
+276
+00:11:52,879 --> 00:11:58,278
+agora a gente tem essa
+
+277
+00:11:54,399 --> 00:12:01,039
+documentação viva né ela ela ela se
+
+278
+00:11:58,278 --> 00:12:02,679
+mantém atualizada à medida que as
+
+279
+00:12:01,039 --> 00:12:05,000
+práticas mudam à medida que nós
+
+280
+00:12:02,679 --> 00:12:07,439
+descobrimos opa esquecemos esse Codesvel
+
+281
+00:12:05,000 --> 00:12:09,759
+acho que teve dois que nós trouxemos
+
+282
+00:12:07,440 --> 00:12:13,639
+depois aí a gente tem a oportunidade de
+
+283
+00:12:09,759 --> 00:12:17,039
+documentar e ter tudo em um lugar só
+
+284
+00:12:13,639 --> 00:12:18,399
+e você dizendo tem tem aquele meme do
+
+285
+00:12:17,039 --> 00:12:20,360
+que foi tirado de contexto na verdade
+
+286
+00:12:18,399 --> 00:12:23,159
+acabou virando o meme né da da palestra
+
+287
+00:12:20,360 --> 00:12:26,800
+do Function Design Patters do Scott
+
+288
+00:12:23,159 --> 00:12:29,919
+Scott Wash eh que tudo é função enfim
+
+289
+00:12:26,799 --> 00:12:31,359
+mas também lembro que a as palestras
+
+290
+00:12:29,919 --> 00:12:34,278
+mais recentes que você acabou dando
+
+291
+00:12:31,360 --> 00:12:36,440
+também foi sobre design patterns em eli
+
+292
+00:12:34,278 --> 00:12:38,799
+meio que os dois elefantes da sala né da
+
+293
+00:12:36,440 --> 00:12:42,560
+comunidade vamos chegar no segundo mais
+
+294
+00:12:38,799 --> 00:12:44,278
+para frente mas na documentação eh core
+
+295
+00:12:42,559 --> 00:12:46,479
+ali principal da de
+
+296
+00:12:44,278 --> 00:12:49,559
+guias tem alguma pretensão também de
+
+297
+00:12:46,480 --> 00:12:51,159
+estender ela com esses design patterns
+
+298
+00:12:49,559 --> 00:12:53,479
+também esses essas boas práticas vou
+
+299
+00:12:51,159 --> 00:12:56,879
+chamar de boas práticas porque carrega
+
+300
+00:12:53,480 --> 00:12:59,199
+menos semântica né eh sei também que o
+
+301
+00:12:56,879 --> 00:13:02,000
+Hugo participou do do lançamento lá do
+
+302
+00:12:59,198 --> 00:13:04,120
+LG Patters do livro enfim então as
+
+303
+00:13:02,000 --> 00:13:07,360
+coisas na comunidade estão meio que
+
+304
+00:13:04,120 --> 00:13:09,278
+caminhando para essa parte e aí pensando
+
+305
+00:13:07,360 --> 00:13:12,600
+na documentação né tipo tendo essa parte
+
+306
+00:13:09,278 --> 00:13:14,639
+do antipatters talvez é porque assim a
+
+307
+00:13:12,600 --> 00:13:18,240
+gente já tem um gearing started bem
+
+308
+00:13:14,639 --> 00:13:21,159
+completo né eh e aí será que faz sentido
+
+309
+00:13:18,240 --> 00:13:23,399
+estender isso para tipo boas práticas
+
+310
+00:13:21,159 --> 00:13:26,439
+vamos fazer desse jeito ou será que
+
+311
+00:13:23,399 --> 00:13:29,639
+engessa muito talvez
+
+312
+00:13:26,440 --> 00:13:33,399
+então eh eu acho que um dos grandes
+
+313
+00:13:29,639 --> 00:13:35,240
+problemas do dos design patterns foi
+
+314
+00:13:33,399 --> 00:13:38,919
+exatamente
+
+315
+00:13:35,240 --> 00:13:41,720
+eh o o o engessar não o inessado do
+
+316
+00:13:38,919 --> 00:13:43,159
+documento não desenvolver mas foi o
+
+317
+00:13:41,720 --> 00:13:46,160
+ingessado de algumas pessoas falarem
+
+318
+00:13:43,159 --> 00:13:48,039
+assim: "Olha essas são as técnicas que
+
+319
+00:13:46,159 --> 00:13:51,439
+você tem para fazer design de um
+
+320
+00:13:48,039 --> 00:13:55,639
+software e se você se encaixa aqui tudo
+
+321
+00:13:51,440 --> 00:13:57,120
+OK e se você não se encaixa então
+
+322
+00:13:55,639 --> 00:13:59,240
+provavelmente tem algo errado no seu
+
+323
+00:13:57,120 --> 00:14:00,519
+software na sua solução né isso mas isso
+
+324
+00:13:59,240 --> 00:14:03,320
+foi é um
+
+325
+00:14:00,519 --> 00:14:06,159
+fenômeno isso ocorreu já faz muito tempo
+
+326
+00:14:03,320 --> 00:14:08,519
+né e e a parte do problema então eu dei
+
+327
+00:14:06,159 --> 00:14:12,559
+essa apresentação na Elixir Conference
+
+328
+00:14:08,519 --> 00:14:14,120
+Europe e do ano passado de 2024 eu falo
+
+329
+00:14:12,559 --> 00:14:18,879
+exatamente sobre isso as pessoas
+
+330
+00:14:14,120 --> 00:14:22,440
+começaram a a olhar para design patterns
+
+331
+00:14:18,879 --> 00:14:24,720
+como como a solução ah essas são as
+
+332
+00:14:22,440 --> 00:14:26,120
+soluções mas o design patterns eles não
+
+333
+00:14:24,720 --> 00:14:27,639
+são pelo menos a minha interpretação
+
+334
+00:14:26,120 --> 00:14:30,278
+eles não são sobre as soluções eles são
+
+335
+00:14:27,639 --> 00:14:32,680
+sobre problemas recorrentes então nós
+
+336
+00:14:30,278 --> 00:14:34,198
+temos que olhar para os problemas que
+
+337
+00:14:32,679 --> 00:14:37,039
+são recorrentes e falar: "Olha se você
+
+338
+00:14:34,198 --> 00:14:39,120
+está tendo esse problema recorrente está
+
+339
+00:14:37,039 --> 00:14:41,120
+aqui uma possível solução para ele que
+
+340
+00:14:39,120 --> 00:14:44,000
+para mim é muito mais interessante
+
+341
+00:14:41,120 --> 00:14:45,519
+porque eh se você pega o design pat de
+
+342
+00:14:44,000 --> 00:14:48,039
+uma linguagem orientada a
+
+343
+00:14:45,519 --> 00:14:50,198
+objetos eles não vão traduzir para uma
+
+344
+00:14:48,039 --> 00:14:53,319
+linguagem funcional provavelmente mas
+
+345
+00:14:50,198 --> 00:14:56,319
+talvez os problemas traduzem" né e aí
+
+346
+00:14:53,320 --> 00:14:58,759
+uma discussão muito mais interessante de
+
+347
+00:14:56,320 --> 00:15:01,120
+se ter e aí se a gente começa a falar
+
+348
+00:14:58,759 --> 00:15:03,039
+sobre isso já começa a as pessoas já
+
+349
+00:15:01,120 --> 00:15:06,959
+começam imediatamente pensar não é
+
+350
+00:15:03,039 --> 00:15:10,799
+verdade tem isso aqui que que
+
+351
+00:15:06,958 --> 00:15:12,479
+que tipo toda aplicação eu tenho que
+
+352
+00:15:10,799 --> 00:15:14,719
+fazer algo desse tipo para resolver tal
+
+353
+00:15:12,480 --> 00:15:17,360
+tipo de problema né ou então coisas
+
+354
+00:15:14,720 --> 00:15:20,320
+relacionadas à concorrência a então um
+
+355
+00:15:17,360 --> 00:15:21,759
+exemplo bem simples né como que você faz
+
+356
+00:15:20,320 --> 00:15:26,040
+eu acho que inclusive a minha pergunta
+
+357
+00:15:21,759 --> 00:15:28,240
+com mais eh votos positivos no no stack
+
+358
+00:15:26,039 --> 00:15:29,599
+overflow que é como que você faz um
+
+359
+00:15:28,240 --> 00:15:31,600
+trabalho
+
+360
+00:15:29,600 --> 00:15:35,120
+periódico
+
+361
+00:15:31,600 --> 00:15:38,879
+no eh no elixir e tipo a solução solução
+
+362
+00:15:35,120 --> 00:15:41,360
+pequena você tipo você sei lá 15 20
+
+363
+00:15:38,879 --> 00:15:43,159
+linhas de código entendeu mas é tipo na
+
+364
+00:15:41,360 --> 00:15:47,278
+hora que você tá aprendendo e na hora
+
+365
+00:15:43,159 --> 00:15:49,600
+que você olha você fala: "Pô é claro é
+
+366
+00:15:47,278 --> 00:15:53,318
+óbvio né mas se você tá aprendendo essa
+
+367
+00:15:49,600 --> 00:15:57,240
+essa essa essa obviedade se isso for uma
+
+368
+00:15:53,318 --> 00:15:59,120
+palavra tipo não tá lá né então
+
+369
+00:15:57,240 --> 00:16:01,159
+eh
+
+370
+00:15:59,120 --> 00:16:02,919
+então respondendo a pergunta de forma
+
+371
+00:16:01,159 --> 00:16:04,639
+mais direta tipo é uma área que eu tenho
+
+372
+00:16:02,919 --> 00:16:06,039
+interesse eu acho que tem trabalho que
+
+373
+00:16:04,639 --> 00:16:08,278
+dá que dá para ser feito do ponto de
+
+374
+00:16:06,039 --> 00:16:11,838
+vista de design patterns concurrency
+
+375
+00:16:08,278 --> 00:16:15,198
+patterns falta learn patterns eh só que
+
+376
+00:16:11,839 --> 00:16:17,639
+por enquanto não não até onde eu sei não
+
+377
+00:16:15,198 --> 00:16:21,559
+tem nada acontecendo nessa área não é
+
+378
+00:16:17,639 --> 00:16:23,720
+não é um um foco direto do do até onde
+
+379
+00:16:21,559 --> 00:16:26,399
+eu sei do do de nenhum membro do time do
+
+380
+00:16:23,720 --> 00:16:28,160
+Elix de escrever essa documentação e
+
+381
+00:16:26,399 --> 00:16:30,839
+fazer esse trabalho eu acho que é algo
+
+382
+00:16:28,159 --> 00:16:32,360
+muito interessante eh mas até onde eu
+
+383
+00:16:30,839 --> 00:16:33,800
+sei não tem nada acontecendo aí depois
+
+384
+00:16:32,360 --> 00:16:35,959
+se esse trabalho for feito dependendo da
+
+385
+00:16:33,799 --> 00:16:37,399
+forma que for feita aí sim a gente pode
+
+386
+00:16:35,958 --> 00:16:40,439
+discutir de também tornar uma
+
+387
+00:16:37,399 --> 00:16:44,559
+documentação viva mas no momento até
+
+388
+00:16:40,440 --> 00:16:46,639
+onde eu sei não há nada eh ocorrendo
+
+389
+00:16:44,559 --> 00:16:48,318
+eh eu gostaria de puxar esse gancho da
+
+390
+00:16:46,639 --> 00:16:51,039
+documentação também porque um dos
+
+391
+00:16:48,318 --> 00:16:53,399
+comentários mais comuns que eu vejo é
+
+392
+00:16:51,039 --> 00:16:56,318
+tipo principalmente pessoas iniciantes
+
+393
+00:16:53,399 --> 00:16:58,120
+lendo a documentação de elixi é nossa
+
+394
+00:16:56,318 --> 00:17:00,078
+são é um comentário dividido em duas
+
+395
+00:16:58,120 --> 00:17:01,600
+partes né primeira parte é nossa a
+
+396
+00:17:00,078 --> 00:17:04,558
+melhor documentação de de linguagem de
+
+397
+00:17:01,600 --> 00:17:07,599
+programação que já li ao mesmo tempo é
+
+398
+00:17:04,558 --> 00:17:09,480
+ela prevê eh ou melhor ela presume que
+
+399
+00:17:07,599 --> 00:17:12,279
+eu sei muito mais do que eu sei e eu
+
+400
+00:17:09,480 --> 00:17:15,480
+fico perdido lá dentro ah isso é uma
+
+401
+00:17:12,279 --> 00:17:17,439
+discussão bem interessante porque o o
+
+402
+00:17:15,480 --> 00:17:19,078
+meu ponto de vista é que ali está
+
+403
+00:17:17,439 --> 00:17:21,558
+presumindo que você tenha um conceito
+
+404
+00:17:19,078 --> 00:17:24,599
+básico de programação funcional ali no
+
+405
+00:17:21,558 --> 00:17:27,160
+mínimo de um paradigma eh eh funcional
+
+406
+00:17:24,599 --> 00:17:30,439
+ou um pouco mais de experiência ali em
+
+407
+00:17:27,160 --> 00:17:32,000
+engenharia de software no geral eh e aí
+
+408
+00:17:30,440 --> 00:17:33,360
+eu queria saber um pouco da sua opinião
+
+409
+00:17:32,000 --> 00:17:37,200
+sobre isso porque assim se a gente for
+
+410
+00:17:33,359 --> 00:17:39,399
+olhar para outros eh outros ecossistemas
+
+411
+00:17:37,200 --> 00:17:41,160
+as documentações também presumem tipo
+
+412
+00:17:39,400 --> 00:17:43,440
+não tem nenhum guia dentro das
+
+413
+00:17:41,160 --> 00:17:46,200
+documentações sobre paradigma porque é
+
+414
+00:17:43,440 --> 00:17:47,960
+um tipo acaba virando uma uma um
+
+415
+00:17:46,200 --> 00:17:49,798
+problema do do ovo e da garinha né tipo
+
+416
+00:17:47,960 --> 00:17:52,360
+quem quem vem primeiro se não dá para
+
+417
+00:17:49,798 --> 00:17:55,000
+explicar tudo eh ao mesmo tempo os
+
+418
+00:17:52,359 --> 00:17:58,918
+exemplos da documentação são muito bons
+
+419
+00:17:55,000 --> 00:18:00,519
+eh e tem as descrições assim mas enfim
+
+420
+00:17:58,919 --> 00:18:02,480
+gostaria de saber a sua opinião de um
+
+421
+00:18:00,519 --> 00:18:06,639
+contexto no geral mas é um dos
+
+422
+00:18:02,480 --> 00:18:09,720
+comentários mais recorrentes né tá não é
+
+423
+00:18:06,640 --> 00:18:13,038
+uma uma excelente pergunta eh eu
+
+424
+00:18:09,720 --> 00:18:16,679
+ultimamente eu nós falamos bastante de
+
+425
+00:18:13,038 --> 00:18:18,879
+programação funcional até o momento e e
+
+426
+00:18:16,679 --> 00:18:23,400
+da da questões dos
+
+427
+00:18:18,880 --> 00:18:25,480
+dos eh tipo não tem material relacionado
+
+428
+00:18:23,400 --> 00:18:29,559
+à programação funcional desses vários
+
+429
+00:18:25,480 --> 00:18:31,480
+assuntos mas para mim tipo eu pensando
+
+430
+00:18:29,558 --> 00:18:32,960
+um pensamento dos últimos sei lá dois
+
+431
+00:18:31,480 --> 00:18:38,159
+anos e pensando pro
+
+432
+00:18:32,960 --> 00:18:39,679
+futuro eh eu acho que o foco do elixir
+
+433
+00:18:38,159 --> 00:18:43,600
+como a linguagem
+
+434
+00:18:39,679 --> 00:18:46,880
+funcional ele não é mais tão
+
+435
+00:18:43,599 --> 00:18:49,319
+importante fez sentido tipo quando a
+
+436
+00:18:46,880 --> 00:18:52,960
+gente começou tipo há uma década atrás
+
+437
+00:18:49,319 --> 00:18:57,000
+fazia sentido a programação funcional
+
+438
+00:18:52,960 --> 00:18:59,600
+era um tópico recorrente relevante que
+
+439
+00:18:57,000 --> 00:19:02,400
+até atraía pessoas atraía tinha atraí
+
+440
+00:18:59,599 --> 00:19:05,558
+curiosidade de diversas pessoas mas se
+
+441
+00:19:02,400 --> 00:19:07,759
+você olha por exemplo go linguagem
+
+442
+00:19:05,558 --> 00:19:10,440
+orientada a objetos
+
+443
+00:19:07,759 --> 00:19:16,319
+mas também não é uma linguagem funcional
+
+444
+00:19:10,440 --> 00:19:21,679
+né eh Rush se encaixa nesse mesmo lugar
+
+445
+00:19:16,319 --> 00:19:23,279
+então eh e então para mim eh as medidas
+
+446
+00:19:21,679 --> 00:19:25,919
+que as coisas estão mudando estão
+
+447
+00:19:23,279 --> 00:19:28,240
+evoluindo né essa questão de colocar um
+
+448
+00:19:25,919 --> 00:19:32,200
+rótulo né e de falar a gente está dentro
+
+449
+00:19:28,240 --> 00:19:35,759
+desse paradigma ele se tornou menos
+
+450
+00:19:32,200 --> 00:19:38,000
+importante né e e se e se você pensa e
+
+451
+00:19:35,759 --> 00:19:39,720
+tipo assim se compara o o elixê e o
+
+452
+00:19:38,000 --> 00:19:43,759
+Erlang com as outras linguagens
+
+453
+00:19:39,720 --> 00:19:46,480
+funcionais eles são meio que que
+
+454
+00:19:43,759 --> 00:19:48,960
+distantes tipo até por questão do ponto
+
+455
+00:19:46,480 --> 00:19:52,519
+de vista de tipagem e outros aspectos
+
+456
+00:19:48,960 --> 00:19:54,038
+até a questão de sintaxe de do acho que
+
+457
+00:19:52,519 --> 00:19:56,079
+principalmente linguagens funcionais que
+
+458
+00:19:54,038 --> 00:19:57,919
+vem da linguagem de programação é mel e
+
+459
+00:19:56,079 --> 00:19:59,759
+toda aquela descendência miranda e por
+
+460
+00:19:57,919 --> 00:20:02,640
+aí vai né nós estamos relativamente
+
+461
+00:19:59,759 --> 00:20:05,400
+distantes a a maior herança por exemplo
+
+462
+00:20:02,640 --> 00:20:08,080
+do Orlang vem do do prolog né em termos
+
+463
+00:20:05,400 --> 00:20:10,720
+de sintaxe então para
+
+464
+00:20:08,079 --> 00:20:12,879
+mim agora colocando esse contexto e
+
+465
+00:20:10,720 --> 00:20:17,400
+respondendo sua pergunta eu acho que o
+
+466
+00:20:12,880 --> 00:20:21,480
+foco não deve ser no paradigma mas em
+
+467
+00:20:17,400 --> 00:20:22,679
+como nós eh vamos modelar resolver
+
+468
+00:20:21,480 --> 00:20:25,159
+problemas que essa que é a parte
+
+469
+00:20:22,679 --> 00:20:27,400
+importante né então tipo ah como que a
+
+470
+00:20:25,159 --> 00:20:30,640
+gente vai ah eu não tenho objetos que
+
+471
+00:20:27,400 --> 00:20:32,759
+que isso significa eu tenho módulos e e
+
+472
+00:20:30,640 --> 00:20:34,600
+dados e daily structures como que isso
+
+473
+00:20:32,759 --> 00:20:37,038
+afeta a forma que eu vou escrever e
+
+474
+00:20:34,599 --> 00:20:41,959
+modelar o programa e
+
+475
+00:20:37,038 --> 00:20:43,798
+partir desse princípio eh em vez de de
+
+476
+00:20:41,960 --> 00:20:45,640
+falar: "Ah a gente se encaixa nisso
+
+477
+00:20:43,798 --> 00:20:47,359
+daqui a gente se encaixa nisso daqui"
+
+478
+00:20:45,640 --> 00:20:49,759
+até porque tem um outro lado relacionado
+
+479
+00:20:47,359 --> 00:20:54,879
+a tudo isso que se você
+
+480
+00:20:49,759 --> 00:20:57,038
+pega tipo as features da linguagem eh e
+
+481
+00:20:54,880 --> 00:20:58,880
+features funcionais que que elas de
+
+482
+00:20:57,038 --> 00:21:02,720
+forma histórica foram consideradas a
+
+483
+00:20:58,880 --> 00:21:05,120
+features de linguagens eh de linguagens
+
+484
+00:21:02,720 --> 00:21:07,038
+funcionais elas existem na grande
+
+485
+00:21:05,119 --> 00:21:10,399
+maioria das linguagens mainstreams né
+
+486
+00:21:07,038 --> 00:21:13,480
+tipo eh Java teve lamb pegou lambda de
+
+487
+00:21:10,400 --> 00:21:15,080
+forma relativamente recente aí agora
+
+488
+00:21:13,480 --> 00:21:17,558
+eles estão eu não lembro qual que se o
+
+489
+00:21:15,079 --> 00:21:20,000
+nome é record mas ou data values ou algo
+
+490
+00:21:17,558 --> 00:21:22,558
+parecido que eles estão introduzindo
+
+491
+00:21:20,000 --> 00:21:25,720
+tipo daily structures que são imutáveis
+
+492
+00:21:22,558 --> 00:21:28,759
+por defô então os conceitos eles estão
+
+493
+00:21:25,720 --> 00:21:30,319
+bem distribuídos né eh e aí vai naquela
+
+494
+00:21:28,759 --> 00:21:32,679
+discussão ah o que que é ser uma
+
+495
+00:21:30,319 --> 00:21:34,439
+linguagem funcional e o que que não é
+
+496
+00:21:32,679 --> 00:21:36,840
+que diferentes pessoas vão ter
+
+497
+00:21:34,440 --> 00:21:39,000
+diferentes respostas né mas para mim o
+
+498
+00:21:36,839 --> 00:21:41,038
+importante eh que a gente precisa falar
+
+499
+00:21:39,000 --> 00:21:44,919
+é falar sobre a modelagem né como que
+
+500
+00:21:41,038 --> 00:21:48,919
+você pensa em em resolver um problema em
+
+501
+00:21:44,919 --> 00:21:50,360
+modelar aquele problema em elixir e e a
+
+502
+00:21:48,919 --> 00:21:53,080
+e a parte da
+
+503
+00:21:50,359 --> 00:21:54,798
+imutabilidade que que eu então tipo eu
+
+504
+00:21:53,079 --> 00:21:57,000
+prefiro focar mais em mutabilidade do
+
+505
+00:21:54,798 --> 00:21:59,679
+que ser funcional porque a
+
+506
+00:21:57,000 --> 00:22:01,519
+imutabilidade ela é
+
+507
+00:21:59,679 --> 00:22:04,679
+essencial paraa software que você
+
+508
+00:22:01,519 --> 00:22:07,798
+escreve em ele porque é a imutabilidade
+
+509
+00:22:04,679 --> 00:22:10,200
+que te traz tolerância a falhas é a
+
+510
+00:22:07,798 --> 00:22:12,440
+imutabilidade que te traz eh software
+
+511
+00:22:10,200 --> 00:22:14,720
+concorrente e software distribuído então
+
+512
+00:22:12,440 --> 00:22:17,038
+para mim essa é a propriedade principal
+
+513
+00:22:14,720 --> 00:22:19,319
+tipo disparado
+
+514
+00:22:17,038 --> 00:22:20,879
+é esse seria o ponto principal tem
+
+515
+00:22:19,319 --> 00:22:24,079
+aquele artigo também não vou lembrar o
+
+516
+00:22:20,880 --> 00:22:26,400
+ano mas que foi publicado na Dashbit por
+
+517
+00:22:24,079 --> 00:22:29,359
+você tipo Elish Irlang para além do
+
+518
+00:22:26,400 --> 00:22:32,400
+funcional que cai bem resume bem o que a
+
+519
+00:22:29,359 --> 00:22:33,798
+gente tá falando eh sobre features
+
+520
+00:22:32,400 --> 00:22:36,759
+também algumas outras linguagens estão
+
+521
+00:22:33,798 --> 00:22:38,119
+começando a implementar eh concorrência
+
+522
+00:22:36,759 --> 00:22:41,759
+estruturada que eles estão chamando eu
+
+523
+00:22:38,119 --> 00:22:43,639
+acho que é em cima de trads verdes eh só
+
+524
+00:22:41,759 --> 00:22:49,240
+me vem o artigo lá de você construi
+
+525
+00:22:43,640 --> 00:22:50,720
+umlank mas enfim eh acho interessante e
+
+526
+00:22:49,240 --> 00:22:52,319
+aí eu me perdi no que eu ia falar mas
+
+527
+00:22:50,720 --> 00:22:54,120
+vou só complementar isso mesmo vou
+
+528
+00:22:52,319 --> 00:22:57,399
+fechar por
+
+529
+00:22:54,119 --> 00:22:59,839
+aqui tranquilo esse até lembrar de
+
+530
+00:22:57,400 --> 00:23:01,080
+colocar na descrição esse do você
+
+531
+00:22:59,839 --> 00:23:03,839
+construiu o Erlang na verdade é uma
+
+532
+00:23:01,079 --> 00:23:05,359
+série né de você construiu tal coisa né
+
+533
+00:23:03,839 --> 00:23:06,918
+são uns blog dizendo ó se você fizer
+
+534
+00:23:05,359 --> 00:23:08,479
+isso isso isso isso isso na verdade você
+
+535
+00:23:06,919 --> 00:23:11,559
+tá construindo aquilo que já alguém já
+
+536
+00:23:08,480 --> 00:23:14,558
+fez e aí tem esse do você construir um
+
+537
+00:23:11,558 --> 00:23:17,879
+arlang e aí eu só queria lembrar Valin
+
+538
+00:23:14,558 --> 00:23:19,678
+que o projeto do Marco Tulho e do Lucas
+
+539
+00:23:17,880 --> 00:23:23,000
+foi financiado pelo menos parcialmente
+
+540
+00:23:19,679 --> 00:23:25,720
+pelo pelo Pesquise com Elir que também
+
+541
+00:23:23,000 --> 00:23:27,599
+financiou o Roney Potion né que foi tema
+
+542
+00:23:25,720 --> 00:23:30,440
+de um episódio aqui acaba de ter um
+
+543
+00:23:27,599 --> 00:23:31,599
+artigo publicado numa conferência que eu
+
+544
+00:23:30,440 --> 00:23:33,400
+particularmente não sabia que era tão
+
+545
+00:23:31,599 --> 00:23:38,359
+importante
+
+546
+00:23:33,400 --> 00:23:41,200
+CGO até o é code generation optimization
+
+547
+00:23:38,359 --> 00:23:43,918
+enfim como é que como é que surgiu essa
+
+548
+00:23:41,200 --> 00:23:45,840
+ideia de criar Pesquise com Lixi como é
+
+549
+00:23:43,919 --> 00:23:49,159
+que tá o estatus vocês estão esperando
+
+550
+00:23:45,839 --> 00:23:51,359
+empresas para para ajudar mais a
+
+551
+00:23:49,159 --> 00:23:54,240
+patrocinar novas bolsas porque a ideia
+
+552
+00:23:51,359 --> 00:23:55,759
+era ah não vamos dar bolsas para alunos
+
+553
+00:23:54,240 --> 00:23:59,200
+de mestrado doutorado que queiram fazer
+
+554
+00:23:55,759 --> 00:24:00,079
+pesquisa com Elxir como é que tá esse
+
+555
+00:23:59,200 --> 00:24:03,080
+projeto
+
+556
+00:24:00,079 --> 00:24:07,639
+foi um projeto
+
+557
+00:24:03,079 --> 00:24:10,399
+e só que o projeto ele chegou à sua
+
+558
+00:24:07,640 --> 00:24:13,919
+conclusão era nós começamos o projeto em
+
+559
+00:24:10,400 --> 00:24:15,600
+um momento em que não sei se a situação
+
+560
+00:24:13,919 --> 00:24:17,679
+melhorou desde então mas era um momento
+
+561
+00:24:15,599 --> 00:24:21,158
+em que tava
+
+562
+00:24:17,679 --> 00:24:24,440
+faltando eh estrutura e e financiamento
+
+563
+00:24:21,159 --> 00:24:25,919
+dentro das eh das universidades e para
+
+564
+00:24:24,440 --> 00:24:29,278
+alunos
+
+565
+00:24:25,919 --> 00:24:31,960
+e a minha formação é bom eu vim de
+
+566
+00:24:29,278 --> 00:24:35,119
+universidade pública né
+
+567
+00:24:31,960 --> 00:24:37,038
+eh então eu vi aquilo como uma
+
+568
+00:24:35,119 --> 00:24:38,678
+oportunidade de
+
+569
+00:24:37,038 --> 00:24:44,158
+poder
+
+570
+00:24:38,679 --> 00:24:46,200
+apoiar eh de dar um pouco de volta a o
+
+571
+00:24:44,159 --> 00:24:48,679
+que ajudou na minha formação basicamente
+
+572
+00:24:46,200 --> 00:24:51,360
+né então essa foi a ideia do projeto nós
+
+573
+00:24:48,679 --> 00:24:52,840
+tivemos o imagino que o site ainda tá tá
+
+574
+00:24:51,359 --> 00:24:56,359
+no ar então nós tivemos empresas
+
+575
+00:24:52,839 --> 00:24:58,038
+parceiras que também eh ajudaram com
+
+576
+00:24:56,359 --> 00:25:02,240
+bolsas
+
+577
+00:24:58,038 --> 00:25:04,440
+e e é isso mas eh no momento atual
+
+578
+00:25:02,240 --> 00:25:08,480
+imagin eu creio que não tem nenhuma
+
+579
+00:25:04,440 --> 00:25:08,480
+iniciativa acontecendo no
+
+580
+00:25:12,798 --> 00:25:18,240
+momento boa é então agora a gente vai
+
+581
+00:25:16,720 --> 00:25:21,240
+falar um pouco
+
+582
+00:25:18,240 --> 00:25:22,558
+sobre o segundo elefante na na sala que
+
+583
+00:25:21,240 --> 00:25:24,159
+na verdade já não é mais um elefante
+
+584
+00:25:22,558 --> 00:25:27,798
+virou um esquilinho porque agora tá todo
+
+585
+00:25:24,159 --> 00:25:31,640
+mundo ah animado mas a próxima pergunta
+
+586
+00:25:27,798 --> 00:25:33,440
+é sobre a questão do da tipagem Elixi eh
+
+587
+00:25:31,640 --> 00:25:36,840
+ele tinha uma linguagem dinamicamente
+
+588
+00:25:33,440 --> 00:25:39,759
+tipada eh assim como Irlang também mas
+
+589
+00:25:36,839 --> 00:25:41,720
+de alguns anos para cá eh né você e
+
+590
+00:25:39,759 --> 00:25:44,519
+outras pessoas começaram a trabalhar num
+
+591
+00:25:41,720 --> 00:25:47,079
+sistema de tipo baseado em conjunto a o
+
+592
+00:25:44,519 --> 00:25:48,639
+set theoretic types e esse trabalho
+
+593
+00:25:47,079 --> 00:25:51,000
+gerou e chegou a ser publicado em um
+
+594
+00:25:48,640 --> 00:25:53,759
+artigo em The Art Science and
+
+595
+00:25:51,000 --> 00:25:55,079
+Engineering of Programming ah detalhando
+
+596
+00:25:53,759 --> 00:25:58,359
+as ideias por trás do projeto desse
+
+597
+00:25:55,079 --> 00:26:00,639
+sistema de tipos para para elixir eh o
+
+598
+00:25:58,359 --> 00:26:03,918
+que a gente quer saber é como que surge
+
+599
+00:26:00,640 --> 00:26:05,960
+essa colaboração né esse contexto aí eh
+
+600
+00:26:03,919 --> 00:26:08,000
+de colaboração com o Joseppe o professor
+
+601
+00:26:05,960 --> 00:26:10,759
+de uma universidade na França e com o
+
+602
+00:26:08,000 --> 00:26:13,000
+Guilhelme é se não me engano o Giuseppe
+
+603
+00:26:10,759 --> 00:26:15,640
+é italiano Guilherme é francês e
+
+604
+00:26:13,000 --> 00:26:17,159
+doutorando é com uma bolsa patrocinada
+
+605
+00:26:15,640 --> 00:26:20,120
+pela Remote que também é uma dessas
+
+606
+00:26:17,159 --> 00:26:22,600
+empresas e que usa elixinho em produção
+
+607
+00:26:20,119 --> 00:26:25,639
+então como que essa colaboração começou
+
+608
+00:26:22,599 --> 00:26:27,240
+onde vocês se encontraram eh foram tomar
+
+609
+00:26:25,640 --> 00:26:30,600
+uma cerveja numai começaram a falar
+
+610
+00:26:27,240 --> 00:26:33,679
+sobre tipos mas é exatamente como que de
+
+611
+00:26:30,599 --> 00:26:33,678
+onde vem esse contexto
+
+612
+00:26:35,079 --> 00:26:42,079
+né tá
+
+613
+00:26:38,319 --> 00:26:44,240
+eh eh aconteceu que doi eu imagino que
+
+614
+00:26:42,079 --> 00:26:47,158
+foram não lembro se eram se era os
+
+615
+00:26:44,240 --> 00:26:50,359
+estudantes ou os professores mas eh duas
+
+616
+00:26:47,159 --> 00:26:52,120
+pessoas da Universidade do Uruguai me
+
+617
+00:26:50,359 --> 00:26:56,319
+porque sempre já tava meio que na
+
+618
+00:26:52,119 --> 00:26:58,558
+comunidade que tipo assim olha eh pô
+
+619
+00:26:56,319 --> 00:27:00,398
+tipo a gente quer mais garantias em
+
+620
+00:26:58,558 --> 00:27:04,319
+termos de software talvez o sistema de
+
+621
+00:27:00,398 --> 00:27:07,239
+tipagem pode o ajudar o o elixir então
+
+622
+00:27:04,319 --> 00:27:10,359
+já tinha já já tava essa pergunta e já
+
+623
+00:27:07,240 --> 00:27:13,759
+era tipo eu falei né que era o elefante
+
+624
+00:27:10,359 --> 00:27:15,038
+né na eh se a gente fosse falar sobre o
+
+625
+00:27:13,759 --> 00:27:17,038
+futuro do elixir a gente tem que falar
+
+626
+00:27:15,038 --> 00:27:19,599
+sobre esse elefante que é tipagem e eu
+
+627
+00:27:17,038 --> 00:27:24,079
+inclusive tinha até tentado
+
+628
+00:27:19,599 --> 00:27:27,119
+tipagem eh em
+
+629
+00:27:24,079 --> 00:27:30,119
+2018 ou
+
+630
+00:27:27,119 --> 00:27:30,119
+2019
+
+631
+00:27:30,558 --> 00:27:36,158
+e
+
+632
+00:27:32,480 --> 00:27:38,519
+e enfim eu tentei fiz um protótipo não
+
+633
+00:27:36,159 --> 00:27:39,320
+foi não foi um protótipo que que deu
+
+634
+00:27:38,519 --> 00:27:42,398
+muito
+
+635
+00:27:39,319 --> 00:27:44,960
+certo eh porque quando eu fiz aquele
+
+636
+00:27:42,398 --> 00:27:47,798
+protótipo ficou claro que olha para para
+
+637
+00:27:44,960 --> 00:27:50,278
+suportar esse sistema de tipagem a gente
+
+638
+00:27:47,798 --> 00:27:52,359
+teria que tirar muitas features da
+
+639
+00:27:50,278 --> 00:27:53,440
+linguagem de programação então ah isso
+
+640
+00:27:52,359 --> 00:27:54,319
+aqui não vai ser possível isso aqui não
+
+641
+00:27:53,440 --> 00:27:56,120
+vai ser possível isso aqui não vai ser
+
+642
+00:27:54,319 --> 00:27:58,678
+possível de forma que no final das
+
+643
+00:27:56,119 --> 00:27:59,798
+contas então tipo assim não era tipo não
+
+644
+00:27:58,679 --> 00:28:01,919
+era o elixir mais era uma outra
+
+645
+00:27:59,798 --> 00:28:05,440
+linguagem de programação e aí então eu
+
+646
+00:28:01,919 --> 00:28:07,399
+deixei de canto e aí eh tipo um tempo
+
+647
+00:28:05,440 --> 00:28:09,600
+depois recebi esse e-mail de duas
+
+648
+00:28:07,398 --> 00:28:11,678
+pessoas do Uruguai falando que eles
+
+649
+00:28:09,599 --> 00:28:14,719
+desenvolveram um sistema de tipagem
+
+650
+00:28:11,679 --> 00:28:17,200
+gradual pro elixir durante a tese de
+
+651
+00:28:14,720 --> 00:28:19,839
+mestrado deles eu eu se eu me lembro
+
+652
+00:28:17,200 --> 00:28:21,360
+corretamente aí eu falei: "Pô legal né?"
+
+653
+00:28:19,839 --> 00:28:25,439
+Aí eu perguntei para eles se eles
+
+654
+00:28:21,359 --> 00:28:28,879
+queriam eh continuar né aquela pesquisa
+
+655
+00:28:25,440 --> 00:28:31,600
+de de alguma forma e eles falaram que
+
+656
+00:28:28,880 --> 00:28:34,000
+não eles falaram: "A gente acabou com a
+
+657
+00:28:31,599 --> 00:28:37,038
+universidade não pensamos voltar nunca
+
+658
+00:28:34,000 --> 00:28:38,240
+mais tô exagerando um pouco mas eles
+
+659
+00:28:37,038 --> 00:28:40,319
+falaram que não tinha interesse." Eu
+
+660
+00:28:38,240 --> 00:28:44,919
+falei: "Legal" aí eu fui ler o fui ler o
+
+661
+00:28:40,319 --> 00:28:48,038
+o paper né e o paper citava vários
+
+662
+00:28:44,919 --> 00:28:50,278
+vários vários artigos do do Giuseppe
+
+663
+00:28:48,038 --> 00:28:54,558
+Castanha né que aí depois eu fui
+
+664
+00:28:50,278 --> 00:28:56,759
+pesquisar e ele é um pesquisador muito
+
+665
+00:28:54,558 --> 00:28:58,678
+respeitado na comunidade principalmente
+
+666
+00:28:56,759 --> 00:29:01,398
+do ponto de vista de
+
+667
+00:28:58,679 --> 00:29:04,159
+tipagem e aí então comecei a ler as
+
+668
+00:29:01,398 --> 00:29:06,879
+referências né
+
+669
+00:29:04,159 --> 00:29:10,080
+e e aí em uma das referências que eu
+
+670
+00:29:06,880 --> 00:29:11,440
+tava lendo ele um dos problemas da hora
+
+671
+00:29:10,079 --> 00:29:14,000
+que eu tava na hora que a gente tava
+
+672
+00:29:11,440 --> 00:29:16,840
+implementando um protótipo para elixir
+
+673
+00:29:14,000 --> 00:29:18,558
+eh o paper falava exatamente: "Olha se
+
+674
+00:29:16,839 --> 00:29:20,599
+você estiver implementando sistema de
+
+675
+00:29:18,558 --> 00:29:23,240
+tipagem e tal e tal tal você pode ter
+
+676
+00:29:20,599 --> 00:29:25,759
+esse problema" aí eu li eu falei: "Pô é
+
+677
+00:29:23,240 --> 00:29:28,120
+a solução pro problema que eu tive né?"
+
+678
+00:29:25,759 --> 00:29:29,679
+Aí eu li a introdução aí eu li não o
+
+679
+00:29:28,119 --> 00:29:31,038
+problema e tal ele começa a explicar os
+
+680
+00:29:29,679 --> 00:29:34,399
+cenários falei: "Nossa faz total
+
+681
+00:29:31,038 --> 00:29:36,398
+sentido" aí na terceira parte do paper
+
+682
+00:29:34,398 --> 00:29:37,719
+matemática matemática matemática
+
+683
+00:29:36,398 --> 00:29:39,678
+matemática ele olha esse aqui é o
+
+684
+00:29:37,720 --> 00:29:41,120
+problema é assim que a gente formula
+
+685
+00:29:39,679 --> 00:29:44,120
+esse problema do ponto de vista
+
+686
+00:29:41,119 --> 00:29:45,678
+matemático aí a quarta sessão era agora
+
+687
+00:29:44,119 --> 00:29:48,000
+nós vamos provar que a gente consegue
+
+688
+00:29:45,679 --> 00:29:51,080
+resolver de forma tal tal tal tal tal né
+
+689
+00:29:48,000 --> 00:29:54,079
+aí chega a conclusão problema resolvido
+
+690
+00:29:51,079 --> 00:29:55,798
+e eu como assim problema resolvido tipo
+
+691
+00:29:54,079 --> 00:29:58,599
+qual que é o código qual que é o
+
+692
+00:29:55,798 --> 00:30:01,278
+algoritmo o que que que tipo como que eu
+
+693
+00:29:58,599 --> 00:30:04,038
+posso usar isso né para resolver aí eu
+
+694
+00:30:01,278 --> 00:30:06,640
+mandei o e-mail para ele basicamente eh
+
+695
+00:30:04,038 --> 00:30:08,278
+contando essa história aí ele me indicou
+
+696
+00:30:06,640 --> 00:30:10,000
+outro paper dele que na verdade ele
+
+697
+00:30:08,278 --> 00:30:12,200
+escreveu para ser mais acessível que
+
+698
+00:30:10,000 --> 00:30:13,720
+escutar que discutir esses pontos aí a
+
+699
+00:30:12,200 --> 00:30:15,798
+gente começou a conversar eu falei: "Pô
+
+700
+00:30:13,720 --> 00:30:20,319
+seria legal se tivesse algo pro elixer"
+
+701
+00:30:15,798 --> 00:30:24,398
+e e nós começamos a conversar e aí veio
+
+702
+00:30:20,319 --> 00:30:27,639
+a possibilidade de fazer esse esse
+
+703
+00:30:24,398 --> 00:30:30,439
+programa e ele já tinha pensado no Guiam
+
+704
+00:30:27,640 --> 00:30:32,960
+do BOC que é o o o que está fazendo PhD
+
+705
+00:30:30,440 --> 00:30:34,360
+dele agora o doutorado dele ele já tinha
+
+706
+00:30:32,960 --> 00:30:38,960
+ele como candidato falou: "A gente pode
+
+707
+00:30:34,359 --> 00:30:41,839
+trazer ele" só que a gente tipo ele ele
+
+708
+00:30:38,960 --> 00:30:45,079
+trabalha eh na França né ele trabalha no
+
+709
+00:30:41,839 --> 00:30:47,639
+maior no no maior instituto de pesquisa
+
+710
+00:30:45,079 --> 00:30:49,599
+da Europa é onde ele trabalha mas eu tô
+
+711
+00:30:47,640 --> 00:30:51,720
+na Polônia então como que a gente vai
+
+712
+00:30:49,599 --> 00:30:54,199
+fazer isso dar certo e a gente descobriu
+
+713
+00:30:51,720 --> 00:30:56,120
+que tinha um programa né então eh na
+
+714
+00:30:54,200 --> 00:31:00,080
+verdade são várias empresas que estão
+
+715
+00:30:56,119 --> 00:31:03,798
+envolvidas eh nesse programa então a a a
+
+716
+00:31:00,079 --> 00:31:06,158
+Remote e o CNRS são as entidades que que
+
+717
+00:31:03,798 --> 00:31:09,359
+tipo tomaram conta de fazer isso
+
+718
+00:31:06,159 --> 00:31:15,320
+acontecer e o patrocínio vieram de
+
+719
+00:31:09,359 --> 00:31:18,719
+diversas empresas a Fresha Super Base a
+
+720
+00:31:15,319 --> 00:31:21,519
+Starfish e a Dashbit talvez eu posso ter
+
+721
+00:31:18,720 --> 00:31:23,399
+esquecido alguns mas acho que então
+
+722
+00:31:21,519 --> 00:31:27,200
+várias empresas começaram a participar
+
+723
+00:31:23,398 --> 00:31:30,759
+nisso e tipo antes de eu anunciar eu
+
+724
+00:31:27,200 --> 00:31:34,440
+acho que nós trabalhamos talvez perto de
+
+725
+00:31:30,759 --> 00:31:38,919
+um ano tipo assim olha tá aqui eh essa é
+
+726
+00:31:34,440 --> 00:31:40,720
+a teoria que é um um sistema de tipagem
+
+727
+00:31:38,919 --> 00:31:42,960
+baseado em conjuntos né isso é muito
+
+728
+00:31:40,720 --> 00:31:45,639
+legal então conjunto significa que os
+
+729
+00:31:42,960 --> 00:31:47,679
+tipos eles são são representados como
+
+730
+00:31:45,638 --> 00:31:50,079
+conjuntos e a gente usa união
+
+731
+00:31:47,679 --> 00:31:52,960
+intersecção diferença de conjuntos que
+
+732
+00:31:50,079 --> 00:31:56,960
+são operações que a gente aprende
+
+733
+00:31:52,960 --> 00:31:58,600
+relativamente cedo né então eh então tem
+
+734
+00:31:56,960 --> 00:32:01,519
+o potencial de ser um sistema muito
+
+735
+00:31:58,599 --> 00:32:03,278
+intuitivo só que a o elixer é uma
+
+736
+00:32:01,519 --> 00:32:04,960
+linguagem de formação que já existe a
+
+737
+00:32:03,278 --> 00:32:06,200
+gente tem sistema de página já existe a
+
+738
+00:32:04,960 --> 00:32:09,278
+gente tem que ver como que essas duas
+
+739
+00:32:06,200 --> 00:32:12,519
+coisas se encaixam e para fazer essas
+
+740
+00:32:09,278 --> 00:32:14,319
+coisas se encaixarem eh nós tivemos que
+
+741
+00:32:12,519 --> 00:32:17,558
+desenvolver
+
+742
+00:32:14,319 --> 00:32:20,439
+eh tipo pesquisa nova publicar materiais
+
+743
+00:32:17,558 --> 00:32:22,319
+novos desenvolver teoria nova para fazer
+
+744
+00:32:20,440 --> 00:32:24,320
+que isso funciona né então né tipo assim
+
+745
+00:32:22,319 --> 00:32:26,879
+olha a gente pode pegar um sistema
+
+746
+00:32:24,319 --> 00:32:29,319
+qualquer e colocar né tipo precisa de
+
+747
+00:32:26,880 --> 00:32:30,840
+pesquisa precisa de trabalho né precisa
+
+748
+00:32:29,319 --> 00:32:34,638
+de
+
+749
+00:32:30,839 --> 00:32:37,439
+desenvolvimento então faz 3 anos que nós
+
+750
+00:32:34,638 --> 00:32:41,599
+estamos então já publicamos papers né eh
+
+751
+00:32:37,440 --> 00:32:42,919
+publicamos tipo melhorias no que que uma
+
+752
+00:32:41,599 --> 00:32:45,719
+outra parte do sistema é que é um
+
+753
+00:32:42,919 --> 00:32:47,320
+sistema gradual de tipagem gradual que
+
+754
+00:32:45,720 --> 00:32:50,120
+significa que um código dinâmico e
+
+755
+00:32:47,319 --> 00:32:51,960
+código estático podem viver lado a lado
+
+756
+00:32:50,119 --> 00:32:53,918
+né porque todo o código que existe hoje
+
+757
+00:32:51,960 --> 00:32:56,240
+em elixeira é dinâmico então a gente
+
+758
+00:32:53,919 --> 00:32:58,159
+quer tornar esse eh quer possibilitar
+
+759
+00:32:56,240 --> 00:33:00,679
+que você escreva partes estáticas e
+
+760
+00:32:58,159 --> 00:33:02,200
+essas duas partes têm que se
+
+761
+00:33:00,679 --> 00:33:06,840
+interagir
+
+762
+00:33:02,200 --> 00:33:10,080
+então então foi foi assim que começou e
+
+763
+00:33:06,839 --> 00:33:11,638
+nós continuamos ainda nessa nessa nessa
+
+764
+00:33:10,079 --> 00:33:15,759
+jornada
+
+765
+00:33:11,638 --> 00:33:18,519
+eh hoje nós temos um uma estudante
+
+766
+00:33:15,759 --> 00:33:21,558
+chinesa de pós-doutorado fazendo
+
+767
+00:33:18,519 --> 00:33:23,200
+pesquisas em áreas novas que então no
+
+768
+00:33:21,558 --> 00:33:26,079
+paper que a gente publicou teve algumas
+
+769
+00:33:23,200 --> 00:33:29,120
+coisas que nós não resolvemos né ou
+
+770
+00:33:26,079 --> 00:33:31,960
+então tipo nós resolvemos na verdade eh
+
+771
+00:33:29,119 --> 00:33:33,518
+que é tipo a parte de módulos em elixir
+
+772
+00:33:31,960 --> 00:33:35,399
+a gente tem aquela parte de behaviors
+
+773
+00:33:33,519 --> 00:33:37,880
+que são interfaces
+
+774
+00:33:35,398 --> 00:33:39,278
+então nós sabemos tipo como fazer
+
+775
+00:33:37,880 --> 00:33:41,679
+tipagem daquilo mas a gente vê o
+
+776
+00:33:39,278 --> 00:33:45,398
+potencial de fazer coisas que não
+
+777
+00:33:41,679 --> 00:33:49,240
+existem hoje de melhorar de de ter um um
+
+778
+00:33:45,398 --> 00:33:51,038
+sistema novo que que vai ser mais
+
+779
+00:33:49,240 --> 00:33:53,399
+expressivo para desenvolvedores elixir
+
+780
+00:33:51,038 --> 00:33:55,119
+então a gente tem uma estudante de
+
+781
+00:33:53,398 --> 00:33:56,918
+pós-doutorado
+
+782
+00:33:55,119 --> 00:33:59,918
+eh pesquisando e trabalhando nisso
+
+783
+00:33:56,919 --> 00:34:05,080
+também então é esse meio que que o
+
+784
+00:33:59,919 --> 00:34:07,559
+resumo de como começou e como está indo
+
+785
+00:34:05,079 --> 00:34:10,519
+boa eu vi também acho que foi no Red
+
+786
+00:34:07,558 --> 00:34:10,519
+alguma alguma
+
+787
+00:34:10,719 --> 00:34:16,918
+trad se tudo der certo esse ano já tem
+
+788
+00:34:13,679 --> 00:34:19,918
+uma pelo menos uma palhinha da da
+
+789
+00:34:16,918 --> 00:34:24,239
+descrição né de tipagem tipo de da da
+
+790
+00:34:19,918 --> 00:34:26,039
+síntax para de fato escrever eh vou
+
+791
+00:34:24,239 --> 00:34:29,598
+chamar de tipagem mas
+
+792
+00:34:26,039 --> 00:34:32,039
+enfim mais semelhante ali o type spec né
+
+793
+00:34:29,599 --> 00:34:34,359
+mas enfim pelas discussões assim no
+
+794
+00:34:32,039 --> 00:34:36,639
+geral nas redes sociais eh e pelos seus
+
+795
+00:34:34,358 --> 00:34:39,039
+próprios comentários também a gente tem
+
+796
+00:34:36,639 --> 00:34:41,358
+visto que tem muita gente eh bem
+
+797
+00:34:39,039 --> 00:34:43,759
+interessada nesse nesse sistema de tipos
+
+798
+00:34:41,358 --> 00:34:46,598
+ah inclusive pessoas de outras
+
+799
+00:34:43,760 --> 00:34:52,000
+linguagens funcionais mais eh clássicas
+
+800
+00:34:46,599 --> 00:34:53,519
+digamos assim né mais rígidas eh e ainda
+
+801
+00:34:52,000 --> 00:34:56,199
+mesmo que esteja implementado de forma
+
+802
+00:34:53,519 --> 00:34:58,079
+parcial já tem gerado alguns resultados
+
+803
+00:34:56,199 --> 00:34:59,679
+bem interessantes e aí o comentário
+
+804
+00:34:58,079 --> 00:35:01,519
+sempre vejo algum comentário tipo: "Ah
+
+805
+00:34:59,679 --> 00:35:03,679
+consegui encontrar esse bug aqui por
+
+806
+00:35:01,519 --> 00:35:06,480
+causa do sistema de tipos" inclusive eu
+
+807
+00:35:03,679 --> 00:35:09,239
+sou uma dessas pessoas eh pelos pelos
+
+808
+00:35:06,480 --> 00:35:11,400
+projetos eh open source que eu mantenho
+
+809
+00:35:09,239 --> 00:35:14,000
+eu acabo encontrando às vezes tipo eh
+
+810
+00:35:11,400 --> 00:35:16,440
+código morto ou enfim ou algum caso de
+
+811
+00:35:14,000 --> 00:35:17,838
+patron que que não ia acontecer pode
+
+812
+00:35:16,440 --> 00:35:20,720
+argumentar também que o código é meio
+
+813
+00:35:17,838 --> 00:35:23,279
+ruim mas enfim eh mas o que vocês acham
+
+814
+00:35:20,719 --> 00:35:26,480
+desses resultados tipo o como vocês
+
+815
+00:35:23,280 --> 00:35:27,880
+estão vendo isso dentro da comunidade eh
+
+816
+00:35:26,480 --> 00:35:31,838
+acham que estão seguindo pelo caminho
+
+817
+00:35:27,880 --> 00:35:33,680
+que tipo ainda faz sentido eh enfim acha
+
+818
+00:35:31,838 --> 00:35:35,320
+que tem possibilidade de abrir isso e
+
+819
+00:35:33,679 --> 00:35:37,159
+talvez chamar mais atenção de outras
+
+820
+00:35:35,320 --> 00:35:40,359
+comunidades já que por exemplo o
+
+821
+00:35:37,159 --> 00:35:44,239
+TypeScript tem tem conseguido aí manter
+
+822
+00:35:40,358 --> 00:35:46,239
+sua seu hype né digamos assim então que
+
+823
+00:35:44,239 --> 00:35:48,479
+que vocês conseguem prever assim pro pro
+
+824
+00:35:46,239 --> 00:35:51,239
+futuro de Elin né enquanto comunidade e
+
+825
+00:35:48,480 --> 00:35:51,240
+linguagem né
+
+826
+00:35:51,599 --> 00:35:58,359
+bom de certa forma eu não eu sempre falo
+
+827
+00:35:56,199 --> 00:36:00,159
+eu vou falar e depois eu vou explicar de
+
+828
+00:35:58,358 --> 00:36:02,119
+certa forma não me preocupo muito com
+
+829
+00:36:00,159 --> 00:36:04,399
+isso não é que tipo ah eu não me
+
+830
+00:36:02,119 --> 00:36:06,800
+preocupo mas é
+
+831
+00:36:04,400 --> 00:36:09,720
+tipo obviamente eu me preocupo mas para
+
+832
+00:36:06,800 --> 00:36:12,880
+mim não é o objetivo entendeu então para
+
+833
+00:36:09,719 --> 00:36:16,719
+mim tipo a questão do sistema de tipagem
+
+834
+00:36:12,880 --> 00:36:19,160
+a gente tem que fazer o que a gente acha
+
+835
+00:36:16,719 --> 00:36:22,759
+que é melhor pro nosso software pro
+
+836
+00:36:19,159 --> 00:36:25,480
+nosso programa pra nossa comunidade e e
+
+837
+00:36:22,760 --> 00:36:27,960
+se a gente acredita que aquilo é a forma
+
+838
+00:36:25,480 --> 00:36:30,280
+correta se os resultados depois se vai
+
+839
+00:36:27,960 --> 00:36:33,199
+atrair mais pessoas se não vai para mim
+
+840
+00:36:30,280 --> 00:36:35,359
+são coisas ortogonais o para mim é bem
+
+841
+00:36:33,199 --> 00:36:37,559
+claro que o que nós temos fazer tá é
+
+842
+00:36:35,358 --> 00:36:40,799
+desenvolver o melhor sistema da forma
+
+843
+00:36:37,559 --> 00:36:42,960
+possível e aí no caso exatamente tem
+
+844
+00:36:40,800 --> 00:36:45,680
+dois pontos importantes né que tipo olha
+
+845
+00:36:42,960 --> 00:36:47,880
+não tem nenhum sistema de tipagem que
+
+846
+00:36:45,679 --> 00:36:50,039
+vai suportar todos os idiomas que
+
+847
+00:36:47,880 --> 00:36:53,039
+existem na linguagem de formação elixir
+
+848
+00:36:50,039 --> 00:36:54,599
+então a medida então na próxima versão
+
+849
+00:36:53,039 --> 00:36:58,239
+já vai ter uma sintaxe que a gente vai
+
+850
+00:36:54,599 --> 00:37:01,720
+depreciar por causa disso né então a
+
+851
+00:36:58,239 --> 00:37:04,239
+gente tem que em a minha preocupação
+
+852
+00:37:01,719 --> 00:37:05,879
+falar assim o que que eu eu preocupo do
+
+853
+00:37:04,239 --> 00:37:07,959
+ponto de vista de comunidade é
+
+854
+00:37:05,880 --> 00:37:11,920
+exatamente como que a gente vai navegar
+
+855
+00:37:07,960 --> 00:37:17,599
+essas águas de olha tem algumas coisas
+
+856
+00:37:11,920 --> 00:37:19,280
+que que que nós fazemos hoje que olha eh
+
+857
+00:37:17,599 --> 00:37:22,880
+não vai funcionar com o sistema de
+
+858
+00:37:19,280 --> 00:37:25,359
+tipagem às vezes são ideias boas que
+
+859
+00:37:22,880 --> 00:37:27,079
+simplesmente não funcionam porque não é
+
+860
+00:37:25,358 --> 00:37:28,759
+possível o sistema de tipagem suportar
+
+861
+00:37:27,079 --> 00:37:30,318
+tudo que a gente faz mas às vezes vão
+
+862
+00:37:28,760 --> 00:37:32,520
+ser ideias ruins que a gente vai ter que
+
+863
+00:37:30,318 --> 00:37:34,719
+falar: "Olha isso não era uma boa ideia
+
+864
+00:37:32,519 --> 00:37:37,400
+a gente não deveria estar tá fazendo
+
+865
+00:37:34,719 --> 00:37:39,598
+isso" e o sistema de tipagem tá tá
+
+866
+00:37:37,400 --> 00:37:43,838
+basicamente falando pra gente isso tá
+
+867
+00:37:39,599 --> 00:37:46,359
+meio que provando isso né mas então esse
+
+868
+00:37:43,838 --> 00:37:51,078
+é um ponto importante né e o outro ponto
+
+869
+00:37:46,358 --> 00:37:54,679
+para mim é que um sistema de tipagem por
+
+870
+00:37:51,079 --> 00:37:58,039
+exatamente ele também tem um código que
+
+871
+00:37:54,679 --> 00:38:00,199
+pra gente é correto e pela flexibilidade
+
+872
+00:37:58,039 --> 00:38:02,400
+da de ser uma linguagem dinâmica ele
+
+873
+00:38:00,199 --> 00:38:05,879
+funciona e tem o resultado correto mas o
+
+874
+00:38:02,400 --> 00:38:07,440
+sistema de tipagem não é flexível porque
+
+875
+00:38:05,880 --> 00:38:09,720
+não existe sistema de sipagem no mundo
+
+876
+00:38:07,440 --> 00:38:12,280
+que vai ser tão flexível para entender
+
+877
+00:38:09,719 --> 00:38:14,480
+certas formas e padrões de software
+
+878
+00:38:12,280 --> 00:38:16,560
+também e a gente tem que balancear esse
+
+879
+00:38:14,480 --> 00:38:18,199
+tradeof então para mim pensando o ponto
+
+880
+00:38:16,559 --> 00:38:21,838
+de vista de comunidade feedback para
+
+881
+00:38:18,199 --> 00:38:23,759
+onde nós vamos essas são as grandes
+
+882
+00:38:21,838 --> 00:38:26,639
+perguntas né então eu acho que do ponto
+
+883
+00:38:23,760 --> 00:38:29,720
+de vista de
+
+884
+00:38:26,639 --> 00:38:32,358
+de mensagens de erro de
+
+885
+00:38:29,719 --> 00:38:36,358
+validação eh muitas coisas relacionadas
+
+886
+00:38:32,358 --> 00:38:39,400
+a isso eh eu acho que a gente fez um
+
+887
+00:38:36,358 --> 00:38:41,920
+progresso enorme né então e a nós já
+
+888
+00:38:39,400 --> 00:38:43,838
+estamos achando bugs mas a medida que o
+
+889
+00:38:41,920 --> 00:38:45,599
+sistema de o nosso sistema de tipagem
+
+890
+00:38:43,838 --> 00:38:50,318
+começa a entender mais o que que a gente
+
+891
+00:38:45,599 --> 00:38:53,119
+tá fazendo eh essas fricções que que que
+
+892
+00:38:50,318 --> 00:38:57,119
+eu estou trazendo ela elas vão aumentar
+
+893
+00:38:53,119 --> 00:38:59,519
+e a gente então o meu plano é é focado
+
+894
+00:38:57,119 --> 00:39:02,240
+nisso e aí se a gente fez um bom
+
+895
+00:38:59,519 --> 00:39:05,559
+trabalho aí o que vier como consequência
+
+896
+00:39:02,239 --> 00:39:08,559
+disso é ótimo mas o meu foco é nesses
+
+897
+00:39:05,559 --> 00:39:08,559
+assuntos
+
+898
+00:39:08,639 --> 00:39:14,358
+perfeito
+
+899
+00:39:10,719 --> 00:39:17,959
+muito bom mesmo Vali bem outra pergunta
+
+900
+00:39:14,358 --> 00:39:20,279
+que queremos fazer é sobre sua relação
+
+901
+00:39:17,960 --> 00:39:23,960
+com a pesquisa né como é a sua relação
+
+902
+00:39:20,280 --> 00:39:27,519
+com a pesquisa então lá na Elixir Brasil
+
+903
+00:39:23,960 --> 00:39:30,838
+2018 você ministrou uma palestra chamada
+
+904
+00:39:27,519 --> 00:39:33,599
+Higs Driven Development na qual
+
+905
+00:39:30,838 --> 00:39:36,159
+mencionou diversos trabalhos científicos
+
+906
+00:39:33,599 --> 00:39:39,318
+muitos deles de um pesquisador chamado
+
+907
+00:39:36,159 --> 00:39:41,078
+John Higgs que trabalha na Suécia você
+
+908
+00:39:39,318 --> 00:39:43,480
+falou sobre como esses trabalhos
+
+909
+00:39:41,079 --> 00:39:45,839
+influenciaram a linguagem
+
+910
+00:39:43,480 --> 00:39:48,440
+acreditamos que na época a principal
+
+911
+00:39:45,838 --> 00:39:49,799
+influência estava no formatador de
+
+912
+00:39:48,440 --> 00:39:52,960
+código de
+
+913
+00:39:49,800 --> 00:39:55,318
+elixir nossa pergunta é mais genérica
+
+914
+00:39:52,960 --> 00:39:59,240
+qual é o papel da pesquisa no trabalho
+
+915
+00:39:55,318 --> 00:40:02,599
+que você e o corte de elixir realizam no
+
+916
+00:39:59,239 --> 00:40:07,039
+desenvolvimento da linguagem
+
+917
+00:40:02,599 --> 00:40:08,720
+ah é uma é uma pergunta muito boa e eu
+
+918
+00:40:07,039 --> 00:40:09,920
+não sei se eu vou dar vou conseguir dar
+
+919
+00:40:08,719 --> 00:40:13,118
+uma
+
+920
+00:40:09,920 --> 00:40:18,358
+resposta justa da forma que eu penso
+
+921
+00:40:13,119 --> 00:40:22,800
+mas o que eu posso falar é o seguinte
+
+922
+00:40:18,358 --> 00:40:24,440
+eh a tem tantos problemas hoje que
+
+923
+00:40:22,800 --> 00:40:25,960
+quando a gente usa uma linguagem de
+
+924
+00:40:24,440 --> 00:40:28,960
+programação qualquer linguagem de
+
+925
+00:40:25,960 --> 00:40:31,480
+programação que na verdade tiveram anos
+
+926
+00:40:28,960 --> 00:40:33,960
+e anos de pesquisa
+
+927
+00:40:31,480 --> 00:40:36,639
+ou até coisas da indústria a gente nunca
+
+928
+00:40:33,960 --> 00:40:39,159
+pensa né tipo sobre isso que é tipo
+
+929
+00:40:36,639 --> 00:40:41,159
+extremamente fascinante né então eh
+
+930
+00:40:39,159 --> 00:40:45,519
+quando eu dei essa apresentação eu não
+
+931
+00:40:41,159 --> 00:40:47,838
+lembro todos os tópicos né mas então até
+
+932
+00:40:45,519 --> 00:40:49,000
+a parte tipo na hora que é o pretty
+
+933
+00:40:47,838 --> 00:40:50,960
+printing né na hora que você tá usando a
+
+934
+00:40:49,000 --> 00:40:53,639
+linguagem de programação você tá lá tipo
+
+935
+00:40:50,960 --> 00:40:56,119
+no terminal do JavaScript né é no seu
+
+936
+00:40:53,639 --> 00:40:58,838
+browser aí ele mostra um valor como que
+
+937
+00:40:56,119 --> 00:41:01,240
+ele é alinhado tipo dependendo como que
+
+938
+00:40:58,838 --> 00:41:02,679
+muda do tamanho sabe tipo todas essas
+
+939
+00:41:01,239 --> 00:41:05,039
+decisões de como fazer isso da melhor
+
+940
+00:41:02,679 --> 00:41:07,239
+forma existem papers e papers um
+
+941
+00:41:05,039 --> 00:41:09,639
+construindo em cima de outro mostrando
+
+942
+00:41:07,239 --> 00:41:12,199
+como que vocês conseguem fazer isso e no
+
+943
+00:41:09,639 --> 00:41:15,000
+caso que a gente fez pro elixir é pegar
+
+944
+00:41:12,199 --> 00:41:16,559
+aquela teoria que já existia e aplicar
+
+945
+00:41:15,000 --> 00:41:18,760
+ela para formatadores de código eu não
+
+946
+00:41:16,559 --> 00:41:20,880
+sei se existem outras pessoas fazendo
+
+947
+00:41:18,760 --> 00:41:24,040
+isso dessa forma
+
+948
+00:41:20,880 --> 00:41:27,440
+eh mas então foi uma das ideias mas até
+
+949
+00:41:24,039 --> 00:41:30,079
+coisas tipo assim a gente fala muito de
+
+950
+00:41:27,440 --> 00:41:32,159
+é pontos flutuantes em floing points em
+
+951
+00:41:30,079 --> 00:41:33,599
+português a gente fala muito de pontos
+
+952
+00:41:32,159 --> 00:41:38,039
+flutuantes né e pontos e pontos
+
+953
+00:41:33,599 --> 00:41:42,720
+flutuantes eles não são exatos né
+
+954
+00:41:38,039 --> 00:41:44,400
+então então é quando quando a gente
+
+955
+00:41:42,719 --> 00:41:46,679
+digita tipo
+
+956
+00:41:44,400 --> 00:41:48,240
+2.3 vou pegar um número qualquer não sei
+
+957
+00:41:46,679 --> 00:41:50,799
+se se tá certo mas da hora que a gente
+
+958
+00:41:48,239 --> 00:41:52,838
+digita tipo 2.3 na linguagem de
+
+959
+00:41:50,800 --> 00:41:54,160
+programação não é aquilo que tá sendo
+
+960
+00:41:52,838 --> 00:41:56,199
+representado em memória né memória
+
+961
+00:41:54,159 --> 00:42:00,159
+provavelmente vai ser
+
+962
+00:41:56,199 --> 00:42:03,239
+2.333 alguma coisa né não é aquilo então
+
+963
+00:42:00,159 --> 00:42:06,000
+por exemplo existem papers e papers que
+
+964
+00:42:03,239 --> 00:42:10,479
+é olha se você tem um ponto flutuante
+
+965
+00:42:06,000 --> 00:42:12,358
+2.3636 e alguma coisa em memória e você
+
+966
+00:42:10,480 --> 00:42:15,318
+quer mostrar ele pro
+
+967
+00:42:12,358 --> 00:42:17,039
+usuário qual que é a representação
+
+968
+00:42:15,318 --> 00:42:20,519
+mínima daquele ponto para você não
+
+969
+00:42:17,039 --> 00:42:22,318
+precisar mostrar 2.363 você falar só 2.3
+
+970
+00:42:20,519 --> 00:42:24,400
+então existem papers e papers em cima
+
+971
+00:42:22,318 --> 00:42:26,558
+disso inclusive teve um paper dos
+
+972
+00:42:24,400 --> 00:42:29,200
+últimos 5 anos tô chutando que na
+
+973
+00:42:26,559 --> 00:42:31,040
+verdade otimizou isso em três vezes e aí
+
+974
+00:42:29,199 --> 00:42:33,879
+teve um colaborador que mandou por
+
+975
+00:42:31,039 --> 00:42:37,599
+requests por Lang para otimizar e tal
+
+976
+00:42:33,880 --> 00:42:40,800
+então para mim tipo eh
+
+977
+00:42:37,599 --> 00:42:43,720
+eh vamos dizer que é um alívio quando
+
+978
+00:42:40,800 --> 00:42:47,760
+tem um problema né
+
+979
+00:42:43,719 --> 00:42:52,279
+e e a solução daquele problema é um
+
+980
+00:42:47,760 --> 00:42:54,640
+paper publicado porque eh tipo vai ter
+
+981
+00:42:52,280 --> 00:42:57,359
+um processo naquele paper documento
+
+982
+00:42:54,639 --> 00:42:59,358
+documentando ah porque documentando o
+
+983
+00:42:57,358 --> 00:43:01,679
+problema por que ele foi resolvido da
+
+984
+00:42:59,358 --> 00:43:03,239
+forma que ele foi resolvido né e aí
+
+985
+00:43:01,679 --> 00:43:05,118
+provavelmente vão ter papers que vem
+
+986
+00:43:03,239 --> 00:43:08,239
+depois que eu posso ler então para mim
+
+987
+00:43:05,119 --> 00:43:09,760
+tipo assim é um alívio toda vez que toda
+
+988
+00:43:08,239 --> 00:43:12,000
+vez que isso acontece nossa alguém abriu
+
+989
+00:43:09,760 --> 00:43:15,800
+tal coisa vai putz aí deixa eu ver se já
+
+990
+00:43:12,000 --> 00:43:21,559
+tem algo com um certo rigor aqui eh que
+
+991
+00:43:15,800 --> 00:43:23,760
+vai ajudar bastante né e e e e e nesse
+
+992
+00:43:21,559 --> 00:43:27,240
+caso nós focamos em papers do do John
+
+993
+00:43:23,760 --> 00:43:29,240
+Huges mas eh existem vários vários
+
+994
+00:43:27,239 --> 00:43:36,558
+outros papers que nós mencionamos na
+
+995
+00:43:29,239 --> 00:43:40,399
+documentação ah do elixir eh tipo como
+
+996
+00:43:36,559 --> 00:43:43,720
+nós temos sistemas de de trabalhar com
+
+997
+00:43:40,400 --> 00:43:47,400
+coleções que elas podem ser eager como
+
+998
+00:43:43,719 --> 00:43:49,118
+que seria e em português
+
+999
+00:43:47,400 --> 00:43:52,318
+ávida
+
+1000
+00:43:49,119 --> 00:43:55,240
+talvez é elas podem ser eager ou lais
+
+1001
+00:43:52,318 --> 00:43:57,519
+preguiçosas né lais é fácil né então que
+
+1002
+00:43:55,239 --> 00:43:58,279
+veio também a ideia daquele sistema veio
+
+1003
+00:43:57,519 --> 00:44:03,318
+de
+
+1004
+00:43:58,280 --> 00:44:07,000
+publicações então eh é
+
+1005
+00:44:03,318 --> 00:44:08,838
+isso então Valin uma pergunta sobre um
+
+1006
+00:44:07,000 --> 00:44:11,440
+tema atual que a gente não pode deixar
+
+1007
+00:44:08,838 --> 00:44:13,799
+de abordar em 2025 que é quando a gente
+
+1008
+00:44:11,440 --> 00:44:16,039
+tá gravando muitos desenvolvedores
+
+1009
+00:44:13,800 --> 00:44:18,480
+desenvolvedoras estão preocupados com o
+
+1010
+00:44:16,039 --> 00:44:20,239
+futuro do mercado de trabalho e se ainda
+
+1011
+00:44:18,480 --> 00:44:22,639
+haverá empregos para profissionais da
+
+1012
+00:44:20,239 --> 00:44:24,799
+área algumas pessoas acreditam que já
+
+1013
+00:44:22,639 --> 00:44:26,960
+perderam seus empregos já teve gente que
+
+1014
+00:44:24,800 --> 00:44:29,400
+viu falar isso comigo né que acha que é
+
+1015
+00:44:26,960 --> 00:44:31,079
+porque por causa do uso de IA pelas
+
+1016
+00:44:29,400 --> 00:44:33,280
+empresas como é que você vê o
+
+1017
+00:44:31,079 --> 00:44:35,079
+posicionamento da linguagem elixi em
+
+1018
+00:44:33,280 --> 00:44:37,480
+relação a isso será que ela oferece
+
+1019
+00:44:35,079 --> 00:44:40,200
+ferramentas que facilitam o uso desses
+
+1020
+00:44:37,480 --> 00:44:43,358
+modelos ou facilitam a geração de código
+
+1021
+00:44:40,199 --> 00:44:45,879
+em elixir especialmente os abertos né
+
+1022
+00:44:43,358 --> 00:44:49,480
+porque nem todo mundo tem verba para
+
+1023
+00:44:45,880 --> 00:44:52,559
+pagar os os modelos pagos será que a
+
+1024
+00:44:49,480 --> 00:44:55,000
+integração que vocês fazem lá no no Enex
+
+1025
+00:44:52,559 --> 00:44:58,040
+com APIs de modelos pagos quer dizer eu
+
+1026
+00:44:55,000 --> 00:45:01,400
+acho que é feito no Enex né porque hoje
+
+1027
+00:44:58,039 --> 00:45:02,838
+em dia muita gente eh usa esses LLMs
+
+1028
+00:45:01,400 --> 00:45:06,318
+através de
+
+1029
+00:45:02,838 --> 00:45:08,279
+APIs para dentro do seu programa em Lixi
+
+1030
+00:45:06,318 --> 00:45:11,279
+isso como é que isso tá evoluindo na
+
+1031
+00:45:08,280 --> 00:45:11,280
+linguagem
+
+1032
+00:45:11,318 --> 00:45:16,960
+então eu acho que na verdade
+
+1033
+00:45:15,159 --> 00:45:20,679
+ninguém
+
+1034
+00:45:16,960 --> 00:45:23,159
+sabe bem de forma bem clara né então por
+
+1035
+00:45:20,679 --> 00:45:24,759
+exemplo tem tem várias tem várias coisas
+
+1036
+00:45:23,159 --> 00:45:28,519
+que nós poderíamos falar nesse assunto
+
+1037
+00:45:24,760 --> 00:45:30,640
+então um dos tópicos do desse ano das
+
+1038
+00:45:28,519 --> 00:45:33,280
+trends desse ano são tal de sistemas de
+
+1039
+00:45:30,639 --> 00:45:35,039
+agentes né que é olha eh se você quer
+
+1040
+00:45:33,280 --> 00:45:38,760
+automatizar alguma coisa você vai
+
+1041
+00:45:35,039 --> 00:45:40,318
+escrever um código que vai falar com Ll
+
+1042
+00:45:38,760 --> 00:45:41,800
+através de um API e coordenar outra
+
+1043
+00:45:40,318 --> 00:45:45,800
+coisa e para
+
+1044
+00:45:41,800 --> 00:45:47,599
+mim isso é uma área excelente pro elixir
+
+1045
+00:45:45,800 --> 00:45:49,440
+pro porque o Erlang veio de
+
+1046
+00:45:47,599 --> 00:45:51,240
+telecomunicação telecomunicação é
+
+1047
+00:45:49,440 --> 00:45:53,119
+basicamente isso coordenando informação
+
+1048
+00:45:51,239 --> 00:45:55,358
+vindo de diversos cantos e tomando
+
+1049
+00:45:53,119 --> 00:45:58,480
+decisões então eu poderia falar para
+
+1050
+00:45:55,358 --> 00:46:01,318
+vocês ah o elixir o elixir é excelente
+
+1051
+00:45:58,480 --> 00:46:02,639
+para IA eh porque você pode utilizar
+
+1052
+00:46:01,318 --> 00:46:04,400
+sistema de agentes mas isso não
+
+1053
+00:46:02,639 --> 00:46:08,039
+necessariamente ajuda porque se a gente
+
+1054
+00:46:04,400 --> 00:46:12,119
+tá escrevendo sistema de agentes é para
+
+1055
+00:46:08,039 --> 00:46:16,039
+substituir pessoas né que podem ser sim
+
+1056
+00:46:12,119 --> 00:46:18,760
+nós desenvolvedores qual o o tanto que
+
+1057
+00:46:16,039 --> 00:46:21,719
+que esse é o impacto eu
+
+1058
+00:46:18,760 --> 00:46:24,480
+honestamente não sei não sei eu acho que
+
+1059
+00:46:21,719 --> 00:46:27,318
+a grande maioria das pessoas
+
+1060
+00:46:24,480 --> 00:46:31,000
+eh realmente não sabem todo mundo tem um
+
+1061
+00:46:27,318 --> 00:46:33,239
+chute talvez um chute mais informado do
+
+1062
+00:46:31,000 --> 00:46:37,838
+que outro
+
+1063
+00:46:33,239 --> 00:46:39,639
+mas então eh tem esse lado também tem
+
+1064
+00:46:37,838 --> 00:46:42,519
+coisas por exemplo que eu acho que podem
+
+1065
+00:46:39,639 --> 00:46:44,759
+ser vantagens pro elixir então por
+
+1066
+00:46:42,519 --> 00:46:48,759
+exemplo a a
+
+1067
+00:46:44,760 --> 00:46:50,720
+grande tipo as linguagens mais populares
+
+1068
+00:46:48,760 --> 00:46:52,960
+que nós vemos que que a gente vê sendo
+
+1069
+00:46:50,719 --> 00:46:55,039
+utilizadas por inteligência artificial é
+
+1070
+00:46:52,960 --> 00:46:57,240
+Python e JavaScript que tem uma
+
+1071
+00:46:55,039 --> 00:47:00,239
+quantidade boa de semelhanças com o
+
+1072
+00:46:57,239 --> 00:47:02,439
+elixir no ponto de vista de e por
+
+1073
+00:47:00,239 --> 00:47:04,039
+exemplo de ser em linguagens dinâmicas
+
+1074
+00:47:02,440 --> 00:47:06,519
+né então essa
+
+1075
+00:47:04,039 --> 00:47:08,558
+familiaridade é pode ser positiva pro
+
+1076
+00:47:06,519 --> 00:47:11,559
+elixir mas tem gente que fala: "Olha mas
+
+1077
+00:47:08,559 --> 00:47:15,400
+o o elixir não é uma linguagem tipada né
+
+1078
+00:47:11,559 --> 00:47:17,800
+então talvez o sistema de tipo seja mais
+
+1079
+00:47:15,400 --> 00:47:19,400
+importante pra inteligência artificial
+
+1080
+00:47:17,800 --> 00:47:20,880
+agora porque aí a gente consegue pelo
+
+1081
+00:47:19,400 --> 00:47:23,720
+menos validar de certa forma que o
+
+1082
+00:47:20,880 --> 00:47:26,838
+software tá correto do do ponto de vista
+
+1083
+00:47:23,719 --> 00:47:30,480
+do sistema de tipagem porém eu já
+
+1084
+00:47:26,838 --> 00:47:33,119
+vi eh muita Elel me apanhando de
+
+1085
+00:47:30,480 --> 00:47:35,159
+escrever tipos para programa e aí não
+
+1086
+00:47:33,119 --> 00:47:38,079
+consegue chegar em em não consegue
+
+1087
+00:47:35,159 --> 00:47:41,239
+produzir um programa que compila né que
+
+1088
+00:47:38,079 --> 00:47:44,119
+que não é necessariamente algo positivo
+
+1089
+00:47:41,239 --> 00:47:46,838
+né e também vale tipo um sistema de
+
+1090
+00:47:44,119 --> 00:47:49,599
+tipagem garante só uma certa quantidade
+
+1091
+00:47:46,838 --> 00:47:52,358
+de erros né que são erros relacionados a
+
+1092
+00:47:49,599 --> 00:47:54,079
+tipo propriedades gerais geralmente de
+
+1093
+00:47:52,358 --> 00:47:56,558
+chipagem não fala nada sobre os valores
+
+1094
+00:47:54,079 --> 00:48:00,359
+sobre erros de lógica né então eu até
+
+1095
+00:47:56,559 --> 00:48:03,200
+pergunto tipo daqui do
+
+1096
+00:48:00,358 --> 00:48:05,119
+anos se a gente vai começar a partir do
+
+1097
+00:48:03,199 --> 00:48:07,919
+pressuposto que a inteligência
+
+1098
+00:48:05,119 --> 00:48:08,760
+artificial está escrevendo a maior parte
+
+1099
+00:48:07,920 --> 00:48:12,079
+do
+
+1100
+00:48:08,760 --> 00:48:13,960
+código eh como que funciona a
+
+1101
+00:48:12,079 --> 00:48:16,039
+verificação de software num contexto
+
+1102
+00:48:13,960 --> 00:48:18,358
+desse a gente vai deixar a inteligência
+
+1103
+00:48:16,039 --> 00:48:20,880
+artificial também garantir que o
+
+1104
+00:48:18,358 --> 00:48:23,480
+software tá correto esse é o próprio
+
+1105
+00:48:20,880 --> 00:48:26,240
+sistema de checks and balances ou nós
+
+1106
+00:48:23,480 --> 00:48:29,079
+temos que desenvolver técnicas novas né
+
+1107
+00:48:26,239 --> 00:48:31,919
+para para garantir que o sistema
+
+1108
+00:48:29,079 --> 00:48:34,318
+realmente está funcionando a da forma
+
+1109
+00:48:31,920 --> 00:48:37,119
+que que a gente que a gente espera e que
+
+1110
+00:48:34,318 --> 00:48:39,679
+a gente precisa né então para mim tipo
+
+1111
+00:48:37,119 --> 00:48:41,240
+eu eu eu na minha opinião tenho eu tenho
+
+1112
+00:48:39,679 --> 00:48:44,279
+do meu ponto de vista eu tenho mais
+
+1113
+00:48:41,239 --> 00:48:46,919
+perguntas do do que do que do que
+
+1114
+00:48:44,280 --> 00:48:48,599
+respostas né outra coisa que eu escuto
+
+1115
+00:48:46,920 --> 00:48:50,440
+bastante né conversando com
+
+1116
+00:48:48,599 --> 00:48:52,599
+pesquisadores e de pessoas que estão
+
+1117
+00:48:50,440 --> 00:48:55,639
+nessa área pergunta tipo assim olha o
+
+1118
+00:48:52,599 --> 00:48:57,680
+que que eu posso fazer eh para uma
+
+1119
+00:48:55,639 --> 00:48:59,639
+linguagem de programação ser melhor para
+
+1120
+00:48:57,679 --> 00:49:01,558
+LM
+
+1121
+00:48:59,639 --> 00:49:06,719
+eles falam: "Não se preocupe com isso
+
+1122
+00:49:01,559 --> 00:49:08,480
+tipo eh as tipo as LLMs vão aprender e
+
+1123
+00:49:06,719 --> 00:49:10,879
+vão conseguir fazer
+
+1124
+00:49:08,480 --> 00:49:12,599
+isso de sua própria capacidade
+
+1125
+00:49:10,880 --> 00:49:16,440
+geralmente então tipo muita gente
+
+1126
+00:49:12,599 --> 00:49:19,400
+experimentou tipo ah como ah se a gente
+
+1127
+00:49:16,440 --> 00:49:21,119
+conseguir instruir se a gente pega uma
+
+1128
+00:49:19,400 --> 00:49:23,760
+gramática de uma linguagem de
+
+1129
+00:49:21,119 --> 00:49:26,200
+programação e dá para Lel para garantir
+
+1130
+00:49:23,760 --> 00:49:31,920
+que ela vai gerar um código correto de
+
+1131
+00:49:26,199 --> 00:49:35,000
+acordo com isso né e o pessoal tipo eh
+
+1132
+00:49:31,920 --> 00:49:36,559
+fala tipo não não preocupa com isso vão
+
+1133
+00:49:35,000 --> 00:49:39,798
+aprender por conta própria e fazer isso
+
+1134
+00:49:36,559 --> 00:49:44,400
+por conta própria né então para mim tipo
+
+1135
+00:49:39,798 --> 00:49:49,119
+tem eu ainda acho que existe espaço de
+
+1136
+00:49:44,400 --> 00:49:50,318
+de ensinar uma LLM mais sobre as
+
+1137
+00:49:49,119 --> 00:49:52,960
+linguagens de
+
+1138
+00:49:50,318 --> 00:49:56,119
+programação mas tipo igual eu falei eu
+
+1139
+00:49:52,960 --> 00:49:59,199
+tenho mais eu tenho mais pergunta do que
+
+1140
+00:49:56,119 --> 00:50:01,318
+do que respostas
+
+1141
+00:49:59,199 --> 00:50:03,598
+é antes de passar paraa pergunta da da
+
+1142
+00:50:01,318 --> 00:50:06,440
+Zoi eh dizer que a Irlanga Ecossistem
+
+1143
+00:50:03,599 --> 00:50:10,200
+Foundation tá investindo nisso na no
+
+1144
+00:50:06,440 --> 00:50:11,679
+caso de a gente tem dois chat dois não
+
+1145
+00:50:10,199 --> 00:50:13,358
+acho que tem mais de dois é é o Lee
+
+1146
+00:50:11,679 --> 00:50:17,838
+Barney professor Lee Barney que tá sendo
+
+1147
+00:50:13,358 --> 00:50:20,400
+responsável por isso uns quatro eh eh
+
+1148
+00:50:17,838 --> 00:50:22,358
+chatts personalizados né que você dá uma
+
+1149
+00:50:20,400 --> 00:50:25,200
+base para ele e ele busca primeiro
+
+1150
+00:50:22,358 --> 00:50:30,519
+naquela base antes de buscar no chat GPT
+
+1151
+00:50:25,199 --> 00:50:32,480
+geral para você aprender a lixi e erlanc
+
+1152
+00:50:30,519 --> 00:50:34,838
+legal dito isso só queria dizer que o
+
+1153
+00:50:32,480 --> 00:50:37,240
+GPeto alucina muito com ele ele gera
+
+1154
+00:50:34,838 --> 00:50:41,480
+umas coisas muito bizarras com com a
+
+1155
+00:50:37,239 --> 00:50:45,078
+síntax às vezes é engraçado mas enfim eh
+
+1156
+00:50:41,480 --> 00:50:48,559
+às vezes ajuda para gerar massa de
+
+1157
+00:50:45,079 --> 00:50:50,760
+teste eh então puxando um pouco mais
+
+1158
+00:50:48,559 --> 00:50:52,880
+para sistema de de elixir o que pode ser
+
+1159
+00:50:50,760 --> 00:50:54,359
+feito de maneira mais específica em a
+
+1160
+00:50:52,880 --> 00:50:56,480
+com elixir especialmente no que se
+
+1161
+00:50:54,358 --> 00:50:58,199
+refere a machine learning um pouco mais
+
+1162
+00:50:56,480 --> 00:51:00,480
+tradicional e algumas outras áreas de
+
+1163
+00:50:58,199 --> 00:51:03,000
+pesquisa também a gente sabe da
+
+1164
+00:51:00,480 --> 00:51:04,639
+existência do do X né o ecossistema já
+
+1165
+00:51:03,000 --> 00:51:07,000
+que também tem a biblioteca de mesmo
+
+1166
+00:51:04,639 --> 00:51:09,318
+nome e também já tivemos o episódio do
+
+1167
+00:51:07,000 --> 00:51:12,039
+li foco com Paulo Valente um dos
+
+1168
+00:51:09,318 --> 00:51:13,719
+contribuidores do projeto então de forma
+
+1169
+00:51:12,039 --> 00:51:15,400
+geral o que ele pode oferecer para
+
+1170
+00:51:13,719 --> 00:51:17,399
+pesquisadores em engenharia de software
+
+1171
+00:51:15,400 --> 00:51:20,119
+que desejam utilizar inteligência
+
+1172
+00:51:17,400 --> 00:51:22,240
+artificial especialmente Lls afinal hoje
+
+1173
+00:51:20,119 --> 00:51:25,160
+em dia é difícil não usar esses modelos
+
+1174
+00:51:22,239 --> 00:51:26,919
+já fazem parte do nosso dia a dia e onde
+
+1175
+00:51:25,159 --> 00:51:30,279
+que eles entra ali para ser uma boa
+
+1176
+00:51:26,920 --> 00:51:31,680
+opção para quem quer integrar LMS eh na
+
+1177
+00:51:30,280 --> 00:51:34,599
+enfim machine learning nas suas
+
+1178
+00:51:31,679 --> 00:51:36,199
+pesquisas e até software eh empresarial
+
+1179
+00:51:34,599 --> 00:51:41,280
+também né
+
+1180
+00:51:36,199 --> 00:51:43,039
+tá legal eh para mim existem duas
+
+1181
+00:51:41,280 --> 00:51:44,640
+vertentes quando a gente tá falando
+
+1182
+00:51:43,039 --> 00:51:48,239
+inteligência artificial tem duas
+
+1183
+00:51:44,639 --> 00:51:53,440
+vertentes principais então uma
+
+1184
+00:51:48,239 --> 00:51:56,838
+é: olha eh tudo vai ficar o pequeno
+
+1185
+00:51:53,440 --> 00:52:00,599
+suficiente para você poder rodar na sua
+
+1186
+00:51:56,838 --> 00:52:05,880
+máquina tá então essa é uma é uma opção
+
+1187
+00:52:00,599 --> 00:52:07,720
+e essa é onde o numerico elixir a o NX
+
+1188
+00:52:05,880 --> 00:52:11,280
+eh se encaixa porque você vai poder
+
+1189
+00:52:07,719 --> 00:52:13,118
+rodar os modelos na sua máquina e e
+
+1190
+00:52:11,280 --> 00:52:16,319
+tratar isso
+
+1191
+00:52:13,119 --> 00:52:20,000
+localmente a outra vertente é que olha
+
+1192
+00:52:16,318 --> 00:52:22,279
+isso não vai acontecer tá então a gente
+
+1193
+00:52:20,000 --> 00:52:24,920
+vai ter que usar LLMs que estão que vão
+
+1194
+00:52:22,280 --> 00:52:29,200
+ser hospedados por por outras
+
+1195
+00:52:24,920 --> 00:52:30,798
+pessoas OK então ou então você mesmo se
+
+1196
+00:52:29,199 --> 00:52:33,598
+você roda localmente vai ser uma
+
+1197
+00:52:30,798 --> 00:52:36,759
+ferramenta que você usa e expõe um API
+
+1198
+00:52:33,599 --> 00:52:39,079
+para você e de certa forma a gente vive
+
+1199
+00:52:36,760 --> 00:52:40,480
+nesses dois mundos para problemas
+
+1200
+00:52:39,079 --> 00:52:43,599
+geralmente quando a gente fala de LLM
+
+1201
+00:52:40,480 --> 00:52:45,880
+nós estamos utilizando eh uma solução
+
+1202
+00:52:43,599 --> 00:52:49,039
+externa paga que existe alguém que está
+
+1203
+00:52:45,880 --> 00:52:51,599
+rodando aquele modelo pra gente mas para
+
+1204
+00:52:49,039 --> 00:52:53,679
+problemas menores que pode ser até tipo
+
+1205
+00:52:51,599 --> 00:52:56,400
+auto complete né para compleção de
+
+1206
+00:52:53,679 --> 00:52:58,078
+código eh que você pode até rodar
+
+1207
+00:52:56,400 --> 00:53:02,000
+localmente se você quiser se você tiver
+
+1208
+00:52:58,079 --> 00:53:03,119
+uma máquina um pouco mais ah parruda e
+
+1209
+00:53:02,000 --> 00:53:05,400
+então se a gente fala assim: "Ah tô
+
+1210
+00:53:03,119 --> 00:53:08,000
+rodando localmente numixir até para
+
+1211
+00:53:05,400 --> 00:53:10,920
+pesquisadores isso ajuda bastante."
+
+1212
+00:53:08,000 --> 00:53:14,079
+Se você tá consumindo algo que alguém
+
+1213
+00:53:10,920 --> 00:53:17,920
+providencia aí é API é uma requisição
+
+1214
+00:53:14,079 --> 00:53:21,039
+web tipo é tipo é tudo a mesma coisa
+
+1215
+00:53:17,920 --> 00:53:24,358
+sabe não vai fazer muita diferença o
+
+1216
+00:53:21,039 --> 00:53:28,920
+elixir tem o potencial de ser muito bom
+
+1217
+00:53:24,358 --> 00:53:30,920
+pra parte de agentes que que nós falamos
+
+1218
+00:53:28,920 --> 00:53:33,920
+né então se você tiver construindo As
+
+1219
+00:53:30,920 --> 00:53:36,680
+tiver coordenar trabalho diversas APIs
+
+1220
+00:53:33,920 --> 00:53:39,400
+isso é algo que eh o Lix vai ser muito
+
+1221
+00:53:36,679 --> 00:53:40,239
+muito bom né uma forma de fazer isso que
+
+1222
+00:53:39,400 --> 00:53:44,519
+que é
+
+1223
+00:53:40,239 --> 00:53:46,838
+colaborativa em real time então é é um
+
+1224
+00:53:44,519 --> 00:53:49,280
+ponto forte do elichê mas eu diria que
+
+1225
+00:53:46,838 --> 00:53:52,798
+no ponto de vista como ferramental para
+
+1226
+00:53:49,280 --> 00:53:56,480
+mim esses são os dois caminhos e as duas
+
+1227
+00:53:52,798 --> 00:54:00,400
+ah interpretações possibilidade de como
+
+1228
+00:53:56,480 --> 00:54:00,400
+o elixi poderia ser utilizado
+
+1229
+00:54:00,599 --> 00:54:05,160
+é até sobre a gente tem a tem uma
+
+1230
+00:54:03,199 --> 00:54:07,399
+biblioteca tipo tá meio que um framework
+
+1231
+00:54:05,159 --> 00:54:10,399
+que tá nascendo que é o Dido para
+
+1232
+00:54:07,400 --> 00:54:14,280
+construir eh agentes distribuídos e e
+
+1233
+00:54:10,400 --> 00:54:17,960
+autônomos é bem interessante ler também
+
+1234
+00:54:14,280 --> 00:54:20,798
+eh e enfim passando para pra próxima a
+
+1235
+00:54:17,960 --> 00:54:24,599
+Dashbit lançou recentemente o Python
+
+1236
+00:54:20,798 --> 00:54:26,318
+Next um interpretador de Python em elixi
+
+1237
+00:54:24,599 --> 00:54:28,160
+e você pode nos explicar um pouco sobre
+
+1238
+00:54:26,318 --> 00:54:30,679
+o que é o Pythonx e que problemas ele
+
+1239
+00:54:28,159 --> 00:54:33,118
+veio resolver pra comunidade eh agora
+
+1240
+00:54:30,679 --> 00:54:37,078
+não só de elixi mas enfim né também
+
+1241
+00:54:33,119 --> 00:54:40,720
+abrir mais portas legal é então nós
+
+1242
+00:54:37,079 --> 00:54:43,680
+nesse trabalho de Numer Elixir nós
+
+1243
+00:54:40,719 --> 00:54:47,719
+lançamos uma ferramenta chamada Livebook
+
+1244
+00:54:43,679 --> 00:54:50,838
+que é um caderno computacional é um code
+
+1245
+00:54:47,719 --> 00:54:53,719
+notebook tipo Júpiter da
+
+1246
+00:54:50,838 --> 00:54:56,599
+comunidade da comunidade Python só que
+
+1247
+00:54:53,719 --> 00:54:59,318
+nós fizemos em elixir tentando trazer os
+
+1248
+00:54:56,599 --> 00:55:01,838
+fortes da linguagem de programação
+
+1249
+00:54:59,318 --> 00:55:05,639
+elixir trazendo tentando trazer os
+
+1250
+00:55:01,838 --> 00:55:07,558
+pontos fortes os pontos principais
+
+1251
+00:55:05,639 --> 00:55:10,279
+eh
+
+1252
+00:55:07,559 --> 00:55:12,400
+e é uma ferramenta que tá tendo uma
+
+1253
+00:55:10,280 --> 00:55:16,240
+adoção muito boa na
+
+1254
+00:55:12,400 --> 00:55:18,960
+comunidade inclusive uma adoção fora da
+
+1255
+00:55:16,239 --> 00:55:21,639
+comunidade empresas que não utilizam
+
+1256
+00:55:18,960 --> 00:55:23,318
+elixir ou universidades olhando pro
+
+1257
+00:55:21,639 --> 00:55:26,318
+Livebook como uma ferramenta que eles
+
+1258
+00:55:23,318 --> 00:55:29,239
+podem utilizar para certo
+
+1259
+00:55:26,318 --> 00:55:31,440
+propósito e um dos feedbacks que nós
+
+1260
+00:55:29,239 --> 00:55:33,318
+recebemos de forma
+
+1261
+00:55:31,440 --> 00:55:34,920
+que que nós recebemos algumas vezes é
+
+1262
+00:55:33,318 --> 00:55:37,358
+que existe por exemplo uma pessoa na
+
+1263
+00:55:34,920 --> 00:55:40,039
+empresa que utiliza o elixir utiliza o
+
+1264
+00:55:37,358 --> 00:55:41,199
+Livebook gosta bastante só que ele já
+
+1265
+00:55:40,039 --> 00:55:44,039
+tem por exemplo um time que tá
+
+1266
+00:55:41,199 --> 00:55:46,239
+utilizando Python lá dentro então para
+
+1267
+00:55:44,039 --> 00:55:48,480
+eles é muito difícil eles chegarem e
+
+1268
+00:55:46,239 --> 00:55:52,000
+falarem assim: "Olha guarda as
+
+1269
+00:55:48,480 --> 00:55:54,679
+ferramentas os processos tudo que vocês
+
+1270
+00:55:52,000 --> 00:55:57,838
+utilizaram até agora para vocês começar
+
+1271
+00:55:54,679 --> 00:56:01,879
+a fazer algo nessa ferramenta separada
+
+1272
+00:55:57,838 --> 00:56:04,679
+é é é muita fricção pedir isso né e
+
+1273
+00:56:01,880 --> 00:56:07,480
+então a a sugestão do Python X que que
+
+1274
+00:56:04,679 --> 00:56:09,118
+foi até uma sugestão o o Chris Granger
+
+1275
+00:56:07,480 --> 00:56:11,480
+ele pegou me sentou e falou: "Olha a
+
+1276
+00:56:09,119 --> 00:56:15,440
+gente tem que conversar sobre isso" e
+
+1277
+00:56:11,480 --> 00:56:16,880
+depois a Coco fez um protótipo e o ponto
+
+1278
+00:56:15,440 --> 00:56:19,079
+de o ponto de vista principal é esse a
+
+1279
+00:56:16,880 --> 00:56:21,000
+gente tá pegando o interpretador do
+
+1280
+00:56:19,079 --> 00:56:22,318
+Python que foi feito para ser embeded
+
+1281
+00:56:21,000 --> 00:56:25,318
+então a gente pegou o interpretador do
+
+1282
+00:56:22,318 --> 00:56:27,000
+Python e tá embedando ele dentro da
+
+1283
+00:56:25,318 --> 00:56:30,038
+máquina virtual do Orlang
+
+1284
+00:56:27,000 --> 00:56:31,880
+e o o legal disso agora é que tipo a
+
+1285
+00:56:30,039 --> 00:56:34,000
+gente consegue os dois vivem no mesmo
+
+1286
+00:56:31,880 --> 00:56:37,838
+espaço de memória então a gente consegue
+
+1287
+00:56:34,000 --> 00:56:40,559
+passar informação de um pro outro sem
+
+1288
+00:56:37,838 --> 00:56:43,440
+copiar nada né se se for necessário a
+
+1289
+00:56:40,559 --> 00:56:47,400
+gente passa informação direta eh de um
+
+1290
+00:56:43,440 --> 00:56:51,280
+de um pro outro e então essa e aí você
+
+1291
+00:56:47,400 --> 00:56:53,960
+consegue trazer né trazer um programa em
+
+1292
+00:56:51,280 --> 00:56:56,440
+Python inclusive com as dependências e
+
+1293
+00:56:53,960 --> 00:57:00,838
+outras coisas que foram necessárias tá
+
+1294
+00:56:56,440 --> 00:57:00,838
+você consegue trazer tudo isso
+
+1295
+00:57:01,599 --> 00:57:06,559
+e e tipo então se você fala assim: "Ah a
+
+1296
+00:57:04,960 --> 00:57:08,000
+gente quer começar a utilizar o Livebook
+
+1297
+00:57:06,559 --> 00:57:10,280
+você começa a fazer uma solução em
+
+1298
+00:57:08,000 --> 00:57:11,760
+elixir" e aí você fala: "Putz mas espera
+
+1299
+00:57:10,280 --> 00:57:14,039
+aí eu preciso usar agora essa ferramenta
+
+1300
+00:57:11,760 --> 00:57:15,880
+que a gente já desenvolveu internamente
+
+1301
+00:57:14,039 --> 00:57:18,200
+uma ferramenta Python que não existe em
+
+1302
+00:57:15,880 --> 00:57:21,000
+elixir e a gente quer utilizar isso
+
+1303
+00:57:18,199 --> 00:57:21,000
+agora
+
+1304
+00:57:21,440 --> 00:57:26,880
+eh eh
+
+1305
+00:57:23,880 --> 00:57:28,720
+tipo é é muito importante que deles
+
+1306
+00:57:26,880 --> 00:57:30,119
+poderem fazer exatamente isso eles terem
+
+1307
+00:57:28,719 --> 00:57:32,038
+essa liberdade essa flexibilidade falar:
+
+1308
+00:57:30,119 --> 00:57:33,880
+"Não a gente vai trazer um Python agora
+
+1309
+00:57:32,039 --> 00:57:39,079
+e continua rodando tudo" e a gente fez
+
+1310
+00:57:33,880 --> 00:57:42,680
+isso de uma forma que a gente
+
+1311
+00:57:39,079 --> 00:57:45,559
+tipo respeita tipo os objetivos os
+
+1312
+00:57:42,679 --> 00:57:48,038
+ideais de
+
+1313
+00:57:45,559 --> 00:57:49,880
+de ambas as linguagens de programação
+
+1314
+00:57:48,039 --> 00:57:51,920
+então né tipo assim ah a gente roda
+
+1315
+00:57:49,880 --> 00:57:53,000
+simplesmente vai e roda Python então pra
+
+1316
+00:57:51,920 --> 00:57:55,760
+gente é muito importante que os
+
+1317
+00:57:53,000 --> 00:57:58,159
+notebooks sejam reproduzíveis né então
+
+1318
+00:57:55,760 --> 00:58:00,599
+isso foi implementar a gente tá trazendo
+
+1319
+00:57:58,159 --> 00:58:02,920
+essa integração pro Livebook de forma
+
+1320
+00:58:00,599 --> 00:58:04,640
+que olha quando você traz o Python você
+
+1321
+00:58:02,920 --> 00:58:06,760
+tem que falar a versão que você tá
+
+1322
+00:58:04,639 --> 00:58:08,199
+trazendo quais são os pacotes que é o
+
+1323
+00:58:06,760 --> 00:58:11,000
+que todo desenvolvedor el faz de
+
+1324
+00:58:08,199 --> 00:58:14,159
+qualquer forma e aí a gente garante que
+
+1325
+00:58:11,000 --> 00:58:16,239
+todo aquele environment aquele ambiente
+
+1326
+00:58:14,159 --> 00:58:18,598
+é reproduzível para você poder escrever
+
+1327
+00:58:16,239 --> 00:58:22,479
+o seu código então é isso é tipo
+
+1328
+00:58:18,599 --> 00:58:24,559
+tentando eh olhando paraas oportunidades
+
+1329
+00:58:22,480 --> 00:58:28,000
+olhando paraa fricção que é alguns dos
+
+1330
+00:58:24,559 --> 00:58:30,480
+dos caminhos de de adotar o elixir tem e
+
+1331
+00:58:28,000 --> 00:58:35,440
+tentar resolver isso de uma forma que
+
+1332
+00:58:30,480 --> 00:58:38,679
+vai maximizar tipo as vantagens ah das
+
+1333
+00:58:35,440 --> 00:58:38,679
+duas linguagens
+
+1334
+00:58:39,280 --> 00:58:43,280
+então agora eu vou fazer uma pergunta
+
+1335
+00:58:41,119 --> 00:58:45,400
+que foi enviada para nós pelo ouvinte já
+
+1336
+00:58:43,280 --> 00:58:47,480
+foi entrevistado é colaborador do
+
+1337
+00:58:45,400 --> 00:58:50,240
+Elishin Foc o Adriano Santos que é um
+
+1338
+00:58:47,480 --> 00:58:51,639
+dos criadores do projeto Spal ah na
+
+1339
+00:58:50,239 --> 00:58:53,078
+verdade são duas perguntas mas a
+
+1340
+00:58:51,639 --> 00:58:54,759
+primeira é eu acho que é um tipo de
+
+1341
+00:58:53,079 --> 00:58:56,599
+pergunta que você não gosta muito é
+
+1342
+00:58:54,760 --> 00:58:59,799
+saber o que que vai acontecer no futuro
+
+1343
+00:58:56,599 --> 00:59:02,280
+né mas eu eu vou vou colocar aqui que é
+
+1344
+00:58:59,798 --> 00:59:04,119
+assim ó depois do foco na computação
+
+1345
+00:59:02,280 --> 00:59:06,119
+numérica né ele tá falando do anex
+
+1346
+00:59:04,119 --> 00:59:08,358
+machine learning e o recente esquema de
+
+1347
+00:59:06,119 --> 00:59:10,318
+tipos qual é a próxima grande coisa a
+
+1348
+00:59:08,358 --> 00:59:13,598
+vir para o ecossistema de
+
+1349
+00:59:10,318 --> 00:59:16,079
+elixir é bom você sabe a minha resposta
+
+1350
+00:59:13,599 --> 00:59:20,160
+né Adolfo eh a grande coisa quem decide
+
+1351
+00:59:16,079 --> 00:59:24,079
+é a comunidade né eh então é o que a
+
+1352
+00:59:20,159 --> 00:59:28,598
+comunidade resolver focar então tipo eu
+
+1353
+00:59:24,079 --> 00:59:30,680
+trabalho em algumas coisas que eu eh
+
+1354
+00:59:28,599 --> 00:59:33,079
+geralmente me atraem que eu acho
+
+1355
+00:59:30,679 --> 00:59:34,598
+interessante que tem a minha curiosidade
+
+1356
+00:59:33,079 --> 00:59:37,680
+né então às vezes eu faço alguma coisa
+
+1357
+00:59:34,599 --> 00:59:41,240
+por curiosidade o Python X agora a gente
+
+1358
+00:59:37,679 --> 00:59:43,960
+fez com objetivo mais virado à adoção
+
+1359
+00:59:41,239 --> 00:59:46,558
+mas esses são projetos tipo
+
+1360
+00:59:43,960 --> 00:59:49,000
+assim pessoais da minha empresa que é
+
+1361
+00:59:46,559 --> 00:59:51,440
+uma empresa pequena né nós somos ao todo
+
+1362
+00:59:49,000 --> 00:59:53,798
+sete né então
+
+1363
+00:59:51,440 --> 00:59:55,400
+o eu entendo que as decisões que nós
+
+1364
+00:59:53,798 --> 00:59:57,559
+tomamos são importantes pra comunidade
+
+1365
+00:59:55,400 --> 00:59:59,559
+mas tipo o impacto que a gente pode
+
+1366
+00:59:57,559 --> 01:00:00,599
+fazer comparado com toda a comunidade
+
+1367
+00:59:59,559 --> 01:00:03,000
+com todos os desenvolvedores é algo
+
+1368
+01:00:00,599 --> 01:00:05,680
+muito pequeno né
+
+1369
+01:00:03,000 --> 01:00:10,679
+então para mim é isso para mim é tipo
+
+1370
+01:00:05,679 --> 01:00:13,798
+olha o próximo caminho é eh ele pode ser
+
+1371
+01:00:10,679 --> 01:00:17,598
+muito bem ditado pela pela comunidade né
+
+1372
+01:00:13,798 --> 01:00:20,880
+e isso já aconteceu diversas vezes eh
+
+1373
+01:00:17,599 --> 01:00:22,760
+com Nerves Membrain eh o Phoenix né o
+
+1374
+01:00:20,880 --> 01:00:25,599
+Phoenix ele começou comigo né eu entrei
+
+1375
+01:00:22,760 --> 01:00:27,599
+eu entrei depois né então a minha
+
+1376
+01:00:25,599 --> 01:00:32,039
+sugestão é a comunidade continuar
+
+1377
+01:00:27,599 --> 01:00:36,359
+focando no buscando eh qual deve ser o
+
+1378
+01:00:32,039 --> 01:00:38,000
+próximo passo e unindo para atuar nesses
+
+1379
+01:00:36,358 --> 01:00:41,358
+problemas
+
+1380
+01:00:38,000 --> 01:00:43,440
+certo eu eu eu aproveito e digo que quem
+
+1381
+01:00:41,358 --> 01:00:47,119
+quiser saber o que a comunidade está
+
+1382
+01:00:43,440 --> 01:00:49,318
+fazendo o LX tem o LX Fórum tem o Slack
+
+1383
+01:00:47,119 --> 01:00:51,358
+Derlang Consciência Foundation o pessoal
+
+1384
+01:00:49,318 --> 01:00:54,400
+tem bastante gente já no Blue Sky gente
+
+1385
+01:00:51,358 --> 01:00:56,159
+ainda lá no Twitter tem vários lugares
+
+1386
+01:00:54,400 --> 01:00:58,400
+onde a comunidade tá conversando além
+
+1387
+01:00:56,159 --> 01:01:00,719
+dos eventos né todo ano tem um evento
+
+1388
+01:00:58,400 --> 01:01:03,280
+grande pelo menos um evento grande na
+
+1389
+01:01:00,719 --> 01:01:04,358
+Europa um evento grande no dos Estados
+
+1390
+01:01:03,280 --> 01:01:07,519
+Unidos mas na realidade acho que tem
+
+1391
+01:01:04,358 --> 01:01:10,480
+dois né code bean Europa Elixir Conf
+
+1392
+01:01:07,519 --> 01:01:13,559
+Europe Code Bean América Elixir Conf
+
+1393
+01:01:10,480 --> 01:01:17,960
+Estados Unidos enfim tem bastante espaço
+
+1394
+01:01:13,559 --> 01:01:23,280
+tem newsletters também né eh como a Alex
+
+1395
+01:01:17,960 --> 01:01:25,480
+Raider do Hugo Baraú né isso eh tá tendo
+
+1396
+01:01:23,280 --> 01:01:27,880
+mais e mais pessoas ativas no YouTube
+
+1397
+01:01:25,480 --> 01:01:30,358
+por exemplo publicando materiais
+
+1398
+01:01:27,880 --> 01:01:32,358
+podcasts também né tem o Thinking Elixir
+
+1399
+01:01:30,358 --> 01:01:35,038
+que que é ótimo acho que é o mais ativo
+
+1400
+01:01:32,358 --> 01:01:38,199
+mas tem outros que é o o qual é o Bean
+
+1401
+01:01:35,039 --> 01:01:41,960
+Radio lá do Bruce State enfim mas aí a
+
+1402
+01:01:38,199 --> 01:01:44,439
+próxima pergunta do do Adriano é: Que
+
+1403
+01:01:41,960 --> 01:01:47,358
+projetos fora do movimento Machine
+
+1404
+01:01:44,440 --> 01:01:49,039
+Learning e Phoenix você acompanha e vê
+
+1405
+01:01:47,358 --> 01:01:52,679
+com entusiasmo que estão sendo
+
+1406
+01:01:49,039 --> 01:01:52,680
+realizados pela comunidade
+
+1407
+01:01:54,679 --> 01:02:01,318
+bom
+
+1408
+01:01:56,599 --> 01:02:04,480
+eh para ser bem honesto dentro do do
+
+1409
+01:02:01,318 --> 01:02:06,880
+inclusive até o meu foco principal do
+
+1410
+01:02:04,480 --> 01:02:08,599
+talvez quase do último ano sendo
+
+1411
+01:02:06,880 --> 01:02:13,278
+tipagem
+
+1412
+01:02:08,599 --> 01:02:15,559
+eh tipo não tô tendo muito muito espaço
+
+1413
+01:02:13,278 --> 01:02:17,000
+para olhar as coisas em volta né então
+
+1414
+01:02:15,559 --> 01:02:19,960
+por exemplo até a gente mencionou no
+
+1415
+01:02:17,000 --> 01:02:25,760
+Python X foi tudo feito pelo Jonathan
+
+1416
+01:02:19,960 --> 01:02:29,599
+Coco e então a resposta eu não que não
+
+1417
+01:02:25,760 --> 01:02:32,160
+exista mas é que eu não estou ativamente
+
+1418
+01:02:29,599 --> 01:02:34,720
+olhando e procurando focando ali nos
+
+1419
+01:02:32,159 --> 01:02:36,558
+projetos que que foram mais essenciais
+
+1420
+01:02:34,719 --> 01:02:38,159
+que são mais essenciais assim porque
+
+1421
+01:02:36,559 --> 01:02:40,319
+foram que a comunidade pediu que é
+
+1422
+01:02:38,159 --> 01:02:44,558
+tipagem talvez um que vale a pena
+
+1423
+01:02:40,318 --> 01:02:47,920
+mencionar é o language server né eh do
+
+1424
+01:02:44,559 --> 01:02:49,400
+que virou um projeto oficial e eles
+
+1425
+01:02:47,920 --> 01:02:51,400
+estão trabalhando estão desenvolvendo e
+
+1426
+01:02:49,400 --> 01:02:53,039
+lançar uma uma versão nova unificada do
+
+1427
+01:02:51,400 --> 01:02:55,200
+Lengua de Cva acho que isso é bastante
+
+1428
+01:02:53,039 --> 01:02:58,520
+interessante e é um outro projeto que eu
+
+1429
+01:02:55,199 --> 01:03:01,078
+não estou ali envolvido também então
+
+1430
+01:02:58,519 --> 01:03:02,880
+tipo eh eu tô mencionando como
+
+1431
+01:03:01,079 --> 01:03:05,359
+interessante mas que eu não tô envolvido
+
+1432
+01:03:02,880 --> 01:03:07,358
+então eu nem tenho updates para dar né
+
+1433
+01:03:05,358 --> 01:03:11,278
+eh eu acho que mostra tanto o quanto o
+
+1434
+01:03:07,358 --> 01:03:14,880
+meu foco eh está sendo na tipagem eh
+
+1435
+01:03:11,278 --> 01:03:15,960
+pelos últimos vários vários meses mas eu
+
+1436
+01:03:14,880 --> 01:03:17,599
+acho muito interessante porque o
+
+1437
+01:03:15,960 --> 01:03:19,358
+Language Server era uma coisa que eu via
+
+1438
+01:03:17,599 --> 01:03:20,680
+o pessoal lá reclamando no Twitter não
+
+1439
+01:03:19,358 --> 01:03:22,278
+pera aí por que que a gente tem três
+
+1440
+01:03:20,679 --> 01:03:24,960
+language servers nenhum deles é
+
+1441
+01:03:22,278 --> 01:03:26,639
+suficientemente bom e não sei se foi uma
+
+1442
+01:03:24,960 --> 01:03:29,079
+decisão sua ou do Core Team disse: "Não
+
+1443
+01:03:26,639 --> 01:03:32,159
+vamos unificar aqui as coisas e tá
+
+1444
+01:03:29,079 --> 01:03:34,559
+caminhando né os resultados espero que
+
+1445
+01:03:32,159 --> 01:03:38,000
+virão em breve
+
+1446
+01:03:34,559 --> 01:03:39,278
+eh Maria Cláudia
+
+1447
+01:03:38,000 --> 01:03:43,358
+sim
+
+1448
+01:03:39,278 --> 01:03:47,880
+eh e bom algo que a gente tem feito né
+
+1449
+01:03:43,358 --> 01:03:50,679
+eh perguntar também como alguém que está
+
+1450
+01:03:47,880 --> 01:03:54,880
+assistindo que estiver ouvindo o nosso
+
+1451
+01:03:50,679 --> 01:03:57,879
+podcast né que gosta de fazer alguma
+
+1452
+01:03:54,880 --> 01:04:01,440
+pesquisa envolvendo elixir ou que quer
+
+1453
+01:03:57,880 --> 01:04:05,559
+fazer ou quer contribuir de alguma forma
+
+1454
+01:04:01,440 --> 01:04:08,318
+para pra linguagem né paraas melhorias
+
+1455
+01:04:05,559 --> 01:04:10,640
+eh o que é que você recomenda que que
+
+1456
+01:04:08,318 --> 01:04:14,239
+essa pessoa faça de que forma ela pode
+
+1457
+01:04:10,639 --> 01:04:16,480
+entrar em contato com você ou com outros
+
+1458
+01:04:14,239 --> 01:04:20,879
+integrantes do
+
+1459
+01:04:16,480 --> 01:04:23,679
+time legal eh entrar em contato comigo é
+
+1460
+01:04:20,880 --> 01:04:25,358
+só questão de mandar um e-mail não é o
+
+1461
+01:04:23,679 --> 01:04:29,159
+problema mas eu acho que de tipo de
+
+1462
+01:04:25,358 --> 01:04:30,960
+forma geral eh eh é trazer pra
+
+1463
+01:04:29,159 --> 01:04:32,239
+comunidade mesmo né então se você tá
+
+1464
+01:04:30,960 --> 01:04:35,480
+pensando: "Ah gostaria de fazer tal
+
+1465
+01:04:32,239 --> 01:04:39,399
+mudanças gostaria de aprender tal coisa
+
+1466
+01:04:35,480 --> 01:04:42,679
+eh eu tipo indo nesses espaços que nós
+
+1467
+01:04:39,400 --> 01:04:44,639
+falamos escutar os podcasts no YouTube
+
+1468
+01:04:42,679 --> 01:04:47,159
+eu acho que é a melhor forma interagir
+
+1469
+01:04:44,639 --> 01:04:48,239
+com a comunidade né eu falo brincando às
+
+1470
+01:04:47,159 --> 01:04:50,879
+vezes o pessoal pergunta: "Ah qual que é
+
+1471
+01:04:48,239 --> 01:04:52,399
+a melhor forma de de pessoa pergun
+
+1472
+01:04:50,880 --> 01:04:54,318
+melhor forma de aprender elixir né?" E
+
+1473
+01:04:52,400 --> 01:04:57,838
+eu falo: "Olha eu sou eu sou
+
+1474
+01:04:54,318 --> 01:05:01,119
+possivelmente a pior pessoa eh para
+
+1475
+01:04:57,838 --> 01:05:04,358
+responder essa pergunta né porque não só
+
+1476
+01:05:01,119 --> 01:05:10,640
+eu não fui pelo não tive o processo de
+
+1477
+01:05:04,358 --> 01:05:13,719
+aprendizado eh eh comum né eh também já
+
+1478
+01:05:10,639 --> 01:05:17,078
+foi durante a há tanto tempo né eu tento
+
+1479
+01:05:13,719 --> 01:05:20,480
+eu tento comunicar a minha visão e o que
+
+1480
+01:05:17,079 --> 01:05:23,200
+como eu entendo as coisas né
+
+1481
+01:05:20,480 --> 01:05:25,000
+eh porque várias das coisas que existem
+
+1482
+01:05:23,199 --> 01:05:26,558
+no no elixir eu tive que aprender do
+
+1483
+01:05:25,000 --> 01:05:31,920
+Erlang então eu tento passar essa visão
+
+1484
+01:05:26,559 --> 01:05:35,720
+paraa frente mas eh é apenas
+
+1485
+01:05:31,920 --> 01:05:39,318
+uma um visão uma perspectiva né dentro
+
+1486
+01:05:35,719 --> 01:05:41,439
+de várias diversas perspectivas que nós
+
+1487
+01:05:39,318 --> 01:05:46,920
+devemos ter na comunidade então eu acho
+
+1488
+01:05:41,440 --> 01:05:50,079
+que a resposta eh é sempre a comunidade
+
+1489
+01:05:46,920 --> 01:05:53,358
+muito bom eh eu sobre essa questão de
+
+1490
+01:05:50,079 --> 01:05:55,119
+aprender a lixi eu eu diria que depende
+
+1491
+01:05:53,358 --> 01:05:57,038
+muito do que a pessoa queira né mas tem
+
+1492
+01:05:55,119 --> 01:05:58,920
+cursos online tem vídeos tem um livro
+
+1493
+01:05:57,039 --> 01:06:01,440
+que a comunidade gosta muito que você
+
+1494
+01:05:58,920 --> 01:06:03,400
+menciona de vez em quando é o Elixir in
+
+1495
+01:06:01,440 --> 01:06:05,480
+action e que tá bem atualizado tem
+
+1496
+01:06:03,400 --> 01:06:08,278
+outros livros que estão menos
+
+1497
+01:06:05,480 --> 01:06:10,159
+atualizados né do também da introdução
+
+1498
+01:06:08,278 --> 01:06:11,239
+como o livro do Lisses Almeida o livro
+
+1499
+01:06:10,159 --> 01:06:15,679
+do David
+
+1500
+01:06:11,239 --> 01:06:18,000
+Thomas mas eh a aquela editora Pragmatic
+
+1501
+01:06:15,679 --> 01:06:19,919
+Programmers tem vários livros de elixi
+
+1502
+01:06:18,000 --> 01:06:21,599
+enfim depende de de como você queira
+
+1503
+01:06:19,920 --> 01:06:25,119
+aprender quem quiser entrar em contato
+
+1504
+01:06:21,599 --> 01:06:27,760
+comigo no blue
+
+1505
+01:06:25,119 --> 01:06:29,880
+adolfonnt eu posso repassar várias
+
+1506
+01:06:27,760 --> 01:06:31,278
+coisas que foram faladas aqui ao longo
+
+1507
+01:06:29,880 --> 01:06:33,000
+dos episódios que a gente foi
+
+1508
+01:06:31,278 --> 01:06:33,960
+perguntando isso aí também como é que as
+
+1509
+01:06:33,000 --> 01:06:35,920
+pessoas
+
+1510
+01:06:33,960 --> 01:06:37,440
+aprenderam agora Valinha a gente vai
+
+1511
+01:06:35,920 --> 01:06:40,358
+fazer uma pergunta eu acho que você é a
+
+1512
+01:06:37,440 --> 01:06:42,838
+primeira pessoa que a gente entrevista
+
+1513
+01:06:40,358 --> 01:06:45,759
+aqui que não é assim propriamente uma
+
+1514
+01:06:42,838 --> 01:06:49,038
+pessoa pesquisadora talvez o Leonardo de
+
+1515
+01:06:45,760 --> 01:06:51,839
+Moura também dá para dizer a mesma coisa
+
+1516
+01:06:49,039 --> 01:06:54,200
+então fique à vontade para responder com
+
+1517
+01:06:51,838 --> 01:06:55,558
+algo que você acha que vai acontecer com
+
+1518
+01:06:54,199 --> 01:06:57,558
+algo que você gostaria que você
+
+1519
+01:06:55,559 --> 01:06:59,278
+acontecesse ou com alguma pergunta que
+
+1520
+01:06:57,559 --> 01:07:01,480
+você tem aquela dúvida o que será que
+
+1521
+01:06:59,278 --> 01:07:04,239
+vai acontecer eu não sei mas gostaria de
+
+1522
+01:07:01,480 --> 01:07:06,639
+saber para você qual é a próxima
+
+1523
+01:07:04,239 --> 01:07:10,798
+fronteira da engenharia de software da
+
+1524
+01:07:06,639 --> 01:07:10,798
+computação da programação
+
+1525
+01:07:11,559 --> 01:07:18,599
+bom eu não
+
+1526
+01:07:14,079 --> 01:07:18,599
+tenho eu não tenho ideia
+
+1527
+01:07:19,838 --> 01:07:26,759
+eh porque eu acho
+
+1528
+01:07:23,760 --> 01:07:31,680
+que bom eh várias a gente sabe que
+
+1529
+01:07:26,760 --> 01:07:34,559
+existem várias coisas acontecendo né e e
+
+1530
+01:07:31,679 --> 01:07:38,639
+mas a gente nunca sabe qual que talvez
+
+1531
+01:07:34,559 --> 01:07:40,400
+não nunca né a gente mas do ponto de
+
+1532
+01:07:38,639 --> 01:07:42,519
+vista de fora a gente não sabe
+
+1533
+01:07:40,400 --> 01:07:45,160
+exatamente qual que é o turning point né
+
+1534
+01:07:42,519 --> 01:07:48,719
+então AI tava tendo tipo inteligência
+
+1535
+01:07:45,159 --> 01:07:52,358
+artificial tava tendo eh melhorias desde
+
+1536
+01:07:48,719 --> 01:07:55,239
+2010 2011 acelerando de forma né mas eu
+
+1537
+01:07:52,358 --> 01:07:57,598
+acho que e talvez se você tava
+
+1538
+01:07:55,239 --> 01:08:00,199
+perguntando algumas pessoas eles estavam
+
+1539
+01:07:57,599 --> 01:08:02,760
+desde 2018 falando não próximo ano é o
+
+1540
+01:08:00,199 --> 01:08:06,399
+ano da inteligência artificial aí você
+
+1541
+01:08:02,760 --> 01:08:10,079
+fala por uns 3 4 anos aí você acerta né
+
+1542
+01:08:06,400 --> 01:08:13,318
+2021 2022 foi quando tudo realmente eh
+
+1543
+01:08:10,079 --> 01:08:16,400
+mudou de forma gigantesca né com com as
+
+1544
+01:08:13,318 --> 01:08:18,479
+empresas e tal né então sempre tem coisa
+
+1545
+01:08:16,399 --> 01:08:20,198
+acontecendo a gente inclusive essa
+
+1546
+01:08:18,479 --> 01:08:22,399
+semana eu acho que foi essa semana que
+
+1547
+01:08:20,198 --> 01:08:24,879
+foi o anúncio de quantum computing da
+
+1548
+01:08:22,399 --> 01:08:30,039
+Microsoft só que ah quando isso
+
+1549
+01:08:24,880 --> 01:08:33,480
+realmente vai virar mainstream né e
+
+1550
+01:08:30,039 --> 01:08:35,560
+e vocês estão escutando a viu ou não sim
+
+1551
+01:08:33,479 --> 01:08:37,759
+sim
+
+1552
+01:08:35,560 --> 01:08:39,798
+tudo bem só as crianças então quando
+
+1553
+01:08:37,759 --> 01:08:44,679
+isso vai virar mainstam
+
+1554
+01:08:39,798 --> 01:08:48,319
+eh eh tipo eu não sei né tem tem que tá
+
+1555
+01:08:44,679 --> 01:08:52,640
+muito eh envolvido mas para mim eu acho
+
+1556
+01:08:48,319 --> 01:08:54,239
+que de novo não sou não sou especialista
+
+1557
+01:08:52,640 --> 01:08:56,119
+não tô na área eu acho que uma das
+
+1558
+01:08:54,238 --> 01:08:58,079
+grandes perguntas é algo que a gente
+
+1559
+01:08:56,119 --> 01:09:00,960
+trouxe durante esse episódio eu diria
+
+1560
+01:08:58,079 --> 01:09:03,519
+que nem é de longo prazo é de de curto
+
+1561
+01:09:00,960 --> 01:09:10,039
+médio prazo
+
+1562
+01:09:03,520 --> 01:09:13,400
+eh entender realmente o o impacto da
+
+1563
+01:09:10,039 --> 01:09:17,238
+inteligência artificial né eh não só
+
+1564
+01:09:13,399 --> 01:09:20,000
+como desenvolvedores né mas eh em em
+
+1565
+01:09:17,238 --> 01:09:22,798
+todas em todas as questões possíveis né
+
+1566
+01:09:20,000 --> 01:09:25,279
+eu tava eu tava escutando um podcast
+
+1567
+01:09:22,798 --> 01:09:26,519
+recentemente com o Bill Gates e ele
+
+1568
+01:09:25,279 --> 01:09:28,679
+falou algo para mim que foi muito
+
+1569
+01:09:26,520 --> 01:09:30,560
+interessante porque perguntaram para ele
+
+1570
+01:09:28,679 --> 01:09:33,039
+o que que ele acha de da inteligência
+
+1571
+01:09:30,560 --> 01:09:34,719
+artificial né e quais são os impactos
+
+1572
+01:09:33,039 --> 01:09:36,920
+que que a gente deve pensar como
+
+1573
+01:09:34,719 --> 01:09:38,560
+sociedade então provavelmente uma pessoa
+
+1574
+01:09:36,920 --> 01:09:41,279
+muito muito muito muito muito melhor
+
+1575
+01:09:38,560 --> 01:09:44,560
+para para responder essa pergunta ah do
+
+1576
+01:09:41,279 --> 01:09:47,560
+que eu mas o que eu eu não vou tentar
+
+1577
+01:09:44,560 --> 01:09:49,239
+falar a resposta dele eh se você
+
+1578
+01:09:47,560 --> 01:09:51,319
+pesquisar sobre os os assuntos dele
+
+1579
+01:09:49,238 --> 01:09:52,238
+nesse tema você vai achar vários lugares
+
+1580
+01:09:51,319 --> 01:09:54,440
+mas o que para mim foi muito
+
+1581
+01:09:52,238 --> 01:09:57,479
+interessante foi quando ele falou das
+
+1582
+01:09:54,439 --> 01:09:59,639
+redes sociais ele falou que quando
+
+1583
+01:09:57,479 --> 01:10:01,879
+começaram as redes sociais todo mundo
+
+1584
+01:09:59,640 --> 01:10:03,920
+entrou com as redes sociais todos
+
+1585
+01:10:01,880 --> 01:10:06,880
+estavam pensando que as redes sociais ia
+
+1586
+01:10:03,920 --> 01:10:09,679
+ser algo positivo para pra comunidade
+
+1587
+01:10:06,880 --> 01:10:12,520
+para as pessoas né pra sociedade e
+
+1588
+01:10:09,679 --> 01:10:15,679
+demorou tempo para eles realmente
+
+1589
+01:10:12,520 --> 01:10:18,000
+entenderem o impacto disso né e ele
+
+1590
+01:10:15,679 --> 01:10:21,719
+falou que era tipo uma
+
+1591
+01:10:18,000 --> 01:10:23,800
+das regrets como que
+
+1592
+01:10:21,719 --> 01:10:26,920
+arrependimentos isso obrigada
+
+1593
+01:10:23,800 --> 01:10:30,760
+arrependimentos dele de não ter
+
+1594
+01:10:26,920 --> 01:10:33,960
+entendido isso né e eu imagino que e e
+
+1595
+01:10:30,760 --> 01:10:35,520
+ele e ele até fala isso né que e então
+
+1596
+01:10:33,960 --> 01:10:37,158
+eh um dos motivos que ele quer ser mais
+
+1597
+01:10:35,520 --> 01:10:39,159
+proativo é para não deixar isso
+
+1598
+01:10:37,158 --> 01:10:41,399
+acontecer então para mim tipo curto
+
+1599
+01:10:39,158 --> 01:10:44,119
+médio prazo a gente tem toda a questão
+
+1600
+01:10:41,399 --> 01:10:48,799
+de como resolver como a sociedade mas eu
+
+1601
+01:10:44,119 --> 01:10:51,238
+acho também eh como resolver isso como
+
+1602
+01:10:48,800 --> 01:10:57,079
+desenvolvedores né e do ponto de vista
+
+1603
+01:10:51,238 --> 01:10:59,238
+de software né tipo vai eh e eu eu não
+
+1604
+01:10:57,079 --> 01:11:01,198
+acho que necessariamente a resposta é
+
+1605
+01:10:59,238 --> 01:11:04,879
+falar tipo assim: "Olha eh
+
+1606
+01:11:01,198 --> 01:11:07,759
+eh tipo não não deveria acontecer lutar
+
+1607
+01:11:04,880 --> 01:11:11,279
+contra né mas realmente tentar entender
+
+1608
+01:11:07,760 --> 01:11:12,600
+né o eh teve alguém eu não lembro quem
+
+1609
+01:11:11,279 --> 01:11:15,238
+que falou isso para mim eu acho que foi
+
+1610
+01:11:12,600 --> 01:11:20,159
+até o Chris MC que ele falou que a gente
+
+1611
+01:11:15,238 --> 01:11:22,799
+tá tipo ele acha que a gente tá em uma
+
+1612
+01:11:20,158 --> 01:11:24,399
+meio que transição tipo punch card né
+
+1613
+01:11:22,800 --> 01:11:26,480
+que antes a gente programava com punch
+
+1614
+01:11:24,399 --> 01:11:28,679
+card né e aí teve a revolução a gente
+
+1615
+01:11:26,479 --> 01:11:30,639
+não programa em Punch card mais e a
+
+1616
+01:11:28,679 --> 01:11:33,158
+gente pode estar potencialmente vivendo
+
+1617
+01:11:30,640 --> 01:11:36,719
+em algo parecido que realmente mudou e a
+
+1618
+01:11:33,158 --> 01:11:39,238
+gente tem que eh lidar com isso então
+
+1619
+01:11:36,719 --> 01:11:43,399
+para mim é é esse tipo um dos pontos um
+
+1620
+01:11:39,238 --> 01:11:43,399
+dos um dos pontos principais
+
+1621
+01:11:43,479 --> 01:11:49,678
+já é não não é uma resposta simples e
+
+1622
+01:11:48,279 --> 01:11:52,000
+que eu diria que a gente vai ter esse
+
+1623
+01:11:49,679 --> 01:11:54,319
+ano um Congresso Brasileiro de software
+
+1624
+01:11:52,000 --> 01:11:56,679
+em Recife quem sabe algumas pessoas
+
+1625
+01:11:54,319 --> 01:11:58,719
+terão respostas além de outros eventos
+
+1626
+01:11:56,679 --> 01:11:59,719
+de engenheiro de software posso dizer
+
+1627
+01:11:58,719 --> 01:12:01,239
+que a comunidade de engenheiro de
+
+1628
+01:11:59,719 --> 01:12:03,800
+software tá muito preocupada com essa
+
+1629
+01:12:01,238 --> 01:12:06,959
+questão tá tentando pesquisar mas também
+
+1630
+01:12:03,800 --> 01:12:10,239
+tem suas limitações e não ser capaz de
+
+1631
+01:12:06,960 --> 01:12:12,439
+prever o futuro e antes de passar a
+
+1632
+01:12:10,238 --> 01:12:14,000
+palavra para você se despedir dos nossos
+
+1633
+01:12:12,439 --> 01:12:16,039
+ouvintes eu só queria lembrar para quem
+
+1634
+01:12:14,000 --> 01:12:19,000
+tiver escutando que a gente já teve aqui
+
+1635
+01:12:16,039 --> 01:12:21,000
+agora com você a gente completa os três
+
+1636
+01:12:19,000 --> 01:12:23,439
+três brasileiros que criaram linguagens
+
+1637
+01:12:21,000 --> 01:12:25,439
+que de programação que são usadas no
+
+1638
+01:12:23,439 --> 01:12:27,719
+mundo todo né a gente entrevistou
+
+1639
+01:12:25,439 --> 01:12:30,079
+primeiro Leonardo de Moura criador da
+
+1640
+01:12:27,719 --> 01:12:31,600
+linguagem Lin que tem um impacto muito
+
+1641
+01:12:30,079 --> 01:12:33,600
+diferente de elixia ela tem bastante
+
+1642
+01:12:31,600 --> 01:12:35,600
+impacto mas é bem diferente né o pessoal
+
+1643
+01:12:33,600 --> 01:12:39,320
+da matemática muito que que ama que
+
+1644
+01:12:35,600 --> 01:12:42,280
+adora e que sai na Nature sai na nas nos
+
+1645
+01:12:39,319 --> 01:12:44,198
+sites de dos matemáticos mas que também
+
+1646
+01:12:42,279 --> 01:12:46,840
+tá investindo agora em tentar trazer
+
+1647
+01:12:44,198 --> 01:12:49,479
+mais pros programadores o professor
+
+1648
+01:12:46,840 --> 01:12:51,400
+Roberto Iar Zalinski que criou junto com
+
+1649
+01:12:49,479 --> 01:12:54,799
+Luiz Henrique de Figueiredo e Valdemar
+
+1650
+01:12:51,399 --> 01:12:57,119
+Celes em 93 né então já são vai fazer 32
+
+1651
+01:12:54,800 --> 01:12:59,360
+anos a linguagem lua por sinal quem
+
+1652
+01:12:57,119 --> 01:13:01,679
+quiser usar lua dentro de Lixi dá né
+
+1653
+01:12:59,359 --> 01:13:04,719
+para para usar porque tem um o na
+
+1654
+01:13:01,679 --> 01:13:07,079
+verdade tem uma lua pra máquina virtual
+
+1655
+01:13:04,719 --> 01:13:10,119
+da Irlang e agora tem um pacote lá do
+
+1656
+01:13:07,079 --> 01:13:13,079
+David Lutia que permite você usar lua
+
+1657
+01:13:10,119 --> 01:13:15,719
+dentro de elixir enfim para pra gente
+
+1658
+01:13:13,079 --> 01:13:17,600
+pro pro Fronteiros é muito legal então
+
+1659
+01:13:15,719 --> 01:13:19,679
+muito obrigado Val se você quiser deixar
+
+1660
+01:13:17,600 --> 01:13:21,159
+uma palavra final pra comunidade de
+
+1661
+01:13:19,679 --> 01:13:23,960
+Alexi pra comunidade de engenharia de
+
+1662
+01:13:21,158 --> 01:13:26,119
+software a palavra é sua
+
+1663
+01:13:23,960 --> 01:13:29,719
+tá bom muito obrigado pelo tempo ah
+
+1664
+01:13:26,119 --> 01:13:33,399
+pelas perguntas do debate e é isso
+
+1665
+01:13:29,719 --> 01:13:35,560
+se vocês se quem tá escutando já utiliza
+
+1666
+01:13:33,399 --> 01:13:39,879
+elixir espero que continue aproveitando
+
+1667
+01:13:35,560 --> 01:13:41,639
+a linguagem ah os projetos e se por
+
+1668
+01:13:39,880 --> 01:13:45,159
+acaso o elixi for novo para você e você
+
+1669
+01:13:41,639 --> 01:13:49,079
+quiser tentar seja muito bem-vindo é
+
+1670
+01:13:45,158 --> 01:13:53,000
+isso obrigado pessoal
+
+1671
+01:13:49,079 --> 01:13:54,960
+muito bom muito boa conversa de hoje e
+
+1672
+01:13:53,000 --> 01:13:59,119
+queria dizer né complementando que
+
+1673
+01:13:54,960 --> 01:14:02,359
+Adolfo disse né talvez no congresso não
+
+1674
+01:13:59,119 --> 01:14:04,800
+tenhamos respostas mas algumas reflexões
+
+1675
+01:14:02,359 --> 01:14:07,279
+e outras provocações também para ver
+
+1676
+01:14:04,800 --> 01:14:10,600
+como que a gente vai conseguir
+
+1677
+01:14:07,279 --> 01:14:12,639
+encaminhar paraa solução né da das que
+
+1678
+01:14:10,600 --> 01:14:15,480
+nem sei se são problemas né mas do que
+
+1679
+01:14:12,639 --> 01:14:19,079
+nós temos hoje como atualidade
+
+1680
+01:14:15,479 --> 01:14:22,119
+e bem e por fim então vamos fechar o
+
+1681
+01:14:19,079 --> 01:14:24,600
+episódio agradecendo a todos os nossos e
+
+1682
+01:14:22,119 --> 01:14:26,760
+as nossas ouvintes e até o próximo
+
+1683
+01:14:24,600 --> 01:14:30,120
+episódio do Fronteiras da Engenharia de
+
+1684
+01:14:26,760 --> 01:14:30,119
+Software ne

@@ -1,0 +1,7311 @@
+1
+00:00:00,000 --> 00:00:02,000
+e
+
+2
+00:00:04,370 --> 00:00:09,960
+isso é o podcast Fronteiras da
+
+3
+00:00:07,440 --> 00:00:12,300
+engenharia de software o podcast para
+
+4
+00:00:09,960 --> 00:00:14,730
+refletir sobre o presente e o futuro da
+
+5
+00:00:12,300 --> 00:00:17,278
+nossa área este podcast tem o apoio da
+
+6
+00:00:14,730 --> 00:00:19,939
+Azul innovation empresa que cria
+
+7
+00:00:17,278 --> 00:00:23,140
+tecnologia impulsiona o crescimento
+
+8
+00:00:19,939 --> 00:00:24,789
+exponencial do
+
+9
+00:00:23,140 --> 00:00:26,160
+[Música]
+
+10
+00:00:24,789 --> 00:00:28,720
+e
+
+11
+00:00:26,160 --> 00:00:30,579
+hoje no Fronteiras da engenharia de
+
+12
+00:00:28,719 --> 00:00:33,759
+software vamos conversar com César
+
+13
+00:00:30,579 --> 00:00:38,289
+França professor na Universidade Federal
+
+14
+00:00:33,759 --> 00:00:40,780
+Rural de Pernambuco e na César School o
+
+15
+00:00:38,289 --> 00:00:43,088
+tema do episódio de hoje será motivação
+
+16
+00:00:40,780 --> 00:00:45,370
+e satisfação dos Engenheiros de software
+
+17
+00:00:43,088 --> 00:00:47,890
+tudo bem César você pode se apresentar
+
+18
+00:00:45,369 --> 00:00:51,369
+para as pessoas que não escutam pessoal
+
+19
+00:00:47,890 --> 00:00:53,320
+Tudo ótimo eu sou César França como
+
+20
+00:00:51,369 --> 00:00:55,838
+adulto falou aí o seu professor do
+
+21
+00:00:53,320 --> 00:00:58,570
+departamento de computação da UFPI pi
+
+22
+00:00:55,838 --> 00:01:01,539
+aqui em Recife e também ocupa a posição
+
+23
+00:00:58,570 --> 00:01:04,239
+hoje The Head of state nas traseiras Sul
+
+24
+00:01:01,539 --> 00:01:06,129
+EA escola de inovação do César é o
+
+25
+00:01:04,239 --> 00:01:08,710
+Instituto de inovação que a Ampla aqui
+
+26
+00:01:06,129 --> 00:01:11,199
+no porto digital do Recife eu fui aluno
+
+27
+00:01:08,709 --> 00:01:15,009
+de graduação mestrado e doutorado no sim
+
+28
+00:01:11,200 --> 00:01:17,379
+é um spa onde trabalhei desde sempre lá
+
+29
+00:01:15,009 --> 00:01:18,450
+com o professor Fábio Silva e hoje é uma
+
+30
+00:01:17,379 --> 00:01:20,949
+grande referência
+
+31
+00:01:18,450 --> 00:01:23,290
+internacional aí na pesquisa empírica da
+
+32
+00:01:20,950 --> 00:01:26,060
+engenharia de software especialmente em
+
+33
+00:01:23,290 --> 00:01:29,060
+pesquisas sobre aspectos Human o esporte
+
+34
+00:01:26,060 --> 00:01:31,460
+fiz um doutorado sanduíche na Alpendre
+
+35
+00:01:29,060 --> 00:01:33,890
+onde trabalhei lá com a costura
+
+36
+00:01:31,459 --> 00:01:35,780
+relinchar e ele também muito conhecida
+
+37
+00:01:33,890 --> 00:01:38,870
+no mundo da pesquisa qualitativa e dos
+
+38
+00:01:35,780 --> 00:01:41,000
+métodos ágeis na ufrb e o ato
+
+39
+00:01:38,870 --> 00:01:43,670
+basicamente para graduação curso de
+
+40
+00:01:41,000 --> 00:01:45,859
+licenciatura da Computação indisciplina
+
+41
+00:01:43,670 --> 00:01:48,349
+relacionados à Design da interação e
+
+42
+00:01:45,859 --> 00:01:50,569
+aspectos humanos e sociais da tecnologia
+
+43
+00:01:48,349 --> 00:01:52,280
+e lá no César escuro e o ato Nos
+
+44
+00:01:50,569 --> 00:01:54,739
+programas de mestrado profissional em
+
+45
+00:01:52,280 --> 00:01:57,409
+engenharia só e o doutorado profissional
+
+46
+00:01:54,739 --> 00:01:59,750
+engenharia de sócia além de cursos de
+
+47
+00:01:57,409 --> 00:02:01,489
+extensão e vivos e e agora mais
+
+48
+00:01:59,750 --> 00:02:03,290
+recentemente a coordenação-geral de
+
+49
+00:02:01,489 --> 00:02:05,509
+pesquisa e operação da instituição
+
+50
+00:02:03,290 --> 00:02:07,670
+inclusive se preferirem aí para evitar
+
+51
+00:02:05,510 --> 00:02:09,980
+que a companhia com César e a fazer isso
+
+52
+00:02:07,670 --> 00:02:12,099
+nesse podem me chamar só de França eu já
+
+53
+00:02:09,979 --> 00:02:14,899
+estou me acostumando com isso
+
+54
+00:02:12,099 --> 00:02:17,810
+é atualmente o por dentro também o grupo
+
+55
+00:02:14,900 --> 00:02:20,780
+de pesquisa chamado urgente é um grupo
+
+56
+00:02:17,810 --> 00:02:23,060
+de estudo sobre gente um negócios e
+
+57
+00:02:20,780 --> 00:02:24,780
+tecnologia é composto aí e
+
+58
+00:02:23,060 --> 00:02:27,539
+principalmente para alunos de mestrado e
+
+59
+00:02:24,780 --> 00:02:30,629
+alguns outros pesquisadores colaborante
+
+60
+00:02:27,539 --> 00:02:34,469
+a raça agora que eu lembrei quando ela
+
+61
+00:02:30,629 --> 00:02:37,318
+pesa fazer com o César tá então chama
+
+62
+00:02:34,469 --> 00:02:40,709
+diferença então para manter para evitar
+
+63
+00:02:37,318 --> 00:02:42,419
+a cacofonia ou então França bom a gente
+
+64
+00:02:40,709 --> 00:02:45,719
+sabe que não engenharia de Foster tem
+
+65
+00:02:42,419 --> 00:02:48,479
+tem vários trabalhos da sobre fatores
+
+66
+00:02:45,719 --> 00:02:50,520
+humanos entre eles o tema desse Episódio
+
+67
+00:02:48,479 --> 00:02:52,709
+que é a motivação e satisfação dos
+
+68
+00:02:50,520 --> 00:02:55,020
+profissionais na área e daí tu pode dar
+
+69
+00:02:52,709 --> 00:02:58,199
+uma definição de extinguindo assim a
+
+70
+00:02:55,020 --> 00:03:00,840
+motivação e satisfação e isso aí são
+
+71
+00:02:58,199 --> 00:03:02,909
+duas coisas iguais ou motivação e
+
+72
+00:03:00,840 --> 00:03:05,459
+satisfação são diferentes Qual é a
+
+73
+00:03:02,909 --> 00:03:09,299
+diferença entre uma pessoa motivada e
+
+74
+00:03:05,459 --> 00:03:12,229
+uma pessoa satisfeita mas os Ingrid é
+
+75
+00:03:09,300 --> 00:03:15,420
+curiosamente excesso pode ser uma
+
+76
+00:03:12,229 --> 00:03:18,689
+surpresa para muita gente mas motivação
+
+77
+00:03:15,419 --> 00:03:20,399
+e satisfação não são a mesma coisa não é
+
+78
+00:03:18,689 --> 00:03:22,199
+inclusive um dos maiores desafios você
+
+79
+00:03:20,400 --> 00:03:24,510
+fazer pesquisa sobre motivação e
+
+80
+00:03:22,199 --> 00:03:27,759
+satisfação hoje em dia é justamente que
+
+81
+00:03:24,509 --> 00:03:30,218
+esses há mais de tão fofinhos né muita
+
+82
+00:03:27,759 --> 00:03:33,188
+gente assumi de partido assim que todo
+
+83
+00:03:30,218 --> 00:03:35,199
+mundo sabe o que significa né isso acaba
+
+84
+00:03:33,188 --> 00:03:37,419
+tá usando Muita confusão objetivamente
+
+85
+00:03:35,199 --> 00:03:41,889
+assim motivação se refere a um
+
+86
+00:03:37,419 --> 00:03:44,500
+comportamento de ativação para ação né e
+
+87
+00:03:41,889 --> 00:03:46,798
+é gerado aí o Sensações internas do
+
+88
+00:03:44,500 --> 00:03:49,560
+indivíduo associados ao próprio fazer
+
+89
+00:03:46,799 --> 00:03:53,790
+daquela ação é
+
+90
+00:03:49,560 --> 00:03:57,699
+satisfação é um estado emocional
+
+91
+00:03:53,789 --> 00:03:59,709
+resultante da ação da avaliação que a
+
+92
+00:03:57,699 --> 00:04:02,289
+gente faz depois de ter executado o
+
+93
+00:03:59,709 --> 00:04:05,199
+assunto é o indivíduo sente quando olha
+
+94
+00:04:02,289 --> 00:04:07,688
+para o que aconteceu depois da ação e
+
+95
+00:04:05,199 --> 00:04:11,168
+compara ali com as suas próprias
+
+96
+00:04:07,688 --> 00:04:13,590
+expectativas né Observe que se você
+
+97
+00:04:11,169 --> 00:04:16,000
+pensar em uma atividade bem atômica
+
+98
+00:04:13,590 --> 00:04:19,030
+motivação é o que acontece anos e
+
+99
+00:04:16,000 --> 00:04:22,000
+satisfação é o que acontece depois né da
+
+100
+00:04:19,029 --> 00:04:23,799
+realização daquela atividade a Tron é
+
+101
+00:04:22,000 --> 00:04:26,750
+claro que essas duas coisas estão sempre
+
+102
+00:04:23,800 --> 00:04:29,569
+conectados né e a experiência de um
+
+103
+00:04:26,750 --> 00:04:32,060
+indivíduo é constituída aí dentre outras
+
+104
+00:04:29,569 --> 00:04:34,098
+coisas para as memórias e ele tem sobre
+
+105
+00:04:32,060 --> 00:04:37,220
+os resultados coisas que aconteceram no
+
+106
+00:04:34,098 --> 00:04:40,279
+passado então satisfação passada meio
+
+107
+00:04:37,220 --> 00:04:42,500
+que molda A motivação do futuro é comum
+
+108
+00:04:40,279 --> 00:04:44,598
+ciclo aí que a psicologia vai chamar lá
+
+109
+00:04:42,500 --> 00:04:48,139
+de mecanismo de sistema de
+
+110
+00:04:44,598 --> 00:04:51,439
+autorregulação do comportamento e essa é
+
+111
+00:04:48,139 --> 00:04:54,139
+importante cima porque embora é como eu
+
+112
+00:04:51,439 --> 00:04:55,149
+falei aí duas coisas estão conectadas as
+
+113
+00:04:54,139 --> 00:04:58,430
+duas coisas
+
+114
+00:04:55,149 --> 00:05:01,098
+as coisas causam A motivação do ser
+
+115
+00:04:58,430 --> 00:05:04,340
+humano são diferentes das coisas que
+
+116
+00:05:01,098 --> 00:05:06,649
+causam insatisfação é que os efeitos na
+
+117
+00:05:04,339 --> 00:05:09,068
+motivação também são diferentes dos
+
+118
+00:05:06,649 --> 00:05:11,538
+efeitos da satisfação
+
+119
+00:05:09,069 --> 00:05:14,718
+compreender essas diferenças aí Entre
+
+120
+00:05:11,538 --> 00:05:16,519
+esses fenômenos fatores efeitos deveria
+
+121
+00:05:14,718 --> 00:05:18,620
+ser um ponto de partida base para todo
+
+122
+00:05:16,519 --> 00:05:20,810
+mundo que lida com gente é especialmente
+
+123
+00:05:18,620 --> 00:05:23,449
+engenharia de só mas infelizmente como
+
+124
+00:05:20,810 --> 00:05:25,860
+eu falei é e como esse termo já são
+
+125
+00:05:23,449 --> 00:05:27,830
+muito gasto sair do um negócio Estou
+
+126
+00:05:25,860 --> 00:05:29,939
+mundo assume eles são naturalmente
+
+127
+00:05:27,829 --> 00:05:31,800
+compreendidos e acabam ignorando a
+
+128
+00:05:29,939 --> 00:05:33,689
+importância postar um pouquinho para
+
+129
+00:05:31,800 --> 00:05:36,600
+entender aqui no mundo da pesquisa
+
+130
+00:05:33,689 --> 00:05:39,149
+também não é muito diferente não sabe o
+
+131
+00:05:36,600 --> 00:05:41,970
+sinal bem claro disso é que a gente tem
+
+132
+00:05:39,149 --> 00:05:45,089
+quase uma centena de anos aí de história
+
+133
+00:05:41,970 --> 00:05:48,000
+de pesquisa na Área hoje algum Nacional
+
+134
+00:05:45,089 --> 00:05:50,729
+sobre essas duas palavrinhas e ainda
+
+135
+00:05:48,000 --> 00:05:52,829
+assim a gente pelo muito artigo novo que
+
+136
+00:05:50,730 --> 00:05:56,310
+sequer se para uma única Teoria de
+
+137
+00:05:52,829 --> 00:05:58,500
+Motivação satisfação o até Pior eles
+
+138
+00:05:56,310 --> 00:06:00,750
+partem de teorias obsoletas como a
+
+139
+00:05:58,500 --> 00:06:03,240
+pirâmide domaso aí tem um negócio que
+
+140
+00:06:00,750 --> 00:06:06,180
+foi desacreditado até pelo próprio mesmo
+
+141
+00:06:03,240 --> 00:06:10,410
+e a mais 50 anos atrás é mais que
+
+142
+00:06:06,180 --> 00:06:12,530
+continua e soando até hoje 2018 daqui é
+
+143
+00:06:10,410 --> 00:06:15,810
+um livrinho tá disponível lá na água só
+
+144
+00:06:12,529 --> 00:06:17,609
+um né explicando um pouco mais sobre as
+
+145
+00:06:15,810 --> 00:06:20,189
+teorias clássicas de motivação e
+
+146
+00:06:17,610 --> 00:06:22,710
+satisfação e e tem muita coisa boa que
+
+147
+00:06:20,189 --> 00:06:24,509
+foi desenvolvida de máximo para cá é
+
+148
+00:06:22,709 --> 00:06:27,310
+coisas muito mais consistentes como é
+
+149
+00:06:24,509 --> 00:06:29,949
+que vai é do que aquela pirâmide e na
+
+150
+00:06:27,310 --> 00:06:32,560
+real tem era demais né vocês sabiam mas
+
+151
+00:06:29,949 --> 00:06:34,599
+alguém tirou e colocou o nome dele lá e
+
+152
+00:06:32,560 --> 00:06:37,209
+vamos vai usar avanços aí que a gente
+
+153
+00:06:34,600 --> 00:06:39,040
+teve nessa área justamente alcance dessa
+
+154
+00:06:37,209 --> 00:06:41,349
+compreensão de que motivação e
+
+155
+00:06:39,040 --> 00:06:44,530
+satisfação são os dois diferente
+
+156
+00:06:41,350 --> 00:06:46,450
+interessante a pirâmide de Maslow e vez
+
+157
+00:06:44,529 --> 00:06:48,399
+em quando aparece aí nas redes sociais
+
+158
+00:06:46,449 --> 00:06:49,870
+eu não sabia nem que não tinha sido ele
+
+159
+00:06:48,399 --> 00:06:52,750
+que criou nem que tinha sido
+
+160
+00:06:49,870 --> 00:06:54,519
+desacreditada mas enfim tem tem coisas
+
+161
+00:06:52,750 --> 00:06:57,939
+assim também na Engenheiro de software é
+
+162
+00:06:54,519 --> 00:06:59,139
+o tal do modelo Cascata eu o artigo que
+
+163
+00:06:57,939 --> 00:07:01,240
+deu origem a ele também o pessoal
+
+164
+00:06:59,139 --> 00:07:04,709
+interpreta de um jeito diferente do tá
+
+165
+00:07:01,240 --> 00:07:07,290
+lá no artigo mas continuando a falar de
+
+166
+00:07:04,709 --> 00:07:10,509
+motivação e satisfação no trabalho
+
+167
+00:07:07,290 --> 00:07:12,189
+porque especificamente falar visto no
+
+168
+00:07:10,509 --> 00:07:14,529
+nosso contexto no contexto da engenharia
+
+169
+00:07:12,189 --> 00:07:17,589
+de software no desenvolvimento de
+
+170
+00:07:14,529 --> 00:07:19,539
+software é relevante como é que isso se
+
+171
+00:07:17,589 --> 00:07:22,560
+diferencia do que acontece nos
+
+172
+00:07:19,540 --> 00:07:26,060
+profissões Adolfo tem várias razões
+
+173
+00:07:22,560 --> 00:07:29,418
+certo é a primeira delas o esporte é uma
+
+174
+00:07:26,060 --> 00:07:32,209
+atividade executada em boa parte ainda é
+
+175
+00:07:29,418 --> 00:07:34,158
+por gente por isso que compreender aí
+
+176
+00:07:32,209 --> 00:07:35,930
+como é que as pessoas funcionam de forma
+
+177
+00:07:34,158 --> 00:07:37,098
+geral nem como a gente pode ajudar as
+
+178
+00:07:35,930 --> 00:07:39,220
+pessoas a alcançarem uma melhor
+
+179
+00:07:37,098 --> 00:07:42,848
+desempenho na atividade ali como chave
+
+180
+00:07:39,220 --> 00:07:44,810
+para desenvolver bons projetos né o
+
+181
+00:07:42,848 --> 00:07:47,389
+comportamento de Engenheiros de software
+
+182
+00:07:44,810 --> 00:07:51,620
+algo que é estudado Desde há muito tempo
+
+183
+00:07:47,389 --> 00:07:53,240
+né Tem um livro de 1970/71 do Geraldo
+
+184
+00:07:51,620 --> 00:07:55,899
+ramberg É um cientista da Computação
+
+185
+00:07:53,240 --> 00:08:00,139
+Americana e os fundadores da
+
+186
+00:07:55,899 --> 00:08:02,568
+ai tipo e transaction um sofrem de Deus
+
+187
+00:08:00,139 --> 00:08:04,848
+e o livro se chama a psicologia da
+
+188
+00:08:02,569 --> 00:08:07,250
+programação de computadores e só é o
+
+189
+00:08:04,848 --> 00:08:09,408
+livro aborda lá em diversas dimensões e
+
+190
+00:08:07,250 --> 00:08:12,079
+como aspectos psicológicos influenciam
+
+191
+00:08:09,408 --> 00:08:15,019
+ainda centenas programadores né depois
+
+192
+00:08:12,079 --> 00:08:17,628
+ali mais produzidos na década de 80 né
+
+193
+00:08:15,019 --> 00:08:19,939
+Tem um livro bem outro chamado pipo é do
+
+194
+00:08:17,629 --> 00:08:21,770
+pão de Março né que acabou popularizando
+
+195
+00:08:19,939 --> 00:08:23,269
+esse tema como o terceiro elemento aí
+
+196
+00:08:21,769 --> 00:08:26,939
+necessário para a construção de um
+
+197
+00:08:23,269 --> 00:08:29,729
+sistema de informática né é só fazer o
+
+198
+00:08:26,939 --> 00:08:32,279
+próximo Manifesto ágil de 2001 é um dos
+
+199
+00:08:29,730 --> 00:08:34,680
+princípios de la sugere e os projetos
+
+200
+00:08:32,279 --> 00:08:37,649
+deverão ser construídos em torno de
+
+201
+00:08:34,679 --> 00:08:39,870
+pessoas motivadas né e mais recentemente
+
+202
+00:08:37,649 --> 00:08:42,149
+até um grupo de pesquisadores da Suécia
+
+203
+00:08:39,870 --> 00:08:44,639
+aí que não prendendo o termo engenharia
+
+204
+00:08:42,149 --> 00:08:46,409
+de software comportamental deve se
+
+205
+00:08:44,639 --> 00:08:48,600
+referir a esses estudos de aspectos
+
+206
+00:08:46,409 --> 00:08:50,939
+cognitivos e comportamentais dos
+
+207
+00:08:48,600 --> 00:08:53,700
+Engenheiros só só a primeira razão é
+
+208
+00:08:50,940 --> 00:08:57,600
+esse é gente é um ponto chave e sempre
+
+209
+00:08:53,700 --> 00:08:59,310
+foi mais Gere isso a segunda razão e e
+
+210
+00:08:57,600 --> 00:09:01,170
+que aí que a gente se diferencia das
+
+211
+00:08:59,309 --> 00:09:02,250
+outras opções aqui a engenharia de
+
+212
+00:09:01,169 --> 00:09:04,679
+software é uma atividade
+
+213
+00:09:02,250 --> 00:09:06,539
+fundamentalmente intelectual eu falei
+
+214
+00:09:04,679 --> 00:09:08,099
+ainda agora de quase 100 anos de
+
+215
+00:09:06,539 --> 00:09:11,250
+pesquisa que a gente tem na área de uma
+
+216
+00:09:08,100 --> 00:09:14,070
+estação e satisfação e E essas pesquisas
+
+217
+00:09:11,250 --> 00:09:16,289
+né Na verdade quase todas as teorias e
+
+218
+00:09:14,070 --> 00:09:19,620
+avanços significativos que esteve nessa
+
+219
+00:09:16,289 --> 00:09:21,689
+área ao longo desses quase 100 ano foi
+
+220
+00:09:19,620 --> 00:09:24,789
+através de pesquisas que estavam me
+
+221
+00:09:21,690 --> 00:09:28,180
+dando outros tipos de atividades é é e
+
+222
+00:09:24,789 --> 00:09:31,240
+seria o produção Fabril em ambientes que
+
+223
+00:09:28,179 --> 00:09:32,769
+são culturalmente muito diferentes dos
+
+224
+00:09:31,240 --> 00:09:34,810
+que a gente tem uma revista engenharia
+
+225
+00:09:32,769 --> 00:09:36,970
+de software é um daqueles pesquisadores
+
+226
+00:09:34,809 --> 00:09:39,699
+suecos aqui eu me referia ainda agora o
+
+227
+00:09:36,970 --> 00:09:41,200
+ar logo sugere uma tese de doutorado
+
+228
+00:09:39,700 --> 00:09:43,900
+dele que a engenharia de software como
+
+229
+00:09:41,200 --> 00:09:47,110
+se fosse um protótipo do que serão as
+
+230
+00:09:43,899 --> 00:09:49,299
+profissões do futuro né e ver só como
+
+231
+00:09:47,110 --> 00:09:50,800
+são as coisas né a engenharia sofre
+
+232
+00:09:49,299 --> 00:09:53,199
+começou a desenvolver práticas de
+
+233
+00:09:50,799 --> 00:09:55,899
+desenvolvimento distribuído desde sempre
+
+234
+00:09:53,200 --> 00:09:58,060
+é visualização de equipes e tudo mais o
+
+235
+00:09:55,899 --> 00:10:02,019
+que ficou mais Impacto ali nos últimos
+
+236
+00:09:58,059 --> 00:10:05,049
+20 anos né é que vinte anos antes da
+
+237
+00:10:02,019 --> 00:10:07,120
+corrida de 19 o saco que quase todas as
+
+238
+00:10:05,049 --> 00:10:09,129
+outras funções fizesse a mesma coisa a
+
+239
+00:10:07,120 --> 00:10:11,350
+gente já era naquela época O protótipo
+
+240
+00:10:09,129 --> 00:10:13,899
+das profissões do futuro e senso
+
+241
+00:10:11,350 --> 00:10:16,330
+continua sendo verdade aí a melhor forma
+
+242
+00:10:13,899 --> 00:10:18,850
+de a gente se antecipar aos problemas
+
+243
+00:10:16,330 --> 00:10:21,550
+organizacionais do Futuro em qualquer
+
+244
+00:10:18,850 --> 00:10:24,550
+área é estudando à engenharia de
+
+245
+00:10:21,549 --> 00:10:27,919
+software e hoje a terceira razão para
+
+246
+00:10:24,549 --> 00:10:30,379
+mim a mais significativa e urgente é a
+
+247
+00:10:27,919 --> 00:10:33,019
+questão de que a gente tem muitas
+
+248
+00:10:30,379 --> 00:10:36,919
+pesquisas recentes que se propõe aí
+
+249
+00:10:33,019 --> 00:10:40,389
+avaliar o mediu o grau de satisfação e
+
+250
+00:10:36,919 --> 00:10:43,039
+motivação dos Engenheiros né e
+
+251
+00:10:40,389 --> 00:10:45,289
+pintam um retrato muito triste da
+
+252
+00:10:43,039 --> 00:10:46,669
+realidade eu pesquisa do estéril restou
+
+253
+00:10:45,289 --> 00:10:49,189
+o presente ou gente do mundo inteiro
+
+254
+00:10:46,669 --> 00:10:52,159
+esquema que algo em torno de dez pontos
+
+255
+00:10:49,190 --> 00:10:54,500
+só dos desenvolvedores entrevistados lá
+
+256
+00:10:52,159 --> 00:10:56,299
+andam completamente satisfeitos os seus
+
+257
+00:10:54,500 --> 00:10:59,179
+cavalos e são a questão extremamente
+
+258
+00:10:56,299 --> 00:11:01,039
+relevante para o nosso mercado é uma vez
+
+259
+00:10:59,179 --> 00:11:04,250
+que hoje a gente a sócia da falta de
+
+260
+00:11:01,039 --> 00:11:06,708
+catalogando dar é e o setor produtivo
+
+261
+00:11:04,250 --> 00:11:08,539
+precisa Sem dúvida melhorar a sua
+
+262
+00:11:06,708 --> 00:11:11,179
+capacidade de satisfazer os enxeridos ó
+
+263
+00:11:08,539 --> 00:11:12,860
+é primeiro para manter seus
+
+264
+00:11:11,179 --> 00:11:14,629
+profissionais e segundo para atrair mais
+
+265
+00:11:12,860 --> 00:11:16,399
+gente para a área tem um artigo bem
+
+266
+00:11:14,629 --> 00:11:19,720
+interessante sobre esse fenômeno Mas é
+
+267
+00:11:16,399 --> 00:11:22,278
+da década de 80 ali e que evidenciavam o
+
+268
+00:11:19,720 --> 00:11:24,350
+lance bem interessante é com a explosão
+
+269
+00:11:22,278 --> 00:11:27,269
+do crescimento do mercado de software
+
+270
+00:11:24,350 --> 00:11:29,670
+aquela e é e naquela muita gente foi
+
+271
+00:11:27,269 --> 00:11:33,049
+atraída para não sai com a promessa de
+
+272
+00:11:29,669 --> 00:11:36,089
+que ficaria rico na profissão é E aí a
+
+273
+00:11:33,049 --> 00:11:38,490
+pesquisadora lado do artigo descreve o
+
+274
+00:11:36,090 --> 00:11:41,220
+espécie de Gold Rush né A Corrida do
+
+275
+00:11:38,490 --> 00:11:43,139
+Ouro ali né e consequentemente e uma
+
+276
+00:11:41,220 --> 00:11:44,940
+frustração em larga escala e quando o
+
+277
+00:11:43,139 --> 00:11:47,069
+pessoal chegou na área e digo que eram
+
+278
+00:11:44,940 --> 00:11:49,920
+tanto de trabalho quase como outro
+
+279
+00:11:47,070 --> 00:11:51,660
+qualquer E aí isso bem que justificavam
+
+280
+00:11:49,919 --> 00:11:53,819
+nesses índices muito baixos de
+
+281
+00:11:51,659 --> 00:11:55,949
+satisfação e já eram baixos naquela
+
+282
+00:11:53,820 --> 00:11:58,200
+época também então minha impressão é que
+
+283
+00:11:55,950 --> 00:12:00,540
+esse Gold Rush já vinha meio que se
+
+284
+00:11:58,200 --> 00:12:03,420
+repetindo nos últimos anos depois da
+
+285
+00:12:00,539 --> 00:12:06,929
+Explosão dos aplicativos móveis é e que
+
+286
+00:12:03,419 --> 00:12:09,169
+agora um essa aceleração da visualização
+
+287
+00:12:06,929 --> 00:12:12,539
+das coisas né Por causa da correria
+
+288
+00:12:09,169 --> 00:12:14,309
+acabou gerando essa abertura nessa
+
+289
+00:12:12,539 --> 00:12:16,199
+concorrência internacional capital
+
+290
+00:12:14,309 --> 00:12:20,449
+humano e acabou provocando ainda mais
+
+291
+00:12:16,200 --> 00:12:23,490
+vem ainda mais né é essa
+
+292
+00:12:20,450 --> 00:12:27,280
+atratividade de capital humano para área
+
+293
+00:12:23,490 --> 00:12:29,860
+né que a gente vai ser e o Goldman chave
+
+294
+00:12:27,279 --> 00:12:34,299
+da década de 80 então talvez a gente
+
+295
+00:12:29,860 --> 00:12:36,610
+esteja um pouco antes de fenômeno muito
+
+296
+00:12:34,299 --> 00:12:38,740
+parecido com naquela época ali tem um
+
+297
+00:12:36,610 --> 00:12:41,230
+dia a gente vai ter um altos índices de
+
+298
+00:12:38,740 --> 00:12:44,409
+frustração na produção dentro de algum
+
+299
+00:12:41,230 --> 00:12:47,379
+isso a gente precisa ficar muito tempo e
+
+300
+00:12:44,409 --> 00:12:49,719
+ter muito cuidado com esse massa eu
+
+301
+00:12:47,379 --> 00:12:52,539
+queria fazer um gancho com a sua questão
+
+302
+00:12:49,720 --> 00:12:53,800
+que tu falasse no final sobre os rins tá
+
+303
+00:12:52,539 --> 00:12:55,829
+mostrando que a gente tem muitos
+
+304
+00:12:53,799 --> 00:12:59,189
+desenvolvedores com baixa satisfação
+
+305
+00:12:55,830 --> 00:13:02,590
+olhando para nossa profissão assim um
+
+306
+00:12:59,190 --> 00:13:03,850
+uma questão que é bem relevante a
+
+307
+00:13:02,590 --> 00:13:05,980
+questão quer a profissão não é
+
+308
+00:13:03,850 --> 00:13:08,550
+regulamentada então por exemplo se você
+
+309
+00:13:05,980 --> 00:13:11,379
+pensa em profissões como Engenheiros né
+
+310
+00:13:08,549 --> 00:13:14,459
+eles Obrigatoriamente tem que ir para o
+
+311
+00:13:11,379 --> 00:13:16,960
+passar por uma graduação tão de boa né
+
+312
+00:13:14,460 --> 00:13:20,350
+registrada certo na computação a gente
+
+313
+00:13:16,960 --> 00:13:21,850
+vê hoje em dia pessoas fazendo cursos na
+
+314
+00:13:20,350 --> 00:13:23,590
+internet aprendendo alguma coisa
+
+315
+00:13:21,850 --> 00:13:26,149
+entrando para o mercado do trabalho
+
+316
+00:13:23,590 --> 00:13:28,370
+talvez que chegam a estação que tu tinha
+
+317
+00:13:26,149 --> 00:13:30,320
+falado de expectativa e realidade né
+
+318
+00:13:28,370 --> 00:13:32,028
+também a gente pode ter projeto que
+
+319
+00:13:30,320 --> 00:13:34,310
+talvez por uma falta de base
+
+320
+00:13:32,028 --> 00:13:37,179
+fundamentação acabam degenerando em
+
+321
+00:13:34,309 --> 00:13:39,278
+função da falta de conhecimentos de
+
+322
+00:13:37,179 --> 00:13:42,528
+modularidade
+
+323
+00:13:39,278 --> 00:13:44,828
+arquitetura de software Então essa
+
+324
+00:13:42,528 --> 00:13:47,269
+questão né da gente ter gente entrando
+
+325
+00:13:44,828 --> 00:13:48,969
+no mercado de trabalho sem
+
+326
+00:13:47,269 --> 00:13:51,769
+necessariamente ter tido uma formação
+
+327
+00:13:48,970 --> 00:13:54,769
+informal né Tu acha que pode ter algum
+
+328
+00:13:51,769 --> 00:13:56,810
+impacto na sua questão de satisfação e
+
+329
+00:13:54,769 --> 00:13:58,459
+motivação que a gente tem nesse cenário
+
+330
+00:13:56,809 --> 00:14:00,949
+que a gente tem hoje em dia de acordo
+
+331
+00:13:58,458 --> 00:14:05,268
+com essas pesquisas Ingrid Eu acredito
+
+332
+00:14:00,950 --> 00:14:08,778
+que sim certo e e o número e que tem
+
+333
+00:14:05,269 --> 00:14:11,230
+muito a ver com isso né É que quando a
+
+334
+00:14:08,778 --> 00:14:15,110
+gente olha para a nossa
+
+335
+00:14:11,230 --> 00:14:18,320
+capacidade de informação formal de gente
+
+336
+00:14:15,110 --> 00:14:20,480
+no Brasil é a gente está formando algo
+
+337
+00:14:18,320 --> 00:14:22,519
+em torno de um terço é dos profissionais
+
+338
+00:14:20,480 --> 00:14:24,810
+dos Estudantes que entram nas
+
+339
+00:14:22,519 --> 00:14:27,210
+universidades e cursos de compra bom
+
+340
+00:14:24,809 --> 00:14:29,299
+então de um texto e chega até o final
+
+341
+00:14:27,210 --> 00:14:32,490
+estão muito mente esses dois terços
+
+342
+00:14:29,299 --> 00:14:35,939
+podem ter a ver com a antecipação do
+
+343
+00:14:32,490 --> 00:14:37,889
+dono desse problema né ou seja esses
+
+344
+00:14:35,940 --> 00:14:39,510
+dois terços descobriram ali no meio do
+
+345
+00:14:37,889 --> 00:14:41,100
+caminho que não era aquilo que eles
+
+346
+00:14:39,509 --> 00:14:44,519
+queriam fazer ou não fazer outra coisa
+
+347
+00:14:41,100 --> 00:14:46,800
+então é claro que isso provavelmente não
+
+348
+00:14:44,519 --> 00:14:48,569
+explica os dois terços inteiros né
+
+349
+00:14:46,799 --> 00:14:50,909
+certamente a gente tem muito bem
+
+350
+00:14:48,570 --> 00:14:53,490
+problema de limitação de infraestrutura
+
+351
+00:14:50,909 --> 00:14:55,379
+de possibilidades dedicação e para os
+
+352
+00:14:53,490 --> 00:14:58,470
+outros aspectos aí que estão ensinando a
+
+353
+00:14:55,379 --> 00:15:02,220
+invasão César pessoal do ensino superior
+
+354
+00:14:58,470 --> 00:15:04,230
+mais certamente isso isso tem a ver eu
+
+355
+00:15:02,220 --> 00:15:06,029
+acredito que sim mão e aqui a gente tá
+
+356
+00:15:04,230 --> 00:15:07,830
+falando meia no geral os profissionais
+
+357
+00:15:06,029 --> 00:15:09,329
+da Computação mas a gente sabe que no
+
+358
+00:15:07,830 --> 00:15:13,650
+engenharia de software tem diferentes
+
+359
+00:15:09,330 --> 00:15:15,780
+posições relacionadas com dentro da área
+
+360
+00:15:13,649 --> 00:15:17,639
+né a gente tem por exemplo gerente de
+
+361
+00:15:15,779 --> 00:15:19,289
+projeto desenvolvedores disseram os
+
+362
+00:15:17,639 --> 00:15:21,840
+requisitos a gente pode usar vários
+
+363
+00:15:19,289 --> 00:15:23,579
+Leite depende da metodologia né que a
+
+364
+00:15:21,840 --> 00:15:26,139
+gente está considerando que existem
+
+365
+00:15:23,580 --> 00:15:29,889
+diferenças quando e observamos pessoas
+
+366
+00:15:26,139 --> 00:15:31,259
+atuando nessas diferentes posições sim e
+
+367
+00:15:29,889 --> 00:15:33,580
+não Ingrid
+
+368
+00:15:31,259 --> 00:15:36,069
+eu vou tentar melhorar um pouco mais
+
+369
+00:15:33,580 --> 00:15:38,200
+alguém conhecer falando um pouco na
+
+370
+00:15:36,070 --> 00:15:40,870
+nossa linguagem né tentar fazer uma
+
+371
+00:15:38,200 --> 00:15:42,850
+analogia aí é o sistema de processamento
+
+372
+00:15:40,870 --> 00:15:46,870
+de motivação e satisfação de qualquer
+
+373
+00:15:42,850 --> 00:15:48,840
+pessoa é igual é ele qualquer função
+
+374
+00:15:46,870 --> 00:15:51,580
+Independente se é gerente se
+
+375
+00:15:48,840 --> 00:15:54,490
+desenvolvedor esta dois e assim então os
+
+376
+00:15:51,580 --> 00:15:56,290
+métodos as funções os parâmetros né que
+
+377
+00:15:54,490 --> 00:15:59,379
+descreve o nosso sistema de pote
+
+378
+00:15:56,289 --> 00:16:02,799
+paciência passam são porém Dependendo de
+
+379
+00:15:59,379 --> 00:16:05,529
+quem são essas pessoas e do contexto ou
+
+380
+00:16:02,799 --> 00:16:07,599
+sejam que elas estão fazendo onde elas
+
+381
+00:16:05,529 --> 00:16:11,289
+estão fazendo Quando e com quem elas
+
+382
+00:16:07,600 --> 00:16:13,090
+estão trabalhando é aí os argumentos é
+
+383
+00:16:11,289 --> 00:16:15,909
+que vão ser processados além do sistema
+
+384
+00:16:13,090 --> 00:16:18,940
+de notificação sobre o contexto aí faz
+
+385
+00:16:15,909 --> 00:16:21,039
+toda a diferença até o pesquisador uns
+
+386
+00:16:18,940 --> 00:16:22,960
+pais da sociologia moderna eu cancelei
+
+387
+00:16:21,039 --> 00:16:25,669
+vim ele se escreve que qualquer
+
+388
+00:16:22,960 --> 00:16:27,470
+comportamento do ano é uma função e deve
+
+389
+00:16:25,669 --> 00:16:29,838
+ser a combinação da identidade do
+
+390
+00:16:27,470 --> 00:16:31,519
+indivíduo com o contexto eu quero ver um
+
+391
+00:16:29,839 --> 00:16:33,769
+exemplo bem prático assim de uma
+
+392
+00:16:31,519 --> 00:16:36,110
+situação que eu me dá para sempre nem me
+
+393
+00:16:33,769 --> 00:16:38,959
+deparei muito nas pesquisas de Campo que
+
+394
+00:16:36,110 --> 00:16:40,940
+eu fiz durante meu doutoramento pensa um
+
+395
+00:16:38,958 --> 00:16:43,669
+pouco sobre atividades de testes de sol
+
+396
+00:16:40,940 --> 00:16:46,000
+Enquanto algumas pessoas descrevem esse
+
+397
+00:16:43,669 --> 00:16:49,278
+atividade pouco repetitiva e sem Grazi
+
+398
+00:16:46,000 --> 00:16:51,370
+outras ou desafiadora e instigam a
+
+399
+00:16:49,278 --> 00:16:53,689
+diferença nesse caso da Natividade
+
+400
+00:16:51,370 --> 00:16:55,339
+provavelmente não é nesse caso aí a
+
+401
+00:16:53,690 --> 00:16:57,399
+diferença pode estar no perfil das
+
+402
+00:16:55,339 --> 00:17:01,339
+pessoas um dos meus alunos de Mestrado
+
+403
+00:16:57,399 --> 00:17:03,950
+agora tá estudando é o que significa uma
+
+404
+00:17:01,339 --> 00:17:05,808
+atividade ser desafiadora e ele tá
+
+405
+00:17:03,950 --> 00:17:08,360
+estudando especificamente testadores né
+
+406
+00:17:05,808 --> 00:17:09,920
+e dentre outras coisas aí o resultado
+
+407
+00:17:08,359 --> 00:17:12,229
+dele acontecer justamente para
+
+408
+00:17:09,920 --> 00:17:15,170
+importância ali dentro da existência de
+
+409
+00:17:12,230 --> 00:17:17,360
+um fator de novidade no trabalho é então
+
+410
+00:17:15,170 --> 00:17:19,130
+para alguns pescadores que já estão na
+
+411
+00:17:17,359 --> 00:17:20,719
+função algum tempo aquilo ali pode não
+
+412
+00:17:19,130 --> 00:17:22,790
+ser mais novidades e se tornar uma
+
+413
+00:17:20,720 --> 00:17:25,529
+atividade repetitiva para outros não
+
+414
+00:17:22,789 --> 00:17:28,730
+para outros pode ser um negocinho e nem
+
+415
+00:17:25,529 --> 00:17:31,379
+instigante Então esse fator novidade aí
+
+416
+00:17:28,730 --> 00:17:34,380
+aqui porque eu até chamo de aprendizado
+
+417
+00:17:31,380 --> 00:17:37,440
+útil para na Teoria de Motivação é um
+
+418
+00:17:34,380 --> 00:17:40,350
+elemento que influencia fortemente na
+
+419
+00:17:37,440 --> 00:17:42,720
+motivação é tem outra situação que só
+
+420
+00:17:40,349 --> 00:17:44,879
+fica bem Evidente né que estão em
+
+421
+00:17:42,720 --> 00:17:46,710
+projetos de maior duração é
+
+422
+00:17:44,880 --> 00:17:50,010
+especialmente aqueles que adotam
+
+423
+00:17:46,710 --> 00:17:52,950
+metodologias mais tradição é eles eles
+
+424
+00:17:50,009 --> 00:17:56,579
+são bem desafiadores para se manter os
+
+425
+00:17:52,950 --> 00:17:59,700
+altos 10 graus de motivação daqui porque
+
+426
+00:17:56,579 --> 00:18:01,619
+no início do projeto a gente até tem as
+
+427
+00:17:59,700 --> 00:18:03,630
+pessoas até aprendem muita coisa não
+
+428
+00:18:01,619 --> 00:18:05,369
+tenho muita novidade relevante ali mas
+
+429
+00:18:03,630 --> 00:18:07,920
+ao longo do tempo essa novidade vai se
+
+430
+00:18:05,369 --> 00:18:10,259
+esvaindo né existe entre fases de maior
+
+431
+00:18:07,920 --> 00:18:12,210
+trabalho repetitivo que o sucesso vai
+
+432
+00:18:10,259 --> 00:18:15,089
+depender muito mais da disciplina do que
+
+433
+00:18:12,210 --> 00:18:17,490
+dá motivação ali das pessoas Então nesse
+
+434
+00:18:15,089 --> 00:18:19,740
+caso aí por exemplo a característica do
+
+435
+00:18:17,490 --> 00:18:21,599
+projeto é relevante também as
+
+436
+00:18:19,740 --> 00:18:23,609
+características dos processos de
+
+437
+00:18:21,599 --> 00:18:26,709
+desenvolvimento adotado também é Vou
+
+438
+00:18:23,609 --> 00:18:29,379
+pesar bastante é a mensagem agens de
+
+439
+00:18:26,710 --> 00:18:31,660
+verdade né sofrer um pouco menos desse
+
+440
+00:18:29,380 --> 00:18:34,150
+problema porque as coisas novas vão
+
+441
+00:18:31,660 --> 00:18:36,490
+aparecer e vão ser feitas ali o tempo e
+
+442
+00:18:34,150 --> 00:18:38,200
+nesses processais nele desenvolvedores
+
+443
+00:18:36,490 --> 00:18:41,200
+acabam ficando mais próximo do cliente
+
+444
+00:18:38,200 --> 00:18:44,170
+compreendendo melhor é suas necessidades
+
+445
+00:18:41,200 --> 00:18:47,200
+os seus problemas até gente requisitos
+
+446
+00:18:44,170 --> 00:18:49,660
+gerente de projeto naturalmente tem uma
+
+447
+00:18:47,200 --> 00:18:51,039
+maior responsabilidade percebida nessa
+
+448
+00:18:49,660 --> 00:18:53,980
+dos projetos que eles estão participando
+
+449
+00:18:51,039 --> 00:18:56,529
+é e conseguem ter ali uma visão mais
+
+450
+00:18:53,980 --> 00:18:58,900
+clara do resultado de impacto do
+
+451
+00:18:56,529 --> 00:19:02,019
+trabalho dele esse dois fatores a
+
+452
+00:18:58,900 --> 00:19:05,320
+responsabilidade percebida e o feedback
+
+453
+00:19:02,019 --> 00:19:07,450
+sobre o impacto do trabalho dele é são
+
+454
+00:19:05,319 --> 00:19:09,159
+duas das coisas que a gente descobriu aí
+
+455
+00:19:07,450 --> 00:19:12,130
+são importantíssimos para desenvolver
+
+456
+00:19:09,160 --> 00:19:14,410
+altos graus e engajamento das pessoas no
+
+457
+00:19:12,130 --> 00:19:17,020
+trabalho engajamento é um dos sinais de
+
+458
+00:19:14,410 --> 00:19:19,450
+motivação é em quanto mais o indivíduo
+
+459
+00:19:17,019 --> 00:19:22,150
+percebe que o sucesso e determinado o
+
+460
+00:19:19,450 --> 00:19:24,799
+projeto processo depende dele é que
+
+461
+00:19:22,150 --> 00:19:27,440
+aquilo é responsabilidade sua
+
+462
+00:19:24,799 --> 00:19:29,470
+eu comecei a motivação dele bem maior
+
+463
+00:19:27,440 --> 00:19:32,900
+também você a probabilidade de alcançar
+
+464
+00:19:29,470 --> 00:19:35,240
+melhores níveis de desempenho no
+
+465
+00:19:32,900 --> 00:19:37,519
+desenvolvimento do projeto eu tenho
+
+466
+00:19:35,240 --> 00:19:40,250
+outro aluno de mestrado e há uns 2 anos
+
+467
+00:19:37,519 --> 00:19:42,349
+atrás poder com pôster Luize não querem
+
+468
+00:19:40,250 --> 00:19:44,420
+coletou alguns dados lá e demonstrou que
+
+469
+00:19:42,349 --> 00:19:46,519
+até Existem algumas partes pesagens que
+
+470
+00:19:44,420 --> 00:19:48,950
+são diretamente com relacionar avisa aí
+
+471
+00:19:46,519 --> 00:19:50,930
+para motivação dos nossos clientes não
+
+472
+00:19:48,950 --> 00:19:53,059
+são todas as práticas ágeis mas tem
+
+473
+00:19:50,930 --> 00:19:55,880
+alguns bem bastante sair se destacam
+
+474
+00:19:53,059 --> 00:19:58,069
+como por exemplo a frequência né de
+
+475
+00:19:55,880 --> 00:20:01,220
+entregas as entregas rosto então no
+
+476
+00:19:58,069 --> 00:20:03,349
+final das contas é quanto menos noção de
+
+477
+00:20:01,220 --> 00:20:05,839
+responsabilidade ele significante do
+
+478
+00:20:03,349 --> 00:20:07,939
+trabalho e quanto menor for um feedback
+
+479
+00:20:05,839 --> 00:20:10,189
+feedback a vida né sobre o trabalho
+
+480
+00:20:07,940 --> 00:20:12,830
+fazendo menor vai ser a cultivação do
+
+481
+00:20:10,190 --> 00:20:15,410
+engenheiro né a lógica do sistema de
+
+482
+00:20:12,829 --> 00:20:17,359
+motivação e satisfação é a mesma para
+
+483
+00:20:15,410 --> 00:20:20,150
+todo mundo né Nós temos o mesmo o app
+
+484
+00:20:17,359 --> 00:20:21,979
+instalado ali na nossa cabeça né mas a
+
+485
+00:20:20,150 --> 00:20:23,300
+posição que os indivíduos estão no
+
+486
+00:20:21,980 --> 00:20:24,779
+processo de desenvolvimento e
+
+487
+00:20:23,299 --> 00:20:27,299
+conhecimento em
+
+488
+00:20:24,779 --> 00:20:29,609
+o indivíduo tem uma menor ou maior
+
+489
+00:20:27,299 --> 00:20:32,549
+percepção desses fatores é desses
+
+490
+00:20:29,609 --> 00:20:34,949
+ingredientes aí depois fácil estar em
+
+491
+00:20:32,549 --> 00:20:38,279
+empresas pequenas ou grandes por exemplo
+
+492
+00:20:34,950 --> 00:20:41,490
+no setor público ou privado tudo isso é
+
+493
+00:20:38,279 --> 00:20:45,349
+da diferentes argumentos de contexto aí
+
+494
+00:20:41,490 --> 00:20:47,910
+para esse nosso sistema de mais fácil é
+
+495
+00:20:45,349 --> 00:20:49,859
+processos excessivamente burocrático
+
+496
+00:20:47,910 --> 00:20:52,920
+geralmente têm e meia diminuir a nossa
+
+497
+00:20:49,859 --> 00:20:56,009
+porção de responsabilidade é o adoção
+
+498
+00:20:52,920 --> 00:20:57,390
+dos desenvolvedores ali do do impacto do
+
+499
+00:20:56,009 --> 00:21:00,750
+que eles estão fazendo aí acaba
+
+500
+00:20:57,390 --> 00:21:03,390
+afastando eles da percepção da
+
+501
+00:21:00,750 --> 00:21:06,509
+importância do trabalho deles ser bem
+
+502
+00:21:03,390 --> 00:21:08,820
+feito e tudo mais então é além de tudo
+
+503
+00:21:06,509 --> 00:21:11,069
+assim eu acho que na posição de gestor é
+
+504
+00:21:08,819 --> 00:21:14,099
+a gente ainda tem que lidar com o fato
+
+505
+00:21:11,069 --> 00:21:16,349
+de que o gestor não precisa garantir só
+
+506
+00:21:14,099 --> 00:21:17,839
+sua própria motivação e satisfação aí
+
+507
+00:21:16,349 --> 00:21:20,189
+como ele também precisa
+
+508
+00:21:17,839 --> 00:21:22,559
+administrá-lo EA motivação EA satisfação
+
+509
+00:21:20,190 --> 00:21:26,620
+das outras pessoas envolvidas no projeto
+
+510
+00:21:22,559 --> 00:21:29,799
+é isso tenho um é diferente se tem um
+
+511
+00:21:26,619 --> 00:21:32,769
+pacto diferença então em breve o
+
+512
+00:21:29,799 --> 00:21:34,899
+contexto é leva né diferentes argumentos
+
+513
+00:21:32,769 --> 00:21:36,970
+aí no sistema Mais o nosso sistema
+
+514
+00:21:34,900 --> 00:21:40,030
+exatamente igual em qualquer posição que
+
+515
+00:21:36,970 --> 00:21:44,289
+a gente e a gente mencionou aqui sobre
+
+516
+00:21:40,029 --> 00:21:46,809
+testes né gerentes Deixa eu perguntar o
+
+517
+00:21:44,289 --> 00:21:49,629
+papel que assim comparado com esses
+
+518
+00:21:46,809 --> 00:21:52,750
+hotéis é mais recente é os Devotos né
+
+519
+00:21:49,630 --> 00:21:54,610
+que na prática normalmente é contratado
+
+520
+00:21:52,750 --> 00:21:57,660
+como de volta mas é muito mais alto do
+
+521
+00:21:54,609 --> 00:22:00,250
+que deve da isso o que eu ouço desde de
+
+522
+00:21:57,660 --> 00:22:02,650
+reclamação olhos e do pessoal que atua
+
+523
+00:22:00,250 --> 00:22:05,319
+na como de vó é porque assim uma pressão
+
+524
+00:22:02,650 --> 00:22:07,450
+muito grande né E hoje em dia com os
+
+525
+00:22:05,319 --> 00:22:08,889
+sistemas tudo na nuvem com arquitetura
+
+526
+00:22:07,450 --> 00:22:10,539
+de microserviços né que são sistemas
+
+527
+00:22:08,890 --> 00:22:12,820
+distribuídos e tem um monte de questões
+
+528
+00:22:10,539 --> 00:22:15,460
+de configuração é uma pressão muito
+
+529
+00:22:12,819 --> 00:22:17,980
+grande e Inclusive eu viu uma palestra
+
+530
+00:22:15,460 --> 00:22:19,960
+eu não me recordo o nome do palestrante
+
+531
+00:22:17,980 --> 00:22:23,410
+mas foi uma conferência grande que ele
+
+532
+00:22:19,960 --> 00:22:24,799
+falou sobre bornalte de volta e falando
+
+533
+00:22:23,410 --> 00:22:27,470
+Justamente que
+
+534
+00:22:24,799 --> 00:22:30,619
+é um grande problema é que sim tem um
+
+535
+00:22:27,470 --> 00:22:32,269
+monte de responsabilidade Mas é você tem
+
+536
+00:22:30,619 --> 00:22:34,219
+que atender uma demanda que tu não tem
+
+537
+00:22:32,269 --> 00:22:36,079
+poder de decisão Então venha decisão
+
+538
+00:22:34,220 --> 00:22:37,640
+para ti tu tem que mandar manter quilo
+
+539
+00:22:36,079 --> 00:22:39,529
+lar de acordo com aquilo foi disso então
+
+540
+00:22:37,640 --> 00:22:41,300
+eu gente não pode ser responsável por
+
+541
+00:22:39,529 --> 00:22:43,519
+uma coisa que a gente não concordou em
+
+542
+00:22:41,299 --> 00:22:46,220
+nenhum momento que fazer então a questão
+
+543
+00:22:43,519 --> 00:22:48,710
+de motivação satisfação expressa nessa
+
+544
+00:22:46,220 --> 00:22:51,289
+nessa posição é o que eu escuto é
+
+545
+00:22:48,710 --> 00:22:53,299
+bastante crítico tem algum algum
+
+546
+00:22:51,289 --> 00:22:55,460
+conhecimento específico assim sobre a
+
+547
+00:22:53,299 --> 00:22:57,139
+questão de motivação e satisfação de
+
+548
+00:22:55,460 --> 00:22:59,960
+Devotos não é o pessoal que trabalha
+
+549
+00:22:57,140 --> 00:23:02,750
+mais em um filha também Ingrid sobre The
+
+550
+00:22:59,960 --> 00:23:05,299
+Voice não eu eu não me lembro de nenhum
+
+551
+00:23:02,750 --> 00:23:08,509
+trabalho recente fiquei até curioso Aí
+
+552
+00:23:05,299 --> 00:23:10,639
+também para juntar uma galera para ele
+
+553
+00:23:08,509 --> 00:23:13,549
+deste gás ou mais de perto aí para mim
+
+554
+00:23:10,640 --> 00:23:19,190
+mas mas eu acho que que essa Sua
+
+555
+00:23:13,549 --> 00:23:21,019
+percepção tem tem o fundamento é isso
+
+556
+00:23:19,190 --> 00:23:22,759
+porque todo esses fatores que eu tô
+
+557
+00:23:21,019 --> 00:23:26,309
+falando aqui com o conheciam nada
+
+558
+00:23:22,759 --> 00:23:30,420
+motivação eles funcionam o desenho de 11
+
+559
+00:23:26,309 --> 00:23:33,029
+uma parábola invertida é ou seja se eu
+
+560
+00:23:30,420 --> 00:23:34,740
+tenho ponta percepção da
+
+561
+00:23:33,029 --> 00:23:36,629
+responsabilidade da minha
+
+562
+00:23:34,740 --> 00:23:39,059
+responsabilidade sobre todo fazer a
+
+563
+00:23:36,630 --> 00:23:41,340
+minha motivação diminui seu aumento esse
+
+564
+00:23:39,059 --> 00:23:43,829
+grau de percepção de responsabilidade
+
+565
+00:23:41,339 --> 00:23:46,829
+minha motivação Aumenta até um certo. Em
+
+566
+00:23:43,829 --> 00:23:50,009
+que um excesso de responsabilidade pode
+
+567
+00:23:46,829 --> 00:23:52,649
+novamente voltar a diminuir a minha a
+
+568
+00:23:50,009 --> 00:23:54,809
+minha motivação então todos esses
+
+569
+00:23:52,650 --> 00:23:57,030
+fatores funcionam nesse nesse forma não
+
+570
+00:23:54,809 --> 00:23:59,759
+sei se o ouvinte consegue imaginar aí na
+
+571
+00:23:57,029 --> 00:24:02,899
+sua cabeça de cabeça para baixo é então
+
+572
+00:23:59,759 --> 00:24:04,920
+quanto mais a gente atribui de
+
+573
+00:24:02,900 --> 00:24:08,670
+responsabilidade de significância do
+
+574
+00:24:04,920 --> 00:24:10,080
+trabalho de variação do trabalho é claro
+
+575
+00:24:08,670 --> 00:24:13,019
+que esses fatores e uma determinada
+
+576
+00:24:10,079 --> 00:24:16,679
+medida ali é ativa o a motivação assim
+
+577
+00:24:13,019 --> 00:24:18,950
+excesso então dá nós também o eu acho
+
+578
+00:24:16,680 --> 00:24:22,380
+que quase qualquer coisa da natureza né
+
+579
+00:24:18,950 --> 00:24:24,900
+então César a pesquisa de motivação e
+
+580
+00:24:22,380 --> 00:24:26,460
+satisfação é de interesse direto o
+
+581
+00:24:24,900 --> 00:24:28,300
+empregado
+
+582
+00:24:26,460 --> 00:24:30,279
+desenvolvedor das pessoas que trabalham
+
+583
+00:24:28,299 --> 00:24:32,680
+na área de computação que normalmente
+
+584
+00:24:30,279 --> 00:24:35,109
+elas querem se sentir motivada cestas
+
+585
+00:24:32,680 --> 00:24:37,420
+feitas com seu trabalho você já ficou
+
+586
+00:24:35,109 --> 00:24:39,789
+até um pouco anteriormente mas e as
+
+587
+00:24:37,420 --> 00:24:41,769
+empresas como é que ela se beneficiam
+
+588
+00:24:39,789 --> 00:24:44,339
+quando os engenheiros Engenheiros de
+
+589
+00:24:41,769 --> 00:24:48,549
+software são motivados e satisfeitos
+
+590
+00:24:44,339 --> 00:24:51,240
+Adolfo é começando pela motivação né é o
+
+591
+00:24:48,549 --> 00:24:53,470
+principal benefício da motivação
+
+592
+00:24:51,240 --> 00:24:56,920
+diretamente é o desempenho a um
+
+593
+00:24:53,470 --> 00:25:00,039
+indivíduo motivado consegue levar o seu
+
+594
+00:24:56,920 --> 00:25:02,140
+desempenho real ao nível mais próximo
+
+595
+00:25:00,039 --> 00:25:04,029
+possível do seu desempenho potencial
+
+596
+00:25:02,140 --> 00:25:06,100
+veja que isso que acabei de falar não é
+
+597
+00:25:04,029 --> 00:25:08,740
+muito simples Tá eu vou até pneu sorrir
+
+598
+00:25:06,099 --> 00:25:10,809
+de sair menos atentos que voltem os 5
+
+599
+00:25:08,740 --> 00:25:12,549
+segundos o áudio escuta e de novo que eu
+
+600
+00:25:10,809 --> 00:25:15,429
+acabei de falar em preste atenção
+
+601
+00:25:12,549 --> 00:25:18,639
+direito né e eu estou reforçando isso
+
+602
+00:25:15,430 --> 00:25:21,190
+porque muita gente acha que pessoas
+
+603
+00:25:18,640 --> 00:25:23,350
+motivadas produzem mais do que pessoas
+
+604
+00:25:21,190 --> 00:25:26,240
+desmotivadas isso não é verdade
+
+605
+00:25:23,349 --> 00:25:29,240
+Teoricamente a gente as pessoas
+
+606
+00:25:26,240 --> 00:25:31,460
+motivadas produzindo mais e melhor do
+
+607
+00:25:29,240 --> 00:25:33,950
+que elas próprias se não estivessem
+
+608
+00:25:31,460 --> 00:25:36,559
+motivar então o resultado de a gente ter
+
+609
+00:25:33,950 --> 00:25:39,350
+pessoas motivadas para as empresas é que
+
+610
+00:25:36,559 --> 00:25:42,500
+só assim elas vão poder aproveitar ao
+
+611
+00:25:39,349 --> 00:25:44,659
+máximo aí o produto pelo Cola estão
+
+612
+00:25:42,500 --> 00:25:46,339
+pagando né mas não se chegar no
+
+613
+00:25:44,660 --> 00:25:50,360
+restaurante pagar por um prato de comida
+
+614
+00:25:46,339 --> 00:25:53,240
+e servido só a metade Isso parece uma
+
+615
+00:25:50,359 --> 00:25:56,149
+situação absurda mas quando você tem uma
+
+616
+00:25:53,240 --> 00:25:57,859
+pessoa desmotivada daqui na equipe é
+
+617
+00:25:56,150 --> 00:25:59,600
+precisamente isso que acontece assim
+
+618
+00:25:57,859 --> 00:26:01,689
+empresário tá pagando para um salário de
+
+619
+00:25:59,599 --> 00:26:04,490
+uma pessoa que tem um determinado é
+
+620
+00:26:01,690 --> 00:26:06,740
+potencial de desempenho mas não tá
+
+621
+00:26:04,490 --> 00:26:10,160
+recebendo isso nesse ponto é importante
+
+622
+00:26:06,740 --> 00:26:12,470
+eu ressaltar também que motivação não é
+
+623
+00:26:10,160 --> 00:26:14,180
+o único antecedentes desempenho em
+
+624
+00:26:12,470 --> 00:26:16,309
+algumas empresas que até já me
+
+625
+00:26:14,180 --> 00:26:17,900
+procuraram achando que prestar vou fazer
+
+626
+00:26:16,309 --> 00:26:20,480
+um trabalho para melhorar EA motivação
+
+627
+00:26:17,900 --> 00:26:21,830
+dos colaboradores mas que a gente acabou
+
+628
+00:26:20,480 --> 00:26:24,779
+descobrindo que eles não tinham nenhum
+
+629
+00:26:21,829 --> 00:26:27,539
+problema de motivação é
+
+630
+00:26:24,779 --> 00:26:28,250
+a lavradores produziam pouco por outras
+
+631
+00:26:27,539 --> 00:26:31,170
+razões
+
+632
+00:26:28,250 --> 00:26:33,240
+relacionados a investidura ruim pouco
+
+633
+00:26:31,170 --> 00:26:35,900
+conhecimento das tecnologias que estavam
+
+634
+00:26:33,240 --> 00:26:39,089
+tendo ali ferramentas e que era ruim
+
+635
+00:26:35,900 --> 00:26:41,490
+excesso de pressão de tempo né como um
+
+636
+00:26:39,089 --> 00:26:43,589
+Ingrid aí até falou também casos é voxê
+
+637
+00:26:41,490 --> 00:26:45,960
+trem vai e ainda essas coisas ções a
+
+638
+00:26:43,589 --> 00:26:49,049
+gente acaba ele desse ano pelas pessoas
+
+639
+00:26:45,960 --> 00:26:50,970
+ali estavam de fato dando o melhor de si
+
+640
+00:26:49,049 --> 00:26:53,789
+mas o problema é que dá o melhor de si
+
+641
+00:26:50,970 --> 00:26:55,259
+naquelas condições não tinha como se
+
+642
+00:26:53,789 --> 00:26:58,440
+transformar em um desempenho muito
+
+643
+00:26:55,259 --> 00:27:00,450
+exemplo motivação não é uma bala de
+
+644
+00:26:58,440 --> 00:27:03,240
+prata não vai resolver todos os
+
+645
+00:27:00,450 --> 00:27:05,850
+problemas da empresa é e quando eu falo
+
+646
+00:27:03,240 --> 00:27:08,160
+desempenho aqui entendeu como o
+
+647
+00:27:05,849 --> 00:27:10,949
+qualidade dos artefatos quantidade de
+
+648
+00:27:08,160 --> 00:27:13,200
+código produzido poucos bugs é parado
+
+649
+00:27:10,950 --> 00:27:15,569
+sair da forma como é ter um trabalho
+
+650
+00:27:13,200 --> 00:27:17,910
+recente do grupo do Daniel Brazil team
+
+651
+00:27:15,569 --> 00:27:20,549
+da Universidade de estudar e demonstra
+
+652
+00:27:17,910 --> 00:27:22,890
+vários desses diferentes e de outro de
+
+653
+00:27:20,549 --> 00:27:26,019
+um outro lado né os efeitos direto da
+
+654
+00:27:22,890 --> 00:27:28,420
+satisfação são com a intenção de
+
+655
+00:27:26,019 --> 00:27:31,509
+continuação do trabalho EA saúde mental
+
+656
+00:27:28,420 --> 00:27:33,789
+e física dos seus colaboradores e a
+
+657
+00:27:31,509 --> 00:27:36,220
+satisfação e o que combate diretamente
+
+658
+00:27:33,789 --> 00:27:39,460
+lutador o que em tempos de alta
+
+659
+00:27:36,220 --> 00:27:41,620
+competição O Cauã é deveria ser
+
+660
+00:27:39,460 --> 00:27:44,769
+considerado aí um fator estratégico para
+
+661
+00:27:41,619 --> 00:27:46,389
+a empresa SB que há em boa parte das
+
+662
+00:27:44,769 --> 00:27:49,059
+empresas o tempo com quem eu tenho
+
+663
+00:27:46,390 --> 00:27:51,670
+conversado é mesmo diante de um cenário
+
+664
+00:27:49,059 --> 00:27:53,589
+muito difícil de atração de capital
+
+665
+00:27:51,670 --> 00:27:55,509
+humano para as empresas nas empresas
+
+666
+00:27:53,589 --> 00:27:58,059
+geralmente mantém o áudio grau de
+
+667
+00:27:55,509 --> 00:28:00,970
+rotatividade nele se tornou no primeiro
+
+668
+00:27:58,059 --> 00:28:03,220
+ano então As pessoas entram né descobrem
+
+669
+00:28:00,970 --> 00:28:05,710
+que elas não Gostaram de trabalhar e por
+
+670
+00:28:03,220 --> 00:28:08,140
+alguma razão e e acabam saindo porque a
+
+671
+00:28:05,710 --> 00:28:11,170
+demanda né o capital humano tal a a
+
+672
+00:28:08,140 --> 00:28:13,660
+disponibilidade de outros empregos tal é
+
+673
+00:28:11,170 --> 00:28:15,900
+interes vão e vão procurar satisfação
+
+674
+00:28:13,660 --> 00:28:20,080
+realizar satisfação deles em outros
+
+675
+00:28:15,900 --> 00:28:22,960
+então de novo é satisfação deveria ser
+
+676
+00:28:20,079 --> 00:28:25,689
+um ponto a ser gerenciado aí de maneira
+
+677
+00:28:22,960 --> 00:28:28,789
+estratégica pelas pela e
+
+678
+00:28:25,690 --> 00:28:30,620
+o complemento que promete não não
+
+679
+00:28:28,789 --> 00:28:32,990
+acredito que já tenha sido feita alguma
+
+680
+00:28:30,619 --> 00:28:34,279
+pesquisa sobre isso mas é sem óculos que
+
+681
+00:28:32,990 --> 00:28:36,799
+eu tenho observado tem gente que tá aqui
+
+682
+00:28:34,279 --> 00:28:39,889
+no Brasil trabalhando uma empresa gosta
+
+683
+00:28:36,799 --> 00:28:41,899
+da empresa tá aparentemente claro eu não
+
+684
+00:28:39,890 --> 00:28:43,520
+tô lá mas o aparecimento satisfeitos mas
+
+685
+00:28:41,900 --> 00:28:45,170
+isso que você falou lá no início de
+
+686
+00:28:43,519 --> 00:28:47,240
+assim dessa competição Global aí a
+
+687
+00:28:45,170 --> 00:28:49,519
+pessoa fala olha eu estou ganhando x meu
+
+688
+00:28:47,240 --> 00:28:52,940
+reais mas tem uma empresa lá no exterior
+
+689
+00:28:49,519 --> 00:28:55,369
+que vai me pagar três vezes isso Será
+
+690
+00:28:52,940 --> 00:28:58,220
+que sou vai ser estudado o Jorge já foi
+
+691
+00:28:55,369 --> 00:29:00,500
+estudado e eu não sei sobre como essa
+
+692
+00:28:58,220 --> 00:29:02,120
+comparação com a eu estou aqui tô
+
+693
+00:29:00,500 --> 00:29:04,309
+satisfeito mas eu poderia estar ganhando
+
+694
+00:29:02,119 --> 00:29:07,009
+mais em outro lugar que talvez não não
+
+695
+00:29:04,309 --> 00:29:08,990
+tenho a garantia de que vai me vai para
+
+696
+00:29:07,009 --> 00:29:12,859
+esse lugar que você tão bom para mim é
+
+697
+00:29:08,990 --> 00:29:16,700
+veja salário é um ponto que tem tem
+
+698
+00:29:12,859 --> 00:29:18,529
+muito a ver com satisfação é porque uma
+
+699
+00:29:16,700 --> 00:29:20,660
+das expectativas né como eu falei lá do
+
+700
+00:29:18,529 --> 00:29:23,269
+nosso Gol durante tá uma expectativas da
+
+701
+00:29:20,660 --> 00:29:25,490
+pessoa que qualquer área né que que seja
+
+702
+00:29:23,269 --> 00:29:29,220
+é ser remunerado do a
+
+703
+00:29:25,490 --> 00:29:31,769
+expectativa em relação sexual é mais o
+
+704
+00:29:29,220 --> 00:29:34,380
+fato é que satisfação é uma equilíbrio
+
+705
+00:29:31,769 --> 00:29:38,160
+de vários fatores é a band a satisfação
+
+706
+00:29:34,380 --> 00:29:41,330
+de maneira sustentável é então você até
+
+707
+00:29:38,160 --> 00:29:45,720
+ou vamos ver um engenheiro de software
+
+708
+00:29:41,329 --> 00:29:48,689
+médio normal até Copa da enfrentam uma
+
+709
+00:29:45,720 --> 00:29:51,809
+situação dessa de alto e salários é
+
+710
+00:29:48,690 --> 00:29:54,240
+excessivamente altos ali em detrimento
+
+711
+00:29:51,809 --> 00:29:56,579
+de outros fatores que também seriam
+
+712
+00:29:54,240 --> 00:29:59,220
+satisfatórios para ele mas isso não é
+
+713
+00:29:56,579 --> 00:30:01,230
+sustentável certo isso e ele vai
+
+714
+00:29:59,220 --> 00:30:02,880
+conseguir se manter nesse negócio por
+
+715
+00:30:01,230 --> 00:30:04,440
+algum O que é ótimo para fazer um
+
+716
+00:30:02,880 --> 00:30:06,540
+pé-de-meia por exemplo se você fala
+
+717
+00:30:04,440 --> 00:30:09,720
+início da carreira É mas você tá falando
+
+718
+00:30:06,539 --> 00:30:11,970
+de Engenheiros plenos e seniores estão
+
+719
+00:30:09,720 --> 00:30:16,110
+buscando ou situação de muito mais
+
+720
+00:30:11,970 --> 00:30:18,180
+equilíbrio é a gente vê que que eles vão
+
+721
+00:30:16,109 --> 00:30:20,250
+buscar mesmo que sejam menores salários
+
+722
+00:30:18,180 --> 00:30:24,480
+mas que ofereçam melhores condições
+
+723
+00:30:20,250 --> 00:30:29,589
+gerais de trabalho é mais falando dessa
+
+724
+00:30:24,480 --> 00:30:31,390
+rota a idade é uma questão que o teu teu
+
+725
+00:30:29,589 --> 00:30:33,819
+livro acho que foi no livro do lado
+
+726
+00:30:31,390 --> 00:30:37,120
+americano que ele tinha comentado a
+
+727
+00:30:33,819 --> 00:30:39,339
+respeito de como era antigamente a nas
+
+728
+00:30:37,119 --> 00:30:41,079
+empresas e como é hoje em dia né Falando
+
+729
+00:30:39,339 --> 00:30:42,809
+que as empresas antigamente tinham essa
+
+730
+00:30:41,079 --> 00:30:45,460
+perspectiva de contratar funcionários
+
+731
+00:30:42,809 --> 00:30:48,190
+para vir para vida né para que eles
+
+732
+00:30:45,460 --> 00:30:50,319
+sejam eu não tenho ali se aposentem ali
+
+733
+00:30:48,190 --> 00:30:52,420
+eles contratavam pessoas que eram
+
+734
+00:30:50,319 --> 00:30:55,089
+potencialmente boas mas não
+
+735
+00:30:52,420 --> 00:30:58,060
+necessariamente com uma conhecimento
+
+736
+00:30:55,089 --> 00:31:00,699
+vasto e investiu muito em treinamento e
+
+737
+00:30:58,059 --> 00:31:02,500
+a pessoa cresci lá dentro e acabava
+
+738
+00:31:00,700 --> 00:31:05,590
+vestindo mais a camiseta daquela empresa
+
+739
+00:31:02,500 --> 00:31:07,690
+porque era a vida dela hoje em dia a
+
+740
+00:31:05,589 --> 00:31:09,609
+gente vê justamente o contrário existe
+
+741
+00:31:07,690 --> 00:31:12,730
+uma expectativa das empresas que as
+
+742
+00:31:09,609 --> 00:31:14,309
+pessoas saibam tudo mas a gente olha as
+
+743
+00:31:12,730 --> 00:31:16,269
+listas né de
+
+744
+00:31:14,309 --> 00:31:18,940
+tecnologias que eu sou o quê que é
+
+745
+00:31:16,269 --> 00:31:21,160
+esperado que o desenvolvedor né Larissa
+
+746
+00:31:18,940 --> 00:31:23,920
+bem bem gigante assim que acha que
+
+747
+00:31:21,160 --> 00:31:27,019
+assusta muito muito muito Muitas pessoas
+
+748
+00:31:23,920 --> 00:31:28,789
+que estão entre em casa né E E daí a
+
+749
+00:31:27,019 --> 00:31:31,400
+pessoa pensa assim por eu tô trazendo
+
+750
+00:31:28,789 --> 00:31:33,589
+meu conhecimento eu vou eu vou e para o
+
+751
+00:31:31,400 --> 00:31:35,840
+lugar que tá pagando mais né porque o
+
+752
+00:31:33,589 --> 00:31:38,839
+ambiente talvez não vale tanto de uma
+
+753
+00:31:35,839 --> 00:31:41,029
+empresa tem empresa então é Qual a sua
+
+754
+00:31:38,839 --> 00:31:42,859
+opinião assim sobre essa esse modelo que
+
+755
+00:31:41,029 --> 00:31:44,839
+a gente tem hoje em dia né de do
+
+756
+00:31:42,859 --> 00:31:46,849
+investimento que as empresas fazem nos
+
+757
+00:31:44,839 --> 00:31:49,159
+seus funcionários como isso impacta essa
+
+758
+00:31:46,849 --> 00:31:50,899
+situação né que isso justifica essa
+
+759
+00:31:49,160 --> 00:31:53,410
+rotatividade alta que a gente tem no
+
+760
+00:31:50,900 --> 00:31:57,440
+meio Eu acho que isso eu
+
+761
+00:31:53,410 --> 00:32:00,820
+um mecanismo de adaptação sabe e Ingrid
+
+762
+00:31:57,440 --> 00:32:03,529
+a gente passou por um tempo que a
+
+763
+00:32:00,819 --> 00:32:06,619
+existe abundância de profissionais e
+
+764
+00:32:03,529 --> 00:32:09,200
+consequentemente o mercado a parou de se
+
+765
+00:32:06,619 --> 00:32:12,829
+preocupar com é com esse lance da
+
+766
+00:32:09,200 --> 00:32:15,319
+formação e tal É lógico que essa
+
+767
+00:32:12,829 --> 00:32:17,449
+abundância nunca foi excessiva né todo
+
+768
+00:32:15,319 --> 00:32:19,369
+Especialmente na área da agência é mas
+
+769
+00:32:17,450 --> 00:32:23,660
+em algum momento não se preocupar com a
+
+770
+00:32:19,369 --> 00:32:27,029
+formação do meu pessoal é funcionava né
+
+771
+00:32:23,660 --> 00:32:29,490
+mas hoje e você veio o que a gente tem
+
+772
+00:32:27,029 --> 00:32:31,039
+visto aqui nas nossas pesquisas é um
+
+773
+00:32:29,490 --> 00:32:33,390
+movimento inverso
+
+774
+00:32:31,039 --> 00:32:35,970
+cada vez mais as empresas estão se
+
+775
+00:32:33,390 --> 00:32:38,910
+aproximando da das faculdades e em
+
+776
+00:32:35,970 --> 00:32:41,009
+alguns casos até do ensino médio certo
+
+777
+00:32:38,910 --> 00:32:44,040
+que é para levar à formação de qualidade
+
+778
+00:32:41,009 --> 00:32:46,049
+para aquele pessoal desde o início para
+
+779
+00:32:44,039 --> 00:32:48,359
+garantir que isso pessoal vai vai chegar
+
+780
+00:32:46,049 --> 00:32:51,629
+no mercado de trabalho qualificado e e
+
+781
+00:32:48,359 --> 00:32:54,899
+eles vão ter gente não é suficiente para
+
+782
+00:32:51,630 --> 00:32:56,940
+poder contratar e atender as suas
+
+783
+00:32:54,900 --> 00:32:58,920
+demandas cidade não perder negócio é
+
+784
+00:32:56,940 --> 00:33:01,049
+claro que a gente ainda ver aquela
+
+785
+00:32:58,920 --> 00:33:03,210
+preocupação né do tipo Poxa mas eu vou
+
+786
+00:33:01,049 --> 00:33:05,309
+pagar o super caro aqui o meu meu
+
+787
+00:33:03,210 --> 00:33:06,990
+colaborador e quando ele terminar o
+
+788
+00:33:05,309 --> 00:33:08,720
+curso Ele vai ser contratado pelo meu
+
+789
+00:33:06,990 --> 00:33:11,759
+concorrente é é
+
+790
+00:33:08,720 --> 00:33:13,500
+isso de novo isso é um movimento de
+
+791
+00:33:11,759 --> 00:33:17,339
+mercado Sabe eu acho que o que a gente
+
+792
+00:33:13,500 --> 00:33:19,470
+precisa é é entender as proporções não
+
+793
+00:33:17,339 --> 00:33:22,439
+deixar de oferecer a qualificação para
+
+794
+00:33:19,470 --> 00:33:25,839
+as pessoas e entender Qual é a proporção
+
+795
+00:33:22,440 --> 00:33:27,240
+das pessoas que saem é e porque ela e da
+
+796
+00:33:25,839 --> 00:33:28,980
+empresa
+
+797
+00:33:27,240 --> 00:33:31,720
+SMS
+
+798
+00:33:28,980 --> 00:33:34,240
+aspecto pelo menos da da qualificação
+
+799
+00:33:31,720 --> 00:33:36,339
+profissional Está sendo atendido como eu
+
+800
+00:33:34,240 --> 00:33:39,039
+falei antes A satisfação é dado para o
+
+801
+00:33:36,339 --> 00:33:40,629
+equilíbrio de várias é então também se
+
+802
+00:33:39,039 --> 00:33:42,279
+eu dou todas as oportunidades do mundo
+
+803
+00:33:40,630 --> 00:33:45,190
+para pessoas podem ficar e paga o
+
+804
+00:33:42,279 --> 00:33:47,920
+salário ruim é natural né que essa
+
+805
+00:33:45,190 --> 00:33:52,539
+pessoa vá buscar e cuidar de equilíbrio
+
+806
+00:33:47,920 --> 00:33:54,070
+em outro canto é o enfim essas forças
+
+807
+00:33:52,539 --> 00:33:56,440
+precisam estar equilibrados para fazer
+
+808
+00:33:54,069 --> 00:33:59,470
+sentido não e de acordo com a literatura
+
+809
+00:33:56,440 --> 00:34:03,070
+a gente consegue identificar sinais
+
+810
+00:33:59,470 --> 00:34:05,200
+engenheiro de software o outros papéis
+
+811
+00:34:03,069 --> 00:34:07,329
+não é da área estão motivados e
+
+812
+00:34:05,200 --> 00:34:09,280
+satisfeitos precisamos se você for um
+
+813
+00:34:07,329 --> 00:34:11,579
+gerente assim eu consigo como eu consigo
+
+814
+00:34:09,280 --> 00:34:15,490
+perceber que que eu tô realmente
+
+815
+00:34:11,579 --> 00:34:17,949
+motivando a e os meus meus subordinados
+
+816
+00:34:15,489 --> 00:34:19,629
+né e ver como eles vão ser feito até
+
+817
+00:34:17,949 --> 00:34:22,210
+porque o interesse é que eles estejam
+
+818
+00:34:19,630 --> 00:34:24,250
+desenvolvendo seu potencial máximo né e
+
+819
+00:34:22,210 --> 00:34:25,510
+como que a gente consegue promover a
+
+820
+00:34:24,250 --> 00:34:30,639
+satisfação a
+
+821
+00:34:25,510 --> 00:34:33,350
+massa é é possível sim é e a motivação
+
+822
+00:34:30,639 --> 00:34:35,500
+no caso aí é observada a partir da
+
+823
+00:34:33,349 --> 00:34:39,769
+combinação de dois mais é que o
+
+824
+00:34:35,500 --> 00:34:41,570
+engajamento e o foco bem visível né o
+
+825
+00:34:39,769 --> 00:34:43,119
+engajamento é basicamente percebido
+
+826
+00:34:41,570 --> 00:34:46,370
+Alerta nessa aplicação
+
+827
+00:34:43,119 --> 00:34:49,400
+volitiva no espaço físico em uma
+
+828
+00:34:46,369 --> 00:34:52,549
+atividade certo e o foco é aplicação do
+
+829
+00:34:49,400 --> 00:34:55,670
+exposto cognitivo da atenção é embora o
+
+830
+00:34:52,550 --> 00:34:57,830
+álcool seja o aspecto mais mais abstrato
+
+831
+00:34:55,670 --> 00:35:00,230
+assim ele até um aluno de Mestrado meu
+
+832
+00:34:57,829 --> 00:35:02,690
+tio investigou Esse aspecto e defendeu a
+
+833
+00:35:00,230 --> 00:35:05,960
+dissertação dele lá os anos atrás em que
+
+834
+00:35:02,690 --> 00:35:08,300
+ele foi coletar dados de auto percepção
+
+835
+00:35:05,960 --> 00:35:10,579
+de Engenheiros de sofre sobre o seu foco
+
+836
+00:35:08,300 --> 00:35:12,380
+em diferentes momentos do dia cruzou
+
+837
+00:35:10,579 --> 00:35:15,170
+esses dados com a percepção de
+
+838
+00:35:12,380 --> 00:35:17,570
+observadores externos é que no caso ali
+
+839
+00:35:15,170 --> 00:35:20,389
+eram os líderes técnica é dentro de
+
+840
+00:35:17,570 --> 00:35:22,460
+equipes reais de morrer sofre ele
+
+841
+00:35:20,389 --> 00:35:24,779
+evidenciou aí que a diferença de
+
+842
+00:35:22,460 --> 00:35:27,050
+percepção é insignificante ocidental um
+
+843
+00:35:24,780 --> 00:35:30,000
+pouco é algo que a gente consegue
+
+844
+00:35:27,050 --> 00:35:32,010
+observar de fora é então engajamento e o
+
+845
+00:35:30,000 --> 00:35:36,210
+foco são as duas coisas que precisa tá
+
+846
+00:35:32,010 --> 00:35:39,510
+ligado à para observar Se as pessoas a
+
+847
+00:35:36,210 --> 00:35:40,920
+tão motivação certa o que de certa forma
+
+848
+00:35:39,510 --> 00:35:43,710
+a gente conseguiu fazer isso de maneira
+
+849
+00:35:40,920 --> 00:35:47,400
+relativamente simples quando o trabalho
+
+850
+00:35:43,710 --> 00:35:49,409
+com localizado ainda existia né agora
+
+851
+00:35:47,400 --> 00:35:52,680
+que a gente está totalmente virtual
+
+852
+00:35:49,409 --> 00:35:55,379
+online distribuído é isso ficou um pouco
+
+853
+00:35:52,679 --> 00:35:57,719
+mais difícil né É só uma pergunta esse é
+
+854
+00:35:55,380 --> 00:35:59,789
+o famoso ou que a gente fala de
+
+855
+00:35:57,719 --> 00:36:02,549
+desenvolvedor de torta Nega eu tô
+
+856
+00:35:59,789 --> 00:36:06,239
+entrando no forno é o foco é esse flor
+
+857
+00:36:02,550 --> 00:36:10,680
+que a gente sempre almeja Isa esapos
+
+858
+00:36:06,239 --> 00:36:13,799
+louro é um é um é um episódio de alta
+
+859
+00:36:10,679 --> 00:36:16,500
+motivação certo o flor a teoria do fluxo
+
+860
+00:36:13,800 --> 00:36:18,690
+lado do errado errado no final era né
+
+861
+00:36:16,500 --> 00:36:20,579
+estava vivo até alguns dias e
+
+862
+00:36:18,690 --> 00:36:23,220
+improdutivo não pesquisadores temas mais
+
+863
+00:36:20,579 --> 00:36:26,590
+produtivo é ele ele descreve ou como
+
+864
+00:36:23,219 --> 00:36:28,899
+esse episódio de um bastão Nem que a
+
+865
+00:36:26,590 --> 00:36:31,210
+gente perde noção um exemplo até não tem
+
+866
+00:36:28,900 --> 00:36:32,619
+é a gente passa horas e horas ali
+
+867
+00:36:31,210 --> 00:36:35,199
+envolvido com aquele problema e quando
+
+868
+00:36:32,619 --> 00:36:38,799
+terminou né a gente lembra que tá com
+
+869
+00:36:35,199 --> 00:36:41,259
+fome então tem alguns aspectos aí e se
+
+870
+00:36:38,800 --> 00:36:43,360
+sobressai né o engajamento e o foco são
+
+871
+00:36:41,260 --> 00:36:45,090
+tão intensos que a gente diminui até
+
+872
+00:36:43,360 --> 00:36:48,610
+atenção para
+
+873
+00:36:45,090 --> 00:36:51,490
+aspectos mais básicos alísios do
+
+874
+00:36:48,610 --> 00:36:54,519
+comportamento né então assim e esse Flow
+
+875
+00:36:51,489 --> 00:36:56,979
+é esse episódio intenso aí de motivo
+
+876
+00:36:54,519 --> 00:36:59,500
+assim é então que deu para aprender lá
+
+877
+00:36:56,980 --> 00:37:03,280
+com o estudo que a gente fez no durante
+
+878
+00:36:59,500 --> 00:37:05,769
+o doutorado é possível administrar a
+
+879
+00:37:03,280 --> 00:37:08,320
+motivação É principalmente através do
+
+880
+00:37:05,769 --> 00:37:11,019
+designer do Trabalho sabe design do
+
+881
+00:37:08,320 --> 00:37:13,050
+trabalho é desrespeito aliás forma como
+
+882
+00:37:11,019 --> 00:37:15,519
+a gente organiza processos atividades
+
+883
+00:37:13,050 --> 00:37:18,220
+distribuir responsabilidades organizar
+
+884
+00:37:15,519 --> 00:37:20,139
+publicação em vários aspectos da vida da
+
+885
+00:37:18,219 --> 00:37:22,239
+dinâmica do processo de desenvolvimento
+
+886
+00:37:20,139 --> 00:37:24,799
+é eu acho até que eu já Adiantei alguns
+
+887
+00:37:22,239 --> 00:37:28,339
+fatores aí mas se forma resumida
+
+888
+00:37:24,800 --> 00:37:31,250
+e a criatividade demandada pela tarefa a
+
+889
+00:37:28,340 --> 00:37:33,289
+variedade do trabalho a percepção que as
+
+890
+00:37:31,250 --> 00:37:35,869
+pessoas têm sobre desafio a o
+
+891
+00:37:33,289 --> 00:37:37,429
+aprendizado útil né que ele vai extrair
+
+892
+00:37:35,869 --> 00:37:40,039
+ali a partir daquilo que ele tá fazendo
+
+893
+00:37:37,429 --> 00:37:42,349
+EA percepção do impacto do trabalho só
+
+894
+00:37:40,039 --> 00:37:45,619
+ela mente que vai fechar fortemente do
+
+895
+00:37:42,349 --> 00:37:47,480
+engajamento dos Engenhos é e de maneira
+
+896
+00:37:45,619 --> 00:37:49,730
+recursiva até né o engajamento dos
+
+897
+00:37:47,480 --> 00:37:51,820
+colegas de trabalho também conheciam o
+
+898
+00:37:49,730 --> 00:37:54,289
+engajamento do
+
+899
+00:37:51,820 --> 00:37:56,510
+engenheiro positivamente ou
+
+900
+00:37:54,289 --> 00:38:00,730
+negativamente né a boa notícia que ela
+
+901
+00:37:56,510 --> 00:38:03,440
+influencia para os dois lados né ah tem
+
+902
+00:38:00,730 --> 00:38:05,380
+estudo sobre personalidade de engenheiro
+
+903
+00:38:03,440 --> 00:38:08,690
+e só fica é um tema bastante recorrente
+
+904
+00:38:05,380 --> 00:38:10,640
+necessário comunicação e colaboração em
+
+905
+00:38:08,690 --> 00:38:14,059
+projetos resposta é o outro tema bem
+
+906
+00:38:10,639 --> 00:38:16,609
+quente né é de supetão assim são os mais
+
+907
+00:38:14,059 --> 00:38:18,769
+presentes eu consigo lembrar é mais um
+
+908
+00:38:16,610 --> 00:38:21,220
+pouco mais de cinco anos foi criado um
+
+909
+00:38:18,769 --> 00:38:23,509
+evento satélite da conferência da SPC
+
+910
+00:38:21,219 --> 00:38:26,789
+chamado o shopping e aspectos sociais
+
+911
+00:38:23,510 --> 00:38:28,980
+humanos econômico e eu achei é um
+
+912
+00:38:26,789 --> 00:38:32,309
+excelente fórum Nacional aí sobre
+
+913
+00:38:28,980 --> 00:38:33,929
+divulgação nem de pesquisa Dessa rádio é
+
+914
+00:38:32,309 --> 00:38:36,570
+incrível internacional aí a gente já
+
+915
+00:38:33,929 --> 00:38:38,029
+tinha um pouco mais de tempo né que a
+
+916
+00:38:36,570 --> 00:38:39,900
+conferência de aspectos humanos
+
+917
+00:38:38,030 --> 00:38:43,050
+engenharia de software conferência
+
+918
+00:38:39,900 --> 00:38:45,139
+internacional que acontece dentro do tem
+
+919
+00:38:43,050 --> 00:38:48,150
+que talvez seja aí o principal foram
+
+920
+00:38:45,139 --> 00:38:50,069
+desse tema na nossa área no meu grupo de
+
+921
+00:38:48,150 --> 00:38:52,590
+pesquisa em particular eu tenho
+
+922
+00:38:50,070 --> 00:38:54,390
+desenvolvido algumas outras pesquisas
+
+923
+00:38:52,590 --> 00:38:57,240
+relacionadas aí a dinâmica do trabalho
+
+924
+00:38:54,389 --> 00:39:00,059
+aqui certo que inclui ali processos de
+
+925
+00:38:57,239 --> 00:39:01,819
+um board é processo de transição de
+
+926
+00:39:00,059 --> 00:39:04,920
+equipes gerar spray equipes
+
+927
+00:39:01,820 --> 00:39:07,019
+autogerenciadas adoção de estratégias de
+
+928
+00:39:04,920 --> 00:39:09,809
+gamificação em processo de
+
+929
+00:39:07,019 --> 00:39:11,699
+desenvolvimento no setor positivo é é
+
+930
+00:39:09,809 --> 00:39:15,269
+super curioso a gente vem como
+
+931
+00:39:11,699 --> 00:39:18,059
+gameficação é basicamente uma capa para
+
+932
+00:39:15,269 --> 00:39:20,699
+implementação a lide técnicas de design
+
+933
+00:39:18,059 --> 00:39:23,070
+do trabalho motivador é que trabalha num
+
+934
+00:39:20,699 --> 00:39:25,539
+nível bastante e operacional assim então
+
+935
+00:39:23,070 --> 00:39:27,610
+Enquanto Aqui eu trago tô como aumentar
+
+936
+00:39:25,539 --> 00:39:29,320
+o terror para explicar como resolver o
+
+937
+00:39:27,610 --> 00:39:31,420
+problema é a turma que vem trabalhando
+
+938
+00:39:29,320 --> 00:39:32,769
+com dedicação tá conseguindo resolver o
+
+939
+00:39:31,420 --> 00:39:35,920
+problema você entendeu muito bem o
+
+940
+00:39:32,769 --> 00:39:38,469
+porquê então eu acho que essas essas a
+
+941
+00:39:35,920 --> 00:39:40,240
+prática se combinam muito dentro do
+
+942
+00:39:38,469 --> 00:39:41,980
+nosso estudo e aí a gente vem
+
+943
+00:39:40,239 --> 00:39:44,979
+trabalhando também com seu momento e só
+
+944
+00:39:41,980 --> 00:39:47,230
+fios ligeiro só é o desenvolvimento de
+
+945
+00:39:44,980 --> 00:39:49,659
+cultura e de transformação digital e
+
+946
+00:39:47,230 --> 00:39:52,929
+negócios de qualquer área né de outras
+
+947
+00:39:49,659 --> 00:39:54,730
+naturezas aí é e mais recentemente eu
+
+948
+00:39:52,929 --> 00:39:57,339
+venho mergulhando bastante do problema
+
+949
+00:39:54,730 --> 00:39:59,110
+do Espinheiro é que tem muito a ver ou
+
+950
+00:39:57,340 --> 00:40:01,450
+que a galera vem segundo genericamente
+
+951
+00:39:59,110 --> 00:40:04,840
+por aí ou uma carência de capital humano
+
+952
+00:40:01,449 --> 00:40:06,909
+qualificado no setor de tem legal é um
+
+953
+00:40:04,840 --> 00:40:08,769
+monte de coisa né uma áreas ter
+
+954
+00:40:06,909 --> 00:40:13,509
+interessante né E tem tanta coisa para
+
+955
+00:40:08,769 --> 00:40:16,840
+estudar então e França há dez anos eu tô
+
+956
+00:40:13,510 --> 00:40:18,280
+publicou um estudo que fez uma uma
+
+957
+00:40:16,840 --> 00:40:19,780
+revisão da literatura sobre a
+
+958
+00:40:18,280 --> 00:40:22,870
+importância de compreender a motivação
+
+959
+00:40:19,780 --> 00:40:25,940
+no campo da engenharia de software mas
+
+960
+00:40:22,869 --> 00:40:29,539
+mais recentemente inclusive o o estudo
+
+961
+00:40:25,940 --> 00:40:32,900
+na nos principais periódicos da área né
+
+962
+00:40:29,539 --> 00:40:34,849
+o TSE o processo não sofrem de New por
+
+963
+00:40:32,900 --> 00:40:36,860
+quê que é importante entender os fatores
+
+964
+00:40:34,849 --> 00:40:38,949
+que influenciam a motivação dos
+
+965
+00:40:36,860 --> 00:40:42,769
+Engenheiros o engenheiro de software
+
+966
+00:40:38,949 --> 00:40:45,739
+alguma coisa mudou entre a a tua
+
+967
+00:40:42,769 --> 00:40:48,409
+investigação de 2011 para para essa mais
+
+968
+00:40:45,739 --> 00:40:51,799
+atual Ingrid essas duas publicações
+
+969
+00:40:48,409 --> 00:40:55,009
+foram parte do mesmo projeto assim em
+
+970
+00:40:51,800 --> 00:40:57,320
+2011 a gente da Verdade atualizou a
+
+971
+00:40:55,010 --> 00:40:58,640
+revisão sistemática tinha sido feita há
+
+972
+00:40:57,320 --> 00:41:02,539
+alguns anos antes pelo grupo da
+
+973
+00:40:58,639 --> 00:41:04,129
+relinchar na Inglaterra É e foram poucos
+
+974
+00:41:02,539 --> 00:41:06,469
+assim os incrementos que a gente pode
+
+975
+00:41:04,130 --> 00:41:08,269
+ver que aconteceram em 45 anos de
+
+976
+00:41:06,469 --> 00:41:11,599
+diferença ali de uma revisão sistemática
+
+977
+00:41:08,269 --> 00:41:14,170
+para outro lá nesses textos das redes
+
+978
+00:41:11,599 --> 00:41:18,349
+temáticas das duas vocês vão encontrar
+
+979
+00:41:14,170 --> 00:41:21,320
+listas imensa CD fatores que fazem parte
+
+980
+00:41:18,349 --> 00:41:24,319
+desse universo da motivação e da
+
+981
+00:41:21,320 --> 00:41:26,400
+satisfação é mas o que incomodou a gente
+
+982
+00:41:24,320 --> 00:41:28,559
+um pouco o resultado Estados das
+
+983
+00:41:26,400 --> 00:41:30,690
+revisões sistemáticas e aqui eu tô me
+
+984
+00:41:28,559 --> 00:41:33,420
+referindo a nós como eu e o meu
+
+985
+00:41:30,690 --> 00:41:35,940
+orientador né Né o Fábio Silva é que
+
+986
+00:41:33,420 --> 00:41:37,950
+basicamente as revisões juntavam uma
+
+987
+00:41:35,940 --> 00:41:39,780
+lista enorme de fatores é que
+
+988
+00:41:37,949 --> 00:41:42,960
+supostamente podíamos fechar na
+
+989
+00:41:39,780 --> 00:41:44,280
+motivação e na satisfação Mas a gente
+
+990
+00:41:42,960 --> 00:41:47,429
+não conseguia compreender exatamente
+
+991
+00:41:44,280 --> 00:41:49,019
+como foi aí a partir das revisões que a
+
+992
+00:41:47,429 --> 00:41:51,509
+gente desenhou que veio a ser o meu
+
+993
+00:41:49,019 --> 00:41:54,090
+projeto lamento é que a gente foi a
+
+994
+00:41:51,510 --> 00:41:56,250
+Campo realizar pesquisas ou empresas
+
+995
+00:41:54,090 --> 00:41:57,840
+aqui de Recife a gente entrou nas
+
+996
+00:41:56,250 --> 00:42:00,119
+empresas lá entrevistou um monte de
+
+997
+00:41:57,840 --> 00:42:03,210
+gente intuito além de entender como
+
+998
+00:42:00,119 --> 00:42:05,969
+aquele processo de influência acontece
+
+999
+00:42:03,210 --> 00:42:08,280
+né com aqueles fatores afetam a
+
+1000
+00:42:05,969 --> 00:42:11,609
+motivação EA satisfação das pessoas na
+
+1001
+00:42:08,280 --> 00:42:13,410
+prática e e era importante para gente
+
+1002
+00:42:11,610 --> 00:42:16,079
+também essa prática tivesse algum
+
+1003
+00:42:13,409 --> 00:42:18,149
+respaldo na teoria é que como eu falei
+
+1004
+00:42:16,079 --> 00:42:19,769
+ali no início da conversa das redes como
+
+1005
+00:42:18,150 --> 00:42:22,230
+pesquisadores a gente não podia ignorar
+
+1006
+00:42:19,769 --> 00:42:24,809
+que existe aí quase uma centena de anos
+
+1007
+00:42:22,230 --> 00:42:27,070
+de pesquisa já realizada nessa área é
+
+1008
+00:42:24,809 --> 00:42:28,929
+marcadamente avisa área da Psicologia
+
+1009
+00:42:27,070 --> 00:42:32,769
+organizacional tá gente precisava beber
+
+1010
+00:42:28,929 --> 00:42:34,119
+não foi aí nesse trabalho que nasceu que
+
+1011
+00:42:32,769 --> 00:42:36,099
+a gente chamou mais para frente de
+
+1012
+00:42:34,119 --> 00:42:40,299
+Teoria de Motivação e satisfação de
+
+1013
+00:42:36,099 --> 00:42:42,549
+Engenheiros de sof é até em MS é que é o
+
+1014
+00:42:40,300 --> 00:42:45,250
+que tá contado lá no paper é que foi
+
+1015
+00:42:42,550 --> 00:42:48,370
+aceite 2018 no TSE no transactions
+
+1016
+00:42:45,250 --> 00:42:51,250
+sofrem dizer então que esse paper trás é
+
+1017
+00:42:48,369 --> 00:42:54,250
+um explicação bem detalhada do como que
+
+1018
+00:42:51,250 --> 00:42:56,590
+faltavam a gente explica lá com tudo
+
+1019
+00:42:54,250 --> 00:42:59,230
+acontece é como se fosse a especificação
+
+1020
+00:42:56,590 --> 00:43:00,730
+completa daquele algoritmo que eu falei
+
+1021
+00:42:59,230 --> 00:43:03,099
+antes sabia que eu chamei no nosso
+
+1022
+00:43:00,730 --> 00:43:06,010
+sistema de motivação e satisfação esse
+
+1023
+00:43:03,099 --> 00:43:08,920
+projeto na prática ali se encerrou por
+
+1024
+00:43:06,010 --> 00:43:11,050
+volta de 2014 quando eu defendi o meu do
+
+1025
+00:43:08,920 --> 00:43:13,930
+trabalho mas eu demorei um pouco mais
+
+1026
+00:43:11,050 --> 00:43:17,110
+para transformar a tese e feita é E aí
+
+1027
+00:43:13,929 --> 00:43:18,759
+por isso que ele só saiu ali e 2018 ele
+
+1028
+00:43:17,110 --> 00:43:21,610
+foi aceito na verdade mas foi publicado
+
+1029
+00:43:18,760 --> 00:43:23,830
+somente no ano passado é nesse período
+
+1030
+00:43:21,610 --> 00:43:26,210
+aí a própria teoria também sofreu alguns
+
+1031
+00:43:23,829 --> 00:43:28,429
+refinamentos de Cipó é mas como eu falei
+
+1032
+00:43:26,210 --> 00:43:31,940
+a isso tudo ser parte do mesmo projeto
+
+1033
+00:43:28,429 --> 00:43:33,710
+né como se você momentos incrementais
+
+1034
+00:43:31,940 --> 00:43:37,550
+ali no mesmo projeto eu acho que esse
+
+1035
+00:43:33,710 --> 00:43:40,490
+produto final é que que é a Teoria de
+
+1036
+00:43:37,550 --> 00:43:43,039
+Motivação satisfação dizer sofre um
+
+1037
+00:43:40,489 --> 00:43:45,169
+produto ou bastante maduro Essa é ele
+
+1038
+00:43:43,039 --> 00:43:47,360
+que tá lá no tecido então Sucesso
+
+1039
+00:43:45,170 --> 00:43:51,380
+pegando o gancho de outra investigação
+
+1040
+00:43:47,360 --> 00:43:53,720
+que você fez o que o layout do
+
+1041
+00:43:51,380 --> 00:43:55,849
+escritório onde influenciam a motivação
+
+1042
+00:43:53,719 --> 00:43:57,829
+e eu ainda acrescentaria o que que ser
+
+1043
+00:43:55,849 --> 00:44:01,099
+ver hoje com todo mundo trabalhando
+
+1044
+00:43:57,829 --> 00:44:03,079
+online não trabalhando online pois é
+
+1045
+00:44:01,099 --> 00:44:05,960
+essa essa pesquisa de layout de
+
+1046
+00:44:03,079 --> 00:44:09,190
+escritório nasceu aí um pouco ocorrência
+
+1047
+00:44:05,960 --> 00:44:11,990
+da pandemia né É E
+
+1048
+00:44:09,190 --> 00:44:13,730
+na prática o layout influencia assim
+
+1049
+00:44:11,989 --> 00:44:16,789
+certo mas gente o layout do escritório
+
+1050
+00:44:13,730 --> 00:44:19,190
+ali é um hacker onde a gente estala o
+
+1051
+00:44:16,789 --> 00:44:21,710
+nosso peepli né nossa equipe de
+
+1052
+00:44:19,190 --> 00:44:24,170
+desenvolvimento é então layout pode ser
+
+1053
+00:44:21,710 --> 00:44:26,400
+mais ou menos propício ali para ajudar
+
+1054
+00:44:24,170 --> 00:44:28,740
+em aspecto e dá motivação né uma
+
+1055
+00:44:26,400 --> 00:44:30,690
+percepção dos resultados do trabalho ou
+
+1056
+00:44:28,739 --> 00:44:33,869
+para administrar carga cognitiva dos
+
+1057
+00:44:30,690 --> 00:44:35,639
+Engenheiros né é isso e essa pesquisa de
+
+1058
+00:44:33,869 --> 00:44:38,429
+layout de escritório é um caso muito
+
+1059
+00:44:35,639 --> 00:44:40,829
+interessante sabe porque aqui nas fezes
+
+1060
+00:44:38,429 --> 00:44:42,599
+ou School Nos programas de mestrado e
+
+1061
+00:44:40,829 --> 00:44:44,909
+doutorado profissionais a gente trabalha
+
+1062
+00:44:42,599 --> 00:44:47,909
+quase que integralmente com demandas
+
+1063
+00:44:44,909 --> 00:44:49,710
+reais do setor produtivo trazidos ali na
+
+1064
+00:44:47,909 --> 00:44:53,250
+maioria das vezes pelos nossos próprios
+
+1065
+00:44:49,710 --> 00:44:55,230
+alunos e aí a gente parei ali conecta os
+
+1066
+00:44:53,250 --> 00:44:57,420
+interesses dos alunos os interesses de
+
+1067
+00:44:55,230 --> 00:44:59,490
+pesquisa dos orientadores é igual dos
+
+1068
+00:44:57,420 --> 00:45:02,430
+projetos e esse foi o caso que me marcou
+
+1069
+00:44:59,489 --> 00:45:04,049
+bastante assim os meus alunos o Vitor
+
+1070
+00:45:02,429 --> 00:45:05,579
+tava liderando a equipe de
+
+1071
+00:45:04,050 --> 00:45:07,500
+desenvolvimento da empresa que ele tava
+
+1072
+00:45:05,579 --> 00:45:09,329
+trabalhando lá e me lembro eu me lembro
+
+1073
+00:45:07,500 --> 00:45:11,369
+de ter citado que eles estavam sendo
+
+1074
+00:45:09,329 --> 00:45:15,239
+sobre a remodelagem do ambiente de
+
+1075
+00:45:11,369 --> 00:45:17,819
+trabalho deles e aí ele me perguntou se
+
+1076
+00:45:15,239 --> 00:45:19,829
+eu conhecia alguns trabalhos que partiu
+
+1077
+00:45:17,820 --> 00:45:21,600
+para investigar E aí embora a gente
+
+1078
+00:45:19,829 --> 00:45:23,549
+encontrasse várias referências assim da
+
+1079
+00:45:21,599 --> 00:45:26,380
+prática né de empresas contemporâneas
+
+1080
+00:45:23,550 --> 00:45:30,010
+ali que tinham a raça de layout para
+
+1081
+00:45:26,380 --> 00:45:33,010
+layout mais aberto a gente não encontrou
+
+1082
+00:45:30,010 --> 00:45:35,950
+muitos trabalhos convincentes na
+
+1083
+00:45:33,010 --> 00:45:38,620
+engenharia de software que versassem a
+
+1084
+00:45:35,949 --> 00:45:40,899
+lista das vantagens ou desvantagens que
+
+1085
+00:45:38,619 --> 00:45:43,329
+detectar o tipo de layout sobre a gente
+
+1086
+00:45:40,900 --> 00:45:46,780
+até publicou a revisão literária dele
+
+1087
+00:45:43,329 --> 00:45:49,090
+não vem 2019 no CV sorte né E aí se
+
+1088
+00:45:46,780 --> 00:45:51,490
+mostrava lá que não tinha muitos estudos
+
+1089
+00:45:49,090 --> 00:45:53,980
+sobre isso então galera tava fazendo
+
+1090
+00:45:51,489 --> 00:45:56,559
+meio que na Vibe porque é legal e porque
+
+1091
+00:45:53,980 --> 00:45:58,599
+tinha muita gente fazer uma seguinte ele
+
+1092
+00:45:56,559 --> 00:46:01,150
+desenhou uma pesquisa de campo e aí
+
+1093
+00:45:58,599 --> 00:46:03,789
+coletou dados várias empresas com
+
+1094
+00:46:01,150 --> 00:46:06,760
+layouts variados nessa empresas né e
+
+1095
+00:46:03,789 --> 00:46:09,849
+conseguiu residenciale que e os espaços
+
+1096
+00:46:06,760 --> 00:46:12,580
+abertos esse ativamente eram o layout
+
+1097
+00:46:09,849 --> 00:46:15,759
+mais percebidos ali como facilitadores
+
+1098
+00:46:12,579 --> 00:46:17,860
+de vários aspectos do trabalho aqui é da
+
+1099
+00:46:15,760 --> 00:46:22,690
+colaboração da qualidade da comunicação
+
+1100
+00:46:17,860 --> 00:46:24,460
+da aprendizagem e em outros amigos né E
+
+1101
+00:46:22,690 --> 00:46:27,740
+como eu falei antes tenho motivação não
+
+1102
+00:46:24,460 --> 00:46:30,380
+é o o perdedor é o antecedente ali do
+
+1103
+00:46:27,739 --> 00:46:32,750
+desempenho né esses outros fatores todos
+
+1104
+00:46:30,380 --> 00:46:35,300
+conheciam também as condições de
+
+1105
+00:46:32,750 --> 00:46:37,519
+trabalho ali e e o layout do escritório
+
+1106
+00:46:35,300 --> 00:46:40,250
+para dentro das condições de trabalho né
+
+1107
+00:46:37,519 --> 00:46:42,559
+também influenciam no desempenho da
+
+1108
+00:46:40,250 --> 00:46:45,980
+Galera por outro lado a gente tem né e
+
+1109
+00:46:42,559 --> 00:46:48,889
+de novo os layouts abertos noção Nem só
+
+1110
+00:46:45,980 --> 00:46:51,559
+Maravilhas é a gente tem o fato de que
+
+1111
+00:46:48,889 --> 00:46:54,759
+eles afetam um pouquinho a carga
+
+1112
+00:46:51,559 --> 00:46:57,699
+cognitiva né Por Conta do barulho né de
+
+1113
+00:46:54,760 --> 00:47:01,760
+todo mundo no mesmo ambiente falando ali
+
+1114
+00:46:57,699 --> 00:47:03,559
+e voz alta em fim interage livre Então
+
+1115
+00:47:01,760 --> 00:47:05,690
+isso é tem o centro de seus lados
+
+1116
+00:47:03,559 --> 00:47:08,690
+positivos os seus lados negativos também
+
+1117
+00:47:05,690 --> 00:47:09,970
+Mas no geral os layouts abertos foram os
+
+1118
+00:47:08,690 --> 00:47:12,470
+que se
+
+1119
+00:47:09,969 --> 00:47:15,109
+demonstraram ainda equipe como os mais
+
+1120
+00:47:12,469 --> 00:47:17,480
+proveitosa E pelo que eu tenho visto né
+
+1121
+00:47:15,110 --> 00:47:20,420
+Depois da pandemias empresas viram
+
+1122
+00:47:17,480 --> 00:47:23,599
+bastante o seu espaço físico justamente
+
+1123
+00:47:20,420 --> 00:47:26,369
+porque é nunca você espera mais que
+
+1124
+00:47:23,599 --> 00:47:28,199
+todos os com Olá sejam apresente ao
+
+1125
+00:47:26,369 --> 00:47:30,500
+mesmo tempo então acaba que tem um
+
+1126
+00:47:28,199 --> 00:47:33,139
+espaço mais colaborativo quase que
+
+1127
+00:47:30,500 --> 00:47:36,630
+ambiente de Coworking assim que
+
+1128
+00:47:33,139 --> 00:47:39,299
+rotativos né mas eu fiquei um pouco
+
+1129
+00:47:36,630 --> 00:47:40,920
+curiosa assim fazendo um gancho saindo
+
+1130
+00:47:39,300 --> 00:47:43,080
+um pouco do tema motivação e satisfação
+
+1131
+00:47:40,920 --> 00:47:44,840
+que eu tinha mencionado do teu estudo
+
+1132
+00:47:43,079 --> 00:47:47,190
+sobre times
+
+1133
+00:47:44,840 --> 00:47:49,890
+autogerenciáveis na quando a gente veio
+
+1134
+00:47:47,190 --> 00:47:52,110
+né com o Maps a gente vai com força né o
+
+1135
+00:47:49,889 --> 00:47:55,019
+pessoal assim o meio que a maior parte
+
+1136
+00:47:52,110 --> 00:47:58,019
+das empresas atentas seguir o escroto né
+
+1137
+00:47:55,019 --> 00:48:00,119
+a E se a gente pegar o escambo assim
+
+1138
+00:47:58,019 --> 00:48:02,429
+pela sua definição O que que a gente tem
+
+1139
+00:48:00,119 --> 00:48:04,500
+a gente tem o pior é que vai estar
+
+1140
+00:48:02,429 --> 00:48:06,539
+direção esse produto né então
+
+1141
+00:48:04,500 --> 00:48:08,400
+responsável pelo backlog priorizar o que
+
+1142
+00:48:06,539 --> 00:48:10,559
+tem que ser feito o Escola Master que
+
+1143
+00:48:08,400 --> 00:48:13,110
+vai ser o cara que Teoricamente faz
+
+1144
+00:48:10,559 --> 00:48:15,299
+parte do time né é um desenvolvedor ali
+
+1145
+00:48:13,110 --> 00:48:17,760
+mas ele é a interface do time procura
+
+1146
+00:48:15,300 --> 00:48:19,410
+resolver os impedimentos né até
+
+1147
+00:48:17,760 --> 00:48:22,020
+Teoricamente é um papel que deveria ter
+
+1148
+00:48:19,409 --> 00:48:24,819
+rotatividade só que quando a gente pensa
+
+1149
+00:48:22,019 --> 00:48:27,009
+no mundo corporativo né porque assim eu
+
+1150
+00:48:24,820 --> 00:48:29,260
+sempre espero que tem alguém que dei a
+
+1151
+00:48:27,010 --> 00:48:31,990
+cara a tapa ou seja Aquele gerente que é
+
+1152
+00:48:29,260 --> 00:48:33,550
+responsável pelo delivery não é que se
+
+1153
+00:48:31,989 --> 00:48:36,909
+não entregava vai ser ele o responsável
+
+1154
+00:48:33,550 --> 00:48:38,950
+por aquela falha né e quase que o né de
+
+1155
+00:48:36,909 --> 00:48:42,000
+gerenciamento de projetos que é recurso
+
+1156
+00:48:38,949 --> 00:48:45,189
+tempo né recurso tempo e
+
+1157
+00:48:42,000 --> 00:48:46,570
+escopo né qualidade então acaba que na
+
+1158
+00:48:45,190 --> 00:48:49,389
+prática quando a gente vai olhar no
+
+1159
+00:48:46,570 --> 00:48:51,250
+mercado papel de cromaster muitas vezes
+
+1160
+00:48:49,389 --> 00:48:53,199
+não é o não é alguém que vai desenvolver
+
+1161
+00:48:51,250 --> 00:48:56,380
+quase que um gerente né ou também tem
+
+1162
+00:48:53,199 --> 00:48:58,689
+ASP ou e fica uma coisa meio difuso E aí
+
+1163
+00:48:56,380 --> 00:49:01,720
+assim as empresas ficam perdidas vem lá
+
+1164
+00:48:58,690 --> 00:49:03,820
+aquela força para isqueiro a diário e
+
+1165
+00:49:01,719 --> 00:49:07,000
+Bahia começa aparecer mais papéis ainda
+
+1166
+00:49:03,820 --> 00:49:09,010
+como delivery Manager como o qual é a
+
+1167
+00:49:07,000 --> 00:49:12,340
+Sua percepção assim da secreção dos
+
+1168
+00:49:09,010 --> 00:49:14,740
+times autogerenciáveis porque assim na
+
+1169
+00:49:12,340 --> 00:49:17,230
+maior parte assim boa parte das empresas
+
+1170
+00:49:14,739 --> 00:49:18,909
+a gente não é uma empresa que o business
+
+1171
+00:49:17,230 --> 00:49:21,550
+Airsoft não é uma empresa que tem um
+
+1172
+00:49:18,909 --> 00:49:24,799
+outro Business e tem uma equipe lá
+
+1173
+00:49:21,550 --> 00:49:26,620
+responsável pela parte de digital né a
+
+1174
+00:49:24,800 --> 00:49:30,080
+transformação digital
+
+1175
+00:49:26,619 --> 00:49:31,789
+fornece o software da empresa né E daí a
+
+1176
+00:49:30,079 --> 00:49:33,739
+gente precisa alguém que esteja esse
+
+1177
+00:49:31,789 --> 00:49:36,110
+papel de gerente o dele que vai ser
+
+1178
+00:49:33,739 --> 00:49:37,489
+responsável pelo de nível então tu pode
+
+1179
+00:49:36,110 --> 00:49:40,640
+falar um pouco mais sobre essa questão
+
+1180
+00:49:37,489 --> 00:49:43,659
+de times autogerenciáveis é como isso
+
+1181
+00:49:40,639 --> 00:49:45,710
+funcionaria na prática né posso posso o
+
+1182
+00:49:43,659 --> 00:49:48,259
+isso para mim é uma quebra de paradigma
+
+1183
+00:49:45,710 --> 00:49:50,000
+muito grande assim que está falando de
+
+1184
+00:49:48,260 --> 00:49:52,520
+times autogerenciáveis que é o
+
+1185
+00:49:50,000 --> 00:49:54,530
+responsável pela entrega é o time é E aí
+
+1186
+00:49:52,519 --> 00:49:56,000
+a cada entrega a gente pode ter uma das
+
+1187
+00:49:54,530 --> 00:49:58,550
+pessoas que vai assumir ali o
+
+1188
+00:49:56,000 --> 00:50:00,679
+chapeuzinho ascensão e de responder por
+
+1189
+00:49:58,550 --> 00:50:03,650
+aquela entrega e isso pode mudar
+
+1190
+00:50:00,679 --> 00:50:05,750
+dinamicamente é isso isso é como o tal
+
+1191
+00:50:03,650 --> 00:50:08,990
+constituídos por exemplo o modelos como
+
+1192
+00:50:05,750 --> 00:50:11,239
+o do prédio do lado do Spotify ir embora
+
+1193
+00:50:08,989 --> 00:50:12,979
+muita gente bem a usando termos Quase
+
+1194
+00:50:11,239 --> 00:50:14,869
+também pelo que eu tenho visto pessoal
+
+1195
+00:50:12,980 --> 00:50:17,150
+tá usando só pelo tempo bonito e legal
+
+1196
+00:50:14,869 --> 00:50:19,159
+mas tem que entender muito bem como é
+
+1197
+00:50:17,150 --> 00:50:21,079
+que aquele negócio funciona né então a
+
+1198
+00:50:19,159 --> 00:50:23,210
+grande quebra de paradigma aí Para
+
+1199
+00:50:21,079 --> 00:50:25,769
+justamente neste ponto é que você deixar
+
+1200
+00:50:23,210 --> 00:50:28,530
+de ter o gerente tel res é aquele aqui
+
+1201
+00:50:25,769 --> 00:50:30,900
+para que a equipe seja responsável pela
+
+1202
+00:50:28,530 --> 00:50:33,450
+entrega pelo produto Mas pesquisa que a
+
+1203
+00:50:30,900 --> 00:50:36,619
+gente vem fazendo por aqui a gente vê
+
+1204
+00:50:33,449 --> 00:50:39,329
+que existe um caminho sabe Ingrid de
+
+1205
+00:50:36,619 --> 00:50:41,730
+transição assim das equipes gerar esse
+
+1206
+00:50:39,329 --> 00:50:44,599
+para as equipes mais autónomos é que
+
+1207
+00:50:41,730 --> 00:50:46,980
+passam por ali no momento de
+
+1208
+00:50:44,599 --> 00:50:48,960
+a gente conversa com as equipes e o
+
+1209
+00:50:46,980 --> 00:50:51,090
+pessoal diz Ah não amiga aqui tem é
+
+1210
+00:50:48,960 --> 00:50:53,250
+bastante autônoma né Eu como gerente
+
+1211
+00:50:51,090 --> 00:50:56,430
+escuto tudo que a minha equipe fala né
+
+1212
+00:50:53,250 --> 00:51:00,360
+né e a gente segue as as decisões que eu
+
+1213
+00:50:56,429 --> 00:51:01,829
+achava que são né é adequadas aqui mais
+
+1214
+00:51:00,360 --> 00:51:05,700
+que foram todos os contribuintes também
+
+1215
+00:51:01,829 --> 00:51:08,159
+e tal então esse esse fator de ouvir as
+
+1216
+00:51:05,699 --> 00:51:09,899
+pessoas é o primeiro passo ainda está
+
+1217
+00:51:08,159 --> 00:51:13,139
+longe de ser uma equipe auto-gerenciável
+
+1218
+00:51:09,900 --> 00:51:14,910
+mas é um primeiro passo importante o
+
+1219
+00:51:13,139 --> 00:51:17,670
+segundo passo ali quando a equipe começa
+
+1220
+00:51:14,909 --> 00:51:20,069
+a gerenciar de Pato seus próprios
+
+1221
+00:51:17,670 --> 00:51:24,389
+processos é a equipe e começa a decidir
+
+1222
+00:51:20,070 --> 00:51:26,980
+o o como ela vai medir o desempenho como
+
+1223
+00:51:24,389 --> 00:51:29,920
+ela vai as coisas no terceiro passo a
+
+1224
+00:51:26,980 --> 00:51:33,039
+equipe começa até a autonomia para
+
+1225
+00:51:29,920 --> 00:51:34,780
+deliberar sobre a sua estrutura né então
+
+1226
+00:51:33,039 --> 00:51:36,880
+mesmo se eu quiser por exemplo contratar
+
+1227
+00:51:34,780 --> 00:51:38,950
+alguém a mais para a equipe isso se
+
+1228
+00:51:36,880 --> 00:51:40,599
+decidindo pela equipe e não pelo gerente
+
+1229
+00:51:38,949 --> 00:51:43,000
+é E aí a gente começa a ver algumas
+
+1230
+00:51:40,599 --> 00:51:46,000
+funções que antes eram concentrados na
+
+1231
+00:51:43,000 --> 00:51:49,090
+figura do Jardim migrando para o
+
+1232
+00:51:46,000 --> 00:51:51,099
+trabalho colaborativo a equipe é que
+
+1233
+00:51:49,090 --> 00:51:53,380
+imunizam mais sofisticado a gente teria
+
+1234
+00:51:51,099 --> 00:51:54,940
+Lisa equipes alto dirigidas que são
+
+1235
+00:51:53,380 --> 00:51:57,610
+aquelas que determinam desde seu
+
+1236
+00:51:54,940 --> 00:51:59,980
+propósito é a terra e toda a sua forma
+
+1237
+00:51:57,610 --> 00:52:02,260
+de funcionamento que que você olha por
+
+1238
+00:51:59,980 --> 00:52:04,869
+exemplo calma estar hoje é assim que ela
+
+1239
+00:52:02,260 --> 00:52:06,790
+funciona como os os sócios da estátua os
+
+1240
+00:52:04,869 --> 00:52:09,309
+donos da estar tão lá dentro né o
+
+1241
+00:52:06,789 --> 00:52:11,289
+negócio é meio que alto gerenciado eles
+
+1242
+00:52:09,309 --> 00:52:13,570
+dependem do que eles próprios decisão
+
+1243
+00:52:11,289 --> 00:52:16,000
+para fazer as coisas aconteceram aí você
+
+1244
+00:52:13,570 --> 00:52:18,700
+vê hoje várias empresas maiores e sem lá
+
+1245
+00:52:16,000 --> 00:52:21,400
+gente precisa criar status internos o
+
+1246
+00:52:18,699 --> 00:52:24,799
+que que são essas Startup equipes Auto
+
+1247
+00:52:21,400 --> 00:52:27,200
+gerenciáveis é alto dirigidas autônomos
+
+1248
+00:52:24,800 --> 00:52:30,440
+e determinar ali qual vai ser a missão
+
+1249
+00:52:27,199 --> 00:52:32,449
+temporária ou não dela né para tratar a
+
+1250
+00:52:30,440 --> 00:52:34,159
+ser executado ali naquele processo isso
+
+1251
+00:52:32,449 --> 00:52:36,169
+para mim algumas características mais
+
+1252
+00:52:34,159 --> 00:52:38,389
+legais mais interessantes do modelo dos
+
+1253
+00:52:36,170 --> 00:52:41,659
+Coelhos do Spotify no modelo de squads
+
+1254
+00:52:38,389 --> 00:52:43,460
+do Spotify as equipes decidem o que que
+
+1255
+00:52:41,659 --> 00:52:45,679
+elas vão fazer certo Ninguém chega para
+
+1256
+00:52:43,460 --> 00:52:48,740
+aqui para dizer que pela sua missão é
+
+1257
+00:52:45,679 --> 00:52:52,279
+fazer uma parte do tal parte aqui é que
+
+1258
+00:52:48,739 --> 00:52:55,369
+tu vai lá se junta olha e determina o
+
+1259
+00:52:52,280 --> 00:52:57,920
+que que ela vai vai entregar né agora de
+
+1260
+00:52:55,369 --> 00:53:00,650
+novo isso é uma bala de prata também não
+
+1261
+00:52:57,920 --> 00:53:02,780
+certo eu acho que tem contextos em que
+
+1262
+00:53:00,650 --> 00:53:06,559
+isso se aplica muito bem certo em outros
+
+1263
+00:53:02,780 --> 00:53:08,320
+contextos em que não há teve um um aluno
+
+1264
+00:53:06,559 --> 00:53:11,779
+de Mestrado meu a
+
+1265
+00:53:08,320 --> 00:53:14,090
+2015 São Miguel 2016 por ali naquela
+
+1266
+00:53:11,780 --> 00:53:16,040
+época que tava justamente para seu pé
+
+1267
+00:53:14,090 --> 00:53:17,900
+Ele mente o preso ele era gestor de
+
+1268
+00:53:16,039 --> 00:53:19,909
+empresa em que vinha discutindo a
+
+1269
+00:53:17,900 --> 00:53:22,099
+possibilidade de adotar episódios já
+
+1270
+00:53:19,909 --> 00:53:23,599
+disse E aí ele me perguntou né César
+
+1271
+00:53:22,099 --> 00:53:26,039
+Onde é que estão as evidências na
+
+1272
+00:53:23,599 --> 00:53:28,949
+literatura de que esse e é que sim então
+
+1273
+00:53:26,039 --> 00:53:31,079
+não tão é a gente vai encontra
+
+1274
+00:53:28,949 --> 00:53:33,629
+evidências deste vamos vão atrás
+
+1275
+00:53:31,079 --> 00:53:36,539
+discutir isso de entender melhor e tal e
+
+1276
+00:53:33,630 --> 00:53:38,519
+como resultado trabalho de pesquisa dele
+
+1277
+00:53:36,539 --> 00:53:41,429
+assim ele foi investigar vários fatores
+
+1278
+00:53:38,519 --> 00:53:45,769
+podem influenciar na decisão da empresa
+
+1279
+00:53:41,429 --> 00:53:49,379
+de adotar ou não é equipes totalmente e
+
+1280
+00:53:45,769 --> 00:53:51,179
+auto-dirigida sabe ou não perto e alguns
+
+1281
+00:53:49,380 --> 00:53:53,340
+desses fatores que influenciam nessa
+
+1282
+00:53:51,179 --> 00:53:56,099
+decisão passam por exemplo para gente
+
+1283
+00:53:53,340 --> 00:53:57,870
+entendeu o perfil das pessoas daí certa
+
+1284
+00:53:56,099 --> 00:54:02,130
+senhor idade dos integrantes da equipe
+
+1285
+00:53:57,869 --> 00:54:05,269
+as habilidades de gestão de auto gestão
+
+1286
+00:54:02,130 --> 00:54:08,460
+das pessoas é o grau de
+
+1287
+00:54:05,269 --> 00:54:10,559
+vamos ver de administração o emocional
+
+1288
+00:54:08,460 --> 00:54:12,360
+das pessoas tendem daquela equipe Então
+
+1289
+00:54:10,559 --> 00:54:14,219
+tudo isso fazer parte ali de uma
+
+1290
+00:54:12,360 --> 00:54:16,559
+dimensão e de entendimento mais
+
+1291
+00:54:14,219 --> 00:54:19,769
+individual da equipe para a gente poder
+
+1292
+00:54:16,559 --> 00:54:22,019
+tomar a decisão se vale a pena ou não né
+
+1293
+00:54:19,769 --> 00:54:24,420
+migrar para um cenário de equipe mais
+
+1294
+00:54:22,019 --> 00:54:27,099
+auto-dirigida é de outro lado a gente
+
+1295
+00:54:24,420 --> 00:54:28,900
+tem é mais organizacionais mesmo tem
+
+1296
+00:54:27,099 --> 00:54:32,289
+mais conectados ao projeto ali Como por
+
+1297
+00:54:28,900 --> 00:54:33,809
+exemplo o custo o atestado do projeto o
+
+1298
+00:54:32,289 --> 00:54:36,099
+adoção ou não
+
+1299
+00:54:33,809 --> 00:54:39,820
+habilidade ou não com uma metodologia
+
+1300
+00:54:36,099 --> 00:54:42,599
+ágil é a estrutura de Pato layout de
+
+1301
+00:54:39,820 --> 00:54:45,250
+escritório então que mesmo são são
+
+1302
+00:54:42,599 --> 00:54:49,150
+elementos que poderá nessa decisão de
+
+1303
+00:54:45,250 --> 00:54:51,579
+migração sabe para trás episol sugeridos
+
+1304
+00:54:49,150 --> 00:54:53,079
+então no final das contas do processo de
+
+1305
+00:54:51,579 --> 00:54:56,860
+amadurecimento e a gente pode querer
+
+1306
+00:54:53,079 --> 00:54:59,380
+chegar certo ou não porque de novo a
+
+1307
+00:54:56,860 --> 00:55:01,329
+grande transformação aí é cultural é
+
+1308
+00:54:59,380 --> 00:55:02,700
+você vai ter algumas empresas e que
+
+1309
+00:55:01,329 --> 00:55:05,829
+continuam
+
+1310
+00:55:02,699 --> 00:55:08,500
+raciocinando sobre a lógica de que os
+
+1311
+00:55:05,829 --> 00:55:09,849
+processos precisam ser tão bem definidos
+
+1312
+00:55:08,500 --> 00:55:13,449
+de modo que as pessoas sejam
+
+1313
+00:55:09,849 --> 00:55:15,339
+substituídos mesmo essas empresas nessas
+
+1314
+00:55:13,449 --> 00:55:18,039
+empresas não faz sentido a gente né
+
+1315
+00:55:15,340 --> 00:55:19,930
+conversar sobre sobre de equipes alto
+
+1316
+00:55:18,039 --> 00:55:22,480
+dirigir você tem outras equipes que têm
+
+1317
+00:55:19,929 --> 00:55:24,799
+uma mentalidade mais aderente ao que
+
+1318
+00:55:22,480 --> 00:55:27,409
+defende as metodologias ágeis brasileiro
+
+1319
+00:55:24,800 --> 00:55:29,210
+E aí faz mais sentido é muito Embora
+
+1320
+00:55:27,409 --> 00:55:31,399
+tenha empresa que diz que usa né o
+
+1321
+00:55:29,210 --> 00:55:33,610
+método ágil ali mas efetivamente bota um
+
+1322
+00:55:31,400 --> 00:55:38,590
+gerente para gerenciar os processos
+
+1323
+00:55:33,610 --> 00:55:41,030
+ágeis entre "eles dizem fazenda então
+
+1324
+00:55:38,590 --> 00:55:44,930
+deixa eu perguntar um pouco assim sobre
+
+1325
+00:55:41,030 --> 00:55:47,150
+a Utopia EA realidade assim porque eu
+
+1326
+00:55:44,929 --> 00:55:49,789
+pensando assim é isso isso é muito legal
+
+1327
+00:55:47,150 --> 00:55:52,280
+assim na teoria né até se a gente pensar
+
+1328
+00:55:49,789 --> 00:55:54,769
+eu acho que dentro de pesquisa a gente
+
+1329
+00:55:52,280 --> 00:55:56,540
+atua dessa forma né mas a gente não tem
+
+1330
+00:55:54,769 --> 00:55:58,190
+ninguém botando pressão para gente ir
+
+1331
+00:55:56,539 --> 00:56:00,380
+entregar o trabalho de pesquisa a gente
+
+1332
+00:55:58,190 --> 00:56:03,590
+vai se alto gerenciando esse motivando a
+
+1333
+00:56:00,380 --> 00:56:06,019
+fazer né e priorizando coisas só que
+
+1334
+00:56:03,590 --> 00:56:07,940
+pensando no mundo corporativo né
+
+1335
+00:56:06,019 --> 00:56:09,820
+passando a viabilidade prática disse a
+
+1336
+00:56:07,940 --> 00:56:11,960
+primeira coisa que eu penso o seguinte é
+
+1337
+00:56:09,820 --> 00:56:14,120
+responsabilidade uma empresa sempre vai
+
+1338
+00:56:11,960 --> 00:56:16,610
+querer para dentro de um time que alguém
+
+1339
+00:56:14,119 --> 00:56:19,969
+seja responsável por aquilo que tu diz o
+
+1340
+00:56:16,610 --> 00:56:22,579
+responsável time se existe o para Caso
+
+1341
+00:56:19,969 --> 00:56:26,429
+tu precisa daí não vai ter responsável
+
+1342
+00:56:22,579 --> 00:56:29,279
+né o time não é uma pessoa então o pão o
+
+1343
+00:56:26,429 --> 00:56:30,960
+segundo ponto na isso não é o eu que tô
+
+1344
+00:56:29,280 --> 00:56:32,340
+dizendo eu vou vir ontem eu tava com
+
+1345
+00:56:30,960 --> 00:56:34,860
+salto falando com desenvolvedor de
+
+1346
+00:56:32,340 --> 00:56:37,140
+software de eles seguinte desenvolvedor
+
+1347
+00:56:34,860 --> 00:56:40,590
+toca normalmente na média não é muito
+
+1348
+00:56:37,139 --> 00:56:42,329
+bom de comunicação né e fora isso não é
+
+1349
+00:56:40,590 --> 00:56:45,269
+quando a gente pensa gerente de software
+
+1350
+00:56:42,329 --> 00:56:47,730
+para gerente de projeto mais importante
+
+1351
+00:56:45,269 --> 00:56:50,400
+que estratificações e conhecimentos
+
+1352
+00:56:47,730 --> 00:56:52,530
+sobre sobre todas as coisas relacionadas
+
+1353
+00:56:50,400 --> 00:56:54,170
+com certificação para mim é um cara uma
+
+1354
+00:56:52,530 --> 00:56:56,250
+pessoa né
+
+1355
+00:56:54,170 --> 00:57:00,090
+organizada né com senso de
+
+1356
+00:56:56,250 --> 00:57:02,309
+responsabilidade a e isso né vai ter um
+
+1357
+00:57:00,090 --> 00:57:03,660
+chapéu que vai tá rodando né não time
+
+1358
+00:57:02,309 --> 00:57:05,519
+nem todo mundo pode ter essas
+
+1359
+00:57:03,659 --> 00:57:07,349
+características de ter as
+
+1360
+00:57:05,519 --> 00:57:09,449
+características desejáveis para assumir
+
+1361
+00:57:07,349 --> 00:57:11,639
+esse tipo de responsabilidade e terceiro
+
+1362
+00:57:09,449 --> 00:57:13,619
+um ponto que tu já falou para mim é
+
+1363
+00:57:11,639 --> 00:57:14,989
+questão de escala habilidade porque a
+
+1364
+00:57:13,619 --> 00:57:18,900
+gente pensa
+
+1365
+00:57:14,989 --> 00:57:20,519
+em uma Startup né isso Funciona porque é
+
+1366
+00:57:18,900 --> 00:57:23,610
+uma empresa pequena mas no instante que
+
+1367
+00:57:20,519 --> 00:57:26,590
+tu escala tu vai ter problemas né a
+
+1368
+00:57:23,610 --> 00:57:30,099
+senha é é fácil governar um país pequeno
+
+1369
+00:57:26,590 --> 00:57:31,630
+do que um país grande país grande Tu tem
+
+1370
+00:57:30,099 --> 00:57:34,929
+a escala e daí tu tem que colocar uma
+
+1371
+00:57:31,630 --> 00:57:37,720
+burocracia para conseguir gerenciar isso
+
+1372
+00:57:34,929 --> 00:57:39,730
+e daí vem ar aqui então o Toquinho
+
+1373
+00:57:37,719 --> 00:57:41,980
+realidade isso aí de times
+
+1374
+00:57:39,730 --> 00:57:44,710
+autogerenciáveis Ingrid eu acho que tem
+
+1375
+00:57:41,980 --> 00:57:46,599
+bastante de realidade certo porque a
+
+1376
+00:57:44,710 --> 00:57:48,550
+gente ver alguns exemplos muito
+
+1377
+00:57:46,599 --> 00:57:52,750
+concretos desse tipo de negócio
+
+1378
+00:57:48,550 --> 00:57:56,289
+acontecendo né é eu acho que ainda é uma
+
+1379
+00:57:52,750 --> 00:57:58,599
+Utopia para quem tá preso aqueles moldes
+
+1380
+00:57:56,289 --> 00:58:00,579
+culturais de sistemas produtivos do
+
+1381
+00:57:58,599 --> 00:58:03,759
+século passado Fábio o sistema
+
+1382
+00:58:00,579 --> 00:58:07,619
+Industrial do século passado de fase não
+
+1383
+00:58:03,760 --> 00:58:10,620
+funciona dentro de um paradigma de
+
+1384
+00:58:07,619 --> 00:58:13,480
+equipes distribuídas ou trabalho em rede
+
+1385
+00:58:10,619 --> 00:58:15,279
+ali eu acho que tem uma tem uma conversa
+
+1386
+00:58:13,480 --> 00:58:18,579
+bem comprida e bem legal que eu faço
+
+1387
+00:58:15,280 --> 00:58:20,830
+isso eu faço eu faço sobre isso os
+
+1388
+00:58:18,579 --> 00:58:24,799
+alunos do curso de gestão de negócios na
+
+1389
+00:58:20,829 --> 00:58:27,380
+era digital não é um curso é de dispensa
+
+1390
+00:58:24,800 --> 00:58:29,000
+a iva da César School em que o tempo
+
+1391
+00:58:27,380 --> 00:58:32,180
+pessoas em várias Áreas Aí o pessoal
+
+1392
+00:58:29,000 --> 00:58:33,349
+chega ele vai vir falando né disposto
+
+1393
+00:58:32,179 --> 00:58:35,089
+Mas eu vi falar que esse modelo
+
+1394
+00:58:33,349 --> 00:58:38,150
+bicicleta dizendo máximo você que eles
+
+1395
+00:58:35,090 --> 00:58:40,490
+tão bacana você acredita que você pode
+
+1396
+00:58:38,150 --> 00:58:42,170
+ter uma responsabilidade distribuída
+
+1397
+00:58:40,489 --> 00:58:43,969
+para o equipe o cara que não tem que ter
+
+1398
+00:58:42,170 --> 00:58:46,400
+um gerente de sintomas funciona certo
+
+1399
+00:58:43,969 --> 00:58:48,949
+que o problema não é processo o problema
+
+1400
+00:58:46,400 --> 00:58:50,720
+é cultura certo a gente se desenvolver
+
+1401
+00:58:48,949 --> 00:58:51,949
+essas adaptações culturais e a gente tá
+
+1402
+00:58:50,719 --> 00:58:54,079
+no momento de transição muito
+
+1403
+00:58:51,949 --> 00:58:55,909
+interessante assim olhando um pouco para
+
+1404
+00:58:54,079 --> 00:58:57,679
+o mundo externo da engenharia de
+
+1405
+00:58:55,909 --> 00:58:59,210
+software já está no momento de transição
+
+1406
+00:58:57,679 --> 00:59:00,859
+bem interessante em que a própria
+
+1407
+00:58:59,210 --> 00:59:04,070
+engenharia de software forneceu o
+
+1408
+00:59:00,860 --> 00:59:06,500
+exemplo o massa pra galera do lado de
+
+1409
+00:59:04,070 --> 00:59:08,330
+fora né mas agora a própria engenharia
+
+1410
+00:59:06,500 --> 00:59:10,039
+de software Vai importar de volta
+
+1411
+00:59:08,329 --> 00:59:13,279
+exemplo para cá para ver se a gente
+
+1412
+00:59:10,039 --> 00:59:16,849
+consegue se transformar culturalmente ou
+
+1413
+00:59:13,280 --> 00:59:19,790
+não é senão veja método os agentes é
+
+1414
+00:59:16,849 --> 00:59:22,599
+utopia ou é realidade eu acho que é
+
+1415
+00:59:19,789 --> 00:59:25,679
+exatamente a mesma
+
+1416
+00:59:22,599 --> 00:59:28,529
+Qual a principal dificuldade o que você
+
+1417
+00:59:25,679 --> 00:59:31,169
+encontra ao conduzir estudos científicos
+
+1418
+00:59:28,530 --> 00:59:33,300
+sobre o tema tão abstrato o que possui
+
+1419
+00:59:31,170 --> 00:59:35,210
+tantos fatores de influência como
+
+1420
+00:59:33,300 --> 00:59:40,320
+motivação e satisfação
+
+1421
+00:59:35,210 --> 00:59:42,000
+Adolfo é esse esse lance da abstração é
+
+1422
+00:59:40,320 --> 00:59:44,100
+o primeiro desafio sabe como é que
+
+1423
+00:59:42,000 --> 00:59:48,260
+agente faz para transformar essas coisas
+
+1424
+00:59:44,099 --> 00:59:50,849
+abstratas em coisas mais palpáveis é
+
+1425
+00:59:48,260 --> 00:59:52,890
+associado a esse problema aí a gente tem
+
+1426
+00:59:50,849 --> 00:59:55,920
+um segundo desafio tem quero de fazer as
+
+1427
+00:59:52,889 --> 00:59:57,659
+pessoas compreenderem de fase O que são
+
+1428
+00:59:55,920 --> 00:59:59,250
+essas coisas abstratas isso porque
+
+1429
+00:59:57,659 --> 01:00:01,289
+quando a gente tá falando do estudo de
+
+1430
+00:59:59,250 --> 01:00:03,960
+aspectos comportamentais de maneira mais
+
+1431
+01:00:01,289 --> 01:00:06,929
+Ampla né a gente tem pouca Alternativa
+
+1432
+01:00:03,960 --> 01:00:08,699
+de métodos empíricos para usar essa
+
+1433
+01:00:06,929 --> 01:00:11,069
+gente tivesse falando de coisas que são
+
+1434
+01:00:08,699 --> 01:00:14,399
+totalmente observaveis a gente pode
+
+1435
+01:00:11,070 --> 01:00:17,070
+conduzir observações Mas elas são mais
+
+1436
+01:00:14,400 --> 01:00:18,840
+trabalhosos tem um tempo maior né e
+
+1437
+01:00:17,070 --> 01:00:20,730
+nesse tempo que estão anemia isso quase
+
+1438
+01:00:18,840 --> 01:00:22,860
+que enviasse do outro lado se a gente
+
+1439
+01:00:20,730 --> 01:00:24,789
+vai falando além de fenômenos desses
+
+1440
+01:00:22,860 --> 01:00:27,309
+comportamentais que são mais à vista e
+
+1441
+01:00:24,789 --> 01:00:29,920
+pronto É muito fácil e satisfação a
+
+1442
+01:00:27,309 --> 01:00:32,170
+gente Depende muito do uso de entrega e
+
+1443
+01:00:29,920 --> 01:00:36,220
+consequentemente da capacidade de
+
+1444
+01:00:32,170 --> 01:00:37,869
+autopercepção e Auto avaliação dos
+
+1445
+01:00:36,219 --> 01:00:39,969
+Engenheiros entrevistados aí para
+
+1446
+01:00:37,869 --> 01:00:42,130
+alcançar ao Rua credibilidade né
+
+1447
+01:00:39,969 --> 01:00:44,139
+Pesquisa é e como a Ingrid acabou de
+
+1448
+01:00:42,130 --> 01:00:46,530
+falar capa nós os engenheiros de
+
+1449
+01:00:44,139 --> 01:00:49,809
+software então entre os públicos mais
+
+1450
+01:00:46,530 --> 01:00:51,790
+comunicativo sou mais evoluídos aí e
+
+1451
+01:00:49,809 --> 01:00:55,059
+dentro do domínio e aspectos
+
+1452
+01:00:51,789 --> 01:00:57,159
+socioemocionais dessa desse em resumo o
+
+1453
+01:00:55,059 --> 01:00:58,750
+nosso seguinte eu posso perguntar para o
+
+1454
+01:00:57,159 --> 01:01:00,309
+engenheiro soft o que que torna ele
+
+1455
+01:00:58,750 --> 01:01:02,289
+continuar Mas se ele não souber o que é
+
+1456
+01:01:00,309 --> 01:01:05,170
+motivação a resposta para essa pergunta
+
+1457
+01:01:02,289 --> 01:01:06,809
+potencialmente e eu poderia explicar
+
+1458
+01:01:05,170 --> 01:01:10,510
+previamente para ele o que é motivação
+
+1459
+01:01:06,809 --> 01:01:12,340
+mas se eu fizer isso a isso não vai
+
+1460
+01:01:10,510 --> 01:01:13,750
+estar influenciado na resposta da
+
+1461
+01:01:12,340 --> 01:01:15,700
+pergunta que eu vou fazer logo em
+
+1462
+01:01:13,750 --> 01:01:20,170
+seguida é então isso é quase como um
+
+1463
+01:01:15,699 --> 01:01:22,329
+problema do o da galinha e para deixar o
+
+1464
+01:01:20,170 --> 01:01:23,470
+meio-campo aí ainda mais embolado né
+
+1465
+01:01:22,329 --> 01:01:27,440
+como eu falei lá no início da entrevista
+
+1466
+01:01:23,469 --> 01:01:29,119
+motivação a ação nessa palavras Fofinho
+
+1467
+01:01:27,440 --> 01:01:32,389
+é eles não temos que todo mundo parece
+
+1468
+01:01:29,119 --> 01:01:35,630
+assumir que sabem o que significa é e
+
+1469
+01:01:32,389 --> 01:01:38,059
+que é feito o liderança o a gente tava
+
+1470
+01:01:35,630 --> 01:01:39,650
+falando aqui de trabalho em equipe né
+
+1471
+01:01:38,059 --> 01:01:42,289
+todo mundo acha que deveria ter uma
+
+1472
+01:01:39,650 --> 01:01:44,510
+opinião sobre isso e que a sua opinião é
+
+1473
+01:01:42,289 --> 01:01:46,730
+sempre provavelmente melhor que todas as
+
+1474
+01:01:44,510 --> 01:01:49,100
+outras é um dos meus alunos de Mestrado
+
+1475
+01:01:46,730 --> 01:01:52,820
+agora inclusive está desenvolvendo uma
+
+1476
+01:01:49,099 --> 01:01:55,909
+dissertação sobre o que significa saber
+
+1477
+01:01:52,820 --> 01:01:57,800
+trabalhar em equipe é exemplo ele pegou
+
+1478
+01:01:55,909 --> 01:01:59,659
+um monte de vaga de emprego em que tem
+
+1479
+01:01:57,800 --> 01:02:01,700
+lá nas vagas de emprego requisito
+
+1480
+01:01:59,659 --> 01:02:03,289
+preciso saber trabalhando aqui é então
+
+1481
+01:02:01,699 --> 01:02:05,539
+como é que como é que eu sei se eu sei
+
+1482
+01:02:03,289 --> 01:02:07,340
+ou não é porque assim a vaga de emprego
+
+1483
+01:02:05,539 --> 01:02:09,440
+me perguntar precisa saber já descritos
+
+1484
+01:02:07,340 --> 01:02:10,940
+É eu sei que você já se inscrevi no seu
+
+1485
+01:02:09,440 --> 01:02:13,099
+programa e já descritos eu tenho
+
+1486
+01:02:10,940 --> 01:02:14,599
+certificado curso de trico enfim mas
+
+1487
+01:02:13,099 --> 01:02:17,659
+saber trabalhar em equipe como é que a
+
+1488
+01:02:14,599 --> 01:02:20,329
+gente vai significa isso em primeiro em
+
+1489
+01:02:17,659 --> 01:02:23,269
+primeiro lugar e E aí ele Andou
+
+1490
+01:02:20,329 --> 01:02:25,889
+conversando com gestores de projetos de
+
+1491
+01:02:23,269 --> 01:02:28,980
+software uma equipe técnica há mais de
+
+1492
+01:02:25,889 --> 01:02:30,779
+RH né e de maneira não se aprendem a
+
+1493
+01:02:28,980 --> 01:02:32,789
+gente tem visto que as respostas aí
+
+1494
+01:02:30,780 --> 01:02:36,090
+nesse três grupos não conhecido em
+
+1495
+01:02:32,789 --> 01:02:39,119
+alguns pontos abriu o gerente diz a não
+
+1496
+01:02:36,090 --> 01:02:41,880
+saber trabalhar em equipe precisa ao
+
+1497
+01:02:39,119 --> 01:02:44,009
+característica e o cara do RH diz não eu
+
+1498
+01:02:41,880 --> 01:02:45,720
+não acho que precisa disso precisar como
+
+1499
+01:02:44,010 --> 01:02:48,120
+é que tira o outro né a gente ainda tá
+
+1500
+01:02:45,719 --> 01:02:50,159
+passando aí amadurecendo análise de
+
+1501
+01:02:48,119 --> 01:02:51,920
+dados dele mas logo a gente deve ele
+
+1502
+01:02:50,159 --> 01:02:54,869
+deve compartilhar os resultados aí
+
+1503
+01:02:51,920 --> 01:02:58,470
+também mas vejam que essa parte do
+
+1504
+01:02:54,869 --> 01:03:01,679
+desafio né e distinguir até o que é
+
+1505
+01:02:58,469 --> 01:03:03,569
+efetivamente a experiência fundamentada
+
+1506
+01:03:01,679 --> 01:03:07,289
+das pessoas além do que que do que são
+
+1507
+01:03:03,570 --> 01:03:11,700
+opiniões sem fundamentos é é difícil né
+
+1508
+01:03:07,289 --> 01:03:13,860
+E nesse tipo de coleta de dados é é o
+
+1509
+01:03:11,699 --> 01:03:16,799
+que vale ou por fim assim eu acho que
+
+1510
+01:03:13,860 --> 01:03:18,690
+nem sempre as pessoas querem falar sobre
+
+1511
+01:03:16,800 --> 01:03:21,450
+essas coisas a gente sempre precisa
+
+1512
+01:03:18,690 --> 01:03:23,849
+assim tem um cuidado muito grande para
+
+1513
+01:03:21,449 --> 01:03:26,289
+os conflitos de interesse que aparecem
+
+1514
+01:03:23,849 --> 01:03:28,119
+quando a gente entra e para conversar
+
+1515
+01:03:26,289 --> 01:03:30,670
+sobre satisfação sobre a probabilidade
+
+1516
+01:03:28,119 --> 01:03:33,849
+da pessoa lá fora do emprego daqui
+
+1517
+01:03:30,670 --> 01:03:37,720
+alguns dias página né É então quando a
+
+1518
+01:03:33,849 --> 01:03:40,329
+gente coleta esses dados não é incomum
+
+1519
+01:03:37,719 --> 01:03:42,429
+os chefes quererem né saber o que tá
+
+1520
+01:03:40,329 --> 01:03:46,029
+acontecendo ali e querer identificar
+
+1521
+01:03:42,429 --> 01:03:47,139
+quem são essas pessoas né ah e enfim é
+
+1522
+01:03:46,030 --> 01:03:49,300
+obviamente a gente precisa ter um
+
+1523
+01:03:47,139 --> 01:03:52,119
+cuidado ético muito grande com esse tipo
+
+1524
+01:03:49,300 --> 01:03:54,760
+de pesquisa aí para desenvolver bem essa
+
+1525
+01:03:52,119 --> 01:03:56,949
+relação de confiança com entrevistado é
+
+1526
+01:03:54,760 --> 01:03:58,930
+que isso é muito importante e não é
+
+1527
+01:03:56,949 --> 01:04:01,869
+fácil de alcançar só para citar um
+
+1528
+01:03:58,929 --> 01:04:04,869
+exemplo aqui teve um uma outra tese de
+
+1529
+01:04:01,869 --> 01:04:08,309
+doutorado de uma aluna do Fábio e Marco
+
+1530
+01:04:04,869 --> 01:04:11,440
+e suas que ele foi a Campo certo ele foi
+
+1531
+01:04:08,309 --> 01:04:13,869
+ajudar gerentes de projetos de empresas
+
+1532
+01:04:11,440 --> 01:04:15,190
+reais a criarem estratégias para
+
+1533
+01:04:13,869 --> 01:04:17,170
+desenvolver motivação dos seus
+
+1534
+01:04:15,190 --> 01:04:19,380
+investimentos então os gerentes de
+
+1535
+01:04:17,170 --> 01:04:21,610
+projetos passaram o processo além de
+
+1536
+01:04:19,380 --> 01:04:24,800
+pesquisa-ação leves foram acompanhados
+
+1537
+01:04:21,610 --> 01:04:27,500
+durante o tem ou e alguns gerentes em
+
+1538
+01:04:24,800 --> 01:04:29,690
+diante de dados que obviamente seus
+
+1539
+01:04:27,500 --> 01:04:31,760
+próprios coletaram sobre a motivação do
+
+1540
+01:04:29,690 --> 01:04:33,530
+seu pessoal não hesitaram em tomar
+
+1541
+01:04:31,760 --> 01:04:35,780
+decisões do Tipo pô vou demitir essa
+
+1542
+01:04:33,530 --> 01:04:37,970
+pessoa ela tá desmotivado tá Então nesse
+
+1543
+01:04:35,780 --> 01:04:39,470
+caso obviamente gente não teve controle
+
+1544
+01:04:37,969 --> 01:04:41,089
+nenhum Mas deve ter sido muito ter
+
+1545
+01:04:39,469 --> 01:04:43,549
+acesso a esses dados é os próprios
+
+1546
+01:04:41,090 --> 01:04:45,559
+gerentes que estavam coletando esses
+
+1547
+01:04:43,550 --> 01:04:46,880
+dados mas quando é a gente coloca a mão
+
+1548
+01:04:45,559 --> 01:04:50,090
+na massa mesmo que você tem um cuidado
+
+1549
+01:04:46,880 --> 01:04:53,510
+muito grande para pacientes de interesse
+
+1550
+01:04:50,090 --> 01:04:56,510
+né Eu acho que encontrar esses métodos
+
+1551
+01:04:53,510 --> 01:04:59,000
+de coleta e análise de dados é que
+
+1552
+01:04:56,510 --> 01:05:02,480
+consigam blindão Alice problemas é um
+
+1553
+01:04:59,000 --> 01:05:03,309
+grande desafio né mas fazendo uma
+
+1554
+01:05:02,480 --> 01:05:06,349
+retrospectiva
+
+1555
+01:05:03,309 --> 01:05:08,000
+cidadão do que eu tenho feito e da minha
+
+1556
+01:05:06,349 --> 01:05:11,839
+carreira eu acho que foram esses
+
+1557
+01:05:08,000 --> 01:05:16,460
+Desafios que me levaram aí aprofundar e
+
+1558
+01:05:11,840 --> 01:05:18,019
+dominar métodos é de coleta e análise de
+
+1559
+01:05:16,460 --> 01:05:20,179
+dados tanto quantitativos quanto
+
+1560
+01:05:18,019 --> 01:05:23,809
+qualitativos aí e só extremamente
+
+1561
+01:05:20,179 --> 01:05:26,579
+sofisticados e que ajudam muito nesse
+
+1562
+01:05:23,809 --> 01:05:29,009
+nesse processo e eu acho que tem um
+
+1563
+01:05:26,579 --> 01:05:30,360
+lance também que o pessoal sempre a
+
+1564
+01:05:29,010 --> 01:05:34,050
+ponta né que tem a ver com a quantidade
+
+1565
+01:05:30,360 --> 01:05:35,550
+de fatores envolvidos aí ou o processo é
+
+1566
+01:05:34,050 --> 01:05:36,930
+porque a gente vê lá nos revisões
+
+1567
+01:05:35,550 --> 01:05:39,660
+sistemáticas você vai ver que uma lista
+
+1568
+01:05:36,929 --> 01:05:41,460
+de 20 30 fatores que tá envolvidos no
+
+1569
+01:05:39,659 --> 01:05:44,039
+processo mas quando a gente entende
+
+1570
+01:05:41,460 --> 01:05:46,650
+direitinho qual é o papel de cada fator
+
+1571
+01:05:44,039 --> 01:05:49,110
+como eles funcionam de maneira sistêmica
+
+1572
+01:05:46,650 --> 01:05:51,090
+cair é algo que a gente consegue lidar a
+
+1573
+01:05:49,110 --> 01:05:53,070
+gente consegue sobreviver daí a gente
+
+1574
+01:05:51,090 --> 01:05:56,039
+precisa enfrentar porque o fenômeno é
+
+1575
+01:05:53,070 --> 01:05:57,809
+complexo e não dá para gente fugir um
+
+1576
+01:05:56,039 --> 01:05:59,400
+antes dele é mas eu acho que esse
+
+1577
+01:05:57,809 --> 01:06:01,829
+trabalho que a gente publicou na cama
+
+1578
+01:05:59,400 --> 01:06:03,510
+transaction no shopping dinheiro que
+
+1579
+01:06:01,829 --> 01:06:05,670
+descreve a Teoria de Motivação e
+
+1580
+01:06:03,510 --> 01:06:08,970
+satisfação ligeiro sofre de sempre fica
+
+1581
+01:06:05,670 --> 01:06:10,800
+muito esse Universo de fatores aí e são
+
+1582
+01:06:08,969 --> 01:06:13,199
+excessivamente relevantes para gente
+
+1583
+01:06:10,800 --> 01:06:15,720
+continuar investigando e dirigindo nosso
+
+1584
+01:06:13,199 --> 01:06:18,569
+trabalho aí é sobre motivação e
+
+1585
+01:06:15,719 --> 01:06:20,819
+satisfação dos enredos imagina que seja
+
+1586
+01:06:18,570 --> 01:06:23,160
+um grande desafio aí se tratando de
+
+1587
+01:06:20,820 --> 01:06:26,440
+pessoas assim como a gente tem um objeto
+
+1588
+01:06:23,159 --> 01:06:28,690
+de estudo né daí tu a mente uma pessoa
+
+1589
+01:06:26,440 --> 01:06:31,360
+tu tem um monte de com found were vos
+
+1590
+01:06:28,690 --> 01:06:33,400
+nelas variáveis de confusão que vão
+
+1591
+01:06:31,360 --> 01:06:35,019
+influenciar tá vendo a motivação da
+
+1592
+01:06:33,400 --> 01:06:38,769
+pessoa no trabalho mas pode ser que a
+
+1593
+01:06:35,019 --> 01:06:41,619
+pessoa é um pai e uma mãe que acabou de
+
+1594
+01:06:38,769 --> 01:06:44,019
+receber ter um filho dos livros de Paiva
+
+1595
+01:06:41,619 --> 01:06:46,059
+né não consegue dormir somente afeta a
+
+1596
+01:06:44,019 --> 01:06:47,980
+motivação aí é um fator externo né
+
+1597
+01:06:46,059 --> 01:06:50,259
+imagina que é um grande desafio mas
+
+1598
+01:06:47,980 --> 01:06:52,179
+assim muito legal tudo que você
+
+1599
+01:06:50,260 --> 01:06:54,190
+compartilhou até aqui assim toda
+
+1600
+01:06:52,179 --> 01:06:56,799
+pesquisa que fez por mim e pelo menos é
+
+1601
+01:06:54,190 --> 01:06:59,050
+super interessante saindo do Forno Neto
+
+1602
+01:06:56,800 --> 01:07:02,560
+publicou um artigo sobre a obsolescência
+
+1603
+01:06:59,050 --> 01:07:04,660
+de Engenheiros de sócia o que que é isso
+
+1604
+01:07:02,559 --> 01:07:06,659
+exatamente e quais foram as conclusões
+
+1605
+01:07:04,659 --> 01:07:08,649
+desse trabalho então
+
+1606
+01:07:06,659 --> 01:07:11,710
+obsolecência é uma palavra que não é
+
+1607
+01:07:08,650 --> 01:07:14,079
+muito comum ali né é como como mencionei
+
+1608
+01:07:11,710 --> 01:07:17,679
+brevemente né Vamos interesses de
+
+1609
+01:07:14,079 --> 01:07:20,380
+pesquisa aí no meu grupo é a gente vem
+
+1610
+01:07:17,679 --> 01:07:22,239
+olhando a o fenômeno do estúdio é que
+
+1611
+01:07:20,380 --> 01:07:24,039
+essa dificuldade que as empresas sentem
+
+1612
+01:07:22,239 --> 01:07:26,750
+para contratar pessoal qualificado na
+
+1613
+01:07:24,039 --> 01:07:28,670
+área de ct&i Oi e o legal esse aqui no
+
+1614
+01:07:26,750 --> 01:07:31,579
+ambiente digital a gente tá no lugar
+
+1615
+01:07:28,670 --> 01:07:34,820
+riquíssimo conhecimento um colaboração
+
+1616
+01:07:31,579 --> 01:07:36,889
+sabe entre academia e setor produtivo né
+
+1617
+01:07:34,820 --> 01:07:39,289
+então é legal que tem umas dessa
+
+1618
+01:07:36,889 --> 01:07:41,029
+natureza são muito bem recebidos pelas
+
+1619
+01:07:39,289 --> 01:07:43,369
+empresas do Parque Tecnológico a gente
+
+1620
+01:07:41,030 --> 01:07:45,650
+faz bastante coisa junto esse trabalho
+
+1621
+01:07:43,369 --> 01:07:48,170
+sobre a obsolecência é um dos produtos
+
+1622
+01:07:45,650 --> 01:07:50,539
+dessa colaboração sabe o outro aluno de
+
+1623
+01:07:48,170 --> 01:07:52,789
+Mestrado Bruno Rocha tinha desafio ali
+
+1624
+01:07:50,539 --> 01:07:55,820
+de ajudar um grupo de Engenheiros de
+
+1625
+01:07:52,789 --> 01:07:58,130
+sócio a encontrarem a recolocação deles
+
+1626
+01:07:55,820 --> 01:08:00,380
+no mercado e pelo que a gente analisou
+
+1627
+01:07:58,130 --> 01:08:02,059
+lá do perfil de conhecimento daqueles
+
+1628
+01:08:00,380 --> 01:08:04,970
+Engenheiros Eles não têm dificuldade
+
+1629
+01:08:02,059 --> 01:08:06,110
+para encontrar recolocação Sabiá E aí a
+
+1630
+01:08:04,969 --> 01:08:08,449
+gente começou a levantar algumas
+
+1631
+01:08:06,110 --> 01:08:11,329
+questões né tipo como que a gente avalia
+
+1632
+01:08:08,449 --> 01:08:13,219
+precisamente o fato desses Engenheiros
+
+1633
+01:08:11,329 --> 01:08:14,840
+estarem ou não absorver e como é que a
+
+1634
+01:08:13,219 --> 01:08:17,599
+gente avisa para eles que eles estão do
+
+1635
+01:08:14,840 --> 01:08:19,760
+sorvete e que eles precisam se mexer e
+
+1636
+01:08:17,600 --> 01:08:22,370
+buscar a próxima mente e conhecimento
+
+1637
+01:08:19,760 --> 01:08:24,779
+sabia que estão valorizados pelo pelo
+
+1638
+01:08:22,369 --> 01:08:27,568
+mercado né naquele determinado o homem o
+
+1639
+01:08:24,779 --> 01:08:30,299
+algoritmo Zinho para avaliação e de
+
+1640
+01:08:27,569 --> 01:08:32,190
+obsolecência é o seja tempo de dados de
+
+1641
+01:08:30,298 --> 01:08:34,288
+muitas pessoas e a gente consegue fazer
+
+1642
+01:08:32,189 --> 01:08:36,988
+uma espécie de avaliação comparativa
+
+1643
+01:08:34,288 --> 01:08:39,059
+para para indicar o e as pessoas que
+
+1644
+01:08:36,988 --> 01:08:41,368
+estão mais atuais e as pessoas estão
+
+1645
+01:08:39,059 --> 01:08:43,859
+mais obsoletas dentro dentro daquele
+
+1646
+01:08:41,368 --> 01:08:45,408
+grupo ali sabe dia de pessoas a gente
+
+1647
+01:08:43,859 --> 01:08:48,539
+sabe que em termos de prontidão
+
+1648
+01:08:45,408 --> 01:08:51,479
+tecnológica este algoritmo ainda precisa
+
+1649
+01:08:48,538 --> 01:08:53,309
+ser um pouco mais evoluído né mas então
+
+1650
+01:08:51,479 --> 01:08:56,669
+bastante empolgado aí para os resultados
+
+1651
+01:08:53,309 --> 01:08:58,679
+preliminares e a gente obter nos testes
+
+1652
+01:08:56,670 --> 01:09:02,009
+de Campo desse algoritmo né gente
+
+1653
+01:08:58,679 --> 01:09:03,868
+coletou a 50 currículos e e fez os
+
+1654
+01:09:02,009 --> 01:09:06,779
+testes avaliam a percepção de
+
+1655
+01:09:03,868 --> 01:09:08,460
+recrutadores reais né dessas empresas do
+
+1656
+01:09:06,779 --> 01:09:09,779
+posto digital com os resultados do
+
+1657
+01:09:08,460 --> 01:09:12,538
+algoritmo e deram resultados muito
+
+1658
+01:09:09,779 --> 01:09:15,500
+parecidos Então é isso indica para gente
+
+1659
+01:09:12,538 --> 01:09:17,880
+aí que a gente está indo no caminho e
+
+1660
+01:09:15,500 --> 01:09:19,408
+outro fato interessante assim só que
+
+1661
+01:09:17,880 --> 01:09:22,038
+vocês têm ideia de como esse tipo de
+
+1662
+01:09:19,408 --> 01:09:25,599
+pesquisa pode ter um impacto grande né
+
+1663
+01:09:22,038 --> 01:09:28,989
+2019 eu participei de uma isso o grupo
+
+1664
+01:09:25,600 --> 01:09:31,630
+de gestão do porto digital é a que me
+
+1665
+01:09:28,989 --> 01:09:34,809
+chamaram aqui empregasse é eles uniram
+
+1666
+01:09:31,630 --> 01:09:36,579
+dez empresas entre empresas médias e
+
+1667
+01:09:34,810 --> 01:09:39,100
+grandes aqui no Parque Tecnológico é
+
+1668
+01:09:36,579 --> 01:09:41,318
+juntas as empresas que eu mais 200 vagas
+
+1669
+01:09:39,100 --> 01:09:43,960
+de emprego em aberto é isso fizeram
+
+1670
+01:09:41,319 --> 01:09:46,539
+grande chamada de currículos receber
+
+1671
+01:09:43,960 --> 01:09:48,480
+Anthony sentimento é esse que fez a
+
+1672
+01:09:46,539 --> 01:09:51,548
+triagem nesse instante mil currículos
+
+1673
+01:09:48,479 --> 01:09:54,339
+dali tinha uns 3.500 profissionais que
+
+1674
+01:09:51,548 --> 01:09:56,859
+eram potencialmente aproveitáveis é E aí
+
+1675
+01:09:54,340 --> 01:09:59,260
+nesse evento tiveram entrevistas a
+
+1676
+01:09:56,859 --> 01:10:01,449
+dinâmica de grupo Within tiveram
+
+1677
+01:09:59,260 --> 01:10:04,630
+processos seletivos em paralelo e
+
+1678
+01:10:01,449 --> 01:10:07,809
+acontecendo e o final das contas a pouco
+
+1679
+01:10:04,630 --> 01:10:10,000
+menos de 100 pessoas param como é boa
+
+1680
+01:10:07,810 --> 01:10:11,890
+parte das pessoas porque as empresas
+
+1681
+01:10:10,000 --> 01:10:13,659
+consideraram que elas não tinham os
+
+1682
+01:10:11,890 --> 01:10:16,150
+requisitos necessários para serem
+
+1683
+01:10:13,659 --> 01:10:17,619
+contratados e outra boa parte O que as
+
+1684
+01:10:16,149 --> 01:10:19,779
+empresas consideraram que as pessoas
+
+1685
+01:10:17,619 --> 01:10:21,220
+estavam Violetas então não tem nem a
+
+1686
+01:10:19,779 --> 01:10:23,829
+dimensão do problema se a gente
+
+1687
+01:10:21,220 --> 01:10:26,389
+conseguir avisar essas 3500 pessoas que
+
+1688
+01:10:23,829 --> 01:10:28,158
+elas não são entre ei ei que tem um
+
+1689
+01:10:26,389 --> 01:10:30,650
+determinado conjunto de tecnologias que
+
+1690
+01:10:28,158 --> 01:10:33,198
+são demandadas pelas empresas do Parque
+
+1691
+01:10:30,649 --> 01:10:34,609
+Tecnológico e se elas Aprendem se anos
+
+1692
+01:10:33,198 --> 01:10:36,769
+poderiam encontrar rapidamente uma
+
+1693
+01:10:34,609 --> 01:10:38,479
+colocação Isso já é uma contribuição ao
+
+1694
+01:10:36,770 --> 01:10:41,270
+mesmo tempo se a gente consegue dizer
+
+1695
+01:10:38,479 --> 01:10:43,098
+para as empresas que a gente tem um
+
+1696
+01:10:41,270 --> 01:10:45,800
+capital humano com muito conhecimento em
+
+1697
+01:10:43,099 --> 01:10:47,929
+determinado tipo de tecnologia é que a
+
+1698
+01:10:45,800 --> 01:10:49,699
+gente não sabe qual é essas empresas
+
+1699
+01:10:47,929 --> 01:10:53,179
+poderão dirigir suas estratégias de
+
+1700
+01:10:49,698 --> 01:10:56,500
+negócios baseadas nisso então é uma via
+
+1701
+01:10:53,179 --> 01:10:59,300
+de Mão Dupla esse tipo de informação
+
+1702
+01:10:56,500 --> 01:11:03,078
+ajudar esses Engenheiros obsoletos aí a
+
+1703
+01:10:59,300 --> 01:11:05,630
+se encaixarem na área né é ajudaria em
+
+1704
+01:11:03,078 --> 01:11:09,259
+alguma escala o bater se problema do
+
+1705
+01:11:05,630 --> 01:11:12,050
+primeiro é aquele particular porque é
+
+1706
+01:11:09,260 --> 01:11:14,420
+encontrar Engenheiros maduros o
+
+1707
+01:11:12,050 --> 01:11:17,449
+experiência de lidar com clientes e com
+
+1708
+01:11:14,420 --> 01:11:19,849
+projetos ali né Mesmo que não der não
+
+1709
+01:11:17,448 --> 01:11:24,469
+domínio uma determinada tecnologia e já
+
+1710
+01:11:19,849 --> 01:11:26,639
+é o ácido de extremo valor e escasso no
+
+1711
+01:11:24,469 --> 01:11:28,649
+mercado é muito bom certo então a gente
+
+1712
+01:11:26,639 --> 01:11:30,538
+está chegando ao final do nosso podcast
+
+1713
+01:11:28,649 --> 01:11:32,339
+e a gente vai fazer aquela pergunta eu
+
+1714
+01:11:30,538 --> 01:11:34,349
+sempre gosto de de alertar as pessoas
+
+1715
+01:11:32,340 --> 01:11:36,538
+que a gente não quer que você Prevejo
+
+1716
+01:11:34,349 --> 01:11:38,849
+futuro somente que eu digo que se diga
+
+1717
+01:11:36,538 --> 01:11:40,578
+algo que você espera que aconteça o que
+
+1718
+01:11:38,849 --> 01:11:44,340
+você gostaria que acontecesse
+
+1719
+01:11:40,578 --> 01:11:46,889
+para você qual é a próxima fronteira da
+
+1720
+01:11:44,340 --> 01:11:49,550
+engenharia de software é a pergunta
+
+1721
+01:11:46,889 --> 01:11:53,788
+filosófica né
+
+1722
+01:11:49,550 --> 01:11:56,699
+a do Eu acho que eu enxergo aí com
+
+1723
+01:11:53,788 --> 01:12:00,238
+grandes fronteiras que a gente precisa
+
+1724
+01:11:56,698 --> 01:12:03,089
+atravessar a via trazer o treinamento
+
+1725
+01:12:00,238 --> 01:12:05,609
+desses não é sobre Esse aspecto humano
+
+1726
+01:12:03,090 --> 01:12:07,770
+sociais pra dentro do currículo de
+
+1727
+01:12:05,609 --> 01:12:09,179
+Formação básica dos Engenheiros esforços
+
+1728
+01:12:07,770 --> 01:12:12,150
+sabe o desenvolvimento sócio-emocional
+
+1729
+01:12:09,179 --> 01:12:13,618
+não é trabalhado de maneira sistemática
+
+1730
+01:12:12,149 --> 01:12:17,009
+nos nossos currículos da Ciência da
+
+1731
+01:12:13,618 --> 01:12:18,658
+Computação no Brasil é mesmo Nos
+
+1732
+01:12:17,010 --> 01:12:22,159
+programas que utilizam as metodologias
+
+1733
+01:12:18,658 --> 01:12:25,839
+ativas mais avançadas mais sofisticados
+
+1734
+01:12:22,158 --> 01:12:29,349
+ainda São raros os casos é só se
+
+1735
+01:12:25,840 --> 01:12:31,840
+emocional é não é totalmente acidental
+
+1736
+01:12:29,350 --> 01:12:35,470
+ou seja o pessoal diz a volta tá onde é
+
+1737
+01:12:31,840 --> 01:12:38,020
+que uma metodologia que que vai exigir
+
+1738
+01:12:35,470 --> 01:12:39,640
+trabalho em grupo É mas eu não pré-pago
+
+1739
+01:12:38,020 --> 01:12:41,290
+os meus Engenheiros para trabalharem
+
+1740
+01:12:39,640 --> 01:12:43,900
+muito né Eu espero que acidentalmente
+
+1741
+01:12:41,289 --> 01:12:46,359
+eles eles aprendam a fazer isso é por
+
+1742
+01:12:43,899 --> 01:12:48,579
+tentativa e erro o exposto ou seja lá
+
+1743
+01:12:46,359 --> 01:12:51,279
+então eu acredito que a gente consegue
+
+1744
+01:12:48,579 --> 01:12:53,289
+fazer isso de maneira mais intencional e
+
+1745
+01:12:51,279 --> 01:12:56,229
+de maneira mais sistemática parte desse
+
+1746
+01:12:53,289 --> 01:12:59,140
+meu esforço de pesquisa das coisas que
+
+1747
+01:12:56,229 --> 01:13:01,179
+eu tenho feito por aqui envolve muitas
+
+1748
+01:12:59,140 --> 01:13:03,430
+conversas assim tempo todo com
+
+1749
+01:13:01,180 --> 01:13:06,490
+profissionais da área de RH de empresas
+
+1750
+01:13:03,430 --> 01:13:08,800
+de t.i. aqui no porto digital é e uma
+
+1751
+01:13:06,489 --> 01:13:12,939
+das coisas que essas conversas vem mais
+
+1752
+01:13:08,800 --> 01:13:15,369
+me apontando é a a demanda gigantesca
+
+1753
+01:13:12,939 --> 01:13:18,389
+essas empresas têm por habilidades
+
+1754
+01:13:15,369 --> 01:13:20,289
+sociais básicas é como Ingrid falou
+
+1755
+01:13:18,390 --> 01:13:22,270
+comunicação é um negócio extremamente
+
+1756
+01:13:20,289 --> 01:13:25,340
+importante para engenheiro de software a
+
+1757
+01:13:22,270 --> 01:13:27,619
+gente vem que deve pelo menos a o que a
+
+1758
+01:13:25,340 --> 01:13:30,289
+gente tá que as empresas a entrevistando
+
+1759
+01:13:27,618 --> 01:13:32,029
+mais carece neve um pouco mais
+
+1760
+01:13:30,289 --> 01:13:35,139
+desenvolvimento de treinamento em
+
+1761
+01:13:32,029 --> 01:13:39,439
+comunicação né para citar um exemplo
+
+1762
+01:13:35,139 --> 01:13:42,199
+aí eu vejo que o pessoal demanda muito
+
+1763
+01:13:39,439 --> 01:13:43,908
+necessidade de trabalho aqui né como eu
+
+1764
+01:13:42,198 --> 01:13:47,448
+falei antes que o negócio dele confuso
+
+1765
+01:13:43,908 --> 01:13:49,058
+mas demanda também né alto organização
+
+1766
+01:13:47,448 --> 01:13:51,558
+né e gestão de prioridades
+
+1767
+01:13:49,059 --> 01:13:53,960
+é São coisas que a gente poderia tá
+
+1768
+01:13:51,559 --> 01:13:56,539
+trabalhando no currículo regular mesmo e
+
+1769
+01:13:53,960 --> 01:13:58,730
+Curso nos dias de ter inclusive no grupo
+
+1770
+01:13:56,539 --> 01:13:59,689
+de pesquisa hoje a gente em conta com a
+
+1771
+01:13:58,729 --> 01:14:03,368
+colaboração de pesquisadores
+
+1772
+01:13:59,689 --> 01:14:05,899
+estrangeiros aí que vem experimentando
+
+1773
+01:14:03,368 --> 01:14:08,359
+desenvolver essas coisas ou dentro de
+
+1774
+01:14:05,899 --> 01:14:12,109
+empresas Ou decidi universidade e vem
+
+1775
+01:14:08,359 --> 01:14:16,039
+obtendo algum sucesso né Eu acho que sou
+
+1776
+01:14:12,109 --> 01:14:18,039
+isso deveria estar numa pauta a ida da
+
+1777
+01:14:16,039 --> 01:14:21,769
+galera que anda discutindo currículo
+
+1778
+01:14:18,039 --> 01:14:23,809
+desde você vai se tem E aí lá dentro Eu
+
+1779
+01:14:21,770 --> 01:14:27,030
+não Da gente poderia estar falando de
+
+1780
+01:14:23,809 --> 01:14:29,550
+motivação a educação e profissionais que
+
+1781
+01:14:27,029 --> 01:14:32,399
+as pessoas entendam O que é isso é e
+
+1782
+01:14:29,550 --> 01:14:36,139
+possa entender quando alcançarem na sua
+
+1783
+01:14:32,399 --> 01:14:38,179
+carreira ali posições dele gestores de
+
+1784
+01:14:36,139 --> 01:14:40,949
+administradores de equipes
+
+1785
+01:14:38,179 --> 01:14:43,710
+responsabilidade melhor né com esse tipo
+
+1786
+01:14:40,948 --> 01:14:45,868
+de coisa é curiosamente a nossa área não
+
+1787
+01:14:43,710 --> 01:14:47,429
+é a única Tá mas curiosamente não saio
+
+1788
+01:14:45,868 --> 01:14:49,948
+esse fenômeno de que as pessoas
+
+1789
+01:14:47,429 --> 01:14:53,368
+desenvolvem Tecnicamente né mas
+
+1790
+01:14:49,948 --> 01:14:56,238
+encontram um teto de carreira técnica e
+
+1791
+01:14:53,368 --> 01:14:59,939
+precisão migrar para carreira de
+
+1792
+01:14:56,238 --> 01:15:03,118
+gestores de gente deve ter continuarem
+
+1793
+01:14:59,939 --> 01:15:05,189
+crescendo como profissionais ali mas a
+
+1794
+01:15:03,118 --> 01:15:06,569
+gente não foi preparado sair certo esse
+
+1795
+01:15:05,189 --> 01:15:08,819
+é o ponto que que eu acho que a gente
+
+1796
+01:15:06,569 --> 01:15:10,738
+devia enfrentar certo é muito carente na
+
+1797
+01:15:08,819 --> 01:15:13,859
+hora da gente a gente de vencer Muito
+
+1798
+01:15:10,738 --> 01:15:16,709
+obrigado Então peça e o nome de toda a
+
+1799
+01:15:13,859 --> 01:15:19,078
+equipe eu agradeço você e eu passo a
+
+1800
+01:15:16,710 --> 01:15:21,750
+palavra para você para você deixar seus
+
+1801
+01:15:19,078 --> 01:15:23,038
+comentários finais a Eu que agradeço o
+
+1802
+01:15:21,750 --> 01:15:24,788
+convite assim eu acho que é uma grande
+
+1803
+01:15:23,038 --> 01:15:26,889
+honra né deu
+
+1804
+01:15:24,788 --> 01:15:30,338
+como é conhecido o convite para vir aqui
+
+1805
+01:15:26,889 --> 01:15:32,708
+conversar com vocês e particularmente é
+
+1806
+01:15:30,338 --> 01:15:36,338
+um grande prazer para mim de sou gente
+
+1807
+01:15:32,708 --> 01:15:38,408
+né que acompanha o podcast aí das
+
+1808
+01:15:36,338 --> 01:15:40,689
+Fronteiras da engenharia de software é
+
+1809
+01:15:38,408 --> 01:15:42,878
+tá participando aqui da parte de dentro
+
+1810
+01:15:40,689 --> 01:15:45,999
+do processo também muito muito
+
+1811
+01:15:42,878 --> 01:15:47,979
+interessante muito fazer e veja meus
+
+1812
+01:15:45,998 --> 01:15:49,658
+contatos eu peço aí vocês possam
+
+1813
+01:15:47,979 --> 01:15:52,149
+disponibilizar os meus contatos para o
+
+1814
+01:15:49,658 --> 01:15:54,248
+também né E quem tiver mais interesse em
+
+1815
+01:15:52,149 --> 01:15:56,229
+conversar sobre esse tema se conectar
+
+1816
+01:15:54,248 --> 01:16:00,118
+com a gente fazer pesquisa juntos estou
+
+1817
+01:15:56,229 --> 01:16:03,639
+à disposição certo sempre um prazer aí e
+
+1818
+01:16:00,118 --> 01:16:05,648
+estou à disposição certo brigadão um
+
+1819
+01:16:03,639 --> 01:16:08,708
+grande abraço vocês muito obrigada
+
+1820
+01:16:05,649 --> 01:16:10,539
+senhor para mim sair foi super bacana
+
+1821
+01:16:08,708 --> 01:16:12,668
+ver tudo isso eu sou fascinada por
+
+1822
+01:16:10,538 --> 01:16:14,639
+psicologia então entender um pouco mais
+
+1823
+01:16:12,668 --> 01:16:18,158
+sobre motivação e satisfação
+
+1824
+01:16:14,639 --> 01:16:20,828
+para mim é muito instigante você ouvinte
+
+1825
+01:16:18,158 --> 01:16:23,378
+né que curtiu também né quiser faz um
+
+1826
+01:16:20,828 --> 01:16:25,759
+suítes lá Marca marca gente o podcast
+
+1827
+01:16:23,378 --> 01:16:31,300
+fronteiras de engenharia de se você está
+
+1828
+01:16:25,760 --> 01:16:31,300
+satisfeito ou não com seu trabalho e nos

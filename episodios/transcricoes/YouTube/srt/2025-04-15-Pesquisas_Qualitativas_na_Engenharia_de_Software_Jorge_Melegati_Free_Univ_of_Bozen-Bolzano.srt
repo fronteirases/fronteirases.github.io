@@ -1,0 +1,5971 @@
+1
+00:00:04,080 --> 00:00:10,240
+olá pessoal eu sou Adolfo Neto professor
+
+2
+00:00:07,240 --> 00:00:12,160
+da UTFPR Curitiba e este é o Fronteiras
+
+3
+00:00:10,240 --> 00:00:14,879
+da Engenharia de Software um espaço de
+
+4
+00:00:12,160 --> 00:00:17,960
+divulgação científica Somos um podcast e
+
+5
+00:00:14,878 --> 00:00:20,800
+publicamos apresentações de artigos em
+
+6
+00:00:17,960 --> 00:00:23,080
+vídeo no nosso canal no YouTube e no
+
+7
+00:00:20,800 --> 00:00:25,880
+Spotify e em áudio nas demais
+
+8
+00:00:23,079 --> 00:00:28,038
+plataformas Hoje temos aqui Jorge
+
+9
+00:00:25,879 --> 00:00:30,160
+Melegate que vai apresentar para nós o
+
+10
+00:00:28,039 --> 00:00:32,880
+artigo pesquisas qualitativas na
+
+11
+00:00:30,160 --> 00:00:34,640
+engenharia de software definição revisão
+
+12
+00:00:32,880 --> 00:00:36,440
+crítica e diretrizes Obviamente isso
+
+13
+00:00:34,640 --> 00:00:38,920
+aqui é uma tradução para o português do
+
+14
+00:00:36,439 --> 00:00:41,359
+artigo Qualitative Service in Software
+
+15
+00:00:38,920 --> 00:00:44,399
+Engineering Research Definition Critical
+
+16
+00:00:41,359 --> 00:00:47,960
+Review e Guidelines que é de autoria
+
+17
+00:00:44,399 --> 00:00:50,759
+dele com Kiran Conboy talvez eu esteja
+
+18
+00:00:47,960 --> 00:00:52,640
+falando o nome errado e Daniel Graziotin
+
+19
+00:00:50,759 --> 00:00:54,759
+Esse artigo foi publicado na E3Z
+
+20
+00:00:52,640 --> 00:00:56,280
+Transactions on Soft Engineering uma das
+
+21
+00:00:54,759 --> 00:01:00,640
+principais revistas engenharia de
+
+22
+00:00:56,280 --> 00:01:03,000
+software no mundo com índice H5 de 72 no
+
+23
+00:01:00,640 --> 00:01:04,680
+Google Scholar Matrix mais recente E a
+
+24
+00:01:03,000 --> 00:01:07,438
+gente vai deixar o link para o artigo na
+
+25
+00:01:04,680 --> 00:01:09,720
+descrição do episódio Uma observação é
+
+26
+00:01:07,438 --> 00:01:11,919
+que no nosso episódio anterior com José
+
+27
+00:01:09,719 --> 00:01:13,719
+Valim ele foi de certa forma mais
+
+28
+00:01:11,920 --> 00:01:15,519
+voltado a pessoas do mercado Esse de
+
+29
+00:01:13,719 --> 00:01:17,759
+hoje vai ser de certa forma mais voltado
+
+30
+00:01:15,519 --> 00:01:20,478
+a pessoas da academia da universidade
+
+31
+00:01:17,759 --> 00:01:22,200
+das instituições de pesquisa E o nosso
+
+32
+00:01:20,478 --> 00:01:23,319
+objetivo é que ele seja escutado também
+
+33
+00:01:22,200 --> 00:01:25,118
+por pessoas de mercado porque eu acho
+
+34
+00:01:23,319 --> 00:01:27,519
+que o tema é interessante também para as
+
+35
+00:01:25,118 --> 00:01:29,040
+pessoas que estão trabalhando com com
+
+36
+00:01:27,519 --> 00:01:30,719
+engenharia de software para que elas
+
+37
+00:01:29,040 --> 00:01:32,240
+entendam melhor como é que nós
+
+38
+00:01:30,719 --> 00:01:34,560
+pesquisadores chegamos aos nossos
+
+39
+00:01:32,239 --> 00:01:38,158
+resultados de pesquisa Então eu vou
+
+40
+00:01:34,560 --> 00:01:41,040
+chamar aqui o primeiro autor do artigo
+
+41
+00:01:38,159 --> 00:01:44,000
+Jorge Melegate Olá Jorge tudo bem
+
+42
+00:01:41,040 --> 00:01:46,759
+obrigado por ter aceito o nosso convite
+
+43
+00:01:44,000 --> 00:01:49,959
+Tudo bem Adolfo muito obrigado pelo
+
+44
+00:01:46,759 --> 00:01:52,840
+convite É um prazer táar aqui Tudo bem
+
+45
+00:01:49,959 --> 00:01:56,599
+tudo joia Então eu vou colocar aqui os
+
+46
+00:01:52,840 --> 00:01:59,200
+seus slides vou sair aqui da da tela mas
+
+47
+00:01:56,599 --> 00:02:00,759
+eu vou ficar te assistindo aqui do fundo
+
+48
+00:01:59,200 --> 00:02:02,640
+certo e você pode começar a sua
+
+49
+00:02:00,759 --> 00:02:06,599
+apresentação
+
+50
+00:02:02,640 --> 00:02:09,239
+Perfeito Ah olá pessoal Eh então vim
+
+51
+00:02:06,599 --> 00:02:11,359
+como o Adofo adiantou eu tô vou
+
+52
+00:02:09,239 --> 00:02:13,120
+apresentar esse paper nosso que é o
+
+53
+00:02:11,360 --> 00:02:15,280
+qualitative surveys em software
+
+54
+00:02:13,120 --> 00:02:17,039
+engineering research definition critical
+
+55
+00:02:15,280 --> 00:02:19,560
+review and guidelines Foi uma
+
+56
+00:02:17,039 --> 00:02:23,598
+colaboração que eu tenho que eu tive com
+
+57
+00:02:19,560 --> 00:02:28,759
+o Kiran Conboy da Universidade Gway na
+
+58
+00:02:23,598 --> 00:02:30,560
+Irlanda eh e do L que é um research h um
+
+59
+00:02:28,759 --> 00:02:32,878
+instituto de pesquisa de software da
+
+60
+00:02:30,560 --> 00:02:36,280
+Irlanda e um dos maiores da Europa eu
+
+61
+00:02:32,878 --> 00:02:38,039
+diria se não ah muito importante no no
+
+62
+00:02:36,280 --> 00:02:40,959
+pesquisa engenharia de software E o
+
+63
+00:02:38,039 --> 00:02:43,239
+Daniel Gratotin que é professor na
+
+64
+00:02:40,959 --> 00:02:46,120
+Universidade de Hockenheim na na
+
+65
+00:02:43,239 --> 00:02:47,519
+Alemanha Então eh apesar de ser um
+
+66
+00:02:46,120 --> 00:02:51,000
+tópico mais
+
+67
+00:02:47,519 --> 00:02:53,120
+de orientado à pesquisa metodológico né
+
+68
+00:02:51,000 --> 00:02:57,039
+de pesquisa acho que é interessante para
+
+69
+00:02:53,120 --> 00:02:59,680
+todo mundo ver como podemos chegar em eh
+
+70
+00:02:57,039 --> 00:03:01,439
+questões eh interessantes e como chegar
+
+71
+00:02:59,680 --> 00:03:03,560
+nas respostas né como chegamos nas
+
+72
+00:03:01,439 --> 00:03:06,799
+respostas né
+
+73
+00:03:03,560 --> 00:03:10,479
+eh como o Adolfo também mencionou esse
+
+74
+00:03:06,799 --> 00:03:13,920
+paper foi aceito e foi já publicado né
+
+75
+00:03:10,479 --> 00:03:16,560
+agora em 2024 no último issuo da do da
+
+76
+00:03:13,919 --> 00:03:20,719
+revista Ile Transactions on software
+
+77
+00:03:16,560 --> 00:03:24,199
+engineering dae e o inter bom eh é legal
+
+78
+00:03:20,719 --> 00:03:26,840
+que o link tá eh disponibilizado e
+
+79
+00:03:24,199 --> 00:03:30,759
+qualquer um pode eh fazer o download ele
+
+80
+00:03:26,840 --> 00:03:33,640
+tá aberto né por um acordo
+
+81
+00:03:30,759 --> 00:03:37,519
+que tínhamos e está em processo de
+
+82
+00:03:33,639 --> 00:03:40,039
+inovação com o governo da Itália né com
+
+83
+00:03:37,519 --> 00:03:43,239
+uma associação dos reitores na verdade
+
+84
+00:03:40,039 --> 00:03:45,438
+esse paper está em com Open Access né
+
+85
+00:03:43,239 --> 00:03:49,360
+então qualquer um pode abaixar não
+
+86
+00:03:45,438 --> 00:03:52,120
+precisa eh ter entrar numa
+
+87
+00:03:49,360 --> 00:03:54,480
+VPN da universidade tá no ambiente da
+
+88
+00:03:52,120 --> 00:03:57,319
+universidade para baixar Então eh eu
+
+89
+00:03:54,479 --> 00:03:59,479
+convido a todos para terem uma ideia de
+
+90
+00:03:57,318 --> 00:04:03,438
+uma discussão metodológica que tenham
+
+91
+00:03:59,479 --> 00:04:05,878
+esse interesse Alguém pode baixar e ler
+
+92
+00:04:03,438 --> 00:04:09,759
+tranquilamente aqui o paper né que eu
+
+93
+00:04:05,878 --> 00:04:11,158
+vou apresentar e vou falar um pouco dele
+
+94
+00:04:09,759 --> 00:04:14,120
+E uma coisa que eu quero adicionar
+
+95
+00:04:11,158 --> 00:04:16,039
+também que eu vou eu vou fazer essa
+
+96
+00:04:14,120 --> 00:04:20,120
+apresentação no final do mês agora no
+
+97
+00:04:16,040 --> 00:04:21,919
+final de abril também no Ixi que é a
+
+98
+00:04:20,120 --> 00:04:23,280
+conferência internacional de software né
+
+99
+00:04:21,918 --> 00:04:26,079
+International Conference on software
+
+100
+00:04:23,279 --> 00:04:28,279
+engineering que vai ser agora eh como eu
+
+101
+00:04:26,079 --> 00:04:31,159
+falei no final do mês lá em Otaua no
+
+102
+00:04:28,279 --> 00:04:34,959
+Canadá E lembrando que o X ano que vem
+
+103
+00:04:31,160 --> 00:04:38,439
+tá aqui no Brasil né então eh lembrando
+
+104
+00:04:34,959 --> 00:04:40,478
+que é um talvez eu acho que é o o evento
+
+105
+00:04:38,439 --> 00:04:41,839
+mais importante de pesquisa de
+
+106
+00:04:40,478 --> 00:04:43,758
+engenharia de software Então lembrando
+
+107
+00:04:41,839 --> 00:04:46,079
+pro ano que vem eh vai ser uma
+
+108
+00:04:43,759 --> 00:04:49,038
+oportunidade para todo mundo aí do
+
+109
+00:04:46,079 --> 00:04:50,839
+ambiente bras contexto brasileiro é uma
+
+110
+00:04:49,038 --> 00:04:55,439
+oportunidade tanto para poder ver as
+
+111
+00:04:50,839 --> 00:04:57,439
+outras coisas né e é bem legal poder
+
+112
+00:04:55,439 --> 00:05:00,719
+compartilhar também nesse outro ambiente
+
+113
+00:04:57,439 --> 00:05:05,279
+como como aqui Então vamos começar
+
+114
+00:05:00,720 --> 00:05:08,160
+falando vamos começar do começo né
+
+115
+00:05:05,279 --> 00:05:10,719
+eh primeiro acho que todo mundo já ouvi
+
+116
+00:05:08,160 --> 00:05:15,880
+falar de surve né isso talvez em
+
+117
+00:05:10,720 --> 00:05:19,960
+português nós temos a eh a diferença é
+
+118
+00:05:15,879 --> 00:05:22,360
+um pouco eh é um pouco outra né porque
+
+119
+00:05:19,959 --> 00:05:24,318
+quando traduzimos pro português survey
+
+120
+00:05:22,360 --> 00:05:27,639
+muitos traduzem como pesquisa e tem
+
+121
+00:05:24,319 --> 00:05:29,919
+outras confusões né às vezes traduzem
+
+122
+00:05:27,639 --> 00:05:32,840
+como questionário ou às vezes é muito
+
+123
+00:05:29,918 --> 00:05:35,560
+comum usarem mesmo termo survey mas
+
+124
+00:05:32,839 --> 00:05:38,599
+pensando só em contexto texto em inglês
+
+125
+00:05:35,560 --> 00:05:42,439
+né publicações em inglês científicas
+
+126
+00:05:38,600 --> 00:05:43,360
+geralmente é é a língua padrão né que se
+
+127
+00:05:42,439 --> 00:05:47,959
+se
+
+128
+00:05:43,360 --> 00:05:51,038
+publica Ah isso tem alguns problemas
+
+129
+00:05:47,959 --> 00:05:54,279
+desse termo né porque ele é muito usado
+
+130
+00:05:51,038 --> 00:05:57,318
+e talvez de uma forma discriminada
+
+131
+00:05:54,279 --> 00:05:59,559
+Então qualquer
+
+132
+00:05:57,319 --> 00:06:02,680
+pessoa pode às vezes falar: "Ah tô
+
+133
+00:05:59,560 --> 00:06:07,399
+fazendo uma survey eh dentro de um outro
+
+134
+00:06:02,680 --> 00:06:09,280
+estudo" E e isso às vezes tem alguns
+
+135
+00:06:07,399 --> 00:06:13,598
+problemas né mas
+
+136
+00:06:09,279 --> 00:06:17,559
+vamos começar eh falando de survey como
+
+137
+00:06:13,598 --> 00:06:20,240
+um método de pesquisa né então pensando
+
+138
+00:06:17,560 --> 00:06:24,160
+o survei como método de
+
+139
+00:06:20,240 --> 00:06:25,759
+pesquisa eh a gente pode pensar que ele
+
+140
+00:06:24,160 --> 00:06:29,759
+é provavelmente o mais
+
+141
+00:06:25,759 --> 00:06:34,080
+usado Eh a todo mundo aqui já deve ter
+
+142
+00:06:29,759 --> 00:06:36,759
+esbarrado em um paper que fez uma survey
+
+143
+00:06:34,079 --> 00:06:40,478
+eh ou pelo menos se chamou como uma
+
+144
+00:06:36,759 --> 00:06:43,439
+survey dos mais diferentes
+
+145
+00:06:40,478 --> 00:06:45,879
+eh tópicos dentro de engener software
+
+146
+00:06:43,439 --> 00:06:49,279
+mesmo engener software Isso não é só na
+
+147
+00:06:45,879 --> 00:06:54,120
+academia né a survey survey são feitas
+
+148
+00:06:49,279 --> 00:06:57,239
+tanto eh na indústria por exemplo eh
+
+149
+00:06:54,120 --> 00:07:00,399
+para entender determinado h aceitação de
+
+150
+00:06:57,240 --> 00:07:03,038
+determinado produto até mesmo a gente
+
+151
+00:07:00,399 --> 00:07:08,000
+pode pensar numa pesquisa de intenção de
+
+152
+00:07:03,038 --> 00:07:10,878
+voto né que é acho que todo mundo vê ah
+
+153
+00:07:08,000 --> 00:07:13,399
+no dia assim quando alguém pensa em uma
+
+154
+00:07:10,879 --> 00:07:15,759
+pesquisa né eh por
+
+155
+00:07:13,399 --> 00:07:18,519
+um para um leigo digamos assim para
+
+156
+00:07:15,759 --> 00:07:20,800
+alguém que não é do ambiente de pesquisa
+
+157
+00:07:18,519 --> 00:07:23,159
+mas também é muito usado no setor
+
+158
+00:07:20,800 --> 00:07:25,598
+público né para governamental para
+
+159
+00:07:23,160 --> 00:07:27,560
+entender como é
+
+160
+00:07:25,598 --> 00:07:31,959
+determinado processo
+
+161
+00:07:27,560 --> 00:07:35,240
+né tá e aí o que que você tem mas o que
+
+162
+00:07:31,959 --> 00:07:38,829
+que é uma survey né esse aí a como nós
+
+163
+00:07:35,240 --> 00:07:39,960
+podemos definir de uma forma mais
+
+164
+00:07:38,829 --> 00:07:45,598
+[Música]
+
+165
+00:07:39,959 --> 00:07:49,158
+ah restrita mais formal mais sistemática
+
+166
+00:07:45,598 --> 00:07:50,839
+o que é uma survey né o problema é que
+
+167
+00:07:49,158 --> 00:07:54,680
+não existe um
+
+168
+00:07:50,839 --> 00:07:57,198
+consenso Dependendo dos autores usam
+
+169
+00:07:54,680 --> 00:08:02,280
+diferentes formas
+
+170
+00:07:57,199 --> 00:08:08,280
+de eh do que que é uma surve E isso é
+
+171
+00:08:02,279 --> 00:08:10,079
+ainda mais a eh a mais proeminente eh
+
+172
+00:08:08,279 --> 00:08:12,679
+isso é mesmo mesmo assim é proeminente
+
+173
+00:08:10,079 --> 00:08:17,800
+antes mesmo na em
+
+174
+00:08:12,680 --> 00:08:20,240
+em artigos de pesquisa em eh artigos eh
+
+175
+00:08:17,800 --> 00:08:22,360
+artigos em conferências em anais Mesmo
+
+176
+00:08:20,240 --> 00:08:25,519
+assim a gente vê mesmo em um lugar que é
+
+177
+00:08:22,360 --> 00:08:27,960
+mais formal mais eh restritivo a gente
+
+178
+00:08:25,519 --> 00:08:30,519
+ainda vê essa esse problema de
+
+179
+00:08:27,959 --> 00:08:33,360
+diferentes termos né muitas vezes o que
+
+180
+00:08:30,519 --> 00:08:35,799
+a gente mais vê é usar às vezes como um
+
+181
+00:08:33,360 --> 00:08:37,038
+sinônimo de questionário que é uma coisa
+
+182
+00:08:35,799 --> 00:08:39,799
+um pouco meio
+
+183
+00:08:37,038 --> 00:08:42,639
+limitante Você vê às vezes os estudos de
+
+184
+00:08:39,799 --> 00:08:46,479
+caso que os autores dizem que fizeram
+
+185
+00:08:42,639 --> 00:08:50,159
+também uma surve Ao mesmo tempo a gente
+
+186
+00:08:46,480 --> 00:08:54,159
+vê também eh
+
+187
+00:08:50,159 --> 00:08:56,559
+eh às vezes o termo sendo usado como um
+
+188
+00:08:54,159 --> 00:09:00,240
+sinônimo para uma revisão da literatura
+
+189
+00:08:56,559 --> 00:09:02,119
+O exemplo mais clássico disso é a esse
+
+190
+00:09:00,240 --> 00:09:04,919
+journal que é extremamente bem
+
+191
+00:09:02,120 --> 00:09:07,839
+conceituado né essa revista da ACM que é
+
+192
+00:09:04,919 --> 00:09:09,679
+a M Computing Service que eles publicam
+
+193
+00:09:07,839 --> 00:09:12,640
+são especializados em publicar revisões
+
+194
+00:09:09,679 --> 00:09:15,838
+de literatura né em grandes revisões de
+
+195
+00:09:12,639 --> 00:09:18,679
+determinados tópicos dentro de da
+
+196
+00:09:15,839 --> 00:09:22,720
+ciência de computação enfim Então vocês
+
+197
+00:09:18,679 --> 00:09:26,519
+vem que mesmo na pesquisa a gente vê eh
+
+198
+00:09:22,720 --> 00:09:30,800
+o termo sendo usado de diferentes formas
+
+199
+00:09:26,519 --> 00:09:34,000
+né para fazer um resumo assim vamos a
+
+200
+00:09:30,799 --> 00:09:36,319
+gente que que a gente fez né eh ah isso
+
+201
+00:09:34,000 --> 00:09:39,559
+é interessante E só para falar que isso
+
+202
+00:09:36,320 --> 00:09:44,240
+não é um antes de ir pra definição de
+
+203
+00:09:39,559 --> 00:09:46,518
+survey só para pontuar que esse problema
+
+204
+00:09:44,240 --> 00:09:50,639
+de especialmente
+
+205
+00:09:46,519 --> 00:09:54,919
+engenharia de software né de eh não
+
+206
+00:09:50,639 --> 00:09:58,519
+sermos não tão formais tão como eu posso
+
+207
+00:09:54,919 --> 00:10:00,679
+dizer de uma forma não restrita ou
+
+208
+00:09:58,519 --> 00:10:02,360
+sistemáticos de uma forma não nós não
+
+209
+00:10:00,679 --> 00:10:04,479
+somos muito sistemáticos os termos que
+
+210
+00:10:02,360 --> 00:10:08,039
+usamos para designar os nossos métodos
+
+211
+00:10:04,480 --> 00:10:11,680
+de pesquisa digamos assim existem vários
+
+212
+00:10:08,039 --> 00:10:14,319
+artigos na literatura eh de forma
+
+213
+00:10:11,679 --> 00:10:19,239
+fazendo revisões críticas de uso de
+
+214
+00:10:14,320 --> 00:10:21,800
+métodos Por exemplo tem esse artigo
+
+215
+00:10:19,240 --> 00:10:24,600
+recente de certa forma recente do
+
+216
+00:10:21,799 --> 00:10:27,240
+professor Class Wallen que foi é um
+
+217
+00:10:24,600 --> 00:10:30,759
+excelente pesquisador que não me engano
+
+218
+00:10:27,240 --> 00:10:34,320
+ele já se aposentou mas ele focou
+
+219
+00:10:30,759 --> 00:10:35,759
+bastante no no estudo de caso né por
+
+220
+00:10:34,320 --> 00:10:40,879
+exemplo estudo de caso tem sempre essa
+
+221
+00:10:35,759 --> 00:10:43,519
+questão de ah vamos usar eh propor uma
+
+222
+00:10:40,879 --> 00:10:46,320
+uma nova ferramenta um novo processo e
+
+223
+00:10:43,519 --> 00:10:49,360
+vamos aplicar em um determinado lugar e
+
+224
+00:10:46,320 --> 00:10:50,720
+vamos analisar isso aí Muitas muitos
+
+225
+00:10:49,360 --> 00:10:52,560
+papers têm chamado isso de muitos
+
+226
+00:10:50,720 --> 00:10:55,560
+artigos têm chamado isso de estudo de
+
+227
+00:10:52,559 --> 00:10:58,599
+caso E aí essa é a discussão que ele
+
+228
+00:10:55,559 --> 00:11:00,958
+levanta bastante nesse paper por exemplo
+
+229
+00:10:58,600 --> 00:11:05,240
+que
+
+230
+00:11:00,958 --> 00:11:06,958
+eh isso é um estudo é um caso mas será
+
+231
+00:11:05,240 --> 00:11:09,278
+que é realmente um estudo de caso então
+
+232
+00:11:06,958 --> 00:11:12,799
+ele discute o que são realmente estudo
+
+233
+00:11:09,278 --> 00:11:14,838
+de caso Aí tem eh outro exemplo também
+
+234
+00:11:12,799 --> 00:11:17,240
+com ground theory né teoria fundamentada
+
+235
+00:11:14,839 --> 00:11:20,680
+em dados que também nos últimos anos nos
+
+236
+00:11:17,240 --> 00:11:22,839
+últimos 10 anos tem eh tem muito mais
+
+237
+00:11:20,679 --> 00:11:25,519
+evidência em em engenharia de software
+
+238
+00:11:22,839 --> 00:11:27,880
+tem sido muito mais utilizado que também
+
+239
+00:11:25,519 --> 00:11:30,480
+eh teve esse paper no X há uns anos
+
+240
+00:11:27,879 --> 00:11:32,759
+atrás falando de que haviam uns
+
+241
+00:11:30,480 --> 00:11:38,039
+problemas de como estava sendo usado
+
+242
+00:11:32,759 --> 00:11:40,159
+Então só para mostrar que a o a nossa
+
+243
+00:11:38,039 --> 00:11:41,679
+comunidade de engenharia de pesquisa
+
+244
+00:11:40,159 --> 00:11:45,000
+engenharia de software ainda tem o que
+
+245
+00:11:41,679 --> 00:11:48,719
+evoluir nessa questão metodológica
+
+246
+00:11:45,000 --> 00:11:51,639
+Eh alguns outros exemplos é próprio ACM
+
+247
+00:11:48,720 --> 00:11:53,839
+a os padrões da ACM que não sei se vocês
+
+248
+00:11:51,639 --> 00:11:58,000
+já tiveram essa oportunidade de olhar
+
+249
+00:11:53,839 --> 00:12:01,160
+que teve esse trabalho eh liderado pelo
+
+250
+00:11:58,000 --> 00:12:03,600
+Paul Rov e e outros E várias pessoas
+
+251
+00:12:01,159 --> 00:12:06,399
+contribuíram para tentar
+
+252
+00:12:03,600 --> 00:12:08,320
+uniformizar como os métodos são podem
+
+253
+00:12:06,399 --> 00:12:10,639
+ser usados né eu eu recomendo a todos
+
+254
+00:12:08,320 --> 00:12:12,360
+que tenham interesse na verdade todo
+
+255
+00:12:10,639 --> 00:12:15,919
+mundo que tiver fazendo pesquisa vai
+
+256
+00:12:12,360 --> 00:12:20,480
+fazer um estudo dá uma olhada lá nesses
+
+257
+00:12:15,919 --> 00:12:23,078
+ah padrões né standards né então
+
+258
+00:12:20,480 --> 00:12:25,560
+resumindo tem esse temos esse problema
+
+259
+00:12:23,078 --> 00:12:27,958
+que é realmente chamado de sluraring né
+
+260
+00:12:25,559 --> 00:12:31,198
+meta de slurar em pesquisa engenharia de
+
+261
+00:12:27,958 --> 00:12:34,278
+software Então nesse contexto a gente
+
+262
+00:12:31,198 --> 00:12:38,278
+nesse paper a gente tentou
+
+263
+00:12:34,278 --> 00:12:42,278
+resolir nessa questão para essas surveys
+
+264
+00:12:38,278 --> 00:12:45,919
+qualitativas né então para começar assim
+
+265
+00:12:42,278 --> 00:12:48,958
+quais são as definições de serving
+
+266
+00:12:45,919 --> 00:12:51,599
+nosso primeiro trabalho assim a nossa
+
+267
+00:12:48,958 --> 00:12:53,838
+análise aqui nesse nesse paper foi
+
+268
+00:12:51,600 --> 00:12:56,120
+observar definições para survey O que
+
+269
+00:12:53,839 --> 00:12:58,079
+que é a survey né
+
+270
+00:12:56,120 --> 00:13:00,320
+a gente observou como a gente eu já
+
+271
+00:12:58,078 --> 00:13:04,278
+mencionei no primeiro slide é que não
+
+272
+00:13:00,320 --> 00:13:07,680
+existe um consenso e que na verdade
+
+273
+00:13:04,278 --> 00:13:10,639
+existem definições mais restritivas
+
+274
+00:13:07,679 --> 00:13:12,799
+focando realmente na parte eh
+
+275
+00:13:10,639 --> 00:13:16,198
+quantitativa que é o caso por exemplo
+
+276
+00:13:12,799 --> 00:13:20,078
+dessa à esquerda aqui nesse paper do GRS
+
+277
+00:13:16,198 --> 00:13:22,399
+e a e outros colegas de 2004 que eles
+
+278
+00:13:20,078 --> 00:13:24,838
+realmente falam aqui como vocês podem
+
+279
+00:13:22,399 --> 00:13:28,159
+ver de construir
+
+280
+00:13:24,839 --> 00:13:31,360
+descritores quantitativos de atributos
+
+281
+00:13:28,159 --> 00:13:35,559
+de uma população grande a partir de de
+
+282
+00:13:31,360 --> 00:13:37,440
+um de alguns membros né mas de algum mas
+
+283
+00:13:35,559 --> 00:13:40,479
+existem também outras
+
+284
+00:13:37,440 --> 00:13:43,880
+definições um pouco mais amplas por
+
+285
+00:13:40,480 --> 00:13:47,000
+exemplo do Fink né que de 2003 de um
+
+286
+00:13:43,879 --> 00:13:49,278
+livro muito interessante pequenininho
+
+287
+00:13:47,000 --> 00:13:50,879
+assim que é talvez seja um pouco difícil
+
+288
+00:13:49,278 --> 00:13:55,120
+de achar mas é é bem interessante para
+
+289
+00:13:50,879 --> 00:13:59,078
+falar de survey survey eh que ele fala
+
+290
+00:13:55,120 --> 00:14:01,120
+de coletar informações sobre pessoas e
+
+291
+00:13:59,078 --> 00:14:03,838
+explicar o seu
+
+292
+00:14:01,120 --> 00:14:07,560
+conhecimento a partir de perguntar eh
+
+293
+00:14:03,839 --> 00:14:10,600
+obter resposta de perguntas ou
+
+294
+00:14:07,559 --> 00:14:13,559
+indiretamente a partir de uma revisão né
+
+295
+00:14:10,600 --> 00:14:18,920
+de uma análise de
+
+296
+00:14:13,559 --> 00:14:20,239
+eh records de dados escritos ou visuais
+
+297
+00:14:18,919 --> 00:14:22,919
+né
+
+298
+00:14:20,240 --> 00:14:26,079
+então o que a
+
+299
+00:14:22,919 --> 00:14:29,599
+gente percebeu aqui
+
+300
+00:14:26,078 --> 00:14:33,000
+a gente acha a nossa o nosso argumento
+
+301
+00:14:29,600 --> 00:14:35,680
+nesse paper é começar talvez uma a
+
+302
+00:14:33,000 --> 00:14:38,839
+vantagem de você usar uma uma versão
+
+303
+00:14:35,679 --> 00:14:40,159
+mais aberta é que a gente pode eh
+
+304
+00:14:38,839 --> 00:14:44,240
+incluir
+
+305
+00:14:40,159 --> 00:14:47,639
+alguns ah alguns
+
+306
+00:14:44,240 --> 00:14:49,560
+ah métodos que estão sendo mais
+
+307
+00:14:47,639 --> 00:14:53,360
+comumente usados em engenharia de
+
+308
+00:14:49,559 --> 00:14:55,958
+software e que eh ultimamente tem
+
+309
+00:14:53,360 --> 00:14:58,360
+sido é que tem sido mais utilizados
+
+310
+00:14:55,958 --> 00:15:00,278
+ultimamente em ger software e que tem
+
+311
+00:14:58,360 --> 00:15:04,278
+usado esse termo
+
+312
+00:15:00,278 --> 00:15:07,679
+h eh se chamando de survey E aí um deles
+
+313
+00:15:04,278 --> 00:15:09,240
+é o qualitative surveys né eh surveys
+
+314
+00:15:07,679 --> 00:15:13,399
+qualitativas
+
+315
+00:15:09,240 --> 00:15:17,159
+Ah a gente vai falar logo depois Só para
+
+316
+00:15:13,399 --> 00:15:19,919
+uma coisa interessante antes de eu falar
+
+317
+00:15:17,159 --> 00:15:21,519
+de servis qualitativas né o que que a
+
+318
+00:15:19,919 --> 00:15:23,479
+gente viu em comum entre essas
+
+319
+00:15:21,519 --> 00:15:27,198
+definições
+
+320
+00:15:23,480 --> 00:15:28,560
+mesmo as mais restritivas de quit eh eh
+
+321
+00:15:27,198 --> 00:15:31,278
+falando que serveis são mais
+
+322
+00:15:28,559 --> 00:15:33,239
+relacionadas a quantitativas você
+
+323
+00:15:31,278 --> 00:15:36,120
+percebe que elas sempre
+
+324
+00:15:33,240 --> 00:15:37,680
+falam essas digamos assim isso poderia
+
+325
+00:15:36,120 --> 00:15:40,959
+ser o
+
+326
+00:15:37,679 --> 00:15:42,879
+um compromisso dessas definições né que
+
+327
+00:15:40,958 --> 00:15:45,198
+a gente pode trabalhar em cima disso A
+
+328
+00:15:42,879 --> 00:15:47,559
+gente vai trabalhar o que que é serve O
+
+329
+00:15:45,198 --> 00:15:49,719
+server basicamente é você obter algum
+
+330
+00:15:47,559 --> 00:15:52,039
+tipo de conhecimento né eh ter
+
+331
+00:15:49,720 --> 00:15:55,560
+conhecimento a partir sobre uma
+
+332
+00:15:52,039 --> 00:15:58,919
+população a partir de uma amostra Então
+
+333
+00:15:55,559 --> 00:16:01,359
+você não tem por any razões você talvez
+
+334
+00:15:58,919 --> 00:16:03,198
+não tenha acesso a tamanho a toda a
+
+335
+00:16:01,360 --> 00:16:05,159
+população pode ser porque ela é muito
+
+336
+00:16:03,198 --> 00:16:08,318
+grande Vamos dizer que a gente tá
+
+337
+00:16:05,159 --> 00:16:10,600
+querendo saber todos os ah
+
+338
+00:16:08,318 --> 00:16:12,120
+desenvolvedores de software brasileiros
+
+339
+00:16:10,600 --> 00:16:13,600
+É uma pulavulação muito grande Então o
+
+340
+00:16:12,120 --> 00:16:15,278
+que a gente vai fazer se a gente quer
+
+341
+00:16:13,600 --> 00:16:16,839
+fazer um estudo a gente vai fazer uma
+
+342
+00:16:15,278 --> 00:16:18,399
+amostra ou seja a gente vai pegar um
+
+343
+00:16:16,839 --> 00:16:21,440
+grupo menor que representa essa
+
+344
+00:16:18,399 --> 00:16:24,000
+população para tentar se cobrir alguma
+
+345
+00:16:21,440 --> 00:16:26,120
+coisa sobre eles E é interessante que
+
+346
+00:16:24,000 --> 00:16:28,078
+população não necessariamente se
+
+347
+00:16:26,120 --> 00:16:30,560
+relaciona a pessoas a gente pode falar
+
+348
+00:16:28,078 --> 00:16:32,000
+uma população de sistemas todos os
+
+349
+00:16:30,559 --> 00:16:37,399
+sistemas em
+
+350
+00:16:32,000 --> 00:16:39,039
+Java eh web web eh desenvolvidos em Java
+
+351
+00:16:37,399 --> 00:16:41,480
+ou
+
+352
+00:16:39,039 --> 00:16:45,799
+todos
+
+353
+00:16:41,480 --> 00:16:50,199
+ah eh isso é um outro exemplo ó teríamos
+
+354
+00:16:45,799 --> 00:16:52,000
+outro exemplo de ah repositórios pode
+
+355
+00:16:50,198 --> 00:16:55,359
+ser
+
+356
+00:16:52,000 --> 00:16:57,639
+eh times a população de times como os
+
+357
+00:16:55,360 --> 00:17:00,000
+diferentes times apesar
+
+358
+00:16:57,639 --> 00:17:02,039
+a gente não vai na pessoa né diferente
+
+359
+00:17:00,000 --> 00:17:07,318
+Então a ideia é que população seja
+
+360
+00:17:02,039 --> 00:17:08,918
+qualquer eh grupo geral de ou restrito
+
+361
+00:17:07,318 --> 00:17:12,438
+de
+
+362
+00:17:08,919 --> 00:17:14,799
+eh de objetos da pesquisa né e o
+
+363
+00:17:12,439 --> 00:17:17,959
+importante é outra coisa é que não tem
+
+364
+00:17:14,798 --> 00:17:19,199
+um controle ou manipulação de variáveis
+
+365
+00:17:17,959 --> 00:17:21,640
+Ou seja isso aqui é pra gente
+
+366
+00:17:19,199 --> 00:17:23,679
+diferenciar de experimenta de um
+
+367
+00:17:21,640 --> 00:17:26,199
+experimento de um experimento controlado
+
+368
+00:17:23,679 --> 00:17:28,038
+Então a gente não tá pegando por exemplo
+
+369
+00:17:26,199 --> 00:17:31,400
+desenvolvedores
+
+370
+00:17:28,038 --> 00:17:34,839
+ou projetos de software e aplicando
+
+371
+00:17:31,400 --> 00:17:38,360
+diferentes técnicas ou diferentes
+
+372
+00:17:34,839 --> 00:17:41,000
+eh processos Isso a gente está tentando
+
+373
+00:17:38,359 --> 00:17:44,159
+observar como eles estão acontecendo
+
+374
+00:17:41,000 --> 00:17:45,119
+agora de maneira geral como eles estão
+
+375
+00:17:44,160 --> 00:17:48,600
+se
+
+376
+00:17:45,119 --> 00:17:52,000
+desenvolvendo E além disso né
+
+377
+00:17:48,599 --> 00:17:54,759
+eh eu eles apresentam a gente observou
+
+378
+00:17:52,000 --> 00:17:58,200
+que todas essas definições todos esses
+
+379
+00:17:54,759 --> 00:18:00,319
+artigos que falam sobre eh artigos
+
+380
+00:17:58,200 --> 00:18:04,000
+metodológicos sobre serve geralmente
+
+381
+00:18:00,319 --> 00:18:06,399
+eles definem uma sequência de passos né
+
+382
+00:18:04,000 --> 00:18:08,960
+define o
+
+383
+00:18:06,400 --> 00:18:10,240
+objetivos tem o processo de sampling né
+
+384
+00:18:08,960 --> 00:18:12,919
+de
+
+385
+00:18:10,240 --> 00:18:16,120
+amostragem tem uma depois você coleta os
+
+386
+00:18:12,919 --> 00:18:20,640
+dados e finalmente você analisa os dados
+
+387
+00:18:16,119 --> 00:18:23,599
+Eh isso a gente observou também Então
+
+388
+00:18:20,640 --> 00:18:25,440
+agora a gente fala sobre as serveis
+
+389
+00:18:23,599 --> 00:18:28,678
+qualitativas né então por que que a
+
+390
+00:18:25,440 --> 00:18:30,720
+gente trabalhou com esta abordagem eh
+
+391
+00:18:28,679 --> 00:18:33,600
+com essa proposta mais ampla de
+
+392
+00:18:30,720 --> 00:18:37,240
+definição de survey né porque aí a gente
+
+393
+00:18:33,599 --> 00:18:40,119
+acredita que esse tipo de survey né eh
+
+394
+00:18:37,240 --> 00:18:41,798
+qualitativa também pode ser muito
+
+395
+00:18:40,119 --> 00:18:45,199
+importante
+
+396
+00:18:41,798 --> 00:18:48,558
+Eh e o que que é essa proposta essa e eh
+
+397
+00:18:45,200 --> 00:18:51,759
+essa definição foi proposta poren em
+
+398
+00:18:48,558 --> 00:18:54,918
+2010 focado mas focado em ciências
+
+399
+00:18:51,759 --> 00:18:57,599
+sociais né pras sociais Eh como eu falei
+
+400
+00:18:54,919 --> 00:19:00,919
+a gente tá usando uma definição mais
+
+401
+00:18:57,599 --> 00:19:03,639
+ampla de serveis E qual que é o objetivo
+
+402
+00:19:00,919 --> 00:19:08,240
+da server qualitativo
+
+403
+00:19:03,640 --> 00:19:09,440
+eh a ideia é que você consiga você foque
+
+404
+00:19:08,240 --> 00:19:11,558
+numa
+
+405
+00:19:09,440 --> 00:19:14,080
+diversidade da da diversidade de
+
+406
+00:19:11,558 --> 00:19:17,678
+determinadas propriedades da sua
+
+407
+00:19:14,079 --> 00:19:19,439
+população Então diferentemente de uma
+
+408
+00:19:17,679 --> 00:19:21,080
+server quantitativo que você vai tentar
+
+409
+00:19:19,440 --> 00:19:24,400
+descobrir qual que é a
+
+410
+00:19:21,079 --> 00:19:28,678
+distribuição ah de alguma
+
+411
+00:19:24,400 --> 00:19:31,038
+propriedade por exemplo qual frequência
+
+412
+00:19:28,679 --> 00:19:32,880
+desenvolvedores de
+
+413
+00:19:31,038 --> 00:19:37,038
+software
+
+414
+00:19:32,880 --> 00:19:38,960
+hã cometem bugs não sei Isso é uma média
+
+415
+00:19:37,038 --> 00:19:42,200
+digamos assim Aí você vai chegar com
+
+416
+00:19:38,960 --> 00:19:46,240
+algum número né descrevendo na média eh
+
+417
+00:19:42,200 --> 00:19:49,038
+ou eh você consegue descrever dependendo
+
+418
+00:19:46,240 --> 00:19:52,919
+de experiência talvez você consiga ou do
+
+419
+00:19:49,038 --> 00:19:54,759
+contexto você consiga descrever e a a
+
+420
+00:19:52,919 --> 00:19:57,880
+qual que seria a frequência de bugs ou
+
+421
+00:19:54,759 --> 00:20:00,079
+frequência de algum outro problema
+
+422
+00:19:57,880 --> 00:20:02,039
+E aí teoricamente você consegue
+
+423
+00:20:00,079 --> 00:20:03,798
+generalizar dependendo de como é esse
+
+424
+00:20:02,038 --> 00:20:04,720
+estudo você consegue generalizar isso
+
+425
+00:20:03,798 --> 00:20:07,240
+paraa
+
+426
+00:20:04,720 --> 00:20:11,600
+população A ideia aqui da survey
+
+427
+00:20:07,240 --> 00:20:14,599
+qualitativa é não é focar em algo eh
+
+428
+00:20:11,599 --> 00:20:17,240
+médio ou uma descrição da distribuição
+
+429
+00:20:14,599 --> 00:20:20,038
+do que acontece mas é tentar
+
+430
+00:20:17,240 --> 00:20:23,359
+identificar qual que é a
+
+431
+00:20:20,038 --> 00:20:25,919
+diversidade de alguma característica Por
+
+432
+00:20:23,359 --> 00:20:28,519
+exemplo esse debugs a gente poderia ter
+
+433
+00:20:25,919 --> 00:20:30,440
+quais são os possíveis tipos de bugs
+
+434
+00:20:28,519 --> 00:20:32,480
+inseridos por desenvolvedores Por
+
+435
+00:20:30,440 --> 00:20:35,679
+exemplo se a gente tá tentando descrever
+
+436
+00:20:32,480 --> 00:20:38,038
+os tipos eh possíveis ou que a gente
+
+437
+00:20:35,679 --> 00:20:40,000
+consegue observar isso seria o que a
+
+438
+00:20:38,038 --> 00:20:42,200
+gente tá chamando de survei qualitativa
+
+439
+00:20:40,000 --> 00:20:44,640
+E isso a gente vai ver que tem pode ter
+
+440
+00:20:42,200 --> 00:20:47,600
+várias aplicações em engenheria de
+
+441
+00:20:44,640 --> 00:20:49,600
+software Um outro sinônimo que também
+
+442
+00:20:47,599 --> 00:20:52,199
+pode ser usado é chamar isso de uma
+
+443
+00:20:49,599 --> 00:20:54,279
+survey de diversidade né
+
+444
+00:20:52,200 --> 00:20:58,919
+diversity
+
+445
+00:20:54,279 --> 00:21:03,720
+E aí a gente podemos falar um pouco dos
+
+446
+00:20:58,919 --> 00:21:05,120
+dos próximos né e e tá esse as server
+
+447
+00:21:03,720 --> 00:21:07,798
+qualitativas
+
+448
+00:21:05,119 --> 00:21:09,359
+foram eh apresentadas mais paraas
+
+449
+00:21:07,798 --> 00:21:11,679
+ciências sociais mas o que que a gente
+
+450
+00:21:09,359 --> 00:21:13,319
+pode falar de engenharia de software que
+
+451
+00:21:11,679 --> 00:21:16,798
+o interessante é que em engenharia de
+
+452
+00:21:13,319 --> 00:21:19,960
+software esse método tem sido utilizado
+
+453
+00:21:16,798 --> 00:21:21,839
+já há algum tempo Eh teve alguns
+
+454
+00:21:19,960 --> 00:21:25,840
+exemplos aqui eu gosto de falar desses
+
+455
+00:21:21,839 --> 00:21:29,558
+exemplos de eh teve o Lind a
+
+456
+00:21:25,839 --> 00:21:32,639
+Lind que em 2016 publicaram esse artigo
+
+457
+00:21:29,558 --> 00:21:34,960
+sobre os desafios e os os fatores de
+
+458
+00:21:32,640 --> 00:21:36,640
+sucesso para a experimentação engenharia
+
+459
+00:21:34,960 --> 00:21:40,840
+de software
+
+460
+00:21:36,640 --> 00:21:45,080
+Eh esse outro estudo por pela Barcomb e
+
+461
+00:21:40,839 --> 00:21:48,158
+outros que de retenção de voluntários em
+
+462
+00:21:45,079 --> 00:21:51,439
+projetos de de código
+
+463
+00:21:48,159 --> 00:21:54,520
+aberto Eh e geralmente vocês percebem
+
+464
+00:21:51,440 --> 00:21:56,440
+que esses estão meio que listando esses
+
+465
+00:21:54,519 --> 00:22:00,839
+quais são os desafios quais são os
+
+466
+00:21:56,440 --> 00:22:03,759
+fatores quais são os elementos que
+
+467
+00:22:00,839 --> 00:22:06,038
+influenciam a retenção Então é sempre
+
+468
+00:22:03,759 --> 00:22:08,079
+geralmente uma descrição uma listagem
+
+469
+00:22:06,038 --> 00:22:10,000
+Então a gente vê que tem vários cenários
+
+470
+00:22:08,079 --> 00:22:12,199
+cenários na engenharia na pesquisa
+
+471
+00:22:10,000 --> 00:22:14,159
+engenharia de software que é importante
+
+472
+00:22:12,200 --> 00:22:15,720
+a gente identificar essa
+
+473
+00:22:14,159 --> 00:22:18,640
+diversidade
+
+474
+00:22:15,720 --> 00:22:20,558
+eh de de das propriedades né das
+
+475
+00:22:18,640 --> 00:22:23,640
+características do que propriamente uma
+
+476
+00:22:20,558 --> 00:22:26,440
+distribuição Às vezes tem um caso que às
+
+477
+00:22:23,640 --> 00:22:30,799
+vezes é mais importante que o outro que
+
+478
+00:22:26,440 --> 00:22:33,240
+é bem mais eh frequente nesse sentido
+
+479
+00:22:30,798 --> 00:22:35,599
+Então por isso que a gente tá tentando
+
+480
+00:22:33,240 --> 00:22:38,278
+propor que esse método seja mais
+
+481
+00:22:35,599 --> 00:22:38,278
+utilizado em
+
+482
+00:22:38,759 --> 00:22:45,599
+genetófo Então como a gente define né o
+
+483
+00:22:42,400 --> 00:22:48,798
+nosso como o nosso paper é chamado né
+
+484
+00:22:45,599 --> 00:22:50,519
+definição revisão crítica e diretrizes
+
+485
+00:22:48,798 --> 00:22:53,319
+né então vamos começar por uma definição
+
+486
+00:22:50,519 --> 00:22:56,200
+Uma definição mais formal seria que a
+
+487
+00:22:53,319 --> 00:22:58,918
+uma survey qualitativa é um é uma
+
+488
+00:22:56,200 --> 00:23:01,000
+pesquisa né um método de pesquisa que
+
+489
+00:22:58,919 --> 00:23:04,080
+tem como objetivo identificar a
+
+490
+00:23:01,000 --> 00:23:07,200
+diversidade de um dos valores de uma
+
+491
+00:23:04,079 --> 00:23:10,319
+característica ao invés de simplesmente
+
+492
+00:23:07,200 --> 00:23:12,519
+eh medir a sua distribuição em uma
+
+493
+00:23:10,319 --> 00:23:15,720
+população Então a gente tá tentando ver
+
+494
+00:23:12,519 --> 00:23:18,960
+quais são os possíveis valores de disso
+
+495
+00:23:15,720 --> 00:23:20,600
+em um em uma em uma
+
+496
+00:23:18,960 --> 00:23:23,679
+população
+
+497
+00:23:20,599 --> 00:23:25,480
+Então aí a gente começa a revisão
+
+498
+00:23:23,679 --> 00:23:26,919
+crítica né como a gente tem uma
+
+499
+00:23:25,480 --> 00:23:29,360
+definição vamos fazer uma revisão
+
+500
+00:23:26,919 --> 00:23:31,320
+crítica Vamos O objetivo dessa parte do
+
+501
+00:23:29,359 --> 00:23:35,158
+estudo eu não vou me alongar muito mas é
+
+502
+00:23:31,319 --> 00:23:38,558
+uma parte mais técnica Quem já leu uma
+
+503
+00:23:35,159 --> 00:23:40,360
+um mapeamento sistemático da literatura
+
+504
+00:23:38,558 --> 00:23:44,200
+tá acostumado já com
+
+505
+00:23:40,359 --> 00:23:47,399
+esse esse tipo de estudo sabe que a
+
+506
+00:23:44,200 --> 00:23:51,319
+geralmente é uma receita né que a gente
+
+507
+00:23:47,400 --> 00:23:56,240
+sequência de de passos você executa e
+
+508
+00:23:51,319 --> 00:23:59,399
+você já tem a os seus resultados né
+
+509
+00:23:56,240 --> 00:24:01,359
+ah então foi um sistema um mapeamento
+
+510
+00:23:59,400 --> 00:24:04,200
+sistemático clássico da literatura que a
+
+511
+00:24:01,359 --> 00:24:08,839
+gente tinha uma uma string de busca né
+
+512
+00:24:04,200 --> 00:24:11,000
+um uma e tentando a gente foi bem amplo
+
+513
+00:24:08,839 --> 00:24:14,879
+ver de que forma o objetivo era entender
+
+514
+00:24:11,000 --> 00:24:17,480
+como esse termo tem sido utilizado eh em
+
+515
+00:24:14,880 --> 00:24:22,960
+pesquisa engenharia de software né a
+
+516
+00:24:17,480 --> 00:24:26,960
+gente rodou eh executou essas essa busca
+
+517
+00:24:22,960 --> 00:24:30,960
+nos nos bancos de literatura né na nas
+
+518
+00:24:26,960 --> 00:24:34,919
+bases de literatura da da ACM né Digital
+
+519
+00:24:30,960 --> 00:24:39,120
+Library da Ilei também no Scopus e no
+
+520
+00:24:34,919 --> 00:24:42,679
+Web of Science né e aí a gente
+
+521
+00:24:39,119 --> 00:24:45,719
+analisou esses esses artigos que a gente
+
+522
+00:24:42,679 --> 00:24:48,798
+encontrou Ah quantos a gente encontrou
+
+523
+00:24:45,720 --> 00:24:52,079
+né a gente encontrou essas nossas buscas
+
+524
+00:24:48,798 --> 00:24:55,720
+retornaram 100 resultados únicos ou seja
+
+525
+00:24:52,079 --> 00:24:56,960
+depois de remover os duplicados e a
+
+526
+00:24:55,720 --> 00:24:59,839
+partir da
+
+527
+00:24:56,960 --> 00:25:03,120
+análise mais minuciosa dos textos a
+
+528
+00:24:59,839 --> 00:25:06,278
+partir do título depois a abstract eh os
+
+529
+00:25:03,119 --> 00:25:10,000
+resumos e e lendo enfim os os artigos
+
+530
+00:25:06,278 --> 00:25:14,240
+completos a gente analisou no final 66
+
+531
+00:25:10,000 --> 00:25:18,119
+artigos que de alguma forma mencionavam
+
+532
+00:25:14,240 --> 00:25:21,079
+ter feito uma survey
+
+533
+00:25:18,119 --> 00:25:25,119
+qualitativa A gente observou que esse
+
+534
+00:25:21,079 --> 00:25:27,119
+termo tem sido mais frequente desde 2013
+
+535
+00:25:25,119 --> 00:25:29,599
+ou seja nos últimos 10 aproximadamente
+
+536
+00:25:27,119 --> 00:25:31,119
+10 anos um pouco mais de 10 anos esse é
+
+537
+00:25:29,599 --> 00:25:32,558
+que esse termo tem sido mais usado
+
+538
+00:25:31,119 --> 00:25:36,119
+frequentemente Lembrando que essa
+
+539
+00:25:32,558 --> 00:25:37,720
+pesquisa foi feita em 2021 final de 2021
+
+540
+00:25:36,119 --> 00:25:39,558
+Então
+
+541
+00:25:37,720 --> 00:25:42,679
+eh
+
+542
+00:25:39,558 --> 00:25:45,720
+eh foram 10 anos e menos de 10 anos a
+
+543
+00:25:42,679 --> 00:25:47,440
+maior parte dos artigos né
+
+544
+00:25:45,720 --> 00:25:50,798
+e a gente percebeu que ele tem sido
+
+545
+00:25:47,440 --> 00:25:52,880
+usado em diferentes contextos engenharia
+
+546
+00:25:50,798 --> 00:25:55,359
+de software nos mais diferentes
+
+547
+00:25:52,880 --> 00:25:58,520
+tópicos desde engenharia de requisitos
+
+548
+00:25:55,359 --> 00:26:03,158
+até aspectos humanos a
+
+549
+00:25:58,519 --> 00:26:05,960
+arquitetura e diferentes ah vênios né
+
+550
+00:26:03,159 --> 00:26:11,799
+desde conferências excelentes
+
+551
+00:26:05,960 --> 00:26:15,000
+conferências como Xi eh como a FSI mas
+
+552
+00:26:11,798 --> 00:26:18,038
+também como eh excelentes
+
+553
+00:26:15,000 --> 00:26:20,839
+eh revistas né como TSI né Transaction
+
+554
+00:26:18,038 --> 00:26:23,158
+Software Engineering e outras né
+
+555
+00:26:20,839 --> 00:26:25,599
+information software technology entre
+
+556
+00:26:23,159 --> 00:26:27,919
+outras Uma coisa interessante que a
+
+557
+00:26:25,599 --> 00:26:30,439
+gente observou né novamente eu convido
+
+558
+00:26:27,919 --> 00:26:32,720
+quem tiver mais interesse de ver esses
+
+559
+00:26:30,440 --> 00:26:35,919
+detalhes mais de que que foi essa
+
+560
+00:26:32,720 --> 00:26:39,038
+análise dar uma olhada no paper Como eu
+
+561
+00:26:35,919 --> 00:26:41,240
+falei o artigo é é open axis então
+
+562
+00:26:39,038 --> 00:26:43,519
+qualquer um pode ler Mas o o mais
+
+563
+00:26:41,240 --> 00:26:46,480
+interessante que eu gosto de focar aqui
+
+564
+00:26:43,519 --> 00:26:50,319
+é falar que o termo
+
+565
+00:26:46,480 --> 00:26:52,079
+qualitativo eh emana diferentes sentidos
+
+566
+00:26:50,319 --> 00:26:54,678
+para as pessoas
+
+567
+00:26:52,079 --> 00:26:56,519
+Então várias pessoas falaram que era
+
+568
+00:26:54,679 --> 00:26:59,120
+qualitativo simplesmente porque tinham
+
+569
+00:26:56,519 --> 00:27:01,480
+questões que eram abertas por exemplo
+
+570
+00:26:59,119 --> 00:27:04,359
+que em que as que os participantes iam
+
+571
+00:27:01,480 --> 00:27:06,120
+responder de uma com palavras então eles
+
+572
+00:27:04,359 --> 00:27:09,599
+já chamavam de
+
+573
+00:27:06,119 --> 00:27:13,839
+qualitativa Ah mas em compensação outros
+
+574
+00:27:09,599 --> 00:27:15,519
+20 focaram na diversidade seria mais ali
+
+575
+00:27:13,839 --> 00:27:19,519
+ou seja desses esses 20 estariam
+
+576
+00:27:15,519 --> 00:27:21,359
+alinhados com a nossa proposta Outros 10
+
+577
+00:27:19,519 --> 00:27:25,359
+usaram o termo qualitativo para dizer
+
+578
+00:27:21,359 --> 00:27:28,558
+que a os dados eram não eram
+
+579
+00:27:25,359 --> 00:27:32,879
+eh técnicos no sentido de você tá
+
+580
+00:27:28,558 --> 00:27:36,678
+obtendo algum de dado de execução de de
+
+581
+00:27:32,880 --> 00:27:39,320
+algum tipo de software ou coleta de
+
+582
+00:27:36,679 --> 00:27:41,038
+métricas de software Então para eles
+
+583
+00:27:39,319 --> 00:27:42,759
+isso era uma coisa quantitativa e
+
+584
+00:27:41,038 --> 00:27:45,839
+qualitativa era tudo que era relacionado
+
+585
+00:27:42,759 --> 00:27:48,398
+ao pessoa ao humano envolvido não
+
+586
+00:27:45,839 --> 00:27:52,119
+necessariamente em texto poderiam ser
+
+587
+00:27:48,398 --> 00:27:53,719
+questões eh fechadas por exemplo E
+
+588
+00:27:52,119 --> 00:27:55,918
+outros usaram simplesmente o termo
+
+589
+00:27:53,720 --> 00:27:57,480
+qualitativo para dizer que era um estudo
+
+590
+00:27:55,919 --> 00:27:59,278
+exploratório Então era um estudo
+
+591
+00:27:57,480 --> 00:28:02,798
+qualitativo
+
+592
+00:27:59,278 --> 00:28:08,079
+E então a gente vê que esse termo até
+
+593
+00:28:02,798 --> 00:28:10,480
+hoje não é não tem não tem sido muito eh
+
+594
+00:28:08,079 --> 00:28:13,359
+constante o seu uso né é um pouco do
+
+595
+00:28:10,480 --> 00:28:15,240
+methods learning o que a gente comentou
+
+596
+00:28:13,359 --> 00:28:18,199
+um pouco antes na apresentação Então
+
+597
+00:28:15,240 --> 00:28:21,079
+esse é um dos dos motivos desse paper né
+
+598
+00:28:18,200 --> 00:28:24,840
+tentar trazer uma fazer uma
+
+599
+00:28:21,079 --> 00:28:27,678
+proposta paraa comunidade e que a gente
+
+600
+00:28:24,839 --> 00:28:29,599
+reserve esse termo survey qualitativa
+
+601
+00:28:27,679 --> 00:28:31,240
+para esse
+
+602
+00:28:29,599 --> 00:28:33,959
+eh
+
+603
+00:28:31,240 --> 00:28:36,399
+eh método que a gente tá tentando
+
+604
+00:28:33,960 --> 00:28:38,919
+observar a
+
+605
+00:28:36,398 --> 00:28:41,959
+diversidade
+
+606
+00:28:38,919 --> 00:28:43,480
+de de determinada qualquer
+
+607
+00:28:41,960 --> 00:28:47,159
+característica
+
+608
+00:28:43,480 --> 00:28:49,360
+né ah aqui ficou um pouco estranho né na
+
+609
+00:28:47,159 --> 00:28:52,799
+hora que a gente importou
+
+610
+00:28:49,359 --> 00:28:54,839
+Eh mas aqui a gente no paper né a última
+
+611
+00:28:52,798 --> 00:28:57,679
+parte é sobre a diretrizes Então aqui eu
+
+612
+00:28:54,839 --> 00:28:59,278
+vou falar um pouco das etapas né do do
+
+613
+00:28:57,679 --> 00:29:02,240
+processo Como a gente
+
+614
+00:28:59,278 --> 00:29:04,798
+falou eles seguem a gente observou que
+
+615
+00:29:02,240 --> 00:29:08,839
+as todas as survey seguem essa sequência
+
+616
+00:29:04,798 --> 00:29:11,759
+de eh de passos né que você defini os
+
+617
+00:29:08,839 --> 00:29:14,079
+seus objetivos você tem um processo de
+
+618
+00:29:11,759 --> 00:29:16,640
+uma etapa de planejamento do que você
+
+619
+00:29:14,079 --> 00:29:19,519
+vai fazer uma etapa de amostragem
+
+620
+00:29:16,640 --> 00:29:22,320
+coleção de eh coleta de dados e análise
+
+621
+00:29:19,519 --> 00:29:23,720
+dos dados né são são os mesmas etapas
+
+622
+00:29:22,319 --> 00:29:26,639
+Então aqui a gente eu vou mostrar o que
+
+623
+00:29:23,720 --> 00:29:29,919
+que tá esperado para uma survey
+
+624
+00:29:26,640 --> 00:29:33,200
+qualitativa e quais são poucas
+
+625
+00:29:29,919 --> 00:29:35,000
+diferenças para uma server eh uma server
+
+626
+00:29:33,200 --> 00:29:37,200
+quantitativa para uma
+
+627
+00:29:35,000 --> 00:29:41,558
+qualitativa
+
+628
+00:29:37,200 --> 00:29:44,519
+Eh então aqui a gente no na definição de
+
+629
+00:29:41,558 --> 00:29:46,918
+objetivos acho que o que é mais claro é
+
+630
+00:29:44,519 --> 00:29:48,880
+você criar uma definir uma pergunta de
+
+631
+00:29:46,919 --> 00:29:51,278
+pesquisa né
+
+632
+00:29:48,880 --> 00:29:54,519
+então geralmente as perguntas de
+
+633
+00:29:51,278 --> 00:29:56,558
+pesquisas para eh serviç qualitativas
+
+634
+00:29:54,519 --> 00:29:59,720
+estão mais relacionadas à descrição e
+
+635
+00:29:56,558 --> 00:30:02,278
+classificação de das características né
+
+636
+00:29:59,720 --> 00:30:04,759
+alguns exemplos por exemplo quais são os
+
+637
+00:30:02,278 --> 00:30:07,480
+desafios relacionados à flexibilidade
+
+638
+00:30:04,759 --> 00:30:10,359
+segurança no desenvolvimento de software
+
+639
+00:30:07,480 --> 00:30:12,919
+em desenvolvimento de sistemas críticos
+
+640
+00:30:10,359 --> 00:30:16,359
+por exemplo ou como experimentação
+
+641
+00:30:12,919 --> 00:30:19,038
+contínua é aplicada em no desenvol
+
+642
+00:30:16,359 --> 00:30:20,918
+desenvolvimento de software Ou seja é
+
+643
+00:30:19,038 --> 00:30:22,319
+uma coisa descrição que você quer
+
+644
+00:30:20,919 --> 00:30:25,038
+identificar diferentes as diferentes
+
+645
+00:30:22,319 --> 00:30:28,918
+formas que determinada característica
+
+646
+00:30:25,038 --> 00:30:28,919
+ocorre nos ambientes
+
+647
+00:30:29,880 --> 00:30:36,159
+né qual que é a diferença né para uma
+
+648
+00:30:33,839 --> 00:30:39,278
+uma serve quantitativa né a survey
+
+649
+00:30:36,159 --> 00:30:42,799
+quantitativa geralmente ela foca em
+
+650
+00:30:39,278 --> 00:30:44,519
+objeto em descrições de escritores
+
+651
+00:30:42,798 --> 00:30:47,720
+quantitativos geralmente ou seja
+
+652
+00:30:44,519 --> 00:30:50,319
+estatísticas né eh elas geralmente podem
+
+653
+00:30:47,720 --> 00:30:53,600
+ser descritivas né frequência de
+
+654
+00:30:50,319 --> 00:30:56,678
+diferentes atributos na população Ah por
+
+655
+00:30:53,599 --> 00:30:58,278
+exemplo uma survey poderia ser quais são
+
+656
+00:30:56,679 --> 00:31:02,159
+as linguagens por exemplo uma survey que
+
+657
+00:30:58,278 --> 00:31:04,119
+é muito famosa que é sempre eh
+
+658
+00:31:02,159 --> 00:31:07,039
+atualizada que é quais são as linguagens
+
+659
+00:31:04,119 --> 00:31:09,839
+que estão sendo usadas ou
+
+660
+00:31:07,038 --> 00:31:13,240
+eh e para desenvolvimento de software Aí
+
+661
+00:31:09,839 --> 00:31:15,199
+você pode falar tantos projetos tal
+
+662
+00:31:13,240 --> 00:31:17,638
+percentual de projetos usa Java outro
+
+663
+00:31:15,200 --> 00:31:20,000
+percentual usa Python outro usa
+
+664
+00:31:17,638 --> 00:31:22,319
+JavaScript enfim isso tem uma
+
+665
+00:31:20,000 --> 00:31:25,000
+distribuição ou seja uma eh uma
+
+666
+00:31:22,319 --> 00:31:27,839
+estatística descritiva de como essas
+
+667
+00:31:25,000 --> 00:31:30,839
+linguagens estão sendo utilizadas né
+
+668
+00:31:27,839 --> 00:31:33,000
+outras tipos de outro tipo outra
+
+669
+00:31:30,839 --> 00:31:36,158
+categoria de estatística é a analítica
+
+670
+00:31:33,000 --> 00:31:39,679
+né que você tenta relacionar
+
+671
+00:31:36,159 --> 00:31:40,559
+determinadas duas ou mais ah variáveis
+
+672
+00:31:39,679 --> 00:31:43,639
+na
+
+673
+00:31:40,558 --> 00:31:50,480
+população Ah você pode falar
+
+674
+00:31:43,638 --> 00:31:53,359
+que eh projetos em PHP são mais ah
+
+675
+00:31:50,480 --> 00:31:58,240
+tendem a ser maiores que
+
+676
+00:31:53,359 --> 00:32:00,038
+em C por exemplo ou tem mais tempo para
+
+677
+00:31:58,240 --> 00:32:03,359
+execução Então provavelmente você tem
+
+678
+00:32:00,038 --> 00:32:05,879
+que pegar diferentes a diferente as
+
+679
+00:32:03,359 --> 00:32:09,079
+amostras e fazer uma comparação
+
+680
+00:32:05,880 --> 00:32:11,960
+estatística dessas amostras para ver se
+
+681
+00:32:09,079 --> 00:32:14,038
+essa sua conclusão é é verdadeira ou não
+
+682
+00:32:11,960 --> 00:32:16,919
+Então isso é uma survey
+
+683
+00:32:14,038 --> 00:32:18,398
+quantitativa Em em comparação com
+
+684
+00:32:16,919 --> 00:32:20,480
+serveis qualitativas as serveis
+
+685
+00:32:18,398 --> 00:32:23,199
+qualitativas como a gente falou focam na
+
+686
+00:32:20,480 --> 00:32:29,399
+diversidade né focam no
+
+687
+00:32:23,200 --> 00:32:29,399
+diferentes valores né de características
+
+688
+00:32:29,440 --> 00:32:34,399
+planejamento Acho que planejamento é
+
+689
+00:32:31,960 --> 00:32:37,440
+como qualquer outro estudo é essa etapa
+
+690
+00:32:34,398 --> 00:32:40,599
+em que você começa a pensar no que pode
+
+691
+00:32:37,440 --> 00:32:43,480
+acontecer ou como melhor como você vai
+
+692
+00:32:40,599 --> 00:32:45,959
+executar os passos da sua pesquisa como
+
+693
+00:32:43,480 --> 00:32:47,319
+você vai desenvolver sua pesquisa E é
+
+694
+00:32:45,960 --> 00:32:50,399
+importante você entender o que pode
+
+695
+00:32:47,319 --> 00:32:54,439
+acontecer né os problemas ou potenciais
+
+696
+00:32:50,398 --> 00:32:57,918
+melhor potenciais eh ameaças à validade
+
+697
+00:32:54,440 --> 00:33:00,440
+do seu estudo e como você vai mitigar né
+
+698
+00:32:57,919 --> 00:33:02,960
+a gente vai falar um pouco de um pouco
+
+699
+00:33:00,440 --> 00:33:06,639
+de amostragem aqui Tem tem muitas
+
+700
+00:33:02,960 --> 00:33:11,240
+questões disso mas por na
+
+701
+00:33:06,638 --> 00:33:13,759
+eh numa server quantitativa você tem
+
+702
+00:33:11,240 --> 00:33:16,919
+principalmente eh analíticas você tem
+
+703
+00:33:13,759 --> 00:33:20,879
+várias questões de eh validade de
+
+704
+00:33:16,919 --> 00:33:23,600
+construtos validade interna validade
+
+705
+00:33:20,880 --> 00:33:25,278
+externa né que é a questão da amostragem
+
+706
+00:33:23,599 --> 00:33:28,278
+se essa amostragem realmente representa
+
+707
+00:33:25,278 --> 00:33:30,558
+sua população enfim Isso daria uma toda
+
+708
+00:33:28,278 --> 00:33:32,599
+uma aula sobre isso né mas eu acho que é
+
+709
+00:33:30,558 --> 00:33:34,440
+aqui nesse ponto que você pensa um pouco
+
+710
+00:33:32,599 --> 00:33:36,879
+mais o que pode acontecer e de que forma
+
+711
+00:33:34,440 --> 00:33:39,519
+você pode mitigar esses potenciais
+
+712
+00:33:36,880 --> 00:33:41,480
+problemas né e eu acho que isso isso é
+
+713
+00:33:39,519 --> 00:33:43,278
+meio que igual né claro que tem
+
+714
+00:33:41,480 --> 00:33:45,519
+diferentes problemas para um tipo de
+
+715
+00:33:43,278 --> 00:33:48,319
+survei ou pro outro mas a ideia de um
+
+716
+00:33:45,519 --> 00:33:50,720
+planejamento é
+
+717
+00:33:48,319 --> 00:33:55,678
+igual Aí depois tem a questão da
+
+718
+00:33:50,720 --> 00:33:59,278
+amostragem né geralmente numa
+
+719
+00:33:55,679 --> 00:34:01,639
+a numa survey qualitativa geralmente se
+
+720
+00:33:59,278 --> 00:34:03,558
+usa essa eh
+
+721
+00:34:01,638 --> 00:34:07,959
+amostragem
+
+722
+00:34:03,558 --> 00:34:11,079
+eh de conveniência ou de propósito né
+
+723
+00:34:07,960 --> 00:34:12,639
+proposital que o objetivo é nessa
+
+724
+00:34:11,079 --> 00:34:14,760
+amostragem como a gente tá tentando
+
+725
+00:34:12,639 --> 00:34:17,280
+identificar todos os possíveis valores
+
+726
+00:34:14,760 --> 00:34:20,440
+ou o maior maior número possível né
+
+727
+00:34:17,280 --> 00:34:21,879
+tentar garantir isso essa amostra tem
+
+728
+00:34:20,440 --> 00:34:24,320
+que de alguma forma aumentar aumentar
+
+729
+00:34:21,878 --> 00:34:28,159
+essa variabilidade dos valores de forma
+
+730
+00:34:24,320 --> 00:34:29,879
+que você tente de uma forma garantia a
+
+731
+00:34:28,159 --> 00:34:32,960
+palavra garantia é um pouco forte mas
+
+732
+00:34:29,878 --> 00:34:36,118
+tente eh aumentar a a probabilidade que
+
+733
+00:34:32,960 --> 00:34:38,480
+você consiga obter ah todos os possíveis
+
+734
+00:34:36,119 --> 00:34:40,039
+valores É um pouco diferente da
+
+735
+00:34:38,480 --> 00:34:42,039
+quantitativa a gente vai falar um pouco
+
+736
+00:34:40,039 --> 00:34:44,878
+que você geralmente tem que fazer com
+
+737
+00:34:42,039 --> 00:34:51,079
+que a sua amostra represente a população
+
+738
+00:34:44,878 --> 00:34:53,838
+Então você normalmente eh usar a o a
+
+739
+00:34:51,079 --> 00:34:57,480
+tenta obter uma amostra que tem a mesma
+
+740
+00:34:53,838 --> 00:35:00,119
+distribuição que você viria de al
+
+741
+00:34:57,480 --> 00:35:01,838
+determinados aspectos né da
+
+742
+00:35:00,119 --> 00:35:05,480
+características que você teria na
+
+743
+00:35:01,838 --> 00:35:05,480
+população geral
+
+744
+00:35:06,639 --> 00:35:11,719
+Ah nesse nessa amostragem assim quando a
+
+745
+00:35:10,320 --> 00:35:14,720
+gente tá falando
+
+746
+00:35:11,719 --> 00:35:14,719
+de
+
+747
+00:35:15,519 --> 00:35:19,679
+eh só para lembrar que a gente pode
+
+748
+00:35:17,800 --> 00:35:23,200
+considerar diferentes às vezes a gente
+
+749
+00:35:19,679 --> 00:35:27,838
+pode eh combinar diferentes
+
+750
+00:35:23,199 --> 00:35:30,838
+amostras para tentar incrementar esse
+
+751
+00:35:27,838 --> 00:35:33,239
+possibilidade de diferentes valores né
+
+752
+00:35:30,838 --> 00:35:35,559
+às vezes você faz um pouco com
+
+753
+00:35:33,239 --> 00:35:39,439
+entrevistas ou às vezes para aumentar
+
+754
+00:35:35,559 --> 00:35:42,719
+você tenta fazer um questionário com eh
+
+755
+00:35:39,440 --> 00:35:45,000
+para pegar de outros lugares assim Então
+
+756
+00:35:42,719 --> 00:35:46,519
+nesse sentido a a server qualitativa é
+
+757
+00:35:45,000 --> 00:35:50,800
+um pouco mais
+
+758
+00:35:46,519 --> 00:35:52,639
+flexível Um um um método comum que a
+
+759
+00:35:50,800 --> 00:35:55,880
+gente vê muito
+
+760
+00:35:52,639 --> 00:35:57,799
+em eh em amostragem para serviças
+
+761
+00:35:55,880 --> 00:36:01,240
+qualitativas é a ideia de saturação
+
+762
+00:35:57,800 --> 00:36:04,079
+teórica né é a partir eh é quando você
+
+763
+00:36:01,239 --> 00:36:08,838
+começa a perceber
+
+764
+00:36:04,079 --> 00:36:12,160
+que você tá obtendo mais valores né mais
+
+765
+00:36:08,838 --> 00:36:16,279
+eh eh objetos de estudo ali e isso não
+
+766
+00:36:12,159 --> 00:36:18,838
+tá agregando mais valor paraa sua
+
+767
+00:36:16,280 --> 00:36:20,960
+a eh pros seus resultados Então
+
+768
+00:36:18,838 --> 00:36:22,559
+geralmente esse é o momento que você às
+
+769
+00:36:20,960 --> 00:36:27,240
+vezes
+
+770
+00:36:22,559 --> 00:36:29,480
+para eh de de amostrar né só amostragem
+
+771
+00:36:27,239 --> 00:36:29,479
+fica
+
+772
+00:36:30,880 --> 00:36:37,160
+menor É como eu falei às vezes a numa
+
+773
+00:36:35,440 --> 00:36:40,079
+server quantitativa você tem essas
+
+774
+00:36:37,159 --> 00:36:42,838
+questões de fazer com que a sua amostra
+
+775
+00:36:40,079 --> 00:36:45,440
+seja de leve a
+
+776
+00:36:42,838 --> 00:36:47,799
+resultados generalizáveis né ou seja que
+
+777
+00:36:45,440 --> 00:36:49,599
+vocês realmente tem que garantir que de
+
+778
+00:36:47,800 --> 00:36:51,560
+alguma forma sua amostra é parecida com
+
+779
+00:36:49,599 --> 00:36:53,440
+a população com determinadas
+
+780
+00:36:51,559 --> 00:36:56,279
+características
+
+781
+00:36:53,440 --> 00:36:58,720
+em compensação as servitativas têm mais
+
+782
+00:36:56,280 --> 00:37:00,680
+esse foco de tentar obter todos os
+
+783
+00:36:58,719 --> 00:37:03,679
+valores
+
+784
+00:37:00,679 --> 00:37:03,679
+possíveis
+
+785
+00:37:04,159 --> 00:37:12,960
+Eh bom então a gente vai paraa coleta de
+
+786
+00:37:08,599 --> 00:37:14,720
+dados A a da coleta de dados vai
+
+787
+00:37:12,960 --> 00:37:16,199
+depender muito do instrumento que a
+
+788
+00:37:14,719 --> 00:37:20,439
+gente
+
+789
+00:37:16,199 --> 00:37:24,039
+decidiu eh para aquele objeto de estudo
+
+790
+00:37:20,440 --> 00:37:26,280
+né dependendo do seu estudo você pode
+
+791
+00:37:24,039 --> 00:37:28,759
+fazer
+
+792
+00:37:26,280 --> 00:37:32,040
+questionários ah com as pessoas Esse é o
+
+793
+00:37:28,760 --> 00:37:35,000
+que é as pessoas mais ligam ou mais
+
+794
+00:37:32,039 --> 00:37:36,199
+relacionam com a ideia de survey mas a
+
+795
+00:37:35,000 --> 00:37:39,480
+gente pode fazer uma survey com
+
+796
+00:37:36,199 --> 00:37:42,439
+entrevistas que é super comum ou mas até
+
+797
+00:37:39,480 --> 00:37:45,760
+mesmo uma a
+
+798
+00:37:42,440 --> 00:37:48,000
+eh análise de documentos você coleta
+
+799
+00:37:45,760 --> 00:37:50,680
+diferentes documentos uma série de
+
+800
+00:37:48,000 --> 00:37:52,960
+documentos e você depois analisa esses
+
+801
+00:37:50,679 --> 00:37:55,838
+documentos Desde que esses documentos ou
+
+802
+00:37:52,960 --> 00:37:58,159
+essas entrevistas representem levem você
+
+803
+00:37:55,838 --> 00:38:01,000
+a obter ou identificar essas
+
+804
+00:37:58,159 --> 00:38:04,279
+características é algo válido assim para
+
+805
+00:38:01,000 --> 00:38:04,280
+uma server
+
+806
+00:38:04,440 --> 00:38:08,639
+qualitativa
+
+807
+00:38:06,119 --> 00:38:11,760
+Eh isso é importante Eu acho que isso é
+
+808
+00:38:08,639 --> 00:38:16,838
+legal que até mesmo a uma serve
+
+809
+00:38:11,760 --> 00:38:20,720
+quantitativa pode eh usar qualquer tipo
+
+810
+00:38:16,838 --> 00:38:24,159
+de eh de dados né de coleta de dados
+
+811
+00:38:20,719 --> 00:38:26,239
+pode ser uma uma server quantitativa a
+
+812
+00:38:24,159 --> 00:38:27,000
+partir de questionários isso não tem
+
+813
+00:38:26,239 --> 00:38:29,318
+essa
+
+814
+00:38:27,000 --> 00:38:32,039
+limitação O o interessante que a gente
+
+815
+00:38:29,318 --> 00:38:33,679
+chama de survey qualitativa né ah
+
+816
+00:38:32,039 --> 00:38:36,440
+voltando né uma survey quantitativa
+
+817
+00:38:33,679 --> 00:38:39,118
+também pode pegar dados qualitativos só
+
+818
+00:38:36,440 --> 00:38:41,119
+que geralmente o que se que realmente
+
+819
+00:38:39,119 --> 00:38:44,400
+geralmente se é necessário é alguma
+
+820
+00:38:41,119 --> 00:38:46,599
+forma de conversão desses dados
+
+821
+00:38:44,400 --> 00:38:49,920
+qualitativos e uma forma quantitativa
+
+822
+00:38:46,599 --> 00:38:53,200
+para enfim analisar né e isso é comum
+
+823
+00:38:49,920 --> 00:38:56,200
+por exemplo tem um tipo de survey chama
+
+824
+00:38:53,199 --> 00:38:59,639
+case survey né que são você faz uma
+
+825
+00:38:56,199 --> 00:39:02,719
+survey de casos você coleta diferentes
+
+826
+00:38:59,639 --> 00:39:05,559
+estudos de casos da literatura e para
+
+827
+00:39:02,719 --> 00:39:08,039
+fazer uma forma de análise quantitativa
+
+828
+00:39:05,559 --> 00:39:10,519
+desses resultados né isso é uma forma de
+
+829
+00:39:08,039 --> 00:39:12,880
+um estudo secundário muito interessante
+
+830
+00:39:10,519 --> 00:39:15,960
+que basicamente é isso né você tem dados
+
+831
+00:39:12,880 --> 00:39:19,400
+diferentes estudos que pegaram dados
+
+832
+00:39:15,960 --> 00:39:21,358
+qualitativos e aí eles precisam de uma
+
+833
+00:39:19,400 --> 00:39:23,440
+forma converter isso em dados
+
+834
+00:39:21,358 --> 00:39:27,078
+quantitativos para fazer uma
+
+835
+00:39:23,440 --> 00:39:30,358
+análise Em princípio serve qualitativas
+
+836
+00:39:27,079 --> 00:39:34,880
+eh usam mais
+
+837
+00:39:30,358 --> 00:39:37,318
+a eh entrevistas ou outras formas mais
+
+838
+00:39:34,880 --> 00:39:40,119
+de dados qualitativos mas a priori eles
+
+839
+00:39:37,318 --> 00:39:41,960
+também podem ser dados eh quantitativos
+
+840
+00:39:40,119 --> 00:39:44,318
+desde que você esteja tentando
+
+841
+00:39:41,960 --> 00:39:48,000
+identificar como esses
+
+842
+00:39:44,318 --> 00:39:50,159
+valores eh variam né ou quais são os
+
+843
+00:39:48,000 --> 00:39:52,519
+possíveis valores de determinada
+
+844
+00:39:50,159 --> 00:39:56,000
+característica são mais raros mas em
+
+845
+00:39:52,519 --> 00:39:56,000
+princípio pode existir um estudo
+
+846
+00:39:56,559 --> 00:40:01,519
+desse E aí finalmente você tem a análise
+
+847
+00:39:59,400 --> 00:40:06,960
+dos dados que você coletou
+
+848
+00:40:01,519 --> 00:40:09,480
+né voltando né o objetivo de eh
+
+849
+00:40:06,960 --> 00:40:11,440
+arquiv né você tem que tentar
+
+850
+00:40:09,480 --> 00:40:16,240
+identificar os possíveis
+
+851
+00:40:11,440 --> 00:40:17,760
+valores eh de uma da determinada
+
+852
+00:40:16,239 --> 00:40:21,759
+característica que você tá tentando
+
+853
+00:40:17,760 --> 00:40:23,760
+entender O a a técnica mais comum a a
+
+854
+00:40:21,760 --> 00:40:26,040
+prática mais comum nisso é a análise
+
+855
+00:40:23,760 --> 00:40:28,839
+temática né que é o método para
+
+856
+00:40:26,039 --> 00:40:31,559
+identificar analisar e reportar esses
+
+857
+00:40:28,838 --> 00:40:36,078
+padrões que eles chamam de temas nos
+
+858
+00:40:31,559 --> 00:40:38,279
+dados Eh é muito comum em eh análise
+
+859
+00:40:36,079 --> 00:40:42,240
+qualitativa algo bem semelhante que se
+
+860
+00:40:38,280 --> 00:40:45,040
+usa eh que às vezes é chamado que porvém
+
+861
+00:40:42,239 --> 00:40:47,639
+em essência eh quase a mesma coisa que é
+
+862
+00:40:45,039 --> 00:40:49,519
+o open coding né que é o codificação
+
+863
+00:40:47,639 --> 00:40:53,960
+aberta né que você tá tentando
+
+864
+00:40:49,519 --> 00:40:57,559
+identificar ali do zero eh sem ter uma
+
+865
+00:40:53,960 --> 00:40:59,599
+lista original de temas ou de códigos
+
+866
+00:40:57,559 --> 00:41:02,000
+Isso pode ser geralmente é dessa forma
+
+867
+00:40:59,599 --> 00:41:04,800
+que é feita essa análise dos dados para
+
+868
+00:41:02,000 --> 00:41:07,880
+tentar chegar nesses resultados
+
+869
+00:41:04,800 --> 00:41:10,480
+né se você tem por exemplo dados
+
+870
+00:41:07,880 --> 00:41:12,119
+quantitativos e tá fazendo isso você
+
+871
+00:41:10,480 --> 00:41:14,760
+pode talvez fazer um mecanismo de
+
+872
+00:41:12,119 --> 00:41:17,760
+clustering uma coisa mais quantitativa
+
+873
+00:41:14,760 --> 00:41:20,440
+também Mas como eu falei esse tipo de
+
+874
+00:41:17,760 --> 00:41:21,359
+eh a gente acho que não observou nenhum
+
+875
+00:41:20,440 --> 00:41:25,119
+caso
+
+876
+00:41:21,358 --> 00:41:28,519
+assim eh vimos nenhum paper nesse
+
+877
+00:41:25,119 --> 00:41:30,880
+sentido eh em engenharia de software mas
+
+878
+00:41:28,519 --> 00:41:33,679
+em princípio é possível E aí talvez um
+
+879
+00:41:30,880 --> 00:41:37,838
+mecanismo de cluster seria o mais
+
+880
+00:41:33,679 --> 00:41:39,879
+adequado Ah só para comparar com serveis
+
+881
+00:41:37,838 --> 00:41:41,880
+quantitativas né serveis quantitativas
+
+882
+00:41:39,880 --> 00:41:44,200
+Geralmente a gente fala de estatísticas
+
+883
+00:41:41,880 --> 00:41:46,640
+descritivas ou estatísticas de
+
+884
+00:41:44,199 --> 00:41:50,358
+inferência né quando você tenta fazer um
+
+885
+00:41:46,639 --> 00:41:52,358
+teste de hipótese ali E se a gente tem
+
+886
+00:41:50,358 --> 00:41:53,759
+algum dado qualitativo como eu falei a
+
+887
+00:41:52,358 --> 00:41:57,480
+gente vai precisar de alguma forma
+
+888
+00:41:53,760 --> 00:41:57,480
+converter esses dados
+
+889
+00:41:58,000 --> 00:42:03,119
+Ah é como eu falei nas serveis
+
+890
+00:42:00,639 --> 00:42:07,000
+qualitativas se você tiver com dados
+
+891
+00:42:03,119 --> 00:42:10,559
+quantitativos é raro mas pode acontecer
+
+892
+00:42:07,000 --> 00:42:14,079
+você algum mecanismo algum algoritmo de
+
+893
+00:42:10,559 --> 00:42:15,119
+de cluster né de agrupamentos pode ser
+
+894
+00:42:14,079 --> 00:42:17,359
+deve ser
+
+895
+00:42:15,119 --> 00:42:19,039
+suficiente Em compensação para dados
+
+896
+00:42:17,358 --> 00:42:20,759
+qualitativos geralmente a gente tem que
+
+897
+00:42:19,039 --> 00:42:23,558
+de alguma forma identificar padrões
+
+898
+00:42:20,760 --> 00:42:26,920
+nesses dados nesses temas Realmente a
+
+899
+00:42:23,559 --> 00:42:26,920
+análise temática é um bom
+
+900
+00:42:27,639 --> 00:42:35,920
+exemplo Ah são eu trouxe dois exemplos
+
+901
+00:42:31,318 --> 00:42:39,639
+aqui básicos né eh um mais técnico e o
+
+902
+00:42:35,920 --> 00:42:43,639
+outro mais humano assim mais na área de
+
+903
+00:42:39,639 --> 00:42:47,519
+coisas humanas né por exemplo esse paper
+
+904
+00:42:43,639 --> 00:42:53,039
+aqui do Fishpar e outros colegas né
+
+905
+00:42:47,519 --> 00:42:55,159
+publicado no uma eh simpósio de
+
+906
+00:42:53,039 --> 00:42:57,599
+engenharia de software experimental né
+
+907
+00:42:55,159 --> 00:42:59,920
+aqui é um uma conferência muito boa na
+
+908
+00:42:57,599 --> 00:43:01,880
+engenharia de software experimental E
+
+909
+00:42:59,920 --> 00:43:04,559
+eles tentaram identificar fatores que
+
+910
+00:43:01,880 --> 00:43:07,720
+influenciavam a execução de das
+
+911
+00:43:04,559 --> 00:43:10,519
+atividades de teste em contexto ágil
+
+912
+00:43:07,719 --> 00:43:14,719
+Então o que que eles fizeram eles
+
+913
+00:43:10,519 --> 00:43:17,679
+entrevistaram 18 pessoas de de 12
+
+914
+00:43:14,719 --> 00:43:21,000
+empresas diferentes Eles chegaram a nove
+
+915
+00:43:17,679 --> 00:43:23,759
+desafios e 16 fatores né você vê que
+
+916
+00:43:21,000 --> 00:43:26,920
+aqui eles estão eh fazendo entrevistas
+
+917
+00:43:23,760 --> 00:43:29,599
+né e chegaram em desafios e
+
+918
+00:43:26,920 --> 00:43:32,280
+fatores Aqui esse é um paper em que eu
+
+919
+00:43:29,599 --> 00:43:34,838
+também liderei que foi parte do meu
+
+920
+00:43:32,280 --> 00:43:37,280
+doutorado que foi para tentar
+
+921
+00:43:34,838 --> 00:43:38,599
+identificar razões porque startups de
+
+922
+00:43:37,280 --> 00:43:41,599
+software não estavam adotando
+
+923
+00:43:38,599 --> 00:43:44,119
+experimentação né mas aqui é uma outra
+
+924
+00:43:41,599 --> 00:43:46,720
+eh também seria uma outra discussão aqui
+
+925
+00:43:44,119 --> 00:43:49,559
+mas a gente sabe que startups não usam
+
+926
+00:43:46,719 --> 00:43:51,279
+tanto experimentação quanto deveriam Tem
+
+927
+00:43:49,559 --> 00:43:53,040
+vários resultados disso na literatura E
+
+928
+00:43:51,280 --> 00:43:54,200
+a gente tentou entender um pouco porquê
+
+929
+00:43:53,039 --> 00:43:58,079
+né
+
+930
+00:43:54,199 --> 00:44:01,039
+aí a gente analisou 106 de postmem né
+
+931
+00:43:58,079 --> 00:44:04,000
+que seria uns documentos publicações
+
+932
+00:44:01,039 --> 00:44:05,960
+online de fundadores de pessoas
+
+933
+00:44:04,000 --> 00:44:10,159
+envolvidas nessas startups A gente teve
+
+934
+00:44:05,960 --> 00:44:12,960
+todo um um método de reduzindo esse esse
+
+935
+00:44:10,159 --> 00:44:15,759
+escopo eh tentando explicar porque que
+
+936
+00:44:12,960 --> 00:44:18,159
+essas startups fecharam E os nossos
+
+937
+00:44:15,760 --> 00:44:20,359
+resultados a gente chegou no modelo para
+
+938
+00:44:18,159 --> 00:44:25,159
+adoção implementação e experimentação
+
+939
+00:44:20,358 --> 00:44:28,639
+startups e a gente identificou 25 eh
+
+940
+00:44:25,159 --> 00:44:31,440
+inibidores né ou mecanismos ou fatores
+
+941
+00:44:28,639 --> 00:44:34,960
+que estavam eh evitando que essas
+
+942
+00:44:31,440 --> 00:44:37,760
+empresas estavam está estivessem
+
+943
+00:44:34,960 --> 00:44:38,960
+adotando experimentação Então você vê a
+
+944
+00:44:37,760 --> 00:44:41,480
+gente pode ir para uma coisa mais
+
+945
+00:44:38,960 --> 00:44:46,480
+técnica mas também pode ser uma coisa
+
+946
+00:44:41,480 --> 00:44:48,559
+mais geral eh gerente software Eh no
+
+947
+00:44:46,480 --> 00:44:51,240
+paper tem uns outros exemplos também
+
+948
+00:44:48,559 --> 00:44:54,800
+algumas referências quem quiser ver pode
+
+949
+00:44:51,239 --> 00:44:59,838
+ter outras ideias para específico para
+
+950
+00:44:54,800 --> 00:45:02,680
+sua pesquisa e enfim eh e lembrando que
+
+951
+00:44:59,838 --> 00:45:06,759
+esse método é bem flexível no sentido de
+
+952
+00:45:02,679 --> 00:45:10,039
+dados que são podem ser coletados
+
+953
+00:45:06,760 --> 00:45:11,640
+Com isso eu fecho um pouco a o que eu
+
+954
+00:45:10,039 --> 00:45:14,440
+tinha para falar sobre esse paper né
+
+955
+00:45:11,639 --> 00:45:16,558
+sobre servers qualitativas né falando
+
+956
+00:45:14,440 --> 00:45:19,358
+que pode ser usados para diferentes
+
+957
+00:45:16,559 --> 00:45:21,599
+problemas de pesquisa em engenharia de
+
+958
+00:45:19,358 --> 00:45:27,078
+software E a nossa ideia é que uma
+
+959
+00:45:21,599 --> 00:45:30,760
+definição fechada assim uma mais eh
+
+960
+00:45:27,079 --> 00:45:34,640
+definida né uma definição fechada e e
+
+961
+00:45:30,760 --> 00:45:37,400
+clara e diretrizes podem ajudar não só
+
+962
+00:45:34,639 --> 00:45:42,480
+os pesquisadores mas também quem os
+
+963
+00:45:37,400 --> 00:45:46,200
+revisores desses estudos eh leitores eh
+
+964
+00:45:42,480 --> 00:45:48,318
+eh orientadores de alunos pode abrir
+
+965
+00:45:46,199 --> 00:45:52,039
+muitositosos caminhos assim que a gente
+
+966
+00:45:48,318 --> 00:45:55,000
+acha eh que coisas que já estão sendo
+
+967
+00:45:52,039 --> 00:45:57,800
+feitas mas às vezes não tem o nome para
+
+968
+00:45:55,000 --> 00:46:01,000
+para dar o suporte metodológico para
+
+969
+00:45:57,800 --> 00:46:02,640
+isso E eu acho que uma coisa pensando em
+
+970
+00:46:01,000 --> 00:46:04,960
+trabalhos futuros para isso acho que uma
+
+971
+00:46:02,639 --> 00:46:07,400
+coisa que fica bem patente assim que é
+
+972
+00:46:04,960 --> 00:46:10,119
+bem claro que precisaria que precisa de
+
+973
+00:46:07,400 --> 00:46:13,720
+mais eh foco é como a gente pode
+
+974
+00:46:10,119 --> 00:46:16,160
+garantir que uma amostra garanta todos
+
+975
+00:46:13,719 --> 00:46:19,838
+eh considere todos os valores possíveis
+
+976
+00:46:16,159 --> 00:46:21,480
+para uma determinada ah eh
+
+977
+00:46:19,838 --> 00:46:22,880
+característica Isso é uma coisa em
+
+978
+00:46:21,480 --> 00:46:26,960
+aberto
+
+979
+00:46:22,880 --> 00:46:28,480
+ainda E é com isso eu fecho e agradeço
+
+980
+00:46:26,960 --> 00:46:32,720
+Acabei esquecendo de pôr um slide de
+
+981
+00:46:28,480 --> 00:46:37,639
+obrigado aqui mas agradeço a
+
+982
+00:46:32,719 --> 00:46:40,759
+a ter paciência de me ouvir aqui por 40
+
+983
+00:46:37,639 --> 00:46:44,199
+minutos sobre falando de serveis
+
+984
+00:46:40,760 --> 00:46:46,960
+qualitativas Obrigado Obrigado também
+
+985
+00:46:44,199 --> 00:46:49,480
+Deixa eu tirar rapidamente os slides
+
+986
+00:46:46,960 --> 00:46:53,800
+fazer algumas perguntas Então acho que a
+
+987
+00:46:49,480 --> 00:46:56,119
+primeira pergunta que me veio quando eu
+
+988
+00:46:53,800 --> 00:46:59,240
+li o o artigo é assim: "O que que
+
+989
+00:46:56,119 --> 00:47:00,960
+motivou vocês a escreverem isso vocês
+
+990
+00:46:59,239 --> 00:47:04,199
+estavam querendo fazer uma survey
+
+991
+00:47:00,960 --> 00:47:07,079
+qualitativa e não encontrar guidelines o
+
+992
+00:47:04,199 --> 00:47:10,039
+que que foi?" É esse paper que eu falei
+
+993
+00:47:07,079 --> 00:47:11,680
+e foi feito antes né esse exemplo que eu
+
+994
+00:47:10,039 --> 00:47:14,679
+dei
+
+995
+00:47:11,679 --> 00:47:16,679
+e a e é uma coisa que eu sempre me
+
+996
+00:47:14,679 --> 00:47:20,480
+interessei Eu fiz um curso já no
+
+997
+00:47:16,679 --> 00:47:21,838
+mestrado ainda no mestrado sobre eh
+
+998
+00:47:20,480 --> 00:47:25,000
+métodos de
+
+999
+00:47:21,838 --> 00:47:28,558
+pesquisa e é uma coisa que eu acho que
+
+1000
+00:47:25,000 --> 00:47:29,760
+ainda a gente como comunidade de
+
+1001
+00:47:28,559 --> 00:47:31,640
+pesquisa em direito de software a gente
+
+1002
+00:47:29,760 --> 00:47:33,599
+tem que amadurecer a gente tem melhorado
+
+1003
+00:47:31,639 --> 00:47:35,440
+muito nos últimos anos mas a gente às
+
+1004
+00:47:33,599 --> 00:47:37,079
+vezes não é muito
+
+1005
+00:47:35,440 --> 00:47:40,760
+criterioso
+
+1006
+00:47:37,079 --> 00:47:43,880
+e e isso tem alguns problemas né então
+
+1007
+00:47:40,760 --> 00:47:46,240
+eu eu já tinha percebido que esse termo
+
+1008
+00:47:43,880 --> 00:47:48,200
+eh survey já é muito usado às vezes não
+
+1009
+00:47:46,239 --> 00:47:49,399
+é usado de uma forma correta só de se
+
+1010
+00:47:48,199 --> 00:47:51,960
+você falar de
+
+1011
+00:47:49,400 --> 00:47:55,200
+survey as pessoas já não estavam usando
+
+1012
+00:47:51,960 --> 00:47:57,159
+E aí eu achei que era bom A gente achei
+
+1013
+00:47:55,199 --> 00:47:58,960
+muito boa essa ideia Eu acho que tem
+
+1014
+00:47:57,159 --> 00:48:00,759
+muita
+
+1015
+00:47:58,960 --> 00:48:02,280
+aplicabilidade Percebeu que tem muita
+
+1016
+00:48:00,760 --> 00:48:03,920
+aplicabilidade engenharia de software
+
+1017
+00:48:02,280 --> 00:48:06,519
+Achei a gente achou que seria uma coisa
+
+1018
+00:48:03,920 --> 00:48:09,358
+muito interessante para falar assim pra
+
+1019
+00:48:06,519 --> 00:48:12,920
+comunidade pessoal tem essa ideia que
+
+1020
+00:48:09,358 --> 00:48:15,639
+pode ser muito legal pra gente vamos
+
+1021
+00:48:12,920 --> 00:48:18,559
+focar vamos
+
+1022
+00:48:15,639 --> 00:48:21,558
+eh se agrupar nesse termo aqui tentar
+
+1023
+00:48:18,559 --> 00:48:23,400
+usar ele mais para designar esse tipo de
+
+1024
+00:48:21,559 --> 00:48:26,800
+método e a gente conseguir fazer uma
+
+1025
+00:48:23,400 --> 00:48:29,400
+coisa mais sistemática né acho que foi
+
+1026
+00:48:26,800 --> 00:48:31,440
+um pouco isso a ideia né criar algo que
+
+1027
+00:48:29,400 --> 00:48:34,400
+as pessoas possam usar como
+
+1028
+00:48:31,440 --> 00:48:35,920
+referência e que pode ter muito muitas
+
+1029
+00:48:34,400 --> 00:48:39,880
+situações de uso
+
+1030
+00:48:35,920 --> 00:48:42,119
+para na pesquisa em eng software Uma
+
+1031
+00:48:39,880 --> 00:48:44,318
+outra pergunta era sobre esse que eu
+
+1032
+00:48:42,119 --> 00:48:47,599
+achei muito interessante essa ideia dos
+
+1033
+00:48:44,318 --> 00:48:49,679
+postmings postmtings de startups
+
+1034
+00:48:47,599 --> 00:48:51,798
+Pósmortes não sei Ah não sei como falar
+
+1035
+00:48:49,679 --> 00:48:55,118
+em português mas eu acho que é alguma
+
+1036
+00:48:51,798 --> 00:48:57,119
+coisa como é no sentido de autópsia Eu
+
+1037
+00:48:55,119 --> 00:48:58,680
+acho que é muito seria um relatório de
+
+1038
+00:48:57,119 --> 00:49:00,280
+autópsia
+
+1039
+00:48:58,679 --> 00:49:02,679
+certo isso aí primeiro lugar isso tá
+
+1040
+00:49:00,280 --> 00:49:04,440
+livre para qualquer pessoa acessar ou
+
+1041
+00:49:02,679 --> 00:49:07,919
+vocês tiveram acesso porque estava
+
+1042
+00:49:04,440 --> 00:49:10,798
+fazendo uma pesquisa ou tem que pagar
+
+1043
+00:49:07,920 --> 00:49:15,240
+não era acessível Eu não sei como está
+
+1044
+00:49:10,798 --> 00:49:17,960
+hoje mas como é que era era um banco uma
+
+1045
+00:49:15,239 --> 00:49:21,399
+uma listagem de um site chamado CB
+
+1046
+00:49:17,960 --> 00:49:23,838
+Insites um um site americano que se
+
+1047
+00:49:21,400 --> 00:49:25,480
+especializa de mídia especializado em
+
+1048
+00:49:23,838 --> 00:49:28,400
+startups e eles tinham essa lista de
+
+1049
+00:49:25,480 --> 00:49:31,679
+startups que tinham morrido E de lá você
+
+1050
+00:49:28,400 --> 00:49:35,760
+tinha os links para os para esses
+
+1051
+00:49:31,679 --> 00:49:38,719
+geralmente eram posts de blogs eh
+
+1052
+00:49:35,760 --> 00:49:42,400
+falando de startups que tinham encerrado
+
+1053
+00:49:38,719 --> 00:49:46,358
+ou às vezes eh comunicados na imprensa
+
+1054
+00:49:42,400 --> 00:49:49,880
+artigo de jornal enfim tudo online assim
+
+1055
+00:49:46,358 --> 00:49:53,679
+E aí na época a gente escaneou isso e a
+
+1056
+00:49:49,880 --> 00:49:56,280
+gente ia e coletava o documento original
+
+1057
+00:49:53,679 --> 00:49:58,199
+Tanto que às vezes o site o documento já
+
+1058
+00:49:56,280 --> 00:50:00,760
+não tava mais online a gente teve que
+
+1059
+00:49:58,199 --> 00:50:04,239
+tentar achar por outros meses ver se
+
+1060
+00:50:00,760 --> 00:50:08,280
+existia Eh tem o InternetV E aí a gente
+
+1061
+00:50:04,239 --> 00:50:11,959
+fez essa listagem a gente por questão de
+
+1062
+00:50:08,280 --> 00:50:16,000
+aí no nesse artigo a gente listou todos
+
+1063
+00:50:11,960 --> 00:50:19,079
+esses links mas infelizmente por questão
+
+1064
+00:50:16,000 --> 00:50:24,280
+de eh direitos a gente não poderia
+
+1065
+00:50:19,079 --> 00:50:29,240
+colocar o mesmo texto colocar os textos
+
+1066
+00:50:24,280 --> 00:50:31,319
+no eh no pacote de reprodução né do do
+
+1067
+00:50:29,239 --> 00:50:34,039
+estudo A gente só colocou os links Então
+
+1068
+00:50:31,318 --> 00:50:35,798
+não sei como esses links estão hoje se
+
+1069
+00:50:34,039 --> 00:50:38,679
+essa empresa ainda faz Eu imagino que
+
+1070
+00:50:35,798 --> 00:50:42,119
+eles devem atualizar essa lista até hoje
+
+1071
+00:50:38,679 --> 00:50:46,239
+porque a gente coletou isso acho que em
+
+1072
+00:50:42,119 --> 00:50:48,000
+2019 se eu não me engano Eh hoje essa
+
+1073
+00:50:46,239 --> 00:50:50,039
+lista deve ser muito maior se ela for
+
+1074
+00:50:48,000 --> 00:50:54,079
+atualizada mas em compensação muitos
+
+1075
+00:50:50,039 --> 00:50:59,079
+desses links talvez já estejam mortos né
+
+1076
+00:50:54,079 --> 00:51:01,599
+é eu eu abri o link agora tá lá o a
+
+1077
+00:50:59,079 --> 00:51:05,318
+versão mais recente é de 29 de maio de
+
+1078
+00:51:01,599 --> 00:51:08,240
+2024 e tem 483
+
+1079
+00:51:05,318 --> 00:51:10,759
+né mas pelo jeito ou é pago ou você tem
+
+1080
+00:51:08,239 --> 00:51:16,479
+que se cadastrar aqui para para eles
+
+1081
+00:51:10,760 --> 00:51:18,079
+terem alguma informação sua Mas aí então
+
+1082
+00:51:16,480 --> 00:51:21,679
+vou talvez eles foram então mais
+
+1083
+00:51:18,079 --> 00:51:21,680
+restritos agora
+
+1084
+00:51:21,719 --> 00:51:28,279
+É você disse que isso esse aquela essa
+
+1085
+00:51:25,519 --> 00:51:31,679
+survey qualitativa né foi resultado do
+
+1086
+00:51:28,280 --> 00:51:34,519
+seu doutorado O arquipo que você
+
+1087
+00:51:31,679 --> 00:51:37,399
+publicou em outros dois artigos junto
+
+1088
+00:51:34,519 --> 00:51:39,199
+com Kelson Silva outras pessoas fez
+
+1089
+00:51:37,400 --> 00:51:40,838
+parte do seu doutorado também ou já foi
+
+1090
+00:51:39,199 --> 00:51:45,759
+um outro trabalho
+
+1091
+00:51:40,838 --> 00:51:49,679
+não o que uma meu doutorado é assim a
+
+1092
+00:51:45,760 --> 00:51:54,440
+partir dessa ideia que a gente dessa
+
+1093
+00:51:49,679 --> 00:51:56,519
+análise de que as pessoas ah desculpa
+
+1094
+00:51:54,440 --> 00:51:59,318
+que essas startups não estão
+
+1095
+00:51:56,519 --> 00:52:01,838
+usando ah experimentação a gente
+
+1096
+00:51:59,318 --> 00:52:04,558
+identificou esses 25 inibidores né e a
+
+1097
+00:52:01,838 --> 00:52:07,480
+gente percebeu que os mais frequentes os
+
+1098
+00:52:04,559 --> 00:52:09,599
+mais ah importantes relevantes ali
+
+1099
+00:52:07,480 --> 00:52:12,559
+estavam relacionados aos aos humanos né
+
+1100
+00:52:09,599 --> 00:52:14,760
+né os indivíduos eh nesse estão nesse
+
+1101
+00:52:12,559 --> 00:52:18,240
+contexto da parte tecnológica existem
+
+1102
+00:52:14,760 --> 00:52:20,839
+alguns problemas eh mais de ordem
+
+1103
+00:52:18,239 --> 00:52:24,439
+prática às vezes de quantidade de
+
+1104
+00:52:20,838 --> 00:52:26,039
+pessoas e obter números vários usuários
+
+1105
+00:52:24,440 --> 00:52:28,039
+às vezes para fazer testes Isso ainda é
+
+1106
+00:52:26,039 --> 00:52:31,558
+um problema mas a maioria dos problemas
+
+1107
+00:52:28,039 --> 00:52:35,358
+ainda tá na questão humana de achar a
+
+1108
+00:52:31,559 --> 00:52:39,000
+necessidade de de experimentar Nós como
+
+1109
+00:52:35,358 --> 00:52:40,798
+desenvolvedor de software eh cientistas
+
+1110
+00:52:39,000 --> 00:52:44,119
+da computação nessa nossa formação a
+
+1111
+00:52:40,798 --> 00:52:46,400
+gente é geralmente treinado a dado uma
+
+1112
+00:52:44,119 --> 00:52:49,640
+tarefa vamos implementar aquela tarefa a
+
+1113
+00:52:46,400 --> 00:52:53,400
+gente não tem essa ideia de pensar um
+
+1114
+00:52:49,639 --> 00:52:55,960
+pouco antes no usuário no possível eh
+
+1115
+00:52:53,400 --> 00:52:59,559
+consumidor ou comprador daquele software
+
+1116
+00:52:55,960 --> 00:53:00,960
+né o o enfim consumidor daquele software
+
+1117
+00:52:59,559 --> 00:53:03,920
+Então e uma das coisas que a gente
+
+1118
+00:53:00,960 --> 00:53:06,039
+pensou é eh tem essa questão de
+
+1119
+00:53:03,920 --> 00:53:09,119
+engenharia de requisitos né a engenharia
+
+1120
+00:53:06,039 --> 00:53:10,960
+de requisitos tra essa ideia vamos fazer
+
+1121
+00:53:09,119 --> 00:53:12,640
+definir certinho que tem que ser feito e
+
+1122
+00:53:10,960 --> 00:53:15,240
+vamos fazer
+
+1123
+00:53:12,639 --> 00:53:17,358
+Então nesse sentido durante o meu
+
+1124
+00:53:15,239 --> 00:53:21,159
+doutorado eu propus a ideia de
+
+1125
+00:53:17,358 --> 00:53:24,719
+engenharia de hipóteses Ou seja vamos
+
+1126
+00:53:21,159 --> 00:53:27,719
+também ter uma disciplina para pensar em
+
+1127
+00:53:24,719 --> 00:53:31,838
+eh o que que a gente quer
+
+1128
+00:53:27,719 --> 00:53:34,919
+descobrir porque aí o nosso software não
+
+1129
+00:53:31,838 --> 00:53:36,679
+é só algo um resultado um fim em si
+
+1130
+00:53:34,920 --> 00:53:38,760
+mesmo mas ele tem o objetivo de a gente
+
+1131
+00:53:36,679 --> 00:53:40,798
+tentar entender alguma coisa né essa
+
+1132
+00:53:38,760 --> 00:53:42,280
+ideia de experimentação lembrando que
+
+1133
+00:53:40,798 --> 00:53:44,838
+aqui experimentação não é só
+
+1134
+00:53:42,280 --> 00:53:47,519
+experimentação no sentido científico né
+
+1135
+00:53:44,838 --> 00:53:51,039
+de estudos controlados né os
+
+1136
+00:53:47,519 --> 00:53:53,920
+experimentos controlados com duplo
+
+1137
+00:53:51,039 --> 00:53:56,000
+cego grupo de controle né aqui é um
+
+1138
+00:53:53,920 --> 00:53:59,920
+termo mais amplo de experimento desde
+
+1139
+00:53:56,000 --> 00:54:03,079
+entrevistas com usuários até algo como
+
+1140
+00:53:59,920 --> 00:54:06,680
+testes AB enfim tudo isso se engloba em
+
+1141
+00:54:03,079 --> 00:54:09,920
+experimentação E e aí a gente trouxe
+
+1142
+00:54:06,679 --> 00:54:15,199
+propôs esse termo eh de
+
+1143
+00:54:09,920 --> 00:54:20,240
+geróteses para que eh as pessoas foquem
+
+1144
+00:54:15,199 --> 00:54:22,480
+mais em obter informações eh dados para
+
+1145
+00:54:20,239 --> 00:54:24,519
+suportar determinadas questões ou
+
+1146
+00:54:22,480 --> 00:54:27,159
+entender determinadas questões ao invés
+
+1147
+00:54:24,519 --> 00:54:30,199
+de simplesmente se basear em nas na
+
+1148
+00:54:27,159 --> 00:54:33,519
+própria opinião E aí você basicamente
+
+1149
+00:54:30,199 --> 00:54:36,000
+você às vezes tá construindo todo um um
+
+1150
+00:54:33,519 --> 00:54:37,559
+castelo e você vai ver as fundações são
+
+1151
+00:54:36,000 --> 00:54:39,239
+muito ruins né que é a fundação do que
+
+1152
+00:54:37,559 --> 00:54:41,798
+realmente é útil
+
+1153
+00:54:39,239 --> 00:54:43,679
+Enfim isso foi no meu doutorado Aí no
+
+1154
+00:54:41,798 --> 00:54:45,358
+meu doutorado como era startup de
+
+1155
+00:54:43,679 --> 00:54:48,919
+software principalmente tópico a gente
+
+1156
+00:54:45,358 --> 00:54:51,279
+focou muito mais em eh hipóteses mais
+
+1157
+00:54:48,920 --> 00:54:53,519
+relacionadas às às funcionalidades mais
+
+1158
+00:54:51,280 --> 00:54:55,880
+relacionadas ao negócio Depois do meu
+
+1159
+00:54:53,519 --> 00:54:59,519
+doutorado em colaboração muito com o
+
+1160
+00:54:55,880 --> 00:55:01,838
+Eduardo Guerra que tem mais esse viés de
+
+1161
+00:54:59,519 --> 00:55:04,280
+arquitetura de software a gente viu essa
+
+1162
+00:55:01,838 --> 00:55:06,960
+possibilidade de também trazer essa
+
+1163
+00:55:04,280 --> 00:55:10,440
+ideia de hipóteses para questões de
+
+1164
+00:55:06,960 --> 00:55:12,599
+arquitetura porque na arquitetura é algo
+
+1165
+00:55:10,440 --> 00:55:14,720
+semelhante né você no início ali tem
+
+1166
+00:55:12,599 --> 00:55:18,400
+muitas
+
+1167
+00:55:14,719 --> 00:55:19,919
+incertezas e você geralmente tem que
+
+1168
+00:55:18,400 --> 00:55:22,119
+definir uma arquitetura Tem toda a
+
+1169
+00:55:19,920 --> 00:55:23,720
+questão de arquitetura ágil como a gente
+
+1170
+00:55:22,119 --> 00:55:28,680
+consegue fazer isso de uma forma que
+
+1171
+00:55:23,719 --> 00:55:32,759
+pode ser alterado depois Eh e aí a ideia
+
+1172
+00:55:28,679 --> 00:55:35,038
+do Ark Hypo é vamos trazer fazer como
+
+1173
+00:55:32,760 --> 00:55:37,960
+que as hipóteses sejam essas em certeza
+
+1174
+00:55:35,039 --> 00:55:40,640
+sejam uns cidadões de primeira cidadãos
+
+1175
+00:55:37,960 --> 00:55:44,119
+de primeira classe em que a gente vai
+
+1176
+00:55:40,639 --> 00:55:47,598
+considerar eles e ter
+
+1177
+00:55:44,119 --> 00:55:50,640
+eles no controle Mas assim a gente no AR
+
+1178
+00:55:47,599 --> 00:55:53,359
+H a gente tem tanto o impacto quanto a
+
+1179
+00:55:50,639 --> 00:55:55,679
+incerteza Então você tenta diminuir a
+
+1180
+00:55:53,358 --> 00:55:58,558
+sua incerteza e diminuir o impacto mas
+
+1181
+00:55:55,679 --> 00:56:03,038
+às vezes isso não é possível Você eh tem
+
+1182
+00:55:58,559 --> 00:56:04,960
+que eh trabalhar de alguma forma para eh
+
+1183
+00:56:03,039 --> 00:56:07,599
+ter consciência dessas limitações Então
+
+1184
+00:56:04,960 --> 00:56:10,318
+foi um pouco assim Então o archipo o
+
+1185
+00:56:07,599 --> 00:56:12,119
+archip não é do meu doutorado mas essa
+
+1186
+00:56:10,318 --> 00:56:15,440
+ideia de engenharia de hipóteses nasceu
+
+1187
+00:56:12,119 --> 00:56:19,519
+lá atrás e é uma é uma das
+
+1188
+00:56:15,440 --> 00:56:21,920
+aplicações ou extensões né
+
+1189
+00:56:19,519 --> 00:56:24,480
+muito bom Vamos deixar na na descrição
+
+1190
+00:56:21,920 --> 00:56:26,639
+os dois artigos do Ark Hype um na I3E
+
+1191
+00:56:24,480 --> 00:56:29,039
+Software outro na I3E
+
+1192
+00:56:26,639 --> 00:56:32,038
+Transactions E agora vamos para algumas
+
+1193
+00:56:29,039 --> 00:56:33,359
+perguntas mais sobre sua carreira né
+
+1194
+00:56:32,039 --> 00:56:35,119
+você se formou em engenharia de
+
+1195
+00:56:33,358 --> 00:56:38,480
+computação no ITA né instituto
+
+1196
+00:56:35,119 --> 00:56:39,960
+Tecnológico de Aeronáutica em 2010 Você
+
+1197
+00:56:38,480 --> 00:56:43,119
+lembra o que é que te levou a escolher
+
+1198
+00:56:39,960 --> 00:56:43,119
+esse curso de engenharia de
+
+1199
+00:56:43,358 --> 00:56:49,318
+computação ah olha eu sempre desde
+
+1200
+00:56:46,960 --> 00:56:53,000
+criança gostei
+
+1201
+00:56:49,318 --> 00:56:55,679
+de de matemática de uma coisa mais
+
+1202
+00:56:53,000 --> 00:56:57,239
+lógica Eu lembro que eu sonhava sei lá a
+
+1203
+00:56:55,679 --> 00:57:01,480
+primeira coisa que eu lembro é falar de
+
+1204
+00:56:57,239 --> 00:57:04,078
+fazer matemática assim E aí eu mas desde
+
+1205
+00:57:01,480 --> 00:57:07,199
+cedo eu me envolvi com computadores né
+
+1206
+00:57:04,079 --> 00:57:09,599
+eu lembro de aprender a programar sei lá
+
+1207
+00:57:07,199 --> 00:57:15,358
+tem um primeiro
+
+1208
+00:57:09,599 --> 00:57:17,680
+site não sei 99 98 bem basicão Já lembro
+
+1209
+00:57:15,358 --> 00:57:20,759
+de fazer algumas coisinhas em
+
+1210
+00:57:17,679 --> 00:57:23,358
+PHP bem lá atrás Então foi uma coisa que
+
+1211
+00:57:20,760 --> 00:57:26,480
+foi meio natural Quando eu fui escolher
+
+1212
+00:57:23,358 --> 00:57:27,880
+o curso para mim era natural assim a
+
+1213
+00:57:26,480 --> 00:57:29,920
+minha dúvida acho que era em ciência e
+
+1214
+00:57:27,880 --> 00:57:31,480
+engenheiro da computação Aí no final
+
+1215
+00:57:29,920 --> 00:57:34,280
+acabei
+
+1216
+00:57:31,480 --> 00:57:35,559
+eh indo pro inter fazer engenharia de
+
+1217
+00:57:34,280 --> 00:57:38,880
+computação
+
+1218
+00:57:35,559 --> 00:57:41,480
+mesmo É E aí você decidiu
+
+1219
+00:57:38,880 --> 00:57:44,960
+aí você decidiu fazer
+
+1220
+00:57:41,480 --> 00:57:47,599
+decidiu fazer mestrado lá na na USP né
+
+1221
+00:57:44,960 --> 00:57:49,880
+no IMUSP onde eu fiz doutorado mas foi
+
+1222
+00:57:47,599 --> 00:57:51,798
+em períodos diferentes Por que que você
+
+1223
+00:57:49,880 --> 00:57:54,838
+decidiu fazer mestrado e por que que
+
+1224
+00:57:51,798 --> 00:57:57,599
+você decidiu fazer lá no no IMUSP é
+
+1225
+00:57:54,838 --> 00:57:59,639
+então quando eu terminei o meu quando eu
+
+1226
+00:57:57,599 --> 00:58:00,960
+terminei a graduação eu fui pro mercado
+
+1227
+00:57:59,639 --> 00:58:03,199
+né trabalhei como
+
+1228
+00:58:00,960 --> 00:58:05,199
+desenvolvedor mas eu sempre tive essa
+
+1229
+00:58:03,199 --> 00:58:09,118
+ideia de tentar voltar pra academia Eu
+
+1230
+00:58:05,199 --> 00:58:12,199
+sempre gostei de estudar gostei eh
+
+1231
+00:58:09,119 --> 00:58:14,358
+participei de Olimpíadas na no ensino
+
+1232
+00:58:12,199 --> 00:58:16,358
+médio sempre gostei desse ambiente
+
+1233
+00:58:14,358 --> 00:58:18,880
+acadêmico Então era uma coisa que eu
+
+1234
+00:58:16,358 --> 00:58:23,880
+queria voltar Eu trabalhava em São Paulo
+
+1235
+00:58:18,880 --> 00:58:25,240
+né morava em São Paulo na época Aí o a a
+
+1236
+00:58:23,880 --> 00:58:28,358
+USP
+
+1237
+00:58:25,239 --> 00:58:30,239
+parecia um lugar OK E eu conheci o
+
+1238
+00:58:28,358 --> 00:58:32,279
+professor Alfito Goldman né foi meu
+
+1239
+00:58:30,239 --> 00:58:35,078
+orientador de mestrado através do
+
+1240
+00:58:32,280 --> 00:58:38,798
+Eduardo Guerra por sinal
+
+1241
+00:58:35,079 --> 00:58:42,318
+que eh aí ele me eh eu fui aceito no
+
+1242
+00:58:38,798 --> 00:58:44,639
+programa e aí eu eu fiz eu continuei
+
+1243
+00:58:42,318 --> 00:58:47,119
+trabalhando então eu fiz o meu mestrado
+
+1244
+00:58:44,639 --> 00:58:50,798
+ao mesmo tempo em que eu trabalhava Foi
+
+1245
+00:58:47,119 --> 00:58:53,760
+foi um período bem eh exigente assim
+
+1246
+00:58:50,798 --> 00:58:56,559
+bastante trabalho mas foi bem legal o
+
+1247
+00:58:53,760 --> 00:58:58,440
+mestrado lá consegui fazer boas
+
+1248
+00:58:56,559 --> 00:59:00,079
+publicações que me levaram depois pro
+
+1249
+00:58:58,440 --> 00:59:02,599
+doutorado né
+
+1250
+00:59:00,079 --> 00:59:05,280
+e
+
+1251
+00:59:02,599 --> 00:59:07,359
+certo Aí você fez o doutorado na Free
+
+1252
+00:59:05,280 --> 00:59:10,079
+Universe of Ben Bzano que é onde você
+
+1253
+00:59:07,358 --> 00:59:13,358
+está agora na Itália né sobre a
+
+1254
+00:59:10,079 --> 00:59:16,720
+orientação da professora Não vou saber
+
+1255
+00:59:13,358 --> 00:59:20,000
+Eh se fang Pronto você falou
+
+1256
+00:59:16,719 --> 00:59:23,798
+Provavelmente nem eu faça nem eu faça a
+
+1257
+00:59:20,000 --> 00:59:26,599
+pronúncia correta Ela é chinesa Ela é
+
+1258
+00:59:23,798 --> 00:59:28,880
+chinesa certo e o que é que te motivou a
+
+1259
+00:59:26,599 --> 00:59:31,798
+seguir para o doutorado e escolher
+
+1260
+00:59:28,880 --> 00:59:33,720
+especificamente essa universidade aí
+
+1261
+00:59:31,798 --> 00:59:35,679
+eh então durante o meu mestrado como eu
+
+1262
+00:59:33,719 --> 00:59:37,480
+falei eu tive a chance de publicar
+
+1263
+00:59:35,679 --> 00:59:39,919
+alguns artigos e um deles eu fui para
+
+1264
+00:59:37,480 --> 00:59:41,760
+uma conferência na Noruega foi minha
+
+1265
+00:59:39,920 --> 00:59:43,480
+primeira vez na Europa por sinal e eu
+
+1266
+00:59:41,760 --> 00:59:50,559
+conheci a
+
+1267
+00:59:43,480 --> 00:59:52,280
+professora Cal e ela e ela ela tinha tem
+
+1268
+00:59:50,559 --> 00:59:54,880
+ainda esse interesse em startups de
+
+1269
+00:59:52,280 --> 00:59:57,160
+software e o meu mestrado foi bastante
+
+1270
+00:59:54,880 --> 00:59:59,318
+em startups de software a gente
+
+1271
+00:59:57,159 --> 01:00:02,960
+conseguiu fazer com que ela fosse para
+
+1272
+00:59:59,318 --> 01:00:05,000
+mim a defesa né a professora Alfredo eh
+
+1273
+01:00:02,960 --> 01:00:07,400
+conseguiu que ela participasse da minha
+
+1274
+01:00:05,000 --> 01:00:11,400
+defesa láem aí em São
+
+1275
+01:00:07,400 --> 01:00:15,240
+Paulo Aí ela me falou: "Ó vai abrir uma
+
+1276
+01:00:11,400 --> 01:00:17,760
+vaga aqui para pra Itália e pro
+
+1277
+01:00:15,239 --> 01:00:21,519
+doutorado aqui na aqui em Bolzano Você
+
+1278
+01:00:17,760 --> 01:00:23,640
+quer tentar?" Aí eu tentei e consegui Aí
+
+1279
+01:00:21,519 --> 01:00:26,920
+tinha também umas questões pessoais de
+
+1280
+01:00:23,639 --> 01:00:29,078
+querer um pouco sair do país enfim
+
+1281
+01:00:26,920 --> 01:00:32,159
+E eu sabia depois da minha experiência
+
+1282
+01:00:29,079 --> 01:00:35,318
+do mestrado eu sabia que eu não queria
+
+1283
+01:00:32,159 --> 01:00:36,598
+trabalhar e fazer o doutorado ao mesmo
+
+1284
+01:00:35,318 --> 01:00:41,079
+tempo Então aí eu
+
+1285
+01:00:36,599 --> 01:00:42,798
+decidi eh me mudar de vez né para Busano
+
+1286
+01:00:41,079 --> 01:00:47,280
+e me focar só no doutorado Desde então
+
+1287
+01:00:42,798 --> 01:00:51,759
+eu tô na área acadêmica eh full time né
+
+1288
+01:00:47,280 --> 01:00:55,760
+tempo de dedicação integral aqui E mas
+
+1289
+01:00:51,760 --> 01:00:59,079
+foi isso foi a oportunidade ela é uma
+
+1290
+01:00:55,760 --> 01:01:00,960
+das eh uma das especialistas em startup
+
+1291
+01:00:59,079 --> 01:01:03,680
+de software é o que eu queria fazer num
+
+1292
+01:01:00,960 --> 01:01:06,000
+lugar que eu acho eu tenho ascendência
+
+1293
+01:01:03,679 --> 01:01:08,879
+italiana também era uma coisa que eu
+
+1294
+01:01:06,000 --> 01:01:12,599
+queria ficar um tempo aqui e aí deu
+
+1295
+01:01:08,880 --> 01:01:14,400
+certo e por enquanto eu tô aqui Foi
+
+1296
+01:01:12,599 --> 01:01:15,720
+tenho ficado né tem meu doutorado e
+
+1297
+01:01:14,400 --> 01:01:18,358
+tenho ficado aqui pelo menos por
+
+1298
+01:01:15,719 --> 01:01:20,519
+enquanto na universidade
+
+1299
+01:01:18,358 --> 01:01:22,318
+E você tem mais de 7 anos de experiência
+
+1300
+01:01:20,519 --> 01:01:26,719
+como desenvolvedor de software né antes
+
+1301
+01:01:22,318 --> 01:01:28,358
+de qualquer antes fora claro a gente
+
+1302
+01:01:26,719 --> 01:01:30,598
+acaba desenvolvendo software na academia
+
+1303
+01:01:28,358 --> 01:01:33,038
+às vezes mas não é a mesma coisa né você
+
+1304
+01:01:30,599 --> 01:01:34,960
+passou 5 anos numa empresa chamada
+
+1305
+01:01:33,039 --> 01:01:37,039
+Cuponomia que é uma empresa que você
+
+1306
+01:01:34,960 --> 01:01:41,760
+ajudou a fundar Como é que foi essa
+
+1307
+01:01:37,039 --> 01:01:45,680
+experiência de de atuar na indústria
+
+1308
+01:01:41,760 --> 01:01:47,640
+ah é uma coisa é é bem interessante
+
+1309
+01:01:45,679 --> 01:01:50,038
+também Eu gosto bastante É uma coisa que
+
+1310
+01:01:47,639 --> 01:01:53,118
+eu acho que eu tinha
+
+1311
+01:01:50,039 --> 01:01:55,599
+desde da graduação assim eu acho que eu
+
+1312
+01:01:53,119 --> 01:01:56,838
+nunca pensei em seguir direto Eu sempre
+
+1313
+01:01:55,599 --> 01:01:58,440
+tive essa vontade de fazer carreira
+
+1314
+01:01:56,838 --> 01:02:00,838
+acadêmica mas eu achei achei
+
+1315
+01:01:58,440 --> 01:02:03,159
+interessante Eu quero ter uma
+
+1316
+01:02:00,838 --> 01:02:05,278
+experiência prática Isso ajuda bastante
+
+1317
+01:02:03,159 --> 01:02:07,278
+hoje em dia para mim que eu consigo às
+
+1318
+01:02:05,278 --> 01:02:11,278
+vezes pensar como um
+
+1319
+01:02:07,278 --> 01:02:14,000
+desenvolvedor E essa experiência eu tive
+
+1320
+01:02:11,278 --> 01:02:15,760
+uma experiência em mercado financeiro
+
+1321
+01:02:14,000 --> 01:02:17,159
+também como desenvolvedor e a maior
+
+1322
+01:02:15,760 --> 01:02:20,319
+parte do tempo eu fiquei no C economia
+
+1323
+01:02:17,159 --> 01:02:24,199
+como você disse E e foi aí que eu tive
+
+1324
+01:02:20,318 --> 01:02:28,358
+esse contato com com startups com com
+
+1325
+01:02:24,199 --> 01:02:31,358
+esse tópico né que que ainda hoje eu
+
+1326
+01:02:28,358 --> 01:02:32,519
+tento estudar um pouco né o meu foco tá
+
+1327
+01:02:31,358 --> 01:02:37,519
+um
+
+1328
+01:02:32,519 --> 01:02:40,440
+pouquinho fora hoje mas ainda tenho
+
+1329
+01:02:37,519 --> 01:02:43,199
+estudos ainda sobre startups em
+
+1330
+01:02:40,440 --> 01:02:49,519
+andamento É um ambiente que a gente
+
+1331
+01:02:43,199 --> 01:02:51,439
+ainda tenta entender E mas eu acho que é
+
+1332
+01:02:49,519 --> 01:02:53,519
+enfim a minha experiência no Cuponomia
+
+1333
+01:02:51,440 --> 01:02:56,318
+foi muito boa assim porque a gente teve
+
+1334
+01:02:53,519 --> 01:02:58,880
+oportunidade de ir pro Vale do Silício
+
+1335
+01:02:56,318 --> 01:03:02,920
+no processo de aceleração ali na 500
+
+1336
+01:02:58,880 --> 01:03:07,039
+Startups passar ali eh 4 meses ali
+
+1337
+01:03:02,920 --> 01:03:10,798
+conhecer aquele ambiente entender eh
+
+1338
+01:03:07,039 --> 01:03:12,480
+eh não só de tecnologia mas também eu
+
+1339
+01:03:10,798 --> 01:03:14,798
+acho que isso trouxe bastante paraa
+
+1340
+01:03:12,480 --> 01:03:16,719
+minha pesquisa de que a gente tá
+
+1341
+01:03:14,798 --> 01:03:18,880
+desenvolvendo a a gente quer ter o
+
+1342
+01:03:16,719 --> 01:03:23,919
+sucesso técnico mas é importante também
+
+1343
+01:03:18,880 --> 01:03:25,559
+esse sucesso eh comercial ou de
+
+1344
+01:03:23,920 --> 01:03:27,400
+interesse do usuário né a gente
+
+1345
+01:03:25,559 --> 01:03:28,720
+realmente tá resolvendo um problema E
+
+1346
+01:03:27,400 --> 01:03:30,680
+acho que foi uma coisa que eu peguei
+
+1347
+01:03:28,719 --> 01:03:33,679
+bastante lá
+
+1348
+01:03:30,679 --> 01:03:33,679
+eh
+
+1349
+01:03:33,838 --> 01:03:39,519
+na nesse ambiente de indústria Eu acho
+
+1350
+01:03:36,400 --> 01:03:42,720
+que é uma contribuição muito boa Quem às
+
+1351
+01:03:39,519 --> 01:03:45,960
+vezes às vezes tá pensando em tá na
+
+1352
+01:03:42,719 --> 01:03:49,159
+indústria e quer mudar
+
+1353
+01:03:45,960 --> 01:03:51,079
+para pra academia né tem essas vantagens
+
+1354
+01:03:49,159 --> 01:03:54,679
+e desvantagens
+
+1355
+01:03:51,079 --> 01:03:58,480
+Eh mas traz muita essa bagagem também
+
+1356
+01:03:54,679 --> 01:04:00,480
+traz muito valor eu acho de eh de alguns
+
+1357
+01:03:58,480 --> 01:04:02,679
+problemas Você vê realmente alguns
+
+1358
+01:04:00,480 --> 01:04:04,599
+problemas traz umas ideias que às vezes
+
+1359
+01:04:02,679 --> 01:04:08,879
+alguém só na academia não tenha tido
+
+1360
+01:04:04,599 --> 01:04:13,599
+essa essa oportunidade de ver
+
+1361
+01:04:08,880 --> 01:04:15,798
+né e você tá aí em Bolzano o Eduardo
+
+1362
+01:04:13,599 --> 01:04:19,798
+Guerra que a gente já entrevistou tá tá
+
+1363
+01:04:15,798 --> 01:04:21,759
+aí também né eu duas dúvidas Quem chegou
+
+1364
+01:04:19,798 --> 01:04:25,440
+primeiro foi você ou ele e teve alguma
+
+1365
+01:04:21,760 --> 01:04:27,039
+relação ainda de Então no caso você teve
+
+1366
+01:04:25,440 --> 01:04:33,278
+alguma relação com a ida dele para ir ou
+
+1367
+01:04:27,039 --> 01:04:37,559
+não sim sim sim Eu em eu ah em 2000 e
+
+1368
+01:04:33,278 --> 01:04:39,400
+final de 2019 eu acho eh é eu cheguei
+
+1369
+01:04:37,559 --> 01:04:42,400
+aqui em novembro de 2017 para começar
+
+1370
+01:04:39,400 --> 01:04:44,639
+meu doutorado Aí em 2019 acho que a
+
+1371
+01:04:42,400 --> 01:04:51,798
+professora Zal tava com uma vaga aberta
+
+1372
+01:04:44,639 --> 01:04:55,838
+para trabalhar com ela E aí e ela tem
+
+1373
+01:04:51,798 --> 01:04:57,838
+muito forte na comunidade ágil né de XP
+
+1374
+01:04:55,838 --> 01:05:00,960
+por exemplo E
+
+1375
+01:04:57,838 --> 01:05:03,798
+ela e ela tava procurando eu falei ó o
+
+1376
+01:05:00,960 --> 01:05:08,720
+Eduardo Guerra e ela tinha a gente tinha
+
+1377
+01:05:03,798 --> 01:05:12,519
+tido uma colaboração já em 2019 sobre eh
+
+1378
+01:05:08,719 --> 01:05:16,719
+um jogo de tabuleiro para startups sobre
+
+1379
+01:05:12,519 --> 01:05:20,798
+foi bem legal e porque esse é um é um
+
+1380
+01:05:16,719 --> 01:05:21,480
+site job né do Eduardo E aí eu falei: "Ó
+
+1381
+01:05:20,798 --> 01:05:25,079
+o
+
+1382
+01:05:21,480 --> 01:05:26,199
+Eduardo ele sempre teve esse desejo." Eu
+
+1383
+01:05:25,079 --> 01:05:27,760
+lembro de ter conversado com ele que ele
+
+1384
+01:05:26,199 --> 01:05:30,239
+tinha esse desejo de sair do país por um
+
+1385
+01:05:27,760 --> 01:05:32,480
+tempo E aí eu falei: "Ó às vezes ele
+
+1386
+01:05:30,239 --> 01:05:35,798
+pode se candidatar." Ele se candidatou e
+
+1387
+01:05:32,480 --> 01:05:39,159
+veio tá aí desde então
+
+1388
+01:05:35,798 --> 01:05:43,880
+Maravilha Então é eu eu que sou ocupado
+
+1389
+01:05:39,159 --> 01:05:47,078
+né ele tá aqui Certo então a gente vai
+
+1390
+01:05:43,880 --> 01:05:50,760
+deixar o link aí para entrevista do do
+
+1391
+01:05:47,079 --> 01:05:52,880
+Eduardo Guerra na descrição do episódio
+
+1392
+01:05:50,760 --> 01:05:54,760
+E agora a gente faz uma pergunta que é
+
+1393
+01:05:52,880 --> 01:05:58,000
+uma pergunta que a gente sabe que
+
+1394
+01:05:54,760 --> 01:06:00,359
+ninguém é capaz de prever o futuro mas
+
+1395
+01:05:58,000 --> 01:06:02,318
+somente a gente diz eu gosto de dizer
+
+1396
+01:06:00,358 --> 01:06:04,078
+que é algo que você acha que vai
+
+1397
+01:06:02,318 --> 01:06:05,920
+acontecer ou que gostaria que
+
+1398
+01:06:04,079 --> 01:06:09,480
+acontecesse na nossa
+
+1399
+01:06:05,920 --> 01:06:13,039
+área Jorge qual é a próxima fronteira da
+
+1400
+01:06:09,480 --> 01:06:13,039
+engenharia de software
+
+1401
+01:06:14,159 --> 01:06:20,838
+ah o que eu acho eu acho que hoje todo
+
+1402
+01:06:17,838 --> 01:06:23,519
+mundo falando de IA né então eu acho que
+
+1403
+01:06:20,838 --> 01:06:25,719
+a vai mudar um pouco como a gente
+
+1404
+01:06:23,519 --> 01:06:30,798
+desenvolve mas eu acho que não vai ser
+
+1405
+01:06:25,719 --> 01:06:35,159
+tão drástico Eu vi uma outra outro dia
+
+1406
+01:06:30,798 --> 01:06:38,719
+uma uma frase do David Parnas até falei
+
+1407
+01:06:35,159 --> 01:06:41,078
+isso num curso outro dia que a fala que
+
+1408
+01:06:38,719 --> 01:06:43,598
+ele falava que programa ele tem um uma
+
+1409
+01:06:41,079 --> 01:06:47,960
+frase dele de 1985 ele falava que
+
+1410
+01:06:43,599 --> 01:06:50,880
+programação automática era um eh um
+
+1411
+01:06:47,960 --> 01:06:53,599
+pleonasmo né que no sentido que toda a
+
+1412
+01:06:50,880 --> 01:06:56,400
+programação é automática né você só tá
+
+1413
+01:06:53,599 --> 01:06:58,880
+aumentando o nível de abstração Então eu
+
+1414
+01:06:56,400 --> 01:07:00,480
+acho que a vai vir para eu acho que
+
+1415
+01:06:58,880 --> 01:07:03,519
+ainda vamos a gente vai programar mas
+
+1416
+01:07:00,480 --> 01:07:07,719
+talvez num nível mais alto de eh de
+
+1417
+01:07:03,519 --> 01:07:09,159
+abstração e como isso vai acontecer Eh
+
+1418
+01:07:07,719 --> 01:07:11,719
+talvez a gente tenha tenha que ter
+
+1419
+01:07:09,159 --> 01:07:13,920
+outros mecanismos dados a não não
+
+1420
+01:07:11,719 --> 01:07:17,838
+determinismo
+
+1421
+01:07:13,920 --> 01:07:21,599
+da IA E eu acho que algo relacionado que
+
+1422
+01:07:17,838 --> 01:07:24,759
+isso vai mostrar é uma coisa que eu foco
+
+1423
+01:07:21,599 --> 01:07:27,760
+bastante que eu acho que tem muito valor
+
+1424
+01:07:24,760 --> 01:07:31,079
+e que é e é uma das coisas que eu ouvi
+
+1425
+01:07:27,760 --> 01:07:32,000
+também na indústria o ser humano ali é
+
+1426
+01:07:31,079 --> 01:07:34,480
+muito
+
+1427
+01:07:32,000 --> 01:07:37,119
+importante paraa engenharia de software
+
+1428
+01:07:34,480 --> 01:07:40,278
+a as consequências
+
+1429
+01:07:37,119 --> 01:07:43,400
+Isso Ah cada vez mais a gente tem visto
+
+1430
+01:07:40,278 --> 01:07:45,599
+a pesquisa também se pesquisa engenharia
+
+1431
+01:07:43,400 --> 01:07:48,160
+de software focar nos aspectos humanos E
+
+1432
+01:07:45,599 --> 01:07:50,318
+eu espero que isso continue aumentando
+
+1433
+01:07:48,159 --> 01:07:53,078
+Eu espero que a gente eu acho que com a
+
+1434
+01:07:50,318 --> 01:07:54,639
+IA fazendo mais parte a parte mais e
+
+1435
+01:07:53,079 --> 01:07:56,798
+mais parte técnica ainda acho que a
+
+1436
+01:07:54,639 --> 01:07:58,759
+gente vai fazer parte técnica mas eu
+
+1437
+01:07:56,798 --> 01:08:00,798
+acho que o fator humano vai ficar mais e
+
+1438
+01:07:58,760 --> 01:08:03,640
+mais evidente assim vai ter mais
+
+1439
+01:08:00,798 --> 01:08:07,519
+consequências né porque agora o que uma
+
+1440
+01:08:03,639 --> 01:08:13,038
+pessoa faz com a multiplicação do que a
+
+1441
+01:08:07,519 --> 01:08:17,880
+IA é capaz de fazer né com de de geração
+
+1442
+01:08:13,039 --> 01:08:19,640
+de eh do produto ou de código enfim eh
+
+1443
+01:08:17,880 --> 01:08:22,159
+eu acho que isso vai ficar mais evidente
+
+1444
+01:08:19,640 --> 01:08:25,880
+ainda
+
+1445
+01:08:22,158 --> 01:08:28,519
+Muito bom Então Jorge se alguém quiser
+
+1446
+01:08:25,880 --> 01:08:31,640
+fazer algum alguma colaboração com você
+
+1447
+01:08:28,520 --> 01:08:34,239
+talvez alguma empresa ou simplesmente
+
+1448
+01:08:31,640 --> 01:08:37,239
+você quiser deixar uma palavra final
+
+1449
+01:08:34,238 --> 01:08:39,278
+para os que nos assistem ou escutam a
+
+1450
+01:08:37,238 --> 01:08:41,959
+palavra é sua
+
+1451
+01:08:39,279 --> 01:08:45,560
+não é para quem tiver interesse falar um
+
+1452
+01:08:41,960 --> 01:08:47,399
+pouco eh seja de aspectos humanos de
+
+1453
+01:08:45,560 --> 01:08:50,359
+engenharia de hipóteses achou essa ideia
+
+1454
+01:08:47,399 --> 01:08:52,798
+legal quiser colaborar em alguma coisa
+
+1455
+01:08:50,359 --> 01:08:57,079
+eh eu tô focando um pouco também nesses
+
+1456
+01:08:52,798 --> 01:08:59,679
+aspectos humanos com o com o com o
+
+1457
+01:08:57,079 --> 01:09:01,399
+advento da IA né com cada vez mais
+
+1458
+01:08:59,679 --> 01:09:05,880
+presente
+
+1459
+01:09:01,399 --> 01:09:07,679
+É pode mandar um e-mail para mim eh ou e
+
+1460
+01:09:05,880 --> 01:09:10,400
+entra no meu site eu tenho o site
+
+1461
+01:09:07,679 --> 01:09:10,399
+pessoal né
+
+1462
+01:09:10,640 --> 01:09:16,640
+jmelegate.com.com e lá tem todos os meus
+
+1463
+01:09:13,838 --> 01:09:22,238
+contatos ou
+
+1464
+01:09:16,640 --> 01:09:25,119
+mandar@jmelegate.com também Tô no ex né
+
+1465
+01:09:22,238 --> 01:09:28,198
+Xelegat todas as essas redes assim é o
+
+1466
+01:09:25,119 --> 01:09:31,000
+LinkedIn pode me procurar adicionar e e
+
+1467
+01:09:28,198 --> 01:09:33,838
+a gente pode bater um papo
+
+1468
+01:09:31,000 --> 01:09:36,399
+Muito bom Então agradecemos a você em
+
+1469
+01:09:33,838 --> 01:09:38,479
+primeiro lugar Jorge e a todos e a todas
+
+1470
+01:09:36,399 --> 01:09:40,798
+que nos assistiram ou escutaram até
+
+1471
+01:09:38,479 --> 01:09:43,798
+agora E até o próximo episódio do
+
+1472
+01:09:40,798 --> 01:09:46,600
+Fronteiras da Engenharia de
+
+1473
+01:09:43,798 --> 01:09:49,319
+Software Este é o podcast Fronteiras da
+
+1474
+01:09:46,600 --> 01:09:51,759
+Engenharia de Software um podcast para
+
+1475
+01:09:49,319 --> 01:09:54,600
+refletir sobre o presente e o futuro da
+
+1476
+01:09:51,759 --> 01:09:57,640
+nossa área Publicamos mensalmente entre
+
+1477
+01:09:54,600 --> 01:09:59,480
+os dias 15 e 20 de cada mês episódios em
+
+1478
+01:09:57,640 --> 01:10:02,000
+que entrevistamos pesquisadores e
+
+1479
+01:09:59,479 --> 01:10:03,678
+pesquisadoras da engenharia de software
+
+1480
+01:10:02,000 --> 01:10:06,319
+Também realizamos palestras que são
+
+1481
+01:10:03,679 --> 01:10:08,399
+publicadas em nosso canal no YouTube
+
+1482
+01:10:06,319 --> 01:10:10,920
+Nosso objetivo é levar o conhecimento
+
+1483
+01:10:08,399 --> 01:10:12,079
+científico para profissionais da área
+
+1484
+01:10:10,920 --> 01:10:14,440
+para outros
+
+1485
+01:10:12,079 --> 01:10:17,359
+cientistas Escute nossos episódios na
+
+1486
+01:10:14,439 --> 01:10:21,158
+sua plataforma de áudio favorita Spotify
+
+1487
+01:10:17,359 --> 01:10:23,719
+Apple Podcasts Ancor ou outras ou ainda
+
+1488
+01:10:21,158 --> 01:10:26,719
+no YouTube Nosso site é
+
+1489
+01:10:23,719 --> 01:10:26,719
+fronteirass.github.io
+
+1490
+01:10:27,039 --> 01:10:31,920
+IO Estamos também no Twitter e no
+
+1491
+01:10:29,719 --> 01:10:35,500
+Instagram como
+
+1492
+01:10:31,920 --> 01:10:38,640
+@fronteirases Yes
+
+1493
+01:10:35,500 --> 01:10:38,640
+[Música]

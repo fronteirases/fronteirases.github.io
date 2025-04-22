@@ -1,0 +1,5591 @@
+1
+00:00:05,639 --> 00:00:09,879
+Olá eu sou Adolfo Neto professor da
+
+2
+00:00:08,000 --> 00:00:12,000
+UTFPR Curitiba e do programa de
+
+3
+00:00:09,880 --> 00:00:14,559
+pós-graduação e computação aplicada
+
+4
+00:00:12,000 --> 00:00:16,759
+ppgca Estou aqui com a cost co
+
+5
+00:00:14,558 --> 00:00:18,480
+apresentadora do podcast Fronteiras da
+
+6
+00:00:16,760 --> 00:00:21,039
+engenharia de software Maria Cláudia
+
+7
+00:00:18,480 --> 00:00:23,079
+Emer que também é aqui da UTFPR Curitiba
+
+8
+00:00:21,039 --> 00:00:26,039
+do ppgca Tudo bem Maria
+
+9
+00:00:23,079 --> 00:00:28,959
+Cláudia tudo bem pronta para mais uma
+
+10
+00:00:26,039 --> 00:00:32,800
+conversa muito interessante né com
+
+11
+00:00:28,960 --> 00:00:36,600
+alguém que trabalha com engenharia de
+
+12
+00:00:32,799 --> 00:00:38,199
+software na academia é e até mais do que
+
+13
+00:00:36,600 --> 00:00:40,280
+engenharia de software como a gente vai
+
+14
+00:00:38,200 --> 00:00:43,320
+ver daqui a pouco então hoje a gente vai
+
+15
+00:00:40,280 --> 00:00:45,359
+entrevistar a professora Taí Batista
+
+16
+00:00:43,320 --> 00:00:48,558
+professora titular do departamento de
+
+17
+00:00:45,359 --> 00:00:50,359
+informática e matemática aplicada de Map
+
+18
+00:00:48,558 --> 00:00:53,039
+da Universidade Federal do Rio Grande do
+
+19
+00:00:50,359 --> 00:00:55,079
+Norte Eu já estive lá muitos anos atrás
+
+20
+00:00:53,039 --> 00:00:57,520
+quando eu era um aluno de graduação
+
+21
+00:00:55,079 --> 00:00:59,439
+ainda na na Universidade Federal de
+
+22
+00:00:57,520 --> 00:01:01,719
+Alagoas a gente pegou um ônibus da
+
+23
+00:00:59,439 --> 00:01:03,718
+universid idade e foi lá para um para um
+
+24
+00:01:01,719 --> 00:01:05,000
+evento né uma semana acadêmica muito
+
+25
+00:01:03,719 --> 00:01:07,000
+legal eu lembro que eu conheci lá o
+
+26
+00:01:05,000 --> 00:01:09,118
+Professor Valdemar cessar que até hoje é
+
+27
+00:01:07,000 --> 00:01:12,200
+é meu amigo professor aposentado lá da
+
+28
+00:01:09,118 --> 00:01:14,759
+USP e a professora thí atualmente é
+
+29
+00:01:12,200 --> 00:01:17,200
+presidente da Sociedade Brasileira de
+
+30
+00:01:14,759 --> 00:01:19,560
+Computação é também bolsista de
+
+31
+00:01:17,200 --> 00:01:22,240
+produtividade em pesquisa do CNPQ nível
+
+32
+00:01:19,560 --> 00:01:24,359
+1C é autora de livros na área de
+
+33
+00:01:22,239 --> 00:01:26,959
+arquitetura de software e de midware
+
+34
+00:01:24,359 --> 00:01:29,200
+para internet das coisas entre várias
+
+35
+00:01:26,959 --> 00:01:31,559
+outras coisas né a gente nós somos
+
+36
+00:01:29,200 --> 00:01:33,840
+professor a gente faz várias coisas ao
+
+37
+00:01:31,560 --> 00:01:35,240
+mesmo tempo atua no programa de
+
+38
+00:01:33,840 --> 00:01:39,399
+pós--graduação
+
+39
+00:01:35,239 --> 00:01:42,239
+em Sistemas de computação e que é o que
+
+40
+00:01:39,399 --> 00:01:45,040
+tem mestrado e doutorado ppgsc né a
+
+41
+00:01:42,239 --> 00:01:46,560
+sigla que tem mestrado e doutorado aí na
+
+42
+00:01:45,040 --> 00:01:49,040
+Universidade Federal do Rio Grande do
+
+43
+00:01:46,560 --> 00:01:51,719
+Norte em Natal que é um lugar onde
+
+44
+00:01:49,040 --> 00:01:54,640
+também atua um um entrevistado nosso já
+
+45
+00:01:51,718 --> 00:01:58,839
+do antigo do do episódio seis Professor
+
+46
+00:01:54,640 --> 00:02:02,079
+Uirá Uirá culea foi em outubro de 2020
+
+47
+00:01:58,840 --> 00:02:04,439
+então eh É sempre um prazer receber
+
+48
+00:02:02,078 --> 00:02:06,879
+professores e professoras aqui então
+
+49
+00:02:04,438 --> 00:02:09,560
+muito obrigado professora thí tudo bem
+
+50
+00:02:06,879 --> 00:02:12,239
+Você tem algo a complementar nessa sua
+
+51
+00:02:09,560 --> 00:02:15,439
+apresentação Bom dia Adolfo Maria
+
+52
+00:02:12,239 --> 00:02:17,719
+Cláudia e todos que estão nos ouvindo eu
+
+53
+00:02:15,439 --> 00:02:18,959
+queria agradecer muito pelo convite por
+
+54
+00:02:17,719 --> 00:02:22,239
+estar aqui
+
+55
+00:02:18,959 --> 00:02:24,159
+eh também por me apresentar e gostaria
+
+56
+00:02:22,239 --> 00:02:26,000
+só de complementar trazendo um pouco do
+
+57
+00:02:24,159 --> 00:02:27,359
+meu histórico de trabalho no contexto de
+
+58
+00:02:26,000 --> 00:02:30,878
+engenharia de software para cidades
+
+59
+00:02:27,360 --> 00:02:34,280
+inteligentes né em 2015 eh o Instituto
+
+60
+00:02:30,878 --> 00:02:37,159
+Metrópole Digital da UFRN onde eu também
+
+61
+00:02:34,280 --> 00:02:39,560
+atuo ele iniciou um projeto chamado
+
+62
+00:02:37,159 --> 00:02:41,439
+Smart Metrópolis com objetivo de
+
+63
+00:02:39,560 --> 00:02:44,360
+desenvolver plataformas e aplicações
+
+64
+00:02:41,439 --> 00:02:46,598
+para cidades inteligentes E eu atuo
+
+65
+00:02:44,360 --> 00:02:51,280
+então nesse projeto junto com vários
+
+66
+00:02:46,598 --> 00:02:54,238
+outros colegas eh da UFRN E desde então
+
+67
+00:02:51,280 --> 00:02:56,560
+a gente tem eh levado à frente essa
+
+68
+00:02:54,239 --> 00:02:58,759
+iniciativa contribuindo então para o
+
+69
+00:02:56,560 --> 00:03:01,719
+desenvolvimento de cidades
+
+70
+00:02:58,759 --> 00:03:03,719
+inteligentes muito bom a gente tem um
+
+71
+00:03:01,719 --> 00:03:05,280
+grupo bom também aqui em Curitiba que
+
+72
+00:03:03,719 --> 00:03:07,919
+trabalha com cidades inteligentes
+
+73
+00:03:05,280 --> 00:03:10,080
+inclusive o pessoal do ppgca professor
+
+74
+00:03:07,919 --> 00:03:11,839
+Lu Celso professora Nádia também de
+
+75
+00:03:10,080 --> 00:03:15,400
+outro programa nosso aqui professora
+
+76
+00:03:11,840 --> 00:03:16,959
+Keiko enfim e e Curitiba é geralmente é
+
+77
+00:03:15,400 --> 00:03:19,200
+tidda como Ah uma das cidades mais
+
+78
+00:03:16,959 --> 00:03:21,878
+inteligentes do mundo né ganha esses
+
+79
+00:03:19,199 --> 00:03:24,798
+prêmios eu realmente não sei exatamente
+
+80
+00:03:21,878 --> 00:03:27,000
+o que isso significa em termos práticos
+
+81
+00:03:24,799 --> 00:03:28,400
+né então vamos já que hoje a gente vai
+
+82
+00:03:27,000 --> 00:03:30,438
+falar um pouco sobre engenheria de
+
+83
+00:03:28,400 --> 00:03:32,640
+software para cidades intelig você pode
+
+84
+00:03:30,438 --> 00:03:36,079
+começar explicando pros nossos e nossas
+
+85
+00:03:32,639 --> 00:03:38,679
+ouvintes O que significa o termo cidades
+
+86
+00:03:36,080 --> 00:03:40,480
+inteligentes sim cidades inteligentes
+
+87
+00:03:38,680 --> 00:03:43,239
+são as cidades que elas usam a
+
+88
+00:03:40,479 --> 00:03:46,399
+tecnologia de uma forma estratégica para
+
+89
+00:03:43,239 --> 00:03:48,878
+fortalecer eh os serviços né que são
+
+90
+00:03:46,400 --> 00:03:51,438
+fornecidos pelos cidadãos melhorando a
+
+91
+00:03:48,878 --> 00:03:53,399
+qualidade de vida dos cidadãos e se
+
+92
+00:03:51,438 --> 00:03:55,519
+envolve a melhoria de infraestrutura de
+
+93
+00:03:53,400 --> 00:04:00,120
+uso de recursos naturais de forma
+
+94
+00:03:55,519 --> 00:04:03,360
+sustentável e beneficia a economia local
+
+95
+00:04:00,120 --> 00:04:05,799
+né então vários serviços como transporte
+
+96
+00:04:03,360 --> 00:04:08,720
+inteligente governança digital sistema
+
+97
+00:04:05,799 --> 00:04:10,719
+de segurança inteligente etc n são focos
+
+98
+00:04:08,719 --> 00:04:13,280
+das cidades inteligentes né coleta de
+
+99
+00:04:10,719 --> 00:04:16,279
+lixo inteligente também e contribui
+
+100
+00:04:13,280 --> 00:04:18,519
+então pela melhoria da para melhoria da
+
+101
+00:04:16,279 --> 00:04:22,279
+qualidade de vida dos cidadãos para
+
+102
+00:04:18,519 --> 00:04:22,280
+melhoria de toda a infraestrutura da
+
+103
+00:04:23,160 --> 00:04:30,000
+cidade E aí nós também queremos falar um
+
+104
+00:04:27,360 --> 00:04:32,520
+pouco a respeito de desafios da engen de
+
+105
+00:04:30,000 --> 00:04:35,000
+software para cidades inteligentes né
+
+106
+00:04:32,519 --> 00:04:37,680
+como entra aí a engenharia de software
+
+107
+00:04:35,000 --> 00:04:39,680
+nesse caso Pois é esse contexto de
+
+108
+00:04:37,680 --> 00:04:42,199
+cidades inteligentes como vocês viram é
+
+109
+00:04:39,680 --> 00:04:43,800
+bastante amplo e muito desafiador então
+
+110
+00:04:42,199 --> 00:04:46,360
+falando em termos de engenharia de
+
+111
+00:04:43,800 --> 00:04:48,079
+software os desafios são inúmeros né
+
+112
+00:04:46,360 --> 00:04:49,840
+então o desenvolvimento da Cid de
+
+113
+00:04:48,079 --> 00:04:52,879
+cidades inteligentes ele envolve um
+
+114
+00:04:49,839 --> 00:04:55,359
+cenário tecnológico bem diversificado em
+
+115
+00:04:52,879 --> 00:04:58,279
+geral a gente define esse cenário eh
+
+116
+00:04:55,360 --> 00:05:01,199
+tecnológico né Eh em um modelo de quatro
+
+117
+00:04:58,279 --> 00:05:03,559
+camadas onde a a camada mais baixa é a
+
+118
+00:05:01,199 --> 00:05:05,720
+camada que tem os sensores atuadores e
+
+119
+00:05:03,560 --> 00:05:07,959
+demais elementos de hardware que fazem
+
+120
+00:05:05,720 --> 00:05:10,000
+parte do contexto da cidade né esses
+
+121
+00:05:07,959 --> 00:05:12,638
+sensores e atuadores eles estão todo o
+
+122
+00:05:10,000 --> 00:05:15,519
+tempo eh fornecendo informações
+
+123
+00:05:12,639 --> 00:05:17,360
+recebendo também comandos para poder
+
+124
+00:05:15,519 --> 00:05:20,399
+agir para melhorar um determinado
+
+125
+00:05:17,360 --> 00:05:22,439
+recurso então em um outro nível estão as
+
+126
+00:05:20,399 --> 00:05:24,959
+tecnologias de redes de computadores né
+
+127
+00:05:22,439 --> 00:05:27,800
+que interligam esses elementos esses
+
+128
+00:05:24,959 --> 00:05:30,560
+elementos físicos no terceiro nível
+
+129
+00:05:27,800 --> 00:05:32,400
+estão as plataformas de midor as
+
+130
+00:05:30,560 --> 00:05:34,800
+plataformas de midor elas facilitam o
+
+131
+00:05:32,399 --> 00:05:37,399
+desenvolvimento e a operação do dos dos
+
+132
+00:05:34,800 --> 00:05:40,319
+sistemas né que fazem parte da cidade
+
+133
+00:05:37,399 --> 00:05:43,038
+inteligente e no mais alto nível estão
+
+134
+00:05:40,319 --> 00:05:45,639
+efetivamente as aplicações então em
+
+135
+00:05:43,038 --> 00:05:47,478
+todas as camadas dessas quatro camadas a
+
+136
+00:05:45,639 --> 00:05:49,000
+gente tem vários desafios de engenharia
+
+137
+00:05:47,478 --> 00:05:50,879
+de software então desde o nível mais
+
+138
+00:05:49,000 --> 00:05:53,000
+baixo onde temos o desafio de
+
+139
+00:05:50,879 --> 00:05:55,519
+interoperabilidade entre os dispositivos
+
+140
+00:05:53,000 --> 00:05:58,079
+físicos que são heterogêneos né E que
+
+141
+00:05:55,519 --> 00:06:00,240
+precisam eh enviar dados para as
+
+142
+00:05:58,079 --> 00:06:02,279
+aplicações receber como comandos também
+
+143
+00:06:00,240 --> 00:06:04,840
+das aplicações e essa questão da
+
+144
+00:06:02,279 --> 00:06:07,000
+heterogeneidade ela precisa se tornar
+
+145
+00:06:04,839 --> 00:06:09,198
+transparente para as aplicações Então
+
+146
+00:06:07,000 --> 00:06:11,399
+temos vários desafios em termos de
+
+147
+00:06:09,199 --> 00:06:13,319
+construir software que permitam essa
+
+148
+00:06:11,399 --> 00:06:16,079
+interoperabilidade certo na parte de
+
+149
+00:06:13,319 --> 00:06:17,960
+midro Aí temos toda complexidade de
+
+150
+00:06:16,079 --> 00:06:20,519
+arquitetar desenvolver testar e
+
+151
+00:06:17,959 --> 00:06:22,038
+implantar os serviços de midro né esses
+
+152
+00:06:20,519 --> 00:06:24,799
+serviços de midro são os mais
+
+153
+00:06:22,038 --> 00:06:27,279
+diversificados possíveis que vão desde
+
+154
+00:06:24,800 --> 00:06:28,960
+serviços né para receber essa grande
+
+155
+00:06:27,279 --> 00:06:32,119
+quantidade de dados que trafega no
+
+156
+00:06:28,959 --> 00:06:34,638
+contexto uma cidade inteligente né Eh
+
+157
+00:06:32,120 --> 00:06:36,439
+gerenciar esses dados armazenar etc
+
+158
+00:06:34,639 --> 00:06:39,000
+questão de segurança que é muito
+
+159
+00:06:36,439 --> 00:06:41,038
+importante e vários outros aspectos que
+
+160
+00:06:39,000 --> 00:06:43,000
+estão ligados justamente numa camada de
+
+161
+00:06:41,038 --> 00:06:46,159
+infraestrutura que caracteriza a camada
+
+162
+00:06:43,000 --> 00:06:48,319
+de midra que precisa de todas as etapas
+
+163
+00:06:46,160 --> 00:06:51,160
+da engenharia de software realmente para
+
+164
+00:06:48,319 --> 00:06:54,039
+ser desenvolvido e para operar Então
+
+165
+00:06:51,160 --> 00:06:57,160
+temos desafios assim imensos né nesse
+
+166
+00:06:54,038 --> 00:06:59,639
+cenário na parte das aplicações também
+
+167
+00:06:57,160 --> 00:07:01,360
+uma outra série de desafios um um dos
+
+168
+00:06:59,639 --> 00:07:04,120
+grandes desafios nessa parte das
+
+169
+00:07:01,360 --> 00:07:06,319
+aplicações é o fato de que as aplicações
+
+170
+00:07:04,120 --> 00:07:08,399
+para as cidades inteligentes são muito
+
+171
+00:07:06,319 --> 00:07:11,319
+comumente desenvolvidas de uma maneira
+
+172
+00:07:08,399 --> 00:07:14,598
+separada desconectada né os chamados
+
+173
+00:07:11,319 --> 00:07:17,160
+Silos né então esses Silos desconectados
+
+174
+00:07:14,598 --> 00:07:20,199
+eles realmente eh eh
+
+175
+00:07:17,160 --> 00:07:22,280
+dificultam completamente eh a ideia de
+
+176
+00:07:20,199 --> 00:07:24,000
+concretização de cidades inteligentes
+
+177
+00:07:22,279 --> 00:07:26,239
+porque as cidades inteligentes usa a
+
+178
+00:07:24,000 --> 00:07:28,680
+tecnologia para prover serviços né como
+
+179
+00:07:26,240 --> 00:07:31,038
+eu já falei anteriormente mas as
+
+180
+00:07:28,680 --> 00:07:33,160
+aplicações elas precisam estar
+
+181
+00:07:31,038 --> 00:07:35,318
+conectadas umas com as outras para que
+
+182
+00:07:33,160 --> 00:07:38,160
+os dados de uma aplicação elas possam
+
+183
+00:07:35,319 --> 00:07:40,598
+ser usados de outra em outra aplicação e
+
+184
+00:07:38,160 --> 00:07:43,400
+eles cooperarem para efetivamente
+
+185
+00:07:40,598 --> 00:07:47,079
+realizar a ideia de cidade inteligente
+
+186
+00:07:43,399 --> 00:07:49,359
+então Nesse contexto a gente tem uma
+
+187
+00:07:47,079 --> 00:07:51,719
+assim todos os desafios ligados a todas
+
+188
+00:07:49,360 --> 00:07:54,080
+as etapas do ciclo de vida do software
+
+189
+00:07:51,720 --> 00:07:56,800
+Né desde a parte de requisitos que
+
+190
+00:07:54,079 --> 00:07:59,878
+precisa ser levantada de uma forma bem
+
+191
+00:07:56,800 --> 00:08:03,680
+apropriada considerando todo o contexto
+
+192
+00:07:59,879 --> 00:08:06,280
+aí da das aplicações que vão rodar na
+
+193
+00:08:03,680 --> 00:08:09,759
+cidades inteligentes depois requisitos
+
+194
+00:08:06,279 --> 00:08:13,559
+arquitetar né Fazer o projeto também
+
+195
+00:08:09,759 --> 00:08:15,879
+dessa do software né que vai perpassar
+
+196
+00:08:13,560 --> 00:08:18,519
+eh todas as
+
+197
+00:08:15,879 --> 00:08:21,680
+aplicações e que vai dar suporte paraa
+
+198
+00:08:18,519 --> 00:08:24,478
+operação delas também depois implementar
+
+199
+00:08:21,680 --> 00:08:26,840
+depois testar né e depois evoluir né o
+
+200
+00:08:24,478 --> 00:08:29,279
+processo os softwares hoje em dia eles
+
+201
+00:08:26,839 --> 00:08:32,639
+têm uma demanda muito grande de uma
+
+202
+00:08:29,279 --> 00:08:35,519
+evolução permanente então em cidades
+
+203
+00:08:32,639 --> 00:08:37,639
+inteligentes né todos os a a as etapas
+
+204
+00:08:35,519 --> 00:08:38,599
+do ciclo de vida de software elas
+
+205
+00:08:37,639 --> 00:08:40,759
+precisam
+
+206
+00:08:38,599 --> 00:08:44,519
+eh ser
+
+207
+00:08:40,759 --> 00:08:47,159
+revisitadas justamente para que se possa
+
+208
+00:08:44,519 --> 00:08:49,679
+considerar todos os aspectos que
+
+209
+00:08:47,159 --> 00:08:52,079
+caracterizam essas aplicações de cidades
+
+210
+00:08:49,679 --> 00:08:54,399
+inteligentes e tratar esses aspectos
+
+211
+00:08:52,080 --> 00:08:57,120
+desde as fases iniciais do processo de
+
+212
+00:08:54,399 --> 00:08:59,480
+desenvolvimento né contexto de cidades
+
+213
+00:08:57,120 --> 00:09:01,879
+inteligentes é um contexto extremamente
+
+214
+00:08:59,480 --> 00:09:04,278
+dinâmico é um contexto que tem um número
+
+215
+00:09:01,879 --> 00:09:05,600
+muito grande de usuários certo é um
+
+216
+00:09:04,278 --> 00:09:08,320
+contexto onde a gente tem uma
+
+217
+00:09:05,600 --> 00:09:10,680
+diversidade de aplicações com dados
+
+218
+00:09:08,320 --> 00:09:13,320
+provenientes de diversas Fontes desde os
+
+219
+00:09:10,679 --> 00:09:15,838
+dispositivos físicos até os próprios eh
+
+220
+00:09:13,320 --> 00:09:19,040
+eh cidadãos que usam por exemplo
+
+221
+00:09:15,839 --> 00:09:20,920
+sistemas web e os dados que estão nesses
+
+222
+00:09:19,039 --> 00:09:22,799
+sistemas precisam ser considerados
+
+223
+00:09:20,919 --> 00:09:25,240
+também porque a cidade inteligente ela
+
+224
+00:09:22,799 --> 00:09:27,199
+forma um ecossistema e esse ecossistema
+
+225
+00:09:25,240 --> 00:09:29,440
+ele tem de estar sinergicamente
+
+226
+00:09:27,200 --> 00:09:32,120
+integrado certo se não houver essa
+
+227
+00:09:29,440 --> 00:09:34,680
+sinergia você vai ter os chamados Silos
+
+228
+00:09:32,120 --> 00:09:36,560
+isolados Independentes que vão
+
+229
+00:09:34,679 --> 00:09:39,559
+efetivamente est ajudando as cidades
+
+230
+00:09:36,559 --> 00:09:42,679
+inteligentes mas não eh de uma forma
+
+231
+00:09:39,559 --> 00:09:46,439
+Ampla onde todas as aplicações cooperam
+
+232
+00:09:42,679 --> 00:09:48,958
+e se consegue se dar o melhor né da da
+
+233
+00:09:46,440 --> 00:09:50,600
+do conjunto de informações que trafegam
+
+234
+00:09:48,958 --> 00:09:53,159
+no contexto de uma cidade então a
+
+235
+00:09:50,600 --> 00:09:56,800
+engenharia de software ela é altamente
+
+236
+00:09:53,159 --> 00:09:59,519
+eh desafiada né para esse contexto que é
+
+237
+00:09:56,799 --> 00:10:03,519
+um contexto que tem essas uma uma gama
+
+238
+00:09:59,519 --> 00:10:05,200
+de especificidades eh muito eh é
+
+239
+00:10:03,519 --> 00:10:08,360
+ampliada
+
+240
+00:10:05,200 --> 00:10:10,360
+né exatamente Então são muitos desafios
+
+241
+00:10:08,360 --> 00:10:12,720
+agora a gente vai entrar em algumas
+
+242
+00:10:10,360 --> 00:10:15,278
+algumas questões específicas que você e
+
+243
+00:10:12,720 --> 00:10:17,200
+seus colaboradores enfrentaram né falar
+
+244
+00:10:15,278 --> 00:10:19,439
+especificamente de alguns artigos então
+
+245
+00:10:17,200 --> 00:10:21,959
+um artigo que vocês seus co-autores
+
+246
+00:10:19,440 --> 00:10:24,440
+publicaram foi eh esse a gente sempre
+
+247
+00:10:21,958 --> 00:10:27,039
+fala que o título em português mas na na
+
+248
+00:10:24,440 --> 00:10:29,880
+descrição do episódio Você acha o o o o
+
+249
+00:10:27,039 --> 00:10:32,078
+link para o artigo em inglês né o nome
+
+250
+00:10:29,879 --> 00:10:34,000
+do artigo é uma plataforma para integrar
+
+251
+00:10:32,078 --> 00:10:36,039
+dados heterogêneos e desenvolver
+
+252
+00:10:34,000 --> 00:10:38,480
+aplicações para cidades inteligentes foi
+
+253
+00:10:36,039 --> 00:10:41,679
+publicado na Future Generation computer
+
+254
+00:10:38,480 --> 00:10:46,200
+Systems em 2022 neste artigo vocês
+
+255
+00:10:41,679 --> 00:10:47,719
+apresentaram o Smart geolayers sgol uma
+
+256
+00:10:46,200 --> 00:10:50,320
+plataforma para desenvolvimento de
+
+257
+00:10:47,720 --> 00:10:52,800
+aplicativos para cidades inteligentes O
+
+258
+00:10:50,320 --> 00:10:55,120
+que é essa sgol e quais são os
+
+259
+00:10:52,799 --> 00:10:56,919
+principais resultados desse trabalho
+
+260
+00:10:55,120 --> 00:11:01,200
+uhum bom
+
+261
+00:10:56,919 --> 00:11:03,439
+eh a plataforma sgel né Smart geleiras
+
+262
+00:11:01,200 --> 00:11:05,600
+como você falou é uma plataforma de
+
+263
+00:11:03,440 --> 00:11:07,360
+mider que ela foi desenvolvida no
+
+264
+00:11:05,600 --> 00:11:10,120
+contexto desse projeto que a gente
+
+265
+00:11:07,360 --> 00:11:12,600
+participa o projeto Smart Metrópolis
+
+266
+00:11:10,120 --> 00:11:14,399
+para facilitar o desenvolvimento e e
+
+267
+00:11:12,600 --> 00:11:16,879
+operação de aplicações para cidades
+
+268
+00:11:14,399 --> 00:11:19,039
+inteligentes né como eu falei eh o
+
+269
+00:11:16,879 --> 00:11:21,200
+contexto de estados inteligên ele tem um
+
+270
+00:11:19,039 --> 00:11:24,319
+conjunto de requisitos muito amplo então
+
+271
+00:11:21,200 --> 00:11:27,639
+quando começamos o projeto levantamos na
+
+272
+00:11:24,320 --> 00:11:29,600
+literatura todos os requisitos eh que
+
+273
+00:11:27,639 --> 00:11:30,919
+caracterizam esse exício das
+
+274
+00:11:29,600 --> 00:11:33,839
+inteligências e a partir desses
+
+275
+00:11:30,919 --> 00:11:36,278
+requisitos nós fomos investigar quais
+
+276
+00:11:33,839 --> 00:11:38,560
+eram as plataformas existentes que davam
+
+277
+00:11:36,278 --> 00:11:40,879
+suporte a esses requisitos e
+
+278
+00:11:38,559 --> 00:11:44,239
+investigamos várias plataformas né
+
+279
+00:11:40,879 --> 00:11:47,278
+disponíveis no mundo inteiro e essas
+
+280
+00:11:44,240 --> 00:11:49,959
+plataformas nenhuma delas ela atendia
+
+281
+00:11:47,278 --> 00:11:51,679
+completamente a todos os requisitos
+
+282
+00:11:49,958 --> 00:11:54,479
+então chegamos à conclusão que
+
+283
+00:11:51,679 --> 00:11:56,199
+precisávamos desenvolver uma plataforma
+
+284
+00:11:54,480 --> 00:11:59,920
+que atendesse a esses requisitos mas
+
+285
+00:11:56,200 --> 00:12:02,278
+também eh desejávamos a aproveitar o que
+
+286
+00:11:59,919 --> 00:12:04,199
+já era feito né no mundo inteiro a gente
+
+287
+00:12:02,278 --> 00:12:08,559
+não queria Reinventar a roda então com
+
+288
+00:12:04,200 --> 00:12:11,160
+essa ideia de aproveitar nós eh
+
+289
+00:12:08,559 --> 00:12:13,799
+verificamos nesse estudo sistemático que
+
+290
+00:12:11,159 --> 00:12:15,719
+realizamos que a plataforma Fire que é
+
+291
+00:12:13,799 --> 00:12:18,599
+uma plataforma que foi desenvolvida no
+
+292
+00:12:15,720 --> 00:12:21,600
+contexto de um projeto financiado pela
+
+293
+00:12:18,600 --> 00:12:25,199
+Comunidade Europeia ela era a plataforma
+
+294
+00:12:21,600 --> 00:12:27,159
+que mais atendia esses requisitos então
+
+295
+00:12:25,198 --> 00:12:30,639
+começamos a usar a plataforma
+
+296
+00:12:27,159 --> 00:12:32,838
+Fire e também Vimos que eh a instalação
+
+297
+00:12:30,639 --> 00:12:35,959
+o uso etc da plataforma tinha várias
+
+298
+00:12:32,839 --> 00:12:38,399
+complexidades associadas E aí surgiu a
+
+299
+00:12:35,958 --> 00:12:41,078
+ideia de que a gente deveria desenvolver
+
+300
+00:12:38,399 --> 00:12:44,320
+uma plataforma de midor Aproveitando os
+
+301
+00:12:41,078 --> 00:12:47,759
+componentes da plataforma Fire né e
+
+302
+00:12:44,320 --> 00:12:51,480
+eh fazendo melhorias nesses componentes
+
+303
+00:12:47,759 --> 00:12:53,480
+e também fazendo com que o uso eh e a
+
+304
+00:12:51,480 --> 00:12:56,639
+operação desses componentes fosse
+
+305
+00:12:53,480 --> 00:12:58,879
+facilitado né também incluímos algumas
+
+306
+00:12:56,639 --> 00:13:02,079
+outras coisas que a plataforma Fire
+
+307
+00:12:58,879 --> 00:13:04,958
+Originalmente não tinha então o SG
+
+308
+00:13:02,078 --> 00:13:07,039
+surgiu dessa maneira né de de uma
+
+309
+00:13:04,958 --> 00:13:09,559
+constatação de que não tínhamos uma
+
+310
+00:13:07,039 --> 00:13:11,639
+plataforma que fosse suficientemente
+
+311
+00:13:09,559 --> 00:13:15,399
+ampla para atender todos os requisitos
+
+312
+00:13:11,639 --> 00:13:18,120
+nem que eh Fosse Fácil de usar né E aí
+
+313
+00:13:15,399 --> 00:13:20,120
+também eh com as demandas Que nós
+
+314
+00:13:18,120 --> 00:13:22,039
+tínhamos das aplicações de cidades
+
+315
+00:13:20,120 --> 00:13:24,560
+inteligentes que começamos a desenvolver
+
+316
+00:13:22,039 --> 00:13:27,278
+no início do projeto nós verificamos as
+
+317
+00:13:24,559 --> 00:13:29,719
+limitações do fire né quanto aos
+
+318
+00:13:27,278 --> 00:13:31,879
+requisitos dessas apli ações então aí
+
+319
+00:13:29,720 --> 00:13:35,839
+surgiu a ideia de desenvolver uma nova
+
+320
+00:13:31,879 --> 00:13:39,480
+plataforma que é o sgel então o sgel ele
+
+321
+00:13:35,839 --> 00:13:41,320
+eh fornece uma gama de componentes né
+
+322
+00:13:39,480 --> 00:13:44,240
+que provém serviços
+
+323
+00:13:41,320 --> 00:13:45,879
+variados para as funcionalidades que são
+
+324
+00:13:44,240 --> 00:13:47,799
+necessárias para o desenvolvimento de
+
+325
+00:13:45,879 --> 00:13:49,278
+aplicações de cidades inteligentes tais
+
+326
+00:13:47,799 --> 00:13:51,240
+como gerenciamento de informações
+
+327
+00:13:49,278 --> 00:13:53,600
+heterogêneas que são provenientes de
+
+328
+00:13:51,240 --> 00:13:56,000
+várias Fontes né sejam sistemas de
+
+329
+00:13:53,600 --> 00:13:59,000
+gestão seja dispositivos de internet das
+
+330
+00:13:56,000 --> 00:14:01,198
+coisas né sejam eh sistemas web por
+
+331
+00:13:59,000 --> 00:14:03,320
+exemplo também a parte de segurança
+
+332
+00:14:01,198 --> 00:14:06,120
+autenticação e autorização para proteger
+
+333
+00:14:03,320 --> 00:14:07,879
+o acesso às informações também dá
+
+334
+00:14:06,120 --> 00:14:09,879
+suporte uma coisa muito importante que é
+
+335
+00:14:07,879 --> 00:14:12,159
+dar suporte a consultas baseadas em
+
+336
+00:14:09,879 --> 00:14:14,799
+processamento geográfico então a
+
+337
+00:14:12,159 --> 00:14:17,078
+plataforma é uma plataforma que ela é
+
+338
+00:14:14,799 --> 00:14:19,679
+baseada nas informações geográficas que
+
+339
+00:14:17,078 --> 00:14:22,278
+caracterizam a cidade né E todas as
+
+340
+00:14:19,679 --> 00:14:25,879
+informações de domínio específicos tipo
+
+341
+00:14:22,278 --> 00:14:28,720
+saúde segurança educação etc elas são
+
+342
+00:14:25,879 --> 00:14:31,039
+colocadas em camadas que estão sobre
+
+343
+00:14:28,720 --> 00:14:33,399
+osta sobre essa camada que a gente chama
+
+344
+00:14:31,039 --> 00:14:35,559
+de camada básica a camada geográfica
+
+345
+00:14:33,399 --> 00:14:38,399
+permitindo então consultas baseadas em
+
+346
+00:14:35,559 --> 00:14:40,159
+processamento geográficos e consultas
+
+347
+00:14:38,399 --> 00:14:43,240
+semânticas gerenciamento de dados
+
+348
+00:14:40,159 --> 00:14:45,639
+temporais eh processamento de eventos
+
+349
+00:14:43,240 --> 00:14:47,879
+complexos e serviço de integração de
+
+350
+00:14:45,639 --> 00:14:50,278
+dados né que é uma questão assim
+
+351
+00:14:47,879 --> 00:14:51,958
+primordial a gente no contexto de
+
+352
+00:14:50,278 --> 00:14:54,519
+cidades inteligentes a gente recebe
+
+353
+00:14:51,958 --> 00:14:56,399
+dados diversas Fontes que vem diferentes
+
+354
+00:14:54,519 --> 00:14:58,759
+formatos e a gente teve esse desafio
+
+355
+00:14:56,399 --> 00:15:00,600
+Logo no início do projeto onde a gente
+
+356
+00:14:58,759 --> 00:15:03,000
+se a gente precisa fazer um serviço de
+
+357
+00:15:00,600 --> 00:15:05,959
+integração de dados que permita fazer
+
+358
+00:15:03,000 --> 00:15:09,078
+leituras de diferentes fontes e colocar
+
+359
+00:15:05,958 --> 00:15:12,000
+esses dados e um formato padrão então o
+
+360
+00:15:09,078 --> 00:15:14,120
+SG é uma poderosa ferramenta de gestão e
+
+361
+00:15:12,000 --> 00:15:17,159
+visualização de informações urbanas e
+
+362
+00:15:14,120 --> 00:15:19,560
+geográficas eh atualmente ele vem sendo
+
+363
+00:15:17,159 --> 00:15:23,319
+utilizados em aplicações desenvolvidas
+
+364
+00:15:19,559 --> 00:15:24,879
+para secretarias né Eh municipais para o
+
+365
+00:15:23,320 --> 00:15:26,560
+Ministério Público do Rio Grande do
+
+366
+00:15:24,879 --> 00:15:29,120
+Norte para o ministério de
+
+367
+00:15:26,559 --> 00:15:33,119
+desenvolvimento Regional sec Aria da
+
+368
+00:15:29,120 --> 00:15:35,639
+educação enfim ela eh uma uma
+
+369
+00:15:33,120 --> 00:15:38,519
+característica importante é que ela
+
+370
+00:15:35,639 --> 00:15:41,000
+provê né um o que a gente chamou de
+
+371
+00:15:38,519 --> 00:15:43,919
+dashboard de desenvolvimento e dashboard
+
+372
+00:15:41,000 --> 00:15:45,839
+de visualização eh o dashboard de
+
+373
+00:15:43,919 --> 00:15:47,679
+desenvolvimento ela facilita o
+
+374
+00:15:45,839 --> 00:15:49,360
+desenvolvimento das aplicações de dados
+
+375
+00:15:47,679 --> 00:15:52,318
+inteligentes ele consegue dar
+
+376
+00:15:49,360 --> 00:15:56,480
+informações das aplicações que estão eh
+
+377
+00:15:52,318 --> 00:15:58,759
+executando Eh quantos qual eh dados
+
+378
+00:15:56,480 --> 00:16:00,519
+estão trafegando naquelas aplicações
+
+379
+00:15:58,759 --> 00:16:03,039
+então ele dá muitas informações
+
+380
+00:16:00,519 --> 00:16:04,639
+importantes para o desenvolvedor né
+
+381
+00:16:03,039 --> 00:16:07,879
+claro que com toda a segurança
+
+382
+00:16:04,639 --> 00:16:09,839
+necessária né Para que eh apenas os
+
+383
+00:16:07,879 --> 00:16:11,759
+desenvolvedores que são autorizados a
+
+384
+00:16:09,839 --> 00:16:15,279
+ver determinadas informações elas possam
+
+385
+00:16:11,759 --> 00:16:17,560
+eh ter acesso a elas e um o chamado
+
+386
+00:16:15,278 --> 00:16:21,240
+dashboard de visualização onde a gente
+
+387
+00:16:17,559 --> 00:16:24,479
+tem lá o mapa da cidade que eh o onde o
+
+388
+00:16:21,240 --> 00:16:27,759
+SG tá sendo usado eh e mostrando aí
+
+389
+00:16:24,480 --> 00:16:29,560
+todas as camadas de específicas de
+
+390
+00:16:27,759 --> 00:16:33,079
+domínio que estão disponíveis para
+
+391
+00:16:29,559 --> 00:16:35,838
+aquela cidade né também eh uma outra eh
+
+392
+00:16:33,078 --> 00:16:38,719
+digamos extensão da plataforma que foi
+
+393
+00:16:35,839 --> 00:16:41,680
+realizada até esse artigo que foi
+
+394
+00:16:38,720 --> 00:16:45,720
+publicado no fgcs Não contempla essa
+
+395
+00:16:41,679 --> 00:16:50,439
+extensão que foi eh incluir a parte de
+
+396
+00:16:45,720 --> 00:16:53,759
+eh cards relacionados com o bi né então
+
+397
+00:16:50,440 --> 00:16:58,720
+esses cards eles dão informações já
+
+398
+00:16:53,759 --> 00:17:01,199
+consolidadas né bem eh eh adequadas por
+
+399
+00:16:58,720 --> 00:17:03,399
+exemplo para o gestor tomar decisões
+
+400
+00:17:01,198 --> 00:17:05,519
+sobre a cidade então a plataforma ela é
+
+401
+00:17:03,399 --> 00:17:08,880
+uma plataforma bem Ampla tem sido
+
+402
+00:17:05,519 --> 00:17:13,519
+utilizada em uma gama bem diversificada
+
+403
+00:17:08,880 --> 00:17:16,839
+de cenários né E ela foi resultado de um
+
+404
+00:17:13,519 --> 00:17:19,519
+trabalho a várias mãos né então várias
+
+405
+00:17:16,838 --> 00:17:22,000
+teses de doutorado dissertações de
+
+406
+00:17:19,519 --> 00:17:25,359
+Mestrado foram desenvolvidas justamente
+
+407
+00:17:22,000 --> 00:17:27,720
+agregando funcionalidades ao SG então SG
+
+408
+00:17:25,359 --> 00:17:30,119
+é uma plataforma aí que tá disponível
+
+409
+00:17:27,720 --> 00:17:32,400
+para quem tem interesse de desenvolver
+
+410
+00:17:30,119 --> 00:17:39,119
+aplicações estades inteligentes possa
+
+411
+00:17:32,400 --> 00:17:39,120
+utilizar né e eh interações eh são muito
+
+412
+00:17:40,279 --> 00:17:46,960
+bem-vindas muito bem Taísa é algo que é
+
+413
+00:17:44,519 --> 00:17:49,879
+é bem importante né que a gente
+
+414
+00:17:46,960 --> 00:17:54,319
+desenvolva na academia e consiga
+
+415
+00:17:49,880 --> 00:17:57,200
+utilizar também no no mercado nos órgãos
+
+416
+00:17:54,319 --> 00:17:59,038
+públicos e vejo que vocês conseguiram
+
+417
+00:17:57,200 --> 00:18:02,200
+fazer isso
+
+418
+00:17:59,038 --> 00:18:03,319
+isso isso é um Desafio sempre eh
+
+419
+00:18:02,200 --> 00:18:06,360
+utilizar
+
+420
+00:18:03,319 --> 00:18:09,079
+eh quaisquer tipo de sistemas no
+
+421
+00:18:06,359 --> 00:18:12,319
+contexto né no cenário assim público
+
+422
+00:18:09,079 --> 00:18:15,279
+porque exige realmente um envolvimento
+
+423
+00:18:12,319 --> 00:18:17,240
+não é só a parte eh a nossa parte que é
+
+424
+00:18:15,279 --> 00:18:19,079
+a parte computacional que tá sendo
+
+425
+00:18:17,240 --> 00:18:21,480
+desenvolvida mas é necessário o
+
+426
+00:18:19,079 --> 00:18:23,720
+envolvimento de todo o ecossistema que
+
+427
+00:18:21,480 --> 00:18:26,679
+faz parte da cidade inteligente então
+
+428
+00:18:23,720 --> 00:18:31,558
+tanto a eh nesse ecossistema a gente
+
+429
+00:18:26,679 --> 00:18:35,798
+cita né o os entes federativos sejam
+
+430
+00:18:31,558 --> 00:18:38,279
+eh municipais estaduais né ou federais e
+
+431
+00:18:35,798 --> 00:18:41,119
+citamos também a necessidade do
+
+432
+00:18:38,279 --> 00:18:42,200
+envolvimento do cidadão né se o cidadão
+
+433
+00:18:41,119 --> 00:18:46,519
+ele não
+
+434
+00:18:42,200 --> 00:18:49,880
+eh usa né aquelas aqueles recursos que
+
+435
+00:18:46,519 --> 00:18:52,000
+são fornecidos pela plataforma de
+
+436
+00:18:49,880 --> 00:18:55,679
+cidades inteligentes a gente não tem
+
+437
+00:18:52,000 --> 00:18:58,880
+adoção do contexto da cidade e isso aí
+
+438
+00:18:55,679 --> 00:19:00,440
+dificulta realmente a concretização da
+
+439
+00:18:58,880 --> 00:19:01,840
+ideia de cidades inteligentes não
+
+440
+00:19:00,440 --> 00:19:04,240
+cidades inteligentes eu sempre falo que
+
+441
+00:19:01,839 --> 00:19:07,158
+é um ecossistema onde tem a parte da
+
+442
+00:19:04,240 --> 00:19:09,919
+Universidade que tá aqui trazendo todo o
+
+443
+00:19:07,159 --> 00:19:12,320
+seu conhecimento científico tecnológico
+
+444
+00:19:09,919 --> 00:19:14,320
+para permitir o desenvolvimento né
+
+445
+00:19:12,319 --> 00:19:17,359
+avançado das coisas mas a gente precisa
+
+446
+00:19:14,319 --> 00:19:19,480
+também o envolvimento de dos demais
+
+447
+00:19:17,359 --> 00:19:22,959
+entes que fazem parte das cidades né os
+
+448
+00:19:19,480 --> 00:19:22,960
+entes públicos privados e os
+
+449
+00:19:23,159 --> 00:19:30,919
+cidadãos certo e aí passando para outro
+
+450
+00:19:26,720 --> 00:19:33,558
+artigo que foi publicado em 20222 eh
+
+451
+00:19:30,919 --> 00:19:35,880
+rumo a uma arquitetura de microsserviços
+
+452
+00:19:33,558 --> 00:19:38,759
+multi inquilino uma experiência
+
+453
+00:19:35,880 --> 00:19:41,400
+Industrial ele foi publicado e
+
+454
+00:19:38,759 --> 00:19:45,400
+apresentado no compsac que é uma
+
+455
+00:19:41,400 --> 00:19:48,159
+conferência internacional da i3e eh
+
+456
+00:19:45,400 --> 00:19:52,200
+computer software and applications
+
+457
+00:19:48,159 --> 00:19:55,880
+applications conferênci e E aí a gente
+
+458
+00:19:52,200 --> 00:19:59,640
+quer que você fale um pouco a respeito
+
+459
+00:19:55,880 --> 00:20:03,440
+eh do que trata esse artigo né porque
+
+460
+00:19:59,640 --> 00:20:06,280
+você e seus coautores dizem que uma
+
+461
+00:20:03,440 --> 00:20:11,279
+decisão arquitetural crucial é
+
+462
+00:20:06,279 --> 00:20:14,079
+porque e onde a Multi inquinada deve ser
+
+463
+00:20:11,279 --> 00:20:16,359
+adotada em arquiteturas de
+
+464
+00:20:14,079 --> 00:20:18,720
+microsserviços o que este artigo
+
+465
+00:20:16,359 --> 00:20:22,439
+apresenta então e quais são os
+
+466
+00:20:18,720 --> 00:20:26,519
+resultados que vocês eh conseguiram
+
+467
+00:20:22,440 --> 00:20:28,880
+obter bom eh bom esse artigo foi
+
+468
+00:20:26,519 --> 00:20:30,558
+desenvolvido no contexto de uma
+
+469
+00:20:28,880 --> 00:20:33,720
+cooperação que a gente tem com uma
+
+470
+00:20:30,558 --> 00:20:37,599
+empresa né uma empresa da área fiscal no
+
+471
+00:20:33,720 --> 00:20:41,480
+Brasil que eh provê serviços né Eh
+
+472
+00:20:37,599 --> 00:20:44,678
+fiscais para várias outras empresas né
+
+473
+00:20:41,480 --> 00:20:47,440
+Eh do mercado Empresas Grandes que tem
+
+474
+00:20:44,679 --> 00:20:50,159
+uma quantidade de clientes muito grande
+
+475
+00:20:47,440 --> 00:20:54,000
+e no contexto dessa cooperação a gente
+
+476
+00:20:50,159 --> 00:20:57,400
+recebeu como desafio justamente eh
+
+477
+00:20:54,000 --> 00:21:00,558
+escalar permitir que a plataforma que
+
+478
+00:20:57,400 --> 00:21:02,960
+eles usam justamente para eh fazer o
+
+479
+00:21:00,558 --> 00:21:05,519
+cálculo dos tributos para cada uma das
+
+480
+00:21:02,960 --> 00:21:09,440
+empresas né que eles proveem serviços
+
+481
+00:21:05,519 --> 00:21:13,119
+que essa plataforma pudesse atender a um
+
+482
+00:21:09,440 --> 00:21:15,320
+número muito grande de clientes né e não
+
+483
+00:21:13,119 --> 00:21:17,759
+tivesse degradação de desempenho Então
+
+484
+00:21:15,319 --> 00:21:22,240
+ela pudesse escalar de uma forma
+
+485
+00:21:17,759 --> 00:21:26,000
+eh muito bem comportada E aí quando
+
+486
+00:21:22,240 --> 00:21:29,679
+começamos esse projeto eh identificamos
+
+487
+00:21:26,000 --> 00:21:32,839
+que ele usava uma arquitetura que era
+
+488
+00:21:29,679 --> 00:21:34,640
+digamos assim monolítica né E que a
+
+489
+00:21:32,839 --> 00:21:37,000
+gente precisava refatorar essa
+
+490
+00:21:34,640 --> 00:21:41,278
+arquitetura justamente refatorar em
+
+491
+00:21:37,000 --> 00:21:44,679
+alguns pontos onde eh a demanda né de
+
+492
+00:21:41,278 --> 00:21:48,000
+cliente chegava de uma maneira muito eh
+
+493
+00:21:44,679 --> 00:21:49,880
+rápida né ao mesmo tempo a gente tinha
+
+494
+00:21:48,000 --> 00:21:51,599
+vários clientes ao mesmo tempo e a gente
+
+495
+00:21:49,880 --> 00:21:54,679
+precisava fazer uma
+
+496
+00:21:51,599 --> 00:21:55,918
+refatoração para usar microsserviços e
+
+497
+00:21:54,679 --> 00:21:59,720
+aí a gente
+
+498
+00:21:55,919 --> 00:22:02,480
+eh aplicou algumas estratégias para
+
+499
+00:21:59,720 --> 00:22:05,360
+realizar a refatoração identificando
+
+500
+00:22:02,480 --> 00:22:07,200
+qual eram os pontos né da arquitetura
+
+501
+00:22:05,359 --> 00:22:11,839
+onde a gente tinha uma demanda muito
+
+502
+00:22:07,200 --> 00:22:14,600
+grande pelos serviços né e eh eh digamos
+
+503
+00:22:11,839 --> 00:22:16,918
+refatorando quebrando a arquitetura e
+
+504
+00:22:14,599 --> 00:22:19,359
+microsserviços em Pontos específicos né
+
+505
+00:22:16,919 --> 00:22:22,000
+porque microsserviços a gente sabe que
+
+506
+00:22:19,359 --> 00:22:23,839
+não é a bala de prata né a gente já viu
+
+507
+00:22:22,000 --> 00:22:26,240
+várias empresas migrarem para uma
+
+508
+00:22:23,839 --> 00:22:28,439
+arquitetura baseada em microsserviços e
+
+509
+00:22:26,240 --> 00:22:32,400
+depois de um tempo voltarem para uma
+
+510
+00:22:28,440 --> 00:22:34,038
+arquitetura mais monolítica então essa
+
+511
+00:22:32,400 --> 00:22:37,080
+questão de refatoração tinha de ser
+
+512
+00:22:34,038 --> 00:22:39,640
+feito com muito cuidado né identificamos
+
+513
+00:22:37,079 --> 00:22:41,918
+esses pontos e Nesse artigo a gente
+
+514
+00:22:39,640 --> 00:22:43,799
+justamente discute quais eram os pontos
+
+515
+00:22:41,919 --> 00:22:45,000
+qual era a arquitetura monolítica Qual
+
+516
+00:22:43,798 --> 00:22:47,319
+era os pontos dessa arquitetura
+
+517
+00:22:45,000 --> 00:22:50,480
+monolítica que tinha problemas que
+
+518
+00:22:47,319 --> 00:22:52,599
+gerava uma degradação de desempenho né
+
+519
+00:22:50,480 --> 00:22:56,240
+quando o número de usuários crescia
+
+520
+00:22:52,599 --> 00:22:58,079
+bastante e aí eh relatamos né Qual a
+
+521
+00:22:56,240 --> 00:23:00,400
+nova arquitetura baseada de
+
+522
+00:22:58,079 --> 00:23:03,678
+microsserviço não eram todos os serviços
+
+523
+00:23:00,400 --> 00:23:06,038
+que foram eh refatorado né apenas alguns
+
+524
+00:23:03,679 --> 00:23:08,360
+esses que tinham maior demanda e a gente
+
+525
+00:23:06,038 --> 00:23:11,158
+então mostrava como resultado depois a
+
+526
+00:23:08,359 --> 00:23:13,959
+gente fez um teste né fizemos eh eh
+
+527
+00:23:11,159 --> 00:23:16,720
+avaliações realmente bem detalhadas né
+
+528
+00:23:13,960 --> 00:23:19,440
+num contexto de produção real e
+
+529
+00:23:16,720 --> 00:23:20,919
+mostramos que a nova arquitetura ela
+
+530
+00:23:19,440 --> 00:23:23,080
+escalava muito melhor do que a
+
+531
+00:23:20,919 --> 00:23:28,000
+arquitetura anterior então esse artigo
+
+532
+00:23:23,079 --> 00:23:30,678
+ele eh relata toda essa nova arquitetura
+
+533
+00:23:28,000 --> 00:23:33,519
+essa refatoração né todos os os testes
+
+534
+00:23:30,679 --> 00:23:35,519
+que foram feitos também e a comparação
+
+535
+00:23:33,519 --> 00:23:37,798
+com os testes que foram feitos usando a
+
+536
+00:23:35,519 --> 00:23:41,000
+arquitetura original depois esse artigo
+
+537
+00:23:37,798 --> 00:23:45,400
+teve um um desdobramento um avanço
+
+538
+00:23:41,000 --> 00:23:49,038
+eh fazendo também refatoração de outros
+
+539
+00:23:45,400 --> 00:23:52,480
+pontos incluindo um suporte eh a
+
+540
+00:23:49,038 --> 00:23:55,119
+tratamento assíncrono eh deem carga de
+
+541
+00:23:52,480 --> 00:23:58,000
+trabalho muito alta também E aí
+
+542
+00:23:55,119 --> 00:24:03,199
+publicamos esse outro esse ano já em
+
+543
+00:23:58,000 --> 00:24:03,200
+2023 no no Journal software PR
+
+544
+00:24:03,359 --> 00:24:09,719
+Experience certo agora mais recentemente
+
+545
+00:24:07,278 --> 00:24:11,400
+lá no SBZ né simpósio brasileiro de
+
+546
+00:24:09,720 --> 00:24:13,079
+engenheiria de software na trilha de
+
+547
+00:24:11,400 --> 00:24:15,640
+ideias inovadoras e resultados
+
+548
+00:24:13,079 --> 00:24:18,839
+emergentes você e seus coautores
+
+549
+00:24:15,640 --> 00:24:21,360
+apresentaram um artigo chamado sobre um
+
+550
+00:24:18,839 --> 00:24:23,639
+sobre um metaprocesso para migração de
+
+551
+00:24:21,359 --> 00:24:25,599
+microsserviços neste artigo vocês
+
+552
+00:24:23,640 --> 00:24:28,320
+apresentaram o meta process for
+
+553
+00:24:25,599 --> 00:24:33,038
+Microsoft migration Kernel
+
+554
+00:24:28,319 --> 00:24:34,480
+M3 m3k Para apoiar apoiar a migração de
+
+555
+00:24:33,038 --> 00:24:36,440
+aplicativos monolíticos para
+
+556
+00:24:34,480 --> 00:24:38,798
+arquiteturas de microsserviços né já
+
+557
+00:24:36,440 --> 00:24:41,240
+comentou um pouco sobre essa questão
+
+558
+00:24:38,798 --> 00:24:46,639
+Quais são os benefícios de adotar um
+
+559
+00:24:41,240 --> 00:24:49,519
+metaprocesso como o m3k difícil falar
+
+560
+00:24:46,640 --> 00:24:53,320
+m3k quais são os benefícios de adotar um
+
+561
+00:24:49,519 --> 00:24:55,079
+metaprocesso como o m3k ao migrar para
+
+562
+00:24:53,319 --> 00:24:58,119
+arquiteturas de
+
+563
+00:24:55,079 --> 00:25:00,720
+microsserviços bom eh esse artigo artigo
+
+564
+00:24:58,119 --> 00:25:03,398
+ele eh tá relacionado com o anterior
+
+565
+00:25:00,720 --> 00:25:06,159
+também que foi justamente com a nossa
+
+566
+00:25:03,398 --> 00:25:08,038
+experiência né num contexto real aí
+
+567
+00:25:06,159 --> 00:25:10,360
+dessa cooperação com a empresa que a
+
+568
+00:25:08,038 --> 00:25:11,919
+gente desenvolveu uma arquitetura para
+
+569
+00:25:10,359 --> 00:25:15,119
+microsserviços
+
+570
+00:25:11,919 --> 00:25:17,480
+eh que a gente identificou que na
+
+571
+00:25:15,119 --> 00:25:21,678
+literatura a gente não tinha
+
+572
+00:25:17,480 --> 00:25:25,440
+eh muito muita definição de
+
+573
+00:25:21,679 --> 00:25:28,080
+processos na verdade de meta processos
+
+574
+00:25:25,440 --> 00:25:29,600
+Para apoiar a migração de uma
+
+575
+00:25:28,079 --> 00:25:32,480
+arquitetura monolítica para uma
+
+576
+00:25:29,599 --> 00:25:34,639
+arquitetura de microsserviços né a gente
+
+577
+00:25:32,480 --> 00:25:36,919
+tem vários processos que são descritos
+
+578
+00:25:34,640 --> 00:25:39,080
+na literatura mas os processos a gente
+
+579
+00:25:36,919 --> 00:25:41,240
+identificou que er era muito específico
+
+580
+00:25:39,079 --> 00:25:43,319
+de domínio por exemplo processo para
+
+581
+00:25:41,240 --> 00:25:47,038
+migração de aplicações bancárias para
+
+582
+00:25:43,319 --> 00:25:49,439
+microsserviços tem vários publicações na
+
+583
+00:25:47,038 --> 00:25:51,879
+literatura que davam suporte a isso e a
+
+584
+00:25:49,440 --> 00:25:54,679
+gente procurou alguma estratégia mais
+
+585
+00:25:51,880 --> 00:25:57,360
+genérica né que a gente então pudesse
+
+586
+00:25:54,679 --> 00:25:59,080
+instanciar essa estratégia genérica para
+
+587
+00:25:57,359 --> 00:26:00,678
+o o contexto que a gente estava
+
+588
+00:25:59,079 --> 00:26:02,918
+trabalhando que é o contexto justamente
+
+589
+00:26:00,679 --> 00:26:05,480
+dessa empresa que tem soluções fiscais
+
+590
+00:26:02,919 --> 00:26:07,799
+né para que a gente com base num
+
+591
+00:26:05,480 --> 00:26:09,640
+processo sistemático bem definido na
+
+592
+00:26:07,798 --> 00:26:12,480
+literatura a gente pudesse seguir os
+
+593
+00:26:09,640 --> 00:26:15,600
+passos desse processo e fazer a
+
+594
+00:26:12,480 --> 00:26:18,558
+refatoração da arquitetura lá da empresa
+
+595
+00:26:15,599 --> 00:26:21,319
+e a gente então não conseguiu encontrar
+
+596
+00:26:18,558 --> 00:26:23,158
+isso E aí foi inspiração justamente para
+
+597
+00:26:21,319 --> 00:26:25,480
+esse novo trabalho que é um trabalho de
+
+598
+00:26:23,159 --> 00:26:29,039
+Mestrado de um aluno meu que orientado
+
+599
+00:26:25,480 --> 00:26:32,798
+com professor Everton Cavalcante e eh o
+
+600
+00:26:29,038 --> 00:26:36,000
+metaprocesso ele justamente define né Eh
+
+601
+00:26:32,798 --> 00:26:38,918
+os elementos básicos que vão fazer parte
+
+602
+00:26:36,000 --> 00:26:41,640
+de um processo para possibilitar a
+
+603
+00:26:38,919 --> 00:26:44,000
+migração para microsserviços certo então
+
+604
+00:26:41,640 --> 00:26:47,600
+Quais são as etapas desse metaprocesso
+
+605
+00:26:44,000 --> 00:26:50,159
+né Obviamente você consegue você começa
+
+606
+00:26:47,599 --> 00:26:53,240
+uma primeira etapa estudando a
+
+607
+00:26:50,159 --> 00:26:55,159
+arquitetura monolítica né e depois você
+
+608
+00:26:53,240 --> 00:26:56,839
+vai identificar nessa arquitetura
+
+609
+00:26:55,159 --> 00:26:59,278
+monolítica Quais são os pontos que
+
+610
+00:26:56,839 --> 00:27:00,798
+precisam de fatoração e assim por diante
+
+611
+00:26:59,278 --> 00:27:05,640
+então
+
+612
+00:27:00,798 --> 00:27:08,679
+eh a vantagem de você digamos eh definir
+
+613
+00:27:05,640 --> 00:27:11,399
+o metaprocesso é justamente você ter uma
+
+614
+00:27:08,679 --> 00:27:15,080
+definição mais genérica que pode ser
+
+615
+00:27:11,398 --> 00:27:17,759
+instanciada para um processo que é
+
+616
+00:27:15,079 --> 00:27:20,359
+específico para um domínio como a gente
+
+617
+00:27:17,759 --> 00:27:22,679
+disse que tem vários processos que são
+
+618
+00:27:20,359 --> 00:27:25,519
+específicos para o domínio de aplicações
+
+619
+00:27:22,679 --> 00:27:28,360
+bancárias né então com esse metaprocesso
+
+620
+00:27:25,519 --> 00:27:31,519
+a gente pode né derivar há processos que
+
+621
+00:27:28,359 --> 00:27:33,719
+vão ser aplicados em domínios Diferentes
+
+622
+00:27:31,519 --> 00:27:36,960
+né Por exemplo a gente tá aplicando
+
+623
+00:27:33,720 --> 00:27:40,600
+validando esse metaprocesso no contexto
+
+624
+00:27:36,960 --> 00:27:42,919
+desse trabalho da empresa que eh traz
+
+625
+00:27:40,599 --> 00:27:44,719
+soluções fiscais justamente para
+
+626
+00:27:42,919 --> 00:27:47,399
+identificar o que já fizemos
+
+627
+00:27:44,720 --> 00:27:51,278
+anteriormente esse metaprocesso Ele
+
+628
+00:27:47,398 --> 00:27:54,518
+atende né Eh esse metaprocesso ajuda né
+
+629
+00:27:51,278 --> 00:27:57,119
+como é que derivamos os processos a
+
+630
+00:27:54,519 --> 00:28:00,480
+partir desse metaprocesso então A ideia
+
+631
+00:27:57,119 --> 00:28:03,359
+é essa ter uma solução mais genérica que
+
+632
+00:28:00,480 --> 00:28:05,720
+possa ser derivada para domínios
+
+633
+00:28:03,359 --> 00:28:08,639
+específicos e serem aplicadas então
+
+634
+00:28:05,720 --> 00:28:12,240
+paraa migração de eh arquiteturas
+
+635
+00:28:08,640 --> 00:28:12,240
+monolíticas para arquitetura de
+
+636
+00:28:15,480 --> 00:28:22,240
+microsserviços certo então passando
+
+637
+00:28:18,159 --> 00:28:24,799
+agora para outra parte da nossa conversa
+
+638
+00:28:22,240 --> 00:28:28,759
+e você pode nos falar um pouco a
+
+639
+00:28:24,798 --> 00:28:30,960
+respeito do Instituto Metrópole Digital
+
+640
+00:28:28,759 --> 00:28:34,679
+sim o Instituto Metrópole Digital né um
+
+641
+00:28:30,960 --> 00:28:39,240
+instituto eh que faz parte da ufrm ele
+
+642
+00:28:34,679 --> 00:28:40,600
+eh tem como objetivo né Eh fornecer
+
+643
+00:28:39,240 --> 00:28:44,240
+vários
+
+644
+00:28:40,599 --> 00:28:47,759
+eh aspectos relacionados com
+
+645
+00:28:44,240 --> 00:28:51,440
+a tecnologia da informação que vão desde
+
+646
+00:28:47,759 --> 00:28:54,919
+cursos de graduação de pós-graduação eh
+
+647
+00:28:51,440 --> 00:28:56,759
+incubação de empresas né e o centro do
+
+648
+00:28:54,919 --> 00:28:58,679
+Parque Tecnológico nosso diretor
+
+649
+00:28:56,759 --> 00:29:01,278
+professor Onildo Rego ele gosta muito de
+
+650
+00:28:58,679 --> 00:29:03,159
+dizer que é o parque Metrópole Digital
+
+651
+00:29:01,278 --> 00:29:06,960
+certo o parque Metrópole Digital ele
+
+652
+00:29:03,159 --> 00:29:10,000
+veio com o propósito justamente de eh
+
+653
+00:29:06,960 --> 00:29:11,960
+integrar né ao redor do Instituto
+
+654
+00:29:10,000 --> 00:29:15,159
+Metrópole Digital um conjunto de
+
+655
+00:29:11,960 --> 00:29:17,840
+empresas que eh possam por exemplo
+
+656
+00:29:15,159 --> 00:29:19,440
+absorver a mão de obra que é formada
+
+657
+00:29:17,839 --> 00:29:22,240
+dentro do Instituto não só dentro do
+
+658
+00:29:19,440 --> 00:29:24,480
+Instituto mas dentro da própria UFRN E
+
+659
+00:29:22,240 --> 00:29:27,640
+também o Instituto ele tem o papel de
+
+660
+00:29:24,480 --> 00:29:29,519
+agregar as iniciativas de ti que são em
+
+661
+00:29:27,640 --> 00:29:31,360
+vários departamentos da Universidade
+
+662
+00:29:29,519 --> 00:29:33,200
+Então os projetos do instituto por
+
+663
+00:29:31,359 --> 00:29:35,359
+exemplo agregam pessoas de diversas
+
+664
+00:29:33,200 --> 00:29:39,519
+áreas pessoas de direito pessoas de
+
+665
+00:29:35,359 --> 00:29:41,158
+administração de educação né Eh o a UFN
+
+666
+00:29:39,519 --> 00:29:43,038
+tem outros departamentos que estão
+
+667
+00:29:41,159 --> 00:29:44,880
+ligados à computação que é o
+
+668
+00:29:43,038 --> 00:29:46,398
+departamento onde eu sou lotada
+
+669
+00:29:44,880 --> 00:29:48,720
+Originalmente que é o departamento de
+
+670
+00:29:46,398 --> 00:29:51,000
+informática e matemática aplicada E tem
+
+671
+00:29:48,720 --> 00:29:54,960
+também o dca que é o departamento
+
+672
+00:29:51,000 --> 00:29:57,759
+eh de computação e automação então todos
+
+673
+00:29:54,960 --> 00:30:02,159
+esses essas iniciativas né eh
+
+674
+00:29:57,759 --> 00:30:04,398
+relacionadas com a ti né Elas são
+
+675
+00:30:02,159 --> 00:30:06,399
+agregadas no contexto do Instituto para
+
+676
+00:30:04,398 --> 00:30:09,079
+desenvolver projetos que possam
+
+677
+00:30:06,398 --> 00:30:11,879
+beneficiar a sociedade para agregar
+
+678
+00:30:09,079 --> 00:30:15,199
+empresas e ter então todo um ecossistema
+
+679
+00:30:11,880 --> 00:30:17,240
+que funcione né é relacionado à
+
+680
+00:30:15,200 --> 00:30:19,240
+tecnologia da informação né então o
+
+681
+00:30:17,240 --> 00:30:22,640
+Instituto tem esse caráter aí
+
+682
+00:30:19,240 --> 00:30:27,679
+multidisciplinar agregador né fornece aí
+
+683
+00:30:22,640 --> 00:30:29,880
+o o o suporte às startups né A pra
+
+684
+00:30:27,679 --> 00:30:33,159
+empresas também consolidadas então é
+
+685
+00:30:29,880 --> 00:30:35,640
+todo um ecossistema em torno aí da
+
+686
+00:30:33,159 --> 00:30:38,720
+tecnologia da informação no contexto do
+
+687
+00:30:35,640 --> 00:30:42,120
+Rio Grande do Norte né tem outros não só
+
+688
+00:30:38,720 --> 00:30:44,519
+curso de graduação como eh de Mestrado
+
+689
+00:30:42,119 --> 00:30:47,719
+doutorado residências em ti várias
+
+690
+00:30:44,519 --> 00:30:50,319
+residências em ti tem um curso também
+
+691
+00:30:47,720 --> 00:30:54,798
+técnico né para estudantes
+
+692
+00:30:50,319 --> 00:30:56,599
+eh que tão ainda no no ensino médio né
+
+693
+00:30:54,798 --> 00:30:58,519
+então uma série de iniciativas tem um
+
+694
+00:30:56,599 --> 00:31:00,199
+programa chamado talento Metrópole
+
+695
+00:30:58,519 --> 00:31:03,079
+também é muito interessante Então o
+
+696
+00:31:00,200 --> 00:31:05,759
+Instituto ele tem assim esse caráter eh
+
+697
+00:31:03,079 --> 00:31:07,720
+agregador né fazendo desenvolvendo
+
+698
+00:31:05,759 --> 00:31:09,679
+várias iniciativas relacionadas com a
+
+699
+00:31:07,720 --> 00:31:11,919
+tecnologia da
+
+700
+00:31:09,679 --> 00:31:13,679
+informação muito bom ainda tem a
+
+701
+00:31:11,919 --> 00:31:15,840
+vantagem adicional de ser localizado em
+
+702
+00:31:13,679 --> 00:31:19,559
+Natal né que é uma linda
+
+703
+00:31:15,839 --> 00:31:21,319
+cidade sim e agora a gente vai ó a gente
+
+704
+00:31:19,558 --> 00:31:24,440
+foi para Natal agora a gente vai pro Rio
+
+705
+00:31:21,319 --> 00:31:27,439
+de Janeiro porque recentemente teve uma
+
+706
+00:31:24,440 --> 00:31:30,159
+comemoração dos 30 anos de uma linguagem
+
+707
+00:31:27,440 --> 00:31:32,639
+de programação criada por brasileiros
+
+708
+00:31:30,159 --> 00:31:34,679
+utilizada no mundo todo eu gosto sempre
+
+709
+00:31:32,638 --> 00:31:35,839
+de falar isso porque é muito fácil criar
+
+710
+00:31:34,679 --> 00:31:38,159
+uma linguagem de programação mas
+
+711
+00:31:35,839 --> 00:31:42,480
+conseguir que ela seja utilizada no
+
+712
+00:31:38,159 --> 00:31:44,679
+mundo todo é é é é difícil e ainda mais
+
+713
+00:31:42,480 --> 00:31:47,720
+depois de 30 anos da da criação que é o
+
+714
+00:31:44,679 --> 00:31:49,960
+caso de lua lá né criado por criado por
+
+715
+00:31:47,720 --> 00:31:52,880
+três professores mas foi na verdade essa
+
+716
+00:31:49,960 --> 00:31:56,159
+comemoração teve a ver um pouco com a a
+
+717
+00:31:52,880 --> 00:31:58,840
+o acho que o professor Roberto se tornou
+
+718
+00:31:56,159 --> 00:32:01,399
+professor Professor titular Professor
+
+719
+00:31:58,839 --> 00:32:04,720
+titular eu tava em dúvida se era algum
+
+720
+00:32:01,398 --> 00:32:07,439
+outro grau isso isso E aí você deu um
+
+721
+00:32:04,720 --> 00:32:09,159
+uma pequena palestra lá e a gente
+
+722
+00:32:07,440 --> 00:32:11,880
+gostaria que você falasse um pouco sobre
+
+723
+00:32:09,159 --> 00:32:15,679
+Lua e sobre a sua participação nesse
+
+724
+00:32:11,880 --> 00:32:19,960
+projeto o que você FZ com com Lua uhum
+
+725
+00:32:15,679 --> 00:32:21,720
+bom eh a esse workshop 30 anos de
+
+726
+00:32:19,960 --> 00:32:24,960
+comemoração da linguagem Lua foi um
+
+727
+00:32:21,720 --> 00:32:27,120
+evento belíssimo e muito emocionante né
+
+728
+00:32:24,960 --> 00:32:29,880
+eu fui aluna de mestrado e doutorado da
+
+729
+00:32:27,119 --> 00:32:32,398
+P Rio no período justamente em que foi
+
+730
+00:32:29,880 --> 00:32:34,360
+criada a linguagem Lua foi criada por
+
+731
+00:32:32,398 --> 00:32:36,759
+três pesquisadores de lá né o professor
+
+732
+00:32:34,359 --> 00:32:39,839
+Roberto erus alinsky Valdemar seles e
+
+733
+00:32:36,759 --> 00:32:40,759
+luí Henrique Figueiredo e ela foi criada
+
+734
+00:32:39,839 --> 00:32:43,359
+em
+
+735
+00:32:40,759 --> 00:32:45,638
+1993 quando eu tava finalizando o
+
+736
+00:32:43,359 --> 00:32:49,199
+mestrado né então em
+
+737
+00:32:45,638 --> 00:32:51,158
+1995 no doutorado eu trabalhei na
+
+738
+00:32:49,200 --> 00:32:54,240
+especificação da semântica operacional
+
+739
+00:32:51,159 --> 00:32:56,360
+de lua usando a linguagem vdm né esse
+
+740
+00:32:54,240 --> 00:32:59,240
+foi meu primeiro contato com a linguagem
+
+741
+00:32:56,359 --> 00:33:01,158
+né e a partir daí eu comecei a usar lua
+
+742
+00:32:59,240 --> 00:33:04,480
+e Minha tese de doutorado foi
+
+743
+00:33:01,159 --> 00:33:07,399
+desenvolvida em Lua né e depois já como
+
+744
+00:33:04,480 --> 00:33:09,639
+professora da UFRN eu usei e uso Lua em
+
+745
+00:33:07,398 --> 00:33:13,918
+muitos projetos né em muitos projetos
+
+746
+00:33:09,638 --> 00:33:17,199
+mesmo assim meus alunos eh anos atrás
+
+747
+00:33:13,919 --> 00:33:20,399
+logo que eu voltei do doutorado eles
+
+748
+00:33:17,200 --> 00:33:22,919
+começaram a usar lua no contexto de
+
+749
+00:33:20,398 --> 00:33:26,439
+desenvolvimento de serviços de
+
+750
+00:33:22,919 --> 00:33:30,000
+plataformas de mider eh usamos lua no
+
+751
+00:33:26,440 --> 00:33:33,759
+contexto um projeto que foi eh feito
+
+752
+00:33:30,000 --> 00:33:37,839
+também em parceria com a PUK rio lá eh
+
+753
+00:33:33,759 --> 00:33:42,079
+no midor de TV digital o jinga né então
+
+754
+00:33:37,839 --> 00:33:44,879
+eu assim trabalho com Lua desde né 1995
+
+755
+00:33:42,079 --> 00:33:47,199
+então há muitos anos então no workshop
+
+756
+00:33:44,880 --> 00:33:49,639
+de comemoração dos 30 anos eu pude
+
+757
+00:33:47,200 --> 00:33:51,360
+reviver Essa época reencontrar pessoas
+
+758
+00:33:49,638 --> 00:33:53,918
+que fizeram parte dessa história junto
+
+759
+00:33:51,359 --> 00:33:56,079
+comigo em especial Professor Roberta
+
+760
+00:33:53,919 --> 00:33:57,960
+erus Alins a professora Noemi Rodrigues
+
+761
+00:33:56,079 --> 00:34:01,199
+né Noemi foi é minha orientadora de
+
+762
+00:33:57,960 --> 00:34:04,480
+doutorado né que me introduziu Lua com
+
+763
+00:34:01,200 --> 00:34:07,880
+Roberto né um dos principais autores da
+
+764
+00:34:04,480 --> 00:34:09,440
+linguagem eu desenvolvi esse trabalho
+
+765
+00:34:07,880 --> 00:34:11,639
+sobre a especificação da semântica
+
+766
+00:34:09,440 --> 00:34:15,159
+operacional de Lua né E eles são assim
+
+767
+00:34:11,639 --> 00:34:19,240
+pessoas além de orientadores né pessoas
+
+768
+00:34:15,159 --> 00:34:22,599
+amigas muito queridas né então Eh essa
+
+769
+00:34:19,239 --> 00:34:24,959
+comemoração a gente pode ver eh toda a
+
+770
+00:34:22,599 --> 00:34:27,359
+perspectiva Histórica de lua toda a
+
+771
+00:34:24,960 --> 00:34:30,918
+importância de lua e uma coisa assim
+
+772
+00:34:27,358 --> 00:34:33,838
+realmente eh fantástica que é que a
+
+773
+00:34:30,918 --> 00:34:37,480
+linguagem ela foi desenvolvida 30 anos
+
+774
+00:34:33,838 --> 00:34:39,398
+atrás né Ela é popular mais fora do
+
+775
+00:34:37,480 --> 00:34:41,240
+Brasil do que no Brasil digamos assim
+
+776
+00:34:39,398 --> 00:34:43,358
+muito usado no contexto de jogos em
+
+777
+00:34:41,239 --> 00:34:46,078
+outros contextos também E como você
+
+778
+00:34:43,358 --> 00:34:48,639
+disse eh desenvolver uma linguagem pode
+
+779
+00:34:46,079 --> 00:34:51,519
+até não ser tão difícil mas O mais
+
+780
+00:34:48,639 --> 00:34:54,358
+difícil é fazer é manter a linguagem Ou
+
+781
+00:34:51,519 --> 00:34:57,440
+seja faz 30 anos que eles mantém essa
+
+782
+00:34:54,358 --> 00:35:00,358
+linguagem né Isso realmente é Fantástico
+
+783
+00:34:57,440 --> 00:35:03,079
+e é fazer com que a linguagem ela tenha
+
+784
+00:35:00,358 --> 00:35:05,319
+uma popularidade no mundo como lua tem
+
+785
+00:35:03,079 --> 00:35:08,079
+então eu tiro completamente o chapéu
+
+786
+00:35:05,320 --> 00:35:11,119
+para eles três né que
+
+787
+00:35:08,079 --> 00:35:12,839
+eh tiveram uma ideia fantástica de
+
+788
+00:35:11,119 --> 00:35:14,480
+desenvolver a linguagem evoluir a
+
+789
+00:35:12,838 --> 00:35:18,199
+linguagem e manter a linguagem um
+
+790
+00:35:14,480 --> 00:35:20,320
+esforço realmente enorme né e lua é o
+
+791
+00:35:18,199 --> 00:35:24,559
+software brasileiro mais famoso no mundo
+
+792
+00:35:20,320 --> 00:35:27,000
+é a única linguagem de programação eh
+
+793
+00:35:24,559 --> 00:35:28,679
+que é popular no mundo e que não foi des
+
+794
+00:35:27,000 --> 00:35:32,199
+envolvido no primeiro mundo então
+
+795
+00:35:28,679 --> 00:35:35,399
+realmente a gente precisa bater palmas e
+
+796
+00:35:32,199 --> 00:35:38,078
+incentivar bastante esse essa a
+
+797
+00:35:35,400 --> 00:35:41,400
+continuidade da linguagem né e todo esse
+
+798
+00:35:38,079 --> 00:35:43,400
+esse processo que de manter a linguagem
+
+799
+00:35:41,400 --> 00:35:46,720
+que é feita pelos
+
+800
+00:35:43,400 --> 00:35:48,280
+autores é eu vou falar algumas coisas
+
+801
+00:35:46,719 --> 00:35:49,879
+aqui que eu que eu lembrei uma coisa que
+
+802
+00:35:48,280 --> 00:35:51,400
+toda a gravação né porque eu eu assisti
+
+803
+00:35:49,880 --> 00:35:53,720
+a sua palestra porque eu vi a gravação
+
+804
+00:35:51,400 --> 00:35:55,440
+no YouTube a a palestra do professor
+
+805
+00:35:53,719 --> 00:35:57,358
+Roberto tá lá também e todas as
+
+806
+00:35:55,440 --> 00:35:59,280
+palestras que do
+
+807
+00:35:57,358 --> 00:36:02,838
+lá no canal acho que no canal da da P
+
+808
+00:35:59,280 --> 00:36:07,599
+Rio is vou até anotar aqui de de lembrar
+
+809
+00:36:02,838 --> 00:36:09,838
+de de deixar o link para playlist Uhum é
+
+810
+00:36:07,599 --> 00:36:11,680
+outra coisa é que esse ano teve uma
+
+811
+00:36:09,838 --> 00:36:14,679
+entrevista aconteceu uma entrevista num
+
+812
+00:36:11,679 --> 00:36:16,358
+podcast que chama free code camp em
+
+813
+00:36:14,679 --> 00:36:19,199
+português com o professor Roberto uma
+
+814
+00:36:16,358 --> 00:36:22,838
+entrevista muito boa né a entrevistadora
+
+815
+00:36:19,199 --> 00:36:24,919
+eh e conseguiu tirar umas informações
+
+816
+00:36:22,838 --> 00:36:28,400
+assim muito legais do do do professor
+
+817
+00:36:24,920 --> 00:36:30,480
+Roberto vou deixar o o link também por
+
+818
+00:36:28,400 --> 00:36:33,119
+curiosidade né hoje a gente tá gravando
+
+819
+00:36:30,480 --> 00:36:35,358
+aqui em 15 de dezembro de 2023 eu fui
+
+820
+00:36:33,119 --> 00:36:38,519
+entrevistado nesse podcast e o meu
+
+821
+00:36:35,358 --> 00:36:39,920
+Episódio saiu hoje uhum mais uma coisa
+
+822
+00:36:38,519 --> 00:36:41,719
+Ah eu gosto também de falar para as
+
+823
+00:36:39,920 --> 00:36:44,480
+pessoas né que lua é é uma é uma
+
+824
+00:36:41,719 --> 00:36:46,919
+linguagem que criada por brasileiros e
+
+825
+00:36:44,480 --> 00:36:48,639
+usada do mundo todo é a mais famosa que
+
+826
+00:36:46,920 --> 00:36:50,599
+aparece melhor nos ranks mas existem
+
+827
+00:36:48,639 --> 00:36:53,519
+mais outras duas criadas por brasileiros
+
+828
+00:36:50,599 --> 00:36:57,920
+e usados no mundo todo né que são elir
+
+829
+00:36:53,519 --> 00:37:00,159
+Uhum E o a lin né que lin foi um um a
+
+830
+00:36:57,920 --> 00:37:03,119
+gente teve um episódio agora em 2023 com
+
+831
+00:37:00,159 --> 00:37:06,318
+o criador de lim o Leonardo de Moura
+
+832
+00:37:03,119 --> 00:37:07,720
+Uhum agora Ah sim outra coisa que eu
+
+833
+00:37:06,318 --> 00:37:09,800
+queria falar já deixa aqui se o
+
+834
+00:37:07,719 --> 00:37:12,039
+professor Roberto tiver escutando né é a
+
+835
+00:37:09,800 --> 00:37:14,200
+gente quer entrevistá-lo aqui né já já
+
+836
+00:37:12,039 --> 00:37:16,119
+fiz o convite por e-mail acho não se
+
+837
+00:37:14,199 --> 00:37:17,559
+perdeu o meu meu e-mail não tive
+
+838
+00:37:16,119 --> 00:37:20,039
+resposta mas a gente quer quer
+
+839
+00:37:17,559 --> 00:37:22,239
+entrevistá-lo aqui no fronteiras é vai
+
+840
+00:37:20,039 --> 00:37:25,599
+ser uma entrevista assim fantástica
+
+841
+00:37:22,239 --> 00:37:30,239
+Porque o roberto realmente é um
+
+842
+00:37:25,599 --> 00:37:34,960
+pesquisador assim de uma eh capacidade
+
+843
+00:37:30,239 --> 00:37:37,838
+enorme né Eu admiro muito o Roberto né
+
+844
+00:37:34,960 --> 00:37:41,240
+Não não só por lua mas realmente pela
+
+845
+00:37:37,838 --> 00:37:42,400
+eh capacidade intelectual diferenciada
+
+846
+00:37:41,239 --> 00:37:46,118
+que ele
+
+847
+00:37:42,400 --> 00:37:49,039
+tem e em 2012 você foi escolhida
+
+848
+00:37:46,119 --> 00:37:51,000
+pesquisadora homenageada da ces né a
+
+849
+00:37:49,039 --> 00:37:53,159
+comissão especial engenharia de software
+
+850
+00:37:51,000 --> 00:37:55,599
+da Sociedade Brasileira de Computação o
+
+851
+00:37:53,159 --> 00:37:59,039
+que esse reconhecimento significa para
+
+852
+00:37:55,599 --> 00:38:02,079
+você bom foi uma grande alegria né
+
+853
+00:37:59,039 --> 00:38:04,679
+receber essa menção honrosa eu havia
+
+854
+00:38:02,079 --> 00:38:07,800
+sido coordenadora do comitê de programa
+
+855
+00:38:04,679 --> 00:38:10,039
+do isbs em 2010 coordenadora da comissão
+
+856
+00:38:07,800 --> 00:38:11,880
+especial de engenharia de software vi tá
+
+857
+00:38:10,039 --> 00:38:14,358
+já trabalhando na comunidade assim há
+
+858
+00:38:11,880 --> 00:38:16,519
+bastante tempo e receber essa honraria
+
+859
+00:38:14,358 --> 00:38:19,559
+foi assim uma enorme alegria né Por ter
+
+860
+00:38:16,519 --> 00:38:23,800
+sido agraciada com um um prêmio
+
+861
+00:38:19,559 --> 00:38:25,960
+prestigioso que eh distingue eh as
+
+862
+00:38:23,800 --> 00:38:29,200
+contribuições paraa engenharia de
+
+863
+00:38:25,960 --> 00:38:32,240
+software né E também né ter o trabalho
+
+864
+00:38:29,199 --> 00:38:33,679
+reconhecido pelos pares é uma coisa
+
+865
+00:38:32,239 --> 00:38:35,639
+muito importante então eu sou muito
+
+866
+00:38:33,679 --> 00:38:38,598
+agradecida comão especial de engenharia
+
+867
+00:38:35,639 --> 00:38:41,239
+de software por ter me dado essa menção
+
+868
+00:38:38,599 --> 00:38:41,240
+horrosa em
+
+869
+00:38:41,800 --> 00:38:47,560
+2012 e já falando de
+
+870
+00:38:44,559 --> 00:38:50,199
+2023 você foi Eleita presidente da
+
+871
+00:38:47,559 --> 00:38:53,639
+Sociedade Brasileira de Computação o que
+
+872
+00:38:50,199 --> 00:38:56,919
+significou o que significa isso para
+
+873
+00:38:53,639 --> 00:38:59,920
+você bom esse Foi um momento muito mar
+
+874
+00:38:56,920 --> 00:39:01,480
+da minha carreira né tem sido chegar a
+
+875
+00:38:59,920 --> 00:39:03,639
+presidência da maior sociedade
+
+876
+00:39:01,480 --> 00:39:06,358
+científica da América Latina na área de
+
+877
+00:39:03,639 --> 00:39:09,078
+computação e uma área que também é
+
+878
+00:39:06,358 --> 00:39:10,880
+majoritariamente masculina né não é algo
+
+879
+00:39:09,079 --> 00:39:14,480
+que eu poderia imaginar alguns anos
+
+880
+00:39:10,880 --> 00:39:16,559
+atrás então a SBC ela sempre teve um
+
+881
+00:39:14,480 --> 00:39:18,440
+papel bem importante na minha carreira
+
+882
+00:39:16,559 --> 00:39:20,679
+né Eu acho que eu aprendi a ser
+
+883
+00:39:18,440 --> 00:39:24,679
+pesquisadora durante o mestrado e
+
+884
+00:39:20,679 --> 00:39:27,399
+doutorado almejando publicar as minhas
+
+885
+00:39:24,679 --> 00:39:30,639
+pesquisas nos eventos da frequentei
+
+886
+00:39:27,400 --> 00:39:34,519
+muitos eventos da SBC né durante toda a
+
+887
+00:39:30,639 --> 00:39:38,239
+minha carreira então em 2003 ou seja 20
+
+888
+00:39:34,519 --> 00:39:39,639
+anos atrás eu organizei o sbrc que o
+
+889
+00:39:38,239 --> 00:39:41,919
+simpósio brasileiro de rede de
+
+890
+00:39:39,639 --> 00:39:44,679
+computadores né onde eu atuo também né
+
+891
+00:39:41,920 --> 00:39:46,639
+minha formação é todo na área de eh
+
+892
+00:39:44,679 --> 00:39:48,239
+redes sistemas distribuídos e engenharia
+
+893
+00:39:46,639 --> 00:39:50,679
+de software porque sistemas distribuídos
+
+894
+00:39:48,239 --> 00:39:53,078
+está ali na confluência né entre redes e
+
+895
+00:39:50,679 --> 00:39:56,639
+engenharia de software então eu faço
+
+896
+00:39:53,079 --> 00:39:58,920
+parte das duas comunidades né da de rede
+
+897
+00:39:56,639 --> 00:40:01,239
+distribuídos e de engenharia de software
+
+898
+00:39:58,920 --> 00:40:03,318
+né inclusive o ano passado eu tive
+
+899
+00:40:01,239 --> 00:40:05,159
+também a honra de receber uma premiação
+
+900
+00:40:03,318 --> 00:40:07,279
+lá da comissão especial de redes e
+
+901
+00:40:05,159 --> 00:40:11,199
+sistemas distribuídos que também me
+
+902
+00:40:07,280 --> 00:40:13,839
+deixou muito feliz né então Eh esse
+
+903
+00:40:11,199 --> 00:40:16,879
+evento organizado a em 2003 foi uma
+
+904
+00:40:13,838 --> 00:40:19,358
+experiência fantástica né T tivemos mais
+
+905
+00:40:16,880 --> 00:40:22,318
+de 1000 participantes no sbrc uma
+
+906
+00:40:19,358 --> 00:40:24,719
+comunidade vibrante que só realmente me
+
+907
+00:40:22,318 --> 00:40:27,159
+incentivou a continuar trabalhando por
+
+908
+00:40:24,719 --> 00:40:29,838
+essa comunidade trabalhar para SBC é
+
+909
+00:40:27,159 --> 00:40:34,480
+muito gratificante porque a gente vê que
+
+910
+00:40:29,838 --> 00:40:37,279
+a comunidade ela apoia né ela precisa do
+
+911
+00:40:34,480 --> 00:40:38,920
+trabalho voluntário das pessoas né Eh
+
+912
+00:40:37,280 --> 00:40:41,160
+depois eu organizei alguns outros
+
+913
+00:40:38,920 --> 00:40:43,680
+eventos também o congresso da Sociedade
+
+914
+00:40:41,159 --> 00:40:46,679
+Brasileira de Computação o csbc
+
+915
+00:40:43,679 --> 00:40:49,279
+organizei em 2011 junto com o colega
+
+916
+00:40:46,679 --> 00:40:51,919
+Professor Martim musicante em 2020 eu
+
+917
+00:40:49,280 --> 00:40:54,280
+organizei o cbsoft também junto com dois
+
+918
+00:40:51,920 --> 00:40:57,079
+colegas Professor Francisco Dantes e
+
+919
+00:40:54,280 --> 00:41:01,000
+professor Everton Cavalcante né
+
+920
+00:40:57,079 --> 00:41:05,079
+E aí Eh toda essa história aí ligada a
+
+921
+00:41:01,000 --> 00:41:07,639
+SBC nos eventos né Sempre eh eh fez com
+
+922
+00:41:05,079 --> 00:41:09,960
+que a SBC fosse muito especial para mim
+
+923
+00:41:07,639 --> 00:41:12,759
+muito especial na minha carreira eh teve
+
+924
+00:41:09,960 --> 00:41:15,639
+esse papel assim preponderante né em
+
+925
+00:41:12,760 --> 00:41:17,960
+2008 né eu fui convidada pelo Professor
+
+926
+00:41:15,639 --> 00:41:20,480
+José Carlos Maldonado então presidente
+
+927
+00:41:17,960 --> 00:41:23,199
+da SBC para fazer parte da Diretoria da
+
+928
+00:41:20,480 --> 00:41:26,679
+SBC também foi um momento muito
+
+929
+00:41:23,199 --> 00:41:28,519
+feliz eu fui diretora de secretaria
+
+930
+00:41:26,679 --> 00:41:32,159
+depois disso eu fui conselheira fui
+
+931
+00:41:28,519 --> 00:41:35,280
+vice-presidente da SBC de 2015 a
+
+932
+00:41:32,159 --> 00:41:38,078
+2019 e agora depois sai quando saí da
+
+933
+00:41:35,280 --> 00:41:40,720
+vice-presidência foi fui conselheira
+
+934
+00:41:38,079 --> 00:41:43,240
+novamente e agora Presidente então poder
+
+935
+00:41:40,719 --> 00:41:44,959
+contribuir paraa comunidade e computação
+
+936
+00:41:43,239 --> 00:41:47,759
+no Brasil é uma oportunidade que me
+
+937
+00:41:44,960 --> 00:41:50,800
+deixa muito feliz e eu espero atender a
+
+938
+00:41:47,760 --> 00:41:53,520
+todos os anseios dessa
+
+939
+00:41:50,800 --> 00:41:57,480
+comunidade muito bom
+
+940
+00:41:53,519 --> 00:42:00,639
+ah a pergunta agora tem a ver mais com o
+
+941
+00:41:57,480 --> 00:42:02,280
+papel da SBC né porque a gente sabe todo
+
+942
+00:42:00,639 --> 00:42:06,000
+mundo sabe que a sociedade brasileira da
+
+943
+00:42:02,280 --> 00:42:08,240
+Computação que organiza eventos e tem
+
+944
+00:42:06,000 --> 00:42:09,880
+uma um posicionamento também em algumas
+
+945
+00:42:08,239 --> 00:42:12,598
+questões que são relacionadas à
+
+946
+00:42:09,880 --> 00:42:14,680
+Computação na sociedade mas como é que
+
+947
+00:42:12,599 --> 00:42:16,519
+você expressaria o papel da sociedade
+
+948
+00:42:14,679 --> 00:42:19,199
+brasileira da Computação na relação
+
+949
+00:42:16,519 --> 00:42:21,800
+entre academia sociedade e
+
+950
+00:42:19,199 --> 00:42:24,480
+Indústria bom excelente pergunta né
+
+951
+00:42:21,800 --> 00:42:27,039
+então a SBC ela desempenha um papel
+
+952
+00:42:24,480 --> 00:42:30,159
+crucial na interação entre academia
+
+953
+00:42:27,039 --> 00:42:32,599
+sociedade e Indústria relacionado com a
+
+954
+00:42:30,159 --> 00:42:35,399
+computação no Brasil né Ela é uma
+
+955
+00:42:32,599 --> 00:42:37,480
+entidade sem fins lucrativos que busca
+
+956
+00:42:35,400 --> 00:42:39,800
+justamente promover o avanço da área da
+
+957
+00:42:37,480 --> 00:42:43,679
+computação e obviamente promover esse
+
+958
+00:42:39,800 --> 00:42:48,400
+avanço envolve né essa relação entre
+
+959
+00:42:43,679 --> 00:42:51,318
+academia eh sociedade e Indústria e aí a
+
+960
+00:42:48,400 --> 00:42:53,358
+SBC ela tem um papel Central Justamente
+
+961
+00:42:51,318 --> 00:42:55,759
+na promoção e desenvolvimento da área de
+
+962
+00:42:53,358 --> 00:42:57,719
+computação ela atua como a ponte entre a
+
+963
+00:42:55,760 --> 00:43:00,559
+academia sociedade indústria para
+
+964
+00:42:57,719 --> 00:43:02,558
+garantir justamente um ambiente
+
+965
+00:43:00,559 --> 00:43:04,960
+colaborativo Entre esses diferentes
+
+966
+00:43:02,559 --> 00:43:07,400
+entes que beneficia todos os envolvidos
+
+967
+00:43:04,960 --> 00:43:10,159
+né o seu papel nessa relação entre esses
+
+968
+00:43:07,400 --> 00:43:12,960
+três setores pode ser destacado assim da
+
+969
+00:43:10,159 --> 00:43:15,558
+seguinte maneira né através de várias
+
+970
+00:43:12,960 --> 00:43:16,880
+ações que a SBC faz né uma delas
+
+971
+00:43:15,559 --> 00:43:19,319
+incentivar a pesquisa e o
+
+972
+00:43:16,880 --> 00:43:21,800
+desenvolvimento em Ciência da Computação
+
+973
+00:43:19,318 --> 00:43:23,838
+né promovendo as conferências simpósios
+
+974
+00:43:21,800 --> 00:43:26,200
+workshops apoiando a troca de
+
+975
+00:43:23,838 --> 00:43:28,239
+conhecimento entre pesquisadores
+
+976
+00:43:26,199 --> 00:43:30,239
+professores e estudantes criando uma
+
+977
+00:43:28,239 --> 00:43:32,838
+rede de colaboração Justamente que
+
+978
+00:43:30,239 --> 00:43:35,759
+fortalece a comunidade acadêmica que
+
+979
+00:43:32,838 --> 00:43:37,599
+permite a divulgação do conhecimento né
+
+980
+00:43:35,760 --> 00:43:39,400
+compartilhando descobertas e avanços na
+
+981
+00:43:37,599 --> 00:43:42,318
+área por meio de suas publicações e
+
+982
+00:43:39,400 --> 00:43:44,920
+eventos e justamente Através disso a
+
+983
+00:43:42,318 --> 00:43:47,759
+sociedade é beneficiada né a indústria
+
+984
+00:43:44,920 --> 00:43:51,119
+pode utilizar aquilo que é desenvolvido
+
+985
+00:43:47,760 --> 00:43:55,240
+né no contexto eh eh da Computação no
+
+986
+00:43:51,119 --> 00:43:58,599
+Brasil né a a SBC eh tem diretoria que
+
+987
+00:43:55,239 --> 00:44:01,199
+tá ligada a essa parte de interação com
+
+988
+00:43:58,599 --> 00:44:03,359
+empresas né que facilita a interação da
+
+989
+00:44:01,199 --> 00:44:06,239
+comunidade acadêmica com a indústria
+
+990
+00:44:03,358 --> 00:44:08,799
+promovendo parcerias e colaborações né
+
+991
+00:44:06,239 --> 00:44:11,039
+Eh na organização dos eventos né que é
+
+992
+00:44:08,800 --> 00:44:13,440
+um ponto forte da SBC ela reúne
+
+993
+00:44:11,039 --> 00:44:15,599
+acadêmicos profissionais e a indústria
+
+994
+00:44:13,440 --> 00:44:19,000
+também para trocar ideias vários eventos
+
+995
+00:44:15,599 --> 00:44:21,800
+t a chamada trilha da indústria que traz
+
+996
+00:44:19,000 --> 00:44:23,400
+pessoas da indústria para relatar também
+
+997
+00:44:21,800 --> 00:44:25,318
+quais são os problemas da indústria
+
+998
+00:44:23,400 --> 00:44:28,400
+Quais são as soluções e interagir com a
+
+999
+00:44:25,318 --> 00:44:31,358
+comunidade acadêmica para que possa ser
+
+1000
+00:44:28,400 --> 00:44:33,400
+feita uma sinergia entre a academia e
+
+1001
+00:44:31,358 --> 00:44:36,440
+Indústria né e tudo isso beneficia a
+
+1002
+00:44:33,400 --> 00:44:38,760
+sociedade então a SBC também né ela
+
+1003
+00:44:36,440 --> 00:44:41,079
+oferece recursos para o desenvolvimento
+
+1004
+00:44:38,760 --> 00:44:43,680
+profissionais eh incentivando os
+
+1005
+00:44:41,079 --> 00:44:46,119
+programas de certificação ajudando a
+
+1006
+00:44:43,679 --> 00:44:48,799
+manter os profissionais atualizados né
+
+1007
+00:44:46,119 --> 00:44:51,280
+engajar a sociedade em todo esse
+
+1008
+00:44:48,800 --> 00:44:53,880
+contexto né de divulgação Científica de
+
+1009
+00:44:51,280 --> 00:44:55,960
+aproximar a computação da sociedade e
+
+1010
+00:44:53,880 --> 00:44:59,680
+uma das iniciativas agora nessa questão
+
+1011
+00:44:55,960 --> 00:45:01,720
+de aproximação da Computação eh à
+
+1012
+00:44:59,679 --> 00:45:04,879
+sociedade é justamente uma iniciativa
+
+1013
+00:45:01,719 --> 00:45:07,719
+que a SBC começou muitos anos atrás eh
+
+1014
+00:45:04,880 --> 00:45:11,119
+numa interação com o MEC ressaltando que
+
+1015
+00:45:07,719 --> 00:45:15,199
+era muito importante que a computação
+
+1016
+00:45:11,119 --> 00:45:18,280
+ela tivesse presente na vida do cidadão
+
+1017
+00:45:15,199 --> 00:45:20,759
+desde a educação básica né passando pelo
+
+1018
+00:45:18,280 --> 00:45:24,760
+Ensino Fundamental né até chegar
+
+1019
+00:45:20,760 --> 00:45:26,839
+obviamente eh a ao ensino superior Então
+
+1020
+00:45:24,760 --> 00:45:29,079
+a gente tem um cenário a computação hoje
+
+1021
+00:45:26,838 --> 00:45:30,759
+ela é ensinada no ensino superior muitas
+
+1022
+00:45:29,079 --> 00:45:32,680
+escolas às vezes dizem ah a gente tem
+
+1023
+00:45:30,760 --> 00:45:35,160
+computação Às vezes o que eles estão
+
+1024
+00:45:32,679 --> 00:45:37,480
+dizendo é a gente tem computação é que a
+
+1025
+00:45:35,159 --> 00:45:39,838
+gente aprende a usar algumas aplicações
+
+1026
+00:45:37,480 --> 00:45:41,400
+de computação os alunos têm interação
+
+1027
+00:45:39,838 --> 00:45:43,159
+com o computador mas a maioria das
+
+1028
+00:45:41,400 --> 00:45:47,119
+escolas públicas não tem isso por
+
+1029
+00:45:43,159 --> 00:45:49,719
+exemplo e a SBC ela anos atrás na
+
+1030
+00:45:47,119 --> 00:45:51,440
+ocasião eu tava na vice-presidência eh
+
+1031
+00:45:49,719 --> 00:45:54,879
+junto com o professor lisando granvil
+
+1032
+00:45:51,440 --> 00:45:58,000
+que er o presidente né começamos uma
+
+1033
+00:45:54,880 --> 00:46:01,079
+iniciativa né que vem muito antes disso
+
+1034
+00:45:58,000 --> 00:46:02,960
+né eu tô citando eh essa eh a nossa
+
+1035
+00:46:01,079 --> 00:46:05,440
+gestão porque eu tava presente mas eu
+
+1036
+00:46:02,960 --> 00:46:07,599
+sei que os presidentes anteriores tinham
+
+1037
+00:46:05,440 --> 00:46:09,599
+várias iniciativas associadas a essa
+
+1038
+00:46:07,599 --> 00:46:12,559
+ideia de que computação tinha de vir da
+
+1039
+00:46:09,599 --> 00:46:14,720
+base por o nosso dia a dia a gente tá
+
+1040
+00:46:12,559 --> 00:46:16,839
+permeado por Computação em tudo que a
+
+1041
+00:46:14,719 --> 00:46:18,838
+gente faz em tudo que a gente usa né e
+
+1042
+00:46:16,838 --> 00:46:22,920
+as pessoas precisam ter o chamado
+
+1043
+00:46:18,838 --> 00:46:27,318
+letramento digital né E aí então na numa
+
+1044
+00:46:22,920 --> 00:46:30,720
+iniciativa da SBC na junto ao e né para
+
+1045
+00:46:27,318 --> 00:46:32,838
+eh convencer de que era necessário que a
+
+1046
+00:46:30,719 --> 00:46:37,318
+bncc que é a base Nacional
+
+1047
+00:46:32,838 --> 00:46:40,159
+eh curricular ela incluísse computação
+
+1048
+00:46:37,318 --> 00:46:42,719
+como sendo obrigatório né E aí
+
+1049
+00:46:40,159 --> 00:46:46,199
+finalmente isso aconteceu mais
+
+1050
+00:46:42,719 --> 00:46:48,719
+recentemente então Eh após muitos anos
+
+1051
+00:46:46,199 --> 00:46:51,598
+de interação e a participação da SBC e
+
+1052
+00:46:48,719 --> 00:46:56,279
+de outras instituições ressaltando essa
+
+1053
+00:46:51,599 --> 00:46:59,160
+importância eh eh a educação básica
+
+1054
+00:46:56,280 --> 00:47:00,839
+então hoje tem a obrigação de incluir
+
+1055
+00:46:59,159 --> 00:47:03,960
+computação quando a gente diz incluir
+
+1056
+00:47:00,838 --> 00:47:06,318
+computação são várias coisas né O que a
+
+1057
+00:47:03,960 --> 00:47:09,519
+gente pode ressaltar é que o que é
+
+1058
+00:47:06,318 --> 00:47:12,679
+importante é o pensamento computacional
+
+1059
+00:47:09,519 --> 00:47:15,679
+é ensinar o pensamento computacional Né
+
+1060
+00:47:12,679 --> 00:47:18,960
+desde criança para que isso se torne
+
+1061
+00:47:15,679 --> 00:47:20,799
+natural na vida do cidadão e agora a
+
+1062
+00:47:18,960 --> 00:47:23,240
+gente tem a responsabilidade já que a
+
+1063
+00:47:20,800 --> 00:47:27,119
+bncc incluiu a obrigatoriedade da
+
+1064
+00:47:23,239 --> 00:47:30,239
+Computação a SBC também tem a o papel de
+
+1065
+00:47:27,119 --> 00:47:32,960
+ajudar a implementar isso a gente tem um
+
+1066
+00:47:30,239 --> 00:47:35,318
+contexto de 200.000 Escolas no Brasil
+
+1067
+00:47:32,960 --> 00:47:38,358
+certo nessas 200.000 escolas tem de ter
+
+1068
+00:47:35,318 --> 00:47:42,558
+profissionais né que vá justamente
+
+1069
+00:47:38,358 --> 00:47:45,400
+concretizar aquilo que a bncc eh incluiu
+
+1070
+00:47:42,559 --> 00:47:48,760
+e aquilo que a bncc incluiu n teve uma
+
+1071
+00:47:45,400 --> 00:47:51,880
+participação ativa da da SBC então agora
+
+1072
+00:47:48,760 --> 00:47:55,040
+a gente tá é formatando um programa de
+
+1073
+00:47:51,880 --> 00:47:58,838
+mestrado profissional em rede justamente
+
+1074
+00:47:55,039 --> 00:48:01,480
+para formar professores que vão atuar
+
+1075
+00:47:58,838 --> 00:48:04,400
+nessas escolas na Educação Básica né é
+
+1076
+00:48:01,480 --> 00:48:07,838
+uma iniciativa assim realmente bem
+
+1077
+00:48:04,400 --> 00:48:11,280
+arrojada digamos assim né estamos
+
+1078
+00:48:07,838 --> 00:48:14,599
+estamos submetendo esse programa A Caps
+
+1079
+00:48:11,280 --> 00:48:18,000
+que abriu uma chamada e
+
+1080
+00:48:14,599 --> 00:48:20,039
+Eh agora em Janeiro a gente vai submeter
+
+1081
+00:48:18,000 --> 00:48:22,239
+é como eu disse é um programa em rede
+
+1082
+00:48:20,039 --> 00:48:24,880
+várias instituições do Brasil vão estar
+
+1083
+00:48:22,239 --> 00:48:26,399
+associadas a esse programa porque a
+
+1084
+00:48:24,880 --> 00:48:28,880
+gente realmente tem de ter uma
+
+1085
+00:48:26,400 --> 00:48:31,160
+capilaridade muito grande na nessa
+
+1086
+00:48:28,880 --> 00:48:33,800
+formação de professores para atender a
+
+1087
+00:48:31,159 --> 00:48:36,838
+todas as escolas do país a SBC também
+
+1088
+00:48:33,800 --> 00:48:40,200
+tem o papel de mostrar como é que as
+
+1089
+00:48:36,838 --> 00:48:43,920
+escolas podem implantar o que a bncc
+
+1090
+00:48:40,199 --> 00:48:48,598
+preconiza Então isso é é é todas essas
+
+1091
+00:48:43,920 --> 00:48:51,639
+atividades né da SBC eh são realizadas
+
+1092
+00:48:48,599 --> 00:48:53,880
+né no contexto da nossa diretoria que
+
+1093
+00:48:51,639 --> 00:48:56,519
+trabalha bastante de maneira voluntária
+
+1094
+00:48:53,880 --> 00:48:58,760
+né os diretores não recebem nada por
+
+1095
+00:48:56,519 --> 00:49:01,440
+isso como eu disse a SBC é uma sociedade
+
+1096
+00:48:58,760 --> 00:49:03,680
+sem fins lucrativos e todo o trabalho
+
+1097
+00:49:01,440 --> 00:49:06,200
+que fazemos lá é voluntário Presidente
+
+1098
+00:49:03,679 --> 00:49:08,598
+vice-presidente diretores conselheiros e
+
+1099
+00:49:06,199 --> 00:49:12,798
+e toda a a comunidade acadêmica que
+
+1100
+00:49:08,599 --> 00:49:12,798
+muito contribui paraa evolução da
+
+1101
+00:49:13,920 --> 00:49:20,159
+SBC muito bem o papel da SBC é muito
+
+1102
+00:49:17,599 --> 00:49:24,838
+importante mesmo né na sociedade na
+
+1103
+00:49:20,159 --> 00:49:27,639
+academia na indústria bem agora mudando
+
+1104
+00:49:24,838 --> 00:49:30,159
+um pouco de assunto mas também eh acho
+
+1105
+00:49:27,639 --> 00:49:32,719
+que dando continuidade àquilo que você
+
+1106
+00:49:30,159 --> 00:49:35,440
+falou né de que a
+
+1107
+00:49:32,719 --> 00:49:37,399
+comunidade no no fim a gente sabe que a
+
+1108
+00:49:35,440 --> 00:49:42,039
+comunidade
+
+1109
+00:49:37,400 --> 00:49:46,680
+eh que envolve a computação ela é
+
+1110
+00:49:42,039 --> 00:49:49,759
+majoritariamente masculina né temos aí a
+
+1111
+00:49:46,679 --> 00:49:52,519
+algumas mulheres e com certeza Hoje nós
+
+1112
+00:49:49,760 --> 00:49:54,000
+temos mais do que tínhamos né Há alguns
+
+1113
+00:49:52,519 --> 00:49:58,838
+anos atrás
+
+1114
+00:49:54,000 --> 00:50:02,039
+eh então então indo nessa nessa linha
+
+1115
+00:49:58,838 --> 00:50:05,358
+nós temos o um outro podcast que é o
+
+1116
+00:50:02,039 --> 00:50:07,920
+emílias podcast mulheres na computação
+
+1117
+00:50:05,358 --> 00:50:10,838
+que faz parte do do nosso programa de
+
+1118
+00:50:07,920 --> 00:50:13,920
+extensão em milas Armação em bits que
+
+1119
+00:50:10,838 --> 00:50:16,318
+por sua vez é parte do meninas digitais
+
+1120
+00:50:13,920 --> 00:50:18,119
+né que é um programa chancelado pela
+
+1121
+00:50:16,318 --> 00:50:21,039
+Sociedade Brasileira de
+
+1122
+00:50:18,119 --> 00:50:22,920
+Computação E aí nós temos uma pergunta
+
+1123
+00:50:21,039 --> 00:50:25,679
+que a gente sempre faz lá que vamos
+
+1124
+00:50:22,920 --> 00:50:27,838
+fazer aqui para você se você já
+
+1125
+00:50:25,679 --> 00:50:31,279
+enfrentou obstáculos ao longo de sua
+
+1126
+00:50:27,838 --> 00:50:34,558
+carreira ou durante sua educação que
+
+1127
+00:50:31,280 --> 00:50:37,000
+você identificou como sendo algo
+
+1128
+00:50:34,559 --> 00:50:42,319
+influenciado pelo fato de você ser
+
+1129
+00:50:37,000 --> 00:50:44,440
+mulher hum excelente pergunta eh eh eu
+
+1130
+00:50:42,318 --> 00:50:47,400
+eu já Participei de algumas
+
+1131
+00:50:44,440 --> 00:50:49,639
+eh entrevistas também no contexto aí do
+
+1132
+00:50:47,400 --> 00:50:53,480
+programas de meninas digitais nos
+
+1133
+00:50:49,639 --> 00:50:54,440
+eventos que eles fazem eh elas fazem na
+
+1134
+00:50:53,480 --> 00:50:57,679
+no
+
+1135
+00:50:54,440 --> 00:51:00,079
+csbc que essa pergunta já apareceu
+
+1136
+00:50:57,679 --> 00:51:04,558
+também bom eu acho que os maiores
+
+1137
+00:51:00,079 --> 00:51:07,839
+obstáculos né Eh que eu enfrentei hoje
+
+1138
+00:51:04,559 --> 00:51:10,400
+em dia talvez não enfrente tanto mas é o
+
+1139
+00:51:07,838 --> 00:51:13,798
+são foram os preconceitos da própria
+
+1140
+00:51:10,400 --> 00:51:17,318
+sociedade né Eh sociedade em geral não
+
+1141
+00:51:13,798 --> 00:51:19,838
+da SBC sobre o fato de ser uma área
+
+1142
+00:51:17,318 --> 00:51:23,119
+majoritariamente masculina então né
+
+1143
+00:51:19,838 --> 00:51:26,358
+várias vezes me questionaram ah uma área
+
+1144
+00:51:23,119 --> 00:51:30,440
+que só tem homens como é que é trabalhar
+
+1145
+00:51:26,358 --> 00:51:33,199
+lá será que durante né Eh digamos a
+
+1146
+00:51:30,440 --> 00:51:36,280
+minha formação isso não aconteceu na
+
+1147
+00:51:33,199 --> 00:51:38,759
+graduação porque eh na minha graduação
+
+1148
+00:51:36,280 --> 00:51:40,920
+na época tinha bastante mulheres na área
+
+1149
+00:51:38,760 --> 00:51:44,079
+minha turma era mais ou menos metade
+
+1150
+00:51:40,920 --> 00:51:46,400
+homem metade mulher formamos oito eh
+
+1151
+00:51:44,079 --> 00:51:48,160
+pessoas né Na graduação onde quatro eram
+
+1152
+00:51:46,400 --> 00:51:50,079
+homens e quatro eram mulheres então lá
+
+1153
+00:51:48,159 --> 00:51:52,558
+naquela época da graduação a gente não
+
+1154
+00:51:50,079 --> 00:51:54,480
+tinha essa disparidade tão grande muitas
+
+1155
+00:51:52,559 --> 00:51:58,040
+vezes as pessoas até me perguntam e onde
+
+1156
+00:51:54,480 --> 00:52:00,679
+é que a co coisa começou a realmente eh
+
+1157
+00:51:58,039 --> 00:52:05,199
+acontecer das mulheres não
+
+1158
+00:52:00,679 --> 00:52:08,919
+eh estarem tão presentes na área né no
+
+1159
+00:52:05,199 --> 00:52:12,439
+mestrado Eu já percebi que tinha começou
+
+1160
+00:52:08,920 --> 00:52:15,760
+a ter mais homens depois no doutorado
+
+1161
+00:52:12,440 --> 00:52:18,639
+também não era tão assim igualitário e
+
+1162
+00:52:15,760 --> 00:52:21,520
+aí justamente nessa época eu acho que
+
+1163
+00:52:18,639 --> 00:52:24,558
+que foi a época que eu recebi mais
+
+1164
+00:52:21,519 --> 00:52:27,759
+questionamentos das pessoas em geral né
+
+1165
+00:52:24,559 --> 00:52:32,079
+seja pessoa da família ou outras pessoas
+
+1166
+00:52:27,760 --> 00:52:35,680
+de porquê né Eh se eu me sentiria bem
+
+1167
+00:52:32,079 --> 00:52:38,680
+numa numa num contexto onde só tinha
+
+1168
+00:52:35,679 --> 00:52:41,480
+homens e mais no mestrado eu
+
+1169
+00:52:38,679 --> 00:52:43,798
+trabalhava Professor luí Fernand Gom
+
+1170
+00:52:41,480 --> 00:52:46,880
+Soares foi meu orientador né tinha um
+
+1171
+00:52:43,798 --> 00:52:49,119
+laboratório lá que tem até hoje o Lab
+
+1172
+00:52:46,880 --> 00:52:52,559
+ele já faleceu há alguns anos mas o
+
+1173
+00:52:49,119 --> 00:52:54,798
+legado dele continua e eh tem um
+
+1174
+00:52:52,559 --> 00:52:57,359
+laboratório que eu trabalhava que era o
+
+1175
+00:52:54,798 --> 00:52:59,639
+telem que a maior parte realmente era de
+
+1176
+00:52:57,358 --> 00:53:02,000
+homens mas eu nunca senti preconceito
+
+1177
+00:52:59,639 --> 00:53:03,838
+por pares dele né e eu acho que
+
+1178
+00:53:02,000 --> 00:53:06,000
+realmente eu tive sorte de ter
+
+1179
+00:53:03,838 --> 00:53:08,239
+encontrado pessoas especiais na minha
+
+1180
+00:53:06,000 --> 00:53:10,679
+trajetória acadêmica meu orientador luí
+
+1181
+00:53:08,239 --> 00:53:13,838
+Fernando ele
+
+1182
+00:53:10,679 --> 00:53:15,798
+eh lá no laboratório tinha poucas
+
+1183
+00:53:13,838 --> 00:53:18,199
+mulheres mas ele sempre incentivava
+
+1184
+00:53:15,798 --> 00:53:21,599
+muito essas mulheres e os os demais
+
+1185
+00:53:18,199 --> 00:53:23,318
+também os os os meus colegas né que
+
+1186
+00:53:21,599 --> 00:53:25,559
+fazem parte do que a gente chama até
+
+1187
+00:53:23,318 --> 00:53:27,358
+hoje de família telemidia então tive
+
+1188
+00:53:25,559 --> 00:53:30,559
+sorte de fazer parte dessa família onde
+
+1189
+00:53:27,358 --> 00:53:33,558
+não havia esse preconceito né mas havia
+
+1190
+00:53:30,559 --> 00:53:37,079
+o preconceito da sociedade de e até hoje
+
+1191
+00:53:33,559 --> 00:53:39,079
+perguntam como é que é est num ambiente
+
+1192
+00:53:37,079 --> 00:53:41,680
+majoritariamente masculino eu acho que
+
+1193
+00:53:39,079 --> 00:53:43,880
+também às vezes depende da sua postura
+
+1194
+00:53:41,679 --> 00:53:46,919
+Eu não me sinto intimidada né num
+
+1195
+00:53:43,880 --> 00:53:49,680
+ambiente assim então eu acho que o fato
+
+1196
+00:53:46,920 --> 00:53:53,079
+de eu não me sentir intimidada também eh
+
+1197
+00:53:49,679 --> 00:53:56,759
+ajuda um pouco né e e muitas vezes as
+
+1198
+00:53:53,079 --> 00:54:00,519
+pessoas dizem Ah mas até assim muitas
+
+1199
+00:53:56,760 --> 00:54:03,119
+vezes eh não é um preconceito explícito
+
+1200
+00:54:00,519 --> 00:54:05,440
+mas os homens ficam interrompendo as
+
+1201
+00:54:03,119 --> 00:54:08,798
+mulheres né porque acham que tem um
+
+1202
+00:54:05,440 --> 00:54:12,639
+direito de fazer isso mas em geral assim
+
+1203
+00:54:08,798 --> 00:54:15,679
+eh Há interrupções há às vezes de uma
+
+1204
+00:54:12,639 --> 00:54:18,798
+forma mais natural interrupções pessoas
+
+1205
+00:54:15,679 --> 00:54:22,558
+que interrompem homens e mulheres e às
+
+1206
+00:54:18,798 --> 00:54:25,159
+vezes talvez eh eh por tá digamos
+
+1207
+00:54:22,559 --> 00:54:30,079
+interrompendo uma mulher mas eu não não
+
+1208
+00:54:25,159 --> 00:54:31,759
+deixo eu não permito eu eh ah ó você tá
+
+1209
+00:54:30,079 --> 00:54:33,720
+me interrompendo Deixa eu terminar que
+
+1210
+00:54:31,760 --> 00:54:36,200
+você fala entendeu alguma coisa desse
+
+1211
+00:54:33,719 --> 00:54:39,039
+tipo então várias vezes até algumas
+
+1212
+00:54:36,199 --> 00:54:42,000
+alunas me perguntam isso ah como agir no
+
+1213
+00:54:39,039 --> 00:54:44,039
+ambiente majoritariamente masculino aí
+
+1214
+00:54:42,000 --> 00:54:47,079
+eu falo Ah eu acho que você deve agir de
+
+1215
+00:54:44,039 --> 00:54:51,239
+uma forma natural de uma forma de igual
+
+1216
+00:54:47,079 --> 00:54:55,400
+para igual com eles e se eh houver
+
+1217
+00:54:51,239 --> 00:54:58,759
+alguma eh ação que mostre preconceito ou
+
+1218
+00:54:55,400 --> 00:55:01,160
+mostre sei lá que tá ali interrompendo
+
+1219
+00:54:58,760 --> 00:55:02,760
+porque acha que você é mulher então que
+
+1220
+00:55:01,159 --> 00:55:05,279
+eles têm mais o direito de falar você
+
+1221
+00:55:02,760 --> 00:55:08,799
+não deixa você
+
+1222
+00:55:05,280 --> 00:55:12,119
+eh diz eu preciso terminar de falar você
+
+1223
+00:55:08,798 --> 00:55:14,400
+fala depois né então eu acho que eh a
+
+1224
+00:55:12,119 --> 00:55:19,039
+gente precisa combater essas coisas se
+
+1225
+00:55:14,400 --> 00:55:21,400
+eu procuro combater eh dessa maneira Mas
+
+1226
+00:55:19,039 --> 00:55:22,960
+como eu disse eu tive muita sorte de ter
+
+1227
+00:55:21,400 --> 00:55:26,200
+durante toda a minha trajetória
+
+1228
+00:55:22,960 --> 00:55:28,159
+acadêmica encontrar pessoas né trabalhar
+
+1229
+00:55:26,199 --> 00:55:29,759
+com muitos homens né no contexto do
+
+1230
+00:55:28,159 --> 00:55:33,199
+laboratório telemidia Como eu disse que
+
+1231
+00:55:29,760 --> 00:55:36,119
+era o meu início e toda continuidade eh
+
+1232
+00:55:33,199 --> 00:55:39,358
+a maioria eram homens e até hoje né Eh
+
+1233
+00:55:36,119 --> 00:55:41,640
+em muitos contextos às vezes eu entrava
+
+1234
+00:55:39,358 --> 00:55:43,400
+alguns anos atrás hoje nem tanto mas
+
+1235
+00:55:41,639 --> 00:55:46,318
+alguns anos atrás eu entrava numa sala
+
+1236
+00:55:43,400 --> 00:55:49,480
+de aula e os alunos Eram todos homens
+
+1237
+00:55:46,318 --> 00:55:52,960
+todos 100% não tinha uma mulher às vezes
+
+1238
+00:55:49,480 --> 00:55:55,318
+Tinha uma mulher eh e aí eu sempre dizia
+
+1239
+00:55:52,960 --> 00:55:57,119
+para ela né você não deve se sentir
+
+1240
+00:55:55,318 --> 00:55:58,358
+intimidada pelos homens então eu acho
+
+1241
+00:55:57,119 --> 00:56:01,240
+que o fato de eu não me sentir
+
+1242
+00:55:58,358 --> 00:56:04,838
+intimidada e não deixar né Eh que
+
+1243
+00:56:01,239 --> 00:56:07,719
+nenhuma eh atitude preconceituosa ela
+
+1244
+00:56:04,838 --> 00:56:10,358
+evolua ajuda muito também e isso eu
+
+1245
+00:56:07,719 --> 00:56:11,519
+aconselho a todas as mulheres não
+
+1246
+00:56:10,358 --> 00:56:16,719
+permitam
+
+1247
+00:56:11,519 --> 00:56:18,559
+eh se sintam eh igual a eles acho que
+
+1248
+00:56:16,719 --> 00:56:21,719
+isso vai
+
+1249
+00:56:18,559 --> 00:56:23,920
+ajudar muito bom então agora a gente tá
+
+1250
+00:56:21,719 --> 00:56:27,118
+chegando na parte final do do nosso
+
+1251
+00:56:23,920 --> 00:56:31,240
+podcast qu a gente pergunta é a pergunta
+
+1252
+00:56:27,119 --> 00:56:33,039
+que define que dá o título do podcast e
+
+1253
+00:56:31,239 --> 00:56:35,159
+a gente sempre gosta de lembrar que pode
+
+1254
+00:56:33,039 --> 00:56:38,079
+ser algo que você acha que vai acontecer
+
+1255
+00:56:35,159 --> 00:56:40,960
+ou que você gostaria que acontecesse em
+
+1256
+00:56:38,079 --> 00:56:43,440
+nossa área para você qual é a próxima
+
+1257
+00:56:40,960 --> 00:56:46,400
+fronteira da engenharia de
+
+1258
+00:56:43,440 --> 00:56:48,679
+software uma excelente Pergunta a gente
+
+1259
+00:56:46,400 --> 00:56:52,480
+sempre fica refletindo né O que vem
+
+1260
+00:56:48,679 --> 00:56:56,960
+depois n desde digamos o início da minha
+
+1261
+00:56:52,480 --> 00:57:01,318
+eh formação na computação o mundo mudou
+
+1262
+00:56:56,960 --> 00:57:05,440
+muito né Eh eu tive uma graduação onde
+
+1263
+00:57:01,318 --> 00:57:07,159
+não existia internet né onde não existia
+
+1264
+00:57:05,440 --> 00:57:10,880
+Google obviamente se não existia
+
+1265
+00:57:07,159 --> 00:57:15,239
+internet não existia nada disso e várias
+
+1266
+00:57:10,880 --> 00:57:18,880
+alunos né Eh perguntam a mim hoje em dia
+
+1267
+00:57:15,239 --> 00:57:21,239
+como é fazer computação sem internet sem
+
+1268
+00:57:18,880 --> 00:57:23,798
+o Google ali foi realmente a base a
+
+1269
+00:57:21,239 --> 00:57:26,439
+gente aprendia tantas linguagens de
+
+1270
+00:57:23,798 --> 00:57:28,440
+programação eu aprendi eu acho que cerca
+
+1271
+00:57:26,440 --> 00:57:30,760
+de umas sete ou oito linguagens de
+
+1272
+00:57:28,440 --> 00:57:32,639
+programação durante minha graduação né
+
+1273
+00:57:30,760 --> 00:57:37,119
+começou com
+
+1274
+00:57:32,639 --> 00:57:42,480
+fortran depois Basic Pascal
+
+1275
+00:57:37,119 --> 00:57:46,240
+cobol lisp prolog enfim e por assemble e
+
+1276
+00:57:42,480 --> 00:57:49,960
+por aí vai Mas aí As coisas mudaram
+
+1277
+00:57:46,239 --> 00:57:53,000
+muito ao longo dos anos né e uma
+
+1278
+00:57:49,960 --> 00:57:55,599
+transformação digital assim imensa e
+
+1279
+00:57:53,000 --> 00:57:57,358
+qual será a próxima qual será a próxima
+
+1280
+00:57:55,599 --> 00:58:01,119
+Fronteira é uma boa pergunta que a gente
+
+1281
+00:57:57,358 --> 00:58:03,239
+sempre fica refletindo eu creio que e eu
+
+1282
+00:58:01,119 --> 00:58:05,400
+assim também não só creio Mas eu também
+
+1283
+00:58:03,239 --> 00:58:10,038
+gostaria que
+
+1284
+00:58:05,400 --> 00:58:12,079
+eh uma dessas dessas próximas fronteiras
+
+1285
+00:58:10,039 --> 00:58:15,839
+porque eu acho que são várias né mas uma
+
+1286
+00:58:12,079 --> 00:58:17,960
+das próximas fosse eh um o
+
+1287
+00:58:15,838 --> 00:58:22,679
+desenvolvimento sustentável do
+
+1288
+00:58:17,960 --> 00:58:25,960
+software né Isso já tá eh eh em voga
+
+1289
+00:58:22,679 --> 00:58:28,038
+digamos assim já é um a assunto que vem
+
+1290
+00:58:25,960 --> 00:58:30,400
+sendo discutido em vários contextos esse
+
+1291
+00:58:28,039 --> 00:58:33,000
+ano inclusive eu tive numa conferência
+
+1292
+00:58:30,400 --> 00:58:35,240
+na França onde eu fui cer do comitê de
+
+1293
+00:58:33,000 --> 00:58:38,239
+programa que era sobre sustentabilidade
+
+1294
+00:58:35,239 --> 00:58:40,558
+justamente eh sustentabilidade em vários
+
+1295
+00:58:38,239 --> 00:58:42,838
+sentidos e o desenvolvimento sustentável
+
+1296
+00:58:40,559 --> 00:58:45,039
+de software é um ponto que eu acho que o
+
+1297
+00:58:42,838 --> 00:58:48,759
+foco na criação do software sustentável
+
+1298
+00:58:45,039 --> 00:58:51,119
+é muito importante né que eh nesse
+
+1299
+00:58:48,760 --> 00:58:53,839
+desenvolvimento do softw se Observe não
+
+1300
+00:58:51,119 --> 00:58:56,000
+apenas os requisitos funcionais mas
+
+1301
+00:58:53,838 --> 00:58:58,519
+também vários aspectos de
+
+1302
+00:58:56,000 --> 00:59:01,000
+sustentabilidade né que ele seja
+
+1303
+00:58:58,519 --> 00:59:03,960
+eficiente em termos de uso dos recursos
+
+1304
+00:59:01,000 --> 00:59:06,039
+né os recursos realmente estão cada vez
+
+1305
+00:59:03,960 --> 00:59:08,480
+mais escassos os softwares estão
+
+1306
+00:59:06,039 --> 00:59:12,319
+precisando cada vez mais de recursos e
+
+1307
+00:59:08,480 --> 00:59:16,920
+Justamente esse tradeoff ele precisa ser
+
+1308
+00:59:12,318 --> 00:59:18,719
+eh muito bem eh eh solucionado né então
+
+1309
+00:59:16,920 --> 00:59:21,400
+o desenvolvimento de software el tem
+
+1310
+00:59:18,719 --> 00:59:24,199
+beneficiar a sustentabilidade tende
+
+1311
+00:59:21,400 --> 00:59:26,760
+também obviamente eh um um outro Grande
+
+1312
+00:59:24,199 --> 00:59:29,279
+Desafio a questão de segurança a gente
+
+1313
+00:59:26,760 --> 00:59:32,680
+vê tantos problemas de segurança né de
+
+1314
+00:59:29,280 --> 00:59:35,440
+fraudes relacionados com eh o uso de
+
+1315
+00:59:32,679 --> 00:59:39,000
+software né softwares bancários e to
+
+1316
+00:59:35,440 --> 00:59:41,760
+todos os em todos os domínios bem como a
+
+1317
+00:59:39,000 --> 00:59:44,000
+questão ética né Essa questão ética é
+
+1318
+00:59:41,760 --> 00:59:46,760
+muito importante também é outro aspecto
+
+1319
+00:59:44,000 --> 00:59:49,440
+que já tem sido bastante falado a gente
+
+1320
+00:59:46,760 --> 00:59:51,599
+precisa evoluir muito nesse ponto então
+
+1321
+00:59:49,440 --> 00:59:54,240
+acho que a sustentabilidade também
+
+1322
+00:59:51,599 --> 00:59:56,880
+inclui a ética e isso é muito importante
+
+1323
+00:59:54,239 --> 00:59:59,439
+então Eu gostaria muito de que a próxima
+
+1324
+00:59:56,880 --> 01:00:01,160
+Fronteira trouxesse avanços
+
+1325
+00:59:59,440 --> 01:00:03,200
+consideráveis nessa parte de
+
+1326
+01:00:01,159 --> 01:00:05,239
+desenvolvimento sustentável de software
+
+1327
+01:00:03,199 --> 01:00:07,558
+né eu sei que outro ponto que é muito
+
+1328
+01:00:05,239 --> 01:00:10,318
+discutido hoje é o uso da Inteligência
+
+1329
+01:00:07,559 --> 01:00:12,798
+Artificial né tá sendo aí eh discutido
+
+1330
+01:00:10,318 --> 01:00:16,159
+em todos os âmbitos para o
+
+1331
+01:00:12,798 --> 01:00:20,280
+desenvolvimento de software não os de a
+
+1332
+01:00:16,159 --> 01:00:23,519
+no digamos assim como uma ferramenta lá
+
+1333
+01:00:20,280 --> 01:00:25,119
+dentro mas também os avanços de I eh em
+
+1334
+01:00:23,519 --> 01:00:27,759
+termos de aprendizagem de máquina
+
+1335
+01:00:25,119 --> 01:00:31,680
+aprendizado profundo redes neuronais por
+
+1336
+01:00:27,760 --> 01:00:34,520
+exemplo e modelos de linguagem que eh se
+
+1337
+01:00:31,679 --> 01:00:37,838
+discute muito que vão facilitar o
+
+1338
+01:00:34,519 --> 01:00:40,559
+desenvolvimento de software que eh que
+
+1339
+01:00:37,838 --> 01:00:43,358
+um um aspecto que é muito discutido é
+
+1340
+01:00:40,559 --> 01:00:46,319
+que vai os programadores não vão mais
+
+1341
+01:00:43,358 --> 01:00:48,078
+ter o trabalho de programar de codificar
+
+1342
+01:00:46,318 --> 01:00:51,000
+o software né ele vai ser todo
+
+1343
+01:00:48,079 --> 01:00:52,920
+codificado através de mecanismo de
+
+1344
+01:00:51,000 --> 01:00:56,760
+Inteligência Artificial não sei até que
+
+1345
+01:00:52,920 --> 01:00:58,519
+ponto a gente vai chegar eh nesse nesse
+
+1346
+01:00:56,760 --> 01:01:01,880
+sentido mas certamente a gente vai
+
+1347
+01:00:58,519 --> 01:01:04,519
+evoluir muito né e não não acho que os
+
+1348
+01:01:01,880 --> 01:01:07,400
+programadores vão perder seus empregos
+
+1349
+01:01:04,519 --> 01:01:09,798
+completamente mas que eles vão ter
+
+1350
+01:01:07,400 --> 01:01:11,720
+grande ajuda da Inteligência Artificial
+
+1351
+01:01:09,798 --> 01:01:15,159
+Sem dúvida Então acho que as próximas
+
+1352
+01:01:11,719 --> 01:01:18,159
+fronteiras né estão relacionadas com
+
+1353
+01:01:15,159 --> 01:01:21,920
+esses e outros aspectos também né cyber
+
+1354
+01:01:18,159 --> 01:01:21,920
+securite é o outro ponto muito
+
+1355
+01:01:22,000 --> 01:01:26,880
+importante muito bem então muito obri
+
+1356
+01:01:24,480 --> 01:01:28,798
+Obrigado professora thí Batista eu passo
+
+1357
+01:01:26,880 --> 01:01:32,039
+a palavra para você se despedir dos
+
+1358
+01:01:28,798 --> 01:01:35,318
+nossos e nossos ouvintes bom Eu quem
+
+1359
+01:01:32,039 --> 01:01:38,400
+agradeço a vocês por trazerem questões
+
+1360
+01:01:35,318 --> 01:01:41,358
+tão assim importantes por trazerem
+
+1361
+01:01:38,400 --> 01:01:44,440
+discussões que certamente n vão ser
+
+1362
+01:01:41,358 --> 01:01:47,239
+interessantes para aí o público gostaria
+
+1363
+01:01:44,440 --> 01:01:50,000
+de parabenizá-los por essa iniciativa e
+
+1364
+01:01:47,239 --> 01:01:51,719
+dizer que eu estou sempre à disposição
+
+1365
+01:01:50,000 --> 01:01:53,519
+seja como pesquisadora da área de
+
+1366
+01:01:51,719 --> 01:01:56,919
+engenharia do software seja como
+
+1367
+01:01:53,519 --> 01:01:59,318
+presidente da sb no momento atual né
+
+1368
+01:01:56,920 --> 01:02:01,639
+gostaria de dizer que essa iniciativa de
+
+1369
+01:01:59,318 --> 01:02:04,798
+vocês engrandece bastante a comunidade
+
+1370
+01:02:01,639 --> 01:02:07,598
+contribui bastante pra comunidade e eu
+
+1371
+01:02:04,798 --> 01:02:09,278
+só tenho agradecer por vocês terem feito
+
+1372
+01:02:07,599 --> 01:02:14,278
+esse convite e terem me dado a
+
+1373
+01:02:09,278 --> 01:02:14,278
+oportunidade de falar de assuntos tão
+
+1374
+01:02:14,798 --> 01:02:22,239
+relevantes assim fechamos o episódio e
+
+1375
+01:02:19,559 --> 01:02:25,079
+do Fronteiras da engenharia de software
+
+1376
+01:02:22,239 --> 01:02:28,199
+agradecemos a todos os nossos e as
+
+1377
+01:02:25,079 --> 01:02:31,960
+nossas ouvintes e até o próximo
+
+1378
+01:02:28,199 --> 01:02:31,960
+episódio tchau
+
+1379
+01:02:32,000 --> 01:02:37,920
+obrigada Este é o podcast Fronteiras da
+
+1380
+01:02:35,159 --> 01:02:40,318
+engenharia de software um podcast para
+
+1381
+01:02:37,920 --> 01:02:43,200
+refletir sobre o presente e o futuro da
+
+1382
+01:02:40,318 --> 01:02:46,239
+nossa área publicamos mensalmente entre
+
+1383
+01:02:43,199 --> 01:02:48,038
+os dias 15 e 20 de cada mês episódios em
+
+1384
+01:02:46,239 --> 01:02:50,558
+que entrevistamos pesquisadores e
+
+1385
+01:02:48,039 --> 01:02:52,278
+pesquisadores da engenharia de software
+
+1386
+01:02:50,559 --> 01:02:54,880
+também realizamos palestras que são
+
+1387
+01:02:52,278 --> 01:02:57,039
+publicadas em nosso canal no YouTube
+
+1388
+01:02:54,880 --> 01:02:59,519
+nosso objetivo é levar o conhecimento
+
+1389
+01:02:57,039 --> 01:03:02,400
+científico para profissionais da área
+
+1390
+01:02:59,519 --> 01:03:04,239
+para outros cientistas escute nossos
+
+1391
+01:03:02,400 --> 01:03:08,079
+episódios na sua plataforma de áudio
+
+1392
+01:03:04,239 --> 01:03:11,639
+favorita Spotify Apple podcasts anchor
+
+1393
+01:03:08,079 --> 01:03:13,119
+ou outras ou ainda no YouTube nosso site
+
+1394
+01:03:11,639 --> 01:03:15,558
+é
+
+1395
+01:03:13,119 --> 01:03:18,318
+fronteiras
+
+1396
+01:03:15,559 --> 01:03:21,559
+github.io Estamos também no Twitter e no
+
+1397
+01:03:18,318 --> 01:03:21,558
+Instagram como
+
+1398
+01:03:23,278 --> 01:03:27,760
+@frases Y

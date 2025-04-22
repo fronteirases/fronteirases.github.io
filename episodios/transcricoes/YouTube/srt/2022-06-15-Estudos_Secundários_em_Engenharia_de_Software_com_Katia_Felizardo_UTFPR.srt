@@ -1,0 +1,4795 @@
+1
+00:00:00,000 --> 00:00:02,000
+e
+
+2
+00:00:04,370 --> 00:00:09,960
+isso é o podcast Fronteiras da
+
+3
+00:00:07,440 --> 00:00:12,300
+engenharia de software o podcast para
+
+4
+00:00:09,960 --> 00:00:14,759
+refletir sobre o presente e o futuro da
+
+5
+00:00:12,300 --> 00:00:17,278
+nossa área este podcast tem o apoio da
+
+6
+00:00:14,759 --> 00:00:19,939
+Azul innovation empresa que cria
+
+7
+00:00:17,278 --> 00:00:23,939
+tecnologia impulsiona o crescimento
+
+8
+00:00:19,939 --> 00:00:23,939
+exponencial do
+
+9
+00:00:24,789 --> 00:00:28,630
+o
+
+10
+00:00:25,919 --> 00:00:31,300
+Olá eu sou Adolfo Neto professor da
+
+11
+00:00:28,629 --> 00:00:33,219
+UTFPR Curitiba hoje no Fronteiras da
+
+12
+00:00:31,300 --> 00:00:36,219
+engenharia de software vamos conversar
+
+13
+00:00:33,219 --> 00:00:39,338
+com Kátia Felizardo professora na UTFPR
+
+14
+00:00:36,219 --> 00:00:41,620
+Cornélio Procópio o tema do episódio de
+
+15
+00:00:39,338 --> 00:00:43,780
+hoje será estudos secundários em
+
+16
+00:00:41,619 --> 00:00:45,399
+engenharia de software tudo bem Kátia
+
+17
+00:00:43,780 --> 00:00:47,768
+você pode se apresentar para as pessoas
+
+18
+00:00:45,399 --> 00:00:50,408
+que me escutam Oi Adolfo pegada
+
+19
+00:00:47,768 --> 00:00:53,109
+inicialmente pelo convite como você já
+
+20
+00:00:50,408 --> 00:00:56,588
+me ensinou professora da ALCA F do
+
+21
+00:00:53,109 --> 00:00:59,649
+campus daqui de conecta op é atualmente
+
+22
+00:00:56,588 --> 00:01:02,829
+também estou coordenando o nosso espaço
+
+23
+00:00:59,649 --> 00:01:05,879
+profissional dpgi a minha área de
+
+24
+00:01:02,829 --> 00:01:09,548
+pesquisa é sobre isso funcionários né
+
+25
+00:01:05,879 --> 00:01:10,929
+daí de resposta e aí eu gosto quando eu
+
+26
+00:01:09,549 --> 00:01:13,118
+vou me apresentar e falar que ele também
+
+27
+00:01:10,930 --> 00:01:15,640
+muitas vezes conhecida como a mãe da Ana
+
+28
+00:01:13,118 --> 00:01:18,040
+Clara quando a gente vai para escola a
+
+29
+00:01:15,640 --> 00:01:20,530
+gente deixa de ser caixa e passa a ser a
+
+30
+00:01:18,040 --> 00:01:22,960
+mãe da Ana Clara é verdade eu passei por
+
+31
+00:01:20,530 --> 00:01:27,079
+essa fase agora minha já tá adulta né
+
+32
+00:01:22,959 --> 00:01:29,329
+então já não não me e assim mas o nosso
+
+33
+00:01:27,079 --> 00:01:31,819
+tema como a gente já já falou aqui
+
+34
+00:01:29,329 --> 00:01:33,469
+estudo secundário eu me lembro de ter
+
+35
+00:01:31,819 --> 00:01:36,649
+conhecido você tá verdade eu acho que
+
+36
+00:01:33,469 --> 00:01:38,810
+foi lá no CD sofre de 2017 vocês deu um
+
+37
+00:01:36,650 --> 00:01:40,760
+tutorial eu acho sobre revisão
+
+38
+00:01:38,810 --> 00:01:43,490
+sistemática depois eu chamei você aqui
+
+39
+00:01:40,760 --> 00:01:45,650
+para o IFPR Curitiba para falar com os
+
+40
+00:01:43,489 --> 00:01:47,509
+alunos de metodologia de pesquisa e
+
+41
+00:01:45,650 --> 00:01:49,640
+outros convidados então começa
+
+42
+00:01:47,510 --> 00:01:51,440
+explicando para gente porque isso é
+
+43
+00:01:49,640 --> 00:01:54,109
+importante esse tipo de estudo é
+
+44
+00:01:51,439 --> 00:01:56,329
+importante não só para o pesquisador mas
+
+45
+00:01:54,109 --> 00:01:57,859
+também para o desenvolvedor para pessoa
+
+46
+00:01:56,329 --> 00:02:00,170
+de mercado que quer saber o que é que a
+
+47
+00:01:57,859 --> 00:02:03,019
+pesquisa tá dizendo o que é um estudo
+
+48
+00:02:00,170 --> 00:02:05,719
+secundário tem que falar então Pinheirão
+
+49
+00:02:03,019 --> 00:02:08,689
+do estudo secundário é porque existe o
+
+50
+00:02:05,719 --> 00:02:12,590
+primário né então a para entender a
+
+51
+00:02:08,689 --> 00:02:14,079
+importância do secundário a gente tem a
+
+52
+00:02:12,590 --> 00:02:16,099
+grande área na
+
+53
+00:02:14,080 --> 00:02:18,440
+resposta que a engenharia de software
+
+54
+00:02:16,099 --> 00:02:22,219
+baseada em evidências essa área é uma
+
+55
+00:02:18,439 --> 00:02:25,590
+das principais fontes para a obtenção de
+
+56
+00:02:22,219 --> 00:02:27,930
+informação científica e até a engenharia
+
+57
+00:02:25,590 --> 00:02:29,520
+de software baseada nas evidências que a
+
+58
+00:02:27,930 --> 00:02:32,340
+gente prover o conhecimento dessas
+
+59
+00:02:29,520 --> 00:02:34,170
+técnicas e os métodos as ferramentas
+
+60
+00:02:32,340 --> 00:02:38,640
+para desenvolver o software de qualidade
+
+61
+00:02:34,169 --> 00:02:40,549
+então sim a gente ué te informações a
+
+62
+00:02:38,639 --> 00:02:42,449
+respeito dessas
+
+63
+00:02:40,550 --> 00:02:45,360
+desconhecimento para passar por
+
+64
+00:02:42,449 --> 00:02:47,909
+profissional da quando a gente vai
+
+65
+00:02:45,360 --> 00:02:51,060
+construir esse conhecimento a gente
+
+66
+00:02:47,909 --> 00:02:53,370
+desenvolve os chamados primários então a
+
+67
+00:02:51,060 --> 00:02:56,159
+gente conduza ali o estudo de caso o
+
+68
+00:02:53,370 --> 00:02:58,409
+experimento controlado no surf e que são
+
+69
+00:02:56,159 --> 00:03:00,269
+os denominados sublimar eu gosto de
+
+70
+00:02:58,409 --> 00:03:02,849
+sempre ressaltar quando a gente fala
+
+71
+00:03:00,269 --> 00:03:05,129
+utilização do termo primário é que uma
+
+72
+00:03:02,849 --> 00:03:08,609
+tradição que eu gosto muito primário ser
+
+73
+00:03:05,129 --> 00:03:11,250
+isolado então eu caixa desenvolvo a
+
+74
+00:03:08,610 --> 00:03:14,940
+respeito pesquisa sobre uma determinada
+
+75
+00:03:11,250 --> 00:03:18,930
+técnica vamos por uma técnica x de teste
+
+76
+00:03:14,939 --> 00:03:20,280
+de só você adultos têm a gente parceria
+
+77
+00:03:18,930 --> 00:03:23,099
+de pesquisa também posso fazer
+
+78
+00:03:20,280 --> 00:03:26,709
+envolvendo primários individuais a
+
+79
+00:03:23,098 --> 00:03:28,839
+respeito dessa mesma até Oi e aí eu vou
+
+80
+00:03:26,709 --> 00:03:31,000
+cobrir com esse esse trabalho esse
+
+81
+00:03:28,840 --> 00:03:35,590
+conhecimento você também pública esse
+
+82
+00:03:31,000 --> 00:03:36,870
+esse é só que uma limitação que a gente
+
+83
+00:03:35,590 --> 00:03:39,789
+tem com relação aos trabalhos
+
+84
+00:03:36,870 --> 00:03:41,500
+individuais ou primários eles não são
+
+85
+00:03:39,789 --> 00:03:43,810
+suficientes para a generalização dos
+
+86
+00:03:41,500 --> 00:03:45,759
+resultados então eu não posso pegar sol
+
+87
+00:03:43,810 --> 00:03:48,489
+meu trabalho conduzido dentro do
+
+88
+00:03:45,759 --> 00:03:51,009
+contexto específico de um estudo de caso
+
+89
+00:03:48,489 --> 00:03:54,069
+e fazer afirmações do tipo que a técnica
+
+90
+00:03:51,009 --> 00:03:56,739
+x e a mais indicada é um de temática do
+
+91
+00:03:54,068 --> 00:03:58,119
+texto por exemplo movimento acho que eu
+
+92
+00:03:56,739 --> 00:04:00,730
+não posso pegar só o meu e o seu
+
+93
+00:03:58,120 --> 00:04:04,090
+trabalho e com base nesses dois
+
+94
+00:04:00,729 --> 00:04:08,259
+resultados é criar esse generalização
+
+95
+00:04:04,090 --> 00:04:10,479
+então é devido a essa limitação dos
+
+96
+00:04:08,259 --> 00:04:13,120
+estudos primários e que surgiu a
+
+97
+00:04:10,479 --> 00:04:15,179
+necessidade da condução de estudos seco
+
+98
+00:04:13,120 --> 00:04:19,209
+Então os estudos secundários
+
+99
+00:04:15,180 --> 00:04:21,569
+eles tem como objetivo identificar é
+
+100
+00:04:19,209 --> 00:04:25,449
+avaliar e interpretar as suas pesquisas
+
+101
+00:04:21,569 --> 00:04:29,120
+primárias sobre um determinado top a
+
+102
+00:04:25,449 --> 00:04:31,759
+sintetizar essas evidências de 6 através
+
+103
+00:04:29,120 --> 00:04:33,788
+de métodos sejam transparentes e e
+
+104
+00:04:31,759 --> 00:04:37,189
+paciente já opção de
+
+105
+00:04:33,788 --> 00:04:39,259
+verificações pra tirar suas respostas
+
+106
+00:04:37,189 --> 00:04:42,379
+que os primeiros sozinhos não conseguem
+
+107
+00:04:39,259 --> 00:04:46,250
+então por exemplo eu conduzindo assim de
+
+108
+00:04:42,379 --> 00:04:49,419
+toda a literatura sobre aquela técnica x
+
+109
+00:04:46,250 --> 00:04:51,949
+de teste de Thor aí sim eu consigo fazer
+
+110
+00:04:49,418 --> 00:04:53,779
+comparativos de internos de eficiência
+
+111
+00:04:51,949 --> 00:04:56,360
+da técnica mais adequada com um
+
+112
+00:04:53,779 --> 00:05:00,500
+determinado contexto Então esse é o
+
+113
+00:04:56,360 --> 00:05:03,379
+grande poder aí dá um bar e aí essas
+
+114
+00:05:00,500 --> 00:05:05,269
+respostas elas podem essa usadas pelos
+
+115
+00:05:03,379 --> 00:05:08,210
+profissionais quando eles tiverem que
+
+116
+00:05:05,269 --> 00:05:09,948
+tomar uma determinada decisão aí eu acho
+
+117
+00:05:08,209 --> 00:05:11,568
+interessante que nesse período agora de
+
+118
+00:05:09,949 --> 00:05:14,419
+convido a gente ouviu muito falar de
+
+119
+00:05:11,569 --> 00:05:15,830
+qualidade de estudos né Até em alguns
+
+120
+00:05:14,418 --> 00:05:18,769
+casos olha não mas isso aqui é uma
+
+121
+00:05:15,829 --> 00:05:20,300
+revisão sistemática e aí Talvez é eu vou
+
+122
+00:05:18,769 --> 00:05:22,370
+complementar antes da próxima pergunta
+
+123
+00:05:20,300 --> 00:05:24,980
+por que também foi uma coisa que surgiu
+
+124
+00:05:22,370 --> 00:05:28,800
+que foi a questão do a olha até aqui o a
+
+125
+00:05:24,980 --> 00:05:30,780
+temática de 100 artigos mas aí eu alguém
+
+126
+00:05:28,800 --> 00:05:33,060
+que era um pesquisador mais experiente é
+
+127
+00:05:30,779 --> 00:05:35,699
+a Ok hessen artigos mas estão publicados
+
+128
+00:05:33,060 --> 00:05:37,439
+em revistas ruins em revistas tem
+
+129
+00:05:35,699 --> 00:05:39,930
+revisão por pares isso também é
+
+130
+00:05:37,439 --> 00:05:43,139
+relevante né a qualidade dos estudos faz
+
+131
+00:05:39,930 --> 00:05:46,560
+uma revisão sistemática sim dentro do
+
+132
+00:05:43,139 --> 00:05:49,560
+processo de condução da revisão
+
+133
+00:05:46,560 --> 00:05:52,829
+sistemática no momento que a gente vai
+
+134
+00:05:49,560 --> 00:05:56,699
+fazer a classificação né dou a seleção
+
+135
+00:05:52,829 --> 00:06:00,560
+dos estudos a gente define critérios de
+
+136
+00:05:56,699 --> 00:06:03,110
+inclusão e exclusão desses tubos para
+
+137
+00:06:00,560 --> 00:06:06,418
+imprimir né dentro do
+
+138
+00:06:03,110 --> 00:06:09,330
+daqueles que vão ser sintetizados apenas
+
+139
+00:06:06,418 --> 00:06:11,789
+os relevantes e que tenham uma qualidade
+
+140
+00:06:09,329 --> 00:06:14,849
+metodológica para responder as questões
+
+141
+00:06:11,790 --> 00:06:18,150
+então e aí só complementando que você
+
+142
+00:06:14,850 --> 00:06:20,220
+falou da questão da pandemia né e eu
+
+143
+00:06:18,149 --> 00:06:22,709
+tenho revisão sistemática a tua boca é
+
+144
+00:06:20,220 --> 00:06:25,510
+sendo mais difundido Talvez seja a
+
+145
+00:06:22,709 --> 00:06:29,259
+ligação da revisão sistemática o mundo
+
+146
+00:06:25,509 --> 00:06:32,129
+da área de piscina então a gente começou
+
+147
+00:06:29,259 --> 00:06:35,949
+a revisão sistemática na comparação
+
+148
+00:06:32,129 --> 00:06:38,290
+2004/2007 teve uma publicação os cadiles
+
+149
+00:06:35,949 --> 00:06:40,930
+e ali foi uma produção né mas a
+
+150
+00:06:38,290 --> 00:06:42,600
+contextualização do processo da Medicina
+
+151
+00:06:40,930 --> 00:06:45,040
+pra engenharia da computação
+
+152
+00:06:42,600 --> 00:06:47,970
+especialmente a litragem território
+
+153
+00:06:45,040 --> 00:06:50,860
+então é um método muito usado
+
+154
+00:06:47,970 --> 00:06:53,950
+na medicina desde a graduação os alunos
+
+155
+00:06:50,860 --> 00:06:56,259
+acabam já sendo ensinados a fazer um uso
+
+156
+00:06:53,949 --> 00:06:58,810
+consumir em revisões sistemáticas né
+
+157
+00:06:56,259 --> 00:07:01,599
+então é um termo aí que hoje quando eu
+
+158
+00:06:58,810 --> 00:07:03,759
+vou ministrar uma aula de matemática não
+
+159
+00:07:01,600 --> 00:07:06,490
+precisa mais ficar o significado de
+
+160
+00:07:03,759 --> 00:07:09,069
+protocolo e infelizmente de todo mundo
+
+161
+00:07:06,490 --> 00:07:11,340
+hoje conhece e devido a corrida aí que
+
+162
+00:07:09,069 --> 00:07:14,079
+tinha um protocolo de
+
+163
+00:07:11,339 --> 00:07:15,969
+estabelecido é legal eu mesmo lembro que
+
+164
+00:07:14,079 --> 00:07:17,680
+eu aposto que eu acho que é o primeiro a
+
+165
+00:07:15,970 --> 00:07:20,260
+primeira revisão sistemática que eu vi
+
+166
+00:07:17,680 --> 00:07:22,780
+foi uma do Thor de Badoo a gente não
+
+167
+00:07:20,259 --> 00:07:24,370
+sabe pronunciator de barra e outra
+
+168
+00:07:22,779 --> 00:07:25,969
+pessoa que o nome ainda mais difícil mas
+
+169
+00:07:24,370 --> 00:07:29,959
+o interesse Oi gente entrevistou uma
+
+170
+00:07:25,970 --> 00:07:32,090
+colega deles a Daniela Cruzes lá no na
+
+171
+00:07:29,959 --> 00:07:34,728
+primeira temporada era uma revisão
+
+172
+00:07:32,089 --> 00:07:36,769
+sistemática sobre métodos ages e um dia
+
+173
+00:07:34,728 --> 00:07:39,288
+desse eu fui olhar tinha sei lá duas mil
+
+174
+00:07:36,769 --> 00:07:41,810
+citações é é outra questão também que
+
+175
+00:07:39,288 --> 00:07:45,019
+que a curiosa revisões sistemáticas são
+
+176
+00:07:41,810 --> 00:07:47,240
+muito bem citados mas a A pergunta agora
+
+177
+00:07:45,019 --> 00:07:50,870
+é qual foi a sua motivação para iniciar
+
+178
+00:07:47,240 --> 00:07:53,300
+sua pesquisa nesse tema eu tive ao Fábio
+
+179
+00:07:50,870 --> 00:07:57,288
+que hoje tem essa consciência eu tive
+
+180
+00:07:53,300 --> 00:08:00,468
+muita sorte de ter ganho de presente o
+
+181
+00:07:57,288 --> 00:08:03,318
+tema da revisão sistemática é eu comecei
+
+182
+00:08:00,468 --> 00:08:06,949
+o meu doutorado em 2008 o meu orientador
+
+183
+00:08:03,319 --> 00:08:10,280
+era o professor Maldonado né e na época
+
+184
+00:08:06,949 --> 00:08:13,250
+que ele já tinha trabalhado no artigo
+
+185
+00:08:10,279 --> 00:08:16,489
+anterior ao meu doutorado junto com a
+
+186
+00:08:13,250 --> 00:08:19,839
+Viviane a Viviane Malheiros que foi a já
+
+187
+00:08:16,490 --> 00:08:23,870
+tinha começado a temporada antes do
+
+188
+00:08:19,839 --> 00:08:27,449
+INPI afl trabalhou em colaboração com o
+
+189
+00:08:23,870 --> 00:08:31,620
+Roberto O que é a Viviane era de gerir
+
+190
+00:08:27,449 --> 00:08:34,439
+sofre do grupo e o Roberto Ele era de
+
+191
+00:08:31,620 --> 00:08:36,830
+visualização de mineração de dados e
+
+192
+00:08:34,440 --> 00:08:40,229
+junto o o
+
+193
+00:08:36,830 --> 00:08:44,190
+mal do navio com o Manuel Mendonça eles
+
+194
+00:08:40,229 --> 00:08:46,379
+tinham conduzido uma aplicação de visual
+
+195
+00:08:44,190 --> 00:08:48,690
+teste miles no processo de revisão
+
+196
+00:08:46,379 --> 00:08:51,689
+sistemática então foi ali no ano de 2007
+
+197
+00:08:48,690 --> 00:08:53,640
+quando começou praticamente a temática
+
+198
+00:08:51,690 --> 00:08:56,940
+dentro da computação e aí obra na
+
+199
+00:08:53,639 --> 00:08:58,919
+sequência eu comecei o doutorado e tinha
+
+200
+00:08:56,940 --> 00:09:01,800
+só esse esse esse trabalho bem
+
+201
+00:08:58,919 --> 00:09:04,620
+bilionário a respeito da do como
+
+202
+00:09:01,799 --> 00:09:07,588
+auxiliar Cristão de estudos através de
+
+203
+00:09:04,620 --> 00:09:11,730
+técnicas de visualização mineração E aí
+
+204
+00:09:07,589 --> 00:09:14,089
+uma marido me apresentou esse tema E aí
+
+205
+00:09:11,730 --> 00:09:17,639
+eu comecei a
+
+206
+00:09:14,089 --> 00:09:19,650
+identificar trabalhar o com isso E aí eu
+
+207
+00:09:17,639 --> 00:09:22,409
+falo que tem características das edições
+
+208
+00:09:19,649 --> 00:09:25,899
+temáticas que eu tenho eu já fazia que
+
+209
+00:09:22,409 --> 00:09:29,129
+eu lembro assim de colegial e em
+
+210
+00:09:25,899 --> 00:09:33,309
+características mesmo do processo né de
+
+211
+00:09:29,129 --> 00:09:34,570
+botar de sintetizados de resumo então
+
+212
+00:09:33,309 --> 00:09:37,029
+era um ato que eu já tinha ter
+
+213
+00:09:34,570 --> 00:09:40,600
+identifiquei bastante com o processo da
+
+214
+00:09:37,029 --> 00:09:44,199
+da questão de diretora e classificação
+
+215
+00:09:40,600 --> 00:09:47,050
+então foi praticamente um presente ter
+
+216
+00:09:44,200 --> 00:09:50,560
+recebido o tema não foi uma escolha
+
+217
+00:09:47,049 --> 00:09:52,509
+minha gente atrás do tema né Eu
+
+218
+00:09:50,559 --> 00:09:56,709
+praticamente receber de presente o tema
+
+219
+00:09:52,509 --> 00:09:59,860
+de resposta e aí ele foi muito legal é
+
+220
+00:09:56,710 --> 00:10:04,060
+que como era um trabalho o nisso junto o
+
+221
+00:09:59,860 --> 00:10:07,090
+surgimento da área é hoje é interessante
+
+222
+00:10:04,059 --> 00:10:09,819
+você tá dentro do amadurecimento da área
+
+223
+00:10:07,090 --> 00:10:11,440
+né então você começar junto quando
+
+224
+00:10:09,820 --> 00:10:13,720
+começou a falar se dinheiro não
+
+225
+00:10:11,440 --> 00:10:17,800
+sistemática na área e aí você conseguir
+
+226
+00:10:13,720 --> 00:10:19,899
+acompanhar o avanço a maturidade em
+
+227
+00:10:17,799 --> 00:10:22,659
+termos pesquisas melhorias no lugar de
+
+228
+00:10:19,899 --> 00:10:24,799
+Las então foi foi dessa maneira que eu
+
+229
+00:10:22,659 --> 00:10:25,539
+comecei a
+
+230
+00:10:24,799 --> 00:10:27,769
+a
+
+231
+00:10:25,539 --> 00:10:30,019
+matemática revisão sistemática do que
+
+232
+00:10:27,769 --> 00:10:32,990
+aconteceu procurar uma coisa que eu
+
+233
+00:10:30,019 --> 00:10:35,419
+percebi também da Medicina que existem
+
+234
+00:10:32,990 --> 00:10:38,149
+eu acho que nem vidro só pra gente ver
+
+235
+00:10:35,419 --> 00:10:39,669
+mais mapeamento sistemático e revisão
+
+236
+00:10:38,149 --> 00:10:42,169
+sistemática mas existe também
+
+237
+00:10:39,669 --> 00:10:45,019
+meta-análise né existe até estudo
+
+238
+00:10:42,169 --> 00:10:47,328
+terciário Mas enfim a uma alguma
+
+239
+00:10:45,019 --> 00:10:49,370
+hierarquia entre os tipos de estudo
+
+240
+00:10:47,328 --> 00:10:51,439
+secundário para que alguns tipos de
+
+241
+00:10:49,370 --> 00:10:53,750
+estudos seculares são mais relevantes do
+
+242
+00:10:51,440 --> 00:10:57,890
+que outros tipos da gente quando a gente
+
+243
+00:10:53,750 --> 00:11:01,339
+escutar A Hierarquia ela faz um contexto
+
+244
+00:10:57,889 --> 00:11:03,769
+de poder né de uns é mais importante do
+
+245
+00:11:01,339 --> 00:11:07,310
+que o outro né a gente tem ali dois
+
+246
+00:11:03,769 --> 00:11:10,129
+tipos de secundários as revisões os
+
+247
+00:11:07,309 --> 00:11:12,229
+mapeamentos não de forma hierárquica a
+
+248
+00:11:10,129 --> 00:11:14,259
+gente pode pode dizer que as previsões
+
+249
+00:11:12,230 --> 00:11:18,409
+os mapeamentos ele são complementares
+
+250
+00:11:14,259 --> 00:11:21,919
+cada qual com a sua finalidade e
+
+251
+00:11:18,409 --> 00:11:25,399
+propósito é Ambos são sedentários Então
+
+252
+00:11:21,919 --> 00:11:27,449
+por seres secundários ele tem como a
+
+253
+00:11:25,399 --> 00:11:31,289
+sintetizar não é gerar conhecimento
+
+254
+00:11:27,450 --> 00:11:34,140
+através da simples dos primários é só
+
+255
+00:11:31,289 --> 00:11:36,839
+que a gente comparar o objetivo do
+
+256
+00:11:34,139 --> 00:11:39,330
+mapeamento da lição a gente pode separar
+
+257
+00:11:36,840 --> 00:11:41,759
+em termos de por exemplo um pouco do
+
+258
+00:11:39,330 --> 00:11:44,850
+mapeamento da rede de um mapeamento com
+
+259
+00:11:41,759 --> 00:11:49,350
+próprio nome sugere ele faz o mapeamento
+
+260
+00:11:44,850 --> 00:11:52,680
+né da área de pesquisa então é o esporro
+
+261
+00:11:49,350 --> 00:11:54,960
+dele é o mais esperto mais gênero e
+
+262
+00:11:52,679 --> 00:11:56,870
+ações típicas que são respeitadas
+
+263
+00:11:54,960 --> 00:11:58,490
+escondidas dentro do movimento
+
+264
+00:11:56,870 --> 00:12:01,470
+sistemático
+
+265
+00:11:58,490 --> 00:12:04,950
+seriam Quais são os principais autores
+
+266
+00:12:01,470 --> 00:12:07,290
+de se relacionar Quais são as principais
+
+267
+00:12:04,950 --> 00:12:10,200
+conferências que publicam sobre revisão
+
+268
+00:12:07,289 --> 00:12:12,360
+sistemática Quais são os principais as
+
+269
+00:12:10,200 --> 00:12:14,460
+principais temáticas abordadas num
+
+270
+00:12:12,360 --> 00:12:18,028
+determinado o texto né um determinado
+
+271
+00:12:14,460 --> 00:12:20,670
+determinado top Então são questões eu
+
+272
+00:12:18,028 --> 00:12:22,799
+não tenho uma visão para área então eu
+
+273
+00:12:20,669 --> 00:12:24,819
+quero uma piar essa área as pesquisas
+
+274
+00:12:22,799 --> 00:12:27,339
+Então os mapeamentos você me ensinou já
+
+275
+00:12:24,820 --> 00:12:28,410
+estão muito conduzidos dentro da
+
+276
+00:12:27,340 --> 00:12:31,389
+Computação
+
+277
+00:12:28,409 --> 00:12:33,850
+principalmente no contexto acadêmico de
+
+278
+00:12:31,389 --> 00:12:36,399
+alunos de doutorado quando a gente se
+
+279
+00:12:33,850 --> 00:12:38,529
+ângulo Dourado é muito interessante a
+
+280
+00:12:36,399 --> 00:12:43,299
+gente conduzir mapeamento porque a gente
+
+281
+00:12:38,529 --> 00:12:46,179
+acaba maquiando esta essa esse trabalhos
+
+282
+00:12:43,299 --> 00:12:49,029
+correlatos a gente consegue identificar
+
+283
+00:12:46,179 --> 00:12:51,789
+principais autores principais trabalho a
+
+284
+00:12:49,029 --> 00:12:54,189
+gente consegue através dos trabalhos
+
+285
+00:12:51,789 --> 00:12:56,829
+identificados contextualizar o meu
+
+286
+00:12:54,190 --> 00:12:59,980
+trabalho dentro da área o que que ele
+
+287
+00:12:56,830 --> 00:13:02,259
+tem como muitos outros onde Flamengo é o
+
+288
+00:12:59,980 --> 00:13:04,600
+relação aos dos outros trabalhos não
+
+289
+00:13:02,259 --> 00:13:07,750
+estão abordando então por isso que o
+
+290
+00:13:04,600 --> 00:13:10,420
+mapeamento ele acaba sendo conduzido
+
+291
+00:13:07,750 --> 00:13:14,350
+bastante por alunos de doutorado mas
+
+292
+00:13:10,419 --> 00:13:17,019
+então é o a revisão Ela já tem um
+
+293
+00:13:14,350 --> 00:13:19,480
+objetivo mais específico Então imagina
+
+294
+00:13:17,019 --> 00:13:24,799
+que eu já tenha conduzido à para o nosso
+
+295
+00:13:19,480 --> 00:13:27,250
+exemplo a de técnica x de teste o
+
+296
+00:13:24,799 --> 00:13:31,069
+O que é produzido há um mapeamento
+
+297
+00:13:27,250 --> 00:13:33,950
+descoberto que a técnica ai besta são as
+
+298
+00:13:31,070 --> 00:13:36,500
+duas técnicas mais utilizadas né na
+
+299
+00:13:33,950 --> 00:13:39,110
+literatura mais estudadas e aí eu posso
+
+300
+00:13:36,500 --> 00:13:41,690
+então conduzir um a região para
+
+301
+00:13:39,110 --> 00:13:43,940
+verificar aspectos mais comparativos
+
+302
+00:13:41,690 --> 00:13:47,570
+entre as duas técnicas né em termos de
+
+303
+00:13:43,940 --> 00:13:51,050
+por exemplo efetividade culto é então a
+
+304
+00:13:47,570 --> 00:13:53,899
+revisão esposo dela é mais específica
+
+305
+00:13:51,049 --> 00:13:56,269
+mais fechado então a gente tem uma uma
+
+306
+00:13:53,899 --> 00:13:58,339
+variável comparativa entre as técnicas
+
+307
+00:13:56,269 --> 00:14:00,950
+foram segundos uma revisão sistemática
+
+308
+00:13:58,339 --> 00:14:04,399
+no mapeamento a gente não tem essa
+
+309
+00:14:00,950 --> 00:14:07,579
+preocupação né a gente quer estão são
+
+310
+00:14:04,399 --> 00:14:09,730
+valores mais enérgicos quantidade de
+
+311
+00:14:07,578 --> 00:14:12,469
+trabalho essa quantidade de autores
+
+312
+00:14:09,730 --> 00:14:16,459
+tópicos a quantidade tópicos Quais são
+
+313
+00:14:12,470 --> 00:14:18,920
+os Então essa é a principal diferença de
+
+314
+00:14:16,458 --> 00:14:22,750
+objetivo entre mapeamento de uma revisão
+
+315
+00:14:18,919 --> 00:14:27,000
+e aí consequentemente quando se conduzo
+
+316
+00:14:22,750 --> 00:14:30,120
+mapeamento a e a extração de dados e
+
+317
+00:14:27,000 --> 00:14:32,039
+simples ela acaba sendo mais leve no
+
+318
+00:14:30,120 --> 00:14:34,440
+sentido de que eu tenho que sair somente
+
+319
+00:14:32,039 --> 00:14:37,230
+o nome da técnica e não fazer uma
+
+320
+00:14:34,440 --> 00:14:39,990
+análise qualitativa por exemplo do uso
+
+321
+00:14:37,230 --> 00:14:42,839
+daquela determinada técnica né então
+
+322
+00:14:39,990 --> 00:14:45,778
+outro outra diferença entre mapeamento e
+
+323
+00:14:42,839 --> 00:14:48,210
+o previsão termos de processo é o a
+
+324
+00:14:45,778 --> 00:14:50,549
+forma como a gente faz a seleção EA
+
+325
+00:14:48,210 --> 00:14:53,250
+forma da extração dos dados Então embora
+
+326
+00:14:50,549 --> 00:14:55,229
+eles tenham processos bem parecidos
+
+327
+00:14:53,250 --> 00:14:58,139
+existem hoje quando a gente tava falando
+
+328
+00:14:55,230 --> 00:15:01,620
+da evolução né quando começou a aos
+
+329
+00:14:58,139 --> 00:15:03,778
+estudos secundários aqui funcionava bem
+
+330
+00:15:01,620 --> 00:15:07,500
+ingredientes mapeamento no final dos
+
+331
+00:15:03,778 --> 00:15:09,539
+Guardiões e hoje a gente tem o Os
+
+332
+00:15:07,500 --> 00:15:13,500
+Guardiões específicos para mapeamento
+
+333
+00:15:09,539 --> 00:15:16,169
+que são caracterizadas por as
+
+334
+00:15:13,500 --> 00:15:18,299
+características dos mapeamentos então eu
+
+335
+00:15:16,169 --> 00:15:20,759
+não diria que existe essa hierarquia Mas
+
+336
+00:15:18,299 --> 00:15:23,879
+eles são formas complementares e aí com
+
+337
+00:15:20,759 --> 00:15:26,769
+relação aos estudos terciários é aquele
+
+338
+00:15:23,879 --> 00:15:29,490
+exemplo que o co e quais são os copos de
+
+339
+00:15:26,769 --> 00:15:32,230
+revisões sistemáticas e que tem sido
+
+340
+00:15:29,490 --> 00:15:34,200
+abordados por exemplo o meu tô usando
+
+341
+00:15:32,230 --> 00:15:36,970
+como fonte estudos de revisão
+
+342
+00:15:34,200 --> 00:15:40,810
+sistemáticas que são secundárias a gente
+
+343
+00:15:36,970 --> 00:15:43,509
+estaria conduzindo o 3 e até então esse
+
+344
+00:15:40,809 --> 00:15:45,159
+árvores eles respondem questões EA uma
+
+345
+00:15:43,509 --> 00:15:47,649
+revisão sistemática sozinha não
+
+346
+00:15:45,159 --> 00:15:50,949
+conseguia responder então é existe essa
+
+347
+00:15:47,649 --> 00:15:53,980
+é mais uma questão do foco do estudo do
+
+348
+00:15:50,950 --> 00:15:56,320
+tipo do estudo e o tipo de dados que a
+
+349
+00:15:53,980 --> 00:15:58,750
+gente usa comprada processo seria
+
+350
+00:15:56,320 --> 00:16:01,470
+primário secundário E é isso que define
+
+351
+00:15:58,750 --> 00:16:04,299
+Então essa categoria aí do
+
+352
+00:16:01,470 --> 00:16:06,490
+que na sua visão Quais são os esforços
+
+353
+00:16:04,299 --> 00:16:09,459
+que são necessários para tornar a
+
+354
+00:16:06,490 --> 00:16:11,680
+automação do processo de revisão
+
+355
+00:16:09,460 --> 00:16:13,720
+sistemática da literatura uma realidade
+
+356
+00:16:11,679 --> 00:16:15,549
+próxima e difundida em vista os
+
+357
+00:16:13,720 --> 00:16:17,970
+potenciais benefícios podem ser obtidos
+
+358
+00:16:15,549 --> 00:16:21,159
+com ela porque a gente for pensar
+
+359
+00:16:17,970 --> 00:16:23,649
+Talvez seja possível Em algum momento
+
+360
+00:16:21,159 --> 00:16:24,799
+que simplesmente você diga quero uma
+
+361
+00:16:23,649 --> 00:16:27,049
+revisão sistemática
+
+362
+00:16:24,799 --> 00:16:28,909
+um artigo sobre isso aqui respondendo
+
+363
+00:16:27,049 --> 00:16:31,399
+tal questão de pesquisa e um programa
+
+364
+00:16:28,909 --> 00:16:33,230
+fazer isso pela gente mas imagina que
+
+365
+00:16:31,399 --> 00:16:35,480
+tenho certeza que isso não existe ainda
+
+366
+00:16:33,230 --> 00:16:38,330
+mas Quais são os esforços seriam
+
+367
+00:16:35,480 --> 00:16:40,610
+necessários para chegar nesse no máximo
+
+368
+00:16:38,330 --> 00:16:43,278
+de automação possível no processo de
+
+369
+00:16:40,610 --> 00:16:45,470
+revisão de semana é uma o processo de
+
+370
+00:16:43,278 --> 00:16:48,950
+revisão né eu falo que nada chama
+
+371
+00:16:45,470 --> 00:16:50,600
+sistemático sem ter ninguém elogia
+
+372
+00:16:48,950 --> 00:16:52,970
+alguém falando as pessoas pulando e
+
+373
+00:16:50,600 --> 00:16:57,079
+sistemático né então é realmente um
+
+374
+00:16:52,970 --> 00:17:00,320
+trabalho bastante grande e demorado ali
+
+375
+00:16:57,078 --> 00:17:03,169
+em termos de manual né se você tiver que
+
+376
+00:17:00,320 --> 00:17:05,029
+fazer uma leitura e todo esse trabalho e
+
+377
+00:17:03,169 --> 00:17:07,670
+a seleção dele de forma que eu tô
+
+378
+00:17:05,029 --> 00:17:10,789
+mentindo e hoje uma dificuldade é o
+
+379
+00:17:07,670 --> 00:17:14,329
+equilíbrio né da qualidade da produção e
+
+380
+00:17:10,789 --> 00:17:18,049
+o tempo que a gente tem também entregar
+
+381
+00:17:14,328 --> 00:17:20,539
+esses resultados dos trabalhos é na
+
+382
+00:17:18,049 --> 00:17:22,899
+última década a gente teve bastante
+
+383
+00:17:20,539 --> 00:17:25,849
+avance e termos de automação do processo
+
+384
+00:17:22,900 --> 00:17:29,190
+principalmente tempo na a teoria dos
+
+385
+00:17:25,849 --> 00:17:31,349
+esforços de manuais né de atividades que
+
+386
+00:17:29,190 --> 00:17:34,470
+são passíveis de automação dentro do
+
+387
+00:17:31,349 --> 00:17:38,329
+processo é aprendi com a leitura de um
+
+388
+00:17:34,470 --> 00:17:40,740
+capítulo do livro de métodos empíricos
+
+389
+00:17:38,329 --> 00:17:43,079
+contemporâneos a ele torta que a gente
+
+390
+00:17:40,740 --> 00:17:45,089
+escrever um capítulo né de automação de
+
+391
+00:17:43,079 --> 00:17:47,128
+revisão sistemática EA conclusão que a
+
+392
+00:17:45,089 --> 00:17:50,339
+gente chegou lá na escrita deste
+
+393
+00:17:47,128 --> 00:17:52,138
+Capítulo é que atividade seleção na qual
+
+394
+00:17:50,339 --> 00:17:54,240
+você precisa fazer a leitura dos
+
+395
+00:17:52,138 --> 00:17:55,248
+trabalhos é a atividade que mais tem o
+
+396
+00:17:54,240 --> 00:17:59,278
+tomate
+
+397
+00:17:55,249 --> 00:18:01,440
+esportes hoje para essas matizada mas
+
+398
+00:17:59,278 --> 00:18:02,808
+tem outras que ainda não estão
+
+399
+00:18:01,440 --> 00:18:05,639
+parcialmente
+
+400
+00:18:02,808 --> 00:18:07,798
+suporte parcial ainda da automação por
+
+401
+00:18:05,638 --> 00:18:10,349
+exemplo a questão da definição do
+
+402
+00:18:07,798 --> 00:18:13,230
+protocolo a extração de dados as
+
+403
+00:18:10,349 --> 00:18:16,009
+próprias sim são atividades aí que hoje
+
+404
+00:18:13,230 --> 00:18:19,409
+são parcialmente
+
+405
+00:18:16,009 --> 00:18:22,919
+automatizados um exemplo de automação
+
+406
+00:18:19,409 --> 00:18:28,030
+que a gente fez já é uma única técnica
+
+407
+00:18:22,919 --> 00:18:30,580
+de busca o mostrando de busca ela poder
+
+408
+00:18:28,029 --> 00:18:33,059
+se automaticamente reproduzida em
+
+409
+00:18:30,579 --> 00:18:36,429
+diferentes bases de dados por exemplo
+
+410
+00:18:33,059 --> 00:18:38,349
+mas apesar de todas as iniciativas que a
+
+411
+00:18:36,430 --> 00:18:41,680
+gente identificou para a escrita do
+
+412
+00:18:38,349 --> 00:18:44,709
+capítulo a área ainda imatura no sentido
+
+413
+00:18:41,680 --> 00:18:48,940
+de que apesar das Ferramentas existentes
+
+414
+00:18:44,710 --> 00:18:52,390
+elas não tem validação ainda suficiente
+
+415
+00:18:48,940 --> 00:18:54,160
+em termos de maturidade né é uma grande
+
+416
+00:18:52,390 --> 00:18:55,900
+maioria das Ferramentas elas foram
+
+417
+00:18:54,160 --> 00:18:58,450
+guardadas corrente no contexto de
+
+418
+00:18:55,900 --> 00:19:01,150
+pequenos estudos de casos não foram
+
+419
+00:18:58,450 --> 00:19:04,930
+avaliadas em larga escala E aí a a
+
+420
+00:19:01,150 --> 00:19:08,050
+questão da Integração da existência de
+
+421
+00:19:04,930 --> 00:19:10,450
+várias ferramentas há uma dificuldade é
+
+422
+00:19:08,049 --> 00:19:13,000
+que esses portas tem muitos alimentar
+
+423
+00:19:10,450 --> 00:19:15,910
+Então existe uma ferramenta outra
+
+424
+00:19:13,000 --> 00:19:18,130
+ferramenta mas não existe por exemplo a
+
+425
+00:19:15,910 --> 00:19:20,560
+integração dessas ferramentas Então
+
+426
+00:19:18,130 --> 00:19:23,860
+quando você fala da gente é uma
+
+427
+00:19:20,559 --> 00:19:26,240
+ferramenta para apoiar todo o processo
+
+428
+00:19:23,859 --> 00:19:29,240
+hoje uma ferramenta é porque eu gosto
+
+429
+00:19:26,240 --> 00:19:33,589
+bastante a start que foi desenvolvida do
+
+430
+00:19:29,240 --> 00:19:36,890
+grupo da Sandra fábula é uma ferramenta
+
+431
+00:19:33,589 --> 00:19:39,589
+que se ele existe um grupo dando
+
+432
+00:19:36,890 --> 00:19:42,230
+manutenção nessa ferramenta inserindo
+
+433
+00:19:39,589 --> 00:19:44,389
+novos requisitos têm a intenção de atuar
+
+434
+00:19:42,230 --> 00:19:47,870
+no processo completa da revisão
+
+435
+00:19:44,390 --> 00:19:51,410
+sistemática né mas a gente precisa de
+
+436
+00:19:47,869 --> 00:19:53,629
+esforço e de forma operar entre uma
+
+437
+00:19:51,410 --> 00:19:56,509
+cooperação entre os autores para que
+
+438
+00:19:53,630 --> 00:19:59,090
+exista um padrão de transmissão de dados
+
+439
+00:19:56,509 --> 00:20:02,390
+que eu possa por exemplo se eu quiser
+
+440
+00:19:59,089 --> 00:20:04,909
+usar uma ferramenta visual para fazer
+
+441
+00:20:02,390 --> 00:20:07,850
+etapa de seleção de estudos e eu sair
+
+442
+00:20:04,910 --> 00:20:11,210
+daquela atividade com o conjunto de tudo
+
+443
+00:20:07,849 --> 00:20:13,909
+e eu quero imprimir na minha revisão eu
+
+444
+00:20:11,210 --> 00:20:16,130
+posso usar uma outra ferramenta de 5 a
+
+445
+00:20:13,910 --> 00:20:18,320
+saída daquela ferramenta de seleção de
+
+446
+00:20:16,130 --> 00:20:22,550
+dados Então se aquela ferramenta lá que
+
+447
+00:20:18,319 --> 00:20:25,558
+eles eu tive o junto liberado em termos
+
+448
+00:20:22,549 --> 00:20:28,378
+um big Tex é a ferramenta de e tem que
+
+449
+00:20:25,558 --> 00:20:31,829
+permitir que eu leia esse vídeo 10 para
+
+450
+00:20:28,378 --> 00:20:35,298
+fazer a extração e assim né então hoje o
+
+451
+00:20:31,829 --> 00:20:37,730
+que entende grande dificuldade de
+
+452
+00:20:35,298 --> 00:20:40,319
+automatização de irmãos
+
+453
+00:20:37,730 --> 00:20:43,378
+aceita geração entre as ferramentas e
+
+454
+00:20:40,319 --> 00:20:44,689
+elas funcionassem no estilo Club Play eu
+
+455
+00:20:43,378 --> 00:20:46,798
+pudesse
+
+456
+00:20:44,690 --> 00:20:49,470
+pegar essa ferramenta para essa
+
+457
+00:20:46,798 --> 00:20:52,980
+atividade depois associar com outra e
+
+458
+00:20:49,470 --> 00:20:55,470
+assistir Família Então hoje o os
+
+459
+00:20:52,980 --> 00:20:58,589
+desafios aí é esse E aí um outro desafio
+
+460
+00:20:55,470 --> 00:20:59,569
+que a gente identificou é a questão de
+
+461
+00:20:58,589 --> 00:21:02,999
+dados
+
+462
+00:20:59,569 --> 00:21:06,269
+desistir em dados para a gente fazer o
+
+463
+00:21:02,999 --> 00:21:08,879
+treinamento dessas ferramentas Então se
+
+464
+00:21:06,269 --> 00:21:10,798
+a gente hoje está se utilizando eu
+
+465
+00:21:08,878 --> 00:21:15,359
+quando eu fiz o doutorado a gente propôs
+
+466
+00:21:10,798 --> 00:21:17,548
+a ao uso de teste mini Ned eu de volta
+
+467
+00:21:15,359 --> 00:21:20,248
+aqui de malha Para apoiar a seleção de
+
+468
+00:21:17,548 --> 00:21:22,859
+estudo então a gente criava ali clusters
+
+469
+00:21:20,249 --> 00:21:26,319
+para agrupar estudos baseados na
+
+470
+00:21:22,859 --> 00:21:28,799
+similaridade de texto ah e hoje as
+
+471
+00:21:26,319 --> 00:21:32,409
+técnicas mais atuais são as usando aí de
+
+472
+00:21:28,799 --> 00:21:34,750
+Kaylane Mach lane para fazer essas essas
+
+473
+00:21:32,410 --> 00:21:37,029
+mesmas automações só que a gente não tem
+
+474
+00:21:34,750 --> 00:21:39,730
+um conjunto de dados para treinar essas
+
+475
+00:21:37,029 --> 00:21:43,029
+ferramentas né Então esse é uma outra
+
+476
+00:21:39,730 --> 00:21:47,680
+dificuldade em termos de automação hoje
+
+477
+00:21:43,029 --> 00:21:49,799
+ainda de semana E você qual a autora do
+
+478
+00:21:47,680 --> 00:21:52,539
+livro revisão sistemática da literatura
+
+479
+00:21:49,799 --> 00:21:54,940
+engenharia de software teoria e prática
+
+480
+00:21:52,539 --> 00:21:58,000
+para gente usa aqui na disciplina de
+
+481
+00:21:54,940 --> 00:21:59,650
+metodologia de pesquisa mas não são
+
+482
+00:21:58,000 --> 00:22:01,240
+pessoal alunos de engenharia de software
+
+483
+00:21:59,650 --> 00:22:04,240
+também é útil também para o pessoal de
+
+484
+00:22:01,240 --> 00:22:06,400
+outras áreas que foi publicado em 2017
+
+485
+00:22:04,240 --> 00:22:09,220
+considerando que já se passaram 5 anos
+
+486
+00:22:06,400 --> 00:22:11,320
+nós estamos em 2022 e que novos artigos
+
+487
+00:22:09,220 --> 00:22:13,569
+têm sido publicados sobre o tema de vez
+
+488
+00:22:11,319 --> 00:22:15,819
+em quando ou eu recebe alguma coisa
+
+489
+00:22:13,569 --> 00:22:18,549
+antes até um novo da Bárbara kit engano
+
+490
+00:22:15,819 --> 00:22:21,879
+é sobre ações temáticas é o livro está
+
+491
+00:22:18,549 --> 00:22:24,279
+suficientemente atualizado eu diria que
+
+492
+00:22:21,880 --> 00:22:28,880
+o livro continuaria Válido por uma
+
+493
+00:22:24,279 --> 00:22:31,670
+leitura é algo né porque é um material
+
+494
+00:22:28,880 --> 00:22:34,490
+que a gente tem hoje em português de
+
+495
+00:22:31,670 --> 00:22:37,279
+revisão sistemática Angeles horta Então
+
+496
+00:22:34,490 --> 00:22:39,890
+foi uma leitura inicial do tema ele
+
+497
+00:22:37,279 --> 00:22:43,160
+continuaria vale mais os últimos cinco
+
+498
+00:22:39,890 --> 00:22:45,740
+anos o Card Lines evoluíram a gente nós
+
+499
+00:22:43,160 --> 00:22:48,070
+tivermos aí publicações de atualizações
+
+500
+00:22:45,740 --> 00:22:51,069
+Inclusive a semana passada a Bárbara o
+
+501
+00:22:48,069 --> 00:22:53,960
+uma atualização
+
+502
+00:22:51,069 --> 00:22:57,879
+considerando-o Como recortar os dados
+
+503
+00:22:53,960 --> 00:23:00,340
+das revisões de 500 um pouquinho na
+
+504
+00:22:57,880 --> 00:23:01,970
+interior Nat esses dados
+
+505
+00:23:00,339 --> 00:23:04,459
+disponibilizados para treinar a
+
+506
+00:23:01,970 --> 00:23:07,430
+ferramenta nós tivemos também em vários
+
+507
+00:23:04,460 --> 00:23:10,549
+trabalhos publicados bem recentemente o
+
+508
+00:23:07,430 --> 00:23:13,490
+relação à mecanismo de busca atualizados
+
+509
+00:23:10,549 --> 00:23:16,220
+estratégias dos exibidas em um trabalho
+
+510
+00:23:13,490 --> 00:23:19,759
+bem bacana que a gente fez em conjunto
+
+511
+00:23:16,220 --> 00:23:22,130
+com arcos e tubo limpar ele amei e a
+
+512
+00:23:19,759 --> 00:23:24,808
+combinação de spring de buscas né pois
+
+513
+00:23:22,130 --> 00:23:29,190
+no borne para identificação de animais
+
+514
+00:23:24,808 --> 00:23:31,918
+Oi e essa técnica não estão contidas no
+
+515
+00:23:29,190 --> 00:23:34,798
+livro com técnicas de agora então as
+
+516
+00:23:31,919 --> 00:23:37,230
+referências elas são desatualizados E aí
+
+517
+00:23:34,798 --> 00:23:39,869
+Valeria Então como uma leitura inicial
+
+518
+00:23:37,230 --> 00:23:41,909
+do tema né mas precisaria estar
+
+519
+00:23:39,869 --> 00:23:44,668
+atualizando essas essas referências
+
+520
+00:23:41,909 --> 00:23:47,330
+outro material que eu gosto de indicar
+
+521
+00:23:44,669 --> 00:23:50,038
+para quem está começando a
+
+522
+00:23:47,329 --> 00:23:52,769
+o conhecimento sobre revisão sistemática
+
+523
+00:23:50,038 --> 00:23:55,169
+foi o material que a gente fez em
+
+524
+00:23:52,769 --> 00:23:57,329
+conjunto com a Maria Augusta Nunes que
+
+525
+00:23:55,169 --> 00:23:59,610
+foi derivado do livro é um depois que a
+
+526
+00:23:57,329 --> 00:24:03,048
+gente publicou o livro ela entrou em
+
+527
+00:23:59,609 --> 00:24:06,269
+contato com a gente para fazer os gibis
+
+528
+00:24:03,048 --> 00:24:08,778
+almanaque sobre resolve temática então a
+
+529
+00:24:06,269 --> 00:24:11,249
+gente criou o material bem didático é
+
+530
+00:24:08,778 --> 00:24:14,970
+que eu gostei muito é um trabalho muito
+
+531
+00:24:11,249 --> 00:24:17,278
+bastante diferente de uma uma escrita
+
+532
+00:24:14,970 --> 00:24:21,409
+diferente que era baseada num diálogo de
+
+533
+00:24:17,278 --> 00:24:25,930
+personagem é que tinha a participação do
+
+534
+00:24:21,409 --> 00:24:30,460
+perto que era um ilustrador na eu tinha
+
+535
+00:24:25,930 --> 00:24:32,880
+algo os já E aí foram desenvolvido
+
+536
+00:24:30,460 --> 00:24:36,130
+patamar pátio de hibisco estão
+
+537
+00:24:32,880 --> 00:24:39,340
+localizados e gratuito para mim e também
+
+538
+00:24:36,130 --> 00:24:42,460
+o material também bacana para em
+
+539
+00:24:39,339 --> 00:24:44,279
+português para começar o entendimento aí
+
+540
+00:24:42,460 --> 00:24:46,509
+12 segundos
+
+541
+00:24:44,279 --> 00:24:49,509
+Maravilha vou deixar os links na
+
+542
+00:24:46,509 --> 00:24:52,150
+descrição do sódio agora vamos entrar no
+
+543
+00:24:49,509 --> 00:24:54,339
+nova parte da nossa entrevista a gente
+
+544
+00:24:52,150 --> 00:24:56,050
+chama de pesquisa apesar de tudo que
+
+545
+00:24:54,339 --> 00:24:58,629
+você falou você até agora tem a ver já
+
+546
+00:24:56,049 --> 00:25:01,629
+com a sua pesquisa né mas é que não sei
+
+547
+00:24:58,630 --> 00:25:04,510
+mais algumas autores escreveram o Global
+
+548
+00:25:01,630 --> 00:25:06,070
+em latin americans e-mail participation
+
+549
+00:25:04,509 --> 00:25:08,140
+in the Evidence based software
+
+550
+00:25:06,069 --> 00:25:11,470
+engeneering up a systematic mapping
+
+551
+00:25:08,140 --> 00:25:13,110
+study study é um estudo sistemático uma
+
+552
+00:25:11,470 --> 00:25:16,170
+é um estudo de mapeamento sistemático
+
+553
+00:25:13,109 --> 00:25:18,669
+sobre a participação de mulheres
+
+554
+00:25:16,170 --> 00:25:19,930
+globalmente na América Latina e a
+
+555
+00:25:18,670 --> 00:25:22,120
+participação de mulheres na engenharia
+
+556
+00:25:19,930 --> 00:25:24,799
+de software baseada em evidências estão
+
+557
+00:25:22,119 --> 00:25:26,989
+Qual foi a motivação sua e da
+
+558
+00:25:24,799 --> 00:25:29,690
+em alturas para escrever esse artigo
+
+559
+00:25:26,990 --> 00:25:32,890
+Quais foram as principais conclusões Sim
+
+560
+00:25:29,690 --> 00:25:36,049
+a nossa motivação foi
+
+561
+00:25:32,890 --> 00:25:39,170
+reconhecer e destacar o sucesso das
+
+562
+00:25:36,049 --> 00:25:40,700
+mulheres nas gírias portas e saber como
+
+563
+00:25:39,170 --> 00:25:43,970
+que elas estavam contribuindo né
+
+564
+00:25:40,700 --> 00:25:46,340
+contribuição dessas mulheres uma para o
+
+565
+00:25:43,970 --> 00:25:49,690
+avanço da pesquisa internos de gestão
+
+566
+00:25:46,339 --> 00:25:53,449
+senão a gente fez duas perguntas para
+
+567
+00:25:49,690 --> 00:25:56,870
+dentre as perguntas é as duas principais
+
+568
+00:25:53,450 --> 00:26:00,140
+eram destacar Quem eram e são as
+
+569
+00:25:56,869 --> 00:26:02,239
+mulheres que investigam secundário o
+
+570
+00:26:00,140 --> 00:26:04,700
+tipo de contribuição Então se elas
+
+571
+00:26:02,240 --> 00:26:06,920
+estavam contribuindo em termos de
+
+572
+00:26:04,700 --> 00:26:09,529
+processo de melhoria de processos
+
+573
+00:26:06,920 --> 00:26:11,420
+criação de tarde Laine desenvolvimento
+
+574
+00:26:09,529 --> 00:26:14,750
+de técnicas né aprimoramento das
+
+575
+00:26:11,420 --> 00:26:17,090
+técnicas do processo ou telas estavam
+
+576
+00:26:14,750 --> 00:26:19,269
+conduzindo estudos secundários E aí
+
+577
+00:26:17,089 --> 00:26:23,869
+Lúcia com documento após a identificação
+
+578
+00:26:19,269 --> 00:26:27,240
+das mulheres né o papel delas dentro da
+
+579
+00:26:23,869 --> 00:26:30,329
+área as o laboravam entre si com relação
+
+580
+00:26:27,240 --> 00:26:33,569
+a primeira a primeira pergunta é a gente
+
+581
+00:26:30,329 --> 00:26:36,028
+chegou alguns nomes que acabam sendo as
+
+582
+00:26:33,569 --> 00:26:37,950
+pioneiras aí dentro da resposta fazer
+
+583
+00:26:36,028 --> 00:26:40,679
+avisei então a gente já mencionou um
+
+584
+00:26:37,950 --> 00:26:43,950
+homem hoje aí dá daqui errado a barba
+
+585
+00:26:40,679 --> 00:26:46,740
+que foi em feito paralela e da revisão
+
+586
+00:26:43,950 --> 00:26:49,340
+sistemática dos é de lascar computação
+
+587
+00:26:46,740 --> 00:26:53,159
+da Emília Mendes que
+
+588
+00:26:49,339 --> 00:26:55,408
+pode acreditar daqui é o grande nome é
+
+589
+00:26:53,159 --> 00:26:58,289
+em termos de engenharia que tá todo
+
+590
+00:26:55,409 --> 00:27:00,119
+mundo aí tá levando o nome da engenharia
+
+591
+00:26:58,288 --> 00:27:02,878
+de software baseado em evidências
+
+592
+00:27:00,118 --> 00:27:06,058
+adeliton é uma professora que trabalha
+
+593
+00:27:02,878 --> 00:27:08,398
+no mesmo departamento ali da daqui a
+
+594
+00:27:06,058 --> 00:27:12,569
+Sandra também foi modo bastante de
+
+595
+00:27:08,398 --> 00:27:16,109
+patinete desenvolveu as parte do muitos
+
+596
+00:27:12,569 --> 00:27:19,618
+anos a em termos de sustentar a Elisa
+
+597
+00:27:16,109 --> 00:27:23,579
+nacagal a que foi uma das autoras do
+
+598
+00:27:19,618 --> 00:27:28,240
+livro sobre resultados a Natália
+
+599
+00:27:23,579 --> 00:27:32,109
+jurídica juiz o nome e a gente destacou
+
+600
+00:27:28,240 --> 00:27:34,839
+aí como as principais pesquisadores na
+
+601
+00:27:32,109 --> 00:27:38,139
+área de revisão sistemática e aí eu tive
+
+602
+00:27:34,839 --> 00:27:41,230
+a honra de muitas dessas mulheres Você
+
+603
+00:27:38,140 --> 00:27:44,500
+trabalhava junto né então é a Mendes a
+
+604
+00:27:41,230 --> 00:27:46,180
+Emília foi minha orientadora durante o
+
+605
+00:27:44,500 --> 00:27:47,980
+doutorado eu passei um tempo com ela
+
+606
+00:27:46,180 --> 00:27:50,620
+fazendo pesquisa sobre revisão
+
+607
+00:27:47,980 --> 00:27:52,170
+sistemática é a Sandra foi minha
+
+608
+00:27:50,619 --> 00:27:57,849
+orientadora de
+
+609
+00:27:52,170 --> 00:28:00,430
+carro é a Isa a gente conector lá na USP
+
+610
+00:27:57,849 --> 00:28:03,490
+não tá fazendo pra ver a gente trabalha
+
+611
+00:28:00,430 --> 00:28:07,779
+junto até hoje então eu te dá porte aí
+
+612
+00:28:03,490 --> 00:28:10,660
+de metido contrato de usado pelo caminho
+
+613
+00:28:07,779 --> 00:28:13,660
+aí dessa dessas mulheres e da frequência
+
+614
+00:28:10,660 --> 00:28:17,110
+E aí esse esse trabalho e aí com relação
+
+615
+00:28:13,660 --> 00:28:19,120
+à a segunda questão né infelizmente a
+
+616
+00:28:17,109 --> 00:28:21,189
+gente chegou à conclusão de que não
+
+617
+00:28:19,119 --> 00:28:25,029
+existe colaboração com a coloração é
+
+618
+00:28:21,190 --> 00:28:27,610
+fraca é pequena e aí mais uma vez a
+
+619
+00:28:25,029 --> 00:28:31,609
+ligação entre a Europa
+
+620
+00:28:27,609 --> 00:28:34,969
+EA América Latina que o Brasil especial
+
+621
+00:28:31,609 --> 00:28:38,509
+é aí então a grande responsável por
+
+622
+00:28:34,970 --> 00:28:40,789
+fazer a ponte e fazer as conectar as
+
+623
+00:28:38,509 --> 00:28:43,190
+conexões a e me enganei então a gente vê
+
+624
+00:28:40,789 --> 00:28:46,369
+no mapa uma gente desenhou né as
+
+625
+00:28:43,190 --> 00:28:49,070
+comissões é visualmente tem o nome da
+
+626
+00:28:46,369 --> 00:28:52,309
+Emília fazendo a conexão Assim entre as
+
+627
+00:28:49,069 --> 00:28:54,309
+autoras europeias e o restante né Toinha
+
+628
+00:28:52,309 --> 00:28:57,799
+brasileira para fora e aí a gente
+
+629
+00:28:54,309 --> 00:29:00,950
+agradece a Emília para por ter
+
+630
+00:28:57,799 --> 00:29:04,039
+continuado uma visão aqui para gente né
+
+631
+00:29:00,950 --> 00:29:07,190
+e proporcionar essa conta aí até hoje em
+
+632
+00:29:04,039 --> 00:29:09,200
+termos de colaborações Quais mudanças
+
+633
+00:29:07,190 --> 00:29:11,480
+políticas o ações você considera
+
+634
+00:29:09,200 --> 00:29:14,920
+fundamentais para atrair mais
+
+635
+00:29:11,480 --> 00:29:18,500
+pesquisadores para história Adolfo eu
+
+636
+00:29:14,920 --> 00:29:22,130
+quando eu penso em questão de política
+
+637
+00:29:18,500 --> 00:29:24,808
+de mudança antes de pensar nas nossas
+
+638
+00:29:22,130 --> 00:29:28,379
+ações propriamente ditas eu acho que o
+
+639
+00:29:24,808 --> 00:29:30,538
+seu entendimento das razões que levaram
+
+640
+00:29:28,378 --> 00:29:34,168
+a falta de interesse né Quais são as
+
+641
+00:29:30,538 --> 00:29:36,628
+razões do Por que as mulheres não passa
+
+642
+00:29:34,169 --> 00:29:39,210
+pela cabeça fazia na área de exatas em
+
+643
+00:29:36,628 --> 00:29:41,819
+geral né aqui não é fácil não é a
+
+644
+00:29:39,210 --> 00:29:43,980
+primeira opção não é o lugar seria uma
+
+645
+00:29:41,819 --> 00:29:46,740
+primeira opção de imediato das mulheres
+
+646
+00:29:43,980 --> 00:29:49,470
+e para Dede exatas né tô precisando
+
+647
+00:29:46,740 --> 00:29:52,200
+quando a gente tem assim preocupação bem
+
+648
+00:29:49,470 --> 00:29:55,220
+arenet ainda hoje a ideia de você marca
+
+649
+00:29:52,200 --> 00:29:58,080
+masculina né de predominância masculina
+
+650
+00:29:55,220 --> 00:30:00,480
+de ser uma área Sul praia então a gente
+
+651
+00:29:58,079 --> 00:30:02,908
+automaticamente pensa nas pessoas
+
+652
+00:30:00,480 --> 00:30:05,220
+programando de fone de ouvido tem
+
+653
+00:30:02,909 --> 00:30:07,559
+interação eu acho que a gente precisaria
+
+654
+00:30:05,220 --> 00:30:10,319
+começar a quebrar esse paradigma que a
+
+655
+00:30:07,558 --> 00:30:13,349
+gente não trabalha com mar passam a
+
+656
+00:30:10,319 --> 00:30:15,298
+máquina faz parte mas não é o ponto
+
+657
+00:30:13,349 --> 00:30:17,668
+final a gente hoje não trabalha para
+
+658
+00:30:15,298 --> 00:30:20,220
+Mack então que a gente tem atuação no
+
+659
+00:30:17,669 --> 00:30:22,320
+grupo A Gente Tem cada vez mais a
+
+660
+00:30:20,220 --> 00:30:24,789
+questão da comunicação com clientes
+
+661
+00:30:22,319 --> 00:30:27,759
+outra dificuldade que eu acho que
+
+662
+00:30:24,789 --> 00:30:31,269
+e tem a questão da visão de um trabalho
+
+663
+00:30:27,759 --> 00:30:35,170
+e demanda muitas horas então como que eu
+
+664
+00:30:31,269 --> 00:30:37,389
+seria hoje é possível de ser mãe e
+
+665
+00:30:35,170 --> 00:30:41,259
+trabalhar dentro da da indústria só
+
+666
+00:30:37,390 --> 00:30:43,300
+então também a gente tem que ir
+
+667
+00:30:41,259 --> 00:30:45,069
+verificar as mudanças que tiveram com
+
+668
+00:30:43,299 --> 00:30:47,740
+relação a isso por exemplo a gente
+
+669
+00:30:45,069 --> 00:30:50,500
+estava comentando do trabalho remoto da
+
+670
+00:30:47,740 --> 00:30:53,640
+questão da flexibilização de horários
+
+671
+00:30:50,500 --> 00:30:56,109
+Então eu acho que estão alguns
+
+672
+00:30:53,640 --> 00:30:59,170
+fatores que dificultam as mulheres
+
+673
+00:30:56,109 --> 00:31:02,379
+estarem dentro da computação e aí a
+
+674
+00:30:59,170 --> 00:31:04,690
+gente também precisa valorizar o que
+
+675
+00:31:02,380 --> 00:31:07,450
+antes era visto como fraqueza das
+
+676
+00:31:04,690 --> 00:31:11,140
+mulheres em termos de a mulher não tem
+
+677
+00:31:07,450 --> 00:31:13,120
+mais sensibilidade mais assertiva é que
+
+678
+00:31:11,140 --> 00:31:14,500
+antes era visto como fraqueza e que na
+
+679
+00:31:13,119 --> 00:31:16,629
+verdade hoje dentro de um
+
+680
+00:31:14,500 --> 00:31:19,990
+desenvolvimento costas a gente pode
+
+681
+00:31:16,630 --> 00:31:21,970
+associar um forte né que passo maior que
+
+682
+00:31:19,990 --> 00:31:24,799
+a partir do momento que a visão for
+
+683
+00:31:21,970 --> 00:31:26,990
+opção diferente que a gente pode tomar
+
+684
+00:31:24,799 --> 00:31:29,720
+as partes essenciais para ter um
+
+685
+00:31:26,990 --> 00:31:31,930
+processo produtivo só eu acho que a
+
+686
+00:31:29,720 --> 00:31:36,250
+gente conseguiria ser igualdade de
+
+687
+00:31:31,930 --> 00:31:39,080
+gênero e tá saindo mais mulheres para
+
+688
+00:31:36,250 --> 00:31:42,980
+preocupação eu mesmo quando acabei o
+
+689
+00:31:39,079 --> 00:31:46,250
+curso durante o curso foi um curso que
+
+690
+00:31:42,980 --> 00:31:49,069
+eu era minoria a gente tinha na época
+
+691
+00:31:46,250 --> 00:31:51,500
+che três meninas na turma depois aí foi
+
+692
+00:31:49,069 --> 00:31:54,230
+eu e aí eu lembro dos professores não
+
+693
+00:31:51,500 --> 00:31:56,539
+terem simpatia em termos de esquece que
+
+694
+00:31:54,230 --> 00:31:59,599
+você sabe sozinha na turma né detalhes
+
+695
+00:31:56,539 --> 00:32:02,450
+da turma também é E aí o que me marcou
+
+696
+00:31:59,599 --> 00:32:04,579
+bastante foi quando eu tentei começar a
+
+697
+00:32:02,450 --> 00:32:07,309
+trabalhar na questão da indústria e aí
+
+698
+00:32:04,579 --> 00:32:09,919
+eu passei por algumas etapas de seleção
+
+699
+00:32:07,309 --> 00:32:12,500
+e eu fiquei em primeiro lugar você as
+
+700
+00:32:09,920 --> 00:32:14,650
+técnico de seleção E aí quando eu fui
+
+701
+00:32:12,500 --> 00:32:18,769
+para entrevista ou
+
+702
+00:32:14,650 --> 00:32:20,720
+gerente falou que eu não poderia me
+
+703
+00:32:18,769 --> 00:32:21,700
+contratar porque eu iria quebrar o clima
+
+704
+00:32:20,720 --> 00:32:24,049
+da
+
+705
+00:32:21,700 --> 00:32:24,808
+empresa porque o sim falava muito
+
+706
+00:32:24,049 --> 00:32:28,548
+palavrão
+
+707
+00:32:24,808 --> 00:32:30,329
+e eu iria medir a
+
+708
+00:32:28,548 --> 00:32:32,878
+possibilidade deles falar um palavrão
+
+709
+00:32:30,329 --> 00:32:35,428
+então eu não fui contratada de forma
+
+710
+00:32:32,878 --> 00:32:37,259
+bastante isso por causa disso E aí o
+
+711
+00:32:35,429 --> 00:32:39,330
+Quando eu fui para a área acadêmica
+
+712
+00:32:37,259 --> 00:32:41,940
+primeira primeiro emprego que eu fui
+
+713
+00:32:39,329 --> 00:32:44,398
+tentar na academia para dar aulas numa
+
+714
+00:32:41,940 --> 00:32:46,740
+faculdade particular mais uma vez passei
+
+715
+00:32:44,398 --> 00:32:49,829
+dos processos seletivos E aí eu escutei
+
+716
+00:32:46,740 --> 00:32:53,038
+eu não poderia ser contratada Por que os
+
+717
+00:32:49,829 --> 00:32:55,349
+alunos é um curso turno e eu não poderia
+
+718
+00:32:53,038 --> 00:32:57,628
+ser contratada Por que eles não iriam
+
+719
+00:32:55,349 --> 00:33:01,019
+respeitar eu tendo mais novos sendo
+
+720
+00:32:57,628 --> 00:33:04,788
+mulher Então eu acho que ainda hoje a
+
+721
+00:33:01,019 --> 00:33:09,599
+gente enfrenta esse esse tipo de
+
+722
+00:33:04,788 --> 00:33:13,589
+problema dentro da área e E aí algumas
+
+723
+00:33:09,599 --> 00:33:16,528
+ações legais essa semana o Generosa o
+
+724
+00:33:13,589 --> 00:33:19,769
+Igor a Bianca né publicaram um trabalho
+
+725
+00:33:16,528 --> 00:33:23,038
+que eu acho que valeria destacar eu não
+
+726
+00:33:19,769 --> 00:33:25,690
+consegui ler ainda só peguei o preço do
+
+727
+00:33:23,038 --> 00:33:28,379
+trabalho aqui é uma investida a única né
+
+728
+00:33:25,690 --> 00:33:31,960
+dados dos Desafios das mulheres na
+
+729
+00:33:28,380 --> 00:33:34,000
+indústria e aí eu vi alguns algumas
+
+730
+00:33:31,960 --> 00:33:35,350
+ações que eles colocaram lá então por
+
+731
+00:33:34,000 --> 00:33:37,329
+exemplo mandar essas coisas que eles
+
+732
+00:33:35,349 --> 00:33:40,029
+destacaram foi treinar as habilidades
+
+733
+00:33:37,329 --> 00:33:42,730
+dos diferentes para evitar as situações
+
+734
+00:33:40,029 --> 00:33:45,759
+que houve vencer Então os gerentes são
+
+735
+00:33:42,730 --> 00:33:48,160
+ser treinar aí eu outros fatores que
+
+736
+00:33:45,759 --> 00:33:51,430
+eles colocaram com ações possíveis né É
+
+737
+00:33:48,160 --> 00:33:53,470
+a flexibilização de horários para as
+
+738
+00:33:51,430 --> 00:33:55,660
+mulheres se manter nas duas vezes eu
+
+739
+00:33:53,470 --> 00:33:58,029
+escolhi essencial para ele manter dentro
+
+740
+00:33:55,660 --> 00:34:00,700
+da academia para eu fazer um doutorado
+
+741
+00:33:58,029 --> 00:34:04,059
+né mas eu vou continuar otimista do que
+
+742
+00:34:00,700 --> 00:34:06,190
+eu acho que o futuro aí dá resposta a
+
+743
+00:34:04,059 --> 00:34:09,418
+gente vai conseguir nesses esforços os
+
+744
+00:34:06,190 --> 00:34:11,369
+talentos individuais para
+
+745
+00:34:09,418 --> 00:34:14,650
+facilitar e
+
+746
+00:34:11,369 --> 00:34:17,529
+incentivar as mulheres na população é
+
+747
+00:34:14,650 --> 00:34:19,418
+uma frase legal da Cláudia Medeiros da
+
+748
+00:34:17,530 --> 00:34:21,310
+Unicamp que ela falou assim quando as
+
+749
+00:34:19,418 --> 00:34:23,889
+empresas entenderem que a mulher tem uma
+
+750
+00:34:21,309 --> 00:34:26,360
+capacidade tem uma maior capacidade de
+
+751
+00:34:23,889 --> 00:34:28,429
+organização há uma percepção de que os
+
+752
+00:34:26,360 --> 00:34:30,490
+homens e mulheres trabalhamos um o tem
+
+753
+00:34:28,429 --> 00:34:33,019
+melhor resultado muitas organizações
+
+754
+00:34:30,489 --> 00:34:35,029
+consideram que enquanto o homem quer
+
+755
+00:34:33,019 --> 00:34:37,070
+vender o ter lucro a mulher que essa
+
+756
+00:34:35,030 --> 00:34:39,650
+fazer o que é a soma dessas duas
+
+757
+00:34:37,070 --> 00:34:41,690
+características está bem melhor né Eu
+
+758
+00:34:39,650 --> 00:34:45,470
+acho que quando tiver esse entendimento
+
+759
+00:34:41,690 --> 00:34:47,780
+das como eu acho que hora que tiver essa
+
+760
+00:34:45,469 --> 00:34:49,459
+quebra desse paradigma de hoje eu acho
+
+761
+00:34:47,780 --> 00:34:52,429
+que a gente vai ter um avanço em termos
+
+762
+00:34:49,460 --> 00:34:54,199
+o número de mulheres que tinha né a
+
+763
+00:34:52,429 --> 00:34:56,269
+gente pegar a história da Computação aí
+
+764
+00:34:54,199 --> 00:34:59,389
+tem muita contribuição feminina lá no
+
+765
+00:34:56,269 --> 00:35:02,659
+começo né então a gente tá só o pai
+
+766
+00:34:59,389 --> 00:35:05,329
+reconhecer pouquinho tá escutando não
+
+767
+00:35:02,659 --> 00:35:07,849
+conhece e tenho projeto mini meninas
+
+768
+00:35:05,329 --> 00:35:10,610
+digitais da SBC né Tem vários projetos
+
+769
+00:35:07,849 --> 00:35:12,230
+espalhados pelo Brasil eu faço parte de
+
+770
+00:35:10,610 --> 00:35:15,590
+um deles vermelhas a gente tem lá o
+
+771
+00:35:12,230 --> 00:35:17,389
+Emílio podcast e o uma um dos objetivos
+
+772
+00:35:15,590 --> 00:35:20,000
+da Minas podcast que eu não sei se a
+
+773
+00:35:17,389 --> 00:35:21,829
+gente alcança e de forma que da forma
+
+774
+00:35:20,000 --> 00:35:24,530
+que a gente gostaria porque pelo menos
+
+775
+00:35:21,829 --> 00:35:26,909
+em termos de eu ter PR Curitiba no desde
+
+776
+00:35:24,530 --> 00:35:28,980
+que que o teste até hoje desde começou
+
+777
+00:35:26,909 --> 00:35:31,139
+na tá dormindo até hoje a gente continua
+
+778
+00:35:28,980 --> 00:35:32,130
+tendo o ingresso de mulheres nos nossos
+
+779
+00:35:31,139 --> 00:35:33,750
+dois cursos da área de computação
+
+780
+00:35:32,130 --> 00:35:35,579
+engenharia de computação e Sistemas de
+
+781
+00:35:33,750 --> 00:35:38,699
+Informação sempre na faixa de no máximo
+
+782
+00:35:35,579 --> 00:35:41,340
+quinze por cento às vezes 20 Mais acho
+
+783
+00:35:38,699 --> 00:35:43,949
+que no mínimo 40 seria no mínimo 30 né
+
+784
+00:35:41,340 --> 00:35:47,039
+que eu acho que é o que tem de mulheres
+
+785
+00:35:43,949 --> 00:35:49,889
+no mercado né então esse tem tem algum
+
+786
+00:35:47,039 --> 00:35:52,130
+problema aí na na nossa seleção em
+
+787
+00:35:49,889 --> 00:35:55,500
+alguma coisa mas enfim a ideia do
+
+788
+00:35:52,130 --> 00:35:57,750
+podcast é trazer mais mulheres para até
+
+789
+00:35:55,500 --> 00:36:00,320
+para talvez elas vão ter esse esses
+
+790
+00:35:57,750 --> 00:36:03,840
+problemas aí que a Bianca tá e seus
+
+791
+00:36:00,320 --> 00:36:07,050
+autores ali identificaram mais que eu
+
+792
+00:36:03,840 --> 00:36:08,940
+sinto é que do meu ponto de vista que é
+
+793
+00:36:07,050 --> 00:36:11,280
+bem limitada que já tem um problema que
+
+794
+00:36:08,940 --> 00:36:14,670
+não entra então a mulher assim na nos
+
+795
+00:36:11,280 --> 00:36:17,070
+nossos cursos da e algo que o menino
+
+796
+00:36:14,670 --> 00:36:19,650
+digitais tem tentado melhorar o longo
+
+797
+00:36:17,070 --> 00:36:22,680
+dos anos mas eu não sei se tem tido
+
+798
+00:36:19,650 --> 00:36:24,789
+resultado assim muito tenho sempre tem
+
+799
+00:36:22,679 --> 00:36:27,429
+um resultado né mas essa questão é que
+
+800
+00:36:24,789 --> 00:36:30,070
+Bom dia a gente vai conseguir chegar é o
+
+801
+00:36:27,429 --> 00:36:34,569
+ingresso dos nossos cursos de 40 50 por
+
+802
+00:36:30,070 --> 00:36:37,480
+cento Como já foi no passado já foi o
+
+803
+00:36:34,570 --> 00:36:40,510
+gigante tempo pouquinho antes de começar
+
+804
+00:36:37,480 --> 00:36:42,610
+a nossa conversa eu recebi o Whatsapp no
+
+805
+00:36:40,510 --> 00:36:45,820
+grupo lá do precisar do atendimento
+
+806
+00:36:42,610 --> 00:36:49,079
+sócio e isso era perdi o mestrado porque
+
+807
+00:36:45,820 --> 00:36:53,230
+Rei mãe eu acho de uma estudante de
+
+808
+00:36:49,079 --> 00:36:55,119
+pós-graduação em Ecologia Amber e em
+
+809
+00:36:53,230 --> 00:36:58,090
+Jesus Pelo que eu entendi da história
+
+810
+00:36:55,119 --> 00:37:01,089
+dela ela tinha defendido no extrato e aí
+
+811
+00:36:58,090 --> 00:37:02,860
+ela pede filho toda a demanda que teve
+
+812
+00:37:01,090 --> 00:37:06,070
+ali e ela não teve tempo de entregar as
+
+813
+00:37:02,860 --> 00:37:08,349
+correções da dissertação E aí por isso a
+
+814
+00:37:06,070 --> 00:37:10,870
+universidade tinha decidido que ela não
+
+815
+00:37:08,349 --> 00:37:13,599
+tem ela não entregou no tempo abre as
+
+816
+00:37:10,869 --> 00:37:17,769
+correções é da dissertação sugeridas
+
+817
+00:37:13,599 --> 00:37:21,309
+pela van Então hoje hoje a gente dá ver
+
+818
+00:37:17,769 --> 00:37:23,559
+esse tipo de notícia né E apesar de ter
+
+819
+00:37:21,309 --> 00:37:26,059
+sido aprovado pela Capes uma intensa lá
+
+820
+00:37:23,559 --> 00:37:27,949
+de quatro meses pra cá Oi Pâmela tava
+
+821
+00:37:26,059 --> 00:37:29,750
+dentro de um projeto projeto é
+
+822
+00:37:27,949 --> 00:37:31,789
+interminável não tive como estender a
+
+823
+00:37:29,750 --> 00:37:33,829
+data dela Aline projeto então a notícia
+
+824
+00:37:31,789 --> 00:37:36,110
+de hoje não é uma coisa que a gente tá
+
+825
+00:37:33,829 --> 00:37:39,559
+falando ali de 10 anos quando eu me
+
+826
+00:37:36,110 --> 00:37:42,280
+formei meio triste e você recentemente
+
+827
+00:37:39,559 --> 00:37:45,079
+ministrou uma palestra sobre
+
+828
+00:37:42,280 --> 00:37:46,400
+pesquisa-ação e eu vou deixar o link
+
+829
+00:37:45,079 --> 00:37:48,289
+assim com vários links que você
+
+830
+00:37:46,400 --> 00:37:50,180
+mencionou ao longo aqui do episódio e
+
+831
+00:37:48,289 --> 00:37:52,309
+vou deixar na descrição do Episódio O
+
+832
+00:37:50,179 --> 00:37:55,069
+que é pesquisar São Qual é o seu
+
+833
+00:37:52,309 --> 00:37:58,340
+interesse neste método a pesquisa ação
+
+834
+00:37:55,070 --> 00:38:02,570
+assim como ele é um método de pesquisa
+
+835
+00:37:58,340 --> 00:38:05,720
+da resposta né a principal diferença da
+
+836
+00:38:02,570 --> 00:38:08,840
+pesquisa-ação é como o nome dela sugerem
+
+837
+00:38:05,719 --> 00:38:11,299
+né é uma junção da pesquisa com a ação
+
+838
+00:38:08,840 --> 00:38:14,800
+que a indústria Itália um método para
+
+839
+00:38:11,300 --> 00:38:18,740
+ser adotado em conjunto ajustam A Grande
+
+840
+00:38:14,800 --> 00:38:21,470
+a grande e objetivo da da pesquisa-ação
+
+841
+00:38:18,739 --> 00:38:24,809
+é solucionar problemas reais da empresa
+
+842
+00:38:21,469 --> 00:38:27,419
+e que tenha o avanço científico
+
+843
+00:38:24,809 --> 00:38:30,049
+bom então é é o famoso ganha-ganha né
+
+844
+00:38:27,420 --> 00:38:33,780
+então a gente aplica um processo
+
+845
+00:38:30,050 --> 00:38:36,750
+iterativo dentro da empresa em cinco
+
+846
+00:38:33,780 --> 00:38:38,310
+fases e o primeiro passo é o diagnóstico
+
+847
+00:38:36,750 --> 00:38:41,039
+e que você identificou problemas
+
+848
+00:38:38,309 --> 00:38:42,710
+advindos da indústria o pesquisador tá
+
+849
+00:38:41,039 --> 00:38:46,079
+lá dentro da indústria
+
+850
+00:38:42,710 --> 00:38:49,139
+identifica esse problema em conjunto com
+
+851
+00:38:46,079 --> 00:38:52,829
+a indústria aí ele vai para literatura
+
+852
+00:38:49,139 --> 00:38:55,529
+que é a parte da pesquisa né Identifique
+
+853
+00:38:52,829 --> 00:38:57,449
+as soluções baseadas nos trabalhos então
+
+854
+00:38:55,530 --> 00:38:58,920
+a por exemplo identificar as possíveis
+
+855
+00:38:57,449 --> 00:39:01,319
+soluções a que a gente poderia
+
+856
+00:38:58,920 --> 00:39:04,710
+perfeitamente aqui carretel temática
+
+857
+00:39:01,320 --> 00:39:07,740
+verificar Quais são as ações que foram
+
+858
+00:39:04,710 --> 00:39:10,230
+desenvolvidas para que lhe dado problema
+
+859
+00:39:07,739 --> 00:39:13,250
+num terceiro momento a gente toma são
+
+860
+00:39:10,230 --> 00:39:17,130
+que é selecionar uma das
+
+861
+00:39:13,250 --> 00:39:19,289
+soluções identificadas e aí se aplicável
+
+862
+00:39:17,130 --> 00:39:22,170
+dentro da indústria né Então aí vem a
+
+863
+00:39:19,289 --> 00:39:24,059
+parte da do termo da ação a gente faz
+
+864
+00:39:22,170 --> 00:39:24,789
+uma quarta etapa de avaliação dos
+
+865
+00:39:24,059 --> 00:39:25,769
+efeitos
+
+866
+00:39:24,789 --> 00:39:29,590
+a
+
+867
+00:39:25,769 --> 00:39:33,639
+pesadas limitações os próximos passos né
+
+868
+00:39:29,590 --> 00:39:37,150
+e a gente fecha o 1º ciclo com essa essa
+
+869
+00:39:33,639 --> 00:39:39,639
+reflexão e aí o que é legal que a
+
+870
+00:39:37,150 --> 00:39:41,800
+pesquisar São é que esse ganho é pra
+
+871
+00:39:39,639 --> 00:39:44,230
+academia a gente ganha ali trabalhos
+
+872
+00:39:41,800 --> 00:39:47,050
+futuros e temos do que que pode ser
+
+873
+00:39:44,230 --> 00:39:48,480
+feito né que foram limitações a
+
+874
+00:39:47,050 --> 00:39:51,460
+aplicação da solução
+
+875
+00:39:48,480 --> 00:39:54,610
+você tem um aprendizado do próprio
+
+876
+00:39:51,460 --> 00:39:56,949
+método dentro da indústria então o como
+
+877
+00:39:54,610 --> 00:39:59,740
+coletar os dados Como armazenar esses
+
+878
+00:39:56,949 --> 00:40:02,199
+dados com o Ricardo a indústria para
+
+879
+00:39:59,739 --> 00:40:05,349
+você traz isso para vó de volta para
+
+880
+00:40:02,199 --> 00:40:07,710
+academia você tem um retorno do método o
+
+881
+00:40:05,349 --> 00:40:11,110
+as reflexões própria academia
+
+882
+00:40:07,710 --> 00:40:13,900
+EA indústria tem a solução do problema é
+
+883
+00:40:11,110 --> 00:40:18,010
+um se identificar necessidade de um novo
+
+884
+00:40:13,900 --> 00:40:21,400
+sinto reinicia É mas o que me atraiu em
+
+885
+00:40:18,010 --> 00:40:24,800
+particular no olho mestrado profissional
+
+886
+00:40:21,400 --> 00:40:27,079
+referir que o foco é trazer
+
+887
+00:40:24,800 --> 00:40:29,300
+a identificação desses problemas da
+
+888
+00:40:27,079 --> 00:40:31,670
+indústria e aí a gente precisaria tô
+
+889
+00:40:29,300 --> 00:40:34,640
+aplicando métodos que permitissem sua
+
+890
+00:40:31,670 --> 00:40:38,150
+intenção e aí foi quando eu comecei a
+
+891
+00:40:34,639 --> 00:40:39,799
+estudar a pesquisa-ação é como uma
+
+892
+00:40:38,150 --> 00:40:41,740
+possibilidade de estabelecer se
+
+893
+00:40:39,800 --> 00:40:45,380
+estabelecer parceria entre os docentes
+
+894
+00:40:41,739 --> 00:40:47,709
+cgi e a indústria então foi essa
+
+895
+00:40:45,380 --> 00:40:50,710
+motivação do
+
+896
+00:40:47,710 --> 00:40:53,900
+aplicação do método né dicas de redação
+
+897
+00:40:50,710 --> 00:40:55,849
+para legal fica aí eu lembrete para o
+
+898
+00:40:53,900 --> 00:40:58,639
+pessoal aí da região lá Londrina
+
+899
+00:40:55,849 --> 00:41:01,219
+Cornélio que quiser fazer parceria aí só
+
+900
+00:40:58,639 --> 00:41:03,589
+procurar o teste PR Cornélio Procópio
+
+901
+00:41:01,219 --> 00:41:05,869
+que práticas de pesquisa você recomenda
+
+902
+00:41:03,590 --> 00:41:08,210
+para outros pesquisadores que você
+
+903
+00:41:05,869 --> 00:41:09,710
+utiliza atua atualmente que gostaria de
+
+904
+00:41:08,210 --> 00:41:12,199
+ter aprendido para tornar seu trabalho
+
+905
+00:41:09,710 --> 00:41:15,559
+mais eficiente mandou vou dar uma
+
+906
+00:41:12,199 --> 00:41:18,259
+resposta bem enviesado disso tenta que
+
+907
+00:41:15,559 --> 00:41:20,809
+seria a aplicação de uma pena
+
+908
+00:41:18,260 --> 00:41:24,810
+sistemático Na graduação quando a gente
+
+909
+00:41:20,809 --> 00:41:27,000
+pensa tem um trabalho uma da não é toca
+
+910
+00:41:24,809 --> 00:41:30,809
+o meu trabalho a questão da revisão
+
+911
+00:41:27,000 --> 00:41:34,289
+sistemática o método de pesquisa mas a
+
+912
+00:41:30,809 --> 00:41:36,509
+produção de secundário independentemente
+
+913
+00:41:34,289 --> 00:41:40,219
+de um aluno de graduação que ele vai
+
+914
+00:41:36,510 --> 00:41:43,380
+chegar no resultado que esteja é
+
+915
+00:41:40,219 --> 00:41:48,089
+válido em termos de Rigor em termos de
+
+916
+00:41:43,380 --> 00:41:51,030
+publicação e é o processo de conduzir um
+
+917
+00:41:48,090 --> 00:41:53,329
+estudo secundário ele desenvolve
+
+918
+00:41:51,030 --> 00:41:55,710
+habilidades científicas então a gente
+
+919
+00:41:53,329 --> 00:41:58,079
+cria uma pessoa precisa Então
+
+920
+00:41:55,710 --> 00:42:00,240
+independentemente na academia você tenta
+
+921
+00:41:58,079 --> 00:42:02,610
+recriar que as cores que se você busca
+
+922
+00:42:00,239 --> 00:42:05,219
+literatura análise do Sul de forma
+
+923
+00:42:02,610 --> 00:42:07,110
+crítica tem que fazer simples é a
+
+924
+00:42:05,219 --> 00:42:09,719
+leitura dos os vai melhorar o
+
+925
+00:42:07,110 --> 00:42:12,750
+vocabulário referente a tem os
+
+926
+00:42:09,719 --> 00:42:16,349
+acadêmicos o relação ao tópico conhecer
+
+927
+00:42:12,750 --> 00:42:17,909
+os termos da área a leitura dos estudos
+
+928
+00:42:16,349 --> 00:42:20,219
+na fase de seleção vai aprimorar a nossa
+
+929
+00:42:17,909 --> 00:42:21,710
+capacidade interpretativa E aí a gente
+
+930
+00:42:20,219 --> 00:42:26,259
+fez algumas
+
+931
+00:42:21,710 --> 00:42:29,769
+análises e outro de um É bem recente a
+
+932
+00:42:26,260 --> 00:42:33,100
+chegar semana passada retrasada da pele
+
+933
+00:42:29,769 --> 00:42:37,059
+fome da Bárbara pessoas aberto não sei
+
+934
+00:42:33,099 --> 00:42:40,839
+se foi porque ela ela me ensinava que a
+
+935
+00:42:37,059 --> 00:42:42,909
+grande maioria dos estudos o giz de uma
+
+936
+00:42:40,840 --> 00:42:45,990
+pontuação são feitos pela pós-graduação
+
+937
+00:42:42,909 --> 00:42:48,219
+Então é por causa disso né a gente tem
+
+938
+00:42:45,989 --> 00:42:50,739
+esses ganhos internos de Formação
+
+939
+00:42:48,219 --> 00:42:54,789
+científica na internet pesquisador
+
+940
+00:42:50,739 --> 00:42:58,109
+quando se conduz então eu indicaria ter
+
+941
+00:42:54,789 --> 00:43:00,699
+conhecido isso na graduação e aí a
+
+942
+00:42:58,110 --> 00:43:03,070
+tirando a redução sistemática uma das
+
+943
+00:43:00,699 --> 00:43:05,619
+atividades ali que a lei Tinga né então
+
+944
+00:43:03,070 --> 00:43:08,710
+eu se eu tivesse voltado um pouco hoje
+
+945
+00:43:05,619 --> 00:43:10,900
+lá no meu mestrado eu teria valorizado
+
+946
+00:43:08,710 --> 00:43:13,449
+antes da questão da importância da
+
+947
+00:43:10,900 --> 00:43:16,720
+alegria que hoje eu lembro às vezes de
+
+948
+00:43:13,449 --> 00:43:19,750
+passar uma tarde duas três sentada
+
+949
+00:43:16,719 --> 00:43:23,009
+tentando escrever e aí a escrita na
+
+950
+00:43:19,750 --> 00:43:24,800
+Bahia por falta de leitura então
+
+951
+00:43:23,010 --> 00:43:25,420
+entender a importância
+
+952
+00:43:24,800 --> 00:43:28,700
+e
+
+953
+00:43:25,420 --> 00:43:31,700
+o conhecimento que a gente tem que ter
+
+954
+00:43:28,699 --> 00:43:33,799
+da escritura de venda leitura né é uma
+
+955
+00:43:31,699 --> 00:43:36,439
+coisa que a gente escuta deixe criança
+
+956
+00:43:33,800 --> 00:43:39,310
+que ele escreve melhor quem é esperto
+
+957
+00:43:36,440 --> 00:43:39,309
+pia
+
+958
+00:43:39,969 --> 00:43:45,469
+doutorado para colocar em prática e hoje
+
+959
+00:43:43,820 --> 00:43:47,950
+é uma coisa que eu falo bastante meus
+
+960
+00:43:45,469 --> 00:43:47,949
+alunos
+
+961
+00:43:48,039 --> 00:43:58,190
+ansiedade de um monte de alguns né seu
+
+962
+00:43:53,119 --> 00:44:01,099
+texto ali como resultado corta o estágio
+
+963
+00:43:58,190 --> 00:44:04,880
+ali da leitura e aí dificulta a
+
+964
+00:44:01,099 --> 00:44:07,339
+atividade da escrita da paciência ali do
+
+965
+00:44:04,880 --> 00:44:11,510
+raciocínio então a leitura é algo que eu
+
+966
+00:44:07,340 --> 00:44:14,930
+seria inserido antes e hoje em dia
+
+967
+00:44:11,510 --> 00:44:17,410
+bastante como ação aí para os alunos que
+
+968
+00:44:14,929 --> 00:44:19,969
+estão começando o mostrar e o doutorado
+
+969
+00:44:17,409 --> 00:44:22,819
+legal passar suas dicas aqui para os
+
+970
+00:44:19,969 --> 00:44:24,809
+alunos também do ppgca e temas de
+
+971
+00:44:22,820 --> 00:44:27,059
+pesquisa você gostaria de trabalhar o
+
+972
+00:44:24,809 --> 00:44:29,070
+quanto você gosta de trabalhar mas não
+
+973
+00:44:27,059 --> 00:44:30,840
+teve tempo para iniciar ainda ou
+
+974
+00:44:29,070 --> 00:44:35,220
+pretendo aprender mais para trabalhar no
+
+975
+00:44:30,840 --> 00:44:37,380
+futuro no os últimos trabalhos e eu
+
+976
+00:44:35,219 --> 00:44:40,199
+desenvolvi Eles foram a temáticas de
+
+977
+00:44:37,380 --> 00:44:43,320
+atualização de revisão Então a gente tem
+
+978
+00:44:40,199 --> 00:44:45,509
+lá de 2007 né que a cidade de Lages
+
+979
+00:44:43,320 --> 00:44:48,180
+Então a gente tem aí mais dez anos de
+
+980
+00:44:45,510 --> 00:44:51,540
+resolver temáticos então isso acarretou
+
+981
+00:44:48,179 --> 00:44:53,639
+e as edições publicadas elas passaram a
+
+982
+00:44:51,539 --> 00:44:55,889
+história dos atualizadas em termos de
+
+983
+00:44:53,639 --> 00:44:58,889
+videntes E aí qual é o valor se a gente
+
+984
+00:44:55,889 --> 00:45:00,539
+tem de mais 15 anos atrás né Qual que é
+
+985
+00:44:58,889 --> 00:45:02,699
+o que eu posso ainda confiar em uma
+
+986
+00:45:00,539 --> 00:45:05,219
+resposta de uma revisão cinco anos atrás
+
+987
+00:45:02,699 --> 00:45:06,989
+eu as últimas pesquisas eu tenho voltado
+
+988
+00:45:05,219 --> 00:45:10,079
+para a questão de atualização de revisão
+
+989
+00:45:06,989 --> 00:45:12,479
+é o a gente não tinha absolutamente nada
+
+990
+00:45:10,079 --> 00:45:15,509
+em termos de atualização é um processo
+
+991
+00:45:12,480 --> 00:45:17,820
+as técnicas como por exemplo integrar
+
+992
+00:45:15,510 --> 00:45:20,610
+dados eu não sei se partir do zero tem
+
+993
+00:45:17,820 --> 00:45:23,760
+uma redução conduzida quando eu sei que
+
+994
+00:45:20,610 --> 00:45:24,789
+está na hora de conduzir uma uma
+
+995
+00:45:23,760 --> 00:45:29,440
+atualização
+
+996
+00:45:24,789 --> 00:45:32,380
+é tão último Os projetos que tem o atual
+
+997
+00:45:29,440 --> 00:45:35,110
+agora um futuro que eu pretendo
+
+998
+00:45:32,380 --> 00:45:37,720
+trabalhar mas que ainda preciso dar um
+
+999
+00:45:35,110 --> 00:45:40,380
+pouco é a questão de minação das
+
+1000
+00:45:37,719 --> 00:45:43,709
+seleções temáticas tem hoje a gente
+
+1001
+00:45:40,380 --> 00:45:46,720
+analisar a questão da
+
+1002
+00:45:43,710 --> 00:45:49,990
+revisões sistemáticas né Elas não tem
+
+1003
+00:45:46,719 --> 00:45:52,829
+conexão com a prática da Índia resposta
+
+1004
+00:45:49,989 --> 00:45:58,000
+então aplicabilidade hoje as conclusões
+
+1005
+00:45:52,829 --> 00:46:00,130
+não estão sendo usadas na plástica pelos
+
+1006
+00:45:58,000 --> 00:46:03,340
+profissionais por exemplo tem uma
+
+1007
+00:46:00,130 --> 00:46:05,590
+pesquisa que desde 2013por dos Santos e
+
+1008
+00:46:03,340 --> 00:46:08,680
+Silva eles eles analisaram a motivação
+
+1009
+00:46:05,590 --> 00:46:11,860
+pra se estudar fazer revisão sistemática
+
+1010
+00:46:08,679 --> 00:46:15,250
+e eles avaliaram 120 divisões e dá 120
+
+1011
+00:46:11,860 --> 00:46:18,599
+só seis for aplicada amigos falsos em
+
+1012
+00:46:15,250 --> 00:46:22,510
+sabe é embaixo assim por cento ali
+
+1013
+00:46:18,599 --> 00:46:24,799
+divisões né e tem outro estudo e foi
+
+1014
+00:46:22,510 --> 00:46:28,610
+dessa semana que eu uma comunicação a
+
+1015
+00:46:24,800 --> 00:46:30,560
+parte deixando aberto eu já mencionei E
+
+1016
+00:46:28,610 --> 00:46:31,910
+essas pessoas são produzidas
+
+1017
+00:46:30,559 --> 00:46:34,190
+praticamente no contexto da
+
+1018
+00:46:31,909 --> 00:46:35,960
+pós-graduação E aí a motivação Então
+
+1019
+00:46:34,190 --> 00:46:38,360
+hoje para as cozinhas são sistemáticas
+
+1020
+00:46:35,960 --> 00:46:42,769
+não vende o problema ela fez um problema
+
+1021
+00:46:38,360 --> 00:46:46,550
+de doutorado a pessoa usa o secundário o
+
+1022
+00:46:42,769 --> 00:46:48,349
+Pati método do lado dela é ou seja elas
+
+1023
+00:46:46,550 --> 00:46:52,280
+estão sendo focadas principalmente de
+
+1024
+00:46:48,349 --> 00:46:54,679
+problemas academia então existiam eu
+
+1025
+00:46:52,280 --> 00:46:58,730
+queria fazer essa ponte estabelecer essa
+
+1026
+00:46:54,679 --> 00:47:01,549
+fonte de os resultados chegarem a gente
+
+1027
+00:46:58,730 --> 00:47:03,530
+realmente conseguir identificar as
+
+1028
+00:47:01,550 --> 00:47:06,680
+melhores técnicas métodos e ferramentas
+
+1029
+00:47:03,530 --> 00:47:09,769
+vou resposta sim qualidade né então a
+
+1030
+00:47:06,679 --> 00:47:10,989
+gente tem que tem outro trabalho de 2017
+
+1031
+00:47:09,769 --> 00:47:14,869
+e o
+
+1032
+00:47:10,989 --> 00:47:17,329
+bezerro de torta procuram né E aí a e o
+
+1033
+00:47:14,869 --> 00:47:20,059
+trabalho ele avaliou o que as revisões
+
+1034
+00:47:17,329 --> 00:47:23,840
+sistemáticas indicados os tópicos e o
+
+1035
+00:47:20,059 --> 00:47:27,440
+quilos a indústria que é como resultado
+
+1036
+00:47:23,840 --> 00:47:30,600
+advindo da E aí Ana e aí ele sacar no
+
+1037
+00:47:27,440 --> 00:47:33,630
+estado muito discrepante do tecido feito
+
+1038
+00:47:30,599 --> 00:47:36,119
+do Facebook para ser consumido Então os
+
+1039
+00:47:33,630 --> 00:47:38,400
+profissionais Estão interessados na
+
+1040
+00:47:36,119 --> 00:47:41,369
+questão da produtividade sou nas costas
+
+1041
+00:47:38,400 --> 00:47:45,240
+e ainda academia não se publica na rede
+
+1042
+00:47:41,369 --> 00:47:47,819
+pública - sobre tópicos relacionados à
+
+1043
+00:47:45,239 --> 00:47:49,049
+produtividade como por exemplo técnicas
+
+1044
+00:47:47,820 --> 00:47:51,240
+desenvolvimento software de
+
+1045
+00:47:49,050 --> 00:47:53,430
+gerenciamento de processos e a grande
+
+1046
+00:47:51,239 --> 00:47:55,889
+grande maioria dos Tópicos hoje
+
+1047
+00:47:53,429 --> 00:47:57,989
+publicados em eles aos temáticas em
+
+1048
+00:47:55,889 --> 00:48:00,029
+mapeamentos temáticos na academia são
+
+1049
+00:47:57,989 --> 00:48:04,229
+artigos sobre verificação e validação só
+
+1050
+00:48:00,030 --> 00:48:07,080
+Então essa discrepância entre o que a
+
+1051
+00:48:04,230 --> 00:48:09,139
+gente está produzindo que deve ser de
+
+1052
+00:48:07,079 --> 00:48:11,460
+interesse você consumir existem
+
+1053
+00:48:09,139 --> 00:48:15,000
+iniciativas ali um trabalho bem bacana
+
+1054
+00:48:11,460 --> 00:48:19,079
+de conhecimento do pessoal e do Nordeste
+
+1055
+00:48:15,000 --> 00:48:22,530
+o relação aos revisões rápidas e foi uma
+
+1056
+00:48:19,079 --> 00:48:25,509
+das tentativas de entregar resultados
+
+1057
+00:48:22,530 --> 00:48:28,630
+mais rapidamente tem luz é o eu falei
+
+1058
+00:48:25,510 --> 00:48:31,270
+desenvolveu perfeito Brief né que é um
+
+1059
+00:48:28,630 --> 00:48:33,039
+modelo de uma página Para sinalizar os
+
+1060
+00:48:31,269 --> 00:48:35,679
+resultados para indústrias e teve um
+
+1061
+00:48:33,039 --> 00:48:38,110
+trabalho recente do Fernando a respeito
+
+1062
+00:48:35,679 --> 00:48:42,039
+do garoto do Fernando a respeito da
+
+1063
+00:48:38,110 --> 00:48:45,690
+literatura cinzenta para tentar trazer a
+
+1064
+00:48:42,039 --> 00:48:47,829
+questão da da indústria né para
+
+1065
+00:48:45,690 --> 00:48:51,990
+complementar por exemplo bairro dos
+
+1066
+00:48:47,829 --> 00:48:56,409
+temática das mais plásticos dentro Eu eu
+
+1067
+00:48:51,989 --> 00:48:57,969
+acho que a técnica x lá é a melhor para
+
+1068
+00:48:56,409 --> 00:49:00,099
+ser utilizado mas só que o curso de
+
+1069
+00:48:57,969 --> 00:49:02,409
+aplicação até é quais são as etapas que
+
+1070
+00:49:00,099 --> 00:49:03,579
+vai ser aplicado qualquer aplicabilidade
+
+1071
+00:49:02,409 --> 00:49:05,199
+quantas pessoas eu preciso
+
+1072
+00:49:03,579 --> 00:49:09,579
+reconhecimento essa aplicar essa técnica
+
+1073
+00:49:05,199 --> 00:49:12,519
+então a gente precisa hoje dessa chegar
+
+1074
+00:49:09,579 --> 00:49:16,599
+nesses canais de comunicação da adianta
+
+1075
+00:49:12,519 --> 00:49:19,750
+publicar o uma página lá dos resumos
+
+1076
+00:49:16,599 --> 00:49:22,710
+numa língua que os a indústria não
+
+1077
+00:49:19,750 --> 00:49:25,940
+conhece né usando linguajar acadêmico o
+
+1078
+00:49:22,710 --> 00:49:28,579
+escrevendo em inglês sendo que Oi aqui é
+
+1079
+00:49:25,940 --> 00:49:31,159
+a leitura em português é não adianta
+
+1080
+00:49:28,579 --> 00:49:32,750
+publicar três é tencionar anos
+
+1081
+00:49:31,159 --> 00:49:36,589
+específicos voltados para profissionais
+
+1082
+00:49:32,750 --> 00:49:38,559
+mas a fazer tem acesso e três Elas têm
+
+1083
+00:49:36,590 --> 00:49:42,440
+acesso assim então
+
+1084
+00:49:38,559 --> 00:49:44,409
+estabelecer esse processo de como gerar
+
+1085
+00:49:42,440 --> 00:49:49,490
+os resultados de mapeamento de revisões
+
+1086
+00:49:44,409 --> 00:49:51,019
+pele para pele é verdade como eu
+
+1087
+00:49:49,489 --> 00:49:53,509
+comentei até com você ontem a gente
+
+1088
+00:49:51,019 --> 00:49:56,030
+conversou a também tem nem o que observo
+
+1089
+00:49:53,510 --> 00:49:57,980
+é que eu vivo muito entre os
+
+1090
+00:49:56,030 --> 00:49:59,800
+desenvolvedores do sítio no mundo
+
+1091
+00:49:57,980 --> 00:50:03,019
+virtual deles assim
+
+1092
+00:49:59,800 --> 00:50:04,789
+raramente surge algum artigo científico
+
+1093
+00:50:03,019 --> 00:50:07,190
+de alguma coisa que dizer eles estão
+
+1094
+00:50:04,789 --> 00:50:09,769
+mais interessados numa palestra que
+
+1095
+00:50:07,190 --> 00:50:11,659
+aparece no YouTube de alguém algum
+
+1096
+00:50:09,769 --> 00:50:13,699
+evento do que um artigo científico há
+
+1097
+00:50:11,659 --> 00:50:15,649
+exceções Claro tem até um grupo não sei
+
+1098
+00:50:13,699 --> 00:50:18,319
+se conhece o é meio que um movimento
+
+1099
+00:50:15,650 --> 00:50:20,990
+Mundial digamos assim chamado papers We
+
+1100
+00:50:18,320 --> 00:50:22,789
+love pessoal que se reúne aconteceu
+
+1101
+00:50:20,989 --> 00:50:24,139
+presencialmente as da pandemia depois da
+
+1102
+00:50:22,789 --> 00:50:26,550
+pandemia tive algumas coisas virtuais
+
+1103
+00:50:24,139 --> 00:50:28,949
+não sei que e hoje não é que a gente tá
+
+1104
+00:50:26,550 --> 00:50:31,260
+meio nesse vai e volta da academia mas
+
+1105
+00:50:28,949 --> 00:50:32,969
+eles lá vamos discutir um artigo
+
+1106
+00:50:31,260 --> 00:50:35,790
+científico específico aí eles faziam
+
+1107
+00:50:32,969 --> 00:50:37,589
+reunião em algum lugar mas aí o que o
+
+1108
+00:50:35,789 --> 00:50:39,840
+que eu digo é pro pessoal que está nos
+
+1109
+00:50:37,590 --> 00:50:41,940
+escutando que é da indústria e não da
+
+1110
+00:50:39,840 --> 00:50:43,769
+academia é o sugiro que entra lá nas
+
+1111
+00:50:41,940 --> 00:50:45,510
+nossas redes sociais e está no Linkedin
+
+1112
+00:50:43,769 --> 00:50:48,599
+e no Twitter ou manda um e-mail pra
+
+1113
+00:50:45,510 --> 00:50:50,250
+gente está lá na nossa página disso Qual
+
+1114
+00:50:48,599 --> 00:50:52,079
+qual é o seu contato que é que você
+
+1115
+00:50:50,250 --> 00:50:53,940
+escuta esse podcast tem um podcast
+
+1116
+00:50:52,079 --> 00:50:56,489
+basicamente que discutir resultados
+
+1117
+00:50:53,940 --> 00:50:58,289
+pesquisa mas a gente gostaria de saber o
+
+1118
+00:50:56,489 --> 00:51:02,250
+que é que você acha a gente vai agora
+
+1119
+00:50:58,289 --> 00:51:04,920
+para nossa pergunta que define o podcast
+
+1120
+00:51:02,250 --> 00:51:07,199
+e eu gosto sempre de lembrar que alguma
+
+1121
+00:51:04,920 --> 00:51:09,630
+coisa que você acha que vai acontecer o
+
+1122
+00:51:07,199 --> 00:51:11,219
+que você gostaria que acontecesse sabe
+
+1123
+00:51:09,630 --> 00:51:12,990
+que nem um pesquisador por mais que
+
+1124
+00:51:11,219 --> 00:51:15,299
+estuda em sistema Tem bola de cristal
+
+1125
+00:51:12,989 --> 00:51:17,789
+para você Kátia Qual é a próxima
+
+1126
+00:51:15,300 --> 00:51:20,780
+fronteira da engenharia de software
+
+1127
+00:51:17,789 --> 00:51:24,300
+Adolfo considerando a
+
+1128
+00:51:20,780 --> 00:51:27,490
+desafios e Eu mencionei é hoje eu acho
+
+1129
+00:51:24,300 --> 00:51:31,140
+que uma from e essa conexão da academia
+
+1130
+00:51:27,489 --> 00:51:33,939
+no contexto de resultados de mapeamento
+
+1131
+00:51:31,139 --> 00:51:36,909
+então eu pretendo iniciar um trabalho
+
+1132
+00:51:33,940 --> 00:51:41,320
+voltado especificamente para fase de
+
+1133
+00:51:36,909 --> 00:51:44,170
+Nação da dos estudos eu acho que uma
+
+1134
+00:51:41,320 --> 00:51:47,350
+fronteira é a questão da cooperação a
+
+1135
+00:51:44,170 --> 00:51:49,420
+gente viu ali no trabalho das mulheres a
+
+1136
+00:51:47,349 --> 00:51:52,650
+gente viu na questão das Ferramentas
+
+1137
+00:51:49,420 --> 00:51:54,940
+então estabelecer essas operações
+
+1138
+00:51:52,650 --> 00:51:57,820
+conseguiu me as pessoas que têm
+
+1139
+00:51:54,940 --> 00:52:00,639
+interesse comum e fazer essas pessoas
+
+1140
+00:51:57,820 --> 00:52:02,760
+comentar essas ferramentas que eu acho
+
+1141
+00:52:00,639 --> 00:52:06,129
+que isso ainda é Um Desafio hoje na
+
+1142
+00:52:02,760 --> 00:52:10,360
+igreja Esporte e aí um termos de
+
+1143
+00:52:06,130 --> 00:52:12,610
+indústria eu gostaria de pensar em e as
+
+1144
+00:52:10,360 --> 00:52:15,430
+empresas de torta fosse pioneiras aí
+
+1145
+00:52:12,610 --> 00:52:18,160
+questão dos benefícios atrativos
+
+1146
+00:52:15,429 --> 00:52:21,669
+diferenciado aí para as mulheres e aí eu
+
+1147
+00:52:18,159 --> 00:52:23,619
+também foi bem recente que governo da
+
+1148
+00:52:21,670 --> 00:52:25,820
+Espanha aprovou por exemplo a licença
+
+1149
+00:52:23,619 --> 00:52:27,829
+menstrual né demuner Dá para ver que
+
+1150
+00:52:25,820 --> 00:52:29,870
+mulher Não pagos na situação Severa
+
+1151
+00:52:27,829 --> 00:52:32,900
+posso me ausentar do trabalho se sente
+
+1152
+00:52:29,869 --> 00:52:34,089
+culpado então eu espero que a gente
+
+1153
+00:52:32,900 --> 00:52:37,940
+consiga
+
+1154
+00:52:34,090 --> 00:52:41,840
+trazer ações aí não está meio dessa mas
+
+1155
+00:52:37,940 --> 00:52:45,440
+ações pioneiras aí o coração da gente
+
+1156
+00:52:41,840 --> 00:52:47,930
+conseguir reter nas academia para ir na
+
+1157
+00:52:45,440 --> 00:52:50,480
+academia e depois que essas mulher
+
+1158
+00:52:47,929 --> 00:52:53,210
+cenário em elas conseguirem ir para a
+
+1159
+00:52:50,480 --> 00:52:55,969
+indústria Caso seja a vontade dela e não
+
+1160
+00:52:53,210 --> 00:52:58,940
+ter situações como hoje saiu hoje é a
+
+1161
+00:52:55,969 --> 00:53:01,789
+questão da ambar e perder um mestrado O
+
+1162
+00:52:58,940 --> 00:53:06,470
+que foi mãe então é isso eu espero aí
+
+1163
+00:53:01,789 --> 00:53:10,219
+para os próximos anos como uma só está
+
+1164
+00:53:06,469 --> 00:53:13,069
+enxerido posse Muito obrigado Kátia e o
+
+1165
+00:53:10,219 --> 00:53:16,429
+antes de finalizar dizer que agradecer
+
+1166
+00:53:13,070 --> 00:53:18,289
+você né que é topo você a participante
+
+1167
+00:53:16,429 --> 00:53:19,909
+número um da nossa terceira temporada
+
+1168
+00:53:18,289 --> 00:53:22,699
+dizer que a gente tem teve neste
+
+1169
+00:53:19,909 --> 00:53:25,769
+Episódio 3 pessoas voluntárias ainda não
+
+1170
+00:53:22,699 --> 00:53:27,659
+se agregando aqui esse junto Oi Samira
+
+1171
+00:53:25,769 --> 00:53:29,820
+Rodrigues da Silva o Ítalo Santos e
+
+1172
+00:53:27,659 --> 00:53:31,829
+Diego Andrade que ajudaram a gente a
+
+1173
+00:53:29,820 --> 00:53:33,690
+fazer o roteiro e um passo a palavra
+
+1174
+00:53:31,829 --> 00:53:36,000
+para você para você se despedir dos
+
+1175
+00:53:33,690 --> 00:53:38,909
+nossos em nosso Sales ouvir eu queria
+
+1176
+00:53:36,000 --> 00:53:41,480
+agradecer muito pelo convite foi um
+
+1177
+00:53:38,909 --> 00:53:44,579
+prazer tá conversando com você
+
+1178
+00:53:41,480 --> 00:53:47,570
+eu tinha comentado com o Adolfo que eu
+
+1179
+00:53:44,579 --> 00:53:51,210
+não era consumidora de Podcast
+
+1180
+00:53:47,570 --> 00:53:52,850
+mas adorei vou passar ouvir o filme
+
+1181
+00:53:51,210 --> 00:53:56,789
+passou vários
+
+1182
+00:53:52,849 --> 00:53:57,559
+links podcast de computação para eu
+
+1183
+00:53:56,789 --> 00:53:59,969
+poder
+
+1184
+00:53:57,559 --> 00:54:03,239
+pensar em na questão das discriminações
+
+1185
+00:53:59,969 --> 00:54:06,029
+são Brigada pela oportunidade por ter
+
+1186
+00:54:03,239 --> 00:54:07,369
+feito conhecer começar a fazer o uso aí
+
+1187
+00:54:06,030 --> 00:54:10,650
+do podcast
+
+1188
+00:54:07,369 --> 00:54:12,989
+desejar sucesso aí para canteiros
+
+1189
+00:54:10,650 --> 00:54:14,849
+iniciativa muito bacana e agradeço a
+
+1190
+00:54:12,989 --> 00:54:18,000
+todo mundo que te ajudou aqui esse
+
+1191
+00:54:14,849 --> 00:54:19,920
+episódio fosse concretizado e deixar um
+
+1192
+00:54:18,000 --> 00:54:22,800
+abraço aí para todo mundo que desculpa
+
+1193
+00:54:19,920 --> 00:54:25,389
+gente Obrigado Kátia em nome da equipe
+
+1194
+00:54:22,800 --> 00:54:27,910
+vai que sou eu para os o Fábio Petri e o
+
+1195
+00:54:25,389 --> 00:54:30,909
+Leonardo Fernandes aqui no na sala de
+
+1196
+00:54:27,909 --> 00:54:33,460
+gravação também Danilo Monteiro hoje nós
+
+1197
+00:54:30,909 --> 00:54:35,500
+nós somos o fronteiras do engenheiro de
+
+1198
+00:54:33,460 --> 00:54:38,670
+software e para todas as pessoas que nos
+
+1199
+00:54:35,500 --> 00:54:38,670
+escutam até o

@@ -1,0 +1,1707 @@
+1
+00:00:00,960 --> 00:00:01,960
+Hi, everyone.
+
+2
+00:00:01,960 --> 00:00:05,200
+Welcome to another episode of our podcast.
+
+3
+00:00:05,200 --> 00:00:09,039
+Today, I have the pleasure of speaking with Laurie Williams.
+
+4
+00:00:09,039 --> 00:00:11,679
+She's a Distinguished University Professor
+
+5
+00:00:11,679 --> 00:00:15,640
+at North Carolina State University in Raleigh, USA.
+
+6
+00:00:15,640 --> 00:00:20,280
+Laurie is one of the two first winners in 2009
+
+7
+00:00:20,280 --> 00:00:25,039
+of the ACM SIGSOFT Influential Educator Awards
+
+8
+00:00:25,039 --> 00:00:27,839
+for her contributions to software engineering
+
+9
+00:00:27,839 --> 00:00:30,559
+and computer science education.
+
+10
+00:00:30,559 --> 00:00:35,399
+Laurie leads the software engineering Realsearch research group
+
+11
+00:00:35,399 --> 00:00:41,199
+at NC State, which I visited in 2014-15.
+
+12
+00:00:41,200 --> 00:00:45,960
+Laurie is a co-director of the NSA Science of Security
+
+13
+00:00:45,960 --> 00:00:48,480
+Lablet at NC State.
+
+14
+00:00:48,479 --> 00:00:54,159
+She was one of the founders of the first XP Agile Conference,
+
+15
+00:00:54,159 --> 00:00:59,679
+XP Universe, in 2001 in Raleigh, which has now
+
+16
+00:00:59,679 --> 00:01:03,280
+grown into the Agile annual Conference.
+
+17
+00:01:03,280 --> 00:01:06,680
+She has published many papers in software engineering,
+
+18
+00:01:06,680 --> 00:01:12,360
+software security, as well as advised many PhD students.
+
+19
+00:01:12,359 --> 00:01:15,400
+She's also the lead author of the Pair Programming
+
+20
+00:01:15,400 --> 00:01:17,040
+Illuminated book.
+
+21
+00:01:17,040 --> 00:01:21,160
+Thank you very much for having accepted my invitation, Laurie.
+
+22
+00:01:21,200 --> 00:01:24,640
+It's a long list, but it's also an incomplete list
+
+23
+00:01:24,640 --> 00:01:29,159
+of all the things you have done in your career.
+
+24
+00:01:29,159 --> 00:01:32,759
+Would you like to add anything to this description of you
+
+25
+00:01:32,760 --> 00:01:34,640
+and your career?
+
+26
+00:01:34,640 --> 00:01:37,280
+No, thank you very much for that introduction,
+
+27
+00:01:37,280 --> 00:01:39,840
+and it's my pleasure to be here today.
+
+28
+00:01:39,840 --> 00:01:41,120
+OK, thank you.
+
+29
+00:01:41,120 --> 00:01:46,079
+And we're going to start talking about software security.
+
+30
+00:01:46,079 --> 00:01:49,120
+You have been working with software security
+
+31
+00:01:49,120 --> 00:01:54,520
+for a few years, and the question is,
+
+32
+00:01:54,519 --> 00:02:00,119
+can we trust most of the software we use every day?
+
+33
+00:02:00,120 --> 00:02:05,840
+Yeah, well, I mean, to be honest, no.
+
+34
+00:02:05,840 --> 00:02:11,439
+As a security researcher, we find software vulnerabilities
+
+35
+00:02:11,439 --> 00:02:14,960
+really in anything we look at, and I'm
+
+36
+00:02:14,960 --> 00:02:18,439
+thankful that we don't have more big problems
+
+37
+00:02:18,439 --> 00:02:20,479
+with security.
+
+38
+00:02:20,479 --> 00:02:22,319
+We have plenty of problems with security,
+
+39
+00:02:22,319 --> 00:02:25,799
+but I'm happy that it's not even worse,
+
+40
+00:02:25,800 --> 00:02:31,120
+because there are vulnerabilities everywhere, unfortunately.
+
+41
+00:02:31,120 --> 00:02:32,800
+Yes, yes, I know.
+
+42
+00:02:32,800 --> 00:02:36,160
+And what are some of the biggest challenges
+
+43
+00:02:36,159 --> 00:02:39,079
+that software developers face in this area?
+
+44
+00:02:41,599 --> 00:02:44,799
+Well, I mean, I think that the two basic fundamental problems
+
+45
+00:02:44,800 --> 00:02:46,960
+that software developers face, one
+
+46
+00:02:46,960 --> 00:02:52,800
+is they're not measured on producing secure software.
+
+47
+00:02:52,800 --> 00:02:55,240
+They're measured on producing software,
+
+48
+00:02:55,240 --> 00:03:01,320
+and so the security part can be just not prioritized
+
+49
+00:03:01,319 --> 00:03:04,919
+in trying to get a product out the door.
+
+50
+00:03:04,919 --> 00:03:08,439
+And sometimes management doesn't really
+
+51
+00:03:08,439 --> 00:03:11,039
+support slowing things down so that the product is
+
+52
+00:03:11,039 --> 00:03:15,239
+more secure, and I think that that's a big problem.
+
+53
+00:03:15,240 --> 00:03:17,439
+Along with that is just overwhelm.
+
+54
+00:03:17,439 --> 00:03:20,319
+So developers have lots of things
+
+55
+00:03:20,319 --> 00:03:23,439
+that they're measured on, like making software,
+
+56
+00:03:23,439 --> 00:03:28,520
+but making it perform well and be accessible and be secure.
+
+57
+00:03:28,520 --> 00:03:32,080
+There's a lot of things that the developers are all
+
+58
+00:03:32,080 --> 00:03:34,760
+trying to do at the same time.
+
+59
+00:03:34,759 --> 00:03:36,759
+And then another thing is, and we're
+
+60
+00:03:36,759 --> 00:03:39,159
+trying to work on this in education,
+
+61
+00:03:39,159 --> 00:03:43,799
+is educating people so they know how to develop securely
+
+62
+00:03:43,800 --> 00:03:46,920
+and really kind of transforming education
+
+63
+00:03:46,919 --> 00:03:50,359
+so that students don't come in and learn
+
+64
+00:03:50,360 --> 00:03:55,560
+how to develop software and then later develop secure software.
+
+65
+00:03:55,560 --> 00:03:58,240
+So develop secure software from the beginning.
+
+66
+00:03:58,240 --> 00:04:00,640
+That's just the way you do it.
+
+67
+00:04:00,639 --> 00:04:05,000
+But I think that developers have a lot of challenges right now
+
+68
+00:04:05,000 --> 00:04:08,080
+from an education standpoint, a prioritization standpoint,
+
+69
+00:04:08,080 --> 00:04:12,160
+from a pressure standpoint.
+
+70
+00:04:12,159 --> 00:04:13,240
+Exactly, exactly.
+
+71
+00:04:13,280 --> 00:04:17,240
+And how does your research and the research
+
+72
+00:04:17,240 --> 00:04:21,560
+that you do with your PhD students and colleagues
+
+73
+00:04:21,560 --> 00:04:27,680
+help software developers address those challenges?
+
+74
+00:04:27,680 --> 00:04:29,720
+So what we're trying to do with our work,
+
+75
+00:04:29,720 --> 00:04:31,240
+I mean, there's a number of things
+
+76
+00:04:31,240 --> 00:04:36,400
+that we're working to do, but it's trying to make it easier.
+
+77
+00:04:36,399 --> 00:04:37,959
+In the general case, trying to make
+
+78
+00:04:37,959 --> 00:04:40,399
+it easier to develop secure software
+
+79
+00:04:40,399 --> 00:04:45,519
+and to do it as efficiently as possible,
+
+80
+00:04:45,519 --> 00:04:50,560
+because it's a scarce resource, the attention that
+
+81
+00:04:50,560 --> 00:04:53,120
+can be put on software security.
+
+82
+00:04:53,120 --> 00:04:56,800
+And so how do you spend your time as efficiently
+
+83
+00:04:56,800 --> 00:04:59,480
+and effectively as possible?
+
+84
+00:04:59,480 --> 00:05:02,520
+So some of the things that we've done,
+
+85
+00:05:02,519 --> 00:05:07,599
+like we did a very large study on the efficiency
+
+86
+00:05:07,600 --> 00:05:11,000
+and effectiveness of vulnerability detection tools.
+
+87
+00:05:11,000 --> 00:05:17,160
+So like static analysis, dynamic analysis, penetration testing,
+
+88
+00:05:17,160 --> 00:05:21,080
+just looking at, of those, for the different types
+
+89
+00:05:21,079 --> 00:05:23,800
+of vulnerabilities, what's the most efficient way
+
+90
+00:05:23,800 --> 00:05:25,319
+to find that vulnerability?
+
+91
+00:05:25,319 --> 00:05:27,199
+What's the most effective way to find
+
+92
+00:05:27,199 --> 00:05:30,599
+a broad range of vulnerabilities?
+
+93
+00:05:30,600 --> 00:05:32,920
+So that's one aspect.
+
+94
+00:05:32,959 --> 00:05:36,599
+But also, like coming up with metrics
+
+95
+00:05:36,600 --> 00:05:39,879
+that the use of the metrics can point people
+
+96
+00:05:39,879 --> 00:05:43,079
+in the right direction for where to look in order
+
+97
+00:05:43,079 --> 00:05:46,279
+to find vulnerabilities.
+
+98
+00:05:46,279 --> 00:05:49,799
+A lot of what we're doing now is focused on the software supply
+
+99
+00:05:49,800 --> 00:05:52,280
+chain.
+
+100
+00:05:52,279 --> 00:05:55,039
+A lot of developers, really all developers,
+
+101
+00:05:55,040 --> 00:05:58,000
+get open source software and bring open source software
+
+102
+00:05:58,000 --> 00:05:59,240
+into their projects.
+
+103
+00:05:59,240 --> 00:06:02,639
+And attackers are now putting vulnerabilities
+
+104
+00:06:02,639 --> 00:06:06,719
+intentionally into the open source software.
+
+105
+00:06:06,720 --> 00:06:11,040
+And so how do you safely use open source software
+
+106
+00:06:11,040 --> 00:06:15,600
+to not be a victim of what the attackers are doing
+
+107
+00:06:15,600 --> 00:06:18,000
+and putting into the supply chain?
+
+108
+00:06:18,000 --> 00:06:22,800
+So we're coming at it from a lot of different angles.
+
+109
+00:06:22,800 --> 00:06:27,000
+And an additional question is, you
+
+110
+00:06:27,000 --> 00:06:28,680
+mentioned open source software.
+
+111
+00:06:28,680 --> 00:06:31,840
+But there is also software like those
+
+112
+00:06:31,839 --> 00:06:36,199
+generated by GitHub Copilot or Chat GPT.
+
+113
+00:06:36,199 --> 00:06:39,000
+Is that another concern, that people
+
+114
+00:06:39,000 --> 00:06:41,920
+will bring software vulnerabilities
+
+115
+00:06:41,920 --> 00:06:44,439
+from those softwares?
+
+116
+00:06:44,439 --> 00:06:46,480
+Yeah, absolutely.
+
+117
+00:06:46,480 --> 00:06:50,920
+It's something that it's a new research area, which
+
+118
+00:06:50,920 --> 00:06:56,120
+is vulnerabilities because of Chat GPT and other large language
+
+119
+00:06:56,120 --> 00:06:57,480
+models.
+
+120
+00:06:57,480 --> 00:07:00,600
+So it's a brand new thing that people are looking at.
+
+121
+00:07:00,600 --> 00:07:03,320
+There's really, sometimes with security,
+
+122
+00:07:03,319 --> 00:07:05,759
+there's intentional problems and then
+
+123
+00:07:05,759 --> 00:07:07,800
+some unintentional problems.
+
+124
+00:07:07,800 --> 00:07:12,199
+And to say, if I bring it back to supply chain,
+
+125
+00:07:12,199 --> 00:07:14,519
+then I'll come back to the Chat GPT.
+
+126
+00:07:14,519 --> 00:07:18,120
+But with supply chain, people have used open source software
+
+127
+00:07:18,120 --> 00:07:19,199
+for a long time.
+
+128
+00:07:19,199 --> 00:07:22,680
+And sometimes, developers, by accident,
+
+129
+00:07:22,680 --> 00:07:26,319
+will put a vulnerability into some open source package.
+
+130
+00:07:26,319 --> 00:07:30,240
+Like Log4j was a big one where some developer made
+
+131
+00:07:30,240 --> 00:07:32,759
+a mistake, and then attackers come along
+
+132
+00:07:32,759 --> 00:07:35,199
+and take advantage of that mistake
+
+133
+00:07:35,199 --> 00:07:37,519
+that the developers put in.
+
+134
+00:07:37,519 --> 00:07:40,879
+And then that causes a supply chain problem.
+
+135
+00:07:40,879 --> 00:07:45,759
+But that was no malicious intent on the part of the developer.
+
+136
+00:07:45,759 --> 00:07:50,439
+Similar with Chat GPT and large language models,
+
+137
+00:07:50,439 --> 00:07:54,199
+they're being trained on what's going on.
+
+138
+00:07:54,199 --> 00:07:57,759
+And so Copilot, even a couple of years ago,
+
+139
+00:07:57,759 --> 00:08:01,159
+got some bad press because it was generating
+
+140
+00:08:01,160 --> 00:08:04,520
+vulnerable code because that's what's out there.
+
+141
+00:08:04,519 --> 00:08:07,319
+So it's training on vulnerable code,
+
+142
+00:08:07,319 --> 00:08:10,439
+and then it generates vulnerable code.
+
+143
+00:08:10,439 --> 00:08:16,360
+And so that's something that we'll deal with with Chat GPT
+
+144
+00:08:16,360 --> 00:08:18,920
+and all of large language models as it's
+
+145
+00:08:18,920 --> 00:08:23,000
+used to generate code, which it will be used to generate code.
+
+146
+00:08:23,000 --> 00:08:28,279
+The other is intentionally the training
+
+147
+00:08:28,279 --> 00:08:35,399
+data being trained with injected vulnerable code.
+
+148
+00:08:35,399 --> 00:08:38,319
+And then the model will generate more code.
+
+149
+00:08:38,320 --> 00:08:40,960
+So again, there's this unintentional,
+
+150
+00:08:40,960 --> 00:08:45,400
+the fact that what's out there in training data
+
+151
+00:08:45,399 --> 00:08:48,039
+just happens to be vulnerable because that's what people
+
+152
+00:08:48,039 --> 00:08:49,199
+are generating these days.
+
+153
+00:08:49,200 --> 00:08:54,840
+And then also the unintentional or the intentional malicious
+
+154
+00:08:54,840 --> 00:08:56,240
+training data that's put in.
+
+155
+00:08:56,240 --> 00:08:58,680
+So yeah, there's definitely a lot of challenges
+
+156
+00:08:58,679 --> 00:09:01,719
+in the forefront there.
+
+157
+00:09:01,720 --> 00:09:05,639
+And what advice do you give to software engineers that
+
+158
+00:09:05,639 --> 00:09:09,600
+want to create secure software?
+
+159
+00:09:09,600 --> 00:09:16,759
+So the advice is to get educated as much as possible
+
+160
+00:09:16,759 --> 00:09:20,399
+so that you can write code that's secure
+
+161
+00:09:20,399 --> 00:09:23,799
+and abides by secure principles.
+
+162
+00:09:23,799 --> 00:09:31,319
+And try to get yourself to be engineering secure code
+
+163
+00:09:31,320 --> 00:09:32,920
+from the beginning.
+
+164
+00:09:32,919 --> 00:09:36,159
+It's always harder, much harder, to wait
+
+165
+00:09:36,159 --> 00:09:39,559
+until the tools tell you that your code is insecure,
+
+166
+00:09:39,559 --> 00:09:40,759
+and then you fix it.
+
+167
+00:09:40,759 --> 00:09:43,000
+And you've been finished for a long time,
+
+168
+00:09:43,000 --> 00:09:44,840
+and now you have to fix it.
+
+169
+00:09:44,840 --> 00:09:47,519
+So it's much, much more efficient to design
+
+170
+00:09:47,519 --> 00:09:52,639
+and architect secure projects from the beginning.
+
+171
+00:09:52,639 --> 00:09:57,600
+So the advice is really to be as educated as possible
+
+172
+00:09:57,600 --> 00:10:00,279
+and to, right from the beginning,
+
+173
+00:10:00,279 --> 00:10:03,919
+build with security in mind.
+
+174
+00:10:03,919 --> 00:10:07,479
+And which resources do you recommend
+
+175
+00:10:07,480 --> 00:10:09,720
+to those software engineers?
+
+176
+00:10:09,720 --> 00:10:13,240
+I remember that when I was at NC State,
+
+177
+00:10:13,240 --> 00:10:15,799
+there was a visit by Gary McGraw.
+
+178
+00:10:15,799 --> 00:10:17,959
+He had a book about that.
+
+179
+00:10:17,960 --> 00:10:22,320
+But this was nine years ago.
+
+180
+00:10:22,320 --> 00:10:26,360
+Right now, what can those software engineers do?
+
+181
+00:10:26,360 --> 00:10:32,440
+Is there, for instance, I know there is a journal, IEEE
+
+182
+00:10:32,440 --> 00:10:36,200
+security, but are there any books, sites?
+
+183
+00:10:36,200 --> 00:10:37,920
+What else?
+
+184
+00:10:37,919 --> 00:10:40,479
+Yeah, it's a great question.
+
+185
+00:10:40,480 --> 00:10:42,399
+Things change in security
+
+186
+00:10:42,399 --> 00:10:45,879
+so fast.
+
+187
+00:10:45,879 --> 00:10:50,919
+So it's hard to, and so books can hardly keep pace.
+
+188
+00:10:50,919 --> 00:10:55,839
+I really feel that the US government and NIST
+
+189
+00:10:55,840 --> 00:10:59,800
+and a lot of the government agencies
+
+190
+00:10:59,799 --> 00:11:04,120
+are actually putting out really good things.
+
+191
+00:11:04,120 --> 00:11:07,000
+So I guess when I think about where do I look,
+
+192
+00:11:07,000 --> 00:11:10,000
+I look for NIST, the US National Institute
+
+193
+00:11:10,000 --> 00:11:13,320
+for Standards and Technology and what they put out.
+
+194
+00:11:13,320 --> 00:11:18,280
+OWASP is a nonprofit organization
+
+195
+00:11:18,279 --> 00:11:22,199
+that puts out great resources.
+
+196
+00:11:22,200 --> 00:11:26,920
+The Cloud Native Foundation puts out a lot of good resources.
+
+197
+00:11:26,919 --> 00:11:30,519
+The Linux Foundation, OpenSSF, which
+
+198
+00:11:30,519 --> 00:11:33,240
+is Open Secure Software Framework, maybe.
+
+199
+00:11:33,240 --> 00:11:33,840
+I'm not sure.
+
+200
+00:11:33,840 --> 00:11:36,759
+OpenSSF puts out a lot of good resources.
+
+201
+00:11:36,759 --> 00:11:39,120
+And the reason that all of those things I find
+
+202
+00:11:39,120 --> 00:11:42,120
+are good resources are because it's not
+
+203
+00:11:42,120 --> 00:11:44,360
+one person coming up with it.
+
+204
+00:11:44,360 --> 00:11:47,080
+Everything goes out for public comment.
+
+205
+00:11:47,080 --> 00:11:50,280
+And it's consensus-based.
+
+206
+00:11:50,279 --> 00:11:54,519
+And they do tend to update over time.
+
+207
+00:11:54,519 --> 00:11:57,319
+And there are a lot of good things.
+
+208
+00:11:57,320 --> 00:12:01,840
+So in my class, I teach a software security class.
+
+209
+00:12:01,840 --> 00:12:04,240
+And every year, it's different, because everything changes
+
+210
+00:12:04,240 --> 00:12:04,840
+every year.
+
+211
+00:12:04,840 --> 00:12:08,879
+But those are my go-to places to go look for,
+
+212
+00:12:08,879 --> 00:12:16,240
+what am I going to teach this year, those particular sites.
+
+213
+00:12:16,240 --> 00:12:17,399
+Very good.
+
+214
+00:12:17,399 --> 00:12:20,399
+And now we are going to talk about Azure Software
+
+215
+00:12:20,399 --> 00:12:21,480
+Development.
+
+216
+00:12:21,480 --> 00:12:24,159
+You co-wrote a book on pair programming.
+
+217
+00:12:24,159 --> 00:12:27,559
+And you have also written many papers related
+
+218
+00:12:27,559 --> 00:12:29,319
+to Azure Software Development.
+
+219
+00:12:29,320 --> 00:12:32,800
+In fact, if you go to your Google Scholar profile,
+
+220
+00:12:32,799 --> 00:12:38,759
+nine out of your 10 most cited works there are related to Azure.
+
+221
+00:12:38,759 --> 00:12:44,200
+How did you get interested in Azure Software Development?
+
+222
+00:12:44,200 --> 00:12:47,440
+Yeah, so there's two things I'll say.
+
+223
+00:12:47,440 --> 00:12:52,280
+One is I worked for IBM before I went back to get my PhD.
+
+224
+00:12:52,279 --> 00:12:55,839
+And this was a bit ago.
+
+225
+00:12:55,840 --> 00:13:01,120
+It was, I guess, in the early 90s, so quite a long time ago.
+
+226
+00:13:01,120 --> 00:13:03,639
+And so I'm going to make some statements about IBM, which
+
+227
+00:13:03,639 --> 00:13:05,960
+are sure not true now.
+
+228
+00:13:05,960 --> 00:13:11,639
+But at the time, back in the early 90s, the software process
+
+229
+00:13:11,639 --> 00:13:16,080
+at IBM, as in many places, was very heavyweight, very
+
+230
+00:13:16,080 --> 00:13:19,639
+water-fallish, very step-by-step.
+
+231
+00:13:19,639 --> 00:13:25,080
+And it just didn't work, which is why
+
+232
+00:13:25,080 --> 00:13:27,000
+Agile came about in the first place.
+
+233
+00:13:27,000 --> 00:13:29,559
+But I had firsthand knowledge.
+
+234
+00:13:29,559 --> 00:13:32,759
+I experienced it in my workplace.
+
+235
+00:13:32,759 --> 00:13:35,960
+So when Agile came along, when I was a PhD student,
+
+236
+00:13:35,960 --> 00:13:37,879
+it was very appealing to me right away,
+
+237
+00:13:37,879 --> 00:13:42,080
+because I had lived the problems that Agile was addressing.
+
+238
+00:13:42,080 --> 00:13:47,160
+So it was very appealing to me for that.
+
+239
+00:13:47,159 --> 00:13:50,120
+And then also, I happened to be a PhD student looking
+
+240
+00:13:50,120 --> 00:13:53,560
+for a PhD topic at the right time.
+
+241
+00:13:53,559 --> 00:13:56,639
+And in that particular case, Alistair Coburn,
+
+242
+00:13:56,639 --> 00:13:59,960
+who was one of the Agile Manifesto signers,
+
+243
+00:13:59,960 --> 00:14:03,560
+was someone, when I was in University of Utah
+
+244
+00:14:03,559 --> 00:14:05,679
+in Salt Lake City, he was there.
+
+245
+00:14:05,679 --> 00:14:07,879
+And I had met with him.
+
+246
+00:14:07,879 --> 00:14:10,399
+And so he was the one who brought up this.
+
+247
+00:14:10,399 --> 00:14:12,759
+There wasn't even the name Agile at that point.
+
+248
+00:14:12,759 --> 00:14:15,279
+It was even before that.
+
+249
+00:14:15,279 --> 00:14:20,039
+And he came in and was talking about this new thing,
+
+250
+00:14:20,039 --> 00:14:21,639
+eXtreme Programming.
+
+251
+00:14:21,639 --> 00:14:24,039
+And my advisor got excited about it,
+
+252
+00:14:24,039 --> 00:14:26,919
+because he had been working at Hewlett Packard.
+
+253
+00:14:26,960 --> 00:14:30,600
+So just like the excitement, something brand new
+
+254
+00:14:30,600 --> 00:14:31,720
+sent me down that path.
+
+255
+00:14:31,720 --> 00:14:33,480
+And it worked for me.
+
+256
+00:14:33,480 --> 00:14:34,920
+Even after all these years, you're
+
+257
+00:14:34,919 --> 00:14:39,959
+saying nine out of the top 10 are from those days.
+
+258
+00:14:39,960 --> 00:14:43,680
+And your PhD was about pair programming, right?
+
+259
+00:14:43,679 --> 00:14:44,199
+Right.
+
+260
+00:14:44,200 --> 00:14:46,240
+Yeah, my PhD was about pair programming.
+
+261
+00:14:46,240 --> 00:14:51,320
+And again, my excitement and my, I
+
+262
+00:14:51,320 --> 00:14:53,280
+would say with pair programming specifically,
+
+263
+00:14:53,279 --> 00:14:56,159
+it was more my advisor's excitement.
+
+264
+00:14:56,159 --> 00:15:00,079
+He, in his lifetime, had done a lot of pair programming.
+
+265
+00:15:00,080 --> 00:15:01,759
+And when he heard about pair programming,
+
+266
+00:15:01,759 --> 00:15:03,840
+he was like, I've done that.
+
+267
+00:15:03,840 --> 00:15:07,160
+And so when you're a PhD student looking for a topic,
+
+268
+00:15:07,159 --> 00:15:10,719
+you're looking for the twinkle in your advisor's eye.
+
+269
+00:15:10,720 --> 00:15:12,399
+And then you go after that topic.
+
+270
+00:15:12,399 --> 00:15:13,879
+So that's how that happened.
+
+271
+00:15:13,879 --> 00:15:16,519
+And again, it worked for me.
+
+272
+00:15:16,519 --> 00:15:17,600
+Great, great.
+
+273
+00:15:17,600 --> 00:15:21,080
+And now, before a little bit of context,
+
+274
+00:15:21,080 --> 00:15:23,680
+I have a podcast in Portuguese, which
+
+275
+00:15:23,679 --> 00:15:26,799
+is only about women in computer science.
+
+276
+00:15:26,799 --> 00:15:34,759
+And we always ask this question because people, women, they,
+
+277
+00:15:34,759 --> 00:15:38,120
+at least I believe in the US too, but in Brazil,
+
+278
+00:15:38,120 --> 00:15:41,759
+it's a small minority of professionals.
+
+279
+00:15:41,759 --> 00:15:43,399
+And so who asked that?
+
+280
+00:15:43,399 --> 00:15:46,399
+Because we are curious about, you
+
+281
+00:15:46,399 --> 00:15:51,120
+want to know how did you get interested in computer science?
+
+282
+00:15:51,120 --> 00:15:53,440
+How was your education in the area?
+
+283
+00:15:54,399 --> 00:15:59,399
+As far as I know, you don't have a bachelor's degree
+
+284
+00:15:59,399 --> 00:16:01,319
+in computer science, right?
+
+285
+00:16:01,320 --> 00:16:02,560
+Right, yeah.
+
+286
+00:16:02,559 --> 00:16:06,799
+So my bachelor's degree is in industrial engineering.
+
+287
+00:16:06,799 --> 00:16:10,199
+And as I was heading towards school
+
+288
+00:16:10,200 --> 00:16:12,600
+and finishing high school, I wanted
+
+289
+00:16:12,600 --> 00:16:15,519
+to be a kindergarten teacher.
+
+290
+00:16:15,519 --> 00:16:17,639
+And I was pretty stubborn about that.
+
+291
+00:16:17,639 --> 00:16:20,559
+And then every year, my guidance counselor,
+
+292
+00:16:20,559 --> 00:16:24,000
+that's who we had in the US, who would give you advice on what
+
+293
+00:16:24,000 --> 00:16:26,879
+to do, was always saying, you're good in engineering
+
+294
+00:16:26,879 --> 00:16:28,679
+because my test results said that.
+
+295
+00:16:28,679 --> 00:16:31,319
+And my father was an engineer, and he wanted me to do it.
+
+296
+00:16:31,320 --> 00:16:33,879
+And I was, no, kindergarten teacher.
+
+297
+00:16:33,879 --> 00:16:38,159
+But the very last year of high school, I was like, fine.
+
+298
+00:16:38,159 --> 00:16:39,559
+I'll just do engineering.
+
+299
+00:16:39,559 --> 00:16:47,000
+And so I got an engineering degree and then went to work for IBM as an engineer, which was good.
+
+300
+00:16:47,000 --> 00:16:52,000
+I liked it. I didn't regret being a kindergarten teacher. I was happy with what I was doing.
+
+301
+00:16:52,000 --> 00:16:59,000
+But at IBM, they asked me to be the assistant to the lab director.
+
+302
+00:16:59,000 --> 00:17:05,000
+And so in that job, being with him all the time,
+
+303
+00:17:05,000 --> 00:17:10,000
+he had software people and hardware people, manufacturing people.
+
+304
+00:17:10,000 --> 00:17:15,000
+He had a variety of types of people in his organization and one of them being software.
+
+305
+00:17:15,000 --> 00:17:22,000
+And after my assignment being his assistant, then he said, what do you want to do next?
+
+306
+00:17:22,000 --> 00:17:25,000
+And so I said, software, I think that would be good.
+
+307
+00:17:25,000 --> 00:17:28,000
+And so then I did that and it was interesting.
+
+308
+00:17:28,000 --> 00:17:33,000
+And then when I left IBM and I knew I wanted to get a PhD at that point,
+
+309
+00:17:33,000 --> 00:17:38,000
+I knew I liked industrial engineering and I knew I liked computer science.
+
+310
+00:17:38,000 --> 00:17:40,000
+And then I was like, what should I do?
+
+311
+00:17:40,000 --> 00:17:46,000
+And it just seemed like computer science was more versatile, more flexible, probably more opportunities.
+
+312
+00:17:46,000 --> 00:17:49,000
+And so I chose computer science at that point.
+
+313
+00:17:49,000 --> 00:17:58,000
+And it did, you know, it is flexible and probably, you know, greater number of computer scientists.
+
+314
+00:17:59,000 --> 00:18:08,000
+And this is also related to a question that I asked in my other podcast.
+
+315
+00:18:08,000 --> 00:18:21,000
+And I have to say that the answers sometimes surprise me because as a man, I don't face the difficulties that the women face.
+
+316
+00:18:21,000 --> 00:18:33,000
+Did you face difficulties at school or at work that you feel they were because you are a woman?
+
+317
+00:18:33,000 --> 00:18:39,000
+Yeah, I think not as much in high school like so.
+
+318
+00:18:39,000 --> 00:18:48,000
+When I was coming up, like sometimes people, even as young as say 10, 11, 12, like girls along those lines start to get pushed in different directions.
+
+319
+00:18:48,000 --> 00:18:50,000
+I didn't actually face that.
+
+320
+00:18:50,000 --> 00:19:00,000
+I really think that the first place in my career or life when I faced problems from being a woman was in my PhD.
+
+321
+00:19:00,000 --> 00:19:04,000
+So not at IBM, you know, all the way until I got my PhD.
+
+322
+00:19:04,000 --> 00:19:14,000
+And at the time, as I got my PhD, in the four years it took me to get a PhD, which I did a pretty quick,
+
+323
+00:19:15,000 --> 00:19:21,000
+there were only two women in four years worth of class of PhD students.
+
+324
+00:19:21,000 --> 00:19:25,000
+It was only two women. And that was hard.
+
+325
+00:19:25,000 --> 00:19:29,000
+And it was hard. I was also had three children too.
+
+326
+00:19:29,000 --> 00:19:38,000
+So that that was made me different than the other students because generally it was males without children and I was a female with three children.
+
+327
+00:19:38,000 --> 00:19:41,000
+And it was hard.
+
+328
+00:19:41,000 --> 00:19:53,000
+But I think if I didn't have as much like determination that I'm getting this degree, no matter what you throw at me, I might not have done it.
+
+329
+00:19:53,000 --> 00:20:01,000
+I would, you know, I had a lot of things against me, not just being a woman, but I was an industrial engineer where everyone else was computer scientists.
+
+330
+00:20:01,000 --> 00:20:06,000
+I had children and they didn't. I was one of the few women.
+
+331
+00:20:06,000 --> 00:20:10,000
+So I had a lot of a lot of things that made it harder.
+
+332
+00:20:10,000 --> 00:20:21,000
+And I tried to give the faculty members who were basically all male the benefit of the doubt because I thought they just know how to work with men.
+
+333
+00:20:21,000 --> 00:20:25,000
+They don't know how to work with women like they aren't trying to do anything against me.
+
+334
+00:20:25,000 --> 00:20:29,000
+They just don't know what to do with me.
+
+335
+00:20:29,000 --> 00:20:37,000
+And the other thing is like a lesson that I learned is that it felt really hard for me when I did it.
+
+336
+00:20:37,000 --> 00:20:42,000
+And it felt like people were working against me.
+
+337
+00:20:42,000 --> 00:20:51,000
+But 17 years after I graduated, they invited me back to do a presentation and everyone was so happy to see me.
+
+338
+00:20:51,000 --> 00:21:00,000
+And so it made me think maybe it was just the pressure I was under that made me feel like they were working against me and they weren't at all.
+
+339
+00:21:00,000 --> 00:21:05,000
+And so it's just a good reminder that like it's our own interpretation of things.
+
+340
+00:21:05,000 --> 00:21:13,000
+Sometimes it's not reality. It's just the interpretation.
+
+341
+00:21:13,000 --> 00:21:20,000
+And do you participate? Do you take part in any support groups for women in computing?
+
+342
+00:21:20,000 --> 00:21:26,000
+I have participated in support groups and like I'll take advantage of anything like at conferences.
+
+343
+00:21:26,000 --> 00:21:37,000
+I might have a woman's thing and I'll go and support women in every day, every day that I can, that I do.
+
+344
+00:21:38,000 --> 00:21:49,000
+Something that I did back in my department was I was the department head, the interim department head at a time.
+
+345
+00:21:49,000 --> 00:21:58,000
+And I felt like the only reason that I did that, because I really like research, the only reason I really agreed to do that was to be an example to women.
+
+346
+00:21:58,000 --> 00:22:03,000
+So like there are times where I just do something just to be an example.
+
+347
+00:22:03,000 --> 00:22:10,000
+And like in that particular case, like there's this wall of all the department heads from the very beginning.
+
+348
+00:22:10,000 --> 00:22:13,000
+We've had, I think our department is now 55 years old.
+
+349
+00:22:13,000 --> 00:22:21,000
+So all the department heads from the last 55 years were all on the wall and they were all white men all the way down the hall.
+
+350
+00:22:21,000 --> 00:22:26,000
+And then when my picture got put up there, I thought my work is done here.
+
+351
+00:22:26,000 --> 00:22:30,000
+Now women can walk down the hall and know you could be a woman and do this too.
+
+352
+00:22:30,000 --> 00:22:41,000
+So I guess I have that mentality and with a lot of things I do is just to be there for women when I can and to be a role model in all ways that I can.
+
+353
+00:22:44,000 --> 00:22:54,000
+And what would you say to girls or women that want to follow a career in computing that might be listening to this podcast?
+
+354
+00:22:55,000 --> 00:23:06,000
+Yeah, well, I mean, take what I said earlier that even if it's hard for you to try to not take it personally,
+
+355
+00:23:06,000 --> 00:23:13,000
+to just keep trying to do your best and get with other women.
+
+356
+00:23:13,000 --> 00:23:22,000
+When I was teaching classes that had groups, and I still do, I always try to make sure that if there's one woman in a group, there's two.
+
+357
+00:23:22,000 --> 00:23:28,000
+And just support each other as much as you possibly can throughout the process.
+
+358
+00:23:28,000 --> 00:23:33,000
+Really to carry, so we carry each other through the process.
+
+359
+00:23:33,000 --> 00:23:42,000
+And if you get any, if you're feeling like you're getting any messages to say like women aren't as good at this or anything, just like forget it.
+
+360
+00:23:42,000 --> 00:23:44,000
+Don't even pay attention to it.
+
+361
+00:23:44,000 --> 00:23:49,000
+Don't take it personally, just keep doing your best and the right things will happen.
+
+362
+00:23:50,000 --> 00:23:58,000
+Great. And now I'm going to talk about another topic, which is advising and mentoring.
+
+363
+00:23:58,000 --> 00:24:06,000
+And as I already told listeners here, I have spent one year at your group.
+
+364
+00:24:06,000 --> 00:24:17,000
+And one curious thing about that is that all those PhD students that are now PhD people, they are professionals.
+
+365
+00:24:17,000 --> 00:24:22,000
+About half of those people are in industry, half in academia.
+
+366
+00:24:22,000 --> 00:24:34,000
+So you have advised at least 20 PhDs and some of whom work in the industry, Microsoft, SAS, IBM, Google, some in academia.
+
+367
+00:24:34,000 --> 00:24:41,000
+Did you serve as a mentor for them in deciding what to do after graduation?
+
+368
+00:24:42,000 --> 00:24:48,000
+So my advice to them always was to be as flexible as possible throughout.
+
+369
+00:24:48,000 --> 00:24:57,000
+Like I've had some that came in like I'm going to industry and they're in academia now and vice versa.
+
+370
+00:24:57,000 --> 00:25:05,000
+And so like I really my advice to them was like, don't make a decision.
+
+371
+00:25:05,000 --> 00:25:17,000
+Just do a good job, publish your papers and even go through the interview process with all industry and academia because you don't know.
+
+372
+00:25:17,000 --> 00:25:24,000
+I feel like when it comes to getting your first job after a PhD and maybe just getting your first job,
+
+373
+00:25:24,000 --> 00:25:32,000
+when you go to the interview, you know like this is where I'm supposed to be or this is not where I'm supposed to be.
+
+374
+00:25:32,000 --> 00:25:41,000
+And what I tell the students is like apply lots of places and let the universe decide.
+
+375
+00:25:41,000 --> 00:25:46,000
+Like let the world, like let life show you where you're supposed to be.
+
+376
+00:25:46,000 --> 00:25:54,000
+So if you decide yourself as a person, like I'm going to go to academia, you don't know.
+
+377
+00:25:55,000 --> 00:26:02,000
+But then if it turns out you applied to industry and academia and no one from industry interviews you,
+
+378
+00:26:02,000 --> 00:26:07,000
+then life has told you the right path for you is academia.
+
+379
+00:26:07,000 --> 00:26:14,000
+And then you can't question, you can't ever say, I wonder what would have happened if I had applied to Google or wonder what,
+
+380
+00:26:14,000 --> 00:26:20,000
+like you know what would have happened because you did it and then you can feel more confident with your choice.
+
+381
+00:26:20,000 --> 00:26:25,000
+And so really my advice to them always was just, you know, keep your options open,
+
+382
+00:26:25,000 --> 00:26:34,000
+which can means like some people can say I'm just going to go to industry and they might not focus as much on writing on publications because of that.
+
+383
+00:26:34,000 --> 00:26:37,000
+But then then they have decided for themselves.
+
+384
+00:26:37,000 --> 00:26:42,000
+And so rather that be flexible and keep your options open.
+
+385
+00:26:42,000 --> 00:26:48,000
+Great. So you are an important figure in the world of software engineering.
+
+386
+00:26:48,000 --> 00:26:53,000
+I know many people know you, for instance, I have interviewed in one of my podcasts,
+
+387
+00:26:53,000 --> 00:27:00,000
+Guilherme Travassos, and I mentioned you and he, oh, Laurie, Laurie, I know Laurie.
+
+388
+00:27:00,000 --> 00:27:09,000
+And, oh, by the way, we are going to have ICSE 2000, I believe ... 2027?
+
+389
+00:27:09,000 --> 00:27:16,000
+Oh, I'm not sure, but I'll put in the description. It's either 2024 or 2025.
+
+390
+00:27:16,000 --> 00:27:23,000
+No, I mean, so FSE is sooner, maybe 2026.
+
+391
+00:27:23,000 --> 00:27:24,000
+In Brazil?
+
+392
+00:27:24,000 --> 00:27:28,000
+Yeah, or 2025 maybe. But anyway.
+
+393
+00:27:28,000 --> 00:27:29,000
+Yes.
+
+394
+00:27:29,000 --> 00:27:34,000
+You're right. I think you're right. I think it's 2026 - ICSE and 2025 - FSE.
+
+395
+00:27:34,000 --> 00:27:43,000
+Yes, maybe you will come because you usually attend those big software engineering events in Rio de Janeiro.
+
+396
+00:27:43,000 --> 00:27:50,000
+But the question is for you, what's the next frontier in software engineering?
+
+397
+00:27:50,000 --> 00:27:58,000
+It can be something that you think will happen or something that you'd like to see happening in our field.
+
+398
+00:27:58,000 --> 00:28:09,000
+Yeah, I mean, so I guess from a software engineering standpoint, I mean, and I'm doing a talk at ICSE this year,
+
+399
+00:28:09,000 --> 00:28:19,000
+is really, I mean, I think that software should be secure and that you can't say the security people will do that,
+
+400
+00:28:19,000 --> 00:28:23,000
+that we could all consider ourselves security people.
+
+401
+00:28:23,000 --> 00:28:30,000
+So if you're in requirements or testing or whatnot, like everyone should consider security as part.
+
+402
+00:28:30,000 --> 00:28:36,000
+And that's what I would love for software engineering is just like we all do it.
+
+403
+00:28:37,000 --> 00:28:41,000
+Exactly. And I just confirmed it's 2026.
+
+404
+00:28:41,000 --> 00:28:42,000
+OK.
+
+405
+00:28:42,000 --> 00:28:49,000
+ICSE 2026 is going to be in Rio de Janeiro, Brazil, for the first time in Brazil,
+
+406
+00:28:49,000 --> 00:28:58,000
+but not the first time in Latin America because I remember there was an ICSE on Buenos Aires, Argentina.
+
+407
+00:28:58,000 --> 00:29:01,000
+OK, thanks again for your time, Laurie.
+
+408
+00:29:01,000 --> 00:29:07,000
+Would you like to leave some final words for our audience?
+
+409
+00:29:07,000 --> 00:29:17,000
+Sure. I guess, you know, some of the things are, you know, when I think about some of the best advice that I've gotten,
+
+410
+00:29:17,000 --> 00:29:24,000
+there was one woman that I was my manager at IBM and I was a new, you know, just out of college.
+
+411
+00:29:24,000 --> 00:29:30,000
+And, you know, trying to navigate the world of being a professional.
+
+412
+00:29:30,000 --> 00:29:39,000
+And at the time, and maybe still today, there was a lot of pressure because I was women were a minority to act like a man.
+
+413
+00:29:39,000 --> 00:29:44,000
+And I thought I needed to do that.
+
+414
+00:29:44,000 --> 00:29:47,000
+And I was doing that as best I could.
+
+415
+00:29:47,000 --> 00:29:49,000
+But it wasn't natural.
+
+416
+00:29:49,000 --> 00:29:54,000
+And she said, you know, you're here too many hours of the day.
+
+417
+00:29:54,000 --> 00:29:56,000
+Just be yourself.
+
+418
+00:29:56,000 --> 00:29:59,000
+And that was great advice because then I could relax.
+
+419
+00:29:59,000 --> 00:30:05,000
+And actually, you know, I feel like I was just as successful as I would have been if I acted like a man.
+
+420
+00:30:05,000 --> 00:30:09,000
+And so my advice is like, just be yourself.
+
+421
+00:30:09,000 --> 00:30:11,000
+Do a good job.
+
+422
+00:30:11,000 --> 00:30:16,000
+And, you know, everything that that is supposed to happen should happen.
+
+423
+00:30:16,000 --> 00:30:19,000
+It's much more comfortable to be yourself.
+
+424
+00:30:19,000 --> 00:30:21,000
+Yes, great advice.
+
+425
+00:30:21,000 --> 00:30:24,000
+So thank you very much, everyone.
+
+426
+00:30:24,000 --> 00:30:29,000
+See you in the next episode of our podcast.
+
+427
+00:30:29,000 --> 00:30:31,000
+Thank you very much.

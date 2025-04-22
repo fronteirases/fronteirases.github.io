@@ -1,0 +1,6019 @@
+1
+00:00:04,080 --> 00:00:08,719
+Olá eu sou Adolfo Neto professor da
+
+2
+00:00:06,639 --> 00:00:10,678
+UTFPR Curitiba e do programa de
+
+3
+00:00:08,718 --> 00:00:13,000
+pós-graduação em computação aplicada
+
+4
+00:00:10,679 --> 00:00:14,679
+ppgca Estou aqui com a cost do
+
+5
+00:00:13,000 --> 00:00:16,839
+fronteiras de engenharia de software
+
+6
+00:00:14,679 --> 00:00:19,439
+Maria Claudia emmer também da UTFPR
+
+7
+00:00:16,839 --> 00:00:22,719
+Curitiba também do ppgca Tudo bem Maria
+
+8
+00:00:19,439 --> 00:00:26,920
+Cláudia tudo bem Adolfo vamos a mais uma
+
+9
+00:00:22,719 --> 00:00:30,038
+entrevista então com pessoas importantes
+
+10
+00:00:26,920 --> 00:00:32,120
+da área né para mais um tema de
+
+11
+00:00:30,039 --> 00:00:35,640
+engenharia de software
+
+12
+00:00:32,119 --> 00:00:37,238
+devops Então hoje Vamos entrevistar três
+
+13
+00:00:35,640 --> 00:00:40,079
+pessoas que escreveram um livro
+
+14
+00:00:37,238 --> 00:00:41,718
+publicado pela Editora casa do código eu
+
+15
+00:00:40,079 --> 00:00:43,239
+lembrei agora que a gente já entrevistou
+
+16
+00:00:41,719 --> 00:00:45,480
+uma outra pessoa que teve um livro
+
+17
+00:00:43,238 --> 00:00:49,280
+publicado pela casa do código né o Bruno
+
+18
+00:00:45,479 --> 00:00:53,439
+cartacho o livro nesse caso é o como se
+
+19
+00:00:49,280 --> 00:00:56,280
+faz devops e as pessoas autoras aqui são
+
+20
+00:00:53,439 --> 00:00:58,599
+Leonardo Leite Paulo Meireles e Fábio
+
+21
+00:00:56,280 --> 00:01:00,640
+con Então vamos começar pelo Professor
+
+22
+00:00:58,600 --> 00:01:04,159
+Fábio con Fábio teve aqui em nosso
+
+23
+00:01:00,640 --> 00:01:06,159
+primeiro episódio né no 2020 nosso
+
+24
+00:01:04,159 --> 00:01:07,680
+episódio até hoje com melhores números
+
+25
+00:01:06,159 --> 00:01:10,920
+de audiência mais de
+
+26
+00:01:07,680 --> 00:01:13,240
+2600 reproduções no YouTube nas
+
+27
+00:01:10,920 --> 00:01:16,519
+plataformas de áudio o tema daquele
+
+28
+00:01:13,239 --> 00:01:18,478
+Episódio foi métodos ágeis Fábio é
+
+29
+00:01:16,519 --> 00:01:20,399
+professor titular do Instituto de
+
+30
+00:01:18,478 --> 00:01:22,920
+matemática e estatística da Universidade
+
+31
+00:01:20,400 --> 00:01:25,439
+de São Paulo em iusp onde eu fiz
+
+32
+00:01:22,920 --> 00:01:27,519
+doutorado e eu tava fazendo as contas né
+
+33
+00:01:25,438 --> 00:01:29,959
+já agora vai vai completar 21 anos que
+
+34
+00:01:27,519 --> 00:01:32,359
+eu comecei o doutorado lá bastante tempo
+
+35
+00:01:29,959 --> 00:01:34,239
+tempo eu inclusive fui bolsista pai né
+
+36
+00:01:32,359 --> 00:01:38,078
+que é o programa de aperfeiçoamento de
+
+37
+00:01:34,239 --> 00:01:40,438
+ensino de onina do do Fábio lá na época
+
+38
+00:01:38,078 --> 00:01:42,879
+e o Fábio fez doutorado em Ciências da
+
+39
+00:01:40,438 --> 00:01:45,398
+Computação na University of illinois at
+
+40
+00:01:42,879 --> 00:01:48,319
+Urbana champaign e é bolsista de
+
+41
+00:01:45,399 --> 00:01:51,079
+produtividade em pesquisa do CNPQ nível
+
+42
+00:01:48,319 --> 00:01:52,919
+1C e também é coordenador do Instituto
+
+43
+00:01:51,078 --> 00:01:54,798
+Nacional de Ciência e Tecnologia sobre a
+
+44
+00:01:52,920 --> 00:01:57,599
+internet do Futuro para cidades
+
+45
+00:01:54,799 --> 00:01:59,079
+inteligentes tema de um episódio quer
+
+46
+00:01:57,599 --> 00:02:01,679
+dizer cidades inteligentes é o tema de
+
+47
+00:01:59,078 --> 00:02:04,158
+um episódio ente nosso aqui no no no
+
+48
+00:02:01,680 --> 00:02:07,360
+podcast tudo bem Fábio Você tem algo a
+
+49
+00:02:04,159 --> 00:02:11,000
+complementar nessa sua apresentação tudo
+
+50
+00:02:07,359 --> 00:02:13,520
+bem obrigado Adolf Maria Cláudia ah acho
+
+51
+00:02:11,000 --> 00:02:14,598
+só um assunto interessante você falou
+
+52
+00:02:13,520 --> 00:02:16,719
+que eu fiz o doutorado lá na
+
+53
+00:02:14,598 --> 00:02:19,000
+universidade de linois e eu trabalhava
+
+54
+00:02:16,719 --> 00:02:21,199
+num grupo de sistemas distribuídos onde
+
+55
+00:02:19,000 --> 00:02:22,759
+a gente desenvolvia muito software e ao
+
+56
+00:02:21,199 --> 00:02:24,958
+nosso lado tinha o grupo do Ralph
+
+57
+00:02:22,759 --> 00:02:27,318
+Johnson que é o grupo que introduziu a
+
+58
+00:02:24,959 --> 00:02:30,519
+ideia de de patterns e a gente tinha
+
+59
+00:02:27,318 --> 00:02:32,560
+muito essa eh contato com a ideia de
+
+60
+00:02:30,519 --> 00:02:36,439
+testes automatizados arquitetura de
+
+61
+00:02:32,560 --> 00:02:39,319
+software padrões e naquela época quando
+
+62
+00:02:36,439 --> 00:02:41,158
+eu terminei no ano 2000 também assisti
+
+63
+00:02:39,318 --> 00:02:43,479
+palestras do Kent beack e outros
+
+64
+00:02:41,158 --> 00:02:45,399
+criadores dos do movimento ágil e
+
+65
+00:02:43,479 --> 00:02:47,560
+desenvolvimento software e quando eu vim
+
+66
+00:02:45,400 --> 00:02:50,158
+pro Brasil 2001 eu vi que não existia
+
+67
+00:02:47,560 --> 00:02:52,759
+praticamente nada disso então meus
+
+68
+00:02:50,158 --> 00:02:54,799
+primeiros anos aí de profissionais como
+
+69
+00:02:52,759 --> 00:02:58,239
+professor no Brasil foi batalhando pela
+
+70
+00:02:54,800 --> 00:03:01,439
+eh disseminação do do dos princípios dos
+
+71
+00:02:58,239 --> 00:03:03,920
+métodos ágeis aqui no Brasil e a gente
+
+72
+00:03:01,439 --> 00:03:06,239
+vê que eu de certa
+
+73
+00:03:03,919 --> 00:03:06,919
+forma foi muito bem no Brasil foi muito
+
+74
+00:03:06,239 --> 00:03:11,080
+bem
+
+75
+00:03:06,919 --> 00:03:14,878
+a aceito eh depois de décadas né de duas
+
+76
+00:03:11,080 --> 00:03:17,680
+décadas e os movimento ágil para mim
+
+77
+00:03:14,878 --> 00:03:19,679
+levou ao devops que é o que a gente tem
+
+78
+00:03:17,680 --> 00:03:23,719
+hoje em dia então por isso acho que esse
+
+79
+00:03:19,680 --> 00:03:25,319
+é um na na minha evolução da carreira eh
+
+80
+00:03:23,719 --> 00:03:28,878
+foi uma coisa natural que chegou o
+
+81
+00:03:25,318 --> 00:03:30,958
+devops e eh como a gente vai ver aqui a
+
+82
+00:03:28,878 --> 00:03:33,479
+eu e o Paulo tivemos muita sorte de ter
+
+83
+00:03:30,959 --> 00:03:36,199
+um excelente doutorando que é o Leonardo
+
+84
+00:03:33,479 --> 00:03:38,798
+Leite querendo trabalhar nesse tema Ah
+
+85
+00:03:36,199 --> 00:03:41,719
+legal eu lembro que tinha a agil cop que
+
+86
+00:03:38,799 --> 00:03:44,719
+tinha até um podcast né o agil cast
+
+87
+00:03:41,719 --> 00:03:46,199
+Exatamente é e o nosso segundo
+
+88
+00:03:44,719 --> 00:03:48,639
+entrevistado como você já disse é o
+
+89
+00:03:46,199 --> 00:03:50,119
+professor Paulo Meireles que como eu é
+
+90
+00:03:48,639 --> 00:03:52,759
+doutor em Ciências da Computação pela
+
+91
+00:03:50,120 --> 00:03:55,000
+Universidade de São Paulo já foi
+
+92
+00:03:52,759 --> 00:03:57,000
+professor da Universidade de Brasília
+
+93
+00:03:55,000 --> 00:03:59,639
+UnB da Universidade Federal de São Paulo
+
+94
+00:03:57,000 --> 00:04:02,280
+Unifesp da Universidade Federal do ABC
+
+95
+00:03:59,639 --> 00:04:04,318
+fbc essas três são da rede Federal mas
+
+96
+00:04:02,280 --> 00:04:06,199
+agora desde 2023 é professor do
+
+97
+00:04:04,318 --> 00:04:08,679
+departamento de ciência da computação do
+
+98
+00:04:06,199 --> 00:04:10,238
+im USP durante a sua trajetória
+
+99
+00:04:08,680 --> 00:04:11,680
+profissional liderou iniciativas de
+
+100
+00:04:10,239 --> 00:04:13,759
+desenvolvimento de software
+
+101
+00:04:11,680 --> 00:04:16,720
+implementando com êxito as práticas
+
+102
+00:04:13,759 --> 00:04:18,719
+devops cultivou uma sólida conexão
+
+103
+00:04:16,720 --> 00:04:21,720
+história colaborativa com a comunidade
+
+104
+00:04:18,720 --> 00:04:24,199
+de software livre Que por sinal é é bem
+
+105
+00:04:21,720 --> 00:04:25,919
+aberta né para contato com pessoal da
+
+106
+00:04:24,199 --> 00:04:28,520
+academia
+
+107
+00:04:25,918 --> 00:04:30,359
+e direcionando a maior parte de suas
+
+108
+00:04:28,519 --> 00:04:33,399
+pesquisas engenheira de software para
+
+109
+00:04:30,360 --> 00:04:35,199
+esse domínio específico é sobre software
+
+110
+00:04:33,399 --> 00:04:38,839
+livre eu recomendo escutar os episódios
+
+111
+00:04:35,199 --> 00:04:41,080
+do professores Igor Viz eaker Que por
+
+112
+00:04:38,839 --> 00:04:43,519
+sinal também são doutores pelo
+
+113
+00:04:41,079 --> 00:04:45,439
+iusp tudo bem Paulo Você tem algo a
+
+114
+00:04:43,519 --> 00:04:47,719
+complementar nessa sua
+
+115
+00:04:45,439 --> 00:04:49,639
+apresentação tudo bem Adolfo Tudo bem
+
+116
+00:04:47,720 --> 00:04:53,039
+Maria Cláudia
+
+117
+00:04:49,639 --> 00:04:57,319
+eh bom estar aqui com o Fábio né Fábio
+
+118
+00:04:53,038 --> 00:04:58,560
+foi meu orientador né de de doutorado e
+
+119
+00:04:57,319 --> 00:05:02,680
+o Leonardo
+
+120
+00:04:58,560 --> 00:05:05,759
+eh eh o primeiro doutor né que eu ajudei
+
+121
+00:05:02,680 --> 00:05:06,959
+a a a formar né a gente formou um belo
+
+122
+00:05:05,759 --> 00:05:09,360
+time
+
+123
+00:05:06,959 --> 00:05:11,799
+eh posso complimentar assim né que eu
+
+124
+00:05:09,360 --> 00:05:16,639
+sou do do Rio Grande do Norte
+
+125
+00:05:11,800 --> 00:05:18,639
+eh passei lá justamente em busca de um
+
+126
+00:05:16,639 --> 00:05:20,400
+ambiente mais propício para vivenciar o
+
+127
+00:05:18,639 --> 00:05:22,720
+software livre né que era meu foco eu
+
+128
+00:05:20,399 --> 00:05:25,679
+fui pro pro Rio Grande do Sul mas aqui
+
+129
+00:05:22,720 --> 00:05:28,000
+no im né com o Fábio iniciando o centro
+
+130
+00:05:25,680 --> 00:05:29,600
+de competên software livre eu tive a
+
+131
+00:05:28,000 --> 00:05:31,519
+oportunidade então de fato fazer
+
+132
+00:05:29,600 --> 00:05:36,400
+pesquisa com software livre
+
+133
+00:05:31,519 --> 00:05:40,120
+e complementando aí a a esse esse arco
+
+134
+00:05:36,399 --> 00:05:43,560
+né Eh Que métodos ágeis chegando ao
+
+135
+00:05:40,120 --> 00:05:46,840
+devops que a gente vai conversar aqui
+
+136
+00:05:43,560 --> 00:05:49,160
+eu também penso né e e e discuto que o
+
+137
+00:05:46,839 --> 00:05:52,119
+devops é mais parece ser uma
+
+138
+00:05:49,160 --> 00:05:56,680
+consequência desses dois ecossistemas o
+
+139
+00:05:52,120 --> 00:06:00,000
+ágil e o software livre né sem as a
+
+140
+00:05:56,680 --> 00:06:02,400
+automações né Eh as e o o ar acabolso
+
+141
+00:06:00,000 --> 00:06:04,759
+ferramental e o próprio própria
+
+142
+00:06:02,399 --> 00:06:06,638
+influência né do de como se desenvolve
+
+143
+00:06:04,759 --> 00:06:09,400
+software livre com o próprio Git né
+
+144
+00:06:06,639 --> 00:06:12,120
+desenvolvido lá pelo pelo Linux né Ou
+
+145
+00:06:09,399 --> 00:06:16,679
+seja que na prática quem usa Linux quem
+
+146
+00:06:12,120 --> 00:06:21,160
+usa Git tá desenvolvendo eh da forma
+
+147
+00:06:16,680 --> 00:06:23,120
+digamos eh pensada que o Linux pensou do
+
+148
+00:06:21,160 --> 00:06:26,120
+que o Git resolveria ali pro pro
+
+149
+00:06:23,120 --> 00:06:29,519
+ecossistema do do Kern do Linux Então
+
+150
+00:06:26,120 --> 00:06:32,240
+esse ferramental né do software Livre e
+
+151
+00:06:29,519 --> 00:06:36,000
+a a as práticas empíricas somad aí com
+
+152
+00:06:32,240 --> 00:06:39,560
+as que o os métodos ágeis eh promoveu os
+
+153
+00:06:36,000 --> 00:06:41,279
+últimos anos a gente chega Nessa nisso
+
+154
+00:06:39,560 --> 00:06:43,800
+que a gente tá aqui discutindo e o
+
+155
+00:06:41,279 --> 00:06:46,478
+Leonardo pesquisou tão bem e consolidou
+
+156
+00:06:43,800 --> 00:06:49,720
+também eh sobre
+
+157
+00:06:46,478 --> 00:06:52,038
+devops muito bem e por fim chegamos ao
+
+158
+00:06:49,720 --> 00:06:55,400
+Leonardo Leite que é engenheiro de
+
+159
+00:06:52,038 --> 00:06:58,560
+software no cerpro desde 2014 defendeu
+
+160
+00:06:55,399 --> 00:07:01,519
+em 2022 uma tese de doutorado também no
+
+161
+00:06:58,560 --> 00:07:03,639
+iusp cujo título em português é uma
+
+162
+00:07:01,519 --> 00:07:05,399
+teoria fundamentada sobre estruturas
+
+163
+00:07:03,639 --> 00:07:07,960
+organizacionais para profissionais de
+
+164
+00:07:05,399 --> 00:07:10,560
+desenvolvimento e de infraestrutura em
+
+165
+00:07:07,959 --> 00:07:13,638
+organizações produtoras de software a
+
+166
+00:07:10,560 --> 00:07:16,160
+tese tá em inglês lá no no site teses
+
+167
+00:07:13,639 --> 00:07:18,759
+USP vou deixar o link na descrição vou
+
+168
+00:07:16,160 --> 00:07:20,680
+deixar o link pro livro claro também foi
+
+169
+00:07:18,759 --> 00:07:23,400
+orientada pelo Professor Paulo e co
+
+170
+00:07:20,680 --> 00:07:25,560
+orientada pelo Professor Fábio e foi a
+
+171
+00:07:23,399 --> 00:07:28,279
+base pré escrita do livro sobre o qual
+
+172
+00:07:25,560 --> 00:07:30,519
+nós conversaremos hoje Leonardo tem
+
+173
+00:07:28,279 --> 00:07:33,038
+também interesse entre outros temas
+
+174
+00:07:30,519 --> 00:07:35,680
+arquitetura de serviços métodos ágeis
+
+175
+00:07:33,038 --> 00:07:38,079
+acessibilidade software livre ensino de
+
+176
+00:07:35,680 --> 00:07:39,720
+programação tudo bem Leonardo Você tem
+
+177
+00:07:38,079 --> 00:07:43,079
+algo a complementar nessa sua
+
+178
+00:07:39,720 --> 00:07:44,199
+apresentação Opa Tudo Certo prazer
+
+179
+00:07:43,079 --> 00:07:47,758
+realmente grande estar aqui no
+
+180
+00:07:44,199 --> 00:07:50,960
+fronteiras Eng soft sou ente do podcast
+
+181
+00:07:47,759 --> 00:07:55,080
+uma realização
+
+182
+00:07:50,959 --> 00:07:57,519
+eh como complementação né Eh enquanto
+
+183
+00:07:55,079 --> 00:08:01,158
+desenvolvedor do certo né que você diz
+
+184
+00:07:57,519 --> 00:08:03,359
+eh que eu sou eh lá nesse contexto
+
+185
+00:08:01,158 --> 00:08:05,240
+também ajudei a trazer muitas coisas né
+
+186
+00:08:03,360 --> 00:08:07,680
+que que aprendi inclusive com com o
+
+187
+00:08:05,240 --> 00:08:09,360
+professor eh com o sistema que o
+
+188
+00:08:07,680 --> 00:08:11,120
+professor Fábio montou né a gente temha
+
+189
+00:08:09,360 --> 00:08:12,439
+uma disciplina lá o laboratório XP né
+
+190
+00:08:11,120 --> 00:08:15,439
+então vários dos princípios dessa
+
+191
+00:08:12,439 --> 00:08:17,319
+disciplina eh ajudei a promover na na
+
+192
+00:08:15,439 --> 00:08:19,000
+minha equipe do cerpo né como
+
+193
+00:08:17,319 --> 00:08:21,039
+programação pareada né e coisas que
+
+194
+00:08:19,000 --> 00:08:22,918
+depois adentraram no mundo devops né
+
+195
+00:08:21,038 --> 00:08:26,120
+testes automatizados
+
+196
+00:08:22,918 --> 00:08:28,279
+pipeline então só para dar esse contexto
+
+197
+00:08:26,120 --> 00:08:29,840
+né que que além da da formação acadêmica
+
+198
+00:08:28,279 --> 00:08:33,959
+né também tem essa
+
+199
+00:08:29,839 --> 00:08:33,959
+vivência mais prática do do mundo
+
+200
+00:08:34,958 --> 00:08:42,559
+devops muito bem então vamos começar
+
+201
+00:08:39,080 --> 00:08:46,720
+aqui com com a nossa conversa a respeito
+
+202
+00:08:42,559 --> 00:08:49,039
+de de conceitos né então começar falando
+
+203
+00:08:46,720 --> 00:08:51,560
+sobre o tema principal do livro que
+
+204
+00:08:49,039 --> 00:08:54,559
+motivou essa entrevista que é devops
+
+205
+00:08:51,559 --> 00:08:58,199
+como vocês definem o conceito de devops
+
+206
+00:08:54,559 --> 00:08:59,759
+aí eu acho que o Leonardo Podia começar
+
+207
+00:08:58,200 --> 00:09:02,040
+falando
+
+208
+00:08:59,759 --> 00:09:05,159
+sim eu vou dar a nossa definição aí
+
+209
+00:09:02,039 --> 00:09:07,879
+depois o o Fábio o Paulo espand O que
+
+210
+00:09:05,159 --> 00:09:10,519
+que tá por trás dela mas a nossa
+
+211
+00:09:07,879 --> 00:09:12,838
+definição né é que o o devops ele é um
+
+212
+00:09:10,519 --> 00:09:14,959
+esforço colaborativo né nasceu como
+
+213
+00:09:12,839 --> 00:09:16,680
+movimento para trazer esse esforço
+
+214
+00:09:14,958 --> 00:09:18,838
+colaborativo entre diferentes áreas da
+
+215
+00:09:16,679 --> 00:09:21,919
+empresa Principalmente as áreas de infra
+
+216
+00:09:18,839 --> 00:09:24,959
+de desenvolvimento e com objetivo com
+
+217
+00:09:21,919 --> 00:09:28,120
+objetivo de promover a entrega contínua
+
+218
+00:09:24,958 --> 00:09:30,958
+que a capacidade de entregar software
+
+219
+00:09:28,120 --> 00:09:32,360
+continuamente e mas não basta entregar
+
+220
+00:09:30,958 --> 00:09:34,838
+software continuamente tem que ter
+
+221
+00:09:32,360 --> 00:09:36,839
+qualidade E essa qualidade né
+
+222
+00:09:34,839 --> 00:09:38,839
+Principalmente a corretude expressa
+
+223
+00:09:36,839 --> 00:09:41,600
+pelos testes automatizados a parte mais
+
+224
+00:09:38,839 --> 00:09:45,160
+deve e a confiabilidade que é toda a
+
+225
+00:09:41,600 --> 00:09:48,320
+parte de de operações isso se sustentar
+
+226
+00:09:45,159 --> 00:09:50,600
+mas isso tem muita conexão né com com o
+
+227
+00:09:48,320 --> 00:09:52,839
+ágio né E como que o áo chega aí aí eu
+
+228
+00:09:50,600 --> 00:09:56,959
+deixo um pouco também pro pro Fábio
+
+229
+00:09:52,839 --> 00:09:59,240
+Paulo se planar isso só vou complementar
+
+230
+00:09:56,958 --> 00:10:01,679
+acho que para os mais jovens não sabem
+
+231
+00:09:59,240 --> 00:10:04,159
+que existe um existia um conflito
+
+232
+00:10:01,679 --> 00:10:05,958
+histórico e até hoje existe entre o
+
+233
+00:10:04,159 --> 00:10:08,120
+pessoal que produz software e o pessoal
+
+234
+00:10:05,958 --> 00:10:11,119
+que coloca o software em produção e
+
+235
+00:10:08,120 --> 00:10:14,720
+garante que ele tá funcionando bem né e
+
+236
+00:10:11,120 --> 00:10:17,000
+eu lembro de história sobre isso há 30
+
+237
+00:10:14,720 --> 00:10:19,920
+anos atrás de pessoas que trabalhavam
+
+238
+00:10:17,000 --> 00:10:22,240
+numa empresa fala uma desenvolvedora
+
+239
+00:10:19,919 --> 00:10:24,639
+programadora que trabalhava e falava que
+
+240
+00:10:22,240 --> 00:10:26,079
+para conseguir lá uma mudança no banco
+
+241
+00:10:24,639 --> 00:10:29,319
+de dados ela tinha que levar um
+
+242
+00:10:26,078 --> 00:10:31,639
+chocolatinho pro dba para de de prop
+
+243
+00:10:29,320 --> 00:10:36,399
+senão ela não para acelerar o processo
+
+244
+00:10:31,639 --> 00:10:39,799
+né e o devops é essa tentativa recente
+
+245
+00:10:36,399 --> 00:10:42,240
+dos últimos 10 anos de eh unir essas
+
+246
+00:10:39,799 --> 00:10:45,359
+duas áreas automatizar de forma a gente
+
+247
+00:10:42,240 --> 00:10:47,639
+conseguir Tom uma entrega mais rápida e
+
+248
+00:10:45,360 --> 00:10:49,278
+com qualidade
+
+249
+00:10:47,639 --> 00:10:53,120
+né
+
+250
+00:10:49,278 --> 00:10:55,000
+é completando o ponto é né Eh os métodos
+
+251
+00:10:53,120 --> 00:10:59,200
+ágeis vem com o princípio de você
+
+252
+00:10:55,000 --> 00:11:01,559
+trabalhar em ciclos né E aí e a medida e
+
+253
+00:10:59,200 --> 00:11:04,920
+priorizar nesses ciclos uma entrega de
+
+254
+00:11:01,559 --> 00:11:07,559
+valor pro usuário e aí nas cerimônias né
+
+255
+00:11:04,919 --> 00:11:11,000
+nas revisões Ok aquilo estava
+
+256
+00:11:07,559 --> 00:11:12,879
+Teoricamente sendo entregue né mas é o
+
+257
+00:11:11,000 --> 00:11:15,200
+que Fábio falou né Na hora de isso de
+
+258
+00:11:12,879 --> 00:11:18,639
+fato entrar em produção não
+
+259
+00:11:15,200 --> 00:11:21,800
+necessariamente É na mesma velocidade né
+
+260
+00:11:18,639 --> 00:11:23,519
+ou Seguindo os ciclos que o time de
+
+261
+00:11:21,799 --> 00:11:25,039
+desenvolvimento de um lado tá seguindo E
+
+262
+00:11:23,519 --> 00:11:26,759
+aí tinha o outro lado o time de
+
+263
+00:11:25,039 --> 00:11:31,879
+operações que tava colocando de fato
+
+264
+00:11:26,759 --> 00:11:37,078
+Aquilo em produção eh no ar né para pro
+
+265
+00:11:31,879 --> 00:11:41,639
+usuário final então o devops né ele vem
+
+266
+00:11:37,078 --> 00:11:45,399
+para mitigar aí essa essas essas duas
+
+267
+00:11:41,639 --> 00:11:47,839
+áreas e de fato os princípios ágeis eles
+
+268
+00:11:45,399 --> 00:11:49,240
+serem refletidos na ponta que é quando a
+
+269
+00:11:47,839 --> 00:11:54,160
+funcionalidade Tá em produção pro
+
+270
+00:11:49,240 --> 00:11:56,360
+usuário final Hum Tem mais uma coisinha
+
+271
+00:11:54,159 --> 00:11:58,360
+bem interessante no nosso contexto que a
+
+272
+00:11:56,360 --> 00:12:01,519
+gente tá no podcast de direit software
+
+273
+00:11:58,360 --> 00:12:03,839
+no um seminário que que o Paulo fizemos
+
+274
+00:12:01,519 --> 00:12:05,879
+na Unicamp né o Paulo preparou os slides
+
+275
+00:12:03,839 --> 00:12:08,000
+com a definição de engenhe de software
+
+276
+00:12:05,879 --> 00:12:10,360
+que a gente percebeu que alinha muito
+
+277
+00:12:08,000 --> 00:12:12,000
+bem com a nossa definição de devops
+
+278
+00:12:10,360 --> 00:12:13,480
+então a definição de engenheiria de
+
+279
+00:12:12,000 --> 00:12:15,278
+software né é que é uma área da
+
+280
+00:12:13,480 --> 00:12:17,920
+Computação destinada a investigar os
+
+281
+00:12:15,278 --> 00:12:19,399
+desafios e propor soluções que permitam
+
+282
+00:12:17,919 --> 00:12:20,838
+desenvolver sistema de software
+
+283
+00:12:19,399 --> 00:12:23,039
+principalmente aqueles complexos de
+
+284
+00:12:20,839 --> 00:12:25,120
+maior tamanho e aí vem de forma
+
+285
+00:12:23,039 --> 00:12:27,559
+produtiva e com qualidade então engia de
+
+286
+00:12:25,120 --> 00:12:29,560
+software procura né que sejamos
+
+287
+00:12:27,559 --> 00:12:32,359
+produtivos e fazer coisas com qualidade
+
+288
+00:12:29,559 --> 00:12:34,119
+Isso é o devops que que eu coloquei lá o
+
+289
+00:12:32,360 --> 00:12:36,600
+objetivo da entrega contínua é a
+
+290
+00:12:34,120 --> 00:12:39,000
+produtividade mas com a corretude a
+
+291
+00:12:36,600 --> 00:12:41,639
+confiabilidade que é a qualidade então
+
+292
+00:12:39,000 --> 00:12:43,639
+para cravar aqui né que que não estamos
+
+293
+00:12:41,639 --> 00:12:45,839
+aqui à toa devops tem tudo a ver com
+
+294
+00:12:43,639 --> 00:12:48,519
+engenheria de
+
+295
+00:12:45,839 --> 00:12:50,720
+software certo aí eu tenho uma pergunta
+
+296
+00:12:48,519 --> 00:12:53,480
+que é sobre a definição essa definição
+
+297
+00:12:50,720 --> 00:12:57,160
+que vocês dão ela é consensual na
+
+298
+00:12:53,480 --> 00:12:59,680
+academia entre os praticantes ou que eu
+
+299
+00:12:57,159 --> 00:13:02,679
+lembro de um trabalho assim Bem antigo
+
+300
+00:12:59,679 --> 00:13:06,078
+talvez 2014 2015 quer dizer na verdade
+
+301
+00:13:02,679 --> 00:13:08,078
+eu lembro de mais de um trabalho ou eh
+
+302
+00:13:06,078 --> 00:13:11,638
+surveys ou revisões
+
+303
+00:13:08,078 --> 00:13:15,000
+multivoco saber ah o que é devops então
+
+304
+00:13:11,639 --> 00:13:17,720
+é essa definição já se estabilizou ou
+
+305
+00:13:15,000 --> 00:13:20,039
+ainda tem um questionamento entre os
+
+306
+00:13:17,720 --> 00:13:23,839
+praticantes e
+
+307
+00:13:20,039 --> 00:13:27,159
+academia Ótima pergunta não não tem
+
+308
+00:13:23,839 --> 00:13:28,880
+definição né Tem eh inclusive um cuidado
+
+309
+00:13:27,159 --> 00:13:30,480
+que a gente teve depois né a gente
+
+310
+00:13:28,879 --> 00:13:32,838
+partir do devops mas depois mais para
+
+311
+00:13:30,480 --> 00:13:34,720
+frente pra pesquisa a gente procura
+
+312
+00:13:32,839 --> 00:13:37,839
+procura conduzir a pesquisa de forma a
+
+313
+00:13:34,720 --> 00:13:40,278
+não depender da definição desse termo
+
+314
+00:13:37,839 --> 00:13:42,360
+Porque de fato é muito polêmico mas essa
+
+315
+00:13:40,278 --> 00:13:45,198
+nossa definição é baseada numa revisão
+
+316
+00:13:42,360 --> 00:13:47,720
+de literatura então é digamos
+
+317
+00:13:45,198 --> 00:13:50,120
+principalmente a visão talvez da
+
+318
+00:13:47,720 --> 00:13:53,079
+academia da literatura sobre devops né
+
+319
+00:13:50,120 --> 00:13:55,839
+em correlacionar isso com o pipeline de
+
+320
+00:13:53,078 --> 00:13:58,359
+implantação né mas em outros contextos
+
+321
+00:13:55,839 --> 00:14:01,399
+né no mercado às vezes você vai ter a
+
+322
+00:13:58,360 --> 00:14:04,399
+visão que que devops é a pessoa né é o
+
+323
+00:14:01,399 --> 00:14:06,240
+cargo que faz tudo sozinho ou já
+
+324
+00:14:04,399 --> 00:14:08,480
+adiantando um pouco né na nossa tese a
+
+325
+00:14:06,240 --> 00:14:11,839
+gente define as diferentes formas de
+
+326
+00:14:08,480 --> 00:14:13,600
+fazer devops né e uma forma que que que
+
+327
+00:14:11,839 --> 00:14:16,079
+o movimento devops trouxe que foi a
+
+328
+00:14:13,600 --> 00:14:18,759
+forma Inicial que tem muito mais a ver
+
+329
+00:14:16,078 --> 00:14:22,319
+com a colaboração esse esforço
+
+330
+00:14:18,759 --> 00:14:24,399
+colaborativo entre as equipes né Eh Isso
+
+331
+00:14:22,320 --> 00:14:27,040
+é uma forma de fazer devops E aí também
+
+332
+00:14:24,399 --> 00:14:29,399
+tem gente que defende que e isso é o
+
+333
+00:14:27,039 --> 00:14:32,439
+devops o que pra gente é seria uma das
+
+334
+00:14:29,399 --> 00:14:37,360
+formas então tem tem bastante polêmica
+
+335
+00:14:32,440 --> 00:14:40,360
+assim é em 2017 quando a gente começou a
+
+336
+00:14:37,360 --> 00:14:42,759
+a pesquisa aí com o Leonardo Esse foi um
+
+337
+00:14:40,360 --> 00:14:46,600
+um dos pontos aí que a gente
+
+338
+00:14:42,759 --> 00:14:48,879
+eh definiu eh eh como partida da
+
+339
+00:14:46,600 --> 00:14:50,519
+pesquisa né falou assim bem a gente
+
+340
+00:14:48,879 --> 00:14:54,720
+encontrou essas diferentes visões
+
+341
+00:14:50,519 --> 00:14:57,799
+definições e aí o o o o Survey né que
+
+342
+00:14:54,720 --> 00:15:00,839
+foi publicado na semice eh pelo leonar
+
+343
+00:14:57,799 --> 00:15:03,399
+tá sobre bem bem citado a gente se
+
+344
+00:15:00,839 --> 00:15:06,920
+preocupou em em colocar essa essa
+
+345
+00:15:03,399 --> 00:15:10,198
+definição eh não sendo necessariamente a
+
+346
+00:15:06,919 --> 00:15:14,198
+nossa definição em si mas a definição
+
+347
+00:15:10,198 --> 00:15:19,719
+que a gente eh entendeu que contemplava
+
+348
+00:15:14,198 --> 00:15:21,919
+essas visões né e eh a gente acredita
+
+349
+00:15:19,720 --> 00:15:24,759
+que pos esse serve como Leonardo falou
+
+350
+00:15:21,919 --> 00:15:28,719
+do do ponto de vista da literatura né
+
+351
+00:15:24,759 --> 00:15:32,360
+Eh acadêmica científica eh é uma é uma
+
+352
+00:15:28,720 --> 00:15:35,199
+definição que está eh se se se não é a
+
+353
+00:15:32,360 --> 00:15:38,039
+definitiva está se tornando eh a
+
+354
+00:15:35,198 --> 00:15:39,958
+bastante citada eh por vários
+
+355
+00:15:38,039 --> 00:15:43,639
+pesquisadores da
+
+356
+00:15:39,958 --> 00:15:47,838
+área então falando assim pensando pro
+
+357
+00:15:43,639 --> 00:15:50,120
+público eh desenvolvedor né as pessoas
+
+358
+00:15:47,839 --> 00:15:51,120
+que estão lá no mercado existe um
+
+359
+00:15:50,120 --> 00:15:54,679
+movimento
+
+360
+00:15:51,120 --> 00:15:56,440
+devops de eu eu lembro por exemplo que
+
+361
+00:15:54,679 --> 00:15:59,078
+também não sei como é que tá hoje mas
+
+362
+00:15:56,440 --> 00:16:00,920
+antigamente né antes da pandemia emia né
+
+363
+00:15:59,078 --> 00:16:03,679
+existiam muitos metaps e alguns metaps
+
+364
+00:16:00,919 --> 00:16:06,039
+eram assim ó metaps de devops existe um
+
+365
+00:16:03,679 --> 00:16:09,318
+movimento devops Quais são os objetivos
+
+366
+00:16:06,039 --> 00:16:12,519
+desse movimento devops
+
+367
+00:16:09,318 --> 00:16:14,719
+Ô Fábio comentou muito bem a questão
+
+368
+00:16:12,519 --> 00:16:17,000
+daquela tensão aquele conflito que
+
+369
+00:16:14,720 --> 00:16:19,720
+existe entre os grupos então eu entendo
+
+370
+00:16:17,000 --> 00:16:21,679
+que o movimento devops né nasceu né das
+
+371
+00:16:19,720 --> 00:16:23,360
+pessoas nesses diferentes grupos pô
+
+372
+00:16:21,679 --> 00:16:26,239
+vamos parar de abrigar O que que a gente
+
+373
+00:16:23,360 --> 00:16:30,000
+pode fazer para resolver E aí esse para
+
+374
+00:16:26,240 --> 00:16:33,799
+resolver né tem diferentes
+
+375
+00:16:30,000 --> 00:16:35,519
+mas eu diria que talvez hoje eu sinto
+
+376
+00:16:33,799 --> 00:16:37,278
+por exemplo fui nos últimos eventos de
+
+377
+00:16:35,519 --> 00:16:38,799
+devops né Parece que o pessoal já tá
+
+378
+00:16:37,278 --> 00:16:42,639
+falando bem mais sobre observabilidade
+
+379
+00:16:38,799 --> 00:16:44,958
+outras coisas talvez eu sinto devops um
+
+380
+00:16:42,639 --> 00:16:48,198
+pouco naquela coisa assim de que a o ago
+
+381
+00:16:44,958 --> 00:16:52,000
+está morto né porque o áo já virou o o
+
+382
+00:16:48,198 --> 00:16:55,159
+defa já né já é engo de software é á
+
+383
+00:16:52,000 --> 00:16:56,958
+difícil fugir disso então nesse sentido
+
+384
+00:16:55,159 --> 00:17:01,078
+dos objetivos iniciais do movimento
+
+385
+00:16:56,958 --> 00:17:02,758
+devops né eh minha visão né posso tá
+
+386
+00:17:01,078 --> 00:17:04,759
+errado mas entendo que que talvez o
+
+387
+00:17:02,759 --> 00:17:08,759
+movimento esteja fraco no sentido de que
+
+388
+00:17:04,759 --> 00:17:11,000
+eh já cumpriu cumpriu algumas missões
+
+389
+00:17:08,759 --> 00:17:13,480
+importantes aí e as coisas porque as
+
+390
+00:17:11,000 --> 00:17:15,558
+coisas de fato mudaram depois desse
+
+391
+00:17:13,480 --> 00:17:17,160
+movimento mas tem monte de gente tem
+
+392
+00:17:15,558 --> 00:17:19,720
+monte de comunidade que se chama devops
+
+393
+00:17:17,160 --> 00:17:22,079
+mas também acontece outro fenômeno né
+
+394
+00:17:19,720 --> 00:17:25,120
+que é devops é sinônimo de infra então
+
+395
+00:17:22,078 --> 00:17:27,198
+devops ser devops né mas tem muita gente
+
+396
+00:17:25,119 --> 00:17:29,879
+que entende devops como a parte de infra
+
+397
+00:17:27,199 --> 00:17:32,440
+e às vezes tem equipes devops comunidade
+
+398
+00:17:29,880 --> 00:17:34,799
+devops que na verdade são sobre a infra
+
+399
+00:17:32,440 --> 00:17:37,640
+né mas claro a infra com com uma pegada
+
+400
+00:17:34,798 --> 00:17:39,960
+mais moderna com muita automação nuvem E
+
+401
+00:17:37,640 --> 00:17:39,960
+por aí
+
+402
+00:17:41,558 --> 00:17:48,879
+vai certo
+
+403
+00:17:43,960 --> 00:17:51,519
+eh e continuando Então como devox acaba
+
+404
+00:17:48,880 --> 00:17:54,280
+impactando né tanto o corpo técnico
+
+405
+00:17:51,519 --> 00:17:56,440
+quanto gerentes vocês acham que já deram
+
+406
+00:17:54,279 --> 00:18:00,240
+uma pincelada quanto a isso mas podiam
+
+407
+00:17:56,440 --> 00:18:03,360
+falar mais um pouquinho
+
+408
+00:18:00,240 --> 00:18:05,480
+falar um pouco corpo técnico né muitas
+
+409
+00:18:03,359 --> 00:18:08,119
+das soluções para resolver esses dilemas
+
+410
+00:18:05,480 --> 00:18:11,240
+né vieram da doção princi de automações
+
+411
+00:18:08,119 --> 00:18:12,439
+da pipeline isso impacta diretamente o
+
+412
+00:18:11,240 --> 00:18:16,159
+corpo técnico
+
+413
+00:18:12,440 --> 00:18:18,200
+eh mas ao se criar todas essas
+
+414
+00:18:16,159 --> 00:18:21,280
+automações
+
+415
+00:18:18,200 --> 00:18:23,038
+eh a implantação ela mudou drasticamente
+
+416
+00:18:21,279 --> 00:18:25,480
+ao ponto de querer que você aperta um
+
+417
+00:18:23,038 --> 00:18:28,359
+botão e você implanta e se antes tinha
+
+418
+00:18:25,480 --> 00:18:29,919
+todo um processo eh tinham pessoas
+
+419
+00:18:28,359 --> 00:18:33,599
+dedicadas paraa implantação que agora
+
+420
+00:18:29,919 --> 00:18:36,080
+apertar um botão isso suscitou questões
+
+421
+00:18:33,599 --> 00:18:38,558
+e agora essas coisas de repente esses
+
+422
+00:18:36,079 --> 00:18:40,720
+processos esses papéis não fazem mais
+
+423
+00:18:38,558 --> 00:18:42,399
+sentido O que que a gente faz com isso e
+
+424
+00:18:40,720 --> 00:18:44,839
+essa é uma pergunta destinada
+
+425
+00:18:42,400 --> 00:18:48,320
+Principalmente ao corpo gerencial que
+
+426
+00:18:44,839 --> 00:18:50,678
+teve que encontrar respostas né e é
+
+427
+00:18:48,319 --> 00:18:53,158
+essas diferentes soluções para esse
+
+428
+00:18:50,679 --> 00:18:55,519
+dilema que que a gente explorando a
+
+429
+00:18:53,159 --> 00:18:59,200
+nossa pesquisa e apresentando no
+
+430
+00:18:55,519 --> 00:19:00,960
+livro então toda a parte dois do livro é
+
+431
+00:18:59,200 --> 00:19:04,279
+sobre as diferentes formas de se
+
+432
+00:19:00,960 --> 00:19:06,798
+organizar devops né vocês dão uma visão
+
+433
+00:19:04,279 --> 00:19:08,960
+geral e vocês falam sobre departamentos
+
+434
+00:19:06,798 --> 00:19:10,679
+segregados departamentos que colaboram
+
+435
+00:19:08,960 --> 00:19:13,200
+departamentos únicos departamentos
+
+436
+00:19:10,679 --> 00:19:15,400
+mediados por api equipes facilitadores
+
+437
+00:19:13,200 --> 00:19:17,558
+enfim a gente não tem tempo de falar de
+
+438
+00:19:15,400 --> 00:19:19,440
+tudo aqui mas você pode dar uma
+
+439
+00:19:17,558 --> 00:19:21,839
+pincelada no no que você achar mais
+
+440
+00:19:19,440 --> 00:19:23,640
+interessante mas a a pergunta específica
+
+441
+00:19:21,839 --> 00:19:25,519
+é quais são as características e
+
+442
+00:19:23,640 --> 00:19:27,919
+consequências de departamentos
+
+443
+00:19:25,519 --> 00:19:30,240
+segregados conforme vocês explicam lá no
+
+444
+00:19:27,919 --> 00:19:30,240
+livro
+
+445
+00:19:30,319 --> 00:19:35,240
+o segregados é o tradicional né que
+
+446
+00:19:33,480 --> 00:19:37,839
+tradicional com algumas aspas Mas o
+
+447
+00:19:35,240 --> 00:19:40,480
+predd devops que o que o Fábio bem
+
+448
+00:19:37,839 --> 00:19:43,519
+explicou né que tinha aquela tensão né o
+
+449
+00:19:40,480 --> 00:19:45,880
+desenvolvedor queer entregar frequente
+
+450
+00:19:43,519 --> 00:19:48,400
+mas o operador tinha responsabilidade da
+
+451
+00:19:45,880 --> 00:19:51,640
+disponibilidade o Uptime o que atrapalha
+
+452
+00:19:48,400 --> 00:19:53,559
+isso é entrega então isso gerava os
+
+453
+00:19:51,640 --> 00:19:54,880
+processos burocráticos para implantar
+
+454
+00:19:53,558 --> 00:19:58,440
+para ter certeza que não vai ter
+
+455
+00:19:54,880 --> 00:20:00,480
+problema e atrapalhava uma uma entrega
+
+456
+00:19:58,440 --> 00:20:03,600
+contínua Então gerava essa desconfiança
+
+457
+00:20:00,480 --> 00:20:05,200
+uma das consequências é a a a questão da
+
+458
+00:20:03,599 --> 00:20:08,079
+culpabilidade quando a coisa dá errado
+
+459
+00:20:05,200 --> 00:20:11,200
+um fica culpando o outro em vez de se
+
+460
+00:20:08,079 --> 00:20:13,359
+juntarem para resolver E aí bem bem bem
+
+461
+00:20:11,200 --> 00:20:15,640
+rapidamente para sumarizar as quatro
+
+462
+00:20:13,359 --> 00:20:16,719
+formas é então vem o movimento devol
+
+463
+00:20:15,640 --> 00:20:19,480
+promovendo uma
+
+464
+00:20:16,720 --> 00:20:21,240
+eh tentando trazer uma união entre esses
+
+465
+00:20:19,480 --> 00:20:23,360
+grupos né então o foco é a colaboração
+
+466
+00:20:21,240 --> 00:20:25,240
+tem um problema não vamos focar nos
+
+467
+00:20:23,359 --> 00:20:28,519
+papéis nos processos Vamos focar na
+
+468
+00:20:25,240 --> 00:20:30,599
+missão no alinhamento de resolver o
+
+469
+00:20:28,519 --> 00:20:32,759
+problema Você tem uma outra vertente que
+
+470
+00:20:30,599 --> 00:20:34,719
+a gente chama de departamentos únicos
+
+471
+00:20:32,759 --> 00:20:37,119
+que tem a ver com times Cross funcionais
+
+472
+00:20:34,720 --> 00:20:38,279
+Nos quais eh você não tem mais esses
+
+473
+00:20:37,119 --> 00:20:39,558
+diferentes grupos você resolve o
+
+474
+00:20:38,279 --> 00:20:42,000
+problema da atenção entre os grupos não
+
+475
+00:20:39,558 --> 00:20:44,158
+tendo os grupos e muitas vezes com a
+
+476
+00:20:42,000 --> 00:20:46,119
+ideia do engenheiro fch que que uma
+
+477
+00:20:44,159 --> 00:20:48,360
+pessoa só vai vai dominar todos os
+
+478
+00:20:46,119 --> 00:20:50,399
+assuntos e vai resolver os problemas sem
+
+479
+00:20:48,359 --> 00:20:53,558
+depender dessa transferência de tarefa
+
+480
+00:20:50,400 --> 00:20:57,679
+para outra área e tem uma da das coisas
+
+481
+00:20:53,558 --> 00:21:00,319
+mais legais que que fomos até Pioneiros
+
+482
+00:20:57,679 --> 00:21:02,559
+em em relatar né no meio acadêmico os
+
+483
+00:21:00,319 --> 00:21:05,079
+times de plataforma né que são os
+
+484
+00:21:02,558 --> 00:21:08,359
+departamentos mediados por api onde você
+
+485
+00:21:05,079 --> 00:21:11,399
+tem a especialização de infra mas ela
+
+486
+00:21:08,359 --> 00:21:13,000
+funciona né oferecendo a infra como um
+
+487
+00:21:11,400 --> 00:21:15,480
+serviço como se fosse uma espécie de
+
+488
+00:21:13,000 --> 00:21:17,720
+nuvem interna dentro da empresa e os
+
+489
+00:21:15,480 --> 00:21:19,558
+desenvolvedores utilizam esses serviço
+
+490
+00:21:17,720 --> 00:21:21,519
+de forma autônoma PR os próprios
+
+491
+00:21:19,558 --> 00:21:23,678
+desenvolvedores poder implantar e ter a
+
+492
+00:21:21,519 --> 00:21:26,038
+responsabilidade de cuidar do serviço da
+
+493
+00:21:23,679 --> 00:21:28,919
+disponibilidade Ou seja você tem o Dev e
+
+494
+00:21:26,038 --> 00:21:31,200
+o infra a questão é quem fica com o
+
+495
+00:21:28,919 --> 00:21:34,400
+então no tradicional o Ops tá com a
+
+496
+00:21:31,200 --> 00:21:36,600
+infra no departamentos que colaboram o
+
+497
+00:21:34,400 --> 00:21:38,759
+Ops tá distribuído entre os dois se só
+
+498
+00:21:36,599 --> 00:21:40,959
+tem um grupo não tem o que discutir e
+
+499
+00:21:38,759 --> 00:21:44,400
+nos departamentos mediados por api Você
+
+500
+00:21:40,960 --> 00:21:46,798
+tem o time de infra que dá essa api da
+
+501
+00:21:44,400 --> 00:21:51,080
+infra automatizada mas o Ops tá com Dev
+
+502
+00:21:46,798 --> 00:21:54,200
+Graças às facilidades trazidas pela
+
+503
+00:21:51,079 --> 00:21:56,240
+plataforma é se eu puder entrar aqui eu
+
+504
+00:21:54,200 --> 00:21:59,519
+acho muito interessante essa ideia do
+
+505
+00:21:56,240 --> 00:22:02,200
+dos times eh mediados por uma API onde
+
+506
+00:21:59,519 --> 00:22:04,639
+você tem esse time de plataforma né que
+
+507
+00:22:02,200 --> 00:22:08,159
+que acontece aí você tem o Dev e o Ops
+
+508
+00:22:04,640 --> 00:22:10,440
+mas o Ops aqui também são devs eh quem
+
+509
+00:22:08,159 --> 00:22:12,880
+proveu Ops são desenvolvedores que
+
+510
+00:22:10,440 --> 00:22:15,759
+oferecem uma plataforma automatizada
+
+511
+00:22:12,880 --> 00:22:18,520
+para fazer implantação e outras coisas
+
+512
+00:22:15,759 --> 00:22:20,679
+monitoramento observabilidade eh e
+
+513
+00:22:18,519 --> 00:22:24,359
+oferecem para os outros desenvolvedores
+
+514
+00:22:20,679 --> 00:22:26,038
+uma API apenas né então você tem uma
+
+515
+00:22:24,359 --> 00:22:29,798
+grande empresa pode ter um
+
+516
+00:22:26,038 --> 00:22:31,599
+eh robusto e eficiente time de
+
+517
+00:22:29,798 --> 00:22:33,679
+plataforma que vai oferecer aquela
+
+518
+00:22:31,599 --> 00:22:36,599
+plataforma pra empresa inteira e daí
+
+519
+00:22:33,679 --> 00:22:39,480
+você pode ter dezenas de times de devs
+
+520
+00:22:36,599 --> 00:22:42,158
+que vão utilizar aquela plataforma que o
+
+521
+00:22:39,480 --> 00:22:45,480
+que os operadores devs desenvolveram e a
+
+522
+00:22:42,159 --> 00:22:48,880
+gente viu na pesquisa que as empresas
+
+523
+00:22:45,480 --> 00:22:51,360
+que estão mais avançadas eh na entrega
+
+524
+00:22:48,880 --> 00:22:54,159
+contínua e com qualidade estão todas aí
+
+525
+00:22:51,359 --> 00:22:57,918
+adotando esse tipo de abordagem dos
+
+526
+00:22:54,159 --> 00:23:01,080
+times de plataforma né é um ponto para
+
+527
+00:22:57,919 --> 00:23:05,720
+entar a gente apresenta essas as formas
+
+528
+00:23:01,079 --> 00:23:09,278
+de fazer devops e sim né Tem e a gente
+
+529
+00:23:05,720 --> 00:23:11,880
+discute ali né o delivery performance né
+
+530
+00:23:09,278 --> 00:23:15,119
+ali esse desempenho de entrega e
+
+531
+00:23:11,880 --> 00:23:16,960
+realmente os times de plataforma eh os
+
+532
+00:23:15,119 --> 00:23:18,158
+que a gente chamou de mediados por api
+
+533
+00:23:16,960 --> 00:23:22,079
+né
+
+534
+00:23:18,159 --> 00:23:25,679
+Eh tendem a ter uma esse deliv
+
+535
+00:23:22,079 --> 00:23:31,199
+performance melhor mas o o que a gente
+
+536
+00:23:25,679 --> 00:23:32,759
+eh defende eh bem no livro é que essa
+
+537
+00:23:31,200 --> 00:23:35,278
+forma de fazer devops depende da
+
+538
+00:23:32,759 --> 00:23:38,839
+organização né Nem toda organização nem
+
+539
+00:23:35,278 --> 00:23:40,159
+toda empresa eh vai ter condições ou
+
+540
+00:23:38,839 --> 00:23:43,240
+necessita realmente ali de uma
+
+541
+00:23:40,159 --> 00:23:45,360
+plataforma uma outra forma de se fazer
+
+542
+00:23:43,240 --> 00:23:48,759
+devops Talvez seja pode ser mais
+
+543
+00:23:45,359 --> 00:23:50,519
+adequada eh para uma determinado
+
+544
+00:23:48,759 --> 00:23:52,359
+determinada organização determinado
+
+545
+00:23:50,519 --> 00:23:55,119
+determinado time que depende de algumas
+
+546
+00:23:52,359 --> 00:23:58,119
+variáveis né Eh da quantidade de pessoas
+
+547
+00:23:55,119 --> 00:24:00,439
+da da cultura ali da empresa então por
+
+548
+00:23:58,119 --> 00:24:03,678
+isso que a gente sempre a apresenta no
+
+549
+00:24:00,440 --> 00:24:08,159
+livro para cada uma dessas formas eh as
+
+550
+00:24:03,679 --> 00:24:10,798
+as os pró e os contas né as as as causas
+
+551
+00:24:08,159 --> 00:24:12,880
+e as consequências de cada um eh dessas
+
+552
+00:24:10,798 --> 00:24:15,839
+formas se adotar devolves então
+
+553
+00:24:12,880 --> 00:24:17,960
+a a gente no livro não se pretende dizer
+
+554
+00:24:15,839 --> 00:24:20,480
+qual é necessariamente o melhor caminho
+
+555
+00:24:17,960 --> 00:24:24,240
+mas eh como essas diferentes formas de
+
+556
+00:24:20,480 --> 00:24:26,960
+fazer devops podem eh eh te levar para
+
+557
+00:24:24,240 --> 00:24:30,599
+um determinado caminho e a espera que o
+
+558
+00:24:26,960 --> 00:24:31,798
+leitor né e e eh as pessoas né de uma
+
+559
+00:24:30,599 --> 00:24:34,839
+determinada organização elas se
+
+560
+00:24:31,798 --> 00:24:37,319
+identifiquem aquilo que
+
+561
+00:24:34,839 --> 00:24:40,359
+que que casa melhor ali com a sua
+
+562
+00:24:37,319 --> 00:24:42,119
+organização para eh enxergar ali as
+
+563
+00:24:40,359 --> 00:24:45,079
+experiências que a gente conseguiu
+
+564
+00:24:42,119 --> 00:24:48,000
+levantar ao longo do desse processo que
+
+565
+00:24:45,079 --> 00:24:52,038
+tá descrito no no livro
+
+566
+00:24:48,000 --> 00:24:54,640
+né certo então falando um pouco mais a
+
+567
+00:24:52,038 --> 00:24:57,919
+respeito dos departamentos que colaboram
+
+568
+00:24:54,640 --> 00:24:59,840
+eh como eles se diferenciam em termos de
+
+569
+00:24:57,919 --> 00:25:01,240
+opções condições e consequências
+
+570
+00:24:59,839 --> 00:25:04,199
+Leonardo
+
+571
+00:25:01,240 --> 00:25:07,038
+eh pegando no gancho de uma coisa que o
+
+572
+00:25:04,200 --> 00:25:08,840
+o Fábio falou né nos departamentos
+
+573
+00:25:07,038 --> 00:25:11,599
+mediados por você tem uma questão da
+
+574
+00:25:08,839 --> 00:25:14,000
+escala você tem um time que desenvolve a
+
+575
+00:25:11,599 --> 00:25:16,879
+plataforma e ele vai ter lá seus membros
+
+576
+00:25:14,000 --> 00:25:19,278
+10 15 20 30 pessoas que seja e ele vai
+
+577
+00:25:16,880 --> 00:25:21,159
+servir diversas equipes de
+
+578
+00:25:19,278 --> 00:25:25,359
+desenvolvimento Porque tem uma premissa
+
+579
+00:25:21,159 --> 00:25:27,720
+aí você não tem uma interação e de
+
+580
+00:25:25,359 --> 00:25:29,119
+conversa de ter que necessariamente para
+
+581
+00:25:27,720 --> 00:25:30,759
+fazer alguma coisa tá interagindo
+
+582
+00:25:29,119 --> 00:25:33,398
+conversando é só quando é algo fora do
+
+583
+00:25:30,759 --> 00:25:35,079
+fluxo aprendizado ou problemas já nos
+
+584
+00:25:33,398 --> 00:25:38,359
+voltando assim paraos departamentos que
+
+585
+00:25:35,079 --> 00:25:41,839
+colaboram né a ênfase que veio lá do MOV
+
+586
+00:25:38,359 --> 00:25:45,079
+devops é é a colaboração é o contato e
+
+587
+00:25:41,839 --> 00:25:48,158
+aí além de de alguns atritos que a gente
+
+588
+00:25:45,079 --> 00:25:50,599
+observou eh atritos do tipo
+
+589
+00:25:48,159 --> 00:25:52,559
+desenvolvedor desconfortável que a o que
+
+590
+00:25:50,599 --> 00:25:55,038
+que eu faço Qual que é a minha função
+
+591
+00:25:52,558 --> 00:25:56,879
+minha responsabilidade e as pessoas de
+
+592
+00:25:55,038 --> 00:25:58,640
+infra desconfortáveis pro desenvolvedor
+
+593
+00:25:56,880 --> 00:26:01,520
+tá fazendo que eu devia fazer tá fazendo
+
+594
+00:25:58,640 --> 00:26:04,520
+coisa errada perder a chave da Amazon eh
+
+595
+00:26:01,519 --> 00:26:07,519
+tem essas questões dos conflitos e tem a
+
+596
+00:26:04,519 --> 00:26:09,000
+questão da escala porque se se a ideia
+
+597
+00:26:07,519 --> 00:26:12,720
+que os dois estejam colaborando
+
+598
+00:26:09,000 --> 00:26:16,359
+conversando né Eh isso tem tem uma
+
+599
+00:26:12,720 --> 00:26:18,278
+sobrecarga de comunicação E aí se você
+
+600
+00:26:16,359 --> 00:26:21,079
+tem um incremento na quantidade de
+
+601
+00:26:18,278 --> 00:26:22,798
+desenvolvedores você vai ter também vai
+
+602
+00:26:21,079 --> 00:26:25,480
+precisar de um incremento correspondente
+
+603
+00:26:22,798 --> 00:26:26,599
+na quantidade de de pessoas de infra
+
+604
+00:26:25,480 --> 00:26:30,240
+você precisa de uma certa
+
+605
+00:26:26,599 --> 00:26:33,519
+proporcionalidade aí Eh então a escala
+
+606
+00:26:30,240 --> 00:26:35,839
+não é tão independente Esses são algun
+
+607
+00:26:33,519 --> 00:26:39,519
+dos aspectos como vai citar um aspecto
+
+608
+00:26:35,839 --> 00:26:41,519
+Positivo né Digamos que se você tem um
+
+609
+00:26:39,519 --> 00:26:44,440
+está numa organização ainda com os
+
+610
+00:26:41,519 --> 00:26:47,960
+departamentos segregados né é o primeiro
+
+611
+00:26:44,440 --> 00:26:50,320
+passo mais fácil é tentar promover essa
+
+612
+00:26:47,960 --> 00:26:51,919
+aproximação que que em alguns lugares
+
+613
+00:26:50,319 --> 00:26:54,599
+vai ter mais problema em outros lugares
+
+614
+00:26:51,919 --> 00:26:54,600
+podem dar mais
+
+615
+00:26:54,919 --> 00:27:02,080
+certo e com relação são a cultura vocês
+
+616
+00:26:59,480 --> 00:27:04,679
+acham que a cultura é o mais importante
+
+617
+00:27:02,079 --> 00:27:07,319
+mais do que essas estruturas aí e como é
+
+618
+00:27:04,679 --> 00:27:09,600
+que a cultura influencia o sucesso na
+
+619
+00:27:07,319 --> 00:27:13,319
+jornada de
+
+620
+00:27:09,599 --> 00:27:16,639
+vops Esse aí é um tema altamente
+
+621
+00:27:13,319 --> 00:27:19,398
+polêmico muita gente fala de devops como
+
+622
+00:27:16,640 --> 00:27:22,840
+cultura e que cultura é o mais
+
+623
+00:27:19,398 --> 00:27:26,239
+importante mas o que que é a cultura né
+
+624
+00:27:22,839 --> 00:27:29,278
+senão a a manifestação e a visão das
+
+625
+00:27:26,240 --> 00:27:32,200
+práticas né que as pessoas têm na na
+
+626
+00:27:29,278 --> 00:27:35,599
+organização é o jeito das pessoas fazer
+
+627
+00:27:32,200 --> 00:27:37,480
+as coisas então eh a cultura é uma
+
+628
+00:27:35,599 --> 00:27:40,038
+consequência né a lembrança daquilo que
+
+629
+00:27:37,480 --> 00:27:42,640
+dá certo daquilo que não dá certo então
+
+630
+00:27:40,038 --> 00:27:45,398
+esse pensamento de
+
+631
+00:27:42,640 --> 00:27:46,919
+Ah não adianta mexer nisso se se não
+
+632
+00:27:45,398 --> 00:27:49,639
+mudar a cultura mas como é que você vai
+
+633
+00:27:46,919 --> 00:27:52,559
+não vai mudar a cultura senão mexendo no
+
+634
+00:27:49,640 --> 00:27:54,559
+nos elementos por exemplo Ah um exemplo
+
+635
+00:27:52,558 --> 00:27:57,678
+Talvez um pouco fora do devoo mas ficar
+
+636
+00:27:54,558 --> 00:28:00,879
+mais claro as pessoas dos do times não
+
+637
+00:27:57,679 --> 00:28:03,080
+se ajudam mas sei lá será que na empresa
+
+638
+00:28:00,880 --> 00:28:06,799
+Você tem uma política de demissão que
+
+639
+00:28:03,079 --> 00:28:09,798
+todo ano os menos cotados lá são
+
+640
+00:28:06,798 --> 00:28:12,119
+demitidos tem empresa que faz isso e E
+
+641
+00:28:09,798 --> 00:28:13,720
+aí você vai criar um clima de competição
+
+642
+00:28:12,119 --> 00:28:17,319
+se tiver um clima de competição por
+
+643
+00:28:13,720 --> 00:28:20,278
+causa dessa condição objetiva né de de
+
+644
+00:28:17,319 --> 00:28:23,158
+uma política de de demissão vai ser mais
+
+645
+00:28:20,278 --> 00:28:26,440
+difícil ter colaboração Então você tem
+
+646
+00:28:23,159 --> 00:28:29,200
+que que mudar uma coisa concreta né uma
+
+647
+00:28:26,440 --> 00:28:32,558
+política concreta para para influir na
+
+648
+00:28:29,200 --> 00:28:34,720
+cultura então cultura é muito mais serve
+
+649
+00:28:32,558 --> 00:28:36,759
+muito mais como termômetro você observa
+
+650
+00:28:34,720 --> 00:28:38,278
+a cultura para entender o que tá
+
+651
+00:28:36,759 --> 00:28:41,720
+acontecendo o que tá dando que não tá
+
+652
+00:28:38,278 --> 00:28:43,159
+dando certo mas pelo menos no meu
+
+653
+00:28:41,720 --> 00:28:45,960
+entender pelos estudos que a gente fez
+
+654
+00:28:43,159 --> 00:28:50,039
+que foram um pouco mais laterais né da
+
+655
+00:28:45,960 --> 00:28:52,480
+nossa pesquisa eh não não funciona tanto
+
+656
+00:28:50,038 --> 00:28:53,798
+assim e por exemplo enganchar com com as
+
+657
+00:28:52,480 --> 00:28:56,399
+estruturas né
+
+658
+00:28:53,798 --> 00:28:59,000
+Eh porque se você
+
+659
+00:28:56,398 --> 00:29:01,278
+tem times separados né de
+
+660
+00:28:59,000 --> 00:29:03,398
+desenvolvimento de infra e se você não
+
+661
+00:29:01,278 --> 00:29:06,319
+tem esses dois times você só tem um só
+
+662
+00:29:03,398 --> 00:29:08,959
+né isso para mim claramente tem tem
+
+663
+00:29:06,319 --> 00:29:10,798
+impactos na cultura da organização né em
+
+664
+00:29:08,960 --> 00:29:13,038
+um contexto Você vai precisar pedir pro
+
+665
+00:29:10,798 --> 00:29:15,599
+outro time fazer alguma coisa vai ter
+
+666
+00:29:13,038 --> 00:29:17,119
+que esperar então hum se se eu ten vou
+
+667
+00:29:15,599 --> 00:29:18,639
+ter que pedir vou ter que esperar então
+
+668
+00:29:17,119 --> 00:29:21,038
+de repente eu faço isso vou ter que
+
+669
+00:29:18,640 --> 00:29:22,919
+influir assim se é um time só não vou
+
+670
+00:29:21,038 --> 00:29:24,839
+precisar fazer isso ou se tem uma
+
+671
+00:29:22,919 --> 00:29:26,200
+plataforma que eu faço de forma
+
+672
+00:29:24,839 --> 00:29:29,519
+automatizada então não vou precisar
+
+673
+00:29:26,200 --> 00:29:31,640
+ficar pedindo então isso vai ter Impacto
+
+674
+00:29:29,519 --> 00:29:33,720
+direto na nas práticas das pessoas então
+
+675
+00:29:31,640 --> 00:29:36,278
+às vezes tem tem gente que tem visão que
+
+676
+00:29:33,720 --> 00:29:39,000
+minimiza um pouco a importância dessas
+
+677
+00:29:36,278 --> 00:29:43,599
+estruturas mas cultura no fim é a soma
+
+678
+00:29:39,000 --> 00:29:43,599
+de vários elementos incluindo as
+
+679
+00:29:47,640 --> 00:29:54,240
+estruturas Tá certo
+
+680
+00:29:50,359 --> 00:29:55,839
+Eh aí passando pra parte três né do do
+
+681
+00:29:54,240 --> 00:29:59,000
+podcast
+
+682
+00:29:55,839 --> 00:30:01,678
+eh falando falando um pouco a respeito
+
+683
+00:29:59,000 --> 00:30:05,519
+de pesquisa então vocês publicaram em
+
+684
+00:30:01,679 --> 00:30:09,759
+2019 o artigo uma pesquisa surve sobre
+
+685
+00:30:05,519 --> 00:30:11,038
+conceitos e desafios do devops na ACM
+
+686
+00:30:09,759 --> 00:30:13,879
+computing
+
+687
+00:30:11,038 --> 00:30:15,839
+service vocês podem nos contar como
+
+688
+00:30:13,880 --> 00:30:19,159
+surgiu a ideia deste artigo e quais
+
+689
+00:30:15,839 --> 00:30:22,839
+foram seus resultados tá aqui acho que
+
+690
+00:30:19,159 --> 00:30:25,080
+eu posso falar um pouco naquela época o
+
+691
+00:30:22,839 --> 00:30:29,079
+Leonarda querendo comear a fazer o
+
+692
+00:30:25,079 --> 00:30:30,798
+doutorado né e que eu faço com meus
+
+693
+00:30:29,079 --> 00:30:32,918
+alunos de doutorado nesse caso co
+
+694
+00:30:30,798 --> 00:30:35,918
+orientado pelo Paulo mereles né
+
+695
+00:30:32,919 --> 00:30:38,919
+Eh no primeiro ano do doutorado fazer um
+
+696
+00:30:35,919 --> 00:30:41,240
+Survey da área inclusive para escolher
+
+697
+00:30:38,919 --> 00:30:42,720
+qual seria o tópico específico da
+
+698
+00:30:41,240 --> 00:30:45,558
+contribuição original da tese de
+
+699
+00:30:42,720 --> 00:30:48,278
+doutorado E então a gente começou
+
+700
+00:30:45,558 --> 00:30:50,359
+fazendo esse Survey sobre o que tudo que
+
+701
+00:30:48,278 --> 00:30:51,919
+existia na literatura sobre
+
+702
+00:30:50,359 --> 00:30:55,000
+devops
+
+703
+00:30:51,919 --> 00:30:56,240
+e no final o artigo teve um grande
+
+704
+00:30:55,000 --> 00:31:01,558
+sucesso né
+
+705
+00:30:56,240 --> 00:31:02,919
+Eh e acabou Ele é muito citado né e acho
+
+706
+00:31:01,558 --> 00:31:04,678
+que ele teve esse grande sucesso porque
+
+707
+00:31:02,919 --> 00:31:07,320
+o Leonardo ali fez um trabalho
+
+708
+00:31:04,679 --> 00:31:10,759
+excepcional né então ele investigou ali
+
+709
+00:31:07,319 --> 00:31:13,439
+eh centenas e centenas de artigos e
+
+710
+00:31:10,759 --> 00:31:15,240
+provavelmente leu ali várias dessas
+
+711
+00:31:13,440 --> 00:31:17,278
+centenas de artigos a gente teve mais
+
+712
+00:31:15,240 --> 00:31:21,558
+gente para ajudar foi uma também uma
+
+713
+00:31:17,278 --> 00:31:24,558
+colaboração com o deam Logic que é um um
+
+714
+00:31:21,558 --> 00:31:26,759
+pesquisador da e HP laps HP Labs dos
+
+715
+00:31:24,558 --> 00:31:28,119
+Estados Unidos e foi mais de um ano de
+
+716
+00:31:26,759 --> 00:31:30,798
+trabalho
+
+717
+00:31:28,119 --> 00:31:32,759
+onde a gente acho que o Todos Nós
+
+718
+00:31:30,798 --> 00:31:36,079
+aprendemos muito sobre tudo o que tinha
+
+719
+00:31:32,759 --> 00:31:39,679
+sido feito por e nessa área de devops em
+
+720
+00:31:36,079 --> 00:31:42,240
+termos acadêmicos eh teve também a Carla
+
+721
+00:31:39,679 --> 00:31:44,840
+da UnB né Carla Rocha da UnB também
+
+722
+00:31:42,240 --> 00:31:47,638
+ajudou e a partir D acho que foi foi bem
+
+723
+00:31:44,839 --> 00:31:51,519
+mais fácil fazer o doutorado porque a
+
+724
+00:31:47,638 --> 00:31:53,158
+nos deu essa base sólida né não existia
+
+725
+00:31:51,519 --> 00:31:57,720
+nenhum trabalho publicado que que o Léo
+
+726
+00:31:53,159 --> 00:32:01,159
+não conhecia Eesse quase de cor ali e o
+
+727
+00:31:57,720 --> 00:32:03,159
+que o para quem vai trabalhar nessa área
+
+728
+00:32:01,159 --> 00:32:06,440
+é uma uma leitura que eu recomendo ainda
+
+729
+00:32:03,159 --> 00:32:08,320
+hoje porque ela mostra quais são os
+
+730
+00:32:06,440 --> 00:32:10,720
+principais elementos que estão por trás
+
+731
+00:32:08,319 --> 00:32:14,200
+do devops E como eles se
+
+732
+00:32:10,720 --> 00:32:15,960
+interrelacionam e a gente vê que tem
+
+733
+00:32:14,200 --> 00:32:18,120
+tinha quatro grandes áreas não sei se
+
+734
+00:32:15,960 --> 00:32:21,120
+vou lembrar de todas mas um são as as
+
+735
+00:32:18,119 --> 00:32:22,239
+ferramentas outr são aspectos das
+
+736
+00:32:21,119 --> 00:32:25,759
+pessoas
+
+737
+00:32:22,240 --> 00:32:27,720
+ah Quais são as outras ali os processos
+
+738
+00:32:25,759 --> 00:32:30,558
+né de desenvolviment
+
+739
+00:32:27,720 --> 00:32:32,480
+e a questão do da entrega de software e
+
+740
+00:32:30,558 --> 00:32:34,599
+daí para cada uma dessas quatro grandes
+
+741
+00:32:32,480 --> 00:32:36,639
+áreas a gente fez como se fosse um um
+
+742
+00:32:34,599 --> 00:32:39,199
+mapa mental de Quais são os principais
+
+743
+00:32:36,638 --> 00:32:41,199
+elementos como elas se relacionam e tudo
+
+744
+00:32:39,200 --> 00:32:44,960
+eh
+
+745
+00:32:41,200 --> 00:32:47,159
+eh ligado na literatura então para cada
+
+746
+00:32:44,960 --> 00:32:49,000
+aresta ali desse grafo enorme tinha as
+
+747
+00:32:47,159 --> 00:32:51,159
+referências bibliográficas que tratavam
+
+748
+00:32:49,000 --> 00:32:52,480
+daquilo acho que foi um trabalho ali
+
+749
+00:32:51,159 --> 00:32:55,039
+muito interessante e por isso acabou
+
+750
+00:32:52,480 --> 00:32:58,440
+sendo também muito utilizada por outros
+
+751
+00:32:55,038 --> 00:32:59,638
+pesquisadores da área até hoje
+
+752
+00:32:58,440 --> 00:33:05,080
+é aí a gente
+
+753
+00:32:59,638 --> 00:33:07,558
+eh um dos digamos resultados ali são
+
+754
+00:33:05,079 --> 00:33:10,359
+tava em aberto né os desafios né então
+
+755
+00:33:07,558 --> 00:33:13,638
+Leonardo levantou alguns desses desafios
+
+756
+00:33:10,359 --> 00:33:15,879
+e justamente um um dos Desafios eh que
+
+757
+00:33:13,638 --> 00:33:17,439
+estavam em abertos o Leonardo achou mais
+
+758
+00:33:15,880 --> 00:33:20,559
+interessante para explorar na pesquisa
+
+759
+00:33:17,440 --> 00:33:23,120
+dele que envolvendo as organizações E aí
+
+760
+00:33:20,558 --> 00:33:27,558
+chegamos no no livro aí
+
+761
+00:33:23,119 --> 00:33:30,038
+eh como um outro resultado aí desse
+
+762
+00:33:27,558 --> 00:33:32,200
+desse estudo né que começou lá em 2017 a
+
+763
+00:33:30,038 --> 00:33:36,079
+gente levou fou mais de um ano se eu não
+
+764
+00:33:32,200 --> 00:33:38,240
+engano deu 15 meses né o cículo todo foi
+
+765
+00:33:36,079 --> 00:33:40,599
+um trabalho a gente teve alguns cuidados
+
+766
+00:33:38,240 --> 00:33:42,000
+né Por exemplo as revisões né os outros
+
+767
+00:33:40,599 --> 00:33:44,319
+trabalhos né secundários que foram
+
+768
+00:33:42,000 --> 00:33:45,880
+encontrados aí estratégia do Leonardo
+
+769
+00:33:44,319 --> 00:33:48,158
+não ler para não ser influenciada aí foi
+
+770
+00:33:45,880 --> 00:33:51,120
+uma coisa que eu e a Carla Rocha a gente
+
+771
+00:33:48,159 --> 00:33:53,720
+eh estudou aqueles trabalhos aí depois
+
+772
+00:33:51,119 --> 00:33:55,839
+que o Leonardo eh eh estudou os
+
+773
+00:33:53,720 --> 00:33:58,720
+trabalhos primários é que ele foi
+
+774
+00:33:55,839 --> 00:34:02,638
+acessar esse então a gente assim foi uma
+
+775
+00:33:58,720 --> 00:34:04,480
+uma colaboração Ampla né com a Carla e
+
+776
+00:34:02,638 --> 00:34:08,358
+com o Dean
+
+777
+00:34:04,480 --> 00:34:11,760
+eh e que resultou aí nesse longo
+
+778
+00:34:08,358 --> 00:34:15,279
+trabalho e que os resultados e em forma
+
+779
+00:34:11,760 --> 00:34:19,119
+de citações eh repercuta até
+
+780
+00:34:15,280 --> 00:34:21,720
+hoje Muito bom até vou como sempre a
+
+781
+00:34:19,119 --> 00:34:24,159
+gente deixa na descrição do episódio
+
+782
+00:34:21,719 --> 00:34:26,480
+tanto no YouTube quanto nas plataformas
+
+783
+00:34:24,159 --> 00:34:28,599
+de áudio como Spotify o o link pro
+
+784
+00:34:26,480 --> 00:34:30,440
+artigo né a gente até falou o link a
+
+785
+00:34:28,599 --> 00:34:32,919
+gente falou o título do do artigo em
+
+786
+00:34:30,440 --> 00:34:34,599
+português mas na descrição vocês vão ver
+
+787
+00:34:32,918 --> 00:34:37,918
+que o artigo tá em inglês né foi
+
+788
+00:34:34,599 --> 00:34:39,800
+publicado na ACM computing service que é
+
+789
+00:34:37,918 --> 00:34:42,440
+uma das principais revistas para esse
+
+790
+00:34:39,800 --> 00:34:45,399
+tipo de estudo se não for a principal né
+
+791
+00:34:42,440 --> 00:34:47,599
+Não Não realmente não não lembro agora
+
+792
+00:34:45,398 --> 00:34:51,279
+na base do Google scholar né esse artigo
+
+793
+00:34:47,599 --> 00:34:55,919
+já foi citado 468 vezes o que é o artigo
+
+794
+00:34:51,280 --> 00:34:58,760
+acho de 2019 né a eh o o Google escola
+
+795
+00:34:55,918 --> 00:35:01,639
+por para quem não não não sabe né no
+
+796
+00:34:58,760 --> 00:35:04,520
+nosso público não acadêmico é ele dá a
+
+797
+00:35:01,639 --> 00:35:07,639
+cada todo ano ele dá um uma uma lista
+
+798
+00:35:04,519 --> 00:35:10,358
+dos artigos mais citados por revistas né
+
+799
+00:35:07,639 --> 00:35:12,279
+E essa revista aí que tem um um fator de
+
+800
+00:35:10,358 --> 00:35:14,598
+impacto eles não chamam de fator de
+
+801
+00:35:12,280 --> 00:35:17,440
+impacto eles chamam de h5 né índice h5
+
+802
+00:35:14,599 --> 00:35:20,400
+bastante alto colocou esse artigo na
+
+803
+00:35:17,440 --> 00:35:24,599
+posição 43 entre os artigos mais citados
+
+804
+00:35:20,400 --> 00:35:27,559
+dessa revista o aí a a pergunta para
+
+805
+00:35:24,599 --> 00:35:30,200
+vocês é por que que vocês acham que teve
+
+806
+00:35:27,559 --> 00:35:33,838
+esse número tão grande de citações é foi
+
+807
+00:35:30,199 --> 00:35:35,960
+a revista Claro além da qualidade do
+
+808
+00:35:33,838 --> 00:35:39,480
+artigo vocês acham que tem a ver um
+
+809
+00:35:35,960 --> 00:35:40,280
+pouco com com a revista com o tema o o
+
+810
+00:35:39,480 --> 00:35:43,039
+que é
+
+811
+00:35:40,280 --> 00:35:45,880
+que especulações aí eu eu começa
+
+812
+00:35:43,039 --> 00:35:48,440
+especulando depois o Leo complemento
+
+813
+00:35:45,880 --> 00:35:51,480
+primeiro o artigo está muito bem escrito
+
+814
+00:35:48,440 --> 00:35:53,880
+eh a a pesquisa a coletânia de
+
+815
+00:35:51,480 --> 00:35:55,960
+informações foi muito bem feita e o
+
+816
+00:35:53,880 --> 00:35:57,640
+texto em inglês está muito claro e
+
+817
+00:35:55,960 --> 00:35:59,720
+didático essa é a primeira coisa então
+
+818
+00:35:57,639 --> 00:36:02,519
+as pessoas leem e falam Nossa aprendi
+
+819
+00:35:59,719 --> 00:36:05,598
+alguma coisa e repassam outra coisa foi
+
+820
+00:36:02,519 --> 00:36:07,519
+o timing Foi um momento em que já tinha
+
+821
+00:36:05,599 --> 00:36:10,318
+alguma pesquisa sobre devops na
+
+822
+00:36:07,519 --> 00:36:13,920
+literatura mas que depois disso teve uma
+
+823
+00:36:10,318 --> 00:36:15,440
+explosão da da do interesse por devops e
+
+824
+00:36:13,920 --> 00:36:17,838
+na verdade é interessante que a gente
+
+825
+00:36:15,440 --> 00:36:19,440
+recebe às vezes e-mails não só de gente
+
+826
+00:36:17,838 --> 00:36:22,199
+da academia mas de gente da indústria
+
+827
+00:36:19,440 --> 00:36:24,720
+Fala Ah eu vi esse seu trabalho ali o
+
+828
+00:36:22,199 --> 00:36:27,480
+artigo do Léo o Léo recebeu e-mails de
+
+829
+00:36:24,719 --> 00:36:29,879
+pessoas da indústria eh interessadas ali
+
+830
+00:36:27,480 --> 00:36:31,440
+às vezes com a dúvida né Muito que eu
+
+831
+00:36:29,880 --> 00:36:34,720
+acho muito mais legal quando vem alguém
+
+832
+00:36:31,440 --> 00:36:37,400
+da indústria lendo um artigo acadêmico e
+
+833
+00:36:34,719 --> 00:36:39,318
+e fazendo uma dúvida do que um acadêmico
+
+834
+00:36:37,400 --> 00:36:41,559
+em si né então acho que foi isso a a
+
+835
+00:36:39,318 --> 00:36:44,759
+qualidade do dos dados coletados a
+
+836
+00:36:41,559 --> 00:36:47,400
+qualidade da escrita e o timing eh
+
+837
+00:36:44,760 --> 00:36:50,040
+porque teve muita pesquisa muo
+
+838
+00:36:47,400 --> 00:36:53,880
+eh muitas coisas acontecendo na
+
+839
+00:36:50,039 --> 00:36:58,759
+indústria de em devops de 2019 para
+
+840
+00:36:53,880 --> 00:37:00,358
+cá Leonardo algo mais eu bom palpite né
+
+841
+00:36:58,760 --> 00:37:02,720
+chutaria que não fugir de dar uma
+
+842
+00:37:00,358 --> 00:37:05,239
+definição de devops né que tá no artigo
+
+843
+00:37:02,719 --> 00:37:06,919
+essa definição talvez muitas das
+
+844
+00:37:05,239 --> 00:37:09,959
+citações seja que a pessoa vai falar
+
+845
+00:37:06,920 --> 00:37:12,680
+sobre devops queer dar uma definição e
+
+846
+00:37:09,960 --> 00:37:16,519
+se referenciando alguém né e outros
+
+847
+00:37:12,679 --> 00:37:19,239
+trabalhos né Eh fugiam discutiam isso né
+
+848
+00:37:16,519 --> 00:37:21,800
+mas não não chegava num veredito isso
+
+849
+00:37:19,239 --> 00:37:24,078
+acho que talvez Facilite o trabalho de
+
+850
+00:37:21,800 --> 00:37:25,599
+outras pessoas não sei se o Paulo tem
+
+851
+00:37:24,079 --> 00:37:27,640
+alum palpite a
+
+852
+00:37:25,599 --> 00:37:30,119
+mais
+
+853
+00:37:27,639 --> 00:37:32,920
+tá eu ia nessa linha né que que eu acho
+
+854
+00:37:30,119 --> 00:37:37,838
+que a gente colocou bem no início né até
+
+855
+00:37:32,920 --> 00:37:42,838
+não no início de cara e isso que a
+
+856
+00:37:37,838 --> 00:37:45,039
+gente entendeu né entende por devol e e
+
+857
+00:37:42,838 --> 00:37:47,400
+como o Fábio falou anteriormente né a
+
+858
+00:37:45,039 --> 00:37:50,199
+gente também se preocupou em
+
+859
+00:37:47,400 --> 00:37:53,960
+em criar esses mapas mentais essas
+
+860
+00:37:50,199 --> 00:37:55,279
+Abstrações para ajudar a a simular o o
+
+861
+00:37:53,960 --> 00:37:58,599
+conhecimento e por fim tem as
+
+862
+00:37:55,280 --> 00:38:02,640
+implicações né os fios então é um artigo
+
+863
+00:37:58,599 --> 00:38:05,920
+que fechou bem o ar e lógico né que
+
+864
+00:38:02,639 --> 00:38:07,480
+a submeter tem o artigo publicado do
+
+865
+00:38:05,920 --> 00:38:10,800
+nosso Semer né
+
+866
+00:38:07,480 --> 00:38:13,880
+Eh que dá um grande respaldo né então
+
+867
+00:38:10,800 --> 00:38:16,640
+então você tem um artigo todas essas
+
+868
+00:38:13,880 --> 00:38:19,760
+qualidades aí que o Fábio elencou com
+
+869
+00:38:16,639 --> 00:38:22,039
+esse arco né de definição né passando
+
+870
+00:38:19,760 --> 00:38:25,240
+por essas Abstrações implicações
+
+871
+00:38:22,039 --> 00:38:28,159
+desafios sendo sem entendo que as
+
+872
+00:38:25,239 --> 00:38:31,039
+pessoas tendem a preferência também de
+
+873
+00:38:28,159 --> 00:38:35,159
+de referenciar e citar um artigo desse
+
+874
+00:38:31,039 --> 00:38:38,039
+veículo né É como curiosidade adicional
+
+875
+00:38:35,159 --> 00:38:39,920
+eu eu tenho um post num blog meu chamado
+
+876
+00:38:38,039 --> 00:38:41,880
+assim artigos de pessoas brasileiras
+
+877
+00:38:39,920 --> 00:38:45,039
+mais citados nos veículos de engenheria
+
+878
+00:38:41,880 --> 00:38:47,880
+de software Google scholar Matrix 2023
+
+879
+00:38:45,039 --> 00:38:50,559
+né que todo ano como eu disse a atualiza
+
+880
+00:38:47,880 --> 00:38:53,160
+só que para esse artigo eu só olhei os
+
+881
+00:38:50,559 --> 00:38:55,599
+as revistas que estão classificadas lá
+
+882
+00:38:53,159 --> 00:38:57,519
+no Google scholar como eh de engenheira
+
+883
+00:38:55,599 --> 00:38:59,559
+de software Então esse artigo de vocês
+
+884
+00:38:57,519 --> 00:39:02,318
+apesar de ser engenharia do software não
+
+885
+00:38:59,559 --> 00:39:05,318
+apareceu lá né e eu acho que ele é
+
+886
+00:39:02,318 --> 00:39:06,880
+dentre os que tem o primeiro autor Bras
+
+887
+00:39:05,318 --> 00:39:07,920
+tem um que tem mais citações que o de
+
+888
+00:39:06,880 --> 00:39:10,358
+vocês que é o
+
+889
+00:39:07,920 --> 00:39:12,599
+microservices que tem o nabor Mendonça
+
+890
+00:39:10,358 --> 00:39:15,318
+como coautor mas ele é o terceiro autor
+
+891
+00:39:12,599 --> 00:39:17,960
+aqui na ordem né o de vocês tem mais
+
+892
+00:39:15,318 --> 00:39:20,759
+citações que todos os outros mas enfim
+
+893
+00:39:17,960 --> 00:39:23,838
+sso é uma curiosidade a gente vai passar
+
+894
+00:39:20,760 --> 00:39:25,720
+para um para um para uma outra parte da
+
+895
+00:39:23,838 --> 00:39:29,039
+nossa entrevista onde a gente fala sobre
+
+896
+00:39:25,719 --> 00:39:30,919
+outros tem e a pergunta Inicial é como é
+
+897
+00:39:29,039 --> 00:39:32,838
+que uma pesquisa de doutorado se
+
+898
+00:39:30,920 --> 00:39:35,519
+transformou em um livro de divulgação
+
+899
+00:39:32,838 --> 00:39:38,358
+Científica para profissonais do
+
+900
+00:39:35,519 --> 00:39:39,920
+mercado essa eu vou começar também
+
+901
+00:39:38,358 --> 00:39:43,960
+depois
+
+902
+00:39:39,920 --> 00:39:46,920
+complementa eu eu sou muito preocupado
+
+903
+00:39:43,960 --> 00:39:48,440
+com a gente conseguir dar utilidade pras
+
+904
+00:39:46,920 --> 00:39:50,800
+coisas que a gente faz aqui na academia
+
+905
+00:39:48,440 --> 00:39:53,920
+né então acho que a gente as
+
+906
+00:39:50,800 --> 00:39:57,119
+Universidades que fazem pesquisa tem
+
+907
+00:39:53,920 --> 00:39:58,960
+essa responsabilidade de fazer pesquisa
+
+908
+00:39:57,119 --> 00:40:02,039
+de refletir sobre assuntos que vão ter
+
+909
+00:39:58,960 --> 00:40:03,639
+um impacto Positivo na sociedade e eu
+
+910
+00:40:02,039 --> 00:40:05,159
+fico preocupado em algumas áreas por
+
+911
+00:40:03,639 --> 00:40:07,598
+exemplo eu também faço pesquisa em redes
+
+912
+00:40:05,159 --> 00:40:09,078
+de computadores o Brasil tem pesquisa de
+
+913
+00:40:07,599 --> 00:40:10,640
+redes de computadores de excelente
+
+914
+00:40:09,079 --> 00:40:13,000
+qualidade mas eu muitas vezes fico
+
+915
+00:40:10,639 --> 00:40:15,719
+pensando ah mas essa pesquisa vai ajudar
+
+916
+00:40:13,000 --> 00:40:18,920
+o quê no Brasil essa pesquisa vai ajudar
+
+917
+00:40:15,719 --> 00:40:20,399
+a cisco fazer um roteador melhor e gan a
+
+918
+00:40:18,920 --> 00:40:22,838
+cisco ganhar mais dinheiro mas ajuda o
+
+919
+00:40:20,400 --> 00:40:24,160
+Brasil em alguma coisa e então eu quando
+
+920
+00:40:22,838 --> 00:40:25,719
+eu faço pesquisa em redes às vezes eu
+
+921
+00:40:24,159 --> 00:40:27,239
+fico me perguntando já na engenharia de
+
+922
+00:40:25,719 --> 00:40:29,358
+software eu acho que a gente consegue
+
+923
+00:40:27,239 --> 00:40:32,039
+fazer bastante pesquisa que tem um
+
+924
+00:40:29,358 --> 00:40:34,039
+impacto muito positivo na indústria de
+
+925
+00:40:32,039 --> 00:40:35,960
+software brasileira que é uma indústria
+
+926
+00:40:34,039 --> 00:40:39,358
+de software aí de de médio porte
+
+927
+00:40:35,960 --> 00:40:42,358
+significativa né E então eu sempre busco
+
+928
+00:40:39,358 --> 00:40:43,559
+ver Como transportar a a pesquisa para
+
+929
+00:40:42,358 --> 00:40:45,078
+sociedade no caso da engenheiria de
+
+930
+00:40:43,559 --> 00:40:47,639
+software para as empresas que produzem
+
+931
+00:40:45,079 --> 00:40:49,240
+software para eh pro Ensino de
+
+932
+00:40:47,639 --> 00:40:52,078
+engenheiria de software no Brasil e
+
+933
+00:40:49,239 --> 00:40:53,759
+assim por diante então eu sempre tenho
+
+934
+00:40:52,079 --> 00:40:57,200
+essa preocupação de produzir material
+
+935
+00:40:53,760 --> 00:40:58,880
+didático de alta qualidade e eh e e eu
+
+936
+00:40:57,199 --> 00:41:01,519
+sempre busco nessa possibilidade de
+
+937
+00:40:58,880 --> 00:41:03,358
+fazer Livros mas em particular na tese
+
+938
+00:41:01,519 --> 00:41:05,440
+em tese de doutorado Essa foi a primeira
+
+939
+00:41:03,358 --> 00:41:07,519
+vez que eu orientei uma tese de
+
+940
+00:41:05,440 --> 00:41:10,119
+doutorado que eu acho que
+
+941
+00:41:07,519 --> 00:41:11,920
+daria um excelente livro na verdade eu
+
+942
+00:41:10,119 --> 00:41:15,400
+já tentei outra vez mas não deu certo
+
+943
+00:41:11,920 --> 00:41:17,159
+mas a do Léo não sei se fui eu que dei a
+
+944
+00:41:15,400 --> 00:41:19,599
+ideia pro Léo o Léo pode dizer ou se foi
+
+945
+00:41:17,159 --> 00:41:21,078
+ele que teve a ideia mas eu eu coner se
+
+946
+00:41:19,599 --> 00:41:22,760
+foi ele que teve a ideia com certeza
+
+947
+00:41:21,079 --> 00:41:24,800
+apoiei totalmente se não fui eu mesmo
+
+948
+00:41:22,760 --> 00:41:26,680
+que tiver ideia falei ó Léo isso aqui dá
+
+949
+00:41:24,800 --> 00:41:28,680
+um bom livro pra indústria de software
+
+950
+00:41:26,679 --> 00:41:30,719
+vamos escrever um livro não para
+
+951
+00:41:28,679 --> 00:41:33,598
+academia mas pro desenvolvedor pro
+
+952
+00:41:30,719 --> 00:41:35,519
+gerente pro pessoal que tá lá na empresa
+
+953
+00:41:33,599 --> 00:41:38,519
+para tentar influenciar o que eles fazem
+
+954
+00:41:35,519 --> 00:41:39,960
+também eh então eu fiquei muito feliz
+
+955
+00:41:38,519 --> 00:41:41,800
+que a gente tem o livro aqui o livro
+
+956
+00:41:39,960 --> 00:41:45,000
+Ficou muito legal pela casa do código
+
+957
+00:41:41,800 --> 00:41:48,160
+que produz eh excelentes livros né Eh
+
+958
+00:41:45,000 --> 00:41:50,519
+então recomendo aí que vocês eh comprem
+
+959
+00:41:48,159 --> 00:41:53,559
+e Leiam o livro Léo quem que teve a
+
+960
+00:41:50,519 --> 00:41:56,920
+ideia de fazer o é fui eu mas o Fábio
+
+961
+00:41:53,559 --> 00:41:59,679
+apoiou totalmente né assim que a a ideia
+
+962
+00:41:56,920 --> 00:42:01,119
+que foi inspirado né em parte pelo no
+
+963
+00:41:59,679 --> 00:42:02,399
+nosso grupo já a gente já teve a
+
+964
+00:42:01,119 --> 00:42:04,200
+experiência do Maurício anich que
+
+965
+00:42:02,400 --> 00:42:06,240
+transformou parte do mestrado dele num
+
+966
+00:42:04,199 --> 00:42:09,078
+livro da casa do código então acho que
+
+967
+00:42:06,239 --> 00:42:10,879
+isso me inspirou bastante e também na na
+
+968
+00:42:09,079 --> 00:42:12,839
+minha família por exemplo Eh meu pai e
+
+969
+00:42:10,880 --> 00:42:15,039
+minha mãe são da área de história né e
+
+970
+00:42:12,838 --> 00:42:16,759
+eu consumo bastante né livro Assim de
+
+971
+00:42:15,039 --> 00:42:18,480
+coisa de história e isso eu já percebo
+
+972
+00:42:16,760 --> 00:42:20,119
+faz tempo que em outras áreas
+
+973
+00:42:18,480 --> 00:42:22,079
+princialmente humanas de história é
+
+974
+00:42:20,119 --> 00:42:25,240
+muito mais comum o pessoal transformar
+
+975
+00:42:22,079 --> 00:42:28,760
+eh tese dissertações em livro e que dão
+
+976
+00:42:25,239 --> 00:42:32,358
+BS livros pro público geral então também
+
+977
+00:42:28,760 --> 00:42:34,119
+um pouco disso né nasceu a vontade de de
+
+978
+00:42:32,358 --> 00:42:37,400
+fazer isso mas antes de de falar um
+
+979
+00:42:34,119 --> 00:42:39,119
+pouco mais e o o Paulo tem tem algo aí a
+
+980
+00:42:37,400 --> 00:42:42,838
+a complementar sobre a motivação do
+
+981
+00:42:39,119 --> 00:42:44,400
+livro não sim só dizer que assim essa
+
+982
+00:42:42,838 --> 00:42:46,838
+esse trabalho em si né Na hora que a
+
+983
+00:42:44,400 --> 00:42:49,358
+gente tava conversando e concebendo e
+
+984
+00:42:46,838 --> 00:42:51,599
+não foi de uma hora para outra
+
+985
+00:42:49,358 --> 00:42:54,880
+eh é uma pesquisa de engenheiria de
+
+986
+00:42:51,599 --> 00:42:59,480
+softw empírica né então ele nas então
+
+987
+00:42:54,880 --> 00:43:01,160
+por exemplo a a a base né teve o sur mas
+
+988
+00:42:59,480 --> 00:43:02,679
+depois na H escolheu de falar das
+
+989
+00:43:01,159 --> 00:43:04,598
+organizações primeira coisa primeira
+
+990
+00:43:02,679 --> 00:43:07,279
+coisa que a gente fez fo vamos conversar
+
+991
+00:43:04,599 --> 00:43:10,160
+com com as pessoas da indústria a gente
+
+992
+00:43:07,280 --> 00:43:14,160
+fez uma série de brainstorms E então
+
+993
+00:43:10,159 --> 00:43:18,358
+sempre se partiu né da da do estado da
+
+994
+00:43:14,159 --> 00:43:21,239
+prática né pr pra gente elaborar a
+
+995
+00:43:18,358 --> 00:43:24,558
+teoria né e os estudos que que foram
+
+996
+00:43:21,239 --> 00:43:28,519
+conduzidos então então foi um ciclo que
+
+997
+00:43:24,559 --> 00:43:30,760
+se fechou né ele vem né nasce
+
+998
+00:43:28,519 --> 00:43:33,318
+ali do dia a dia ali Da gente
+
+999
+00:43:30,760 --> 00:43:35,640
+conversando e fazendo esse Brainstorm
+
+1000
+00:43:33,318 --> 00:43:39,079
+depois a série de entrevistas que foram
+
+1001
+00:43:35,639 --> 00:43:43,358
+feitas deios subsídios para eh
+
+1002
+00:43:39,079 --> 00:43:46,440
+eh se levantar as informações fazer as
+
+1003
+00:43:43,358 --> 00:43:48,799
+análises necessárias construir a a a
+
+1004
+00:43:46,440 --> 00:43:52,440
+teoria né baseada nessas evidências E aí
+
+1005
+00:43:48,800 --> 00:43:54,760
+eh tem a tese E aí a partir da tese a
+
+1006
+00:43:52,440 --> 00:43:57,358
+gente quis retornar isso para pra
+
+1007
+00:43:54,760 --> 00:44:00,119
+indústria né e um ponto importante né
+
+1008
+00:43:57,358 --> 00:44:02,318
+quando o e nesse meio tempo Leonardo foi
+
+1009
+00:44:00,119 --> 00:44:04,920
+ministrando várias palestras palestras
+
+1010
+00:44:02,318 --> 00:44:07,079
+em eventos importantes assim eh eh da
+
+1011
+00:44:04,920 --> 00:44:08,880
+indústria inclusive né então ele foi
+
+1012
+00:44:07,079 --> 00:44:11,119
+recebendo feedback e aí quando ele ve
+
+1013
+00:44:08,880 --> 00:44:13,318
+dis ah eu acho importante agora nessa
+
+1014
+00:44:11,119 --> 00:44:14,680
+visão de retornar paraa indústria e
+
+1015
+00:44:13,318 --> 00:44:17,000
+retornar em português né tudo que a
+
+1016
+00:44:14,679 --> 00:44:18,879
+gente publicou foi inglês Inclusive a
+
+1017
+00:44:17,000 --> 00:44:21,400
+tese foi inglês iso é muito bom do ponto
+
+1018
+00:44:18,880 --> 00:44:23,838
+de acadêmico científico mas importante
+
+1019
+00:44:21,400 --> 00:44:27,079
+então a gente esse livro também ser uma
+
+1020
+00:44:23,838 --> 00:44:30,880
+forma de retribuir para idade
+
+1021
+00:44:27,079 --> 00:44:33,599
+eh brasileira não que as pessoas eh não
+
+1022
+00:44:30,880 --> 00:44:34,920
+poderiam ter acesso a aos texos escrito
+
+1023
+00:44:33,599 --> 00:44:37,318
+em inglês mas a gente sabe que na nossa
+
+1024
+00:44:34,920 --> 00:44:39,720
+língua Nativa Isso fica muito melhor de
+
+1025
+00:44:37,318 --> 00:44:42,318
+ser absorvido e disseminado né então o
+
+1026
+00:44:39,719 --> 00:44:44,480
+Leonardo teve essa essa iniciativa e
+
+1027
+00:44:42,318 --> 00:44:47,679
+essa visão também como uma forma da
+
+1028
+00:44:44,480 --> 00:44:51,079
+gente voltar paraa base do trabalho e
+
+1029
+00:44:47,679 --> 00:44:55,358
+retribuir aquilo que veio da da própria
+
+1030
+00:44:51,079 --> 00:44:59,079
+indústria né E tem tem alguns outros
+
+1031
+00:44:55,358 --> 00:45:01,440
+aspectos aí do porqu do livro né então
+
+1032
+00:44:59,079 --> 00:45:03,720
+além de de tudo aí que que o Paulo tava
+
+1033
+00:45:01,440 --> 00:45:05,679
+falando né pelo menos tem a visão assim
+
+1034
+00:45:03,719 --> 00:45:07,039
+né embora às vezes como falou o Fábio
+
+1035
+00:45:05,679 --> 00:45:09,799
+apareça um outro profissional da
+
+1036
+00:45:07,039 --> 00:45:11,599
+indústria que leu o artigo e e pergunta
+
+1037
+00:45:09,800 --> 00:45:13,240
+pra gente isso é muito raro né
+
+1038
+00:45:11,599 --> 00:45:16,000
+profissionais da indústria que baseia
+
+1039
+00:45:13,239 --> 00:45:19,959
+sua prática lendo artigos científicos
+
+1040
+00:45:16,000 --> 00:45:23,679
+por outro lado né além de de cursos né e
+
+1041
+00:45:19,960 --> 00:45:26,039
+e podcasts e tem a visão de que bons
+
+1042
+00:45:23,679 --> 00:45:28,318
+profissionais de software né programador
+
+1043
+00:45:26,039 --> 00:45:30,119
+eles costumam ler bons livros Então a
+
+1044
+00:45:28,318 --> 00:45:32,119
+nossa comunidade tem essa cultura de de
+
+1045
+00:45:30,119 --> 00:45:34,559
+se formar a partir do livro então o
+
+1046
+00:45:32,119 --> 00:45:37,039
+livro seria um meio adequado assim e
+
+1047
+00:45:34,559 --> 00:45:39,440
+Além da questão da barreira da língua né
+
+1048
+00:45:37,039 --> 00:45:42,400
+Tem tem outra questão não não acho que a
+
+1049
+00:45:39,440 --> 00:45:44,159
+a escrita acadêmica seja difícil por ser
+
+1050
+00:45:42,400 --> 00:45:46,480
+rebuscado ou não porque a gente procura
+
+1051
+00:45:44,159 --> 00:45:48,399
+ser também bem objetivo mas tem um
+
+1052
+00:45:46,480 --> 00:45:51,000
+aspecto da da escrita acadêmica é que o
+
+1053
+00:45:48,400 --> 00:45:53,200
+foco é no método então a gente tá o
+
+1054
+00:45:51,000 --> 00:45:55,280
+tempo todo tentando né se defender cada
+
+1055
+00:45:53,199 --> 00:45:58,558
+passo porque a gente fez porque a gente
+
+1056
+00:45:55,280 --> 00:46:00,400
+fez e e pro leitor final da indústria
+
+1057
+00:45:58,559 --> 00:46:02,240
+Não não é isso que mais importa Ele até
+
+1058
+00:46:00,400 --> 00:46:05,200
+já pagou pelo seu livro ele confia em
+
+1059
+00:46:02,239 --> 00:46:08,558
+você eh a questão é o resultado e e
+
+1060
+00:46:05,199 --> 00:46:11,838
+muitas vezes o resultado né no no no
+
+1061
+00:46:08,559 --> 00:46:15,440
+artigo na tese né ele aparece mas não
+
+1062
+00:46:11,838 --> 00:46:18,799
+tem todo destaque então no no livro Essa
+
+1063
+00:46:15,440 --> 00:46:21,720
+proporção se se altera né a metodologia
+
+1064
+00:46:18,800 --> 00:46:24,160
+muito mais bem comprimida e resumida e e
+
+1065
+00:46:21,719 --> 00:46:26,519
+o foco é nos resultados e um exemplo
+
+1066
+00:46:24,159 --> 00:46:28,279
+interessante de diferença porque
+
+1067
+00:46:26,519 --> 00:46:30,039
+geralmente o livro tem praticamente
+
+1068
+00:46:28,280 --> 00:46:31,800
+coisas a menos que a tese Mas tem uma
+
+1069
+00:46:30,039 --> 00:46:34,759
+coisa que o livro tem a mais
+
+1070
+00:46:31,800 --> 00:46:37,200
+Eh que é justamente nos resultados a
+
+1071
+00:46:34,760 --> 00:46:40,200
+gente tem para cada estrutura uma lista
+
+1072
+00:46:37,199 --> 00:46:43,279
+de causas consequências contingências de
+
+1073
+00:46:40,199 --> 00:46:45,159
+cada estrutura no noos artigos e na tese
+
+1074
+00:46:43,280 --> 00:46:47,760
+essa lista para cada um desses pontos
+
+1075
+00:46:45,159 --> 00:46:49,679
+era uma frase somente e a gente poderia
+
+1076
+00:46:47,760 --> 00:46:52,280
+ter desenvolvido mais isso até na banca
+
+1077
+00:46:49,679 --> 00:46:54,719
+a gente recebeu algumas sugestões de
+
+1078
+00:46:52,280 --> 00:46:56,440
+como desenvolver isso mas mas a gente
+
+1079
+00:46:54,719 --> 00:46:59,000
+não não desenvolveu né Por uma questão
+
+1080
+00:46:56,440 --> 00:47:01,039
+de limitação de tempo tinha um prazo aí
+
+1081
+00:46:59,000 --> 00:47:03,280
+que eu defendi Minha tese um mês antes
+
+1082
+00:47:01,039 --> 00:47:06,119
+do do meu filho nascer isso porque ele
+
+1083
+00:47:03,280 --> 00:47:08,079
+nasceu certinho não não antecipou eh
+
+1084
+00:47:06,119 --> 00:47:10,800
+então então teve isso mas depois pro
+
+1085
+00:47:08,079 --> 00:47:12,400
+livro né Essa essa parte do resultado
+
+1086
+00:47:10,800 --> 00:47:14,000
+que era uma frase só para cada uma
+
+1087
+00:47:12,400 --> 00:47:17,039
+dessas frases a gente transformou em
+
+1088
+00:47:14,000 --> 00:47:20,519
+alguns parágrafos e inclusive criando
+
+1089
+00:47:17,039 --> 00:47:22,279
+links entre entre essas frases né eh
+
+1090
+00:47:20,519 --> 00:47:25,079
+essas asserções né que a gente chama de
+
+1091
+00:47:22,280 --> 00:47:27,760
+asserções teóricas ou ou seja acabou que
+
+1092
+00:47:25,079 --> 00:47:30,559
+o livro né né Eh acaba dando essa essa
+
+1093
+00:47:27,760 --> 00:47:34,160
+dimensão assim mais da
+
+1094
+00:47:30,559 --> 00:47:37,079
+eh do resultado então além de ser em
+
+1095
+00:47:34,159 --> 00:47:39,639
+português e outras coisas menores né às
+
+1096
+00:47:37,079 --> 00:47:41,359
+vezes na na escrita acadêmica a gente
+
+1097
+00:47:39,639 --> 00:47:44,078
+fala uma coisa que a gente supõe que o
+
+1098
+00:47:41,358 --> 00:47:45,480
+leitor deva saber e se ele não sabe a
+
+1099
+00:47:44,079 --> 00:47:47,480
+gente põe uma referência e se ele não
+
+1100
+00:47:45,480 --> 00:47:49,440
+sabe ele que vai lá ver a referência no
+
+1101
+00:47:47,480 --> 00:47:52,079
+livro não a gente é bem mais didático a
+
+1102
+00:47:49,440 --> 00:47:54,559
+gente abre um box Explica as coisas
+
+1103
+00:47:52,079 --> 00:47:56,800
+então tem tem tudo isso que faz com que
+
+1104
+00:47:54,559 --> 00:48:01,640
+o livro seja de uma leitura mais
+
+1105
+00:47:56,800 --> 00:48:03,440
+acessível e até mais fácil mas uma uma
+
+1106
+00:48:01,639 --> 00:48:06,279
+discussão que eu queria trazer vi
+
+1107
+00:48:03,440 --> 00:48:09,480
+opinião de todos vocês inclusive do eh
+
+1108
+00:48:06,280 --> 00:48:11,680
+dos nossos hosts aqui né Eh sobre essa
+
+1109
+00:48:09,480 --> 00:48:14,280
+ideia do livro Como mecanismo de
+
+1110
+00:48:11,679 --> 00:48:16,440
+disseminação dos resultados da pesquisa
+
+1111
+00:48:14,280 --> 00:48:18,559
+porque em geral falando abstratamente
+
+1112
+00:48:16,440 --> 00:48:22,920
+quando vai um político falar né se fala
+
+1113
+00:48:18,559 --> 00:48:25,720
+muito em patente mas eu entendo enxergo
+
+1114
+00:48:22,920 --> 00:48:27,880
+que que na engenheiria de software is é
+
+1115
+00:48:25,719 --> 00:48:29,598
+tanto pouco aplicável quanto é pouco
+
+1116
+00:48:27,880 --> 00:48:33,000
+utilizado posso estar enganado se tiver
+
+1117
+00:48:29,599 --> 00:48:34,838
+vocês me digam e em sendo pouco
+
+1118
+00:48:33,000 --> 00:48:36,000
+utilizado pouco aplicável né a gente tem
+
+1119
+00:48:34,838 --> 00:48:37,719
+que ter outros jeitos Às vezes o
+
+1120
+00:48:36,000 --> 00:48:39,239
+software livre é um jeito que que o
+
+1121
+00:48:37,719 --> 00:48:42,480
+nosso grupo de pesquisa procura fazer
+
+1122
+00:48:39,239 --> 00:48:44,159
+também mas como em geral o objetivo da
+
+1123
+00:48:42,480 --> 00:48:47,000
+pesquisa em de software não é fazer um
+
+1124
+00:48:44,159 --> 00:48:49,960
+software né então nem sempre né o
+
+1125
+00:48:47,000 --> 00:48:51,199
+meramente liberar o software livre é o
+
+1126
+00:48:49,960 --> 00:48:54,119
+que vai fazer a diferença é mais uma
+
+1127
+00:48:51,199 --> 00:48:58,798
+ideia e E aí eu acho que que o livro
+
+1128
+00:48:54,119 --> 00:49:01,559
+casa bem com isso E aí se o livro casa
+
+1129
+00:48:58,798 --> 00:49:03,358
+bem com com esse aspecto da disseminação
+
+1130
+00:49:01,559 --> 00:49:06,880
+da promoção dos resultados da pesquisa
+
+1131
+00:49:03,358 --> 00:49:09,239
+né então Eh como que será que a gente
+
+1132
+00:49:06,880 --> 00:49:10,559
+faria para para incentivar que
+
+1133
+00:49:09,239 --> 00:49:14,558
+socorresse mais
+
+1134
+00:49:10,559 --> 00:49:16,599
+né é eu como eu tô recentemente eu
+
+1135
+00:49:14,559 --> 00:49:19,720
+deixei de ser coordenador de programa de
+
+1136
+00:49:16,599 --> 00:49:22,599
+pós Mas eu ainda sou vice-coordenador
+
+1137
+00:49:19,719 --> 00:49:24,719
+e faço parte aqui do do do nosso
+
+1138
+00:49:22,599 --> 00:49:26,760
+programa da comissão de de avaliação eu
+
+1139
+00:49:24,719 --> 00:49:29,199
+acho que se engan eu sou o presidente da
+
+1140
+00:49:26,760 --> 00:49:31,160
+Comissão ou sou vice-presidente não não
+
+1141
+00:49:29,199 --> 00:49:34,759
+lembro agora não acho que eu sou
+
+1142
+00:49:31,159 --> 00:49:38,480
+presidente E então há uma uma ideia da
+
+1143
+00:49:34,760 --> 00:49:40,760
+Caps de valorizar mais essas esse esse
+
+1144
+00:49:38,480 --> 00:49:44,679
+levar o conhecimento científico paraa
+
+1145
+00:49:40,760 --> 00:49:46,720
+comunidade né então isso o podcast é uma
+
+1146
+00:49:44,679 --> 00:49:50,039
+forma de fazer isso o livre é uma forma
+
+1147
+00:49:46,719 --> 00:49:51,719
+de fazer isso então acho que H há um
+
+1148
+00:49:50,039 --> 00:49:56,480
+movimento nessa direção é que teve uma
+
+1149
+00:49:51,719 --> 00:49:59,358
+questão aí da judicialização do do
+
+1150
+00:49:56,480 --> 00:50:01,039
+de toda a avaliação da Caps enfim a
+
+1151
+00:49:59,358 --> 00:50:04,400
+gente não tem tempo para conversar sobre
+
+1152
+00:50:01,039 --> 00:50:08,400
+tudo isso mas e tem tem bastante coisa
+
+1153
+00:50:04,400 --> 00:50:10,160
+aí que está sendo feita e quem sabe eh
+
+1154
+00:50:08,400 --> 00:50:15,720
+seja bastante valorizado em vez de dizer
+
+1155
+00:50:10,159 --> 00:50:18,440
+ah ó pessoa publicou x artigos e a tese
+
+1156
+00:50:15,719 --> 00:50:21,239
+virou um livro ó Pô legal foi foi bem
+
+1157
+00:50:18,440 --> 00:50:23,519
+interessante isso também né eu tenho uma
+
+1158
+00:50:21,239 --> 00:50:25,479
+pergunta aqui sobre quanto a tese e o
+
+1159
+00:50:23,519 --> 00:50:27,159
+livro são similares eu acho que você já
+
+1160
+00:50:25,480 --> 00:50:30,159
+respondeu quase tudo né Leonard primeiro
+
+1161
+00:50:27,159 --> 00:50:33,838
+lugar a a tese que a gente vai deixar o
+
+1162
+00:50:30,159 --> 00:50:35,719
+link do do como eu disse do teses ussp
+
+1163
+00:50:33,838 --> 00:50:37,838
+tá em inglês o livro tá em Português o
+
+1164
+00:50:35,719 --> 00:50:39,679
+livro você recebe o para quem tá
+
+1165
+00:50:37,838 --> 00:50:43,000
+assistindo em vídeo né no no YouTube ou
+
+1166
+00:50:39,679 --> 00:50:44,279
+no Spotify você recebe uma encadernação
+
+1167
+00:50:43,000 --> 00:50:46,358
+bonitinha né mas você pode comprar
+
+1168
+00:50:44,280 --> 00:50:50,040
+também digital né você pode comprar para
+
+1169
+00:50:46,358 --> 00:50:51,679
+para ler em em reader e já comentou
+
+1170
+00:50:50,039 --> 00:50:54,558
+sobre a questão do que leva uma tese
+
+1171
+00:50:51,679 --> 00:50:57,078
+virar um livro Eu acho que eu acho que é
+
+1172
+00:50:54,559 --> 00:50:59,319
+uma questão mais mais de de você falou
+
+1173
+00:50:57,079 --> 00:51:01,559
+né Leonardo Seus pais são da da história
+
+1174
+00:50:59,318 --> 00:51:04,599
+a gente teve um aluno aqui do ppgca que
+
+1175
+00:51:01,559 --> 00:51:07,839
+depois foi fazer o doutorado dela no
+
+1176
+00:51:04,599 --> 00:51:09,760
+direito a line macoin e imediatamente
+
+1177
+00:51:07,838 --> 00:51:11,519
+quase sei lá três meses depois ela já
+
+1178
+00:51:09,760 --> 00:51:14,079
+estava publicando o livro então imagino
+
+1179
+00:51:11,519 --> 00:51:15,920
+que ela já escreveu a tese dela pensando
+
+1180
+00:51:14,079 --> 00:51:18,880
+ó vou fazer um livro acho que é uma
+
+1181
+00:51:15,920 --> 00:51:22,400
+questão de Hábito da das áreas né de
+
+1182
+00:51:18,880 --> 00:51:24,400
+como a gente valoriza a computação não
+
+1183
+00:51:22,400 --> 00:51:26,798
+só engenheiria de soft mas a computação
+
+1184
+00:51:24,400 --> 00:51:28,960
+valoriza Pou com menos os livros do que
+
+1185
+00:51:26,798 --> 00:51:30,559
+os outras áreas Eu imagino que seja isso
+
+1186
+00:51:28,960 --> 00:51:33,280
+não sei se vocês têm algo a complementar
+
+1187
+00:51:30,559 --> 00:51:35,319
+sobre isso mas s parênteses Aline que
+
+1188
+00:51:33,280 --> 00:51:38,040
+inclusive é do cpio né conheci ela em
+
+1189
+00:51:35,318 --> 00:51:40,599
+função aí do livro dela verdade legal
+
+1190
+00:51:38,039 --> 00:51:43,759
+inclusive já li tá bem legal tema bem
+
+1191
+00:51:40,599 --> 00:51:45,079
+emergente aí mas então eu vou dizer o
+
+1192
+00:51:43,760 --> 00:51:46,920
+título do livro para quem quiser
+
+1193
+00:51:45,079 --> 00:51:49,400
+procurar Depois eu deixo o link a
+
+1194
+00:51:46,920 --> 00:51:51,039
+inteligência artificial na administração
+
+1195
+00:51:49,400 --> 00:51:53,039
+pública brasileira pelo menos aqui a
+
+1196
+00:51:51,039 --> 00:51:54,759
+gente nessa parte aqui a gente vai falar
+
+1197
+00:51:53,039 --> 00:51:55,880
+sobre o tema da moda né inteligência
+
+1198
+00:51:54,760 --> 00:51:58,559
+artificial
+
+1199
+00:51:55,880 --> 00:52:00,720
+mencionar né não falar mas mencionar
+
+1200
+00:51:58,559 --> 00:52:02,760
+agora tem uma pergunta da da Maria
+
+1201
+00:52:00,719 --> 00:52:04,959
+Cláudia eu acho que também não sei se se
+
+1202
+00:52:02,760 --> 00:52:08,920
+a gente já acabou falando mas é eu acho
+
+1203
+00:52:04,960 --> 00:52:12,880
+que sim eu acho que já já foi feita até
+
+1204
+00:52:08,920 --> 00:52:15,920
+aí instigada pelo próprio Leonardo né a
+
+1205
+00:52:12,880 --> 00:52:19,240
+respeito dos incentivos que possam ser
+
+1206
+00:52:15,920 --> 00:52:21,760
+criados aí no meio acadêmico para que a
+
+1207
+00:52:19,239 --> 00:52:24,838
+gente tenha mais livros né mais teses
+
+1208
+00:52:21,760 --> 00:52:27,359
+que possam se transformar em livros é
+
+1209
+00:52:24,838 --> 00:52:29,679
+mas eu tenho uma uma é uma pergunta meio
+
+1210
+00:52:27,358 --> 00:52:31,440
+oposta Eu acho que um uma das coisas que
+
+1211
+00:52:29,679 --> 00:52:33,838
+não é um incentivo para você publicar
+
+1212
+00:52:31,440 --> 00:52:36,400
+livros e aí vocês podem me corrigir se
+
+1213
+00:52:33,838 --> 00:52:38,798
+eu tiver errado é o retorno
+
+1214
+00:52:36,400 --> 00:52:40,960
+financeiro que geralmente o pessoal
+
+1215
+00:52:38,798 --> 00:52:43,880
+reclama ah a gente escreve O livro é bom
+
+1216
+00:52:40,960 --> 00:52:46,199
+mas não tem um retorno financeiro Ah vou
+
+1217
+00:52:43,880 --> 00:52:48,838
+ganhar o mesmo valor que o meu salário
+
+1218
+00:52:46,199 --> 00:52:51,039
+com a receita do livro é Depende de como
+
+1219
+00:52:48,838 --> 00:52:53,078
+você enxerga né o retorno financeiro
+
+1220
+00:52:51,039 --> 00:52:55,358
+enquanto retorno sobre investimento né
+
+1221
+00:52:53,079 --> 00:52:57,119
+De fato não é atrativo mas se você Você
+
+1222
+00:52:55,358 --> 00:52:58,798
+considera que é uma coisa que você quer
+
+1223
+00:52:57,119 --> 00:53:00,680
+fazer porque faz sentido né você encara
+
+1224
+00:52:58,798 --> 00:53:03,199
+o dinheiro como uma espécie de cashback
+
+1225
+00:53:00,679 --> 00:53:05,440
+né pelo menos você tem um reconhecimento
+
+1226
+00:53:03,199 --> 00:53:07,279
+financeiro até diante às vezes da
+
+1227
+00:53:05,440 --> 00:53:09,760
+família assim né Mesmo que não compense
+
+1228
+00:53:07,280 --> 00:53:13,839
+tudo que você gastou entre aspas aí de
+
+1229
+00:53:09,760 --> 00:53:15,960
+esforço né mas socialmente é uma coisa
+
+1230
+00:53:13,838 --> 00:53:18,358
+interessante sim que que contribui né
+
+1231
+00:53:15,960 --> 00:53:20,240
+paraa pessoa se se motivar a fazer isso
+
+1232
+00:53:18,358 --> 00:53:23,440
+eu diria que não é o determinante mas
+
+1233
+00:53:20,239 --> 00:53:24,838
+que ajuda não eh eu falo isso porque
+
+1234
+00:53:23,440 --> 00:53:28,358
+hoje em dia eu vejo muitas pessoas
+
+1235
+00:53:24,838 --> 00:53:30,159
+fazendo cursos em vídeo né e e eu vejo o
+
+1236
+00:53:28,358 --> 00:53:33,759
+pessoal tendo um retorno financeiro
+
+1237
+00:53:30,159 --> 00:53:35,399
+significativo com cursos em vídeo mas a
+
+1238
+00:53:33,760 --> 00:53:37,040
+minha experiência das poucas pessoas que
+
+1239
+00:53:35,400 --> 00:53:39,440
+eu conheço que escreveram os livros elas
+
+1240
+00:53:37,039 --> 00:53:42,199
+não escreveram livros elas não relatam
+
+1241
+00:53:39,440 --> 00:53:43,519
+isso né posso estar enganado mas até a
+
+1242
+00:53:42,199 --> 00:53:44,719
+gente já entrevistou como eu já falei
+
+1243
+00:53:43,519 --> 00:53:46,559
+aqui a gente já entrevistou o Bruno
+
+1244
+00:53:44,719 --> 00:53:47,719
+cartacho entrevistou aqui o Marco Túlio
+
+1245
+00:53:46,559 --> 00:53:49,440
+valente que também tem um livro
+
+1246
+00:53:47,719 --> 00:53:51,279
+Fantástico né sobre engenheiria do
+
+1247
+00:53:49,440 --> 00:53:55,358
+software moderna que poral tem um
+
+1248
+00:53:51,280 --> 00:53:57,319
+capítulo sobre devops enfim e são coisas
+
+1249
+00:53:55,358 --> 00:54:00,239
+que a comunidade tá tá trabalhando com
+
+1250
+00:53:57,318 --> 00:54:02,480
+isso e quem sabe o em alguns anos o meio
+
+1251
+00:54:00,239 --> 00:54:04,838
+acadêmico tenha mais formas de
+
+1252
+00:54:02,480 --> 00:54:06,760
+incentivar esse tipo de publicação é tem
+
+1253
+00:54:04,838 --> 00:54:09,759
+tem um outro aspecto né que eu acho que
+
+1254
+00:54:06,760 --> 00:54:12,280
+é bem motivacional né Eh principalmente
+
+1255
+00:54:09,760 --> 00:54:14,839
+para quem faz né mestrado ou doutorado
+
+1256
+00:54:12,280 --> 00:54:17,559
+sem necessariamente perseguir a carreira
+
+1257
+00:54:14,838 --> 00:54:20,318
+acadêmica né sempre fica uma uma questão
+
+1258
+00:54:17,559 --> 00:54:22,119
+muito difícil de às vezes responder né o
+
+1259
+00:54:20,318 --> 00:54:23,960
+por que eu tô fazendo isso o que que eu
+
+1260
+00:54:22,119 --> 00:54:28,680
+vou ganhar com isso e uma das possíveis
+
+1261
+00:54:23,960 --> 00:54:31,358
+respostas é iedade e algo a se perseguir
+
+1262
+00:54:28,679 --> 00:54:33,519
+só que geralmente só com a tese por por
+
+1263
+00:54:31,358 --> 00:54:35,119
+mais boa que seja Prim inclusive nossa
+
+1264
+00:54:33,519 --> 00:54:37,920
+tese também foi premiado como melhor
+
+1265
+00:54:35,119 --> 00:54:40,440
+tese de Direito de software lá na cbsoft
+
+1266
+00:54:37,920 --> 00:54:43,200
+eh como geralmente o público geral não
+
+1267
+00:54:40,440 --> 00:54:46,159
+vai ter acesso a tese acaba que que isso
+
+1268
+00:54:43,199 --> 00:54:48,558
+não significa tanto e uma vez que você
+
+1269
+00:54:46,159 --> 00:54:50,440
+publica um livro né Só de ter o livro o
+
+1270
+00:54:48,559 --> 00:54:53,599
+público geral vai saber mais e vai
+
+1271
+00:54:50,440 --> 00:54:55,639
+ajudar a dar essa consequência né do do
+
+1272
+00:54:53,599 --> 00:54:57,400
+doutorado do mestrado que que é você né
+
+1273
+00:54:55,639 --> 00:55:01,798
+ser experto em uma coisa e não só ser
+
+1274
+00:54:57,400 --> 00:55:04,000
+experto mas ser reconhecido como tal é
+
+1275
+00:55:01,798 --> 00:55:05,798
+muito legal como eu disse a gente não
+
+1276
+00:55:04,000 --> 00:55:08,199
+tem tempo de falar de tudo que vocês
+
+1277
+00:55:05,798 --> 00:55:10,039
+fizeram que foi tem outros artigos
+
+1278
+00:55:08,199 --> 00:55:11,919
+publicados tem um site maravilhoso lá
+
+1279
+00:55:10,039 --> 00:55:14,639
+com bastante informação parabéns a vocês
+
+1280
+00:55:11,920 --> 00:55:17,720
+por terem ganho lá o prêmio de de melhor
+
+1281
+00:55:14,639 --> 00:55:19,879
+tese de doutorado no Brasil e agora a
+
+1282
+00:55:17,719 --> 00:55:22,118
+gente chega na numa parte do programa
+
+1283
+00:55:19,880 --> 00:55:25,079
+que até o Fábio já participou não sei se
+
+1284
+00:55:22,119 --> 00:55:27,960
+ele vai querer responder novamente mas
+
+1285
+00:55:25,079 --> 00:55:29,960
+mas é é uma parte que eu a gente até
+
+1286
+00:55:27,960 --> 00:55:32,519
+porque pode responder novamente porque
+
+1287
+00:55:29,960 --> 00:55:35,440
+as coisas mudam
+
+1288
+00:55:32,519 --> 00:55:39,519
+né a realidade Muda então essa parte é
+
+1289
+00:55:35,440 --> 00:55:42,358
+mais especulativa e eu gosto sempre de
+
+1290
+00:55:39,519 --> 00:55:44,880
+de dizer que é sempre algo que você acha
+
+1291
+00:55:42,358 --> 00:55:48,078
+que vai acontecer ou que você gostaria
+
+1292
+00:55:44,880 --> 00:55:50,519
+que acontecesse em nossa área para você
+
+1293
+00:55:48,079 --> 00:55:53,000
+qual é a próxima fronteira da engenharia
+
+1294
+00:55:50,519 --> 00:55:56,079
+de software Começando por você se você
+
+1295
+00:55:53,000 --> 00:55:58,880
+quiser Professor Fábio
+
+1296
+00:55:56,079 --> 00:56:00,920
+Ok eh quando eu respondi essa pergunta
+
+1297
+00:55:58,880 --> 00:56:02,760
+há 3S anos atrás se não me engano eu
+
+1298
+00:56:00,920 --> 00:56:04,280
+falei que a inteligência artificial ia
+
+1299
+00:56:02,760 --> 00:56:08,200
+ficar mais presente na engenheiria de
+
+1300
+00:56:04,280 --> 00:56:10,200
+software e eu por um lado eu acertei por
+
+1301
+00:56:08,199 --> 00:56:13,358
+outro lado me surpreendeu muito a
+
+1302
+00:56:10,199 --> 00:56:15,879
+qualidade desses eh novos sistemas de
+
+1303
+00:56:13,358 --> 00:56:18,318
+llm para produzir código a partir de
+
+1304
+00:56:15,880 --> 00:56:21,960
+descrição em linguagem natural fiquei
+
+1305
+00:56:18,318 --> 00:56:23,480
+muito impressionado Eles produzem código
+
+1306
+00:56:21,960 --> 00:56:26,079
+de excelente qualidade às vezes com
+
+1307
+00:56:23,480 --> 00:56:27,920
+erros às vezes completos mas produzem
+
+1308
+00:56:26,079 --> 00:56:30,079
+coisas que eu não imaginaria que a gente
+
+1309
+00:56:27,920 --> 00:56:33,440
+conseguisse tão rápido
+
+1310
+00:56:30,079 --> 00:56:34,920
+eh Então o que vai acontecer no futuro
+
+1311
+00:56:33,440 --> 00:56:37,240
+acho que isso aí vai continuar a estar
+
+1312
+00:56:34,920 --> 00:56:39,000
+cada vez mais presente e a geração
+
+1313
+00:56:37,239 --> 00:56:41,358
+automática de código cada vez mais
+
+1314
+00:56:39,000 --> 00:56:43,239
+presente agora o que eu espero é que
+
+1315
+00:56:41,358 --> 00:56:45,400
+ainda tem espaço no futuro para a
+
+1316
+00:56:43,239 --> 00:56:47,639
+criatividade de seres humanos
+
+1317
+00:56:45,400 --> 00:56:49,519
+programadores como isso vai acontecer eu
+
+1318
+00:56:47,639 --> 00:56:52,838
+não sei mas é o que eu
+
+1319
+00:56:49,519 --> 00:56:56,798
+espero Professor
+
+1320
+00:56:52,838 --> 00:57:00,199
+Paulo em termos de pesquisa né
+
+1321
+00:56:56,798 --> 00:57:02,559
+Eh eu acho que temos esses desafios
+
+1322
+00:57:00,199 --> 00:57:06,038
+relacionados aí com a com a inteligência
+
+1323
+00:57:02,559 --> 00:57:10,000
+artificial também com próprio ensino né
+
+1324
+00:57:06,039 --> 00:57:14,160
+quando você tá ali fazendo introdução a
+
+1325
+00:57:10,000 --> 00:57:17,318
+a a programação né como como realmente a
+
+1326
+00:57:14,159 --> 00:57:20,960
+gente faz com que os alunos entendam que
+
+1327
+00:57:17,318 --> 00:57:23,318
+Possivelmente o chat GPT ali ele não vai
+
+1328
+00:57:20,960 --> 00:57:25,519
+te dar a melhor resposta né para aquele
+
+1329
+00:57:23,318 --> 00:57:27,759
+momento ali de de a Então a gente tem
+
+1330
+00:57:25,519 --> 00:57:29,400
+esses desafios também didáticos e de
+
+1331
+00:57:27,760 --> 00:57:31,599
+pesquisa eu t a concordar com o Fábio
+
+1332
+00:57:29,400 --> 00:57:35,559
+essa fronteira da engenheria de software
+
+1333
+00:57:31,599 --> 00:57:38,400
+com com ia mas como parte da pergunta o
+
+1334
+00:57:35,559 --> 00:57:39,519
+que eu gostaria que acontecesse e ou eu
+
+1335
+00:57:38,400 --> 00:57:42,920
+espero que seja
+
+1336
+00:57:39,519 --> 00:57:45,239
+eh vou resgatar a a questão do software
+
+1337
+00:57:42,920 --> 00:57:46,838
+livre né que eu sou mais desenvolvido
+
+1338
+00:57:45,239 --> 00:57:51,038
+que
+
+1339
+00:57:46,838 --> 00:57:51,838
+que quem trabalha né ali minerando dados
+
+1340
+00:57:51,039 --> 00:57:54,240
+de
+
+1341
+00:57:51,838 --> 00:57:55,599
+repositórios entrevistando né as
+
+1342
+00:57:54,239 --> 00:58:00,000
+comunidades
+
+1343
+00:57:55,599 --> 00:58:04,160
+a gente V nas principais conferências n
+
+1344
+00:58:00,000 --> 00:58:08,280
+prprio que muito material que que não se
+
+1345
+00:58:04,159 --> 00:58:12,078
+observasse as combin Liv apenas
+
+1346
+00:58:08,280 --> 00:58:15,760
+como objeto de pesquisa ali são
+
+1347
+00:58:12,079 --> 00:58:19,798
+pessoas desenvolvedoras al trabalho
+
+1348
+00:58:15,760 --> 00:58:23,720
+delas os estudos delas e que a que as
+
+1349
+00:58:19,798 --> 00:58:26,639
+noss pesquis Eng software
+
+1350
+00:58:23,719 --> 00:58:29,439
+Poss tornar melhor para para para essas
+
+1351
+00:58:26,639 --> 00:58:32,318
+comunidades de software software livre
+
+1352
+00:58:29,440 --> 00:58:34,318
+né então que a gente fizesse a coisa até
+
+1353
+00:58:32,318 --> 00:58:39,199
+mais devagar
+
+1354
+00:58:34,318 --> 00:58:43,719
+eh e mas que de fato tentasse ter uma
+
+1355
+00:58:39,199 --> 00:58:46,239
+uma uma sinergia maior que do lado da
+
+1356
+00:58:43,719 --> 00:58:49,000
+comunidade nos vesse como
+
+1357
+00:58:46,239 --> 00:58:51,038
+al uma outra comunidade que também tá
+
+1358
+00:58:49,000 --> 00:58:53,039
+agregando para aquele ecossistema de
+
+1359
+00:58:51,039 --> 00:58:56,119
+software livre né então acho que algumas
+
+1360
+00:58:53,039 --> 00:58:57,480
+coisas é é muito importante né pesquisar
+
+1361
+00:58:56,119 --> 00:59:00,480
+software livre falar sobre software
+
+1362
+00:58:57,480 --> 00:59:02,358
+livre mas né Eh usar e retornar ao
+
+1363
+00:59:00,480 --> 00:59:06,240
+software livre e ajudar aquela
+
+1364
+00:59:02,358 --> 00:59:08,920
+comunidade não apenas eh V como objeto e
+
+1365
+00:59:06,239 --> 00:59:11,879
+depois que passa determinada onda sobre
+
+1366
+00:59:08,920 --> 00:59:14,920
+aquele objeto ali de pesquisa e e e
+
+1367
+00:59:11,880 --> 00:59:18,119
+pronto já e e o artigo ser é apenas o
+
+1368
+00:59:14,920 --> 00:59:19,838
+fim né Eh sim tem uma uma consequência
+
+1369
+00:59:18,119 --> 00:59:24,680
+prática similar que o Leonardo tentou
+
+1370
+00:59:19,838 --> 00:59:27,318
+fazer agora eh com esse Arc devol né Eh
+
+1371
+00:59:24,679 --> 00:59:30,399
+foi retornando ali para para paraa
+
+1372
+00:59:27,318 --> 00:59:33,400
+comunidade esse conhecimento que ele
+
+1373
+00:59:30,400 --> 00:59:35,358
+adquiriu e e consolidou então é o que eu
+
+1374
+00:59:33,400 --> 00:59:38,079
+gostaria que acontecesse num ponto
+
+1375
+00:59:35,358 --> 00:59:39,440
+específico de atuação em relação a a nós
+
+1376
+00:59:38,079 --> 00:59:43,480
+pesquisadores em relação à comunidade
+
+1377
+00:59:39,440 --> 00:59:47,880
+software Liv eh
+
+1378
+00:59:43,480 --> 00:59:50,318
+Leonardo Opa primeiramente é uma grande
+
+1379
+00:59:47,880 --> 00:59:52,200
+emoção uma honra e privilégio estar aqui
+
+1380
+00:59:50,318 --> 00:59:54,199
+respondendo essa pergunta é muito legal
+
+1381
+00:59:52,199 --> 00:59:56,838
+esse no podcast esse formato que termina
+
+1382
+00:59:54,199 --> 00:59:58,439
+assim Eh quero colocar um ponto mais
+
+1383
+00:59:56,838 --> 01:00:00,679
+geral e outro ponto mais específico do
+
+1384
+00:59:58,440 --> 01:00:03,079
+nosso tema o ponto mais geral cruza
+
+1385
+01:00:00,679 --> 01:00:04,838
+bastante com que o o Fábio falou né
+
+1386
+01:00:03,079 --> 01:00:06,200
+talvez tenha até a ver com o chat GPT
+
+1387
+01:00:04,838 --> 01:00:08,318
+mas assim no no dia a dia do
+
+1388
+01:00:06,199 --> 01:00:10,118
+desenvolvimento de software a gente
+
+1389
+01:00:08,318 --> 01:00:11,519
+ainda fica muito empacado com muita
+
+1390
+01:00:10,119 --> 01:00:13,880
+coisa que você fica sofrendo e você
+
+1391
+01:00:11,519 --> 01:00:15,280
+pensa não devia tá sofrendo com isso tem
+
+1392
+01:00:13,880 --> 01:00:17,920
+outras coisas que são intrínsecas mas
+
+1393
+01:00:15,280 --> 01:00:20,200
+isso aí é é a carga cognitiva estranha
+
+1394
+01:00:17,920 --> 01:00:22,400
+até que Alguns chamam então uma coisa
+
+1395
+01:00:20,199 --> 01:00:23,399
+que a software tem que avançar ainda né
+
+1396
+01:00:22,400 --> 01:00:25,559
+como que a gente avança pro o
+
+1397
+01:00:23,400 --> 01:00:28,000
+desenvolvedor não sofrer mais com isso é
+
+1398
+01:00:25,559 --> 01:00:30,319
+só questão de APS mais me desenhadas não
+
+1399
+01:00:28,000 --> 01:00:32,000
+sei mas parece que coisas mínimas mudam
+
+1400
+01:00:30,318 --> 01:00:34,798
+uma versão do Framework tem que
+
+1401
+01:00:32,000 --> 01:00:38,519
+reaprender e não é fácil reaprender
+
+1402
+01:00:34,798 --> 01:00:40,000
+então tem tem muito trabalho braçal não
+
+1403
+01:00:38,519 --> 01:00:42,159
+não intelectual né que o Fábio disse que
+
+1404
+01:00:40,000 --> 01:00:44,719
+quer que a parte mais criativa né que a
+
+1405
+01:00:42,159 --> 01:00:48,118
+gente foque né e a gente ainda fica
+
+1406
+01:00:44,719 --> 01:00:50,358
+desviado disso por por detalhes que a
+
+1407
+01:00:48,119 --> 01:00:51,798
+gente me parece eu sinto que a gente não
+
+1408
+01:00:50,358 --> 01:00:55,078
+devia ainda estar gastando tempo com
+
+1409
+01:00:51,798 --> 01:00:57,599
+isso e no tema mais específico ficou
+
+1410
+01:00:55,079 --> 01:01:00,200
+dialogando com o livro né se a gente
+
+1411
+01:00:57,599 --> 01:01:02,920
+pegar os departamentos imediatos por api
+
+1412
+01:01:00,199 --> 01:01:04,919
+né que que em muitos sentidos eh é bem
+
+1413
+01:01:02,920 --> 01:01:06,318
+promissor traz os resultados de
+
+1414
+01:01:04,920 --> 01:01:08,760
+desempenho de entrega que é bem
+
+1415
+01:01:06,318 --> 01:01:12,038
+importante né Eh eu coloquei lá né que
+
+1416
+01:01:08,760 --> 01:01:14,160
+você tem o Ops e a a operação do serviço
+
+1417
+01:01:12,039 --> 01:01:15,920
+né que é implantar monitorar resolver
+
+1418
+01:01:14,159 --> 01:01:18,639
+incident tá na mão do desenvolvedor
+
+1419
+01:01:15,920 --> 01:01:21,000
+agora e só que esse é um trabalho que
+
+1420
+01:01:18,639 --> 01:01:23,118
+normalmente o desenvolvedor não gosta de
+
+1421
+01:01:21,000 --> 01:01:25,599
+fazer porque o objetivo dele é entregar
+
+1422
+01:01:23,119 --> 01:01:29,358
+e incrementar as funcional idades E por
+
+1423
+01:01:25,599 --> 01:01:31,680
+aí vai isso é uma pedra no caminho e aí
+
+1424
+01:01:29,358 --> 01:01:33,960
+a questão agora é essa Fronteira o que
+
+1425
+01:01:31,679 --> 01:01:36,318
+que o desenvolvedor com seus poderes de
+
+1426
+01:01:33,960 --> 01:01:38,280
+desenvolvedor pode fazer para diminuir
+
+1427
+01:01:36,318 --> 01:01:41,519
+essa sobrecarga operacional de cuidar
+
+1428
+01:01:38,280 --> 01:01:44,200
+das operações Então essa é uma coisa até
+
+1429
+01:01:41,519 --> 01:01:46,159
+que que internamente lá no no conjunto
+
+1430
+01:01:44,199 --> 01:01:48,719
+da das equipes com que eu me relaciono
+
+1431
+01:01:46,159 --> 01:01:52,239
+lá no serp a gente tá trabalhando é uma
+
+1432
+01:01:48,719 --> 01:01:55,439
+fronteira aí que a gente quer
+
+1433
+01:01:52,239 --> 01:01:58,639
+atravessar muito bem então eu eu só vou
+
+1434
+01:01:55,440 --> 01:02:01,639
+agradecer mais uma vez a vocês eu passo
+
+1435
+01:01:58,639 --> 01:02:03,558
+a Palavra Final para inicialmente
+
+1436
+01:02:01,639 --> 01:02:06,239
+novamente eu tô seguindo a ordem de
+
+1437
+01:02:03,559 --> 01:02:10,039
+senioridade aqui né Professor Fábio com
+
+1438
+01:02:06,239 --> 01:02:14,159
+se despedir do nos Vel se despedir dos
+
+1439
+01:02:10,039 --> 01:02:16,480
+nossos eh ouvintes nossos ir muito OB
+
+1440
+01:02:14,159 --> 01:02:18,960
+Obrigado a todos pela atenção por
+
+1441
+01:02:16,480 --> 01:02:21,278
+chegarem até aqui com paciência obrigado
+
+1442
+01:02:18,960 --> 01:02:22,838
+a dolf a Maria Cláudia por abrir esse
+
+1443
+01:02:21,278 --> 01:02:24,838
+espaço aqui pra gente vocês estão de
+
+1444
+01:02:22,838 --> 01:02:27,078
+parabéns por esse esse excelente
+
+1445
+01:02:24,838 --> 01:02:30,440
+trabalho que vocês fazem aqui no podcast
+
+1446
+01:02:27,079 --> 01:02:34,278
+de divulgação do conhecimento estão de
+
+1447
+01:02:30,440 --> 01:02:37,720
+parabéns obrigado obrigado e
+
+1448
+01:02:34,278 --> 01:02:39,798
+Paulo agradeço aí você adolfa Maria
+
+1449
+01:02:37,719 --> 01:02:42,000
+Cláudia pelo pelo espaço a conversa
+
+1450
+01:02:39,798 --> 01:02:45,559
+muito boa que né passamos aqui de de uma
+
+1451
+01:02:42,000 --> 01:02:48,440
+hora de conversa como falou Espero que
+
+1452
+01:02:45,559 --> 01:02:50,839
+que as pessoas tenham chegado até aqui e
+
+1453
+01:02:48,440 --> 01:02:53,240
+agradecer ao Leonardo aí né pela pela
+
+1454
+01:02:50,838 --> 01:02:56,798
+parceria assim foi muito bom trabalhar
+
+1455
+01:02:53,239 --> 01:03:01,000
+com eles eh ao longo desses anos né com
+
+1456
+01:02:56,798 --> 01:03:05,960
+Fábio mais ainda e a gente conseguiu eh
+
+1457
+01:03:01,000 --> 01:03:07,880
+eh trabalhar bem informar e mesmo pós aí
+
+1458
+01:03:05,960 --> 01:03:09,519
+a defesa a gente continua não só por
+
+1459
+01:03:07,880 --> 01:03:13,798
+conta do livro né mas
+
+1460
+01:03:09,519 --> 01:03:16,199
+eh continua se encontrando falando e
+
+1461
+01:03:13,798 --> 01:03:17,798
+então a agradecer ao Leonardo aqui
+
+1462
+01:03:16,199 --> 01:03:19,719
+publicamente pelo excelente trabalho
+
+1463
+01:03:17,798 --> 01:03:22,358
+pela pela parceria e pela amizade
+
+1464
+01:03:19,719 --> 01:03:24,879
+construída aí nesse nesse
+
+1465
+01:03:22,358 --> 01:03:29,239
+tempo Leonardo
+
+1466
+01:03:24,880 --> 01:03:32,720
+eh bom Agradecer o convite realmente né
+
+1467
+01:03:29,239 --> 01:03:35,399
+ouvindo lá atrás podcast não esperava um
+
+1468
+01:03:32,719 --> 01:03:37,879
+dia estar presente muito legal e
+
+1469
+01:03:35,400 --> 01:03:40,960
+parabéns por por essa iniciativa é
+
+1470
+01:03:37,880 --> 01:03:43,318
+realmente muito importante e bom
+
+1471
+01:03:40,960 --> 01:03:45,559
+agradecer também né o Paulo Fábio por
+
+1472
+01:03:43,318 --> 01:03:48,558
+por toda a história mas
+
+1473
+01:03:45,559 --> 01:03:50,680
+especificamente pelo apoio ao livro né
+
+1474
+01:03:48,559 --> 01:03:53,278
+normalmente sabe que pros professores né
+
+1475
+01:03:50,679 --> 01:03:54,919
+isso não não conta todo mas eles t t
+
+1476
+01:03:53,278 --> 01:03:58,039
+essa consciência da Import a prática
+
+1477
+01:03:54,920 --> 01:04:00,960
+disso deram um super apoio e pro ouvinte
+
+1478
+01:03:58,039 --> 01:04:04,000
+né Eh apelar e pedir que compre o livro
+
+1479
+01:04:00,960 --> 01:04:05,480
+está muito bom e que que divulgue também
+
+1480
+01:04:04,000 --> 01:04:07,920
+por favor colabore com a divulgação do
+
+1481
+01:04:05,480 --> 01:04:11,159
+livro entre seus
+
+1482
+01:04:07,920 --> 01:04:13,798
+pares então para finalizar nós
+
+1483
+01:04:11,159 --> 01:04:16,519
+agradecemos a todos os nossos e nossas
+
+1484
+01:04:13,798 --> 01:04:19,920
+ouvintes e até o próximo episódio do
+
+1485
+01:04:16,519 --> 01:04:19,920
+Fronteiras da engenharia de
+
+1486
+01:04:20,719 --> 01:04:27,558
+soft Este é o podcast Fronteiras da de
+
+1487
+01:04:24,679 --> 01:04:30,399
+software um podcast para refletir sobre
+
+1488
+01:04:27,559 --> 01:04:32,880
+o presente e o futuro da nossa área
+
+1489
+01:04:30,400 --> 01:04:35,160
+publicamos mensalmente entre os dias 15
+
+1490
+01:04:32,880 --> 01:04:36,838
+e 20 de cada mês episódios em que
+
+1491
+01:04:35,159 --> 01:04:39,278
+entrevistamos pesquisadores e
+
+1492
+01:04:36,838 --> 01:04:41,038
+pesquisadoras da engenharia de software
+
+1493
+01:04:39,278 --> 01:04:43,559
+também realizamos palestras que são
+
+1494
+01:04:41,039 --> 01:04:45,799
+publicadas em nosso canal no YouTube
+
+1495
+01:04:43,559 --> 01:04:48,359
+nosso objetivo é levar o conhecimento
+
+1496
+01:04:45,798 --> 01:04:51,159
+científico para profissionais da área e
+
+1497
+01:04:48,358 --> 01:04:53,000
+para outros cientistas escute nossos
+
+1498
+01:04:51,159 --> 01:04:54,679
+episódios na sua plataforma de áudio
+
+1499
+01:04:53,000 --> 01:04:58,760
+favorita SP
+
+1500
+01:04:54,679 --> 01:05:01,919
+Apple podcast Anor ou outras ou ainda no
+
+1501
+01:04:58,760 --> 01:05:04,319
+YouTube nosso site é
+
+1502
+01:05:01,920 --> 01:05:07,000
+fronteiras
+
+1503
+01:05:04,318 --> 01:05:11,119
+github.io Estamos também no Twitter e no
+
+1504
+01:05:07,000 --> 01:05:11,119
+Instagram como @
+
+1505
+01:05:13,559 --> 01:05:16,559
+fronteiras

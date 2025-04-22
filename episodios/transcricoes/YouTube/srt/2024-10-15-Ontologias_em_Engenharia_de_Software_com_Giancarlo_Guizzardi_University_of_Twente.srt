@@ -1,0 +1,8719 @@
+1
+00:00:05,120 --> 00:00:10,320
+Olá eu sou Adolfo Neto professor da
+
+2
+00:00:08,000 --> 00:00:12,919
+UTFPR Curitiba a Universidade
+
+3
+00:00:10,320 --> 00:00:15,199
+Tecnológica Federal do Paraná e este é o
+
+4
+00:00:12,919 --> 00:00:17,359
+Fronteiras da engenharia de software um
+
+5
+00:00:15,199 --> 00:00:19,480
+podcast para refletir sobre o presente e
+
+6
+00:00:17,359 --> 00:00:21,439
+o futuro da engenharia de software nós
+
+7
+00:00:19,480 --> 00:00:23,399
+publicamos episódios mensais em que
+
+8
+00:00:21,439 --> 00:00:25,640
+entrevistamos pessoas pesquisadoras da
+
+9
+00:00:23,399 --> 00:00:27,399
+área abordando temas de interesse de
+
+10
+00:00:25,640 --> 00:00:29,359
+pessoas que praticam a engenheiria de
+
+11
+00:00:27,399 --> 00:00:32,399
+software e de pessoas pesquisadoras
+
+12
+00:00:29,359 --> 00:00:35,120
+Mestrando dos doutorandos professores
+
+13
+00:00:32,399 --> 00:00:37,960
+pesquisadores nós somos um podcast que é
+
+14
+00:00:35,119 --> 00:00:39,919
+parte da rede emílias de podcasts
+
+15
+00:00:37,960 --> 00:00:42,439
+associada ao programa de extensão em
+
+16
+00:00:39,920 --> 00:00:44,280
+mías Armação e bits somos também uma
+
+17
+00:00:42,439 --> 00:00:46,238
+atividade de divulgação Científica
+
+18
+00:00:44,280 --> 00:00:49,000
+associada ao programa de pós-graduação
+
+19
+00:00:46,238 --> 00:00:50,839
+em computação aplicada da UTFPR Curitiba
+
+20
+00:00:49,000 --> 00:00:53,079
+Por falar nisso nós estamos com
+
+21
+00:00:50,840 --> 00:00:55,199
+inscrições abertas paraa turma 2025 do
+
+22
+00:00:53,079 --> 00:00:57,679
+mestrado em computação aplicada o link
+
+23
+00:00:55,198 --> 00:01:01,198
+pro edital tá no na descrição do
+
+24
+00:00:57,679 --> 00:01:03,439
+episódio nós pedimos quem tiver nos quem
+
+25
+00:01:01,198 --> 00:01:07,399
+estiver nos escutando ou assistindo no
+
+26
+00:01:03,439 --> 00:01:11,359
+YouTube no Spotify que comente que mande
+
+27
+00:01:07,400 --> 00:01:14,159
+seu feedback pelo e-mail fronteiras esw
+
+28
+00:01:11,359 --> 00:01:16,200
+gmail.com às vezes nós fazemos enquete
+
+29
+00:01:14,159 --> 00:01:19,320
+lá no Spotify você pode sugerir também
+
+30
+00:01:16,200 --> 00:01:21,359
+um tema ou uma pessoa ser entrevistada e
+
+31
+00:01:19,319 --> 00:01:24,199
+assim por diante o que você quiser fazer
+
+32
+00:01:21,359 --> 00:01:26,920
+nos d de feedback nós agradecemos eu
+
+33
+00:01:24,200 --> 00:01:29,079
+estou aqui como sempre com a co-host co
+
+34
+00:01:26,920 --> 00:01:31,079
+apresentadora do fronteiras coordenadora
+
+35
+00:01:29,078 --> 00:01:34,039
+do emílias Armação em bits Professora
+
+36
+00:01:31,078 --> 00:01:37,319
+Maria Cláudia emmer também aqui da UTFPR
+
+37
+00:01:34,040 --> 00:01:40,360
+Curitiba também do ppgca Tudo bem Maria
+
+38
+00:01:37,319 --> 00:01:42,879
+Cláudia tudo bem Adolfo é um prazer
+
+39
+00:01:40,359 --> 00:01:46,118
+estar aqui estar aqui com vocês né
+
+40
+00:01:42,879 --> 00:01:49,280
+certamente vai ser um episódio cheio de
+
+41
+00:01:46,118 --> 00:01:51,718
+aprendizados para todos os nossos
+
+42
+00:01:49,280 --> 00:01:54,680
+ouvintes legal porque hoje nós vamos
+
+43
+00:01:51,718 --> 00:01:57,078
+entrevistar jeancarlo guisarde e o tema
+
+44
+00:01:54,680 --> 00:01:59,920
+vai ser ontologias e engenharia de
+
+45
+00:01:57,078 --> 00:02:01,879
+software jancarlo é professor titular na
+
+46
+00:01:59,920 --> 00:02:04,640
+faculty of electrical Engineering
+
+47
+00:02:01,879 --> 00:02:08,598
+mathematics and computer Science da
+
+48
+00:02:04,640 --> 00:02:11,318
+Universidade de Tent na Holanda em tuent
+
+49
+00:02:08,598 --> 00:02:13,719
+jancarlo é chefe do departamento grupo
+
+50
+00:02:11,318 --> 00:02:17,079
+de pesquisa de semântica cibersegurança
+
+51
+00:02:13,719 --> 00:02:18,959
+e serviços e antes de ir para tuent
+
+52
+00:02:17,080 --> 00:02:21,599
+jeancarlo foi professor titular na
+
+53
+00:02:18,959 --> 00:02:23,640
+universidade livre de bzen bolzano nos
+
+54
+00:02:21,598 --> 00:02:27,000
+Alpes italianos a gente já entrevistou
+
+55
+00:02:23,639 --> 00:02:29,000
+uma pessoa de lá aqui e onde liderou o
+
+56
+00:02:27,000 --> 00:02:32,360
+grupo de pesquisa em modelagem
+
+57
+00:02:29,000 --> 00:02:33,800
+conceitual e cognitiva o Core e ainda
+
+58
+00:02:32,360 --> 00:02:35,959
+antes disso foi professor na
+
+59
+00:02:33,800 --> 00:02:39,719
+Universidade Federal do Espírito Santo a
+
+60
+00:02:35,959 --> 00:02:41,519
+UFS onde cofund e codirigiu o núcleo de
+
+61
+00:02:39,719 --> 00:02:44,680
+Núcleo de Estudos em modelagem
+
+62
+00:02:41,519 --> 00:02:47,439
+conceitual e ontologias o Nemo lá no no
+
+63
+00:02:44,680 --> 00:02:49,719
+Brasil quer dizer aqui no Brasil por 10
+
+64
+00:02:47,439 --> 00:02:51,639
+anos hoje ele é membro externo desse
+
+65
+00:02:49,719 --> 00:02:53,479
+grupo nós já tivemos aqui em nosso
+
+66
+00:02:51,639 --> 00:02:56,199
+podcast uma pesquisadora do Nemo a
+
+67
+00:02:53,479 --> 00:02:58,560
+professora monalissa Barcelos que falou
+
+68
+00:02:56,199 --> 00:03:01,359
+sobre medição de software no nosso
+
+69
+00:02:58,560 --> 00:03:03,199
+Episódio 37 e jeancarlo é também
+
+70
+00:03:01,360 --> 00:03:06,480
+Professor afiliado convidado na
+
+71
+00:03:03,199 --> 00:03:08,878
+universidade de Estocolmo na Suécia e
+
+72
+00:03:06,479 --> 00:03:10,798
+jeancarlo faz pesquisa em ontologias
+
+73
+00:03:08,878 --> 00:03:12,518
+modelagem conceitual engenharia de
+
+74
+00:03:10,799 --> 00:03:15,799
+sistemas de informação avançados já
+
+75
+00:03:12,519 --> 00:03:17,640
+tendo publicado em veículos Como sintese
+
+76
+00:03:15,799 --> 00:03:20,040
+assim eu eu fiz doutorado em lógica
+
+77
+00:03:17,639 --> 00:03:22,439
+perguntação então a gente sabe que na na
+
+78
+00:03:20,039 --> 00:03:24,679
+área que é difícil publicar um artigo lá
+
+79
+00:03:22,439 --> 00:03:27,479
+no sintese eu falo sintese não sei se se
+
+80
+00:03:24,680 --> 00:03:30,080
+a pronúncia correta sintese é isso mesmo
+
+81
+00:03:27,479 --> 00:03:32,518
+tem também o software
+
+82
+00:03:30,080 --> 00:03:34,480
+moding você tem alguns artigos lá e
+
+83
+00:03:32,519 --> 00:03:36,360
+software e a lista É muito grande não
+
+84
+00:03:34,479 --> 00:03:38,000
+vai dar tempo de de falar todos mas a
+
+85
+00:03:36,360 --> 00:03:39,879
+gente vai deixar o link pra página do
+
+86
+00:03:38,000 --> 00:03:43,199
+professor jeancarlo também com pro
+
+87
+00:03:39,878 --> 00:03:44,719
+Google scholar e vocês podem ver lá uma
+
+88
+00:03:43,199 --> 00:03:46,639
+curiosidade é que na base do Google
+
+89
+00:03:44,719 --> 00:03:48,680
+scholar a sua produção mais citada é a
+
+90
+00:03:46,639 --> 00:03:50,598
+sua tese de doutorado que foi na
+
+91
+00:03:48,680 --> 00:03:53,280
+universidade de tuent também né Você fez
+
+92
+00:03:50,598 --> 00:03:55,679
+o doutorado lá depois voltou para muitos
+
+93
+00:03:53,280 --> 00:03:57,560
+anos depois voltou para ser professor e
+
+94
+00:03:55,680 --> 00:04:00,120
+o título da tese é ontological
+
+95
+00:03:57,560 --> 00:04:03,519
+foundations foral
+
+96
+00:04:00,120 --> 00:04:06,000
+models tem mais de 1800 citações
+
+97
+00:04:03,519 --> 00:04:07,799
+bastante citação o tema da entrevista
+
+98
+00:04:06,000 --> 00:04:09,639
+Como eu disse vai ser ontologias
+
+99
+00:04:07,799 --> 00:04:11,200
+engenheiro de software então primeiro
+
+100
+00:04:09,639 --> 00:04:13,719
+lugar muito obrigado por ter aceito o
+
+101
+00:04:11,199 --> 00:04:15,359
+nosso convite jancarlo tudo bem Você tem
+
+102
+00:04:13,719 --> 00:04:17,680
+algo a complementar nesta sua
+
+103
+00:04:15,360 --> 00:04:19,639
+apresentação não boa noite boa tarde
+
+104
+00:04:17,680 --> 00:04:21,280
+para vocês Adolf Maria Cláudia muito
+
+105
+00:04:19,639 --> 00:04:24,400
+obrigado pelo convite é um prazer
+
+106
+00:04:21,279 --> 00:04:27,839
+conversar com vocês não apresentação
+
+107
+00:04:24,399 --> 00:04:32,159
+muito boa obrigado pela apresentação
+
+108
+00:04:27,839 --> 00:04:33,679
+eh a a a coisa da tese eu ia comentar
+
+109
+00:04:32,160 --> 00:04:36,039
+muito bom vocês entrevistaram eu acho o
+
+110
+00:04:33,680 --> 00:04:38,759
+Eduardo guerra e a mon Lessa né dois
+
+111
+00:04:36,038 --> 00:04:41,560
+amigos assim ótimas ótimas escolhas
+
+112
+00:04:38,759 --> 00:04:43,919
+eh sobre a tese a tese é uma coisa que
+
+113
+00:04:41,560 --> 00:04:46,000
+me é incomum né que uma tese de
+
+114
+00:04:43,918 --> 00:04:49,839
+doutorado seja a
+
+115
+00:04:46,000 --> 00:04:51,680
+a vamos dizer a a produção mais eh o
+
+116
+00:04:49,839 --> 00:04:54,000
+item de produção mais citado de uma
+
+117
+00:04:51,680 --> 00:04:55,759
+pessoa é muito raro de acontecer isso me
+
+118
+00:04:54,000 --> 00:04:57,399
+surpreende também mas eu fico muito
+
+119
+00:04:55,759 --> 00:05:00,800
+feliz que eu defendi Minha tese tem
+
+120
+00:04:57,399 --> 00:05:03,599
+quase 20 anos e o número de citações é
+
+121
+00:05:00,800 --> 00:05:05,478
+constante O que é uma surpresa também né
+
+122
+00:05:03,600 --> 00:05:07,680
+em geral em computação começa a cair
+
+123
+00:05:05,478 --> 00:05:10,478
+depois de um tempo mas ela tem
+
+124
+00:05:07,680 --> 00:05:12,160
+basicamente e sem citações por ano H
+
+125
+00:05:10,478 --> 00:05:14,959
+quase 20 anos que é uma coisa muito
+
+126
+00:05:12,160 --> 00:05:18,439
+muito eh muito difícil de ver em
+
+127
+00:05:14,959 --> 00:05:20,879
+computação né mas representa um pouco eu
+
+128
+00:05:18,439 --> 00:05:23,038
+acho o o meu interesse por coisas que
+
+129
+00:05:20,879 --> 00:05:23,038
+são
+
+130
+00:05:23,199 --> 00:05:28,960
+eh problemas que são mais fundamentais
+
+131
+00:05:26,680 --> 00:05:32,600
+Talvez assim problemas que são um pouco
+
+132
+00:05:28,959 --> 00:05:34,318
+menos eh isolados do que tá acontecendo
+
+133
+00:05:32,600 --> 00:05:36,680
+no momento assim acho que acho que eu
+
+134
+00:05:34,319 --> 00:05:39,039
+sempre tive E continuo tendo uma certa
+
+135
+00:05:36,680 --> 00:05:40,879
+propensão a me a fazer só aquilo que me
+
+136
+00:05:39,038 --> 00:05:42,680
+interessa assim no final das contas né
+
+137
+00:05:40,879 --> 00:05:43,719
+assim eu não consigo a motivação para
+
+138
+00:05:42,680 --> 00:05:46,280
+trabalhar em coisas que não me
+
+139
+00:05:43,720 --> 00:05:48,360
+interessam muito e tenho sido eh
+
+140
+00:05:46,279 --> 00:05:49,839
+privilegiado de poder trabalhar em
+
+141
+00:05:48,360 --> 00:05:52,479
+coisas que eu acho que são as coisas que
+
+142
+00:05:49,839 --> 00:05:55,359
+que realmente problemas que eu acredito
+
+143
+00:05:52,478 --> 00:05:56,918
+que são problemas eh fundamentais e que
+
+144
+00:05:55,360 --> 00:05:59,080
+vale a pena gastar um bocado de tempo
+
+145
+00:05:56,918 --> 00:06:00,599
+tentando fazer alguma contribuição Zinha
+
+146
+00:05:59,079 --> 00:06:03,478
+naquela a
+
+147
+00:06:00,600 --> 00:06:05,439
+direção muito bom então vamos começar
+
+148
+00:06:03,478 --> 00:06:08,120
+pelo tema principal da entrevista que
+
+149
+00:06:05,439 --> 00:06:10,759
+são ontologias você pode explicar pro
+
+150
+00:06:08,120 --> 00:06:12,959
+nosso público que são mestrandos
+
+151
+00:06:10,759 --> 00:06:15,560
+doutorandos pesquisadores profissionais
+
+152
+00:06:12,959 --> 00:06:17,959
+de engenharia de software o que que são
+
+153
+00:06:15,560 --> 00:06:19,759
+antologias então a gente pode começar
+
+154
+00:06:17,959 --> 00:06:23,879
+falando sobre o que o que não é om
+
+155
+00:06:19,759 --> 00:06:26,759
+ontologia uma ontologia não é o modelo
+
+156
+00:06:23,879 --> 00:06:28,279
+de dados não é uma estrutura de dados um
+
+157
+00:06:26,759 --> 00:06:30,280
+modelo que é feito para fazer
+
+158
+00:06:28,279 --> 00:06:34,159
+estruturação de dados
+
+159
+00:06:30,279 --> 00:06:36,038
+e não é o em em primeiro lugar uma
+
+160
+00:06:34,160 --> 00:06:39,199
+teoria lógica escrito em lógica de
+
+161
+00:06:36,038 --> 00:06:43,079
+descrição então o termo eu eu tô fazendo
+
+162
+00:06:39,199 --> 00:06:44,680
+tô tô né dando foco nessa e nesse
+
+163
+00:06:43,079 --> 00:06:46,839
+esclarecimento porque o termo foi um
+
+164
+00:06:44,680 --> 00:06:49,840
+pouco sequestrado pela área de web
+
+165
+00:06:46,839 --> 00:06:52,079
+semântica nos últimos eh 20 anos em que
+
+166
+00:06:49,839 --> 00:06:55,198
+e as pessoas começaram a acreditar que
+
+167
+00:06:52,079 --> 00:06:57,038
+uma ontologia que escrever uma coisa em
+
+168
+00:06:55,199 --> 00:06:59,840
+uma linguagem específica em particular
+
+169
+00:06:57,038 --> 00:07:01,719
+na na linguagem awl né na web de
+
+170
+00:06:59,839 --> 00:07:03,598
+language que isso é uma condição
+
+171
+00:07:01,720 --> 00:07:06,479
+suficiente necessária para uma coisa ser
+
+172
+00:07:03,598 --> 00:07:11,038
+uma ontologia a área toda de Ontologia
+
+173
+00:07:06,478 --> 00:07:13,680
+em computação eh né antecede a toda essa
+
+174
+00:07:11,038 --> 00:07:14,560
+discussão de web semântica e na verdade
+
+175
+00:07:13,680 --> 00:07:17,959
+a
+
+176
+00:07:14,560 --> 00:07:19,759
+área começa em computação a primeira
+
+177
+00:07:17,959 --> 00:07:22,598
+citação da palavra ontologia em
+
+178
+00:07:19,759 --> 00:07:24,639
+computação é um artigo de 1967 de um de
+
+179
+00:07:22,598 --> 00:07:26,360
+um pesquisador chamado George milley
+
+180
+00:07:24,639 --> 00:07:28,598
+George Milly foi o orientador do Peter
+
+181
+00:07:26,360 --> 00:07:29,800
+Chen que criou o diagrama de identidade
+
+182
+00:07:28,598 --> 00:07:32,560
+de relacionamento então então assim o
+
+183
+00:07:29,800 --> 00:07:34,199
+George Miller era o avô de entidades
+
+184
+00:07:32,560 --> 00:07:37,038
+relacionamento escreve esse artigo em
+
+185
+00:07:34,199 --> 00:07:40,560
+1967 aonde ele tá dizendo o seguinte
+
+186
+00:07:37,038 --> 00:07:41,800
+Olha que os dados assim que ele tá ele
+
+187
+00:07:40,560 --> 00:07:44,680
+tá basicamente dizendo o seguinte olha
+
+188
+00:07:41,800 --> 00:07:46,800
+qualquer estrutura de informação ela faz
+
+189
+00:07:44,680 --> 00:07:48,319
+um determinado compromisso ontológico
+
+190
+00:07:46,800 --> 00:07:51,598
+Então se a gente pegar qualquer coisa se
+
+191
+00:07:48,319 --> 00:07:53,800
+eu pegar o banco de dados mais mais
+
+192
+00:07:51,598 --> 00:07:56,240
+trivial mais mundano imagina o banco de
+
+193
+00:07:53,800 --> 00:07:59,478
+dados de uma biblioteca né
+
+194
+00:07:56,240 --> 00:08:01,918
+Eh um código um pedaço de código tem uma
+
+195
+00:07:59,478 --> 00:08:03,120
+tem uma uma frase do do donal knof que
+
+196
+00:08:01,918 --> 00:08:04,959
+eu gosto muito que ele fala assim que
+
+197
+00:08:03,120 --> 00:08:06,399
+programar é atividade de dizer para um
+
+198
+00:08:04,959 --> 00:08:09,000
+outro ser humano o que que você quer que
+
+199
+00:08:06,399 --> 00:08:11,000
+o que um que um computador faça não é
+
+200
+00:08:09,000 --> 00:08:12,800
+atividade de dizer pro computador o que
+
+201
+00:08:11,000 --> 00:08:14,639
+que você quer que ele faça né porque se
+
+202
+00:08:12,800 --> 00:08:17,439
+você escreveria de outra forma então
+
+203
+00:08:14,639 --> 00:08:21,680
+assim se seu código tem variáveis
+
+204
+00:08:17,439 --> 00:08:24,439
+cliente eh ordem de produto produto
+
+205
+00:08:21,680 --> 00:08:26,000
+tempo Eh você tá fazendo um compromisso
+
+206
+00:08:24,439 --> 00:08:28,519
+ontológico o que que é um compromisso
+
+207
+00:08:26,000 --> 00:08:31,560
+ontológico compromisso ontológico é o
+
+208
+00:08:28,519 --> 00:08:33,799
+compromisso entre a estrutura uma uma
+
+209
+00:08:31,560 --> 00:08:36,759
+determinada estrutura simbólica e uma
+
+210
+00:08:33,799 --> 00:08:40,000
+determinada visão de mundo então uma
+
+211
+00:08:36,759 --> 00:08:42,360
+ontologi an de qualquer coisa é essa
+
+212
+00:08:40,000 --> 00:08:44,759
+visão de mundo é o conjunto é é aquilo
+
+213
+00:08:42,360 --> 00:08:46,560
+que você pressupõe existir num
+
+214
+00:08:44,759 --> 00:08:49,039
+determinado domínio do conhecimento um
+
+215
+00:08:46,559 --> 00:08:50,319
+conjunto de conceitos de relações de
+
+216
+00:08:49,039 --> 00:08:54,599
+propriedades de maneira geral
+
+217
+00:08:50,320 --> 00:08:57,480
+intrínsecas e relacionais eventos tipos
+
+218
+00:08:54,600 --> 00:09:00,399
+tipos de tipos tipos de tipos de tipos
+
+219
+00:08:57,480 --> 00:09:03,159
+eh relações de todos os tipos relações
+
+220
+00:09:00,399 --> 00:09:05,039
+de composição relações de instanciação
+
+221
+00:09:03,159 --> 00:09:08,480
+relações de dependência aí Tem vários
+
+222
+00:09:05,039 --> 00:09:11,159
+tipos de dependência então assim é uma é
+
+223
+00:09:08,480 --> 00:09:14,920
+isso é é uma um determinado mapa de
+
+224
+00:09:11,159 --> 00:09:18,159
+conceitos eh daquilo que que uma
+
+225
+00:09:14,919 --> 00:09:19,599
+determinada descrição pressupõe existir
+
+226
+00:09:18,159 --> 00:09:21,639
+num determinado domínio Então se a gente
+
+227
+00:09:19,600 --> 00:09:24,278
+tiver falando de um de um mapa de Metrô
+
+228
+00:09:21,639 --> 00:09:26,600
+eh o mapa de Metrô faz um compromisso
+
+229
+00:09:24,278 --> 00:09:28,320
+ontológico com a existência de linhas de
+
+230
+00:09:26,600 --> 00:09:31,360
+estações que Estações podem se
+
+231
+00:09:28,320 --> 00:09:33,040
+interconectar Estações são compostas de
+
+232
+00:09:31,360 --> 00:09:35,399
+desculpa que linhas são compostas de
+
+233
+00:09:33,039 --> 00:09:37,360
+Estações e que segue uma determinada
+
+234
+00:09:35,399 --> 00:09:40,078
+ordem que elas têm um determinado
+
+235
+00:09:37,360 --> 00:09:42,639
+sentido uma determinada direção e por aí
+
+236
+00:09:40,078 --> 00:09:46,759
+vai então assim essa é é uma visão de
+
+237
+00:09:42,639 --> 00:09:48,679
+mundo num certo sentido em computação a
+
+238
+00:09:46,759 --> 00:09:51,639
+gente também começou a usar a palavra
+
+239
+00:09:48,679 --> 00:09:54,519
+ontologia para designar a representação
+
+240
+00:09:51,639 --> 00:09:56,958
+dessa conceituação e particular com a
+
+241
+00:09:54,519 --> 00:09:59,440
+como a ontologia surgiu na numa área
+
+242
+00:09:56,958 --> 00:10:01,479
+chamada intercâmbio de conhecimento que
+
+243
+00:09:59,440 --> 00:10:03,279
+é uma área ligada à comunidade de
+
+244
+00:10:01,480 --> 00:10:05,920
+knowledge Engineering né de engenharia
+
+245
+00:10:03,278 --> 00:10:09,879
+de conhecimento na década de 90 passou a
+
+246
+00:10:05,919 --> 00:10:11,919
+ser a representação explícita dessa
+
+247
+00:10:09,879 --> 00:10:13,399
+dessa conceituação em geral com uma
+
+248
+00:10:11,919 --> 00:10:15,199
+linguagem que tem uma semântica formal
+
+249
+00:10:13,399 --> 00:10:18,000
+daí essa
+
+250
+00:10:15,200 --> 00:10:20,278
+essa de caracterização de uma ontologia
+
+251
+00:10:18,000 --> 00:10:23,039
+como uma descrição explícita e formal de
+
+252
+00:10:20,278 --> 00:10:25,600
+uma conceituação compartilhada né Deixa
+
+253
+00:10:23,039 --> 00:10:28,360
+eu só falar mais uma coisa a a coisa que
+
+254
+00:10:25,600 --> 00:10:30,040
+faz um determinado modelo ontologia Na
+
+255
+00:10:28,360 --> 00:10:32,278
+minha opinião
+
+256
+00:10:30,039 --> 00:10:34,599
+é ele ser resultado de um processo de
+
+257
+00:10:32,278 --> 00:10:37,679
+análise ontológica e análise ontológica
+
+258
+00:10:34,600 --> 00:10:40,839
+é um tipo de análise conceitual que você
+
+259
+00:10:37,679 --> 00:10:43,278
+faz usando ontologia como uma área do
+
+260
+00:10:40,839 --> 00:10:46,200
+saber então tem uma área da filosofia
+
+261
+00:10:43,278 --> 00:10:49,720
+que chama ontologia com o maiúsculo que
+
+262
+00:10:46,200 --> 00:10:51,440
+é essa área que que que nos dá um
+
+263
+00:10:49,720 --> 00:10:53,120
+conjunto de ferramentas para esse tipo
+
+264
+00:10:51,440 --> 00:10:55,279
+de análise ontológica então assim se eu
+
+265
+00:10:53,120 --> 00:10:56,799
+quero entender o que que é um domínio
+
+266
+00:10:55,278 --> 00:10:59,559
+por exemplo de Cardiologia de
+
+267
+00:10:56,799 --> 00:11:01,759
+eletrofisiologia do coração eu vou usar
+
+268
+00:10:59,559 --> 00:11:03,439
+essas ferramentas conceituais sobre
+
+269
+00:11:01,759 --> 00:11:05,360
+relações Tudo parte relações de
+
+270
+00:11:03,440 --> 00:11:08,720
+causalidade evento classificação
+
+271
+00:11:05,360 --> 00:11:12,560
+taxonomia E por aí vai para destrinchar
+
+272
+00:11:08,720 --> 00:11:14,278
+e tornar eh explícita a conceituação do
+
+273
+00:11:12,559 --> 00:11:16,199
+que existe naquele domínio o que que é o
+
+274
+00:11:14,278 --> 00:11:18,200
+coração Quais são as partes anatômicas
+
+275
+00:11:16,200 --> 00:11:20,680
+do coração Quais são os processos
+
+276
+00:11:18,200 --> 00:11:22,879
+eletrofisiológicos E por aí vai e aí
+
+277
+00:11:20,679 --> 00:11:25,519
+depois a gente representa mas primeiro
+
+278
+00:11:22,879 --> 00:11:28,078
+você parte dessa caixa de ferramentas
+
+279
+00:11:25,519 --> 00:11:32,159
+para gerar a conceituação e da
+
+280
+00:11:28,078 --> 00:11:32,159
+conceituação gerar uma determinada
+
+281
+00:11:33,360 --> 00:11:41,360
+representação Tá certo e aí a gente quer
+
+282
+00:11:38,278 --> 00:11:43,639
+saber como as ontologias podem ser
+
+283
+00:11:41,360 --> 00:11:47,600
+usadas na engenharia de software
+
+284
+00:11:43,639 --> 00:11:48,879
+especificamente Então ela na verdade ela
+
+285
+00:11:47,600 --> 00:11:50,800
+pode ser usada em qualquer área da
+
+286
+00:11:48,879 --> 00:11:53,759
+Computação né porque a computação o
+
+287
+00:11:50,799 --> 00:11:55,639
+computador faz o quê a computação é o
+
+288
+00:11:53,759 --> 00:11:58,639
+processo de fazer manipulação de
+
+289
+00:11:55,639 --> 00:12:01,120
+símbolos né Aí tem duas perguntas
+
+290
+00:11:58,639 --> 00:12:03,519
+fundamentais Tais assim quais símbolos
+
+291
+00:12:01,120 --> 00:12:05,879
+né ou seja quais os símbolos que a gente
+
+292
+00:12:03,519 --> 00:12:08,440
+escolhe manipular e o que que esses
+
+293
+00:12:05,879 --> 00:12:11,600
+símbolos querem dizer né esses símbolos
+
+294
+00:12:08,440 --> 00:12:14,519
+são representações de pessoas objetos
+
+295
+00:12:11,600 --> 00:12:17,079
+eventos relações que existem no mundo
+
+296
+00:12:14,519 --> 00:12:20,039
+então do jeito mais trivial qualquer
+
+297
+00:12:17,078 --> 00:12:21,599
+processo de análise é um processo de
+
+298
+00:12:20,039 --> 00:12:23,639
+deveria ser um processo de análise
+
+299
+00:12:21,600 --> 00:12:25,720
+ontológica né então se a gente esver
+
+300
+00:12:23,639 --> 00:12:28,079
+seguindo uma abordagem onde você tem
+
+301
+00:12:25,720 --> 00:12:30,639
+modelos Independentes de plataforma
+
+302
+00:12:28,078 --> 00:12:31,838
+modelos né para para no final das contas
+
+303
+00:12:30,639 --> 00:12:34,440
+chegar em modelos específicos de
+
+304
+00:12:31,839 --> 00:12:36,720
+plataforma uma abordagem de Model driven
+
+305
+00:12:34,440 --> 00:12:38,399
+architecture por exemplo o único jeito
+
+306
+00:12:36,720 --> 00:12:41,759
+de fazer um modelo Independente de
+
+307
+00:12:38,399 --> 00:12:44,078
+plataforma para que ele seja estável eh
+
+308
+00:12:41,759 --> 00:12:45,919
+em várias manifestações em várias
+
+309
+00:12:44,078 --> 00:12:48,638
+implementações é seguir um processo de
+
+310
+00:12:45,919 --> 00:12:50,399
+análise ontológica então toda parte de
+
+311
+00:12:48,639 --> 00:12:53,159
+análise conceitual de modelagem
+
+312
+00:12:50,399 --> 00:12:55,039
+conceitual deveria seguir um tipo de
+
+313
+00:12:53,159 --> 00:12:56,838
+análise ontológica mas tem outros
+
+314
+00:12:55,039 --> 00:12:59,439
+exemplos onde se torna isso muito mais
+
+315
+00:12:56,839 --> 00:13:01,320
+claro por exemplo eh
+
+316
+00:12:59,440 --> 00:13:03,399
+O que é chamar de engenharia de domínio
+
+317
+00:13:01,320 --> 00:13:05,480
+né engenharia de domínio que é uma coisa
+
+318
+00:13:03,399 --> 00:13:06,720
+que existe uns a primeira tese
+
+319
+00:13:05,480 --> 00:13:09,519
+engenharia de domínio engenharia de
+
+320
+00:13:06,720 --> 00:13:11,959
+software eh um cara chamado neighbors na
+
+321
+00:13:09,519 --> 00:13:12,759
+na na década de 80 1980 Se não me engano
+
+322
+00:13:11,958 --> 00:13:15,439
+de
+
+323
+00:13:12,759 --> 00:13:17,159
+irvine ali já começa essa história de
+
+324
+00:13:15,440 --> 00:13:19,760
+olha para eu criar ao invés de criar uma
+
+325
+00:13:17,159 --> 00:13:22,278
+aplicação específica criar um Framework
+
+326
+00:13:19,759 --> 00:13:25,000
+ele não usa a palavra Framework na época
+
+327
+00:13:22,278 --> 00:13:26,879
+que que pode ser configurado para se
+
+328
+00:13:25,000 --> 00:13:28,480
+comportar como qualquer membro de uma
+
+329
+00:13:26,879 --> 00:13:30,720
+classe de aplicações eu preciso entender
+
+330
+00:13:28,480 --> 00:13:33,639
+o domínio e a ideia de análise de
+
+331
+00:13:30,720 --> 00:13:38,040
+domínio em em engenharia de domínio
+
+332
+00:13:33,639 --> 00:13:39,639
+também eh a a maneira eh E na verdade a
+
+333
+00:13:38,039 --> 00:13:41,879
+gente mostra esse tem um trabalho que
+
+334
+00:13:39,639 --> 00:13:44,879
+que eu fiz com com o saudoso Ricardo
+
+335
+00:13:41,879 --> 00:13:47,198
+falbo há muitos anos há uns 25 anos que
+
+336
+00:13:44,879 --> 00:13:48,838
+mostrava que como que ontologias
+
+337
+00:13:47,198 --> 00:13:50,078
+poderiam ser usadas sistematicamente
+
+338
+00:13:48,839 --> 00:13:51,800
+para fazer análise de domínio e
+
+339
+00:13:50,078 --> 00:13:53,439
+engenharia de domínio na área de
+
+340
+00:13:51,799 --> 00:13:54,519
+engenharia de requisitos né Tem um
+
+341
+00:13:53,440 --> 00:13:56,079
+artigo que eu acho que a gente vai até
+
+342
+00:13:54,519 --> 00:13:59,120
+conversar depois que ilustra uma
+
+343
+00:13:56,078 --> 00:14:00,239
+metodologia eh de geria de requisitos
+
+344
+00:13:59,120 --> 00:14:02,440
+que a gente chama de ontology based
+
+345
+00:14:00,240 --> 00:14:04,680
+requirements Engineering porque a única
+
+346
+00:14:02,440 --> 00:14:06,120
+maneira de entender os domínios eh antes
+
+347
+00:14:04,679 --> 00:14:07,679
+que a gente possa entender os requisitos
+
+348
+00:14:06,120 --> 00:14:10,639
+de uma área a gente tem que entender os
+
+349
+00:14:07,679 --> 00:14:12,198
+conceitos da área então no exemplo desse
+
+350
+00:14:10,639 --> 00:14:14,600
+artigo quando a gente fala de ética o
+
+351
+00:14:12,198 --> 00:14:16,319
+primeiro passo para destrinchar e
+
+352
+00:14:14,600 --> 00:14:18,240
+materializar requisitos éticos é
+
+353
+00:14:16,320 --> 00:14:19,879
+entender o que que ética é não dá para
+
+354
+00:14:18,240 --> 00:14:22,120
+falar de requisitos de privacidade sem
+
+355
+00:14:19,879 --> 00:14:24,480
+entender o que é privacidade ou de
+
+356
+00:14:22,120 --> 00:14:26,759
+trustworthiness né sem entender o que
+
+357
+00:14:24,480 --> 00:14:27,959
+que é isso e por ou segurança sem
+
+358
+00:14:26,759 --> 00:14:29,759
+entender o que que é isso então tudo
+
+359
+00:14:27,958 --> 00:14:32,919
+isso passa por essa análise de domínio
+
+360
+00:14:29,759 --> 00:14:37,639
+eh um outro exemplo Óbvio é a área de
+
+361
+00:14:32,919 --> 00:14:40,120
+domain driven design e a área de de eh
+
+362
+00:14:37,639 --> 00:14:41,680
+de de projeto de linguagem específicas
+
+363
+00:14:40,120 --> 00:14:44,440
+de domínio né para criar uma linguagem
+
+364
+00:14:41,679 --> 00:14:47,559
+específica de domínio a sintaxe da
+
+365
+00:14:44,440 --> 00:14:51,279
+linguagem e a semântica deveriam seguir
+
+366
+00:14:47,559 --> 00:14:53,958
+eh representar não só os conceitos que
+
+367
+00:14:51,278 --> 00:14:56,198
+são adequados daquele domínio mas também
+
+368
+00:14:53,958 --> 00:14:58,039
+todas as regras né de como o domínio
+
+369
+00:14:56,198 --> 00:14:59,639
+funciona todas as restrições então a
+
+370
+00:14:58,039 --> 00:15:00,799
+gente mostra em alguns artigos também
+
+371
+00:14:59,639 --> 00:15:02,919
+como é que a gente poderia usar uma
+
+372
+00:15:00,799 --> 00:15:05,439
+ontologia sistematicamente para fazer o
+
+373
+00:15:02,919 --> 00:15:08,039
+projeto da sintaxe abstrata sintaxe
+
+374
+00:15:05,440 --> 00:15:09,920
+concreta e até semântica formal de
+
+375
+00:15:08,039 --> 00:15:11,919
+linguagens específicas de domínio então
+
+376
+00:15:09,919 --> 00:15:14,000
+esses são alguns exemplos de áreas em
+
+377
+00:15:11,919 --> 00:15:15,838
+que a gente poderia eh ah deixa eu dar
+
+378
+00:15:14,000 --> 00:15:18,759
+um outro exemplo assim aliás deixa dar
+
+379
+00:15:15,839 --> 00:15:20,920
+dois outros exemplos né um é olhar pra
+
+380
+00:15:18,759 --> 00:15:23,680
+própria engenharia de software como um
+
+381
+00:15:20,919 --> 00:15:25,399
+domínio né E aí um trabalho que a gente
+
+382
+00:15:23,679 --> 00:15:28,120
+fez ainda quando eu tava na época do do
+
+383
+00:15:25,399 --> 00:15:31,360
+Nemo também iniciado pelo pelo pelo
+
+384
+00:15:28,120 --> 00:15:33,560
+Ricardo falbo e que depois a a mon Lessa
+
+385
+00:15:31,360 --> 00:15:36,440
+assumiu a coordenação desse projeto que
+
+386
+00:15:33,559 --> 00:15:38,479
+chama eh seon né software Engineering
+
+387
+00:15:36,440 --> 00:15:42,800
+ontology Network onde a gente criou
+
+388
+00:15:38,480 --> 00:15:46,079
+basicamente uma rede de eh de ontologias
+
+389
+00:15:42,799 --> 00:15:47,838
+lidando ou caracterizando e criando
+
+390
+00:15:46,078 --> 00:15:49,359
+modelo de referência nesses vários
+
+391
+00:15:47,839 --> 00:15:50,839
+subdomínios de engenharia de software
+
+392
+00:15:49,360 --> 00:15:52,560
+falando de qualidade de software de
+
+393
+00:15:50,839 --> 00:15:55,399
+processo de software requisitos de
+
+394
+00:15:52,559 --> 00:15:59,599
+software gerência de configuração teste
+
+395
+00:15:55,399 --> 00:16:01,159
+e por aí vai e usando esses agora a
+
+396
+00:15:59,600 --> 00:16:04,839
+gente pode
+
+397
+00:16:01,159 --> 00:16:06,360
+eh a gente pode tratar problemas de
+
+398
+00:16:04,839 --> 00:16:09,199
+integração por exemplo de ferramentas de
+
+399
+00:16:06,360 --> 00:16:11,680
+software então quando logo que a gente
+
+400
+00:16:09,198 --> 00:16:13,639
+que eu voltei pro Brasil da vez passada
+
+401
+00:16:11,679 --> 00:16:17,000
+aliás da vez retrasada quando eu fui pro
+
+402
+00:16:13,639 --> 00:16:18,278
+Brasil em 2006 eh um dos primeiros
+
+403
+00:16:17,000 --> 00:16:20,440
+projetos que a gente teve foi com uma
+
+404
+00:16:18,278 --> 00:16:21,639
+empresa foi uma colaboração na verdade
+
+405
+00:16:20,440 --> 00:16:24,240
+não era um projeto formal mas uma
+
+406
+00:16:21,639 --> 00:16:26,560
+colaboração com uma empresa californiana
+
+407
+00:16:24,240 --> 00:16:28,480
+que fazia offshore software development
+
+408
+00:16:26,559 --> 00:16:30,679
+né uma equipe que tinha um pedaço na
+
+409
+00:16:28,480 --> 00:16:34,000
+Ucrânia pedar no Chile no Brasil e eles
+
+410
+00:16:30,679 --> 00:16:37,278
+queriam ter um uma visão unificada de
+
+411
+00:16:34,000 --> 00:16:39,600
+toda a informação eh Deixando as pessoas
+
+412
+00:16:37,278 --> 00:16:41,720
+usarem uma variedade de ferramentas que
+
+413
+00:16:39,600 --> 00:16:43,480
+elas já usavam no desenvolvimento em
+
+414
+00:16:41,720 --> 00:16:45,480
+cada contexto local Então você tinha
+
+415
+00:16:43,480 --> 00:16:47,680
+vários sistemas de de gerente de
+
+416
+00:16:45,480 --> 00:16:49,839
+configuração vários sistemas de teste
+
+417
+00:16:47,679 --> 00:16:52,159
+vários sistemas de controle de de erros
+
+418
+00:16:49,839 --> 00:16:53,759
+e por aí vai E como é que você fazia
+
+419
+00:16:52,159 --> 00:16:56,958
+resolvia esse problema de
+
+420
+00:16:53,759 --> 00:16:59,399
+interoperabilidade semântica eh mantendo
+
+421
+00:16:56,958 --> 00:17:01,399
+todos esses dados nos formatos locais né
+
+422
+00:16:59,399 --> 00:17:03,919
+então um problema de integração que
+
+423
+00:17:01,399 --> 00:17:05,919
+passa por um problema de eh de de
+
+424
+00:17:03,919 --> 00:17:07,399
+interoperabilidade semântica que é um
+
+425
+00:17:05,919 --> 00:17:09,240
+problema de interoperabilidade semântica
+
+426
+00:17:07,400 --> 00:17:10,919
+mas passa para uma análise da semântica
+
+427
+00:17:09,240 --> 00:17:13,359
+dos dados e a gente fez Fazia tudo isso
+
+428
+00:17:10,919 --> 00:17:17,319
+usando essas ontologias de
+
+429
+00:17:13,359 --> 00:17:19,479
+domínio muito bom agora eu a gente vai
+
+430
+00:17:17,318 --> 00:17:23,159
+conversar um pouco sobre um um artigo
+
+431
+00:17:19,480 --> 00:17:25,360
+que você o Oscar pastor não sei se eu tô
+
+432
+00:17:23,160 --> 00:17:29,000
+falando ele é ele é espanhol né Oscar
+
+433
+00:17:25,359 --> 00:17:30,359
+pastor eh até figura muito simpática
+
+434
+00:17:29,000 --> 00:17:34,160
+Tomei um café com ele quando ele veio
+
+435
+00:17:30,359 --> 00:17:39,319
+aqui em Curitiba participar do SIBS 2024
+
+436
+00:17:34,160 --> 00:17:42,200
+e a Veda Story eles vocês publicaram
+
+437
+00:17:39,319 --> 00:17:45,240
+recentemente né Novembro edição novembro
+
+438
+00:17:42,200 --> 00:17:48,240
+dezembro de 2023 da I3 software um
+
+439
+00:17:45,240 --> 00:17:50,240
+artigo chamado pensando rápido e devagar
+
+440
+00:17:48,240 --> 00:17:52,960
+em engenharia de software nós traduzimos
+
+441
+00:17:50,240 --> 00:17:54,919
+os títulos dos artigos o link pro artigo
+
+442
+00:17:52,960 --> 00:17:57,600
+título inglês vai estar na na descrição
+
+443
+00:17:54,919 --> 00:18:00,080
+do episódio Então logo no começo do
+
+444
+00:17:57,599 --> 00:18:02,558
+artigo vocês falam da diferença entre
+
+445
+00:18:00,079 --> 00:18:04,798
+conhecimento baseado em dados e
+
+446
+00:18:02,558 --> 00:18:06,918
+conhecimento baseado em teoria e
+
+447
+00:18:04,798 --> 00:18:09,119
+relacionam a diferença entre esses dois
+
+448
+00:18:06,919 --> 00:18:11,280
+tipos de conhecimento com os sistemas um
+
+449
+00:18:09,119 --> 00:18:13,759
+e dois que o falecido psicólogo Daniel
+
+450
+00:18:11,279 --> 00:18:17,678
+keman vencedor do prêmio Nobel de
+
+451
+00:18:13,759 --> 00:18:20,359
+economia de 2 2002 né descreveu em seu
+
+452
+00:18:17,679 --> 00:18:22,559
+livro rápido e devagar foi um sucesso de
+
+453
+00:18:20,359 --> 00:18:24,359
+vendas mundial esse livro você pode
+
+454
+00:18:22,558 --> 00:18:26,440
+explicar pra gente a diferença entre
+
+455
+00:18:24,359 --> 00:18:28,319
+esses dois tipos de conhecimento e qual
+
+456
+00:18:26,440 --> 00:18:31,159
+é o relacionamento aí com sistemas um
+
+457
+00:18:28,319 --> 00:18:33,599
+eem dois de canema Então vamos começar
+
+458
+00:18:31,159 --> 00:18:35,960
+pelo canema né a ideia de de sistema um
+
+459
+00:18:33,599 --> 00:18:38,439
+sistema dois o sistema um é um sistema
+
+460
+00:18:35,960 --> 00:18:43,000
+baseado em dados com incerteza
+
+461
+00:18:38,440 --> 00:18:45,798
+aproximado através de eh associações e
+
+462
+00:18:43,000 --> 00:18:48,359
+de e de detecção de padrões entre essas
+
+463
+00:18:45,798 --> 00:18:49,759
+associações entre dados né um sistema de
+
+464
+00:18:48,359 --> 00:18:52,959
+raciocínio um pouco
+
+465
+00:18:49,759 --> 00:18:55,400
+eh um pouco de baixo para cima boton up
+
+466
+00:18:52,960 --> 00:18:57,840
+né e o sistema dois é um sistema de
+
+467
+00:18:55,400 --> 00:19:00,320
+raciocínio deliberado onde você manipula
+
+468
+00:18:57,839 --> 00:19:02,519
+conceitos onde você faz raciocínio
+
+469
+00:19:00,319 --> 00:19:06,558
+lógico onde você tem construções de
+
+470
+00:19:02,519 --> 00:19:09,319
+narrativas lógicas usando Eh esses
+
+471
+00:19:06,558 --> 00:19:12,639
+conceitos ali ali naquele artigo a gente
+
+472
+00:19:09,319 --> 00:19:15,240
+tá usando essa essa não é exatamente uma
+
+473
+00:19:12,640 --> 00:19:17,720
+metáfora tá usando esse Framework de de
+
+474
+00:19:15,240 --> 00:19:20,480
+pensamento do do Canon para pensar em em
+
+475
+00:19:17,720 --> 00:19:23,079
+várias coisas do proc para do processo
+
+476
+00:19:20,480 --> 00:19:25,599
+de Ger de software de um lado a gente tá
+
+477
+00:19:23,079 --> 00:19:29,000
+falando assim olha Eh a gered software
+
+478
+00:19:25,599 --> 00:19:31,279
+tradicionalmente é um processo
+
+479
+00:19:29,000 --> 00:19:34,599
+driven né Faz até a gente
+
+480
+00:19:31,279 --> 00:19:36,720
+lembrar do do famoso artigo do Peter Now
+
+481
+00:19:34,599 --> 00:19:39,639
+que era era programing as Theory
+
+482
+00:19:36,720 --> 00:19:42,558
+construction né as Theory building
+
+483
+00:19:39,640 --> 00:19:44,960
+programing as Theory building do do do
+
+484
+00:19:42,558 --> 00:19:46,480
+petern que essa ideia de que você vai
+
+485
+00:19:44,960 --> 00:19:48,159
+criando quando a gente vai criando essas
+
+486
+00:19:46,480 --> 00:19:51,319
+estruturas simbólicas a gente parte de
+
+487
+00:19:48,159 --> 00:19:52,919
+um processo de de Ger de requisitos né
+
+488
+00:19:51,319 --> 00:19:54,960
+Vamos pensar no processo clássico onde
+
+489
+00:19:52,919 --> 00:19:57,080
+você vai criando modelos de análise de
+
+490
+00:19:54,960 --> 00:20:00,759
+design de programação tem variações
+
+491
+00:19:57,079 --> 00:20:04,519
+nessa coisa toda mas você vai eh fazendo
+
+492
+00:20:00,759 --> 00:20:06,400
+eh mapeamentos entre modelos simbólicos
+
+493
+00:20:04,519 --> 00:20:08,279
+e modelos que são no final das contas
+
+494
+00:20:06,400 --> 00:20:10,400
+modelos de conceitos porque eles têm uma
+
+495
+00:20:08,279 --> 00:20:12,440
+semântica de mundo real não só uma
+
+496
+00:20:10,400 --> 00:20:16,360
+semântica formal eles eles vão mapear
+
+497
+00:20:12,440 --> 00:20:18,480
+para coisas no mundo né Eh e até que a
+
+498
+00:20:16,359 --> 00:20:21,399
+gente vai fazendo essa construção que é
+
+499
+00:20:18,480 --> 00:20:25,079
+Theory driven né e que depois a gente
+
+500
+00:20:21,400 --> 00:20:28,038
+usa os dados eh para poder fazer fazer
+
+501
+00:20:25,079 --> 00:20:30,839
+teste né para para testar alguns dados
+
+502
+00:20:28,038 --> 00:20:32,798
+em tempo real a gente vai eh refinando
+
+503
+00:20:30,839 --> 00:20:35,879
+esse modelo a partir a partir dos dados
+
+504
+00:20:32,798 --> 00:20:37,798
+a partir da experiência eh de um tempo
+
+505
+00:20:35,880 --> 00:20:39,280
+para cá a gente embarcou completamente
+
+506
+00:20:37,798 --> 00:20:40,879
+nessa ideia que a gente não precisa de
+
+507
+00:20:39,279 --> 00:20:43,839
+nada disso que a única coisa que a gente
+
+508
+00:20:40,880 --> 00:20:46,559
+precisa é de um um uma estrutura
+
+509
+00:20:43,839 --> 00:20:48,519
+genérica de uma de uma rede neural e uma
+
+510
+00:20:46,558 --> 00:20:51,519
+montanha de dados e que essa e que o
+
+511
+00:20:48,519 --> 00:20:54,599
+programa é aprendido a partir a partir
+
+512
+00:20:51,519 --> 00:20:56,759
+desses dados e o que a gente fala e que
+
+513
+00:20:54,599 --> 00:20:59,319
+é uma coisa muito conhecida em filosofia
+
+514
+00:20:56,759 --> 00:21:01,640
+em ciência cognitiva é que esse a gente
+
+515
+00:20:59,319 --> 00:21:03,639
+paga um preço alto demais por isso e o
+
+516
+00:21:01,640 --> 00:21:05,200
+preço que a gente paga e aí a gente pode
+
+517
+00:21:03,640 --> 00:21:08,640
+entrar nessa discussão na discussão de
+
+518
+00:21:05,200 --> 00:21:10,120
+eh desses dessas culturas ou caminhos
+
+519
+00:21:08,640 --> 00:21:12,840
+que que a gente tá escolhendo a
+
+520
+00:21:10,119 --> 00:21:15,959
+inteligência artificial é que
+
+521
+00:21:12,839 --> 00:21:18,000
+eh explicabilidade que é uma coisa
+
+522
+00:21:15,960 --> 00:21:19,880
+absolutamente essencial para qualquer
+
+523
+00:21:18,000 --> 00:21:23,519
+sistema que
+
+524
+00:21:19,880 --> 00:21:27,520
+eh que tome decisões que afetam seres
+
+525
+00:21:23,519 --> 00:21:29,798
+humanos é um a gente abre mão disso
+
+526
+00:21:27,519 --> 00:21:32,319
+necessariamente esses modelos que são só
+
+527
+00:21:29,798 --> 00:21:34,440
+simplesmente baseado em dados né Essa é
+
+528
+00:21:32,319 --> 00:21:37,720
+uma coisa que a gente abre mão porque
+
+529
+00:21:34,440 --> 00:21:39,798
+explicação é uma função do sistema dois
+
+530
+00:21:37,720 --> 00:21:43,720
+não tem como a gente explicar a não ser
+
+531
+00:21:39,798 --> 00:21:45,400
+por conceitos né explicação e a
+
+532
+00:21:43,720 --> 00:21:47,400
+compreensão tem um artigo que eu gosto
+
+533
+00:21:45,400 --> 00:21:50,080
+muito de um filósofo americano chamado
+
+534
+00:21:47,400 --> 00:21:52,159
+Michael strav que ele que o artigo se
+
+535
+00:21:50,079 --> 00:21:54,158
+chama no understanding Without
+
+536
+00:21:52,159 --> 00:21:56,600
+explanation se não existe compreensão
+
+537
+00:21:54,159 --> 00:21:58,120
+Sem Explicação processo de você entende
+
+538
+00:21:56,599 --> 00:22:00,038
+alguma coisa se você consegue explicar
+
+539
+00:21:58,119 --> 00:22:01,558
+aquela coisa se você entende a
+
+540
+00:22:00,038 --> 00:22:03,119
+explicação daquela coisa e se você
+
+541
+00:22:01,558 --> 00:22:06,119
+entende a explicação daquela coisa você
+
+542
+00:22:03,119 --> 00:22:08,319
+entende como a coisa funciona né Eh Isso
+
+543
+00:22:06,119 --> 00:22:11,439
+é uma função as explicações são
+
+544
+00:22:08,319 --> 00:22:14,399
+processos eh conceituais e processos
+
+545
+00:22:11,440 --> 00:22:17,880
+através de ligações não só lógicas não é
+
+546
+00:22:14,400 --> 00:22:20,960
+um problema simbólico são conceituais E
+
+547
+00:22:17,880 --> 00:22:23,039
+ontológicas então vou dar um exemplo eh
+
+548
+00:22:20,960 --> 00:22:25,759
+de de de do que o pessoal chama de
+
+549
+00:22:23,038 --> 00:22:27,079
+explicação em em na área de de
+
+550
+00:22:25,759 --> 00:22:29,839
+Inteligência Artificial de machine
+
+551
+00:22:27,079 --> 00:22:32,278
+learning ess né A atualmente a ideia do
+
+552
+00:22:29,839 --> 00:22:34,959
+do que é chamado de chle values né então
+
+553
+00:22:32,278 --> 00:22:38,558
+Eh você tem uma caixa preta você tem um
+
+554
+00:22:34,960 --> 00:22:41,558
+conjunto de inputs né de features e essa
+
+555
+00:22:38,558 --> 00:22:43,599
+coisa vai cuspir um resultado do outro
+
+556
+00:22:41,558 --> 00:22:46,639
+lado então por exemplo você tem um
+
+557
+00:22:43,599 --> 00:22:48,399
+conjunto de gens e essa coisa vai dizer
+
+558
+00:22:46,640 --> 00:22:50,759
+que você tem uma determinada propensão
+
+559
+00:22:48,400 --> 00:22:53,480
+de ter um câncer de um determinado tipo
+
+560
+00:22:50,759 --> 00:22:57,240
+E aí a explicação entre aspas é uma
+
+561
+00:22:53,480 --> 00:23:00,120
+determinada eh valoração uma determinada
+
+562
+00:22:57,240 --> 00:23:03,839
+distribuição de peso entre essa esses
+
+563
+00:23:00,119 --> 00:23:07,479
+valores de input em que que isso é uma
+
+564
+00:23:03,839 --> 00:23:10,519
+explicação né F Olha esses gens estão de
+
+565
+00:23:07,480 --> 00:23:13,519
+alguma forma envolvidos no seu nesse
+
+566
+00:23:10,519 --> 00:23:16,079
+resultado isso não explica nada o
+
+567
+00:23:13,519 --> 00:23:18,079
+requisito mais básico o pessoal de de a
+
+568
+00:23:16,079 --> 00:23:20,798
+Esqueceu que existe uma literatura
+
+569
+00:23:18,079 --> 00:23:22,798
+enorme na área de explicação em
+
+570
+00:23:20,798 --> 00:23:25,000
+filosofia por exemplo em ciência
+
+571
+00:23:22,798 --> 00:23:27,440
+cognitiva E aí tem critério de qualidade
+
+572
+00:23:25,000 --> 00:23:31,359
+e explicação o requisito mais básico de
+
+573
+00:23:27,440 --> 00:23:35,558
+explicação é você diferenciar
+
+574
+00:23:31,359 --> 00:23:39,519
+eh entre você saber que e você saber
+
+575
+00:23:35,558 --> 00:23:40,918
+porqu né knowing that e knowing why você
+
+576
+00:23:39,519 --> 00:23:42,200
+pode saber que essas coisas estão
+
+577
+00:23:40,919 --> 00:23:44,240
+envolvidas primeiro você não tem como
+
+578
+00:23:42,200 --> 00:23:46,120
+saber que que que tá envolvido porque
+
+579
+00:23:44,240 --> 00:23:47,960
+pode ser simplesmente uma correlação né
+
+580
+00:23:46,119 --> 00:23:51,278
+mas vamos saber que você tenha Como
+
+581
+00:23:47,960 --> 00:23:54,960
+saber que isso ainda não explica por quê
+
+582
+00:23:51,278 --> 00:23:57,000
+a explicação é dizer Olha esses gens
+
+583
+00:23:54,960 --> 00:23:59,278
+aqui estão envolvidos no na codificação
+
+584
+00:23:57,000 --> 00:24:01,400
+dessas proteínas essas proteínas
+
+585
+00:23:59,278 --> 00:24:03,359
+participam dessas desses caminhos
+
+586
+00:24:01,400 --> 00:24:06,798
+metabólicos desses processos metabólicos
+
+587
+00:24:03,359 --> 00:24:09,199
+e isso vai culminar com uma doença desse
+
+588
+00:24:06,798 --> 00:24:11,798
+tipo a explicação não tá no modelo e não
+
+589
+00:24:09,200 --> 00:24:14,519
+tá nos dados ela tá nesse conhecimento
+
+590
+00:24:11,798 --> 00:24:16,639
+sobre os dados ela tá exatamente nessa
+
+591
+00:24:14,519 --> 00:24:18,918
+visão de mundo que tá por trás dos dados
+
+592
+00:24:16,640 --> 00:24:22,679
+e essas conexões de dependência conexões
+
+593
+00:24:18,919 --> 00:24:24,320
+causais entre os objetos no mundo né
+
+594
+00:24:22,679 --> 00:24:28,399
+Então esse é um exemplo do que a gente
+
+595
+00:24:24,319 --> 00:24:32,879
+perde fazend um caminho totalmente sist
+
+596
+00:24:28,398 --> 00:24:35,639
+sistema um né o outro é a questão de eh
+
+597
+00:24:32,880 --> 00:24:38,399
+a capacidade talvez a maior limitação
+
+598
+00:24:35,640 --> 00:24:42,120
+eh de um sistema completamente baseado
+
+599
+00:24:38,398 --> 00:24:45,079
+em dados é que ele eu eu toda vez que eu
+
+600
+00:24:42,119 --> 00:24:46,959
+falo isso eu eu fico surpreso de da
+
+601
+00:24:45,079 --> 00:24:48,119
+gente ter que ficar falando isso que é o
+
+602
+00:24:46,960 --> 00:24:49,519
+seguinte o problema do sistema
+
+603
+00:24:48,119 --> 00:24:51,199
+totalmente baseado em dados é que ele é
+
+604
+00:24:49,519 --> 00:24:53,200
+totalmente baseado em dados assim ele é
+
+605
+00:24:51,200 --> 00:24:55,759
+completamente inde dependente dos dados
+
+606
+00:24:53,200 --> 00:24:58,840
+e portanto ele é
+
+607
+00:24:55,759 --> 00:25:00,679
+realmente absolutamente não confiável
+
+608
+00:24:58,839 --> 00:25:02,278
+em lidar com dados que são fora da
+
+609
+00:25:00,679 --> 00:25:04,600
+distribuição com situações fora da
+
+610
+00:25:02,278 --> 00:25:07,240
+distribuição né e uma coisa que a gente
+
+611
+00:25:04,599 --> 00:25:09,558
+discute no artigo é que um sistema e
+
+612
+00:25:07,240 --> 00:25:12,519
+principalmente sistemas autônomos eles
+
+613
+00:25:09,558 --> 00:25:16,158
+não t como você se comportar
+
+614
+00:25:12,519 --> 00:25:19,759
+eticamente Sem Explicação e sem a
+
+615
+00:25:16,159 --> 00:25:21,399
+capacidade de manter porque o que que o
+
+616
+00:25:19,759 --> 00:25:22,640
+que que é se comportar eticamente depois
+
+617
+00:25:21,398 --> 00:25:25,479
+a gente vai falar um pouco mais sobre
+
+618
+00:25:22,640 --> 00:25:28,759
+isso né mas minimamente se comportar
+
+619
+00:25:25,480 --> 00:25:31,558
+eticamente é você não é você você
+
+620
+00:25:28,759 --> 00:25:33,519
+preservar interesses humanos e não ferir
+
+621
+00:25:31,558 --> 00:25:36,759
+interesses humanos né a ideia de
+
+622
+00:25:33,519 --> 00:25:39,798
+beneficência e de não maleficência um
+
+623
+00:25:36,759 --> 00:25:41,240
+sistema que é completamente baseado
+
+624
+00:25:39,798 --> 00:25:43,599
+baseado em dados ele não tem como
+
+625
+00:25:41,240 --> 00:25:46,278
+garantir que ele vai se comportar
+
+626
+00:25:43,599 --> 00:25:48,959
+eticamente em situações que são fora da
+
+627
+00:25:46,278 --> 00:25:50,038
+distribuição E aí o problema sério é que
+
+628
+00:25:48,960 --> 00:25:53,038
+o mundo
+
+629
+00:25:50,038 --> 00:25:56,158
+eh o mundo é complexo demais e o mundo
+
+630
+00:25:53,038 --> 00:25:57,798
+Segue uma cauda longa Então por mais que
+
+631
+00:25:56,159 --> 00:26:00,159
+você adquira dados você vai adquirir
+
+632
+00:25:57,798 --> 00:26:03,200
+dados sobre as mesmas coisas seus dados
+
+633
+00:26:00,159 --> 00:26:06,000
+90% dos seus dados vão est classificados
+
+634
+00:26:03,200 --> 00:26:11,519
+em 10% das situações Você tem uma enorme
+
+635
+00:26:06,000 --> 00:26:13,480
+cauda de 10% de de situações né os dados
+
+636
+00:26:11,519 --> 00:26:15,599
+vão cair em 10% daquelas situações mas o
+
+637
+00:26:13,480 --> 00:26:17,120
+número de situações é 90% das situações
+
+638
+00:26:15,599 --> 00:26:20,319
+que podem ocorrer mas que são
+
+639
+00:26:17,119 --> 00:26:22,278
+infrequentes né então a gente precisa de
+
+640
+00:26:20,319 --> 00:26:23,759
+de a única maneira de se comportar
+
+641
+00:26:22,278 --> 00:26:25,519
+eticamente na minha opinião para
+
+642
+00:26:23,759 --> 00:26:28,798
+sistemas autônomos é ser capaz de lidar
+
+643
+00:26:25,519 --> 00:26:31,158
+com com com com situações que preserva o
+
+644
+00:26:28,798 --> 00:26:34,000
+interesses humanos fora da distribuição
+
+645
+00:26:31,159 --> 00:26:36,559
+não dá para fazer isso sem senso comum
+
+646
+00:26:34,000 --> 00:26:39,880
+sem ter acesso a conceitos é também uma
+
+647
+00:26:36,558 --> 00:26:41,879
+função do sistema dois né E aí por fim
+
+648
+00:26:39,880 --> 00:26:43,159
+só para fechar esse artigo a gente ao
+
+649
+00:26:41,880 --> 00:26:45,000
+mesmo tempo que a gente tá falando do
+
+650
+00:26:43,159 --> 00:26:47,799
+software que a gente tá construindo a
+
+651
+00:26:45,000 --> 00:26:50,119
+gente tá falando do processo eh e a
+
+652
+00:26:47,798 --> 00:26:53,398
+cultura da área assim O que que
+
+653
+00:26:50,119 --> 00:26:56,439
+significa a gente eh a gente abriu mão é
+
+654
+00:26:53,398 --> 00:26:58,719
+o é o Thinking Fast and slow né é o
+
+655
+00:26:56,440 --> 00:27:01,120
+rápido e devagar a gente a gente Abriu
+
+656
+00:26:58,720 --> 00:27:02,839
+Mão de todos os outros valores para
+
+657
+00:27:01,119 --> 00:27:05,119
+construir coisas que são eficientes
+
+658
+00:27:02,839 --> 00:27:09,199
+então a gente escolheu rapidez como
+
+659
+00:27:05,119 --> 00:27:11,558
+valor Supremo a capacidade de de criar
+
+660
+00:27:09,200 --> 00:27:13,960
+coisas né de de criar coisas rápidas que
+
+661
+00:27:11,558 --> 00:27:16,720
+detectam muitos padrões e que e que
+
+662
+00:27:13,960 --> 00:27:19,480
+consegue manipular mais e e volumes
+
+663
+00:27:16,720 --> 00:27:20,960
+maiores de dados e de maneira mais eh
+
+664
+00:27:19,480 --> 00:27:22,679
+com com um maior desempenho
+
+665
+00:27:20,960 --> 00:27:24,600
+computacional a gente escolheu essas
+
+666
+00:27:22,679 --> 00:27:26,840
+coisas em detrimento de todos os outros
+
+667
+00:27:24,599 --> 00:27:29,199
+valores mas pra gente criar software que
+
+668
+00:27:26,839 --> 00:27:32,439
+a gente possa confiar a gente precisa do
+
+669
+00:27:29,200 --> 00:27:35,080
+trabalho lento do ser humano de fazer
+
+670
+00:27:32,440 --> 00:27:36,960
+esse tipo de análise eh conceitual e
+
+671
+00:27:35,079 --> 00:27:41,240
+análise ética da
+
+672
+00:27:36,960 --> 00:27:44,240
+situações É verdade eu eu penso num numa
+
+673
+00:27:41,240 --> 00:27:47,079
+questão que é a seguinte Eh vamos supor
+
+674
+00:27:44,240 --> 00:27:50,159
+um exemplo de digamos Ah tem uma pessoa
+
+675
+00:27:47,079 --> 00:27:53,678
+que é é juiz juíza colocar no feminino
+
+676
+00:27:50,159 --> 00:27:56,000
+juíza e ela tem lá um banco de 300
+
+677
+00:27:53,679 --> 00:27:57,440
+decisões todos os casos dela em geral
+
+678
+00:27:56,000 --> 00:27:59,679
+São mais ou menos parecidos aí você
+
+679
+00:27:57,440 --> 00:28:03,000
+treinam e para aprender a tomar uma
+
+680
+00:27:59,679 --> 00:28:05,919
+decisão baseada Num caso novo aí a toma
+
+681
+00:28:03,000 --> 00:28:09,000
+uma decisão a a juíza vai ter que olhar
+
+682
+00:28:05,919 --> 00:28:11,960
+aquilo ali e vai ter que Ah faz sentido
+
+683
+00:28:09,000 --> 00:28:14,480
+essa decisão ou não mas a minha
+
+684
+00:28:11,960 --> 00:28:17,360
+preocupação aí é o seguinte eh Será que
+
+685
+00:28:14,480 --> 00:28:19,440
+a a essa a pessoa usuária não vai no
+
+686
+00:28:17,359 --> 00:28:22,319
+caso a juíza não vai ter um viés para
+
+687
+00:28:19,440 --> 00:28:23,798
+aceitar isso aí e aí talvez somar uma
+
+688
+00:28:22,319 --> 00:28:25,918
+decisão errada porque Ah não pera aí se
+
+689
+00:28:23,798 --> 00:28:28,519
+A Iá provavelmente sabe mais do que eu
+
+690
+00:28:25,919 --> 00:28:30,799
+porque ela olhou todos esses dados aqui
+
+691
+00:28:28,519 --> 00:28:32,519
+eh esse é um ponto interessantíssimo
+
+692
+00:28:30,798 --> 00:28:34,480
+adufa eh tem umas pessoas fazendo
+
+693
+00:28:32,519 --> 00:28:36,759
+pesquisa sobre isso né o quanto que
+
+694
+00:28:34,480 --> 00:28:39,919
+depois que você introduz um sistema
+
+695
+00:28:36,759 --> 00:28:42,798
+computacional numa situação você diminui
+
+696
+00:28:39,919 --> 00:28:45,038
+a capacidade humana de responder naquela
+
+697
+00:28:42,798 --> 00:28:47,158
+situação né isso isso começou com a
+
+698
+00:28:45,038 --> 00:28:50,720
+história da gente ter
+
+699
+00:28:47,159 --> 00:28:52,760
+eh piloto automático em voos né chegou
+
+700
+00:28:50,720 --> 00:28:53,960
+nessa situação alguém tava eu tava
+
+701
+00:28:52,759 --> 00:28:56,038
+assistindo uma palestra de um rapaz da
+
+702
+00:28:53,960 --> 00:28:58,399
+Microsoft outro dia dizendo que não voo
+
+703
+00:28:56,038 --> 00:29:00,798
+Transatlântico Europa Estados Unidos eh
+
+704
+00:28:58,398 --> 00:29:03,199
+o piloto tá no controle do avião acho
+
+705
+00:29:00,798 --> 00:29:06,798
+que coisa de 4 minutos Esse foi o dado
+
+706
+00:29:03,200 --> 00:29:10,000
+que ele falou não sei se é se é verdade
+
+707
+00:29:06,798 --> 00:29:12,639
+né maioria das situações né porque
+
+708
+00:29:10,000 --> 00:29:14,640
+realmente me parece que aterrissagem e
+
+709
+00:29:12,640 --> 00:29:16,919
+decolagem são os momentos críticos onde
+
+710
+00:29:14,640 --> 00:29:19,360
+mais coisas mais você tem mais variáveis
+
+711
+00:29:16,919 --> 00:29:21,159
+mais coisas estranhas podem acontecer eh
+
+712
+00:29:19,359 --> 00:29:23,158
+o problema se acontecer uma coisa nesse
+
+713
+00:29:21,159 --> 00:29:26,559
+meio e a pessoa não tá mais acostumada a
+
+714
+00:29:23,159 --> 00:29:29,159
+responder aqueles eventos né então e é o
+
+715
+00:29:26,558 --> 00:29:33,119
+é o equivalente disso pro processo
+
+716
+00:29:29,159 --> 00:29:36,278
+decisório você não só perde a a sua
+
+717
+00:29:33,119 --> 00:29:38,839
+capacidade eh analítica Fina de lidar
+
+718
+00:29:36,278 --> 00:29:41,119
+com aqueles casos Mas você corre o risco
+
+719
+00:29:38,839 --> 00:29:44,480
+disso acontecer mas você também
+
+720
+00:29:41,119 --> 00:29:47,000
+eh pode ser influenciado pelas decisões
+
+721
+00:29:44,480 --> 00:29:49,200
+as decisões do que que esse sistema vai
+
+722
+00:29:47,000 --> 00:29:51,679
+à medida que esse sistema vai acertando
+
+723
+00:29:49,200 --> 00:29:54,640
+muitas vezes você cria Essa ilusão de
+
+724
+00:29:51,679 --> 00:29:56,159
+que ele sempre vai acertar né Eh e
+
+725
+00:29:54,640 --> 00:29:59,880
+principalmente para pessoas que não são
+
+726
+00:29:56,159 --> 00:30:03,039
+eh técnicas né é o é o a gente tem isso
+
+727
+00:29:59,880 --> 00:30:06,919
+assim existe uma uma uma crença que as
+
+728
+00:30:03,038 --> 00:30:09,640
+pessoas têm fora da computação de que um
+
+729
+00:30:06,919 --> 00:30:11,720
+sistema computacional ele é neutro com
+
+730
+00:30:09,640 --> 00:30:14,159
+relação a valores Então as pessoas falam
+
+731
+00:30:11,720 --> 00:30:16,399
+isso se um sistema computacional decir o
+
+732
+00:30:14,159 --> 00:30:19,200
+sistema é exato o sistema é preciso o
+
+733
+00:30:16,398 --> 00:30:20,639
+sistema não tá sujeito a emoções ele não
+
+734
+00:30:19,200 --> 00:30:23,480
+tá sujeito a
+
+735
+00:30:20,640 --> 00:30:26,159
+preconceitos Claro que não né Tá Sujeito
+
+736
+00:30:23,480 --> 00:30:27,679
+a tudo isso desde que que isso esteja
+
+737
+00:30:26,159 --> 00:30:30,240
+dentro do sistema do que ele tá usando
+
+738
+00:30:27,679 --> 00:30:32,840
+para para pra tomada de decisão
+
+739
+00:30:30,240 --> 00:30:34,278
+eh e a gente ainda tem tem uma outra
+
+740
+00:30:32,839 --> 00:30:40,000
+coisa que sempre me surpreende que é a
+
+741
+00:30:34,278 --> 00:30:42,519
+nossa propensão eh de atribuir agência
+
+742
+00:30:40,000 --> 00:30:47,679
+as a coisas que se comportam como a
+
+743
+00:30:42,519 --> 00:30:51,278
+gente né eu eu eu brinco que eu chamo eh
+
+744
+00:30:47,679 --> 00:30:53,559
+eh eu eu chamo isso da falácia de Wilson
+
+745
+00:30:51,278 --> 00:30:55,440
+lembra do da bola do daquele filme do
+
+746
+00:30:53,558 --> 00:30:58,359
+Tom Rex que ele é O Náufrago acho que
+
+747
+00:30:55,440 --> 00:31:00,000
+chama em português né Eh onde ele começa
+
+748
+00:30:58,359 --> 00:31:02,278
+a desenvolver sentimentos pela bola de
+
+749
+00:31:00,000 --> 00:31:04,679
+vôlei com com aquele negócio é um
+
+750
+00:31:02,278 --> 00:31:05,798
+fenômeno chamado em inglês chama paradia
+
+751
+00:31:04,679 --> 00:31:07,559
+né Acho que deve chamar uma coisa
+
+752
+00:31:05,798 --> 00:31:10,519
+parecida em português que você as
+
+753
+00:31:07,558 --> 00:31:13,158
+pessoas começam a ver a face de Jesus na
+
+754
+00:31:10,519 --> 00:31:15,159
+torrada ou na mancha do prédio as
+
+755
+00:31:13,159 --> 00:31:18,039
+pessoas começam a enxergar coisas né
+
+756
+00:31:15,159 --> 00:31:21,399
+onde elas não existem os sistemas que se
+
+757
+00:31:18,038 --> 00:31:23,359
+comportam de uma maneira que é numa
+
+758
+00:31:21,398 --> 00:31:25,759
+primeira observação é tão próxima do ser
+
+759
+00:31:23,359 --> 00:31:28,439
+humano elas ativam esses nossos
+
+760
+00:31:25,759 --> 00:31:30,638
+circuitos assim é o efeito Wilson
+
+761
+00:31:28,440 --> 00:31:33,759
+anabolizado assim as pessoas olham para
+
+762
+00:31:30,638 --> 00:31:36,158
+isso e ficam realmente convencidas eu
+
+763
+00:31:33,759 --> 00:31:38,359
+conheço pessoas que trabalham com
+
+764
+00:31:36,159 --> 00:31:40,039
+sistemas tipo de modelos de linguagem
+
+765
+00:31:38,359 --> 00:31:41,918
+que sab exatamente Como o track funciona
+
+766
+00:31:40,038 --> 00:31:44,440
+e estão convencidos de que esse negócio
+
+767
+00:31:41,919 --> 00:31:47,120
+é um é um tipo de forma de inteligência
+
+768
+00:31:44,440 --> 00:31:47,120
+Alienígena
+
+769
+00:31:47,919 --> 00:31:56,679
+né olha só né bem falando um pouco a
+
+770
+00:31:53,359 --> 00:32:00,158
+respeito de um outro artigo então Eh que
+
+771
+00:31:56,679 --> 00:32:02,360
+foi escrito por gizard Glenda Amaral por
+
+772
+00:32:00,159 --> 00:32:07,278
+você e por John
+
+773
+00:32:02,359 --> 00:32:10,678
+mopol publicado em 2021 23 na verdade no
+
+774
+00:32:07,278 --> 00:32:14,240
+software and System modeling Journal que
+
+775
+00:32:10,679 --> 00:32:16,720
+eh está foi intitulado um abordagem
+
+776
+00:32:14,240 --> 00:32:19,880
+baseada em ontologia para engenharia de
+
+777
+00:32:16,720 --> 00:32:22,679
+requisitos de ética é um artigo que está
+
+778
+00:32:19,880 --> 00:32:25,840
+ligado a esse tema da moda Inteligência
+
+779
+00:32:22,679 --> 00:32:28,320
+Artificial né já meio que falando a
+
+780
+00:32:25,839 --> 00:32:31,599
+respeito disso um pouco antes também né
+
+781
+00:32:28,319 --> 00:32:34,278
+então no resumo vocês descrevem como a
+
+782
+00:32:31,599 --> 00:32:37,158
+ética é importante nesse nosso novo
+
+783
+00:32:34,278 --> 00:32:40,119
+mundo em que a ia é
+
+784
+00:32:37,159 --> 00:32:43,399
+onipresente para evitar que os sistemas
+
+785
+00:32:40,119 --> 00:32:46,278
+sejam tendenciosos cometam erros ou ajam
+
+786
+00:32:43,398 --> 00:32:48,879
+de maneira inadequada você pode nos
+
+787
+00:32:46,278 --> 00:32:52,079
+explicar como a engenharia de requisitos
+
+788
+00:32:48,880 --> 00:32:55,919
+baseada em ontologia pode nos ajudar a
+
+789
+00:32:52,079 --> 00:32:59,199
+construir sistemas baseados em I mais
+
+790
+00:32:55,919 --> 00:33:01,080
+éticos e Então esse é o artigo que deu
+
+791
+00:32:59,200 --> 00:33:03,679
+muito prazer pra gente escrever sabe
+
+792
+00:33:01,079 --> 00:33:06,918
+porque esse é um tema do coração esse
+
+793
+00:33:03,679 --> 00:33:09,720
+tema de ética né eh
+
+794
+00:33:06,919 --> 00:33:12,399
+e e é um tema que que tem muita
+
+795
+00:33:09,720 --> 00:33:13,880
+discussão eh até do ponto de vista legal
+
+796
+00:33:12,398 --> 00:33:16,398
+né aqui na Europa tem todas essas
+
+797
+00:33:13,880 --> 00:33:20,480
+discussões dos comitês tentando criar
+
+798
+00:33:16,398 --> 00:33:22,879
+esses eh frameworks éticos né Eh para
+
+799
+00:33:20,480 --> 00:33:25,319
+pensar sobre ética de sistemas
+
+800
+00:33:22,880 --> 00:33:29,000
+artificiais porém Esses frameworks são
+
+801
+00:33:25,319 --> 00:33:32,439
+frameworks normativos e muito abstratos
+
+802
+00:33:29,000 --> 00:33:34,480
+né então tem tem por exemplo um deles
+
+803
+00:33:32,440 --> 00:33:37,360
+que é um dos mais eh usados que fala
+
+804
+00:33:34,480 --> 00:33:40,480
+sobre essas dimensões éticas né de
+
+805
+00:33:37,359 --> 00:33:43,479
+beneficência fazer o bem entre aspas é
+
+806
+00:33:40,480 --> 00:33:45,399
+assim Resumindo não maleficência que é
+
+807
+00:33:43,480 --> 00:33:47,880
+não fazer o mal a ideia de autonomia que
+
+808
+00:33:45,398 --> 00:33:50,879
+é o usuário sempre eh tem que ser capaz
+
+809
+00:33:47,880 --> 00:33:53,240
+de decidir ter autonomia sobre decidir
+
+810
+00:33:50,880 --> 00:33:55,639
+qual é o campo de ações possíveis de um
+
+811
+00:33:53,240 --> 00:33:58,278
+sistema autônomo eh O que que o sistema
+
+812
+00:33:55,638 --> 00:34:01,079
+é capaz de fazer né Eh em pronto esse
+
+813
+00:33:58,278 --> 00:34:03,200
+usuário a ideia de de explicabilidade
+
+814
+00:34:01,079 --> 00:34:06,119
+tem uma diferença de explicabilidade e
+
+815
+00:34:03,200 --> 00:34:06,120
+né
+
+816
+00:34:07,759 --> 00:34:12,878
+explicabilidade de maneira geral e a
+
+817
+00:34:10,079 --> 00:34:15,679
+ideia de Justiça então né os sistemas
+
+818
+00:34:12,878 --> 00:34:17,759
+tem que tem que eh obedecer vamos dizer
+
+819
+00:34:15,679 --> 00:34:20,720
+assim todas essas dimensões O problema é
+
+820
+00:34:17,760 --> 00:34:23,560
+que existe uma um grand canel de
+
+821
+00:34:20,719 --> 00:34:26,838
+distância entre essas explicações
+
+822
+00:34:23,559 --> 00:34:28,239
+abstratas essas normas muito abstratas e
+
+823
+00:34:26,838 --> 00:34:30,239
+requisitos
+
+824
+00:34:28,239 --> 00:34:32,878
+que um engenheiro de software é capaz de
+
+825
+00:34:30,239 --> 00:34:34,479
+entender né então o que que a gente faz
+
+826
+00:34:32,878 --> 00:34:37,239
+nesse artigo a gente faz duas coisas a
+
+827
+00:34:34,480 --> 00:34:39,918
+gente usa essas técnicas de análise
+
+828
+00:34:37,239 --> 00:34:43,118
+ontológica para fazer análise dessas
+
+829
+00:34:39,918 --> 00:34:45,239
+dimensões para explicar o que que é
+
+830
+00:34:43,119 --> 00:34:47,039
+beneficência e o que que é maleficência
+
+831
+00:34:45,239 --> 00:34:49,878
+e o que que é explicabilidade o que que
+
+832
+00:34:47,039 --> 00:34:54,440
+é autonomia em particular a gente
+
+833
+00:34:49,878 --> 00:34:57,039
+constrói isso usando uma noção muito
+
+834
+00:34:54,440 --> 00:34:58,639
+básica que é a noção de valor então e e
+
+835
+00:34:57,039 --> 00:35:00,039
+um conjunto de ontologias que a gente já
+
+836
+00:34:58,639 --> 00:35:02,440
+vem trabalhando há um bocado de tempo a
+
+837
+00:35:00,039 --> 00:35:05,400
+gente desenvolveu uma ontologia de a
+
+838
+00:35:02,440 --> 00:35:07,320
+Glenda Amaral por exemplo que que é uma
+
+839
+00:35:05,400 --> 00:35:09,838
+das autoras desse artigo Glenda fez
+
+840
+00:35:07,320 --> 00:35:11,559
+doutorado comigo em polano e fez uma
+
+841
+00:35:09,838 --> 00:35:14,000
+tese brilhante que ganhou o prêmio de
+
+842
+00:35:11,559 --> 00:35:16,119
+melhor tese do Kaiser ano passado né que
+
+843
+00:35:14,000 --> 00:35:18,920
+é uma conferência importante a
+
+844
+00:35:16,119 --> 00:35:22,320
+conferência de de geria de sistemas
+
+845
+00:35:18,920 --> 00:35:25,000
+assim né a Glenda fez na na tese
+
+846
+00:35:22,320 --> 00:35:27,000
+doutorado dela uma uma uma ontology
+
+847
+00:35:25,000 --> 00:35:33,400
+Network né uma rede de ontologias
+
+848
+00:35:27,000 --> 00:35:37,679
+lidando com eh valor com eh risco com
+
+849
+00:35:33,400 --> 00:35:40,039
+confiança uma uma bem bem eh relacionada
+
+850
+00:35:37,679 --> 00:35:42,879
+com a outra mostra por exemplo que valor
+
+851
+00:35:40,039 --> 00:35:44,559
+e risco são eh propriedades duais eles
+
+852
+00:35:42,880 --> 00:35:47,200
+são basicamente a mesma coisa com a
+
+853
+00:35:44,559 --> 00:35:49,039
+polaridade trocada como que que
+
+854
+00:35:47,199 --> 00:35:51,679
+confiança pode ser explicada a partir de
+
+855
+00:35:49,039 --> 00:35:53,480
+valor e de risco e no caso da tese da
+
+856
+00:35:51,679 --> 00:35:55,159
+Glenda Ela também quer fala de dinheiro
+
+857
+00:35:53,480 --> 00:35:57,760
+né Glen trabalha pro banco central
+
+858
+00:35:55,159 --> 00:35:59,480
+também então ela queria explicar eh
+
+859
+00:35:57,760 --> 00:36:00,960
+conceitos de Finanças assim em
+
+860
+00:35:59,480 --> 00:36:02,639
+particular o que era dinheiro depois o
+
+861
+00:36:00,960 --> 00:36:05,720
+que a gente fez foi pegar essas noções
+
+862
+00:36:02,639 --> 00:36:07,598
+de valor risco e confiança e aplicar
+
+863
+00:36:05,719 --> 00:36:09,078
+para esse problema para essa análise
+
+864
+00:36:07,599 --> 00:36:11,920
+ontológica dessas dimensões então a
+
+865
+00:36:09,079 --> 00:36:14,039
+gente parte de valor eh de valor para
+
+866
+00:36:11,920 --> 00:36:15,960
+risco de risco para confiança paraa
+
+867
+00:36:14,039 --> 00:36:18,800
+noção de preferência paraa noção de
+
+868
+00:36:15,960 --> 00:36:22,519
+decisão para explicar o que são decisões
+
+869
+00:36:18,800 --> 00:36:24,318
+e paraa noção de delegação de autonomia
+
+870
+00:36:22,519 --> 00:36:26,440
+então a gente usa um outro trabalho do
+
+871
+00:36:24,318 --> 00:36:29,000
+grupo que é um trabalho da Cristine
+
+872
+00:36:26,440 --> 00:36:30,400
+grifo que fez um doutorado belíssimo
+
+873
+00:36:29,000 --> 00:36:32,760
+também sobre o que que são relações
+
+874
+00:36:30,400 --> 00:36:36,960
+legais O que que é uma relação legal
+
+875
+00:36:32,760 --> 00:36:38,640
+então direitos deveres poderes eh eh
+
+876
+00:36:36,960 --> 00:36:42,440
+liabilities não sei muito bem como
+
+877
+00:36:38,639 --> 00:36:44,519
+traduzir liabilities né Eh em português
+
+878
+00:36:42,440 --> 00:36:47,039
+todas essas relações e a gente consegue
+
+879
+00:36:44,519 --> 00:36:48,838
+mostrar que você pode traduzir autonomia
+
+880
+00:36:47,039 --> 00:36:52,039
+por exemplo como um conjunto de relações
+
+881
+00:36:48,838 --> 00:36:54,920
+de delegação desse tipo onde você dá
+
+882
+00:36:52,039 --> 00:36:58,838
+você delega explicitamente direitos eh
+
+883
+00:36:54,920 --> 00:37:00,639
+deveres e poderes e e eh para para para
+
+884
+00:36:58,838 --> 00:37:02,159
+um sistema autônomo Então a gente vai
+
+885
+00:37:00,639 --> 00:37:06,559
+fazendo isso a gente começa com valor
+
+886
+00:37:02,159 --> 00:37:08,920
+risco confiança preferência decisão e e
+
+887
+00:37:06,559 --> 00:37:10,920
+autonomia para destrinchar isso tudo de
+
+888
+00:37:08,920 --> 00:37:12,639
+uma maneira que que seja
+
+889
+00:37:10,920 --> 00:37:14,800
+completamente você tem um tipo de
+
+890
+00:37:12,639 --> 00:37:17,719
+rastreabilidade Total então o sistema
+
+891
+00:37:14,800 --> 00:37:20,480
+que seguisse eh esse modelo você
+
+892
+00:37:17,719 --> 00:37:22,759
+conseguiria rastrear todas as decisões
+
+893
+00:37:20,480 --> 00:37:25,800
+para julgamentos de valor no final das
+
+894
+00:37:22,760 --> 00:37:28,160
+contas e a gente transforma isso depois
+
+895
+00:37:25,800 --> 00:37:31,920
+dessa análise ontológica num conjunto
+
+896
+00:37:28,159 --> 00:37:34,598
+num de diretrizes metodológicas muito
+
+897
+00:37:31,920 --> 00:37:37,079
+concretas que o que ajudam que podem
+
+898
+00:37:34,599 --> 00:37:39,200
+ajudar eh Engenheiros de requisito
+
+899
+00:37:37,079 --> 00:37:40,839
+Engenheiros de software em traduzir em
+
+900
+00:37:39,199 --> 00:37:43,239
+construir requisitos para sistemas
+
+901
+00:37:40,838 --> 00:37:45,358
+específicos que tocam todas as dimensões
+
+902
+00:37:43,239 --> 00:37:47,118
+éticas tem um artigo que a gente
+
+903
+00:37:45,358 --> 00:37:50,318
+publicou depois que é um capítulo de
+
+904
+00:37:47,119 --> 00:37:52,318
+livro na verdade em homenagem ao Eric Y
+
+905
+00:37:50,318 --> 00:37:54,838
+né e er Eric H foi o criador daquela
+
+906
+00:37:52,318 --> 00:37:57,838
+linguagem eh I Estrela né
+
+907
+00:37:54,838 --> 00:37:59,759
+iar uma linguagem de modelagem objetiva
+
+908
+00:37:57,838 --> 00:38:01,838
+né de gerer de requisitos baseado em
+
+909
+00:37:59,760 --> 00:38:04,520
+objetivos Eric foi um aluno de de de
+
+910
+00:38:01,838 --> 00:38:06,519
+John Eric tá se
+
+911
+00:38:04,519 --> 00:38:07,800
+aposentando o pessoal fez um livro em
+
+912
+00:38:06,519 --> 00:38:09,318
+homenagem a ele a gente escreveu um
+
+913
+00:38:07,800 --> 00:38:10,560
+capítulo mostrando como que a gente
+
+914
+00:38:09,318 --> 00:38:13,679
+podia pegar essa linguagem que é uma
+
+915
+00:38:10,559 --> 00:38:17,358
+linguagem quase um padrão para modelagem
+
+916
+00:38:13,679 --> 00:38:19,838
+de requisitos baseados em objetivos para
+
+917
+00:38:17,358 --> 00:38:21,239
+para para modelar esse problema no final
+
+918
+00:38:19,838 --> 00:38:24,239
+das contas a gente para mostrar que a
+
+919
+00:38:21,239 --> 00:38:27,598
+gente poderia lidar com requisitos
+
+920
+00:38:24,239 --> 00:38:29,039
+éticos usando uma linguagem e todo
+
+921
+00:38:27,599 --> 00:38:31,200
+ferramental em torno uma linguagem de
+
+922
+00:38:29,039 --> 00:38:33,239
+modelagem objetivos todo ferramental em
+
+923
+00:38:31,199 --> 00:38:35,559
+torno dela para modelagem para
+
+924
+00:38:33,239 --> 00:38:39,239
+raciocínio com objetivos para relacionar
+
+925
+00:38:35,559 --> 00:38:42,279
+comilidade com preferência com tudo isso
+
+926
+00:38:39,239 --> 00:38:45,159
+mais ou menos essa a ideia do artigo é
+
+927
+00:38:42,280 --> 00:38:47,839
+muito bom bom ver também esse exemplo
+
+928
+00:38:45,159 --> 00:38:49,639
+assim de uma a Doutora do Banco Central
+
+929
+00:38:47,838 --> 00:38:52,920
+né ela fez doutorado estando no banco
+
+930
+00:38:49,639 --> 00:38:55,239
+central É verdade um doutorado brilhante
+
+931
+00:38:52,920 --> 00:38:58,079
+terminou uma tese com louvor ganhou esse
+
+932
+00:38:55,239 --> 00:39:00,118
+prêmio do kais Glenda é é realmente
+
+933
+00:38:58,079 --> 00:39:02,240
+excepcional eu já notei a gente tem um
+
+934
+00:39:00,119 --> 00:39:03,640
+outro podcast onde a gente entrevista
+
+935
+00:39:02,239 --> 00:39:05,479
+mulheres na computação eu acho que ela
+
+936
+00:39:03,639 --> 00:39:07,598
+vai ser uma ótima entrevistada lá no no
+
+937
+00:39:05,480 --> 00:39:10,838
+emilias podcast apoio apoio
+
+938
+00:39:07,599 --> 00:39:13,039
+muito agora vamos falar sobre o artigo
+
+939
+00:39:10,838 --> 00:39:15,719
+explicação semântica e ontologia que
+
+940
+00:39:13,039 --> 00:39:18,480
+você e o Nicola Guarino publicaram na
+
+941
+00:39:15,719 --> 00:39:21,039
+revista data and knowledge Engineering
+
+942
+00:39:18,480 --> 00:39:22,920
+edição de setembro de 2024 então neste
+
+943
+00:39:21,039 --> 00:39:25,639
+artigo vocês discutem o conceito de
+
+944
+00:39:22,920 --> 00:39:28,039
+desdobramento ontológico ontológica
+
+945
+00:39:25,639 --> 00:39:30,639
+unpacking você pode nos explicar esse
+
+946
+00:39:28,039 --> 00:39:34,838
+conceito e por ele é relevante para o
+
+947
+00:39:30,639 --> 00:39:36,759
+desenvolvimento do software então Eh
+
+948
+00:39:34,838 --> 00:39:39,199
+esse é outro artigo que eu me diverti
+
+949
+00:39:36,760 --> 00:39:41,520
+muito escrevendo o artigo que me deu um
+
+950
+00:39:39,199 --> 00:39:44,799
+enorme prazer assim Nicola é um grande
+
+951
+00:39:41,519 --> 00:39:46,280
+eh colaborador a mais de 20 anos né O
+
+952
+00:39:44,800 --> 00:39:49,200
+que que a gente faz nesse artigo a gente
+
+953
+00:39:46,280 --> 00:39:50,920
+faz três coisas uma a gente quer a gente
+
+954
+00:39:49,199 --> 00:39:52,358
+revisita todas essas teorias de
+
+955
+00:39:50,920 --> 00:39:54,720
+explicação na
+
+956
+00:39:52,358 --> 00:39:56,759
+filosofia na filosofia da ciência mas
+
+957
+00:39:54,719 --> 00:39:58,719
+também na metafísica na ontologia na
+
+958
+00:39:56,760 --> 00:39:59,720
+filosofia O que que é uma explicação a
+
+959
+00:39:58,719 --> 00:40:02,439
+gente tenta explicar o que é uma
+
+960
+00:39:59,719 --> 00:40:04,598
+explicação segundo essas várias teorias
+
+961
+00:40:02,440 --> 00:40:09,039
+segundo a gente
+
+962
+00:40:04,599 --> 00:40:11,079
+eh mostra que o problema de
+
+963
+00:40:09,039 --> 00:40:15,199
+interoperabilidade semântica que é um
+
+964
+00:40:11,079 --> 00:40:16,680
+problema que tá em todo lugar né Eh né
+
+965
+00:40:15,199 --> 00:40:19,118
+todas as questões interessantes que a
+
+966
+00:40:16,679 --> 00:40:21,118
+gente precisa respondidas em governo em
+
+967
+00:40:19,119 --> 00:40:23,519
+ciência em organizações a gente só
+
+968
+00:40:21,119 --> 00:40:25,480
+consegue responder juntando dados que
+
+969
+00:40:23,519 --> 00:40:27,880
+estão em base de dados Silos de dados
+
+970
+00:40:25,480 --> 00:40:29,960
+que foram criados de maneira autônoma né
+
+971
+00:40:27,880 --> 00:40:31,200
+concorrente por exemplo esse problema de
+
+972
+00:40:29,960 --> 00:40:32,519
+integração de ferramentas de geria de
+
+973
+00:40:31,199 --> 00:40:34,039
+software que a gente tava falando mas
+
+974
+00:40:32,519 --> 00:40:37,719
+não só Então esse problema de
+
+975
+00:40:34,039 --> 00:40:39,960
+inabilidade semântica é um problema
+
+976
+00:40:37,719 --> 00:40:41,838
+que de
+
+977
+00:40:39,960 --> 00:40:45,480
+explicação todos os erros de
+
+978
+00:40:41,838 --> 00:40:48,480
+interoperabilidade semântica eh surgem
+
+979
+00:40:45,480 --> 00:40:51,318
+de um GAP explicativo no final das
+
+980
+00:40:48,480 --> 00:40:55,559
+contas e a gente a gente mostra que
+
+981
+00:40:51,318 --> 00:40:57,358
+explicar uma coisa é revelar Qual é a
+
+982
+00:40:55,559 --> 00:40:58,880
+ontologia que tá por trás daquela coisa
+
+983
+00:40:57,358 --> 00:41:01,239
+que é a mesma coisa que revelar a
+
+984
+00:40:58,880 --> 00:41:03,119
+semântica de O que é chamar de real
+
+985
+00:41:01,239 --> 00:41:05,519
+world semantics né fora da semântica
+
+986
+00:41:03,119 --> 00:41:07,240
+formal a semântica Qual é a porção de
+
+987
+00:41:05,519 --> 00:41:08,719
+mundo que tá representado naqueles dados
+
+988
+00:41:07,239 --> 00:41:10,719
+porque o problema de interoperabilidade
+
+989
+00:41:08,719 --> 00:41:12,559
+é exatamente quando eu tenho duas dois
+
+990
+00:41:10,719 --> 00:41:15,480
+artefatos simbólicos duas descrições
+
+991
+00:41:12,559 --> 00:41:17,559
+achar a relação entre os elementos
+
+992
+00:41:15,480 --> 00:41:19,039
+daqueles artefatos simbólicos e a única
+
+993
+00:41:17,559 --> 00:41:20,880
+maneira de achar aquela relação é
+
+994
+00:41:19,039 --> 00:41:22,639
+entender Quais são os referentes no
+
+995
+00:41:20,880 --> 00:41:24,599
+mundo desses artefatos simbólicos e
+
+996
+00:41:22,639 --> 00:41:27,719
+entender Qual a relação entre eles o
+
+997
+00:41:24,599 --> 00:41:29,519
+processo de revelar a ontologia que tá
+
+998
+00:41:27,719 --> 00:41:31,399
+por trás de um artefato simbólico
+
+999
+00:41:29,519 --> 00:41:34,039
+entender Qual a relação entre os
+
+1000
+00:41:31,400 --> 00:41:36,280
+conceitos daquelas ontologias e entender
+
+1001
+00:41:34,039 --> 00:41:37,679
+o que que isso significa por exemplo se
+
+1002
+00:41:36,280 --> 00:41:39,880
+uma relação de identidade O que que
+
+1003
+00:41:37,679 --> 00:41:42,719
+significa uma coisa ser Idêntica a outra
+
+1004
+00:41:39,880 --> 00:41:45,000
+é uma relação de equivalência né
+
+1005
+00:41:42,719 --> 00:41:46,598
+reflexiva simétrica transitiva Mas é uma
+
+1006
+00:41:45,000 --> 00:41:48,639
+relação também que obedece o que é
+
+1007
+00:41:46,599 --> 00:41:51,359
+chamado de lei de Lib se duas coisas são
+
+1008
+00:41:48,639 --> 00:41:52,480
+idênticas elas são ID Elas têm as mesmas
+
+1009
+00:41:51,358 --> 00:41:54,480
+propriedades em todos os mundos
+
+1010
+00:41:52,480 --> 00:41:56,639
+possíveis então uma relação bem forte
+
+1011
+00:41:54,480 --> 00:41:58,639
+relação de identidade então a gente faz
+
+1012
+00:41:56,639 --> 00:42:00,239
+mostra que que a o único jeito de de
+
+1013
+00:41:58,639 --> 00:42:02,039
+representar de resolver o problema de
+
+1014
+00:42:00,239 --> 00:42:03,759
+interoperabilidade semântica é esse
+
+1015
+00:42:02,039 --> 00:42:05,480
+problema de explicação que é o problema
+
+1016
+00:42:03,760 --> 00:42:08,400
+de revelar a ontologia que tá por trás e
+
+1017
+00:42:05,480 --> 00:42:10,318
+a conexão entre essas ontologias a gente
+
+1018
+00:42:08,400 --> 00:42:12,160
+faz uma terceira coisa no artigo que é
+
+1019
+00:42:10,318 --> 00:42:13,838
+mostrar que todos esses métodos de
+
+1020
+00:42:12,159 --> 00:42:15,598
+explicação que o pessoal tá usando em em
+
+1021
+00:42:13,838 --> 00:42:18,799
+ia não tem nada a ver com explicação
+
+1022
+00:42:15,599 --> 00:42:20,680
+então a ideia de eles são baseados numa
+
+1023
+00:42:18,800 --> 00:42:22,160
+de maneira geral né tô simplificando a
+
+1024
+00:42:20,679 --> 00:42:24,039
+coisa você tem basicamente duas
+
+1025
+00:42:22,159 --> 00:42:26,719
+correntes ali uma corrente onde você
+
+1026
+00:42:24,039 --> 00:42:29,440
+fala eh olha eu vou pegar e gerar um
+
+1027
+00:42:26,719 --> 00:42:31,679
+artefato simbólico que seja equivalente
+
+1028
+00:42:29,440 --> 00:42:34,318
+ao comportamento da caixa preta por
+
+1029
+00:42:31,679 --> 00:42:37,239
+exemplo usando uma gerando uma árvore de
+
+1030
+00:42:34,318 --> 00:42:39,400
+decisão isso é baseado na premissa falsa
+
+1031
+00:42:37,239 --> 00:42:42,000
+de que uma coisa simbólica é
+
+1032
+00:42:39,400 --> 00:42:44,160
+autoexplicativa o que é falso né então
+
+1033
+00:42:42,000 --> 00:42:46,440
+assim a gente mostra que que eu se eu
+
+1034
+00:42:44,159 --> 00:42:48,000
+posso pegar coisas simbólicas no no
+
+1035
+00:42:46,440 --> 00:42:50,079
+artigo a gente pega o menor modelo que
+
+1036
+00:42:48,000 --> 00:42:52,000
+você consegue imaginar quase que é o
+
+1037
+00:42:50,079 --> 00:42:53,599
+modelo com não é o menor modelo mas
+
+1038
+00:42:52,000 --> 00:42:56,400
+quase lá com duas classes e duas
+
+1039
+00:42:53,599 --> 00:42:59,519
+relações e a gente mostra a complexidade
+
+1040
+00:42:56,400 --> 00:43:02,720
+que que aquele modelo esconde explicando
+
+1041
+00:42:59,519 --> 00:43:04,880
+o modelo então a gente mostra que você
+
+1042
+00:43:02,719 --> 00:43:09,318
+gerar um artefato simbólico Tá longe de
+
+1043
+00:43:04,880 --> 00:43:12,240
+ser suficiente e que na verdade você eh
+
+1044
+00:43:09,318 --> 00:43:14,759
+ao você usar esse método bom eu falo do
+
+1045
+00:43:12,239 --> 00:43:15,959
+método depois ou você faz isso você gera
+
+1046
+00:43:14,760 --> 00:43:17,240
+um artefato simbólico que seja
+
+1047
+00:43:15,960 --> 00:43:18,838
+equivalente ao comportamento da caixa
+
+1048
+00:43:17,239 --> 00:43:20,399
+preta ou você tenta explicar sem abrir a
+
+1049
+00:43:18,838 --> 00:43:22,318
+caixa preta então um exemplo clássico
+
+1050
+00:43:20,400 --> 00:43:24,559
+disso é o que é chamado de explicação
+
+1051
+00:43:22,318 --> 00:43:26,800
+contrafactual né Então você fala Olha
+
+1052
+00:43:24,559 --> 00:43:29,640
+você não recebeu o empréstimo que seu
+
+1053
+00:43:26,800 --> 00:43:31,480
+salário áo é R 30.000 por ano mas se
+
+1054
+00:43:29,639 --> 00:43:33,318
+você ganhasse 50.000 você teria recebido
+
+1055
+00:43:31,480 --> 00:43:35,280
+o empréstimo né você Tent gerar uma uma
+
+1056
+00:43:33,318 --> 00:43:37,159
+situação contrafactual onde aquilo seria
+
+1057
+00:43:35,280 --> 00:43:38,640
+verdade a gente mostra no artigo que
+
+1058
+00:43:37,159 --> 00:43:40,719
+isso também não é uma explicação na
+
+1059
+00:43:38,639 --> 00:43:43,358
+verdade isso é explicação em condições
+
+1060
+00:43:40,719 --> 00:43:45,759
+muito específicas e nessas condições
+
+1061
+00:43:43,358 --> 00:43:47,000
+específicas as proposições que você tá
+
+1062
+00:43:45,760 --> 00:43:50,240
+usando para gerar esses modelos
+
+1063
+00:43:47,000 --> 00:43:52,838
+contrafactuais Elas têm que ter ser eh
+
+1064
+00:43:50,239 --> 00:43:54,759
+baseadas em conceitos ontológicos também
+
+1065
+00:43:52,838 --> 00:43:58,558
+de maneira geral é isso que a gente faz
+
+1066
+00:43:54,760 --> 00:44:00,640
+por fim o que o artigo faz é pegar tudo
+
+1067
+00:43:58,559 --> 00:44:03,640
+isso pegar todos esses métodos de
+
+1068
+00:44:00,639 --> 00:44:06,078
+explicação em filosofia que são usados
+
+1069
+00:44:03,639 --> 00:44:07,838
+para gerar explicações a partir de
+
+1070
+00:44:06,079 --> 00:44:10,480
+estruturas simbólicas e a gente
+
+1071
+00:44:07,838 --> 00:44:12,480
+transforma Isso numa metodologia então a
+
+1072
+00:44:10,480 --> 00:44:15,000
+ideia de desdobramento ontológico acho
+
+1073
+00:44:12,480 --> 00:44:16,960
+que você a primeira pessoa traduzir isso
+
+1074
+00:44:15,000 --> 00:44:20,358
+batizar o nome em português de
+
+1075
+00:44:16,960 --> 00:44:23,199
+ontological unpacking é é fazer
+
+1076
+00:44:20,358 --> 00:44:26,358
+exatamente o processo é é uma
+
+1077
+00:44:23,199 --> 00:44:29,480
+metodologia baseada em ontologia para
+
+1078
+00:44:26,358 --> 00:44:31,639
+explicar artefatos simbólicos para gerar
+
+1079
+00:44:29,480 --> 00:44:34,358
+para revelar Qual é a ontologia que tá
+
+1080
+00:44:31,639 --> 00:44:36,039
+por trás desse artefato simbólico por
+
+1081
+00:44:34,358 --> 00:44:38,078
+fim o que a gente mostra no artigo é o
+
+1082
+00:44:36,039 --> 00:44:41,358
+seguinte que quando você usa um método
+
+1083
+00:44:38,079 --> 00:44:44,119
+desse tipo a diferença que que você tem
+
+1084
+00:44:41,358 --> 00:44:46,519
+o modelo que resulta disso a diferença
+
+1085
+00:44:44,119 --> 00:44:48,318
+que o modelo desse tem para um modelo
+
+1086
+00:44:46,519 --> 00:44:50,519
+clássico de modelagem conceitual não é
+
+1087
+00:44:48,318 --> 00:44:53,358
+só depressividade é que o modelo
+
+1088
+00:44:50,519 --> 00:44:56,159
+clássico ele é meramente uma descrição e
+
+1089
+00:44:53,358 --> 00:44:59,199
+um modelo desse desdobrado é um modelo
+
+1090
+00:44:56,159 --> 00:45:01,679
+que realmente tem um poder explicativo e
+
+1091
+00:44:59,199 --> 00:45:05,118
+o nome vem unpacking é porque a palavra
+
+1092
+00:45:01,679 --> 00:45:08,118
+explicação quer dizer isso né e e aplica
+
+1093
+00:45:05,119 --> 00:45:09,680
+em latim quer dizer dobra né então é
+
+1094
+00:45:08,119 --> 00:45:11,200
+literalmente italiano isso é muito claro
+
+1095
+00:45:09,679 --> 00:45:14,759
+né que esp
+
+1096
+00:45:11,199 --> 00:45:17,399
+piegaro literalmente isso italiano daí a
+
+1097
+00:45:14,760 --> 00:45:17,400
+inspiração pro
+
+1098
+00:45:18,960 --> 00:45:27,240
+nome muito bem então já falando de outro
+
+1099
+00:45:23,480 --> 00:45:29,719
+artigo né Eh intitulado sobre os
+
+1100
+00:45:27,239 --> 00:45:31,799
+múltiplos papéis das ontologias na
+
+1101
+00:45:29,719 --> 00:45:39,239
+Inteligência Artificial explicável
+
+1102
+00:45:31,800 --> 00:45:42,599
+Roberto confal ie agora eu me perdi
+
+1103
+00:45:39,239 --> 00:45:45,159
+confalonieri e você exploram as
+
+1104
+00:45:42,599 --> 00:45:48,400
+contribuições das ontologias no campo da
+
+1105
+00:45:45,159 --> 00:45:51,118
+Inteligência Artificial explicável Quais
+
+1106
+00:45:48,400 --> 00:45:52,920
+são os desafios que ainda precisam ser
+
+1107
+00:45:51,119 --> 00:45:55,400
+enfrentados para melhorar a
+
+1108
+00:45:52,920 --> 00:45:59,880
+compreensibilidade das explicações
+
+1109
+00:45:55,400 --> 00:46:02,119
+geradas por sistemas dia é então é muito
+
+1110
+00:45:59,880 --> 00:46:03,920
+boa essa é muito boa pergunta né a gente
+
+1111
+00:46:02,119 --> 00:46:06,680
+a gente no artigo fala de três papéis
+
+1112
+00:46:03,920 --> 00:46:09,280
+que as ontologias podem desempenhar um é
+
+1113
+00:46:06,679 --> 00:46:13,118
+você criar uma linguagem comum para que
+
+1114
+00:46:09,280 --> 00:46:13,960
+as a sistemas autônomos possam eh usar
+
+1115
+00:46:13,119 --> 00:46:16,559
+para se
+
+1116
+00:46:13,960 --> 00:46:18,920
+comunicar sobre as suas explicações né
+
+1117
+00:46:16,559 --> 00:46:21,400
+as explicações usando um vocabulário
+
+1118
+00:46:18,920 --> 00:46:23,800
+sistematizado comum e conceitos a
+
+1119
+00:46:21,400 --> 00:46:26,960
+semântica é bem definida né a outra a
+
+1120
+00:46:23,800 --> 00:46:28,760
+gente fala vamos olhar para ia como um
+
+1121
+00:46:26,960 --> 00:46:30,639
+domínio e vamos olhar paraa explicação
+
+1122
+00:46:28,760 --> 00:46:33,440
+como domínio e criar ontologias do que
+
+1123
+00:46:30,639 --> 00:46:35,400
+são explicação explicações né como o que
+
+1124
+00:46:33,440 --> 00:46:37,119
+que tá envolvido no processo de explicar
+
+1125
+00:46:35,400 --> 00:46:38,200
+a terceira a gente fala que é uma coisa
+
+1126
+00:46:37,119 --> 00:46:40,039
+que eu falei quando eu tava
+
+1127
+00:46:38,199 --> 00:46:43,000
+exemplificando esse Chaple values que é
+
+1128
+00:46:40,039 --> 00:46:45,519
+assim a única maneira de explicar é
+
+1129
+00:46:43,000 --> 00:46:46,760
+revelar isso essa ontologia que tá por
+
+1130
+00:46:45,519 --> 00:46:49,719
+trás para isso a gente precisa de
+
+1131
+00:46:46,760 --> 00:46:53,760
+ontologias né meu exemplo com os gens e
+
+1132
+00:46:49,719 --> 00:46:56,439
+o e o e o a a predição de câncer por
+
+1133
+00:46:53,760 --> 00:46:59,720
+exemplo é a gente ter que usar conceitos
+
+1134
+00:46:56,440 --> 00:47:02,358
+on sobre causalidade sobre disposições
+
+1135
+00:46:59,719 --> 00:47:04,919
+sobre aspectos de ordenação temporal
+
+1136
+00:47:02,358 --> 00:47:06,880
+sobre eventos para para explicar e por
+
+1137
+00:47:04,920 --> 00:47:08,480
+fim que que é uma coisa mais diretamente
+
+1138
+00:47:06,880 --> 00:47:10,318
+ligada à sua pergunta é o seguinte
+
+1139
+00:47:08,480 --> 00:47:14,240
+quando a gente desdobra os modelos os
+
+1140
+00:47:10,318 --> 00:47:15,759
+modelos ficam complexos então se eu eu
+
+1141
+00:47:14,239 --> 00:47:17,919
+sou meio obsecado com essa história de
+
+1142
+00:47:15,760 --> 00:47:20,440
+etimologia das palavras né se nas
+
+1143
+00:47:17,920 --> 00:47:22,880
+línguas latinas explicar é
+
+1144
+00:47:20,440 --> 00:47:26,440
+desdobrar nas línguas germânicas
+
+1145
+00:47:22,880 --> 00:47:27,358
+explicar é simplificar em holandês out
+
+1146
+00:47:26,440 --> 00:47:31,079
+significa
+
+1147
+00:47:27,358 --> 00:47:34,358
+fica fazer esclarecer é fazer ficar
+
+1148
+00:47:31,079 --> 00:47:36,318
+plano né colocar num plano né que a
+
+1149
+00:47:34,358 --> 00:47:38,679
+gente pensa em explain também tem essa
+
+1150
+00:47:36,318 --> 00:47:42,079
+ideia né de de de de tornar plano de
+
+1151
+00:47:38,679 --> 00:47:44,318
+tornar flat assim então o processo de
+
+1152
+00:47:42,079 --> 00:47:46,800
+desdobramento ontológico ele tem que ser
+
+1153
+00:47:44,318 --> 00:47:48,759
+complementado para um processo de gestão
+
+1154
+00:47:46,800 --> 00:47:51,559
+de complexidade Eu acho essa uma das
+
+1155
+00:47:48,760 --> 00:47:53,680
+maiores eh os maiores desafios de
+
+1156
+00:47:51,559 --> 00:47:56,319
+engenharia de software e um dos maiores
+
+1157
+00:47:53,679 --> 00:47:58,519
+desafios de de engenharia de ontologias
+
+1158
+00:47:56,318 --> 00:48:00,558
+e mod conceitual é como é que a gente
+
+1159
+00:47:58,519 --> 00:48:02,400
+lida com complexidade desses artefatos
+
+1160
+00:48:00,559 --> 00:48:03,880
+que a gente tá gerando né a gente
+
+1161
+00:48:02,400 --> 00:48:05,559
+trabalhou Por exemplo quando eu tava me
+
+1162
+00:48:03,880 --> 00:48:07,960
+pousando ainda meu grupo tinha tinha um
+
+1163
+00:48:05,559 --> 00:48:11,160
+projeto com o pessoal da da Agência
+
+1164
+00:48:07,960 --> 00:48:13,280
+Espacial europeia e e que o pessoal
+
+1165
+00:48:11,159 --> 00:48:14,960
+tinha uma ontologia com 15.000 conceitos
+
+1166
+00:48:13,280 --> 00:48:16,839
+na época então assim como é que você
+
+1167
+00:48:14,960 --> 00:48:18,119
+entende um modelo com 15.000 conceitos
+
+1168
+00:48:16,838 --> 00:48:20,199
+que eles usavam para tudo para
+
+1169
+00:48:18,119 --> 00:48:21,920
+integração de software para sistematizar
+
+1170
+00:48:20,199 --> 00:48:24,519
+todos os termos que era usado em todos
+
+1171
+00:48:21,920 --> 00:48:26,039
+os sistemas você entende uma coisa dessa
+
+1172
+00:48:24,519 --> 00:48:28,159
+você entende o que que esse modelo tá te
+
+1173
+00:48:26,039 --> 00:48:29,920
+dizendo né com que que esse modelo tá se
+
+1174
+00:48:28,159 --> 00:48:32,960
+comprometendo então a gente tem
+
+1175
+00:48:29,920 --> 00:48:34,760
+trabalhado eh nos últimos anos muito com
+
+1176
+00:48:32,960 --> 00:48:36,480
+técnicas baseadas em ontologias para
+
+1177
+00:48:34,760 --> 00:48:38,880
+gestão de complexidade paraa geração de
+
+1178
+00:48:36,480 --> 00:48:42,039
+modularização paraa extração de
+
+1179
+00:48:38,880 --> 00:48:43,760
+viewpoints paraa sumarização né
+
+1180
+00:48:42,039 --> 00:48:46,039
+abstração que assim olha você tem um
+
+1181
+00:48:43,760 --> 00:48:48,359
+modelo com 5000 classes gera para mim um
+
+1182
+00:48:46,039 --> 00:48:50,119
+modelo com 30 classes mas que realmente
+
+1183
+00:48:48,358 --> 00:48:52,920
+captura a essência do que aquele modelo
+
+1184
+00:48:50,119 --> 00:48:55,039
+é isso é muito difícil de fazer numa
+
+1185
+00:48:52,920 --> 00:48:58,838
+linguagem que seja ontologicamente
+
+1186
+00:48:55,039 --> 00:49:01,358
+neutra Tipo ml ou R ou WL ou lógica é
+
+1187
+00:48:58,838 --> 00:49:02,759
+muito difícil de fazer porque você não
+
+1188
+00:49:01,358 --> 00:49:04,318
+tem informação nenhuma né todas as
+
+1189
+00:49:02,760 --> 00:49:07,520
+classes são iguais todos os predicados
+
+1190
+00:49:04,318 --> 00:49:08,679
+são iguais e quando você tem conceitos
+
+1191
+00:49:07,519 --> 00:49:10,239
+ontológicos você pode usar essa
+
+1192
+00:49:08,679 --> 00:49:12,759
+ontologia para fazer esse tipo de gestão
+
+1193
+00:49:10,239 --> 00:49:15,199
+de de complexidade Então o que a gente
+
+1194
+00:49:12,760 --> 00:49:18,440
+propõe Nesse artigo também é que a gente
+
+1195
+00:49:15,199 --> 00:49:20,598
+pode usar ontologias para desenvolver
+
+1196
+00:49:18,440 --> 00:49:23,159
+explicações que sejam pragmaticamente
+
+1197
+00:49:20,599 --> 00:49:26,318
+adequada ou seja explicações que sejam
+
+1198
+00:49:23,159 --> 00:49:29,719
+alinhadas tanto com os objetivos quanto
+
+1199
+00:49:26,318 --> 00:49:31,838
+com com o background do do daquele que
+
+1200
+00:49:29,719 --> 00:49:34,000
+busca a explicação né porque você quer
+
+1201
+00:49:31,838 --> 00:49:36,318
+simplificar Mas você quer simplificar de
+
+1202
+00:49:34,000 --> 00:49:37,679
+uma maneira muito específica o exemplo
+
+1203
+00:49:36,318 --> 00:49:40,039
+que eu sempre dou é assim olha se alguém
+
+1204
+00:49:37,679 --> 00:49:41,519
+chega na sua casa e tá vendo micro-ondas
+
+1205
+00:49:40,039 --> 00:49:43,119
+pela primeira vez e fala assim como é
+
+1206
+00:49:41,519 --> 00:49:45,239
+que esse negócio funciona a sua
+
+1207
+00:49:43,119 --> 00:49:47,720
+explicação não vai envolver micro-ondas
+
+1208
+00:49:45,239 --> 00:49:49,719
+né a menos que a pessoa seja um físico
+
+1209
+00:49:47,719 --> 00:49:51,399
+né a sua explicação vai falar ó põe um
+
+1210
+00:49:49,719 --> 00:49:53,919
+negócio dentro gira isso daqui Aperta o
+
+1211
+00:49:51,400 --> 00:49:56,079
+botão seta o tempo né Por você tá
+
+1212
+00:49:53,920 --> 00:49:59,559
+adequando a explicação pro tanto pros
+
+1213
+00:49:56,079 --> 00:50:02,039
+objetivos quanto pro pro background da
+
+1214
+00:49:59,559 --> 00:50:04,680
+pessoa que que busca a explicação Então
+
+1215
+00:50:02,039 --> 00:50:08,279
+esse processo de pegar um modelo que
+
+1216
+00:50:04,679 --> 00:50:11,199
+seja eh explicativo né explanatório
+
+1217
+00:50:08,280 --> 00:50:13,280
+Sobre o domínio detalhado desdobrado e
+
+1218
+00:50:11,199 --> 00:50:16,279
+reduzi-lo fazer uma operação de
+
+1219
+00:50:13,280 --> 00:50:19,440
+transformação de redução eh de todas as
+
+1220
+00:50:16,280 --> 00:50:22,720
+suas dimensões para um submodelo mas que
+
+1221
+00:50:19,440 --> 00:50:25,720
+seja adequado as perguntas daquele
+
+1222
+00:50:22,719 --> 00:50:27,639
+usuário é um processo que é um processo
+
+1223
+00:50:25,719 --> 00:50:29,759
+no qual otologia podem ajudar
+
+1224
+00:50:27,639 --> 00:50:31,199
+imensamente que é um subproblema desse
+
+1225
+00:50:29,760 --> 00:50:33,839
+problema de gestão de complexidade de
+
+1226
+00:50:31,199 --> 00:50:36,759
+modelos de larga
+
+1227
+00:50:33,838 --> 00:50:39,078
+escala muito bom agora a gente chega
+
+1228
+00:50:36,760 --> 00:50:42,839
+numa outra parte da nossa entrevista
+
+1229
+00:50:39,079 --> 00:50:45,000
+Então vamos falar de os temas eh outros
+
+1230
+00:50:42,838 --> 00:50:46,358
+temas não estão diretamente relacionados
+
+1231
+00:50:45,000 --> 00:50:48,719
+à sua pesquisa mas que estão
+
+1232
+00:50:46,358 --> 00:50:50,960
+relacionados à sua atividade Então você
+
+1233
+00:50:48,719 --> 00:50:53,480
+tem uma presença bastante ativa no
+
+1234
+00:50:50,960 --> 00:50:55,318
+Linkedin divulgando suas pesquisas os
+
+1235
+00:50:53,480 --> 00:50:57,240
+artigos que você publica colaborações
+
+1236
+00:50:55,318 --> 00:50:58,960
+visitas acadêmic
+
+1237
+00:50:57,239 --> 00:51:01,159
+eu lembro por ex uma postagem que você
+
+1238
+00:50:58,960 --> 00:51:02,960
+fez uma visita na não sei se era um
+
+1239
+00:51:01,159 --> 00:51:05,960
+evento ou era uma visita à Nasa
+
+1240
+00:51:02,960 --> 00:51:07,639
+participação em eventos Eu até tava
+
+1241
+00:51:05,960 --> 00:51:09,639
+mencionando antes da gente começar a
+
+1242
+00:51:07,639 --> 00:51:11,078
+gravar que teve um artigo no no
+
+1243
+00:51:09,639 --> 00:51:13,440
+principal evento de engenharia de
+
+1244
+00:51:11,079 --> 00:51:15,839
+software que é o wix eu acho que é o
+
+1245
+00:51:13,440 --> 00:51:18,440
+evento que tem a melhor melhor índice lá
+
+1246
+00:51:15,838 --> 00:51:22,078
+no Google scholar eh teve um artigo lá
+
+1247
+00:51:18,440 --> 00:51:25,280
+que foi foi ganhou o prêmio de artigo
+
+1248
+00:51:22,079 --> 00:51:27,400
+distinto né distinguish A Paper chama-se
+
+1249
+00:51:25,280 --> 00:51:29,880
+Beyond self promotion House software
+
+1250
+00:51:27,400 --> 00:51:33,599
+Engineering research is discussed on
+
+1251
+00:51:29,880 --> 00:51:35,680
+LinkedIn e Marvin weish e Justus Borner
+
+1252
+00:51:33,599 --> 00:51:37,280
+fala justamente sobre no caso o foco
+
+1253
+00:51:35,679 --> 00:51:40,199
+deles foi engenheira de software como é
+
+1254
+00:51:37,280 --> 00:51:42,040
+que as pesquisas são divulgadas e e até
+
+1255
+00:51:40,199 --> 00:51:44,358
+eles falam assim não em alguns casos é o
+
+1256
+00:51:42,039 --> 00:51:46,039
+próprio pesquisador em outros casos são
+
+1257
+00:51:44,358 --> 00:51:48,078
+pessoas realmente que estão nas
+
+1258
+00:51:46,039 --> 00:51:50,719
+instituições nas organizações divulgando
+
+1259
+00:51:48,079 --> 00:51:52,240
+a pesquisa do dos pesquisadores Mas a
+
+1260
+00:51:50,719 --> 00:51:54,279
+pergunta para você é você acha
+
+1261
+00:51:52,239 --> 00:51:56,679
+importante para os pesquisadores hoje em
+
+1262
+00:51:54,280 --> 00:51:58,480
+dia participarem de redes sociais como o
+
+1263
+00:51:56,679 --> 00:52:00,919
+Linkedin
+
+1264
+00:51:58,480 --> 00:52:04,880
+Adolf essa é uma pergunta muito boa
+
+1265
+00:52:00,920 --> 00:52:07,639
+porque a minha entrada no no Linkedin
+
+1266
+00:52:04,880 --> 00:52:11,519
+foi completamente acidental eu tenho
+
+1267
+00:52:07,639 --> 00:52:14,480
+alergia enorme à redes sociais né Eu
+
+1268
+00:52:11,519 --> 00:52:17,480
+nunca Participei de nenhuma outra rede
+
+1269
+00:52:14,480 --> 00:52:19,920
+social quando eu tava quando eu tava
+
+1270
+00:52:17,480 --> 00:52:21,599
+morando na Itália quando começou a
+
+1271
+00:52:19,920 --> 00:52:23,318
+pandemia e vocês se lembram que a
+
+1272
+00:52:21,599 --> 00:52:25,760
+pandemia na Itália foi particularmente
+
+1273
+00:52:23,318 --> 00:52:28,279
+né foi um desafio particularmente grande
+
+1274
+00:52:25,760 --> 00:52:31,400
+né eu tava lá em Trento morava em Trento
+
+1275
+00:52:28,280 --> 00:52:34,480
+no no início da pandemia E aí as a gente
+
+1276
+00:52:31,400 --> 00:52:36,760
+realmente não podia sair de casa e aí eu
+
+1277
+00:52:34,480 --> 00:52:40,159
+trancado em casa todo mundo trancado em
+
+1278
+00:52:36,760 --> 00:52:43,599
+casa eh meio que para não enlouquecer eu
+
+1279
+00:52:40,159 --> 00:52:45,039
+acidentalmente comecei eh com um a gente
+
+1280
+00:52:43,599 --> 00:52:47,119
+tinha Deixa eu voltar uma coisa antes a
+
+1281
+00:52:45,039 --> 00:52:48,798
+gente tinha se comprometido eu sou muito
+
+1282
+00:52:47,119 --> 00:52:51,880
+ligado à comunidade de modelagem
+
+1283
+00:52:48,798 --> 00:52:53,960
+conceitual a conferência R né e eh a
+
+1284
+00:52:51,880 --> 00:52:56,480
+gente ia se comprometido em organizar a
+
+1285
+00:52:53,960 --> 00:52:58,400
+primeira escola de verão de modelagem
+
+1286
+00:52:56,480 --> 00:52:59,719
+conceitual em bous ano e a gente falou
+
+1287
+00:52:58,400 --> 00:53:01,240
+olha não faz menor sentido ter uma
+
+1288
+00:52:59,719 --> 00:53:03,199
+escola de verão tinha uma toda uma
+
+1289
+00:53:01,239 --> 00:53:04,318
+expectativa com relação a isso não faz
+
+1290
+00:53:03,199 --> 00:53:05,759
+menor sentido ter a escola de verão
+
+1291
+00:53:04,318 --> 00:53:07,358
+virtual n escola de verão Só serve para
+
+1292
+00:53:05,760 --> 00:53:09,319
+Os estudantes se conhecerem para
+
+1293
+00:53:07,358 --> 00:53:12,960
+começarem a criar uma rede e tal Eu
+
+1294
+00:53:09,318 --> 00:53:15,599
+falei mas olha tem um momento muito eh
+
+1295
+00:53:12,960 --> 00:53:17,480
+propício com uma energia muito boa aqui
+
+1296
+00:53:15,599 --> 00:53:19,359
+eu eu acho que vou aproveitar de alguma
+
+1297
+00:53:17,480 --> 00:53:22,079
+forma todas essas pessoas que tinham se
+
+1298
+00:53:19,358 --> 00:53:25,639
+prontificado e ensinar eh na escola de
+
+1299
+00:53:22,079 --> 00:53:28,400
+verão e aí comecei um um podcast assim
+
+1300
+00:53:25,639 --> 00:53:31,558
+um videocast mais improvisado impossível
+
+1301
+00:53:28,400 --> 00:53:35,798
+do quarto do meu filho que chamava Eros
+
+1302
+00:53:31,559 --> 00:53:37,680
+er online Summer seminars e era
+
+1303
+00:53:35,798 --> 00:53:39,559
+basicamente Ficava batendo papo com as
+
+1304
+00:53:37,679 --> 00:53:42,279
+pessoas assim mas as pessoas eram muito
+
+1305
+00:53:39,559 --> 00:53:44,040
+boas assim o o os entrevistados eram
+
+1306
+00:53:42,280 --> 00:53:47,079
+muito bons então era um monte de gente
+
+1307
+00:53:44,039 --> 00:53:49,480
+Peter chane Daniel Jackson e Peter
+
+1308
+00:53:47,079 --> 00:53:52,599
+Garden Force Melanie Mitchell era um
+
+1309
+00:53:49,480 --> 00:53:54,480
+monte de gente muito V Vander era 20
+
+1310
+00:53:52,599 --> 00:53:56,079
+pessoas excepcionais que a gente se
+
+1311
+00:53:54,480 --> 00:53:57,838
+encontrava toda quarta-feira às 4 horas
+
+1312
+00:53:56,079 --> 00:54:01,160
+da tarde porque era um negócio que batia
+
+1313
+00:53:57,838 --> 00:54:03,199
+desde a Austrália até mas né era era
+
+1314
+00:54:01,159 --> 00:54:05,798
+gerenciável da Austrália
+
+1315
+00:54:03,199 --> 00:54:09,598
+a costeste Estados
+
+1316
+00:54:05,798 --> 00:54:12,519
+Unidos esse negócio ganhou uma uma
+
+1317
+00:54:09,599 --> 00:54:17,559
+dimensão que teve um dia que eu tinham
+
+1318
+00:54:12,519 --> 00:54:21,318
+800 pessoas lá né E e aí eu falei mas
+
+1319
+00:54:17,559 --> 00:54:23,920
+que coisa doida né que como é que essas
+
+1320
+00:54:21,318 --> 00:54:25,358
+coisas saem do controle e aí eu comecei
+
+1321
+00:54:23,920 --> 00:54:28,318
+na época quando eu não sabia que esse
+
+1322
+00:54:25,358 --> 00:54:31,239
+negócio ganh uma ão tão grande eu
+
+1323
+00:54:28,318 --> 00:54:32,480
+comecei a eu comecei Eu usei o Linkedin
+
+1324
+00:54:31,239 --> 00:54:33,639
+pela primeira vez na vida para porque
+
+1325
+00:54:32,480 --> 00:54:35,079
+era o único jeito que eu tinha para
+
+1326
+00:54:33,639 --> 00:54:37,519
+falar com uma das pessoas que eu queria
+
+1327
+00:54:35,079 --> 00:54:39,160
+convidar porque ela não respondia e-mail
+
+1328
+00:54:37,519 --> 00:54:40,480
+E aí me falaram olha não responde e-mail
+
+1329
+00:54:39,159 --> 00:54:43,318
+Mas responde LinkedIn aí eu criei uma
+
+1330
+00:54:40,480 --> 00:54:46,199
+conta do LinkedIn e fui fazer isso
+
+1331
+00:54:43,318 --> 00:54:48,679
+eh e aí comecei a falar deixa eu ver o
+
+1332
+00:54:46,199 --> 00:54:50,838
+que acontece quando eu come comecei a
+
+1333
+00:54:48,679 --> 00:54:53,118
+colocar as chamadas para esse Eros lá
+
+1334
+00:54:50,838 --> 00:54:55,039
+mas era só o que eu fazia depois de um
+
+1335
+00:54:53,119 --> 00:54:56,838
+tempo eu falei olha vou colocar uns
+
+1336
+00:54:55,039 --> 00:54:59,920
+artigos aqui para ver o que
+
+1337
+00:54:56,838 --> 00:55:02,759
+acontece e mas eu fazia de maneira muito
+
+1338
+00:54:59,920 --> 00:55:07,318
+tímida e muito irregular né o que eu
+
+1339
+00:55:02,760 --> 00:55:10,480
+percebi é que o linked me deu acesso a
+
+1340
+00:55:07,318 --> 00:55:11,920
+uma quantidade enorme de pessoas
+
+1341
+00:55:10,480 --> 00:55:14,159
+interessantes fora da comunidade
+
+1342
+00:55:11,920 --> 00:55:16,480
+acadêmica gente que eu nunca nunca tinha
+
+1343
+00:55:14,159 --> 00:55:18,920
+conhecido e nunca encontraria numa
+
+1344
+00:55:16,480 --> 00:55:20,559
+conferência acadêmica tradicional eu
+
+1345
+00:55:18,920 --> 00:55:21,920
+comecei eu comecei a ter um bocado de
+
+1346
+00:55:20,559 --> 00:55:23,119
+projeto por conta disso porque as
+
+1347
+00:55:21,920 --> 00:55:24,960
+pessoas entraram em contato comigo e
+
+1348
+00:55:23,119 --> 00:55:26,798
+falam Olha eu quero eh a gente tá
+
+1349
+00:55:24,960 --> 00:55:28,199
+trabalhando exatamente nessa áa esse
+
+1350
+00:55:26,798 --> 00:55:30,400
+negócio que você descreve Nesse artigo a
+
+1351
+00:55:28,199 --> 00:55:33,199
+gente precisa exatamente disso e de
+
+1352
+00:55:30,400 --> 00:55:35,358
+empresas e de governo e esse negócio
+
+1353
+00:55:33,199 --> 00:55:39,118
+começou a ter uma uma
+
+1354
+00:55:35,358 --> 00:55:43,719
+eh sabe uma um efeito que eu nunca
+
+1355
+00:55:39,119 --> 00:55:46,318
+poderia esperar assim na minha timidez e
+
+1356
+00:55:43,719 --> 00:55:47,759
+zona de conforto acadêmica eh esse
+
+1357
+00:55:46,318 --> 00:55:49,838
+negócio Acabou tendo um efeito que eu
+
+1358
+00:55:47,760 --> 00:55:51,680
+fiquei muito impressionado eu eu
+
+1359
+00:55:49,838 --> 00:55:53,318
+gostaria até de ler esse artigo porque
+
+1360
+00:55:51,679 --> 00:55:54,480
+com certeza eu tenho muito que aprender
+
+1361
+00:55:53,318 --> 00:55:56,599
+de como fazer esse negócio eu vou
+
+1362
+00:55:54,480 --> 00:55:59,798
+fazendo de uma maneira assim sem de novo
+
+1363
+00:55:56,599 --> 00:56:02,039
+sem nenhuma regularidade Tem se tornado
+
+1364
+00:55:59,798 --> 00:56:05,079
+mais frequente porque o grupo o nosso
+
+1365
+00:56:02,039 --> 00:56:07,720
+grupo aqui é é um grupo muito muito
+
+1366
+00:56:05,079 --> 00:56:09,798
+interessante muito bom muito coeso é um
+
+1367
+00:56:07,719 --> 00:56:11,239
+grupo que me acompanha do pessoal que
+
+1368
+00:56:09,798 --> 00:56:12,838
+começou a fazer doutorado comigo quando
+
+1369
+00:56:11,239 --> 00:56:15,159
+eu tava no Brasil foi comigo para
+
+1370
+00:56:12,838 --> 00:56:17,798
+bolzano fez algumas pessoas fizeram
+
+1371
+00:56:15,159 --> 00:56:19,038
+doutorado em bolzano vieram para Holanda
+
+1372
+00:56:17,798 --> 00:56:20,759
+depois comigo então um grupo que
+
+1373
+00:56:19,039 --> 00:56:23,480
+trabalha junto há muito tempo tem gente
+
+1374
+00:56:20,760 --> 00:56:25,160
+que trabalha comigo há 15 anos e é um
+
+1375
+00:56:23,480 --> 00:56:26,920
+pessoal muito bom é é um time
+
+1376
+00:56:25,159 --> 00:56:30,679
+excepcional esse po
+
+1377
+00:56:26,920 --> 00:56:32,680
+produz e muito e aí eu fico querendo
+
+1378
+00:56:30,679 --> 00:56:34,719
+contar pras pessoas o que que o que que
+
+1379
+00:56:32,679 --> 00:56:36,038
+esse grupo tá fazendo né É tudo um
+
+1380
+00:56:34,719 --> 00:56:38,480
+esforço de grupo assim eu sou o
+
+1381
+00:56:36,039 --> 00:56:40,960
+porta-voz das coisas mas principalmente
+
+1382
+00:56:38,480 --> 00:56:44,719
+eh para mim foi uma grande surpresa
+
+1383
+00:56:40,960 --> 00:56:47,318
+assim o o tamanho da repercussão e quão
+
+1384
+00:56:44,719 --> 00:56:48,759
+interessante é conversar com as pessoas
+
+1385
+00:56:47,318 --> 00:56:52,279
+que estão resolvendo todos esses
+
+1386
+00:56:48,760 --> 00:56:52,280
+problemas no mundo real um
+
+1387
+00:56:52,920 --> 00:56:58,480
+aprendizado muito legal
+
+1388
+00:56:55,239 --> 00:57:01,838
+saber bem aí numa entrevista sua para o
+
+1389
+00:56:58,480 --> 00:57:04,240
+podcast fcast você menciona que seu
+
+1390
+00:57:01,838 --> 00:57:06,318
+grupo na universidade bzim bolzano na
+
+1391
+00:57:04,239 --> 00:57:09,038
+Itália tinha vários projetos com a
+
+1392
+00:57:06,318 --> 00:57:11,318
+indústria acontece o mesmo em seu grupo
+
+1393
+00:57:09,039 --> 00:57:13,839
+na Holanda e como isto acontece Como que
+
+1394
+00:57:11,318 --> 00:57:17,480
+você consegue fazer esses projetos com a
+
+1395
+00:57:13,838 --> 00:57:19,078
+indústria ah então essa é uma ótima
+
+1396
+00:57:17,480 --> 00:57:21,480
+pergunta também eu posso falar o dia
+
+1397
+00:57:19,079 --> 00:57:24,119
+inteiro disso Eh Maria Cláudia é um tema
+
+1398
+00:57:21,480 --> 00:57:27,760
+que eu gosto muito assim na em bolzano a
+
+1399
+00:57:24,119 --> 00:57:29,079
+gente eu tinha um grupo com umas 20 25
+
+1400
+00:57:27,760 --> 00:57:31,440
+pessoas
+
+1401
+00:57:29,079 --> 00:57:34,200
+eh variava no tempo mas vamos dizer
+
+1402
+00:57:31,440 --> 00:57:35,960
+entre 20 e 25 pessoas e fora as pessoas
+
+1403
+00:57:34,199 --> 00:57:39,358
+que tinham posição permanente
+
+1404
+00:57:35,960 --> 00:57:41,519
+eh que era minoria do grupo o resto todo
+
+1405
+00:57:39,358 --> 00:57:45,199
+mundo era financiado com dinheiro da
+
+1406
+00:57:41,519 --> 00:57:47,159
+indústria eh e a gente é muitos projetos
+
+1407
+00:57:45,199 --> 00:57:49,598
+a gente por exemplo teve um projeto que
+
+1408
+00:57:47,159 --> 00:57:52,719
+definiu um padrão de intercâmbio de
+
+1409
+00:57:49,599 --> 00:57:56,920
+dados para para toda região turística
+
+1410
+00:57:52,719 --> 00:57:59,558
+que pega eh o alto AD né que o Tirol
+
+1411
+00:57:56,920 --> 00:58:01,798
+Tirol italiano Tirol austríaco a Bavária
+
+1412
+00:57:59,559 --> 00:58:03,559
+Eslovênia que é um um padrão baseado
+
+1413
+00:58:01,798 --> 00:58:05,358
+numa monologia de eventos que a gente
+
+1414
+00:58:03,559 --> 00:58:07,640
+tinha feito essa foi uma experiência
+
+1415
+00:58:05,358 --> 00:58:09,639
+maravilhosa porque eram que que o
+
+1416
+00:58:07,639 --> 00:58:11,759
+pessoal chama de frenemies né Friends
+
+1417
+00:58:09,639 --> 00:58:13,960
+Plus enemies é o pessoal que trabalha
+
+1418
+00:58:11,760 --> 00:58:15,799
+que que compete e Coopera ao mesmo tempo
+
+1419
+00:58:13,960 --> 00:58:17,400
+que eram empresas mais ou menos no mesmo
+
+1420
+00:58:15,798 --> 00:58:18,880
+setor Mas eles precisavam fazer
+
+1421
+00:58:17,400 --> 00:58:21,240
+intercâmbio de dados e eles estavam
+
+1422
+00:58:18,880 --> 00:58:24,640
+brigando Há dois anos para tentar achar
+
+1423
+00:58:21,239 --> 00:58:26,399
+o modelo que de de referência e eles a
+
+1424
+00:58:24,639 --> 00:58:28,558
+gente em dois meses consegu conseguiu
+
+1425
+00:58:26,400 --> 00:58:30,720
+achar esse modelo para eles assim né
+
+1426
+00:58:28,559 --> 00:58:32,359
+porque técnica assim a gente usava as
+
+1427
+00:58:30,719 --> 00:58:33,759
+técnicas de como fazer isso de como
+
+1428
+00:58:32,358 --> 00:58:35,679
+chegar a esse consenso de como
+
+1429
+00:58:33,760 --> 00:58:37,520
+estruturar o modelo e esse pessoal
+
+1430
+00:58:35,679 --> 00:58:39,118
+adorou esse negócio sabe aquela história
+
+1431
+00:58:37,519 --> 00:58:40,719
+de não tem nada mais prático do que uma
+
+1432
+00:58:39,119 --> 00:58:42,119
+boa teoria esse pessoal falava Olha a
+
+1433
+00:58:40,719 --> 00:58:43,439
+gente quer mais disso vamos fazer mais
+
+1434
+00:58:42,119 --> 00:58:45,920
+diss a gente fez outros projetos com
+
+1435
+00:58:43,440 --> 00:58:49,000
+eles a gente tinha projetos na área de
+
+1436
+00:58:45,920 --> 00:58:51,760
+segurança cibernética eh com empresas
+
+1437
+00:58:49,000 --> 00:58:53,880
+também que por muitos anos a gente é
+
+1438
+00:58:51,760 --> 00:58:55,599
+projeto com com o governo Holandês de
+
+1439
+00:58:53,880 --> 00:58:57,200
+integração de sistemas de saúde em larga
+
+1440
+00:58:55,599 --> 00:58:58,400
+escala quando eu ainda tava na Itália
+
+1441
+00:58:57,199 --> 00:59:00,439
+então a gente fazia isso com muita
+
+1442
+00:58:58,400 --> 00:59:02,680
+frequência quando eu mudei para Holanda
+
+1443
+00:59:00,440 --> 00:59:05,960
+eh o grupo na Holanda é maior a gente
+
+1444
+00:59:02,679 --> 00:59:07,358
+tem umas 60 pessoas né Eh essa estrutura
+
+1445
+00:59:05,960 --> 00:59:10,838
+aqui na Holanda é muito diferente do
+
+1446
+00:59:07,358 --> 00:59:12,358
+Brasil porque os departamentos S os
+
+1447
+00:59:10,838 --> 00:59:15,279
+grupos são
+
+1448
+00:59:12,358 --> 00:59:18,239
+departamentos é a mesma coisa na na em
+
+1449
+00:59:15,280 --> 00:59:20,720
+tente pelo menos né e os departamentos
+
+1450
+00:59:18,239 --> 00:59:23,558
+eles são unidades
+
+1451
+00:59:20,719 --> 00:59:26,118
+eh organizativas mesmo eles são
+
+1452
+00:59:23,559 --> 00:59:27,599
+estruturas funcionais da da Universidade
+
+1453
+00:59:26,119 --> 00:59:29,119
+a faculdade é estruturada em
+
+1454
+00:59:27,599 --> 00:59:31,640
+departamentos esse departamento por
+
+1455
+00:59:29,119 --> 00:59:35,039
+exemplo esse de semântica segurança
+
+1456
+00:59:31,639 --> 00:59:37,400
+cibernética e e serviços que eu que eu
+
+1457
+00:59:35,039 --> 00:59:40,480
+coordeno ele é ao mesmo tempo uma
+
+1458
+00:59:37,400 --> 00:59:42,559
+cadeira Ou seja eu sou o ocupante da
+
+1459
+00:59:40,480 --> 00:59:45,039
+cadeira e portanto chefe do departamento
+
+1460
+00:59:42,559 --> 00:59:48,039
+em teoria para sempre
+
+1461
+00:59:45,039 --> 00:59:50,319
+eh e aí você é chefe desse departamento
+
+1462
+00:59:48,039 --> 00:59:52,280
+então é um é um uma estrutura maior
+
+1463
+00:59:50,318 --> 00:59:54,199
+assim umas 60 pessoas Então não é
+
+1464
+00:59:52,280 --> 00:59:56,640
+totalmente financiada por ind não mas a
+
+1465
+00:59:54,199 --> 00:59:59,679
+gente tem muitos projetos e e isso é uma
+
+1466
+00:59:56,639 --> 01:00:02,118
+coisa que é muito incentivada sabe aqui
+
+1467
+00:59:59,679 --> 01:00:04,598
+a gente eu participei por exemplo da do
+
+1468
+01:00:02,119 --> 01:00:08,000
+processo de avaliação da da faculdade
+
+1469
+01:00:04,599 --> 01:00:09,960
+pelo governo né pelo governo Holandês e
+
+1470
+01:00:08,000 --> 01:00:12,199
+a universidade produz esses relatórios
+
+1471
+01:00:09,960 --> 01:00:14,920
+né como como a gente faz no Brasil né de
+
+1472
+01:00:12,199 --> 01:00:18,679
+produzir relatório para PR Caps ou pro
+
+1473
+01:00:14,920 --> 01:00:21,680
+MEC de maneira geral e aí eu eu fiquei
+
+1474
+01:00:18,679 --> 01:00:24,798
+impressionado com a a valorização que a
+
+1475
+01:00:21,679 --> 01:00:26,598
+faculdade dá um pra quantidade de
+
+1476
+01:00:24,798 --> 01:00:29,759
+projeto que a gente tem com indústria
+
+1477
+01:00:26,599 --> 01:00:31,200
+então assim se você faz projetos com a
+
+1478
+01:00:29,760 --> 01:00:33,359
+indústria isso é muito valorizado porque
+
+1479
+01:00:31,199 --> 01:00:36,798
+é um sinal Claro de relevância
+
+1480
+01:00:33,358 --> 01:00:39,719
+né a gente não faz nada que seja fora da
+
+1481
+01:00:36,798 --> 01:00:42,920
+nossa pesquisa zero é tudo relacionado à
+
+1482
+01:00:39,719 --> 01:00:45,318
+pesquisa e não é nem muito aplicado não
+
+1483
+01:00:42,920 --> 01:00:47,200
+assim Fora esse exemplo era um pouco né
+
+1484
+01:00:45,318 --> 01:00:49,440
+esse exemplo que que eu falei de ban mas
+
+1485
+01:00:47,199 --> 01:00:51,358
+em geral a gente pesquisa temas por
+
+1486
+01:00:49,440 --> 01:00:53,200
+exemplo a gente trabalhando nessa área
+
+1487
+01:00:51,358 --> 01:00:55,318
+de cibersegurança a gente de segurança
+
+1488
+01:00:53,199 --> 01:00:57,118
+cibernética a gente trabalhou eh na
+
+1489
+01:00:55,318 --> 01:00:59,599
+ideia de propagação de risco O que que
+
+1490
+01:00:57,119 --> 01:01:02,000
+significa de fato propagação de de risco
+
+1491
+01:00:59,599 --> 01:01:04,680
+é um problema teórico assim que que a
+
+1492
+01:01:02,000 --> 01:01:07,440
+gente que não tinha sido resolvido a
+
+1493
+01:01:04,679 --> 01:01:10,038
+gente fez isso junto com a com a accent
+
+1494
+01:01:07,440 --> 01:01:11,079
+aent transformou isso num produto que
+
+1495
+01:01:10,039 --> 01:01:14,559
+chama
+
+1496
+01:01:11,079 --> 01:01:16,440
+eh trusted identity Engine que ganhou um
+
+1497
+01:01:14,559 --> 01:01:18,720
+prêmio internacional com uma melhor
+
+1498
+01:01:16,440 --> 01:01:20,519
+ferramenta de inovação nessa área usando
+
+1499
+01:01:18,719 --> 01:01:21,959
+uma teoria de propagação de risco que a
+
+1500
+01:01:20,519 --> 01:01:24,599
+gente tinha feito que era uma teoria
+
+1501
+01:01:21,960 --> 01:01:26,318
+publicou artigo em conferência ótima e
+
+1502
+01:01:24,599 --> 01:01:28,240
+por aí vai então a univ Universidade
+
+1503
+01:01:26,318 --> 01:01:30,960
+valorizava imensamente projeto com
+
+1504
+01:01:28,239 --> 01:01:32,798
+indústria e a outra coisa a universidade
+
+1505
+01:01:30,960 --> 01:01:35,240
+valoriza o percentual dos professores
+
+1506
+01:01:32,798 --> 01:01:37,519
+que não tem uma posição soló Lar então
+
+1507
+01:01:35,239 --> 01:01:39,199
+se você tiver posições em outros lugares
+
+1508
+01:01:37,519 --> 01:01:41,239
+isso é uma coisa que é visto como um
+
+1509
+01:01:39,199 --> 01:01:43,358
+sinal do tipo olha essas outras
+
+1510
+01:01:41,239 --> 01:01:47,078
+universidades muito boas também querem o
+
+1511
+01:01:43,358 --> 01:01:48,838
+que a gente tem então por exemplo eh eu
+
+1512
+01:01:47,079 --> 01:01:50,000
+eu a gente tava conversando não sei se a
+
+1513
+01:01:48,838 --> 01:01:51,960
+gente tá conversando quando já tava
+
+1514
+01:01:50,000 --> 01:01:54,400
+gravando né que eu que eu eu tenho essa
+
+1515
+01:01:51,960 --> 01:01:57,079
+posição na Suécia agora também
+
+1516
+01:01:54,400 --> 01:01:59,278
+eh e a agora eu também tenho uma outra
+
+1517
+01:01:57,079 --> 01:02:01,640
+posição mais ou menos assim mas essa é
+
+1518
+01:01:59,278 --> 01:02:04,318
+de curta duração é para fazer um esse
+
+1519
+01:02:01,639 --> 01:02:08,118
+ano só na universidade de Viena na na
+
+1520
+01:02:04,318 --> 01:02:09,798
+universidade técnica de Viena que essa e
+
+1521
+01:02:08,119 --> 01:02:10,920
+a coisa da Suécia era eles queriam que
+
+1522
+01:02:09,798 --> 01:02:13,679
+eu ficasse
+
+1523
+01:02:10,920 --> 01:02:15,559
+realmente um tempo lá 30% do meu tempo
+
+1524
+01:02:13,679 --> 01:02:17,239
+lá e eu falei olha não dá pessoal não
+
+1525
+01:02:15,559 --> 01:02:20,160
+consigo mais eu fiquei dois anos entre
+
+1526
+01:02:17,239 --> 01:02:22,679
+bolzano e tente indo e voltando Tava um
+
+1527
+01:02:20,159 --> 01:02:24,558
+pouco cansado da história falei não dá
+
+1528
+01:02:22,679 --> 01:02:26,519
+mas eu posso fazer um acordo com vocês
+
+1529
+01:02:24,559 --> 01:02:28,160
+que eu vou aí assim que eu toda vez que
+
+1530
+01:02:26,519 --> 01:02:30,278
+eu puder que eu conseguir eu vou e vocês
+
+1531
+01:02:28,159 --> 01:02:33,118
+só me pagam quando eu for aí eles
+
+1532
+01:02:30,278 --> 01:02:36,079
+concordaram com esse sistema Super
+
+1533
+01:02:33,119 --> 01:02:39,119
+flexível e a universidade acha isso
+
+1534
+01:02:36,079 --> 01:02:41,200
+ótimo assim o meu dinan né o chefe da
+
+1535
+01:02:39,119 --> 01:02:42,880
+faculdade ele achou isso ótimo ele falou
+
+1536
+01:02:41,199 --> 01:02:45,598
+ótimo
+
+1537
+01:02:42,880 --> 01:02:47,039
+Viena Estocolmo que maravilha você tá
+
+1538
+01:02:45,599 --> 01:02:49,880
+fazendo uma ponte com todos esses
+
+1539
+01:02:47,039 --> 01:02:52,400
+lugares Que ótimo você passar tempo lá e
+
+1540
+01:02:49,880 --> 01:02:54,599
+trazer eles Principalmente nesse caso né
+
+1541
+01:02:52,400 --> 01:02:57,318
+que são universidades conhecidas também
+
+1542
+01:02:54,599 --> 01:03:00,278
+muito boas Eles veem isso como um sinal
+
+1543
+01:02:57,318 --> 01:03:03,079
+de valorização do do do corpo Acadêmico
+
+1544
+01:03:00,278 --> 01:03:05,519
+da Universidade né gostam muito disso e
+
+1545
+01:03:03,079 --> 01:03:06,960
+isso é uma diferença que que marca muito
+
+1546
+01:03:05,519 --> 01:03:09,920
+né se a gente comparar com o sistema
+
+1547
+01:03:06,960 --> 01:03:13,318
+brasileiro é sim aqui a gente tem que
+
+1548
+01:03:09,920 --> 01:03:15,240
+provar que não tá indo passear né e mas
+
+1549
+01:03:13,318 --> 01:03:17,000
+aí eu me me veio uma curiosidade nessa
+
+1550
+01:03:15,239 --> 01:03:19,798
+questão das parcerias com com a
+
+1551
+01:03:17,000 --> 01:03:21,920
+indústria que é a questão da assim
+
+1552
+01:03:19,798 --> 01:03:23,639
+Imagino que mesmo na Europa para fazer
+
+1553
+01:03:21,920 --> 01:03:26,000
+uma parceria com a indústria tem ter que
+
+1554
+01:03:23,639 --> 01:03:29,558
+ter toda uma série de documentações de
+
+1555
+01:03:26,000 --> 01:03:30,920
+regras e toda uma burocracia a estrutura
+
+1556
+01:03:29,559 --> 01:03:33,400
+da Universidade ajuda com essa
+
+1557
+01:03:30,920 --> 01:03:35,920
+burocracia muito muito então você tem
+
+1558
+01:03:33,400 --> 01:03:37,119
+escritórios dedicados só para isso né Eu
+
+1559
+01:03:35,920 --> 01:03:38,639
+acho que a primeira coisa que é
+
+1560
+01:03:37,119 --> 01:03:40,920
+interessante que você tem é uma
+
+1561
+01:03:38,639 --> 01:03:43,318
+legislação um pouco mais clara né Assim
+
+1562
+01:03:40,920 --> 01:03:45,318
+você não tem segurança jurídica as
+
+1563
+01:03:43,318 --> 01:03:48,239
+regras são muito Claras porque isso é
+
+1564
+01:03:45,318 --> 01:03:49,558
+muito comum e porque também você não tem
+
+1565
+01:03:48,239 --> 01:03:52,759
+casos
+
+1566
+01:03:49,559 --> 01:03:55,920
+eh estranhos né casos de desvio de
+
+1567
+01:03:52,760 --> 01:03:59,000
+função ou Nada disso assim t n tem tá
+
+1568
+01:03:55,920 --> 01:04:01,318
+falando nada que que esteja a margem da
+
+1569
+01:03:59,000 --> 01:04:03,119
+Norma assim mas eu acho que no Brasil eu
+
+1570
+01:04:01,318 --> 01:04:04,358
+via muitos casos onde as Universidades
+
+1571
+01:04:03,119 --> 01:04:06,119
+fazam coisas que não era para elas
+
+1572
+01:04:04,358 --> 01:04:07,719
+estarem fazendo assim né que era meio
+
+1573
+01:04:06,119 --> 01:04:09,200
+desvio de função ela tá competindo com
+
+1574
+01:04:07,719 --> 01:04:10,480
+uma coisa que poderia ser fazendo uma
+
+1575
+01:04:09,199 --> 01:04:13,000
+coisa que poderia ser comprada no
+
+1576
+01:04:10,480 --> 01:04:14,960
+mercado aqui é muito claro a
+
+1577
+01:04:13,000 --> 01:04:17,838
+universidade quer ver uma coisa que a
+
+1578
+01:04:14,960 --> 01:04:21,639
+gente tem que deixa isso muito claro a
+
+1579
+01:04:17,838 --> 01:04:24,759
+Holanda tem tem uma ideia que é é um é
+
+1580
+01:04:21,639 --> 01:04:28,000
+um o que eles cham de Engineering Doctor
+
+1581
+01:04:24,760 --> 01:04:31,119
+é um é uma coisa entre um mestrado e um
+
+1582
+01:04:28,000 --> 01:04:33,318
+doutorado essa é uma posição que é
+
+1583
+01:04:31,119 --> 01:04:35,318
+financiada pela indústria para alguém
+
+1584
+01:04:33,318 --> 01:04:38,679
+fazer um meio doutorado é alguém que já
+
+1585
+01:04:35,318 --> 01:04:41,798
+fez mestrado então é um um um um grau
+
+1586
+01:04:38,679 --> 01:04:44,239
+pós mestre assim né pós mestrado onde
+
+1587
+01:04:41,798 --> 01:04:48,199
+alguém vai resolver um problema de
+
+1588
+01:04:44,239 --> 01:04:49,679
+pesquisa ligado ao interesse de alguma
+
+1589
+01:04:48,199 --> 01:04:51,879
+organização ou de um grupo de
+
+1590
+01:04:49,679 --> 01:04:53,038
+organizações financiado por por essas
+
+1591
+01:04:51,880 --> 01:04:55,880
+instituições
+
+1592
+01:04:53,039 --> 01:04:57,920
+né frequentemente esse negócio vir um
+
+1593
+01:04:55,880 --> 01:04:59,720
+doutorado a pessoa faz esses dois anos
+
+1594
+01:04:57,920 --> 01:05:01,440
+financiado pela empresa a empresa se
+
+1595
+01:04:59,719 --> 01:05:04,118
+interessa com resultado financia os
+
+1596
+01:05:01,440 --> 01:05:07,920
+outros dois e aí isso se transforma num
+
+1597
+01:05:04,119 --> 01:05:09,480
+atj de doutorado né então tem tem várias
+
+1598
+01:05:07,920 --> 01:05:11,318
+O pessoal já estudou todas essas
+
+1599
+01:05:09,480 --> 01:05:14,639
+modalidades assim então tem regras muito
+
+1600
+01:05:11,318 --> 01:05:17,038
+Claras e tem um processo muito ágil Sabe
+
+1601
+01:05:14,639 --> 01:05:19,679
+tem um processo muito ágil assim de os
+
+1602
+01:05:17,039 --> 01:05:21,359
+escritórios tem tem a proteção jurídica
+
+1603
+01:05:19,679 --> 01:05:23,078
+essa é uma outra coisa que é que é uma
+
+1604
+01:05:21,358 --> 01:05:26,278
+uma diferença muito grande que eu me
+
+1605
+01:05:23,079 --> 01:05:28,359
+lembro no Brasil é que tudo que você faz
+
+1606
+01:05:26,278 --> 01:05:30,960
+Como funcionário da Universidade você
+
+1607
+01:05:28,358 --> 01:05:32,358
+age em nome da Universidade Então se
+
+1608
+01:05:30,960 --> 01:05:35,039
+aconteceu algum problema é um problema
+
+1609
+01:05:32,358 --> 01:05:36,880
+da Universidade não é um problema seu né
+
+1610
+01:05:35,039 --> 01:05:38,119
+eu me lembrava quando eu tava indo no
+
+1611
+01:05:36,880 --> 01:05:39,720
+Brasil que eu organizei algumas
+
+1612
+01:05:38,119 --> 01:05:43,760
+conferências internacionais eu tentava
+
+1613
+01:05:39,719 --> 01:05:46,199
+explicar pras pessoas eh que eu recebia
+
+1614
+01:05:43,760 --> 01:05:50,039
+dinheiro de para PR conferência da minha
+
+1615
+01:05:46,199 --> 01:05:52,000
+conta pessoal né então assim eu eu ia
+
+1616
+01:05:50,039 --> 01:05:53,920
+organizar como professor da universidade
+
+1617
+01:05:52,000 --> 01:05:56,639
+aí eu fazia o projeto do CNPQ o CNPQ
+
+1618
+01:05:53,920 --> 01:05:58,159
+pagava na minha conta pessoal pess E aí
+
+1619
+01:05:56,639 --> 01:05:59,798
+se acontecesse alguma coisa errada é
+
+1620
+01:05:58,159 --> 01:06:02,239
+problema meu apesar de que eu tava
+
+1621
+01:05:59,798 --> 01:06:04,679
+fazendo aquilo Como funcionário da
+
+1622
+01:06:02,239 --> 01:06:06,118
+Universidade não né Você tá trabalhando
+
+1623
+01:06:04,679 --> 01:06:07,480
+em nome da Universidade assim você tem
+
+1624
+01:06:06,119 --> 01:06:11,000
+que ter a proteção jurídica da
+
+1625
+01:06:07,480 --> 01:06:14,240
+universidade e E aí tem isso tem esses a
+
+1626
+01:06:11,000 --> 01:06:16,559
+gente em geral a Minha experiência é que
+
+1627
+01:06:14,239 --> 01:06:21,159
+a gente tem contratos que são muito
+
+1628
+01:06:16,559 --> 01:06:25,920
+claros e e e feitos de maneira segura e
+
+1629
+01:06:21,159 --> 01:06:25,920
+ágil assim essa é uma grande diferença
+
+1630
+01:06:27,719 --> 01:06:34,358
+bem E caso alguém tenha se interessado
+
+1631
+01:06:31,039 --> 01:06:36,160
+pelos temas que discutimos hoje e queira
+
+1632
+01:06:34,358 --> 01:06:38,119
+trabalhar com você Quais são as
+
+1633
+01:06:36,159 --> 01:06:41,159
+possibilidades de ir estudar no seu
+
+1634
+01:06:38,119 --> 01:06:44,160
+grupo de pesquisa na universidade de
+
+1635
+01:06:41,159 --> 01:06:46,038
+tuent então assim as portas estão sempre
+
+1636
+01:06:44,159 --> 01:06:48,199
+abertas pros brasileiros a gente tem uma
+
+1637
+01:06:46,039 --> 01:06:50,599
+quantidade enorme de brasileiros no no
+
+1638
+01:06:48,199 --> 01:06:53,078
+grupo eh eu acho que um quarto mais ou
+
+1639
+01:06:50,599 --> 01:06:57,079
+menos do grupo é brasileiro
+
+1640
+01:06:53,079 --> 01:06:59,240
+eh a gente inclusive alunos de doutorado
+
+1641
+01:06:57,079 --> 01:07:02,519
+muitos alunos excelentes todos
+
+1642
+01:06:59,239 --> 01:07:04,759
+excelentes Assim eh a gente tem feito
+
+1643
+01:07:02,519 --> 01:07:07,038
+Olha tem várias coisas que eu posso
+
+1644
+01:07:04,760 --> 01:07:08,680
+falar A esse respeito uma assim falar um
+
+1645
+01:07:07,039 --> 01:07:10,440
+pouco sobre as diversas áreas né A gente
+
+1646
+01:07:08,679 --> 01:07:14,118
+trabalha muito na área de Ontologia a
+
+1647
+01:07:10,440 --> 01:07:14,119
+gente trabalha muito nessa área de ia
+
+1648
+01:07:14,199 --> 01:07:19,879
+neuroscan de fair né de gestão de dados
+
+1649
+01:07:17,239 --> 01:07:22,358
+Fair inclusive né de findable accessible
+
+1650
+01:07:19,880 --> 01:07:25,200
+interoperable reusable esses princípios
+
+1651
+01:07:22,358 --> 01:07:27,519
+de gestão de dados científicos eh um dos
+
+1652
+01:07:25,199 --> 01:07:32,038
+cri adores da ideia de fé é do nosso
+
+1653
+01:07:27,519 --> 01:07:33,480
+grupo aqui o Luiz Olavo bonino e a gente
+
+1654
+01:07:32,039 --> 01:07:35,720
+trabalha na área de segurança
+
+1655
+01:07:33,480 --> 01:07:37,880
+cibernética e aí tem de tudo tem desde o
+
+1656
+01:07:35,719 --> 01:07:39,879
+pessoal que trabalha em ontologia em
+
+1657
+01:07:37,880 --> 01:07:41,559
+segurança cibernética ontologia nos
+
+1658
+01:07:39,880 --> 01:07:43,480
+diversos domínio de segurança tem
+
+1659
+01:07:41,559 --> 01:07:45,519
+pessoal que trabalha em em segurança de
+
+1660
+01:07:43,480 --> 01:07:48,798
+software Tem um pessoal que trabalha com
+
+1661
+01:07:45,519 --> 01:07:51,480
+machine learning para para fazer né para
+
+1662
+01:07:48,798 --> 01:07:53,440
+detectar coisas para usar por exemplo e
+
+1663
+01:07:51,480 --> 01:07:56,358
+processo de linguagem natural para
+
+1664
+01:07:53,440 --> 01:07:58,400
+extrair grafos de conhecimento
+
+1665
+01:07:56,358 --> 01:08:01,318
+de relatórios de texto para depois fazer
+
+1666
+01:07:58,400 --> 01:08:04,278
+análise usando simulação ou verificação
+
+1667
+01:08:01,318 --> 01:08:06,318
+Lógica tem o pessoal que trabalha em
+
+1668
+01:08:04,278 --> 01:08:08,719
+criptografia pós quântica Então tem de
+
+1669
+01:08:06,318 --> 01:08:10,159
+tudo então o leque é muito grande eu
+
+1670
+01:08:08,719 --> 01:08:13,318
+convido as pessoas que estão
+
+1671
+01:08:10,159 --> 01:08:15,159
+interessadas a dar uma olhada na na na
+
+1672
+01:08:13,318 --> 01:08:18,359
+nossa página e e tudo que o pessoal tem
+
+1673
+01:08:15,159 --> 01:08:22,759
+feito lá a gente tem feito uma coisa que
+
+1674
+01:08:18,359 --> 01:08:26,000
+que tem me dado muita satisfação que é e
+
+1675
+01:08:22,759 --> 01:08:28,198
+criar acordos de dupla titulação com
+
+1676
+01:08:26,000 --> 01:08:31,520
+várias universidades brasileiras então a
+
+1677
+01:08:28,198 --> 01:08:34,559
+gente eh tem um acordo já com o pessoal
+
+1678
+01:08:31,520 --> 01:08:37,480
+de da USP se não me engano com o pessoal
+
+1679
+01:08:34,560 --> 01:08:41,000
+de São Carlos tá trabalhando
+
+1680
+01:08:37,479 --> 01:08:42,718
+eh com o pessoal do imi para estabelecer
+
+1681
+01:08:41,000 --> 01:08:44,920
+isso com pessoal do im com pessoal da
+
+1682
+01:08:42,719 --> 01:08:46,560
+UFS e tem outras universidades que a
+
+1683
+01:08:44,920 --> 01:08:49,600
+gente tá querendo fazer a mesma coisa
+
+1684
+01:08:46,560 --> 01:08:51,000
+assim eu acho que o da USP e o de São
+
+1685
+01:08:49,600 --> 01:08:52,719
+Carlos já estão assinados Se não me
+
+1686
+01:08:51,000 --> 01:08:55,679
+engano o de São Carlos acho que já tá
+
+1687
+01:08:52,719 --> 01:08:57,759
+assinado eh a gente tá nesse processo e
+
+1688
+01:08:55,679 --> 01:09:00,920
+a gente recebeu alguns alunos
+
+1689
+01:08:57,759 --> 01:09:02,198
+eh Nesse contexto e Isso é ótimo Essa é
+
+1690
+01:09:00,920 --> 01:09:04,199
+a melhor maneira de estabelecer
+
+1691
+01:09:02,198 --> 01:09:06,278
+colaboração né porque aí você tem um
+
+1692
+01:09:04,198 --> 01:09:08,278
+aluno em coorientação desde o primeiro
+
+1693
+01:09:06,279 --> 01:09:10,880
+dia do doutorado Você tem uma pessoa que
+
+1694
+01:09:08,279 --> 01:09:14,319
+vem para cá que que fica aqui com grupo
+
+1695
+01:09:10,880 --> 01:09:16,359
+tente tem na computação umas 300 pessoas
+
+1696
+01:09:14,319 --> 01:09:18,960
+trabalhando em todas as áreas então tem
+
+1697
+01:09:16,359 --> 01:09:23,719
+gente muito boa em todas as áreas então
+
+1698
+01:09:18,960 --> 01:09:26,119
+isso abre uma né uma um eh um mundo de
+
+1699
+01:09:23,719 --> 01:09:28,640
+possibilidades pros alunos o pessoal
+
+1700
+01:09:26,119 --> 01:09:31,119
+gosta muito o grupo é muito receptivo
+
+1701
+01:09:28,640 --> 01:09:33,560
+tem esse grupo de brasileiros então
+
+1702
+01:09:31,119 --> 01:09:35,719
+esses acordos de dupla titulação T sido
+
+1703
+01:09:33,560 --> 01:09:37,759
+muito interessantes a gente tá muito
+
+1704
+01:09:35,719 --> 01:09:40,838
+feliz com todos os alunos que vieram
+
+1705
+01:09:37,759 --> 01:09:43,880
+alguns estão defendendo agora e e a
+
+1706
+01:09:40,838 --> 01:09:46,039
+gente quer continuar fazendo isso né a
+
+1707
+01:09:43,880 --> 01:09:48,079
+com relação ao problema de de
+
+1708
+01:09:46,039 --> 01:09:50,238
+financiamento né ou a questão de
+
+1709
+01:09:48,079 --> 01:09:51,880
+financiamento assim eh paraas pessoas
+
+1710
+01:09:50,238 --> 01:09:56,198
+que que TM bolsa
+
+1711
+01:09:51,880 --> 01:10:00,880
+eh de de Mestrado desculpa de doutorado
+
+1712
+01:09:56,198 --> 01:10:03,158
+e e e pós-doutorado é simples né a gente
+
+1713
+01:10:00,880 --> 01:10:06,039
+eh é só a gente achar um projeto de
+
+1714
+01:10:03,158 --> 01:10:07,920
+interesse comum e a gente pode prover
+
+1715
+01:10:06,039 --> 01:10:10,880
+não só toda a infraestrutura física mas
+
+1716
+01:10:07,920 --> 01:10:13,440
+também eh a estrutura de colaboração a
+
+1717
+01:10:10,880 --> 01:10:16,719
+rede de colaboração aqui e vai ser um
+
+1718
+01:10:13,439 --> 01:10:18,879
+prazer receber o pessoal agora as
+
+1719
+01:10:16,719 --> 01:10:21,279
+unidades eh as Universidades europeas as
+
+1720
+01:10:18,880 --> 01:10:23,159
+Universidades holandesas vou vou vou
+
+1721
+01:10:21,279 --> 01:10:26,679
+falar de maneira mais estrita elas não
+
+1722
+01:10:23,158 --> 01:10:28,879
+têm essa ideia de bolsa de doutorado né
+
+1723
+01:10:26,679 --> 01:10:32,000
+porque não existe a ideia a figura do
+
+1724
+01:10:28,880 --> 01:10:33,319
+aluno de doutorado você é um funcionário
+
+1725
+01:10:32,000 --> 01:10:35,719
+da Universidade quando você tá fazendo
+
+1726
+01:10:33,319 --> 01:10:37,799
+doutorado você tem um cargo de research
+
+1727
+01:10:35,719 --> 01:10:39,359
+assistant né assistente de pesquisa você
+
+1728
+01:10:37,800 --> 01:10:43,920
+funcionário da Universidade com férias
+
+1729
+01:10:39,359 --> 01:10:46,399
+com 13º com 14º até eh tudo você é um
+
+1730
+01:10:43,920 --> 01:10:48,359
+funcionário da universidade e não existe
+
+1731
+01:10:46,399 --> 01:10:50,319
+a ideia de programa de doutorado nesse
+
+1732
+01:10:48,359 --> 01:10:52,359
+sentido não é igual o Brasil que a Caps
+
+1733
+01:10:50,319 --> 01:10:54,519
+dá um conjunto de bolsas pro programa
+
+1734
+01:10:52,359 --> 01:10:56,238
+então todas as teses de doutorado que
+
+1735
+01:10:54,520 --> 01:10:58,760
+são financiadas por aqui são financiados
+
+1736
+01:10:56,238 --> 01:11:01,039
+por projetos alguns projetos com
+
+1737
+01:10:58,760 --> 01:11:04,640
+empresas alguns projetos de Agentes de
+
+1738
+01:11:01,039 --> 01:11:07,399
+fomento União Europeia eh ND né que é
+
+1739
+01:11:04,640 --> 01:11:11,679
+agência eh holandesa ou ou outros
+
+1740
+01:11:07,399 --> 01:11:13,920
+projetos né a gente tá eh a situação
+
+1741
+01:11:11,679 --> 01:11:16,480
+agora no momento na Holanda tá tá uma
+
+1742
+01:11:13,920 --> 01:11:19,600
+situação um pouquinho estranha com com o
+
+1743
+01:11:16,479 --> 01:11:22,279
+governo atual eh que promover um corte
+
+1744
+01:11:19,600 --> 01:11:24,360
+enorme pela primeira vez na história eh
+
+1745
+01:11:22,279 --> 01:11:27,399
+para pesquisa e educação para as
+
+1746
+01:11:24,359 --> 01:11:28,839
+Universidades corte de 1 bilhão eh de
+
+1747
+01:11:27,399 --> 01:11:33,279
+euros e
+
+1748
+01:11:28,840 --> 01:11:35,600
+eh e ao mesmo tempo a gente tem alguns
+
+1749
+01:11:33,279 --> 01:11:36,840
+projetos que tão parados assim que por
+
+1750
+01:11:35,600 --> 01:11:39,760
+exemplo a gente tem um projeto que a
+
+1751
+01:11:36,840 --> 01:11:41,319
+gente já ganhou o projeto e esse projeto
+
+1752
+01:11:39,760 --> 01:11:42,800
+foi aprovado assim foi aprovado
+
+1753
+01:11:41,319 --> 01:11:45,198
+oficialmente a gente recebeu uma carta
+
+1754
+01:11:42,800 --> 01:11:46,760
+do Parlamento mas mas o projeto tá ali
+
+1755
+01:11:45,198 --> 01:11:49,000
+esperando o orçamento ser alocado para
+
+1756
+01:11:46,760 --> 01:11:50,400
+ele quando um projeto desse sai a gente
+
+1757
+01:11:49,000 --> 01:11:52,760
+vai contratar um monte de gente ao mesmo
+
+1758
+01:11:50,399 --> 01:11:56,198
+tempo então esse vai ser um projeto em
+
+1759
+01:11:52,760 --> 01:12:00,840
+particular ele chama holo microb é o
+
+1760
+01:11:56,198 --> 01:12:03,279
+mapeamento genético de todo o microbioma
+
+1761
+01:12:00,840 --> 01:12:06,199
+todos os microbiomas assim e de
+
+1762
+01:12:03,279 --> 01:12:08,759
+interesse para para seres humanos e isso
+
+1763
+01:12:06,198 --> 01:12:10,238
+é um problema de ontologias de semântica
+
+1764
+01:12:08,760 --> 01:12:12,920
+de dados de integração de dados de
+
+1765
+01:12:10,238 --> 01:12:15,759
+gestão de dados numa laríssa escala Esse
+
+1766
+01:12:12,920 --> 01:12:18,039
+é um projeto de 120 milhões de euros
+
+1767
+01:12:15,760 --> 01:12:20,000
+envolvendo várias universidades mas a
+
+1768
+01:12:18,039 --> 01:12:21,439
+gente tem uma parte desse orçamento e a
+
+1769
+01:12:20,000 --> 01:12:22,880
+gente vai contratar um bocado de gente
+
+1770
+01:12:21,439 --> 01:12:25,678
+então de vez em quando tem uns projetos
+
+1771
+01:12:22,880 --> 01:12:28,440
+desse tipo eh surgindo
+
+1772
+01:12:25,679 --> 01:12:30,840
+mas a gente precisa sincronizar né com
+
+1773
+01:12:28,439 --> 01:12:33,839
+com a época que as pessoas estão estão
+
+1774
+01:12:30,840 --> 01:12:35,279
+saindo do né tão tão eh com
+
+1775
+01:12:33,840 --> 01:12:37,159
+disponibilidade sair para fazer o
+
+1776
+01:12:35,279 --> 01:12:40,238
+doutorado com o financiamento desse
+
+1777
+01:12:37,158 --> 01:12:40,960
+projeto Então esse é mais ou menos o eh
+
+1778
+01:12:40,238 --> 01:12:44,319
+o
+
+1779
+01:12:40,960 --> 01:12:45,600
+espaço mas a mensagem é essa é muito o
+
+1780
+01:12:44,319 --> 01:12:49,198
+pessoal muito
+
+1781
+01:12:45,600 --> 01:12:50,880
+bem-vindo muito bom eh até uma
+
+1782
+01:12:49,198 --> 01:12:51,960
+curiosidade a gente já entrevistou tava
+
+1783
+01:12:50,880 --> 01:12:53,440
+pensando que a gente já entrevistou
+
+1784
+01:12:51,960 --> 01:12:55,639
+bastante gente da Holanda aqui a
+
+1785
+01:12:53,439 --> 01:12:58,759
+professora Fernanda madeiral tá lá na
+
+1786
+01:12:55,639 --> 01:13:00,560
+Bridge universitate Amsterdam o
+
+1787
+01:12:58,760 --> 01:13:03,119
+Professor Fernando Castor que é seu
+
+1788
+01:13:00,560 --> 01:13:08,000
+colega intente nente
+
+1789
+01:13:03,119 --> 01:13:09,880
+o Maurício anich que agora ele era
+
+1790
+01:13:08,000 --> 01:13:12,920
+professor em delft agora ele saiu tá
+
+1791
+01:13:09,880 --> 01:13:14,480
+numa empresa enfim e eu e interess eu
+
+1792
+01:13:12,920 --> 01:13:16,119
+tenho contato com bastante gente da
+
+1793
+01:13:14,479 --> 01:13:18,000
+comunidade também pessoas
+
+1794
+01:13:16,119 --> 01:13:20,119
+desenvolvedoras tem vários brasileiros
+
+1795
+01:13:18,000 --> 01:13:22,840
+inclusive egressos nossos aqui do do
+
+1796
+01:13:20,119 --> 01:13:25,519
+mestrado que são desenvolvedores aí a
+
+1797
+01:13:22,840 --> 01:13:27,480
+Holanda é bem receptiva pa é um país bom
+
+1798
+01:13:25,520 --> 01:13:30,800
+para morar APS muito bom para morar e
+
+1799
+01:13:27,479 --> 01:13:32,559
+para para trabalhar claramente a uma
+
+1800
+01:13:30,800 --> 01:13:35,199
+outra curiosidade que é é assim não tá
+
+1801
+01:13:32,560 --> 01:13:37,159
+no nome né Mas você falou e realmente a
+
+1802
+01:13:35,198 --> 01:13:38,279
+a Universidade de tuent é Universidade
+
+1803
+01:13:37,158 --> 01:13:41,519
+técnica
+
+1804
+01:13:38,279 --> 01:13:43,920
+né exatamente a Holanda tem basicamente
+
+1805
+01:13:41,520 --> 01:13:45,880
+e classicamente três universidades
+
+1806
+01:13:43,920 --> 01:13:48,199
+técnicas né oficialmente são quatro
+
+1807
+01:13:45,880 --> 01:13:49,679
+porque a Universidade de wageningen é é
+
+1808
+01:13:48,198 --> 01:13:53,119
+talvez a universidade mais forte do
+
+1809
+01:13:49,679 --> 01:13:54,520
+mundo na área de de agricultura né E aí
+
+1810
+01:13:53,119 --> 01:13:56,800
+ela também é considerada uma
+
+1811
+01:13:54,520 --> 01:13:59,120
+universidade técnica eles têm inclusive
+
+1812
+01:13:56,800 --> 01:14:02,760
+um consórcio de que financia projetos
+
+1813
+01:13:59,119 --> 01:14:04,840
+que chama fortus né das for technical
+
+1814
+01:14:02,760 --> 01:14:06,280
+universes mas classicamente quando as
+
+1815
+01:14:04,840 --> 01:14:08,560
+pessoas pensam em Universidade técnica
+
+1816
+01:14:06,279 --> 01:14:11,198
+na Holanda Elas pensam em einh hoven
+
+1817
+01:14:08,560 --> 01:14:12,639
+em que é muito ligado a Philips
+
+1818
+01:14:11,198 --> 01:14:18,599
+tradicionalmente mas agora muito ligado
+
+1819
+01:14:12,639 --> 01:14:20,079
+a sml eh Delf e eh e tente tente é uma é
+
+1820
+01:14:18,600 --> 01:14:23,159
+uma universidade que tem uma tradição
+
+1821
+01:14:20,079 --> 01:14:25,600
+muito forte na área de telecomunicações
+
+1822
+01:14:23,158 --> 01:14:27,759
+assim né fo o Instituto de Ática de
+
+1823
+01:14:25,600 --> 01:14:30,360
+tente foi muito forte o pessoal tava
+
+1824
+01:14:27,760 --> 01:14:32,000
+ligado ligado a à padronização de várias
+
+1825
+01:14:30,359 --> 01:14:34,719
+coisas que a gente usa o tempo todo
+
+1826
+01:14:32,000 --> 01:14:37,158
+Bluetooth vários padrões ISO todos esses
+
+1827
+01:14:34,719 --> 01:14:40,480
+métodos formais usando na padronização
+
+1828
+01:14:37,158 --> 01:14:43,238
+dos protocolos isso Lotus stele eram
+
+1829
+01:14:40,479 --> 01:14:44,919
+foram todos criados em tente né então a
+
+1830
+01:14:43,238 --> 01:14:46,519
+universidade muito forte e é o único
+
+1831
+01:14:44,920 --> 01:14:48,239
+campus da Holanda assim Campus
+
+1832
+01:14:46,520 --> 01:14:51,520
+completamente integrado onde os alunos
+
+1833
+01:14:48,238 --> 01:14:53,678
+moram e e é e é lindíssimo Então vale
+
+1834
+01:14:51,520 --> 01:14:55,960
+uma visita também um campo muito Verde
+
+1835
+01:14:53,679 --> 01:14:58,880
+muito grande muito bonito muito bonito
+
+1836
+01:14:55,960 --> 01:15:00,719
+vale a pena a visita é muito bom a a
+
+1837
+01:14:58,880 --> 01:15:02,560
+curiosidade é que nós eu e Maria Cláudia
+
+1838
+01:15:00,719 --> 01:15:04,279
+somos professores da a única
+
+1839
+01:15:02,560 --> 01:15:07,600
+Universidade Tecnológica do Brasil que é
+
+1840
+01:15:04,279 --> 01:15:09,559
+o tfp Né não mas o que quer dizer
+
+1841
+01:15:07,600 --> 01:15:10,920
+Universidade Tecnológica no Brasil será
+
+1842
+01:15:09,560 --> 01:15:12,800
+que quer dizer a mesma coisa é não é
+
+1843
+01:15:10,920 --> 01:15:16,158
+isso é isso que eu que eu queria dizer
+
+1844
+01:15:12,800 --> 01:15:18,079
+eh na verdade a gente não achou ainda um
+
+1845
+01:15:16,158 --> 01:15:19,920
+Talvez até por ser a única não tem uma
+
+1846
+01:15:18,079 --> 01:15:22,760
+coisa assim ah não olha a UTFPR
+
+1847
+01:15:19,920 --> 01:15:24,440
+realmente é diferente da UFRJ da UFMG
+
+1848
+01:15:22,760 --> 01:15:27,239
+porque nós somos uma Universidade
+
+1849
+01:15:24,439 --> 01:15:29,158
+Tecnológica ela foi criada com tem uma
+
+1850
+01:15:27,238 --> 01:15:31,079
+lei até inclusive é é uma das poucas
+
+1851
+01:15:29,158 --> 01:15:33,399
+universidades tem uma lei de criação só
+
+1852
+01:15:31,079 --> 01:15:36,359
+para ela né mas o que é que nos
+
+1853
+01:15:33,399 --> 01:15:38,479
+diferencia a gente internamente mesmo a
+
+1854
+01:15:36,359 --> 01:15:41,279
+gente não não tem essa clareza tão Grand
+
+1855
+01:15:38,479 --> 01:15:42,919
+muit clo né É até por exemplo até por
+
+1856
+01:15:41,279 --> 01:15:45,599
+essas questões legais por exemplo a
+
+1857
+01:15:42,920 --> 01:15:47,399
+gente eu recentemente tentei fazer uma
+
+1858
+01:15:45,600 --> 01:15:48,960
+parceria com com a empresa por uma coisa
+
+1859
+01:15:47,399 --> 01:15:51,079
+mínima que era pagar uma bolsa de
+
+1860
+01:15:48,960 --> 01:15:53,880
+estudante para mestrado e a burocracia
+
+1861
+01:15:51,079 --> 01:15:55,519
+foi tão grande que acabou o projeto não
+
+1862
+01:15:53,880 --> 01:15:57,800
+saiu porque
+
+1863
+01:15:55,520 --> 01:15:59,560
+a gente tem todas essas as mesmas
+
+1864
+01:15:57,800 --> 01:16:02,400
+entravas que a gente tem nas outras
+
+1865
+01:15:59,560 --> 01:16:06,000
+universidades federais entendi aqui a
+
+1866
+01:16:02,399 --> 01:16:08,238
+ideia de de Universidade Tecnológica é
+
+1867
+01:16:06,000 --> 01:16:11,520
+tecnológico no sentido que o MIT é
+
+1868
+01:16:08,238 --> 01:16:14,158
+tecnológico sabe é tudo tudo é ligado à
+
+1869
+01:16:11,520 --> 01:16:16,199
+tecnologia assim eh é uma universidade
+
+1870
+01:16:14,158 --> 01:16:20,879
+de ciência mas ligado à tecnologia então
+
+1871
+01:16:16,198 --> 01:16:22,759
+todos os cursos t esse viés de de eh de
+
+1872
+01:16:20,880 --> 01:16:24,199
+objetivo contribuir para o
+
+1873
+01:16:22,760 --> 01:16:25,960
+desenvolvimento tecnológico então
+
+1874
+01:16:24,198 --> 01:16:28,759
+filosofia por exemplo a gente tem um
+
+1875
+01:16:25,960 --> 01:16:30,399
+curso de Filosofia aliás muito bom eh a
+
+1876
+01:16:28,760 --> 01:16:31,960
+gente tem por exemplo eu eu faço parte
+
+1877
+01:16:30,399 --> 01:16:34,799
+com o pessoal de filosofia aqui de um
+
+1878
+01:16:31,960 --> 01:16:37,079
+núcleo de epistemologia e ética de a é o
+
+1879
+01:16:34,800 --> 01:16:39,039
+pessoal que faz filosofia da tecnologia
+
+1880
+01:16:37,079 --> 01:16:41,359
+pessoal que faz filosofia aqui eh
+
+1881
+01:16:39,039 --> 01:16:43,158
+desculpa psicologia psicologia ligada à
+
+1882
+01:16:41,359 --> 01:16:46,279
+tecnologia Então essa a ideia de que a
+
+1883
+01:16:43,158 --> 01:16:49,920
+tecnologia perpassa todos os os cursos e
+
+1884
+01:16:46,279 --> 01:16:52,399
+todos os programas da Universidade né É
+
+1885
+01:16:49,920 --> 01:16:55,399
+É eu eu acho que essa era a ideia
+
+1886
+01:16:52,399 --> 01:16:59,319
+inicial para o tfr também sabe original
+
+1887
+01:16:55,399 --> 01:17:04,079
+é a tfp também veio de um cfet né aqui
+
+1888
+01:16:59,319 --> 01:17:06,920
+no no no país e parece que vai ter outra
+
+1889
+01:17:04,079 --> 01:17:09,679
+tecnológica logo em seguida né um outro
+
+1890
+01:17:06,920 --> 01:17:12,039
+CEFET não é duas são duas que estão
+
+1891
+01:17:09,679 --> 01:17:13,600
+querendo Universidade Tecnológica
+
+1892
+01:17:12,039 --> 01:17:15,119
+Federal do Rio de Janeiro se tudo der
+
+1893
+01:17:13,600 --> 01:17:19,039
+certo e a Universidade Tecnológica
+
+1894
+01:17:15,119 --> 01:17:23,119
+Federal de Minas Gerais mas a ut a UTFPR
+
+1895
+01:17:19,039 --> 01:17:26,079
+é equivalente ao cfet então el que era o
+
+1896
+01:17:23,119 --> 01:17:28,359
+cfet era o que era o cfet isso então eu
+
+1897
+01:17:26,079 --> 01:17:30,000
+acho que é diferente a ideia de acho que
+
+1898
+01:17:28,359 --> 01:17:33,519
+é diferente da ideia de Universidade
+
+1899
+01:17:30,000 --> 01:17:36,319
+Tecnológica aqui eu só tive na UTFPR uma
+
+1900
+01:17:33,520 --> 01:17:40,000
+vez para uma banca de doutorado há 15
+
+1901
+01:17:36,319 --> 01:17:42,319
+anos atrás talvez há 15 anos é mas o que
+
+1902
+01:17:40,000 --> 01:17:44,198
+me chama a atenção é você dizer né Tem
+
+1903
+01:17:42,319 --> 01:17:46,439
+tem outros cursos como por exemplo
+
+1904
+01:17:44,198 --> 01:17:50,879
+filosofia Aqui nós temos cursos de
+
+1905
+01:17:46,439 --> 01:17:53,039
+licenciatura né mas a o que a gente
+
+1906
+01:17:50,880 --> 01:17:54,840
+precisa é fazer com que todos os nossos
+
+1907
+01:17:53,039 --> 01:17:58,119
+cursos também sejam ligados aé
+
+1908
+01:17:54,840 --> 01:18:01,760
+tecnologia né e acho que não é exato
+
+1909
+01:17:58,119 --> 01:18:03,559
+exatamente assim né Adolfo ainda aqui
+
+1910
+01:18:01,760 --> 01:18:05,440
+aqui é tudo né o pessoal por exemplo de
+
+1911
+01:18:03,560 --> 01:18:07,039
+Finanças trabalha com Finanças digital
+
+1912
+01:18:05,439 --> 01:18:09,678
+pessoal que trabalha na escola de
+
+1913
+01:18:07,039 --> 01:18:12,639
+negócios né de Business e eles têm por
+
+1914
+01:18:09,679 --> 01:18:14,359
+exemplo a diferença entre computação eu
+
+1915
+01:18:12,639 --> 01:18:16,199
+eu tô na universidade da faculdade
+
+1916
+01:18:14,359 --> 01:18:18,399
+técnica de computação né que chama
+
+1917
+01:18:16,198 --> 01:18:19,960
+technical computer Science que são os
+
+1918
+01:18:18,399 --> 01:18:22,960
+aspectos mais técnico de computação a
+
+1919
+01:18:19,960 --> 01:18:25,399
+parte toda de eh Business informatics é
+
+1920
+01:18:22,960 --> 01:18:26,560
+num Faculdade de Ciências Sociais Renata
+
+1921
+01:18:25,399 --> 01:18:28,439
+por exemplo tá nessa faculdade de
+
+1922
+01:18:26,560 --> 01:18:31,039
+ciência socialis tá no departamento de
+
+1923
+01:18:28,439 --> 01:18:32,678
+Business informatics Mas é uma faculdade
+
+1924
+01:18:31,039 --> 01:18:35,600
+de Business que o pessoal faz machine
+
+1925
+01:18:32,679 --> 01:18:38,960
+learning faz faz tudo isso né F
+
+1926
+01:18:35,600 --> 01:18:41,600
+criptografia faz essas coisas todas
+
+1927
+01:18:38,960 --> 01:18:44,079
+né Muito bom então agora a gente chega
+
+1928
+01:18:41,600 --> 01:18:46,039
+na pergunta que define o podcast Eu
+
+1929
+01:18:44,079 --> 01:18:48,079
+sempre gosto de lembrar que pode ser
+
+1930
+01:18:46,039 --> 01:18:50,158
+algo que você acha que vai acontecer ou
+
+1931
+01:18:48,079 --> 01:18:52,920
+que você gostaria que acontecesse na na
+
+1932
+01:18:50,158 --> 01:18:56,638
+engenharia de software para você qual a
+
+1933
+01:18:52,920 --> 01:18:58,840
+próxima fronteira da engenharia de
+
+1934
+01:18:56,639 --> 01:19:00,359
+software então vou falar do que eu
+
+1935
+01:18:58,840 --> 01:19:03,719
+gostaria que acontecesse do que eu acho
+
+1936
+01:19:00,359 --> 01:19:05,399
+que vai acontecer em particular eh nessa
+
+1937
+01:19:03,719 --> 01:19:06,880
+subárea que é também de engenheria de
+
+1938
+01:19:05,399 --> 01:19:08,960
+software ligada a ia engenheria de
+
+1939
+01:19:06,880 --> 01:19:10,359
+software para ia mas da área de Ea de
+
+1940
+01:19:08,960 --> 01:19:14,119
+maneira geral que a gente vai seguir por
+
+1941
+01:19:10,359 --> 01:19:16,920
+esse caminho neuros né Eu eu acho eu não
+
+1942
+01:19:14,119 --> 01:19:20,119
+vejo eh outro caminho
+
+1943
+01:19:16,920 --> 01:19:21,719
+eh PR gente tentar integrar essas coisas
+
+1944
+01:19:20,119 --> 01:19:24,158
+mas o que eu gostaria que acontecesse
+
+1945
+01:19:21,719 --> 01:19:25,880
+que é muito mais abrangente é que isso
+
+1946
+01:19:24,158 --> 01:19:27,279
+eu gostaria que a gente ouvisse o
+
+1947
+01:19:25,880 --> 01:19:29,560
+conselho dessas pessoas que estavam
+
+1948
+01:19:27,279 --> 01:19:33,880
+escrevendo lá em 1967
+
+1949
+01:19:29,560 --> 01:19:36,280
+eh e e a gente levasse a sério essa
+
+1950
+01:19:33,880 --> 01:19:38,960
+ideia de a gente parasse de ser tão
+
+1951
+01:19:36,279 --> 01:19:40,719
+obsecado com a tecnologia tão obsecado
+
+1952
+01:19:38,960 --> 01:19:42,679
+com símbolos e com a manipulação de
+
+1953
+01:19:40,719 --> 01:19:45,000
+símbolos até quando eu falo de neuros
+
+1954
+01:19:42,679 --> 01:19:47,679
+simbólico eu nem gosto do termo porque o
+
+1955
+01:19:45,000 --> 01:19:49,198
+problema não é o símbolo né não é a
+
+1956
+01:19:47,679 --> 01:19:50,440
+gente a gente tá falando de Tecnologia
+
+1957
+01:19:49,198 --> 01:19:52,198
+dos dois lados né quando a gente tá
+
+1958
+01:19:50,439 --> 01:19:53,719
+falando de de neuros simbólos a gente tá
+
+1959
+01:19:52,198 --> 01:19:55,839
+falando de redes neurais que é
+
+1960
+01:19:53,719 --> 01:19:58,920
+simplesmente uma tecnologia de
+
+1961
+01:19:55,840 --> 01:20:00,760
+implementação ou de e de uma uma
+
+1962
+01:19:58,920 --> 01:20:02,440
+ferramenta para afrontar o problema e a
+
+1963
+01:20:00,760 --> 01:20:03,960
+gente tá falando de sistema simbólico
+
+1964
+01:20:02,439 --> 01:20:06,599
+sistemas lógicos que é uma ferramenta
+
+1965
+01:20:03,960 --> 01:20:11,719
+para para afrontar esse outro
+
+1966
+01:20:06,600 --> 01:20:15,159
+problema parte do do inverno de da i
+
+1967
+01:20:11,719 --> 01:20:16,760
+simbólica eh se na minha opinião
+
+1968
+01:20:15,158 --> 01:20:18,719
+aconteceu porque o pessoal tava
+
+1969
+01:20:16,760 --> 01:20:20,840
+preocupado só com uma manipulação de
+
+1970
+01:20:18,719 --> 01:20:23,279
+símbolos né Você vai para conferências
+
+1971
+01:20:20,840 --> 01:20:25,360
+tipo KR né knowledge representation que
+
+1972
+01:20:23,279 --> 01:20:26,800
+é a principal conferência da área
+
+1973
+01:20:25,359 --> 01:20:28,559
+o pessoal não tá interessado em
+
+1974
+01:20:26,800 --> 01:20:30,520
+representação Estão interessados em
+
+1975
+01:20:28,560 --> 01:20:32,800
+complexidade computacional em raciocínio
+
+1976
+01:20:30,520 --> 01:20:36,560
+automatizado mas não em representação o
+
+1977
+01:20:32,800 --> 01:20:38,840
+problema de como olhar pro mundo e criar
+
+1978
+01:20:36,560 --> 01:20:40,400
+representações que sejam fidedignas
+
+1979
+01:20:38,840 --> 01:20:43,600
+daquele fenômeno do mundo é um problema
+
+1980
+01:20:40,399 --> 01:20:46,599
+sério e a gente desdenha desse problema
+
+1981
+01:20:43,600 --> 01:20:48,520
+a gente tá nessa confusão que tá de de
+
+1982
+01:20:46,600 --> 01:20:50,239
+em várias coisas inclusive engenheria de
+
+1983
+01:20:48,520 --> 01:20:53,840
+soft esses problemas de integração que
+
+1984
+01:20:50,238 --> 01:20:55,799
+são eh enormes eh porque a gente não
+
+1985
+01:20:53,840 --> 01:20:57,400
+lida seriamente com esse problema que V
+
+1986
+01:20:55,800 --> 01:21:00,000
+um problema que me incomoda
+
+1987
+01:20:57,399 --> 01:21:03,279
+profundamente se a gente for a qualquer
+
+1988
+01:21:00,000 --> 01:21:06,719
+grande organização eh em quase qualquer
+
+1989
+01:21:03,279 --> 01:21:08,079
+setor a organização vai ter a
+
+1990
+01:21:06,719 --> 01:21:09,359
+Universidade de tuenta vou pegar um
+
+1991
+01:21:08,079 --> 01:21:11,800
+exemplo a Universidade de tuenta tem
+
+1992
+01:21:09,359 --> 01:21:14,799
+6.000 funcionários ela tem 100
+
+1993
+01:21:11,800 --> 01:21:16,679
+aplicações essas 100 aplicações se eu
+
+1994
+01:21:14,800 --> 01:21:19,360
+somar todas as tabelas dessas 100
+
+1995
+01:21:16,679 --> 01:21:23,039
+aplicações vai dar mais do que 10.000
+
+1996
+01:21:19,359 --> 01:21:26,399
+tabelas cada tabela dessa vai ter no
+
+1997
+01:21:23,039 --> 01:21:28,679
+mínimo 10 Campos vamos dizer assim e aí
+
+1998
+01:21:26,399 --> 01:21:31,719
+você escreve sei lá 10 linhas de código
+
+1999
+01:21:28,679 --> 01:21:34,199
+para cada Campo desse Ou seja você
+
+2000
+01:21:31,719 --> 01:21:35,639
+acabou com uma base de 10.000 tabelas e
+
+2001
+01:21:34,198 --> 01:21:39,719
+uma base de
+
+2002
+01:21:35,639 --> 01:21:41,119
+eh 1 milhão de linhas de código e aí
+
+2003
+01:21:39,719 --> 01:21:43,119
+você se pergunta por que da onde que
+
+2004
+01:21:41,119 --> 01:21:47,000
+veio essa complexidade né 1 milhão de
+
+2005
+01:21:43,119 --> 01:21:51,119
+linha de código você tem lá 25 50 eh
+
+2006
+01:21:47,000 --> 01:21:54,000
+bugs dormentes para cada não sei 1000
+
+2007
+01:21:51,119 --> 01:21:55,479
+linhas de código n na estatística mais
+
+2008
+01:21:54,000 --> 01:21:57,079
+atual
+
+2009
+01:21:55,479 --> 01:21:58,198
+da onde que veio isso da onde que veio
+
+2010
+01:21:57,079 --> 01:22:00,600
+essa complexidade você pensa assim
+
+2011
+01:21:58,198 --> 01:22:02,559
+10.000 tabelas essas tabelas deveriam
+
+2012
+01:22:00,600 --> 01:22:04,920
+num certo sentido representar as
+
+2013
+01:22:02,560 --> 01:22:08,360
+entidades do domínio né
+
+2014
+01:22:04,920 --> 01:22:11,440
+Eh mas quantas entidades tem no domínio
+
+2015
+01:22:08,359 --> 01:22:14,639
+de universidades assim eu pago eu pago
+
+2016
+01:22:11,439 --> 01:22:18,079
+um vinho para quem a chegar a
+
+2017
+01:22:14,639 --> 01:22:20,800
+100 tem é professor aluno classe
+
+2018
+01:22:18,079 --> 01:22:22,639
+supervisão nota matéria currículo como
+
+2019
+01:22:20,800 --> 01:22:25,079
+chegar a 100 é difícil onde Da onde você
+
+2020
+01:22:22,639 --> 01:22:26,920
+chegou a 10.000 tem parte desse problema
+
+2021
+01:22:25,079 --> 01:22:28,559
+é um problema de impedância Tecnologia
+
+2022
+01:22:26,920 --> 01:22:30,800
+de banco de Dad relacional vai ampliando
+
+2023
+01:22:28,560 --> 01:22:33,120
+tudo porque todas as relações n para n
+
+2024
+01:22:30,800 --> 01:22:35,400
+Tem uma tabela associativa depois o o
+
+2025
+01:22:33,119 --> 01:22:37,399
+negócio se acumula no tempo porque as
+
+2026
+01:22:35,399 --> 01:22:38,719
+consultas são totalmente aderentes à
+
+2027
+01:22:37,399 --> 01:22:40,000
+estrutura do banco de dado então Toda
+
+2028
+01:22:38,719 --> 01:22:42,359
+vez que você vai mudar alguma coisa
+
+2029
+01:22:40,000 --> 01:22:43,960
+quebra tudo tem né a gente conhece o
+
+2030
+01:22:42,359 --> 01:22:46,039
+problema mas não
+
+2031
+01:22:43,960 --> 01:22:48,520
+10.000de como é que você sai de 100 para
+
+2032
+01:22:46,039 --> 01:22:50,479
+10.000 é porque as pessoas não fazem
+
+2033
+01:22:48,520 --> 01:22:52,480
+modelagem do domínio Se as pessoas
+
+2034
+01:22:50,479 --> 01:22:55,519
+tivessem entendido o domínio a gente
+
+2035
+01:22:52,479 --> 01:22:56,718
+nunca chegaria a 10.000 né esse é um
+
+2036
+01:22:55,520 --> 01:22:58,280
+problema enorme esse problema de
+
+2037
+01:22:56,719 --> 01:23:00,039
+interoperabilidade é enorme então assim
+
+2038
+01:22:58,279 --> 01:23:03,800
+o que eu gostaria de ver
+
+2039
+01:23:00,039 --> 01:23:06,479
+eh acontecendo é que a computação
+
+2040
+01:23:03,800 --> 01:23:09,639
+finalmente internalize a ideia de que
+
+2041
+01:23:06,479 --> 01:23:11,839
+toda a área que que trabalha com
+
+2042
+01:23:09,639 --> 01:23:14,199
+processamento de
+
+2043
+01:23:11,840 --> 01:23:16,480
+informações tem que lidar muito
+
+2044
+01:23:14,198 --> 01:23:18,198
+seriamente com semântica e não é com
+
+2045
+01:23:16,479 --> 01:23:20,238
+semântica formal semântica formal é
+
+2046
+01:23:18,198 --> 01:23:24,719
+secundário ele dá com esse tipo de
+
+2047
+01:23:20,238 --> 01:23:26,718
+semântica de eh de mundo real real Word
+
+2048
+01:23:24,719 --> 01:23:29,800
+semantics a o nome é um nome histórico
+
+2049
+01:23:26,719 --> 01:23:31,239
+assim a p vão discutir o que que existe
+
+2050
+01:23:29,800 --> 01:23:34,320
+no mundo real não quero entrar nesse
+
+2051
+01:23:31,238 --> 01:23:36,479
+papo semântica ontológica a gente
+
+2052
+01:23:34,319 --> 01:23:38,158
+precisa de Ontologia como uma caixa de
+
+2053
+01:23:36,479 --> 01:23:40,919
+ferramentas um método de análise que
+
+2054
+01:23:38,158 --> 01:23:43,839
+ajuda a gente
+
+2055
+01:23:40,920 --> 01:23:45,600
+revelar a semântica ontológica que tá
+
+2056
+01:23:43,840 --> 01:23:47,239
+por trás das estruturas de dados que a
+
+2057
+01:23:45,600 --> 01:23:49,760
+gente manipula sem isso a gente não vai
+
+2058
+01:23:47,238 --> 01:23:51,238
+resolver nada a gente não vai todos
+
+2059
+01:23:49,760 --> 01:23:53,520
+muitos desses grandes problemas que a
+
+2060
+01:23:51,238 --> 01:23:56,638
+gente tem Há muitas décadas estão
+
+2061
+01:23:53,520 --> 01:23:59,120
+ligados à nossa falha de de resolver
+
+2062
+01:23:56,639 --> 01:24:01,039
+isso de entender isso a gente precisa de
+
+2063
+01:23:59,119 --> 01:24:02,880
+explicação resolver esse problema de
+
+2064
+01:24:01,039 --> 01:24:05,119
+explicação c da Computação tem que
+
+2065
+01:24:02,880 --> 01:24:06,600
+entender explicação no verdadeiro
+
+2066
+01:24:05,119 --> 01:24:09,519
+sentido da
+
+2067
+01:24:06,600 --> 01:24:12,199
+palavra muito bom com isso a gente
+
+2068
+01:24:09,520 --> 01:24:14,560
+termina esse episódio eu vou só deixar
+
+2069
+01:24:12,198 --> 01:24:16,198
+uma chamada aqui rápida para simpósio
+
+2070
+01:24:14,560 --> 01:24:18,840
+brasileiro de qualidade software que vai
+
+2071
+01:24:16,198 --> 01:24:21,599
+acontecer em Salvador Bahia de 5 a 8 de
+
+2072
+01:24:18,840 --> 01:24:23,600
+novembro a gente tem dois eventos
+
+2073
+01:24:21,600 --> 01:24:25,760
+maiores aqui de relacionados à
+
+2074
+01:24:23,600 --> 01:24:27,639
+engenharia de S no Brasil é o cbsoft que
+
+2075
+01:24:25,760 --> 01:24:29,159
+acontece agora final de setembro e
+
+2076
+01:24:27,639 --> 01:24:30,760
+começo de outubro mas quando a gente
+
+2077
+01:24:29,158 --> 01:24:33,599
+publicar esse episódio já vai ter
+
+2078
+01:24:30,760 --> 01:24:35,600
+acontecido em novembro 58 de novembro em
+
+2079
+01:24:33,600 --> 01:24:38,560
+Salvador vai acontecer o
+
+2080
+01:24:35,600 --> 01:24:40,920
+sbqs Muito obrigado jeancarlo você quer
+
+2081
+01:24:38,560 --> 01:24:43,320
+deixar alguma palavra final pros nossos
+
+2082
+01:24:40,920 --> 01:24:45,239
+e nossas ouvintes olha quero eu queria
+
+2083
+01:24:43,319 --> 01:24:46,960
+em primeiro lugar agradecer vocês eu
+
+2084
+01:24:45,238 --> 01:24:49,198
+acho que vocês fazem um enorme trabalho
+
+2085
+01:24:46,960 --> 01:24:51,198
+eh em prol da comunidade o trabalho
+
+2086
+01:24:49,198 --> 01:24:54,759
+belíssimo is que vocês fazem de
+
+2087
+01:24:51,198 --> 01:24:56,319
+construção de de de comunidade eh Muito
+
+2088
+01:24:54,760 --> 01:24:58,639
+obrigado foi um grande prazer conversar
+
+2089
+01:24:56,319 --> 01:25:01,319
+com vocês queria finalizar deixando um
+
+2090
+01:24:58,639 --> 01:25:03,560
+conselho pros estudantes de mestrado e
+
+2091
+01:25:01,319 --> 01:25:04,960
+doutorado assim né eu comecei a gente
+
+2092
+01:25:03,560 --> 01:25:08,320
+começou conversando sobre a história da
+
+2093
+01:25:04,960 --> 01:25:10,079
+Minha tese eh Quando eu olho e de vez em
+
+2094
+01:25:08,319 --> 01:25:12,479
+quando meus alunos me perguntam isso
+
+2095
+01:25:10,079 --> 01:25:14,158
+daqui assim de né conselho sobre a gente
+
+2096
+01:25:12,479 --> 01:25:15,638
+vai ficando velho as pessoas acham que a
+
+2097
+01:25:14,158 --> 01:25:18,238
+gente sabe alguma coisa as pessoas me
+
+2098
+01:25:15,639 --> 01:25:20,159
+perguntam sobre conselho de de carreira
+
+2099
+01:25:18,238 --> 01:25:23,279
+eu acho que duas coisas
+
+2100
+01:25:20,158 --> 01:25:25,238
+eh foram muito importantes para mim e eu
+
+2101
+01:25:23,279 --> 01:25:28,158
+percebo isso em outras as pessoas que eu
+
+2102
+01:25:25,238 --> 01:25:30,759
+que eu admiro e que e no ponto da da
+
+2103
+01:25:28,158 --> 01:25:33,238
+carreira que elas chegaram uma é
+
+2104
+01:25:30,760 --> 01:25:35,760
+colaboração ninguém faz carreira em
+
+2105
+01:25:33,238 --> 01:25:36,678
+ciência sozinho você tem que você tem
+
+2106
+01:25:35,760 --> 01:25:39,639
+que saber
+
+2107
+01:25:36,679 --> 01:25:42,039
+eh ter pessoas criar uma rede de
+
+2108
+01:25:39,639 --> 01:25:45,039
+colaboração onde você realmente consiga
+
+2109
+01:25:42,039 --> 01:25:46,960
+eh trabalhar com essas pessoas e e ser
+
+2110
+01:25:45,039 --> 01:25:48,880
+produtivo junto com essas pessoas e para
+
+2111
+01:25:46,960 --> 01:25:52,679
+isso essa colaboração também tem que ser
+
+2112
+01:25:48,880 --> 01:25:55,239
+prazerosa mas dois e e e que vai
+
+2113
+01:25:52,679 --> 01:25:57,000
+influenciar O primeiro é
+
+2114
+01:25:55,238 --> 01:25:59,718
+vocês têm que trabalhar nas coisas que
+
+2115
+01:25:57,000 --> 01:26:02,319
+te interessam assim fujam de modismo
+
+2116
+01:25:59,719 --> 01:26:04,840
+sabe fujam fujam daquelas áreas que tá
+
+2117
+01:26:02,319 --> 01:26:08,519
+todo mundo correndo para lá essas áreas
+
+2118
+01:26:04,840 --> 01:26:11,239
+passam computação é é totalmente a gente
+
+2119
+01:26:08,520 --> 01:26:13,960
+pula de Hype para Hype essas coisas
+
+2120
+01:26:11,238 --> 01:26:16,638
+todas vão passar descobre alguma coisa
+
+2121
+01:26:13,960 --> 01:26:19,480
+que realmente te interessa Tenta achar
+
+2122
+01:26:16,639 --> 01:26:21,560
+um programa de longo prazo um problema
+
+2123
+01:26:19,479 --> 01:26:25,079
+que você quer realmente resolver a longo
+
+2124
+01:26:21,560 --> 01:26:26,920
+prazo e se junte às pessoas que queiram
+
+2125
+01:26:25,079 --> 01:26:29,158
+enfrentar esse problema junto com você
+
+2126
+01:26:26,920 --> 01:26:32,158
+porque a isso não tem como perder
+
+2127
+01:26:29,158 --> 01:26:34,920
+acontece o que acontecer a estrada vai
+
+2128
+01:26:32,158 --> 01:26:36,679
+ser vai ser prazerosa Então esse é o meu
+
+2129
+01:26:34,920 --> 01:26:38,719
+conselho quando eu quando eu reflito na
+
+2130
+01:26:36,679 --> 01:26:40,359
+minha na minha tese eu olho com tanto
+
+2131
+01:26:38,719 --> 01:26:42,279
+prazer vendo olha se foi uma aposta
+
+2132
+01:26:40,359 --> 01:26:43,599
+ninguém tava fazendo isso né Na época eu
+
+2133
+01:26:42,279 --> 01:26:47,198
+comecei a fazer Minha tese eu comecei a
+
+2134
+01:26:43,600 --> 01:26:49,159
+trabalhar com ontologias em 97 eh quase
+
+2135
+01:26:47,198 --> 01:26:51,198
+30 anos ninguém tava fazendo isso
+
+2136
+01:26:49,158 --> 01:26:52,759
+pessoas eu a primeira vez aliás é uma
+
+2137
+01:26:51,198 --> 01:26:57,559
+história boa eu mandei um artigo para em
+
+2138
+01:26:52,760 --> 01:27:00,320
+1998 sobre as pro antigo SBZ que agora
+
+2139
+01:26:57,560 --> 01:27:02,159
+virou o cbsoft tá falando cbsoft e é o
+
+2140
+01:27:00,319 --> 01:27:04,118
+artigo foi recusado com com com as
+
+2141
+01:27:02,158 --> 01:27:05,359
+revisões mais estranhas que que eu que
+
+2142
+01:27:04,118 --> 01:27:06,679
+eu já vi na minha vida que era assim
+
+2143
+01:27:05,359 --> 01:27:08,479
+ninguém conseguia atacar o artigo mas
+
+2144
+01:27:06,679 --> 01:27:10,480
+eles achavam que não tinha absolutamente
+
+2145
+01:27:08,479 --> 01:27:12,079
+nada a ver com o Ger de software que eu
+
+2146
+01:27:10,479 --> 01:27:13,959
+devia mandar aquilo para uma conferência
+
+2147
+01:27:12,079 --> 01:27:17,359
+de filosofia
+
+2148
+01:27:13,960 --> 01:27:19,279
+eh eu acho que a coisa se pagou em em
+
+2149
+01:27:17,359 --> 01:27:20,880
+muitos sentidos mas se pagou em termos
+
+2150
+01:27:19,279 --> 01:27:24,599
+desses resultados que a gente táa
+
+2151
+01:27:20,880 --> 01:27:26,359
+conversando sobre citação e tal Porque
+
+2152
+01:27:24,600 --> 01:27:28,079
+porque foi feito com paixão assim porque
+
+2153
+01:27:26,359 --> 01:27:29,960
+era um problema que realmente eu tava
+
+2154
+01:27:28,079 --> 01:27:33,158
+interessado em resolver acho que é esse
+
+2155
+01:27:29,960 --> 01:27:36,039
+meu conselho obrigado mais uma
+
+2156
+01:27:33,158 --> 01:27:38,879
+vez muito bom conselho Obrigada
+
+2157
+01:27:36,039 --> 01:27:41,679
+jeancarlo e assim nós vamos fechar o
+
+2158
+01:27:38,880 --> 01:27:43,840
+nosso Episódio né agradecemos a todos os
+
+2159
+01:27:41,679 --> 01:27:45,760
+nossos e as nossas ouvintes e até o
+
+2160
+01:27:43,840 --> 01:27:48,199
+próximo episódio do Fronteiras da
+
+2161
+01:27:45,760 --> 01:27:51,360
+engenharia de
+
+2162
+01:27:48,198 --> 01:27:54,238
+software Este é o podcast Fronteiras da
+
+2163
+01:27:51,359 --> 01:27:56,439
+engenharia de software um podcast para
+
+2164
+01:27:54,238 --> 01:27:59,399
+refletir sobre o presente e o futuro da
+
+2165
+01:27:56,439 --> 01:28:02,479
+nossa área publicamos mensalmente entre
+
+2166
+01:27:59,399 --> 01:28:04,279
+os dias 15 e 20 de cada mês episódios em
+
+2167
+01:28:02,479 --> 01:28:06,759
+que entrevistamos pesquisadores e
+
+2168
+01:28:04,279 --> 01:28:08,479
+pesquisadoras da engenharia de software
+
+2169
+01:28:06,760 --> 01:28:11,000
+também realizamos palestras que são
+
+2170
+01:28:08,479 --> 01:28:13,198
+publicadas em nosso canal no YouTube
+
+2171
+01:28:11,000 --> 01:28:15,719
+nosso objetivo é levar o conhecimento
+
+2172
+01:28:13,198 --> 01:28:18,599
+científico para profissionais da área e
+
+2173
+01:28:15,719 --> 01:28:20,399
+para outros cientistas escute nossos
+
+2174
+01:28:18,600 --> 01:28:24,360
+episódios na sua plataforma de áudio
+
+2175
+01:28:20,399 --> 01:28:27,799
+favorita Spotify Apple podcasts anchor
+
+2176
+01:28:24,359 --> 01:28:30,599
+ou outras ou ainda no YouTube nosso site
+
+2177
+01:28:27,800 --> 01:28:34,440
+é fronteiras
+
+2178
+01:28:30,600 --> 01:28:38,719
+s.g. I Estamos também no Twitter e no
+
+2179
+01:28:34,439 --> 01:28:38,719
+Instagram como @frases
+
+2180
+01:28:40,399 --> 01:28:43,569
+[Música]

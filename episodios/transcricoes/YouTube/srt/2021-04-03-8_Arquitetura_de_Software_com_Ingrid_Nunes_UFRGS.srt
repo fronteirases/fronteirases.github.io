@@ -1,0 +1,8467 @@
+1
+00:00:00,000 --> 00:00:24,778
+o pai sinto um Olá o vídeo eu sou Adolfo
+
+2
+00:00:22,739 --> 00:00:27,629
+Neto professor da Universidade
+
+3
+00:00:24,778 --> 00:00:29,730
+Tecnológica Federal do Paraná e eu sou
+
+4
+00:00:27,629 --> 00:00:31,979
+Gustavo Pinto Professor aqui na
+
+5
+00:00:29,730 --> 00:00:34,500
+Universidade Federal do Pará e este éo
+
+6
+00:00:31,980 --> 00:00:36,450
+Fronteiras da engenharia de software um
+
+7
+00:00:34,500 --> 00:00:38,159
+podcast feito para refletir sobre o
+
+8
+00:00:36,450 --> 00:00:40,230
+presente e futuro da engenharia de
+
+9
+00:00:38,159 --> 00:00:43,078
+software Fronteiras da engenharia de
+
+10
+00:00:40,229 --> 00:00:45,479
+software é um podcast divulgação
+
+11
+00:00:43,079 --> 00:00:47,670
+Científica que discutir mensalmente
+
+12
+00:00:45,479 --> 00:00:49,459
+diversificados temas da engenharia do só
+
+13
+00:00:47,670 --> 00:00:52,350
+os episódios abordam questões
+
+14
+00:00:49,460 --> 00:00:55,740
+fundamentais Engenheiro software até os
+
+15
+00:00:52,350 --> 00:00:58,939
+mais recentes avanços na área da
+
+16
+00:00:55,740 --> 00:00:58,939
+[Música]
+
+17
+00:01:02,619 --> 00:01:11,679
+olá bem-vindo ao nosso 8º Episódio hoje
+
+18
+00:01:09,670 --> 00:01:15,310
+contamos com a presença da Ingrid Nunes
+
+19
+00:01:11,680 --> 00:01:16,810
+que a professora da UFRGS desde 2012 e
+
+20
+00:01:15,310 --> 00:01:19,799
+atualmente realizam o estágio
+
+21
+00:01:16,810 --> 00:01:22,810
+pós-doutoral na universidade de rwth
+
+22
+00:01:19,799 --> 00:01:26,500
+aniversário de técnica da renânia do
+
+23
+00:01:22,810 --> 00:01:28,600
+norte-vestfália em Arte na Alemanha ela
+
+24
+00:01:26,500 --> 00:01:31,478
+Doutora pela puc-rio tendo feito
+
+25
+00:01:28,599 --> 00:01:32,949
+pesquisa na Kings College London na
+
+26
+00:01:31,478 --> 00:01:35,890
+Inglaterra ou na universidade de
+
+27
+00:01:32,950 --> 00:01:39,478
+Waterloo no Canadá e na universidade
+
+28
+00:01:35,890 --> 00:01:44,019
+técnica de Dortmund na Alemanha também
+
+29
+00:01:39,478 --> 00:01:46,810
+em 2018 a receber o prêmio o tecnólogo e
+
+30
+00:01:44,019 --> 00:01:51,429
+do Google e trabalhou com desenvolvedora
+
+31
+00:01:46,810 --> 00:01:54,100
+de software entre 2005 e 2007 Ingrid Tem
+
+32
+00:01:51,429 --> 00:01:56,460
+trabalhado com abordagem que auxiliam o
+
+33
+00:01:54,099 --> 00:01:59,500
+engenheiro de software do projeto
+
+34
+00:01:56,459 --> 00:02:02,439
+implementação e evolução de software
+
+35
+00:01:59,500 --> 00:02:02,629
+incluindo abordagens automatizadas no
+
+36
+00:02:02,439 --> 00:02:06,379
+com
+
+37
+00:02:02,629 --> 00:02:08,919
+os sistemas auto-adaptativos Mais
+
+38
+00:02:06,379 --> 00:02:11,539
+especificamente atualmente ela tem
+
+39
+00:02:08,919 --> 00:02:14,839
+pesquisa na área de recuperação de
+
+40
+00:02:11,539 --> 00:02:18,229
+arquitetura revisão de código moderna e
+
+41
+00:02:14,840 --> 00:02:20,840
+abordagens alto adaptativas para tornar
+
+42
+00:02:18,229 --> 00:02:23,500
+sistema de software resilientes e
+
+43
+00:02:20,840 --> 00:02:23,500
+eficientes
+
+44
+00:02:28,849 --> 00:02:35,419
+o olá ao vivo parece tá aqui ó
+
+45
+00:02:31,729 --> 00:02:39,530
+dificultando sua presença e professora
+
+46
+00:02:35,419 --> 00:02:42,199
+da ufrs bem você pode apresentar para
+
+47
+00:02:39,530 --> 00:02:45,830
+esquecer eles Contam tudo bem adoro foi
+
+48
+00:02:42,199 --> 00:02:48,619
+Gustavo Então agradeço então o convite
+
+49
+00:02:45,830 --> 00:02:51,200
+para estar participando aqui né e fico
+
+50
+00:02:48,620 --> 00:02:54,140
+muito feliz e parabéns por poder temos
+
+51
+00:02:51,199 --> 00:02:55,669
+que ativa que você tem tem Face então eu
+
+52
+00:02:54,139 --> 00:02:57,319
+vou falar um pouco do que não tá no meu
+
+53
+00:02:55,669 --> 00:03:01,879
+currículo o que que as pessoas não não
+
+54
+00:02:57,319 --> 00:03:04,099
+vem na internet né então eu tenho se
+
+55
+00:03:01,879 --> 00:03:06,560
+interesse por computação por
+
+56
+00:03:04,099 --> 00:03:09,109
+computadores na real desde pequena e
+
+57
+00:03:06,560 --> 00:03:12,409
+como eu sempre fui bem matemática e
+
+58
+00:03:09,110 --> 00:03:15,620
+física no colégio eu olhei ali as opções
+
+59
+00:03:12,409 --> 00:03:19,310
+do vestibular e vou fazer computação sem
+
+60
+00:03:15,620 --> 00:03:21,289
+saber como como programar e daí o quando
+
+61
+00:03:19,310 --> 00:03:23,689
+eu tava na minha primeira semana do
+
+62
+00:03:21,289 --> 00:03:26,469
+curso de computação eu fiz o meu
+
+63
+00:03:23,689 --> 00:03:28,859
+primeiro programa né que não foi Hello
+
+64
+00:03:26,469 --> 00:03:31,830
+foi o somar mais B
+
+65
+00:03:28,860 --> 00:03:33,690
+e e e eu me sentia a pessoa mais
+
+66
+00:03:31,830 --> 00:03:36,420
+poderosa do mundo porque se a gente
+
+67
+00:03:33,689 --> 00:03:39,120
+pensar a gente da Computação tem um
+
+68
+00:03:36,419 --> 00:03:42,179
+poder imenso porque as máquinas tem
+
+69
+00:03:39,120 --> 00:03:44,129
+muito poder e nós que estão nos
+
+70
+00:03:42,180 --> 00:03:46,800
+desenvolvedores devemos O que que a
+
+71
+00:03:44,129 --> 00:03:49,620
+máquina faz a gente pode ter alguém lá
+
+72
+00:03:46,800 --> 00:03:51,420
+de Business tomando decisões nós são as
+
+73
+00:03:49,620 --> 00:03:54,450
+linhas que a gente escreve que estão
+
+74
+00:03:51,419 --> 00:03:58,439
+codificadas então eu me apaixonei então
+
+75
+00:03:54,449 --> 00:04:01,619
+pela área de computação e daí eu tive
+
+76
+00:03:58,439 --> 00:04:03,930
+uma experiência como desenvolvedor de
+
+77
+00:04:01,620 --> 00:04:06,840
+software né temos antigos um dia a gente
+
+78
+00:04:03,930 --> 00:04:08,939
+falar dinheiro só e com isso eu vi que a
+
+79
+00:04:06,840 --> 00:04:11,250
+gente acaba às vezes em função do
+
+80
+00:04:08,939 --> 00:04:14,459
+ambiente desenvolvimento da dinâmica que
+
+81
+00:04:11,250 --> 00:04:16,769
+a gente tinha a gente fica pagando muito
+
+82
+00:04:14,459 --> 00:04:18,480
+fogo e eu pensei assim não eu quero
+
+83
+00:04:16,769 --> 00:04:19,949
+mudar um Eu quero mudar o mundo para
+
+84
+00:04:18,480 --> 00:04:22,680
+melhor ele foi aí que eu fui para
+
+85
+00:04:19,949 --> 00:04:26,639
+academia na o interesse na área de
+
+86
+00:04:22,680 --> 00:04:28,840
+engenharia de só acabei durante a minha
+
+87
+00:04:26,639 --> 00:04:31,149
+pós-graduação migrando para
+
+88
+00:04:28,839 --> 00:04:33,489
+os temas muita gente que a inteligência
+
+89
+00:04:31,149 --> 00:04:35,229
+artificial distribuído acabou aqui a
+
+90
+00:04:33,490 --> 00:04:36,759
+minha tese de doutorado foi na área de
+
+91
+00:04:35,230 --> 00:04:39,490
+inteligência artificial na área de
+
+92
+00:04:36,759 --> 00:04:41,620
+tomada de decisão e explicações também
+
+93
+00:04:39,490 --> 00:04:44,439
+que o pessoal hoje mais chama de
+
+94
+00:04:41,620 --> 00:04:47,129
+questões não vou ai ai mas desde que eu
+
+95
+00:04:44,439 --> 00:04:50,050
+comecei atuar como professora na UFRGS
+
+96
+00:04:47,129 --> 00:04:51,639
+eu voltei para o mundo da engenharia de
+
+97
+00:04:50,050 --> 00:04:53,710
+software porque eu nunca tinha perdido o
+
+98
+00:04:51,639 --> 00:04:56,199
+contato pelo grupo no colo trabalhava
+
+99
+00:04:53,709 --> 00:04:58,149
+durante o mestrado doutorado era um
+
+100
+00:04:56,199 --> 00:05:01,330
+laboratório de engenharia de software e
+
+101
+00:04:58,149 --> 00:05:03,159
+desde então eu Senhor nos últimos oito
+
+102
+00:05:01,329 --> 00:05:04,659
+anos a na pesquisa mais focada
+
+103
+00:05:03,160 --> 00:05:07,419
+engenharia de software e eu vou
+
+104
+00:05:04,660 --> 00:05:09,910
+apresentar né um pouco curtir um pouco
+
+105
+00:05:07,418 --> 00:05:13,759
+do meu trabalho ao longo desse desse
+
+106
+00:05:09,910 --> 00:05:15,930
+Episódio 1
+
+107
+00:05:13,759 --> 00:05:17,009
+E aí
+
+108
+00:05:15,930 --> 00:05:21,670
+E aí
+
+109
+00:05:17,009 --> 00:05:25,889
+[Música]
+
+110
+00:05:21,670 --> 00:05:25,890
+[Risadas]
+
+111
+00:05:29,528 --> 00:05:37,689
+é muito legal a Ingrid esse seu
+
+112
+00:05:35,798 --> 00:05:39,519
+interesse de arquitetura de software
+
+113
+00:05:37,689 --> 00:05:41,979
+aparentemente Não entendi agora né então
+
+114
+00:05:39,519 --> 00:05:44,709
+talvez você seja a pessoa mais adequada
+
+115
+00:05:41,978 --> 00:05:46,988
+para perguntar o que é que é arquitetura
+
+116
+00:05:44,709 --> 00:05:49,088
+de software e qual a diferença de uma
+
+117
+00:05:46,988 --> 00:05:51,518
+arquitetura de software para um design
+
+118
+00:05:49,088 --> 00:05:53,889
+de software então eu vou começar pela
+
+119
+00:05:51,519 --> 00:05:57,069
+segunda pergunta né então assim qual a
+
+120
+00:05:53,889 --> 00:05:59,709
+diferença de design de arquitetura então
+
+121
+00:05:57,069 --> 00:06:02,609
+Designer em português né a gente fazer o
+
+122
+00:05:59,709 --> 00:06:06,999
+projeto gente usa a palavra design para
+
+123
+00:06:02,608 --> 00:06:08,649
+distinguir o projeto design projeto pode
+
+124
+00:06:06,999 --> 00:06:11,469
+por isso que a gente acaba usando mais o
+
+125
+00:06:08,649 --> 00:06:13,358
+termo em inglês e essencialmente design
+
+126
+00:06:11,468 --> 00:06:15,639
+a gente construir modelos que são
+
+127
+00:06:13,358 --> 00:06:18,698
+representações que Abstrai alguns
+
+128
+00:06:15,639 --> 00:06:20,859
+elementos do software que foi
+
+129
+00:06:18,699 --> 00:06:23,649
+desenvolvido ou está sendo desenvolvido
+
+130
+00:06:20,858 --> 00:06:24,848
+vai ser desenvolvido e a gente pode
+
+131
+00:06:23,649 --> 00:06:27,968
+criar modelos com diferentes
+
+132
+00:06:24,848 --> 00:06:29,509
+perspectivas então a gente sempre faz
+
+133
+00:06:27,968 --> 00:06:31,399
+analogia né
+
+134
+00:06:29,509 --> 00:06:33,829
+é uma casa eu posso fazer uma foto
+
+135
+00:06:31,399 --> 00:06:37,549
+abaixo não tem hidráulica uma planta
+
+136
+00:06:33,829 --> 00:06:39,889
+elétrika e arquitetura faz parte do
+
+137
+00:06:37,550 --> 00:06:43,490
+projeto de software é uma dessas visões
+
+138
+00:06:39,889 --> 00:06:45,319
+que a gente faça a e daí o quê que o que
+
+139
+00:06:43,490 --> 00:06:47,990
+que é arquitetura de software então
+
+140
+00:06:45,319 --> 00:06:52,339
+existem múltiplas definições na a gente
+
+141
+00:06:47,990 --> 00:06:56,780
+não tem uma definição que todo mundo que
+
+142
+00:06:52,339 --> 00:06:59,389
+haja consenso vamos dizer assim Ah e eu
+
+143
+00:06:56,779 --> 00:07:02,529
+começo do trazendo uma definição que foi
+
+144
+00:06:59,389 --> 00:07:05,659
+feita por um cientista da Computação
+
+145
+00:07:02,529 --> 00:07:09,559
+chamado é ela não sei como pronunciar o
+
+146
+00:07:05,660 --> 00:07:11,540
+nome dele direito que é o Mudes que ele
+
+147
+00:07:09,560 --> 00:07:14,120
+disse que é um conjunto de decisões que
+
+148
+00:07:11,540 --> 00:07:16,640
+se tomadas inadequadamente podem levar
+
+149
+00:07:14,120 --> 00:07:18,170
+ao cancelamento do projeto Então por
+
+150
+00:07:16,639 --> 00:07:21,379
+essa frase a gente já vê né a
+
+151
+00:07:18,170 --> 00:07:23,390
+importância do que que é arquitetura e
+
+152
+00:07:21,379 --> 00:07:26,120
+daí a gente pensa na o quê que estão as
+
+153
+00:07:23,389 --> 00:07:28,939
+suas decisões tá então baseadas nas
+
+154
+00:07:26,120 --> 00:07:29,519
+múltiplas definições primeira coisa que
+
+155
+00:07:28,939 --> 00:07:31,978
+a gente
+
+156
+00:07:29,519 --> 00:07:34,378
+e assim tá meio padrão quando a gente
+
+157
+00:07:31,978 --> 00:07:37,500
+passa a arquitetura é a organização e os
+
+158
+00:07:34,379 --> 00:07:39,180
+ó Então eu tenho um código né o código
+
+159
+00:07:37,500 --> 00:07:41,579
+normalmente vai ter muitas línguas né
+
+160
+00:07:39,180 --> 00:07:44,189
+muitas coisas arquivos muitas faixas e
+
+161
+00:07:41,579 --> 00:07:48,448
+como é que a gente vai organizar isso A
+
+162
+00:07:44,189 --> 00:07:51,060
+então a gente organiza o soft né um
+
+163
+00:07:48,449 --> 00:07:53,158
+partes menores que são aquilo que a
+
+164
+00:07:51,060 --> 00:07:55,759
+gente chama de módulos Então os modos
+
+165
+00:07:53,158 --> 00:07:58,500
+ele é grupo ao certo de alimentos a
+
+166
+00:07:55,759 --> 00:08:02,009
+elementos podem ser classes podem ser
+
+167
+00:07:58,500 --> 00:08:04,649
+componentes podem ser arquivos e podem
+
+168
+00:08:02,009 --> 00:08:07,229
+ter também sub-módulos entre si Então os
+
+169
+00:08:04,649 --> 00:08:11,098
+módulos são os agrupamentos é como o fax
+
+170
+00:08:07,228 --> 00:08:13,740
+o no meu sócio e a segunda coisa a gente
+
+171
+00:08:11,098 --> 00:08:16,800
+tem as dependências que é dizendo qual o
+
+172
+00:08:13,740 --> 00:08:18,720
+módulo pode depender de outro qual o
+
+173
+00:08:16,800 --> 00:08:20,788
+módulo pode acessar outro e como é que
+
+174
+00:08:18,720 --> 00:08:22,680
+ocorre essa dependências Independência
+
+175
+00:08:20,788 --> 00:08:25,740
+enterro de código vai ser uma chamada de
+
+176
+00:08:22,680 --> 00:08:28,228
+um método chamada de procedimento a
+
+177
+00:08:25,740 --> 00:08:29,528
+possuir um atributo de uma classe de
+
+178
+00:08:28,228 --> 00:08:32,229
+outro módulo
+
+179
+00:08:29,528 --> 00:08:33,788
+em uma classe de outro módulo então isso
+
+180
+00:08:32,229 --> 00:08:35,769
+cria uma dependência porque no instante
+
+181
+00:08:33,788 --> 00:08:37,538
+que eu queria uma dependência se eu tô
+
+182
+00:08:35,769 --> 00:08:40,509
+implementando módulo eu vou ter que
+
+183
+00:08:37,538 --> 00:08:42,038
+conhecer o módulo do colo dependo então
+
+184
+00:08:40,509 --> 00:08:45,519
+é importante a gente conhecer essas
+
+185
+00:08:42,038 --> 00:08:48,490
+dependências também e a terceira coisa
+
+186
+00:08:45,519 --> 00:08:50,620
+né é as propriedades visivelmente
+
+187
+00:08:48,490 --> 00:08:52,240
+externas ou seja o módulo que a gente
+
+188
+00:08:50,620 --> 00:08:54,129
+quer que eles estejam componente meio
+
+189
+00:08:52,240 --> 00:08:58,299
+caixa preta ou seja se eu tô trabalhando
+
+190
+00:08:54,129 --> 00:08:59,999
+no módulo a e eu dependo do módulo B eu
+
+191
+00:08:58,299 --> 00:09:02,799
+não quero conhecer as particularidades
+
+192
+00:08:59,999 --> 00:09:05,920
+internas do módulo B Então as
+
+193
+00:09:02,799 --> 00:09:08,799
+propriedades visivelmente externas é são
+
+194
+00:09:05,919 --> 00:09:11,860
+aquelas que o que que eu vou no mundo
+
+195
+00:09:08,799 --> 00:09:14,078
+externo conhecer do módulo baby então
+
+196
+00:09:11,860 --> 00:09:16,379
+isso aí pode ser por exemplo uma PM se
+
+197
+00:09:14,078 --> 00:09:19,179
+eu tiver falando por exemplo de um
+
+198
+00:09:16,379 --> 00:09:20,649
+serviço na web eu botei então o que que
+
+199
+00:09:19,179 --> 00:09:23,469
+seria essa propriedade visivelmente
+
+200
+00:09:20,649 --> 00:09:26,049
+externa não as chamadas que eu vou poder
+
+201
+00:09:23,470 --> 00:09:27,278
+fazer então para aquele serviço então
+
+202
+00:09:26,049 --> 00:09:29,509
+quando a gente definir uma arquitetura
+
+203
+00:09:27,278 --> 00:09:32,750
+pensando desse ponto de vista
+
+204
+00:09:29,509 --> 00:09:34,490
+a estrutural o que a gente vai ter são
+
+205
+00:09:32,750 --> 00:09:36,289
+justamente esses módulos com as
+
+206
+00:09:34,490 --> 00:09:38,840
+dependências e sabemos como eles podem
+
+207
+00:09:36,289 --> 00:09:41,419
+se conversar através dessas propriedades
+
+208
+00:09:38,840 --> 00:09:43,220
+visivelmente externo e eu vou dar um
+
+209
+00:09:41,419 --> 00:09:46,870
+exemplo assim de como isso é importante
+
+210
+00:09:43,220 --> 00:09:49,639
+como levar em consideração arquitetura
+
+211
+00:09:46,870 --> 00:09:52,610
+fascinante a gente Visa evite bugs no
+
+212
+00:09:49,639 --> 00:09:55,639
+futuro só imagina um sistema tradicional
+
+213
+00:09:52,610 --> 00:09:57,680
+onde que a gente tem três módulos né
+
+214
+00:09:55,639 --> 00:09:59,179
+organizados hierarquicamente é o que a
+
+215
+00:09:57,679 --> 00:10:02,120
+gente chama de camadas onde que a gente
+
+216
+00:09:59,179 --> 00:10:06,469
+tem a um módulo de viu o módulo de Bis
+
+217
+00:10:02,120 --> 00:10:09,200
+eo módulo de de data né de resistência
+
+218
+00:10:06,470 --> 00:10:12,580
+eu ouviu é a interface do usuário mesmos
+
+219
+00:10:09,200 --> 00:10:15,259
+né é o do Ali os domínio né
+
+220
+00:10:12,580 --> 00:10:19,070
+desobstruídas que a gente tem ir a gente
+
+221
+00:10:15,259 --> 00:10:20,990
+tem um módulo de data que é quem vai ser
+
+222
+00:10:19,070 --> 00:10:22,940
+responsável por persistir aqueles lados
+
+223
+00:10:20,990 --> 00:10:24,980
+então normalmente a gente passa por
+
+224
+00:10:22,940 --> 00:10:26,930
+esses três modos chega a requisição do
+
+225
+00:10:24,980 --> 00:10:29,519
+usuário passa pelo Rio vai para o mesmo
+
+226
+00:10:26,929 --> 00:10:32,489
+e não vai para persistência agora
+
+227
+00:10:29,519 --> 00:10:35,250
+o jogador desavisado não sei que não
+
+228
+00:10:32,490 --> 00:10:38,100
+segue arquitetura ele pode receber uma
+
+229
+00:10:35,250 --> 00:10:40,080
+chamada navio em vez de passar pelo pelo
+
+230
+00:10:38,100 --> 00:10:43,590
+módulo de Minas mas ele faz direto uma
+
+231
+00:10:40,080 --> 00:10:45,900
+persistência sem passar pelo mesmo só
+
+232
+00:10:43,590 --> 00:10:48,990
+que no Business normalmente as regras de
+
+233
+00:10:45,899 --> 00:10:50,789
+negócios são validadas então o que que
+
+234
+00:10:48,990 --> 00:10:52,350
+vai acontecer se ele pular uma e do
+
+235
+00:10:50,789 --> 00:10:55,559
+caminho e alterar o banco de dados
+
+236
+00:10:52,350 --> 00:10:57,240
+direto ele pode tá me assistindo uma
+
+237
+00:10:55,559 --> 00:10:58,979
+coisa que vai violar uma regra de
+
+238
+00:10:57,240 --> 00:11:02,850
+negócio porque não ela não passou a
+
+239
+00:10:58,980 --> 00:11:05,100
+verificação aí tu tem um Dante aí o blog
+
+240
+00:11:02,850 --> 00:11:07,680
+é aberto dizendo a regra de negócio não
+
+241
+00:11:05,100 --> 00:11:10,649
+cumprido aí o que que esse desenvolvedor
+
+242
+00:11:07,679 --> 00:11:13,259
+vai fazer em vez de corrigir normalmente
+
+243
+00:11:10,649 --> 00:11:15,689
+a forma de corrigir o problema da forma
+
+244
+00:11:13,259 --> 00:11:19,289
+certa vai corrigir complementam da regra
+
+245
+00:11:15,690 --> 00:11:21,120
+de negócio lá na viu daí tu já começa a
+
+246
+00:11:19,289 --> 00:11:23,909
+fazer uma bagunça no código porque navio
+
+247
+00:11:21,120 --> 00:11:26,129
+Tem coisas que são divisas e fora isso
+
+248
+00:11:23,909 --> 00:11:28,379
+vai ter código duplicado porque agora eu
+
+249
+00:11:26,129 --> 00:11:29,080
+de negócio e vai estar navio e vai estar
+
+250
+00:11:28,379 --> 00:11:31,090
+no Bis
+
+251
+00:11:29,080 --> 00:11:33,550
+oi e daí vamos supor que o sistema
+
+252
+00:11:31,090 --> 00:11:35,110
+evolui a gente muda a regra de negócio
+
+253
+00:11:33,549 --> 00:11:37,240
+agora a gente vai ter que lembrar que
+
+254
+00:11:35,110 --> 00:11:39,399
+ela está implantada em dois lugares e
+
+255
+00:11:37,240 --> 00:11:41,799
+daí às vezes a gente muda no lugar e vai
+
+256
+00:11:39,399 --> 00:11:43,990
+ter um outro banho porque eu não no
+
+257
+00:11:41,799 --> 00:11:47,079
+outro lugar não foi corrigido então a
+
+258
+00:11:43,990 --> 00:11:49,629
+gente vê como como arquitetura né ela
+
+259
+00:11:47,080 --> 00:11:52,270
+garante uma evolução organizada do
+
+260
+00:11:49,629 --> 00:11:54,850
+código início leva né a menos bugs ter
+
+261
+00:11:52,269 --> 00:12:01,899
+mais qualidade e facilitar a vida dos
+
+262
+00:11:54,850 --> 00:12:05,379
+desenvolvedores convencidos já sei o que
+
+263
+00:12:01,899 --> 00:12:07,449
+é sofre agora eu como desenvolvedor como
+
+264
+00:12:05,379 --> 00:12:10,210
+é que eu faço textura de um sistema de
+
+265
+00:12:07,450 --> 00:12:12,340
+só eu faço do zero tem algum
+
+266
+00:12:10,210 --> 00:12:15,100
+conhecimento consolidado no qual eu
+
+267
+00:12:12,340 --> 00:12:17,050
+posso me basear primeira né existem
+
+268
+00:12:15,100 --> 00:12:18,460
+princípios básicos de engenharia de
+
+269
+00:12:17,049 --> 00:12:20,649
+software que a gente tem que levar em
+
+270
+00:12:18,460 --> 00:12:23,470
+consideração em qualquer nível que a
+
+271
+00:12:20,649 --> 00:12:25,569
+gente esteja trabalhando Então é os dois
+
+272
+00:12:23,470 --> 00:12:28,420
+princípios de modularização Esse parece
+
+273
+00:12:25,570 --> 00:12:29,089
+são de interesse então não interessa se
+
+274
+00:12:28,419 --> 00:12:31,188
+eu tô
+
+275
+00:12:29,089 --> 00:12:33,920
+a arquitetura se eu tô passando uma
+
+276
+00:12:31,188 --> 00:12:36,740
+classe se eu tô pensando no método eu
+
+277
+00:12:33,919 --> 00:12:40,188
+tenho que pensar em modo larização que
+
+278
+00:12:36,740 --> 00:12:43,159
+que é uma valorização é a é a gente ter
+
+279
+00:12:40,188 --> 00:12:45,078
+um baixo ou complemento isso significa
+
+280
+00:12:43,159 --> 00:12:47,539
+sempre que eu tenho duas partes do
+
+281
+00:12:45,078 --> 00:12:50,120
+software elas tem que se comunicar o
+
+282
+00:12:47,539 --> 00:12:53,659
+mínimo possível e entre todas as partes
+
+283
+00:12:50,120 --> 00:12:56,539
+do software e eu também me comunicar com
+
+284
+00:12:53,659 --> 00:12:58,850
+menor número de outras partes também
+
+285
+00:12:56,539 --> 00:13:01,129
+porque porque quanto mais partes Eu me
+
+286
+00:12:58,850 --> 00:13:04,009
+comunico mais Impacto eu tenho quando eu
+
+287
+00:13:01,129 --> 00:13:07,430
+faço uma mudança se eu dependo de vamos
+
+288
+00:13:04,009 --> 00:13:09,050
+supor de cinco outros módulos Se houver
+
+289
+00:13:07,429 --> 00:13:11,688
+uma mudança em cada um desses módulos
+
+290
+00:13:09,049 --> 00:13:16,308
+pode ser que eu venho módulo quebre
+
+291
+00:13:11,688 --> 00:13:18,110
+então só aumenta a probabilidade de de
+
+292
+00:13:16,308 --> 00:13:20,448
+ter que fazer modificações em função nos
+
+293
+00:13:18,110 --> 00:13:22,308
+outros módulos é isso gera muito
+
+294
+00:13:20,448 --> 00:13:24,409
+retrabalho então a gente tem que passar
+
+295
+00:13:22,308 --> 00:13:26,509
+num baixo ou complemento e também numa
+
+296
+00:13:24,409 --> 00:13:29,100
+alta coesão não seja os elementos do
+
+297
+00:13:26,509 --> 00:13:31,620
+módulo eles tem que ter relação em
+
+298
+00:13:29,100 --> 00:13:33,240
+é porque normalmente se eles não tiverem
+
+299
+00:13:31,620 --> 00:13:34,740
+relação eles vão estar espalhados em
+
+300
+00:13:33,240 --> 00:13:36,720
+vários módulos eu de novo vou ter que
+
+301
+00:13:34,740 --> 00:13:38,700
+entender vários módulos para fazer
+
+302
+00:13:36,720 --> 00:13:41,129
+alguma evolução ou alguma implementação
+
+303
+00:13:38,700 --> 00:13:43,290
+de alguma coisa e a separação de
+
+304
+00:13:41,129 --> 00:13:46,169
+interesses mas também tava acostumada
+
+305
+00:13:43,289 --> 00:13:48,689
+com a coesão é que cada módulo ele tem
+
+306
+00:13:46,169 --> 00:13:50,370
+que ter uma responsabilidade única então
+
+307
+00:13:48,690 --> 00:13:52,170
+quando a gente está pensando né a
+
+308
+00:13:50,370 --> 00:13:54,149
+posição tomar arquitetura a gente pensar
+
+309
+00:13:52,169 --> 00:13:57,479
+que cada logo que eu tô definido não é
+
+310
+00:13:54,149 --> 00:14:00,929
+uma partição aleatórias no sistema e sim
+
+311
+00:13:57,480 --> 00:14:04,350
+é uma partição na qual a gente vai ter
+
+312
+00:14:00,929 --> 00:14:06,959
+cada caixinha né cada pedaço do software
+
+313
+00:14:04,350 --> 00:14:09,269
+com elementos relacionados entre si é
+
+314
+00:14:06,960 --> 00:14:12,600
+que nem por exemplo imagina que eu tenho
+
+315
+00:14:09,269 --> 00:14:15,000
+uma estante com 5 gavetas e organizar
+
+316
+00:14:12,600 --> 00:14:18,090
+roupas ali dentro então tem o camiseta
+
+317
+00:14:15,000 --> 00:14:20,159
+tem um mês tem um calças né e o que eu
+
+318
+00:14:18,090 --> 00:14:22,649
+vou fazer em cada caixinha colocar sua
+
+319
+00:14:20,159 --> 00:14:24,509
+camiseta sua calça só nem aí se eu fazer
+
+320
+00:14:22,649 --> 00:14:26,069
+uma mistura quando eu quiser procurar
+
+321
+00:14:24,509 --> 00:14:28,019
+uma meia eu vou ter que abrir todas as
+
+322
+00:14:26,070 --> 00:14:29,080
+gavetas e procurar e-mail de um monte de
+
+323
+00:14:28,019 --> 00:14:31,720
+camiseta e um monte de cá
+
+324
+00:14:29,080 --> 00:14:34,270
+o mesmo então a gente quer fazer essa
+
+325
+00:14:31,720 --> 00:14:35,980
+separação de interesses que foi por
+
+326
+00:14:34,269 --> 00:14:38,500
+exemplo exemplo que eu dei uma pergunta
+
+327
+00:14:35,980 --> 00:14:40,870
+falei na pergunta anterior que é não tem
+
+328
+00:14:38,500 --> 00:14:42,340
+ali a interface do usuário a gente tem a
+
+329
+00:14:40,870 --> 00:14:44,560
+camada de meses da camada de
+
+330
+00:14:42,340 --> 00:14:46,300
+persistência isso até permite que a
+
+331
+00:14:44,559 --> 00:14:47,889
+gente faça alterações no futuro por
+
+332
+00:14:46,299 --> 00:14:50,709
+exemplo se eu quero mudar o meu
+
+333
+00:14:47,889 --> 00:14:52,960
+mecanismo de persistência eu posso né
+
+334
+00:14:50,710 --> 00:14:54,790
+não preciso mexer no sistema inteira ou
+
+335
+00:14:52,960 --> 00:14:57,759
+se eu quero por exemplo prover duas
+
+336
+00:14:54,789 --> 00:15:01,449
+formas de interface com usuário por
+
+337
+00:14:57,759 --> 00:15:03,909
+exemplo uma página Web ou por exemplo um
+
+338
+00:15:01,450 --> 00:15:06,910
+rap de celular eu tenho mesmo modo de
+
+339
+00:15:03,909 --> 00:15:09,069
+Bis e eu posso se as diferentes 1100
+
+340
+00:15:06,909 --> 00:15:10,689
+conectadas por onde que a gente Pati
+
+341
+00:15:09,070 --> 00:15:12,280
+primeiro a gente parte do princípio
+
+342
+00:15:10,690 --> 00:15:14,890
+básico de ingerido sofre de uma
+
+343
+00:15:12,279 --> 00:15:16,899
+coloração e separação de interesses mas
+
+344
+00:15:14,889 --> 00:15:20,409
+isso um conhecimento mais abstratos que
+
+345
+00:15:16,899 --> 00:15:23,319
+é difícil da gente a as vezes que uma
+
+346
+00:15:20,409 --> 00:15:25,839
+pessoa que com menos experiência colocar
+
+347
+00:15:23,320 --> 00:15:27,879
+esses princípios em prática e daí o que
+
+348
+00:15:25,840 --> 00:15:29,089
+a gente tem né agora a gente pode partir
+
+349
+00:15:27,879 --> 00:15:33,220
+também dos chamados isso
+
+350
+00:15:29,089 --> 00:15:36,769
+os padrões arquiteturais Então são
+
+351
+00:15:33,220 --> 00:15:39,199
+estilos de textura né aqui são
+
+352
+00:15:36,769 --> 00:15:41,959
+conhecidos são documentados então por
+
+353
+00:15:39,198 --> 00:15:43,878
+exemplo Arquitetura em camadas ou
+
+354
+00:15:41,958 --> 00:15:46,369
+arquitetura mvc que é moda o que o
+
+355
+00:15:43,879 --> 00:15:48,558
+controle Então a gente tem arquiteturas
+
+356
+00:15:46,370 --> 00:15:50,839
+que são conhecidas e que eu posso
+
+357
+00:15:48,558 --> 00:15:52,730
+instanciar elas no meu sistema eu posso
+
+358
+00:15:50,839 --> 00:15:55,879
+inclusive combinar diferentes estilos
+
+359
+00:15:52,730 --> 00:15:58,159
+arquiteturais Então existe um livro que
+
+360
+00:15:55,879 --> 00:16:01,339
+a gente popularmente chamam livro do
+
+361
+00:15:58,159 --> 00:16:04,899
+possa né E esse livro aí ele tem um
+
+362
+00:16:01,339 --> 00:16:07,309
+catálogo de termos arquiteturais ele
+
+363
+00:16:04,899 --> 00:16:09,318
+mesmos padrões acabam aparecendo em
+
+364
+00:16:07,308 --> 00:16:12,438
+livros básicos de engenharia de software
+
+365
+00:16:09,318 --> 00:16:15,409
+I e II São os pontos de partidos e fora
+
+366
+00:16:12,438 --> 00:16:18,198
+isso retomando aquela definição né de
+
+367
+00:16:15,409 --> 00:16:21,169
+que a arquitetura é o conjunto de
+
+368
+00:16:18,198 --> 00:16:23,708
+decisões que se tomadas inadequadamente
+
+369
+00:16:21,169 --> 00:16:26,568
+podem levar ao lançamento do projeto
+
+370
+00:16:23,708 --> 00:16:29,099
+estas decisões incluem também as
+
+371
+00:16:26,568 --> 00:16:31,169
+tecnologias que eu vou usar no sistema
+
+372
+00:16:29,100 --> 00:16:33,450
+eu não vou para fazer a implementação de
+
+373
+00:16:31,169 --> 00:16:36,870
+parte de interface uma aplicação web
+
+374
+00:16:33,450 --> 00:16:40,230
+muitas nunca né nunca muito forte né mas
+
+375
+00:16:36,870 --> 00:16:41,940
+quase sempre a gente não faz não
+
+376
+00:16:40,230 --> 00:16:44,129
+reinventa a roda e acaba usando os
+
+377
+00:16:41,940 --> 00:16:45,980
+planos que estão disponíveis E os
+
+378
+00:16:44,129 --> 00:16:48,480
+treinos normalmente ele ele já
+
+379
+00:16:45,980 --> 00:16:51,269
+predeterminam o Marco frescura ele já
+
+380
+00:16:48,480 --> 00:16:54,480
+por exemplo muitos deles já inflamento
+
+381
+00:16:51,269 --> 00:16:56,069
+arquitetura mvc Então se assume que se a
+
+382
+00:16:54,480 --> 00:16:58,560
+pessoa usar corretamente que ele
+
+383
+00:16:56,070 --> 00:17:01,320
+fermenta ele vai ser uma Instância da
+
+384
+00:16:58,559 --> 00:17:03,169
+arquitetura mvc sendo então é importante
+
+385
+00:17:01,320 --> 00:17:05,549
+então quando eu fazer uma escolha
+
+386
+00:17:03,169 --> 00:17:08,220
+tecnológica né para dizer assim a minha
+
+387
+00:17:05,549 --> 00:17:10,710
+que te tura né tem esses módulos e eu tô
+
+388
+00:17:08,220 --> 00:17:13,079
+decidindo usar essa tecnologia eu olhar
+
+389
+00:17:10,710 --> 00:17:16,559
+qual é a textura daquela tecnologia que
+
+390
+00:17:13,079 --> 00:17:20,009
+ajuda a proposta né Por quem definiu
+
+391
+00:17:16,559 --> 00:17:23,460
+aquela tecnologia e tentar seguir ela no
+
+392
+00:17:20,009 --> 00:17:25,339
+meu sistema então é importante ver se a
+
+393
+00:17:23,460 --> 00:17:29,079
+gente tem essas arquiteturas vamos ver
+
+394
+00:17:25,339 --> 00:17:31,148
+pré-definidos a questão é muito
+
+395
+00:17:29,079 --> 00:17:32,859
+É porque ela vem fumar arquitetura ali
+
+396
+00:17:31,148 --> 00:17:36,609
+debaixo do braço e não teve a gente não
+
+397
+00:17:32,859 --> 00:17:39,339
+sabe né mas vamos supor que a gente quer
+
+398
+00:17:36,609 --> 00:17:42,609
+construir o nosso projeto nosso sistema
+
+399
+00:17:39,339 --> 00:17:45,189
+E aí a gente não tem cumba fazem foi
+
+400
+00:17:42,609 --> 00:17:47,829
+morto já desse em a textura né para
+
+401
+00:17:45,190 --> 00:17:49,509
+gente uma forma transparente e o que que
+
+402
+00:17:47,829 --> 00:17:51,460
+não deveria eu conservadora vai
+
+403
+00:17:49,509 --> 00:17:53,589
+consideração para construir a
+
+404
+00:17:51,460 --> 00:17:55,990
+arquitetura desse sol né aí o que que eu
+
+405
+00:17:53,589 --> 00:17:57,879
+posso me apoiar eu sei que eu voltei os
+
+406
+00:17:55,990 --> 00:17:59,620
+requisitos do cliente a gente vai tá
+
+407
+00:17:57,880 --> 00:18:01,419
+falando em Venda já tá falando em
+
+408
+00:17:59,619 --> 00:18:03,009
+carrinho de compra vai ter os requisitos
+
+409
+00:18:01,419 --> 00:18:05,669
+não-funcionais aí de segurança
+
+410
+00:18:03,009 --> 00:18:08,950
+desempenho como é que eu posso associar
+
+411
+00:18:05,669 --> 00:18:11,679
+né esses problemas esse requisitos que o
+
+412
+00:18:08,950 --> 00:18:14,470
+cliente está fazendo para o associar com
+
+413
+00:18:11,679 --> 00:18:16,990
+algum modelo de arquitetura de software
+
+414
+00:18:14,470 --> 00:18:19,058
+né você falou que tinha baixo de um
+
+415
+00:18:16,990 --> 00:18:20,829
+catálogo né Tem um catálogo com vários
+
+416
+00:18:19,058 --> 00:18:22,569
+tipos de cultura eu consigo associar
+
+417
+00:18:20,829 --> 00:18:23,849
+eles algum tipo de problema requisito
+
+418
+00:18:22,569 --> 00:18:27,389
+específico
+
+419
+00:18:23,849 --> 00:18:28,740
+bom então é primeiro foi bastante
+
+420
+00:18:27,390 --> 00:18:32,220
+importante do mencionar que os
+
+421
+00:18:28,740 --> 00:18:34,019
+requisitos né porque é quando a gente
+
+422
+00:18:32,220 --> 00:18:36,600
+pensa na arquitetura a gente pensa não
+
+423
+00:18:34,019 --> 00:18:38,668
+só nos requisitos funcionais como também
+
+424
+00:18:36,599 --> 00:18:41,099
+não funcionais então normalmente a gente
+
+425
+00:18:38,669 --> 00:18:43,259
+assumi né que quando quando a gente está
+
+426
+00:18:41,099 --> 00:18:45,058
+usando começando um só filho do zero a
+
+427
+00:18:43,259 --> 00:18:46,950
+gente vai ter uma visão de um produto
+
+428
+00:18:45,058 --> 00:18:49,319
+que a gente quer desenvolver e a gente
+
+429
+00:18:46,950 --> 00:18:53,100
+vai ter pelo menos um conjunto de
+
+430
+00:18:49,319 --> 00:18:56,158
+requisitos Inicial né pelo que compõem
+
+431
+00:18:53,099 --> 00:18:58,288
+Essa visão de produto pode ser que eu
+
+432
+00:18:56,159 --> 00:18:59,700
+esteja usando uma uma forma
+
+433
+00:18:58,288 --> 00:19:01,769
+desenvolvimento onde que eu não quero
+
+434
+00:18:59,700 --> 00:19:05,279
+desenvolver tudo de cara né a gente vai
+
+435
+00:19:01,769 --> 00:19:07,889
+fazer primeiro uma interação com o MVP
+
+436
+00:19:05,279 --> 00:19:09,779
+alguma coisa nessa linha e uma seu é
+
+437
+00:19:07,890 --> 00:19:11,640
+importante eu tenho uma visão né onde é
+
+438
+00:19:09,779 --> 00:19:13,589
+que eu quero chegar com esse produto que
+
+439
+00:19:11,640 --> 00:19:15,140
+eu tô desenvolvendo e Isso inclui
+
+440
+00:19:13,589 --> 00:19:17,699
+requisitos funcionais e não funcionais
+
+441
+00:19:15,140 --> 00:19:20,820
+então quando quando a gente tiver
+
+442
+00:19:17,700 --> 00:19:22,679
+pensando na hora que textura né Eu sim
+
+443
+00:19:20,819 --> 00:19:23,859
+eu posso partir desses estilos
+
+444
+00:19:22,679 --> 00:19:25,660
+arquiteturais
+
+445
+00:19:23,859 --> 00:19:27,879
+é normalmente os estilos arquiteturais
+
+446
+00:19:25,660 --> 00:19:30,190
+são bem abstratos e a gente pode definir
+
+447
+00:19:27,880 --> 00:19:32,620
+módulos dentro dele então por exemplo se
+
+448
+00:19:30,190 --> 00:19:33,429
+eu tenho um módulo de Business eu tenho
+
+449
+00:19:32,619 --> 00:19:37,808
+que olhar para os meus requisitos
+
+450
+00:19:33,429 --> 00:19:39,610
+funcionais e pensar quais são o quê que
+
+451
+00:19:37,808 --> 00:19:41,920
+está relacionado com meu domínio que
+
+452
+00:19:39,609 --> 00:19:45,189
+tinha dado um exemplo aí do módulo de
+
+453
+00:19:41,920 --> 00:19:48,190
+vendas né módulo de coisa pode ser de
+
+454
+00:19:45,190 --> 00:19:50,048
+pagamento módulo de chip em então quando
+
+455
+00:19:48,190 --> 00:19:53,350
+eu tiver olhando para meus requisitos é
+
+456
+00:19:50,048 --> 00:19:55,599
+importante olhar para esses esses
+
+457
+00:19:53,349 --> 00:19:57,189
+interesse como é que são os conselhos e
+
+458
+00:19:55,599 --> 00:19:59,558
+o que eu quero fazer é a fazer a
+
+459
+00:19:57,190 --> 00:20:02,769
+separação dos constantes separação dos
+
+460
+00:19:59,558 --> 00:20:04,359
+interesses então é importante né o olho
+
+461
+00:20:02,769 --> 00:20:07,089
+para os meus requisitos e vou olhar
+
+462
+00:20:04,359 --> 00:20:09,099
+então esses interesses e pensar como eu
+
+463
+00:20:07,089 --> 00:20:11,439
+vou para adicionar uma coisa que eu
+
+464
+00:20:09,099 --> 00:20:14,230
+coloco muito importante é que a gente às
+
+465
+00:20:11,440 --> 00:20:15,970
+vezes tende a pensar proceduralmente e
+
+466
+00:20:14,230 --> 00:20:19,360
+eu já vi as vezes algumas pessoas
+
+467
+00:20:15,970 --> 00:20:22,120
+começar falando da arquitetura em termos
+
+468
+00:20:19,359 --> 00:20:23,869
+de fluxo de como a informação vai para
+
+469
+00:20:22,119 --> 00:20:25,609
+pagar no sistema e não
+
+470
+00:20:23,869 --> 00:20:27,379
+Oi gente faz uma arquitetura arquitetura
+
+471
+00:20:25,609 --> 00:20:31,519
+a gente tem que olhar de uma forma mais
+
+472
+00:20:27,380 --> 00:20:35,210
+de agrupamento mesmo assim é então assim
+
+473
+00:20:31,519 --> 00:20:37,730
+não é porque eu vou caminhar lido o
+
+474
+00:20:35,210 --> 00:20:39,950
+primeiro faço o carrinho de compras para
+
+475
+00:20:37,730 --> 00:20:42,230
+depois fazer o login é a gente pensar
+
+476
+00:20:39,950 --> 00:20:45,380
+nos interesse e daí a gente determina o
+
+477
+00:20:42,230 --> 00:20:47,990
+nosso nosso os nossos modos e tem junto
+
+478
+00:20:45,380 --> 00:20:49,580
+daí eu sei quisitos não-funcionais que
+
+479
+00:20:47,990 --> 00:20:52,700
+então a isso que você acredita
+
+480
+00:20:49,579 --> 00:20:56,990
+Associados com seguranças Associados até
+
+481
+00:20:52,700 --> 00:20:58,340
+formas a é importantíssimo eu considerar
+
+482
+00:20:56,990 --> 00:21:01,130
+nesse momento você que Deus não
+
+483
+00:20:58,339 --> 00:21:03,289
+funcionais porque às vezes a gente não
+
+484
+00:21:01,130 --> 00:21:05,840
+tá só neles no momento da arquitetura se
+
+485
+00:21:03,289 --> 00:21:08,089
+eu for deixar para pensar depois a o meu
+
+486
+00:21:05,839 --> 00:21:10,730
+sistema não vai dar suporte aí se você
+
+487
+00:21:08,089 --> 00:21:12,678
+quiser se não funcionais por exemplo se
+
+488
+00:21:10,730 --> 00:21:14,450
+eu tô preocupada com performance eu
+
+489
+00:21:12,679 --> 00:21:17,750
+tenho que pensar na arquitetura que seja
+
+490
+00:21:14,450 --> 00:21:20,299
+instalado se eu tô querendo rodar o
+
+491
+00:21:17,750 --> 00:21:23,849
+nosso sistema de forma distribuída ou
+
+492
+00:21:20,299 --> 00:21:28,139
+por exemplo querer poder substituir
+
+493
+00:21:23,849 --> 00:21:31,649
+o meu só tem que baixar o meu sistema
+
+494
+00:21:28,140 --> 00:21:33,780
+inteiro e subir ele de novo eu tenho que
+
+495
+00:21:31,650 --> 00:21:35,100
+passar uma costura que me permita fazer
+
+496
+00:21:33,779 --> 00:21:38,399
+isso pois então como arquitetura de
+
+497
+00:21:35,099 --> 00:21:40,139
+microserviços a se eu tô fazendo um
+
+498
+00:21:38,400 --> 00:21:42,929
+sistema por exemplo que eu preciso fazer
+
+499
+00:21:40,140 --> 00:21:45,660
+auditoria que isso até uma coisa super
+
+500
+00:21:42,929 --> 00:21:48,030
+importante hoje em dia a gente pega as
+
+501
+00:21:45,660 --> 00:21:51,500
+leis europeias né que não tem a Judy PR
+
+502
+00:21:48,029 --> 00:21:53,668
+a luz sistemas que tomam decisões
+
+503
+00:21:51,500 --> 00:21:56,788
+automatizadas hoje em dia se pede muito
+
+504
+00:21:53,669 --> 00:21:58,470
+para a gente ter a a explicar a
+
+505
+00:21:56,788 --> 00:22:00,390
+habilidade do sistema a gente poder
+
+506
+00:21:58,470 --> 00:22:02,610
+entender né como é que o sistema chegou
+
+507
+00:22:00,390 --> 00:22:04,770
+naquela decisão então se eu preciso
+
+508
+00:22:02,609 --> 00:22:06,329
+conseguir auditar todos os espaços hoje
+
+509
+00:22:04,769 --> 00:22:08,548
+eu tenho que pensar na hora de definir a
+
+510
+00:22:06,329 --> 00:22:09,839
+arquitetura como é que isso vai ser vai
+
+511
+00:22:08,548 --> 00:22:12,089
+ser feito como é que eu vou capturar
+
+512
+00:22:09,839 --> 00:22:14,819
+isso por isso que eu posso definir que
+
+513
+00:22:12,089 --> 00:22:16,589
+eu preciso usar orientação aspectos para
+
+514
+00:22:14,819 --> 00:22:18,950
+poder interceptar certas partes do meu
+
+515
+00:22:16,589 --> 00:22:22,859
+programa e poder fazer auditoria
+
+516
+00:22:18,950 --> 00:22:23,860
+posteriormente então é é importante
+
+517
+00:22:22,859 --> 00:22:25,808
+então eu peço
+
+518
+00:22:23,859 --> 00:22:30,099
+eu não nego produtos com essas
+
+519
+00:22:25,808 --> 00:22:32,410
+requisitos né que principais pelo menos
+
+520
+00:22:30,099 --> 00:22:34,298
+né fui daí com isso eu vou definir os
+
+521
+00:22:32,410 --> 00:22:38,350
+módulos da minha espessura e como isso
+
+522
+00:22:34,298 --> 00:22:41,410
+vai funcionar e fora isso né De novo
+
+523
+00:22:38,349 --> 00:22:43,959
+indo para a experiência né com
+
+524
+00:22:41,410 --> 00:22:46,570
+desenvolvimento de sistemas existem
+
+525
+00:22:43,960 --> 00:22:48,370
+certos domínios de aplicação que são
+
+526
+00:22:46,569 --> 00:22:52,539
+recorrentes Então a gente tem ali
+
+527
+00:22:48,369 --> 00:22:55,599
+aplicações celular ou jogos o sistema de
+
+528
+00:22:52,539 --> 00:22:58,569
+comer então estes sistemas aí a gente
+
+529
+00:22:55,599 --> 00:23:00,548
+tem arquiteturas que são ontem que
+
+530
+00:22:58,569 --> 00:23:02,500
+normalmente são utilizadas esse tipo de
+
+531
+00:23:00,548 --> 00:23:06,910
+sistema e até mesmo a gente pode
+
+532
+00:23:02,500 --> 00:23:08,619
+procurar faremos mas não de Independente
+
+533
+00:23:06,910 --> 00:23:11,798
+de domínio né mas de domínio específicos
+
+534
+00:23:08,619 --> 00:23:14,168
+e já re usar esses outros setores então
+
+535
+00:23:11,798 --> 00:23:15,668
+é é importante não considerar todos
+
+536
+00:23:14,169 --> 00:23:18,850
+esses requisitos na concepção da
+
+537
+00:23:15,669 --> 00:23:20,590
+arquitetura é olhar né os sistemas e
+
+538
+00:23:18,849 --> 00:23:21,730
+tentar aprender falando com sistemas
+
+539
+00:23:20,589 --> 00:23:23,869
+semelhantes como eles foram
+
+540
+00:23:21,730 --> 00:23:27,049
+implementados usar experiência do
+
+541
+00:23:23,869 --> 00:23:29,989
+e eu sempre tenho arquitetura no meu
+
+542
+00:23:27,049 --> 00:23:32,450
+software ou existem sistemas em que a
+
+543
+00:23:29,990 --> 00:23:35,450
+arquitetura tão simples a ponto de o
+
+544
+00:23:32,450 --> 00:23:40,960
+nome preocupar então assim essa pergunta
+
+545
+00:23:35,450 --> 00:23:43,069
+é é um pouquinho vamos dizer complexo né
+
+546
+00:23:40,960 --> 00:23:46,009
+primeiro a gente pensa assim o que que é
+
+547
+00:23:43,069 --> 00:23:48,470
+um sistema muito simples são por exemplo
+
+548
+00:23:46,009 --> 00:23:50,089
+eu já implementei o sistema para mim que
+
+549
+00:23:48,470 --> 00:23:53,480
+era uma classe que era para gerar um
+
+550
+00:23:50,089 --> 00:23:55,250
+irmã endereço muitos anos atrás que era
+
+551
+00:23:53,480 --> 00:23:57,890
+simplesmente eu gostava uma hora o
+
+552
+00:23:55,250 --> 00:24:00,558
+intervalo e uma um barulho que o sistema
+
+553
+00:23:57,890 --> 00:24:02,840
+me falar então era uma carta só né Eu
+
+554
+00:24:00,558 --> 00:24:04,759
+preciso de uma professora para isso eu
+
+555
+00:24:02,839 --> 00:24:07,399
+não ia evoluir aquele sistema era uma
+
+556
+00:24:04,759 --> 00:24:09,619
+coisa simples né então arquitetura né
+
+557
+00:24:07,400 --> 00:24:12,559
+ser uma classe né então não deixa de ser
+
+558
+00:24:09,619 --> 00:24:14,959
+um arquitetura um sistema simples como
+
+559
+00:24:12,558 --> 00:24:17,299
+como esse não é um algo para uso pessoal
+
+560
+00:24:14,960 --> 00:24:21,170
+eu sei que não vai evoluir que vai ser
+
+561
+00:24:17,299 --> 00:24:23,849
+pequeno né eu posso não é não pensar na
+
+562
+00:24:21,170 --> 00:24:26,070
+arquitetura mas mesmo assim
+
+563
+00:24:23,849 --> 00:24:28,319
+o mesmo sendo um sistema só com uma
+
+564
+00:24:26,069 --> 00:24:30,750
+classe né todo sistema tem uma
+
+565
+00:24:28,319 --> 00:24:32,519
+arquitetura porque simplesmente o
+
+566
+00:24:30,750 --> 00:24:35,579
+sistema de uma classe e simplesmente o
+
+567
+00:24:32,519 --> 00:24:38,460
+único módulo sem comunicação com ninguém
+
+568
+00:24:35,579 --> 00:24:40,589
+né e e provavelmente Existe coisas ali
+
+569
+00:24:38,460 --> 00:24:42,829
+dentro então todo o sistema tem uma
+
+570
+00:24:40,589 --> 00:24:45,269
+textura mesmo que a gente não conheça
+
+571
+00:24:42,829 --> 00:24:47,279
+mesmo que ela não seja planejada porque
+
+572
+00:24:45,269 --> 00:24:49,109
+isso vai emergir no instante que eu
+
+573
+00:24:47,279 --> 00:24:52,200
+tenho vários componentes no meu sócio
+
+574
+00:24:49,109 --> 00:24:54,058
+várias classes e eu começar a organizar
+
+575
+00:24:52,200 --> 00:24:55,740
+eles por exemplo um pacotes isso vai
+
+576
+00:24:54,058 --> 00:24:57,720
+determinar a arquitetura porque eu vou
+
+577
+00:24:55,740 --> 00:24:59,880
+ter os pacotes Botei as dependências e
+
+578
+00:24:57,720 --> 00:25:03,110
+isso é uma setor então todo o sistema
+
+579
+00:24:59,880 --> 00:25:05,900
+tem que sempre é uma uma arquitetura
+
+580
+00:25:03,109 --> 00:25:08,219
+mesmo que também colisão como nem
+
+581
+00:25:05,900 --> 00:25:09,870
+particiones offering pacotes eu vou ter
+
+582
+00:25:08,220 --> 00:25:12,120
+uma arquitetura não é monolítico lá
+
+583
+00:25:09,869 --> 00:25:14,639
+simplesmente um não vai não vai existir
+
+584
+00:25:12,119 --> 00:25:16,168
+coisas não não vai existir acoplamento
+
+585
+00:25:14,640 --> 00:25:21,150
+pensando numa logo né mas é uma
+
+586
+00:25:16,169 --> 00:25:23,309
+arquitetura é também né então assim mas
+
+587
+00:25:21,150 --> 00:25:23,860
+falando lá da questão do sistema tão
+
+588
+00:25:23,308 --> 00:25:26,410
+simples
+
+589
+00:25:23,859 --> 00:25:28,689
+é daquele sistema tão simples né que é
+
+590
+00:25:26,410 --> 00:25:31,840
+só uma classe para o meu uso pessoal né
+
+591
+00:25:28,690 --> 00:25:33,009
+ok né então assim não vou pensar muito
+
+592
+00:25:31,839 --> 00:25:34,959
+na arquitetura mas se a gente tiver
+
+593
+00:25:33,009 --> 00:25:37,349
+pensando no sistema aqui é para entrar
+
+594
+00:25:34,960 --> 00:25:39,190
+em produção eu botei múltiplos usuários
+
+595
+00:25:37,349 --> 00:25:41,769
+você a gente tá falando novo sistema
+
+596
+00:25:39,190 --> 00:25:43,509
+pequeno que não é uma classe muda quando
+
+597
+00:25:41,769 --> 00:25:45,548
+a gente fala às vezes tem lá mil linhas
+
+598
+00:25:43,509 --> 00:25:46,960
+de código é pequeno se a gente passar
+
+599
+00:25:45,548 --> 00:25:49,240
+aqui só um produto um produto
+
+600
+00:25:46,960 --> 00:25:51,190
+normalmente vai resolver então alguém
+
+601
+00:25:49,240 --> 00:25:52,990
+pode dizer assim não sistema é pequeno
+
+602
+00:25:51,190 --> 00:25:55,720
+eu não preciso organizar ele porque o
+
+603
+00:25:52,990 --> 00:25:58,029
+código ele é gerenciável não há para aí
+
+604
+00:25:55,720 --> 00:26:00,490
+o sistema evolui no Lago Hoje ele tem
+
+605
+00:25:58,029 --> 00:26:03,099
+medo daqui algum tempo ele pode ter
+
+606
+00:26:00,490 --> 00:26:05,529
+muito mais que isso então é importante
+
+607
+00:26:03,099 --> 00:26:08,379
+já mesmo e sistemas simples eu
+
+608
+00:26:05,529 --> 00:26:12,039
+considerar arquitetura a gente começa a
+
+609
+00:26:08,380 --> 00:26:15,100
+pensar no futuro até porque né se a
+
+610
+00:26:12,039 --> 00:26:17,710
+gente pensar a mudança da arquitetura de
+
+611
+00:26:15,099 --> 00:26:19,779
+um sistema tem um grande Impacto então
+
+612
+00:26:17,710 --> 00:26:21,308
+por exemplo se eu tô definindo um fluxo
+
+613
+00:26:19,779 --> 00:26:23,589
+né quando a gente definir as nossas
+
+614
+00:26:21,308 --> 00:26:23,869
+normalmente um dia pensa Qual é o fluxo
+
+615
+00:26:23,589 --> 00:26:25,669
+que
+
+616
+00:26:23,869 --> 00:26:28,819
+e você quando eu tiver tratando Rick de
+
+617
+00:26:25,670 --> 00:26:31,250
+sonho então se eu mudar esse fluxo eu
+
+618
+00:26:28,819 --> 00:26:33,230
+vou ter que rever todas todas todas as
+
+619
+00:26:31,250 --> 00:26:36,500
+minhas funcionalidades do meu sistema E
+
+620
+00:26:33,230 --> 00:26:37,880
+isso tem um grande Impacto então ou até
+
+621
+00:26:36,500 --> 00:26:39,710
+mesmo quando eu tinha falado dos
+
+622
+00:26:37,880 --> 00:26:41,660
+requisitos não-funcionais a gente começa
+
+623
+00:26:39,710 --> 00:26:43,308
+a fazer um sistema supersimples não tô
+
+624
+00:26:41,660 --> 00:26:45,860
+preocupada com três horas mas tô
+
+625
+00:26:43,308 --> 00:26:47,359
+preocupada com sua habilidade e daí eu
+
+626
+00:26:45,859 --> 00:26:50,000
+vou ter que fazer depois toda uma
+
+627
+00:26:47,359 --> 00:26:55,549
+Engenharia e a gente tem casos
+
+628
+00:26:50,000 --> 00:26:57,650
+conhecidos de hardsoft né grande né que
+
+629
+00:26:55,549 --> 00:26:59,569
+aconteceu do pessoal para tentar fazer
+
+630
+00:26:57,650 --> 00:27:02,480
+reengenharia porque chegou num ponto que
+
+631
+00:26:59,569 --> 00:27:05,419
+ele não evoluirá mais e isso as vezes
+
+632
+00:27:02,480 --> 00:27:07,610
+fez com que o processo de engenharia
+
+633
+00:27:05,420 --> 00:27:11,570
+fosse tão complexo que o sofres
+
+634
+00:27:07,609 --> 00:27:13,308
+atualmente acabou morrendo então às
+
+635
+00:27:11,569 --> 00:27:15,230
+vezes né O que a gente consegue fazer
+
+636
+00:27:13,308 --> 00:27:17,058
+fazer uma reengenharia aos poucos para a
+
+637
+00:27:15,230 --> 00:27:20,058
+gente não perder o tempo de mercado mas
+
+638
+00:27:17,058 --> 00:27:22,129
+é um processo que é bastante trabalhoso
+
+639
+00:27:20,058 --> 00:27:23,849
+você antes gostoso porque não adianta
+
+640
+00:27:22,130 --> 00:27:26,070
+dizer a gente vai fazer refatoração
+
+641
+00:27:23,849 --> 00:27:27,839
+a caixa de automatizados Isso muda que
+
+642
+00:27:26,069 --> 00:27:30,298
+textura tu vai tá quebrando o seu set
+
+643
+00:27:27,839 --> 00:27:33,599
+também a porque vai mudar a gente é
+
+644
+00:27:30,298 --> 00:27:35,129
+fácil né então então um resumo né como
+
+645
+00:27:33,599 --> 00:27:37,259
+eu falei uma resposta complicada porque
+
+646
+00:27:35,130 --> 00:27:39,480
+o que que é simples defina simples né
+
+647
+00:27:37,259 --> 00:27:41,160
+você tiver pensando em Sistemas trás é
+
+648
+00:27:39,480 --> 00:27:44,038
+sempre importante a gente pensar na
+
+649
+00:27:41,160 --> 00:27:46,620
+arquitetura mas principalmente porque
+
+650
+00:27:44,038 --> 00:27:48,569
+sistema de volume eu acho que a
+
+651
+00:27:46,619 --> 00:27:50,759
+dificuldade que a gente tem conseguir
+
+652
+00:27:48,569 --> 00:27:54,538
+entender né E você continente visualizar
+
+653
+00:27:50,759 --> 00:27:58,079
+textura aqui são Abstrações né me de que
+
+654
+00:27:54,538 --> 00:28:00,569
+maneira a gente consegue entender melhor
+
+655
+00:27:58,079 --> 00:28:02,699
+né a gente falou de freio e mofo de que
+
+656
+00:28:00,569 --> 00:28:06,869
+trazem arquiteturas prontos mas a gente
+
+657
+00:28:02,700 --> 00:28:08,730
+consegue ver entender essas coisas é eu
+
+658
+00:28:06,869 --> 00:28:11,129
+como desviador preciso criar modelos
+
+659
+00:28:08,730 --> 00:28:14,220
+para isso talvez usando o ML ou usando
+
+660
+00:28:11,130 --> 00:28:16,320
+um diagrama de fluxograma tradicional e
+
+661
+00:28:14,220 --> 00:28:18,450
+assim eu me preocupo com a evolução
+
+662
+00:28:16,319 --> 00:28:20,700
+desses modelos como você mesmo diz Hero
+
+663
+00:28:18,450 --> 00:28:22,769
+ontem te amo' líneas amanhã não se sabe
+
+664
+00:28:20,700 --> 00:28:23,860
+né então à medida que o código rolou e
+
+665
+00:28:22,769 --> 00:28:27,129
+eu também tem que ter
+
+666
+00:28:23,859 --> 00:28:29,219
+a evoluir esses modelos ou Existe alguma
+
+667
+00:28:27,130 --> 00:28:31,870
+forma mais semi ou completamente
+
+668
+00:28:29,220 --> 00:28:34,240
+automatizada que a gente possa confiar e
+
+669
+00:28:31,869 --> 00:28:36,819
+apertar o Play e a gente poder entender
+
+670
+00:28:34,240 --> 00:28:39,220
+as pessoas no sol bom então da mesma
+
+671
+00:28:36,819 --> 00:28:42,639
+forma que definição de arquitetura não
+
+672
+00:28:39,220 --> 00:28:45,970
+tenho um consenso né a forma de
+
+673
+00:28:42,640 --> 00:28:49,059
+visualizar arquitetura também não tem um
+
+674
+00:28:45,970 --> 00:28:51,610
+consenso então não existe padrão para
+
+675
+00:28:49,058 --> 00:28:53,710
+isso né a gente fala eu nunca vi um
+
+676
+00:28:51,609 --> 00:28:56,048
+artigo que realmente mostrar seu dados
+
+677
+00:28:53,710 --> 00:28:57,850
+os estatísticas Presidente Isso é
+
+678
+00:28:56,048 --> 00:28:59,589
+verdade meus popularmente a gente fala
+
+679
+00:28:57,849 --> 00:29:01,119
+que a ferramenta mais utilizada para
+
+680
+00:28:59,589 --> 00:29:03,250
+fazer espessura do software é o
+
+681
+00:29:01,119 --> 00:29:05,349
+PowerPoint que a gente vai desenhar lá
+
+682
+00:29:03,250 --> 00:29:07,869
+as caixinhas né os quadrados estão
+
+683
+00:29:05,349 --> 00:29:10,959
+módulos com certinho são dependentes
+
+684
+00:29:07,869 --> 00:29:13,709
+então é a ser chamada assim decisão é
+
+685
+00:29:10,960 --> 00:29:17,769
+desculpa atenção não é notação informal
+
+686
+00:29:13,710 --> 00:29:20,279
+aonde que a gente vai ter normal a gente
+
+687
+00:29:17,769 --> 00:29:23,289
+faz quadrados para representar os modos
+
+688
+00:29:20,279 --> 00:29:23,869
+e para representar dependência Às vezes
+
+689
+00:29:23,289 --> 00:29:26,329
+a gente
+
+690
+00:29:23,869 --> 00:29:29,929
+o usa posição dos nomes pensando que
+
+691
+00:29:26,329 --> 00:29:32,539
+modos que estão mais acima são módulos
+
+692
+00:29:29,930 --> 00:29:34,308
+de abstração mais alta mais próximo do
+
+693
+00:29:32,539 --> 00:29:36,409
+usuário e os módulos que são mais
+
+694
+00:29:34,308 --> 00:29:38,808
+embaixo mais próximos da máquina que tem
+
+695
+00:29:36,410 --> 00:29:41,029
+uma pressão mais baixa e quando a gente
+
+696
+00:29:38,808 --> 00:29:44,240
+empilha esses módulos a gente tá dizendo
+
+697
+00:29:41,029 --> 00:29:46,910
+que os móveis que estão acima a dependem
+
+698
+00:29:44,240 --> 00:29:48,950
+dos módulos que estão abaixo esse eu
+
+699
+00:29:46,910 --> 00:29:51,080
+tenho sub-módulos dentro de um módulo se
+
+700
+00:29:48,950 --> 00:29:53,000
+não representa normalmente a gente pode
+
+701
+00:29:51,079 --> 00:29:55,369
+ter ali a interação entre elementos
+
+702
+00:29:53,000 --> 00:29:58,579
+daquele nós vamos ser uma notação que é
+
+703
+00:29:55,369 --> 00:30:00,439
+informal a América e ela tem dois
+
+704
+00:29:58,579 --> 00:30:03,079
+diagramas que permitem que a gente
+
+705
+00:30:00,440 --> 00:30:05,570
+represente a prefeitura também um deles
+
+706
+00:30:03,079 --> 00:30:08,599
+é o diagrama de pacotes e é semelhante
+
+707
+00:30:05,569 --> 00:30:09,889
+essa noção de quadrados excessos só que
+
+708
+00:30:08,599 --> 00:30:12,139
+em vez de um quadrado a gente tem o
+
+709
+00:30:09,890 --> 00:30:16,700
+símbolo de um pacote e a gente tem
+
+710
+00:30:12,140 --> 00:30:18,920
+também a o diagrama de componentes onde
+
+711
+00:30:16,700 --> 00:30:20,480
+que é a gente vai ter o símbolo dos
+
+712
+00:30:18,920 --> 00:30:22,460
+componentes são a gente pensa que os
+
+713
+00:30:20,480 --> 00:30:23,849
+novos podem ser os nossos componentes EA
+
+714
+00:30:22,460 --> 00:30:26,610
+gente vai ter comunicar
+
+715
+00:30:23,849 --> 00:30:28,439
+e é entre esses componentes na interface
+
+716
+00:30:26,609 --> 00:30:29,819
+requerido entre as frases pro vida como
+
+717
+00:30:28,440 --> 00:30:32,548
+eu tinha dito na a gente tem a
+
+718
+00:30:29,819 --> 00:30:34,019
+propriedade visivelmente espera dos
+
+719
+00:30:32,548 --> 00:30:38,129
+módulos e esse a gente pode pensar que
+
+720
+00:30:34,019 --> 00:30:42,779
+são essas interfaces né que são as apis
+
+721
+00:30:38,130 --> 00:30:45,210
+e também né a gente tem as a DL né que
+
+722
+00:30:42,779 --> 00:30:47,490
+são architecture discutir online diz que
+
+723
+00:30:45,210 --> 00:30:49,919
+permitem a gente descrever Então os
+
+724
+00:30:47,490 --> 00:30:51,240
+módulos das portas Independência então é
+
+725
+00:30:49,919 --> 00:30:54,059
+uma outra forma da gente está
+
+726
+00:30:51,240 --> 00:30:57,000
+representando arquitetura então assim a
+
+727
+00:30:54,058 --> 00:30:59,190
+gente tem que pensar que qualquer modelo
+
+728
+00:30:57,000 --> 00:31:00,929
+né porque é uma abstração da
+
+729
+00:30:59,190 --> 00:31:03,120
+apresentação do software ela tem o
+
+730
+00:31:00,929 --> 00:31:05,669
+objetivo da gente comunicada a gente se
+
+731
+00:31:03,119 --> 00:31:07,798
+organizar e como ela fazer isso no
+
+732
+00:31:05,669 --> 00:31:11,340
+projeto vai depender da equipe da
+
+733
+00:31:07,798 --> 00:31:15,058
+experiência da equipe a para decidir
+
+734
+00:31:11,339 --> 00:31:17,158
+qual é a notação que vai ser utilizada e
+
+735
+00:31:15,058 --> 00:31:20,029
+tu tinha perguntado também essa questão
+
+736
+00:31:17,159 --> 00:31:23,280
+não se eu posso automatizar alguma coisa
+
+737
+00:31:20,029 --> 00:31:23,859
+pensando no sistema que já existe e eu
+
+738
+00:31:23,279 --> 00:31:26,379
+quero
+
+739
+00:31:23,859 --> 00:31:28,599
+um deles existem ferramentas servem para
+
+740
+00:31:26,380 --> 00:31:31,780
+gente extrair visualizar as dependências
+
+741
+00:31:28,599 --> 00:31:34,389
+que existem no Sistema Então essas
+
+742
+00:31:31,779 --> 00:31:37,269
+ferramentas elas estraguem eu posso da
+
+743
+00:31:34,390 --> 00:31:38,679
+ir fazendo rir de uma reverso deve ser
+
+744
+00:31:37,269 --> 00:31:41,410
+pura para entender entender as
+
+745
+00:31:38,679 --> 00:31:44,259
+dependências e conseguir agrupar e fazer
+
+746
+00:31:41,410 --> 00:31:46,330
+algum outro modelo que represente isso
+
+747
+00:31:44,259 --> 00:31:49,029
+por esse entendimento e também a gente
+
+748
+00:31:46,329 --> 00:31:50,529
+tem uma área de pesquisa na engenharia
+
+749
+00:31:49,029 --> 00:31:53,920
+de software que se chamarão de
+
+750
+00:31:50,529 --> 00:31:55,869
+recuperação de arquitetura aqui tem duas
+
+751
+00:31:53,920 --> 00:31:58,630
+linhas de trabalho principal uma é a
+
+752
+00:31:55,869 --> 00:32:01,739
+chamada identificação dos módulos né
+
+753
+00:31:58,630 --> 00:32:05,140
+então a gente tem os vários elementos do
+
+754
+00:32:01,740 --> 00:32:07,870
+sofre sejam quatro Israel pacotes e daí
+
+755
+00:32:05,140 --> 00:32:10,660
+essas abordagens aquelas tendem fazer
+
+756
+00:32:07,869 --> 00:32:12,548
+novamente o baseado em métricas entender
+
+757
+00:32:10,660 --> 00:32:15,100
+como é que existe o acoplamento e coesão
+
+758
+00:32:12,548 --> 00:32:17,650
+entre os elementos para dizer quais são
+
+759
+00:32:15,099 --> 00:32:19,569
+os novos que existem nos sistemas mesmo
+
+760
+00:32:17,650 --> 00:32:22,840
+que esses elementos estejam espalhados
+
+761
+00:32:19,569 --> 00:32:23,869
+no código e também aqui eu tenho um
+
+762
+00:32:22,839 --> 00:32:26,539
+exemplo contra
+
+763
+00:32:23,869 --> 00:32:27,919
+O que foi publicado no information um
+
+764
+00:32:26,539 --> 00:32:32,750
+saco de tecnologia onde que a gente
+
+765
+00:32:27,920 --> 00:32:36,470
+recuperou as regras então tentar extrair
+
+766
+00:32:32,750 --> 00:32:38,269
+então a Quais são as dependências que
+
+767
+00:32:36,470 --> 00:32:39,920
+ocorrem nessa frequentemente então
+
+768
+00:32:38,269 --> 00:32:43,009
+entender por exemplo naquele exemplo de
+
+769
+00:32:39,920 --> 00:32:46,039
+arquitetura que eu falei do Business e
+
+770
+00:32:43,009 --> 00:32:49,190
+data né a gente entender né que o viu
+
+771
+00:32:46,039 --> 00:32:52,220
+depende do vídeo e subs depende do data
+
+772
+00:32:49,190 --> 00:32:54,680
+isso recuperar isso automaticamente pena
+
+773
+00:32:52,220 --> 00:32:58,250
+esse trabalho ele foi bastante curioso
+
+774
+00:32:54,680 --> 00:33:00,679
+porque a própria representação da
+
+775
+00:32:58,250 --> 00:33:03,980
+arquitetura é algo que é muito subjetiva
+
+776
+00:33:00,679 --> 00:33:05,480
+para os desenvolvedores a diferença
+
+777
+00:33:03,980 --> 00:33:07,069
+envolvedores vão representar a
+
+778
+00:33:05,480 --> 00:33:11,299
+arquitetura do sistema de forma
+
+779
+00:33:07,069 --> 00:33:13,279
+diferente a dia e às vezes uma
+
+780
+00:33:11,299 --> 00:33:15,589
+representação a pode ser mais simples
+
+781
+00:33:13,279 --> 00:33:17,539
+mas ela não trazem informação exatamente
+
+782
+00:33:15,589 --> 00:33:20,389
+daquilo que a gente pretende que seja no
+
+783
+00:33:17,539 --> 00:33:22,009
+código em um exemplo que apareceu nesse
+
+784
+00:33:20,390 --> 00:33:23,850
+trabalho que a gente tem recuperação de
+
+785
+00:33:22,009 --> 00:33:26,720
+regras da naturais no
+
+786
+00:33:23,849 --> 00:33:30,329
+Oi gente tem a dois módulos um módulo
+
+787
+00:33:26,720 --> 00:33:32,100
+depende do outro mas sempre a festa esse
+
+788
+00:33:30,329 --> 00:33:34,619
+outro módulo através por exemplo de uma
+
+789
+00:33:32,099 --> 00:33:37,379
+fachada normalmente desenvolvedores não
+
+790
+00:33:34,619 --> 00:33:39,659
+ideal Rio depende do Business mas o bis
+
+791
+00:33:37,380 --> 00:33:42,840
+pode ser uma fachada um conjunto de
+
+792
+00:33:39,660 --> 00:33:45,660
+interfaces e na real a dependência não é
+
+793
+00:33:42,839 --> 00:33:48,899
+do viu Para Todas As Faces do Bis e sim
+
+794
+00:33:45,660 --> 00:33:51,029
+frase interface somente e até nesse
+
+795
+00:33:48,900 --> 00:33:53,280
+trabalho que a gente conseguiu ver essas
+
+796
+00:33:51,029 --> 00:33:57,149
+diferenças naquilo que que a nossa
+
+797
+00:33:53,279 --> 00:33:59,099
+abordagem ela recuperava né a chamada
+
+798
+00:33:57,150 --> 00:34:01,019
+para a interface não problemas como os
+
+799
+00:33:59,099 --> 00:34:02,788
+outros pé gente tem um trabalho não
+
+800
+00:34:01,019 --> 00:34:05,220
+publicado recentemente que a gente fez
+
+801
+00:34:02,788 --> 00:34:08,070
+uma uma empresa onde que usa
+
+802
+00:34:05,220 --> 00:34:09,628
+envolvedores fizeram arquitetura né do
+
+803
+00:34:08,070 --> 00:34:12,570
+sistema não existe documentada
+
+804
+00:34:09,628 --> 00:34:16,199
+manualmente a gente vai esperou as
+
+805
+00:34:12,570 --> 00:34:19,260
+regras usando essa abordagem e e a gente
+
+806
+00:34:16,199 --> 00:34:20,730
+perguntou né o qual o modelo que que é
+
+807
+00:34:19,260 --> 00:34:23,859
+melhor para a gente implementar e
+
+808
+00:34:20,730 --> 00:34:26,440
+captura melhor essas informações e ele
+
+809
+00:34:23,858 --> 00:34:30,788
+bom então assim às vezes eles dizem que
+
+810
+00:34:26,440 --> 00:34:33,068
+o deles tá certo o nosso tá certo é o
+
+811
+00:34:30,789 --> 00:34:34,149
+nosso tá um pouco melhor então a gente
+
+812
+00:34:33,068 --> 00:34:36,159
+tem que pensar que às vezes a gente
+
+813
+00:34:34,148 --> 00:34:37,898
+precisa de diferentes níveis de
+
+814
+00:34:36,159 --> 00:34:39,730
+abstração então uma para entender o
+
+815
+00:34:37,898 --> 00:34:41,918
+código como um todo o outro eu preciso
+
+816
+00:34:39,730 --> 00:34:44,259
+de regras mais específicas para saber
+
+817
+00:34:41,918 --> 00:34:46,808
+como de fato eu vou implementar isso
+
+818
+00:34:44,259 --> 00:34:49,358
+tudo né é pesquisa atual né então
+
+819
+00:34:46,809 --> 00:34:53,409
+existem vários trabalhos nas áreas de
+
+820
+00:34:49,358 --> 00:34:56,199
+recuperação de arquitetura bom e também
+
+821
+00:34:53,409 --> 00:34:58,809
+é o último ponto com relação a essa
+
+822
+00:34:56,199 --> 00:35:01,629
+pergunta né a gente tem que pensar que
+
+823
+00:34:58,809 --> 00:35:03,940
+arquitetura ela não é usada somente na
+
+824
+00:35:01,630 --> 00:35:05,710
+concepção do projeto sistema evolui
+
+825
+00:35:03,940 --> 00:35:08,380
+arquitetura pode eventualmente ter que
+
+826
+00:35:05,710 --> 00:35:12,068
+evoluir então a importância da gente ter
+
+827
+00:35:08,380 --> 00:35:14,920
+essa representação visual é ter ela
+
+828
+00:35:12,068 --> 00:35:19,119
+conhecida e também garantir que ela seja
+
+829
+00:35:14,920 --> 00:35:21,130
+a respeitada né então é é um modelo tem
+
+830
+00:35:19,119 --> 00:35:23,869
+que ser o largamente disseminada entre
+
+831
+00:35:21,130 --> 00:35:27,559
+os desenvolvedores a para quê
+
+832
+00:35:23,869 --> 00:35:32,568
+eu consiga seguir aquela Arquitetura em
+
+833
+00:35:27,559 --> 00:35:36,559
+termos de a implementação textura que
+
+834
+00:35:32,568 --> 00:35:38,358
+todo mundo algumas formas de visualizar
+
+835
+00:35:36,559 --> 00:35:40,069
+uma coisa que a gente não falou ainda
+
+836
+00:35:38,358 --> 00:35:42,259
+como é que a gente avaliar a qualidade
+
+837
+00:35:40,068 --> 00:35:43,548
+dessa arquitetura né as partes do
+
+838
+00:35:42,259 --> 00:35:46,219
+versículo que as pessoas sabem
+
+839
+00:35:43,548 --> 00:35:48,650
+implementada mas talvez não pegar sempre
+
+840
+00:35:46,219 --> 00:35:52,909
+o caso né então de que forma que eu
+
+841
+00:35:48,650 --> 00:35:55,608
+consigo inserir avaliar medir a
+
+842
+00:35:52,909 --> 00:35:57,318
+qualidade da minha arte textura né
+
+843
+00:35:55,608 --> 00:35:59,480
+novamente eu tenho que fazer isso de
+
+844
+00:35:57,318 --> 00:36:01,759
+forma empírica ou existe algo
+
+845
+00:35:59,480 --> 00:36:05,298
+ferramental que me ajuda a ter alguma
+
+846
+00:36:01,759 --> 00:36:08,869
+noção então assim é tem duas questões
+
+847
+00:36:05,298 --> 00:36:10,670
+aqui uma questão é a qualidade da
+
+848
+00:36:08,869 --> 00:36:12,890
+arquitetura em si então pensando assim
+
+849
+00:36:10,670 --> 00:36:15,470
+projetando arquitetura eu quero saber se
+
+850
+00:36:12,889 --> 00:36:16,998
+é uma arquitetura bolo bom para eu saber
+
+851
+00:36:15,469 --> 00:36:18,818
+se aquela arquitetura arquitetura do
+
+852
+00:36:16,998 --> 00:36:22,159
+outro tem de olhar então para
+
+853
+00:36:18,818 --> 00:36:23,849
+acoplamento e coesão que a modularidade
+
+854
+00:36:22,159 --> 00:36:26,190
+do
+
+855
+00:36:23,849 --> 00:36:27,929
+e aqui vai em um sistema vai ter
+
+856
+00:36:26,190 --> 00:36:30,539
+impulsão daquela arquitetura que eu
+
+857
+00:36:27,929 --> 00:36:32,129
+defini e também na separação de
+
+858
+00:36:30,539 --> 00:36:35,210
+interesses para ver se realmente os
+
+859
+00:36:32,130 --> 00:36:37,829
+novos Netão os interesses estão
+
+860
+00:36:35,210 --> 00:36:39,929
+colocados em modos diferentes nem sempre
+
+861
+00:36:37,829 --> 00:36:41,460
+isso é possível a gente tem o chamado os
+
+862
+00:36:39,929 --> 00:36:44,159
+quais que eu tenho conselhos que são
+
+863
+00:36:41,460 --> 00:36:47,159
+aqueles função as preocupações que estão
+
+864
+00:36:44,159 --> 00:36:48,989
+espalhadas no código blog em um exemplo
+
+865
+00:36:47,159 --> 00:36:50,759
+típico né Mas a gente pode passar não eu
+
+866
+00:36:48,989 --> 00:36:53,089
+vou usar aspectos então para modularizar
+
+867
+00:36:50,760 --> 00:36:55,020
+isso então a gente tem que trabalhar
+
+868
+00:36:53,090 --> 00:36:56,820
+textura a gente tem que olhar para o
+
+869
+00:36:55,019 --> 00:36:59,420
+corpo amento coesão separação de
+
+870
+00:36:56,820 --> 00:37:01,980
+interesses e a gente tem métricas para
+
+871
+00:36:59,420 --> 00:37:04,500
+avaliar isso então uma vez o sistema
+
+872
+00:37:01,980 --> 00:37:06,750
+implementado né eu vou conseguir coletar
+
+873
+00:37:04,500 --> 00:37:08,280
+essas métricas e isso vai estar
+
+874
+00:37:06,750 --> 00:37:11,940
+relacionada então qualquer idade da
+
+875
+00:37:08,280 --> 00:37:16,019
+minha arquitetura o outro ponto é saber
+
+876
+00:37:11,940 --> 00:37:18,769
+né o meu sistema Será que ele tá de
+
+877
+00:37:16,019 --> 00:37:22,619
+acordo com aquela textura que eu
+
+878
+00:37:18,769 --> 00:37:23,858
+definido bom E daí isso é algo que é
+
+879
+00:37:22,619 --> 00:37:26,618
+muito importante
+
+880
+00:37:23,858 --> 00:37:28,960
+uma coisa que até curiosa nesse trabalho
+
+881
+00:37:26,619 --> 00:37:31,028
+que eu comentei sobre as regras
+
+882
+00:37:28,960 --> 00:37:35,710
+arquiteturais teve uma vez que a gente
+
+883
+00:37:31,028 --> 00:37:39,518
+se meteu o artigo E como foi para um
+
+884
+00:37:35,710 --> 00:37:41,499
+diurno né veio veio a revisão e um dos
+
+885
+00:37:39,518 --> 00:37:43,748
+revisores são assim água seus assumir
+
+886
+00:37:41,498 --> 00:37:46,328
+aqui que os módulos são os pacotes do
+
+887
+00:37:43,748 --> 00:37:50,048
+sistema e nem sempre isso é verdade que
+
+888
+00:37:46,329 --> 00:37:52,778
+às vezes os elementos estão distribuídos
+
+889
+00:37:50,048 --> 00:37:55,088
+né e o pacote né Não não é exatamente
+
+890
+00:37:52,778 --> 00:37:56,798
+aquele Não Está capturando todos os
+
+891
+00:37:55,088 --> 00:37:59,469
+males daquele modo só que você gente
+
+892
+00:37:56,798 --> 00:38:01,179
+pensar assim de nada adianta ter um
+
+893
+00:37:59,469 --> 00:38:03,248
+modelo de arquitetura dizendo que os
+
+894
+00:38:01,179 --> 00:38:06,639
+meus módulos são esses se o que eu tenho
+
+895
+00:38:03,248 --> 00:38:09,669
+no meu código é outra coisa indo para o
+
+896
+00:38:06,639 --> 00:38:12,639
+exemplo a das gavetas eu digo a sem olha
+
+897
+00:38:09,670 --> 00:38:16,480
+na gaveta a tem tem camisetas na gaveta
+
+898
+00:38:12,639 --> 00:38:18,639
+besta em falsas na gaveta ser tem mês só
+
+899
+00:38:16,480 --> 00:38:20,349
+que na verdade está tudo misturado então
+
+900
+00:38:18,639 --> 00:38:21,699
+não adianta nada Hotel meu modelo
+
+901
+00:38:20,349 --> 00:38:23,869
+estrutural se aquilo que está
+
+902
+00:38:21,699 --> 00:38:26,778
+implementado não vale a
+
+903
+00:38:23,869 --> 00:38:29,480
+o dom é isso é justamente até a
+
+904
+00:38:26,778 --> 00:38:31,309
+diferença né do do que a gente chama de
+
+905
+00:38:29,480 --> 00:38:34,190
+arquitetura conceitual e da arquitetura
+
+906
+00:38:31,309 --> 00:38:36,319
+concreto então estrutura conceitual é
+
+907
+00:38:34,190 --> 00:38:39,309
+aquela que a gente planeja né Ia
+
+908
+00:38:36,318 --> 00:38:42,099
+concreta é que existe de fato então eu
+
+909
+00:38:39,309 --> 00:38:45,200
+entendesse que textura concreta é
+
+910
+00:38:42,099 --> 00:38:47,588
+fundamental né para eu saber como que eu
+
+911
+00:38:45,199 --> 00:38:50,179
+tô consistente com a minha arquitetura
+
+912
+00:38:47,588 --> 00:38:51,679
+eventualmente eu tenho que evoluir uma
+
+913
+00:38:50,179 --> 00:38:53,960
+modelo Tem que olhar as discrepâncias
+
+914
+00:38:51,679 --> 00:38:56,960
+entre os dois né e saber o que que tá
+
+915
+00:38:53,960 --> 00:38:59,088
+certo que tá errado e daí eu uma vez que
+
+916
+00:38:56,960 --> 00:39:02,088
+eu tenho alguma coisa implementada que
+
+917
+00:38:59,088 --> 00:39:04,369
+não é aquilo que eu tinha planejado o
+
+918
+00:39:02,088 --> 00:39:06,798
+que eu tenho que fazer decidir Será que
+
+919
+00:39:04,369 --> 00:39:09,318
+amanhã implementação tá evoluiu eu
+
+920
+00:39:06,798 --> 00:39:11,268
+esqueci de documentar a regra ou
+
+921
+00:39:09,318 --> 00:39:12,679
+realmente a implementação tá errado e eu
+
+922
+00:39:11,268 --> 00:39:14,689
+tenho que eu tenho que arrumar o meu
+
+923
+00:39:12,679 --> 00:39:16,879
+sistema mas daí como é que agente faz
+
+924
+00:39:14,690 --> 00:39:19,639
+para evitar né que baseado numa
+
+925
+00:39:16,880 --> 00:39:23,119
+estrutura conceitual a gente siga isso
+
+926
+00:39:19,639 --> 00:39:23,849
+no código bom uma coisa é a gente usar
+
+927
+00:39:23,119 --> 00:39:26,700
+as ferramentas
+
+928
+00:39:23,849 --> 00:39:29,549
+se distrair visualizado as dependências
+
+929
+00:39:26,699 --> 00:39:31,019
+como eu já tinha comentado a e daí assim
+
+930
+00:39:29,550 --> 00:39:32,730
+eu tenho o meu desenho de arquitetura e
+
+931
+00:39:31,019 --> 00:39:34,559
+eu vou encher gata as dependências que
+
+932
+00:39:32,730 --> 00:39:37,309
+estão acontecendo no código estão de
+
+933
+00:39:34,559 --> 00:39:39,599
+acordo com aquilo que eu tinha mudado a
+
+934
+00:39:37,309 --> 00:39:41,549
+inclusive essas ferramentas elas
+
+935
+00:39:39,599 --> 00:39:43,920
+permitem a gente customizados vezes
+
+936
+00:39:41,550 --> 00:39:46,769
+essas então eu poder dizer assim que a
+
+937
+00:39:43,920 --> 00:39:48,900
+classe desse pacote não podem fazer
+
+938
+00:39:46,769 --> 00:39:50,759
+chamadas não podem depender de quase
+
+939
+00:39:48,900 --> 00:39:53,250
+todo o pacote daí aterramento lá e vai
+
+940
+00:39:50,760 --> 00:39:54,660
+gritar um alerta de vendo ó isso aqui tá
+
+941
+00:39:53,250 --> 00:39:57,869
+errado de acordo com a regra que tu
+
+942
+00:39:54,659 --> 00:39:59,819
+especificou A então isso isso ajuda a
+
+943
+00:39:57,869 --> 00:40:03,539
+gente garantir né que os moradores não
+
+944
+00:39:59,820 --> 00:40:06,780
+estão quebrando arquitetura o mesmo se
+
+945
+00:40:03,539 --> 00:40:08,670
+passa com a própria assadeira naquele já
+
+946
+00:40:06,780 --> 00:40:10,590
+tinha comentado também aqui tá escrito
+
+947
+00:40:08,670 --> 00:40:12,210
+online gratis aulas permite a gente
+
+948
+00:40:10,590 --> 00:40:16,280
+especificar essas regras não existem
+
+949
+00:40:12,210 --> 00:40:18,690
+ferramentas que permitem validar como
+
+950
+00:40:16,280 --> 00:40:22,740
+validar o que foi especificado como que
+
+951
+00:40:18,690 --> 00:40:23,858
+tá implementado também né assim a ideia
+
+952
+00:40:22,739 --> 00:40:27,129
+de arquitecto
+
+953
+00:40:23,858 --> 00:40:29,108
+que são as abordagens que normalmente
+
+954
+00:40:27,130 --> 00:40:31,210
+olham para o código está em uma
+
+955
+00:40:29,108 --> 00:40:33,098
+arquitetura então seu visualizar aquelas
+
+956
+00:40:31,210 --> 00:40:35,079
+criaturas ver que ela não parte acordo
+
+957
+00:40:33,099 --> 00:40:38,109
+com que eu planejei também eu posso
+
+958
+00:40:35,079 --> 00:40:40,359
+identificar problemas e tem ainda as
+
+959
+00:40:38,108 --> 00:40:43,210
+abordagens né que detectam violações
+
+960
+00:40:40,358 --> 00:40:45,248
+arquiteturais um trabalho que foi meio
+
+961
+00:40:43,210 --> 00:40:48,429
+Pioneiro nessa área de a bem conhecidos
+
+962
+00:40:45,248 --> 00:40:51,998
+são chamados reflexão olhos eles
+
+963
+00:40:48,429 --> 00:40:53,889
+justamente eles têm as regras né e pegam
+
+964
+00:40:51,998 --> 00:40:56,169
+que tá não pode me ver quando tem uma
+
+965
+00:40:53,889 --> 00:40:57,879
+dependência e a proibida e que aparece
+
+966
+00:40:56,170 --> 00:41:00,608
+no código ou uma dependência que era
+
+967
+00:40:57,880 --> 00:41:03,608
+obrigatória que não aparece no código e
+
+968
+00:41:00,608 --> 00:41:05,498
+isso vai também gerar Alerta Então essas
+
+969
+00:41:03,608 --> 00:41:09,489
+ferramentas elas servem justamente para
+
+970
+00:41:05,498 --> 00:41:12,429
+perguntar isso mas nossa que é um
+
+971
+00:41:09,489 --> 00:41:14,849
+problema na área de arquitetura é que
+
+972
+00:41:12,429 --> 00:41:17,649
+enquanto a gente fala em coisa em
+
+973
+00:41:14,849 --> 00:41:19,809
+questões de nível de educação mais baixa
+
+974
+00:41:17,650 --> 00:41:23,079
+do código e a gente tem um monte de
+
+975
+00:41:19,809 --> 00:41:23,869
+Bornes e os ideias já colocam de forma a
+
+976
+00:41:23,079 --> 00:41:26,089
+vamo
+
+977
+00:41:23,869 --> 00:41:28,700
+e já embutida ali a gente não precisa
+
+978
+00:41:26,088 --> 00:41:30,578
+ficar selecionando a ferramenta para ver
+
+979
+00:41:28,699 --> 00:41:33,399
+isso na arquitetura não existe isso
+
+980
+00:41:30,579 --> 00:41:35,298
+arquitetura Depende muito da prótese da
+
+981
+00:41:33,400 --> 00:41:37,220
+desenvolvedores quererem pensar na
+
+982
+00:41:35,298 --> 00:41:39,679
+arquitetura e querer respeitar seguro
+
+983
+00:41:37,219 --> 00:41:42,889
+uma iniciativa mais recente para ajudar
+
+984
+00:41:39,679 --> 00:41:45,798
+isso é o jpms né que eu já vai quatro
+
+985
+00:41:42,889 --> 00:41:48,409
+formas morte o sistema que ele permite
+
+986
+00:41:45,798 --> 00:41:50,239
+Então essa definição de módulo Porque
+
+987
+00:41:48,409 --> 00:41:53,690
+até então por exemplo em Java a gente só
+
+988
+00:41:50,239 --> 00:41:55,429
+tinham os pacotes né E daí com isso a
+
+989
+00:41:53,690 --> 00:41:57,670
+gente pode informar o que que a gente tá
+
+990
+00:41:55,429 --> 00:42:00,798
+escutando o que que tá visualizado
+
+991
+00:41:57,670 --> 00:42:03,380
+visualizável fora daquele módulo o que
+
+992
+00:42:00,798 --> 00:42:05,498
+que o que que ficou escondido Então foi
+
+993
+00:42:03,380 --> 00:42:09,588
+uma iniciativa bastante legal para
+
+994
+00:42:05,498 --> 00:42:12,318
+tornar né o essa essa noção de
+
+995
+00:42:09,588 --> 00:42:14,690
+arquitetura e módulos explícito no
+
+996
+00:42:12,318 --> 00:42:17,088
+código né porque é fundamental quando eu
+
+997
+00:42:14,690 --> 00:42:19,639
+penso na prefeitura não só dizer assim
+
+998
+00:42:17,088 --> 00:42:22,278
+olha que o meu modelo que bonito aí eu
+
+999
+00:42:19,639 --> 00:42:23,849
+olhar esse modelo e pensar como e as
+
+1000
+00:42:22,278 --> 00:42:26,699
+Abstrações de modo tão apa
+
+1001
+00:42:23,849 --> 00:42:28,619
+bom então isso é importante ser definido
+
+1002
+00:42:26,699 --> 00:42:31,289
+então pensar como é que ela arquitetura
+
+1003
+00:42:28,619 --> 00:42:33,659
+tá disfarça sendo implementado no código
+
+1004
+00:42:31,289 --> 00:42:35,400
+porque de nada adianta ter um modelo que
+
+1005
+00:42:33,659 --> 00:42:36,869
+não corresponde que tá no código né e
+
+1006
+00:42:35,400 --> 00:42:38,789
+seu olho modelo eu não vou entender o
+
+1007
+00:42:36,869 --> 00:42:41,639
+código se ele tiver em divergência entre
+
+1008
+00:42:38,789 --> 00:42:45,210
+ser muito bom muito bom e agora o que eu
+
+1009
+00:42:41,639 --> 00:42:48,059
+quero saber Ingrid é como arquitetura de
+
+1010
+00:42:45,210 --> 00:42:50,369
+software evolui ao longo do tempo em um
+
+1011
+00:42:48,059 --> 00:42:53,070
+sistema de sol não eu tinha falado um
+
+1012
+00:42:50,369 --> 00:42:55,949
+pouco de evolução antes não é que não é
+
+1013
+00:42:53,070 --> 00:42:58,380
+uma coisa que é bastante fácil mas assim
+
+1014
+00:42:55,949 --> 00:43:00,509
+arquitetura não é assim sistemas evoluem
+
+1015
+00:42:58,380 --> 00:43:04,110
+a inevitável a gente sabe né que
+
+1016
+00:43:00,510 --> 00:43:06,390
+requisitos mudam mudam a toda hora né e
+
+1017
+00:43:04,110 --> 00:43:09,300
+assim arquitetura é importante a gente
+
+1018
+00:43:06,389 --> 00:43:11,730
+tem carré né cansar lá na frente né
+
+1019
+00:43:09,300 --> 00:43:13,680
+porque o curso como eu falei da de
+
+1020
+00:43:11,730 --> 00:43:16,650
+evoluir uma arquitetura né mudar por
+
+1021
+00:43:13,679 --> 00:43:18,779
+exemplo um controle do fluxo é tem um
+
+1022
+00:43:16,650 --> 00:43:22,980
+impacto né bastante grande no sistema
+
+1023
+00:43:18,780 --> 00:43:23,859
+então né é uma se eu tiver volume no meu
+
+1024
+00:43:22,980 --> 00:43:27,088
+sócio é sem
+
+1025
+00:43:23,858 --> 00:43:30,159
+e hoje eu pensar se eu vou precisar
+
+1026
+00:43:27,088 --> 00:43:32,170
+rever as minhas dependências se eu
+
+1027
+00:43:30,159 --> 00:43:33,848
+preciso rever os meus módulos por
+
+1028
+00:43:32,170 --> 00:43:36,579
+exemplo tem um módulo que começou a
+
+1029
+00:43:33,849 --> 00:43:38,859
+crescer muito de tamanho e aí eu posso
+
+1030
+00:43:36,579 --> 00:43:41,950
+pensar e vejo que ele não tá mais muito
+
+1031
+00:43:38,858 --> 00:43:43,869
+coeso que ele tá muito ocupado eu posso
+
+1032
+00:43:41,949 --> 00:43:46,538
+decidir então quebrar esse módulo e
+
+1033
+00:43:43,869 --> 00:43:49,059
+revistas Independentes então quando eu
+
+1034
+00:43:46,539 --> 00:43:51,640
+tiver evoluindo o sistema é importante o
+
+1035
+00:43:49,059 --> 00:43:55,359
+sempre está refletindo sobre essas
+
+1036
+00:43:51,639 --> 00:43:58,088
+questões estruturais até isso eu tenho
+
+1037
+00:43:55,358 --> 00:44:01,509
+os trabalhos mais recentes sem revisão
+
+1038
+00:43:58,088 --> 00:44:03,759
+de código isso inclusive ela é algo que
+
+1039
+00:44:01,509 --> 00:44:05,769
+a revisão de código ajuda muito porque
+
+1040
+00:44:03,759 --> 00:44:08,440
+às vezes o desenvolvedor a gritar por
+
+1041
+00:44:05,768 --> 00:44:11,379
+causa implementar aquilo que ele precisa
+
+1042
+00:44:08,440 --> 00:44:13,720
+fazer o corrigir o bug e muitas vezes os
+
+1043
+00:44:11,380 --> 00:44:16,599
+revisores de código às vezes levantam
+
+1044
+00:44:13,719 --> 00:44:19,449
+essas questões com relação à arquitetura
+
+1045
+00:44:16,599 --> 00:44:21,999
+tem uma visão mais mais Global daquilo
+
+1046
+00:44:19,449 --> 00:44:23,868
+que está sendo modificado a e a gente
+
+1047
+00:44:21,998 --> 00:44:27,709
+tem que cuidar muito para quero
+
+1048
+00:44:23,869 --> 00:44:29,809
+e não fique na panejada arquitetura
+
+1049
+00:44:27,710 --> 00:44:32,690
+conceitual não fique muito não fique
+
+1050
+00:44:29,809 --> 00:44:34,519
+detergente da da Concreto que se eu não
+
+1051
+00:44:32,690 --> 00:44:37,278
+tiver pensando na evolução da
+
+1052
+00:44:34,518 --> 00:44:39,649
+arquitetura ao longo do tempo eu vou ter
+
+1053
+00:44:37,278 --> 00:44:42,858
+uma evolução na organizada né que não
+
+1054
+00:44:39,650 --> 00:44:45,380
+está sendo planejada então a arquitetura
+
+1055
+00:44:42,858 --> 00:44:47,298
+ela pode modificar sem outra pensando
+
+1056
+00:44:45,380 --> 00:44:49,579
+nela né pois como eu falei né todo
+
+1057
+00:44:47,298 --> 00:44:52,278
+sistema tem um arquitetura e eu comece a
+
+1058
+00:44:49,579 --> 00:44:54,859
+criar dependências uma complemento muito
+
+1059
+00:44:52,278 --> 00:44:56,869
+forte né pela evolução dos sistemas e
+
+1060
+00:44:54,858 --> 00:44:59,058
+com isso vai criança essa divergência
+
+1061
+00:44:56,869 --> 00:45:01,130
+entre a estrutura conceitual e concreto
+
+1062
+00:44:59,059 --> 00:45:02,390
+e a gente não quer isso que a gente quer
+
+1063
+00:45:01,130 --> 00:45:04,400
+não é sempre quando a gente tiver
+
+1064
+00:45:02,389 --> 00:45:07,998
+mudando a prefeitura eu faça isso de uma
+
+1065
+00:45:04,400 --> 00:45:10,309
+forma consciente né então assim existe
+
+1066
+00:45:07,998 --> 00:45:13,278
+uma regra básica né que a gente fala nos
+
+1067
+00:45:10,309 --> 00:45:14,869
+soca né que que que é o nosso trabalho
+
+1068
+00:45:13,278 --> 00:45:17,210
+como engenheiro de software é
+
+1069
+00:45:14,869 --> 00:45:19,309
+normalmente eu tenho múltiplas formas de
+
+1070
+00:45:17,210 --> 00:45:21,230
+implementar alguma coisa então sempre
+
+1071
+00:45:19,309 --> 00:45:22,519
+quando eu tenho mais de uma forma de
+
+1072
+00:45:21,230 --> 00:45:23,849
+implementar alguma coisa eu tenho que
+
+1073
+00:45:22,518 --> 00:45:26,339
+pensar na forma que vai te
+
+1074
+00:45:23,849 --> 00:45:29,519
+o custo de dar manutenção no futuro
+
+1075
+00:45:26,340 --> 00:45:31,140
+então isso aí tem que ser cansada né O
+
+1076
+00:45:29,519 --> 00:45:33,150
+que que é o menor curso tem que pensar
+
+1077
+00:45:31,139 --> 00:45:34,920
+também nessa questão arquitetural Então
+
+1078
+00:45:33,150 --> 00:45:37,349
+faz sempre com a minha prefeitura
+
+1079
+00:45:34,920 --> 00:45:40,260
+modularizado né e mantemos separação de
+
+1080
+00:45:37,349 --> 00:45:43,049
+interesses um pouco interessante Ingrid
+
+1081
+00:45:40,260 --> 00:45:45,390
+que na pintura a gente tem sempre aqui
+
+1082
+00:45:43,050 --> 00:45:47,610
+como você disse né tem que a rede não é
+
+1083
+00:45:45,389 --> 00:45:50,099
+pensar um pouco na frente mas se a gente
+
+1084
+00:45:47,610 --> 00:45:52,950
+for lá vai consideração algumas equipe
+
+1085
+00:45:50,099 --> 00:45:54,509
+de que utilizam usages A ideia é que a
+
+1086
+00:45:52,949 --> 00:45:57,449
+gente não gaste muito tempo né
+
+1087
+00:45:54,510 --> 00:45:59,610
+preparando coisas como documentação que
+
+1088
+00:45:57,449 --> 00:46:01,339
+a gente vai usar mas lá na frente do
+
+1089
+00:45:59,610 --> 00:46:04,260
+projeto não gasta também tanto tempo com
+
+1090
+00:46:01,340 --> 00:46:07,829
+requisitos né É como é que funciona tem
+
+1091
+00:46:04,260 --> 00:46:11,520
+uma tensão entre desenhar textura do
+
+1092
+00:46:07,829 --> 00:46:15,239
+sistema de uma maneira muito pregressa e
+
+1093
+00:46:11,519 --> 00:46:17,400
+depois a gente tem que redesenhar é como
+
+1094
+00:46:15,239 --> 00:46:20,909
+é que eu consigo conciliar né a criação
+
+1095
+00:46:17,400 --> 00:46:23,280
+de uma arquitetura não time ágil eu
+
+1096
+00:46:20,909 --> 00:46:23,858
+espero que nesse momento já tenha
+
+1097
+00:46:23,280 --> 00:46:26,259
+convencido
+
+1098
+00:46:23,858 --> 00:46:29,828
+e por ter que aturar ela super
+
+1099
+00:46:26,259 --> 00:46:32,139
+importante então um pão é não importa o
+
+1100
+00:46:29,829 --> 00:46:35,259
+processo método de desenvolvimento por
+
+1101
+00:46:32,139 --> 00:46:37,538
+esteja usando sempre é importante eu ser
+
+1102
+00:46:35,259 --> 00:46:39,969
+essa concepção da arquitetura se eu tô
+
+1103
+00:46:37,539 --> 00:46:42,160
+fazendo um projeto do zero é até tenho
+
+1104
+00:46:39,969 --> 00:46:46,629
+que pegar os próprios métodos ágeis ali
+
+1105
+00:46:42,159 --> 00:46:49,149
+a alguns deles eles têm essa etapa que
+
+1106
+00:46:46,630 --> 00:46:50,619
+se chama arquitecto é o Spice serve
+
+1107
+00:46:49,150 --> 00:46:52,960
+justamente para a concepção da
+
+1108
+00:46:50,619 --> 00:46:57,309
+arquitetura porque eu tenho que partir
+
+1109
+00:46:52,960 --> 00:46:58,929
+de alguma organização então é Nossa
+
+1110
+00:46:57,309 --> 00:47:00,220
+quando a gente pensa nas cidades não eu
+
+1111
+00:46:58,929 --> 00:47:02,108
+não vou estar de lamentando todos os
+
+1112
+00:47:00,219 --> 00:47:04,988
+requisitos do sistema mas eu preciso ter
+
+1113
+00:47:02,108 --> 00:47:07,838
+uma visão do produto eu voltei a almas a
+
+1114
+00:47:04,989 --> 00:47:10,298
+gente backlog que podem ser revistos né
+
+1115
+00:47:07,838 --> 00:47:12,548
+ao longo do tempo mas eu pensar como eu
+
+1116
+00:47:10,298 --> 00:47:16,119
+vou estruturar o meu sistema tem que
+
+1117
+00:47:12,548 --> 00:47:18,248
+acontecer porque senão né a arquitetura
+
+1118
+00:47:16,119 --> 00:47:20,950
+e ela é base para a gente ter uma
+
+1119
+00:47:18,248 --> 00:47:23,259
+evolução organizada e Principalmente
+
+1120
+00:47:20,949 --> 00:47:23,868
+nesse método os agentes onde que os
+
+1121
+00:47:23,259 --> 00:47:27,769
+requisitos
+
+1122
+00:47:23,869 --> 00:47:30,980
+o mesmo sendo revistos e eu vou está
+
+1123
+00:47:27,768 --> 00:47:33,108
+evoluindo o meu sistema não passo rápido
+
+1124
+00:47:30,980 --> 00:47:35,210
+vamos dizer assim é importante eu te
+
+1125
+00:47:33,108 --> 00:47:37,009
+sinot arquitetura eu que vai dar um
+
+1126
+00:47:35,210 --> 00:47:39,108
+Norte que isso a gente pensar é uma
+
+1127
+00:47:37,009 --> 00:47:41,088
+modelo a gente não sai dizendo que a
+
+1128
+00:47:39,108 --> 00:47:43,608
+gente vai ter que fazer o modelo para
+
+1129
+00:47:41,088 --> 00:47:46,278
+cada para cada tarefa que vai ser feita
+
+1130
+00:47:43,608 --> 00:47:49,788
+é a um modelo que vai estudar esse Norte
+
+1131
+00:47:46,278 --> 00:47:52,639
+para o sistema só que assim arquitetura
+
+1132
+00:47:49,789 --> 00:47:55,190
+ela tem que ser validada né então assim
+
+1133
+00:47:52,639 --> 00:47:58,009
+a gente sempre sabe né a gente tá essa
+
+1134
+00:47:55,190 --> 00:48:00,048
+visão de que a gente pode fazer um
+
+1135
+00:47:58,009 --> 00:48:02,329
+projeto do sofre que ele vai ser
+
+1136
+00:48:00,048 --> 00:48:05,358
+implementado qual qual foi projetado
+
+1137
+00:48:02,329 --> 00:48:07,369
+sair meio assim acho que é muito raro a
+
+1138
+00:48:05,358 --> 00:48:09,230
+gente acontecer porque tem tanto detalhe
+
+1139
+00:48:07,369 --> 00:48:10,730
+que na hora de a gente encomendar a
+
+1140
+00:48:09,230 --> 00:48:15,318
+gente sempre ver que tem alguma coisa
+
+1141
+00:48:10,730 --> 00:48:17,480
+que não tinha pensado então acaba o
+
+1142
+00:48:15,318 --> 00:48:19,759
+projeto e implementação é algo que é
+
+1143
+00:48:17,480 --> 00:48:22,608
+imperativo né a gente vai tomar do outro
+
+1144
+00:48:19,759 --> 00:48:23,849
+lado Grosso então eu pensar né textura
+
+1145
+00:48:22,608 --> 00:48:26,730
+somente no modelo
+
+1146
+00:48:23,849 --> 00:48:29,009
+e sem depois pensar em validação não
+
+1147
+00:48:26,730 --> 00:48:31,110
+funciona muito então e mensagens um algo
+
+1148
+00:48:29,010 --> 00:48:32,430
+que é bastante interessante é quando ele
+
+1149
+00:48:31,110 --> 00:48:34,110
+tiver priorizando não sei que existe
+
+1150
+00:48:32,429 --> 00:48:36,210
+para pensar nos primeiros requisitos vão
+
+1151
+00:48:34,110 --> 00:48:38,550
+ser implementados é o pensar em
+
+1152
+00:48:36,210 --> 00:48:41,159
+requisitos complexo suficiente para eu
+
+1153
+00:48:38,550 --> 00:48:43,620
+poder testar minha prefeitura então se
+
+1154
+00:48:41,159 --> 00:48:44,909
+eu tenho modo de segurança o testar ver
+
+1155
+00:48:43,619 --> 00:48:48,839
+como é que acontece o fruto de
+
+1156
+00:48:44,909 --> 00:48:50,989
+seguranças tem um fria ou ver o fluxo
+
+1157
+00:48:48,840 --> 00:48:53,490
+principal do tratamento de requisição
+
+1158
+00:48:50,989 --> 00:48:54,959
+então é importante eu conceber essa
+
+1159
+00:48:53,489 --> 00:48:57,689
+arquitetura Então isso é uma coisa que
+
+1160
+00:48:54,960 --> 00:49:00,720
+eu acho que é fundamental Não é não é um
+
+1161
+00:48:57,690 --> 00:49:02,630
+até meta os ardis né a gente tem essa
+
+1162
+00:49:00,719 --> 00:49:04,679
+essa noção né não é que a gente
+
+1163
+00:49:02,630 --> 00:49:06,450
+negligência documentação disso não é
+
+1164
+00:49:04,679 --> 00:49:09,480
+importante a gente faz a documentação
+
+1165
+00:49:06,449 --> 00:49:12,509
+que agrega valor e um modelo estrutural
+
+1166
+00:49:09,480 --> 00:49:14,610
+é algo que agrega muito valor espero já
+
+1167
+00:49:12,510 --> 00:49:18,060
+ter convencer e do todo mundo a respeito
+
+1168
+00:49:14,610 --> 00:49:20,940
+disso então é dado esta arquitetura e
+
+1169
+00:49:18,059 --> 00:49:22,650
+foi concebida é importante então nas
+
+1170
+00:49:20,940 --> 00:49:23,858
+primeiras iterações do projeto nos
+
+1171
+00:49:22,650 --> 00:49:28,509
+primeiros tem que pensar
+
+1172
+00:49:23,858 --> 00:49:31,748
+e em itens do backlog né que não permite
+
+1173
+00:49:28,509 --> 00:49:33,909
+a gente ter tarefas que vão a permitir a
+
+1174
+00:49:31,748 --> 00:49:36,959
+gente fazer a validação da arquitetura e
+
+1175
+00:49:33,909 --> 00:49:40,318
+agora a próxima pergunta é sobre
+
+1176
+00:49:36,960 --> 00:49:42,519
+microsserviços um com 600 avanços e
+
+1177
+00:49:40,318 --> 00:49:45,038
+microsserviços eu preciso me preocupar
+
+1178
+00:49:42,518 --> 00:49:47,439
+com arquitetura do individual de um
+
+1179
+00:49:45,039 --> 00:49:51,430
+micro serviço ou a preocupação do a
+
+1180
+00:49:47,440 --> 00:49:53,440
+orquestração de serviço então é quando a
+
+1181
+00:49:51,429 --> 00:49:57,068
+gente fala na área desse textura né a
+
+1182
+00:49:53,440 --> 00:49:58,778
+gente tem noção de duas visões né
+
+1183
+00:49:57,068 --> 00:50:01,509
+chamado architecture in the world
+
+1184
+00:49:58,778 --> 00:50:03,909
+architecture News do esmalte isso existe
+
+1185
+00:50:01,509 --> 00:50:06,489
+não é mesmo antes da ideia de
+
+1186
+00:50:03,909 --> 00:50:08,739
+arquitetura de microserviços por exemplo
+
+1187
+00:50:06,489 --> 00:50:11,230
+se a gente está pensando no sistema que
+
+1188
+00:50:08,739 --> 00:50:14,048
+controla um hospital a gente vai ter por
+
+1189
+00:50:11,230 --> 00:50:16,480
+exemplo a parte de agendamento de
+
+1190
+00:50:14,048 --> 00:50:20,199
+consultas a gente vai ter o sistema de
+
+1191
+00:50:16,480 --> 00:50:22,150
+RH a gente vai ter o sistema de exames a
+
+1192
+00:50:20,199 --> 00:50:23,868
+gente vai ter sistema de prescrições de
+
+1193
+00:50:22,150 --> 00:50:26,568
+medicamentos
+
+1194
+00:50:23,869 --> 00:50:29,298
+o e inúmeros modos né que acabam
+
+1195
+00:50:26,568 --> 00:50:31,818
+aparecendo Então não é quando eu tiver
+
+1196
+00:50:29,298 --> 00:50:34,219
+representando aqui esses grandes módulos
+
+1197
+00:50:31,818 --> 00:50:36,139
+eu não vou querer saber como cada um
+
+1198
+00:50:34,219 --> 00:50:38,149
+desses subsistema está estruturado
+
+1199
+00:50:36,139 --> 00:50:40,429
+porque se eu colocar isso tudo no mesmo
+
+1200
+00:50:38,150 --> 00:50:41,960
+modelo esse modelo vai ficar cheio de
+
+1201
+00:50:40,429 --> 00:50:44,989
+detalhes eu não vou conseguir entender
+
+1202
+00:50:41,960 --> 00:50:47,028
+nada aí o objetivo do modelo né também é
+
+1203
+00:50:44,989 --> 00:50:49,219
+ficou Monica então seu modelo tá muito
+
+1204
+00:50:47,028 --> 00:50:51,619
+complexo e eu não consigo entender Eles
+
+1205
+00:50:49,219 --> 00:50:54,078
+não servem para nada então né o
+
+1206
+00:50:51,619 --> 00:50:56,358
+architecture in Duarte nesse caso seria
+
+1207
+00:50:54,079 --> 00:50:58,460
+estruturar esse subsistema se mostrar a
+
+1208
+00:50:56,358 --> 00:51:00,139
+dependência entre ele e o arquitecto e
+
+1209
+00:50:58,460 --> 00:51:02,869
+nos maus seria não eu tenho meu
+
+1210
+00:51:00,139 --> 00:51:06,409
+subsistema né E esse meu subsistema eu
+
+1211
+00:51:02,869 --> 00:51:08,809
+vou pensar Então como é que ele vai tá
+
+1212
+00:51:06,409 --> 00:51:11,210
+estruturada então daí eu vou fazer uma
+
+1213
+00:51:08,809 --> 00:51:12,980
+equipe e resolvi responsável por aquele
+
+1214
+00:51:11,210 --> 00:51:15,499
+subsistema vai tem uma arquitetura
+
+1215
+00:51:12,980 --> 00:51:17,389
+daquele sistema Mas eles tem que
+
+1216
+00:51:15,498 --> 00:51:19,429
+conhecer também o arquitecto en dolares
+
+1217
+00:51:17,389 --> 00:51:23,849
+para saber como eles comunicam com os
+
+1218
+00:51:19,429 --> 00:51:26,940
+outros a subsistema são assim é
+
+1219
+00:51:23,849 --> 00:51:28,710
+é muito né da documentação eu eu fiz o
+
+1220
+00:51:26,940 --> 00:51:30,750
+bastante a gente sempre quando faz
+
+1221
+00:51:28,710 --> 00:51:34,250
+documentação a gente não faz
+
+1222
+00:51:30,750 --> 00:51:36,239
+documentação pode ser fazendo
+
+1223
+00:51:34,250 --> 00:51:38,550
+documentação a gente tem que estar
+
+1224
+00:51:36,239 --> 00:51:40,079
+fazendo para algum propósito esse eu tô
+
+1225
+00:51:38,550 --> 00:51:42,780
+querendo comunicar eu tenho que fazer
+
+1226
+00:51:40,079 --> 00:51:45,000
+algo que esteja comunicando aquilo que
+
+1227
+00:51:42,780 --> 00:51:47,310
+eu quero comunicar no caso de nitro
+
+1228
+00:51:45,000 --> 00:51:51,030
+serviços a gente pode pensar justamente
+
+1229
+00:51:47,309 --> 00:51:52,860
+isso né que eu tenho os meus micro
+
+1230
+00:51:51,030 --> 00:51:55,500
+serviços podem ser sub-módulos no meu
+
+1231
+00:51:52,860 --> 00:51:57,690
+sistema eu vou ter algum arquitecto
+
+1232
+00:51:55,500 --> 00:52:00,719
+Duarte para entender como eles estão se
+
+1233
+00:51:57,690 --> 00:52:03,690
+comunicando e equipes responsáveis por
+
+1234
+00:52:00,719 --> 00:52:05,969
+cada um dos seus serviços vão ter as
+
+1235
+00:52:03,690 --> 00:52:08,220
+arquiteturas internas daqueles micros a
+
+1236
+00:52:05,969 --> 00:52:11,009
+ser definidos para que eles
+
+1237
+00:52:08,219 --> 00:52:13,019
+microsserviços umas tudo depende né do
+
+1238
+00:52:11,010 --> 00:52:15,300
+tamanho daqueles microsserviço se eu
+
+1239
+00:52:13,019 --> 00:52:17,880
+simplesmente peguei um sistema antes que
+
+1240
+00:52:15,300 --> 00:52:21,150
+era monolítico eu fiz micro serviços que
+
+1241
+00:52:17,880 --> 00:52:23,070
+estão pequenos né coca classes ali eu
+
+1242
+00:52:21,150 --> 00:52:23,858
+preciso de uma arquitetura Possivelmente
+
+1243
+00:52:23,070 --> 00:52:27,210
+não
+
+1244
+00:52:23,858 --> 00:52:30,578
+tu tem que tentar entender né Qual é o
+
+1245
+00:52:27,210 --> 00:52:32,289
+tamanho desses nossos né então se esses
+
+1246
+00:52:30,579 --> 00:52:33,940
+momentos serviços são quase do tamanho
+
+1247
+00:52:32,289 --> 00:52:36,670
+de um pacote se eu tivesse falando no
+
+1248
+00:52:33,940 --> 00:52:39,190
+sistema monolítico ele Talvez eu não
+
+1249
+00:52:36,670 --> 00:52:41,318
+preciso de dinheiro textura Então tudo
+
+1250
+00:52:39,190 --> 00:52:43,480
+depende né então vocês meus micos
+
+1251
+00:52:41,318 --> 00:52:46,119
+serviços são complexos suficiente para
+
+1252
+00:52:43,480 --> 00:52:47,858
+pesquisarem de uma textura e eu saber
+
+1253
+00:52:46,119 --> 00:52:49,269
+que ele vai permanecer naquele nível de
+
+1254
+00:52:47,858 --> 00:52:53,528
+complexidade se a gente já falou
+
+1255
+00:52:49,268 --> 00:52:55,298
+devolução né então então eu posso não
+
+1256
+00:52:53,528 --> 00:52:57,730
+precisar tá desenhando uma textura
+
+1257
+00:52:55,298 --> 00:52:59,349
+específica é aquele amigo serviço mas de
+
+1258
+00:52:57,730 --> 00:53:02,829
+forma geral se ele for grande o
+
+1259
+00:52:59,349 --> 00:53:04,509
+suficiente e se for evoluir a de tal
+
+1260
+00:53:02,829 --> 00:53:06,068
+ponto que ele precisa de uma revolução
+
+1261
+00:53:04,509 --> 00:53:08,798
+organizada tem que pensar na arquitetura
+
+1262
+00:53:06,068 --> 00:53:10,239
+dele também Mas é muito importante né
+
+1263
+00:53:08,798 --> 00:53:13,119
+quando a gente fala de cura admiro
+
+1264
+00:53:10,239 --> 00:53:14,798
+serviços é peça Essa visão de mais alto
+
+1265
+00:53:13,119 --> 00:53:16,749
+nível onde que eu só olho para os micro
+
+1266
+00:53:14,798 --> 00:53:18,969
+serviços como uma caixa preta entender
+
+1267
+00:53:16,748 --> 00:53:21,248
+Qual é a dependência dele e no caso de
+
+1268
+00:53:18,969 --> 00:53:23,498
+mente o serviços é super importante a
+
+1269
+00:53:21,248 --> 00:53:23,868
+gente ter o documento arquitetural por
+
+1270
+00:53:23,498 --> 00:53:27,588
+quê
+
+1271
+00:53:23,869 --> 00:53:29,900
+é uma não é uma desvantagem assim do
+
+1272
+00:53:27,588 --> 00:53:31,369
+ponto de vista de de documentação do meu
+
+1273
+00:53:29,900 --> 00:53:34,430
+serviço é que a gente tem Independência
+
+1274
+00:53:31,369 --> 00:53:36,588
+se são mais simples que elas acontecem
+
+1275
+00:53:34,429 --> 00:53:38,838
+em tempo de execução a gente pensar em
+
+1276
+00:53:36,588 --> 00:53:40,759
+chamadas de método essas ferramentas que
+
+1277
+00:53:38,838 --> 00:53:43,940
+eu tinha comentado né que extrai as
+
+1278
+00:53:40,759 --> 00:53:45,619
+dependências ela com análise estática
+
+1279
+00:53:43,940 --> 00:53:47,929
+elas elas conseguem levantar seus
+
+1280
+00:53:45,619 --> 00:53:49,999
+dependentes químicos serviços como a
+
+1281
+00:53:47,929 --> 00:53:52,368
+gente tem chamada de ser motos elas
+
+1282
+00:53:49,998 --> 00:53:54,469
+acontecem termos de execução então a
+
+1283
+00:53:52,369 --> 00:53:56,358
+gente não sabe né porque o qual o
+
+1284
+00:53:54,469 --> 00:53:59,509
+serviço que a gente tá chamando fazendo
+
+1285
+00:53:56,358 --> 00:54:01,429
+análises táticas de Cole então é mais
+
+1286
+00:53:59,509 --> 00:54:03,318
+importante ainda eu peço a documentação
+
+1287
+00:54:01,429 --> 00:54:05,538
+é triturar microsserviços porque essas
+
+1288
+00:54:03,318 --> 00:54:09,489
+dependência exercícios precisam ser
+
+1289
+00:54:05,539 --> 00:54:09,490
+conhecidos e
+
+1290
+00:54:09,929 --> 00:54:19,559
+E aí
+
+1291
+00:54:10,090 --> 00:54:19,559
+[Risadas]
+
+1292
+00:54:20,409 --> 00:54:38,589
+oi oi Ingrid você tem também alguns
+
+1293
+00:54:35,500 --> 00:54:41,860
+trabalhos recentes sobre abordagens de
+
+1294
+00:54:38,590 --> 00:54:43,570
+fast e o nível da aplicação então
+
+1295
+00:54:41,860 --> 00:54:45,490
+Instituto você pode explicar para gente
+
+1296
+00:54:43,570 --> 00:54:48,610
+o que é que são essas abordagens de
+
+1297
+00:54:45,489 --> 00:54:50,529
+Casting como elas funcionam então é
+
+1298
+00:54:48,610 --> 00:54:53,650
+primeira coisa não é a gente falar de
+
+1299
+00:54:50,530 --> 00:54:57,040
+Casting a nível de aplicação na que Cash
+
+1300
+00:54:53,650 --> 00:54:59,670
+né a gente está acostumado né todo mundo
+
+1301
+00:54:57,039 --> 00:55:04,329
+já deve ter ouvido falar de por exemplo
+
+1302
+00:54:59,670 --> 00:55:06,039
+Cash na na memória né computador então
+
+1303
+00:55:04,329 --> 00:55:08,289
+essencialmente a ideia de Casting é que
+
+1304
+00:55:06,039 --> 00:55:11,170
+a gente vai mas na um dados em algum
+
+1305
+00:55:08,289 --> 00:55:13,809
+local cuidado qualquer né em algum local
+
+1306
+00:55:11,170 --> 00:55:15,909
+que possa ser aonde que ele possa ser
+
+1307
+00:55:13,809 --> 00:55:18,190
+testado mais rapidamente do que no local
+
+1308
+00:55:15,909 --> 00:55:20,389
+original para ser usado no futuro então
+
+1309
+00:55:18,190 --> 00:55:22,519
+eu sou uma definição mais atrás
+
+1310
+00:55:20,389 --> 00:55:25,548
+Olá estou ansioso isso por exemplo
+
+1311
+00:55:22,518 --> 00:55:27,379
+exemplo da memória então o que que
+
+1312
+00:55:25,548 --> 00:55:30,018
+acontece a gente tem uma memória grande
+
+1313
+00:55:27,380 --> 00:55:32,568
+né que demora mais para ser consultada
+
+1314
+00:55:30,018 --> 00:55:35,239
+eu tenho uma creche que ela demora menos
+
+1315
+00:55:32,568 --> 00:55:38,389
+para ser consultada na tela é menor
+
+1316
+00:55:35,239 --> 00:55:40,068
+então é elementos que por exemplo são
+
+1317
+00:55:38,389 --> 00:55:42,828
+frequentemente assustados eu posso
+
+1318
+00:55:40,068 --> 00:55:45,949
+trazer para creche então é mais rápido
+
+1319
+00:55:42,829 --> 00:55:48,920
+eu acessar esse das tro da Cash do que
+
+1320
+00:55:45,949 --> 00:55:53,239
+ir lá na memória buscar outro exemplo né
+
+1321
+00:55:48,920 --> 00:55:55,309
+para evitar re computação onde que é eu
+
+1322
+00:55:53,239 --> 00:55:58,278
+tenho por exemplo alguma coisa que foi
+
+1323
+00:55:55,309 --> 00:56:01,190
+computado então requerer requer tempo
+
+1324
+00:55:58,278 --> 00:56:03,858
+para ser computado né os por demora 10
+
+1325
+00:56:01,190 --> 00:56:05,929
+segundos se computar e eu não e é uma
+
+1326
+00:56:03,858 --> 00:56:08,119
+coisa que é frequentemente computados na
+
+1327
+00:56:05,929 --> 00:56:10,219
+mesma forma tem o mesmo as entradas e já
+
+1328
+00:56:08,119 --> 00:56:12,410
+era mesmo saído Então em vez de ficar
+
+1329
+00:56:10,219 --> 00:56:14,929
+computando ele vezes o que eu posso
+
+1330
+00:56:12,409 --> 00:56:19,518
+fazer computar uma vez guardar de alguma
+
+1331
+00:56:14,929 --> 00:56:20,399
+forma e cidadã na cast né e eu eu ganho
+
+1332
+00:56:19,518 --> 00:56:24,029
+tempo que evitam
+
+1333
+00:56:20,400 --> 00:56:26,309
+o coração ou também né isso acontece no
+
+1334
+00:56:24,030 --> 00:56:27,690
+sistema que evitar chamadas espera então
+
+1335
+00:56:26,309 --> 00:56:29,309
+a gente sabe que Normalmente quando eu
+
+1336
+00:56:27,690 --> 00:56:32,190
+saio das Fronteiras meu sistema
+
+1337
+00:56:29,309 --> 00:56:34,920
+apresentou acesso no banco de dados ou
+
+1338
+00:56:32,190 --> 00:56:37,650
+tem uma comunicação remota eu tenho uma
+
+1339
+00:56:34,920 --> 00:56:40,079
+latência ele então também eu posso
+
+1340
+00:56:37,650 --> 00:56:42,720
+colocar esse dado né dentro dos limites
+
+1341
+00:56:40,079 --> 00:56:44,909
+da minha aplicação se eu sei que ele não
+
+1342
+00:56:42,719 --> 00:56:47,250
+vai ser mudar né para o mesmo input
+
+1343
+00:56:44,909 --> 00:56:49,409
+olhar o mesmo e daí em vez de tem
+
+1344
+00:56:47,250 --> 00:56:51,300
+que fazer essa chamada externa eu uso
+
+1345
+00:56:49,409 --> 00:56:55,079
+aquilo que está dentro da creche Então
+
+1346
+00:56:51,300 --> 00:56:57,330
+essa definição do dequech né é que a
+
+1347
+00:56:55,079 --> 00:56:59,340
+gente vai colocar esse dado no local que
+
+1348
+00:56:57,329 --> 00:57:01,679
+ele pode ser testado mais rapidamente no
+
+1349
+00:56:59,340 --> 00:57:04,110
+local original e daí vem um ponto
+
+1350
+00:57:01,679 --> 00:57:05,940
+importante é pra ser usado no futuro
+
+1351
+00:57:04,110 --> 00:57:08,070
+porque não adianta nada levar algo para
+
+1352
+00:57:05,940 --> 00:57:10,590
+cast se eu não vou utilizar ele depois
+
+1353
+00:57:08,070 --> 00:57:12,840
+então para isso tem que ter algum
+
+1354
+00:57:10,590 --> 00:57:15,780
+conhecimento sobre o uso daquele dado
+
+1355
+00:57:12,840 --> 00:57:17,880
+preciso ter alguma informação que me
+
+1356
+00:57:15,780 --> 00:57:20,410
+diga o a potencialmente estudado aqui
+
+1357
+00:57:17,880 --> 00:57:22,570
+vai se reutilizado no futuro porque
+
+1358
+00:57:20,409 --> 00:57:25,839
+é simplesmente colocar elementos na
+
+1359
+00:57:22,570 --> 00:57:27,690
+creche para não re usar ele acaba que eu
+
+1360
+00:57:25,840 --> 00:57:30,340
+tô degradando a performance porque
+
+1361
+00:57:27,690 --> 00:57:32,710
+gerenciar cast trazer elementos para
+
+1362
+00:57:30,340 --> 00:57:34,000
+creche tirada nas Takeshi de validar
+
+1363
+00:57:32,710 --> 00:57:36,130
+elementos quando eles foram atualizados
+
+1364
+00:57:34,000 --> 00:57:38,829
+no local original isso tudo tem um custo
+
+1365
+00:57:36,130 --> 00:57:41,860
+computacional então se eu não tiver eu
+
+1366
+00:57:38,829 --> 00:57:44,710
+uso do daquela daquela computação eu não
+
+1367
+00:57:41,860 --> 00:57:48,309
+vou ter uma melhoria de performance A
+
+1368
+00:57:44,710 --> 00:57:51,220
+então essencialmente é isso a ideia de
+
+1369
+00:57:48,309 --> 00:57:54,610
+Cash em diferentes livre aí falando da
+
+1370
+00:57:51,219 --> 00:57:56,799
+caixinha nível de educação a gente é
+
+1371
+00:57:54,610 --> 00:57:58,720
+Casting já existe na computação há muito
+
+1372
+00:57:56,800 --> 00:58:01,510
+tempo né mas arquitetura de computadores
+
+1373
+00:57:58,719 --> 00:58:03,459
+isso é largamente presente né também
+
+1374
+00:58:01,510 --> 00:58:06,490
+aplicações web a gente tem os próprios
+
+1375
+00:58:03,460 --> 00:58:08,289
+proxy service né que eles vão até as
+
+1376
+00:58:06,489 --> 00:58:10,089
+páginas estáticas normalmente nunca a
+
+1377
+00:58:08,289 --> 00:58:14,969
+gente vai no servidor acaba parando ali
+
+1378
+00:58:10,090 --> 00:58:17,260
+no terno e apps tipos de fast eles são
+
+1379
+00:58:14,969 --> 00:58:18,519
+chamados nos parentes porque os
+
+1380
+00:58:17,260 --> 00:58:20,390
+desenvolvedores estão implementando
+
+1381
+00:58:18,519 --> 00:58:23,480
+notificação ele
+
+1382
+00:58:20,389 --> 00:58:26,328
+E ai a enxergar né ele não vai nem saber
+
+1383
+00:58:23,480 --> 00:58:29,778
+que tá acontecendo festinha ali agora no
+
+1384
+00:58:26,329 --> 00:58:32,119
+sistemas atuais né a gente cada vez mais
+
+1385
+00:58:29,778 --> 00:58:34,639
+tem requisitos relacionados a
+
+1386
+00:58:32,119 --> 00:58:38,150
+performance aumentando é formas scalable
+
+1387
+00:58:34,639 --> 00:58:40,460
+dade então o Cash a nível de aplicação é
+
+1388
+00:58:38,150 --> 00:58:43,220
+o teste que o desenvolvedor manualmente
+
+1389
+00:58:40,460 --> 00:58:45,289
+ele vai enfrentar então eu desenvolvedor
+
+1390
+00:58:43,219 --> 00:58:48,048
+por exemplo detectar aqui um método que
+
+1391
+00:58:45,289 --> 00:58:51,289
+normalmente geram gera o mesmo how to
+
+1392
+00:58:48,048 --> 00:58:53,690
+ para into this frequentes então por
+
+1393
+00:58:51,289 --> 00:58:57,260
+exemplo assim eu estou numa rede social
+
+1394
+00:58:53,690 --> 00:58:59,150
+e fiz um tweet e aquele Twitch assim Nem
+
+1395
+00:58:57,260 --> 00:59:01,970
+todo mundo é disso mas a gente vai ter
+
+1396
+00:58:59,150 --> 00:59:03,889
+um monte de gente lembra aquele Twitch
+
+1397
+00:59:01,969 --> 00:59:07,189
+então aquele suíte ele pode ir para
+
+1398
+00:59:03,889 --> 00:59:09,288
+creche e daí o que em vez de fazer o
+
+1399
+00:59:07,190 --> 00:59:11,028
+método em vez de ir buscar nós vamos de
+
+1400
+00:59:09,289 --> 00:59:13,099
+dados ele pode trazer aquele summit da
+
+1401
+00:59:11,028 --> 00:59:15,289
+creche porque no Twitter recent tweets
+
+1402
+00:59:13,099 --> 00:59:17,028
+antigos eles vão estar lá na base de
+
+1403
+00:59:15,289 --> 00:59:19,130
+dados e precisam ser consultados mas
+
+1404
+00:59:17,028 --> 00:59:20,400
+aqueles que aconteceram passou por eles
+
+1405
+00:59:19,130 --> 00:59:23,548
+vão ser largamente do crime
+
+1406
+00:59:20,400 --> 00:59:27,119
+bom então eu coloco na creche Só que
+
+1407
+00:59:23,548 --> 00:59:29,278
+infelizmente isso aí não é automatizada
+
+1408
+00:59:27,119 --> 00:59:30,329
+que nem que nem os outros níveis de Cash
+
+1409
+00:59:29,278 --> 00:59:32,699
+e acaba que os desenvolvedores
+
+1410
+00:59:30,329 --> 00:59:35,099
+implementam na mão então numa forma
+
+1411
+00:59:32,699 --> 00:59:37,318
+totalmente informal e dizer porque são
+
+1412
+00:59:35,099 --> 00:59:39,359
+leva o que é Xem é o Casting
+
+1413
+00:59:37,318 --> 00:59:42,509
+desenvolvedores encomenda normal no meio
+
+1414
+00:59:39,358 --> 00:59:45,088
+do Código da aplicação de São entre Qual
+
+1415
+00:59:42,510 --> 00:59:48,630
+é a relação de Casting com arquitetura
+
+1416
+00:59:45,088 --> 00:59:50,278
+de software vão Então eu expliquei o que
+
+1417
+00:59:48,630 --> 00:59:53,940
+que é fecha né gente tava falando sobre
+
+1418
+00:59:50,278 --> 00:59:56,670
+arquitetura essencialmente né Essa Ideia
+
+1419
+00:59:53,940 --> 00:59:58,380
+do uso de aplicativo móvel Cash está
+
+1420
+00:59:56,670 --> 01:00:00,599
+relacionado com o endereçamento de um
+
+1421
+00:59:58,380 --> 01:00:02,430
+requisito de perform então quando eu
+
+1422
+01:00:00,599 --> 01:00:03,630
+tiver passando numa aplicação não vou
+
+1423
+01:00:02,429 --> 01:00:05,219
+dizer sim eu quero usar
+
+1424
+01:00:03,630 --> 01:00:06,990
+application-level peste não eu vou
+
+1425
+01:00:05,219 --> 01:00:08,639
+partir de um requisito de performance
+
+1426
+01:00:06,989 --> 01:00:11,368
+não eu tô concebendo uma arquitetura e
+
+1427
+01:00:08,639 --> 01:00:13,558
+cansar eu preciso endereço a performance
+
+1428
+01:00:11,369 --> 01:00:15,630
+performance ao nosso sistema E aí
+
+1429
+01:00:13,559 --> 01:00:19,109
+application-level caching acaba surgindo
+
+1430
+01:00:15,630 --> 01:00:20,410
+como uma alternativa é uma a gente pensa
+
+1431
+01:00:19,108 --> 01:00:23,019
+na arquitetura e desonesta
+
+1432
+01:00:20,409 --> 01:00:25,869
+a cena aqui eu vou estar utilizando
+
+1433
+01:00:23,019 --> 01:00:28,509
+Então application-level caching porque
+
+1434
+01:00:25,869 --> 01:00:31,719
+aqui eu tenho vários métodos que apenas
+
+1435
+01:00:28,510 --> 01:00:35,200
+essas características necessárias para
+
+1436
+01:00:31,719 --> 01:00:37,480
+poder usar questionável Fashion ah e daí
+
+1437
+01:00:35,199 --> 01:00:41,049
+então eu isso aí então tem que ser
+
+1438
+01:00:37,480 --> 01:00:42,340
+pensado na cintura até né Isso o
+
+1439
+01:00:41,050 --> 01:00:43,900
+aplicativo levar o resto tinha um
+
+1440
+01:00:42,340 --> 01:00:45,610
+problema porque eu tinha dito da
+
+1441
+01:00:43,900 --> 01:00:48,160
+separação de interesses na espessura
+
+1442
+01:00:45,610 --> 01:00:49,900
+umas um grande desafio o
+
+1443
+01:00:48,159 --> 01:00:51,399
+application-level caching aqui ele é Um
+
+1444
+01:00:49,900 --> 01:00:52,990
+clássico que eu tenho com sangue porque
+
+1445
+01:00:51,400 --> 01:00:55,539
+ele está espalhado na estrutura Então
+
+1446
+01:00:52,989 --> 01:00:58,149
+tem que eu botei nerds espalhados no meu
+
+1447
+01:00:55,539 --> 01:01:00,550
+sistema e eles vão ter o application
+
+1448
+01:00:58,150 --> 01:01:02,039
+level test implementados lá no seu
+
+1449
+01:01:00,550 --> 01:01:04,750
+interior né e o que que significa
+
+1450
+01:01:02,039 --> 01:01:06,279
+implementar a gente leva o resto eu
+
+1451
+01:01:04,750 --> 01:01:08,679
+tenho um método que recebe uma entrada
+
+1452
+01:01:06,280 --> 01:01:12,400
+Quais são as primeiras minhas códigos do
+
+1453
+01:01:08,679 --> 01:01:14,759
+metros é se aquela entrada tá na cast eu
+
+1454
+01:01:12,400 --> 01:01:17,050
+retorno que tá dentro da creche é o
+
+1455
+01:01:14,760 --> 01:01:19,540
+computa e botão na caixa e dá o retorno
+
+1456
+01:01:17,050 --> 01:01:20,390
+e isso vai estar em vários métodos assim
+
+1457
+01:01:19,539 --> 01:01:23,750
+isso aí
+
+1458
+01:01:20,389 --> 01:01:25,098
+o desafio é um dos grandes desafios dia
+
+1459
+01:01:23,750 --> 01:01:28,250
+para questionável Cash em que essa
+
+1460
+01:01:25,099 --> 01:01:30,980
+questão de manutenibilidade a gente tem
+
+1461
+01:01:28,250 --> 01:01:32,900
+algum apoio ferramental então Existem
+
+1462
+01:01:30,980 --> 01:01:34,849
+algumas ferramentas que servem de
+
+1463
+01:01:32,900 --> 01:01:36,410
+componente De Cash porque às vezes a
+
+1464
+01:01:34,849 --> 01:01:38,720
+gente pode implementar até o componente
+
+1465
+01:01:36,409 --> 01:01:41,719
+de creche na mão então a gente tem o e
+
+1466
+01:01:38,719 --> 01:01:43,518
+Cash mesmo teste Web está tem aqui são
+
+1467
+01:01:41,719 --> 01:01:46,699
+as ferramentas que podem ser
+
+1468
+01:01:43,518 --> 01:01:50,179
+incorporadas como como componente De
+
+1469
+01:01:46,699 --> 01:01:52,239
+Cash e mais recentemente né que aí que
+
+1470
+01:01:50,179 --> 01:01:55,639
+vem os meus trabalhos e também existem
+
+1471
+01:01:52,239 --> 01:01:58,129
+alguns outros o meu no caso trabalhando
+
+1472
+01:01:55,639 --> 01:02:02,018
+com dois alunos né o Johnny médico que
+
+1473
+01:01:58,130 --> 01:02:05,150
+trabalhou nisso e o a forma do Maloka
+
+1474
+01:02:02,018 --> 01:02:07,009
+Então a gente tem abordagem na salinha e
+
+1475
+01:02:05,150 --> 01:02:10,039
+também tem um memórias e tirar um grupo
+
+1476
+01:02:07,010 --> 01:02:11,990
+de pesquisadores da Europa e essas
+
+1477
+01:02:10,039 --> 01:02:14,299
+abordagens lá tornam application-level
+
+1478
+01:02:11,989 --> 01:02:17,538
+caching mais transparente então elas
+
+1479
+01:02:14,298 --> 01:02:19,548
+gostam fazer por exemplo a invalidação
+
+1480
+01:02:17,539 --> 01:02:20,400
+de elementos da creche então se eu mudei
+
+1481
+01:02:19,548 --> 01:02:24,539
+o dado
+
+1482
+01:02:20,400 --> 01:02:26,670
+e a ele detectará quando tem que ir vai
+
+1483
+01:02:24,539 --> 01:02:28,920
+lhe dar uma maquete esses dois trabalhos
+
+1484
+01:02:26,670 --> 01:02:31,860
+que eu comentei tanto meu como menores
+
+1485
+01:02:28,920 --> 01:02:33,869
+eles eram já fazer recomendações de
+
+1486
+01:02:31,860 --> 01:02:35,430
+elementos para colocar na cast então no
+
+1487
+01:02:33,869 --> 01:02:37,380
+caso do nosso gente busca fazer um
+
+1488
+01:02:35,429 --> 01:02:40,319
+sistema auto-adaptativo então Pires
+
+1489
+01:02:37,380 --> 01:02:42,900
+forma transparente a festa genitália do
+
+1490
+01:02:40,320 --> 01:02:46,080
+desenvolvedor mas eu já adianto né assim
+
+1491
+01:02:42,900 --> 01:02:49,280
+mesmo assim a gente tem essa abordagem
+
+1492
+01:02:46,079 --> 01:02:52,019
+que a missão é automatizar completamente
+
+1493
+01:02:49,280 --> 01:02:54,360
+ainda é bastante difícil a gente tomar
+
+1494
+01:02:52,019 --> 01:02:57,059
+decisões de cast e ainda requer bastante
+
+1495
+01:02:54,360 --> 01:03:00,150
+input manual para estar tomando decisões
+
+1496
+01:02:57,059 --> 01:03:01,710
+de gerenciando aakash o ponto de vista
+
+1497
+01:03:00,150 --> 01:03:04,079
+de implementação parece que é muito
+
+1498
+01:03:01,710 --> 01:03:07,110
+simples implementar né Faz um Infiel se
+
+1499
+01:03:04,079 --> 01:03:08,909
+tiver eu dado no banco eu e o Davi na
+
+1500
+01:03:07,110 --> 01:03:10,559
+caixa e o resto a fauna se não tiver eu
+
+1501
+01:03:08,909 --> 01:03:12,420
+faço operação em volta na minha caixa no
+
+1502
+01:03:10,559 --> 01:03:14,699
+meu banco é mas me parece que a
+
+1503
+01:03:12,420 --> 01:03:17,250
+dificuldade é entender quando eu devo
+
+1504
+01:03:14,699 --> 01:03:20,409
+fazer aonde eu devo fazer como é que eu
+
+1505
+01:03:17,250 --> 01:03:23,170
+encontro esses locais de utilização
+
+1506
+01:03:20,409 --> 01:03:25,449
+o sistema novamente algo ferramental tem
+
+1507
+01:03:23,170 --> 01:03:27,130
+um bonita que possa apontar olha faz
+
+1508
+01:03:25,449 --> 01:03:28,960
+crédito essa parte aqui que tá mais
+
+1509
+01:03:27,130 --> 01:03:31,360
+trabalho para se esquece que essa parte
+
+1510
+01:03:28,960 --> 01:03:33,309
+aqui que é mais acessada Qual que é o
+
+1511
+01:03:31,360 --> 01:03:36,130
+trade-off aqui pra gente poder local de
+
+1512
+01:03:33,309 --> 01:03:38,409
+encontrar oportunidade de Cash como tu
+
+1513
+01:03:36,130 --> 01:03:40,599
+falou uma das grandes um dos grandes
+
+1514
+01:03:38,409 --> 01:03:41,980
+desafios já peguei chamado eu Casting a
+
+1515
+01:03:40,599 --> 01:03:45,369
+gente decidiu o que que a gente vai
+
+1516
+01:03:41,980 --> 01:03:46,780
+cachear mas a implementação não é tão
+
+1517
+01:03:45,369 --> 01:03:49,599
+trivial assim porque a gente tem
+
+1518
+01:03:46,780 --> 01:03:51,400
+decisões a serem tomadas Então eu tenho
+
+1519
+01:03:49,599 --> 01:03:53,650
+eu vou responder essa pergunta de forma
+
+1520
+01:03:51,400 --> 01:03:57,849
+mais abrangente falando das diferentes
+
+1521
+01:03:53,650 --> 01:04:00,280
+tarefas né que requerem a água quando a
+
+1522
+01:03:57,849 --> 01:04:01,750
+gente adota que precisam ser executadas
+
+1523
+01:04:00,280 --> 01:04:03,460
+quando a gente adota uma abordagem de
+
+1524
+01:04:01,750 --> 01:04:05,230
+cast é um primeiro eu conto que tu
+
+1525
+01:04:03,460 --> 01:04:07,240
+comentou que ela decidiu que que eu vou
+
+1526
+01:04:05,230 --> 01:04:09,309
+cachear para eu decidir o que eu vou
+
+1527
+01:04:07,239 --> 01:04:12,969
+fechar tem duas coisas que tem que ser
+
+1528
+01:04:09,309 --> 01:04:17,469
+pensada com faz sentido eu posso cachear
+
+1529
+01:04:12,969 --> 01:04:19,719
+isso aqui ou não né E quê que é o posso
+
+1530
+01:04:17,469 --> 01:04:20,389
+cachear eu preciso por exemplo falando
+
+1531
+01:04:19,719 --> 01:04:22,818
+de metros
+
+1532
+01:04:20,389 --> 01:04:26,449
+é preciso um método aqui para os medos
+
+1533
+01:04:22,818 --> 01:04:29,538
+imputes eu tenho mesmo aos por um
+
+1534
+01:04:26,449 --> 01:04:31,278
+tempo determinado ao menos porque daí o
+
+1535
+01:04:29,539 --> 01:04:34,670
+que acontece aqui dentro daquela janela
+
+1536
+01:04:31,278 --> 01:04:37,130
+de tempo eu vou ter né o seu uso
+
+1537
+01:04:34,670 --> 01:04:39,769
+daquelas notificação e fora isso dentro
+
+1538
+01:04:37,130 --> 01:04:42,108
+daquele daquele método não podem haver
+
+1539
+01:04:39,768 --> 01:04:45,318
+operações por exemplo de escrita que eu
+
+1540
+01:04:42,108 --> 01:04:47,778
+não posso esquipar não posso passar por
+
+1541
+01:04:45,318 --> 01:04:50,058
+elas então eu tenho que ir para eu poder
+
+1542
+01:04:47,778 --> 01:04:52,309
+encaixar o método ele para o mesmo pude
+
+1543
+01:04:50,059 --> 01:04:54,319
+tem geral geral mesmo puxa pelo menos
+
+1544
+01:04:52,309 --> 01:04:57,019
+por uma janela de tempo para aquele dado
+
+1545
+01:04:54,318 --> 01:04:59,179
+poder ser reutilizar tão usando o mesmo
+
+1546
+01:04:57,018 --> 01:05:02,118
+exemplo do Twitter que eu falei a gente
+
+1547
+01:04:59,179 --> 01:05:04,969
+sabe que não é um tweet pode ser editado
+
+1548
+01:05:02,119 --> 01:05:08,838
+E se ele for editado né dado um input o
+
+1549
+01:05:04,969 --> 01:05:11,659
+a Dida que ele Twitch o prova muitas
+
+1550
+01:05:08,838 --> 01:05:13,099
+vezes o resultado né a leitura da que
+
+1551
+01:05:11,659 --> 01:05:15,379
+depois que vai ser o mesmo mas se a
+
+1552
+01:05:13,099 --> 01:05:17,028
+gente está não vai ser mas pelo menos
+
+1553
+01:05:15,380 --> 01:05:19,010
+durante uma janela que eu não vai poder
+
+1554
+01:05:17,028 --> 01:05:20,400
+ser reutilizada então o primeiro eu
+
+1555
+01:05:19,010 --> 01:05:23,789
+tenho que olhar o que que é
+
+1556
+01:05:20,400 --> 01:05:26,130
+é de cachear a segunda coisa é o
+
+1557
+01:05:23,789 --> 01:05:28,349
+entender aonde vale a pena cachear
+
+1558
+01:05:26,130 --> 01:05:30,960
+porque se eu tenho um método que ele é
+
+1559
+01:05:28,349 --> 01:05:33,480
+muito simples e que não tem curso para
+
+1560
+01:05:30,960 --> 01:05:35,400
+ser ditado eu adicionar as minhas para o
+
+1561
+01:05:33,480 --> 01:05:38,068
+gerenciamento de creche Pois é por isso
+
+1562
+01:05:35,400 --> 01:05:41,670
+que tá na que já tá na creche só isso aí
+
+1563
+01:05:38,068 --> 01:05:44,308
+tem um curso Então se algo não é muito
+
+1564
+01:05:41,670 --> 01:05:46,680
+chamado tem um custo muito baixo né
+
+1565
+01:05:44,309 --> 01:05:47,640
+então não vale a pena que acha ali então
+
+1566
+01:05:46,679 --> 01:05:50,548
+eu tenho que olhar para esses dois
+
+1567
+01:05:47,639 --> 01:05:53,190
+aspectos é o que pode ser cacheado e o
+
+1568
+01:05:50,548 --> 01:05:55,019
+que vale a pena ser cacheado e para
+
+1569
+01:05:53,190 --> 01:05:58,440
+determinar o que vale a pena ser
+
+1570
+01:05:55,019 --> 01:06:00,690
+cacheado a gente existem diferentes
+
+1571
+01:05:58,440 --> 01:06:03,210
+critérios mas os dois Perdigão são os
+
+1572
+01:06:00,690 --> 01:06:05,608
+principais é uma frequência eu chamo
+
+1573
+01:06:03,210 --> 01:06:07,588
+alguma coisa então por exemplo método
+
+1574
+01:06:05,608 --> 01:06:10,558
+que é muito chamado com os mesmos
+
+1575
+01:06:07,588 --> 01:06:12,328
+recursos geral no mesmo pude e o segundo
+
+1576
+01:06:10,559 --> 01:06:14,069
+é o tempo de computação que elas vezes
+
+1577
+01:06:12,329 --> 01:06:17,430
+algo pode não ser muito frequente mas
+
+1578
+01:06:14,068 --> 01:06:20,130
+demora muito a ser complicado então a
+
+1579
+01:06:17,429 --> 01:06:20,409
+gente usa às vezes Justamente a médica é
+
+1580
+01:06:20,130 --> 01:06:22,480
+muito
+
+1581
+01:06:20,409 --> 01:06:25,509
+Além disso né então o número de vezes
+
+1582
+01:06:22,480 --> 01:06:28,269
+que chamada vezes o tempo de execução
+
+1583
+01:06:25,510 --> 01:06:30,910
+isso vai me dar Qual é o tempo que eu tô
+
+1584
+01:06:28,269 --> 01:06:33,940
+economizando ao colocar elementos que
+
+1585
+01:06:30,909 --> 01:06:36,369
+estão na cast nessa linha né para ouvir
+
+1586
+01:06:33,940 --> 01:06:38,769
+o dar isso tem até um ativo que eu tinha
+
+1587
+01:06:36,369 --> 01:06:40,480
+comentado neodi Unimed trabalhou nisso é
+
+1588
+01:06:38,769 --> 01:06:43,030
+um artigo dos protection um soften the
+
+1589
+01:06:40,480 --> 01:06:45,579
+new e onde que a gente viu a diferentes
+
+1590
+01:06:43,030 --> 01:06:48,160
+aplicações e tentam entender como é que
+
+1591
+01:06:45,579 --> 01:06:50,079
+os desenvolvedores é decide o que que
+
+1592
+01:06:48,159 --> 01:06:51,969
+vão baixar ou não e a gente um dos
+
+1593
+01:06:50,079 --> 01:06:54,340
+padrões que a gente se derivou que a
+
+1594
+01:06:51,969 --> 01:06:58,109
+gente chama de caixa Binho e Pata e tem
+
+1595
+01:06:54,340 --> 01:07:02,050
+sete critérios te ajudam a decidir Então
+
+1596
+01:06:58,110 --> 01:07:04,329
+se algo deve ser cacheado ou não e para
+
+1597
+01:07:02,050 --> 01:07:05,650
+avaliar né ser aquilo valeu a pena ou
+
+1598
+01:07:04,329 --> 01:07:07,900
+não né a gente tem as métricas
+
+1599
+01:07:05,650 --> 01:07:10,030
+relacionadas com casting para ver se
+
+1600
+01:07:07,900 --> 01:07:12,250
+aquele aquilo que eu sou aonde que eu tô
+
+1601
+01:07:10,030 --> 01:07:14,680
+colocando o teste está me trazendo ganho
+
+1602
+01:07:12,250 --> 01:07:16,239
+então a gente normalmente avalia tem
+
+1603
+01:07:14,679 --> 01:07:19,239
+diferentes métricas nas duas são muito
+
+1604
+01:07:16,239 --> 01:07:20,389
+usadas é o hit Hit né número de rir que
+
+1605
+01:07:19,239 --> 01:07:22,879
+eu botei para querer
+
+1606
+01:07:20,389 --> 01:07:24,230
+é colocado na creche com relação ao
+
+1607
+01:07:22,880 --> 01:07:26,690
+Vinicius de quando ele não estava
+
+1608
+01:07:24,230 --> 01:07:30,289
+presente e o Fruit é o que a gente quer
+
+1609
+01:07:26,690 --> 01:07:33,019
+aumentar a performance da aplicação isso
+
+1610
+01:07:30,289 --> 01:07:36,079
+né pensando tudo isso de forma manual
+
+1611
+01:07:33,018 --> 01:07:38,239
+mas é como eu comentei né tanto a gente
+
+1612
+01:07:36,079 --> 01:07:40,519
+tem a guardadinho a pele cast foi
+
+1613
+01:07:38,239 --> 01:07:42,739
+baseada nesse padrão que eu comentei E
+
+1614
+01:07:40,518 --> 01:07:44,509
+também o memórias e são ferramentas que
+
+1615
+01:07:42,739 --> 01:07:47,118
+servem para recomendar então para os
+
+1616
+01:07:44,510 --> 01:07:50,028
+desenvolvedores pontos a serem cacheado
+
+1617
+01:07:47,119 --> 01:07:52,130
+só que na nossa própria abordagem que
+
+1618
+01:07:50,028 --> 01:07:56,150
+uma abordagem automatizada a gente não
+
+1619
+01:07:52,130 --> 01:07:58,190
+consegue decidir quais métodos não podem
+
+1620
+01:07:56,150 --> 01:07:59,809
+ser fechados Por que gerariam Burger se
+
+1621
+01:07:58,190 --> 01:08:02,088
+fosse em cacheado então a gente assumi
+
+1622
+01:07:59,809 --> 01:08:04,569
+que o desenvolvedor vai indicar né esse
+
+1623
+01:08:02,088 --> 01:08:06,828
+método aqui ano que é chegou então
+
+1624
+01:08:04,568 --> 01:08:10,159
+automatizar completamente a gente ainda
+
+1625
+01:08:06,829 --> 01:08:11,809
+não consegue tá E essas ferramentas elas
+
+1626
+01:08:10,159 --> 01:08:13,489
+existem tanto para creche como outros
+
+1627
+01:08:11,809 --> 01:08:15,589
+problemas de performance problema de
+
+1628
+01:08:13,489 --> 01:08:17,389
+performance comum é o chamado mesmo e do
+
+1629
+01:08:15,588 --> 01:08:19,158
+outro e quando a gente Estância muitos
+
+1630
+01:08:17,389 --> 01:08:20,400
+objetos né memória ficar cheia de
+
+1631
+01:08:19,158 --> 01:08:22,408
+objetos estão
+
+1632
+01:08:20,399 --> 01:08:24,358
+bom então a gente tem várias ferramentas
+
+1633
+01:08:22,408 --> 01:08:27,798
+para endereçar diferente problemas de
+
+1634
+01:08:24,359 --> 01:08:31,048
+performance né todos eles são trabalhos
+
+1635
+01:08:27,798 --> 01:08:33,479
+acadêmicos mais recentes né mas é as
+
+1636
+01:08:31,048 --> 01:08:35,130
+ideias vão amadurecendo e né e cada vez
+
+1637
+01:08:33,479 --> 01:08:37,259
+mais a gente tem ferramentas mais sua
+
+1638
+01:08:35,130 --> 01:08:40,140
+músicas para auxiliar nesse processo Mas
+
+1639
+01:08:37,259 --> 01:08:43,319
+falando né Não o que a tarefa não é só
+
+1640
+01:08:40,140 --> 01:08:45,239
+decidiu que vai cachear né outra questão
+
+1641
+01:08:43,319 --> 01:08:48,690
+que é muito importante decidir como
+
+1642
+01:08:45,238 --> 01:08:50,968
+implementar então assim não é tão se
+
+1643
+01:08:48,689 --> 01:08:53,908
+pode ser simples como como eu tinha
+
+1644
+01:08:50,969 --> 01:08:56,730
+comentado né está na cash de volta tá na
+
+1645
+01:08:53,908 --> 01:08:58,858
+festa não computa só que a gente pode
+
+1646
+01:08:56,729 --> 01:09:02,209
+enfrentar isso diferentes formas por
+
+1647
+01:08:58,859 --> 01:09:05,130
+exemplo vamos supor que a gente tem uma
+
+1648
+01:09:02,210 --> 01:09:07,798
+um pato não é uma régua uma expressão
+
+1649
+01:09:05,130 --> 01:09:09,829
+regular que a gente montou e ela vai ser
+
+1650
+01:09:07,798 --> 01:09:11,908
+bastante utilizado Então em vez de
+
+1651
+01:09:09,829 --> 01:09:13,859
+computar aquela expressão regular a
+
+1652
+01:09:11,908 --> 01:09:16,500
+gente quer torna ela só que normalmente
+
+1653
+01:09:13,859 --> 01:09:17,789
+é só uma expressão regular a gente sabe
+
+1654
+01:09:16,500 --> 01:09:20,409
+que não vai ter muitas expressões
+
+1655
+01:09:17,789 --> 01:09:23,199
+regulares então a gente pode colocar uma
+
+1656
+01:09:20,409 --> 01:09:25,359
+a única na passa uma variável estática e
+
+1657
+01:09:23,199 --> 01:09:27,729
+usar aquilo como uma variável para
+
+1658
+01:09:25,359 --> 01:09:30,789
+armazenar armazenar aquela expressão
+
+1659
+01:09:27,729 --> 01:09:33,429
+regular e aquilo vai ser a nossa creche
+
+1660
+01:09:30,789 --> 01:09:34,569
+então tem uma variável estática numa
+
+1661
+01:09:33,430 --> 01:09:37,329
+classe é uma forma de evitar
+
+1662
+01:09:34,569 --> 01:09:40,479
+implementando a cast também eu posso
+
+1663
+01:09:37,329 --> 01:09:43,090
+usar regime né então o resto map dentro
+
+1664
+01:09:40,479 --> 01:09:44,409
+da classe uma rendimento global ou como
+
+1665
+01:09:43,090 --> 01:09:47,800
+eu comentei a gente tem esses
+
+1666
+01:09:44,409 --> 01:09:50,519
+componentes de Cash que daí eles nos
+
+1667
+01:09:47,800 --> 01:09:52,659
+auxiliam isso né até Inclusive tem como
+
+1668
+01:09:50,520 --> 01:09:54,280
+alguns algumas Tecnologias para
+
+1669
+01:09:52,659 --> 01:09:58,930
+implementar cast que a gente pode
+
+1670
+01:09:54,279 --> 01:10:02,380
+colocar um método@Cash bunai e daí a não
+
+1671
+01:09:58,930 --> 01:10:04,690
+precisa fazer mais nada e fora isso a
+
+1672
+01:10:02,380 --> 01:10:07,630
+implementação da creche não é limitada a
+
+1673
+01:10:04,689 --> 01:10:10,599
+gente tá vendo está na caixa retornando
+
+1674
+01:10:07,630 --> 01:10:12,760
+que tá na cast porque além de cachear a
+
+1675
+01:10:10,600 --> 01:10:15,880
+gente tem que determinar o chamado time
+
+1676
+01:10:12,760 --> 01:10:17,530
+sorriso estaremos ele vai quanto tempo o
+
+1677
+01:10:15,880 --> 01:10:20,389
+elemento que vai ficar dentro da creche
+
+1678
+01:10:17,529 --> 01:10:23,059
+então assim a esse elemento aqui né
+
+1679
+01:10:20,389 --> 01:10:25,880
+E aí normalmente é usado por 30 segundos
+
+1680
+01:10:23,059 --> 01:10:27,829
+se depois não é usado mais então eu
+
+1681
+01:10:25,880 --> 01:10:29,630
+posso botar um time Felipe e depois de
+
+1682
+01:10:27,828 --> 01:10:32,630
+30 segundos aquele elemento vai sair da
+
+1683
+01:10:29,630 --> 01:10:35,059
+creche outra coisa é o tamanho da creche
+
+1684
+01:10:32,630 --> 01:10:36,439
+normalmente Quanto maior melhor né que a
+
+1685
+01:10:35,059 --> 01:10:39,380
+gente tem mais tamanho Mas a gente sabe
+
+1686
+01:10:36,439 --> 01:10:40,939
+que se passa o limitado e também existem
+
+1687
+01:10:39,380 --> 01:10:42,708
+outras questões né como fazer uma
+
+1688
+01:10:40,939 --> 01:10:44,570
+chamada política de reflexão então
+
+1689
+01:10:42,708 --> 01:10:47,448
+quando a minha festa cheia aqui que eu
+
+1690
+01:10:44,569 --> 01:10:49,429
+faço a gente tem as políticas por
+
+1691
+01:10:47,448 --> 01:10:52,788
+exemplo ela é rio que é o Sr juiz
+
+1692
+01:10:49,429 --> 01:10:55,189
+imperioso ela é frio que ele porque ele
+
+1693
+01:10:52,788 --> 01:10:56,868
+curioso que a para determinar Quais
+
+1694
+01:10:55,189 --> 01:10:58,489
+elementos eu vou tirar da creche quando
+
+1695
+01:10:56,868 --> 01:11:00,319
+eu preciso colocar na novo elemento na
+
+1696
+01:10:58,488 --> 01:11:02,598
+cast e a minha caixa não tem mais
+
+1697
+01:11:00,319 --> 01:11:04,398
+tamanho então eu decidi como implementar
+
+1698
+01:11:02,599 --> 01:11:06,199
+não é limitado essa implementação de
+
+1699
+01:11:04,399 --> 01:11:08,209
+recuperar o elemento na caixa nos como
+
+1700
+01:11:06,198 --> 01:11:10,578
+também de se despedirá configuração da
+
+1701
+01:11:08,208 --> 01:11:12,800
+Cash e é a outra coisa eu tenho que
+
+1702
+01:11:10,578 --> 01:11:15,139
+pensar como manter a consistência por
+
+1703
+01:11:12,800 --> 01:11:17,899
+exemplo no caso que eu odeio o tempo
+
+1704
+01:11:15,139 --> 01:11:19,939
+todo Twitch né então a gente tem lá o
+
+1705
+01:11:17,899 --> 01:11:20,400
+método que leu Twitch mas a gente tem um
+
+1706
+01:11:19,939 --> 01:11:23,550
+método
+
+1707
+01:11:20,399 --> 01:11:26,670
+e vai fazer de São daquele frente então
+
+1708
+01:11:23,550 --> 01:11:28,920
+quando eu editar o Twitter talvez eu não
+
+1709
+01:11:26,670 --> 01:11:31,739
+vá lhe dar aquele tweet que tá na creche
+
+1710
+01:11:28,920 --> 01:11:33,539
+Então a gente tem que ir então uma ir lá
+
+1711
+01:11:31,738 --> 01:11:35,488
+na caixa dizer olha isso aqui não é mais
+
+1712
+01:11:33,539 --> 01:11:37,560
+vale ou por exemplo só tem uma querem
+
+1713
+01:11:35,488 --> 01:11:40,139
+que tá na creche Então isso é bastante
+
+1714
+01:11:37,560 --> 01:11:43,320
+difícil a gente vai baseado naquela com
+
+1715
+01:11:40,140 --> 01:11:46,020
+ela e saber todos os elementos né que
+
+1716
+01:11:43,319 --> 01:11:47,969
+são retomados na naquelas colheres e daí
+
+1717
+01:11:46,020 --> 01:11:49,620
+se o mundo algum daqueles elementos aí
+
+1718
+01:11:47,969 --> 01:11:51,060
+eu sou obrigado a invalidar cast então
+
+1719
+01:11:49,619 --> 01:11:53,640
+mandei a consistência algo bastante
+
+1720
+01:11:51,060 --> 01:11:55,260
+difícil também aqui também existem
+
+1721
+01:11:53,640 --> 01:11:56,730
+abordagens que servem justamente para
+
+1722
+01:11:55,260 --> 01:11:59,219
+gerenciar essa consciência
+
+1723
+01:11:56,729 --> 01:12:03,269
+automaticamente uma alternativa é temos
+
+1724
+01:11:59,219 --> 01:12:05,010
+playoff do Flash e testei eu deito na
+
+1725
+01:12:03,270 --> 01:12:07,199
+que que é o flash nos fecha no seu
+
+1726
+01:12:05,010 --> 01:12:11,280
+sempre quero ser usado totalmente
+
+1727
+01:12:07,198 --> 01:12:13,529
+atualizado e eu permitisse aí o deita é
+
+1728
+01:12:11,279 --> 01:12:16,198
+em alguns casos eu posso permitir que o
+
+1729
+01:12:13,529 --> 01:12:18,300
+dado esteja sendo retornado ele não está
+
+1730
+01:12:16,198 --> 01:12:20,408
+completamente atualizada por exemplo um
+
+1731
+01:12:18,300 --> 01:12:22,449
+tweet Pode ser que seja muito com
+
+1732
+01:12:20,408 --> 01:12:24,129
+eu vou ter que ir validar os elementos
+
+1733
+01:12:22,448 --> 01:12:26,078
+os elementos na creche quando eu tô
+
+1734
+01:12:24,130 --> 01:12:29,828
+falando de tui Então o que eu posso
+
+1735
+01:12:26,078 --> 01:12:32,438
+fazer quando eu tá eu posso determinar o
+
+1736
+01:12:29,828 --> 01:12:34,958
+time utilizo e daí eu digo que durante
+
+1737
+01:12:32,439 --> 01:12:37,389
+30 segundos Eu Admito que aquele Twitch
+
+1738
+01:12:34,958 --> 01:12:39,340
+ele pode estar desatualizados né Vocês
+
+1739
+01:12:37,389 --> 01:12:41,650
+têm odeia e daí eu não sei opção
+
+1740
+01:12:39,340 --> 01:12:43,779
+validação Então são tudo decisões que a
+
+1741
+01:12:41,649 --> 01:12:45,188
+gente tem que fazer com relação a caixa
+
+1742
+01:12:43,779 --> 01:12:47,859
+então os dentes não é nem um pouquinho
+
+1743
+01:12:45,189 --> 01:12:51,400
+trivial né então o ganho reformas é Um
+
+1744
+01:12:47,859 --> 01:12:54,368
+Desafio fazer isso e por fim né algo que
+
+1745
+01:12:51,399 --> 01:12:56,679
+deixa ainda mais difícil segundo né Fiz
+
+1746
+01:12:54,368 --> 01:12:59,259
+lá todas essas decisões que achei tudo
+
+1747
+01:12:56,679 --> 01:13:01,538
+só que o outro longe de aplicações não é
+
+1748
+01:12:59,260 --> 01:13:04,179
+algo estático uma coisa que evolui
+
+1749
+01:13:01,538 --> 01:13:06,038
+alunos do tempo então é esse ciclo né de
+
+1750
+01:13:04,179 --> 01:13:08,649
+decisão do que que é chato hein ser uma
+
+1751
+01:13:06,038 --> 01:13:11,259
+coisa constante então até a nossa ideia
+
+1752
+01:13:08,649 --> 01:13:13,448
+da outra da otimização né do sistema
+
+1753
+01:13:11,260 --> 01:13:16,208
+adaptativo é justamente o tá monitorando
+
+1754
+01:13:13,448 --> 01:13:18,368
+o ciclo o sistema para decidir
+
+1755
+01:13:16,208 --> 01:13:19,840
+dinamicamente o que que achar os
+
+1756
+01:13:18,368 --> 01:13:20,389
+desenvolvedores que não tem uma
+
+1757
+01:13:19,840 --> 01:13:22,279
+abordagem
+
+1758
+01:13:20,390 --> 01:13:23,990
+e nada tem que ir na mão tá sempre
+
+1759
+01:13:22,279 --> 01:13:27,649
+revenda Então as decisões com relação a
+
+1760
+01:13:23,989 --> 01:13:29,539
+Cash essa introdução que eu dei até ter
+
+1761
+01:13:27,649 --> 01:13:32,929
+alguém não tiver mais interesse tem um
+
+1762
+01:13:29,539 --> 01:13:35,390
+antigo que a gente teve a respeito a uma
+
+1763
+01:13:32,930 --> 01:13:38,390
+entre Power software o motivo desses
+
+1764
+01:13:35,390 --> 01:13:40,760
+mais de introdução mesmo e que ele traz
+
+1765
+01:13:38,390 --> 01:13:43,010
+justamente uma visão Geral das tarefas
+
+1766
+01:13:40,760 --> 01:13:45,710
+relacionadas com um aplicativo é bom
+
+1767
+01:13:43,010 --> 01:13:49,220
+caption falar que era trivial levei uma
+
+1768
+01:13:45,710 --> 01:13:51,409
+aula de Casting aqui mas a Ingrid não
+
+1769
+01:13:49,220 --> 01:13:53,750
+tem esses abordagem de cast em me parece
+
+1770
+01:13:51,409 --> 01:13:58,039
+que são primas ali de umas abordagem de
+
+1771
+01:13:53,750 --> 01:13:59,930
+cast de compiladores né O Hélio é RS uso
+
+1772
+01:13:58,039 --> 01:14:01,609
+são todas quente já conhece são
+
+1773
+01:13:59,930 --> 01:14:03,590
+constantemente implementados né em
+
+1774
+01:14:01,609 --> 01:14:06,019
+compiladores E aí uma coisa que eu tenha
+
+1775
+01:14:03,590 --> 01:14:08,630
+em mente é existem diferenças de
+
+1776
+01:14:06,020 --> 01:14:11,000
+implementação de Casting dependendo do
+
+1777
+01:14:08,630 --> 01:14:13,579
+tipo de aplicação né eu vi que você tem
+
+1778
+01:14:11,000 --> 01:14:16,279
+dois de trabalho e sobre isso um sobre
+
+1779
+01:14:13,579 --> 01:14:19,640
+application-level caching na minha
+
+1780
+01:14:16,279 --> 01:14:20,399
+aplicações web e outro em cash e Smart
+
+1781
+01:14:19,640 --> 01:14:23,070
+gateways
+
+1782
+01:14:20,399 --> 01:14:27,569
+Há alguma diferença entre esse tipos de
+
+1783
+01:14:23,069 --> 01:14:29,399
+abordagens em cenários distintos né dá
+
+1784
+01:14:27,569 --> 01:14:32,549
+para reaproveitar algum tipo de pode
+
+1785
+01:14:29,399 --> 01:14:34,589
+fazer um copo em peixe aqui solução
+
+1786
+01:14:32,550 --> 01:14:38,520
+genérica de Cash em de aplicação esse
+
+1787
+01:14:34,590 --> 01:14:41,730
+alto nível é essencialmente né textura
+
+1788
+01:14:38,520 --> 01:14:43,560
+podcast tubecast Então os princípios são
+
+1789
+01:14:41,729 --> 01:14:45,389
+são os mesmos a gente vai estar
+
+1790
+01:14:43,560 --> 01:14:47,520
+colocando dado no local mais fácil de
+
+1791
+01:14:45,390 --> 01:14:48,929
+acessar e sempre a gente tem esse
+
+1792
+01:14:47,520 --> 01:14:52,020
+círculo Mas você tá na casa de vó
+
+1793
+01:14:48,929 --> 01:14:53,399
+codecast se não computa Takeshi no
+
+1794
+01:14:52,020 --> 01:14:56,040
+application-level caching Às vezes a
+
+1795
+01:14:53,399 --> 01:14:57,509
+gente pode até decidir admissão né que
+
+1796
+01:14:56,039 --> 01:14:59,130
+eu vou colocar na caixa não porque
+
+1797
+01:14:57,510 --> 01:15:01,289
+normalmente as outras abordagens são
+
+1798
+01:14:59,130 --> 01:15:04,469
+seus parentes ela sempre trazem parquete
+
+1799
+01:15:01,289 --> 01:15:06,149
+então essencialmente é similar a então
+
+1800
+01:15:04,469 --> 01:15:08,609
+tanto por exemplo no caso do das
+
+1801
+01:15:06,149 --> 01:15:11,219
+aplicações web como também nos
+
+1802
+01:15:08,609 --> 01:15:13,859
+smartphones só aqui no caso ali a
+
+1803
+01:15:11,219 --> 01:15:17,158
+motivação é diferente então nas
+
+1804
+01:15:13,859 --> 01:15:19,198
+aplicações web pelo menos que nas
+
+1805
+01:15:17,158 --> 01:15:20,409
+aplicações que a gente utilizou em todos
+
+1806
+01:15:19,198 --> 01:15:24,159
+os experimentos a
+
+1807
+01:15:20,409 --> 01:15:26,199
+e para evitar reputação ou evitar saídas
+
+1808
+01:15:24,159 --> 01:15:28,809
+ponteiras da aplicação então acessavam
+
+1809
+01:15:26,199 --> 01:15:32,319
+de dados ou fazer uma chamada remota né
+
+1810
+01:15:28,810 --> 01:15:34,450
+então é ganhar tempo justamente e luz no
+
+1811
+01:15:32,319 --> 01:15:36,279
+caso dos smartphones É isso aí foi um
+
+1812
+01:15:34,449 --> 01:15:38,409
+projeto que não servir cooperação com a
+
+1813
+01:15:36,279 --> 01:15:43,029
+Universidade de grenoble que eles tinham
+
+1814
+01:15:38,409 --> 01:15:45,159
+um sistema chamado ai casa que é de que
+
+1815
+01:15:43,029 --> 01:15:49,539
+o negocinho né dentro de uma casa
+
+1816
+01:15:45,159 --> 01:15:51,369
+inteligente é ali era não somente evitar
+
+1817
+01:15:49,539 --> 01:15:54,279
+essa latência de comunicação quando a
+
+1818
+01:15:51,369 --> 01:15:56,920
+gente tem comunicação remota como também
+
+1819
+01:15:54,279 --> 01:15:58,750
+evitar gasto de energia resiliência
+
+1820
+01:15:56,920 --> 01:16:01,630
+então às vezes se eu vou estar
+
+1821
+01:15:58,750 --> 01:16:03,369
+consultando dados de um sensores junto a
+
+1822
+01:16:01,630 --> 01:16:06,400
+sua muito frequentemente eu tô gastando
+
+1823
+01:16:03,369 --> 01:16:08,079
+energia e também se existe alguma falha
+
+1824
+01:16:06,399 --> 01:16:10,269
+de comunicação se eu tenho algum
+
+1825
+01:16:08,079 --> 01:16:12,609
+elemento na creche às vezes eu posso
+
+1826
+01:16:10,270 --> 01:16:14,950
+utilizar ele né sabendo que ele pode
+
+1827
+01:16:12,609 --> 01:16:17,199
+estar um pouco desatualizado então a
+
+1828
+01:16:14,949 --> 01:16:20,170
+motivação é um pouco diferente então eu
+
+1829
+01:16:17,199 --> 01:16:20,389
+não falei é tudo cash né mas o porque eu
+
+1830
+01:16:20,170 --> 01:16:22,489
+tô
+
+1831
+01:16:20,389 --> 01:16:24,319
+e tem diferentes motivos até tá gente
+
+1832
+01:16:22,488 --> 01:16:27,018
+for falar com pessoal de arquitetura de
+
+1833
+01:16:24,319 --> 01:16:29,208
+computadores até eu falei da República
+
+1834
+01:16:27,019 --> 01:16:32,119
+São as vezes o termo de que é usado para
+
+1835
+01:16:29,208 --> 01:16:33,288
+recuperação é mesmo existe até a outra
+
+1836
+01:16:32,118 --> 01:16:35,208
+abordagem que eu comentei que era
+
+1837
+01:16:33,288 --> 01:16:38,478
+memórias e tirei vem justamente do
+
+1838
+01:16:35,208 --> 01:16:40,219
+memoization que é evitaria computação
+
+1839
+01:16:38,479 --> 01:16:42,079
+enquanto que Cash Nessa altura de
+
+1840
+01:16:40,219 --> 01:16:44,779
+computadores é mais o que a gente a
+
+1841
+01:16:42,078 --> 01:16:48,349
+gente conhece né do componente ele que
+
+1842
+01:16:44,779 --> 01:16:50,630
+vai ter de Cash e assim com relação à a
+
+1843
+01:16:48,349 --> 01:16:52,969
+implementação disso tudo depende como
+
+1844
+01:16:50,630 --> 01:16:54,889
+qat foi implementado como eu falei a
+
+1845
+01:16:52,969 --> 01:16:56,748
+gente tem várias alternativas eu posso
+
+1846
+01:16:54,889 --> 01:16:59,269
+colocar uma variável estática eu posso
+
+1847
+01:16:56,748 --> 01:17:02,448
+colocar o resto map então normalmente o
+
+1848
+01:16:59,269 --> 01:17:04,248
+que a gente usa mais é são ou as
+
+1849
+01:17:02,448 --> 01:17:07,069
+ferramentas prontas com os componentes
+
+1850
+01:17:04,248 --> 01:17:08,538
+né De Cash então se eu implementei um
+
+1851
+01:17:07,069 --> 01:17:11,029
+componente cast na mão eu posso
+
+1852
+01:17:08,538 --> 01:17:15,800
+reutilizar ele ou essas abordagens como
+
+1853
+01:17:11,029 --> 01:17:18,139
+falei a cafeína ou redes redes então é a
+
+1854
+01:17:15,800 --> 01:17:20,400
+gente pode utilizar eles e tem essas
+
+1855
+01:17:18,139 --> 01:17:23,340
+abordagens que eu falei que seja questão
+
+1856
+01:17:20,399 --> 01:17:26,009
+a reportagens foram publicadas né
+
+1857
+01:17:23,340 --> 01:17:27,929
+voltagens acadêmicas algumas tem a sua
+
+1858
+01:17:26,010 --> 01:17:30,600
+implementação disponível e daí às vezes
+
+1859
+01:17:27,929 --> 01:17:32,710
+a gente pode usar uma notação alguma
+
+1860
+01:17:30,600 --> 01:17:35,869
+coisa na farinha on
+
+1861
+01:17:32,710 --> 01:17:35,868
+[Música]
+
+1862
+01:17:36,880 --> 01:17:56,260
+De nada minha está caminhando para o
+
+1863
+01:17:53,679 --> 01:17:59,469
+final do episódio acho que hoje eu dormi
+
+1864
+01:17:56,260 --> 01:18:02,710
+bastante sobre Cash e depois de maneira
+
+1865
+01:17:59,469 --> 01:18:04,630
+geral e antes de encerrar eu queria só
+
+1866
+01:18:02,710 --> 01:18:07,810
+saber se você tem alguma recomendação
+
+1867
+01:18:04,630 --> 01:18:10,239
+para os nossos ouvidos seja material de
+
+1868
+01:18:07,810 --> 01:18:11,739
+leitura você citou vários artigos
+
+1869
+01:18:10,238 --> 01:18:14,829
+interessantes que a gente vai brincar
+
+1870
+01:18:11,738 --> 01:18:16,869
+com o episódio mas você tem umbigo ao
+
+1871
+01:18:14,829 --> 01:18:19,600
+outro Episódio podcast você queria
+
+1872
+01:18:16,869 --> 01:18:21,849
+compartilhar com 20 em cima disciplinas
+
+1873
+01:18:19,600 --> 01:18:24,760
+de engenharia de software no Na
+
+1874
+01:18:21,850 --> 01:18:27,520
+graduação e uma grande dificuldade que a
+
+1875
+01:18:24,760 --> 01:18:29,380
+gente tem né Como os alunos ainda
+
+1876
+01:18:27,520 --> 01:18:31,330
+normalmente não têm experiências com
+
+1877
+01:18:29,380 --> 01:18:34,869
+sistemas muito grandes Eles não
+
+1878
+01:18:31,329 --> 01:18:36,859
+conseguem enxergar muito o benefício da
+
+1879
+01:18:34,869 --> 01:18:39,229
+gente está falando de Arquitetura do
+
+1880
+01:18:36,859 --> 01:18:42,079
+a organização do princípio de separação
+
+1881
+01:18:39,229 --> 01:18:44,479
+de interesses e um grande desafio que a
+
+1882
+01:18:42,079 --> 01:18:46,550
+gente tem hoje em dia é que existem
+
+1883
+01:18:44,479 --> 01:18:48,109
+muitas tecnologias que a gente tem que
+
+1884
+01:18:46,550 --> 01:18:51,260
+aprender se a gente for trabalhar na
+
+1885
+01:18:48,109 --> 01:18:53,179
+indústria né então tem muitos prêmios e
+
+1886
+01:18:51,260 --> 01:18:56,449
+todas ela hora estão surgindo novos
+
+1887
+01:18:53,179 --> 01:18:59,210
+freios novas bibliotecas e acha que
+
+1888
+01:18:56,448 --> 01:19:01,189
+também todo mundo assim fica feliz
+
+1889
+01:18:59,210 --> 01:19:04,039
+quando a gente faz um projeto na rede
+
+1890
+01:19:01,189 --> 01:19:05,809
+Hub e ele se torna bastante Popular com
+
+1891
+01:19:04,039 --> 01:19:08,359
+bastante forte Então as pessoas têm
+
+1892
+01:19:05,810 --> 01:19:11,690
+motivação de Inovar e trazer novas
+
+1893
+01:19:08,359 --> 01:19:12,889
+tecnologias só que o que acontece né que
+
+1894
+01:19:11,689 --> 01:19:15,460
+a gente tem que aprender tudo isso
+
+1895
+01:19:12,889 --> 01:19:20,118
+existe uma pressão constante para o
+
+1896
+01:19:15,460 --> 01:19:23,719
+aprendizado Então é assim o a minha
+
+1897
+01:19:20,118 --> 01:19:25,069
+indicação né é OK tecnologias é
+
+1898
+01:19:23,719 --> 01:19:27,230
+importante porque a gente vai utilizar
+
+1899
+01:19:25,069 --> 01:19:30,289
+elas a gente não quer Reinventar a roda
+
+1900
+01:19:27,229 --> 01:19:31,939
+mas por favor não negligencie esses
+
+1901
+01:19:30,289 --> 01:19:34,698
+princípios básicos de engenharia de
+
+1902
+01:19:31,939 --> 01:19:36,869
+software a gente pegar artigos da década
+
+1903
+01:19:34,698 --> 01:19:40,049
+de 70 do Davi Paris
+
+1904
+01:19:36,869 --> 01:19:42,149
+e sobre o modo legislação a gente lê e a
+
+1905
+01:19:40,050 --> 01:19:45,360
+gente vê que os problemas ainda existem
+
+1906
+01:19:42,149 --> 01:19:47,639
+nessa questão de baixo acoplamento e
+
+1907
+01:19:45,359 --> 01:19:51,119
+alta coesão tem um projeto que eu tô
+
+1908
+01:19:47,640 --> 01:19:53,520
+fazendo atualmente não tem a ver com que
+
+1909
+01:19:51,119 --> 01:19:55,409
+a gente tá falando aqui sobre a sua loja
+
+1910
+01:19:53,520 --> 01:19:58,770
+e a gente está analisando vários
+
+1911
+01:19:55,409 --> 01:20:01,819
+sistemas É incrível como sistemas tem um
+
+1912
+01:19:58,770 --> 01:20:04,740
+abismo e se ela dentro da parte de viu
+
+1913
+01:20:01,819 --> 01:20:08,849
+método gigantescos porque as coisas não
+
+1914
+01:20:04,739 --> 01:20:12,479
+crescendo e a evolução acaba ficando
+
+1915
+01:20:08,850 --> 01:20:14,280
+desorganizado na minha visão né se a
+
+1916
+01:20:12,479 --> 01:20:18,569
+gente cansar nós que somos profissionais
+
+1917
+01:20:14,279 --> 01:20:20,819
+de só é nossa obrigação fazer o que a
+
+1918
+01:20:18,569 --> 01:20:22,380
+gente passa com qualidade né então se a
+
+1919
+01:20:20,819 --> 01:20:24,449
+gente pensa em qualquer profissão que
+
+1920
+01:20:22,380 --> 01:20:26,340
+existe quando eu vou por exemplo no
+
+1921
+01:20:24,449 --> 01:20:27,750
+médico não chega no médico de igual meu
+
+1922
+01:20:26,340 --> 01:20:29,699
+anjo por favor faz o teu trabalho
+
+1923
+01:20:27,750 --> 01:20:31,920
+Direito da melhor usando as melhores
+
+1924
+01:20:29,699 --> 01:20:35,279
+práticas a gente não fala isso gente já
+
+1925
+01:20:31,920 --> 01:20:36,880
+espera isso é seu contrato uma que tem
+
+1926
+01:20:35,279 --> 01:20:39,130
+também um
+
+1927
+01:20:36,880 --> 01:20:41,260
+a nossa como engenheiro de toca a gente
+
+1928
+01:20:39,130 --> 01:20:44,020
+tem essa responsabilidade de estar
+
+1929
+01:20:41,260 --> 01:20:45,310
+fazendo um sistema com qualidade né eu
+
+1930
+01:20:44,020 --> 01:20:47,889
+entendo que hoje em dia a gente tem
+
+1931
+01:20:45,310 --> 01:20:51,699
+bastante pressão né os requisitos estão
+
+1932
+01:20:47,889 --> 01:20:55,119
+constantemente mudando né Mas se a gente
+
+1933
+01:20:51,698 --> 01:20:56,710
+não fizesse esforço né acaba aqui nós
+
+1934
+01:20:55,119 --> 01:20:59,260
+desenvolvedores de software que tem que
+
+1935
+01:20:56,710 --> 01:21:02,460
+que vamos estar apagando fogo no futuro
+
+1936
+01:20:59,260 --> 01:21:07,090
+então a senha amiga e grande indicação é
+
+1937
+01:21:02,460 --> 01:21:09,460
+olha os livros A e até mesmo de tem
+
+1938
+01:21:07,090 --> 01:21:12,369
+vários vídeos no YouTube falando sobre
+
+1939
+01:21:09,460 --> 01:21:14,350
+princípios mais básicos de engenharia de
+
+1940
+01:21:12,369 --> 01:21:18,939
+software e eu digo olha eles são
+
+1941
+01:21:14,350 --> 01:21:21,280
+importantíssimos e eles né eles são eles
+
+1942
+01:21:18,939 --> 01:21:23,169
+não tem data de expiração é como eu
+
+1943
+01:21:21,279 --> 01:21:25,988
+falei isso os ativos o dedo para nos
+
+1944
+01:21:23,170 --> 01:21:29,920
+década de 70 né eles fazem todo sentido
+
+1945
+01:21:25,988 --> 01:21:31,569
+hoje em dia e podem ser aplicados a no
+
+1946
+01:21:29,920 --> 01:21:37,350
+nosso dia a dia para a gente ter menos
+
+1947
+01:21:31,569 --> 01:21:37,349
+dor de cabeça ao evoluir o sistema é
+
+1948
+01:21:38,420 --> 01:21:48,569
+[Música]
+
+1949
+01:21:40,439 --> 01:21:51,719
+o trabalho com muitas formas vamos dar o
+
+1950
+01:21:48,569 --> 01:21:53,698
+Safety oficial para você qual é a
+
+1951
+01:21:51,719 --> 01:21:56,310
+próxima seu tira da engenharia de
+
+1952
+01:21:53,698 --> 01:22:00,389
+software Então essa é uma pergunta
+
+1953
+01:21:56,310 --> 01:22:02,340
+difícil né até assim gente pensar né
+
+1954
+01:22:00,390 --> 01:22:05,730
+interessante ver o podcast no futuro
+
+1955
+01:22:02,340 --> 01:22:09,119
+para ver para ver como como as coisas
+
+1956
+01:22:05,729 --> 01:22:11,939
+evoluir Mas na minha visão é o seguinte
+
+1957
+01:22:09,119 --> 01:22:14,729
+hoje a gente vê né eu acabei de comentar
+
+1958
+01:22:11,939 --> 01:22:16,710
+das tecnologias né a gente tem cada vez
+
+1959
+01:22:14,729 --> 01:22:20,549
+não é só a tecnologia e conhecimento
+
+1960
+01:22:16,710 --> 01:22:23,609
+especializado agora com esse bule Mach
+
+1961
+01:22:20,550 --> 01:22:26,430
+Lane né assim não é só aprender
+
+1962
+01:22:23,609 --> 01:22:32,279
+tecnologia a gente lá para atender pensa
+
+1963
+01:22:26,430 --> 01:22:35,039
+folk eras e usar cueca site plano não é
+
+1964
+01:22:32,279 --> 01:22:36,840
+só isso não é chamar uma a gente saber o
+
+1965
+01:22:35,039 --> 01:22:39,600
+que que tá acontecendo porque se a gente
+
+1966
+01:22:36,840 --> 01:22:40,449
+tá chamando às vezes algum algoritmo a
+
+1967
+01:22:39,600 --> 01:22:43,120
+gente tem que
+
+1968
+01:22:40,449 --> 01:22:45,069
+e tem que utilizar o zíper parâmetros
+
+1969
+01:22:43,119 --> 01:22:49,349
+saber como é que aquilo funciona nessa
+
+1970
+01:22:45,069 --> 01:22:54,130
+saber também interpretar aqueles dados
+
+1971
+01:22:49,350 --> 01:22:55,900
+então é um conhecimento especializado e
+
+1972
+01:22:54,130 --> 01:22:58,300
+não só isso a gente acabou de falar the
+
+1973
+01:22:55,899 --> 01:23:00,639
+application my soul Casting performa é
+
+1974
+01:22:58,300 --> 01:23:02,920
+algo também que também cada vez mais a
+
+1975
+01:23:00,640 --> 01:23:07,289
+gente tem que levar em consideração tem
+
+1976
+01:23:02,920 --> 01:23:10,980
+uma palestra muito boa que eu vi que o
+
+1977
+01:23:07,289 --> 01:23:14,859
+inversor de obra só que ter forma
+
+1978
+01:23:10,979 --> 01:23:18,609
+justamente trazendo essa informação de
+
+1979
+01:23:14,859 --> 01:23:20,679
+que a gente a lei de muro né que é
+
+1980
+01:23:18,609 --> 01:23:22,179
+aquela de que o processamento de
+
+1981
+01:23:20,680 --> 01:23:25,180
+computadores vai crescer
+
+1982
+01:23:22,180 --> 01:23:29,740
+exponencialmente a cada a cada dois anos
+
+1983
+01:23:25,180 --> 01:23:32,500
+né que o custo vai diminuir não assim
+
+1984
+01:23:29,739 --> 01:23:36,849
+morreu né É porque a gente não consegue
+
+1985
+01:23:32,500 --> 01:23:39,520
+mais colocar mais nos no mesmo espaço ou
+
+1986
+01:23:36,850 --> 01:23:40,460
+seja melhorar a capacidade do sistema o
+
+1987
+01:23:39,520 --> 01:23:43,100
+engenheiro sofre
+
+1988
+01:23:40,460 --> 01:23:45,050
+é muito acostumada né Que tipo de Fora
+
+1989
+01:23:43,100 --> 01:23:47,150
+isso não é o tão importante que bota
+
+1990
+01:23:45,050 --> 01:23:50,090
+mais na memória bota mais processador né
+
+1991
+01:23:47,149 --> 01:23:53,238
+E as coisas Escalão mas a gente está
+
+1992
+01:23:50,090 --> 01:23:55,699
+chegando no limite e também né hoje em
+
+1993
+01:23:53,238 --> 01:23:57,679
+dia como muito Muitas aplicações estão
+
+1994
+01:23:55,699 --> 01:23:59,960
+rodando na nuvem a gente tem a questão
+
+1995
+01:23:57,680 --> 01:24:02,090
+do custo também né então questão de
+
+1996
+01:23:59,960 --> 01:24:04,430
+custo de estar pagando para aquelas
+
+1997
+01:24:02,090 --> 01:24:06,619
+aplicações estarem lá na nuvem então
+
+1998
+01:24:04,430 --> 01:24:09,670
+performance importante as questões de
+
+1999
+01:24:06,619 --> 01:24:12,529
+Mach Lane é importante são importantes
+
+2000
+01:24:09,670 --> 01:24:15,140
+segurança também principalmente cada vez
+
+2001
+01:24:12,529 --> 01:24:17,179
+mais os sistemas formais de híbridos com
+
+2002
+01:24:15,140 --> 01:24:21,320
+internet das coisas por aí né então
+
+2003
+01:24:17,180 --> 01:24:23,450
+assim a internet das coisas e a gente
+
+2004
+01:24:21,319 --> 01:24:26,210
+não colocar segurança a gente pode ter
+
+2005
+01:24:23,449 --> 01:24:29,750
+ataque do dose né demais você que botou
+
+2006
+01:24:26,210 --> 01:24:32,480
+a service né Podem ser facilmente feito
+
+2007
+01:24:29,750 --> 01:24:35,000
+né a gente pega 500 meu câmeras por aí e
+
+2008
+01:24:32,479 --> 01:24:36,109
+invadir elas e faz ataque de voz então a
+
+2009
+01:24:35,000 --> 01:24:38,930
+gente tem muito conhecimento
+
+2010
+01:24:36,109 --> 01:24:40,439
+especializado hoje em dia tá tudo sendo
+
+2011
+01:24:38,930 --> 01:24:43,230
+colocado na muito
+
+2012
+01:24:40,439 --> 01:24:47,099
+e nas costas do engenheiro de software
+
+2013
+01:24:43,229 --> 01:24:49,379
+geral né e tá todo mundo muito cansada
+
+2014
+01:24:47,100 --> 01:24:52,560
+porque tem que aprender isso tudo para
+
+2015
+01:24:49,380 --> 01:24:55,230
+ontem né e todas as tecnologias eu não
+
+2016
+01:24:52,560 --> 01:24:57,449
+sei se no futuro a gente o que a gente
+
+2017
+01:24:55,229 --> 01:24:59,429
+vai ter é um desmembramento disso com
+
+2018
+01:24:57,448 --> 01:25:01,289
+diferentes cursos né antigamente a gente
+
+2019
+01:24:59,430 --> 01:25:02,909
+só tinha Ciência da Computação vem
+
+2020
+01:25:01,289 --> 01:25:04,469
+engenharia da computação agora a gente
+
+2021
+01:25:02,909 --> 01:25:06,630
+tem curso de engenharia de software
+
+2022
+01:25:04,469 --> 01:25:08,430
+agora tem umas universidades fazendo
+
+2023
+01:25:06,630 --> 01:25:11,130
+curso de ar né de Inteligência
+
+2024
+01:25:08,430 --> 01:25:14,550
+Artificial são Quem sabe a gente não vai
+
+2025
+01:25:11,130 --> 01:25:16,260
+ter né a justamente um desmembramento
+
+2026
+01:25:14,550 --> 01:25:18,779
+porque a gente vai ter esses
+
+2027
+01:25:16,260 --> 01:25:20,969
+conhecimentos especializados Só que quem
+
+2028
+01:25:18,779 --> 01:25:23,399
+é que liga isso tudo tem um liga isso
+
+2029
+01:25:20,969 --> 01:25:25,439
+tudo é o engenheiro de software Então a
+
+2030
+01:25:23,399 --> 01:25:28,259
+gente tem que ter uma visão Global né
+
+2031
+01:25:25,439 --> 01:25:31,019
+então a gente tem que ter a dificuldade
+
+2032
+01:25:28,260 --> 01:25:33,030
+a entender a dificuldade desses
+
+2033
+01:25:31,020 --> 01:25:34,890
+diferentes contextos e saber como o
+
+2034
+01:25:33,029 --> 01:25:37,948
+retrato do isso E permitir que as
+
+2035
+01:25:34,890 --> 01:25:39,390
+pessoas se conversam né Então para mim a
+
+2036
+01:25:37,948 --> 01:25:40,448
+grande fronteira da engenharia de
+
+2037
+01:25:39,390 --> 01:25:42,789
+software justamente
+
+2038
+01:25:40,448 --> 01:25:45,998
+o olhar para esse mundo complexo para
+
+2039
+01:25:42,788 --> 01:25:47,948
+gente estar tendo hoje aí pensar como a
+
+2040
+01:25:45,998 --> 01:25:50,920
+gente vai construir sistemas com alta
+
+2041
+01:25:47,948 --> 01:25:53,859
+qualidade não só com modularização pode
+
+2042
+01:25:50,920 --> 01:25:55,658
+qualidade Nós também books é intenção do
+
+2043
+01:25:53,859 --> 01:25:57,759
+que esses temas que a gente está fazendo
+
+2044
+01:25:55,658 --> 01:25:59,920
+hoje em dia né a gente tem muitas
+
+2045
+01:25:57,760 --> 01:26:01,989
+tecnologias isso aí vai ser sistema
+
+2046
+01:25:59,920 --> 01:26:03,819
+legado no futuro hoje em dia um
+
+2047
+01:26:01,988 --> 01:26:05,859
+desenvolvedor cobol ganha muito dinheiro
+
+2048
+01:26:03,819 --> 01:26:08,670
+porque a gente não tem desenvolvedores
+
+2049
+01:26:05,859 --> 01:26:11,738
+cobol agora hoje a gente tem muito mais
+
+2050
+01:26:08,670 --> 01:26:13,748
+tecnologias que daqui toda daqui no
+
+2051
+01:26:11,738 --> 01:26:15,399
+tempo todas elas vão ser legados EA
+
+2052
+01:26:13,748 --> 01:26:18,429
+gente vai ter que saber elas e mais nos
+
+2053
+01:26:15,399 --> 01:26:20,348
+do futuro então é tudo muito desafio
+
+2054
+01:26:18,429 --> 01:26:22,569
+então o engenheiro de software eu vejo
+
+2055
+01:26:20,349 --> 01:26:24,639
+que vai Talvez né a grande Fronteira
+
+2056
+01:26:22,569 --> 01:26:26,768
+conseguiu olhar para todos saber como
+
+2057
+01:26:24,639 --> 01:26:28,659
+isso vai ou testar e a engenharia de
+
+2058
+01:26:26,769 --> 01:26:30,579
+software Ela não é uma área que
+
+2059
+01:26:28,658 --> 01:26:32,828
+totalmente raro né a gente falou
+
+2060
+01:26:30,578 --> 01:26:34,719
+bastante de colhe essas coisas gerente
+
+2061
+01:26:32,828 --> 01:26:36,488
+sobra também tem o seu lado só fiz né
+
+2062
+01:26:34,719 --> 01:26:38,529
+então a gente fala por exemplo disso
+
+2063
+01:26:36,488 --> 01:26:40,459
+fatores humanos também questões de
+
+2064
+01:26:38,529 --> 01:26:43,250
+liderança com a questão
+
+2065
+01:26:40,460 --> 01:26:45,380
+e da equipe né a parte gerenciamento de
+
+2066
+01:26:43,250 --> 01:26:47,390
+projetos faz parte do engenheiro sofre
+
+2067
+01:26:45,380 --> 01:26:49,460
+Então se a gente vai ter equipes com
+
+2068
+01:26:47,390 --> 01:26:51,829
+conhecimentos especializados segurança
+
+2069
+01:26:49,460 --> 01:26:53,659
+performance Mach Lane só os envolvidos
+
+2070
+01:26:51,829 --> 01:26:55,488
+no domínio os engenheiros de software
+
+2071
+01:26:53,659 --> 01:26:57,380
+tem que ser responsável por emitir todo
+
+2072
+01:26:55,488 --> 01:26:59,149
+mundo que converse né gente vai ter
+
+2073
+01:26:57,380 --> 01:27:00,949
+levantamento de requisitos precisa
+
+2074
+01:26:59,149 --> 01:27:03,139
+pensar né que todo mundo tá falando a
+
+2075
+01:27:00,949 --> 01:27:04,849
+mesma língua então para mim o grande
+
+2076
+01:27:03,140 --> 01:27:07,489
+Fronteira de engenheiro de software é
+
+2077
+01:27:04,850 --> 01:27:09,800
+conseguir saber a distrair e saber
+
+2078
+01:27:07,488 --> 01:27:11,869
+orquestrar o sistema como um todo e
+
+2079
+01:27:09,800 --> 01:27:15,079
+gerenciais exercícios com conhecimentos
+
+2080
+01:27:11,869 --> 01:27:17,238
+especializados e talvez direcionar né
+
+2081
+01:27:15,079 --> 01:27:19,930
+justamente essa essa noção de que a
+
+2082
+01:27:17,238 --> 01:27:22,459
+gente precisa equipes com diferença
+
+2083
+01:27:19,930 --> 01:27:25,700
+conhecimentos para atacar os diferentes
+
+2084
+01:27:22,460 --> 01:27:28,069
+consoles nos projetos são muito obrigado
+
+2085
+01:27:25,699 --> 01:27:30,139
+em nome é querido toda a equipe do
+
+2086
+01:27:28,069 --> 01:27:32,809
+próprio hidrogênio só foi um prazer
+
+2087
+01:27:30,140 --> 01:27:34,880
+conversar com você e um grande abraço
+
+2088
+01:27:32,810 --> 01:27:37,940
+entre si se o Gustavo quer falar alguma
+
+2089
+01:27:34,880 --> 01:27:40,440
+coisa para finalizar também agradecer só
+
+2090
+01:27:37,939 --> 01:27:42,448
+novamente ainda esse povo não
+
+2091
+01:27:40,439 --> 01:27:44,219
+e essa experiência conhecimento sobre
+
+2092
+01:27:42,448 --> 01:27:46,889
+arquitetura em baixo vou subir Casting
+
+2093
+01:27:44,219 --> 01:27:50,609
+acho que o Episódio Super Interessante E
+
+2094
+01:27:46,890 --> 01:27:53,070
+aí eu agradeço novamente e a gente se
+
+2095
+01:27:50,609 --> 01:27:54,809
+encontra em algum outro oficial de duas
+
+2096
+01:27:53,069 --> 01:27:56,939
+ponteiras da engenharia de software
+
+2097
+01:27:54,810 --> 01:27:59,580
+Muito obrigado assim agradeço novamente
+
+2098
+01:27:56,939 --> 01:28:03,059
+o convite e quem que tiver interesse né
+
+2099
+01:27:59,579 --> 01:28:05,340
+discutiu uma coisa né pode procurar no
+
+2100
+01:28:03,060 --> 01:28:06,480
+Google me mandar um e-mail às vezes eu
+
+2101
+01:28:05,340 --> 01:28:10,130
+posso demorar um pouco para responder
+
+2102
+01:28:06,479 --> 01:28:13,619
+mas você me responde tá valeu Aí
+
+2103
+01:28:10,130 --> 01:28:15,750
+obrigado para toda a equipe né E vocês
+
+2104
+01:28:13,619 --> 01:28:19,099
+tão de parabéns por todo o trabalho que
+
+2105
+01:28:15,750 --> 01:28:29,600
+tem feito obrigado obrigado Ingrid Valeu
+
+2106
+01:28:19,100 --> 01:28:29,600
+[Música]
+
+2107
+01:28:29,960 --> 01:28:51,989
+o
+
+2108
+01:28:32,069 --> 01:28:54,659
+o Olá obrigado por escutar o Fronteiras
+
+2109
+01:28:51,989 --> 01:28:57,449
+da engenharia de software os equipe é
+
+2110
+01:28:54,659 --> 01:29:00,779
+formada por Marcelo dos Santos Leonardo
+
+2111
+01:28:57,449 --> 01:29:03,899
+Fernandes Gustavo Pinto Fábio petrillo
+
+2112
+01:29:00,779 --> 01:29:07,069
+Danilo Monteiro e Adolfo Neto sou eu
+
+2113
+01:29:03,899 --> 01:29:11,250
+estamos no Twitter e no Instagram como
+
+2114
+01:29:07,069 --> 01:29:15,229
+arroba fronteiras e até o próximo
+
+2115
+01:29:11,250 --> 01:29:15,229
+episódio a dar um
+
+2116
+01:29:17,100 --> 01:29:25,579
+E aí
+
+2117
+01:29:20,520 --> 01:29:25,579
+[Música]

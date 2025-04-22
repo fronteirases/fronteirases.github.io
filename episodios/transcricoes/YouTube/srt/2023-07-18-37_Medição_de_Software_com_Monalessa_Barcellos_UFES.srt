@@ -1,0 +1,6763 @@
+1
+00:00:00,719 --> 00:00:06,000
+Olá pessoal eu sou Adolfo Neto professor
+
+2
+00:00:03,540 --> 00:00:07,820
+da UFPR Curitiba e do programa de
+
+3
+00:00:06,000 --> 00:00:10,500
+pós-graduação em computação aplicada
+
+4
+00:00:07,820 --> 00:00:12,960
+ppgca Estou aqui com a cor host
+
+5
+00:00:10,500 --> 00:00:15,539
+fronteiras Maria Claudia Emer também da
+
+6
+00:00:12,960 --> 00:00:17,519
+UFPR Curitiba e do ppgca Tudo bem Maria
+
+7
+00:00:15,539 --> 00:00:20,939
+Cláudia
+
+8
+00:00:17,519 --> 00:00:22,739
+tudo bem já aqui preparada para mais uma
+
+9
+00:00:20,939 --> 00:00:24,179
+conversa sobre um tema importante da
+
+10
+00:00:22,739 --> 00:00:25,500
+engenharia de software com a nossa
+
+11
+00:00:24,179 --> 00:00:27,960
+convidada
+
+12
+00:00:25,500 --> 00:00:30,240
+certo hoje Vamos entrevistar a monalista
+
+13
+00:00:27,960 --> 00:00:31,980
+Barcelos Ela é professora do
+
+14
+00:00:30,239 --> 00:00:34,039
+departamento de informática da
+
+15
+00:00:31,980 --> 00:00:36,719
+Universidade Federal do Espírito Santo
+
+16
+00:00:34,039 --> 00:00:39,299
+UFES onde atua no programa de
+
+17
+00:00:36,719 --> 00:00:41,100
+pós-graduação informática ppgi que
+
+18
+00:00:39,299 --> 00:00:44,159
+possui mestrado e doutorado em
+
+19
+00:00:41,100 --> 00:00:46,439
+computação é membros Senhor do Núcleo de
+
+20
+00:00:44,159 --> 00:00:49,439
+Estudos em modelagem conceitual e
+
+21
+00:00:46,439 --> 00:00:51,959
+ontologias Nemo qual coordenadora do
+
+22
+00:00:49,439 --> 00:00:55,159
+laboratório de práticas de engenharia de
+
+23
+00:00:51,960 --> 00:00:57,600
+software Ricardo Almeida Falcon Labs
+
+24
+00:00:55,159 --> 00:01:00,058
+Monalisa é uma das autoras do livro
+
+25
+00:00:57,600 --> 00:01:02,219
+medição de software e controle
+
+26
+00:01:00,058 --> 00:01:04,679
+estatístico de processos por sinal tema
+
+27
+00:01:02,219 --> 00:01:06,719
+da entrevista de hoje tema principal vai
+
+28
+00:01:04,680 --> 00:01:08,520
+ser medição de software tudo bem
+
+29
+00:01:06,719 --> 00:01:11,099
+Monalisa Você tem algo complementar
+
+30
+00:01:08,519 --> 00:01:14,699
+nessa sua apresentação
+
+31
+00:01:11,099 --> 00:01:17,219
+ele Adolfo tudo bom Olá Maria Cláudia o
+
+32
+00:01:14,700 --> 00:01:19,439
+primeiro eu quero agradecer a o convite
+
+33
+00:01:17,219 --> 00:01:21,478
+e dizer que é uma satisfação imensa tá
+
+34
+00:01:19,438 --> 00:01:24,239
+aqui com vocês que eu sou fã do
+
+35
+00:01:21,478 --> 00:01:25,280
+fronteiras E admiro muito trabalho de
+
+36
+00:01:24,239 --> 00:01:27,500
+vocês
+
+37
+00:01:25,280 --> 00:01:29,700
+em relação a
+
+38
+00:01:27,500 --> 00:01:32,340
+apresentação você fez a apresentação bem
+
+39
+00:01:29,700 --> 00:01:35,759
+completinha eu só vou acrescentar uma
+
+40
+00:01:32,340 --> 00:01:37,740
+coisinha que eu me identifico muito como
+
+41
+00:01:35,759 --> 00:01:40,739
+uma apaixonada por engenharia de
+
+42
+00:01:37,739 --> 00:01:43,679
+software é meio Óbvio eu estou aqui com
+
+43
+00:01:40,739 --> 00:01:45,478
+vocês exatamente por causa desse desse
+
+44
+00:01:43,680 --> 00:01:47,759
+tema tão importante mas eu realmente eu
+
+45
+00:01:45,478 --> 00:01:50,519
+sou uma apaixonada pela engenharia de
+
+46
+00:01:47,759 --> 00:01:53,399
+software eu acho que a gente tem o
+
+47
+00:01:50,519 --> 00:01:55,078
+privilégio de trabalhar numa área em que
+
+48
+00:01:53,399 --> 00:01:57,180
+a gente olha para o desenvolvimento de
+
+49
+00:01:55,078 --> 00:02:00,019
+software de uma forma muito completa
+
+50
+00:01:57,180 --> 00:02:03,420
+muito lixo Então a gente consegue
+
+51
+00:02:00,019 --> 00:02:06,118
+refletir sobre toda a complexidade que
+
+52
+00:02:03,420 --> 00:02:07,978
+desenvolver software envolve né então a
+
+53
+00:02:06,118 --> 00:02:09,899
+gente se preocupa não só com os aspectos
+
+54
+00:02:07,978 --> 00:02:11,818
+técnicos mas com todos os outros
+
+55
+00:02:09,899 --> 00:02:13,439
+aspectos que permeiam o desenvolvimento
+
+56
+00:02:11,818 --> 00:02:15,598
+de software como aspectos sociais
+
+57
+00:02:13,439 --> 00:02:18,000
+aspectos Morais até aspectos éticos
+
+58
+00:02:15,598 --> 00:02:20,039
+aspectos organizacionais então eu
+
+59
+00:02:18,000 --> 00:02:22,080
+realmente eu sou uma pessoa fascinada
+
+60
+00:02:20,039 --> 00:02:25,199
+pela engenharia Então eu acrescentaria
+
+61
+00:02:22,080 --> 00:02:27,780
+só isso na sua apresentação
+
+62
+00:02:25,199 --> 00:02:29,878
+muito legal então hoje a gente vai falar
+
+63
+00:02:27,780 --> 00:02:32,419
+como eu já disse sobre medição de
+
+64
+00:02:29,878 --> 00:02:34,859
+software e
+
+65
+00:02:32,419 --> 00:02:36,839
+vou fazer uma pergunta que eu sei que é
+
+66
+00:02:34,860 --> 00:02:39,480
+difícil porque provavelmente você
+
+67
+00:02:36,840 --> 00:02:41,340
+falaria horas e horas mas a gente tem um
+
+68
+00:02:39,479 --> 00:02:43,259
+tempo limitado O que é medição de
+
+69
+00:02:41,340 --> 00:02:46,080
+software
+
+70
+00:02:43,259 --> 00:02:48,000
+bom eu na verdade eu tava esperando né
+
+71
+00:02:46,080 --> 00:02:49,620
+Essa essa pergunta que eu até imaginei
+
+72
+00:02:48,000 --> 00:02:51,300
+falei olha a gente vai começar a falar
+
+73
+00:02:49,620 --> 00:02:52,200
+sobre meditação software então tem gente
+
+74
+00:02:51,300 --> 00:02:55,260
+provavelmente vai começar
+
+75
+00:02:52,199 --> 00:02:58,139
+contextualizando e falando sobre o que
+
+76
+00:02:55,259 --> 00:02:59,878
+que é isso E como você mesmo falou é um
+
+77
+00:02:58,139 --> 00:03:01,859
+tema que eu poderia falar horas e horas
+
+78
+00:02:59,878 --> 00:03:03,659
+e horas eu e qualquer outra pessoa que
+
+79
+00:03:01,860 --> 00:03:06,840
+atue na área poderia falar horas sobre
+
+80
+00:03:03,659 --> 00:03:09,239
+isso então eu vou tentar compilar
+
+81
+00:03:06,840 --> 00:03:12,060
+algumas coisinhas alguns tópicos que eu
+
+82
+00:03:09,239 --> 00:03:14,700
+acho que são os mais importantes assim
+
+83
+00:03:12,060 --> 00:03:17,280
+para a gente ter uma visão geral da
+
+84
+00:03:14,699 --> 00:03:19,199
+medição de sono é antes da gente falar
+
+85
+00:03:17,280 --> 00:03:21,060
+de medição de software propriamente dito
+
+86
+00:03:19,199 --> 00:03:23,339
+eu acho que vale a pena a gente pensar
+
+87
+00:03:21,060 --> 00:03:26,219
+um pouquinho em medição de software em
+
+88
+00:03:23,340 --> 00:03:29,098
+geral porque a medição ela tá presente
+
+89
+00:03:26,219 --> 00:03:31,378
+no nosso dia a dia né o tempo todo a
+
+90
+00:03:29,098 --> 00:03:34,280
+gente tá em contato com a medição mesmo
+
+91
+00:03:31,378 --> 00:03:37,439
+que nós não percebamos isso mas olha só
+
+92
+00:03:34,280 --> 00:03:40,439
+vamos pensar o seguinte imagina que você
+
+93
+00:03:37,439 --> 00:03:42,780
+vai reformar o seu apartamento Vai
+
+94
+00:03:40,439 --> 00:03:46,818
+reformar sua casa e você quer trocar um
+
+95
+00:03:42,780 --> 00:03:49,620
+piso cômodo lá do seu do seu apartamento
+
+96
+00:03:46,818 --> 00:03:52,679
+certamente você vai medir qual é a área
+
+97
+00:03:49,620 --> 00:03:54,658
+desse cômodo para você saber quanto de
+
+98
+00:03:52,680 --> 00:03:57,420
+piso você vai ter que comprar né então
+
+99
+00:03:54,658 --> 00:04:00,060
+você vai estar usando a medição vou
+
+100
+00:03:57,419 --> 00:04:02,458
+medir qual é a área deste cômodo para
+
+101
+00:04:00,060 --> 00:04:05,878
+ela poder te dar uma informação que vai
+
+102
+00:04:02,459 --> 00:04:07,680
+te apoiar tomar uma decisão sobre a
+
+103
+00:04:05,878 --> 00:04:10,378
+quantidade de piso que você vai ter que
+
+104
+00:04:07,680 --> 00:04:13,140
+comprar então só aí já tem medição na
+
+105
+00:04:10,378 --> 00:04:15,539
+sua vida é uma outra situação por
+
+106
+00:04:13,139 --> 00:04:18,120
+exemplo um outro exemplo é que é bem
+
+107
+00:04:15,539 --> 00:04:20,159
+comum para quem vai ser vai só a
+
+108
+00:04:18,120 --> 00:04:22,560
+familiar para quem tem filhos né Por
+
+109
+00:04:20,160 --> 00:04:25,560
+exemplo quando nasce lá o bebê quando a
+
+110
+00:04:22,560 --> 00:04:27,540
+criança nasce os pais eles levam esse
+
+111
+00:04:25,560 --> 00:04:29,759
+bebê essa criança periodicamente ao
+
+112
+00:04:27,540 --> 00:04:31,500
+pediatra né E até quando o bebê é
+
+113
+00:04:29,759 --> 00:04:33,840
+pequenininho essa periodicidade ela
+
+114
+00:04:31,500 --> 00:04:36,660
+costuma ser a gente costuma Levar
+
+115
+00:04:33,839 --> 00:04:39,599
+bastante frequência e aí o que que o
+
+116
+00:04:36,660 --> 00:04:43,199
+pediatra faz o pediatra vai lá mede a
+
+117
+00:04:39,600 --> 00:04:45,360
+altura da criança médium peso da criança
+
+118
+00:04:43,199 --> 00:04:48,120
+e geralmente ele representa esses
+
+119
+00:04:45,360 --> 00:04:50,160
+valores lá em uma curva né geralmente
+
+120
+00:04:48,120 --> 00:04:51,780
+tem lá um cartãozinho né hoje tem sorte
+
+121
+00:04:50,160 --> 00:04:54,000
+para fazer isso mas geralmente tem um
+
+122
+00:04:51,779 --> 00:04:56,099
+cartãozinho que dependendo lá do ponto
+
+123
+00:04:54,000 --> 00:04:57,720
+tecnológico é o seu pediatra ele vai
+
+124
+00:04:56,100 --> 00:05:00,860
+pilotar não sofre dependendo ele vai
+
+125
+00:04:57,720 --> 00:05:04,259
+tocar no cartãozinho lá de papel
+
+126
+00:05:00,860 --> 00:05:07,800
+ao fazer isso o que que o pediatra faz
+
+127
+00:05:04,259 --> 00:05:10,259
+ele avalia ele compara aqueles valores
+
+128
+00:05:07,800 --> 00:05:12,120
+que ele acabou de coletar com outros
+
+129
+00:05:10,259 --> 00:05:13,919
+valores de referência que são
+
+130
+00:05:12,120 --> 00:05:15,500
+estabelecidos lá por algum organismo
+
+131
+00:05:13,918 --> 00:05:18,299
+então por exemplo ele consegue
+
+132
+00:05:15,500 --> 00:05:20,819
+analisando o peso e altura da criança ao
+
+133
+00:05:18,300 --> 00:05:23,220
+longo do tempo ele consegue traçar uma
+
+134
+00:05:20,819 --> 00:05:25,319
+curva e identificar se o crescimento
+
+135
+00:05:23,220 --> 00:05:28,440
+dessa criança o desenvolvimento dessa
+
+136
+00:05:25,319 --> 00:05:31,680
+criança está de acordo com os parâmetros
+
+137
+00:05:28,439 --> 00:05:33,199
+esperados e se tiver de acordo ele vai
+
+138
+00:05:31,680 --> 00:05:37,019
+virar para mãe e para o pai vai falar ó
+
+139
+00:05:33,199 --> 00:05:39,300
+pais da criança continua assim que a
+
+140
+00:05:37,019 --> 00:05:41,639
+criança está se desenvolvendo OK agora
+
+141
+00:05:39,300 --> 00:05:44,460
+se ele observar que o desenvolvimento da
+
+142
+00:05:41,639 --> 00:05:46,620
+criança está diferente do esperado esse
+
+143
+00:05:44,459 --> 00:05:48,599
+pediatra ele vai sugerir ações
+
+144
+00:05:46,620 --> 00:05:52,019
+corretivas né vai sugerir algumas ações
+
+145
+00:05:48,600 --> 00:05:53,460
+para tentar melhorar né o desempenho da
+
+146
+00:05:52,019 --> 00:05:55,198
+Criança e aí por exemplo ele pode
+
+147
+00:05:53,459 --> 00:05:57,478
+sugerir uma mudança na rotina de
+
+148
+00:05:55,199 --> 00:05:59,819
+alimentação da Criança e etc
+
+149
+00:05:57,478 --> 00:06:02,339
+depois que essa mudança foi realizada
+
+150
+00:05:59,819 --> 00:06:04,139
+ele vai novamente pedir para ver a
+
+151
+00:06:02,339 --> 00:06:05,819
+criança e vai lá medir o peso e medir a
+
+152
+00:06:04,139 --> 00:06:08,100
+altura dessa criança de novo vai pilotar
+
+153
+00:06:05,819 --> 00:06:10,560
+lá bonitinho no gráfico e vai Observar
+
+154
+00:06:08,100 --> 00:06:12,900
+se houve melhoria ou não Então nesse
+
+155
+00:06:10,560 --> 00:06:14,939
+caso o que que o médico esse pediatra
+
+156
+00:06:12,899 --> 00:06:17,219
+ele tá fazendo ele tá usando a medição
+
+157
+00:06:14,939 --> 00:06:20,240
+ele tá medindo peso medindo a altura da
+
+158
+00:06:17,220 --> 00:06:22,639
+criança ele tá usando a medição para
+
+159
+00:06:20,240 --> 00:06:27,240
+caracterizar essa criança
+
+160
+00:06:22,639 --> 00:06:29,699
+avaliar a condição de saúde dela e tomar
+
+161
+00:06:27,240 --> 00:06:32,340
+decisões acerca de ações que ele precisa
+
+162
+00:06:29,699 --> 00:06:35,400
+realizar e depois ainda verificar o
+
+163
+00:06:32,339 --> 00:06:38,939
+efeito dessas ações Então se a gente
+
+164
+00:06:35,399 --> 00:06:41,299
+observar esse caso né da criança o que
+
+165
+00:06:38,939 --> 00:06:44,719
+que é medição como um todo
+
+166
+00:06:41,300 --> 00:06:48,060
+a medição ela Avisa a gente
+
+167
+00:06:44,720 --> 00:06:51,060
+quantificar propriedades no caso aqui o
+
+168
+00:06:48,060 --> 00:06:54,300
+peso e altura de entidades no caso aqui
+
+169
+00:06:51,060 --> 00:06:56,100
+a criança por exemplo com o objetivo de
+
+170
+00:06:54,300 --> 00:06:58,439
+caracterizar essa entidade então a gente
+
+171
+00:06:56,100 --> 00:07:00,720
+por exemplo caracteriza a criança em
+
+172
+00:06:58,439 --> 00:07:03,240
+relação ao desempenho dela baseado no
+
+173
+00:07:00,720 --> 00:07:05,460
+peso e na altura que foram calculados
+
+174
+00:07:03,240 --> 00:07:07,560
+então e com essa com essas informações
+
+175
+00:07:05,459 --> 00:07:09,538
+eu consigo tomar decisões eu consigo
+
+176
+00:07:07,560 --> 00:07:11,339
+realizar melhorias eu consigo realizar
+
+177
+00:07:09,538 --> 00:07:13,918
+minhas atividades cotidianas por exemplo
+
+178
+00:07:11,339 --> 00:07:16,198
+se lá eu sou uma pessoa que trabalha com
+
+179
+00:07:13,918 --> 00:07:17,459
+obras eu uso isso para definir por
+
+180
+00:07:16,199 --> 00:07:19,319
+exemplo quanto tempo eu vou levar para
+
+181
+00:07:17,459 --> 00:07:22,918
+poder montar o piso lá daquele cômodo
+
+182
+00:07:19,319 --> 00:07:26,460
+agora vamos trazer isso para software né
+
+183
+00:07:22,918 --> 00:07:28,620
+esse conceito Geral de medição ele vale
+
+184
+00:07:26,459 --> 00:07:31,620
+para software então em software Eu
+
+185
+00:07:28,620 --> 00:07:34,439
+também quero quantificar propriedades
+
+186
+00:07:31,620 --> 00:07:37,379
+para caracterizar entidades só que agora
+
+187
+00:07:34,439 --> 00:07:39,598
+no caso da engenharia de software no
+
+188
+00:07:37,379 --> 00:07:43,199
+âmbito de medição de software essas
+
+189
+00:07:39,598 --> 00:07:44,759
+entidades são processos e produtos da
+
+190
+00:07:43,199 --> 00:07:47,038
+engenharia de software então eu vou
+
+191
+00:07:44,759 --> 00:07:48,900
+querer avaliar é o meu produto de
+
+192
+00:07:47,038 --> 00:07:51,318
+software os meus artefatos que são
+
+193
+00:07:48,899 --> 00:07:53,939
+produzidos
+
+194
+00:07:51,319 --> 00:07:55,319
+artefatos intermediários que produzem ao
+
+195
+00:07:53,939 --> 00:07:57,360
+longo do software por exemplo uma
+
+196
+00:07:55,319 --> 00:07:59,580
+documentação de requisitos
+
+197
+00:07:57,360 --> 00:08:01,160
+que eu realizei eu vou querer avaliar
+
+198
+00:07:59,579 --> 00:08:03,899
+por exemplo eu quero quantificar
+
+199
+00:08:01,160 --> 00:08:06,599
+aspectos dos meus desenvolvedores né da
+
+200
+00:08:03,899 --> 00:08:08,159
+equipe do processo do tipo meus testes
+
+201
+00:08:06,598 --> 00:08:11,699
+eles estão sendo deficientes eles estão
+
+202
+00:08:08,160 --> 00:08:13,979
+sendo eficazes Então essa é a entidades
+
+203
+00:08:11,699 --> 00:08:17,520
+que eu quero caracterizar na medição de
+
+204
+00:08:13,978 --> 00:08:20,478
+softwares são as entidades de software e
+
+205
+00:08:17,519 --> 00:08:23,279
+aí entra uma coisa que é o elemento
+
+206
+00:08:20,478 --> 00:08:27,478
+principal na medição de software que são
+
+207
+00:08:23,279 --> 00:08:30,239
+as medidas ou as métricas Aí eu vou até
+
+208
+00:08:27,478 --> 00:08:33,479
+fazer um parêntese Porque tem uma na
+
+209
+00:08:30,240 --> 00:08:36,418
+literatura a gente não tem um consenso
+
+210
+00:08:33,479 --> 00:08:39,300
+sobre essa terminologia alguns autores
+
+211
+00:08:36,418 --> 00:08:41,759
+falam em medida alguns autores falam em
+
+212
+00:08:39,299 --> 00:08:43,319
+métricas para se referir por exemplo a
+
+213
+00:08:41,759 --> 00:08:45,958
+métrica que a gente vai usar por exemplo
+
+214
+00:08:43,320 --> 00:08:48,778
+Ah eu quero calcular o peso em quilos de
+
+215
+00:08:45,958 --> 00:08:50,879
+uma criança algumas algumas autores
+
+216
+00:08:48,778 --> 00:08:53,419
+referem isso como medida outros se
+
+217
+00:08:50,879 --> 00:08:56,639
+referem como métrica eu não vou entrar
+
+218
+00:08:53,419 --> 00:08:58,379
+Nessas questões tecnológicas aqui porque
+
+219
+00:08:56,639 --> 00:09:00,838
+senão vai tomar muito nosso tempo então
+
+220
+00:08:58,379 --> 00:09:03,778
+eu vou combinar que é nessa nossa
+
+221
+00:09:00,839 --> 00:09:05,880
+conversa eu vou usar os termos métrica e
+
+222
+00:09:03,778 --> 00:09:07,259
+medida como sinônimos né a gente tem
+
+223
+00:09:05,879 --> 00:09:10,019
+material de engenharia de software vai
+
+224
+00:09:07,259 --> 00:09:12,539
+falar métrica tem material medida aqui
+
+225
+00:09:10,019 --> 00:09:13,560
+nós vamos usá-los usar esses temas como
+
+226
+00:09:12,539 --> 00:09:17,819
+sinônimos
+
+227
+00:09:13,559 --> 00:09:20,399
+então voltando agora né a gente tá
+
+228
+00:09:17,820 --> 00:09:22,620
+falando em métricas e para que que são
+
+229
+00:09:20,399 --> 00:09:25,139
+as métricas as métricas elas são
+
+230
+00:09:22,620 --> 00:09:27,600
+exatamente aquilo que a gente usa para
+
+231
+00:09:25,139 --> 00:09:29,759
+quantificar as propriedades a medição
+
+232
+00:09:27,600 --> 00:09:31,259
+Visa quantificar as propriedades de
+
+233
+00:09:29,759 --> 00:09:33,419
+entidades para eu caracterizar essas
+
+234
+00:09:31,259 --> 00:09:35,278
+entidades e chegar à conclusão a
+
+235
+00:09:33,419 --> 00:09:38,338
+respeito delas e para eu fazer essa
+
+236
+00:09:35,278 --> 00:09:41,100
+quantificação Eu uso as métricas então
+
+237
+00:09:38,339 --> 00:09:44,839
+por exemplo vamos imaginar que eu sou lá
+
+238
+00:09:41,100 --> 00:09:48,360
+um gerente de um projeto e eu quero
+
+239
+00:09:44,839 --> 00:09:50,040
+avaliar eu quero analisar a
+
+240
+00:09:48,360 --> 00:09:53,759
+produtividade dos meus desenvolvedores
+
+241
+00:09:50,039 --> 00:09:56,699
+então eu quero eu defino que eu quero é
+
+242
+00:09:53,759 --> 00:09:59,419
+a entidade que eu quero caracterizar é o
+
+243
+00:09:56,700 --> 00:10:02,759
+desenvolvedor a propriedade que eu quero
+
+244
+00:09:59,419 --> 00:10:04,559
+quantificar é a produtividade e aí eu
+
+245
+00:10:02,759 --> 00:10:07,319
+tenho que usar uma métrica para isso por
+
+246
+00:10:04,559 --> 00:10:09,239
+exemplo eu posso usar vamos supor a
+
+247
+00:10:07,320 --> 00:10:12,120
+quantidade média de pontos de história
+
+248
+00:10:09,240 --> 00:10:13,500
+que esse desenvolvedor produz ao longo
+
+249
+00:10:12,120 --> 00:10:16,320
+de
+
+250
+00:10:13,500 --> 00:10:18,839
+print por exemplo E aí olha que coisa
+
+251
+00:10:16,320 --> 00:10:21,600
+interessante quando eu começo a fazer a
+
+252
+00:10:18,839 --> 00:10:23,519
+usar as métricas se eu meço a quantidade
+
+253
+00:10:21,600 --> 00:10:25,860
+média de pontos de história que um
+
+254
+00:10:23,519 --> 00:10:28,799
+desenvolvedor produz né realiza
+
+255
+00:10:25,860 --> 00:10:29,778
+materializa em uma determinada nas
+
+256
+00:10:28,799 --> 00:10:32,399
+sprins
+
+257
+00:10:29,778 --> 00:10:34,259
+eu posso fazer de eu posso obter
+
+258
+00:10:32,399 --> 00:10:36,000
+diversas informações por exemplo seu
+
+259
+00:10:34,259 --> 00:10:37,919
+olhar isso ao longo do tempo para o
+
+260
+00:10:36,000 --> 00:10:40,620
+mesmo desenvolvedor eu vou poder falar
+
+261
+00:10:37,919 --> 00:10:43,019
+eu vou tirar conclusões acerca do
+
+262
+00:10:40,620 --> 00:10:44,899
+desempenho daquele desenvolvedor se ele
+
+263
+00:10:43,019 --> 00:10:47,459
+melhorou se ele piorou ao longo do tempo
+
+264
+00:10:44,899 --> 00:10:49,740
+se eu faço isso para todos os
+
+265
+00:10:47,458 --> 00:10:52,919
+desenvolvedores eu posso por exemplo
+
+266
+00:10:49,740 --> 00:10:54,959
+Observar se eu tenho um comportamento se
+
+267
+00:10:52,919 --> 00:10:57,539
+a produtividade ela é análogo ela é
+
+268
+00:10:54,958 --> 00:10:59,458
+similar para vários desenvolvedores ou
+
+269
+00:10:57,539 --> 00:11:01,679
+se tem algum desenvolvedor que tem
+
+270
+00:10:59,458 --> 00:11:03,838
+alguma produtividade muito diferente dos
+
+271
+00:11:01,679 --> 00:11:05,578
+demais por exemplo muito baixa eu posso
+
+272
+00:11:03,839 --> 00:11:07,500
+investigar porque que ele tá tendo essa
+
+273
+00:11:05,578 --> 00:11:08,759
+produtividade tão baixo ou um outro tem
+
+274
+00:11:07,500 --> 00:11:10,919
+muito alta porque que aquele
+
+275
+00:11:08,759 --> 00:11:13,439
+desenvolvedor ele tem essa produtividade
+
+276
+00:11:10,919 --> 00:11:16,799
+tão alta e isso me ajuda a tomar
+
+277
+00:11:13,440 --> 00:11:19,500
+decisões e melhorar lá o meu o meu o meu
+
+278
+00:11:16,799 --> 00:11:21,120
+processo de desenvolvimento ainda eu
+
+279
+00:11:19,500 --> 00:11:22,860
+posso uma vez que eu conheço a
+
+280
+00:11:21,120 --> 00:11:25,560
+produtividade dos diversos
+
+281
+00:11:22,860 --> 00:11:27,720
+desenvolvedores Eu ainda posso melhorar
+
+282
+00:11:25,559 --> 00:11:30,659
+o meu planejamento porque por exemplo se
+
+283
+00:11:27,720 --> 00:11:32,820
+eu conheço qual é a capacidade de
+
+284
+00:11:30,659 --> 00:11:35,699
+produção de um determinado desenvolvedor
+
+285
+00:11:32,820 --> 00:11:36,959
+em uma Sprint quando nós fomos fazer o
+
+286
+00:11:35,700 --> 00:11:38,820
+planejamento dessa experiência
+
+287
+00:11:36,958 --> 00:11:40,199
+Identificar qual o trabalho vai ter que
+
+288
+00:11:38,820 --> 00:11:43,260
+ser feito nessa Sprint eu posso fazer
+
+289
+00:11:40,200 --> 00:11:46,200
+isso de forma mais alinhada ao
+
+290
+00:11:43,259 --> 00:11:48,240
+desenvolvimento a produtividade dos meus
+
+291
+00:11:46,200 --> 00:11:51,420
+desenvolvedores
+
+292
+00:11:48,240 --> 00:11:54,839
+é um ponto é importante quando a gente
+
+293
+00:11:51,419 --> 00:11:59,219
+fala em medição e eu acho que que isso é
+
+294
+00:11:54,839 --> 00:12:01,920
+comum nas organizações é que não adianta
+
+295
+00:11:59,220 --> 00:12:04,560
+a gente sair medindo tudo que é possível
+
+296
+00:12:01,919 --> 00:12:06,299
+medir porque às vezes a organização ela
+
+297
+00:12:04,559 --> 00:12:08,518
+entende assim Ah então medir é
+
+298
+00:12:06,299 --> 00:12:11,699
+importante eu vou medir tudo só que
+
+299
+00:12:08,519 --> 00:12:14,399
+medir demanda esforço né esforço
+
+300
+00:12:11,700 --> 00:12:18,420
+significa tempo tempo e isso significam
+
+301
+00:12:14,399 --> 00:12:22,019
+custos então medir é algo que é Custoso
+
+302
+00:12:18,419 --> 00:12:23,539
+não certo grau Então para que a empresa
+
+303
+00:12:22,019 --> 00:12:28,200
+para que a organização
+
+304
+00:12:23,539 --> 00:12:31,319
+defina as métricas e nessa aquilo que
+
+305
+00:12:28,200 --> 00:12:33,200
+importa para ela ela tem que fazer uma
+
+306
+00:12:31,320 --> 00:12:36,120
+medição que seja
+
+307
+00:12:33,200 --> 00:12:37,860
+orientada aos objetivos e necessidades
+
+308
+00:12:36,120 --> 00:12:42,120
+de informação dela
+
+309
+00:12:37,860 --> 00:12:44,039
+E aí para isso a gente tem várias
+
+310
+00:12:42,120 --> 00:12:48,120
+técnicas vários métodos na literatura
+
+311
+00:12:44,039 --> 00:12:50,519
+que nos ajudam a fazer isso é o que eu
+
+312
+00:12:48,120 --> 00:12:52,799
+acho né eu vou trazer esse para conversa
+
+313
+00:12:50,519 --> 00:12:54,299
+porque eu acho que ele é talvez o mais
+
+314
+00:12:52,799 --> 00:12:57,838
+simples ou pelo menos o mais intuitivo
+
+315
+00:12:54,299 --> 00:13:01,859
+no meu ponto de vista é um bem conhecido
+
+316
+00:12:57,839 --> 00:13:04,920
+é o gqm Né que é gol né o acrônimo para
+
+317
+00:13:01,860 --> 00:13:06,300
+Gol question mattering e o jackm o que
+
+318
+00:13:04,919 --> 00:13:08,399
+que ele fala para gente ele diz assim
+
+319
+00:13:06,299 --> 00:13:12,059
+olha para você definir as métricas que é
+
+320
+00:13:08,399 --> 00:13:13,820
+o mzinho lá do cano para você definir as
+
+321
+00:13:12,059 --> 00:13:16,500
+métricas você precisa primeiro
+
+322
+00:13:13,820 --> 00:13:19,560
+identificar Quais são os objetivos ou
+
+323
+00:13:16,500 --> 00:13:20,940
+seja para que que você quer medir desses
+
+324
+00:13:19,559 --> 00:13:23,939
+objetivos eu tenho que derivar
+
+325
+00:13:20,940 --> 00:13:28,139
+necessidades de informação ou seja o que
+
+326
+00:13:23,940 --> 00:13:31,079
+que eu preciso saber e a partir daí eu
+
+327
+00:13:28,139 --> 00:13:34,440
+vou definir Quais são as métricas que eu
+
+328
+00:13:31,078 --> 00:13:37,138
+preciso para definir essa para atender
+
+329
+00:13:34,440 --> 00:13:40,100
+essas necessidades de informação então
+
+330
+00:13:37,139 --> 00:13:42,778
+por exemplo se a gente pegar
+
+331
+00:13:40,100 --> 00:13:46,079
+como exemplo a questão do desenvolvedor
+
+332
+00:13:42,778 --> 00:13:48,360
+que eu dei antes a empresa ela mediria
+
+333
+00:13:46,078 --> 00:13:51,439
+ela teria métricas relacionadas a
+
+334
+00:13:48,360 --> 00:13:54,120
+produtividade do desenvolvedor se ela
+
+335
+00:13:51,440 --> 00:13:56,160
+precisasse dessa informação Então ela
+
+336
+00:13:54,120 --> 00:13:58,139
+teria lá como um objetivo por exemplo aí
+
+337
+00:13:56,159 --> 00:14:00,778
+eu preciso melhorar o planejamento das
+
+338
+00:13:58,139 --> 00:14:02,100
+minhas sprins Ah para eu melhorar o
+
+339
+00:14:00,778 --> 00:14:04,980
+planejamento das minhas experiências
+
+340
+00:14:02,100 --> 00:14:06,959
+Esse é meu objetivo é que necessidade de
+
+341
+00:14:04,980 --> 00:14:08,700
+informação eu tenho ah por exemplo eu
+
+342
+00:14:06,958 --> 00:14:11,159
+preciso saber qual é a produtividade dos
+
+343
+00:14:08,700 --> 00:14:13,879
+meus desenvolvedores Essa é minha meu
+
+344
+00:14:11,159 --> 00:14:15,778
+Quest né porque
+
+345
+00:14:13,879 --> 00:14:17,519
+as necessidades de informação são
+
+346
+00:14:15,778 --> 00:14:20,039
+apresentadas no formato de questões
+
+347
+00:14:17,519 --> 00:14:22,259
+Então seria Qual é a produtividade dos
+
+348
+00:14:20,039 --> 00:14:24,659
+meus desenvolvedores E aí eu definiria
+
+349
+00:14:22,259 --> 00:14:27,778
+alguma métrica para quantificar isso
+
+350
+00:14:24,659 --> 00:14:30,600
+no caso eu dei como exemplo é eu posso
+
+351
+00:14:27,778 --> 00:14:32,458
+medir a produtividade considerando a
+
+352
+00:14:30,600 --> 00:14:34,019
+quantidade de pontos de história
+
+353
+00:14:32,458 --> 00:14:36,119
+desenvolvida a quantidade média
+
+354
+00:14:34,019 --> 00:14:39,120
+desenvolvida por esse print por
+
+355
+00:14:36,120 --> 00:14:41,820
+desenvolvedor então usando o pequeno eu
+
+356
+00:14:39,120 --> 00:14:43,980
+consigo ter ou outra abordagem análoga
+
+357
+00:14:41,820 --> 00:14:46,379
+eu consigo garantir que eu só vou
+
+358
+00:14:43,980 --> 00:14:49,079
+definir métricas para aquilo que eu
+
+359
+00:14:46,379 --> 00:14:52,259
+efetivamente preciso
+
+360
+00:14:49,078 --> 00:14:54,778
+e uma vez que eu tenha é aí agora beleza
+
+361
+00:14:52,259 --> 00:14:57,559
+eu defini as métricas mas o que que como
+
+362
+00:14:54,778 --> 00:15:00,838
+que eu faço a medição efetivamente
+
+363
+00:14:57,559 --> 00:15:02,819
+se a gente pensar em medição de maneira
+
+364
+00:15:00,839 --> 00:15:06,600
+assim bem bem geral a gente pode falar
+
+365
+00:15:02,820 --> 00:15:09,540
+em medição como é um processo que tem
+
+366
+00:15:06,600 --> 00:15:12,540
+três etapas né na literatura tem várias
+
+367
+00:15:09,539 --> 00:15:13,679
+propostas que que com etapas distintas
+
+368
+00:15:12,539 --> 00:15:16,919
+Mas a gente pode de uma maneira
+
+369
+00:15:13,679 --> 00:15:19,559
+consensual dizer que existem três etapas
+
+370
+00:15:16,919 --> 00:15:21,599
+três atividades ali que aparecem sempre
+
+371
+00:15:19,559 --> 00:15:24,958
+que a gente vai falar sobre o processo
+
+372
+00:15:21,600 --> 00:15:28,019
+de medição a primeira coisa claramente
+
+373
+00:15:24,958 --> 00:15:29,698
+eu preciso planejar minha medição que é
+
+374
+00:15:28,019 --> 00:15:32,339
+exatamente o que a gente tava falando lá
+
+375
+00:15:29,698 --> 00:15:34,379
+quando a gente falou do de quem né eu
+
+376
+00:15:32,339 --> 00:15:36,779
+posso eu vou ter que definir Quais são
+
+377
+00:15:34,379 --> 00:15:38,939
+as métricas que eu quero e por que que
+
+378
+00:15:36,778 --> 00:15:42,899
+elas são importantes para mim uma vez
+
+379
+00:15:38,940 --> 00:15:46,079
+que eu tenha essas métricas definidas eu
+
+380
+00:15:42,899 --> 00:15:48,120
+preciso então coletar dados para essas
+
+381
+00:15:46,078 --> 00:15:50,099
+métricas então se eu definir que eu
+
+382
+00:15:48,120 --> 00:15:51,778
+quero calcular Porque é importante para
+
+383
+00:15:50,100 --> 00:15:53,519
+mim saber a produtividade do
+
+384
+00:15:51,778 --> 00:15:56,220
+desenvolvedor eu tenho que coletar dados
+
+385
+00:15:53,519 --> 00:15:58,078
+que me permitam calcular a produtividade
+
+386
+00:15:56,220 --> 00:15:59,639
+desenvolvedor então se eu tô falando que
+
+387
+00:15:58,078 --> 00:16:01,078
+eu quero saber a quantidade de pontos de
+
+388
+00:15:59,639 --> 00:16:03,480
+histórico do desenvolvedor faz por
+
+389
+00:16:01,078 --> 00:16:05,879
+Sprint Isso significa que eu tenho que
+
+390
+00:16:03,480 --> 00:16:07,860
+ter registrado quantos pontos de
+
+391
+00:16:05,879 --> 00:16:09,539
+história tem em cada história Quais são
+
+392
+00:16:07,860 --> 00:16:11,519
+as histórias que foram feitas por cada
+
+393
+00:16:09,539 --> 00:16:13,919
+desenvolvedor para aí eu poder dizer
+
+394
+00:16:11,519 --> 00:16:17,360
+quanto ele produz Então eu preciso
+
+395
+00:16:13,919 --> 00:16:19,919
+coletar esses dados Então eu preciso
+
+396
+00:16:17,360 --> 00:16:21,720
+interpretar esses dados porque quando eu
+
+397
+00:16:19,919 --> 00:16:25,139
+interpreto esses dados que eu posso
+
+398
+00:16:21,720 --> 00:16:27,000
+concluir alguma coisa então essa
+
+399
+00:16:25,139 --> 00:16:29,759
+interpretação ela pode ser simplesmente
+
+400
+00:16:27,000 --> 00:16:32,399
+olhar para os valores que eu coletei e
+
+401
+00:16:29,759 --> 00:16:36,600
+chegar alguma conclusão ou para eu
+
+402
+00:16:32,399 --> 00:16:38,639
+interpretar eu posso inclusive é criar
+
+403
+00:16:36,600 --> 00:16:41,100
+representações gráficas pegar esses
+
+404
+00:16:38,639 --> 00:16:42,720
+dados e colocar em gráficos e aí a gente
+
+405
+00:16:41,100 --> 00:16:44,519
+começa a falar um pouquinho de
+
+406
+00:16:42,720 --> 00:16:47,940
+estatística né quais gráficos são
+
+407
+00:16:44,519 --> 00:16:50,039
+adequados para cada conjunto de dados
+
+408
+00:16:47,940 --> 00:16:52,620
+que eu tô representando em cada métrica
+
+409
+00:16:50,039 --> 00:16:57,240
+mas aí eu preciso ter essa representação
+
+410
+00:16:52,620 --> 00:16:59,039
+para eu tomar essa eu consegui ter as
+
+411
+00:16:57,240 --> 00:17:00,180
+informações que me apoiam na tomada de
+
+412
+00:16:59,039 --> 00:17:02,480
+decisão
+
+413
+00:17:00,179 --> 00:17:06,659
+E aí quando a gente fala
+
+414
+00:17:02,480 --> 00:17:09,179
+em coleta de dados a gente começa a
+
+415
+00:17:06,660 --> 00:17:11,779
+pensar então que fazendo um link aquilo
+
+416
+00:17:09,179 --> 00:17:15,980
+que eu falei que para eu coletar dados
+
+417
+00:17:11,779 --> 00:17:18,599
+custa né coletar dados toma tempo gera
+
+418
+00:17:15,980 --> 00:17:22,558
+demanda esforço isso significa custo
+
+419
+00:17:18,599 --> 00:17:24,899
+para organização então é importante que
+
+420
+00:17:22,558 --> 00:17:28,558
+quando a gente defina quando a gente vai
+
+421
+00:17:24,900 --> 00:17:32,040
+definir essas métricas a gente tem que
+
+422
+00:17:28,558 --> 00:17:34,980
+considerar possibilidades de diminuir o
+
+423
+00:17:32,039 --> 00:17:38,279
+esforço necessário para coletar aquelas
+
+424
+00:17:34,980 --> 00:17:41,579
+métricas E aí uma boa estratégia que a
+
+425
+00:17:38,279 --> 00:17:44,519
+gente pode adotar é considerar dados que
+
+426
+00:17:41,579 --> 00:17:48,418
+a empresa já coleta no dia a dia
+
+427
+00:17:44,519 --> 00:17:50,879
+então por exemplo vamos imaginar que uma
+
+428
+00:17:48,419 --> 00:17:53,220
+empresa Ela utiliza algumas ferramentas
+
+429
+00:17:50,880 --> 00:17:54,960
+de gerenciamento de lixo ou
+
+430
+00:17:53,220 --> 00:17:57,860
+gerenciamento de tarefa ela usa por
+
+431
+00:17:54,960 --> 00:18:02,160
+exemplo um trello um Tiger
+
+432
+00:17:57,859 --> 00:18:03,538
+e nessas ferramentas ela já os
+
+433
+00:18:02,160 --> 00:18:05,279
+desenvolvedores os engenheiros
+
+434
+00:18:03,538 --> 00:18:08,038
+Engenheiros de software estão atuando
+
+435
+00:18:05,279 --> 00:18:12,480
+ali no processo de desenvolvimento como
+
+436
+00:18:08,038 --> 00:18:14,640
+parte do processo Eles já imputam dados
+
+437
+00:18:12,480 --> 00:18:16,679
+nessas ferramentas Poxa então esses
+
+438
+00:18:14,640 --> 00:18:18,960
+dados eles já estão lá então é uma
+
+439
+00:18:16,679 --> 00:18:20,700
+oportunidade muito legal de olhar para
+
+440
+00:18:18,960 --> 00:18:23,579
+esses dados e falar o que que eles
+
+441
+00:18:20,700 --> 00:18:26,759
+revelam para mim que métricas eu posso
+
+442
+00:18:23,579 --> 00:18:29,939
+calcular a partir desses dados que já
+
+443
+00:18:26,759 --> 00:18:32,940
+estão disponíveis inclusive algumas
+
+444
+00:18:29,940 --> 00:18:34,440
+ferramentas já trazem algumas métricas
+
+445
+00:18:32,940 --> 00:18:36,298
+para definidas já tem algumas
+
+446
+00:18:34,440 --> 00:18:39,179
+funcionalidades que mostram os gráficos
+
+447
+00:18:36,298 --> 00:18:41,038
+lá bonitinho mas geralmente essas
+
+448
+00:18:39,179 --> 00:18:43,559
+funcionalidades elas são bem limitadas
+
+449
+00:18:41,038 --> 00:18:47,099
+quando a gente pensa em medição
+
+450
+00:18:43,558 --> 00:18:51,298
+em um âmbito mais amplo em um âmbito
+
+451
+00:18:47,099 --> 00:18:54,719
+mais mais o geral lá para empresa então
+
+452
+00:18:51,298 --> 00:18:57,418
+quando eu vou definir esses essas
+
+453
+00:18:54,720 --> 00:19:00,900
+métricas eu preciso considerar esses
+
+454
+00:18:57,419 --> 00:19:02,280
+dados E aí eu ao considerar esses dados
+
+455
+00:19:00,900 --> 00:19:05,640
+tem uma outra coisa que é muito
+
+456
+00:19:02,279 --> 00:19:08,460
+interessante porque quando eu defino as
+
+457
+00:19:05,640 --> 00:19:11,640
+métricas que eu preciso e eu alinho
+
+458
+00:19:08,460 --> 00:19:15,179
+essas métricas aos dados que eu tenho
+
+459
+00:19:11,640 --> 00:19:17,520
+disponíveis eu vou conseguir identificar
+
+460
+00:19:15,179 --> 00:19:18,660
+por exemplo que dados eu não tenho e
+
+461
+00:19:17,519 --> 00:19:21,179
+deveria ter
+
+462
+00:19:18,660 --> 00:19:23,360
+e isso vai me ajudar enquanto
+
+463
+00:19:21,179 --> 00:19:26,519
+organização
+
+464
+00:19:23,359 --> 00:19:28,259
+a melhorar por exemplo o registro de
+
+465
+00:19:26,519 --> 00:19:31,918
+informações Então vamos supor que você
+
+466
+00:19:28,259 --> 00:19:35,000
+usa lá a empresa usa uma ferramenta e
+
+467
+00:19:31,919 --> 00:19:37,380
+nessa ferramenta os desenvolvedores eles
+
+468
+00:19:35,000 --> 00:19:40,679
+armazenam informação sobre o tempo que
+
+469
+00:19:37,380 --> 00:19:43,559
+eles despenderam nas tarefas porém eles
+
+470
+00:19:40,679 --> 00:19:46,620
+não registram informações sobre o tempo
+
+471
+00:19:43,558 --> 00:19:49,558
+que tinha sido planejado para aquelas
+
+472
+00:19:46,619 --> 00:19:51,779
+tarefas se eu não tenho tempo planejado
+
+473
+00:19:49,558 --> 00:19:53,700
+eu não consigo por exemplo avaliar o
+
+474
+00:19:51,779 --> 00:19:56,160
+quanto eu tô errando no meu planejamento
+
+475
+00:19:53,700 --> 00:19:57,900
+com boas estão sendo as estimativas na
+
+476
+00:19:56,160 --> 00:20:01,140
+hora que eu vou por exemplo fazer uma um
+
+477
+00:19:57,900 --> 00:20:04,380
+planejamento da minha experiência aí se
+
+478
+00:20:01,140 --> 00:20:05,940
+eu percebo ao analisar os dados e as
+
+479
+00:20:04,380 --> 00:20:08,160
+métricas que eu preciso eu noto que eu
+
+480
+00:20:05,940 --> 00:20:11,038
+não tenho essa informação a organização
+
+481
+00:20:08,160 --> 00:20:13,620
+ela pode criar ações para poder coletar
+
+482
+00:20:11,038 --> 00:20:15,359
+esse estado Mas então ela vai criar um
+
+483
+00:20:13,619 --> 00:20:17,759
+campo adicional ela vai usar algum
+
+484
+00:20:15,359 --> 00:20:20,038
+artifício de um comando de uma tag ela
+
+485
+00:20:17,759 --> 00:20:23,419
+vai criar um sei lá uma planilha vai
+
+486
+00:20:20,038 --> 00:20:27,599
+criar uma forma de coletar esses dados
+
+487
+00:20:23,419 --> 00:20:31,140
+e o uso desses dados esses dados que já
+
+488
+00:20:27,599 --> 00:20:34,379
+estão disponíveis lá na organização isso
+
+489
+00:20:31,140 --> 00:20:36,259
+tem muito a ver com dois termos que a
+
+490
+00:20:34,380 --> 00:20:39,539
+gente tem ouvido bastante né
+
+491
+00:20:36,259 --> 00:20:42,319
+recentemente que são temos como deita
+
+492
+00:20:39,538 --> 00:20:47,400
+Dream software
+
+493
+00:20:42,319 --> 00:20:49,159
+por exemplo essas abordagens Elas têm
+
+494
+00:20:47,400 --> 00:20:51,240
+como como
+
+495
+00:20:49,160 --> 00:20:55,679
+fundamento né Tem como proposta
+
+496
+00:20:51,240 --> 00:20:57,620
+principal a gente usar dados para apoiar
+
+497
+00:20:55,679 --> 00:21:00,120
+as atividades
+
+498
+00:20:57,619 --> 00:21:01,079
+cotidianas né as atividades usuais da
+
+499
+00:21:00,119 --> 00:21:02,459
+engenharia de software do
+
+500
+00:21:01,079 --> 00:21:04,918
+desenvolvimento de software mas também a
+
+501
+00:21:02,460 --> 00:21:07,140
+tomada de decisão E aí a gente tem
+
+502
+00:21:04,919 --> 00:21:09,179
+várias propostas como por exemplo a
+
+503
+00:21:07,140 --> 00:21:12,059
+mineração de repositórios tem várias
+
+504
+00:21:09,179 --> 00:21:14,940
+formas distintas da gente trabalhar com
+
+505
+00:21:12,058 --> 00:21:17,639
+esses dados e onde é que a medição entra
+
+506
+00:21:14,940 --> 00:21:20,400
+nisso a medição Ela é super importante
+
+507
+00:21:17,640 --> 00:21:24,240
+Porque da mesma forma que eu falei que
+
+508
+00:21:20,400 --> 00:21:25,740
+não adianta eu pedir tudo não adianta eu
+
+509
+00:21:24,240 --> 00:21:28,679
+ter uma porção de dados se eu não sei
+
+510
+00:21:25,740 --> 00:21:31,980
+para que que ele servem então ao definir
+
+511
+00:21:28,679 --> 00:21:35,400
+as métricas eu dou sentido a esses dados
+
+512
+00:21:31,980 --> 00:21:38,460
+eu faço um filtro eu digo quais dados
+
+513
+00:21:35,400 --> 00:21:41,580
+são efetivamente importantes para mim e
+
+514
+00:21:38,460 --> 00:21:45,840
+por que que eles são importantes né
+
+515
+00:21:41,579 --> 00:21:47,939
+então ao fazer essa essa conexão entre o
+
+516
+00:21:45,839 --> 00:21:50,759
+que que eu preciso medir por que que eu
+
+517
+00:21:47,940 --> 00:21:53,460
+preciso medir E como que eu vou medir
+
+518
+00:21:50,759 --> 00:21:56,640
+com os dados que eu tenho disponíveis eu
+
+519
+00:21:53,460 --> 00:21:58,380
+não só tenho uma medição mas efetiva Mas
+
+520
+00:21:56,640 --> 00:22:00,919
+eu também contribuo para essas
+
+521
+00:21:58,380 --> 00:22:00,919
+abordagens
+
+522
+00:22:01,460 --> 00:22:09,360
+por exemplo Gente eu me empolguei demais
+
+523
+00:22:06,650 --> 00:22:10,940
+[Risadas]
+
+524
+00:22:09,359 --> 00:22:14,939
+não tem problema
+
+525
+00:22:10,940 --> 00:22:17,460
+nessa bom aí você falou a respeito de
+
+526
+00:22:14,940 --> 00:22:20,519
+medição de software acho que foi foi bem
+
+527
+00:22:17,460 --> 00:22:24,120
+didática para que os ouvintes e as
+
+528
+00:22:20,519 --> 00:22:25,579
+ouvintes entendam né E além disso a
+
+529
+00:22:24,119 --> 00:22:28,619
+gente quer saber
+
+530
+00:22:25,579 --> 00:22:29,658
+dentro dessa área né de medição de
+
+531
+00:22:28,619 --> 00:22:33,000
+software
+
+532
+00:22:29,659 --> 00:22:35,240
+em que sub áreas você concentra a sua
+
+533
+00:22:33,000 --> 00:22:35,240
+pesquisa
+
+534
+00:22:35,298 --> 00:22:41,879
+Maria Cláudia eu trabalho com medição
+
+535
+00:22:38,759 --> 00:22:44,819
+principalmente no âmbito de melhoria de
+
+536
+00:22:41,880 --> 00:22:47,820
+processo de software né o meu foco
+
+537
+00:22:44,819 --> 00:22:49,798
+principal é a melhoria de processo e tem
+
+538
+00:22:47,819 --> 00:22:51,779
+aquela máxima que a gente já conhece que
+
+539
+00:22:49,798 --> 00:22:54,000
+a qualidade do processo afeta
+
+540
+00:22:51,779 --> 00:22:56,519
+diretamente a qualidade do produto então
+
+541
+00:22:54,000 --> 00:22:58,679
+indiretamente eu tô lá em qualidade de
+
+542
+00:22:56,519 --> 00:23:00,918
+produto também mas o meu foco maior na
+
+543
+00:22:58,679 --> 00:23:04,640
+melhoria de processo
+
+544
+00:23:00,919 --> 00:23:08,700
+eu comecei a trabalhar com medição
+
+545
+00:23:04,640 --> 00:23:11,159
+há muito tempo quando eu fui na época do
+
+546
+00:23:08,700 --> 00:23:13,679
+meu mestrado né no meu mestrado eu fui
+
+547
+00:23:11,159 --> 00:23:15,900
+orientada pela professora na Regina
+
+548
+00:23:13,679 --> 00:23:19,259
+Rocha e pelo professor Guilherme horta
+
+549
+00:23:15,900 --> 00:23:21,059
+Travassos na Copa UFRJ e no meu mestrado
+
+550
+00:23:19,259 --> 00:23:24,359
+eu trabalhei foi lá no início dos anos
+
+551
+00:23:21,058 --> 00:23:28,079
+2000 e eu trabalhei com planejamento de
+
+552
+00:23:24,359 --> 00:23:30,619
+tempo e custos de projetos então lá
+
+553
+00:23:28,079 --> 00:23:32,759
+atrás eu já comecei a trabalhar com
+
+554
+00:23:30,619 --> 00:23:35,219
+estimativas então trabalhava com
+
+555
+00:23:32,759 --> 00:23:38,099
+Estimativa de tamanho estima de tempo
+
+556
+00:23:35,220 --> 00:23:41,579
+Estimativa de custos mas foi no meu
+
+557
+00:23:38,099 --> 00:23:45,058
+doutorado que eu entrei mais diretamente
+
+558
+00:23:41,579 --> 00:23:46,558
+no tema medição né aí meu doutorado foi
+
+559
+00:23:45,058 --> 00:23:49,678
+orientado pela professora na Regina
+
+560
+00:23:46,558 --> 00:23:53,399
+Rocha da UFRJ da cop e o professor
+
+561
+00:23:49,679 --> 00:23:56,159
+Ricardo faugo da UFES e no meu doutorado
+
+562
+00:23:53,400 --> 00:23:59,038
+eu trabalhei com medição de software no
+
+563
+00:23:56,159 --> 00:24:03,000
+âmbito de organizações que tem alta
+
+564
+00:23:59,038 --> 00:24:05,220
+maturidade nos processos de software ou
+
+565
+00:24:03,000 --> 00:24:07,500
+seja são organizações que Já realizam
+
+566
+00:24:05,220 --> 00:24:11,460
+práticas de engenharia de software de
+
+567
+00:24:07,500 --> 00:24:13,500
+maneira bem estabelecida E aí nessas
+
+568
+00:24:11,460 --> 00:24:15,179
+empresas a gente realiza medição de
+
+569
+00:24:13,500 --> 00:24:16,679
+software também precisa fazer o que a
+
+570
+00:24:15,179 --> 00:24:20,100
+gente chama de Controle estatístico de
+
+571
+00:24:16,679 --> 00:24:23,640
+Processo que é como se fosse tentar
+
+572
+00:24:20,099 --> 00:24:25,019
+simplificar para não alongar demais é
+
+573
+00:24:23,640 --> 00:24:27,960
+como se fosse uma forma um pouquinho
+
+574
+00:24:25,019 --> 00:24:31,679
+mais avançada de realizar a medição eu
+
+575
+00:24:27,960 --> 00:24:34,860
+tenho alguns requisitos adicionais que
+
+576
+00:24:31,679 --> 00:24:38,820
+precisam ser atendidos e eu uso algumas
+
+577
+00:24:34,859 --> 00:24:42,000
+técnicas estatísticas específicas também
+
+578
+00:24:38,819 --> 00:24:44,220
+quando eu terminei o doutorado E aí eu
+
+579
+00:24:42,000 --> 00:24:46,679
+entrei no programa de pós-graduação de
+
+580
+00:24:44,220 --> 00:24:50,940
+informática da UFES e passei orientar
+
+581
+00:24:46,679 --> 00:24:52,679
+alunos aí o meu leque de temas né Nos
+
+582
+00:24:50,940 --> 00:24:55,740
+quais eu passei a trabalhar ele aumentou
+
+583
+00:24:52,679 --> 00:25:00,480
+só que medição de software sempre esteve
+
+584
+00:24:55,740 --> 00:25:03,179
+ali presente desde o início e nesse
+
+585
+00:25:00,480 --> 00:25:04,798
+âmbito de melhoria de processo eu tenho
+
+586
+00:25:03,179 --> 00:25:07,860
+uma parceria também como professor
+
+587
+00:25:04,798 --> 00:25:10,319
+Gleison Santos da Unirio e A Gente Tem
+
+588
+00:25:07,859 --> 00:25:13,379
+trabalhado nos últimos anos tivemos duas
+
+589
+00:25:10,319 --> 00:25:15,000
+dissertações de Mestrado orientadas a
+
+590
+00:25:13,380 --> 00:25:17,520
+gente trabalhou com uma edição de
+
+591
+00:25:15,000 --> 00:25:19,440
+software no âmbito de serviços de ti
+
+592
+00:25:17,519 --> 00:25:23,839
+ainda pensando em melhoria de processo
+
+593
+00:25:19,440 --> 00:25:23,840
+só que agora mais focado em serviços
+
+594
+00:25:24,140 --> 00:25:29,880
+certo e agora a gente vai entrar numa
+
+595
+00:25:26,819 --> 00:25:32,939
+outra parte do dessa entrevista onde a
+
+596
+00:25:29,880 --> 00:25:35,039
+gente pergunta faz perguntas perguntas
+
+597
+00:25:32,940 --> 00:25:37,140
+específicas sobre alguns dos artigos que
+
+598
+00:25:35,038 --> 00:25:38,879
+você tem publicado nos últimos anos eu
+
+599
+00:25:37,140 --> 00:25:40,799
+acho que isso é um diferencial do nosso
+
+600
+00:25:38,880 --> 00:25:42,600
+podcast permitir que os pesquisadores
+
+601
+00:25:40,798 --> 00:25:45,538
+falem pelo menos um pouco sobre cada um
+
+602
+00:25:42,599 --> 00:25:48,480
+dos artigos e o primeiro artigo sobre o
+
+603
+00:25:45,538 --> 00:25:51,298
+qual nós vamos falar é o artigo em
+
+604
+00:25:48,480 --> 00:25:53,640
+direção a um arcabouço Framework para
+
+605
+00:25:51,298 --> 00:25:55,918
+engenharia contínuo de software que foi
+
+606
+00:25:53,640 --> 00:25:58,440
+publicado no simpósio brasileiro de
+
+607
+00:25:55,919 --> 00:26:01,140
+engenharia de software de 2020 então
+
+608
+00:25:58,440 --> 00:26:03,419
+obviamente os artigos cujo título estão
+
+609
+00:26:01,140 --> 00:26:05,038
+em inglês lá na descrição a gente deixa
+
+610
+00:26:03,419 --> 00:26:07,500
+o título em inglês o título em português
+
+611
+00:26:05,038 --> 00:26:09,538
+e o link para o artigo você pode
+
+612
+00:26:07,500 --> 00:26:11,880
+explicar rapidamente para as pessoas que
+
+613
+00:26:09,538 --> 00:26:14,940
+nos escutam O que é engenharia de
+
+614
+00:26:11,880 --> 00:26:16,980
+software contínua e como o Framework
+
+615
+00:26:14,940 --> 00:26:18,860
+conceitual que você propõe neste artigo
+
+616
+00:26:16,980 --> 00:26:23,120
+ajuda as pessoas
+
+617
+00:26:18,859 --> 00:26:23,119
+engenheiras desenvolvedores de software
+
+618
+00:26:23,179 --> 00:26:30,600
+engenharia de software contínua é uma
+
+619
+00:26:27,200 --> 00:26:32,880
+é uma forma de desenvolvimento é uma
+
+620
+00:26:30,599 --> 00:26:34,980
+nova uma nova visão Vamos colocar do
+
+621
+00:26:32,880 --> 00:26:36,778
+desenvolvimento de software onde a gente
+
+622
+00:26:34,980 --> 00:26:39,298
+passa a ver o desenvolvimento de
+
+623
+00:26:36,778 --> 00:26:41,038
+software não só como interativo como a
+
+624
+00:26:39,298 --> 00:26:43,798
+gente já tá acostumado nos métodos
+
+625
+00:26:41,038 --> 00:26:45,658
+quando a gente usa os métodos ages mas a
+
+626
+00:26:43,798 --> 00:26:47,460
+gente também vê esse desenvolvimento de
+
+627
+00:26:45,659 --> 00:26:49,500
+software como um fluxo contínuo de
+
+628
+00:26:47,460 --> 00:26:52,380
+atividades o que a gente quer com
+
+629
+00:26:49,500 --> 00:26:55,079
+engenharia de software é diminuir a
+
+630
+00:26:52,380 --> 00:26:56,820
+distância a separação entre as
+
+631
+00:26:55,079 --> 00:26:58,139
+atividades do processo de engenharia de
+
+632
+00:26:56,819 --> 00:27:00,480
+software Considerando o ciclo de vida
+
+633
+00:26:58,140 --> 00:27:03,059
+como um todo então é um conjunto de
+
+634
+00:27:00,480 --> 00:27:05,640
+ferramentas e técnicas e práticas que a
+
+635
+00:27:03,058 --> 00:27:09,058
+gente adota buscando dar essa
+
+636
+00:27:05,640 --> 00:27:11,299
+continuidade do essa continuidade ao
+
+637
+00:27:09,058 --> 00:27:13,859
+processo de desenvolvimento de software
+
+638
+00:27:11,298 --> 00:27:17,658
+alguns termos por exemplo como Devotos
+
+639
+00:27:13,859 --> 00:27:22,079
+integração contínua entrega contínua
+
+640
+00:27:17,659 --> 00:27:24,539
+implantação contínua mais recente deve
+
+641
+00:27:22,079 --> 00:27:26,819
+né esses termos eles todos estão
+
+642
+00:27:24,538 --> 00:27:28,679
+relacionados a engenharia de software
+
+643
+00:27:26,819 --> 00:27:32,839
+contínua né Por exemplo se a gente olha
+
+644
+00:27:28,679 --> 00:27:35,640
+pro Devotos o devops ele busca diminuir
+
+645
+00:27:32,839 --> 00:27:38,158
+a separação entre as atividades do
+
+646
+00:27:35,640 --> 00:27:40,500
+desenvolvimento e atividades de operação
+
+647
+00:27:38,159 --> 00:27:43,440
+isso tem muito a ver com a forma como a
+
+648
+00:27:40,500 --> 00:27:44,759
+gente consome sofre hoje também então
+
+649
+00:27:43,440 --> 00:27:46,558
+por exemplo a gente tem se a gente
+
+650
+00:27:44,759 --> 00:27:47,778
+pensar nos aplicativos que nós temos no
+
+651
+00:27:46,558 --> 00:27:51,058
+celular
+
+652
+00:27:47,778 --> 00:27:54,000
+recentemente a gente recebe atualizações
+
+653
+00:27:51,058 --> 00:27:55,918
+desses aplicativos né então a conexão
+
+654
+00:27:54,000 --> 00:27:58,740
+entre quem está desenvolvendo esses
+
+655
+00:27:55,919 --> 00:28:01,020
+aplicativos e nós que estamos usando ela
+
+656
+00:27:58,740 --> 00:28:02,339
+tem que ser algo fluido né e a
+
+657
+00:28:01,019 --> 00:28:05,099
+engenharia de software continua avisa
+
+658
+00:28:02,339 --> 00:28:08,459
+exatamente provei técnicas ferramentas
+
+659
+00:28:05,099 --> 00:28:11,599
+práticas para permitir essa fluidez essa
+
+660
+00:28:08,460 --> 00:28:14,759
+continuidade ao longo de todo o processo
+
+661
+00:28:11,599 --> 00:28:18,240
+no artigo que você mencionou Adolfo eu
+
+662
+00:28:14,759 --> 00:28:22,440
+fiz eu propus um frame né E esse freio
+
+663
+00:28:18,240 --> 00:28:24,298
+ele Visa dá uma visão Geral de processos
+
+664
+00:28:22,440 --> 00:28:26,820
+envolvidos na engenharia de software
+
+665
+00:28:24,298 --> 00:28:28,500
+contínuo porque muitas vezes quando a
+
+666
+00:28:26,819 --> 00:28:32,119
+gente ou engenharia de software contínua
+
+667
+00:28:28,500 --> 00:28:36,960
+muitas pessoas associam diretamente
+
+668
+00:28:32,119 --> 00:28:40,038
+a as ferramentas ou devopes ou só o as
+
+669
+00:28:36,960 --> 00:28:42,360
+atividades mais de construção e
+
+670
+00:28:40,038 --> 00:28:45,778
+engenharia de software continua é muito
+
+671
+00:28:42,359 --> 00:28:48,839
+mais do que isso né na verdade todos os
+
+672
+00:28:45,778 --> 00:28:51,538
+não todos mas muitos dos processos que a
+
+673
+00:28:48,839 --> 00:28:53,158
+gente realiza já vinha realizando na
+
+674
+00:28:51,538 --> 00:28:55,859
+engenharia de software que não é
+
+675
+00:28:53,159 --> 00:28:58,500
+contínua né engenharia sofre como todo
+
+676
+00:28:55,859 --> 00:28:59,939
+esses processos ele se repetem dentro da
+
+677
+00:28:58,500 --> 00:29:01,619
+engenharia do software continua só que
+
+678
+00:28:59,940 --> 00:29:03,778
+agora eles têm que ser realizados com
+
+679
+00:29:01,619 --> 00:29:05,819
+uma perspectiva diferente né então por
+
+680
+00:29:03,778 --> 00:29:07,019
+exemplo eu continuo fazendo gerencia de
+
+681
+00:29:05,819 --> 00:29:08,879
+configuração Mas como que eu faço
+
+682
+00:29:07,019 --> 00:29:11,759
+gerência de configuração agora sobre uma
+
+683
+00:29:08,880 --> 00:29:13,500
+perspectiva eu continuo tendo pedir mas
+
+684
+00:29:11,759 --> 00:29:16,200
+como que eu faço medição agora com uma
+
+685
+00:29:13,500 --> 00:29:18,599
+perspectiva contínua então o frevo que
+
+686
+00:29:16,200 --> 00:29:20,819
+ele dá essa visão geral dos processos E
+
+687
+00:29:18,599 --> 00:29:22,740
+como que ele se relaciona não
+
+688
+00:29:20,819 --> 00:29:25,859
+considerando troca de dados e
+
+689
+00:29:22,740 --> 00:29:28,079
+informações e aí também esse prêmio que
+
+690
+00:29:25,859 --> 00:29:30,658
+ele serve como um ponto de partida para
+
+691
+00:29:28,079 --> 00:29:32,038
+a gente levantar questões importantes e
+
+692
+00:29:30,659 --> 00:29:33,600
+aí por exemplo Nesse artigo que você
+
+693
+00:29:32,038 --> 00:29:35,158
+mencionou eu a levanto eu levanto
+
+694
+00:29:33,599 --> 00:29:37,740
+inclusive uma questão relacionada à
+
+695
+00:29:35,159 --> 00:29:39,299
+medição que é essa questão de como que
+
+696
+00:29:37,740 --> 00:29:41,759
+eu vou fazer medição agora nesse
+
+697
+00:29:39,298 --> 00:29:43,918
+ambiente contínuo que métricas eu vou
+
+698
+00:29:41,759 --> 00:29:47,278
+usar nesse ambiente agora de
+
+699
+00:29:43,919 --> 00:29:47,278
+desenvolvimento contínuo
+
+700
+00:29:54,500 --> 00:30:02,398
+Ok então passando agora uma analista
+
+701
+00:29:57,960 --> 00:30:05,519
+para um outro artigo né É intitulado de
+
+702
+00:30:02,398 --> 00:30:07,319
+uma antologia de referência em scrom a
+
+703
+00:30:05,519 --> 00:30:09,119
+integração de aplicativos para o
+
+704
+00:30:07,319 --> 00:30:13,019
+desenvolvimento de software orientado
+
+705
+00:30:09,119 --> 00:30:15,119
+por dados você e seus coautores abordam
+
+706
+00:30:13,019 --> 00:30:18,000
+os desafios que as organizações
+
+707
+00:30:15,119 --> 00:30:21,359
+enfrentam a usar diferentes aplicações
+
+708
+00:30:18,000 --> 00:30:23,398
+para apoiar o processo scron e como a
+
+709
+00:30:21,359 --> 00:30:25,918
+ontologia de referência do scrum
+
+710
+00:30:23,398 --> 00:30:29,278
+apresentada no artigo pode ajudar a
+
+711
+00:30:25,919 --> 00:30:32,880
+superar esses desafios então aí quais
+
+712
+00:30:29,278 --> 00:30:35,339
+são as métricas adequadas para o
+
+713
+00:30:32,880 --> 00:30:37,320
+contexto atual de desenvolvimento de
+
+714
+00:30:35,339 --> 00:30:40,918
+software considerando as mudanças
+
+715
+00:30:37,319 --> 00:30:43,200
+recentes né como adoção de práticas que
+
+716
+00:30:40,919 --> 00:30:45,500
+você já comentou e a experimentação
+
+717
+00:30:43,200 --> 00:30:47,819
+continua
+
+718
+00:30:45,500 --> 00:30:49,919
+bom Maria a pergunta ela é bastante
+
+719
+00:30:47,819 --> 00:30:52,319
+oportuna e está relacionada inclusive
+
+720
+00:30:49,919 --> 00:30:54,500
+com aquela pergunta que eu deixei no
+
+721
+00:30:52,319 --> 00:30:57,000
+final da resposta anterior
+
+722
+00:30:54,500 --> 00:31:00,240
+e para falar a verdade não tem uma
+
+723
+00:30:57,000 --> 00:31:01,859
+resposta muito simples na verdade em
+
+724
+00:31:00,240 --> 00:31:03,500
+teoria ela nem é tão complicada mas
+
+725
+00:31:01,859 --> 00:31:06,538
+quando a gente vai para a prática
+
+726
+00:31:03,500 --> 00:31:08,940
+Existem algumas particularidades que
+
+727
+00:31:06,538 --> 00:31:12,720
+podem aumentar a complexidade como a
+
+728
+00:31:08,940 --> 00:31:15,058
+gente resolve isso né a gente tem alguns
+
+729
+00:31:12,720 --> 00:31:16,519
+trabalhos na literatura que tem proposto
+
+730
+00:31:15,058 --> 00:31:19,079
+métricas
+
+731
+00:31:16,519 --> 00:31:20,879
+relacionadas a devopes a experimentação
+
+732
+00:31:19,079 --> 00:31:23,879
+contínua relacionadas a engenharia de
+
+733
+00:31:20,880 --> 00:31:26,159
+software continua como um todo né aqui
+
+734
+00:31:23,880 --> 00:31:28,940
+eu vou destacar um trabalho que é de
+
+735
+00:31:26,159 --> 00:31:31,880
+2021 de
+
+736
+00:31:28,940 --> 00:31:35,220
+três organizações diferentes incluindo
+
+737
+00:31:31,880 --> 00:31:38,760
+Auto um dos autores do PSN que é prético
+
+738
+00:31:35,220 --> 00:31:41,759
+sofre uma abordagem bem conhecida para
+
+739
+00:31:38,759 --> 00:31:43,319
+quem trabalha com medição eles propõe um
+
+740
+00:31:41,759 --> 00:31:44,720
+freio de medição para desenvolvimento
+
+741
+00:31:43,319 --> 00:31:48,298
+interativo
+
+742
+00:31:44,720 --> 00:31:50,819
+E aí nesse frame eles propõe um conjunto
+
+743
+00:31:48,298 --> 00:31:52,398
+de métricas aí por exemplo lá entre as
+
+744
+00:31:50,819 --> 00:31:55,379
+métricas tem
+
+745
+00:31:52,398 --> 00:31:57,058
+histórias completadas versus histórias
+
+746
+00:31:55,380 --> 00:31:59,880
+planejadas cobertura de teste
+
+747
+00:31:57,058 --> 00:32:02,158
+automatizado velocidade da equipe tempo
+
+748
+00:31:59,880 --> 00:32:05,159
+médio de release frequência de release
+
+749
+00:32:02,159 --> 00:32:07,980
+então eles colocam lá várias várias
+
+750
+00:32:05,159 --> 00:32:09,419
+métricas Então isso é um ótimo ponto de
+
+751
+00:32:07,980 --> 00:32:11,940
+partida por exemplo eu olhar para
+
+752
+00:32:09,419 --> 00:32:15,840
+Literatura e procurar métricas que eu
+
+753
+00:32:11,940 --> 00:32:17,580
+posso usar na minha organização Isso já
+
+754
+00:32:15,839 --> 00:32:18,959
+é um ótimo ponto de partida eu posso
+
+755
+00:32:17,579 --> 00:32:21,000
+usar eu posso considerar tanto
+
+756
+00:32:18,960 --> 00:32:22,319
+literatura acadêmica como literatura
+
+757
+00:32:21,000 --> 00:32:25,200
+cinza também
+
+758
+00:32:22,319 --> 00:32:28,158
+só que aí tem um ponto interessante que
+
+759
+00:32:25,200 --> 00:32:31,140
+é que a gente precisa se atentar ele que
+
+760
+00:32:28,159 --> 00:32:33,360
+mesmo eu tendo essas métricas como ponto
+
+761
+00:32:31,140 --> 00:32:36,059
+de partida aquilo que a gente conversou
+
+762
+00:32:33,359 --> 00:32:38,158
+lá no início as métricas da organização
+
+763
+00:32:36,058 --> 00:32:39,720
+tem que se adequadas para as
+
+764
+00:32:38,159 --> 00:32:41,640
+necessidades dela então eu posso ter um
+
+765
+00:32:39,720 --> 00:32:43,679
+catálogo com 100 métricas Mas quais
+
+766
+00:32:41,640 --> 00:32:45,899
+Realmente são relevantes para mim então
+
+767
+00:32:43,679 --> 00:32:47,700
+a organização ela tem que conseguir lá e
+
+768
+00:32:45,898 --> 00:32:50,519
+identificar Quais são as relevantes para
+
+769
+00:32:47,700 --> 00:32:52,500
+ela e isso vai ter relação com os dados
+
+770
+00:32:50,519 --> 00:32:54,778
+que ela tem disponíveis como a gente já
+
+771
+00:32:52,500 --> 00:32:57,179
+falou e também com as práticas que ela
+
+772
+00:32:54,778 --> 00:32:59,038
+realiza então por exemplo no âmbito de
+
+773
+00:32:57,179 --> 00:33:02,580
+experimentação contínua se a gente fala
+
+774
+00:32:59,038 --> 00:33:05,519
+que a empresa ela realiza teste a b
+
+775
+00:33:02,579 --> 00:33:08,158
+certamente ela vai precisar de métricas
+
+776
+00:33:05,519 --> 00:33:10,859
+diferentes de uma empresa que realiza um
+
+777
+00:33:08,159 --> 00:33:13,140
+outro tipo de experimentação então não
+
+778
+00:33:10,859 --> 00:33:15,479
+tem como eu falei a resposta em teoria é
+
+779
+00:33:13,140 --> 00:33:17,038
+simples porque é você definir métricas
+
+780
+00:33:15,480 --> 00:33:19,440
+que sejam adequadas ao Que você realiza
+
+781
+00:33:17,038 --> 00:33:22,919
+e você pode consultar a literatura mas
+
+782
+00:33:19,440 --> 00:33:24,659
+na prática isso traz um pouquinho de
+
+783
+00:33:22,919 --> 00:33:25,860
+complexidade né Tem a questão de
+
+784
+00:33:24,659 --> 00:33:28,440
+conhecimento tá envolvido
+
+785
+00:33:25,859 --> 00:33:30,298
+particularidades da organização tanto
+
+786
+00:33:28,440 --> 00:33:33,720
+que Nesse artigo que você mencionou
+
+787
+00:33:30,298 --> 00:33:36,058
+Maria Cláudia é Nesse artigo as métricas
+
+788
+00:33:33,720 --> 00:33:38,278
+que foram definidas para a organização
+
+789
+00:33:36,058 --> 00:33:39,778
+elas foram definidas com base em uma
+
+790
+00:33:38,278 --> 00:33:42,179
+necessidade específica daquela
+
+791
+00:33:39,778 --> 00:33:43,980
+organização naquele momento né então é
+
+792
+00:33:42,179 --> 00:33:47,159
+um trabalho onde a gente analisou dados
+
+793
+00:33:43,980 --> 00:33:49,319
+para produzir métricas apresentar em
+
+794
+00:33:47,159 --> 00:33:51,120
+dashboards para organização Para apoiar
+
+795
+00:33:49,319 --> 00:33:53,700
+a organização até informações e tomar
+
+796
+00:33:51,119 --> 00:33:56,339
+decisão e todas as métricas a gente
+
+797
+00:33:53,700 --> 00:33:58,140
+olhou para a empresa e observou o que
+
+798
+00:33:56,339 --> 00:34:02,000
+que ela precisava Para a gente poder
+
+799
+00:33:58,140 --> 00:34:02,000
+chegar a essas métricas
+
+800
+00:34:03,500 --> 00:34:10,858
+agora a próxima pergunta é sobre o
+
+801
+00:34:06,839 --> 00:34:13,259
+artigo combinando gqm mais estratégias e
+
+802
+00:34:10,858 --> 00:34:15,239
+okr resultados preliminares de um estudo
+
+803
+00:34:13,260 --> 00:34:17,639
+de caso participativo na indústria que
+
+804
+00:34:15,239 --> 00:34:20,338
+você com escreveu com Gleison Santos da
+
+805
+00:34:17,639 --> 00:34:22,378
+Unirio com duas pessoas que já estiveram
+
+806
+00:34:20,338 --> 00:34:24,059
+de alguma forma aqui no fronteiras a
+
+807
+00:34:22,378 --> 00:34:25,500
+Bianca trinken White que eu tava
+
+808
+00:34:24,059 --> 00:34:27,480
+pesquisando agora eu vi que ela foi
+
+809
+00:34:25,500 --> 00:34:30,059
+orientando no mestrado do Gleison né
+
+810
+00:34:27,480 --> 00:34:32,639
+então tem uma já uma relação já que você
+
+811
+00:34:30,059 --> 00:34:36,000
+é uma colaboradora do Gleison lá da
+
+812
+00:34:32,639 --> 00:34:38,159
+Unirio e a Bianca ela apresentou um
+
+813
+00:34:36,000 --> 00:34:41,780
+artigo dela já quando ela tava fazendo
+
+814
+00:34:38,159 --> 00:34:45,480
+doutorado eu acho lá na norder
+
+815
+00:34:41,780 --> 00:34:48,060
+Arizona Universe né com cheirosa com
+
+816
+00:34:45,480 --> 00:34:49,800
+Igor sai maca a gente teve uma época lá
+
+817
+00:34:48,059 --> 00:34:54,179
+da pandemia que a gente fez várias lives
+
+818
+00:34:49,800 --> 00:34:56,099
+tá lá no nosso canal no YouTube e com a
+
+819
+00:34:54,179 --> 00:34:58,740
+Taiana conta também né com a autora que
+
+820
+00:34:56,099 --> 00:35:02,338
+esteve aqui no nosso Episódio 10 sobre
+
+821
+00:34:58,739 --> 00:35:05,098
+user xperias então a pergunta como é que
+
+822
+00:35:02,338 --> 00:35:08,219
+é combinação dos métodos gqm mais
+
+823
+00:35:05,099 --> 00:35:10,500
+estrategis e o QR pode auxiliar na
+
+824
+00:35:08,219 --> 00:35:13,919
+definição de métricas para avaliar
+
+825
+00:35:10,500 --> 00:35:16,500
+serviços de ti conforme mostrado no
+
+826
+00:35:13,920 --> 00:35:18,599
+estudo de caso que vocês têm Nesse
+
+827
+00:35:16,500 --> 00:35:21,079
+artigo e quais são os benefícios dessa
+
+828
+00:35:18,599 --> 00:35:21,079
+abordagem
+
+829
+00:35:21,800 --> 00:35:26,280
+até fazer um complemento a sua
+
+830
+00:35:24,358 --> 00:35:28,559
+informação né A Bianca ela é a primeira
+
+831
+00:35:26,280 --> 00:35:30,060
+autora desse artigo né A Bianca eu
+
+832
+00:35:28,559 --> 00:35:31,799
+trabalhei junto com Gleison nós
+
+833
+00:35:30,059 --> 00:35:33,239
+orientamos juntos a Bianca durante o
+
+834
+00:35:31,800 --> 00:35:35,519
+mestrado e a Taiana teve uma
+
+835
+00:35:33,239 --> 00:35:38,098
+participação fundamental ao longo do
+
+836
+00:35:35,519 --> 00:35:41,880
+trabalho e esse artigo ele foi inclusive
+
+837
+00:35:38,099 --> 00:35:44,220
+um dos resultados que a gente alcançou
+
+838
+00:35:41,880 --> 00:35:46,200
+se eu não me engano a Bianca já tinha já
+
+839
+00:35:44,219 --> 00:35:49,259
+tinha defendido né Então foi até
+
+840
+00:35:46,199 --> 00:35:51,480
+posterior a proposta de Mestrado dela e
+
+841
+00:35:49,260 --> 00:35:54,540
+é muito bom ver a Bianca voando né a
+
+842
+00:35:51,480 --> 00:35:56,280
+gente é bom demais a gente vê quando a
+
+843
+00:35:54,539 --> 00:35:58,858
+gente fala assim poxa eu vi eu vi quando
+
+844
+00:35:56,280 --> 00:36:02,040
+começou a preparar em pesquisa eu tava
+
+845
+00:35:58,858 --> 00:36:05,039
+lá e agora a gente vê ela voando com as
+
+846
+00:36:02,039 --> 00:36:07,199
+próprias asas mas esse trabalho voltando
+
+847
+00:36:05,039 --> 00:36:08,940
+aqui para o trabalho então nesse
+
+848
+00:36:07,199 --> 00:36:11,219
+trabalho o que que aconteceu a Bianca
+
+849
+00:36:08,940 --> 00:36:13,920
+ela lá no trabalho de Mestrado dela ela
+
+850
+00:36:11,219 --> 00:36:16,379
+fez uma proposta de um método que chama
+
+851
+00:36:13,920 --> 00:36:18,260
+sines e esse método ele é um método
+
+852
+00:36:16,380 --> 00:36:20,700
+baseado no de quem
+
+853
+00:36:18,260 --> 00:36:23,460
+inclusive algumas pessoas
+
+854
+00:36:20,699 --> 00:36:26,639
+até que ele é uma extensão do de
+
+855
+00:36:23,460 --> 00:36:29,358
+kendless streckeds esse método ele é um
+
+856
+00:36:26,639 --> 00:36:32,639
+método bem robusto ele orienta
+
+857
+00:36:29,358 --> 00:36:34,980
+organizações pessoas relacionadas a
+
+858
+00:36:32,639 --> 00:36:37,440
+serviços de ti generalizar como gerentes
+
+859
+00:36:34,980 --> 00:36:40,260
+de serviços de ti então orienta gerentes
+
+860
+00:36:37,440 --> 00:36:42,900
+de serviços de ti sobre como definir os
+
+861
+00:36:40,260 --> 00:36:46,500
+objetivos as necessidades de informação
+
+862
+00:36:42,900 --> 00:36:48,420
+as métricas as ações necessárias né as
+
+863
+00:36:46,500 --> 00:36:50,039
+estratégias como você estabelecer
+
+864
+00:36:48,420 --> 00:36:52,820
+métricas para medir essas estratégias
+
+865
+00:36:50,039 --> 00:36:55,679
+Como monitorar como
+
+866
+00:36:52,820 --> 00:36:58,859
+acompanhar essas estratégias então é uma
+
+867
+00:36:55,679 --> 00:37:02,159
+proposta bem robusta e essa proposta ela
+
+868
+00:36:58,858 --> 00:37:03,659
+foi aplicada algumas vezes em uma
+
+869
+00:37:02,159 --> 00:37:05,759
+organização e a gente teve resultados
+
+870
+00:37:03,659 --> 00:37:08,639
+muito bons ela foi aplicada e a gente
+
+871
+00:37:05,760 --> 00:37:10,140
+teve resultados muito positivos só que
+
+872
+00:37:08,639 --> 00:37:12,838
+aí houve uma situação que é a situação
+
+873
+00:37:10,139 --> 00:37:16,039
+reportada Nesse artigo em que era
+
+874
+00:37:12,838 --> 00:37:18,380
+preciso fazer a definição de
+
+875
+00:37:16,039 --> 00:37:21,420
+métricas para poder
+
+876
+00:37:18,380 --> 00:37:23,039
+monitorar e alcançar metas tinham sido
+
+877
+00:37:21,420 --> 00:37:25,800
+estabelecidos por uma área de serviço de
+
+878
+00:37:23,039 --> 00:37:27,599
+ti de uma organização e nesse contexto
+
+879
+00:37:25,800 --> 00:37:30,839
+eles tinham um cronograma muito apertado
+
+880
+00:37:27,599 --> 00:37:33,300
+e comentaram assim olha não vai dar para
+
+881
+00:37:30,838 --> 00:37:36,358
+a gente fazer o processo todo Completão
+
+882
+00:37:33,300 --> 00:37:38,579
+como tinha sido adotado em outras
+
+883
+00:37:36,358 --> 00:37:41,039
+unidades já então a gente precisa de uma
+
+884
+00:37:38,579 --> 00:37:43,320
+abordagem mais rápida e na ocasião eles
+
+885
+00:37:41,039 --> 00:37:45,779
+falaram Poxa a gente queria usar okr
+
+886
+00:37:43,320 --> 00:37:49,140
+Então vamos usar e aí o que que a gente
+
+887
+00:37:45,780 --> 00:37:54,380
+fez a gente combinou o KR com o de
+
+888
+00:37:49,139 --> 00:37:57,960
+candless e qual foi o resultado disso
+
+889
+00:37:54,380 --> 00:38:02,240
+é um método muito simples e ele Visa
+
+890
+00:37:57,960 --> 00:38:05,280
+você definir objetivos
+
+891
+00:38:02,239 --> 00:38:08,699
+Então você definir objetivos que sejam
+
+892
+00:38:05,280 --> 00:38:10,859
+qualitativos e resultados que sejam
+
+893
+00:38:08,699 --> 00:38:12,299
+quantitativos Então você vai dizer que
+
+894
+00:38:10,858 --> 00:38:14,400
+para eu alcançar um determinado objetivo
+
+895
+00:38:12,300 --> 00:38:16,380
+eu tenho que produzir um objetivo
+
+896
+00:38:14,400 --> 00:38:19,980
+qualitativo eu tenho que produzir
+
+897
+00:38:16,380 --> 00:38:21,780
+determinados resultados quantitativos
+
+898
+00:38:19,980 --> 00:38:24,300
+ele é muito é um método muito simples
+
+899
+00:38:21,780 --> 00:38:27,119
+muito ágil então ele carece de um
+
+900
+00:38:24,300 --> 00:38:28,980
+conhecimento um pouco mais explícito de
+
+901
+00:38:27,119 --> 00:38:30,660
+mais conhecimento explícito para
+
+902
+00:38:28,980 --> 00:38:32,699
+auxiliar em como que eu defino esses
+
+903
+00:38:30,659 --> 00:38:34,379
+objetivos como que eu defino esses
+
+904
+00:38:32,699 --> 00:38:35,759
+resultados como que eu defino as
+
+905
+00:38:34,380 --> 00:38:38,700
+estratégias para alcançar esses
+
+906
+00:38:35,760 --> 00:38:41,700
+resultados então nós usamos o QR como se
+
+907
+00:38:38,699 --> 00:38:45,679
+fosse o Framework geral né seguimos a
+
+908
+00:38:41,699 --> 00:38:45,679
+ideia de definir objetos
+
+909
+00:38:45,739 --> 00:38:52,019
+e nós usamos o de Ken Plus como corpo de
+
+910
+00:38:49,800 --> 00:38:54,900
+conhecimento então para fazer para
+
+911
+00:38:52,019 --> 00:38:57,780
+produzir os resultados esperados no KR a
+
+912
+00:38:54,900 --> 00:39:00,059
+gente usou o corpo de conhecimento as
+
+913
+00:38:57,780 --> 00:39:02,780
+guidelines que tinha que são lado de
+
+914
+00:39:00,059 --> 00:39:05,880
+quem então o
+
+915
+00:39:02,780 --> 00:39:07,619
+método ele deu para gente nesse contexto
+
+916
+00:39:05,880 --> 00:39:09,240
+agilidade para a gente definir os
+
+917
+00:39:07,619 --> 00:39:12,059
+indicadores para definir as métricas
+
+918
+00:39:09,239 --> 00:39:14,279
+enquanto que o de candless deu para
+
+919
+00:39:12,059 --> 00:39:18,619
+gente o conhecimento nos guiou melhor
+
+920
+00:39:14,280 --> 00:39:18,619
+sobre como fazer aquilo ali
+
+921
+00:39:22,338 --> 00:39:29,219
+certo e agora falando um pouco a
+
+922
+00:39:25,980 --> 00:39:32,760
+respeito também de ontologias na área de
+
+923
+00:39:29,219 --> 00:39:36,539
+engenharia de software eu acho que você
+
+924
+00:39:32,760 --> 00:39:40,500
+podia comentar com antes de falar das
+
+925
+00:39:36,539 --> 00:39:43,440
+pesquisas né nessa área de engenharia de
+
+926
+00:39:40,500 --> 00:39:45,960
+software com ontologias é o que são
+
+927
+00:39:43,440 --> 00:39:48,440
+ontologias também depois nos contaram um
+
+928
+00:39:45,960 --> 00:39:51,900
+pouquinho mais sobre como essas como as
+
+929
+00:39:48,440 --> 00:39:54,780
+antologia são utilizadas em pesquisas no
+
+930
+00:39:51,900 --> 00:39:57,240
+contexto de engenharia de software
+
+931
+00:39:54,780 --> 00:40:00,359
+Ok Maria Cláudia vamos lá então vamos
+
+932
+00:39:57,239 --> 00:40:03,419
+falar assim brevemente sobre o que que
+
+933
+00:40:00,358 --> 00:40:05,338
+são as ontologias tem uma definição que
+
+934
+00:40:03,420 --> 00:40:07,980
+é bem clássica e é bem Aceita na área
+
+935
+00:40:05,338 --> 00:40:11,159
+que diz que o mundologia ela é uma
+
+936
+00:40:07,980 --> 00:40:14,519
+especificação formal e explícita de uma
+
+937
+00:40:11,159 --> 00:40:17,039
+conceituação compartilhada Mas como que
+
+938
+00:40:14,519 --> 00:40:18,719
+a gente entende essa essa definição né
+
+939
+00:40:17,039 --> 00:40:19,579
+então primeiro não tem que ter uma
+
+940
+00:40:18,719 --> 00:40:23,159
+conceituação
+
+941
+00:40:19,579 --> 00:40:24,780
+conceituação é uma abstração de uma
+
+942
+00:40:23,159 --> 00:40:26,879
+porção do mundo que eu quero representar
+
+943
+00:40:24,780 --> 00:40:29,700
+então por exemplo se eu quero falar
+
+944
+00:40:26,880 --> 00:40:32,160
+sobre universidades eu quero prover uma
+
+945
+00:40:29,699 --> 00:40:34,279
+conceituação que vai abstrair vai ser
+
+946
+00:40:32,159 --> 00:40:36,259
+uma abstração para mim do que são
+
+947
+00:40:34,280 --> 00:40:39,540
+universidades
+
+948
+00:40:36,260 --> 00:40:42,540
+quando a gente fala que é uma uma
+
+949
+00:40:39,539 --> 00:40:45,000
+especificação explícita a gente tá
+
+950
+00:40:42,539 --> 00:40:47,480
+falando que os conceitos e as regras as
+
+951
+00:40:45,000 --> 00:40:50,880
+restrições que que
+
+952
+00:40:47,480 --> 00:40:52,380
+regem essa conceituação esse universo
+
+953
+00:40:50,880 --> 00:40:54,358
+sobre quais essa porção do mundo sobre a
+
+954
+00:40:52,380 --> 00:40:57,780
+qual a gente quer falar elas precisam
+
+955
+00:40:54,358 --> 00:41:00,299
+ser comidas explicitamente quando a
+
+956
+00:40:57,780 --> 00:41:02,339
+gente fala que tem que ser formal é que
+
+957
+00:41:00,300 --> 00:41:05,839
+a ontologia ela tem que ser representada
+
+958
+00:41:02,338 --> 00:41:08,099
+de tal forma que seja possível eu
+
+959
+00:41:05,838 --> 00:41:10,619
+computadores máquinas entenderem
+
+960
+00:41:08,099 --> 00:41:14,099
+essantologia essa conceituação ela tem
+
+961
+00:41:10,619 --> 00:41:16,800
+que ser tal que possa ser entendida por
+
+962
+00:41:14,099 --> 00:41:19,079
+máquinas por computadores e por fim ela
+
+963
+00:41:16,800 --> 00:41:21,240
+é compartilhada porque ela avisa
+
+964
+00:41:19,079 --> 00:41:24,480
+representar um conhecimento que seja
+
+965
+00:41:21,239 --> 00:41:26,659
+consensual em uma comunidade Ou seja é
+
+966
+00:41:24,480 --> 00:41:29,820
+um conhecimento que é
+
+967
+00:41:26,659 --> 00:41:32,699
+reconhecido como verdadeiro em uma
+
+968
+00:41:29,820 --> 00:41:34,079
+comunidade Então pegando esse exemplo
+
+969
+00:41:32,699 --> 00:41:35,819
+que eu falei da Universidade por exemplo
+
+970
+00:41:34,079 --> 00:41:38,460
+se eu quero definir uma ontologia sobre
+
+971
+00:41:35,820 --> 00:41:40,200
+Universidade eu vou ter que criar uma
+
+972
+00:41:38,460 --> 00:41:42,659
+abstração então por exemplo eu posso
+
+973
+00:41:40,199 --> 00:41:44,759
+criar um modelo conceitual sobre
+
+974
+00:41:42,659 --> 00:41:47,000
+Universidade representando conceitos
+
+975
+00:41:44,760 --> 00:41:49,220
+relações e restrições
+
+976
+00:41:47,000 --> 00:41:52,079
+esses conceitos tem que ser definidos
+
+977
+00:41:49,219 --> 00:41:55,799
+explicitamente por exemplo eu posso usar
+
+978
+00:41:52,079 --> 00:41:58,260
+aí vou apelar por uma linguagem que todo
+
+979
+00:41:55,800 --> 00:41:59,460
+mundo acredito que a maioria da das
+
+980
+00:41:58,260 --> 00:42:01,440
+pessoas que estão ouvindo conhece então
+
+981
+00:41:59,460 --> 00:42:03,300
+por exemplo eu posso usar o ML eu posso
+
+982
+00:42:01,440 --> 00:42:05,338
+usar diagramas de classe da URL por
+
+983
+00:42:03,300 --> 00:42:08,339
+exemplo para representar essas classes
+
+984
+00:42:05,338 --> 00:42:11,759
+essas relações e expressar essas
+
+985
+00:42:08,338 --> 00:42:15,000
+restrições é compartilhada no sentido de
+
+986
+00:42:11,760 --> 00:42:16,980
+que é ao definir uma mitologia sobre
+
+987
+00:42:15,000 --> 00:42:19,679
+Universidade eu tenho que falar coisas
+
+988
+00:42:16,980 --> 00:42:22,619
+que sejam que a comunidade que conhece
+
+989
+00:42:19,679 --> 00:42:24,779
+universidades concorda que é aquilo que
+
+990
+00:42:22,619 --> 00:42:26,820
+está sendo representado
+
+991
+00:42:24,780 --> 00:42:30,839
+isso então eu passei por todos né então
+
+992
+00:42:26,820 --> 00:42:34,400
+esse esse é um exemplo E aí a gente tem
+
+993
+00:42:30,838 --> 00:42:36,239
+dois tipos bem bem característicos de
+
+994
+00:42:34,400 --> 00:42:38,039
+Ontologia Na verdade tem várias
+
+995
+00:42:36,239 --> 00:42:39,979
+classificações mas eu vou pegar duas que
+
+996
+00:42:38,039 --> 00:42:43,079
+são mais importantes para nossa conversa
+
+997
+00:42:39,980 --> 00:42:45,480
+é a gente pode pensar nas ontologias
+
+998
+00:42:43,079 --> 00:42:48,660
+como modelos conceituais aí de novo
+
+999
+00:42:45,480 --> 00:42:50,400
+fazendo uma analogia bem bem simples A
+
+1000
+00:42:48,659 --> 00:42:53,098
+gente pode pensar em uma ontologia como
+
+1001
+00:42:50,400 --> 00:42:55,200
+um modelo de classes da ML né só que ele
+
+1002
+00:42:53,099 --> 00:42:57,240
+é um modelo de um modelo enriquecido
+
+1003
+00:42:55,199 --> 00:42:59,639
+Aonde eu tô falando de conceitos
+
+1004
+00:42:57,239 --> 00:43:01,919
+restrições aquela ideia das classes que
+
+1005
+00:42:59,639 --> 00:43:05,279
+a gente usa para implementar sistemas
+
+1006
+00:43:01,920 --> 00:43:06,838
+ela é eu sou o nível de abstração então
+
+1007
+00:43:05,280 --> 00:43:08,640
+meu modelo ele fica um modelo
+
+1008
+00:43:06,838 --> 00:43:09,739
+enriquecido eu tenho toda uma
+
+1009
+00:43:08,639 --> 00:43:12,239
+fundamentação
+
+1010
+00:43:09,739 --> 00:43:14,759
+teórica por trás para eu criar esse
+
+1011
+00:43:12,239 --> 00:43:17,578
+modelo esses modelos conceituais são
+
+1012
+00:43:14,760 --> 00:43:20,160
+chamados ontologias de referência
+
+1013
+00:43:17,579 --> 00:43:22,140
+né E só que eu posso uma vez que eu
+
+1014
+00:43:20,159 --> 00:43:24,480
+tenho esse modelo definido e que a
+
+1015
+00:43:22,139 --> 00:43:26,279
+comunidade Concorde que este é um modelo
+
+1016
+00:43:24,480 --> 00:43:28,260
+que representa a porção do mundo
+
+1017
+00:43:26,280 --> 00:43:31,260
+adequadamente Ou seja que a conceituação
+
+1018
+00:43:28,260 --> 00:43:33,420
+é adequada eu posso implementar este
+
+1019
+00:43:31,260 --> 00:43:36,260
+modelo usando linguagem de máquina então
+
+1020
+00:43:33,420 --> 00:43:39,838
+por exemplo eu posso criar uma ontologia
+
+1021
+00:43:36,260 --> 00:43:41,460
+RDF posso usar ferramentas diversas para
+
+1022
+00:43:39,838 --> 00:43:43,380
+poder fazer isso e essas antologias
+
+1023
+00:43:41,460 --> 00:43:47,699
+implementadas é o que a gente chama de
+
+1024
+00:43:43,380 --> 00:43:49,680
+antologias operacionais E aí tanto uma
+
+1025
+00:43:47,699 --> 00:43:51,598
+vez que a gente entendeu um pouquinho
+
+1026
+00:43:49,679 --> 00:43:54,419
+que que são ontologias como que a gente
+
+1027
+00:43:51,599 --> 00:43:56,579
+usa isso né que que tem sido feito com
+
+1028
+00:43:54,420 --> 00:43:57,380
+antologias no âmbito de engenharia de
+
+1029
+00:43:56,579 --> 00:43:59,760
+sobra
+
+1030
+00:43:57,380 --> 00:44:01,318
+ontologias Elas têm sido usadas em
+
+1031
+00:43:59,760 --> 00:44:04,500
+engenharia de software já bastante tempo
+
+1032
+00:44:01,318 --> 00:44:06,239
+e elas podem ser usadas de maneiras
+
+1033
+00:44:04,500 --> 00:44:07,380
+diversas para resolver diferentes
+
+1034
+00:44:06,239 --> 00:44:10,139
+problemas
+
+1035
+00:44:07,380 --> 00:44:12,539
+geralmente esses problemas eles são
+
+1036
+00:44:10,139 --> 00:44:13,920
+problemas relacionados a conhecimento ou
+
+1037
+00:44:12,539 --> 00:44:16,800
+problemas relacionados à
+
+1038
+00:44:13,920 --> 00:44:19,559
+interoperabilidade então por exemplo eu
+
+1039
+00:44:16,800 --> 00:44:21,960
+posso usar ontologia simplesmente para
+
+1040
+00:44:19,559 --> 00:44:24,179
+prover conhecimento acerca de um domínio
+
+1041
+00:44:21,960 --> 00:44:25,559
+isso tem a ver por exemplo com vai me
+
+1042
+00:44:24,179 --> 00:44:28,440
+ajudar em engenharia de domínio por
+
+1043
+00:44:25,559 --> 00:44:30,179
+exemplo E aí no âmbito de Pesquisas a
+
+1044
+00:44:28,440 --> 00:44:33,420
+gente tem usado bastante isso por
+
+1045
+00:44:30,179 --> 00:44:34,858
+exemplo lá na Minha tese de doutorado eu
+
+1046
+00:44:33,420 --> 00:44:36,599
+por Pouso uma ontologia de medição
+
+1047
+00:44:34,858 --> 00:44:39,358
+inclusive ontologia de medição de
+
+1048
+00:44:36,599 --> 00:44:41,160
+software a gente tem é uma proposta de
+
+1049
+00:44:39,358 --> 00:44:42,838
+uma rede de ontologias para engenharia
+
+1050
+00:44:41,159 --> 00:44:45,598
+de software que tem ontologias para
+
+1051
+00:44:42,838 --> 00:44:47,219
+diversos processos medição de software
+
+1052
+00:44:45,599 --> 00:44:50,599
+processo em geral garantia da qualidade
+
+1053
+00:44:47,219 --> 00:44:53,459
+teste codificação análise então eles
+
+1054
+00:44:50,599 --> 00:44:55,380
+estabelecem essa conceituação comum que
+
+1055
+00:44:53,460 --> 00:44:57,539
+a princípio ela pode ser usada como
+
+1056
+00:44:55,380 --> 00:45:01,019
+instrumento de comunicação porque eu
+
+1057
+00:44:57,539 --> 00:45:04,039
+passo a ter um acordo conceitual sobre a
+
+1058
+00:45:01,019 --> 00:45:07,019
+tecnologia que a gente vai usar
+
+1059
+00:45:04,039 --> 00:45:10,139
+esses modelos conceituais eles podem ser
+
+1060
+00:45:07,019 --> 00:45:11,759
+usados como eu falei em soluções de
+
+1061
+00:45:10,139 --> 00:45:14,098
+interabilidade E aí eu posso estar
+
+1062
+00:45:11,760 --> 00:45:16,380
+falando por exemplo de interabilidade de
+
+1063
+00:45:14,099 --> 00:45:20,039
+sistemas de interoperabilidade de dados
+
+1064
+00:45:16,380 --> 00:45:21,720
+E aí eu posso usar as ontologias como
+
+1065
+00:45:20,039 --> 00:45:25,259
+uma interlin língua esse modelo
+
+1066
+00:45:21,719 --> 00:45:27,059
+conceitual ele me ajuda a identificar a
+
+1067
+00:45:25,260 --> 00:45:30,839
+evitar o que a gente chama de conflito
+
+1068
+00:45:27,059 --> 00:45:33,000
+semântico que é quando o mesmo termo por
+
+1069
+00:45:30,838 --> 00:45:35,338
+exemplo ele tem se sentir significados
+
+1070
+00:45:33,000 --> 00:45:38,579
+diferentes em Sistemas diferentes então
+
+1071
+00:45:35,338 --> 00:45:40,679
+por exemplo em um em um sistema eu tenho
+
+1072
+00:45:38,579 --> 00:45:42,599
+o conceito de pessoa em outro sistema eu
+
+1073
+00:45:40,679 --> 00:45:45,838
+tenho o conceito de pessoa mas ele
+
+1074
+00:45:42,599 --> 00:45:49,260
+significam coisas diferentes ou quando
+
+1075
+00:45:45,838 --> 00:45:50,818
+eu tenho termos diferentes usados como o
+
+1076
+00:45:49,260 --> 00:45:52,980
+mesmo significado então por exemplo num
+
+1077
+00:45:50,818 --> 00:45:54,599
+sistema eu tenho pessoa e no outro eu
+
+1078
+00:45:52,980 --> 00:45:57,539
+tenho cliente mas Em ambos eu estou
+
+1079
+00:45:54,599 --> 00:45:59,640
+falando sobre cliente né então antologia
+
+1080
+00:45:57,539 --> 00:46:02,279
+ela serve como uma interliga para me
+
+1081
+00:45:59,639 --> 00:46:05,699
+ajudar a identificar as equivalências
+
+1082
+00:46:02,280 --> 00:46:08,339
+semânticas e as s semânticas e assim eu
+
+1083
+00:46:05,699 --> 00:46:11,039
+posso fazer a integração adequadamente
+
+1084
+00:46:08,338 --> 00:46:13,338
+evitando por exemplo que eu entrego os
+
+1085
+00:46:11,039 --> 00:46:15,838
+dados ou sistemas de maneira equivocada
+
+1086
+00:46:13,338 --> 00:46:19,199
+aquele artigo que foi citado
+
+1087
+00:46:15,838 --> 00:46:21,858
+anteriormente sobre o uso de mitologia
+
+1088
+00:46:19,199 --> 00:46:25,379
+de referência de
+
+1089
+00:46:21,858 --> 00:46:27,119
+aplicações a gente fez exatamente isso a
+
+1090
+00:46:25,380 --> 00:46:29,780
+gente usa uma ontologia para integrar
+
+1091
+00:46:27,119 --> 00:46:32,818
+dados de diferentes ferramentas
+
+1092
+00:46:29,780 --> 00:46:33,839
+a gente também pode usar ontologias para
+
+1093
+00:46:32,818 --> 00:46:35,759
+fazer o que a gente chama de
+
+1094
+00:46:33,838 --> 00:46:37,019
+harmonização de padrões isso é muito
+
+1095
+00:46:35,760 --> 00:46:39,240
+importante na engenharia de software
+
+1096
+00:46:37,019 --> 00:46:41,519
+porque é engenharia de software a gente
+
+1097
+00:46:39,239 --> 00:46:43,799
+costuma utilizar vários padrões por
+
+1098
+00:46:41,519 --> 00:46:46,559
+exemplo modelos de maturidade normas ISO
+
+1099
+00:46:43,800 --> 00:46:48,839
+padrões e três é e às vezes a gente tem
+
+1100
+00:46:46,559 --> 00:46:51,119
+a empresa ela tem vários padrões que
+
+1101
+00:46:48,838 --> 00:46:53,460
+tratam de um mesmo assunto e ela precisa
+
+1102
+00:46:51,119 --> 00:46:56,338
+atender os vários padrões ao mesmo tempo
+
+1103
+00:46:53,460 --> 00:46:57,659
+então ela tem que olhar que que um fala
+
+1104
+00:46:56,338 --> 00:46:59,279
+que que o outro fala que que o outro
+
+1105
+00:46:57,659 --> 00:47:02,519
+fala identificar que que eu tenho que
+
+1106
+00:46:59,280 --> 00:47:05,700
+fazer para eu atender esses três e aí a
+
+1107
+00:47:02,519 --> 00:47:07,318
+gente pode usar a ontologias também para
+
+1108
+00:47:05,699 --> 00:47:08,939
+atribuir semântica os itens de
+
+1109
+00:47:07,318 --> 00:47:10,980
+informação então isso vai me ajudar a
+
+1110
+00:47:08,940 --> 00:47:12,838
+identificar Quais são as equivalências
+
+1111
+00:47:10,980 --> 00:47:15,659
+quais são as diferenças e eu consigo
+
+1112
+00:47:12,838 --> 00:47:18,000
+identificar o que que a partir daí o que
+
+1113
+00:47:15,659 --> 00:47:20,960
+que eu preciso quais práticas eu preciso
+
+1114
+00:47:18,000 --> 00:47:24,719
+efetivamente atender por exemplo
+
+1115
+00:47:20,960 --> 00:47:27,358
+a gente pode também usar ontologias para
+
+1116
+00:47:24,719 --> 00:47:29,578
+apoiar desenvolvimento de sistemas por
+
+1117
+00:47:27,358 --> 00:47:30,838
+exemplo E aí a gente pode usar as
+
+1118
+00:47:29,579 --> 00:47:32,099
+odontologias Para apoiar o
+
+1119
+00:47:30,838 --> 00:47:34,440
+desenvolvimento de sistemas em
+
+1120
+00:47:32,099 --> 00:47:36,140
+diferentes níveis por exemplo aquelas
+
+1121
+00:47:34,440 --> 00:47:39,780
+ontologias de referência que são modelos
+
+1122
+00:47:36,139 --> 00:47:41,639
+conceituais eu posso usar pelas para me
+
+1123
+00:47:39,780 --> 00:47:44,160
+ajudar nas etapas conceituais do
+
+1124
+00:47:41,639 --> 00:47:46,618
+desenvolvimento por exemplo é o modelo
+
+1125
+00:47:44,159 --> 00:47:48,838
+da ontologia pode me ajudar a criar o
+
+1126
+00:47:46,619 --> 00:47:50,700
+modelo estrutural do meu sistema o
+
+1127
+00:47:48,838 --> 00:47:52,799
+modelo da ontologia ele pode prover para
+
+1128
+00:47:50,699 --> 00:47:54,719
+mim todo o conhecimento que eu preciso
+
+1129
+00:47:52,800 --> 00:47:56,099
+para desenvolver aquele sistema então
+
+1130
+00:47:54,719 --> 00:47:57,899
+por exemplo imagina que você tem que
+
+1131
+00:47:56,099 --> 00:48:00,359
+fazer um sistema para área de petróleo e
+
+1132
+00:47:57,900 --> 00:48:02,338
+gás que é uma área super complexa se eu
+
+1133
+00:48:00,358 --> 00:48:04,858
+tenho uma ontologia que já me proveu o
+
+1134
+00:48:02,338 --> 00:48:06,539
+conhecimento acerca disso eu já tenho
+
+1135
+00:48:04,858 --> 00:48:08,219
+uma grande parte do caminho andado
+
+1136
+00:48:06,539 --> 00:48:10,739
+porque ela vira uma referência para eu
+
+1137
+00:48:08,219 --> 00:48:13,259
+poder modelar o meu sistema
+
+1138
+00:48:10,739 --> 00:48:15,838
+e a gente também pode usar as ontologias
+
+1139
+00:48:13,260 --> 00:48:17,520
+em tempo de implementação E aí a gente
+
+1140
+00:48:15,838 --> 00:48:20,880
+pode falar das antologias operacionais
+
+1141
+00:48:17,519 --> 00:48:22,679
+por exemplo então eu posso usar as
+
+1142
+00:48:20,880 --> 00:48:25,220
+ontologias operacionais ou seja aquelas
+
+1143
+00:48:22,679 --> 00:48:28,139
+ontologias implementadas para eu criar
+
+1144
+00:48:25,219 --> 00:48:29,578
+tipos específicos de bancos de dados né
+
+1145
+00:48:28,139 --> 00:48:31,679
+Por exemplo bancos de triplas onde eu
+
+1146
+00:48:29,579 --> 00:48:35,280
+vou armazenar os dados como instâncias
+
+1147
+00:48:31,679 --> 00:48:38,098
+da ontologia e eu posso também utilizar
+
+1148
+00:48:35,280 --> 00:48:40,140
+essa Tecnologias para fazer o exame
+
+1149
+00:48:38,099 --> 00:48:41,760
+então por exemplo a gente tem um
+
+1150
+00:48:40,139 --> 00:48:44,279
+trabalho em andamento onde a gente tá
+
+1151
+00:48:41,760 --> 00:48:46,740
+usando ontologias sobre sistemas
+
+1152
+00:48:44,280 --> 00:48:48,380
+adaptativos aí a gente tá usando essas
+
+1153
+00:48:46,739 --> 00:48:50,759
+ontologias para
+
+1154
+00:48:48,380 --> 00:48:54,420
+desenvolver sistemas com Interface
+
+1155
+00:48:50,760 --> 00:48:55,859
+adaptativa aí a gente usa a ontologia de
+
+1156
+00:48:54,420 --> 00:48:58,500
+referência o modelo conceitual para
+
+1157
+00:48:55,858 --> 00:49:00,059
+estruturar o sistema e a gente usa a
+
+1158
+00:48:58,500 --> 00:49:02,519
+ontologia operacional ou seja
+
+1159
+00:49:00,059 --> 00:49:05,159
+implementar versão implementada naquela
+
+1160
+00:49:02,519 --> 00:49:08,420
+ontologia conceitual a gente usa essa
+
+1161
+00:49:05,159 --> 00:49:10,679
+versão operacional para poder fazer isso
+
+1162
+00:49:08,420 --> 00:49:12,420
+identificar por exemplo de acordo
+
+1163
+00:49:10,679 --> 00:49:14,399
+características do usuário quais
+
+1164
+00:49:12,420 --> 00:49:18,000
+adaptações precisam ser feitas na
+
+1165
+00:49:14,400 --> 00:49:21,300
+interface né é uma outra aplicação bem
+
+1166
+00:49:18,000 --> 00:49:23,099
+bem relevante é a gente usar ontologias
+
+1167
+00:49:21,300 --> 00:49:26,220
+no que a gente chama de documentação
+
+1168
+00:49:23,099 --> 00:49:30,180
+semântica que é usar a mesma ideia da
+
+1169
+00:49:26,219 --> 00:49:32,399
+web semântica só que agora é focado em
+
+1170
+00:49:30,179 --> 00:49:33,899
+documentos e não em páginas e outros
+
+1171
+00:49:32,400 --> 00:49:35,519
+itens de informação da web na verdade o
+
+1172
+00:49:33,900 --> 00:49:38,039
+nosso artefato de informação passa a ser
+
+1173
+00:49:35,519 --> 00:49:41,338
+documentos e aí a gente pode usar as
+
+1174
+00:49:38,039 --> 00:49:43,559
+ontologias para anotar templates dos
+
+1175
+00:49:41,338 --> 00:49:45,659
+documentos Ou seja eu digo o que que
+
+1176
+00:49:43,559 --> 00:49:47,759
+significa cada cada parte do meu
+
+1177
+00:49:45,659 --> 00:49:50,159
+documento Cada sessão cada item de
+
+1178
+00:49:47,760 --> 00:49:52,619
+tabela cada coisa do meu documento ou
+
+1179
+00:49:50,159 --> 00:49:55,019
+uma planilha eu posso anotar usando os
+
+1180
+00:49:52,619 --> 00:49:57,358
+conceitos odontologia e isso me permite
+
+1181
+00:49:55,019 --> 00:49:59,460
+depois extrair informações dos
+
+1182
+00:49:57,358 --> 00:50:01,440
+documentos armazenar em um repositório e
+
+1183
+00:49:59,460 --> 00:50:03,000
+fazer consultas e gerar informações
+
+1184
+00:50:01,440 --> 00:50:05,659
+consolidadas
+
+1185
+00:50:03,000 --> 00:50:08,818
+esse tipo de abordagem é especialmente
+
+1186
+00:50:05,659 --> 00:50:10,920
+importante para as empresas que usam
+
+1187
+00:50:08,818 --> 00:50:13,858
+muitos documentos e a gente tem muitas
+
+1188
+00:50:10,920 --> 00:50:16,318
+que usam e que elas por exemplo não tem
+
+1189
+00:50:13,858 --> 00:50:18,119
+não é um benefício para elas elas
+
+1190
+00:50:16,318 --> 00:50:19,980
+mudarem dos documentos para algum tipo
+
+1191
+00:50:18,119 --> 00:50:21,720
+de sistema de informação que ela fala
+
+1192
+00:50:19,980 --> 00:50:22,920
+assim não eu preciso continuar usando os
+
+1193
+00:50:21,719 --> 00:50:24,419
+documentos então a gente pode
+
+1194
+00:50:22,920 --> 00:50:26,639
+transformar esses documentos em
+
+1195
+00:50:24,420 --> 00:50:28,260
+documentos semânticos e extrair
+
+1196
+00:50:26,639 --> 00:50:30,118
+informação deles e apresentar
+
+1197
+00:50:28,260 --> 00:50:32,880
+informações consolidadas como se fosse
+
+1198
+00:50:30,119 --> 00:50:34,220
+um sistema um software um sistema de
+
+1199
+00:50:32,880 --> 00:50:36,780
+informação
+
+1200
+00:50:34,219 --> 00:50:39,959
+para essas coisas que eu fui falando
+
+1201
+00:50:36,780 --> 00:50:41,400
+aqui a gente tem trabalhos diversos que
+
+1202
+00:50:39,960 --> 00:50:43,260
+a gente desenvolveu quem quiser dar uma
+
+1203
+00:50:41,400 --> 00:50:46,680
+olhadinha na minha página tem uma porção
+
+1204
+00:50:43,260 --> 00:50:48,079
+de exemplo sobre isso e além desses
+
+1205
+00:50:46,679 --> 00:50:51,539
+trabalhos que são
+
+1206
+00:50:48,079 --> 00:50:53,940
+já focados no uso das ontologias as
+
+1207
+00:50:51,539 --> 00:50:56,338
+ontologias também podem usar abordagens
+
+1208
+00:50:53,940 --> 00:50:57,599
+que já existe então como eu falei antes
+
+1209
+00:50:56,338 --> 00:51:00,299
+hoje a gente está falando muito
+
+1210
+00:50:57,599 --> 00:51:02,160
+mineração de repositórios só que
+
+1211
+00:51:00,300 --> 00:51:04,079
+geralmente a mineração de repositório as
+
+1212
+00:51:02,159 --> 00:51:07,440
+soluções elas comprar um repositório
+
+1213
+00:51:04,079 --> 00:51:08,780
+específico já se a gente usar ontologias
+
+1214
+00:51:07,440 --> 00:51:11,519
+a gente pode
+
+1215
+00:51:08,780 --> 00:51:13,740
+potencializar essa soluções como por
+
+1216
+00:51:11,519 --> 00:51:16,559
+exemplo passar a fazer soluções para um
+
+1217
+00:51:13,739 --> 00:51:18,239
+domínio que permita trocar os
+
+1218
+00:51:16,559 --> 00:51:19,380
+repositórios que falem sobre o mesmo
+
+1219
+00:51:18,239 --> 00:51:21,539
+domínio então por exemplo se eu tô
+
+1220
+00:51:19,380 --> 00:51:23,220
+falando sobre desenvolvimento ágil eu
+
+1221
+00:51:21,539 --> 00:51:25,619
+posso ter uma solução que me permita
+
+1222
+00:51:23,219 --> 00:51:28,618
+olhar Qualquer repositório sobre que
+
+1223
+00:51:25,619 --> 00:51:31,800
+tenha dado de desenvolvimento ágil né
+
+1224
+00:51:28,619 --> 00:51:35,099
+Essas são algumas das aplicações a gente
+
+1225
+00:51:31,800 --> 00:51:37,140
+poderia falar muito mais mas já já tô já
+
+1226
+00:51:35,099 --> 00:51:39,420
+me empolguei aqui no tempo
+
+1227
+00:51:37,139 --> 00:51:42,659
+tranquilo tranquilo então agora a gente
+
+1228
+00:51:39,420 --> 00:51:44,280
+vai entrar numa outra parte do nosso da
+
+1229
+00:51:42,659 --> 00:51:46,139
+nossa entrevista onde a gente pergunta
+
+1230
+00:51:44,280 --> 00:51:48,359
+sobre outros temas relacionados a
+
+1231
+00:51:46,139 --> 00:51:51,659
+pesquisa mas não são especificamente
+
+1232
+00:51:48,358 --> 00:51:53,880
+sobre artigos Então você é uma das
+
+1233
+00:51:51,659 --> 00:51:56,159
+coordenadoras do comitê de programa da
+
+1234
+00:51:53,880 --> 00:51:57,920
+trilha de trabalhos técnicos do simpósio
+
+1235
+00:51:56,159 --> 00:52:01,078
+brasileiro de qualidade de software
+
+1236
+00:51:57,920 --> 00:52:03,119
+usbqs 2023 que vai acontecer em novembro
+
+1237
+00:52:01,079 --> 00:52:06,240
+deste ano em Brasília você foi
+
+1238
+00:52:03,119 --> 00:52:07,980
+coordenadora Geral do sbts 2021 que
+
+1239
+00:52:06,239 --> 00:52:09,959
+infelizmente foi realizado online
+
+1240
+00:52:07,980 --> 00:52:11,639
+durante a pandemia infelizmente porque
+
+1241
+00:52:09,960 --> 00:52:13,079
+eu acho que a maioria das pessoas pelo
+
+1242
+00:52:11,639 --> 00:52:14,940
+visto todos os eventos praticamente
+
+1243
+00:52:13,079 --> 00:52:16,039
+estão voltando a ser presenciais que
+
+1244
+00:52:14,940 --> 00:52:19,800
+estão as pessoas preferem
+
+1245
+00:52:16,039 --> 00:52:21,539
+presencialmente apesar dos custos mas a
+
+1246
+00:52:19,800 --> 00:52:24,300
+pergunta para você é porque é importante
+
+1247
+00:52:21,539 --> 00:52:28,318
+para pessoas da comunidade submeter
+
+1248
+00:52:24,300 --> 00:52:30,900
+artigos e ou participar né Eu até eu
+
+1249
+00:52:28,318 --> 00:52:33,719
+gosto sempre de falar aqui nesse nesse
+
+1250
+00:52:30,900 --> 00:52:35,400
+canal aqui nesse podcast porque a gente
+
+1251
+00:52:33,719 --> 00:52:37,139
+tem a gente sabe que tem pessoas da
+
+1252
+00:52:35,400 --> 00:52:38,579
+indústria escutando
+
+1253
+00:52:37,139 --> 00:52:40,199
+às vezes até interessante para essas
+
+1254
+00:52:38,579 --> 00:52:42,119
+pessoas ainda participarem dos eventos
+
+1255
+00:52:40,199 --> 00:52:44,179
+acadêmicos de engenheiro de software que
+
+1256
+00:52:42,119 --> 00:52:47,220
+são
+
+1257
+00:52:44,179 --> 00:52:51,058
+Porque é importante submeter artigos e
+
+1258
+00:52:47,219 --> 00:52:54,779
+ou participar do sbts
+
+1259
+00:52:51,059 --> 00:52:57,960
+quando o sbts ele é o nosso evento de
+
+1260
+00:52:54,780 --> 00:52:59,819
+referência né na área de qualidade de
+
+1261
+00:52:57,960 --> 00:53:01,139
+software e se a gente pensar em
+
+1262
+00:52:59,818 --> 00:53:02,880
+qualidade de soft a gente fala a
+
+1263
+00:53:01,139 --> 00:53:06,420
+qualidade de software ela se faz
+
+1264
+00:53:02,880 --> 00:53:08,960
+presente de uma forma muito Ampla o
+
+1265
+00:53:06,420 --> 00:53:12,240
+espectro ele é muito amplo
+
+1266
+00:53:08,960 --> 00:53:13,740
+de aspectos de qualidade de software com
+
+1267
+00:53:12,239 --> 00:53:16,519
+os quais a gente pode pode se preocupar
+
+1268
+00:53:13,739 --> 00:53:19,679
+né desde questões por exemplo
+
+1269
+00:53:16,519 --> 00:53:21,179
+relacionadas aí HC né que a gente tá lá
+
+1270
+00:53:19,679 --> 00:53:23,098
+naquela intercessão engenharia de
+
+1271
+00:53:21,179 --> 00:53:24,539
+software com HC então tem aspectos de
+
+1272
+00:53:23,099 --> 00:53:27,420
+usabilidade experiência de usuário
+
+1273
+00:53:24,539 --> 00:53:29,159
+aspectos sociais aspectos Morais
+
+1274
+00:53:27,420 --> 00:53:32,240
+aspectos éticos aspectos de educação
+
+1275
+00:53:29,159 --> 00:53:35,098
+Então tudo isso
+
+1276
+00:53:32,239 --> 00:53:36,779
+a qualidade de software tudo isso tudo
+
+1277
+00:53:35,099 --> 00:53:39,838
+que influencia a qualidade de processo
+
+1278
+00:53:36,780 --> 00:53:43,740
+ou produto de software do que é de
+
+1279
+00:53:39,838 --> 00:53:46,199
+interesse do sbts e o sbts ele tem uma
+
+1280
+00:53:43,739 --> 00:53:47,399
+característica muito marcante que tá
+
+1281
+00:53:46,199 --> 00:53:49,618
+muito alinhada com isso que você falou
+
+1282
+00:53:47,400 --> 00:53:51,000
+sobre o interesse nos profissionais da
+
+1283
+00:53:49,619 --> 00:53:54,000
+Indústria
+
+1284
+00:53:51,000 --> 00:53:58,380
+ele prima pela aproximação entre
+
+1285
+00:53:54,000 --> 00:54:00,780
+academia e Indústria né então é quem
+
+1286
+00:53:58,380 --> 00:54:02,099
+participa do sbts não são só os
+
+1287
+00:54:00,780 --> 00:54:04,680
+pesquisadores mas a gente tem
+
+1288
+00:54:02,099 --> 00:54:06,240
+pesquisadores nós temos educadores e nós
+
+1289
+00:54:04,679 --> 00:54:09,000
+temos profissionais a comunidade de
+
+1290
+00:54:06,239 --> 00:54:10,318
+prática se faz presente nesse BTS nós
+
+1291
+00:54:09,000 --> 00:54:13,679
+temos inclusive uma preocupação muito
+
+1292
+00:54:10,318 --> 00:54:16,858
+grande de que a programação tem aí itens
+
+1293
+00:54:13,679 --> 00:54:18,239
+voltados especificamente voltados para
+
+1294
+00:54:16,858 --> 00:54:20,159
+profissionais como é o caso das
+
+1295
+00:54:18,239 --> 00:54:22,199
+Indústria tóxicas onde a gente tem
+
+1296
+00:54:20,159 --> 00:54:24,899
+profissionais empresas na indústria
+
+1297
+00:54:22,199 --> 00:54:27,139
+compartilhando as experiências deles com
+
+1298
+00:54:24,900 --> 00:54:30,000
+a comunidade
+
+1299
+00:54:27,139 --> 00:54:31,618
+então ele é um fórum que ele é adequado
+
+1300
+00:54:30,000 --> 00:54:34,079
+para trabalhos de pesquisa considerando
+
+1301
+00:54:31,619 --> 00:54:36,660
+essa multitude de perfis a gente pode
+
+1302
+00:54:34,079 --> 00:54:39,000
+dizer que ele é um fórum que para quem
+
+1303
+00:54:36,659 --> 00:54:41,159
+quer submeter trabalhos ele é adequado
+
+1304
+00:54:39,000 --> 00:54:43,920
+para trabalhos de pesquisa
+
+1305
+00:54:41,159 --> 00:54:45,539
+ele é um evento é que é adequado para
+
+1306
+00:54:43,920 --> 00:54:47,519
+relatos de experiência da indústria
+
+1307
+00:54:45,539 --> 00:54:49,500
+exatamente para trazer como que a
+
+1308
+00:54:47,519 --> 00:54:52,139
+qualidade de software tem se manifestado
+
+1309
+00:54:49,500 --> 00:54:54,000
+na indústria e também para falar sobre
+
+1310
+00:54:52,139 --> 00:54:55,500
+educação e qualidade de software porque
+
+1311
+00:54:54,000 --> 00:54:59,099
+para a gente ter qualidade Nós temos que
+
+1312
+00:54:55,500 --> 00:55:02,539
+nos formar em qualidade de som
+
+1313
+00:54:59,099 --> 00:55:05,160
+é Além disso O sbts ele tem
+
+1314
+00:55:02,539 --> 00:55:06,239
+o concurso de tese dissertações e
+
+1315
+00:55:05,159 --> 00:55:08,879
+qualidade de software onde a gente
+
+1316
+00:55:06,239 --> 00:55:10,679
+premia é são premiados os trabalhos de
+
+1317
+00:55:08,880 --> 00:55:12,539
+mestrado e doutorado em qualidade de
+
+1318
+00:55:10,679 --> 00:55:15,899
+software defendidos no ano anterior
+
+1319
+00:55:12,539 --> 00:55:18,420
+então é feito na seleção né E são
+
+1320
+00:55:15,900 --> 00:55:20,099
+premiados os melhores trabalhos e a
+
+1321
+00:55:18,420 --> 00:55:21,960
+gente tem também o workshop de tese
+
+1322
+00:55:20,099 --> 00:55:26,880
+dissertações em qualidade de software
+
+1323
+00:55:21,960 --> 00:55:29,338
+que é um momento dedicado aos
+
+1324
+00:55:26,880 --> 00:55:31,140
+pesquisadores que estão com pesquisas em
+
+1325
+00:55:29,338 --> 00:55:33,599
+desenvolvimento como trabalho de
+
+1326
+00:55:31,139 --> 00:55:36,900
+mestrado e doutorado em andamento aí
+
+1327
+00:55:33,599 --> 00:55:39,180
+esses estudantes esses de Mestrado eles
+
+1328
+00:55:36,900 --> 00:55:41,700
+podem apresentar esses trabalhos para
+
+1329
+00:55:39,179 --> 00:55:43,799
+uma banca no workshop e receber um
+
+1330
+00:55:41,699 --> 00:55:44,879
+feedback que vai ajudar a melhorar o
+
+1331
+00:55:43,800 --> 00:55:47,359
+trabalho ao longo do desenvolvimento
+
+1332
+00:55:44,880 --> 00:55:50,700
+então isso eu acho que é muito bacana
+
+1333
+00:55:47,358 --> 00:55:53,219
+Além disso O sbts ele tem um comitê de
+
+1334
+00:55:50,699 --> 00:55:55,439
+programa de altíssima qualidade Então
+
+1335
+00:55:53,219 --> 00:55:57,480
+quem submete os trabalhos só por
+
+1336
+00:55:55,440 --> 00:55:59,700
+submeter os trabalhos já vai já tem a
+
+1337
+00:55:57,480 --> 00:56:01,980
+garantia de que vai receber um feedback
+
+1338
+00:55:59,699 --> 00:56:04,199
+muito interessante acerca dos trabalhos
+
+1339
+00:56:01,980 --> 00:56:06,179
+para poder melhorar as nossas pesquisas
+
+1340
+00:56:04,199 --> 00:56:08,578
+sempre podem ser melhoradas sempre podem
+
+1341
+00:56:06,179 --> 00:56:11,699
+ser avançadas e é isso feedbacks eles
+
+1342
+00:56:08,579 --> 00:56:13,680
+são muito importantes né E quem tiver
+
+1343
+00:56:11,699 --> 00:56:16,500
+trabalhos aceitos vai ter os trabalhos
+
+1344
+00:56:13,679 --> 00:56:19,679
+publicados na Biblioteca digital da ACM
+
+1345
+00:56:16,500 --> 00:56:22,739
+indexados pela sol então isso aumenta a
+
+1346
+00:56:19,679 --> 00:56:24,838
+visibilidade dos trabalhos e esses
+
+1347
+00:56:22,739 --> 00:56:26,578
+autores também vão ter a oportunidade de
+
+1348
+00:56:24,838 --> 00:56:29,099
+apresentar os trabalhos para a
+
+1349
+00:56:26,579 --> 00:56:32,400
+comunidade presente nesse BTS e Usufruir
+
+1350
+00:56:29,099 --> 00:56:35,300
+do feedback desses momentos e para quem
+
+1351
+00:56:32,400 --> 00:56:37,500
+não é autor então fazendo aquele link
+
+1352
+00:56:35,300 --> 00:56:40,140
+para quem não é autor também é muito
+
+1353
+00:56:37,500 --> 00:56:42,480
+importante porque a participação no
+
+1354
+00:56:40,139 --> 00:56:44,460
+evento vai permitir o que conhecer esse
+
+1355
+00:56:42,480 --> 00:56:45,659
+trabalho é muitas vezes a gente fala
+
+1356
+00:56:44,460 --> 00:56:47,280
+assim ah mas depois eu leio o artigo
+
+1357
+00:56:45,659 --> 00:56:49,618
+gente a gente não leu o artigo porque
+
+1358
+00:56:47,280 --> 00:56:51,000
+não dá tempo São 20 tantos 30 tantos
+
+1359
+00:56:49,619 --> 00:56:53,099
+artigos a gente não vai ler 20 tanto 30
+
+1360
+00:56:51,000 --> 00:56:54,960
+tantos artigos se você tá lá no evento
+
+1361
+00:56:53,099 --> 00:56:57,140
+de uma vez né se você tá lá no evento
+
+1362
+00:56:54,960 --> 00:56:59,880
+você vai ter oportunidade de uma maneira
+
+1363
+00:56:57,139 --> 00:57:02,818
+compacta você vai ter um intensivo de
+
+1364
+00:56:59,880 --> 00:57:04,260
+qualidade de software e vai ver vai ter
+
+1365
+00:57:02,818 --> 00:57:07,619
+oportunidade de ver as apresentações
+
+1366
+00:57:04,260 --> 00:57:09,900
+desses trabalhos além também de ter a
+
+1367
+00:57:07,619 --> 00:57:11,880
+oportunidade de assistir diversas
+
+1368
+00:57:09,900 --> 00:57:13,619
+palestras tanto palestras de
+
+1369
+00:57:11,880 --> 00:57:16,200
+pesquisadores quanto palestras da
+
+1370
+00:57:13,619 --> 00:57:18,059
+indústria Sem dúvida de fornecer de
+
+1371
+00:57:16,199 --> 00:57:20,219
+fortalecer desculpa a rede de
+
+1372
+00:57:18,059 --> 00:57:23,640
+relacionamentos e de alavancar as
+
+1373
+00:57:20,219 --> 00:57:25,858
+colaborações Então eu acho que não tem
+
+1374
+00:57:23,639 --> 00:57:28,980
+algum motivo não existe algum motivo
+
+1375
+00:57:25,858 --> 00:57:31,259
+para não submeter ou não participar
+
+1376
+00:57:28,980 --> 00:57:33,900
+dessa se alguém tem interesse em
+
+1377
+00:57:31,260 --> 00:57:36,059
+qualidade sofre Esse é o evento para
+
+1378
+00:57:33,900 --> 00:57:38,838
+qual a gente tem que estar olhando com
+
+1379
+00:57:36,059 --> 00:57:38,839
+carinho
+
+1380
+00:57:39,960 --> 00:57:45,599
+certo E além disso você faz parte
+
+1381
+00:57:43,260 --> 00:57:49,319
+coordena junto ao professor Victor
+
+1382
+00:57:45,599 --> 00:57:51,480
+Estevão Silva Souza o lábios que é o
+
+1383
+00:57:49,318 --> 00:57:54,079
+laboratório de práticas e engenharia de
+
+1384
+00:57:51,480 --> 00:57:57,240
+software Ricardo de Almeida
+
+1385
+00:57:54,079 --> 00:58:00,180
+pelas informações da página a gente vê
+
+1386
+00:57:57,239 --> 00:58:03,179
+que são quatro professores sendo três
+
+1387
+00:58:00,179 --> 00:58:06,000
+professoras e 18 estudantes que fazem
+
+1388
+00:58:03,179 --> 00:58:08,818
+parte da equipe você pode nos contar um
+
+1389
+00:58:06,000 --> 00:58:13,338
+pouco a respeito das atividades do lápis
+
+1390
+00:58:08,818 --> 00:58:15,838
+e sobre o homenageado de Almeida
+
+1391
+00:58:13,338 --> 00:58:19,500
+sim Maria Clara vamos falar então do
+
+1392
+00:58:15,838 --> 00:58:23,460
+lado né o lábios ele o lábios ele foi
+
+1393
+00:58:19,500 --> 00:58:25,858
+criado Originalmente em 1999 pelo
+
+1394
+00:58:23,460 --> 00:58:28,920
+professor Ricardo de Almeida fala então
+
+1395
+00:58:25,858 --> 00:58:30,420
+na ocasião o lábios ele tinha foco em
+
+1396
+00:58:28,920 --> 00:58:33,180
+pesquisa ele era um laboratório de
+
+1397
+00:58:30,420 --> 00:58:34,740
+pesquisa em engenharia de software Na
+
+1398
+00:58:33,179 --> 00:58:36,419
+época eu falava ele era o único
+
+1399
+00:58:34,739 --> 00:58:38,159
+professor que atuava no âmbito de
+
+1400
+00:58:36,420 --> 00:58:41,099
+engenharia de software no departamento
+
+1401
+00:58:38,159 --> 00:58:42,480
+de informática e ele era ele criou esse
+
+1402
+00:58:41,099 --> 00:58:44,460
+laboratório onde ele desenvolveu
+
+1403
+00:58:42,480 --> 00:58:45,480
+diversas pesquisas junto com diversos
+
+1404
+00:58:44,460 --> 00:58:49,199
+alunos
+
+1405
+00:58:45,480 --> 00:58:50,639
+em 2006 com o ingresso de vários novos
+
+1406
+00:58:49,199 --> 00:58:52,019
+professores novos membros no
+
+1407
+00:58:50,639 --> 00:58:53,719
+departamento e outras pessoas que
+
+1408
+00:58:52,019 --> 00:58:56,818
+compartilhavam
+
+1409
+00:58:53,719 --> 00:59:00,000
+interesses o lábios ele deixou de
+
+1410
+00:58:56,818 --> 00:59:03,900
+existir como como laboratório individual
+
+1411
+00:59:00,000 --> 00:59:05,059
+e ele foi incorporado ao mesmo né E aí o
+
+1412
+00:59:03,900 --> 00:59:09,119
+Nemo ele
+
+1413
+00:59:05,059 --> 00:59:10,500
+trata diversos outros aspectos incluindo
+
+1414
+00:59:09,119 --> 00:59:11,760
+engenharia de software a gente pode
+
+1415
+00:59:10,500 --> 00:59:14,460
+falar um pouquinho mais sobre o membro
+
+1416
+00:59:11,760 --> 00:59:16,500
+daqui a pouquinho mas eu vou focar por
+
+1417
+00:59:14,460 --> 00:59:19,019
+enquanto no lado então o lábios como
+
+1418
+00:59:16,500 --> 00:59:21,719
+foco em pesquisa ele foi incorporado ao
+
+1419
+00:59:19,019 --> 00:59:23,460
+Nemo lá em 2006 e tudo é todas as
+
+1420
+00:59:21,719 --> 00:59:25,199
+pesquisas envolvendo engenharia de
+
+1421
+00:59:23,460 --> 00:59:26,838
+software passaram a ser realizadas no
+
+1422
+00:59:25,199 --> 00:59:29,759
+âmbito do neto
+
+1423
+00:59:26,838 --> 00:59:33,480
+o professor Ricardo Almeida faube ele
+
+1424
+00:59:29,760 --> 00:59:36,420
+foi assim sem sombra de dúvidas uma das
+
+1425
+00:59:33,480 --> 00:59:38,760
+maiores referências como pessoa como
+
+1426
+00:59:36,420 --> 00:59:40,338
+profissional e como pesquisador
+
+1427
+00:59:38,760 --> 00:59:44,280
+engenharia de software Isso é
+
+1428
+00:59:40,338 --> 00:59:47,219
+indiscutível isso é unanimidade né E
+
+1429
+00:59:44,280 --> 00:59:51,540
+infelizmente ele nos deixou muito
+
+1430
+00:59:47,219 --> 00:59:54,539
+precocemente em 2020 né o Fábio ele era
+
+1431
+00:59:51,539 --> 00:59:57,659
+um amigo muito muito querido e uma
+
+1432
+00:59:54,539 --> 01:00:00,599
+pessoa que sempre teve muito a nossa
+
+1433
+00:59:57,659 --> 01:00:02,578
+admiração eu tive o prazer de ser a
+
+1434
+01:00:00,599 --> 01:00:03,960
+primeira corentada dele de doutorado o
+
+1435
+01:00:02,579 --> 01:00:05,880
+primeiro trabalho de doutorado dele que
+
+1436
+01:00:03,960 --> 01:00:07,798
+ele orientou foi o meu em conjunto com a
+
+1437
+01:00:05,880 --> 01:00:11,940
+Regina
+
+1438
+01:00:07,798 --> 01:00:14,219
+então em 2021 o professor Victor Souza
+
+1439
+01:00:11,940 --> 01:00:15,960
+né que é também é professor do
+
+1440
+01:00:14,219 --> 01:00:18,298
+departamento de informática Ele entrou
+
+1441
+01:00:15,960 --> 01:00:20,760
+em contato comigo e ele me propôs da
+
+1442
+01:00:18,298 --> 01:00:24,119
+gente reviver o lábios né ele falou mano
+
+1443
+01:00:20,760 --> 01:00:25,319
+vamos reviveu lábios que que você acha e
+
+1444
+01:00:24,119 --> 01:00:27,780
+na ocasião a gente estava passando por
+
+1445
+01:00:25,318 --> 01:00:30,119
+um momento de reestruturação do projeto
+
+1446
+01:00:27,780 --> 01:00:31,440
+pedagógico do curso dos cursos do
+
+1447
+01:00:30,119 --> 01:00:33,180
+departamento né de engenharia da
+
+1448
+01:00:31,440 --> 01:00:34,858
+computação e ciência da computação onde
+
+1449
+01:00:33,179 --> 01:00:37,259
+passou a ser demandada uma quantidade
+
+1450
+01:00:34,858 --> 01:00:40,980
+maior de Horas de extensão dos alunos
+
+1451
+01:00:37,260 --> 01:00:43,079
+então a gente precisaria também ter como
+
+1452
+01:00:40,980 --> 01:00:45,780
+ofertar para os alunos oportunidades
+
+1453
+01:00:43,079 --> 01:00:49,740
+para eles realizarem horas de extensão E
+
+1454
+01:00:45,780 --> 01:00:52,079
+aí a gente então reviveu o lábios né só
+
+1455
+01:00:49,739 --> 01:00:55,558
+que agora o lábios tem foco em projetos
+
+1456
+01:00:52,079 --> 01:00:57,900
+de extensão E aí para fazer jus ao
+
+1457
+01:00:55,559 --> 01:00:59,280
+criador ao fundador do lábios original e
+
+1458
+01:00:57,900 --> 01:01:00,960
+aí essa pessoa que a gente tem uma
+
+1459
+01:00:59,280 --> 01:01:02,240
+admiração que eu não consigo nem colocar
+
+1460
+01:01:00,960 --> 01:01:06,119
+em palavras
+
+1461
+01:01:02,239 --> 01:01:08,479
+a gente deu ao lábios o nome de
+
+1462
+01:01:06,119 --> 01:01:11,760
+professor Ricardo de Almeida fala
+
+1463
+01:01:08,480 --> 01:01:14,039
+como você destacou Maria nós somos em
+
+1464
+01:01:11,760 --> 01:01:17,280
+quatro professores atualmente o
+
+1465
+01:01:14,039 --> 01:01:19,739
+professor Vitor eu a professora é Camila
+
+1466
+01:01:17,280 --> 01:01:22,740
+Aguiar e a professora Patrícia Costa
+
+1467
+01:01:19,739 --> 01:01:25,199
+então no lápis a gente desenvolve
+
+1468
+01:01:22,739 --> 01:01:28,379
+projetos de extensão tanto para
+
+1469
+01:01:25,199 --> 01:01:30,058
+comunidade externa quanto para própria
+
+1470
+01:01:28,380 --> 01:01:32,700
+para atender demandas do próprio
+
+1471
+01:01:30,059 --> 01:01:35,420
+departamento de informática e aí os
+
+1472
+01:01:32,699 --> 01:01:38,519
+alunos eles têm oportunidade
+
+1473
+01:01:35,420 --> 01:01:40,500
+de colocar em prática métodos
+
+1474
+01:01:38,519 --> 01:01:42,719
+ferramentas procedimentos da engenharia
+
+1475
+01:01:40,500 --> 01:01:45,539
+de software então a gente tenta dar para
+
+1476
+01:01:42,719 --> 01:01:47,399
+os alunos um ambiente onde ele circulam
+
+1477
+01:01:45,539 --> 01:01:49,818
+o que eles realizariam se eles tivessem
+
+1478
+01:01:47,400 --> 01:01:51,900
+fazendo um projeto em uma organização
+
+1479
+01:01:49,818 --> 01:01:54,298
+em uma empresa de desenvolvimento de
+
+1480
+01:01:51,900 --> 01:01:56,160
+software e aí nós temos as nossas
+
+1481
+01:01:54,298 --> 01:01:58,259
+práticas nossos processos padrão algo
+
+1482
+01:01:56,159 --> 01:01:59,519
+que está sempre evoluindo temos lá na
+
+1483
+01:01:58,260 --> 01:02:02,599
+nossa página quem quiser dar uma
+
+1484
+01:01:59,519 --> 01:02:02,599
+olhadinha a página
+
+1485
+01:02:03,500 --> 01:02:09,719
+onde tem os nossos procedimentos tem os
+
+1486
+01:02:07,679 --> 01:02:11,039
+métodos que a gente segue Então quem
+
+1487
+01:02:09,719 --> 01:02:13,139
+quiser dar uma olhadinha conhecer também
+
+1488
+01:02:11,039 --> 01:02:15,679
+um pouquinho acerca dos projetos tem
+
+1489
+01:02:13,139 --> 01:02:18,298
+muitas informações lá no laboratório
+
+1490
+01:02:15,679 --> 01:02:20,818
+vamos deixar na descrição do episódio
+
+1491
+01:02:18,298 --> 01:02:23,159
+então uma última pergunta sobre eventos
+
+1492
+01:02:20,818 --> 01:02:25,818
+é que você faz parte do stream cometido
+
+1493
+01:02:23,159 --> 01:02:25,818
+sibite
+
+1494
+01:02:26,960 --> 01:02:33,119
+é um evento internacional mas voltado
+
+1495
+01:02:30,000 --> 01:02:35,338
+para comunidade latino-americana qual a
+
+1496
+01:02:33,119 --> 01:02:37,380
+importância de da participação novamente
+
+1497
+01:02:35,338 --> 01:02:39,119
+né perguntando sobre a participação no
+
+1498
+01:02:37,380 --> 01:02:41,039
+caso de pesquisadores e profissionais
+
+1499
+01:02:39,119 --> 01:02:44,099
+Brasileiros da área de engenharia de
+
+1500
+01:02:41,039 --> 01:02:45,779
+software no sibips que puxando a
+
+1501
+01:02:44,099 --> 01:02:46,680
+sardinha um pouco para o nosso lado da
+
+1502
+01:02:45,780 --> 01:02:49,680
+Maria Clara que a gente tá aqui em
+
+1503
+01:02:46,679 --> 01:02:52,500
+Curitiba vai ser mais uma vez seriado em
+
+1504
+01:02:49,679 --> 01:02:54,480
+Curitiba já foi acho que chegou a ser
+
+1505
+01:02:52,500 --> 01:02:56,519
+seriado em Curitiba outras vezes mas
+
+1506
+01:02:54,480 --> 01:02:58,139
+acho que uma vez foi durante a pandemia
+
+1507
+01:02:56,519 --> 01:03:00,358
+então Infelizmente também não deu para
+
+1508
+01:02:58,139 --> 01:03:02,098
+para ser presencial vai ser organizado
+
+1509
+01:03:00,358 --> 01:03:03,900
+Se não me engano pela professora Sheila
+
+1510
+01:03:02,099 --> 01:03:07,019
+heiner não sei se a Andreia maluchelli
+
+1511
+01:03:03,900 --> 01:03:10,139
+também tá na na organização desse ano
+
+1512
+01:03:07,019 --> 01:03:11,639
+Mas enfim você que faz parte desse
+
+1513
+01:03:10,139 --> 01:03:13,739
+evento qual a importância dele para
+
+1514
+01:03:11,639 --> 01:03:16,920
+nossa comunidade
+
+1515
+01:03:13,739 --> 01:03:18,298
+bom o sibite ele é o evento de
+
+1516
+01:03:16,920 --> 01:03:21,539
+engenharia de software da comunidade
+
+1517
+01:03:18,298 --> 01:03:23,219
+Ribeiro americana né então além da
+
+1518
+01:03:21,539 --> 01:03:25,318
+comunidade Nacional a gente tem
+
+1519
+01:03:23,219 --> 01:03:27,480
+pesquisadores de outros países que vão
+
+1520
+01:03:25,318 --> 01:03:29,219
+discutir avanço do engenharia de
+
+1521
+01:03:27,480 --> 01:03:30,980
+software ele é um evento já muito
+
+1522
+01:03:29,219 --> 01:03:33,118
+tradicional e a participação da
+
+1523
+01:03:30,980 --> 01:03:36,000
+comunidade brasileira ela é muito
+
+1524
+01:03:33,119 --> 01:03:38,400
+relevante né E então a participação
+
+1525
+01:03:36,000 --> 01:03:40,858
+nesse evento ela é muito importante para
+
+1526
+01:03:38,400 --> 01:03:43,200
+fortalecer a comunidade hiper americano
+
+1527
+01:03:40,858 --> 01:03:44,759
+de engenharia de software e também é uma
+
+1528
+01:03:43,199 --> 01:03:47,699
+excelente oportunidade assim como eu
+
+1529
+01:03:44,760 --> 01:03:49,440
+falei lá no sbts é uma oportunidade de
+
+1530
+01:03:47,699 --> 01:03:52,139
+aprendizado de troca de experiência de
+
+1531
+01:03:49,440 --> 01:03:55,798
+colaborações e com certeza sendo no
+
+1532
+01:03:52,139 --> 01:03:57,659
+Brasil em 2024 não tem como perder né a
+
+1533
+01:03:55,798 --> 01:04:00,420
+programação ela inclui sessões técnicas
+
+1534
+01:03:57,659 --> 01:04:02,399
+ela inclui simpósio doutoral ela inclui
+
+1535
+01:04:00,420 --> 01:04:05,880
+palestras e ela inclui a escola e virou
+
+1536
+01:04:02,400 --> 01:04:08,220
+americana de engenharia de software onde
+
+1537
+01:04:05,880 --> 01:04:11,460
+você onde são ofertados tutoriais sobre
+
+1538
+01:04:08,219 --> 01:04:12,899
+temas atuais e relevantes e estruturais
+
+1539
+01:04:11,460 --> 01:04:15,420
+são importantes tanto para pesquisadores
+
+1540
+01:04:12,900 --> 01:04:16,740
+quanto profissionais então não dá para
+
+1541
+01:04:15,420 --> 01:04:20,900
+perder
+
+1542
+01:04:16,739 --> 01:04:25,019
+certo corrigindo décadas
+
+1543
+01:04:20,900 --> 01:04:27,000
+em Portugal é hiper americano conclui
+
+1544
+01:04:25,019 --> 01:04:29,298
+também Portugal e Espanha Eu lembro que
+
+1545
+01:04:27,000 --> 01:04:31,920
+eu fui do
+
+1546
+01:04:29,298 --> 01:04:34,139
+comitê de divulgação né e tinha uma
+
+1547
+01:04:31,920 --> 01:04:38,220
+professora de da Universidade da Espanha
+
+1548
+01:04:34,139 --> 01:04:41,279
+junto no comitê agora a gente chega na
+
+1549
+01:04:38,219 --> 01:04:43,679
+pergunta pergunta que define o podcast
+
+1550
+01:04:41,280 --> 01:04:45,960
+eu gosto sempre de explicar aqui pode
+
+1551
+01:04:43,679 --> 01:04:48,598
+ser algo que você acha que vai acontecer
+
+1552
+01:04:45,960 --> 01:04:51,480
+ou que você gostaria que acontecesse
+
+1553
+01:04:48,599 --> 01:04:55,579
+Nossa área para você qual é a próxima
+
+1554
+01:04:51,480 --> 01:04:55,579
+fronteira da engenharia de software
+
+1555
+01:04:58,460 --> 01:05:03,480
+só para eu falar de um outro grupo de
+
+1556
+01:05:01,139 --> 01:05:04,798
+pesquisa do qual eu faço essa parte e
+
+1557
+01:05:03,480 --> 01:05:07,199
+vocês vão entender porque que eu quero
+
+1558
+01:05:04,798 --> 01:05:11,460
+falar sobre isso a gente falou sobre
+
+1559
+01:05:07,199 --> 01:05:12,960
+ontologias ele tem um foco maior em
+
+1560
+01:05:11,460 --> 01:05:16,260
+projeto de extensão
+
+1561
+01:05:12,960 --> 01:05:18,179
+né e as pesquisas a gente faz no Nemo o
+
+1562
+01:05:16,260 --> 01:05:19,740
+Nemo ele é o núcleo de modelagem Núcleo
+
+1563
+01:05:18,179 --> 01:05:22,919
+de Estudos e modelagem conceitual e
+
+1564
+01:05:19,739 --> 01:05:24,838
+ontologias e esse núcleo ele tem como
+
+1565
+01:05:22,920 --> 01:05:26,519
+foco Como o próprio nome diz modelagem
+
+1566
+01:05:24,838 --> 01:05:29,838
+conceitual e ontologias e a gente usa
+
+1567
+01:05:26,519 --> 01:05:32,460
+modelagem conceitual e ontologias para
+
+1568
+01:05:29,838 --> 01:05:34,019
+resolver problemas diversos entre eles
+
+1569
+01:05:32,460 --> 01:05:36,059
+problemas de engenharia de software
+
+1570
+01:05:34,019 --> 01:05:37,380
+inclusive vários dos trabalhos que eu
+
+1571
+01:05:36,059 --> 01:05:39,599
+falei aqui tem muitos projetos
+
+1572
+01:05:37,380 --> 01:05:41,338
+interessantes que quem tiver interesse
+
+1573
+01:05:39,599 --> 01:05:44,338
+pode dar uma olhadinha lá na página do
+
+1574
+01:05:41,338 --> 01:05:45,539
+Nemo nem um ponto ufas.br e dá uma
+
+1575
+01:05:44,338 --> 01:05:47,699
+olhadinha eu chamo atenção
+
+1576
+01:05:45,539 --> 01:05:50,039
+particularmente para página de
+
+1577
+01:05:47,699 --> 01:05:51,779
+resultados onde tem vários vários
+
+1578
+01:05:50,039 --> 01:05:55,619
+projetos interessantes inclusive um
+
+1579
+01:05:51,780 --> 01:05:57,480
+chamado Waze que é megion software que é
+
+1580
+01:05:55,619 --> 01:05:59,280
+onde a gente tem várias vários
+
+1581
+01:05:57,480 --> 01:06:02,880
+resultados relacionados à medição que
+
+1582
+01:05:59,280 --> 01:06:05,099
+foi o tema principal aqui mas e aí um
+
+1583
+01:06:02,880 --> 01:06:07,039
+ponto que eu quero destacar é que nós
+
+1584
+01:06:05,099 --> 01:06:10,619
+somos sete professores
+
+1585
+01:06:07,039 --> 01:06:13,679
+membros da UFES né e um membro externo
+
+1586
+01:06:10,619 --> 01:06:16,798
+então membros a gente tem o João Paulo
+
+1587
+01:06:13,679 --> 01:06:19,279
+Almeida e o professor Victor Souza e as
+
+1588
+01:06:16,798 --> 01:06:22,318
+professoras Jean Carlos
+
+1589
+01:06:19,280 --> 01:06:24,720
+veruskas lamborini A Camila Aguiar e eu
+
+1590
+01:06:22,318 --> 01:06:26,818
+e como membro externo a gente tem o Jean
+
+1591
+01:06:24,719 --> 01:06:30,019
+Carlos que foi um dos fundadores e hoje
+
+1592
+01:06:26,818 --> 01:06:33,000
+tá na Universidade do
+
+1593
+01:06:30,019 --> 01:06:35,219
+que que eu quis falar sobre o Nemo
+
+1594
+01:06:33,000 --> 01:06:37,079
+também Além de falar sobre sobre o
+
+1595
+01:06:35,219 --> 01:06:41,419
+lábios porque quando você me perguntou
+
+1596
+01:06:37,079 --> 01:06:41,420
+sobre Quais são as fronteiras que
+
+1597
+01:06:41,480 --> 01:06:47,400
+eu acho que vai ser né a fronteira de
+
+1598
+01:06:44,639 --> 01:06:49,679
+engenharia de software eu gostaria de
+
+1599
+01:06:47,400 --> 01:06:51,599
+destacar duas coisas e a primeira delas
+
+1600
+01:06:49,679 --> 01:06:54,899
+é muito a ver com a minha participação
+
+1601
+01:06:51,599 --> 01:06:56,700
+tanto no lábios quanto no meme né no
+
+1602
+01:06:54,900 --> 01:06:58,920
+lábios como a gente falou nós somos em
+
+1603
+01:06:56,699 --> 01:07:02,038
+quatro professores e desses quatro
+
+1604
+01:06:58,920 --> 01:07:03,960
+professores nós somos três mulheres não
+
+1605
+01:07:02,039 --> 01:07:05,940
+lembro nós somos sete professores desse
+
+1606
+01:07:03,960 --> 01:07:06,900
+sete professores nós somos quatro
+
+1607
+01:07:05,940 --> 01:07:10,920
+mulheres
+
+1608
+01:07:06,900 --> 01:07:14,400
+então uma coisa que eu espero né é que
+
+1609
+01:07:10,920 --> 01:07:17,220
+ambientes como esse onde nesse cenários
+
+1610
+01:07:14,400 --> 01:07:20,400
+como esses do Nemo e do lápis onde as
+
+1611
+01:07:17,219 --> 01:07:23,759
+mulheres têm seu espaço ele sejam cada
+
+1612
+01:07:20,400 --> 01:07:26,460
+vez mais comuns né e mais frequentes na
+
+1613
+01:07:23,760 --> 01:07:28,740
+computação né que as meninas e as
+
+1614
+01:07:26,460 --> 01:07:29,940
+mulheres elas sejam atraídas Pelas
+
+1615
+01:07:28,739 --> 01:07:32,818
+nossas pela nossa área né pela
+
+1616
+01:07:29,940 --> 01:07:35,039
+computação mas mais do que isso que ela
+
+1617
+01:07:32,818 --> 01:07:37,920
+sejam bem-vindas que elas sejam
+
+1618
+01:07:35,039 --> 01:07:41,160
+acolhidas que elas se sintam totalmente
+
+1619
+01:07:37,920 --> 01:07:43,260
+à vontade para explorar o máximo o
+
+1620
+01:07:41,159 --> 01:07:45,259
+potencial que elas têm é porque esse
+
+1621
+01:07:43,260 --> 01:07:48,420
+potencial ele vai contribuir com certeza
+
+1622
+01:07:45,260 --> 01:07:50,780
+para o avanço da área e para o avanço de
+
+1623
+01:07:48,420 --> 01:07:54,420
+nós como comunidade nós como sociedade
+
+1624
+01:07:50,780 --> 01:07:56,220
+né Eu acho que que Como comunidade a
+
+1625
+01:07:54,420 --> 01:07:58,380
+gente tem dado Passos importantes nessa
+
+1626
+01:07:56,219 --> 01:08:01,558
+direção Mas ainda tem muita coisa pela
+
+1627
+01:07:58,380 --> 01:08:04,619
+frente e a gente precisa para a gente
+
+1628
+01:08:01,559 --> 01:08:06,000
+fazer esse caminho e chegar no final com
+
+1629
+01:08:04,619 --> 01:08:09,480
+sucesso a gente precisa da participação
+
+1630
+01:08:06,000 --> 01:08:13,019
+e colaboração todos é e um outro ponto
+
+1631
+01:08:09,480 --> 01:08:16,979
+que eu acho que é muito crítico e é
+
+1632
+01:08:13,019 --> 01:08:18,778
+crucial é nós refletirmos sobre como que
+
+1633
+01:08:16,979 --> 01:08:21,238
+a engenharia de software pode contribuir
+
+1634
+01:08:18,779 --> 01:08:23,520
+para o mundo melhor e aí eu não tô
+
+1635
+01:08:21,238 --> 01:08:26,278
+exagerando não não errei na minha fala
+
+1636
+01:08:23,520 --> 01:08:28,440
+não é isso mesmo né a gente tem visto
+
+1637
+01:08:26,279 --> 01:08:31,859
+nós temos presenciado avanços muito
+
+1638
+01:08:28,439 --> 01:08:34,678
+importantes na computação né E esses
+
+1639
+01:08:31,859 --> 01:08:38,039
+avanços eles têm se acelerado nos
+
+1640
+01:08:34,679 --> 01:08:39,659
+últimos anos e é muito importante esses
+
+1641
+01:08:38,039 --> 01:08:41,939
+avanços técnicos são extremamente
+
+1642
+01:08:39,659 --> 01:08:43,920
+importantes mas é muito importante
+
+1643
+01:08:41,939 --> 01:08:47,278
+também que nós não esqueçamos do fator
+
+1644
+01:08:43,920 --> 01:08:48,779
+humano eu acredito que como Engenheiros
+
+1645
+01:08:47,279 --> 01:08:51,060
+como eu falei lá no comecinho como
+
+1646
+01:08:48,779 --> 01:08:53,339
+engenheiros Engenheiros de software nós
+
+1647
+01:08:51,060 --> 01:08:54,839
+temos a capacidade de olhar para o
+
+1648
+01:08:53,338 --> 01:08:57,600
+desenvolvimento de software de uma forma
+
+1649
+01:08:54,838 --> 01:09:00,238
+muito mais Ampla a gente consegue ver
+
+1650
+01:08:57,600 --> 01:09:02,160
+não só o processo em si mas tudo que
+
+1651
+01:09:00,238 --> 01:09:04,798
+permeia esse processo
+
+1652
+01:09:02,159 --> 01:09:06,719
+e por isso acho que como é pesquisadores
+
+1653
+01:09:04,798 --> 01:09:08,819
+engenharia de só pesquisadores e
+
+1654
+01:09:06,719 --> 01:09:13,319
+pesquisadores engenharia de software nós
+
+1655
+01:09:08,819 --> 01:09:16,500
+temos a obrigação de nos atentarmos as
+
+1656
+01:09:13,319 --> 01:09:20,219
+questões técnicas mas também a questões
+
+1657
+01:09:16,500 --> 01:09:22,859
+sociais questões Morais questões éticas
+
+1658
+01:09:20,219 --> 01:09:25,380
+questões humanas porque assim eu
+
+1659
+01:09:22,859 --> 01:09:27,298
+realmente acredito que nós enquanto
+
+1660
+01:09:25,380 --> 01:09:29,759
+comunidade de engenharia de software nós
+
+1661
+01:09:27,298 --> 01:09:31,819
+temos muito a contribuir para a
+
+1662
+01:09:29,759 --> 01:09:31,819
+sociedade
+
+1663
+01:09:32,060 --> 01:09:38,039
+muito bem então estamos terminando esse
+
+1664
+01:09:35,520 --> 01:09:40,259
+episódio a gente agradece muito a sua
+
+1665
+01:09:38,039 --> 01:09:43,019
+presença meu passo a palavra para você
+
+1666
+01:09:40,259 --> 01:09:45,679
+para você se despedir dos nossos e
+
+1667
+01:09:43,020 --> 01:09:48,719
+nossas ouvintes
+
+1668
+01:09:45,679 --> 01:09:50,880
+bom Adolfo eu quero agradecer
+
+1669
+01:09:48,719 --> 01:09:53,759
+imensamente a você e a Maria Cláudia
+
+1670
+01:09:50,880 --> 01:09:55,800
+pela oportunidade eu acho o canal estar
+
+1671
+01:09:53,759 --> 01:09:57,420
+aqui neste canal é um privilégio muito
+
+1672
+01:09:55,800 --> 01:09:58,800
+grande Me sinto honrada de estar aqui
+
+1673
+01:09:57,420 --> 01:10:01,319
+com vocês então quero mais uma vez
+
+1674
+01:09:58,800 --> 01:10:04,140
+agradecer profundamente Quero agradecer
+
+1675
+01:10:01,319 --> 01:10:05,539
+as pessoas que que estão ouvindo né O
+
+1676
+01:10:04,140 --> 01:10:08,579
+que ouviram
+
+1677
+01:10:05,539 --> 01:10:10,319
+essa conversa que a gente teve e eu
+
+1678
+01:10:08,579 --> 01:10:12,000
+quero me colocar disposição caso alguém
+
+1679
+01:10:10,319 --> 01:10:13,679
+tenha interesse em saber um pouco mais
+
+1680
+01:10:12,000 --> 01:10:15,359
+sobre tema em conhecer um pouco mais
+
+1681
+01:10:13,679 --> 01:10:17,279
+sobre os trabalhos do aves ou conhecer
+
+1682
+01:10:15,359 --> 01:10:21,198
+um pouco mais sobre os trabalhos do Nemo
+
+1683
+01:10:17,279 --> 01:10:21,198
+eu fico totalmente à disposição
+
+1684
+01:10:28,260 --> 01:10:33,000
+muito bem Monalisa Como eu disse no
+
+1685
+01:10:31,319 --> 01:10:36,899
+início né a conversa foi muito
+
+1686
+01:10:33,000 --> 01:10:40,760
+proveitosa com certeza e eu também quero
+
+1687
+01:10:36,899 --> 01:10:43,500
+agradecer a você né por estar aqui
+
+1688
+01:10:40,760 --> 01:10:46,679
+agradecer a todas as pessoas que estão
+
+1689
+01:10:43,500 --> 01:10:50,219
+nos ouvindo e até o próximo episódio do
+
+1690
+01:10:46,679 --> 01:10:53,119
+Fronteiras da engenharia de software
+
+1691
+01:10:50,219 --> 01:10:53,119
+até lá

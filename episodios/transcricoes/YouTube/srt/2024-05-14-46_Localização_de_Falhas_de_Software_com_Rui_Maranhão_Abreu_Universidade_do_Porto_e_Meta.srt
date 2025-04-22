@@ -1,0 +1,6855 @@
+1
+00:00:04,559 --> 00:00:08,919
+Olá eu sou Adolfo Neto professor da utf
+
+2
+00:00:07,200 --> 00:00:11,280
+perra Curitiba e do programa de
+
+3
+00:00:08,919 --> 00:00:14,400
+pós-graduação em computação aplicada
+
+4
+00:00:11,279 --> 00:00:16,439
+ppgca este aqui é o podcast Fronteiras
+
+5
+00:00:14,400 --> 00:00:18,039
+da engenharia de software onde nós
+
+6
+00:00:16,440 --> 00:00:19,600
+entrevistamos pesquisadores
+
+7
+00:00:18,039 --> 00:00:21,800
+pesquisadores que trabalham na linha de
+
+8
+00:00:19,600 --> 00:00:23,640
+frente da engenharia de software Estou
+
+9
+00:00:21,800 --> 00:00:25,519
+aqui com a coros do fronteiras
+
+10
+00:00:23,640 --> 00:00:28,080
+Professora Maria Cláudia Emer que é
+
+11
+00:00:25,518 --> 00:00:31,239
+também aqui da UTFPR Curitiba e também
+
+12
+00:00:28,079 --> 00:00:33,920
+do ppgca Tudo bem Maria Cláudia
+
+13
+00:00:31,239 --> 00:00:36,039
+tudo bem Adolfo preparada para mais uma
+
+14
+00:00:33,920 --> 00:00:39,280
+conversa sobre um tema da engenharia de
+
+15
+00:00:36,039 --> 00:00:40,719
+software com o nosso entrevistado jo
+
+16
+00:00:39,280 --> 00:00:42,000
+Então hoje a gente vai entrevistar pela
+
+17
+00:00:40,719 --> 00:00:44,359
+primeira vez uma pessoa que não é
+
+18
+00:00:42,000 --> 00:00:47,238
+brasileira mas que fala português é o
+
+19
+00:00:44,359 --> 00:00:49,558
+Professor Rui Maranhão Abreu Ele é
+
+20
+00:00:47,238 --> 00:00:52,038
+professor catedrático em engenharia de
+
+21
+00:00:49,558 --> 00:00:54,679
+software na faculdade de engenharia do
+
+22
+00:00:52,039 --> 00:00:58,239
+da universidade do Porto e research
+
+23
+00:00:54,679 --> 00:01:01,039
+software engineer na meta né antigo
+
+24
+00:00:58,238 --> 00:01:02,679
+Facebook ele também é empreendedor a
+
+25
+00:01:01,039 --> 00:01:06,239
+gente até não vai ter muito tempo para
+
+26
+00:01:02,679 --> 00:01:08,000
+falar sobre a o que ele fez em termos de
+
+27
+00:01:06,239 --> 00:01:09,719
+empreendedorismo mas deem uma olhada
+
+28
+00:01:08,000 --> 00:01:13,359
+depois na página dele para para conhecer
+
+29
+00:01:09,719 --> 00:01:14,920
+um pouco mais é ex-aluno do Google Park
+
+30
+00:01:13,359 --> 00:01:16,560
+tudo bem Rui Você tem algo a
+
+31
+00:01:14,920 --> 00:01:19,040
+complementar nessa sua
+
+32
+00:01:16,560 --> 00:01:20,478
+apresentação Olá viva Tá tudo bem
+
+33
+00:01:19,040 --> 00:01:22,799
+obrigado antes de mais obrigado pelo
+
+34
+00:01:20,478 --> 00:01:25,319
+convite é é um prazer é um prazer estar
+
+35
+00:01:22,799 --> 00:01:26,439
+aqui eh fica já aqui o ponto o alerta
+
+36
+00:01:25,319 --> 00:01:28,519
+obviamente que o meu destaque é
+
+37
+00:01:26,438 --> 00:01:30,118
+ligeiramente diferente daquilo que estão
+
+38
+00:01:28,519 --> 00:01:32,759
+habituados e se houver aqui alguma uma
+
+39
+00:01:30,118 --> 00:01:35,359
+palavra que que não se perceba podem-me
+
+40
+00:01:32,759 --> 00:01:38,040
+interromper porque certamente aqui algum
+
+41
+00:01:35,359 --> 00:01:41,719
+alguma falha entre o português europeu e
+
+42
+00:01:38,040 --> 00:01:43,640
+o português do Brasil Hum não quer dizer
+
+43
+00:01:41,719 --> 00:01:46,280
+essencialmente foi tá tá tudo dito
+
+44
+00:01:43,640 --> 00:01:48,439
+portanto h o meu background que se o que
+
+45
+00:01:46,280 --> 00:01:51,159
+se vê para quem tiver curiosidade depois
+
+46
+00:01:48,438 --> 00:01:53,359
+de de ir verificar a minha página que
+
+47
+00:01:51,159 --> 00:01:56,000
+está sempre muito próxima entre a
+
+48
+00:01:53,359 --> 00:01:57,478
+indústria e também a academia e isso já
+
+49
+00:01:56,000 --> 00:01:59,359
+vem desde os tempos de doutoramento
+
+50
+00:01:57,478 --> 00:02:02,200
+obviamente que nós não temos tempo nesta
+
+51
+00:01:59,359 --> 00:02:04,159
+nesta conversa para enfim para para
+
+52
+00:02:02,200 --> 00:02:06,039
+falar sobre esses pontos todos mas eu eu
+
+53
+00:02:04,159 --> 00:02:09,560
+sempre fiz algo muito próximo da
+
+54
+00:02:06,039 --> 00:02:09,560
+indústria isso nota-se em todo o meu
+
+55
+00:02:09,840 --> 00:02:16,400
+percurso Ok bem Rui vamos começar
+
+56
+00:02:13,520 --> 00:02:18,800
+falando sobre o tema principal dessa
+
+57
+00:02:16,400 --> 00:02:21,200
+entrevista localização de falhas de
+
+58
+00:02:18,800 --> 00:02:24,800
+software O que são falhas de software
+
+59
+00:02:21,199 --> 00:02:28,799
+Qual é a diferença entre uma falha e um
+
+60
+00:02:24,800 --> 00:02:30,519
+bug muito bem Hã pronto também para dar
+
+61
+00:02:28,800 --> 00:02:32,120
+aqui algum contexto antes de de
+
+62
+00:02:30,519 --> 00:02:34,319
+responder exatamente à à pergunta
+
+63
+00:02:32,120 --> 00:02:36,719
+portanto eu tenho vindo a trabalhar H
+
+64
+00:02:34,318 --> 00:02:38,399
+Desde o tempo de doutoramento em a
+
+65
+00:02:36,719 --> 00:02:40,959
+localização automática de falhas
+
+66
+00:02:38,400 --> 00:02:42,560
+portanto a minha tentativa desde desde
+
+67
+00:02:40,959 --> 00:02:44,519
+os meus tempos de doutoramento ou
+
+68
+00:02:42,560 --> 00:02:46,840
+doutorado devo dizer doutorado aqui no
+
+69
+00:02:44,519 --> 00:02:49,640
+contexto desta conversa nós em Portugal
+
+70
+00:02:46,840 --> 00:02:52,640
+dizemos dizemos doutoramento para para
+
+71
+00:02:49,639 --> 00:02:54,479
+doutorar hh é uma tentativa de
+
+72
+00:02:52,639 --> 00:02:56,878
+automatizar esse processo que acaba por
+
+73
+00:02:54,479 --> 00:02:59,799
+ser um processo eh que os programadores
+
+74
+00:02:56,878 --> 00:03:02,039
+normalmente não não gostam portanto
+
+75
+00:02:59,800 --> 00:03:03,560
+portanto h eu estou a tentar automatizar
+
+76
+00:03:02,039 --> 00:03:05,798
+este processo de falhas e então o que é
+
+77
+00:03:03,560 --> 00:03:08,039
+que são as falhas aa agora de Encontro à
+
+78
+00:03:05,799 --> 00:03:09,840
+questão que que foi feita portanto
+
+79
+00:03:08,039 --> 00:03:12,400
+falhas software são frequentemente
+
+80
+00:03:09,840 --> 00:03:15,200
+referidas em em contexto desenvolvimento
+
+81
+00:03:12,400 --> 00:03:18,080
+de sistemas e computacionais são
+
+82
+00:03:15,199 --> 00:03:20,399
+situações em que um Programa H ou um
+
+83
+00:03:18,080 --> 00:03:23,480
+sistema eh não executa as suas funções
+
+84
+00:03:20,400 --> 00:03:26,200
+conforme oarada e isso naturalmente Vai
+
+85
+00:03:23,479 --> 00:03:28,840
+resultar eh num comportamento
+
+86
+00:03:26,199 --> 00:03:31,399
+incorreto comportamento inesperado ou
+
+87
+00:03:28,840 --> 00:03:34,438
+indesejado portanto é essa E é este
+
+88
+00:03:31,400 --> 00:03:37,640
+comportamento que que nós eh comumente
+
+89
+00:03:34,438 --> 00:03:40,120
+designamos por eh falhas portanto essas
+
+90
+00:03:37,639 --> 00:03:42,359
+falhas podem também ser eh causadas por
+
+91
+00:03:40,120 --> 00:03:45,840
+uma variedade enorme de fatores H
+
+92
+00:03:42,360 --> 00:03:48,080
+incluindo H erros de programação ehh
+
+93
+00:03:45,840 --> 00:03:50,959
+incluindo problemas de compatibilidade
+
+94
+00:03:48,080 --> 00:03:53,560
+de hardware eh falhas de comunicação eh
+
+95
+00:03:50,959 --> 00:03:54,959
+de em redes entre outros portanto há há
+
+96
+00:03:53,560 --> 00:03:57,959
+várias falhas e por isso é que isto é Um
+
+97
+00:03:54,959 --> 00:04:00,719
+Desafio interessante eh complexo de
+
+98
+00:03:57,959 --> 00:04:02,079
+conseguir automatizar o processo
+
+99
+00:04:00,719 --> 00:04:04,639
+depois outra pergunta que era a
+
+100
+00:04:02,079 --> 00:04:07,879
+diferença entre uma falha e um bug hum
+
+101
+00:04:04,639 --> 00:04:09,719
+Portanto o o que acontece é que um bug e
+
+102
+00:04:07,878 --> 00:04:13,798
+refere-se a um erro
+
+103
+00:04:09,719 --> 00:04:15,359
+H que também e lá está em português e se
+
+104
+00:04:13,799 --> 00:04:16,639
+calhar é um bocadinho mais difícil de
+
+105
+00:04:15,360 --> 00:04:19,919
+traduzir
+
+106
+00:04:16,639 --> 00:04:22,400
+falha bug H E também há outra na
+
+107
+00:04:19,918 --> 00:04:24,439
+terminologia que é o error failure error
+
+108
+00:04:22,399 --> 00:04:26,000
+fault normalmente fala-se neste tipos de
+
+109
+00:04:24,439 --> 00:04:28,478
+termos que em português não é
+
+110
+00:04:26,000 --> 00:04:30,959
+propriamente fácil de traduzir o failure
+
+111
+00:04:28,478 --> 00:04:34,319
+e o fault não é porque para português
+
+112
+00:04:30,959 --> 00:04:37,879
+seria falha nos dois casos H embora hja
+
+113
+00:04:34,319 --> 00:04:41,000
+aqui uma diferença entre entre os dois
+
+114
+00:04:37,879 --> 00:04:42,839
+Portanto o bug hã é refere-se a um erro
+
+115
+00:04:41,000 --> 00:04:45,680
+uma falha ou um defeito no código fonte
+
+116
+00:04:42,839 --> 00:04:47,519
+e de um programa que faz com que ele se
+
+117
+00:04:45,680 --> 00:04:52,000
+comporta então da maneira indesejada ou
+
+118
+00:04:47,519 --> 00:04:54,959
+incorreta portanto como programador h eu
+
+119
+00:04:52,000 --> 00:04:58,519
+estou enfim a deitar código a a
+
+120
+00:04:54,959 --> 00:05:00,918
+programar e a algo que eu faço de forma
+
+121
+00:04:58,519 --> 00:05:02,159
+naturalmente incons porque se não fosse
+
+122
+00:05:00,918 --> 00:05:04,038
+inconsciente obviamente que não ia
+
+123
+00:05:02,160 --> 00:05:06,680
+cometer esse erro mas muitas vezes
+
+124
+00:05:04,038 --> 00:05:08,399
+também é algo que eu que eu estou a
+
+125
+00:05:06,680 --> 00:05:11,079
+fazer porque eu acho que percebi os
+
+126
+00:05:08,399 --> 00:05:12,959
+requisitos de uma forma que não era
+
+127
+00:05:11,079 --> 00:05:14,560
+aquela que quem me está a transmitir os
+
+128
+00:05:12,959 --> 00:05:17,000
+requisitos queria dizer portanto também
+
+129
+00:05:14,560 --> 00:05:19,399
+às vezes há este Mat Mas de qualquer
+
+130
+00:05:17,000 --> 00:05:21,839
+forma o que é que acontece est esta
+
+131
+00:05:19,399 --> 00:05:23,839
+falha no código fonte vai levar então a
+
+132
+00:05:21,839 --> 00:05:26,399
+que programa se comporte de maneira
+
+133
+00:05:23,839 --> 00:05:28,079
+indesejada e isto depois vai levar a que
+
+134
+00:05:26,399 --> 00:05:31,439
+o software não esteja de acordo e
+
+135
+00:05:28,079 --> 00:05:33,318
+portanto pode levar uma de problemas uma
+
+136
+00:05:31,439 --> 00:05:36,120
+falha é a
+
+137
+00:05:33,319 --> 00:05:37,879
+manifestação IST está aqui a diferença a
+
+138
+00:05:36,120 --> 00:05:39,959
+diferença fundamental Entre uma e a
+
+139
+00:05:37,879 --> 00:05:41,680
+outra Portanto o bug é algo que existe
+
+140
+00:05:39,959 --> 00:05:44,000
+que está lá mas que ainda não está
+
+141
+00:05:41,680 --> 00:05:46,680
+manifestado Ou seja a pessoa o
+
+142
+00:05:44,000 --> 00:05:49,279
+utilizador ou o usuário aqui tá outra
+
+143
+00:05:46,680 --> 00:05:51,879
+diferença eu vou dizer utilizador para o
+
+144
+00:05:49,279 --> 00:05:55,799
+que vocês normalmente usam para o
+
+145
+00:05:51,879 --> 00:05:58,800
+usuário mas aquilo que o utilizador vai
+
+146
+00:05:55,800 --> 00:06:01,520
+observar por exemplo se eu tiver um erro
+
+147
+00:05:58,800 --> 00:06:04,199
+num sistema Windows que eventualmente
+
+148
+00:06:01,519 --> 00:06:07,279
+vai levar a ao Blue screen of Death
+
+149
+00:06:04,199 --> 00:06:11,360
+portanto aquele ecrã Azul quando virmos
+
+150
+00:06:07,279 --> 00:06:14,559
+o ecrã azul é a falha e essa falha é uma
+
+151
+00:06:11,360 --> 00:06:17,520
+manifestação de um b de algo que estava
+
+152
+00:06:14,560 --> 00:06:19,879
+no no código no binário neste caso que
+
+153
+00:06:17,519 --> 00:06:21,639
+está a levar a um problema e portanto
+
+154
+00:06:19,879 --> 00:06:24,240
+Esta é a diferença fundamental Entre uma
+
+155
+00:06:21,639 --> 00:06:25,560
+e a outra quando nós estamos a fazer a
+
+156
+00:06:24,240 --> 00:06:27,680
+fault
+
+157
+00:06:25,560 --> 00:06:30,598
+localization o que nós estamos a tentar
+
+158
+00:06:27,680 --> 00:06:33,360
+encontrar é o bug ou seja nós observamos
+
+159
+00:06:30,598 --> 00:06:36,598
+que el correu mal e agora Queremos
+
+160
+00:06:33,360 --> 00:06:39,120
+queremos perceber qual é a causa desse
+
+161
+00:06:36,598 --> 00:06:41,199
+dessa que levou a esse problema e
+
+162
+00:06:39,120 --> 00:06:43,240
+portanto é a diferença entre um e o
+
+163
+00:06:41,199 --> 00:06:45,160
+outro é é este Espero que ter sido Claro
+
+164
+00:06:43,240 --> 00:06:49,639
+enfim é teno por vezes mas
+
+165
+00:06:45,160 --> 00:06:52,160
+essencialmente isso não tá tá claro aí a
+
+166
+00:06:49,639 --> 00:06:55,720
+pergunta é o que é que se estuda em
+
+167
+00:06:52,160 --> 00:06:58,439
+localização de falhas de software certo
+
+168
+00:06:55,720 --> 00:07:01,800
+ah portanto em localização de falhas de
+
+169
+00:06:58,439 --> 00:07:04,079
+software o o que nós estamos a estudar é
+
+170
+00:07:01,800 --> 00:07:05,879
+o seguinte portanto nós sabemos que o
+
+171
+00:07:04,079 --> 00:07:09,000
+sistema está a falhar portanto nós
+
+172
+00:07:05,879 --> 00:07:11,840
+observamos falhas as Tais manifestações
+
+173
+00:07:09,000 --> 00:07:13,680
+dos bugs e como Temos esta manifestação
+
+174
+00:07:11,839 --> 00:07:16,839
+do do problema sabemos que o nosso
+
+175
+00:07:13,680 --> 00:07:19,598
+código não está implementar de acordo
+
+176
+00:07:16,839 --> 00:07:21,159
+com aquilo que eu desejo por exemplo
+
+177
+00:07:19,598 --> 00:07:25,560
+estas manifestações obviamente podem ser
+
+178
+00:07:21,160 --> 00:07:27,639
+em produção e com H com erros e enfim
+
+179
+00:07:25,560 --> 00:07:29,879
+que não são baseados em em testes
+
+180
+00:07:27,639 --> 00:07:31,759
+software ou então testes software nós
+
+181
+00:07:29,879 --> 00:07:34,479
+temos testes software vamos supor que
+
+182
+00:07:31,759 --> 00:07:36,639
+implementamos uma função criei uma série
+
+183
+00:07:34,478 --> 00:07:38,519
+de testes software executei essa pilha
+
+184
+00:07:36,639 --> 00:07:40,160
+de testes e agora alguns falham e a
+
+185
+00:07:38,519 --> 00:07:43,240
+questão é porque é que eu estou a
+
+186
+00:07:40,160 --> 00:07:46,120
+observar estas falhas portanto
+
+187
+00:07:43,240 --> 00:07:49,879
+localização de falhas software é então o
+
+188
+00:07:46,120 --> 00:07:53,079
+estudo de técnicas hã eh Para
+
+189
+00:07:49,879 --> 00:07:56,879
+conseguirmos de uma forma
+
+190
+00:07:53,079 --> 00:07:59,478
+semiautomática encontrar o o problema da
+
+191
+00:07:56,879 --> 00:08:02,919
+raiz eh a raiz do problema desculpem eh
+
+192
+00:07:59,478 --> 00:08:05,240
+portanto tentar perceber eh em detalhe e
+
+193
+00:08:02,918 --> 00:08:08,598
+tentar dizer ao programador onde é que
+
+194
+00:08:05,240 --> 00:08:10,918
+está então o bug onde é que está a causa
+
+195
+00:08:08,598 --> 00:08:13,759
+das falhas que nós estamos a observar e
+
+196
+00:08:10,918 --> 00:08:15,198
+isso é importante porquê Porque se nós
+
+197
+00:08:13,759 --> 00:08:18,560
+conseguimos fazer isso de uma forma
+
+198
+00:08:15,199 --> 00:08:20,759
+automatizada o que vamos permitir é
+
+199
+00:08:18,560 --> 00:08:24,280
+vamos permitir é que o programador se
+
+200
+00:08:20,759 --> 00:08:28,240
+consiga concentrar no reparo em como é
+
+201
+00:08:24,279 --> 00:08:30,638
+que vai eh então Eh resolver o problema
+
+202
+00:08:28,240 --> 00:08:32,560
+e não tanto na parte que na verdade é
+
+203
+00:08:30,639 --> 00:08:35,240
+uma das partes mais complicadas de fazer
+
+204
+00:08:32,559 --> 00:08:37,918
+que é na própria na localização no
+
+205
+00:08:35,240 --> 00:08:40,080
+isolamento dessa falha por outras
+
+206
+00:08:37,918 --> 00:08:42,639
+palavras em depora de software nós
+
+207
+00:08:40,080 --> 00:08:47,320
+tipicamente temos duas coisas uma delas
+
+208
+00:08:42,639 --> 00:08:49,919
+é isolar o problema a outra é H
+
+209
+00:08:47,320 --> 00:08:52,640
+estratégias para e fazer o Fix para
+
+210
+00:08:49,919 --> 00:08:54,519
+corrigir o problema e portanto tanto uma
+
+211
+00:08:52,639 --> 00:08:57,519
+como a outra são muito importantes mas
+
+212
+00:08:54,519 --> 00:08:59,799
+esta fase de isolar o problema é
+
+213
+00:08:57,519 --> 00:09:01,720
+porventura das fases mais complexas que
+
+214
+00:08:59,799 --> 00:09:03,879
+existe em decoração porque na maioria
+
+215
+00:09:01,720 --> 00:09:05,278
+das vezes nós como programadores não
+
+216
+00:09:03,879 --> 00:09:07,000
+temos a mínima ideia porque é que o
+
+217
+00:09:05,278 --> 00:09:09,240
+software está a falhar caso contrário se
+
+218
+00:09:07,000 --> 00:09:11,399
+calhar não estava lá o problema né e
+
+219
+00:09:09,240 --> 00:09:13,639
+portanto como não temos ideia do Quais
+
+220
+00:09:11,399 --> 00:09:16,440
+são as interações na nossa aplicação que
+
+221
+00:09:13,639 --> 00:09:18,480
+estão a levar a esse problema isso torna
+
+222
+00:09:16,440 --> 00:09:21,320
+o problema bastante complexo e daí
+
+223
+00:09:18,480 --> 00:09:23,560
+também surge muito a tentativa por parte
+
+224
+00:09:21,320 --> 00:09:27,320
+da academia mas também da indústria de
+
+225
+00:09:23,559 --> 00:09:27,319
+automatizar esse processo
+
+226
+00:09:29,720 --> 00:09:37,079
+muito bem então quais são né os desafios
+
+227
+00:09:34,720 --> 00:09:39,839
+específicos que você identifica na
+
+228
+00:09:37,078 --> 00:09:40,879
+detecção de falhas em Sistemas complexos
+
+229
+00:09:39,839 --> 00:09:43,320
+e
+
+230
+00:09:40,879 --> 00:09:44,360
+distribuídos especialmente um ambiente
+
+231
+00:09:43,320 --> 00:09:47,519
+de
+
+232
+00:09:44,360 --> 00:09:51,320
+integração e entrega contínua como é
+
+233
+00:09:47,519 --> 00:09:54,839
+encontrado na meta certo
+
+234
+00:09:51,320 --> 00:09:58,560
+H portanto em geral depuração de
+
+235
+00:09:54,839 --> 00:10:01,720
+software é é é mesmo muito h desafiante
+
+236
+00:09:58,559 --> 00:10:06,919
+h h quando nós temos sistemas complexos
+
+237
+00:10:01,720 --> 00:10:09,278
+distribuídos H altamente h escaláveis e
+
+238
+00:10:06,919 --> 00:10:11,319
+como temos na nas grandes tecnológicas
+
+239
+00:10:09,278 --> 00:10:14,559
+não só na meta Ném nas Googles desta
+
+240
+00:10:11,320 --> 00:10:17,000
+vida na Microsoft etc o estes problemas
+
+241
+00:10:14,559 --> 00:10:20,239
+vão vão ser exacerbados não é vão ser
+
+242
+00:10:17,000 --> 00:10:23,360
+bem mais complicados portanto ação de
+
+243
+00:10:20,240 --> 00:10:25,320
+falhas e neste tipo de sistemas H
+
+244
+00:10:23,360 --> 00:10:28,159
+apresentam uma série de desafios
+
+245
+00:10:25,320 --> 00:10:29,920
+bastante específicos h e e na verdade
+
+246
+00:10:28,159 --> 00:10:32,159
+muitos deles ainda estão por por
+
+247
+00:10:29,919 --> 00:10:35,000
+resolver eh portanto eu eu acho que
+
+248
+00:10:32,159 --> 00:10:38,278
+embora nos últimos anos tenha havido
+
+249
+00:10:35,000 --> 00:10:40,720
+enormes avanços eh em depuração
+
+250
+00:10:38,278 --> 00:10:45,039
+automática eu acho que ainda estamos
+
+251
+00:10:40,720 --> 00:10:48,278
+eh numa num numa numa numa situação em
+
+252
+00:10:45,039 --> 00:10:50,879
+que ainda precisamos de vários desafios
+
+253
+00:10:48,278 --> 00:10:53,679
+de de de suplementar vários desafios até
+
+254
+00:10:50,879 --> 00:10:55,480
+para que estas estas técnicas finalmente
+
+255
+00:10:53,679 --> 00:10:58,679
+cheguem à indústria porque muitas muitas
+
+256
+00:10:55,480 --> 00:11:00,440
+dessas técnicas que nós temos vindo a a
+
+257
+00:10:58,679 --> 00:11:03,278
+investigar e a e a desenvolver e a
+
+258
+00:11:00,440 --> 00:11:05,399
+propor nós eh académicos mais num
+
+259
+00:11:03,278 --> 00:11:07,639
+ambiente de investigação ainda não estão
+
+260
+00:11:05,399 --> 00:11:11,559
+a ser utilizados de uma forma
+
+261
+00:11:07,639 --> 00:11:14,320
+sistemática nas nas grandes empresas
+
+262
+00:11:11,559 --> 00:11:17,039
+eh portanto se eu pensar um bocadinho
+
+263
+00:11:14,320 --> 00:11:18,760
+H enfim quais são estes desafios
+
+264
+00:11:17,039 --> 00:11:22,399
+específicos eh portanto eu consigo
+
+265
+00:11:18,759 --> 00:11:25,480
+verificar que estes sistemas eh São
+
+266
+00:11:22,399 --> 00:11:27,879
+caracterizados por uma série de de
+
+267
+00:11:25,480 --> 00:11:29,560
+propriedades e essas propriedades vão
+
+268
+00:11:27,879 --> 00:11:31,879
+depois levar aos desafios estamos a
+
+269
+00:11:29,559 --> 00:11:34,278
+falar da escala estamos a falar da
+
+270
+00:11:31,879 --> 00:11:36,399
+heterogeneidade dos sistemas
+
+271
+00:11:34,278 --> 00:11:38,919
+interdependência dos componentes
+
+272
+00:11:36,399 --> 00:11:41,360
+hã necessidade de disponibilidade e
+
+273
+00:11:38,919 --> 00:11:44,599
+confiabilidade praticamente contínua a
+
+274
+00:11:41,360 --> 00:11:48,639
+100% e portanto tudo isto eh leva a que
+
+275
+00:11:44,600 --> 00:11:51,399
+e seja desafiante complexo fazer
+
+276
+00:11:48,639 --> 00:11:53,399
+depuração Se nós formos aqui pensar um
+
+277
+00:11:51,399 --> 00:11:57,399
+bocadinho nestes nestes desafios
+
+278
+00:11:53,399 --> 00:11:59,278
+específicos H nós vemos eh então onde é
+
+279
+00:11:57,399 --> 00:12:00,639
+que está eh portanto porque é que isto é
+
+280
+00:11:59,278 --> 00:12:02,480
+complexo porque é que isto é difícil
+
+281
+00:12:00,639 --> 00:12:04,839
+portanto quando nós estamos a falar de
+
+282
+00:12:02,480 --> 00:12:07,200
+complexidade interdependência dos vários
+
+283
+00:12:04,839 --> 00:12:09,240
+dos vários módulos o que acontece
+
+284
+00:12:07,200 --> 00:12:11,600
+nomeadamente nessas empresas grandes
+
+285
+00:12:09,240 --> 00:12:13,879
+como estamos a falar da Meta como
+
+286
+00:12:11,600 --> 00:12:15,600
+estamos a falar da Google a Microsoft
+
+287
+00:12:13,879 --> 00:12:18,600
+Nem tanto mas nomeadamente essas duas
+
+288
+00:12:15,600 --> 00:12:22,519
+empresas elas usam como todos sabemos e
+
+289
+00:12:18,600 --> 00:12:24,560
+repositórios e únicos monor não é o que
+
+290
+00:12:22,519 --> 00:12:27,720
+significa que o código é todo colocado
+
+291
+00:12:24,559 --> 00:12:30,119
+nesse repositório e portanto há há uma
+
+292
+00:12:27,720 --> 00:12:32,879
+dependência muito grande entre os vários
+
+293
+00:12:30,120 --> 00:12:35,000
+módulos e quando algo falha não é
+
+294
+00:12:32,879 --> 00:12:37,519
+propriamente fácil
+
+295
+00:12:35,000 --> 00:12:39,198
+identificar a raiz do do problema
+
+296
+00:12:37,519 --> 00:12:41,120
+portanto essa complexidade essa
+
+297
+00:12:39,198 --> 00:12:43,159
+interdependência leva a desafios
+
+298
+00:12:41,120 --> 00:12:46,320
+bastante bastante
+
+299
+00:12:43,159 --> 00:12:49,240
+interessantes depois há também a a
+
+300
+00:12:46,320 --> 00:12:53,320
+dinamicidade e e mudanças frequentes
+
+301
+00:12:49,240 --> 00:12:56,399
+portanto em em ambientes de c cd não é o
+
+302
+00:12:53,320 --> 00:12:59,160
+continuous integration dey o software
+
+303
+00:12:56,399 --> 00:13:02,440
+está em constante evolução e com
+
+304
+00:12:59,159 --> 00:13:04,480
+atualizações muito frequentes não é h o
+
+305
+00:13:02,440 --> 00:13:05,600
+que é que acontece essas atualizações
+
+306
+00:13:04,480 --> 00:13:07,159
+frequentes obviamente que são
+
+307
+00:13:05,600 --> 00:13:10,199
+interessantes do ponto de vista do
+
+308
+00:13:07,159 --> 00:13:12,719
+produto de fazermos de colocarmos novas
+
+309
+00:13:10,198 --> 00:13:16,039
+funcionalidades de um produto e
+
+310
+00:13:12,720 --> 00:13:19,639
+disponíveis para os clientes Mas por
+
+311
+00:13:16,039 --> 00:13:21,879
+outro lado traz eh também desafios
+
+312
+00:13:19,639 --> 00:13:24,039
+importantes de resolver Portanto o que
+
+313
+00:13:21,879 --> 00:13:26,679
+acontece é que
+
+314
+00:13:24,039 --> 00:13:30,919
+e com estas atualizações frequentes se
+
+315
+00:13:26,679 --> 00:13:30,919
+torna bastante complexo a
+
+316
+00:13:30,958 --> 00:13:34,559
+fazer o
+
+317
+00:13:31,958 --> 00:13:37,759
+rastreamento dos dos bugs Ou seja quando
+
+318
+00:13:34,559 --> 00:13:40,439
+um bug acontece qual é qual é a versão a
+
+319
+00:13:37,759 --> 00:13:42,480
+que esse bug diz respeito é o cliente
+
+320
+00:13:40,440 --> 00:13:44,680
+por exemplo já tem o bug final já tem a
+
+321
+00:13:42,480 --> 00:13:46,480
+versão final e portanto o bug é de uma
+
+322
+00:13:44,679 --> 00:13:48,958
+de uma versão final ou então não tem a
+
+323
+00:13:46,480 --> 00:13:51,639
+versão a última versão e portanto o bu
+
+324
+00:13:48,958 --> 00:13:54,518
+já até já pode estar resolvido portanto
+
+325
+00:13:51,639 --> 00:13:57,000
+tudo isto leva aqui a
+
+326
+00:13:54,519 --> 00:13:59,399
+h Desafios que não são propriamente
+
+327
+00:13:57,000 --> 00:14:02,360
+fáceis este rastreamento
+
+328
+00:13:59,399 --> 00:14:04,958
+mas ao mesmo tempo se nós pensarmos no
+
+329
+00:14:02,360 --> 00:14:08,120
+no ponto de vista da das Ferramentas de
+
+330
+00:14:04,958 --> 00:14:09,799
+decoração de falhas que são enfim
+
+331
+00:14:08,120 --> 00:14:13,120
+interessantes para este tipo de sistemas
+
+332
+00:14:09,799 --> 00:14:15,519
+que escalam para para sistemas de larga
+
+333
+00:14:13,120 --> 00:14:18,159
+de larga escala
+
+334
+00:14:15,519 --> 00:14:20,799
+temos essencialmente técnicas que são
+
+335
+00:14:18,159 --> 00:14:25,919
+baseadas
+
+336
+00:14:20,799 --> 00:14:29,159
+em em em processamento de de traços de
+
+337
+00:14:25,919 --> 00:14:32,799
+execução portanto se nós tivermos
+
+338
+00:14:29,159 --> 00:14:34,679
+sempre ou frequentemente a mudar a
+
+339
+00:14:32,799 --> 00:14:37,359
+aplicação o que vai acontecer é que os
+
+340
+00:14:34,679 --> 00:14:39,958
+traços de execuções de execução antigos
+
+341
+00:14:37,360 --> 00:14:43,120
+já não são muito úteis para fazer a
+
+342
+00:14:39,958 --> 00:14:45,679
+decoração ou para fazer o isolamento do
+
+343
+00:14:43,120 --> 00:14:49,000
+bug que eu estou a tentar resolver e
+
+344
+00:14:45,679 --> 00:14:52,439
+portanto isso torna H torna mais uma vez
+
+345
+00:14:49,000 --> 00:14:55,679
+desafiante H esta
+
+346
+00:14:52,440 --> 00:14:56,639
+esta enfim o a tentativa de isolamento
+
+347
+00:14:55,679 --> 00:15:01,198
+do
+
+348
+00:14:56,639 --> 00:15:02,639
+do depois Há outras eh outras H outras
+
+349
+00:15:01,198 --> 00:15:04,439
+características como eu já referi que é
+
+350
+00:15:02,639 --> 00:15:07,039
+a trag genid ou seja os sistemas
+
+351
+00:15:04,440 --> 00:15:09,639
+distribuídos frequentemente operam em
+
+352
+00:15:07,039 --> 00:15:11,519
+diversas plataformas em diversas
+
+353
+00:15:09,639 --> 00:15:14,560
+tecnologias um dos exemplos que eu
+
+354
+00:15:11,519 --> 00:15:17,480
+normalmente normalmente me vem à cabeça
+
+355
+00:15:14,559 --> 00:15:19,278
+é o seguinte portanto nós na academia né
+
+356
+00:15:17,480 --> 00:15:22,240
+quando estamos a a desenvolver uma
+
+357
+00:15:19,278 --> 00:15:24,838
+técnica de depora automática de falhas
+
+358
+00:15:22,240 --> 00:15:27,560
+pegamos num num benchmark digamos do
+
+359
+00:15:24,839 --> 00:15:29,440
+Java ou do Python ou ou ou outra
+
+360
+00:15:27,559 --> 00:15:31,559
+linguagem de programação e de mostrarmos
+
+361
+00:15:29,440 --> 00:15:33,680
+nessa linguagem de programação que as
+
+362
+00:15:31,559 --> 00:15:38,198
+coisas funcionem enfim que que a técnica
+
+363
+00:15:33,679 --> 00:15:42,439
+é capaz de ajudar a identificar e os as
+
+364
+00:15:38,198 --> 00:15:43,958
+as falhas no no os os bugs no no código
+
+365
+00:15:42,440 --> 00:15:46,600
+quando depois tentamos fazer o
+
+366
+00:15:43,958 --> 00:15:49,758
+mapeamento para a indústria nomeadamente
+
+367
+00:15:46,600 --> 00:15:52,639
+eh para uma indústria ou para uma uma
+
+368
+00:15:49,759 --> 00:15:55,318
+empresa que usa eh várias linguagens de
+
+369
+00:15:52,639 --> 00:15:57,039
+programação o que é que acontece a
+
+370
+00:15:55,318 --> 00:15:58,439
+ferramenta Deixa de ser útil não é
+
+371
+00:15:57,039 --> 00:16:00,679
+porque só está disponível para uma
+
+372
+00:15:58,440 --> 00:16:02,000
+linguagem programação se calhar só
+
+373
+00:16:00,679 --> 00:16:05,078
+conseguimos colecionar traços de
+
+374
+00:16:02,000 --> 00:16:08,039
+execução em casos muito concretos eh e
+
+375
+00:16:05,078 --> 00:16:10,078
+portanto de repente a ao querermos eh
+
+376
+00:16:08,039 --> 00:16:11,838
+utilizar a técnica num ambiente mais
+
+377
+00:16:10,078 --> 00:16:13,078
+realista com várias linguagens de
+
+378
+00:16:11,839 --> 00:16:17,199
+programação com vários sistemas
+
+379
+00:16:13,078 --> 00:16:21,039
+operativos enfim com vários x y z nós
+
+380
+00:16:17,198 --> 00:16:25,240
+não vamos conseguir eh e muitas vezes H
+
+381
+00:16:21,039 --> 00:16:28,399
+Isso é o que impede H eh o conseguirmos
+
+382
+00:16:25,240 --> 00:16:29,919
+eh Enfim fazer o a transferência destas
+
+383
+00:16:28,399 --> 00:16:32,879
+todas estas essas técnicas que eu acho
+
+384
+00:16:29,919 --> 00:16:35,559
+que têm valor mas fica difícil fazer a
+
+385
+00:16:32,879 --> 00:16:39,559
+transferência para uma empresa porque eh
+
+386
+00:16:35,559 --> 00:16:40,919
+não estão adaptadas a à realidade não é
+
+387
+00:16:39,559 --> 00:16:42,638
+essencialmente acaba por ser um
+
+388
+00:16:40,919 --> 00:16:44,719
+bocadinho isso na verdade eu eu até
+
+389
+00:16:42,639 --> 00:16:47,120
+escrevi uma um artigo há uns tempos
+
+390
+00:16:44,720 --> 00:16:49,920
+atrás ele ele só está no Archive Não não
+
+391
+00:16:47,120 --> 00:16:53,078
+é um artigo que está que está eh
+
+392
+00:16:49,919 --> 00:16:55,039
+validado pelo pelos pares que foi eh
+
+393
+00:16:53,078 --> 00:16:59,479
+essencialmente é uma dissertação de
+
+394
+00:16:55,039 --> 00:17:02,240
+minha parte sobre a tentativa de eh
+
+395
+00:16:59,480 --> 00:17:03,959
+colocar na indústria ferramentas de
+
+396
+00:17:02,240 --> 00:17:06,000
+localização de falhas portanto há uns
+
+397
+00:17:03,958 --> 00:17:08,318
+tempos atrás eu tentei criar uma uma
+
+398
+00:17:06,000 --> 00:17:11,078
+Startup nesse nesse aspecto e Houve aqui
+
+399
+00:17:08,318 --> 00:17:12,558
+algumas lições que eu aprendi que eu
+
+400
+00:17:11,078 --> 00:17:15,480
+decidi colocar Nesse artigo que eu
+
+401
+00:17:12,558 --> 00:17:18,838
+depois posso passar a ao Adolfo e
+
+402
+00:17:15,480 --> 00:17:20,679
+podemos meter nas notas do do podcast
+
+403
+00:17:18,838 --> 00:17:23,240
+assim é um artigo bem pequeno Quatro
+
+404
+00:17:20,679 --> 00:17:27,640
+páginas em que eu diserto um bocadinho
+
+405
+00:17:23,240 --> 00:17:29,839
+sobre sobre as dificuldades de transpor
+
+406
+00:17:27,640 --> 00:17:33,919
+da academia para indústria este tipo de
+
+407
+00:17:29,839 --> 00:17:36,199
+ferramento eh é o desculpa é o The Bump
+
+408
+00:17:33,919 --> 00:17:38,880
+Road of taking automated debug into
+
+409
+00:17:36,200 --> 00:17:41,080
+Industry É isso mesmo é isso mesmo ISS
+
+410
+00:17:38,880 --> 00:17:43,480
+vou colocar na na descrição pronto eu aí
+
+411
+00:17:41,079 --> 00:17:46,720
+essencialmente o o que fiz já foi há uns
+
+412
+00:17:43,480 --> 00:17:48,000
+anos atrás e nós tentamos aqui na na na
+
+413
+00:17:46,720 --> 00:17:50,319
+Universidade do porto na altura
+
+414
+00:17:48,000 --> 00:17:52,119
+juntamente com um aluno de doutoramento
+
+415
+00:17:50,319 --> 00:17:54,879
+e mais e mais uns colegas tentamos
+
+416
+00:17:52,119 --> 00:17:57,199
+começar a comercializar o o esse tipo de
+
+417
+00:17:54,880 --> 00:17:59,320
+ferramenta e na verdade o que aprendemos
+
+418
+00:17:57,200 --> 00:18:01,400
+foi muito interessante porque o Que Nós
+
+419
+00:17:59,319 --> 00:18:03,200
+aprendemos essencialmente foi isto que
+
+420
+00:18:01,400 --> 00:18:06,200
+eu estava a dizer ou seja aquilo que nós
+
+421
+00:18:03,200 --> 00:18:07,798
+fazemos muitas vezes não está ainda não
+
+422
+00:18:06,200 --> 00:18:10,519
+está nem sequer próximo de ser um
+
+423
+00:18:07,798 --> 00:18:13,918
+Prototype um proof of Concept Tá longe
+
+424
+00:18:10,519 --> 00:18:17,918
+disso e para aquilo que a indústria quer
+
+425
+00:18:13,919 --> 00:18:20,520
+mas depois uma mais um um banho de
+
+426
+00:18:17,919 --> 00:18:24,120
+realidade foi quando visitamos várias
+
+427
+00:18:20,519 --> 00:18:26,200
+empresas e a maioria da do feedback era
+
+428
+00:18:24,119 --> 00:18:30,319
+e pá nós não estávamos habituados a
+
+429
+00:18:26,200 --> 00:18:33,120
+pagar por ferramentas de teste deação
+
+430
+00:18:30,319 --> 00:18:35,359
+nós costumamos ter isto open source eh e
+
+431
+00:18:33,119 --> 00:18:37,199
+portanto tudo muda n é se nós queremos
+
+432
+00:18:35,359 --> 00:18:39,519
+comercializar uma coisa destas mas como
+
+433
+00:18:37,200 --> 00:18:42,519
+open source significa que temos que
+
+434
+00:18:39,519 --> 00:18:44,918
+criar uma comunidade à volta e depois
+
+435
+00:18:42,519 --> 00:18:47,480
+viver como consultants não é portanto
+
+436
+00:18:44,919 --> 00:18:49,038
+como Consultores eh o que mudava a
+
+437
+00:18:47,480 --> 00:18:51,679
+perspectiva Que nós tínhamos na altura e
+
+438
+00:18:49,038 --> 00:18:54,079
+já foi há uns 12 13 anos atrás portanto
+
+439
+00:18:51,679 --> 00:18:56,080
+já vai um tempo mas enfim foi estou a
+
+440
+00:18:54,079 --> 00:18:57,558
+fazer aqui um um detour que acho que é
+
+441
+00:18:56,079 --> 00:18:59,480
+interessante falarmos Aqui Neste
+
+442
+00:18:57,558 --> 00:19:01,798
+contexto porque às vezes sei lá alunos
+
+443
+00:18:59,480 --> 00:19:03,519
+de doutoramento eh mesmo professores
+
+444
+00:19:01,798 --> 00:19:05,639
+pensam que Ok já temos aqui uma
+
+445
+00:19:03,519 --> 00:19:09,319
+ferramenta Vamos tentar comercializá-lo
+
+446
+00:19:05,640 --> 00:19:11,799
+eh E desde o do ponto do artigo mesmo
+
+447
+00:19:09,319 --> 00:19:15,119
+por muito prático Que seja o artigo até
+
+448
+00:19:11,798 --> 00:19:18,440
+até a criação de uma Startup é é um
+
+449
+00:19:15,119 --> 00:19:19,959
+processo enfim com bumpy Road Como eu
+
+450
+00:19:18,440 --> 00:19:23,720
+disse no artigo não é portanto é um um
+
+451
+00:19:19,960 --> 00:19:26,000
+roller coaster uma montanha russa de de
+
+452
+00:19:23,720 --> 00:19:27,558
+enfim de de problemas mas também
+
+453
+00:19:26,000 --> 00:19:29,720
+obviamente que se aprende muito mas não
+
+454
+00:19:27,558 --> 00:19:31,240
+é propriamente fácil mas Pronto já fica
+
+455
+00:19:29,720 --> 00:19:34,519
+aqui o ditur também podemos conversar
+
+456
+00:19:31,240 --> 00:19:37,558
+isto numa outra altura eh voltando à
+
+457
+00:19:34,519 --> 00:19:41,200
+questão de enfim de mais desafios
+
+458
+00:19:37,558 --> 00:19:47,240
+Portanto o que posso eh também eh pensar
+
+459
+00:19:41,200 --> 00:19:49,558
+H ou que me vem à à à cabeça é e é é é a
+
+460
+00:19:47,240 --> 00:19:53,558
+ligação que existe com os testes
+
+461
+00:19:49,558 --> 00:19:55,759
+software eh portanto quanto H quanto
+
+462
+00:19:53,558 --> 00:19:57,359
+mais testes nós tivermos melhor nem
+
+463
+00:19:55,759 --> 00:19:59,640
+sempre é assim ou seja Tem que haver uma
+
+464
+00:19:57,359 --> 00:20:01,439
+diversidade dos Testes mas na maioria
+
+465
+00:19:59,640 --> 00:20:03,880
+das Ferramentas que eu acho que são
+
+466
+00:20:01,440 --> 00:20:06,320
+capazes de escalar
+
+467
+00:20:03,880 --> 00:20:09,080
+para enfim para a
+
+468
+00:20:06,319 --> 00:20:11,759
+indústria são são ferramentas
+
+469
+00:20:09,079 --> 00:20:15,879
+que tomam como
+
+470
+00:20:11,759 --> 00:20:17,960
+input pilhas de testes ou seja casos de
+
+471
+00:20:15,880 --> 00:20:21,159
+teste e portanto o o que é que acontece
+
+472
+00:20:17,960 --> 00:20:24,319
+eu acho que é interessante e o desafio é
+
+473
+00:20:21,159 --> 00:20:28,679
+como é que nós conseguimos
+
+474
+00:20:24,319 --> 00:20:31,759
+colocar junto a evolução por um lado dos
+
+475
+00:20:28,679 --> 00:20:33,679
+testes por o outro lado da depuração
+
+476
+00:20:31,759 --> 00:20:35,158
+porquê Porque o que é que acontece
+
+477
+00:20:33,679 --> 00:20:36,919
+normalmente o Que Nós pensamos é OK
+
+478
+00:20:35,159 --> 00:20:39,960
+testes basta o que interessa é adicionar
+
+479
+00:20:36,919 --> 00:20:42,559
+mais testes e e não nem sempre é assim
+
+480
+00:20:39,960 --> 00:20:45,880
+ou seja nós temos que adicionar testes
+
+481
+00:20:42,558 --> 00:20:47,599
+que nos Tragam informação útil
+
+482
+00:20:45,880 --> 00:20:50,200
+informação Extra que é para podermos
+
+483
+00:20:47,599 --> 00:20:52,359
+começar a isolar o a isolar o problema e
+
+484
+00:20:50,200 --> 00:20:54,759
+portanto esta esta ligação dos Testes
+
+485
+00:20:52,359 --> 00:20:57,719
+com aoração eu acho que é muito
+
+486
+00:20:54,759 --> 00:20:59,440
+importante e e também é algo que enfim
+
+487
+00:20:57,720 --> 00:21:00,720
+que eu que eu acho que é que vale a pena
+
+488
+00:20:59,440 --> 00:21:03,798
+olhar porque só assim é que vamos
+
+489
+00:21:00,720 --> 00:21:07,600
+conseguir colocar o a a decoração
+
+490
+00:21:03,798 --> 00:21:07,599
+automática ao nível que é
+
+491
+00:21:08,400 --> 00:21:13,840
+utilizado certo agora a gente vai entrar
+
+492
+00:21:11,119 --> 00:21:15,678
+num desses assuntos da moda né até a
+
+493
+00:21:13,839 --> 00:21:19,480
+meta é uma das empresas está se
+
+494
+00:21:15,679 --> 00:21:21,759
+destacando bastante nesse nesse assunto
+
+495
+00:21:19,480 --> 00:21:24,400
+como a inteligência artificial de modo
+
+496
+00:21:21,759 --> 00:21:26,599
+mais geral ou machine learning e Deep
+
+497
+00:21:24,400 --> 00:21:29,960
+learning Mais especificamente são
+
+498
+00:21:26,599 --> 00:21:31,119
+aplicadas na localização falha em testes
+
+499
+00:21:29,960 --> 00:21:33,679
+de
+
+500
+00:21:31,119 --> 00:21:36,000
+software muito bem Pronto é é um tema de
+
+501
+00:21:33,679 --> 00:21:37,798
+facto da de facto da moda não é portanto
+
+502
+00:21:36,000 --> 00:21:39,798
+estamos falamos muito de Inteligência
+
+503
+00:21:37,798 --> 00:21:44,119
+Artificial falamos muito nos dias de
+
+504
+00:21:39,798 --> 00:21:47,639
+hoje da do dos lln do large language
+
+505
+00:21:44,119 --> 00:21:51,558
+models eu acho que no na na na
+
+506
+00:21:47,640 --> 00:21:54,600
+Perspectiva da depuração automática h a
+
+507
+00:21:51,558 --> 00:21:57,158
+utilização de deste tipo de tecnologia é
+
+508
+00:21:54,599 --> 00:21:59,199
+muito importante h e não estou a dizer
+
+509
+00:21:57,159 --> 00:22:01,559
+isto por ser um Hot Topic
+
+510
+00:21:59,200 --> 00:22:03,798
+longe disso estou a dizer isto porque eu
+
+511
+00:22:01,558 --> 00:22:05,918
+acho que é mesmo um ganho ou que poderá
+
+512
+00:22:03,798 --> 00:22:09,200
+ser um ganho significativo Em que
+
+513
+00:22:05,919 --> 00:22:12,880
+sentido portanto até hoje o que nós
+
+514
+00:22:09,200 --> 00:22:15,120
+fazemos em geral é nós tentamos fazer
+
+515
+00:22:12,880 --> 00:22:17,880
+aoração estas técnicas de apuração
+
+516
+00:22:15,119 --> 00:22:19,879
+automática de de bugs o que tentam fazer
+
+517
+00:22:17,880 --> 00:22:22,559
+é tentam
+
+518
+00:22:19,880 --> 00:22:26,320
+analisar uma série de observações por
+
+519
+00:22:22,558 --> 00:22:30,839
+exemplo traço de execução etc mas sem
+
+520
+00:22:26,319 --> 00:22:33,720
+olhar para a semântica do código que sem
+
+521
+00:22:30,839 --> 00:22:36,480
+olhar para o código em si e portanto
+
+522
+00:22:33,720 --> 00:22:38,240
+isso era é seria é um pouco como se nós
+
+523
+00:22:36,480 --> 00:22:41,000
+tivéssemos um documento em português em
+
+524
+00:22:38,240 --> 00:22:43,798
+Word não é e eu dissesse Vamos lá ver se
+
+525
+00:22:41,000 --> 00:22:46,440
+aqui temos e frases que estão eh
+
+526
+00:22:43,798 --> 00:22:49,480
+semanticamente incorretas Mas em vez de
+
+527
+00:22:46,440 --> 00:22:52,278
+olharmos para as frases íamos só olhar
+
+528
+00:22:49,480 --> 00:22:54,079
+para alguns erros sintáticos íamos olhar
+
+529
+00:22:52,278 --> 00:22:56,359
+para algumas algumas palavras se elas
+
+530
+00:22:54,079 --> 00:22:57,918
+tivessem mal escritas estaria tudo bem
+
+531
+00:22:56,359 --> 00:23:00,079
+se elas não tivessem mal escritas as
+
+532
+00:22:57,919 --> 00:23:02,120
+palavras então eu iria dizer que o
+
+533
+00:23:00,079 --> 00:23:04,879
+documento porventura poderia ter alguns
+
+534
+00:23:02,119 --> 00:23:06,519
+problemas em decoração automática nós
+
+535
+00:23:04,880 --> 00:23:07,840
+estamos a fazer obviamente com estou
+
+536
+00:23:06,519 --> 00:23:09,639
+exagerar aqui um bocadinho naquilo que
+
+537
+00:23:07,839 --> 00:23:11,879
+estou a dizer mas estamos a fazer algo
+
+538
+00:23:09,640 --> 00:23:14,278
+parecido e ou estávamos a fazer algo
+
+539
+00:23:11,880 --> 00:23:15,159
+parecido Ou seja eu dizia eu tenho este
+
+540
+00:23:14,278 --> 00:23:18,038
+TR de
+
+541
+00:23:15,159 --> 00:23:19,559
+execução Ele está ele leva-me uma falha
+
+542
+00:23:18,038 --> 00:23:22,798
+eu consigo ver que o software não está
+
+543
+00:23:19,558 --> 00:23:25,200
+de acordo com aquilo que eu espero e
+
+544
+00:23:22,798 --> 00:23:27,839
+agora com base neste traço ou seja com
+
+545
+00:23:25,200 --> 00:23:30,440
+base nos eu vou chamar componentes ou
+
+546
+00:23:27,839 --> 00:23:32,798
+nas funções isso por onde por onde a
+
+547
+00:23:30,440 --> 00:23:36,240
+execução andou eu vou
+
+548
+00:23:32,798 --> 00:23:40,079
+tentar encontrar a falha ou a causa da
+
+549
+00:23:36,240 --> 00:23:43,120
+falha e portanto nós estávamos a ignorar
+
+550
+00:23:40,079 --> 00:23:44,720
+informação essencial que é o que é que o
+
+551
+00:23:43,119 --> 00:23:46,000
+código está a fazer como é que isto está
+
+552
+00:23:44,720 --> 00:23:51,720
+implementado
+
+553
+00:23:46,000 --> 00:23:54,119
+h e portanto eu acho que com a a vinda
+
+554
+00:23:51,720 --> 00:23:58,919
+deste tipo de ferramentas em que nos
+
+555
+00:23:54,119 --> 00:24:03,639
+permite fazer uma ou ter em atenção a à
+
+556
+00:23:58,919 --> 00:24:06,520
+parte semântica nós vamos conseguir H eh
+
+557
+00:24:03,640 --> 00:24:10,759
+melhorar os e os métodos de
+
+558
+00:24:06,519 --> 00:24:14,200
+automatização de de de depora de de de
+
+559
+00:24:10,759 --> 00:24:16,038
+software eh portanto e e eu começo já a
+
+560
+00:24:14,200 --> 00:24:19,080
+ver algum dos trabalhos de facto é
+
+561
+00:24:16,038 --> 00:24:23,798
+tentar fazer isso e h portanto aí para
+
+562
+00:24:19,079 --> 00:24:26,759
+além dos H da das eh portanto dos traços
+
+563
+00:24:23,798 --> 00:24:29,359
+de execução eh mas há mais há há há
+
+564
+00:24:26,759 --> 00:24:32,119
+muitos pontos onde eu consigo ver a
+
+565
+00:24:29,359 --> 00:24:35,199
+aplicação destas destas ferramentas ou
+
+566
+00:24:32,119 --> 00:24:38,599
+destas tecnologias por exemplo na
+
+567
+00:24:35,200 --> 00:24:40,319
+predição de falhas H ou seja um dos
+
+568
+00:24:38,599 --> 00:24:42,719
+problemas mais fundamentais nos dias de
+
+569
+00:24:40,319 --> 00:24:46,439
+hoje é o que nós chamamos o The Oracle
+
+570
+00:24:42,720 --> 00:24:49,079
+problem né ou seja nós temos um um um um
+
+571
+00:24:46,440 --> 00:24:52,519
+input o software vai fazer qualquer
+
+572
+00:24:49,079 --> 00:24:55,079
+coisa né h e depois como é que nós
+
+573
+00:24:52,519 --> 00:24:57,918
+decidimos que o software está de acordo
+
+574
+00:24:55,079 --> 00:24:59,439
+com o esperado eh obviamente que algumas
+
+575
+00:24:57,919 --> 00:25:02,038
+funções são fáceis não é se eu tiver a
+
+576
+00:24:59,440 --> 00:25:05,120
+função da soma pronto eu sei que 1 + 1 é
+
+577
+00:25:02,038 --> 00:25:08,679
+2 sei que 2 + 2 é 4 etc mas há funções
+
+578
+00:25:05,119 --> 00:25:11,278
+em que não é trivial dizer ou H ou
+
+579
+00:25:08,679 --> 00:25:13,759
+conseguirmos afirmar o que é que é
+
+580
+00:25:11,278 --> 00:25:18,079
+esperado se nós conseguirmos de alguma
+
+581
+00:25:13,759 --> 00:25:21,679
+forma a prever que alguns destes eh
+
+582
+00:25:18,079 --> 00:25:23,639
+destas destes inputs não estão eh de
+
+583
+00:25:21,679 --> 00:25:26,440
+acordo com o que era esperado Isto vai
+
+584
+00:25:23,640 --> 00:25:28,399
+levar a um a uma melhoria do das
+
+585
+00:25:26,440 --> 00:25:30,640
+técnicas de depora de falhas porque por
+
+586
+00:25:28,398 --> 00:25:31,719
+quê porque de repente já não V ter já
+
+587
+00:25:30,640 --> 00:25:34,240
+não vamos ter que
+
+588
+00:25:31,720 --> 00:25:36,079
+H quer dizer vamos ter sempre que lidar
+
+589
+00:25:34,240 --> 00:25:39,079
+com os chamados Flak tests ou seja os
+
+590
+00:25:36,079 --> 00:25:40,759
+testes que estão a passar ou melhor
+
+591
+00:25:39,079 --> 00:25:42,359
+estão a falhar mas deveriam passar e
+
+592
+00:25:40,759 --> 00:25:45,000
+vice-versa
+
+593
+00:25:42,359 --> 00:25:46,959
+eh e portanto se nós conseguimos
+
+594
+00:25:45,000 --> 00:25:50,880
+melhorar essa Esse aspecto estamos a
+
+595
+00:25:46,960 --> 00:25:53,480
+melhorar também a depora de de software
+
+596
+00:25:50,880 --> 00:25:55,000
+Depois temos um outro ponto análise
+
+597
+00:25:53,480 --> 00:25:57,000
+estática do código as ferramentas
+
+598
+00:25:55,000 --> 00:25:58,759
+baseadas em Inteligência Artificial
+
+599
+00:25:57,000 --> 00:26:00,599
+podem analisar o código fonte para
+
+600
+00:25:58,759 --> 00:26:03,278
+identificar padrões que são
+
+601
+00:26:00,599 --> 00:26:04,439
+identificativos de indicativos desculpem
+
+602
+00:26:03,278 --> 00:26:08,759
+de bugs
+
+603
+00:26:04,440 --> 00:26:11,038
+h e isso vai eh nos permitir então
+
+604
+00:26:08,759 --> 00:26:13,519
+hã sem necessidade de executar o
+
+605
+00:26:11,038 --> 00:26:15,919
+programa Vai nos permitir identificar
+
+606
+00:26:13,519 --> 00:26:18,319
+alguns bus H já há um trabalho muito
+
+607
+00:26:15,919 --> 00:26:21,278
+interessante do Michael pradal da
+
+608
+00:26:18,319 --> 00:26:25,200
+stutgart University onde eles tentam
+
+609
+00:26:21,278 --> 00:26:27,679
+h de alguma forma modelar a execução do
+
+610
+00:26:25,200 --> 00:26:29,080
+código usando a inteligência artificial
+
+611
+00:26:27,679 --> 00:26:31,919
+e portanto aou fazermos isso
+
+612
+00:26:29,079 --> 00:26:35,439
+conseguirmos de alguma forma até prever
+
+613
+00:26:31,919 --> 00:26:37,320
+e ou prevenir que alguns bugs a eh
+
+614
+00:26:35,440 --> 00:26:40,320
+cheguem a produção porque estamos ainda
+
+615
+00:26:37,319 --> 00:26:42,720
+durante a durante a a a fase de testes a
+
+616
+00:26:40,319 --> 00:26:45,558
+conseguir de alguma forma executar de
+
+617
+00:26:42,720 --> 00:26:47,600
+forma artificial não é pronto depois
+
+618
+00:26:45,558 --> 00:26:49,918
+outro outro ponto que eu acho que também
+
+619
+00:26:47,599 --> 00:26:52,918
+já começa a aparecer bastantes trabalhos
+
+620
+00:26:49,919 --> 00:26:56,399
+H é a geração automática de casos teste
+
+621
+00:26:52,919 --> 00:26:58,880
+eh portanto alguns trabalhos eh São
+
+622
+00:26:56,398 --> 00:27:01,959
+interessantes no essencialmente o que se
+
+623
+00:26:58,880 --> 00:27:03,480
+dá ou à Inteligência Artificial é eu
+
+624
+00:27:01,960 --> 00:27:07,159
+tenho este
+
+625
+00:27:03,480 --> 00:27:09,679
+programa estou à espera D input ou dest
+
+626
+00:27:07,159 --> 00:27:11,880
+output dá-me uma série de casos de teste
+
+627
+00:27:09,679 --> 00:27:14,000
+para testar este programa e portanto
+
+628
+00:27:11,880 --> 00:27:15,320
+isso também é acaba acaba por ser
+
+629
+00:27:14,000 --> 00:27:17,720
+bastante
+
+630
+00:27:15,319 --> 00:27:20,038
+interessante em duas perspectivas uma
+
+631
+00:27:17,720 --> 00:27:22,319
+delas é
+
+632
+00:27:20,038 --> 00:27:24,398
+conseguimos aumentar de uma forma
+
+633
+00:27:22,319 --> 00:27:25,558
+significativa porque tá a ser automática
+
+634
+00:27:24,398 --> 00:27:28,519
+a pilha de
+
+635
+00:27:25,558 --> 00:27:30,240
+testes por outro lado
+
+636
+00:27:28,519 --> 00:27:32,119
+A ideia é que se consiga de uma forma
+
+637
+00:27:30,240 --> 00:27:33,880
+bem mais rápida encontrar pelo menos um
+
+638
+00:27:32,119 --> 00:27:35,918
+caso de teste que está que leva o
+
+639
+00:27:33,880 --> 00:27:38,360
+programa a falhar n é portanto
+
+640
+00:27:35,919 --> 00:27:40,840
+acredita-se que com a inteligência
+
+641
+00:27:38,359 --> 00:27:44,000
+artificial Isso vai ser mais rápido mais
+
+642
+00:27:40,839 --> 00:27:46,398
+uma vez porquê porque estamos a a ter em
+
+643
+00:27:44,000 --> 00:27:50,359
+atenção a semântica do programa e não
+
+644
+00:27:46,398 --> 00:27:52,518
+apenas input output faz-se aqui uma algo
+
+645
+00:27:50,359 --> 00:27:54,918
+como nos algoritmos evolucionários algo
+
+646
+00:27:52,519 --> 00:27:57,000
+a ver o bran cobras e portanto se tiver
+
+647
+00:27:54,919 --> 00:27:58,679
+bran cobras 100% estamos contentes
+
+648
+00:27:57,000 --> 00:28:01,159
+portanto acaba por ser por ir um
+
+649
+00:27:58,679 --> 00:28:03,278
+bocadinho mais além acaba por olhar para
+
+650
+00:28:01,159 --> 00:28:05,440
+o código e eu acho que isso é é a grande
+
+651
+00:28:03,278 --> 00:28:07,880
+vantagem da da Inteligência Artificial
+
+652
+00:28:05,440 --> 00:28:12,159
+nomeadamente doos eles
+
+653
+00:28:07,880 --> 00:28:14,880
+H enfim H outro aspecto interessante é o
+
+654
+00:28:12,159 --> 00:28:18,480
+A análise de logs de sistemas portanto
+
+655
+00:28:14,880 --> 00:28:21,320
+aqui é é pegar nos traços de execução
+
+656
+00:28:18,480 --> 00:28:23,599
+como fazemos nos dias de hoje mas
+
+657
+00:28:21,319 --> 00:28:27,119
+tentar
+
+658
+00:28:23,599 --> 00:28:30,480
+aproximá-los daquilo que também temos
+
+659
+00:28:27,119 --> 00:28:33,639
+como como que é esperar expectável ver
+
+660
+00:28:30,480 --> 00:28:35,278
+eh e normalmente isso está escrito em
+
+661
+00:28:33,640 --> 00:28:37,360
+linguagem natural ou próxima da
+
+662
+00:28:35,278 --> 00:28:39,278
+linguagem natural e portanto aqui seria
+
+663
+00:28:37,359 --> 00:28:41,519
+a utilização dos algoritmos de
+
+664
+00:28:39,278 --> 00:28:44,359
+processamento de linguagem natural Para
+
+665
+00:28:41,519 --> 00:28:47,519
+quê Para conseguirmos eh analisar os
+
+666
+00:28:44,359 --> 00:28:49,639
+logs eh nessa perspectiva identificar
+
+667
+00:28:47,519 --> 00:28:52,079
+mais uma vez padrões anomalias
+
+668
+00:28:49,640 --> 00:28:53,480
+potenciais causas de falhas e dessa
+
+669
+00:28:52,079 --> 00:28:56,119
+forma vamos eh melhorar
+
+670
+00:28:53,480 --> 00:28:58,839
+significativamente a a velocidade e a e
+
+671
+00:28:56,119 --> 00:29:01,518
+a e a precisão do diagnóstico
+
+672
+00:28:58,839 --> 00:29:05,119
+enfim há aqui uma série de de de pontos
+
+673
+00:29:01,519 --> 00:29:07,919
+que eu acho que que aí há panto incia
+
+674
+00:29:05,119 --> 00:29:10,879
+artificial im learning Deep learning e
+
+675
+00:29:07,919 --> 00:29:14,278
+vai vai trazer para enfim já está a
+
+676
+00:29:10,880 --> 00:29:15,399
+trazer portanto nós formos ver eu acho
+
+677
+00:29:14,278 --> 00:29:16,880
+que vamos falar daqui a pouco disso mas
+
+678
+00:29:15,398 --> 00:29:19,639
+eu estou a organizar a i portanto se
+
+679
+00:29:16,880 --> 00:29:21,880
+formos ver os programas os o programa da
+
+680
+00:29:19,640 --> 00:29:24,360
+x grande parte dos artigos tem estão
+
+681
+00:29:21,880 --> 00:29:28,519
+relacionados com a aplicação
+
+682
+00:29:24,359 --> 00:29:29,879
+de enfim de técnicas de ia e a problemas
+
+683
+00:29:28,519 --> 00:29:32,240
+de engenheria software portanto está a
+
+684
+00:29:29,880 --> 00:29:36,120
+acontecer e eu acho que está a acontecer
+
+685
+00:29:32,240 --> 00:29:37,480
+não só pelo Hype H porque a Malta fala
+
+686
+00:29:36,119 --> 00:29:40,959
+mas está a acontecer porque de facto é
+
+687
+00:29:37,480 --> 00:29:42,440
+um é é um bom Fit portanto acaba por
+
+688
+00:29:40,960 --> 00:29:44,399
+haver aqui um casamento praticamente
+
+689
+00:29:42,440 --> 00:29:46,720
+perfeito com as técnicas Que Nós já
+
+690
+00:29:44,398 --> 00:29:48,439
+tínhamos vindo a utilizar que não
+
+691
+00:29:46,720 --> 00:29:50,440
+olhavam para o código como eu estava a
+
+692
+00:29:48,440 --> 00:29:53,960
+dizer há pouco e que agora de repente
+
+693
+00:29:50,440 --> 00:29:56,000
+nós podemos colocar na equação tudo o
+
+694
+00:29:53,960 --> 00:29:57,679
+que está relacionado com a semântica do
+
+695
+00:29:56,000 --> 00:30:00,159
+covid e eu acho que é por isso que que
+
+696
+00:29:57,679 --> 00:30:02,720
+tem tem que isto tem que é promissor e é
+
+697
+00:30:00,159 --> 00:30:05,360
+por isso que tem há aqui potencial para
+
+698
+00:30:02,720 --> 00:30:05,360
+para bons
+
+699
+00:30:06,200 --> 00:30:13,759
+resultados Ok
+
+700
+00:30:08,640 --> 00:30:16,679
+eh bom o ideal seria que falhas não
+
+701
+00:30:13,759 --> 00:30:19,558
+ocorressem no entanto uma vez que elas
+
+702
+00:30:16,679 --> 00:30:23,840
+ocorrem né a gente sabe que ocorrem é
+
+703
+00:30:19,558 --> 00:30:26,038
+crucial que sejam identificadas né que a
+
+704
+00:30:23,839 --> 00:30:28,639
+sua localização seja identificada de
+
+705
+00:30:26,038 --> 00:30:31,440
+forma precisa em
+
+706
+00:30:28,640 --> 00:30:33,880
+proceder com a sua correção você tem
+
+707
+00:30:31,440 --> 00:30:37,038
+acompanhado o avanço no campo de
+
+708
+00:30:33,880 --> 00:30:41,720
+pesquisa em reparo automatizado de
+
+709
+00:30:37,038 --> 00:30:46,359
+programas Sim tenho tenho estado a
+
+710
+00:30:41,720 --> 00:30:50,159
+seguir e e a razão é é a portanto eu
+
+711
+00:30:46,359 --> 00:30:52,519
+comecei a olhar para para automatização
+
+712
+00:30:50,159 --> 00:30:54,159
+do da depuração de software mas se
+
+713
+00:30:52,519 --> 00:30:56,200
+calhar uma perspectiva histórica porque
+
+714
+00:30:54,159 --> 00:30:57,320
+é que eu comecei a olhar para isso
+
+715
+00:30:56,200 --> 00:30:58,639
+portanto quando eu comecei o meu
+
+716
+00:30:57,319 --> 00:31:00,319
+doutoramento
+
+717
+00:30:58,638 --> 00:31:03,240
+aqui um bocadinho de
+
+718
+00:31:00,319 --> 00:31:06,319
+água quando eu comecei o meu
+
+719
+00:31:03,240 --> 00:31:09,240
+doutoramento era um doutoramento eh bem
+
+720
+00:31:06,319 --> 00:31:12,158
+aplicado em conjunto com uma série de
+
+721
+00:31:09,240 --> 00:31:14,399
+divisões da Philips H em que tinha a
+
+722
+00:31:12,159 --> 00:31:16,480
+Philips research a Philips
+
+723
+00:31:14,398 --> 00:31:18,479
+semiconductors e mais uma série de
+
+724
+00:31:16,480 --> 00:31:22,200
+divisões
+
+725
+00:31:18,480 --> 00:31:26,200
+o a nossa o nosso domínio aplicacional
+
+726
+00:31:22,200 --> 00:31:28,639
+era a a televisão as televisões da
+
+727
+00:31:26,200 --> 00:31:29,840
+Philips portanto a a filipes estava num
+
+728
+00:31:28,638 --> 00:31:33,519
+numa altura
+
+729
+00:31:29,839 --> 00:31:35,519
+h a modernizar a sua a sua Frota vá
+
+730
+00:31:33,519 --> 00:31:38,240
+entre aspas de televisões
+
+731
+00:31:35,519 --> 00:31:40,038
+estavam a aparecer as digamos as Smart
+
+732
+00:31:38,240 --> 00:31:42,480
+TVs quando eu comecei o meu o meu
+
+733
+00:31:40,038 --> 00:31:45,679
+doutoramento e o o projeto onde eu
+
+734
+00:31:42,480 --> 00:31:49,079
+estive envolvido e a grande ideia era ok
+
+735
+00:31:45,679 --> 00:31:50,399
+H É verdade como a Mara A Maria está a
+
+736
+00:31:49,079 --> 00:31:53,000
+dizer é verdade que nós não queremos que
+
+737
+00:31:50,398 --> 00:31:56,638
+os os bugs aconteçam mas infelizmente
+
+738
+00:31:53,000 --> 00:31:58,960
+infelizmente vão acontecer e portanto h
+
+739
+00:31:56,638 --> 00:32:01,079
+o que se pretendia fazer era sabendo que
+
+740
+00:31:58,960 --> 00:32:02,720
+um bug vai acontecer nós não queremos
+
+741
+00:32:01,079 --> 00:32:05,439
+que a televisão
+
+742
+00:32:02,720 --> 00:32:07,600
+H falhe de alguma forma não queremos que
+
+743
+00:32:05,440 --> 00:32:10,080
+a televisão Crash portanto queremos
+
+744
+00:32:07,599 --> 00:32:12,000
+saber lidar com isso quando eu comecei o
+
+745
+00:32:10,079 --> 00:32:14,960
+doutoramento então a minha linha de
+
+746
+00:32:12,000 --> 00:32:18,200
+atenção era em algo chamado self Healing
+
+747
+00:32:14,960 --> 00:32:20,840
+Systems não é sistemas capazes de
+
+748
+00:32:18,200 --> 00:32:22,759
+autur Ora bem eu quando comecei a olhar
+
+749
+00:32:20,839 --> 00:32:24,079
+para as coisas H is já foi há uns anos
+
+750
+00:32:22,759 --> 00:32:26,440
+atrás portanto eu comecei a olhar e eu
+
+751
+00:32:24,079 --> 00:32:29,158
+pensei nós para fazermos self feeling n
+
+752
+00:32:26,440 --> 00:32:32,360
+é e nós temos que saber onde é que está
+
+753
+00:32:29,159 --> 00:32:35,360
+o problema né E para fazer o para
+
+754
+00:32:32,359 --> 00:32:37,319
+colocar o Fix a a correção ou para ter
+
+755
+00:32:35,359 --> 00:32:40,199
+uma medida preventiva preciso saber onde
+
+756
+00:32:37,319 --> 00:32:43,678
+está onde está o Fix portanto eu reparei
+
+757
+00:32:40,200 --> 00:32:46,600
+que na altura e ISS era muito H estava
+
+758
+00:32:43,679 --> 00:32:48,000
+muito no seu início h e na altura
+
+759
+00:32:46,599 --> 00:32:50,158
+lembro-me de falar com com o meu
+
+760
+00:32:48,000 --> 00:32:52,599
+supervisor e dizer e pá nós ainda não
+
+761
+00:32:50,159 --> 00:32:55,159
+conseguimos propriamente fazer o self
+
+762
+00:32:52,599 --> 00:32:57,240
+feeling a a parte preventiva porque nós
+
+763
+00:32:55,159 --> 00:33:00,000
+primeiro temos que saber onde está o a
+
+764
+00:32:57,240 --> 00:33:04,159
+causa e foi isso que me levou a olhar
+
+765
+00:33:00,000 --> 00:33:06,759
+para para o h para o debugging
+
+766
+00:33:04,159 --> 00:33:09,600
+automático portanto a depuração
+
+767
+00:33:06,759 --> 00:33:11,759
+automática agora nós quando fazemos
+
+768
+00:33:09,599 --> 00:33:14,439
+depuração automática o próximo o próximo
+
+769
+00:33:11,759 --> 00:33:17,319
+passo será então reparo automático de
+
+770
+00:33:14,440 --> 00:33:18,440
+falhas não é Ou ou pelo menos guiado e
+
+771
+00:33:17,319 --> 00:33:20,558
+portanto eu tenho vindo a seguir
+
+772
+00:33:18,440 --> 00:33:23,240
+bastante o bastante esse trabalho porque
+
+773
+00:33:20,558 --> 00:33:26,359
+tá muito ligado àquilo que aquilo que é
+
+774
+00:33:23,240 --> 00:33:29,440
+o o o trabalho de de opação automático
+
+775
+00:33:26,359 --> 00:33:32,278
+já agora também para dar aqui uma medida
+
+776
+00:33:29,440 --> 00:33:34,080
+histórica e e a perspectiva das coisas
+
+777
+00:33:32,278 --> 00:33:36,359
+portanto porque é que eu também H há uns
+
+778
+00:33:34,079 --> 00:33:38,759
+anos atrás comecei a olhar para os
+
+779
+00:33:36,359 --> 00:33:40,079
+testes de software portanto eu quando
+
+780
+00:33:38,759 --> 00:33:43,000
+comecei a trabalhar então em em
+
+781
+00:33:40,079 --> 00:33:46,038
+decoração automática eu pensei
+
+782
+00:33:43,000 --> 00:33:47,638
+utilizar métodos baseados em
+
+783
+00:33:46,038 --> 00:33:51,038
+modelos
+
+784
+00:33:47,638 --> 00:33:53,319
+e não consegui portanto não consegui por
+
+785
+00:33:51,038 --> 00:33:56,519
+várias razões primeiro quando fui à
+
+786
+00:33:53,319 --> 00:33:59,119
+Philip e pedi o modelo da televisão ou a
+
+787
+00:33:56,519 --> 00:34:00,880
+especificação o tal problema que nós
+
+788
+00:33:59,119 --> 00:34:04,518
+conhecemos na engenharia de requisitos
+
+789
+00:34:00,880 --> 00:34:06,960
+né enfim não não estava não havia
+
+790
+00:34:04,519 --> 00:34:10,199
+disponibilid da especificação que fosse
+
+791
+00:34:06,960 --> 00:34:13,280
+atual esse era um problema segundo as
+
+792
+00:34:10,199 --> 00:34:16,158
+técnicas baseadas em modelos eram muito
+
+793
+00:34:13,280 --> 00:34:17,960
+muito pesadas e estamos a falar neste
+
+794
+00:34:16,159 --> 00:34:19,720
+caso em concreto para um sistema em
+
+795
+00:34:17,960 --> 00:34:22,358
+bebido portanto era um sistema que
+
+796
+00:34:19,719 --> 00:34:25,158
+estava a correr numa numa televisão e
+
+797
+00:34:22,358 --> 00:34:28,398
+portanto tudo tinha que ser muito muito
+
+798
+00:34:25,159 --> 00:34:31,200
+leve em termos de de análise e foi aí
+
+799
+00:34:28,398 --> 00:34:36,000
+que eu comecei a olhar para as técnicas
+
+800
+00:34:31,199 --> 00:34:39,078
+de que eram mais baseadas em em em enfim
+
+801
+00:34:36,000 --> 00:34:41,838
+processamento de dados processamento de
+
+802
+00:34:39,079 --> 00:34:44,639
+traços de execução e isso levou a quê
+
+803
+00:34:41,838 --> 00:34:48,000
+levou a que eu precisasse de traços de
+
+804
+00:34:44,639 --> 00:34:51,800
+execução e portanto foi isso que levou à
+
+805
+00:34:48,000 --> 00:34:54,000
+necessidade de de ter testes software e
+
+806
+00:34:51,800 --> 00:34:59,400
+portanto isto para dizer o quê com os
+
+807
+00:34:54,000 --> 00:35:01,760
+tópicos de test software depora e reparo
+
+808
+00:34:59,400 --> 00:35:04,559
+é algo que é que eu tenho vindo a seguir
+
+809
+00:35:01,760 --> 00:35:07,680
+e e enfim e tenho estado bastante atento
+
+810
+00:35:04,559 --> 00:35:07,679
+à às aos
+
+811
+00:35:09,239 --> 00:35:14,559
+desenvolvimentos muito bom então agora a
+
+812
+00:35:12,000 --> 00:35:16,519
+gente vai entrar numa próxima parte aqui
+
+813
+00:35:14,559 --> 00:35:19,838
+do da nossa entrevista a parte onde a
+
+814
+00:35:16,519 --> 00:35:23,000
+gente discute alguns artigos específicos
+
+815
+00:35:19,838 --> 00:35:25,000
+da pessoa entrevistada no seu caso foi
+
+816
+00:35:23,000 --> 00:35:26,559
+até difícil escolher foram vários mas
+
+817
+00:35:25,000 --> 00:35:29,480
+vamos falar um pouco inicialmente de um
+
+818
+00:35:26,559 --> 00:35:33,159
+dos seus artigos mais recentes que tem
+
+819
+00:35:29,480 --> 00:35:35,199
+vários coautores Claro chamado remoção
+
+820
+00:35:33,159 --> 00:35:36,838
+de código morto na meta exclusão
+
+821
+00:35:35,199 --> 00:35:39,480
+automática de milhões de linhas de
+
+822
+00:35:36,838 --> 00:35:41,838
+código e petabytes de dados obsoletos
+
+823
+00:35:39,480 --> 00:35:44,760
+então o link o título original em inglês
+
+824
+00:35:41,838 --> 00:35:46,799
+estão na descrição do episódio de fato
+
+825
+00:35:44,760 --> 00:35:48,440
+código morto pode ser um desafio para as
+
+826
+00:35:46,800 --> 00:35:50,920
+pessoas engenheiras de software que
+
+827
+00:35:48,440 --> 00:35:52,760
+realizam manutenção e o sistema e a
+
+828
+00:35:50,920 --> 00:35:54,760
+remoção desse código morto pode
+
+829
+00:35:52,760 --> 00:35:57,040
+facilitar essa tarefa você pode
+
+830
+00:35:54,760 --> 00:36:00,119
+descrever para nós o Framework de
+
+831
+00:35:57,039 --> 00:36:02,519
+remoção sistemática de código e ativos
+
+832
+00:36:00,119 --> 00:36:04,720
+scarf que é descrito neste artigo e que
+
+833
+00:36:02,519 --> 00:36:07,039
+remove código morto
+
+834
+00:36:04,719 --> 00:36:09,679
+certo pronto Isto é um trabalho
+
+835
+00:36:07,039 --> 00:36:14,838
+relativamente recente que que nós
+
+836
+00:36:09,679 --> 00:36:17,078
+publicamos na na fsi de 2023 fsi já
+
+837
+00:36:14,838 --> 00:36:21,400
+agora a publicidade vai ser em porto
+
+838
+00:36:17,079 --> 00:36:24,280
+galinhas acho que é isso aí no Brasil H
+
+839
+00:36:21,400 --> 00:36:28,119
+pronto o artigo essencialmente
+
+840
+00:36:24,280 --> 00:36:30,839
+descreve esta esta Framework H que nós
+
+841
+00:36:28,119 --> 00:36:33,838
+temos e e e na na meta que está em
+
+842
+00:36:30,838 --> 00:36:35,920
+execução Portanto o aquilo que o
+
+843
+00:36:33,838 --> 00:36:39,358
+documento mostra portanto que o artigo
+
+844
+00:36:35,920 --> 00:36:42,639
+mostra H eh é uma série portanto de de
+
+845
+00:36:39,358 --> 00:36:45,279
+contribuições e essencialmente e fala do
+
+846
+00:36:42,639 --> 00:36:48,719
+seguinte ou identifica o seguinte
+
+847
+00:36:45,280 --> 00:36:51,640
+portanto primeiro é nós falamos de uma
+
+848
+00:36:48,719 --> 00:36:54,719
+do do âmbito de da necessidade de
+
+849
+00:36:51,639 --> 00:36:58,239
+excluir remover código que já não é
+
+850
+00:36:54,719 --> 00:37:00,480
+utilizado h e e muitas vezes Isto é é
+
+851
+00:36:58,239 --> 00:37:03,439
+realizado após experiências ou quando
+
+852
+00:37:00,480 --> 00:37:05,280
+novas funcionalidades substituem antigas
+
+853
+00:37:03,440 --> 00:37:09,599
+mas aqui onde é que está o grande o
+
+854
+00:37:05,280 --> 00:37:12,920
+grande desafio é um repositório eh monor
+
+855
+00:37:09,599 --> 00:37:15,640
+riple não é portanto toda toda a empresa
+
+856
+00:37:12,920 --> 00:37:16,920
+contribui para esse repositório como
+
+857
+00:37:15,639 --> 00:37:22,400
+devem calcular
+
+858
+00:37:16,920 --> 00:37:25,240
+H também há uma enfim eh dificuldade
+
+859
+00:37:22,400 --> 00:37:27,119
+nestas nestas empresas enormes é não é
+
+860
+00:37:25,239 --> 00:37:29,358
+fácil manter tudo isto sincronizado e
+
+861
+00:37:27,119 --> 00:37:31,960
+muitas Às vezes as empresas Ou ou As
+
+862
+00:37:29,358 --> 00:37:35,838
+equipas têm tendência a reescrever
+
+863
+00:37:31,960 --> 00:37:38,119
+código que que já existe e depois muitas
+
+864
+00:37:35,838 --> 00:37:40,519
+vezes também o que é que acontece é hh
+
+865
+00:37:38,119 --> 00:37:42,640
+lançou-se algo ou deixou uma uma dada
+
+866
+00:37:40,519 --> 00:37:44,679
+funcionalidade deixou de ser preciso mas
+
+867
+00:37:42,639 --> 00:37:46,559
+não se pensou logo em remover porque
+
+868
+00:37:44,679 --> 00:37:49,799
+pode ainda ser necessário por alguma
+
+869
+00:37:46,559 --> 00:37:53,400
+razão então Ficou ali e entretanto o
+
+870
+00:37:49,800 --> 00:37:56,560
+tempo foi passando e e enfim e a e e e
+
+871
+00:37:53,400 --> 00:38:01,680
+aquela funcionalidade eh não foi não foi
+
+872
+00:37:56,559 --> 00:38:03,960
+eh eh removido agora o problema não é
+
+873
+00:38:01,679 --> 00:38:05,639
+não está só relacionado com o código
+
+874
+00:38:03,960 --> 00:38:08,960
+Portanto o que é que acontece quando nós
+
+875
+00:38:05,639 --> 00:38:11,000
+temos código eh que não foi removido
+
+876
+00:38:08,960 --> 00:38:13,358
+esse código pode levar a uma dependência
+
+877
+00:38:11,000 --> 00:38:15,199
+a uma série de outras coisas como por
+
+878
+00:38:13,358 --> 00:38:19,598
+exemplo dados
+
+879
+00:38:15,199 --> 00:38:22,439
+h e portanto isso E cria aqui uma um
+
+880
+00:38:19,599 --> 00:38:24,599
+problema não Só em termos de código mas
+
+881
+00:38:22,440 --> 00:38:25,559
+também em termos de o tipo de dados que
+
+882
+00:38:24,599 --> 00:38:28,280
+nós vamos
+
+883
+00:38:25,559 --> 00:38:32,599
+e guardando e que vai e que vai ser
+
+884
+00:38:28,280 --> 00:38:35,079
+necessário manter P portanto e cria-se
+
+885
+00:38:32,599 --> 00:38:37,079
+aqui uma necessidade de apagar esse
+
+886
+00:38:35,079 --> 00:38:39,680
+código de uma forma que seja por um lado
+
+887
+00:38:37,079 --> 00:38:42,839
+completa por outro lado também que seja
+
+888
+00:38:39,679 --> 00:38:45,000
+segura né Nós não queremos Apagar dados
+
+889
+00:38:42,838 --> 00:38:46,759
+que não deveríamos estar a pagar e como
+
+890
+00:38:45,000 --> 00:38:49,000
+devem calcular se isso se isso acontecer
+
+891
+00:38:46,760 --> 00:38:51,880
+por uma ferramenta que está ali A a
+
+892
+00:38:49,000 --> 00:38:54,480
+executar diariamente os os programadores
+
+893
+00:38:51,880 --> 00:38:56,039
+ou desenvolvedores não vão ficar não vão
+
+894
+00:38:54,480 --> 00:38:58,719
+ficar muito satisfeitos e portanto isto
+
+895
+00:38:56,039 --> 00:39:02,440
+tem que ser feito com com algum cuidado
+
+896
+00:38:58,719 --> 00:39:06,239
+h e portanto o que nós reparamos foi que
+
+897
+00:39:02,440 --> 00:39:10,599
+eh não é suficiente analisar o código de
+
+898
+00:39:06,239 --> 00:39:12,318
+uma forma estática até pela forma enfim
+
+899
+00:39:10,599 --> 00:39:14,720
+como se vai programando vamos supor que
+
+900
+00:39:12,318 --> 00:39:17,199
+temos alguém Java ou mesmo em Python
+
+901
+00:39:14,719 --> 00:39:19,719
+seria muito fácil instanciar uma outra
+
+902
+00:39:17,199 --> 00:39:23,559
+uma outra classe ou um outro objeto eh
+
+903
+00:39:19,719 --> 00:39:25,358
+com base em reflexão e a maioria do do
+
+904
+00:39:23,559 --> 00:39:29,838
+das Ferramentas táticas não iria
+
+905
+00:39:25,358 --> 00:39:32,358
+conseguir encontrar essa esse problema e
+
+906
+00:39:29,838 --> 00:39:34,199
+portanto tudo isto num código então
+
+907
+00:39:32,358 --> 00:39:36,759
+depois
+
+908
+00:39:34,199 --> 00:39:38,960
+extremamente grande em grande escala
+
+909
+00:39:36,760 --> 00:39:41,599
+tudo isto torna aqui um desafio Um
+
+910
+00:39:38,960 --> 00:39:46,358
+Desafio bastante interessante mas que
+
+911
+00:39:41,599 --> 00:39:49,280
+enfim tem vindo a ser a ser lidado E nós
+
+912
+00:39:46,358 --> 00:39:50,838
+como mostramos no artigo nós se não
+
+913
+00:39:49,280 --> 00:39:52,760
+estou em erro portanto nós conseguimos
+
+914
+00:39:50,838 --> 00:39:55,039
+mostrar que fomos que conseguimos
+
+915
+00:39:52,760 --> 00:39:57,960
+remover dados
+
+916
+00:39:55,039 --> 00:40:02,400
+H na ordem dos 12
+
+917
+00:39:57,960 --> 00:40:05,000
+milhões de assets e e em termos de
+
+918
+00:40:02,400 --> 00:40:07,119
+linhas de código são 104 milhões de
+
+919
+00:40:05,000 --> 00:40:09,358
+linhas de código que foram removidas ao
+
+920
+00:40:07,119 --> 00:40:12,200
+longo ao longo deum time frame que agora
+
+921
+00:40:09,358 --> 00:40:14,559
+não tenho presente mas mas enfim é um
+
+922
+00:40:12,199 --> 00:40:17,279
+time frame ainda considerado mas
+
+923
+00:40:14,559 --> 00:40:18,159
+considerável mas que que são resultados
+
+924
+00:40:17,280 --> 00:40:20,119
+bastante
+
+925
+00:40:18,159 --> 00:40:23,118
+interessantes como é que nós fazemos
+
+926
+00:40:20,119 --> 00:40:26,519
+isto Portanto o processo de então de de
+
+927
+00:40:23,119 --> 00:40:30,640
+remoção e depreciação envolve por um
+
+928
+00:40:26,519 --> 00:40:33,199
+lado não só olhar para h a o o que
+
+929
+00:40:30,639 --> 00:40:35,799
+conseguimos inferir estaticamente mas
+
+930
+00:40:33,199 --> 00:40:38,318
+também aquilo que conseguimos inferir
+
+931
+00:40:35,800 --> 00:40:40,760
+através da utilização dos dos chamados
+
+932
+00:40:38,318 --> 00:40:43,559
+end points ou seja se há algo que está
+
+933
+00:40:40,760 --> 00:40:46,480
+online que nunca é utilizado eh começa
+
+934
+00:40:43,559 --> 00:40:49,078
+ali a ser a ser uma indicação de que
+
+935
+00:40:46,480 --> 00:40:51,679
+esse esse código que está ligado aessp
+
+936
+00:40:49,079 --> 00:40:53,800
+pode ser removido e e portanto nós temos
+
+937
+00:40:51,679 --> 00:40:56,318
+aqui uma um processo que leva uma
+
+938
+00:40:53,800 --> 00:40:58,280
+quarentena dos dados digamos dos dados e
+
+939
+00:40:56,318 --> 00:41:01,318
+e do do código se algum ao fim de algum
+
+940
+00:40:58,280 --> 00:41:04,440
+tempo não for utilizado Então vai ser
+
+941
+00:41:01,318 --> 00:41:06,880
+depreciação e e portanto os ativos vão
+
+942
+00:41:04,440 --> 00:41:09,318
+ser removidos e o código vai ser Lio
+
+943
+00:41:06,880 --> 00:41:11,039
+porque é que é importante fazer isto eh
+
+944
+00:41:09,318 --> 00:41:14,119
+portanto isto volta ao meu ponto inicial
+
+945
+00:41:11,039 --> 00:41:18,719
+Isto é um um monorepo se nós nunca
+
+946
+00:41:14,119 --> 00:41:20,838
+limparmos eh o código eh o código o Code
+
+947
+00:41:18,719 --> 00:41:23,118
+base não é Portanto o repositório o que
+
+948
+00:41:20,838 --> 00:41:25,759
+vai acontecer é que o repositório vai
+
+949
+00:41:23,119 --> 00:41:27,920
+vai crescer crescer crescer mas não vai
+
+950
+00:41:25,760 --> 00:41:29,160
+crescer única exclus ente com as
+
+951
+00:41:27,920 --> 00:41:31,960
+funcionalidades que estão a ser
+
+952
+00:41:29,159 --> 00:41:35,480
+utilizadas vai haver lá código que vai
+
+953
+00:41:31,960 --> 00:41:37,679
+ficar ou que ficaria para para todo o
+
+954
+00:41:35,480 --> 00:41:39,920
+sempre digamos e portanto o que o que
+
+955
+00:41:37,679 --> 00:41:42,279
+iria acontecer era eventualmente o
+
+956
+00:41:39,920 --> 00:41:44,280
+repositório ia ficar poluído
+
+957
+00:41:42,280 --> 00:41:45,839
+com com código que não está a ser
+
+958
+00:41:44,280 --> 00:41:49,480
+utilizado e isso é importante por
+
+959
+00:41:45,838 --> 00:41:52,119
+inúmeros fatores e o primeiro H Por
+
+960
+00:41:49,480 --> 00:41:55,039
+exemplo quando nós temos alguém
+
+961
+00:41:52,119 --> 00:41:57,599
+que que acaba de se juntar à empresa é
+
+962
+00:41:55,039 --> 00:41:59,119
+natural ir ao código ao repositório ver
+
+963
+00:41:57,599 --> 00:42:01,920
+como é que as coisas estão implementadas
+
+964
+00:41:59,119 --> 00:42:03,400
+e esse tipo de coisa e e e não seria
+
+965
+00:42:01,920 --> 00:42:04,760
+interessante estar a olhar para código
+
+966
+00:42:03,400 --> 00:42:06,599
+que já não é utilizado que provavelmente
+
+967
+00:42:04,760 --> 00:42:09,720
+já nem se já nem sequer segue as as
+
+968
+00:42:06,599 --> 00:42:12,280
+guidelines da empresa e portanto convém
+
+969
+00:42:09,719 --> 00:42:15,358
+remover depois queria aqui uma série de
+
+970
+00:42:12,280 --> 00:42:17,880
+de de desafios em termos de manutenção
+
+971
+00:42:15,358 --> 00:42:19,838
+em termos de evolução em termos
+
+972
+00:42:17,880 --> 00:42:21,838
+potencialmente até de testes automáticos
+
+973
+00:42:19,838 --> 00:42:23,838
+que eventualmente podem estar a ser
+
+974
+00:42:21,838 --> 00:42:25,838
+executados e se o código já não é
+
+975
+00:42:23,838 --> 00:42:27,920
+necessário para quê estar a testar esse
+
+976
+00:42:25,838 --> 00:42:30,719
+código portanto queria aqui uma série de
+
+977
+00:42:27,920 --> 00:42:34,599
+de de alguns problemas que este tipo de
+
+978
+00:42:30,719 --> 00:42:38,959
+ferramenta eh pode eh Enfim pode pode
+
+979
+00:42:34,599 --> 00:42:38,960
+remover do do do
+
+980
+00:42:42,159 --> 00:42:47,399
+ecossistema bem agora vamos falar de
+
+981
+00:42:44,519 --> 00:42:50,159
+outro artigo chamado localização de
+
+982
+00:42:47,400 --> 00:42:53,480
+características baseada em espectro um
+
+983
+00:42:50,159 --> 00:42:55,759
+estudo de caso usando o Argo ml neste
+
+984
+00:42:53,480 --> 00:42:57,880
+trabalho você e seus coautores
+
+985
+00:42:55,760 --> 00:43:00,559
+exploraram o uso da técnica de
+
+986
+00:42:57,880 --> 00:43:02,280
+localização baseada em espectro para
+
+987
+00:43:00,559 --> 00:43:04,760
+localização de
+
+988
+00:43:02,280 --> 00:43:06,559
+características esta técnica é
+
+989
+00:43:04,760 --> 00:43:09,160
+tradicionalmente usada para a
+
+990
+00:43:06,559 --> 00:43:11,119
+localização de falhas Quais foram os
+
+991
+00:43:09,159 --> 00:43:13,759
+principais resultados Que Vocês
+
+992
+00:43:11,119 --> 00:43:17,318
+encontraram aí fazendo realizando né
+
+993
+00:43:13,760 --> 00:43:18,760
+esse trabalho uhum P Esse trabalho é um
+
+994
+00:43:17,318 --> 00:43:23,039
+trabalho que eu que eu que eu gosto
+
+995
+00:43:18,760 --> 00:43:26,480
+bastante eh até pelo pel pelo seguinte
+
+996
+00:43:23,039 --> 00:43:28,639
+portanto nós pegamos um trabalho que era
+
+997
+00:43:26,480 --> 00:43:32,358
+aplicado numa uma área como a Maria
+
+998
+00:43:28,639 --> 00:43:35,440
+disse né e fomos tentar resolver um
+
+999
+00:43:32,358 --> 00:43:39,239
+outro problema h e portanto o que nós
+
+1000
+00:43:35,440 --> 00:43:42,838
+fizemos foi uma um um repurpose aqui
+
+1001
+00:43:39,239 --> 00:43:45,199
+usando aqui o inglês do da da técnica
+
+1002
+00:43:42,838 --> 00:43:48,039
+e essencialmente o que está a ser feito
+
+1003
+00:43:45,199 --> 00:43:51,838
+é é pegar em
+
+1004
+00:43:48,039 --> 00:43:55,400
+depora e dizer assim Ok se nós tivermos
+
+1005
+00:43:51,838 --> 00:43:58,920
+quisermos identificar uma uma série de
+
+1006
+00:43:55,400 --> 00:44:02,280
+H de personalidade na minha aplicação
+
+1007
+00:43:58,920 --> 00:44:04,400
+que está relacionada com uma dada
+
+1008
+00:44:02,280 --> 00:44:06,720
+característica com uma dada feature do
+
+1009
+00:44:04,400 --> 00:44:09,760
+meu código Será que posso fazer isso
+
+1010
+00:44:06,719 --> 00:44:11,719
+através da depuração e portanto tendo em
+
+1011
+00:44:09,760 --> 00:44:12,800
+conta que aoração automática de software
+
+1012
+00:44:11,719 --> 00:44:15,838
+que eu tenho que eu tinha vindo a
+
+1013
+00:44:12,800 --> 00:44:18,519
+utilizar até então e ainda agora é muito
+
+1014
+00:44:15,838 --> 00:44:20,880
+relacionada com isso é baseada no estudo
+
+1015
+00:44:18,519 --> 00:44:24,838
+do dos traços de execussão o que é que
+
+1016
+00:44:20,880 --> 00:44:26,559
+acontece acontece que eu se tiver então
+
+1017
+00:44:24,838 --> 00:44:30,239
+uma série de casos de execução que eu
+
+1018
+00:44:26,559 --> 00:44:32,680
+consiga dizer que ativam uma uma dada
+
+1019
+00:44:30,239 --> 00:44:34,439
+funcionalidade do código eu consigo
+
+1020
+00:44:32,679 --> 00:44:38,838
+dizer que em vez de eu estar preocupado
+
+1021
+00:44:34,440 --> 00:44:41,679
+com ser uma falha ou um passe da da de
+
+1022
+00:44:38,838 --> 00:44:44,400
+uma execução eu estou interessado em se
+
+1023
+00:44:41,679 --> 00:44:46,078
+o caso teste é a ativação da
+
+1024
+00:44:44,400 --> 00:44:47,838
+funcionalidade ou não ativa a
+
+1025
+00:44:46,079 --> 00:44:50,400
+funcionalidade do caso de teste por
+
+1026
+00:44:47,838 --> 00:44:53,039
+exemplo no no estudo do arg ml o que nós
+
+1027
+00:44:50,400 --> 00:44:55,160
+fizemos foi H vamos pegar aqui num num
+
+1028
+00:44:53,039 --> 00:44:59,519
+dado Num caso em concreto desenhar um
+
+1029
+00:44:55,159 --> 00:45:02,598
+círculo e pintar o círculo de de de azul
+
+1030
+00:44:59,519 --> 00:45:04,159
+pá pegamos aliás para ser mais simp
+
+1031
+00:45:02,599 --> 00:45:07,039
+vamos vamos supor que temos o paint
+
+1032
+00:45:04,159 --> 00:45:09,440
+portanto uma ferramenta de desenho no
+
+1033
+00:45:07,039 --> 00:45:13,800
+nosso no nosso computador e agora eu
+
+1034
+00:45:09,440 --> 00:45:17,079
+digo bom Adolfo Eu tenho algo para nós
+
+1035
+00:45:13,800 --> 00:45:20,000
+para nós fazermos que é vamos mudar a
+
+1036
+00:45:17,079 --> 00:45:22,599
+funcionalidade de pintar o círculo de
+
+1037
+00:45:20,000 --> 00:45:23,800
+azul bom se eu se eu e o Adolfo
+
+1038
+00:45:22,599 --> 00:45:25,119
+pegássemos neste código e nós não
+
+1039
+00:45:23,800 --> 00:45:26,960
+percebíamos nada do código Portanto o
+
+1040
+00:45:25,119 --> 00:45:28,358
+Pain nós tínhamos começado agora
+
+1041
+00:45:26,960 --> 00:45:30,440
+Microsoft deram-nos o pente para a mão e
+
+1042
+00:45:28,358 --> 00:45:32,679
+disseram-nos para mudar a forma como
+
+1043
+00:45:30,440 --> 00:45:35,280
+pintar o que é que nós iríamos primeiro
+
+1044
+00:45:32,679 --> 00:45:37,960
+ter que fazer era e tentar identificar
+
+1045
+00:45:35,280 --> 00:45:40,160
+qu quais seriam as partes do código que
+
+1046
+00:45:37,960 --> 00:45:42,240
+estavam relacionadas com a implementação
+
+1047
+00:45:40,159 --> 00:45:44,118
+dessa dessa
+
+1048
+00:45:42,239 --> 00:45:45,639
+funcionalidade e portanto o que nós
+
+1049
+00:45:44,119 --> 00:45:47,480
+fizemos foi essencialmente isso foi como
+
+1050
+00:45:45,639 --> 00:45:51,639
+é que nós vamos conseguir identificar
+
+1051
+00:45:47,480 --> 00:45:53,599
+estas e as partes do código que tem
+
+1052
+00:45:51,639 --> 00:45:56,159
+impacto na funcionalidade e portanto o
+
+1053
+00:45:53,599 --> 00:45:59,240
+que nós fizemos Foi OK tem aqui uma um
+
+1054
+00:45:56,159 --> 00:46:01,118
+traço são de algo que está relacionado
+
+1055
+00:45:59,239 --> 00:46:04,479
+com o pintar do Círculo Então vou
+
+1056
+00:46:01,119 --> 00:46:07,200
+marcá-la como sendo de interesse tenho
+
+1057
+00:46:04,480 --> 00:46:09,480
+outra fun outra outro traço de execução
+
+1058
+00:46:07,199 --> 00:46:12,960
+da mesma forma e tem uma série deles que
+
+1059
+00:46:09,480 --> 00:46:15,400
+não estão relacionados ao fazermos isso
+
+1060
+00:46:12,960 --> 00:46:18,159
+o que nós temos é é uma técnica que era
+
+1061
+00:46:15,400 --> 00:46:21,200
+de decoração de de software mas que
+
+1062
+00:46:18,159 --> 00:46:23,799
+agora ao ser utilizada Neste contexto a
+
+1063
+00:46:21,199 --> 00:46:26,078
+técnica vai vai nos dizer o seguinte há
+
+1064
+00:46:23,800 --> 00:46:29,760
+aqui uma série de componentes uma série
+
+1065
+00:46:26,079 --> 00:46:31,599
+de funções no meu código que são única e
+
+1066
+00:46:29,760 --> 00:46:33,160
+exclusivamente utilizadas na
+
+1067
+00:46:31,599 --> 00:46:35,920
+implementação desta
+
+1068
+00:46:33,159 --> 00:46:38,719
+funcionalidade Mas também tenho uma
+
+1069
+00:46:35,920 --> 00:46:41,760
+série de de funções no meu código que
+
+1070
+00:46:38,719 --> 00:46:45,879
+partilham funcionalidade portanto tanto
+
+1071
+00:46:41,760 --> 00:46:47,359
+são utilizadas na na na implementação
+
+1072
+00:46:45,880 --> 00:46:50,079
+daquilo que eu tenho interesse de
+
+1073
+00:46:47,358 --> 00:46:53,558
+alterar de evoluir mas também noutras
+
+1074
+00:46:50,079 --> 00:46:55,559
+noutras H noutras funcionalidades da
+
+1075
+00:46:53,559 --> 00:46:57,280
+aplicação e portanto a questão que se
+
+1076
+00:46:55,559 --> 00:47:00,000
+coloca é tudo bem mas porque é que isto
+
+1077
+00:46:57,280 --> 00:47:02,519
+é importante e isto a a grande
+
+1078
+00:47:00,000 --> 00:47:05,920
+importância desta deste tipo de de
+
+1079
+00:47:02,519 --> 00:47:07,599
+análise e e de relatório hh é na minha
+
+1080
+00:47:05,920 --> 00:47:09,639
+opinião o seguinte eu agora se tiver que
+
+1081
+00:47:07,599 --> 00:47:11,760
+alterar eu sei que nas funções que só
+
+1082
+00:47:09,639 --> 00:47:14,239
+implementam a funcionalidade que eu
+
+1083
+00:47:11,760 --> 00:47:16,319
+tenho interesse eu posso mudá-las com
+
+1084
+00:47:14,239 --> 00:47:19,439
+maior confiança porque eu sei que não
+
+1085
+00:47:16,318 --> 00:47:21,119
+vou partir nada do código não é portanto
+
+1086
+00:47:19,440 --> 00:47:23,039
+tudo que eu alterar ali é relacionado
+
+1087
+00:47:21,119 --> 00:47:25,880
+com aquela funcionalidade e não vai
+
+1088
+00:47:23,039 --> 00:47:28,679
+partir nenhuma outra funcionalidade ao
+
+1089
+00:47:25,880 --> 00:47:31,680
+passo que se eu tiver que alterar algo
+
+1090
+00:47:28,679 --> 00:47:34,358
+em funções que são partilhadas eu devo
+
+1091
+00:47:31,679 --> 00:47:36,159
+ter alguma algum cuidado a fazer essa
+
+1092
+00:47:34,358 --> 00:47:39,199
+alteração nomeadamente adicionar novos
+
+1093
+00:47:36,159 --> 00:47:42,318
+casos de testes etc porque pode ser que
+
+1094
+00:47:39,199 --> 00:47:44,558
+para implementar uma funcionalidade que
+
+1095
+00:47:42,318 --> 00:47:47,719
+eu tenho que implementar eu possa estar
+
+1096
+00:47:44,559 --> 00:47:50,519
+a partir outras partes do código e
+
+1097
+00:47:47,719 --> 00:47:53,679
+portanto nós no arg oml nesse estudo o
+
+1098
+00:47:50,519 --> 00:47:56,800
+arg ml foi foi essencialmente o o o
+
+1099
+00:47:53,679 --> 00:47:58,078
+domínio do do estudo portanto nós Demon
+
+1100
+00:47:56,800 --> 00:48:00,480
+mostramos que isto tinha uma
+
+1101
+00:47:58,079 --> 00:48:02,039
+aplicabilidade interessante o que nós
+
+1102
+00:48:00,480 --> 00:48:05,599
+fizemos essencialmente com esse estudo
+
+1103
+00:48:02,039 --> 00:48:09,960
+foi isso foi pegar em algo que vinha a
+
+1104
+00:48:05,599 --> 00:48:13,160
+ser estudado em decoração automática e
+
+1105
+00:48:09,960 --> 00:48:15,519
+utilizar para Se quisermos usar o termo
+
+1106
+00:48:13,159 --> 00:48:17,879
+em inglês para program comprehension né
+
+1107
+00:48:15,519 --> 00:48:20,400
+para conseguimos compreender o software
+
+1108
+00:48:17,880 --> 00:48:23,240
+e dessa forma ser mais fácil evoluir e
+
+1109
+00:48:20,400 --> 00:48:26,880
+manter
+
+1110
+00:48:23,239 --> 00:48:28,159
+etc muito bom então agora vamos ao útimo
+
+1111
+00:48:26,880 --> 00:48:31,880
+um artigo que a gente gostaria que você
+
+1112
+00:48:28,159 --> 00:48:35,000
+comentasse é o depuração de erros e tipo
+
+1113
+00:48:31,880 --> 00:48:36,760
+alimentada por gpt3 investigando o uso
+
+1114
+00:48:35,000 --> 00:48:39,639
+de modelos de linguagem avançados para o
+
+1115
+00:48:36,760 --> 00:48:41,760
+reparo de código eu li o resumo achei
+
+1116
+00:48:39,639 --> 00:48:44,719
+uma ótima ideia vou ler aqui uma parte
+
+1117
+00:48:41,760 --> 00:48:47,119
+do resumo que é assim os sistemas de
+
+1118
+00:48:44,719 --> 00:48:48,838
+tipo embora sejam capazes de sinalizar a
+
+1119
+00:48:47,119 --> 00:48:51,519
+existência de um erro muitas vezes
+
+1120
+00:48:48,838 --> 00:48:54,599
+falham em identificar sua causa ou
+
+1121
+00:48:51,519 --> 00:48:56,759
+fornecer uma mensagem de erro útil neste
+
+1122
+00:48:54,599 --> 00:48:58,640
+artigo você e seus co-autores apresentam
+
+1123
+00:48:56,760 --> 00:49:01,480
+então uma técnica que utiliza as
+
+1124
+00:48:58,639 --> 00:49:03,719
+capacidades do gpt3 para corrigir
+
+1125
+00:49:01,480 --> 00:49:06,440
+automaticamente erros de tipo em
+
+1126
+00:49:03,719 --> 00:49:08,639
+Programas ou Kemel como resultado deste
+
+1127
+00:49:06,440 --> 00:49:10,798
+artigo uma ferramenta está disponível
+
+1128
+00:49:08,639 --> 00:49:13,639
+até baixei ela aqui para para dar uma
+
+1129
+00:49:10,798 --> 00:49:14,838
+olhada mas não não rodei né o nome da
+
+1130
+00:49:13,639 --> 00:49:17,279
+ferramenta é
+
+1131
+00:49:14,838 --> 00:49:20,480
+mentat você pode nos falar um pouco
+
+1132
+00:49:17,280 --> 00:49:24,440
+sobre esta ferramenta e este
+
+1133
+00:49:20,480 --> 00:49:26,159
+artigo Sim este artigo é um daqueles que
+
+1134
+00:49:24,440 --> 00:49:27,519
+entra naquela naquele domínio que
+
+1135
+00:49:26,159 --> 00:49:31,440
+falamos há pouco pouco da utilização
+
+1136
+00:49:27,519 --> 00:49:33,759
+destas novas destas novas técnicas da da
+
+1137
+00:49:31,440 --> 00:49:35,639
+Inteligência Artificial e portanto é é
+
+1138
+00:49:33,760 --> 00:49:38,400
+um é um daqueles casos que vai muito em
+
+1139
+00:49:35,639 --> 00:49:41,000
+contra aquilo que eu disse que foi h de
+
+1140
+00:49:38,400 --> 00:49:44,440
+repente nós conseguimos usar o contexto
+
+1141
+00:49:41,000 --> 00:49:47,679
+e a semântica do do programa também da
+
+1142
+00:49:44,440 --> 00:49:50,079
+falha e não só olhar mais para entr
+
+1143
+00:49:47,679 --> 00:49:52,159
+aspas metadados de contratos execução
+
+1144
+00:49:50,079 --> 00:49:54,000
+esse tipo de coisa portanto o que é que
+
+1145
+00:49:52,159 --> 00:49:56,239
+acontece aqui neste artigo é o artigo
+
+1146
+00:49:54,000 --> 00:49:58,559
+aborda essencialmente a a utilização de
+
+1147
+00:49:56,239 --> 00:50:00,519
+modelo de linguagem de grande escala
+
+1148
+00:49:58,559 --> 00:50:04,240
+nomeadamente na altura o que estava
+
+1149
+00:50:00,519 --> 00:50:07,280
+disponível era o gpt3 Mas enfim seria
+
+1150
+00:50:04,239 --> 00:50:10,078
+será relativamente fácil verificar qual
+
+1151
+00:50:07,280 --> 00:50:12,880
+era a performance o desempenho mudando
+
+1152
+00:50:10,079 --> 00:50:15,318
+por um por um modelo mais recente mas
+
+1153
+00:50:12,880 --> 00:50:18,240
+não não é propriamente fácil até porque
+
+1154
+00:50:15,318 --> 00:50:20,358
+enfim eh como sabem estes modelos estão
+
+1155
+00:50:18,239 --> 00:50:21,798
+a aparecer aí a toda a hora basicamente
+
+1156
+00:50:20,358 --> 00:50:24,679
+agora estou exagerar também um bocado
+
+1157
+00:50:21,798 --> 00:50:27,000
+mas eh tá a aparecer aí muito muito
+
+1158
+00:50:24,679 --> 00:50:28,719
+frequentemente
+
+1159
+00:50:27,000 --> 00:50:31,960
+e pronto essencialmente nós pegamos no
+
+1160
+00:50:28,719 --> 00:50:34,639
+gpt3 a e tentamos utilizá-lo para
+
+1161
+00:50:31,960 --> 00:50:37,159
+corrigir erros de de tipos em linguagens
+
+1162
+00:50:34,639 --> 00:50:41,480
+de programação neste caso em concreto
+
+1163
+00:50:37,159 --> 00:50:43,838
+era em ocel Mas a nossa expectativa e
+
+1164
+00:50:41,480 --> 00:50:45,358
+hipótese é que iria funcionar em
+
+1165
+00:50:43,838 --> 00:50:46,480
+qualquer linguagem de programação
+
+1166
+00:50:45,358 --> 00:50:49,199
+nomeadamente as linguagens de
+
+1167
+00:50:46,480 --> 00:50:51,400
+programação funcionais H portanto a
+
+1168
+00:50:49,199 --> 00:50:54,399
+técnica Proposta no no Artiga envolve a
+
+1169
+00:50:51,400 --> 00:50:57,160
+análise do código do código de fund e
+
+1170
+00:50:54,400 --> 00:51:00,599
+faz essa análise nomeadamente para gerar
+
+1171
+00:50:57,159 --> 00:51:03,000
+sugestões que são úteis eh para a
+
+1172
+00:51:00,599 --> 00:51:05,280
+compreensão e a geração da da da
+
+1173
+00:51:03,000 --> 00:51:06,559
+linguagem gpt3 para gerar potenciais
+
+1174
+00:51:05,280 --> 00:51:09,640
+correções Portanto o que é que nós
+
+1175
+00:51:06,559 --> 00:51:11,760
+estamos a fazer eh nós pegamos nós
+
+1176
+00:51:09,639 --> 00:51:15,239
+essencialmente estamos a criar um promto
+
+1177
+00:51:11,760 --> 00:51:18,960
+uma pergunta ao ao ao ao chat GPT a
+
+1178
+00:51:15,239 --> 00:51:21,118
+dizer Ok eu vi esta este erro este erro
+
+1179
+00:51:18,960 --> 00:51:25,318
+de de tipo está a ser Nesta parte do
+
+1180
+00:51:21,119 --> 00:51:29,000
+código ajuda-me a a modificar o código
+
+1181
+00:51:25,318 --> 00:51:32,079
+de forma a conseguir e corrigir o a o o
+
+1182
+00:51:29,000 --> 00:51:33,440
+problema né Eh o artigo depois para quem
+
+1183
+00:51:32,079 --> 00:51:36,079
+tiver interesse pode ir ver tem lá uma
+
+1184
+00:51:33,440 --> 00:51:40,480
+série de exemplos e onde mostra até a
+
+1185
+00:51:36,079 --> 00:51:43,359
+implicação da Ordem da ordem das e da da
+
+1186
+00:51:40,480 --> 00:51:46,639
+do código e etc mas essencialmente muito
+
+1187
+00:51:43,358 --> 00:51:50,598
+muito por alto O o que faz é é é isto
+
+1188
+00:51:46,639 --> 00:51:54,199
+portanto H pega no código pega no erro
+
+1189
+00:51:50,599 --> 00:51:58,200
+vai ao código hã e pede ao e E cria um
+
+1190
+00:51:54,199 --> 00:52:00,439
+promem que diz olha se tivesse este erro
+
+1191
+00:51:58,199 --> 00:52:02,358
+com este código como é que iríamos
+
+1192
+00:52:00,440 --> 00:52:04,559
+corrigir isto não é e e pronto depois
+
+1193
+00:52:02,358 --> 00:52:08,318
+nós abordamos abordamos eh ou ou
+
+1194
+00:52:04,559 --> 00:52:11,119
+investigamos eh meia dúzia para umas
+
+1195
+00:52:08,318 --> 00:52:14,079
+duas ou três estratégias diferentes eh
+
+1196
+00:52:11,119 --> 00:52:16,358
+mas como sabem Portanto o gpt3 é um é um
+
+1197
+00:52:14,079 --> 00:52:18,200
+sistema de conversa não é portanto nós
+
+1198
+00:52:16,358 --> 00:52:20,039
+temos que perguntar ao ao chat olha como
+
+1199
+00:52:18,199 --> 00:52:22,199
+é que corrigir ias isto não é como é que
+
+1200
+00:52:20,039 --> 00:52:23,838
+eh se eu tivesse se eu tirasse o erro
+
+1201
+00:52:22,199 --> 00:52:25,519
+portanto normalmente estas ferramentas
+
+1202
+00:52:23,838 --> 00:52:27,838
+agora aqui para ser um bocadinho mais
+
+1203
+00:52:25,519 --> 00:52:31,559
+concreto normalmente que dizem é eh na
+
+1204
+00:52:27,838 --> 00:52:33,960
+linha x na coluna Y eh o tipo está
+
+1205
+00:52:31,559 --> 00:52:36,359
+errado nãoé devia ser um inteiro e e
+
+1206
+00:52:33,960 --> 00:52:38,519
+está-me aparecer uma um arreio por
+
+1207
+00:52:36,358 --> 00:52:42,358
+exemplo portanto nós conseguimos ir lá
+
+1208
+00:52:38,519 --> 00:52:44,880
+retiramos a expressão que eh que leva ao
+
+1209
+00:52:42,358 --> 00:52:46,920
+tipo arrei e colocamos e dizemos e
+
+1210
+00:52:44,880 --> 00:52:49,640
+perguntamos ao chat GPT neste caso ao
+
+1211
+00:52:46,920 --> 00:52:52,200
+chat gpt3 a dizer olha o que é que
+
+1212
+00:52:49,639 --> 00:52:53,159
+colocarias ali naquele espaço que eu
+
+1213
+00:52:52,199 --> 00:52:55,318
+acabei de
+
+1214
+00:52:53,159 --> 00:52:57,078
+retirar pronto o que nós o que nós
+
+1215
+00:52:55,318 --> 00:53:00,558
+verificamos é que
+
+1216
+00:52:57,079 --> 00:53:03,200
+a este tipo de abordagens traz
+
+1217
+00:53:00,559 --> 00:53:06,760
+resultados que estão acima do Estado de
+
+1218
+00:53:03,199 --> 00:53:09,118
+arte e isso isso é é é é muito
+
+1219
+00:53:06,760 --> 00:53:12,559
+interessante porque mostra mais uma vez
+
+1220
+00:53:09,119 --> 00:53:17,160
+que h o facto de nós estamos agora a a
+
+1221
+00:53:12,559 --> 00:53:19,559
+recepcionar com eh não só com e enfim
+
+1222
+00:53:17,159 --> 00:53:21,358
+com os metadados mas também a olhar para
+
+1223
+00:53:19,559 --> 00:53:23,280
+o código ou seja olhar para o contexto
+
+1224
+00:53:21,358 --> 00:53:25,519
+onde o erro ocorre que de facto
+
+1225
+00:53:23,280 --> 00:53:29,280
+conseguimos ter melhores resultados e
+
+1226
+00:53:25,519 --> 00:53:31,079
+portanto isso isso é o o a digamos a o
+
+1227
+00:53:29,280 --> 00:53:32,798
+principal a principal contribuição deste
+
+1228
+00:53:31,079 --> 00:53:35,039
+artigo para além obviamente da
+
+1229
+00:53:32,798 --> 00:53:37,559
+ferramenta que que se pode experimentar
+
+1230
+00:53:35,039 --> 00:53:40,599
+e e todas todas as experiências é é
+
+1231
+00:53:37,559 --> 00:53:43,200
+demonstrar que o o facto de olharmos
+
+1232
+00:53:40,599 --> 00:53:45,760
+para o contexto permite corrigir de uma
+
+1233
+00:53:43,199 --> 00:53:49,399
+forma h que é que vai para além do
+
+1234
+00:53:45,760 --> 00:53:51,280
+estado da arte o h os problemas que
+
+1235
+00:53:49,400 --> 00:53:53,160
+surgem de tipos Isto é um problema
+
+1236
+00:53:51,280 --> 00:53:54,440
+complexo Até porquê Isto é aqueles
+
+1237
+00:53:53,159 --> 00:53:56,838
+problemas chatos que ninguém gosta de
+
+1238
+00:53:54,440 --> 00:53:58,599
+ter né que é compilamos o nosso programa
+
+1239
+00:53:56,838 --> 00:53:59,920
+e de repente aparece lá os tipos todos e
+
+1240
+00:53:58,599 --> 00:54:02,119
+nós assim pá agora como é que vamos
+
+1241
+00:53:59,920 --> 00:54:05,680
+resolver ISO não é e nomeadamente se for
+
+1242
+00:54:02,119 --> 00:54:08,798
+o warnings é portanto é só acaba por ser
+
+1243
+00:54:05,679 --> 00:54:11,318
+só uma um warning como são muitos
+
+1244
+00:54:08,798 --> 00:54:13,440
+acabamos por ignorar e depois o erro
+
+1245
+00:54:11,318 --> 00:54:16,079
+mais mais cedo ou mais tarde vai vai se
+
+1246
+00:54:13,440 --> 00:54:18,440
+manifestar e em em situações bem mais
+
+1247
+00:54:16,079 --> 00:54:20,160
+complexas e portanto aqui é uma forma de
+
+1248
+00:54:18,440 --> 00:54:23,280
+lidar com esse tipo de problemas Quanto
+
+1249
+00:54:20,159 --> 00:54:25,000
+mais sero melhor h e e pronto outra
+
+1250
+00:54:23,280 --> 00:54:28,880
+coisa que nós fizemos foi nós
+
+1251
+00:54:25,000 --> 00:54:30,639
+automatizamos o processo e isso H Isso é
+
+1252
+00:54:28,880 --> 00:54:32,240
+uma diferença fundamental com o estado
+
+1253
+00:54:30,639 --> 00:54:35,199
+ar portanto há algumas ferramentas de
+
+1254
+00:54:32,239 --> 00:54:37,919
+estado Art que também exploram
+
+1255
+00:54:35,199 --> 00:54:40,598
+nomeadamente o uso de Deep learning ou
+
+1256
+00:54:37,920 --> 00:54:42,880
+ou até já algumas de dos Lar language
+
+1257
+00:54:40,599 --> 00:54:45,519
+models mas essencialmente o que nós
+
+1258
+00:54:42,880 --> 00:54:48,400
+fizemos foi nós automatizamos o processo
+
+1259
+00:54:45,519 --> 00:54:50,920
+e através da da ligação a casos de
+
+1260
+00:54:48,400 --> 00:54:54,358
+testes automáticos e portanto de repente
+
+1261
+00:54:50,920 --> 00:54:56,838
+nós conseguimos escalar para para termos
+
+1262
+00:54:54,358 --> 00:54:59,838
+uma avaliação em largas escala por
+
+1263
+00:54:56,838 --> 00:55:02,679
+exemplo o que acontecia Ou que os outros
+
+1264
+00:54:59,838 --> 00:55:05,558
+artigos relacionados eram avaliados em
+
+1265
+00:55:02,679 --> 00:55:08,039
+casos bem bem pequenos por exemplo 20 30
+
+1266
+00:55:05,559 --> 00:55:11,599
+casos porque não conseguiam escalar nós
+
+1267
+00:55:08,039 --> 00:55:13,759
+a automatizar o processo através da da
+
+1268
+00:55:11,599 --> 00:55:16,318
+da geração automática de testes
+
+1269
+00:55:13,760 --> 00:55:18,319
+nomeadamente utilizando o quick check eh
+
+1270
+00:55:16,318 --> 00:55:19,920
+o que nós conseguimos fazer é é
+
+1271
+00:55:18,318 --> 00:55:22,440
+conseguirmos avaliar em larga escala e
+
+1272
+00:55:19,920 --> 00:55:24,240
+portanto a nossa avaliação no no artigo
+
+1273
+00:55:22,440 --> 00:55:27,960
+neste artigo em concreto é uma avaliação
+
+1274
+00:55:24,239 --> 00:55:30,959
+que já tem eh 1000 mil e muitos casos de
+
+1275
+00:55:27,960 --> 00:55:34,240
+teste com problema casos com problemas
+
+1276
+00:55:30,960 --> 00:55:38,599
+de tipos e portanto isso torna torna
+
+1277
+00:55:34,239 --> 00:55:41,239
+enfim a generalização do das observações
+
+1278
+00:55:38,599 --> 00:55:44,480
+mais enfim com mais com mais substância
+
+1279
+00:55:41,239 --> 00:55:47,358
+né com mais consubstanciada
+
+1280
+00:55:44,480 --> 00:55:50,519
+né Muito bom então agora a gente chega
+
+1281
+00:55:47,358 --> 00:55:53,038
+numa outra sessão do nosso podcast você
+
+1282
+00:55:50,519 --> 00:55:54,599
+vai falar sobre alguns outros temas
+
+1283
+00:55:53,039 --> 00:55:56,559
+vamos falar um pouco sobre a sua
+
+1284
+00:55:54,599 --> 00:55:58,960
+carreira na meta a gente falou isso que
+
+1285
+00:55:56,559 --> 00:56:01,640
+eu sei lá é research software engineer
+
+1286
+00:55:58,960 --> 00:56:04,318
+engenheiro de software de pesquisa seria
+
+1287
+00:56:01,639 --> 00:56:06,199
+uma tradução Então vou vou misturar
+
+1288
+00:56:04,318 --> 00:56:08,079
+várias perguntas aqui mas sinta-se livre
+
+1289
+00:56:06,199 --> 00:56:09,879
+para falar o que D para falar o que não
+
+1290
+00:56:08,079 --> 00:56:11,559
+der para falar como é que surgiu essa
+
+1291
+00:56:09,880 --> 00:56:13,358
+oportunidade o que é que você faz na
+
+1292
+00:56:11,559 --> 00:56:15,240
+meta como é que você concilia trabalhar
+
+1293
+00:56:13,358 --> 00:56:17,920
+numa empresa que a gente aqui no Brasil
+
+1294
+00:56:15,239 --> 00:56:20,038
+chama de bigtech com ser professor da
+
+1295
+00:56:17,920 --> 00:56:24,680
+universidade do
+
+1296
+00:56:20,039 --> 00:56:27,240
+porto certo pronto eh como é que surge
+
+1297
+00:56:24,679 --> 00:56:30,000
+para pôr aqui a a também uma perspectiva
+
+1298
+00:56:27,239 --> 00:56:33,159
+de do da forma como eu gosto de de estar
+
+1299
+00:56:30,000 --> 00:56:34,559
+na enfim na ciência já desde o meu e e
+
+1300
+00:56:33,159 --> 00:56:36,358
+já referi isto não é portanto desde o
+
+1301
+00:56:34,559 --> 00:56:39,359
+meu doutoramento eu sempre estive muito
+
+1302
+00:56:36,358 --> 00:56:43,000
+próximo da muito próximo da da indústria
+
+1303
+00:56:39,358 --> 00:56:46,519
+e isso levou levou a que a forma como o
+
+1304
+00:56:43,000 --> 00:56:48,519
+euu trabalho H acaba por procurar sempre
+
+1305
+00:56:46,519 --> 00:56:51,679
+estar ligado a a problemas que a
+
+1306
+00:56:48,519 --> 00:56:53,679
+indústria também tem e e isso leva a
+
+1307
+00:56:51,679 --> 00:56:56,879
+procurar sempre uma uma proximidade
+
+1308
+00:56:53,679 --> 00:56:59,598
+grande com com a com empresas hã
+
+1309
+00:56:56,880 --> 00:57:01,680
+portanto isso isso isso reflete-se logo
+
+1310
+00:56:59,599 --> 00:57:03,640
+desde o doutoramento em que eu como eu
+
+1311
+00:57:01,679 --> 00:57:05,239
+disse há pouco eu comecei o meu
+
+1312
+00:57:03,639 --> 00:57:08,598
+doutoramento numa colaboração muito
+
+1313
+00:57:05,239 --> 00:57:10,159
+Estreita eh com a Philips H portanto a
+
+1314
+00:57:08,599 --> 00:57:12,318
+Philips na na Holanda fiz o meu
+
+1315
+00:57:10,159 --> 00:57:15,358
+doutoramento na na universidade técnica
+
+1316
+00:57:12,318 --> 00:57:17,759
+de delft na nos países baixos e portanto
+
+1317
+00:57:15,358 --> 00:57:22,000
+era uma ligação muito próxima à Philips
+
+1318
+00:57:17,760 --> 00:57:23,680
+h e a Philips na Holanda é é Ou pelo
+
+1319
+00:57:22,000 --> 00:57:25,119
+menos era na altura uma empresa que
+
+1320
+00:57:23,679 --> 00:57:26,759
+investia muito em investigação e
+
+1321
+00:57:25,119 --> 00:57:29,440
+portanto havia muita
+
+1322
+00:57:26,760 --> 00:57:33,200
+muita muita proximidade entre as
+
+1323
+00:57:29,440 --> 00:57:35,280
+Universidades e a e e a empresa eh e
+
+1324
+00:57:33,199 --> 00:57:37,558
+isso obviamente que a estar assim vários
+
+1325
+00:57:35,280 --> 00:57:40,440
+anos Isso vai nos moldando não é e vamos
+
+1326
+00:57:37,559 --> 00:57:43,240
+ficando com um mindset muito próximo da
+
+1327
+00:57:40,440 --> 00:57:44,599
+da indústria depois depois entretanto
+
+1328
+00:57:43,239 --> 00:57:46,239
+acabou o doutoramento só para dar aqui
+
+1329
+00:57:44,599 --> 00:57:47,640
+também uma uma perspectiva histórica que
+
+1330
+00:57:46,239 --> 00:57:50,558
+pode ser interessante portanto acabou o
+
+1331
+00:57:47,639 --> 00:57:54,239
+doutoramento eu voltei a Portugal eh e
+
+1332
+00:57:50,559 --> 00:57:57,760
+ao fim de algum tempo h eu decidi
+
+1333
+00:57:54,239 --> 00:57:59,118
+e sair da da Universidade na altura na
+
+1334
+00:57:57,760 --> 00:58:01,799
+altura era da Universidade do porto
+
+1335
+00:57:59,119 --> 00:58:05,519
+decidi sair e fui para eh Paulo Alto
+
+1336
+00:58:01,798 --> 00:58:07,239
+research Center na na em Silicon Valley
+
+1337
+00:58:05,519 --> 00:58:09,838
+onde eu passei lá há algum tempo e mais
+
+1338
+00:58:07,239 --> 00:58:13,318
+uma vez o o o centro de investigação de
+
+1339
+00:58:09,838 --> 00:58:15,078
+de Paulo Alto É é muito próximo e mesmo
+
+1340
+00:58:13,318 --> 00:58:17,199
+culturalmente é muito próximo do estar
+
+1341
+00:58:15,079 --> 00:58:18,760
+numa numa numa
+
+1342
+00:58:17,199 --> 00:58:21,759
+universidade
+
+1343
+00:58:18,760 --> 00:58:26,079
+barra a fazer algo muito aplicado
+
+1344
+00:58:21,760 --> 00:58:28,400
+H pronto e e depois entretanto voltei e
+
+1345
+00:58:26,079 --> 00:58:30,359
+e tentei criar uma empresa etc Como como
+
+1346
+00:58:28,400 --> 00:58:32,358
+o Adolfo também referiu no no início na
+
+1347
+00:58:30,358 --> 00:58:34,920
+apresentação mas isto para dizer o quê
+
+1348
+00:58:32,358 --> 00:58:37,679
+ser muito próximo da da da indústria
+
+1349
+00:58:34,920 --> 00:58:40,480
+entretanto H há uns anos atrás um
+
+1350
+00:58:37,679 --> 00:58:42,399
+bocadinho antes do do covid e eu tive a
+
+1351
+00:58:40,480 --> 00:58:44,920
+oportunidade de fazer uma um tirar uma
+
+1352
+00:58:42,400 --> 00:58:47,920
+licença sabática da universidade e
+
+1353
+00:58:44,920 --> 00:58:50,838
+andava à procura de de oportunidades o
+
+1354
+00:58:47,920 --> 00:58:54,280
+que fazer e portanto e não surgiu logo
+
+1355
+00:58:50,838 --> 00:58:55,639
+logo a ao a ida para a meta ou seja
+
+1356
+00:58:54,280 --> 00:58:58,079
+comecei a falar com o pessoal que estava
+
+1357
+00:58:55,639 --> 00:59:00,038
+na meta na altura ainda era Facebook mas
+
+1358
+00:58:58,079 --> 00:59:01,559
+primeiro ainda fui à Google porque foi
+
+1359
+00:59:00,039 --> 00:59:03,839
+mais rápido as conversas com eles
+
+1360
+00:59:01,559 --> 00:59:05,599
+portanto eu passei um tempo na Google no
+
+1361
+00:59:03,838 --> 00:59:08,239
+na Google New York
+
+1362
+00:59:05,599 --> 00:59:10,920
+h a trabalhar em em problemas muito
+
+1363
+00:59:08,239 --> 00:59:13,798
+relacionados com segurança com segurança
+
+1364
+00:59:10,920 --> 00:59:16,159
+engenharia software H também reparo
+
+1365
+00:59:13,798 --> 00:59:18,719
+automático de de falhas de neste caso de
+
+1366
+00:59:16,159 --> 00:59:20,480
+falhas de segurança e depois quando
+
+1367
+00:59:18,719 --> 00:59:22,759
+trabalhei quando acabei essa esse
+
+1368
+00:59:20,480 --> 00:59:26,079
+período surgiu então a oportunidade até
+
+1369
+00:59:22,760 --> 00:59:28,359
+por conhecer H algumas alguns outros inv
+
+1370
+00:59:26,079 --> 00:59:30,680
+jadores que estavam na na meta surgiu a
+
+1371
+00:59:28,358 --> 00:59:33,078
+oportunidade de me juntar pronto e assim
+
+1372
+00:59:30,679 --> 00:59:36,358
+foi eu eu juntei-me eh o trabalho que
+
+1373
+00:59:33,079 --> 00:59:39,200
+faço é na verdade bem na linha do do
+
+1374
+00:59:36,358 --> 00:59:43,318
+trabalho que eu tenho vindo a fazer h e
+
+1375
+00:59:39,199 --> 00:59:46,759
+e portanto tudo isto se se se alinha em
+
+1376
+00:59:43,318 --> 00:59:49,719
+termos de de trabalho em termos de de de
+
+1377
+00:59:46,760 --> 00:59:52,039
+gostos e e e naturalmente que é acaba
+
+1378
+00:59:49,719 --> 00:59:53,879
+por ser importante ou interessante no
+
+1379
+00:59:52,039 --> 00:59:56,440
+meu no meu na minha perspectiva e no meu
+
+1380
+00:59:53,880 --> 01:00:00,119
+ponto de vista estar próximo e perceber
+
+1381
+00:59:56,440 --> 01:00:01,599
+eh O que é que a academia tem hh ou seja
+
+1382
+01:00:00,119 --> 01:00:04,200
+ser a ponte entre a academia e a
+
+1383
+01:00:01,599 --> 01:00:06,480
+indústria ehh mas ao mesmo que perceber
+
+1384
+01:00:04,199 --> 01:00:08,598
+Quais são os problemas que a indústria
+
+1385
+01:00:06,480 --> 01:00:12,559
+tem e que precisam ser resolvidos né e
+
+1386
+01:00:08,599 --> 01:00:14,920
+portanto esta esta proximidade no a aos
+
+1387
+01:00:12,559 --> 01:00:16,280
+dois mundos é algo que eu que eu
+
+1388
+01:00:14,920 --> 01:00:18,838
+particularmente gosto Acho interessante
+
+1389
+01:00:16,280 --> 01:00:21,798
+hh é desafiante muitas vezes fala-se
+
+1390
+01:00:18,838 --> 01:00:24,119
+línguas línguas diferentes não é hh mas
+
+1391
+01:00:21,798 --> 01:00:25,679
+é mas é muito gratificante ao fim do ao
+
+1392
+01:00:24,119 --> 01:00:28,680
+fim do dia quando se vê que por exemplo
+
+1393
+01:00:25,679 --> 01:00:31,798
+de um lado consegue-se eh colocar na
+
+1394
+01:00:28,679 --> 01:00:34,159
+indústria eh algo que se viu ou que se
+
+1395
+01:00:31,798 --> 01:00:37,318
+tem vindo a investigar na na academia
+
+1396
+01:00:34,159 --> 01:00:40,440
+mas também Eh saber que há Que há Que há
+
+1397
+01:00:37,318 --> 01:00:42,639
+estudantes Que há Que há pessoal muito
+
+1398
+01:00:40,440 --> 01:00:47,798
+com muitas capacidades que depois podem
+
+1399
+01:00:42,639 --> 01:00:47,798
+ser muito úteis na na na na indústria
+
+1400
+01:00:48,760 --> 01:00:56,160
+como certo E além disso você está no
+
+1401
+01:00:52,920 --> 01:01:00,760
+comitê de organização do IX 2024 em
+
+1402
+01:00:56,159 --> 01:01:05,078
+Portugal como General chair o XX 2024
+
+1403
+01:01:00,760 --> 01:01:07,760
+ocorre de 14 a 20 de Abril em Lisboa
+
+1404
+01:01:05,079 --> 01:01:10,519
+Como tem sido a experiência de coordenar
+
+1405
+01:01:07,760 --> 01:01:12,640
+um evento tão importante Possivelmente a
+
+1406
+01:01:10,519 --> 01:01:14,759
+mais significativa conferência na área
+
+1407
+01:01:12,639 --> 01:01:20,000
+de engenharia de software
+
+1408
+01:01:14,760 --> 01:01:21,880
+olha eh tem sido um um desafio enorme
+
+1409
+01:01:20,000 --> 01:01:24,798
+nomeadamente nos últimos dias eh
+
+1410
+01:01:21,880 --> 01:01:26,480
+portanto nós estamos naquela fase em que
+
+1411
+01:01:24,798 --> 01:01:29,480
+em que já só estamos a
+
+1412
+01:01:26,480 --> 01:01:31,599
+10 semanas mais ou menos 9 10 semanas e
+
+1413
+01:01:29,480 --> 01:01:34,559
+portanto as coisas começam agora a
+
+1414
+01:01:31,599 --> 01:01:38,039
+acontecer muito rápidas h e é de facto
+
+1415
+01:01:34,559 --> 01:01:41,760
+Um Desafio enorme a conferência é pronto
+
+1416
+01:01:38,039 --> 01:01:43,599
+é é muito grande n é e para quem não tem
+
+1417
+01:01:41,760 --> 01:01:45,000
+não tem ideia dos nossos ouvintes
+
+1418
+01:01:43,599 --> 01:01:49,359
+Portanto o que nós estamos a falar é uma
+
+1419
+01:01:45,000 --> 01:01:52,960
+conferência que tem 23 23 24 workshops
+
+1420
+01:01:49,358 --> 01:01:55,078
+colocados 13 eventos
+
+1421
+01:01:52,960 --> 01:01:57,159
+colocados um desses eventos colocados
+
+1422
+01:01:55,079 --> 01:01:58,960
+por exemplo a software repositories
+
+1423
+01:01:57,159 --> 01:02:00,719
+estamos a falar de um evento que
+
+1424
+01:01:58,960 --> 01:02:03,519
+normalmente leva 300 pessoas não é
+
+1425
+01:02:00,719 --> 01:02:06,558
+portanto só esse evento é e é é grande
+
+1426
+01:02:03,519 --> 01:02:08,759
+não é H mas ao mesmo tempo é é
+
+1427
+01:02:06,559 --> 01:02:10,519
+interessante e portanto é é uma
+
+1428
+01:02:08,760 --> 01:02:12,359
+aprendizagem Isto é na verdade organizar
+
+1429
+01:02:10,519 --> 01:02:14,759
+uma conferência tão grande acaba por uma
+
+1430
+01:02:12,358 --> 01:02:16,880
+aprendizagem porque há aqui muitas
+
+1431
+01:02:14,760 --> 01:02:18,240
+muitos muitas partes que se mexem muitas
+
+1432
+01:02:16,880 --> 01:02:20,519
+coisas que é preciso fazer que eu nem
+
+1433
+01:02:18,239 --> 01:02:21,598
+fazia ideia ou seja o que acontece
+
+1434
+01:02:20,519 --> 01:02:23,559
+quando estamos a organizar uma
+
+1435
+01:02:21,599 --> 01:02:26,480
+conferência tão grande é que há
+
+1436
+01:02:23,559 --> 01:02:28,920
+interesse até do do do próprio
+
+1437
+01:02:26,480 --> 01:02:30,318
+das próprios agentes governativos não é
+
+1438
+01:02:28,920 --> 01:02:31,838
+portanto
+
+1439
+01:02:30,318 --> 01:02:34,239
+H
+
+1440
+01:02:31,838 --> 01:02:35,920
+enfim chegar a a um centro de
+
+1441
+01:02:34,239 --> 01:02:37,118
+conferências e dizer Ok este centro de
+
+1442
+01:02:35,920 --> 01:02:39,358
+conferências para esta semana é todo
+
+1443
+01:02:37,119 --> 01:02:41,920
+nosso não é portanto tudo isso acaba
+
+1444
+01:02:39,358 --> 01:02:45,639
+mesmo em escala acaba por ser uma coisa
+
+1445
+01:02:41,920 --> 01:02:47,920
+uma coisa gigantesca obviamente Que há
+
+1446
+01:02:45,639 --> 01:02:51,639
+Que há desafios obviamente que nem tudo
+
+1447
+01:02:47,920 --> 01:02:53,599
+nem tudo corre bem né ou da melhor forma
+
+1448
+01:02:51,639 --> 01:02:54,920
+e há sempre coisas que podemos melhorar
+
+1449
+01:02:53,599 --> 01:02:57,200
+e portanto nós neste momento estamos a
+
+1450
+01:02:54,920 --> 01:03:00,000
+tentar ver até porque estamos na no
+
+1451
+01:02:57,199 --> 01:03:02,519
+final na reta final do registration do
+
+1452
+01:03:00,000 --> 01:03:04,199
+early Bird estamos nesta a tentar que
+
+1453
+01:03:02,519 --> 01:03:08,079
+isto corra tudo pelo melhor há aqui
+
+1454
+01:03:04,199 --> 01:03:10,519
+alguns problemas com com a enfim alguns
+
+1455
+01:03:08,079 --> 01:03:13,160
+atrasos vá com os proceedings que que
+
+1456
+01:03:10,519 --> 01:03:14,759
+que acontece quase sempre mas mas que
+
+1457
+01:03:13,159 --> 01:03:16,118
+vão ser resolvidos só que depois tir
+
+1458
+01:03:14,760 --> 01:03:17,160
+aqui umas horas de sono como se deve
+
+1459
+01:03:16,119 --> 01:03:21,160
+calcular
+
+1460
+01:03:17,159 --> 01:03:23,920
+h e enfim hoje de manhã cheguei ao PC
+
+1461
+01:03:21,159 --> 01:03:25,759
+tinha 300 e poucos e-mails não é todos
+
+1462
+01:03:23,920 --> 01:03:27,358
+para responder portanto não podia ser
+
+1463
+01:03:25,760 --> 01:03:30,559
+não é aquele e-mail que se lê e pode
+
+1464
+01:03:27,358 --> 01:03:32,119
+ficar de lado eh mas mas Pronto tem sido
+
+1465
+01:03:30,559 --> 01:03:34,839
+interessante eh tem sido também
+
+1466
+01:03:32,119 --> 01:03:35,760
+interessante lidar com com a com as
+
+1467
+01:03:34,838 --> 01:03:38,119
+diversas
+
+1468
+01:03:35,760 --> 01:03:40,000
+eh os diversos agentes da nossa
+
+1469
+01:03:38,119 --> 01:03:41,680
+comunidade portanto como sabem na II há
+
+1470
+01:03:40,000 --> 01:03:43,318
+uma série de Awards não é de prémios que
+
+1471
+01:03:41,679 --> 01:03:45,639
+são distribuídos e portanto isso leva a
+
+1472
+01:03:43,318 --> 01:03:48,079
+que seja necessário uma
+
+1473
+01:03:45,639 --> 01:03:51,000
+coordenação com diversas diversos
+
+1474
+01:03:48,079 --> 01:03:52,200
+agentes da da comunidade há outra coisa
+
+1475
+01:03:51,000 --> 01:03:54,159
+também muito interessante na minha
+
+1476
+01:03:52,199 --> 01:03:56,679
+perspectiva e e ainda bem que estamos a
+
+1477
+01:03:54,159 --> 01:03:59,159
+aproveitar pelo facto de de Portugal ser
+
+1478
+01:03:56,679 --> 01:04:02,038
+muito próximo da dos países africanos
+
+1479
+01:03:59,159 --> 01:04:04,078
+que é nós estamos a coordenar eh o a
+
+1480
+01:04:02,039 --> 01:04:06,319
+vinda de de estudantes africanos que não
+
+1481
+01:04:04,079 --> 01:04:08,920
+é fácil eh por uma série de fatores
+
+1482
+01:04:06,318 --> 01:04:12,000
+portanto estamos a coordenar h a vinda
+
+1483
+01:04:08,920 --> 01:04:14,278
+de de seis e só só emos só conseguimos
+
+1484
+01:04:12,000 --> 01:04:16,119
+que fosse seis mas mais uma vez uma uma
+
+1485
+01:04:14,278 --> 01:04:20,838
+interação com diversos agentes como que
+
+1486
+01:04:16,119 --> 01:04:23,079
+vem desde da ACM do3s H até do próprio
+
+1487
+01:04:20,838 --> 01:04:26,679
+das próprias instituições em Portugal
+
+1488
+01:04:23,079 --> 01:04:29,079
+para conseguir enfim atrair ou trazer a
+
+1489
+01:04:26,679 --> 01:04:31,239
+uma conferência desta relevância o Os
+
+1490
+01:04:29,079 --> 01:04:32,920
+estudantes africanos portanto eu acho
+
+1491
+01:04:31,239 --> 01:04:34,078
+que está enfim dentro de tudo obviamente
+
+1492
+01:04:32,920 --> 01:04:35,400
+que há sempre coisas como eu disse que
+
+1493
+01:04:34,079 --> 01:04:37,798
+podem melhorar eu acho que está a correr
+
+1494
+01:04:35,400 --> 01:04:39,760
+bem O evento é grande não é não é
+
+1495
+01:04:37,798 --> 01:04:43,000
+propriamente uma não é propriamente
+
+1496
+01:04:39,760 --> 01:04:47,480
+fácil e tira tira bastantes horas da do
+
+1497
+01:04:43,000 --> 01:04:47,480
+dia mas mas tá quase já Só falta nest
+
+1498
+01:04:47,920 --> 01:04:52,519
+semana muito bom eu aproveito para
+
+1499
+01:04:50,920 --> 01:04:53,480
+lembrar todo mundo né que tá escutando
+
+1500
+01:04:52,519 --> 01:04:58,920
+que em
+
+1501
+01:04:53,480 --> 01:05:01,358
+2026 vai ser aqui no Brasil o x e em
+
+1502
+01:04:58,920 --> 01:05:05,200
+ainda em 2024 né este Episódio vai ser
+
+1503
+01:05:01,358 --> 01:05:08,598
+publicado ainda em 2024 vai ter o f
+
+1504
+01:05:05,199 --> 01:05:11,719
+fse fsi aqui em Porto de Galinhas como
+
+1505
+01:05:08,599 --> 01:05:14,640
+você falou anteriormente eh eu não sei o
+
+1506
+01:05:11,719 --> 01:05:18,439
+mês exato talvez abril maio mas é é na
+
+1507
+01:05:14,639 --> 01:05:21,199
+primeira met portanto a x é em abril e
+
+1508
+01:05:18,440 --> 01:05:23,679
+depois o fse é eu acho que é outubro
+
+1509
+01:05:21,199 --> 01:05:27,838
+setembro outubro normalmente anda por aí
+
+1510
+01:05:23,679 --> 01:05:30,960
+é porque teve um um alinhamento né de de
+
+1511
+01:05:27,838 --> 01:05:32,880
+das conferências para isso eu eu vou ver
+
+1512
+01:05:30,960 --> 01:05:36,000
+se eu se eu acho e coloco na na
+
+1513
+01:05:32,880 --> 01:05:38,960
+descrição do não vai ser em 17 a 19 de
+
+1514
+01:05:36,000 --> 01:05:42,039
+julho vai ser ainda no primeiro não
+
+1515
+01:05:38,960 --> 01:05:44,639
+julho julho já é segundo semestre mas é
+
+1516
+01:05:42,039 --> 01:05:49,039
+17 é mas que eles agora alinharam é isso
+
+1517
+01:05:44,639 --> 01:05:51,159
+mesmo agora a x e f estão Alin certo e
+
+1518
+01:05:49,039 --> 01:05:53,839
+agora a gente chega na pergunta que
+
+1519
+01:05:51,159 --> 01:05:56,278
+define o podcast eu gosto sempre de
+
+1520
+01:05:53,838 --> 01:05:58,440
+lembrar que pode ser algo que você acha
+
+1521
+01:05:56,278 --> 01:06:01,039
+que vai acontecer ou que você gostaria
+
+1522
+01:05:58,440 --> 01:06:03,278
+que acontecesse em nossa área para você
+
+1523
+01:06:01,039 --> 01:06:05,920
+Rui Qual é a próxima fronteira da
+
+1524
+01:06:03,278 --> 01:06:08,318
+engenharia de
+
+1525
+01:06:05,920 --> 01:06:12,318
+software é uma pergunta
+
+1526
+01:06:08,318 --> 01:06:14,639
+H boa e ao mesmo tempo interessante e
+
+1527
+01:06:12,318 --> 01:06:17,358
+desafiante não é portanto acaba por nos
+
+1528
+01:06:14,639 --> 01:06:20,038
+obrigar a pensar no no futuro e eu acho
+
+1529
+01:06:17,358 --> 01:06:22,000
+que nós estamos numa altura da do mundo
+
+1530
+01:06:20,039 --> 01:06:25,960
+tecnológico em que muita coisa está a
+
+1531
+01:06:22,000 --> 01:06:28,400
+mudar e e algo vai mudar ainda mais nos
+
+1532
+01:06:25,960 --> 01:06:31,880
+próximos tempos portanto eu acho que há
+
+1533
+01:06:28,400 --> 01:06:33,318
+aqui uma série de uma série de enfim
+
+1534
+01:06:31,880 --> 01:06:38,039
+desenvolvimentos tecnológicos que nos
+
+1535
+01:06:33,318 --> 01:06:40,798
+vão permitir e trazer Novas Novas novos
+
+1536
+01:06:38,039 --> 01:06:42,200
+avanços tecnológicos metodológicos e e
+
+1537
+01:06:40,798 --> 01:06:45,318
+até de práticas desenvolvimento que
+
+1538
+01:06:42,199 --> 01:06:48,519
+estão que serão diferentes no no no
+
+1539
+01:06:45,318 --> 01:06:50,440
+futuro portanto uma delas está já agora
+
+1540
+01:06:48,519 --> 01:06:52,719
+já relacionada com aquilo que falamos da
+
+1541
+01:06:50,440 --> 01:06:54,599
+da Inteligência Artificial eh mas eu
+
+1542
+01:06:52,719 --> 01:06:56,519
+acho que vai que vai um bocadinho mais
+
+1543
+01:06:54,599 --> 01:07:00,760
+Alé eu eu acho que nós vamos chegar a um
+
+1544
+01:06:56,519 --> 01:07:03,358
+ponto em que eh a máquina vai ser como o
+
+1545
+01:07:00,760 --> 01:07:06,039
+nosso parceiro nas nas tarefas que nós
+
+1546
+01:07:03,358 --> 01:07:07,480
+temos que fazer nós temos tendência de
+
+1547
+01:07:06,039 --> 01:07:08,839
+pensar que que o engenheiro de software
+
+1548
+01:07:07,480 --> 01:07:11,159
+é aquele que só está ali o dia todo a
+
+1549
+01:07:08,838 --> 01:07:13,278
+bater código e tal eh mas há muitas
+
+1550
+01:07:11,159 --> 01:07:15,078
+outras coisas que nós que nós temos que
+
+1551
+01:07:13,278 --> 01:07:17,159
+fazer e portanto eu eu acho que se nós
+
+1552
+01:07:15,079 --> 01:07:18,798
+tivermos um sistema que nos consegue
+
+1553
+01:07:17,159 --> 01:07:21,118
+aconselhar que nos consegue recomendar
+
+1554
+01:07:18,798 --> 01:07:22,798
+que até nos consegue mexer na agenda de
+
+1555
+01:07:21,119 --> 01:07:26,160
+uma forma que nós acreditamos e que é
+
+1556
+01:07:22,798 --> 01:07:27,719
+eficiente para perceber que que nós
+
+1557
+01:07:26,159 --> 01:07:29,118
+estamos a passar uma fase do dia em que
+
+1558
+01:07:27,719 --> 01:07:30,358
+não estamos muito não estamos a ser
+
+1559
+01:07:29,119 --> 01:07:33,278
+muito criativos portanto se calhar não
+
+1560
+01:07:30,358 --> 01:07:34,639
+devemos codificar ou estamos chateados
+
+1561
+01:07:33,278 --> 01:07:36,318
+porque portanto se calhar devemos ir
+
+1562
+01:07:34,639 --> 01:07:38,358
+testar o software estamos chateados
+
+1563
+01:07:36,318 --> 01:07:40,159
+queremos partir as coisas e tal vamos
+
+1564
+01:07:38,358 --> 01:07:42,598
+testar software ou então estamos numa
+
+1565
+01:07:40,159 --> 01:07:44,480
+fase mais aladas se calhar é uma boa
+
+1566
+01:07:42,599 --> 01:07:48,640
+altura para ir mandar enviar e-mails
+
+1567
+01:07:44,480 --> 01:07:52,838
+responder e-mails etc portanto Esta esta
+
+1568
+01:07:48,639 --> 01:07:55,239
+esta este Dual entre a máquina e o e o
+
+1569
+01:07:52,838 --> 01:07:57,119
+humano Eu acho que eu acho que é algo
+
+1570
+01:07:55,239 --> 01:07:58,959
+que que vai ser interessante e que vai
+
+1571
+01:07:57,119 --> 01:08:00,960
+aparecer aí ferramentas
+
+1572
+01:07:58,960 --> 01:08:03,119
+novas pois algo que eu também tenho
+
+1573
+01:08:00,960 --> 01:08:04,880
+vindo a olhar nos últimos anos está
+
+1574
+01:08:03,119 --> 01:08:07,960
+relacionado com engenharia de software
+
+1575
+01:08:04,880 --> 01:08:10,519
+quântica Portanto o que é que acontece
+
+1576
+01:08:07,960 --> 01:08:12,760
+os físicos já estão
+
+1577
+01:08:10,519 --> 01:08:14,318
+a estão a tentar resolver os problemas
+
+1578
+01:08:12,760 --> 01:08:16,400
+deles que estão relacionadas com o
+
+1579
+01:08:14,318 --> 01:08:19,679
+hardware nós enquanto Engenheiros
+
+1580
+01:08:16,399 --> 01:08:22,000
+software podemos nos preparar com a
+
+1581
+01:08:19,679 --> 01:08:23,600
+staque para estar pronto assim que eles
+
+1582
+01:08:22,000 --> 01:08:26,719
+resolverem os problemas deles que tem a
+
+1583
+01:08:23,600 --> 01:08:28,798
+ver com os erros quântica um computador
+
+1584
+01:08:26,719 --> 01:08:31,560
+quântico ainda ainda tem o número de
+
+1585
+01:08:28,798 --> 01:08:33,560
+qubits etc etc mas nós podemos começar a
+
+1586
+01:08:31,560 --> 01:08:35,679
+olhar para tudo que vem de seguida Ou
+
+1587
+01:08:33,560 --> 01:08:37,520
+seja já ter ferramentas já ter boas
+
+1588
+01:08:35,679 --> 01:08:39,719
+linguagens de programação para para
+
+1589
+01:08:37,520 --> 01:08:41,359
+computadores quânticos já ter boas
+
+1590
+01:08:39,719 --> 01:08:45,279
+ferramentas para testar computadores
+
+1591
+01:08:41,359 --> 01:08:48,880
+quânticos etc etc depuração etc portanto
+
+1592
+01:08:45,279 --> 01:08:51,040
+esse eu acho que seria e outra será algo
+
+1593
+01:08:48,880 --> 01:08:52,159
+que virá e e até acho que será
+
+1594
+01:08:51,039 --> 01:08:54,798
+interessante olhar para isso numa
+
+1595
+01:08:52,158 --> 01:08:56,960
+perspectiva híbrida Ou seja eu não estou
+
+1596
+01:08:54,798 --> 01:08:59,838
+a ver o computador quântico a chegar aí
+
+1597
+01:08:56,960 --> 01:09:01,838
+e a substituir de uma forma completa
+
+1598
+01:08:59,838 --> 01:09:03,960
+aquilo que nós temos nos dias de hoje
+
+1599
+01:09:01,838 --> 01:09:06,039
+mas consigo ver um pouco como temos os
+
+1600
+01:09:03,960 --> 01:09:08,600
+gpus não é quer dizer há há computações
+
+1601
+01:09:06,039 --> 01:09:10,238
+que faz mais sentido ser um GPU nós
+
+1602
+01:09:08,600 --> 01:09:12,159
+mandamos para o GPU se calhar faz mais
+
+1603
+01:09:10,238 --> 01:09:13,759
+sentido ser um computador quântico e nós
+
+1604
+01:09:12,158 --> 01:09:16,879
+enviaríamos para o computador quântico e
+
+1605
+01:09:13,759 --> 01:09:19,479
+tudo o resto seria enfim eh uma
+
+1606
+01:09:16,880 --> 01:09:21,560
+computação digamos no no computador
+
+1607
+01:09:19,479 --> 01:09:24,599
+clássica não é como temos nos dias de
+
+1608
+01:09:21,560 --> 01:09:28,080
+hoje depois a outro outro ponto que eu
+
+1609
+01:09:24,600 --> 01:09:29,679
+acho eh bastante bastante importante e
+
+1610
+01:09:28,079 --> 01:09:32,479
+está relacionado com o desenvolvimento
+
+1611
+01:09:29,679 --> 01:09:34,759
+de software sustentável H portanto eu eu
+
+1612
+01:09:32,479 --> 01:09:36,678
+acho que acho que a sustentabilidade
+
+1613
+01:09:34,759 --> 01:09:38,960
+está-se a tornar uma ou já é neste
+
+1614
+01:09:36,679 --> 01:09:40,759
+momento uma prioridade global e portanto
+
+1615
+01:09:38,960 --> 01:09:43,039
+há uma crescente necessidade de práticas
+
+1616
+01:09:40,759 --> 01:09:45,640
+de desenvolvimento de software que vão
+
+1617
+01:09:43,039 --> 01:09:47,039
+minimizar o impacto ambiental eu próprio
+
+1618
+01:09:45,640 --> 01:09:49,600
+também já olhei para alguns trabalhos
+
+1619
+01:09:47,039 --> 01:09:52,079
+com isso nomeadamente com o luí Cruz que
+
+1620
+01:09:49,600 --> 01:09:54,480
+agora é professor na na na universidade
+
+1621
+01:09:52,079 --> 01:09:57,198
+técnica de delft H portanto a ideia é
+
+1622
+01:09:54,479 --> 01:09:59,198
+conseguir enfim técnicas que nos
+
+1623
+01:09:57,198 --> 01:10:02,919
+permitam eh otimizar a eficiência
+
+1624
+01:09:59,198 --> 01:10:05,960
+energética do código eh para que eh a a
+
+1625
+01:10:02,920 --> 01:10:08,039
+pegada carbónica do do software seja
+
+1626
+01:10:05,960 --> 01:10:09,359
+seja reduzida não é e isto isto acaba
+
+1627
+01:10:08,039 --> 01:10:11,960
+por ser muito importante porquê porque
+
+1628
+01:10:09,359 --> 01:10:14,920
+nos dias de hoje tudo é software não é e
+
+1629
+01:10:11,960 --> 01:10:16,840
+portanto se nós conseguimos reduzir a
+
+1630
+01:10:14,920 --> 01:10:19,560
+pegada carbónica do software estamos a
+
+1631
+01:10:16,840 --> 01:10:23,440
+contribuir de forma fundamental para a
+
+1632
+01:10:19,560 --> 01:10:25,520
+sustentabilidade do do do do planeta e
+
+1633
+01:10:23,439 --> 01:10:27,119
+depois há há meia dúzia de outras de
+
+1634
+01:10:25,520 --> 01:10:30,080
+outra deoutros pontos que eu também acho
+
+1635
+01:10:27,119 --> 01:10:31,439
+que que irá eh ou que necessitam
+
+1636
+01:10:30,079 --> 01:10:33,479
+desenvolvimentos Isso vai acontecer nos
+
+1637
+01:10:31,439 --> 01:10:34,799
+próximos tempos portanto um deles é não
+
+1638
+01:10:33,479 --> 01:10:36,238
+não tem a ver com com aquilo que eu
+
+1639
+01:10:34,800 --> 01:10:37,920
+tenho vindo a investigar e portanto é
+
+1640
+01:10:36,238 --> 01:10:40,359
+mais difícil para mim dissertar sobre
+
+1641
+01:10:37,920 --> 01:10:41,719
+isso mas eu acho que a ética e a
+
+1642
+01:10:40,359 --> 01:10:43,198
+responsabilidade em Inteligência
+
+1643
+01:10:41,719 --> 01:10:45,760
+Artificial é um ponto muito importante
+
+1644
+01:10:43,198 --> 01:10:49,000
+já agora uma das keynote speakers na na
+
+1645
+01:10:45,760 --> 01:10:53,520
+Ixi H em abril vai precisamente falar
+
+1646
+01:10:49,000 --> 01:10:55,800
+sobre isso e depois e eu ainda ainda sou
+
+1647
+01:10:53,520 --> 01:10:59,159
+do dos que acredita que a blockchain hh
+
+1648
+01:10:55,800 --> 01:11:01,880
+e a aplicações descentralizadas são H
+
+1649
+01:10:59,158 --> 01:11:04,359
+são interessantes h não não propriamente
+
+1650
+01:11:01,880 --> 01:11:06,119
+na na cryptocurrency não estou a falar
+
+1651
+01:11:04,359 --> 01:11:07,479
+única e exclusivamente disso mas o
+
+1652
+01:11:06,119 --> 01:11:10,679
+desenvolvimento de software para
+
+1653
+01:11:07,479 --> 01:11:13,119
+suportar aplicações descentralizadas e
+
+1654
+01:11:10,679 --> 01:11:15,600
+até serviços baseados em blockchain pode
+
+1655
+01:11:13,119 --> 01:11:17,119
+pode transformar áreas como como as
+
+1656
+01:11:15,600 --> 01:11:20,159
+Finanças como
+
+1657
+01:11:17,119 --> 01:11:21,119
+hh cadeias de suprimentos a identidade
+
+1658
+01:11:20,158 --> 01:11:24,960
+digital
+
+1659
+01:11:21,119 --> 01:11:26,960
+hh e esse tipo de esse tipo de enfim de
+
+1660
+01:11:24,960 --> 01:11:29,319
+de domínios e isso vai promover a
+
+1661
+01:11:26,960 --> 01:11:31,079
+transparência a segurança a eficiência
+
+1662
+01:11:29,319 --> 01:11:32,599
+portanto eu acho que aí também vão
+
+1663
+01:11:31,079 --> 01:11:34,559
+aparecer desenvolvimentos interessantes
+
+1664
+01:11:32,600 --> 01:11:36,640
+nos próximos anos sim de uma forma geral
+
+1665
+01:11:34,560 --> 01:11:38,880
+sem querme alongar muito que esta esta
+
+1666
+01:11:36,640 --> 01:11:40,560
+pergunta dá para para dissertar uma um
+
+1667
+01:11:38,880 --> 01:11:42,239
+par de horas como é óbvio mas de uma
+
+1668
+01:11:40,560 --> 01:11:44,480
+forma geral eu acho que é são nestes
+
+1669
+01:11:42,238 --> 01:11:45,879
+pontos são nestes Pilares Onde vamos ver
+
+1670
+01:11:44,479 --> 01:11:47,279
+desenvolvimento significativos nos
+
+1671
+01:11:45,880 --> 01:11:50,840
+próximos
+
+1672
+01:11:47,279 --> 01:11:53,238
+anos muito bom então estamos chegando ao
+
+1673
+01:11:50,840 --> 01:11:55,600
+final do podcast Eu agradeço muito a sua
+
+1674
+01:11:53,238 --> 01:11:57,198
+presença Professor Rui e eu passo a
+
+1675
+01:11:55,600 --> 01:11:59,280
+palavra para você caso você queira
+
+1676
+01:11:57,198 --> 01:12:00,638
+deixar uma palavra final para os nossos
+
+1677
+01:11:59,279 --> 01:12:03,599
+e nossas
+
+1678
+01:12:00,639 --> 01:12:05,880
+ouvintes Muito obrigado pela Por estarem
+
+1679
+01:12:03,600 --> 01:12:07,480
+estarem a ouvir naturalmente obrigado ao
+
+1680
+01:12:05,880 --> 01:12:09,679
+ao professora Adolf e a professora Maria
+
+1681
+01:12:07,479 --> 01:12:12,839
+Cláudia por me terem terem convidado é
+
+1682
+01:12:09,679 --> 01:12:15,520
+um prazer e enfim e é sempre bom
+
+1683
+01:12:12,840 --> 01:12:17,360
+conviver na na nossa língua né acaba por
+
+1684
+01:12:15,520 --> 01:12:19,000
+ser a nossa língua embora comque
+
+1685
+01:12:17,359 --> 01:12:20,679
+ligeiramente diferente mas é
+
+1686
+01:12:19,000 --> 01:12:22,479
+interessante falar desses tópicos na na
+
+1687
+01:12:20,679 --> 01:12:25,279
+nossa língua não não acontece muito e às
+
+1688
+01:12:22,479 --> 01:12:27,399
+vezes até é difícil dizer os termos na
+
+1689
+01:12:25,279 --> 01:12:29,039
+na nossa língua materna mas mas foi um
+
+1690
+01:12:27,399 --> 01:12:31,799
+prazer enorme estar aqui e muito
+
+1691
+01:12:29,039 --> 01:12:34,920
+obrigado Mais uma vez bem assim chegamos
+
+1692
+01:12:31,800 --> 01:12:38,159
+ao fim desse Episódio agradecemos a
+
+1693
+01:12:34,920 --> 01:12:41,520
+todos os nossos e as nossas ouvintes e
+
+1694
+01:12:38,158 --> 01:12:43,359
+até o próximo episódio do Fronteiras da
+
+1695
+01:12:41,520 --> 01:12:46,679
+engenharia de
+
+1696
+01:12:43,359 --> 01:12:49,439
+software Este é o podcast Fronteiras da
+
+1697
+01:12:46,679 --> 01:12:51,760
+engenharia de software um podcast para
+
+1698
+01:12:49,439 --> 01:12:54,638
+refletir sobre o presente e o futuro da
+
+1699
+01:12:51,760 --> 01:12:57,639
+nossa área publicamos mensalmente entre
+
+1700
+01:12:54,639 --> 01:12:59,600
+os dias à 15 e 20 de cada mês episódios
+
+1701
+01:12:57,639 --> 01:13:02,079
+em que entrevistamos pesquisadores e
+
+1702
+01:12:59,600 --> 01:13:03,800
+pesquisadoras da engenharia de software
+
+1703
+01:13:02,079 --> 01:13:06,359
+também realizamos palestras que são
+
+1704
+01:13:03,800 --> 01:13:08,560
+publicadas em nosso canal no YouTube
+
+1705
+01:13:06,359 --> 01:13:11,000
+nosso objetivo é levar o conhecimento
+
+1706
+01:13:08,560 --> 01:13:13,920
+científico para profissionais da área
+
+1707
+01:13:11,000 --> 01:13:15,760
+para outros cientistas escute nossos
+
+1708
+01:13:13,920 --> 01:13:19,880
+episódios na sua plataforma de áudio
+
+1709
+01:13:15,760 --> 01:13:23,719
+favorita Spotify Apple podcasts encor ou
+
+1710
+01:13:19,880 --> 01:13:26,719
+outras ou ainda no YouTube nosso site é
+
+1711
+01:13:23,719 --> 01:13:26,719
+fronteiras
+
+1712
+01:13:27,079 --> 01:13:34,880
+github.io Estamos também no Twitter e no
+
+1713
+01:13:29,760 --> 01:13:34,880
+Instagram como @ fronteiras
+
+1714
+01:13:35,729 --> 01:13:38,969
+[Música]

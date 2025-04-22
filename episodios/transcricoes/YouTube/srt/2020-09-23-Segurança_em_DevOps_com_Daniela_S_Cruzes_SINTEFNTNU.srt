@@ -1,0 +1,6055 @@
+1
+00:00:02,830 --> 00:00:27,969
+o olá o vídeo eu sou Adolfo Neto
+
+2
+00:00:25,839 --> 00:00:31,390
+professor da Universidade Tecnológica
+
+3
+00:00:27,969 --> 00:00:33,369
+Federal do Paraná e eu sou Gustavo Pinto
+
+4
+00:00:31,390 --> 00:00:35,829
+Professor aqui na Universidade Federal
+
+5
+00:00:33,369 --> 00:00:38,198
+do Pará e este é o Fronteiras da
+
+6
+00:00:35,829 --> 00:00:40,058
+engenharia de software um podcast feito
+
+7
+00:00:38,198 --> 00:00:42,579
+para refletir sobre o presente e futuro
+
+8
+00:00:40,058 --> 00:00:45,369
+da engenharia de software Fronteiras da
+
+9
+00:00:42,579 --> 00:00:47,679
+engenharia de software é um podcast de
+
+10
+00:00:45,369 --> 00:00:49,899
+divulgação Científica que discutir
+
+11
+00:00:47,679 --> 00:00:51,878
+mensalmente e vertificado os temas da
+
+12
+00:00:49,899 --> 00:00:53,408
+engenharia de software os episódios
+
+13
+00:00:51,878 --> 00:00:55,599
+abordam questões fundamentais
+
+14
+00:00:53,408 --> 00:01:00,658
+Engenheiros de software até os mais
+
+15
+00:00:55,600 --> 00:01:00,658
+recentes avanços na área de manutenção
+
+16
+00:01:01,450 --> 00:01:12,219
+Oi para o nosso terceiro episódio
+
+17
+00:01:09,219 --> 00:01:14,890
+entrevistamos Daniela Soares Cruzes que
+
+18
+00:01:12,219 --> 00:01:16,480
+é pesquisador acende arroz intef uma das
+
+19
+00:01:14,890 --> 00:01:18,670
+maiores organizações de pesquisa
+
+20
+00:01:16,480 --> 00:01:26,079
+independente da Europa localizada na
+
+21
+00:01:18,670 --> 00:01:28,000
+Noruega nos últimos anos canela Tem
+
+22
+00:01:26,079 --> 00:01:30,459
+trabalhado Na área de segurança de
+
+23
+00:01:28,000 --> 00:01:32,439
+software frequentemente interagindo com
+
+24
+00:01:30,459 --> 00:01:35,889
+questões relacionadas a métodos ágeis
+
+25
+00:01:32,439 --> 00:01:39,799
+neste Episódio vamos conversar sobre de
+
+26
+00:01:35,890 --> 00:01:44,079
+votos em com a gente e
+
+27
+00:01:39,799 --> 00:01:46,539
+[Música]
+
+28
+00:01:44,079 --> 00:01:48,459
+E aí ela tudo bem você pode se
+
+29
+00:01:46,540 --> 00:01:50,770
+apresentar para os nossos vídeos tudo
+
+30
+00:01:48,459 --> 00:01:53,649
+bem meu nome é Daniella Como já você já
+
+31
+00:01:50,769 --> 00:01:55,929
+sabe é eu sou brasileira moro na Noruega
+
+32
+00:01:53,650 --> 00:01:58,240
+tem 11 anos agora também são do Rei
+
+33
+00:01:55,930 --> 00:02:01,170
+dentro em falar com as amigas mas também
+
+34
+00:01:58,239 --> 00:02:03,429
+sou marido e sair do Brasil em 2005 e
+
+35
+00:02:01,170 --> 00:02:05,560
+doutorado sanduíche na universidade de
+
+36
+00:02:03,430 --> 00:02:07,660
+Melo anjo meu de como é pela única lá e
+
+37
+00:02:05,560 --> 00:02:10,210
+depois que eu fui para os Estados Unidos
+
+38
+00:02:07,659 --> 00:02:14,680
+Daí vem para a Noruega ainda não vou ter
+
+39
+00:02:10,210 --> 00:02:17,530
+que fazer como é que você percebe hoje
+
+40
+00:02:14,680 --> 00:02:20,790
+com pesquisadora no sintef qual que é a
+
+41
+00:02:17,530 --> 00:02:23,140
+sua função Qual que é a responsabilidade
+
+42
+00:02:20,789 --> 00:02:25,989
+estilo pesquisador senhor uma
+
+43
+00:02:23,139 --> 00:02:28,269
+instituição como sintef então o chefe é
+
+44
+00:02:25,990 --> 00:02:30,730
+um modelo que é bem usado em vários
+
+45
+00:02:28,270 --> 00:02:32,830
+lugares da Europa tipo farofa tem mais
+
+46
+00:02:30,729 --> 00:02:34,959
+ou menos o mesmo modelo é não sei se
+
+47
+00:02:32,830 --> 00:02:37,390
+você conhece também o símbolo lá também
+
+48
+00:02:34,959 --> 00:02:39,430
+quer treinar um modelo de centro de
+
+49
+00:02:37,389 --> 00:02:41,559
+pesquisa norueguês e daí assim é um
+
+50
+00:02:39,430 --> 00:02:44,090
+centro de pesquisa que ele faz pesquisa
+
+51
+00:02:41,560 --> 00:02:46,939
+aplicada Então o que a gente faz a gente
+
+52
+00:02:44,090 --> 00:02:48,979
+o pesquisa básica também mas a
+
+53
+00:02:46,939 --> 00:02:53,090
+nossa pesquisa ela bem aplicada uma
+
+54
+00:02:48,979 --> 00:02:55,369
+nosso moço da a tecnologia para uma
+
+55
+00:02:53,090 --> 00:02:57,590
+sociedade melhor que é o que a gente
+
+56
+00:02:55,370 --> 00:02:59,719
+pode usar então assim a gente tem a
+
+57
+00:02:57,590 --> 00:03:01,969
+integração muito forte com a indústria e
+
+58
+00:02:59,719 --> 00:03:04,310
+muito forte com a universidade então a
+
+59
+00:03:01,969 --> 00:03:08,539
+universidade geralmente ela foca mais na
+
+60
+00:03:04,310 --> 00:03:10,310
+pesquisa básica e nós focamos em aplicar
+
+61
+00:03:08,539 --> 00:03:11,479
+essa pesquisa base Mas isso não quer
+
+62
+00:03:10,310 --> 00:03:13,098
+dizer que a gente também não faz
+
+63
+00:03:11,479 --> 00:03:15,018
+pesquisa básica a gente faz também
+
+64
+00:03:13,098 --> 00:03:18,738
+precisa massa mais um pouco maior aí na
+
+65
+00:03:15,019 --> 00:03:21,680
+aplicação do que a teoria encontra
+
+66
+00:03:18,739 --> 00:03:23,209
+sentido acho que a diferença clássica de
+
+67
+00:03:21,680 --> 00:03:25,879
+seu trabalho no trabalho e pra uma
+
+68
+00:03:23,209 --> 00:03:27,560
+universidade é aplicação um pouco mais
+
+69
+00:03:25,879 --> 00:03:30,259
+imediata das coisas que vocês estão
+
+70
+00:03:27,560 --> 00:03:32,360
+pesquisando tá entendi essa sua carniça
+
+71
+00:03:30,259 --> 00:03:35,389
+então assim o que a gente sempre fala
+
+72
+00:03:32,360 --> 00:03:38,989
+que se um projeto não tiver indústria e
+
+73
+00:03:35,389 --> 00:03:40,548
+não tiver base a gente não faz porque a
+
+74
+00:03:38,989 --> 00:03:42,049
+gente ainda se não tiver interessado
+
+75
+00:03:40,549 --> 00:03:44,099
+nesse mundo resultado na nossa pesquisa
+
+76
+00:03:42,049 --> 00:03:46,740
+meio que de imediato um dois três
+
+77
+00:03:44,099 --> 00:03:49,139
+e não faz a gente não é um tipo de
+
+78
+00:03:46,740 --> 00:03:51,960
+pesquisa que a gente investe em dia é
+
+79
+00:03:49,139 --> 00:03:54,209
+muito assim dentro de empresa também com
+
+80
+00:03:51,960 --> 00:03:56,640
+as Universidades terminar meio focados
+
+81
+00:03:54,210 --> 00:03:59,610
+na parte de conferências de essas coisas
+
+82
+00:03:56,639 --> 00:04:01,859
+mas nós não damos aulas nós não temos
+
+83
+00:03:59,610 --> 00:04:03,810
+alunos então toda pesquisa feita por nós
+
+84
+00:04:01,860 --> 00:04:06,120
+mesmos e tudo toda precisa que a gente
+
+85
+00:04:03,810 --> 00:04:08,129
+vai que fazer então nós para fazer então
+
+86
+00:04:06,120 --> 00:04:09,830
+não tem essa coisa de tipo de alunos de
+
+87
+00:04:08,129 --> 00:04:12,870
+doutorado para fazer um tipo de pesquisa
+
+88
+00:04:09,830 --> 00:04:15,330
+ou coisas assim como é meio que a gente
+
+89
+00:04:12,870 --> 00:04:16,920
+tá bem na empresa mesmo tentando aplicar
+
+90
+00:04:15,330 --> 00:04:19,530
+o que a gente continuar pesquisa e o
+
+91
+00:04:16,920 --> 00:04:21,930
+interesse das atividades de pesquisa vem
+
+92
+00:04:19,529 --> 00:04:24,479
+de você ainda necessidade da empresa ou
+
+93
+00:04:21,930 --> 00:04:26,490
+tem algum interesse Geral do sintepp nós
+
+94
+00:04:24,480 --> 00:04:30,720
+temos de várias maneiras de fazer
+
+95
+00:04:26,490 --> 00:04:34,350
+negócios uma o fundo básico de pesquisa
+
+96
+00:04:30,720 --> 00:04:36,750
+pelo conselho de pesquisa da Noruega que
+
+97
+00:04:34,350 --> 00:04:39,540
+Elvis vai ficar um ser racional que ele
+
+98
+00:04:36,750 --> 00:04:41,730
+assim praticamente quarenta trinta
+
+99
+00:04:39,540 --> 00:04:44,080
+quarenta por cento do nosso vinil vem
+
+100
+00:04:41,730 --> 00:04:47,080
+das agências de pesquisa tipo
+
+101
+00:04:44,079 --> 00:04:48,609
+oi oi vai ficar só final e daí tem
+
+102
+00:04:47,079 --> 00:04:50,918
+algumas pesquisas que são as empresas
+
+103
+00:04:48,610 --> 00:04:52,990
+que pagam para gente desenvolver essa
+
+104
+00:04:50,918 --> 00:04:54,430
+pesquisa ou em outras que vem pelo da
+
+105
+00:04:52,990 --> 00:04:55,840
+Comunidade Europeia que também a gente
+
+106
+00:04:54,430 --> 00:04:57,848
+tem financiamento para a Comunidade
+
+107
+00:04:55,839 --> 00:04:59,978
+Europeia também já sei são essas três e
+
+108
+00:04:57,848 --> 00:05:01,449
+principalmente os focos os Fundos né e
+
+109
+00:04:59,978 --> 00:05:02,978
+onde a gente já sabe financiamento para
+
+110
+00:05:01,449 --> 00:05:06,038
+fazer pesquisa Então vem muito disso mas
+
+111
+00:05:02,978 --> 00:05:08,769
+quase sempre é o que a gente pode ter
+
+112
+00:05:06,038 --> 00:05:11,438
+aplicado mas existe também tipo empresas
+
+113
+00:05:08,769 --> 00:05:13,870
+que o sintese criou e depois e quando
+
+114
+00:05:11,439 --> 00:05:15,669
+criou quando o produto ficou
+
+115
+00:05:13,870 --> 00:05:17,649
+desenvolvido e tal nós vendemos nas
+
+116
+00:05:15,668 --> 00:05:20,318
+empresas geralmente a gente só cria
+
+117
+00:05:17,649 --> 00:05:22,418
+espanhol e daí esses neste novos o gente
+
+118
+00:05:20,319 --> 00:05:24,430
+vende ou a gente continua mantendo essa
+
+119
+00:05:22,418 --> 00:05:26,378
+cyclops com a gente também E aí tô O
+
+120
+00:05:24,430 --> 00:05:29,250
+banheiro é voltado de novo para o centro
+
+121
+00:05:26,379 --> 00:05:31,509
+de pesquisa porque ele é não não
+
+122
+00:05:29,250 --> 00:05:33,819
+governamental e ela não for para o frete
+
+123
+00:05:31,509 --> 00:05:35,408
+também não existe dono não existe uma
+
+124
+00:05:33,819 --> 00:05:38,009
+pessoa que vai receber o dinheiro e vai
+
+125
+00:05:35,408 --> 00:05:38,009
+ficar com esse dinheiro
+
+126
+00:05:38,949 --> 00:05:45,019
+E aí
+
+127
+00:05:40,379 --> 00:05:47,079
+[Música]
+
+128
+00:05:45,019 --> 00:05:47,079
+E aí
+
+129
+00:05:48,579 --> 00:05:57,218
+e mais recentemente a sua área de
+
+130
+00:05:54,728 --> 00:06:00,579
+pesquisa ela tem incluído coisas com uma
+
+131
+00:05:57,218 --> 00:06:02,709
+segurança Cláudio e até parece haver um
+
+132
+00:06:00,579 --> 00:06:04,598
+interesse mais recente ainda em volta né
+
+133
+00:06:02,709 --> 00:06:08,049
+então você poder explicar para gente o
+
+134
+00:06:04,598 --> 00:06:11,019
+que é que seria devops então de volta de
+
+135
+00:06:08,050 --> 00:06:12,819
+volta sempre difícil de explicar mas o
+
+136
+00:06:11,019 --> 00:06:15,698
+jeito que eu geralmente explico para as
+
+137
+00:06:12,819 --> 00:06:17,889
+empresas aqui é uma maneira de tirar
+
+138
+00:06:15,699 --> 00:06:20,439
+essa distância que tinha entre operações
+
+139
+00:06:17,889 --> 00:06:22,840
+e desenvolvimento então trazer as coisas
+
+140
+00:06:20,439 --> 00:06:25,360
+dicas de operações mais possível de
+
+141
+00:06:22,839 --> 00:06:27,878
+desenvolvimento para que o processo todo
+
+142
+00:06:25,360 --> 00:06:30,250
+seja mais acelerado Entendi então assim
+
+143
+00:06:27,879 --> 00:06:33,789
+eu gosto muito de um Manifesto de um
+
+144
+00:06:30,250 --> 00:06:36,098
+cara chamado genes Milo é que ele ele
+
+145
+00:06:33,788 --> 00:06:39,038
+trocou algumas coisas do Manifesto então
+
+146
+00:06:36,098 --> 00:06:42,370
+ele botou assim tipo oe Vale indivíduos
+
+147
+00:06:39,038 --> 00:06:44,560
+interactions outra próximas em Tools e
+
+148
+00:06:42,370 --> 00:06:47,978
+isso é a mesma coisa que é de uma joia
+
+149
+00:06:44,560 --> 00:06:48,560
+work Systems over compra a gente compra
+
+150
+00:06:47,978 --> 00:06:52,099
+recebi
+
+151
+00:06:48,560 --> 00:06:54,620
+e o que é em vez de ser working software
+
+152
+00:06:52,100 --> 00:06:57,770
+que é o software funcionando Vai ser
+
+153
+00:06:54,620 --> 00:07:00,290
+sistemas funcionando entendeu E aí ele
+
+154
+00:06:57,769 --> 00:07:02,509
+também troca de próximo e no de vela
+
+155
+00:07:00,290 --> 00:07:04,850
+para collaboration novo completo negócio
+
+156
+00:07:02,509 --> 00:07:08,329
+ation é a mesma coisa mas aí a gente
+
+157
+00:07:04,850 --> 00:07:10,910
+também eu tenho adicionado que não só
+
+158
+00:07:08,329 --> 00:07:14,329
+cancino e developer mais próxima de
+
+159
+00:07:10,910 --> 00:07:16,970
+velas operations ecolaboration então
+
+160
+00:07:14,329 --> 00:07:19,699
+assim é mais essa colaboração entre
+
+161
+00:07:16,970 --> 00:07:23,930
+operações desenvolvedores testadores
+
+162
+00:07:19,699 --> 00:07:25,550
+todo mundo na e essa canção essa coisa
+
+163
+00:07:23,930 --> 00:07:27,769
+do cliente também é uma coisa que eu
+
+164
+00:07:25,550 --> 00:07:29,750
+acho que tava faltando muito no ajayu e
+
+165
+00:07:27,769 --> 00:07:32,478
+muitas empresas pelo menos aqui na
+
+166
+00:07:29,750 --> 00:07:35,029
+Noruega tinha um problema de manter essa
+
+167
+00:07:32,478 --> 00:07:37,969
+parte da negociação e dessa colaboração
+
+168
+00:07:35,029 --> 00:07:39,168
+muito continua com o cliente e eu acho
+
+169
+00:07:37,970 --> 00:07:41,419
+que isso é uma das coisas que de volta
+
+170
+00:07:39,168 --> 00:07:44,750
+também tem trazido Então para mim é mais
+
+171
+00:07:41,418 --> 00:07:46,849
+assim o de volta uma cultura Às vezes a
+
+172
+00:07:44,750 --> 00:07:48,569
+gente como uma cultura às vezes é visto
+
+173
+00:07:46,850 --> 00:07:51,479
+como a parte de automação que essa lá
+
+174
+00:07:48,569 --> 00:07:53,490
+o acesso às vezes é visto como a parte
+
+175
+00:07:51,478 --> 00:07:55,918
+de monitoração e eu acho que depende
+
+176
+00:07:53,490 --> 00:07:58,228
+muito do que que a empresa estava
+
+177
+00:07:55,918 --> 00:07:59,998
+faltando para ele dizer o que que é
+
+178
+00:07:58,228 --> 00:08:02,128
+devops naquela empresa eu sei tem
+
+179
+00:07:59,999 --> 00:08:04,349
+empresa que estava tendo muito problema
+
+180
+00:08:02,129 --> 00:08:06,689
+com Automação de todo passar sim então
+
+181
+00:08:04,348 --> 00:08:08,639
+aí para eles eles colocam o processo de
+
+182
+00:08:06,689 --> 00:08:11,599
+Devotos na automação a gente que tinha
+
+183
+00:08:08,639 --> 00:08:13,860
+problema porque era muito
+
+184
+00:08:11,598 --> 00:08:16,139
+departamentalizado a empresa toda então
+
+185
+00:08:13,860 --> 00:08:17,639
+assim eles tinham o departamento de
+
+186
+00:08:16,139 --> 00:08:20,309
+operações do departamento de
+
+187
+00:08:17,639 --> 00:08:22,379
+desenvolvimento não se falavam e só
+
+188
+00:08:20,309 --> 00:08:24,749
+tinha um handle ver entre essas duas
+
+189
+00:08:22,379 --> 00:08:27,479
+negócio então assim então em algumas
+
+190
+00:08:24,749 --> 00:08:29,219
+empresas Esse é o foco do devoxx Porque
+
+191
+00:08:27,478 --> 00:08:31,139
+toda a outra parte de automação já é
+
+192
+00:08:29,218 --> 00:08:32,908
+diferente então é bem difícil falar sem
+
+193
+00:08:31,139 --> 00:08:34,680
+a existe um conceito de ida e volta você
+
+194
+00:08:32,908 --> 00:08:36,000
+é a mesma coisa de viajar se você vai
+
+195
+00:08:34,679 --> 00:08:38,068
+para mim para ele fala assim ah você tá
+
+196
+00:08:36,000 --> 00:08:40,318
+fazendo o quê que isso significa né
+
+197
+00:08:38,068 --> 00:08:42,418
+Então aí a pessoa tem que falar cada uma
+
+198
+00:08:40,318 --> 00:08:44,189
+das empresas têm que realmente dizer
+
+199
+00:08:42,418 --> 00:08:46,139
+quais são as práticas que eles estão
+
+200
+00:08:44,190 --> 00:08:48,580
+adotando de hajar e a mesma coisa com
+
+201
+00:08:46,139 --> 00:08:50,470
+devops então a ideia né
+
+202
+00:08:48,580 --> 00:08:52,540
+e fazer com que esses times mais se
+
+203
+00:08:50,470 --> 00:08:54,759
+agregados tenta interagir de uma maneira
+
+204
+00:08:52,539 --> 00:08:57,279
+mais aproximada e facilitar a
+
+205
+00:08:54,759 --> 00:08:59,649
+comunicação e assim talvez entregar sol
+
+206
+00:08:57,279 --> 00:09:01,779
+xô madeira mais qualificada até nesse
+
+207
+00:08:59,649 --> 00:09:03,730
+sentido estrito uma pergunta de um
+
+208
+00:09:01,779 --> 00:09:05,470
+seguidor do Twitter o frango pastor que
+
+209
+00:09:03,730 --> 00:09:07,269
+a professora na Federal de Pernambuco
+
+210
+00:09:05,470 --> 00:09:09,820
+ele perguntou assim como nós precisamos
+
+211
+00:09:07,269 --> 00:09:12,039
+de um tema com o devops porque tu
+
+212
+00:09:09,820 --> 00:09:13,720
+devolve isso não é meu desejo é dor
+
+213
+00:09:12,039 --> 00:09:15,490
+simplesmente né porque não é o
+
+214
+00:09:13,720 --> 00:09:17,710
+mantenedor é onde é que a gente divide
+
+215
+00:09:15,490 --> 00:09:20,710
+então eu acho a pergunta do Fernando Foi
+
+216
+00:09:17,710 --> 00:09:23,290
+mais assumindo em que uma pessoa para
+
+217
+00:09:20,710 --> 00:09:25,570
+fazer os dois papéis né enquanto que não
+
+218
+00:09:23,289 --> 00:09:28,269
+devolve Eu imagino a gente ainda tem é
+
+219
+00:09:25,570 --> 00:09:30,460
+esses times bem divididos em bora
+
+220
+00:09:28,269 --> 00:09:32,769
+interagir um pouco mágico acerta essa
+
+221
+00:09:30,460 --> 00:09:34,900
+minha visão então tem várias coisas
+
+222
+00:09:32,769 --> 00:09:37,360
+mesma pergunta Sueli que na verdade
+
+223
+00:09:34,899 --> 00:09:39,100
+assim uns dois três anos atrás Daí eles
+
+224
+00:09:37,360 --> 00:09:42,370
+começaram que toda essa coisa de tipo
+
+225
+00:09:39,100 --> 00:09:47,080
+Bis deve daí era Business Conde vela
+
+226
+00:09:42,370 --> 00:09:48,560
+comer daí de tela por mês cerca de
+
+227
+00:09:47,080 --> 00:09:52,070
+segurança e o
+
+228
+00:09:48,559 --> 00:09:53,839
+e daí tinha bisavó e daí foram criando
+
+229
+00:09:52,070 --> 00:09:55,879
+vários tipos de novo esperando as coisas
+
+230
+00:09:53,840 --> 00:09:58,629
+diferentes aí teve gente começou a falar
+
+231
+00:09:55,879 --> 00:10:02,000
+não óculos porque daí era não era não
+
+232
+00:09:58,629 --> 00:10:03,830
+tirar esse foco de deve Opus mas não Ops
+
+233
+00:10:02,000 --> 00:10:05,629
+que daí é todo mundo faz tudo aparece
+
+234
+00:10:03,830 --> 00:10:07,460
+sempre a mesma coisa então eu acho é
+
+235
+00:10:05,629 --> 00:10:09,289
+como eu disse depende muito de ficar
+
+236
+00:10:07,460 --> 00:10:11,060
+empresa tá focando aí o que que eles
+
+237
+00:10:09,289 --> 00:10:14,120
+querem focar então assim se o problema
+
+238
+00:10:11,059 --> 00:10:15,559
+tava se eles detectaram que o problema
+
+239
+00:10:14,120 --> 00:10:18,259
+para acelerar o processo de
+
+240
+00:10:15,559 --> 00:10:20,119
+desenvolvimento tava entre esse randolfo
+
+241
+00:10:18,259 --> 00:10:22,069
+desenvolvimento pela operações eles
+
+242
+00:10:20,120 --> 00:10:23,870
+focam no de box se eles vêm que
+
+243
+00:10:22,070 --> 00:10:26,540
+problemas para acelerar todo o processo
+
+244
+00:10:23,870 --> 00:10:28,490
+estava na questão do Bispo Macedo e da
+
+245
+00:10:26,539 --> 00:10:30,199
+colaboração com o cliente Eles estão
+
+246
+00:10:28,490 --> 00:10:31,879
+focando no bicicleta entende que é
+
+247
+00:10:30,200 --> 00:10:33,860
+quanto à composição de times não existe
+
+248
+00:10:31,879 --> 00:10:36,789
+uma coisa rígida de falar assim olha o
+
+249
+00:10:33,860 --> 00:10:38,750
+time da Vox sempre vai ter um Ops um de
+
+250
+00:10:36,789 --> 00:10:41,329
+desenvolvedor um prestador não
+
+251
+00:10:38,750 --> 00:10:44,750
+necessariamente é mais todo um conjunto
+
+252
+00:10:41,330 --> 00:10:46,550
+de atividades que faz você acelerar e eu
+
+253
+00:10:44,750 --> 00:10:48,570
+acho que vem mais assim daquela
+
+254
+00:10:46,549 --> 00:10:51,120
+necessidade de muitas empresas
+
+255
+00:10:48,570 --> 00:10:54,140
+os presos maiores e daí ele se não tiver
+
+256
+00:10:51,120 --> 00:10:55,799
+essa necessidade antes de
+
+257
+00:10:54,139 --> 00:10:57,960
+departamentalizar todos os
+
+258
+00:10:55,799 --> 00:11:00,329
+desenvolvimento então assim isso criou
+
+259
+00:10:57,960 --> 00:11:03,180
+criado os cílios criadas diferenças eles
+
+260
+00:11:00,330 --> 00:11:06,270
+não se falavam não se comunicavam tem
+
+261
+00:11:03,179 --> 00:11:08,789
+métricas diferentes têm objetivos
+
+262
+00:11:06,269 --> 00:11:11,610
+diferentes então aí isso gerava muito
+
+263
+00:11:08,789 --> 00:11:13,889
+problema e não ajudava acelerado Daniela
+
+264
+00:11:11,610 --> 00:11:16,230
+além do de tudo que você falou existe
+
+265
+00:11:13,889 --> 00:11:19,710
+alguns outros benefícios que uma empresa
+
+266
+00:11:16,230 --> 00:11:24,560
+pode ter ao aderir a devops existe os
+
+267
+00:11:19,710 --> 00:11:28,470
+clientes que eu não sei começar talvez é
+
+268
+00:11:24,559 --> 00:11:31,049
+existe o que o que as pessoas acreditam
+
+269
+00:11:28,470 --> 00:11:34,110
+que vai acontecer mas os benefícios
+
+270
+00:11:31,049 --> 00:11:35,939
+estão sempre focados nessa coisa do que
+
+271
+00:11:34,110 --> 00:11:38,129
+hoje em dia as empresas pelo menos aqui
+
+272
+00:11:35,940 --> 00:11:40,620
+na Noruega estão buscando que acelerar o
+
+273
+00:11:38,129 --> 00:11:42,720
+processo diminuir custo que é sempre a
+
+274
+00:11:40,620 --> 00:11:45,600
+mesma coisa e melhorar a qualidade né
+
+275
+00:11:42,720 --> 00:11:48,060
+então todas essas três coisas são coisas
+
+276
+00:11:45,600 --> 00:11:48,579
+que tipo se alguém e vaca de votos é o
+
+277
+00:11:48,059 --> 00:11:50,528
+que eles
+
+278
+00:11:48,578 --> 00:11:53,469
+e eles vão conseguir entendeu então vai
+
+279
+00:11:50,528 --> 00:11:55,659
+ser melhor qualidade porque você tá no
+
+280
+00:11:53,470 --> 00:11:57,819
+processo constante de estar
+
+281
+00:11:55,659 --> 00:12:00,669
+desenvolvendo software e mudando sofre
+
+282
+00:11:57,818 --> 00:12:03,698
+quando você precisa e fazendo depoimento
+
+283
+00:12:00,669 --> 00:12:06,639
+quando você precisa e você também atende
+
+284
+00:12:03,698 --> 00:12:07,958
+melhor às necessidades do cliente e por
+
+285
+00:12:06,639 --> 00:12:10,149
+que você tá fazendo processo mais rápido
+
+286
+00:12:07,958 --> 00:12:12,219
+você pode mudar você deve ser mais
+
+287
+00:12:10,149 --> 00:12:15,039
+flexibilidade de mudança você tem para
+
+288
+00:12:12,220 --> 00:12:17,739
+mais flexibilidade de detectar quando
+
+289
+00:12:15,039 --> 00:12:19,988
+por exemplo uma certa funcionalidade que
+
+290
+00:12:17,739 --> 00:12:22,509
+você achou que ia ser o top do Sucesso e
+
+291
+00:12:19,989 --> 00:12:25,059
+não foi Toca do Sucesso então assim são
+
+292
+00:12:22,509 --> 00:12:27,879
+essas coisas que o devolve isso é tem
+
+293
+00:12:25,058 --> 00:12:30,308
+como vantagens porque você tem todas
+
+294
+00:12:27,879 --> 00:12:33,970
+processo por trás dessa para dar suporte
+
+295
+00:12:30,308 --> 00:12:36,458
+a esse tipo de benefício 20 Vinícius
+
+296
+00:12:33,970 --> 00:12:38,528
+Garcia Se não me engano é professor lá
+
+297
+00:12:36,458 --> 00:12:41,018
+da Federal de Pernambuco e ele perguntou
+
+298
+00:12:38,528 --> 00:12:43,539
+para você Quais os indicadores de
+
+299
+00:12:41,019 --> 00:12:46,828
+desempenho mais importantes em um
+
+300
+00:12:43,539 --> 00:12:48,559
+cenário de votos na indústria Então esse
+
+301
+00:12:46,828 --> 00:12:51,559
+indicador de desempenho
+
+302
+00:12:48,559 --> 00:12:52,969
+é estranho aqui na Noruega Eles não
+
+303
+00:12:51,559 --> 00:12:56,119
+falam muito tive indicadores de
+
+304
+00:12:52,970 --> 00:12:58,610
+desempenho assim como outros países às
+
+305
+00:12:56,120 --> 00:13:01,220
+vezes eu vejo que é mais focado aquele
+
+306
+00:12:58,610 --> 00:13:03,800
+sempre foco nessa coisa de tipo da
+
+307
+00:13:01,220 --> 00:13:05,990
+efetividade do processo né da
+
+308
+00:13:03,799 --> 00:13:07,969
+produtividade de quando o quanto de
+
+309
+00:13:05,990 --> 00:13:10,100
+funcionalidade você batendo formal tipo
+
+310
+00:13:07,970 --> 00:13:12,230
+o tempo que você tá gastando para
+
+311
+00:13:10,100 --> 00:13:14,060
+desenvolver as funcionalidades essas
+
+312
+00:13:12,230 --> 00:13:16,610
+coisas assim mas a gente não tem muita
+
+313
+00:13:14,059 --> 00:13:20,689
+formalidade com métricas de desempenho
+
+314
+00:13:16,610 --> 00:13:23,720
+assim não a outra pergunta do Vinícius
+
+315
+00:13:20,690 --> 00:13:27,050
+que foi Qual a efetiva diferença entre
+
+316
+00:13:23,720 --> 00:13:31,339
+The Voice e Sr e você sabe o que Sr
+
+317
+00:13:27,049 --> 00:13:34,490
+então não não na verdade eu não tinha
+
+318
+00:13:31,339 --> 00:13:36,350
+ouvido falar de DSR é na verdade eu não
+
+319
+00:13:34,490 --> 00:13:39,259
+sei o que é o que aqui ninguém nunca
+
+320
+00:13:36,350 --> 00:13:41,509
+falou de srn as empresas que eu vou a
+
+321
+00:13:39,259 --> 00:13:43,730
+gente tem muito Devotos e as empresas
+
+322
+00:13:41,509 --> 00:13:46,429
+estão praticamente são da votos a
+
+323
+00:13:43,730 --> 00:13:48,570
+maioria das empresas estão já mas devops
+
+324
+00:13:46,429 --> 00:13:53,969
+do que hajar eu acho mas
+
+325
+00:13:48,570 --> 00:13:59,010
+a mulher e a outra pergunta ainda né Sr
+
+326
+00:13:53,970 --> 00:14:02,279
+é também não sei eu acho que a questão
+
+327
+00:13:59,009 --> 00:14:04,860
+interessante é justamente que as pessoas
+
+328
+00:14:02,279 --> 00:14:06,389
+sabem dele de coisas 10 não não
+
+329
+00:14:04,860 --> 00:14:08,700
+necessariamente é uma coisa Universal né
+
+330
+00:14:06,389 --> 00:14:10,559
+que a gente está com conversa sobre as
+
+331
+00:14:08,700 --> 00:14:13,110
+vezes algumas empresas já estão falando
+
+332
+00:14:10,559 --> 00:14:15,029
+sobre isso mas que eu saiba não pelo
+
+333
+00:14:13,110 --> 00:14:17,100
+menos as empresas que eu tenho contato e
+
+334
+00:14:15,029 --> 00:14:18,899
+aqui também nossos grupos de pesquisa e
+
+335
+00:14:17,100 --> 00:14:20,850
+as empresas gastam os outros
+
+336
+00:14:18,899 --> 00:14:22,709
+pesquisadores ninguém tem ninguém nunca
+
+337
+00:14:20,850 --> 00:14:26,159
+falou sobre isso Eu Nunca nem ouvi a
+
+338
+00:14:22,710 --> 00:14:28,769
+sigla aqui ó a própria sigla devops né
+
+339
+00:14:26,159 --> 00:14:30,870
+porque sentimento fiz uma pergunta do
+
+340
+00:14:28,769 --> 00:14:32,939
+Twitter o pessoal me explicar o que era
+
+341
+00:14:30,870 --> 00:14:35,909
+de voxê que vieram várias respostas A
+
+342
+00:14:32,940 --> 00:14:38,760
+então as siglas as coisas né ser no
+
+343
+00:14:35,909 --> 00:14:42,269
+mundo mais certo vamos comercial
+
+344
+00:14:38,759 --> 00:14:45,240
+realmente tem vários significados e nem
+
+345
+00:14:42,269 --> 00:14:47,370
+todo mundo usa a pergunta que eu queria
+
+346
+00:14:45,240 --> 00:14:48,579
+fazer para para terminar essa questão de
+
+347
+00:14:47,370 --> 00:14:51,970
+de volta
+
+348
+00:14:48,578 --> 00:14:54,698
+e dificuldades para inserir devops em
+
+349
+00:14:51,970 --> 00:14:57,309
+uma organização então como eu falei
+
+350
+00:14:54,698 --> 00:14:59,859
+antes como cada empresa pelo menos aqui
+
+351
+00:14:57,308 --> 00:15:02,259
+tem sido que acontece em namorar como
+
+352
+00:14:59,860 --> 00:15:05,230
+cada empresa Foca no que é o problema
+
+353
+00:15:02,259 --> 00:15:07,808
+dela não existe um problema existe em
+
+354
+00:15:05,230 --> 00:15:10,749
+vários tipos de problemas então assim
+
+355
+00:15:07,808 --> 00:15:13,178
+tem empresa que problema delas tá em que
+
+356
+00:15:10,749 --> 00:15:16,449
+eles eram o sistema todo ele é um
+
+357
+00:15:13,178 --> 00:15:18,249
+monolítico sabe então então é esse é o
+
+358
+00:15:16,448 --> 00:15:20,498
+problema deles porque ainda não Eles não
+
+359
+00:15:18,249 --> 00:15:22,989
+mudaram para mim que eu serviços e daí
+
+360
+00:15:20,499 --> 00:15:25,178
+para eles estão automatizar em todo o
+
+361
+00:15:22,989 --> 00:15:26,798
+processo é mais difícil como eu falei
+
+362
+00:15:25,178 --> 00:15:27,909
+Eles tem os apartamentos então o
+
+363
+00:15:26,798 --> 00:15:29,619
+departamento de operação e do
+
+364
+00:15:27,909 --> 00:15:32,078
+departamento de desenvolvimento para
+
+365
+00:15:29,619 --> 00:15:34,059
+quebrar as estruturas dentro da empresa
+
+366
+00:15:32,078 --> 00:15:36,308
+é muito difícil e daí tem a coisa de
+
+367
+00:15:34,058 --> 00:15:38,318
+Cultura tem a coisa de que ele não fala
+
+368
+00:15:36,308 --> 00:15:40,539
+a mesma língua ele não usa os mesmos
+
+369
+00:15:38,318 --> 00:15:43,088
+processos Eles Não Usam os mesmos as
+
+370
+00:15:40,539 --> 00:15:45,009
+mesmas tecnologias Eles não têm os
+
+371
+00:15:43,089 --> 00:15:47,290
+mesmos grupos não tem o mesmo número de
+
+372
+00:15:45,009 --> 00:15:48,560
+pessoas não às vezes você tem empresa
+
+373
+00:15:47,289 --> 00:15:52,309
+que eu trabalho que tem por exemplo
+
+374
+00:15:48,559 --> 00:15:54,409
+o times de projeto e tipo um
+
+375
+00:15:52,309 --> 00:15:56,659
+departamento que tem três quatro pessoas
+
+376
+00:15:54,409 --> 00:15:58,759
+na operação então aí como é que você vai
+
+377
+00:15:56,659 --> 00:16:01,490
+agora falar que cada um desses dois
+
+378
+00:15:58,759 --> 00:16:03,559
+vamos fazer parte de seus times E
+
+379
+00:16:01,490 --> 00:16:05,360
+participar de tudo que acontece saber
+
+380
+00:16:03,559 --> 00:16:06,769
+que tudo que tá acontecendo tudo mais
+
+381
+00:16:05,360 --> 00:16:09,050
+por exemplo nessa empresa é um dos
+
+382
+00:16:06,769 --> 00:16:11,028
+maiores desafios que eles têm de tipo
+
+383
+00:16:09,049 --> 00:16:13,459
+como quebrar essa estrutura como fazer
+
+384
+00:16:11,028 --> 00:16:16,370
+com que essa estrutura funcione para que
+
+385
+00:16:13,460 --> 00:16:18,769
+eles tenham o processo mais sem o handle
+
+386
+00:16:16,370 --> 00:16:20,690
+né Eu não sei como é que fala isso não
+
+387
+00:16:18,769 --> 00:16:23,329
+português mas a gente tem as coisas de
+
+388
+00:16:20,690 --> 00:16:25,640
+randolfe de um daqui para outra aqui
+
+389
+00:16:23,330 --> 00:16:27,800
+precisa deve Então depende muito de cada
+
+390
+00:16:25,639 --> 00:16:30,319
+empresa vai identificar aquela parte
+
+391
+00:16:27,799 --> 00:16:34,099
+aqui para elas mas assim eu gosto muito
+
+392
+00:16:30,320 --> 00:16:35,810
+dessa divisão que o Breno Hélvio e
+
+393
+00:16:34,100 --> 00:16:37,730
+Guilherme fizeram uma revisão
+
+394
+00:16:35,809 --> 00:16:40,909
+sistemática e geralmente é o que eu uso
+
+395
+00:16:37,730 --> 00:16:42,800
+para olhar a Quais são as as áreas né
+
+396
+00:16:40,909 --> 00:16:46,069
+que é que você vai olhar no quando você
+
+397
+00:16:42,799 --> 00:16:48,409
+olha casebox e é automação o processo
+
+398
+00:16:46,070 --> 00:16:48,570
+link como é que você faz o processo ser
+
+399
+00:16:48,409 --> 00:16:51,240
+má
+
+400
+00:16:48,570 --> 00:16:54,120
+o cuidado a parte de compartilhamento de
+
+401
+00:16:51,240 --> 00:16:56,460
+informações de todas as coisas medição
+
+402
+00:16:54,120 --> 00:16:58,740
+ou monitoramento e os aspectos sociais
+
+403
+00:16:56,460 --> 00:17:00,450
+então assim geralmente quando eu olho
+
+404
+00:16:58,740 --> 00:17:02,039
+para as empresas eu tenho que olhar onde
+
+405
+00:17:00,450 --> 00:17:03,570
+é que tá o problema está nos aspectos
+
+406
+00:17:02,039 --> 00:17:05,759
+sociais só não passar nada na parte de
+
+407
+00:17:03,570 --> 00:17:07,970
+automação ou tá nessa da
+
+408
+00:17:05,759 --> 00:17:10,769
+departamentalização do que a parte de
+
+409
+00:17:07,970 --> 00:17:12,509
+compartilhamento onde é que tá para
+
+410
+00:17:10,769 --> 00:17:15,809
+conversar com eles onde é que eles vão
+
+411
+00:17:12,509 --> 00:17:18,838
+conversar então uma pergunta como é que
+
+412
+00:17:15,809 --> 00:17:21,088
+funciona a interação sinprefi empresa da
+
+413
+00:17:18,838 --> 00:17:23,519
+empresa João até o sintepp Paulo nós
+
+414
+00:17:21,088 --> 00:17:25,948
+estamos presos problema ou sintético já
+
+415
+00:17:23,519 --> 00:17:29,700
+tem um catálogo de empresas que cola
+
+416
+00:17:25,949 --> 00:17:31,740
+fora já há algum tempo né eu pergunto
+
+417
+00:17:29,700 --> 00:17:35,340
+isso porque a gente Universidade de
+
+418
+00:17:31,740 --> 00:17:39,720
+gente quer se aproximar da empresa e tem
+
+419
+00:17:35,339 --> 00:17:41,609
+sempre relativo? Assim né como é que a
+
+420
+00:17:39,720 --> 00:17:43,500
+gente a porta né O que a gente como é
+
+421
+00:17:41,609 --> 00:17:45,839
+que a gente séria mas funciona para
+
+422
+00:17:43,500 --> 00:17:47,460
+vocês esse processo e particular já que
+
+423
+00:17:45,839 --> 00:17:48,579
+vocês estão trabalhando fortemente com
+
+424
+00:17:47,460 --> 00:17:51,569
+várias empresas nesse
+
+425
+00:17:48,579 --> 00:17:54,879
+o box para outro tipo não tem de
+
+426
+00:17:51,569 --> 00:17:57,278
+consultoria ou de benefício que vocês
+
+427
+00:17:54,880 --> 00:17:59,289
+têm com sugerir para esquentar interagir
+
+428
+00:17:57,278 --> 00:18:03,099
+com a empresa Então a gente tem muita
+
+429
+00:17:59,288 --> 00:18:05,859
+sorte na Noruega porque as empresas Elas
+
+430
+00:18:03,099 --> 00:18:08,109
+têm uma cultura muito grande de ouvir o
+
+431
+00:18:05,859 --> 00:18:11,168
+pesquisador sabe eu não sei se o que que
+
+432
+00:18:08,109 --> 00:18:13,629
+veio primeiro eu não escrevi veio
+
+433
+00:18:11,169 --> 00:18:15,580
+primeiro que tipo a gente conseguiu a
+
+434
+00:18:13,630 --> 00:18:17,799
+confiança deles o que eles conseguiram
+
+435
+00:18:15,579 --> 00:18:20,079
+Nossa confiança eu não sei mas assim a
+
+436
+00:18:17,798 --> 00:18:22,509
+gente tem que ver o que os dois lados às
+
+437
+00:18:20,079 --> 00:18:24,129
+vezes eles vêm por aí a gente e fala
+
+438
+00:18:22,509 --> 00:18:25,778
+assim a eles a gente fica só se vai
+
+439
+00:18:24,130 --> 00:18:27,850
+sofrer isso vamos pesquisar junto vamos
+
+440
+00:18:25,778 --> 00:18:31,480
+tentar fazer isso e tal e aí a gente faz
+
+441
+00:18:27,849 --> 00:18:32,678
+às vezes nós falamos os projetos e não é
+
+442
+00:18:31,480 --> 00:18:34,929
+muito difícil da gente conseguir
+
+443
+00:18:32,679 --> 00:18:37,690
+empresas para entrar nos projetos da
+
+444
+00:18:34,929 --> 00:18:40,269
+gente entende então assim aí mas aí eu
+
+445
+00:18:37,690 --> 00:18:42,639
+não sei se já vende todo Eu já entrei
+
+446
+00:18:40,269 --> 00:18:44,829
+aqui foi esse ambiente né das empresas
+
+447
+00:18:42,638 --> 00:18:46,418
+Eles são muito abertos contudo ele abre
+
+448
+00:18:44,829 --> 00:18:48,278
+tipo as empresas que eu trabalho eu
+
+449
+00:18:46,419 --> 00:18:48,559
+tenho acesso a todo o povo de vc todos
+
+450
+00:18:48,278 --> 00:18:50,240
+os dias
+
+451
+00:18:48,558 --> 00:18:51,558
+o concorrente às vezes eu fico até com
+
+452
+00:18:50,240 --> 00:18:53,929
+medo de tanta informação que eu tenho
+
+453
+00:18:51,558 --> 00:18:55,819
+uma festa mas é todo um processo mesmo
+
+454
+00:18:53,929 --> 00:18:57,169
+de confiança mesmo é muito tempo e não
+
+455
+00:18:55,819 --> 00:19:00,499
+necessariamente eu sempre com as mesmas
+
+456
+00:18:57,169 --> 00:19:03,499
+as empresas tipo esse esse projeto de
+
+457
+00:19:00,499 --> 00:19:05,720
+segurança que eu começo em 2015 As Três
+
+458
+00:19:03,499 --> 00:19:07,339
+empresas eu não tinha contato antes EA
+
+459
+00:19:05,720 --> 00:19:08,870
+gente começou eu falei olha eu tô
+
+460
+00:19:07,339 --> 00:19:10,819
+escrevendo projeto sobre isso estou
+
+461
+00:19:08,869 --> 00:19:12,349
+interessado sim Silva projeto for
+
+462
+00:19:10,819 --> 00:19:14,240
+aprovado vocês estão emprestados sim
+
+463
+00:19:12,349 --> 00:19:16,459
+então aí foi daí que a gente começou as
+
+464
+00:19:14,240 --> 00:19:19,548
+empresas que a gente trabalha 10 anos 15
+
+465
+00:19:16,460 --> 00:19:21,889
+anos juntos com eles então é todo mundo
+
+466
+00:19:19,548 --> 00:19:23,990
+um processo que eu acho que também o sim
+
+467
+00:19:21,888 --> 00:19:26,748
+terra é muito importante Nisso porque eu
+
+468
+00:19:23,990 --> 00:19:28,940
+sinto perto da esse esse subsídio para a
+
+469
+00:19:26,749 --> 00:19:31,129
+gente né E esse background também essa
+
+470
+00:19:28,940 --> 00:19:33,200
+essa confiança também que a gente está
+
+471
+00:19:31,128 --> 00:19:35,329
+fazendo um trabalho sério e que também
+
+472
+00:19:33,200 --> 00:19:36,769
+não tem outros objetivos por trás da
+
+473
+00:19:35,329 --> 00:19:38,359
+pesquisa que a gente faz ela não sei
+
+474
+00:19:36,769 --> 00:19:40,700
+fazer pesquisa então assim não é um
+
+475
+00:19:38,359 --> 00:19:43,099
+centro de pesquisa que tá vendendo ela
+
+476
+00:19:40,700 --> 00:19:45,019
+pesquisou vai vender um software depois
+
+477
+00:19:43,099 --> 00:19:46,759
+pode ser que tá que acontece que a gente
+
+478
+00:19:45,019 --> 00:19:48,569
+queria um sofre de alguma vez e venda
+
+479
+00:19:46,759 --> 00:19:50,909
+Mas esse não é o objetivo do
+
+480
+00:19:48,569 --> 00:19:53,308
+o objetivo desse para fazer pesquisa
+
+481
+00:19:50,909 --> 00:19:55,500
+aplicar Então acho muito da Noruega da
+
+482
+00:19:53,308 --> 00:19:57,269
+Noruega inteiro tanto tanto o modelo
+
+483
+00:19:55,500 --> 00:19:59,190
+traz não tem New que também dá muito
+
+484
+00:19:57,269 --> 00:20:01,230
+suporte assim tá é quanto os interna
+
+485
+00:19:59,190 --> 00:20:04,169
+muito suporte a ele tem New e as
+
+486
+00:20:01,230 --> 00:20:07,079
+empresas também entre veio os benefícios
+
+487
+00:20:04,169 --> 00:20:08,519
+que é que às vezes está na Vanguarda que
+
+488
+00:20:07,079 --> 00:20:10,500
+tá acontecendo quando a gente vai com
+
+489
+00:20:08,519 --> 00:20:12,298
+segurança quase nenhuma empresa aqui na
+
+490
+00:20:10,500 --> 00:20:13,648
+Noruega e software tava faltando
+
+491
+00:20:12,298 --> 00:20:14,879
+segurança que tem um agora as empresas
+
+492
+00:20:13,648 --> 00:20:16,558
+que começaram com a gente no projeto
+
+493
+00:20:14,880 --> 00:20:18,929
+está muito mais avançados do que as
+
+494
+00:20:16,558 --> 00:20:20,519
+outras porque elas testaram todas as
+
+495
+00:20:18,929 --> 00:20:21,960
+coisas que a gente queria testar muito
+
+496
+00:20:20,519 --> 00:20:23,849
+antes das outras empresas para eles
+
+497
+00:20:21,960 --> 00:20:25,829
+verem esse benefício Eles escrevem
+
+498
+00:20:23,849 --> 00:20:27,628
+artigos com a gente eu agora mesmo ontem
+
+499
+00:20:25,829 --> 00:20:29,638
+acabei de escrever um artigo com uma
+
+500
+00:20:27,628 --> 00:20:31,528
+pessoa da visa uma que eles colocaram só
+
+501
+00:20:29,638 --> 00:20:34,229
+para trabalhar comigo e fazer projeto
+
+502
+00:20:31,528 --> 00:20:36,538
+comigo e escrever artigo eles fazem
+
+503
+00:20:34,230 --> 00:20:40,169
+parte deles culpados e fazem pouco a
+
+504
+00:20:36,538 --> 00:20:42,058
+linha mesmo artigo sabe de tipo ela tem
+
+505
+00:20:40,169 --> 00:20:44,190
+6 meses que ela tá trabalhando comigo
+
+506
+00:20:42,058 --> 00:20:47,428
+num projeto que a gente quis fazer assim
+
+507
+00:20:44,190 --> 00:20:48,580
+a gente escreve Capítulo de livro e daí
+
+508
+00:20:47,429 --> 00:20:50,710
+assim às vezes
+
+509
+00:20:48,579 --> 00:20:52,689
+eu tava dando um pouco de consultoria
+
+510
+00:20:50,710 --> 00:20:55,450
+também porque também claro que a empresa
+
+511
+00:20:52,690 --> 00:20:57,610
+também quer que você deu conhecimento né
+
+512
+00:20:55,450 --> 00:20:59,980
+de volta então assim existe essa troca
+
+513
+00:20:57,609 --> 00:21:01,898
+também multa também sabe então tem
+
+514
+00:20:59,980 --> 00:21:04,149
+muitas vezes que a gente tem que dar por
+
+515
+00:21:01,898 --> 00:21:05,949
+exemplo tem que dar um curso porque era
+
+516
+00:21:04,148 --> 00:21:07,778
+o curso que ele ninguém mais pode dar
+
+517
+00:21:05,950 --> 00:21:09,548
+então a gente dá discurso mas não é
+
+518
+00:21:07,778 --> 00:21:11,679
+assim que a gente faz consultoria a
+
+519
+00:21:09,548 --> 00:21:14,200
+minha separação é assim quando tem muita
+
+520
+00:21:11,679 --> 00:21:16,210
+gente já no mercado como consultor dando
+
+521
+00:21:14,200 --> 00:21:17,470
+aquele tipo de serviço não é um tipo de
+
+522
+00:21:16,210 --> 00:21:19,149
+serviço que a gente presta para as
+
+523
+00:21:17,470 --> 00:21:21,069
+empresas a gente só presta O que as
+
+524
+00:21:19,148 --> 00:21:28,418
+empresas de consultoria ainda não estão
+
+525
+00:21:21,069 --> 00:21:31,210
+aptas a fazer mais facilidade e
+
+526
+00:21:28,419 --> 00:21:35,350
+E aí
+
+527
+00:21:31,210 --> 00:21:38,140
+e você mencionou acho que umas duas ou
+
+528
+00:21:35,349 --> 00:21:40,538
+três vezes no trabalho de segurança que
+
+529
+00:21:38,140 --> 00:21:41,799
+você tava internet que faz empresas aê
+
+530
+00:21:40,538 --> 00:21:43,629
+tava também tem as suas últimas
+
+531
+00:21:41,798 --> 00:21:46,450
+Produções a gente vê que segurança é um
+
+532
+00:21:43,630 --> 00:21:48,429
+tapa corrente também né mas quando está
+
+533
+00:21:46,450 --> 00:21:49,750
+uma empresa a gente fala de segurança eu
+
+534
+00:21:48,429 --> 00:21:53,070
+acho que a Primeira ideia que vem à
+
+535
+00:21:49,750 --> 00:21:57,099
+mente é uma pessoa a expert e
+
+536
+00:21:53,069 --> 00:21:59,528
+infraestrutura e restante Hit ou estágio
+
+537
+00:21:57,099 --> 00:22:03,028
+não sei banco de dados ainda a gente deu
+
+538
+00:21:59,528 --> 00:22:05,740
+uma pessoa de que veste uma camisa de
+
+539
+00:22:03,028 --> 00:22:07,480
+infraestrutura que tem um pouco mais de
+
+540
+00:22:05,740 --> 00:22:10,390
+responsabilidade Nesse quesito de
+
+541
+00:22:07,480 --> 00:22:11,919
+segurança né mas se for seu trabalho eu
+
+542
+00:22:10,390 --> 00:22:13,330
+acho que ele tá na linha de como é que a
+
+543
+00:22:11,919 --> 00:22:15,640
+gente leva a segurança para os
+
+544
+00:22:13,329 --> 00:22:17,439
+desenvolvedores então por exemplo as
+
+545
+00:22:15,640 --> 00:22:20,500
+provas época clássica também então quê
+
+546
+00:22:17,440 --> 00:22:21,640
+que a gente liga quando só acertar do
+
+547
+00:22:20,500 --> 00:22:23,259
+problema tão somente não ta mais
+
+548
+00:22:21,640 --> 00:22:24,460
+funcionando só que saiu do ar para que a
+
+549
+00:22:23,259 --> 00:22:26,230
+gente liga e chora Ligar para o
+
+550
+00:22:24,460 --> 00:22:27,909
+desenvolvedor a gente vai ligar para o
+
+551
+00:22:26,230 --> 00:22:29,528
+cara de segurança né fica com
+
+552
+00:22:27,909 --> 00:22:31,220
+infraestrutura né hoje a noite Liga para
+
+553
+00:22:29,528 --> 00:22:33,769
+o cara que foi estrutura né
+
+554
+00:22:31,220 --> 00:22:36,079
+eu acho que é isso eu tiver parado nesse
+
+555
+00:22:33,769 --> 00:22:38,119
+a sua pesquisa recente É talvez
+
+556
+00:22:36,079 --> 00:22:40,038
+empoderar dos vendedores de software
+
+557
+00:22:38,119 --> 00:22:42,229
+para que eles tomem essas decisões em
+
+558
+00:22:40,038 --> 00:22:44,629
+conjunto com esses especialistas de
+
+559
+00:22:42,230 --> 00:22:46,730
+segurança né então como é que isso
+
+560
+00:22:44,630 --> 00:22:48,350
+funciona né corrupção essa
+
+561
+00:22:46,730 --> 00:22:50,538
+responsabilidade como é que todo
+
+562
+00:22:48,349 --> 00:22:52,449
+desenvolvedor Pode se preocupar um pouco
+
+563
+00:22:50,538 --> 00:22:56,538
+mais com esses aspectos de segurança
+
+564
+00:22:52,450 --> 00:22:59,150
+começa do que é porque a gente decidiu
+
+565
+00:22:56,538 --> 00:23:00,710
+que a gente queria começar com essa
+
+566
+00:22:59,150 --> 00:23:02,750
+coisa de segurança para o
+
+567
+00:23:00,710 --> 00:23:04,909
+desenvolvimento ágil porque o Fórum de
+
+568
+00:23:02,750 --> 00:23:07,038
+segurança tava muito pouco então assim
+
+569
+00:23:04,909 --> 00:23:10,220
+os desenvolvedores eles estavam focados
+
+570
+00:23:07,038 --> 00:23:13,599
+em ter a funcionalidade no mercado Esse
+
+571
+00:23:10,220 --> 00:23:15,500
+é o foco então e E aí também acabou que
+
+572
+00:23:13,599 --> 00:23:17,389
+aquele processo que a gente tinha
+
+573
+00:23:15,500 --> 00:23:19,159
+tradicional de desenvolvimento de sorte
+
+574
+00:23:17,390 --> 00:23:20,538
+que você tinha os requisitos daí você
+
+575
+00:23:19,159 --> 00:23:22,760
+terminava de fazer os requisitos você
+
+576
+00:23:20,538 --> 00:23:25,038
+tinha Como avaliar esses vezes para ver
+
+577
+00:23:22,759 --> 00:23:27,349
+se dizer que eles estavam bem analisados
+
+578
+00:23:25,038 --> 00:23:28,879
+né E daí quando você tinha o design você
+
+579
+00:23:27,349 --> 00:23:31,009
+tinha como pegar aquele desenho do
+
+580
+00:23:28,880 --> 00:23:31,230
+Design e analisar todos os desenhos de
+
+581
+00:23:31,009 --> 00:23:33,450
+dia
+
+582
+00:23:31,230 --> 00:23:35,099
+quer dizer Ok sem problema de segurança
+
+583
+00:23:33,450 --> 00:23:36,720
+aqui a gente vai ter uma falha aqui vai
+
+584
+00:23:35,099 --> 00:23:38,849
+ter uma vaga ali só de como arranjar e
+
+585
+00:23:36,720 --> 00:23:41,160
+você não tem mais isso então o que que
+
+586
+00:23:38,849 --> 00:23:43,199
+aconteceu foi que daí quem é que tem a
+
+587
+00:23:41,160 --> 00:23:45,330
+sensibilidade quando está desenvolvendo
+
+588
+00:23:43,200 --> 00:23:46,529
+o software para umas até para ter
+
+589
+00:23:45,329 --> 00:23:49,139
+certeza de que um software seguro
+
+590
+00:23:46,529 --> 00:23:51,058
+ninguém então e mata ao mesmo tempo é
+
+591
+00:23:49,140 --> 00:23:52,440
+todo mundo só que acontece que aquela
+
+592
+00:23:51,058 --> 00:23:54,329
+coisa que tipo assim se todo mundo é
+
+593
+00:23:52,440 --> 00:23:57,058
+responsável ninguém é responsável que
+
+594
+00:23:54,329 --> 00:23:59,579
+como é uma coisa que dependendo de como
+
+595
+00:23:57,058 --> 00:24:01,769
+você faz ela não ajuda acelerar o
+
+596
+00:23:59,579 --> 00:24:03,269
+processo Porque faz com que você tem que
+
+597
+00:24:01,769 --> 00:24:05,160
+parar para pensar em outras coisas que
+
+598
+00:24:03,269 --> 00:24:07,619
+não fazem parte do seu processo normal
+
+599
+00:24:05,160 --> 00:24:09,360
+de pensar eles nos repórter então geral
+
+600
+00:24:07,619 --> 00:24:11,759
+o entendimento e os desenvolvedores
+
+601
+00:24:09,359 --> 00:24:12,869
+também a maioria do ter seu povo deles
+
+602
+00:24:11,759 --> 00:24:14,669
+Isso é uma pesquisa que a gente fez
+
+603
+00:24:12,869 --> 00:24:16,409
+também mais de cinquenta por cento de
+
+604
+00:24:14,669 --> 00:24:18,540
+desenvolvedores uma das empresas que a
+
+605
+00:24:16,410 --> 00:24:21,210
+gente foi por exemplo achavam que eles
+
+606
+00:24:18,539 --> 00:24:22,529
+eram capazes de fazer o código seguro o
+
+607
+00:24:21,210 --> 00:24:24,210
+suficiente do jeito que ele tá achava
+
+608
+00:24:22,529 --> 00:24:26,460
+que deveria fazer e também assim ele nem
+
+609
+00:24:24,210 --> 00:24:28,230
+sabia o que significava fazer o software
+
+610
+00:24:26,460 --> 00:24:30,720
+seguro fazer um programa assim então
+
+611
+00:24:28,230 --> 00:24:31,210
+isso é deixa são todas as coisas que a
+
+612
+00:24:30,720 --> 00:24:33,399
+gente tava
+
+613
+00:24:31,210 --> 00:24:35,259
+é porque Imagine que cada dia que
+
+614
+00:24:33,398 --> 00:24:36,879
+desenvolvedor ainda mais ainda Lopes se
+
+615
+00:24:35,259 --> 00:24:39,220
+você vai botar a introdução todos os
+
+616
+00:24:36,880 --> 00:24:41,080
+dias todos os dias você deve criar um
+
+617
+00:24:39,220 --> 00:24:43,120
+risco de que você tá incluindo ou não
+
+618
+00:24:41,079 --> 00:24:44,859
+era habilidade no seu soft então isso
+
+619
+00:24:43,119 --> 00:24:46,148
+era um problema muito importante para a
+
+620
+00:24:44,859 --> 00:24:47,259
+gente então EA gente começou a pintar
+
+621
+00:24:46,148 --> 00:24:49,629
+Tipo o quê que a gente tem que fazer
+
+622
+00:24:47,259 --> 00:24:53,470
+para que não seja aquele passar assim
+
+623
+00:24:49,630 --> 00:24:55,299
+engessado do tradicional mas que ainda
+
+624
+00:24:53,470 --> 00:24:57,009
+seja sustentável Então esse é o nosso
+
+625
+00:24:55,298 --> 00:24:59,829
+problema e daí a gente começou a
+
+626
+00:24:57,009 --> 00:25:02,019
+trabalhar com as empresas Ou principal
+
+627
+00:24:59,829 --> 00:25:03,428
+foi treinamento posso com todas as
+
+628
+00:25:02,019 --> 00:25:05,440
+empresas que todos os desenvolvedores
+
+629
+00:25:03,429 --> 00:25:07,390
+tem que começar a ter essa confiança de
+
+630
+00:25:05,440 --> 00:25:09,399
+que eu sei eu tô fazendo eu sei que que
+
+631
+00:25:07,390 --> 00:25:12,460
+eu fizer está sendo seguro para colocar
+
+632
+00:25:09,398 --> 00:25:14,319
+no meio e o foco não é na operação tem
+
+633
+00:25:12,460 --> 00:25:15,610
+também um problema sem gera
+
+634
+00:25:14,319 --> 00:25:17,470
+consequências também na parte da
+
+635
+00:25:15,609 --> 00:25:19,058
+operação e na parte da resposta a
+
+636
+00:25:17,470 --> 00:25:21,759
+incidentes essas coisas que nem você
+
+637
+00:25:19,058 --> 00:25:24,190
+falou mas o nosso foco do nosso projeto
+
+638
+00:25:21,759 --> 00:25:26,259
+era mais a Fronte é mais mesmo no
+
+639
+00:25:24,190 --> 00:25:29,649
+desenvolvimento e como é que a gente que
+
+640
+00:25:26,259 --> 00:25:31,220
+dá subsídios para criar o time completo
+
+641
+00:25:29,648 --> 00:25:33,979
+Quando você
+
+642
+00:25:31,220 --> 00:25:36,200
+a todos os dias você faz um release na
+
+643
+00:25:33,980 --> 00:25:38,298
+operação que você tem a confiança de que
+
+644
+00:25:36,200 --> 00:25:40,519
+você fez o que você deveria fazer com
+
+645
+00:25:38,298 --> 00:25:42,619
+que você poderia fazer você mencionou
+
+646
+00:25:40,519 --> 00:25:44,808
+rapidamente parece que esses times estão
+
+647
+00:25:42,619 --> 00:25:46,308
+bem a gente comércio né Então desse esse
+
+648
+00:25:44,808 --> 00:25:48,710
+trabalho você mencionou se foi no
+
+649
+00:25:46,308 --> 00:25:50,359
+concerto dos roedores região pouco ideia
+
+650
+00:25:48,710 --> 00:25:53,538
+de como é que fazer só o seguro né então
+
+651
+00:25:50,359 --> 00:25:56,869
+há também temos esse luz né Nesse
+
+652
+00:25:53,538 --> 00:25:59,210
+quesito de e segurança Então você teve
+
+653
+00:25:56,869 --> 00:26:02,089
+um artigo recente chamado artístico
+
+654
+00:25:59,210 --> 00:26:04,630
+deveria se formar e sofre a seguir estão
+
+655
+00:26:02,089 --> 00:26:07,819
+pênis eu acho que discutir brevemente
+
+656
+00:26:04,630 --> 00:26:10,070
+esse cílios entre este apartamento
+
+657
+00:26:07,819 --> 00:26:12,079
+esteja nesse momento de segurança você
+
+658
+00:26:10,069 --> 00:26:14,750
+pode explicar rapidamente em qual que é
+
+659
+00:26:12,079 --> 00:26:17,480
+qual foi a ideia desse trabalho né como
+
+660
+00:26:14,750 --> 00:26:20,259
+é que vocês podem ser taram né é essas
+
+661
+00:26:17,480 --> 00:26:23,360
+diferenças entre esses departamentos
+
+662
+00:26:20,259 --> 00:26:24,798
+então tudo faz parte desse projeto todo
+
+663
+00:26:23,359 --> 00:26:26,569
+que tem cinco anos que a gente tá
+
+664
+00:26:24,798 --> 00:26:29,210
+rodando na grade Termina Esse ano em
+
+665
+00:26:26,569 --> 00:26:31,230
+setembro então tem cinco anos eles são
+
+666
+00:26:29,210 --> 00:26:33,870
+observações em todos os assim
+
+667
+00:26:31,230 --> 00:26:35,789
+Oi gente tem contato com as empresas que
+
+668
+00:26:33,869 --> 00:26:37,558
+nós fizemos entrevistas análise de
+
+669
+00:26:35,789 --> 00:26:39,329
+documentos análise de processo como eu
+
+670
+00:26:37,558 --> 00:26:41,308
+te falei a gente tá sempre muito dentro
+
+671
+00:26:39,329 --> 00:26:43,980
+das empresas pelas em quando eu trabalho
+
+672
+00:26:41,308 --> 00:26:45,720
+agora não mas assim quando o meu dia a
+
+673
+00:26:43,980 --> 00:26:47,669
+dia normal eu vou pintar é só uma vez na
+
+674
+00:26:45,720 --> 00:26:49,350
+semana e as outras dos outros dias eu tô
+
+675
+00:26:47,669 --> 00:26:51,780
+sem aqui dentro das empresas então a
+
+676
+00:26:49,349 --> 00:26:53,819
+gente tá sempre coletando informação em
+
+677
+00:26:51,779 --> 00:26:54,779
+tudo quanto é jeito às vezes até difícil
+
+678
+00:26:53,819 --> 00:26:56,519
+saber como é que a gente vai analisar
+
+679
+00:26:54,779 --> 00:26:57,899
+informação que a gente tem porque tem
+
+680
+00:26:56,519 --> 00:27:00,298
+muita informação para coletar para
+
+681
+00:26:57,900 --> 00:27:02,759
+analisar Então faz parte de tudo isso
+
+682
+00:27:00,298 --> 00:27:05,400
+que são várias entrevistas foram vários
+
+683
+00:27:02,759 --> 00:27:08,460
+tipos de análise de documentos ou de
+
+684
+00:27:05,400 --> 00:27:11,179
+observações e grupos com foco os grupos
+
+685
+00:27:08,460 --> 00:27:13,610
+como pessoal e tal e daí foi que a gente
+
+686
+00:27:11,179 --> 00:27:16,410
+escreveu sobre isso mas essa diferença
+
+687
+00:27:13,609 --> 00:27:18,990
+ela vem também um pouco desses fios né
+
+688
+00:27:16,410 --> 00:27:21,419
+Desse Haiti o pessoal de arte e o
+
+689
+00:27:18,990 --> 00:27:24,120
+pessoal de desenvolvimento de software
+
+690
+00:27:21,419 --> 00:27:26,580
+né mas o tipo de conhecimento que o
+
+691
+00:27:24,119 --> 00:27:28,229
+pessoal de aí se precisa para segurança
+
+692
+00:27:26,579 --> 00:27:29,909
+é diferente do tipo de conhecimento que
+
+693
+00:27:28,230 --> 00:27:31,210
+o pessoal desenvolvimento precisa para
+
+694
+00:27:29,910 --> 00:27:33,370
+segurança Então são
+
+695
+00:27:31,210 --> 00:27:34,659
+é totalmente diferente você não pode
+
+696
+00:27:33,369 --> 00:27:37,209
+falar assim agora a gente vai botar um
+
+697
+00:27:34,659 --> 00:27:38,950
+Lightyear um cara de açaí para dentro
+
+698
+00:27:37,210 --> 00:27:41,200
+processo de desenvolvimento e tudo vai
+
+699
+00:27:38,950 --> 00:27:43,360
+funcionar não é assim como eu falei Todo
+
+700
+00:27:41,200 --> 00:27:44,710
+mundo vai ter que ter essa capacidade de
+
+701
+00:27:43,359 --> 00:27:46,629
+entender o que que eu tô fazendo no meu
+
+702
+00:27:44,710 --> 00:27:49,750
+sorte daí a gente também foco em por
+
+703
+00:27:46,630 --> 00:27:52,210
+exemplo code review code review não deve
+
+704
+00:27:49,750 --> 00:27:53,980
+focar só na funcionalidade mas na
+
+705
+00:27:52,210 --> 00:27:55,808
+funcionalidade e também está sendo
+
+706
+00:27:53,980 --> 00:27:57,159
+segura ou não tá sendo seguro o jeito
+
+707
+00:27:55,808 --> 00:27:59,048
+que foi desenvolvimento foi segura ou
+
+708
+00:27:57,159 --> 00:28:01,809
+não consigo Então vai também do produto
+
+709
+00:27:59,048 --> 00:28:03,940
+né produção uma se ele não souber todos
+
+710
+00:28:01,808 --> 00:28:07,778
+os regulamentos por exemplo prazo de
+
+711
+00:28:03,940 --> 00:28:09,190
+pior ele fala as coisas vão desenvolver
+
+712
+00:28:07,778 --> 00:28:11,500
+aquela funcionalidade ele vai
+
+713
+00:28:09,190 --> 00:28:13,808
+desenvolver Independente de estar de
+
+714
+00:28:11,500 --> 00:28:16,419
+acordo com as regulamentações do GTA ou
+
+715
+00:28:13,808 --> 00:28:19,349
+não entendi então assim é todo um
+
+716
+00:28:16,419 --> 00:28:21,880
+processo que a gente tenta fazer de
+
+717
+00:28:19,349 --> 00:28:24,038
+capacitação de todo mundo dentro da
+
+718
+00:28:21,880 --> 00:28:25,870
+equipe mais cada um precisa de um tipo
+
+719
+00:28:24,038 --> 00:28:27,398
+de informação diferente cada um precisa
+
+720
+00:28:25,869 --> 00:28:31,219
+de um tipo de treinamento diferente
+
+721
+00:28:27,398 --> 00:28:35,029
+nenhum substitui o outro você acabou
+
+722
+00:28:31,220 --> 00:28:38,000
+é um pouco sobre a relação de devops com
+
+723
+00:28:35,029 --> 00:28:40,220
+segurança isso que que você descreveu aí
+
+724
+00:28:38,000 --> 00:28:44,210
+seria o que se chama que algumas pessoas
+
+725
+00:28:40,220 --> 00:28:45,589
+chamam de deve ser ops na verdade é
+
+726
+00:28:44,210 --> 00:28:49,159
+aquele negócio que a gente falou da
+
+727
+00:28:45,589 --> 00:28:51,558
+siglas é cada sigla acaba dando dando
+
+728
+00:28:49,159 --> 00:28:53,150
+uma ênfase naquela coisa que parece que
+
+729
+00:28:51,558 --> 00:28:55,190
+tava faltando dentro do seu processo de
+
+730
+00:28:53,150 --> 00:28:56,960
+desenvolvimento mas para falar a verdade
+
+731
+00:28:55,190 --> 00:29:00,740
+a gente conversou com esse negócio deve
+
+732
+00:28:56,960 --> 00:29:02,450
+ser copos acho que três anos e daí como
+
+733
+00:29:00,740 --> 00:29:04,339
+é que tá verdade parece que não pegou
+
+734
+00:29:02,450 --> 00:29:06,470
+pelo menos aqui na Noruega eu acho que
+
+735
+00:29:04,339 --> 00:29:09,109
+não pegou e aí ficou mesmo daqui ó fiz
+
+736
+00:29:06,470 --> 00:29:11,569
+mesmo porque colocar mais o foco sem
+
+737
+00:29:09,109 --> 00:29:13,158
+certo né daí se você também começar a
+
+738
+00:29:11,569 --> 00:29:15,798
+colocar o Focus em cada uma das coisas
+
+739
+00:29:13,159 --> 00:29:18,080
+daí vira um monte de nome que não vale a
+
+740
+00:29:15,798 --> 00:29:20,359
+pena mas parece que não pegou então isso
+
+741
+00:29:18,079 --> 00:29:22,699
+foi essa a sensação que a gente teve E
+
+742
+00:29:20,359 --> 00:29:24,769
+aí pensa questão de como é que a
+
+743
+00:29:22,700 --> 00:29:26,960
+segurança deve ser tratada por times da
+
+744
+00:29:24,769 --> 00:29:29,000
+Vox né Então aqui tem alguns exemplos
+
+745
+00:29:26,960 --> 00:29:30,860
+para você tem um químico segurança que
+
+746
+00:29:29,000 --> 00:29:31,230
+na verdade é um quilinho infra que cuida
+
+747
+00:29:30,859 --> 00:29:33,808
+de que acha
+
+748
+00:29:31,230 --> 00:29:35,940
+a classe dados mas não entra nos
+
+749
+00:29:33,808 --> 00:29:37,980
+movimentos e em outras empresas que as
+
+750
+00:29:35,940 --> 00:29:40,860
+equipes de segurança que fazem revisão
+
+751
+00:29:37,980 --> 00:29:42,599
+da aplicação o dedo bloquear entrega a
+
+752
+00:29:40,859 --> 00:29:45,269
+padrões mais indicados para a
+
+753
+00:29:42,599 --> 00:29:48,329
+organização de times que que se
+
+754
+00:29:45,269 --> 00:29:49,950
+preocupam com a segurança não na verdade
+
+755
+00:29:48,329 --> 00:29:53,519
+assim é todo mundo tem que se preocupar
+
+756
+00:29:49,950 --> 00:29:55,380
+com segurança mas não existe um padrão e
+
+757
+00:29:53,519 --> 00:29:58,500
+não existe uma maneira certa de fazer
+
+758
+00:29:55,380 --> 00:30:00,540
+eles vão ter todo mundo todas as pessoas
+
+759
+00:29:58,500 --> 00:30:02,789
+para fazer em Todas aquelas coisas né
+
+760
+00:30:00,539 --> 00:30:04,980
+mas tem algum daqueles cada empresa
+
+761
+00:30:02,789 --> 00:30:06,480
+função de um jeito diferente então das
+
+762
+00:30:04,980 --> 00:30:08,880
+vezes tem que tem coisas que você coloca
+
+763
+00:30:06,480 --> 00:30:10,710
+na operação Central então é operação
+
+764
+00:30:08,880 --> 00:30:13,110
+Central que que se preocupa por exemplo
+
+765
+00:30:10,710 --> 00:30:16,669
+no Firewall em todas as outras coisas
+
+766
+00:30:13,109 --> 00:30:19,289
+relacionadas com o ambiente da rede da
+
+767
+00:30:16,669 --> 00:30:21,150
+nuvem e coisas assim e daí o
+
+768
+00:30:19,289 --> 00:30:22,319
+desenvolvimento se preocupa mais com as
+
+769
+00:30:21,150 --> 00:30:24,630
+mulher habilidades que estão
+
+770
+00:30:22,319 --> 00:30:26,970
+relacionadas com o software tudo depende
+
+771
+00:30:24,630 --> 00:30:29,820
+do que você tem para compor esse time e
+
+772
+00:30:26,970 --> 00:30:31,210
+dizer olha quem é que vai tá tem é que
+
+773
+00:30:29,819 --> 00:30:33,460
+tá preocupado com isso quem
+
+774
+00:30:31,210 --> 00:30:35,798
+quem sabe por essa parte para que a
+
+775
+00:30:33,460 --> 00:30:37,690
+gente tem a certeza que no final o sofre
+
+776
+00:30:35,798 --> 00:30:40,179
+que a gente está colocando a introdução
+
+777
+00:30:37,690 --> 00:30:41,980
+ele é seguro então assim o mais
+
+778
+00:30:40,179 --> 00:30:45,970
+importante para mim não é quem faz o quê
+
+779
+00:30:41,980 --> 00:30:48,190
+mas é que todas essas pecinhas estejam
+
+780
+00:30:45,970 --> 00:30:50,679
+cobertas de alguma forma e que eles
+
+781
+00:30:48,190 --> 00:30:52,179
+tenham confiança desse do time de que
+
+782
+00:30:50,679 --> 00:30:57,210
+eles estão em direção as coisas como
+
+783
+00:30:52,179 --> 00:31:00,970
+deve endereçar as empresas têm percebido
+
+784
+00:30:57,210 --> 00:31:04,298
+desenvolvedores com dificuldade em
+
+785
+00:31:00,970 --> 00:31:06,788
+talvez se comunicar com seus gerentes a
+
+786
+00:31:04,298 --> 00:31:09,220
+respeito de questões de segurança por
+
+787
+00:31:06,788 --> 00:31:12,369
+exemplo durante vamos por durante uma
+
+788
+00:31:09,220 --> 00:31:15,028
+reunião de planejamento de Sprint né
+
+789
+00:31:12,369 --> 00:31:17,979
+então como é que nos print a gente pode
+
+790
+00:31:15,028 --> 00:31:20,079
+argumentar a necessidade de batizar
+
+791
+00:31:17,980 --> 00:31:22,480
+questões de segurança sendo que o
+
+792
+00:31:20,079 --> 00:31:24,970
+cliente não vai ver um botão ali só
+
+793
+00:31:22,480 --> 00:31:27,909
+fritar mais segundo clica aqui conversa
+
+794
+00:31:24,970 --> 00:31:30,130
+um questões e visível desenvolvimento
+
+795
+00:31:27,909 --> 00:31:31,220
+você tem percebido isso assim essa
+
+796
+00:31:30,130 --> 00:31:34,250
+dificuldade em parte
+
+797
+00:31:31,220 --> 00:31:36,490
+e na verdade acho que são a maior
+
+798
+00:31:34,250 --> 00:31:38,329
+problema de tristeza que a gente tem
+
+799
+00:31:36,490 --> 00:31:43,250
+acho que é o maior problema que a gente
+
+800
+00:31:38,329 --> 00:31:45,319
+tem é Atualização de segurança da das
+
+801
+00:31:43,250 --> 00:31:47,779
+coisas de segurança dentro da da Sprint
+
+802
+00:31:45,319 --> 00:31:49,339
+ou dentro dos movimentos sofre porque
+
+803
+00:31:47,779 --> 00:31:51,918
+toda vez que a gente conversa com os
+
+804
+00:31:49,339 --> 00:31:53,899
+times e que daí nós vamos ver porque que
+
+805
+00:31:51,919 --> 00:31:55,788
+eles não estão fazendo as coisas como a
+
+806
+00:31:53,900 --> 00:31:57,140
+gente acha que ele deveria fazer sempre
+
+807
+00:31:55,788 --> 00:32:00,440
+a resposta é a mesma coisa lá mas a
+
+808
+00:31:57,140 --> 00:32:02,630
+gente não tem tempo a mas o gerente não
+
+809
+00:32:00,440 --> 00:32:05,090
+dá prioridade então assim quando tem um
+
+810
+00:32:02,630 --> 00:32:08,059
+P ou um gerente de projeto que ele é
+
+811
+00:32:05,089 --> 00:32:10,099
+mais técnico daí às vezes ele consegue
+
+812
+00:32:08,058 --> 00:32:11,928
+entender melhor qual é a prioridade
+
+813
+00:32:10,099 --> 00:32:13,548
+daquela coisa que o desenvolvedor tá
+
+814
+00:32:11,929 --> 00:32:15,950
+pedindo e quando o que que ele vai
+
+815
+00:32:13,548 --> 00:32:18,589
+ganhar por investir nisso quando ele não
+
+816
+00:32:15,950 --> 00:32:20,720
+é técnico é muito difícil para ele dizer
+
+817
+00:32:18,589 --> 00:32:23,509
+se vale a pena realmente ou não e daí
+
+818
+00:32:20,720 --> 00:32:26,058
+ele sempre tem demais porque vai dar um
+
+819
+00:32:23,509 --> 00:32:28,250
+retorno financeiro maior mais rápido
+
+820
+00:32:26,058 --> 00:32:30,379
+então então Esse é um dos problemas que
+
+821
+00:32:28,250 --> 00:32:31,230
+a gente tem é um problema grande que a
+
+822
+00:32:30,380 --> 00:32:32,760
+gente ainda não sabe
+
+823
+00:32:31,230 --> 00:32:35,519
+O que é mas o que a gente tem tentado
+
+824
+00:32:32,759 --> 00:32:38,160
+fazer é nessa nessa linha da capacitação
+
+825
+00:32:35,519 --> 00:32:39,750
+então capacitar o gerente de projeto
+
+826
+00:32:38,160 --> 00:32:42,990
+máximo que a gente puder para que ele
+
+827
+00:32:39,750 --> 00:32:44,429
+possa com a decisão bem baseado em risco
+
+828
+00:32:42,990 --> 00:32:46,798
+e é por isso que a gente criou essa
+
+829
+00:32:44,429 --> 00:32:49,350
+coisa do a gente não criou mas a gente
+
+830
+00:32:46,798 --> 00:32:51,418
+discutir passar essa coisa do nosso aqui
+
+831
+00:32:49,349 --> 00:32:54,119
+o quê que é como é que a gente ficar
+
+832
+00:32:51,419 --> 00:32:56,250
+paciente O time inteiro para pensar nos
+
+833
+00:32:54,119 --> 00:32:58,229
+isso que eles estão tomando quando eles
+
+834
+00:32:56,250 --> 00:33:00,240
+estão decidindo e não para eu usar que
+
+835
+00:32:58,230 --> 00:33:01,679
+ele tem para fazer aquela atividade ou
+
+836
+00:33:00,240 --> 00:33:03,690
+saber quais são os espíritos estão
+
+837
+00:33:01,679 --> 00:33:05,910
+tomando quando eles estão desenvolvendo
+
+838
+00:33:03,690 --> 00:33:08,610
+o sócio de uma maneira que foi a mais
+
+839
+00:33:05,910 --> 00:33:09,960
+rápida mas não foi a mais segura eu acho
+
+840
+00:33:08,609 --> 00:33:12,089
+que foi mais somente deixa para próxima
+
+841
+00:33:09,960 --> 00:33:14,009
+pergunta por que a gente tinha se
+
+842
+00:33:12,089 --> 00:33:16,349
+justamente separado eu recebi Exatamente
+
+843
+00:33:14,009 --> 00:33:17,879
+esse artigo mas é um artigo que tem o
+
+844
+00:33:16,349 --> 00:33:20,339
+nome bem sugestivo não prestava
+
+845
+00:33:17,880 --> 00:33:23,250
+mencionando que é Ative o meu Software
+
+846
+00:33:20,339 --> 00:33:26,250
+Security que foi publicada é esse ano né
+
+847
+00:33:23,250 --> 00:33:29,130
+então o que é que esse bom suficiente né
+
+848
+00:33:26,250 --> 00:33:31,210
+então a gente sabe e entrando mais um
+
+849
+00:33:29,130 --> 00:33:35,140
+pouco do médico do artigo né o
+
+850
+00:33:31,210 --> 00:33:37,960
+e vocês avaliaram né Essa segurança boa
+
+851
+00:33:35,140 --> 00:33:40,330
+suficiente Então essa é um outro desafio
+
+852
+00:33:37,960 --> 00:33:41,980
+grande que a gente tem que é como é que
+
+853
+00:33:40,329 --> 00:33:44,859
+a gente chega na empresa e fala para
+
+854
+00:33:41,980 --> 00:33:48,099
+eles que eles estão fazendo a segurança
+
+855
+00:33:44,859 --> 00:33:50,439
+o bom suficiente é muito difícil medir
+
+856
+00:33:48,099 --> 00:33:52,689
+você não consegue medir objetivamente e
+
+857
+00:33:50,440 --> 00:33:53,980
+daí a gente começou a pensar tipo tá aí
+
+858
+00:33:52,690 --> 00:33:55,330
+agora como é que o que que nós vamos
+
+859
+00:33:53,980 --> 00:33:56,740
+fazer né como é que a gente vai dizer
+
+860
+00:33:55,329 --> 00:33:58,538
+que eles estão melhorando ou que não tô
+
+861
+00:33:56,740 --> 00:34:00,130
+melhorando e daí você também quando você
+
+862
+00:33:58,538 --> 00:34:01,569
+chegou na empresa e fala para ele
+
+863
+00:34:00,130 --> 00:34:04,059
+investir em segurança você tá pedindo
+
+864
+00:34:01,569 --> 00:34:05,889
+para ele ir investirem em alguma coisa
+
+865
+00:34:04,058 --> 00:34:07,690
+eles querem saber qual é o retorno que
+
+866
+00:34:05,890 --> 00:34:09,849
+eles vão ter e depois de 23 anos
+
+867
+00:34:07,690 --> 00:34:11,619
+investindo dele fiquei de saber Tô
+
+868
+00:34:09,849 --> 00:34:13,389
+melhorando ou piorando e daí a gente não
+
+869
+00:34:11,619 --> 00:34:15,519
+sabia como é que a gente objetivamente
+
+870
+00:34:13,389 --> 00:34:17,260
+poderia dizer isso pras empresa e a
+
+871
+00:34:15,519 --> 00:34:20,019
+gente não sabe mas a gente tem algum
+
+872
+00:34:17,260 --> 00:34:22,720
+indicativos de como a gente percebe que
+
+873
+00:34:20,019 --> 00:34:25,059
+uma empresa tá fazendo o suficiente ou
+
+874
+00:34:22,719 --> 00:34:27,098
+não suficiente da tendência dos riscos
+
+875
+00:34:25,059 --> 00:34:30,279
+que eles querem tomar então o bom
+
+876
+00:34:27,099 --> 00:34:31,220
+suficiente é bem contextualizado para
+
+877
+00:34:30,280 --> 00:34:34,099
+aquele momento
+
+878
+00:34:31,219 --> 00:34:37,158
+e para aquele momento da empresa para
+
+879
+00:34:34,099 --> 00:34:39,669
+aquele momento do mundo e o que que ele
+
+880
+00:34:37,159 --> 00:34:42,919
+decidir E isso tem que ser reavaliado
+
+881
+00:34:39,668 --> 00:34:44,628
+continuamente o tempo todo e ainda tem
+
+882
+00:34:42,918 --> 00:34:47,000
+gente que às vezes tem na mesma empresa
+
+883
+00:34:44,628 --> 00:34:48,769
+o que foi bom suficiente para que ele
+
+884
+00:34:47,000 --> 00:34:51,199
+para já essa pode não ser o bom
+
+885
+00:34:48,769 --> 00:34:53,059
+suficiente para o projeto que que vem
+
+886
+00:34:51,199 --> 00:34:54,918
+depois então a gente não tem essa coisa
+
+887
+00:34:53,059 --> 00:34:58,460
+que dia você vai faça tudo a mesma coisa
+
+888
+00:34:54,918 --> 00:35:00,889
+no próximo projeto não cada projeto tem
+
+889
+00:34:58,460 --> 00:35:02,358
+que ser para focar Quais os riscos que a
+
+890
+00:35:00,889 --> 00:35:03,618
+gente quer tomar o conta que a gente vai
+
+891
+00:35:02,358 --> 00:35:05,420
+investir para fazer isso vale a pena
+
+892
+00:35:03,619 --> 00:35:06,920
+vale a pena então todas as coisas têm
+
+893
+00:35:05,420 --> 00:35:09,380
+que ser estabelecidos e a gente também
+
+894
+00:35:06,920 --> 00:35:11,990
+viu assim a gente Vale também não artigo
+
+895
+00:35:09,380 --> 00:35:14,720
+que cada pessoa dentro do mês empresa
+
+896
+00:35:11,989 --> 00:35:16,848
+tem uma visão diferente do que que eu
+
+897
+00:35:14,719 --> 00:35:19,759
+vou suficiente isso vai bater nele do
+
+898
+00:35:16,849 --> 00:35:21,890
+que ele do qual é o foco deles qual é a
+
+899
+00:35:19,760 --> 00:35:23,900
+funcionalidade que essas pessoas têm e o
+
+900
+00:35:21,889 --> 00:35:25,339
+que que ele se conhecem de segurança né
+
+901
+00:35:23,900 --> 00:35:27,920
+então assim quanto mais uma pessoa
+
+902
+00:35:25,340 --> 00:35:30,050
+conhece de segurança mas ela acha que
+
+903
+00:35:27,920 --> 00:35:31,230
+ocorre de segurança foi pouco do
+
+904
+00:35:30,050 --> 00:35:34,440
+trabalho é mais para
+
+905
+00:35:31,230 --> 00:35:38,250
+o que será bom suficiente na Perspectiva
+
+906
+00:35:34,440 --> 00:35:42,059
+dos interessados pistas com alguns
+
+907
+00:35:38,250 --> 00:35:45,559
+metros para itouch vos Daniela Qual é o
+
+908
+00:35:42,059 --> 00:35:48,929
+cenário atual das empresas e da pesquisa
+
+909
+00:35:45,559 --> 00:35:51,989
+insegurança em devops hoje em dia eu não
+
+910
+00:35:48,929 --> 00:35:54,659
+vejo diferença a gente não falta muito
+
+911
+00:35:51,989 --> 00:35:57,719
+nessa opção é já é a gente volta mais na
+
+912
+00:35:54,659 --> 00:36:00,358
+questão de tipo é um selfie menos não
+
+913
+00:35:57,719 --> 00:36:02,339
+serve - The Sims e dá uma das coisas que
+
+914
+00:36:00,358 --> 00:36:04,319
+eu foco Então para mim assim não faz
+
+915
+00:36:02,340 --> 00:36:06,180
+muita diferença se ele está fazendo de
+
+916
+00:36:04,320 --> 00:36:07,559
+volta vocês estão fazendo a diário faz
+
+917
+00:36:06,179 --> 00:36:10,049
+um pouco diferente porque daí Dependendo
+
+918
+00:36:07,559 --> 00:36:11,159
+de quem a gente tem dentro do time vai
+
+919
+00:36:10,050 --> 00:36:13,019
+fazer diferença de como é que a gente
+
+920
+00:36:11,159 --> 00:36:15,269
+vai pedir a eles para endereçar aquilo
+
+921
+00:36:13,019 --> 00:36:17,219
+ali mas o foco é que nem eu falei tipo
+
+922
+00:36:15,269 --> 00:36:19,500
+de nessa parte de treinamentos nessa
+
+923
+00:36:17,219 --> 00:36:21,829
+parte de saber quem tá responsabilidade
+
+924
+00:36:19,500 --> 00:36:24,539
+Como dividir essas responsabilidades
+
+925
+00:36:21,829 --> 00:36:28,289
+Como avaliar que o software que está
+
+926
+00:36:24,539 --> 00:36:30,539
+sendo colocado em produção é seguro ou é
+
+927
+00:36:28,289 --> 00:36:31,210
+seguro o suficiente e também é sem como
+
+928
+00:36:30,539 --> 00:36:33,789
+priorizar
+
+929
+00:36:31,210 --> 00:36:35,380
+a usar quando priorizar em questão de
+
+930
+00:36:33,789 --> 00:36:36,940
+segurança eu acho que essas são as
+
+931
+00:36:35,380 --> 00:36:39,190
+coisas que mais tem chamado a nossa
+
+932
+00:36:36,940 --> 00:36:40,929
+atenção algumas outras coisas já são
+
+933
+00:36:39,190 --> 00:36:43,539
+meio que conhecimento comum por exemplo
+
+934
+00:36:40,929 --> 00:36:45,069
+ferramenta de análise estática não são
+
+935
+00:36:43,539 --> 00:36:46,300
+perfeitas mas assim a maioria das
+
+936
+00:36:45,070 --> 00:36:49,330
+empresas pelo menos aqui na Noruega
+
+937
+00:36:46,300 --> 00:36:50,950
+quase todo mundo usa então é uma coisa e
+
+938
+00:36:49,329 --> 00:36:52,480
+daí assim claro que a gente tem alguns
+
+939
+00:36:50,949 --> 00:36:54,669
+problemas com alguns filhos de
+
+940
+00:36:52,480 --> 00:36:56,619
+desenvolvimento que não colocam do jeito
+
+941
+00:36:54,670 --> 00:36:58,300
+que a gente gostaria que eles focar mas
+
+942
+00:36:56,619 --> 00:37:01,930
+não é bem um problema é mais assim
+
+943
+00:36:58,300 --> 00:37:04,349
+atitude e querer fazer só mais uma
+
+944
+00:37:01,929 --> 00:37:06,489
+pergunta ainda nesse sentido de
+
+945
+00:37:04,349 --> 00:37:08,260
+segurança em software para
+
+946
+00:37:06,489 --> 00:37:09,969
+desenvolvedores vamos dizer assim né
+
+947
+00:37:08,260 --> 00:37:12,580
+então você tem algum conjunto de
+
+948
+00:37:09,969 --> 00:37:14,919
+práticas que vocês sugerem que seriam
+
+949
+00:37:12,579 --> 00:37:18,309
+adequadas dos credores eles pudessem se
+
+950
+00:37:14,920 --> 00:37:19,960
+fortalecer você mencionou a revisão de
+
+951
+00:37:18,309 --> 00:37:22,599
+código que seria uma uma prática
+
+952
+00:37:19,960 --> 00:37:26,829
+interessante de praticar para exercitar
+
+953
+00:37:22,599 --> 00:37:28,539
+a alguns atributos de segurança mas uso
+
+954
+00:37:26,829 --> 00:37:31,219
+de ferramentas de análise estática
+
+955
+00:37:28,539 --> 00:37:33,440
+também interior alguma outra prática que
+
+956
+00:37:31,219 --> 00:37:35,179
+é fundamental no Arsenal do
+
+957
+00:37:33,440 --> 00:37:38,030
+desenvolvedor de software com
+
+958
+00:37:35,179 --> 00:37:41,108
+habilidades em segurança então eu sei
+
+959
+00:37:38,030 --> 00:37:43,849
+que falo desenvolvedores que eu era
+
+960
+00:37:41,108 --> 00:37:45,529
+Secret Officer de uma das empresas que
+
+961
+00:37:43,849 --> 00:37:47,119
+estava trabalhando todos os últimos três
+
+962
+00:37:45,530 --> 00:37:49,550
+anos e daí eu tenho que falar para eles
+
+963
+00:37:47,119 --> 00:37:51,440
+assim se a gente tiver um acidente e que
+
+964
+00:37:49,550 --> 00:37:53,289
+esse incidente Foi por causa de um
+
+965
+00:37:51,440 --> 00:37:55,519
+problema que você poderia ter achado uma
+
+966
+00:37:53,289 --> 00:37:57,349
+ferramenta de análise estática de código
+
+967
+00:37:55,519 --> 00:38:01,250
+eu realmente vou ficar muito com
+
+968
+00:37:57,349 --> 00:38:06,230
+vergonha mas se você tiver um problema
+
+969
+00:38:01,250 --> 00:38:07,639
+que não foi porque você não passou para
+
+970
+00:38:06,230 --> 00:38:09,619
+mim isso é quase não confirma bom
+
+971
+00:38:07,639 --> 00:38:12,139
+entendeu não passou pelo controlador
+
+972
+00:38:09,619 --> 00:38:13,910
+então daí tudo bem a gente pode até
+
+973
+00:38:12,139 --> 00:38:15,440
+conversar para ver como é que é mas em
+
+974
+00:38:13,909 --> 00:38:17,480
+algumas práticas que as empresas têm
+
+975
+00:38:15,440 --> 00:38:19,400
+usado que é por exemplo o teste de
+
+976
+00:38:17,480 --> 00:38:21,920
+penetração Esse é uma coisa aqui também
+
+977
+00:38:19,400 --> 00:38:23,480
+assim pelo menos aqui já tem várias
+
+978
+00:38:21,920 --> 00:38:26,119
+empresas estão esse tipo de serviço
+
+979
+00:38:23,480 --> 00:38:29,000
+então você pode chamar eles eles vêm
+
+980
+00:38:26,119 --> 00:38:31,230
+analisam e faz uma análise faz um teste
+
+981
+00:38:29,000 --> 00:38:33,239
+para você ir presente Tem empresas que
+
+982
+00:38:31,230 --> 00:38:35,250
+com esse dinheiro dá tá isso uma vez um
+
+983
+00:38:33,239 --> 00:38:37,108
+ano então uma vez no ano ele pega um
+
+984
+00:38:35,250 --> 00:38:39,239
+código e pede para fazer um teste de
+
+985
+00:38:37,108 --> 00:38:41,400
+penetração Apple análise digo não era
+
+986
+00:38:39,239 --> 00:38:44,009
+habilidade é uma coisa aqui alguns
+
+987
+00:38:41,400 --> 00:38:46,108
+empresas estão começando a adotar é uma
+
+988
+00:38:44,010 --> 00:38:47,700
+prática boa para fazer uma revisão sem
+
+989
+00:38:46,108 --> 00:38:49,289
+uma vez do ano também é uma das coisas
+
+990
+00:38:47,699 --> 00:38:51,449
+que a gente tem feito uma vez no ano nas
+
+991
+00:38:49,289 --> 00:38:53,820
+empresas é daí tem toda essa parte do
+
+992
+00:38:51,449 --> 00:38:55,618
+treinamento de código seguro e que daí é
+
+993
+00:38:53,820 --> 00:38:57,450
+muito específico para a linguagem que
+
+994
+00:38:55,619 --> 00:38:59,280
+você trabalhando escute que definem o
+
+995
+00:38:57,449 --> 00:39:00,899
+ovo que que você tá trabalhando com o
+
+996
+00:38:59,280 --> 00:39:02,340
+tipo de tecnologia que você tá
+
+997
+00:39:00,900 --> 00:39:04,980
+trabalhando Você tá trabalhando com
+
+998
+00:39:02,340 --> 00:39:06,930
+Cláudio não Cloud todas essas coisas tem
+
+999
+00:39:04,980 --> 00:39:08,639
+um conjunto de Treinamento que você tem
+
+1000
+00:39:06,929 --> 00:39:11,309
+que dar para que você saiba que o
+
+1001
+00:39:08,639 --> 00:39:12,629
+desenvolvedor está pensando nisso né
+
+1002
+00:39:11,309 --> 00:39:14,009
+então isso é uma outra prática que a
+
+1003
+00:39:12,630 --> 00:39:16,410
+gente tá E aí a gente tem várias
+
+1004
+00:39:14,010 --> 00:39:18,180
+reuniões também que a gente tem criado
+
+1005
+00:39:16,409 --> 00:39:20,819
+tem uma que a gente chama se aquietem
+
+1006
+00:39:18,179 --> 00:39:23,549
+tencionei tem que são reuniões sobre
+
+1007
+00:39:20,820 --> 00:39:25,859
+Quais são as suas intenções de segurança
+
+1008
+00:39:23,550 --> 00:39:27,090
+para aquele presente e a gente tá pegada
+
+1009
+00:39:25,858 --> 00:39:28,739
+para ver que a gente tem uma cidade
+
+1010
+00:39:27,090 --> 00:39:30,269
+diferente tem problema que a gente faz
+
+1011
+00:39:28,739 --> 00:39:31,209
+uma vez por mês a gente faz reunião com
+
+1012
+00:39:30,269 --> 00:39:33,400
+o
+
+1013
+00:39:31,210 --> 00:39:36,400
+e os moradores e a gente tem um papel
+
+1014
+00:39:33,400 --> 00:39:38,349
+chamado um você que eu te entender ou um
+
+1015
+00:39:36,400 --> 00:39:40,720
+dia aqui engenheiro de segurança dentro
+
+1016
+00:39:38,349 --> 00:39:43,119
+do time de desenvolvimento que na
+
+1017
+00:39:40,719 --> 00:39:45,189
+verdade é um desenvolvedor e geralmente
+
+1018
+00:39:43,119 --> 00:39:47,559
+a gente pede para que ou às vezes é o
+
+1019
+00:39:45,190 --> 00:39:49,150
+arquiteto para que a gente seja parece
+
+1020
+00:39:47,559 --> 00:39:50,619
+que seja aquele um aquele uns que tá
+
+1021
+00:39:49,150 --> 00:39:53,559
+tendo na que ele tem a responsabilidade
+
+1022
+00:39:50,619 --> 00:39:55,119
+de segurança mas ele ajuda a sempre tá
+
+1023
+00:39:53,559 --> 00:39:57,549
+lembrando gente fez pensar nisso de
+
+1024
+00:39:55,119 --> 00:39:59,980
+segurança você sabe daquele de segurança
+
+1025
+00:39:57,550 --> 00:40:01,450
+ter certeza de que tipo todo mundo tá
+
+1026
+00:39:59,980 --> 00:40:03,849
+saindo tipo de treinamento que eles
+
+1027
+00:40:01,449 --> 00:40:06,759
+precisam e é facilitar os processos
+
+1028
+00:40:03,849 --> 00:40:08,380
+também que a empresa decide que eles vão
+
+1029
+00:40:06,760 --> 00:40:10,750
+somar então por exemplo se a empresa
+
+1030
+00:40:08,380 --> 00:40:13,390
+falar olha todo mundo vai rodar análise
+
+1031
+00:40:10,750 --> 00:40:16,239
+estática de código aquela pessoa o
+
+1032
+00:40:13,389 --> 00:40:19,389
+referido Champion é o que é responsável
+
+1033
+00:40:16,239 --> 00:40:20,469
+por configurar a ferramenta fazer você
+
+1034
+00:40:19,389 --> 00:40:23,049
+tem certeza de todos os desenvolvedores
+
+1035
+00:40:20,469 --> 00:40:25,209
+estão usando esse vocês estão fazendo
+
+1036
+00:40:23,050 --> 00:40:27,760
+coaf essas coisas então essas são
+
+1037
+00:40:25,210 --> 00:40:29,440
+praticamente as principais Claro que tem
+
+1038
+00:40:27,760 --> 00:40:31,220
+outras mas essas são as principais que a
+
+1039
+00:40:29,440 --> 00:40:37,059
+gente tem adaptado a
+
+1040
+00:40:31,219 --> 00:40:37,539
+oi kkk Oi
+
+1041
+00:40:37,059 --> 00:40:39,239
+E aí
+
+1042
+00:40:37,539 --> 00:40:57,239
+[Música]
+
+1043
+00:40:39,239 --> 00:40:58,919
+e morrendo um pouco assunto né uma
+
+1044
+00:40:57,239 --> 00:41:01,199
+maneira mais Geral de trabalho em
+
+1045
+00:40:58,920 --> 00:41:03,809
+pesquisa na Noruega você nessa nunca
+
+1046
+00:41:01,199 --> 00:41:05,429
+tinha já faz uma década né fora do
+
+1047
+00:41:03,809 --> 00:41:07,769
+Brasil embora você tenha feito o seu
+
+1048
+00:41:05,429 --> 00:41:09,719
+treinamento né graduação mestrado e
+
+1049
+00:41:07,769 --> 00:41:12,119
+doutorado né embora do trade sanduíche
+
+1050
+00:41:09,719 --> 00:41:13,819
+nos Estados Unidos e foi bastante no
+
+1051
+00:41:12,119 --> 00:41:16,710
+Brasil né então como é que você
+
+1052
+00:41:13,820 --> 00:41:19,619
+caracteriza né o mercado de trabalho na
+
+1053
+00:41:16,710 --> 00:41:22,500
+Noruega na área de software é vocês tem
+
+1054
+00:41:19,619 --> 00:41:24,809
+percebido com o aumento no número de
+
+1055
+00:41:22,500 --> 00:41:27,719
+vagas têm empresas chiclete estão
+
+1056
+00:41:24,809 --> 00:41:30,179
+conquistando seu terreno estar tapete
+
+1057
+00:41:27,719 --> 00:41:34,169
+por aí como é que você vê o mercado de
+
+1058
+00:41:30,179 --> 00:41:36,449
+salsicha na Noruega Então pega é meio
+
+1059
+00:41:34,170 --> 00:41:39,250
+que engraçado porque eles eram o primo
+
+1060
+00:41:36,449 --> 00:41:42,159
+pobre da sua receita até os anos 60
+
+1061
+00:41:39,250 --> 00:41:44,800
+e até que descobriram o território nas
+
+1062
+00:41:42,159 --> 00:41:47,079
+águas profundas Então esse petróleo é o
+
+1063
+00:41:44,800 --> 00:41:49,630
+que gerou toda essa riqueza que a
+
+1064
+00:41:47,079 --> 00:41:52,480
+Noruega tem né só que ele sabe em que o
+
+1065
+00:41:49,630 --> 00:41:54,670
+petróleo não é um recurso para sempre
+
+1066
+00:41:52,480 --> 00:41:56,650
+então eles com eles pensam bastante em
+
+1067
+00:41:54,670 --> 00:41:58,389
+tipo tá quando a gente não tiver mais o
+
+1068
+00:41:56,650 --> 00:42:00,190
+óleo porque a gente vai perto né então
+
+1069
+00:41:58,389 --> 00:42:02,109
+uma vez que a Noruega não tem os
+
+1070
+00:42:00,190 --> 00:42:03,940
+recursos naturais em termos de o que
+
+1071
+00:42:02,110 --> 00:42:05,740
+mais que eles podem estourar né tem a
+
+1072
+00:42:03,940 --> 00:42:09,579
+energia que eles estão bastante forte
+
+1073
+00:42:05,739 --> 00:42:11,079
+nisso também e eles estão todos os as os
+
+1074
+00:42:09,579 --> 00:42:13,719
+recursos que eles falam explorar em
+
+1075
+00:42:11,079 --> 00:42:15,969
+termos de energia e petróleo aí daí tem
+
+1076
+00:42:13,719 --> 00:42:18,789
+a parte de física cultura daí tem
+
+1077
+00:42:15,969 --> 00:42:21,549
+serviço então a essa parte de serviços é
+
+1078
+00:42:18,789 --> 00:42:23,500
+onde a gente ir para né com a parte
+
+1079
+00:42:21,550 --> 00:42:24,820
+também toda a parte de tecnologia toda a
+
+1080
+00:42:23,500 --> 00:42:26,440
+parte de soft Porque a partir do
+
+1081
+00:42:24,820 --> 00:42:27,550
+desenvolvimento de tecnologia também
+
+1082
+00:42:26,440 --> 00:42:30,070
+isso é uma coisa que tem crescido
+
+1083
+00:42:27,550 --> 00:42:32,830
+bastante o governo da Noruega Eles são
+
+1084
+00:42:30,070 --> 00:42:35,590
+muito bons e investir em investir na
+
+1085
+00:42:32,829 --> 00:42:38,049
+capacitação investir na pesquisa de toda
+
+1086
+00:42:35,590 --> 00:42:39,260
+essa parte de tecnologia e acho que por
+
+1087
+00:42:38,050 --> 00:42:41,210
+isso também que eu sinto é fiel
+
+1088
+00:42:39,260 --> 00:42:43,730
+e são né tecnologia para uma sociedade
+
+1089
+00:42:41,210 --> 00:42:46,610
+melhor e assim os serviços públicos são
+
+1090
+00:42:43,730 --> 00:42:49,159
+todos automatizados tudo aqui funciona
+
+1091
+00:42:46,610 --> 00:42:51,019
+com o clipe é muito impressionante que
+
+1092
+00:42:49,159 --> 00:42:53,299
+tipo você compra uma casa mandando um
+
+1093
+00:42:51,019 --> 00:42:55,099
+e-mail para o cara do banco falando olha
+
+1094
+00:42:53,300 --> 00:42:56,660
+se você vai aprovar o meu crédito sim
+
+1095
+00:42:55,099 --> 00:42:59,569
+então tá bom então vou falar para outra
+
+1096
+00:42:56,659 --> 00:43:01,489
+pessoa que tudo bem Tá pode falar aí
+
+1097
+00:42:59,570 --> 00:43:03,769
+você fala dá o nome da pessoa e o seu
+
+1098
+00:43:01,489 --> 00:43:06,109
+apartamento tá comprado em outro dia tá
+
+1099
+00:43:03,769 --> 00:43:08,599
+tudo transferido tá tudo transferido
+
+1100
+00:43:06,110 --> 00:43:10,280
+para outro nome e você vai no médico aí
+
+1101
+00:43:08,599 --> 00:43:11,960
+ele dava para você uma receita ele ele
+
+1102
+00:43:10,280 --> 00:43:13,910
+não te dá nada Ele só falou assim olha
+
+1103
+00:43:11,960 --> 00:43:16,670
+pode ir lá na farmácia aí você vai na
+
+1104
+00:43:13,909 --> 00:43:18,829
+farmácia Ele já sabe se você já usou o
+
+1105
+00:43:16,670 --> 00:43:20,690
+seu limite do daquele ano ou se você não
+
+1106
+00:43:18,829 --> 00:43:22,279
+usou se você precisa pagar daquele ano
+
+1107
+00:43:20,690 --> 00:43:24,889
+se você não precisa pagar daquele ano
+
+1108
+00:43:22,280 --> 00:43:26,690
+então assim é tudo mesmo automatizados
+
+1109
+00:43:24,889 --> 00:43:28,519
+esse uma coisas que a Noruega realmente
+
+1110
+00:43:26,690 --> 00:43:30,920
+investe bastante então as empresas de
+
+1111
+00:43:28,519 --> 00:43:32,869
+sorte subvalorizados ninguém quer fazer
+
+1112
+00:43:30,920 --> 00:43:35,119
+mestrado doutorado em orelhas não quer
+
+1113
+00:43:32,869 --> 00:43:37,279
+fazer mestrado doutorado faz mais pra
+
+1114
+00:43:35,119 --> 00:43:38,809
+cima Estadão o básico né aqui você não
+
+1115
+00:43:37,280 --> 00:43:39,240
+sabe a universidade tem mais fácil mas
+
+1116
+00:43:38,809 --> 00:43:41,789
+doutor
+
+1117
+00:43:39,239 --> 00:43:44,399
+uma coisa que a gente tem muito problema
+
+1118
+00:43:41,789 --> 00:43:46,829
+de conseguir alguém norueguês para fazer
+
+1119
+00:43:44,400 --> 00:43:48,900
+do Prado porque ninguém quer ele já sai
+
+1120
+00:43:46,829 --> 00:43:51,119
+para o mercado com o salário de um
+
+1121
+00:43:48,900 --> 00:43:54,809
+professor ele termina Universidade antes
+
+1122
+00:43:51,119 --> 00:43:56,400
+na interior antes do último ano ele já
+
+1123
+00:43:54,809 --> 00:43:58,289
+tem o emprego certo já sabe onde é que
+
+1124
+00:43:56,400 --> 00:44:00,720
+eles vão trabalhar e o salário é maior
+
+1125
+00:43:58,289 --> 00:44:04,349
+do que o professor não tem porque eles
+
+1126
+00:44:00,719 --> 00:44:06,868
+irem ainda investir em 5 anos 6 anos na
+
+1127
+00:44:04,349 --> 00:44:08,429
+carreira acadêmica é muito difícil da
+
+1128
+00:44:06,869 --> 00:44:10,230
+gente conseguir isso é uma coisa que a
+
+1129
+00:44:08,429 --> 00:44:13,139
+gente tem que tal mudar um pouco essa
+
+1130
+00:44:10,230 --> 00:44:14,849
+coisa de da atividade né do mercado
+
+1131
+00:44:13,139 --> 00:44:19,109
+acadêmico também porque a gente tá tem
+
+1132
+00:44:14,849 --> 00:44:21,089
+importantes e pesquisa do que o aluno de
+
+1133
+00:44:19,110 --> 00:44:22,680
+graduação ele sai ele já entrou no
+
+1134
+00:44:21,090 --> 00:44:25,590
+mercado com salário de um professor
+
+1135
+00:44:22,679 --> 00:44:27,839
+associado é isso então assim o nosso
+
+1136
+00:44:25,590 --> 00:44:30,600
+salário salários de professores Como são
+
+1137
+00:44:27,840 --> 00:44:33,329
+os melhores números e o celular da
+
+1138
+00:44:30,599 --> 00:44:35,519
+interior ele geralmente ainda é tipo a
+
+1139
+00:44:33,329 --> 00:44:38,730
+não ser dez vinte por cento a menos do
+
+1140
+00:44:35,519 --> 00:44:39,250
+que o salário dos não tá então ele é
+
+1141
+00:44:38,730 --> 00:44:42,550
+muito
+
+1142
+00:44:39,250 --> 00:44:45,250
+E aí gente para vida tá o mercado da
+
+1143
+00:44:42,550 --> 00:44:47,320
+caderno então acaba sendo mais mesmo
+
+1144
+00:44:45,250 --> 00:44:49,869
+pessoal internacional que vem faz
+
+1145
+00:44:47,320 --> 00:44:51,880
+mercado dá para fazer o trabalho mas aí
+
+1146
+00:44:49,869 --> 00:44:54,789
+então a gente entra numa outra questão
+
+1147
+00:44:51,880 --> 00:44:56,710
+que assim eu não sei até que ponto é um
+
+1148
+00:44:54,789 --> 00:44:58,360
+fenômeno novo não sei se existem estudos
+
+1149
+00:44:56,710 --> 00:45:00,760
+mas é muito desenvolvedor brasileiro
+
+1150
+00:44:58,360 --> 00:45:04,059
+indo trabalhar fora né Porque você
+
+1151
+00:45:00,760 --> 00:45:07,810
+observa isso acontecendo na Noruega se
+
+1152
+00:45:04,059 --> 00:45:09,969
+acontece que é fácil é difícil emigrar E
+
+1153
+00:45:07,809 --> 00:45:12,789
+aí eu nesse contexto de desenvolvedores
+
+1154
+00:45:09,969 --> 00:45:15,459
+tem bastante vaga de Lopes Que métodos
+
+1155
+00:45:12,789 --> 00:45:17,619
+ágeis nas empresas portuguesas então
+
+1156
+00:45:15,460 --> 00:45:20,230
+como eu falei aqueles não fala até a tem
+
+1157
+00:45:17,619 --> 00:45:22,150
+pagas e de volta ele falando em vaga de
+
+1158
+00:45:20,230 --> 00:45:23,860
+desenvolvedor esse desenvolvedores vai
+
+1159
+00:45:22,150 --> 00:45:26,710
+trabalhar numa empresa que provavelmente
+
+1160
+00:45:23,860 --> 00:45:29,320
+viciado porque quase nenhuma empresa
+
+1161
+00:45:26,710 --> 00:45:31,150
+Noruega todas as eu conheço elas só tem
+
+1162
+00:45:29,320 --> 00:45:33,519
+desenvolvimento lado então assim o foco
+
+1163
+00:45:31,150 --> 00:45:36,190
+é mais no tipo de linguagem que você
+
+1164
+00:45:33,519 --> 00:45:37,929
+sabe então assim mas se você não tiver
+
+1165
+00:45:36,190 --> 00:45:39,260
+começado você não consegue um emprego na
+
+1166
+00:45:37,929 --> 00:45:40,969
+Noruega então
+
+1167
+00:45:39,260 --> 00:45:43,310
+Seja bem vindo de fora você tem que ter
+
+1168
+00:45:40,969 --> 00:45:45,439
+no mínimo mestrado e assim até vagas
+
+1169
+00:45:43,309 --> 00:45:47,239
+para doutorado se você quiser trabalhar
+
+1170
+00:45:45,440 --> 00:45:49,369
+em empresa no seu trabalho e como eu
+
+1171
+00:45:47,239 --> 00:45:51,379
+disse eles deles eles tem muito valor
+
+1172
+00:45:49,369 --> 00:45:53,929
+sobre essa questão de você tem um
+
+1173
+00:45:51,380 --> 00:45:55,450
+doutorado né então isso é muito
+
+1174
+00:45:53,929 --> 00:45:57,469
+importante para eles também então
+
+1175
+00:45:55,449 --> 00:45:59,210
+Independente de você ter um mestrado ou
+
+1176
+00:45:57,469 --> 00:46:00,980
+doutorado você consegue um emprego na
+
+1177
+00:45:59,210 --> 00:46:02,659
+Noruega eu acho que tem bastante vaga
+
+1178
+00:46:00,980 --> 00:46:04,579
+Até porque assim que nem eu falei
+
+1179
+00:46:02,659 --> 00:46:06,710
+pessoal terminou a universidade no
+
+1180
+00:46:04,579 --> 00:46:09,019
+interior que a impediu a melhor
+
+1181
+00:46:06,710 --> 00:46:10,970
+universidade de Tecnologia da Noruega e
+
+1182
+00:46:09,019 --> 00:46:12,650
+depois pelo menos na parte de computação
+
+1183
+00:46:10,969 --> 00:46:14,539
+e depois você tiver a Universidade de
+
+1184
+00:46:12,650 --> 00:46:16,519
+ossos então eles preferem pessoal que
+
+1185
+00:46:14,539 --> 00:46:17,809
+sai daí entende o e depois eles vão
+
+1186
+00:46:16,519 --> 00:46:20,989
+pegar o pessoal da Universidade de Oslo
+
+1187
+00:46:17,809 --> 00:46:22,340
+eu pessoal dar entende Il um ano antes
+
+1188
+00:46:20,989 --> 00:46:24,169
+todos eles já sabe onde que eles vão
+
+1189
+00:46:22,340 --> 00:46:26,390
+trabalhar já tem emprego garantido ela
+
+1190
+00:46:24,170 --> 00:46:28,190
+fazem todas as férias todas as empresas
+
+1191
+00:46:26,389 --> 00:46:29,839
+vêm para não ter nenhum para fazer o
+
+1192
+00:46:28,190 --> 00:46:32,329
+recrutamento dos alunos então
+
+1193
+00:46:29,840 --> 00:46:34,220
+recrutamento arrumando antes sim aí
+
+1194
+00:46:32,329 --> 00:46:36,590
+então falta a gente ainda no mercado
+
+1195
+00:46:34,219 --> 00:46:39,049
+então sempre tem vaca se não sai se tal
+
+1196
+00:46:36,590 --> 00:46:39,240
+eu posso passar na descrição o site onde
+
+1197
+00:46:39,050 --> 00:46:41,190
+o
+
+1198
+00:46:39,239 --> 00:46:43,169
+é pura e você não precisa de totalmente
+
+1199
+00:46:41,190 --> 00:46:45,240
+falar norueguês para que depois do tempo
+
+1200
+00:46:43,170 --> 00:46:47,369
+é bom falar norueguês mais inglês é a
+
+1201
+00:46:45,239 --> 00:46:49,589
+linguagem que eles usam Mas eles fazem
+
+1202
+00:46:47,369 --> 00:46:52,170
+um salto sócios também então tem muitas
+
+1203
+00:46:49,590 --> 00:46:55,340
+agora meio que voltando um pouco com
+
+1204
+00:46:52,170 --> 00:46:58,409
+essa coisa de mim só sim de novo né mas
+
+1205
+00:46:55,340 --> 00:47:00,539
+nós passou uma fase desses últimos dez
+
+1206
+00:46:58,409 --> 00:47:04,529
+anos que eles estavam bastante indo para
+
+1207
+00:47:00,539 --> 00:47:06,719
+fora tipo Polônia Polônia é uma dos
+
+1208
+00:47:04,530 --> 00:47:09,030
+favoritos dos países favoreciam a
+
+1209
+00:47:06,719 --> 00:47:12,118
+Noruega usa mais se usa também o cana
+
+1210
+00:47:09,030 --> 00:47:14,670
+usa Romana eu arrumei né usa mais esses
+
+1211
+00:47:12,119 --> 00:47:16,650
+são os mais que eles usam mais no início
+
+1212
+00:47:14,670 --> 00:47:18,720
+quando tiver tinha mais essa parte de
+
+1213
+00:47:16,650 --> 00:47:21,329
+desenvolvimento Global eles usaram a
+
+1214
+00:47:18,719 --> 00:47:24,118
+Índia mas teve muito caso de não sucesso
+
+1215
+00:47:21,329 --> 00:47:27,119
+do ensaio e daí eles começaram a esses
+
+1216
+00:47:24,119 --> 00:47:30,119
+países mais perto e agora na verdade tem
+
+1217
+00:47:27,119 --> 00:47:34,230
+um pouco de movimento de tentar voltar
+
+1218
+00:47:30,119 --> 00:47:36,780
+até o desenvolvimento na casa mesmo aqui
+
+1219
+00:47:34,230 --> 00:47:39,000
+mas dito como pessoas daqui com pessoas
+
+1220
+00:47:36,780 --> 00:47:39,250
+estão trabalhando aqui e com os times
+
+1221
+00:47:39,000 --> 00:47:41,559
+locais
+
+1222
+00:47:39,250 --> 00:47:43,289
+o que você falou que você está sempre
+
+1223
+00:47:41,559 --> 00:47:45,579
+nas empresas você tem observado
+
+1224
+00:47:43,289 --> 00:47:49,300
+desenvolvedores brasileiros nessas
+
+1225
+00:47:45,579 --> 00:47:51,969
+empresas é mas é porque também aqui
+
+1226
+00:47:49,300 --> 00:47:54,640
+então raio os meus amigos são todos de
+
+1227
+00:47:51,969 --> 00:47:56,259
+computação né então assim Os brasileiros
+
+1228
+00:47:54,639 --> 00:47:58,059
+são os brasileiros que eu conheço eu
+
+1229
+00:47:56,260 --> 00:47:59,830
+conheço pelo acaba que você tem aquela
+
+1230
+00:47:58,059 --> 00:48:01,150
+sensação de queimação de brasileiros mas
+
+1231
+00:47:59,829 --> 00:48:04,239
+eu acho que não que não é que a Noruega
+
+1232
+00:48:01,150 --> 00:48:08,440
+tem uma um perfil muito de importação de
+
+1233
+00:48:04,239 --> 00:48:09,969
+pessoas é um país frio também então eu
+
+1234
+00:48:08,440 --> 00:48:12,039
+sei que não é que as pessoas do Brasil
+
+1235
+00:48:09,969 --> 00:48:13,959
+querem trabalhar aqui o tempo todo mas
+
+1236
+00:48:12,039 --> 00:48:15,670
+eu acho que quem quer vir trabalhar não
+
+1237
+00:48:13,960 --> 00:48:18,280
+é tão difícil de conseguir se você for
+
+1238
+00:48:15,670 --> 00:48:20,200
+Tecnicamente bom e ver um mestrado em
+
+1239
+00:48:18,280 --> 00:48:22,660
+inglês Bom eu acho que não é muito
+
+1240
+00:48:20,199 --> 00:48:24,699
+difícil de conseguir emprego não é assim
+
+1241
+00:48:22,659 --> 00:48:26,440
+só para você ter ideia o Brasil é o país
+
+1242
+00:48:24,699 --> 00:48:28,689
+da América do Sul que tem menos
+
+1243
+00:48:26,440 --> 00:48:31,119
+Emigrantes naturais então em número
+
+1244
+00:48:28,690 --> 00:48:34,840
+absoluto nem o número então não é assim
+
+1245
+00:48:31,119 --> 00:48:38,589
+que tipo tem 30 acho que não tem 10 mil
+
+1246
+00:48:34,840 --> 00:48:39,260
+brasileiros morando na Noruega é que
+
+1247
+00:48:38,590 --> 00:48:43,220
+você sabe dizer
+
+1248
+00:48:39,260 --> 00:48:45,740
+há muitos anos atrás então é fácil é
+
+1249
+00:48:43,219 --> 00:48:47,449
+isso que eu falei é fácil Se você acha
+
+1250
+00:48:45,739 --> 00:48:50,149
+que se você tiver a capacitação se você
+
+1251
+00:48:47,449 --> 00:48:53,029
+tiver fazendo começado em computação e
+
+1252
+00:48:50,150 --> 00:48:55,280
+um bom em inglês eu acho que é fácil eu
+
+1253
+00:48:53,030 --> 00:48:57,440
+faça sua pergunta pensando por causa dos
+
+1254
+00:48:55,280 --> 00:48:59,300
+Estados Unidos é extremamente difícil
+
+1255
+00:48:57,440 --> 00:49:01,250
+mesmo se você é capacitado né você tem
+
+1256
+00:48:59,300 --> 00:49:04,190
+que ter muitas vezes e passar por uma
+
+1257
+00:49:01,250 --> 00:49:06,380
+loteria né então é aquela que se você
+
+1258
+00:49:04,190 --> 00:49:09,079
+tiver um emprego aí você fica aí quando
+
+1259
+00:49:06,380 --> 00:49:11,990
+eu vim eu peguei eu conseguir um pós-doc
+
+1260
+00:49:09,079 --> 00:49:14,150
+na ele tem New e daí Alguém tem visto eu
+
+1261
+00:49:11,989 --> 00:49:16,129
+comecei a trabalhar e fogo assim dois
+
+1262
+00:49:14,150 --> 00:49:17,570
+dias que eu falei aqui para tudo muito
+
+1263
+00:49:16,130 --> 00:49:19,070
+automatizado então diferente aí já
+
+1264
+00:49:17,570 --> 00:49:20,690
+passou sem próprio aqui dentro não faz
+
+1265
+00:49:19,070 --> 00:49:22,430
+nada de errado também então assim ele
+
+1266
+00:49:20,690 --> 00:49:24,019
+sabe o que você entrou já sabe você tá
+
+1267
+00:49:22,429 --> 00:49:25,489
+aqui dentro já faz quantos dias você tá
+
+1268
+00:49:24,019 --> 00:49:28,070
+e você tem dois dias para ir na polícia
+
+1269
+00:49:25,489 --> 00:49:31,250
+e entrar que só processo do Lixo então
+
+1270
+00:49:28,070 --> 00:49:33,289
+eu em 2 dias entrei em 5 dias eu tinha
+
+1271
+00:49:31,250 --> 00:49:36,079
+visto e daí o processo vai muito
+
+1272
+00:49:33,289 --> 00:49:37,730
+tranquilo assim sabe como uma pessoa que
+
+1273
+00:49:36,079 --> 00:49:39,239
+você trabalha aqui depois de sete anos
+
+1274
+00:49:37,730 --> 00:49:41,309
+você pode pedir a cidadania
+
+1275
+00:49:39,239 --> 00:49:43,859
+e permanente você consegue depois de
+
+1276
+00:49:41,309 --> 00:49:45,630
+quatro anos e é todo um processo muito
+
+1277
+00:49:43,860 --> 00:49:47,010
+tranquilo você vai lá na polícia entrar
+
+1278
+00:49:45,630 --> 00:49:50,010
+com seus papéis você tem que aprender
+
+1279
+00:49:47,010 --> 00:49:52,080
+não liguei tem que nesse processo né dos
+
+1280
+00:49:50,010 --> 00:49:53,040
+quatro anos até os dez anos até os sete
+
+1281
+00:49:52,079 --> 00:49:55,440
+anos você tem que aprender norueguês
+
+1282
+00:49:53,039 --> 00:49:58,759
+mostrar capacitação e mantém o emprego
+
+1283
+00:49:55,440 --> 00:50:01,860
+então é meio que isso aí não tem muito
+
+1284
+00:49:58,760 --> 00:50:03,540
+drama assim que nem anos nos Estados
+
+1285
+00:50:01,860 --> 00:50:07,530
+Unidos não se você tem que ter advogados
+
+1286
+00:50:03,539 --> 00:50:10,559
+você tem escola empresa te dar o visto
+
+1287
+00:50:07,530 --> 00:50:13,230
+H1 né demora muito aí também é muito
+
+1288
+00:50:10,559 --> 00:50:15,539
+Custoso para empresa aqui não ele chamou
+
+1289
+00:50:13,230 --> 00:50:17,429
+de skilled worker é um tipo de visto
+
+1290
+00:50:15,539 --> 00:50:20,369
+diferente para você aplicar no Face tipo
+
+1291
+00:50:17,429 --> 00:50:21,899
+de visto a empresa te dando o contrato
+
+1292
+00:50:20,369 --> 00:50:23,789
+você já falei que eu tô vista e aí se
+
+1293
+00:50:21,900 --> 00:50:25,500
+você conseguir não tem mais precisa
+
+1294
+00:50:23,789 --> 00:50:27,269
+conseguir que a empresa queira de
+
+1295
+00:50:25,500 --> 00:50:30,869
+contatar a empresa que a gente contratar
+
+1296
+00:50:27,269 --> 00:50:34,949
+não tem sucesso a nível de movimentação
+
+1297
+00:50:30,869 --> 00:50:37,320
+de pesquisadores é vocês têm alunos
+
+1298
+00:50:34,949 --> 00:50:39,250
+mestrado e doutorado que fazem parte do
+
+1299
+00:50:37,320 --> 00:50:42,039
+trabalho no sintef ou
+
+1300
+00:50:39,250 --> 00:50:44,469
+é só lixo de outras instituições de
+
+1301
+00:50:42,039 --> 00:50:47,889
+outros países visitam sinteve para fazer
+
+1302
+00:50:44,469 --> 00:50:52,929
+parte de um tablet para tef Sis tem essa
+
+1303
+00:50:47,889 --> 00:50:54,730
+pintura na verdade assim porque não
+
+1304
+00:50:52,929 --> 00:50:56,769
+Sinta Essa é a gente trabalha muito vai
+
+1305
+00:50:54,730 --> 00:50:58,990
+dar um projeto então cada projeto a
+
+1306
+00:50:56,769 --> 00:51:00,639
+gente tem as horas daquele projeto
+
+1307
+00:50:58,989 --> 00:51:02,469
+aquelas horas a gente tem que usar muito
+
+1308
+00:51:00,639 --> 00:51:04,480
+foi usado por quê essas horas são são
+
+1309
+00:51:02,469 --> 00:51:07,119
+músicos famosos o projeto Então a gente
+
+1310
+00:51:04,480 --> 00:51:09,010
+tem que ser bem focado mesmo me fazer a
+
+1311
+00:51:07,119 --> 00:51:10,420
+pesquisa que a gente fica coisa fazer
+
+1312
+00:51:09,010 --> 00:51:12,490
+entendeu então a gente tem que ter os
+
+1313
+00:51:10,420 --> 00:51:13,900
+resultados é muito focado em resultado
+
+1314
+00:51:12,489 --> 00:51:16,269
+muito focado no que a gente fique
+
+1315
+00:51:13,900 --> 00:51:18,789
+proposto no projeto e disse que a gente
+
+1316
+00:51:16,269 --> 00:51:21,099
+iria fazer ter como resultado daquele
+
+1317
+00:51:18,789 --> 00:51:23,230
+projeto então no final das contas por
+
+1318
+00:51:21,099 --> 00:51:25,809
+causa desses modelos é muito difícil
+
+1319
+00:51:23,230 --> 00:51:29,079
+para gente também administrar toda essa
+
+1320
+00:51:25,809 --> 00:51:31,329
+parte de receber pessoas de ter aluno de
+
+1321
+00:51:29,079 --> 00:51:33,369
+ter outras coisas sabe a gente tenta por
+
+1322
+00:51:31,329 --> 00:51:35,590
+exemplo da aula no aniversário de quando
+
+1323
+00:51:33,369 --> 00:51:38,139
+a gente é convidado do várias aulas
+
+1324
+00:51:35,590 --> 00:51:39,260
+durante o ano quando eles me chamam para
+
+1325
+00:51:38,139 --> 00:51:41,659
+tratar uma
+
+1326
+00:51:39,260 --> 00:51:43,790
+a carta assunto alguma coisa assim a
+
+1327
+00:51:41,659 --> 00:51:45,469
+gente tem as vezes aluno de Mestrado da
+
+1328
+00:51:43,789 --> 00:51:47,539
+entende o que também a gente pega aqui
+
+1329
+00:51:45,469 --> 00:51:50,000
+relacionado com o projeto mas tem que
+
+1330
+00:51:47,539 --> 00:51:51,619
+ser sempre bem relacionado com ser de
+
+1331
+00:51:50,000 --> 00:51:53,630
+projetos que a gente tá se a gente não
+
+1332
+00:51:51,619 --> 00:51:55,519
+consegue encaixar com aquele projeto que
+
+1333
+00:51:53,630 --> 00:51:57,140
+a gente trabalhando é muito difícil da
+
+1334
+00:51:55,519 --> 00:51:58,610
+gente receber alguém então às vezes a
+
+1335
+00:51:57,139 --> 00:52:00,739
+gente que acha que a gente é meio
+
+1336
+00:51:58,610 --> 00:52:02,450
+fechado mas é mais por causa do trabalho
+
+1337
+00:52:00,739 --> 00:52:05,059
+que a gente tem que fazer e aí eu
+
+1338
+00:52:02,449 --> 00:52:08,299
+comecei com esse projeto dessa já eu
+
+1339
+00:52:05,059 --> 00:52:10,309
+criar um uma foi o primeiro pós-doc teve
+
+1340
+00:52:08,300 --> 00:52:12,590
+dentro do nosso projeto do nosso
+
+1341
+00:52:10,309 --> 00:52:14,690
+departamento e daí eu comecei a criar
+
+1342
+00:52:12,590 --> 00:52:16,700
+essa cultura de trazer pelo menos para o
+
+1343
+00:52:14,690 --> 00:52:19,159
+fox né para trabalhar com a gente dentro
+
+1344
+00:52:16,699 --> 00:52:21,139
+do projeto mas não é uma coisa uma
+
+1345
+00:52:19,159 --> 00:52:23,719
+prática que acontece muito não começou
+
+1346
+00:52:21,139 --> 00:52:26,420
+comigo e aí eu trouxe dois para os
+
+1347
+00:52:23,719 --> 00:52:29,439
+óculos mas eu não tenho mais nenhuma
+
+1348
+00:52:26,420 --> 00:52:29,440
+foto sua linda para mim
+
+1349
+00:52:34,369 --> 00:52:44,000
+a imagem da o cabelo com o final né daí
+
+1350
+00:52:42,530 --> 00:52:47,420
+acho que um papo muito legal que a gente
+
+1351
+00:52:44,000 --> 00:52:49,250
+teve aqui hoje e um pouco já no final a
+
+1352
+00:52:47,420 --> 00:52:51,289
+gente pergunta o nosso entrevistado que
+
+1353
+00:52:49,250 --> 00:52:54,260
+você tem alguma recomendação para tentar
+
+1354
+00:52:51,289 --> 00:52:58,309
+ouvindo esse podcast e já em termos de
+
+1355
+00:52:54,260 --> 00:53:02,360
+Rio nos artigos o outro podcast e também
+
+1356
+00:52:58,309 --> 00:53:05,029
+possa ajudar a construir aí o caminho
+
+1357
+00:53:02,360 --> 00:53:07,849
+para de box para segurança em time este
+
+1358
+00:53:05,030 --> 00:53:09,980
+software é se você tiver a indicação
+
+1359
+00:53:07,849 --> 00:53:12,980
+daquele vidro e a besteira e a leitura
+
+1360
+00:53:09,980 --> 00:53:15,170
+obrigatória ou aquele seu artigo que se
+
+1361
+00:53:12,980 --> 00:53:18,019
+a pessoa não ler aquele seu artigo ela
+
+1362
+00:53:15,170 --> 00:53:20,930
+está fora dos últimos avanços em
+
+1363
+00:53:18,019 --> 00:53:23,780
+segurança em sol Fernando Fique à
+
+1364
+00:53:20,929 --> 00:53:25,899
+vontade para fazer suas sugestões eu
+
+1365
+00:53:23,780 --> 00:53:28,670
+tava pensando sobre isso mas é difícil
+
+1366
+00:53:25,900 --> 00:53:31,130
+claro que eu vou dizer que dá uma olhada
+
+1367
+00:53:28,670 --> 00:53:32,539
+a gente tem publicado claro que nem
+
+1368
+00:53:31,130 --> 00:53:34,349
+sempre a gente pública tudo que a gente
+
+1369
+00:53:32,539 --> 00:53:37,469
+na
+
+1370
+00:53:34,349 --> 00:53:38,969
+e faça tentação mais inscreva artigo que
+
+1371
+00:53:37,469 --> 00:53:41,039
+Deus tem também bastante apresentação
+
+1372
+00:53:38,969 --> 00:53:43,199
+minha sobre o peça desenvolvimento de
+
+1373
+00:53:41,039 --> 00:53:45,090
+sócios seguro Tem várias coisas que já
+
+1374
+00:53:43,199 --> 00:53:46,889
+tá online já no YouTube e tal que a
+
+1375
+00:53:45,090 --> 00:53:49,320
+gente já fez pensar sobre isso sobre de
+
+1376
+00:53:46,889 --> 00:53:51,089
+voxê esse artigo que eu já mencionei que
+
+1377
+00:53:49,320 --> 00:53:53,550
+na verdade se você quiser entender um
+
+1378
+00:53:51,090 --> 00:53:55,890
+pouco o que que significa ser op sou que
+
+1379
+00:53:53,550 --> 00:53:58,260
+as pessoas têm falado sobre da vovó fiz
+
+1380
+00:53:55,889 --> 00:54:00,329
+eu gosto muito desse artigo do Breno que
+
+1381
+00:53:58,260 --> 00:54:01,380
+é uma revisão sistemática eu sempre
+
+1382
+00:54:00,329 --> 00:54:04,380
+volto para ele minhas apresentações
+
+1383
+00:54:01,380 --> 00:54:06,360
+sobre a volta sempre em a figura que
+
+1384
+00:54:04,380 --> 00:54:09,480
+eles têm lá e chama carácter assim de
+
+1385
+00:54:06,360 --> 00:54:11,370
+volta bairro eremo tipo Voice do Breno é
+
+1386
+00:54:09,480 --> 00:54:13,920
+ovo e do Guilherme ele tem um artigo
+
+1387
+00:54:11,369 --> 00:54:15,929
+para mim quando eu lembro de pensar de
+
+1388
+00:54:13,920 --> 00:54:18,750
+novo da definição de volta sempre vou de
+
+1389
+00:54:15,929 --> 00:54:20,940
+novo da Katy Apesar de que eu ligo de
+
+1390
+00:54:18,750 --> 00:54:23,280
+volta senha de Facebook eu acho que foi
+
+1391
+00:54:20,940 --> 00:54:25,950
+muito bom também das fotos com bolsa bem
+
+1392
+00:54:23,280 --> 00:54:27,930
+ruim nisso então não é tão fraco como
+
+1393
+00:54:25,949 --> 00:54:29,489
+você diz assim aí eu vou pegar o livro
+
+1394
+00:54:27,929 --> 00:54:31,440
+ler e amanhã eu vou começar a dar Box
+
+1395
+00:54:29,489 --> 00:54:33,299
+sabe você consegue você consegue
+
+1396
+00:54:31,440 --> 00:54:34,360
+perceber bastante coisas mas você tem
+
+1397
+00:54:33,300 --> 00:54:38,380
+que ter bastante
+
+1398
+00:54:34,360 --> 00:54:41,530
+a experiência com todas as coisas de
+
+1399
+00:54:38,380 --> 00:54:44,110
+processo de a jahia de linho ter que
+
+1400
+00:54:41,530 --> 00:54:45,850
+fofo muito vários tipos de coisas para
+
+1401
+00:54:44,110 --> 00:54:48,460
+perceber Quais são as diferenças que
+
+1402
+00:54:45,849 --> 00:54:50,349
+esse livro tá fazendo Tá então o bar da
+
+1403
+00:54:48,460 --> 00:54:52,000
+Vó eu acho que foi uma uma leitura
+
+1404
+00:54:50,349 --> 00:54:53,980
+interessante também eu gosto bastante
+
+1405
+00:54:52,000 --> 00:54:57,099
+daquele tipo mas acho que o que veio à
+
+1406
+00:54:53,980 --> 00:54:58,900
+minha cabeça baseado na conversa mas e
+
+1407
+00:54:57,099 --> 00:55:01,029
+claro que tem outras pessoas também
+
+1408
+00:54:58,900 --> 00:55:03,400
+fazendo pesquisas nessas coisas de hajar
+
+1409
+00:55:01,030 --> 00:55:05,140
+eu e segurança mas eu vou fazer
+
+1410
+00:55:03,400 --> 00:55:07,869
+propaganda pelas coisas que a gente tem
+
+1411
+00:55:05,139 --> 00:55:10,000
+feito legal esse artigo do Breno
+
+1412
+00:55:07,869 --> 00:55:13,059
+Guilherme ensaio Até no simpósio
+
+1413
+00:55:10,000 --> 00:55:15,849
+brasileiro de engenharia de só né então
+
+1414
+00:55:13,059 --> 00:55:17,889
+artigo estados nacionais e um evento
+
+1415
+00:55:15,849 --> 00:55:22,480
+Nacional legal que vocês se sentiram
+
+1416
+00:55:17,889 --> 00:55:24,539
+bastante nesse trabalho é
+
+1417
+00:55:22,480 --> 00:55:24,539
+E aí
+
+1418
+00:55:27,320 --> 00:55:37,880
+a Edson cantar compor fazer com Daniella
+
+1419
+00:55:35,119 --> 00:55:40,400
+para concluir a gente faz sempre louça
+
+1420
+00:55:37,880 --> 00:55:43,940
+pergunta característica aqui do podcast
+
+1421
+00:55:40,400 --> 00:55:46,730
+para você qual é a próxima fronteira da
+
+1422
+00:55:43,940 --> 00:55:51,230
+engenharia de software então eu sei que
+
+1423
+00:55:46,730 --> 00:55:53,449
+parar fazer o minha voz né que eu até
+
+1424
+00:55:51,230 --> 00:55:57,409
+botei isso também nos artigos que a
+
+1425
+00:55:53,449 --> 00:56:00,739
+gente tem que é essa coisa da celebração
+
+1426
+00:55:57,409 --> 00:56:04,460
+né que na verdade não é com tudo eu acho
+
+1427
+00:56:00,739 --> 00:56:07,009
+que tá aqui que já tá aí mesmo E se ela
+
+1428
+00:56:04,460 --> 00:56:08,480
+quer vai vai continuar sendo procuramos
+
+1429
+00:56:07,010 --> 00:56:10,730
+onde é que a gente vai parar com essa
+
+1430
+00:56:08,480 --> 00:56:12,260
+coisa de acelerar mas eu acho que a
+
+1431
+00:56:10,730 --> 00:56:14,240
+aceleração é uma coisa que a gente tem
+
+1432
+00:56:12,260 --> 00:56:16,940
+focado bastante e eu vi muitas empresas
+
+1433
+00:56:14,239 --> 00:56:20,359
+têm visto no seu futuro essa coisa de de
+
+1434
+00:56:16,940 --> 00:56:22,460
+dados de uso mais de dados em vários em
+
+1435
+00:56:20,360 --> 00:56:24,590
+vários sentidos tanto para desativar o
+
+1436
+00:56:22,460 --> 00:56:26,690
+desenvolvimento em circo quanto para
+
+1437
+00:56:24,590 --> 00:56:27,329
+desenvolver sofre aqui usa mais usados
+
+1438
+00:56:26,690 --> 00:56:30,599
+que eles estão G
+
+1439
+00:56:27,329 --> 00:56:33,150
+Oi Hoje em dia as empresas são muito com
+
+1440
+00:56:30,599 --> 00:56:34,699
+muito foco nessa coisa de dados uma das
+
+1441
+00:56:33,150 --> 00:56:37,619
+coisas que tem mudado aqui na Noruega
+
+1442
+00:56:34,699 --> 00:56:39,960
+essas coisas do papel de um analista de
+
+1443
+00:56:37,619 --> 00:56:42,029
+dados dentro de casa de equipe dos
+
+1444
+00:56:39,960 --> 00:56:44,490
+movimentos agora eu posso não é mais
+
+1445
+00:56:42,030 --> 00:56:46,860
+segurança agora o Hype do momento é
+
+1446
+00:56:44,489 --> 00:56:49,379
+Martins Lane então todo mundo tem que
+
+1447
+00:56:46,860 --> 00:56:52,140
+ser um deixe assar em serviço não deitar
+
+1448
+00:56:49,380 --> 00:56:53,490
+lá na ali só alguma coisa tem e isso é
+
+1449
+00:56:52,139 --> 00:56:55,170
+uma das coisas também que as empresas
+
+1450
+00:56:53,489 --> 00:56:57,119
+ainda não entendi como é que eles vão
+
+1451
+00:56:55,170 --> 00:57:00,119
+fazer para utilizar todo esse processo
+
+1452
+00:56:57,119 --> 00:57:02,369
+de usar dados né com a maneira que vai
+
+1453
+00:57:00,119 --> 00:57:04,440
+ajudar o desenvolvimento e vai ajudar a
+
+1454
+00:57:02,369 --> 00:57:06,480
+empresa com os negócios também então tem
+
+1455
+00:57:04,440 --> 00:57:08,579
+vários tipos de objetivos ainda que eles
+
+1456
+00:57:06,480 --> 00:57:11,159
+tão querendo e a última coisa que ela me
+
+1457
+00:57:08,579 --> 00:57:13,049
+falou essa coisa do ecossistema né que
+
+1458
+00:57:11,159 --> 00:57:15,000
+eu chamo ele não gosta de isso que a
+
+1459
+00:57:13,050 --> 00:57:17,789
+gente eu preciso falar com ele Janeiro e
+
+1460
+00:57:15,000 --> 00:57:19,829
+aí ele dá no Guarapirão mas a gente
+
+1461
+00:57:17,789 --> 00:57:21,329
+discutiu bastante sobre isso que essa
+
+1462
+00:57:19,829 --> 00:57:23,099
+coisa do ecossistema ele chama de
+
+1463
+00:57:21,329 --> 00:57:25,679
+ecossistema aí eu chamo de coopertition
+
+1464
+00:57:23,099 --> 00:57:27,309
+que essa coisa de Tipo às vezes muitas
+
+1465
+00:57:25,679 --> 00:57:30,039
+as empresas cima do rack
+
+1466
+00:57:27,309 --> 00:57:33,670
+é isso que eles estão se juntando mais
+
+1467
+00:57:30,039 --> 00:57:35,920
+nesse ecossistema para saber para fazer
+
+1468
+00:57:33,670 --> 00:57:37,930
+negócios mas em algumas coisas ele sabe
+
+1469
+00:57:35,920 --> 00:57:39,340
+que eles não vão ganhar dinheiro então
+
+1470
+00:57:37,929 --> 00:57:41,949
+nessas coisas que ele sabe que eles não
+
+1471
+00:57:39,340 --> 00:57:45,070
+vão ganhar dinheiro por si só eles estão
+
+1472
+00:57:41,949 --> 00:57:47,739
+se juntando e colaborando E aí eles
+
+1473
+00:57:45,070 --> 00:57:50,710
+competem nas funcionalidades que cada um
+
+1474
+00:57:47,739 --> 00:57:53,079
+decide competir Entendi então assim os
+
+1475
+00:57:50,710 --> 00:57:54,849
+bancos estão fazendo muito isso muitos
+
+1476
+00:57:53,079 --> 00:57:57,130
+bancos para fazendo isso aqui na Noruega
+
+1477
+00:57:54,849 --> 00:57:58,480
+pelo menos e outras empresas também ali
+
+1478
+00:57:57,130 --> 00:58:00,730
+essa empresa que eu trabalhava com só
+
+1479
+00:57:58,480 --> 00:58:02,050
+feliz eles entregam sistemas de
+
+1480
+00:58:00,730 --> 00:58:05,409
+transporte inteligente seu inteligente
+
+1481
+00:58:02,050 --> 00:58:07,660
+as fotos e daí várias coisas ele já
+
+1482
+00:58:05,409 --> 00:58:08,319
+estão fazendo esse conglomerado né Eu
+
+1483
+00:58:07,659 --> 00:58:09,730
+não sei se a gente vai chamar
+
+1484
+00:58:08,320 --> 00:58:11,080
+conglomerado que a gente vai chamar
+
+1485
+00:58:09,730 --> 00:58:13,900
+competição a gente vai chamar
+
+1486
+00:58:11,079 --> 00:58:15,940
+ecossistemas Mas é uma coisa que eu
+
+1487
+00:58:13,900 --> 00:58:18,280
+tenho visto bastante no futuro mas que
+
+1488
+00:58:15,940 --> 00:58:20,650
+já está acontecendo bastante nas
+
+1489
+00:58:18,280 --> 00:58:22,870
+empresas grande prazer nela que você
+
+1490
+00:58:20,650 --> 00:58:27,320
+aqui com a gente no fronteiras e muito
+
+1491
+00:58:22,869 --> 00:58:29,509
+obrigado obrigado por quê
+
+1492
+00:58:27,320 --> 00:58:39,789
+eu Espero encontrar você e alguns e
+
+1493
+00:58:29,510 --> 00:58:39,790
+pessoal que mais para frente 1
+
+1494
+00:58:39,940 --> 00:58:57,070
+ó e aqui a gente encerra novos episódio
+
+1495
+00:58:54,909 --> 00:58:59,049
+se você gostou da conversa assim do
+
+1496
+00:58:57,070 --> 00:59:01,140
+nosso podcast no seu agregador Favorito
+
+1497
+00:58:59,050 --> 00:59:05,530
+Estamos nas principais plataformas
+
+1498
+00:59:01,139 --> 00:59:07,690
+siga-nos no Twitter@Fronteira CS e no
+
+1499
+00:59:05,530 --> 00:59:09,450
+YouTube Fronteiras da engenharia de
+
+1500
+00:59:07,690 --> 00:59:12,000
+software Fique à vontade para comentar
+
+1501
+00:59:09,449 --> 00:59:14,079
+retuitar e divulgar nosso podcast
+
+1502
+00:59:12,000 --> 00:59:16,389
+fronteiras de engenheiro de software um
+
+1503
+00:59:14,079 --> 00:59:19,299
+podcast feita em colaboração por Adolfo
+
+1504
+00:59:16,389 --> 00:59:21,699
+Neto UTFPR Curitiba Marcelo dos Santos e
+
+1505
+00:59:19,300 --> 00:59:23,860
+Fábio petrillo Universidade do Québec no
+
+1506
+00:59:21,699 --> 00:59:26,079
+Canadá Gustavo Pinto Universidade
+
+1507
+00:59:23,860 --> 00:59:28,120
+Federal do Pará Leonardo Fernandes
+
+1508
+00:59:26,079 --> 00:59:30,190
+Instituto Federal de Alagoas e Marco
+
+1509
+00:59:28,119 --> 00:59:35,359
+Túlio Valente Universidade Federal de
+
+1510
+00:59:30,190 --> 00:59:36,010
+Minas Gerais Um abraço pessoal o
+
+1511
+00:59:35,360 --> 00:59:41,519
+E aí
+
+1512
+00:59:36,010 --> 00:59:41,519
+[Música]
+
+1513
+00:59:42,989 --> 00:59:51,529
+eu ia ser podcast foi editado pela
+
+1514
+00:59:46,230 --> 00:59:51,530
+produtora Reis II

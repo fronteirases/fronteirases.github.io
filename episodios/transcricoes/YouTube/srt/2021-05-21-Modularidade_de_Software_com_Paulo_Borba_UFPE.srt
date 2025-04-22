@@ -1,0 +1,4323 @@
+1
+00:00:00,000 --> 00:00:19,699
+o pai sinto um WhatsApp eu coloco sempre
+
+2
+00:00:20,179 --> 00:00:26,129
+Olá o vídeo eu sou Adolfo Neto professor
+
+3
+00:00:23,640 --> 00:00:29,278
+da Universidade Tecnológica Federal do
+
+4
+00:00:26,129 --> 00:00:31,469
+Paraná e eu sou Gustavo Pinto Professor
+
+5
+00:00:29,278 --> 00:00:33,600
+aqui na Universidade Federal do Pará e
+
+6
+00:00:31,469 --> 00:00:36,000
+este éo Fronteiras da engenharia de
+
+7
+00:00:33,600 --> 00:00:38,070
+software um podcast feito para refletir
+
+8
+00:00:36,000 --> 00:00:40,230
+sobre o presente e futuro da engenharia
+
+9
+00:00:38,070 --> 00:00:43,079
+de software Fronteiras da engenharia de
+
+10
+00:00:40,229 --> 00:00:45,479
+software é um podcast divulgação
+
+11
+00:00:43,079 --> 00:00:47,489
+Científica e discutir mensalmente
+
+12
+00:00:45,479 --> 00:00:49,459
+diversificados temas da engenharia do
+
+13
+00:00:47,488 --> 00:00:52,349
+solo os episódios abordam questões
+
+14
+00:00:49,460 --> 00:00:55,740
+fundamentais Engenheiro software até os
+
+15
+00:00:52,350 --> 00:00:58,950
+mais recentes avanços na área de
+
+16
+00:00:55,740 --> 00:00:58,950
+[Música]
+
+17
+00:01:02,890 --> 00:01:06,349
+E aí
+
+18
+00:01:03,219 --> 00:01:06,349
+[Música]
+
+19
+00:01:08,390 --> 00:01:14,620
+E aí
+
+20
+00:01:08,819 --> 00:01:22,299
+[Música]
+
+21
+00:01:14,620 --> 00:01:24,430
+eu estou Esse é o décimo segundo
+
+22
+00:01:22,299 --> 00:01:27,189
+episódio o último dessa primeira
+
+23
+00:01:24,430 --> 00:01:29,290
+temporada do podcast e a gente encerra e
+
+24
+00:01:27,189 --> 00:01:31,840
+essa temporada conversando com o Paulo
+
+25
+00:01:29,290 --> 00:01:33,850
+Borba o Paulo fez doutorado em qual
+
+26
+00:01:31,840 --> 00:01:36,490
+sorte e eu já Professor titular do
+
+27
+00:01:33,849 --> 00:01:38,409
+centro de informática da UFPE o Paulo
+
+28
+00:01:36,489 --> 00:01:40,719
+investiga e desenvolve ferramentas e
+
+29
+00:01:38,409 --> 00:01:42,369
+técnicas para melhorar os níveis de
+
+30
+00:01:40,719 --> 00:01:44,530
+produtividade e qualidade no
+
+31
+00:01:42,370 --> 00:01:47,859
+desenvolvimento de software de maneira a
+
+32
+00:01:44,530 --> 00:01:49,719
+reduzir os esforços e substações Paulo
+
+33
+00:01:47,859 --> 00:01:52,629
+foi também um dos fundadores da empresa
+
+34
+00:01:49,719 --> 00:01:55,560
+Quality no porto digital neste Episódio
+
+35
+00:01:52,629 --> 00:02:07,689
+conversaremos com Paulo Borba sobre
+
+36
+00:01:55,560 --> 00:02:09,250
+modularidade de software tudo bem Paulo
+
+37
+00:02:07,689 --> 00:02:11,620
+você pode se apresentar para as pessoas
+
+38
+00:02:09,250 --> 00:02:13,300
+que nos escutam tudo bem Adolfo obrigado
+
+39
+00:02:11,620 --> 00:02:14,629
+pela oportunidade de estar aqui com
+
+40
+00:02:13,300 --> 00:02:17,300
+vocês
+
+41
+00:02:14,629 --> 00:02:19,819
+o trabalho que vocês têm feito é eu sou
+
+42
+00:02:17,300 --> 00:02:22,360
+professor no centro de informática da
+
+43
+00:02:19,819 --> 00:02:26,989
+Universidade Federal de Pernambuco desde
+
+44
+00:02:22,360 --> 00:02:30,170
+95 e trabalham com vários tópicos mas
+
+45
+00:02:26,990 --> 00:02:33,860
+muitos relacionados à modularidade e
+
+46
+00:02:30,169 --> 00:02:36,139
+também a confiabilidade de código aí a
+
+47
+00:02:33,860 --> 00:02:39,830
+principalmente a mistura Entre esses
+
+48
+00:02:36,139 --> 00:02:42,349
+dois aspectos vem explorando ao longo do
+
+49
+00:02:39,830 --> 00:02:45,140
+tempo em Paulo a gente titularização
+
+50
+00:02:42,349 --> 00:02:47,569
+esse princípios da programação já foi
+
+51
+00:02:45,139 --> 00:02:49,189
+artigo do David parnas que tem mais de 7
+
+52
+00:02:47,569 --> 00:02:51,530
+mil citações que ele tenta descrever
+
+53
+00:02:49,189 --> 00:02:54,710
+como é que a gente consegue modularizar
+
+54
+00:02:51,530 --> 00:02:56,719
+um sistema em diversos tipos de módulos
+
+55
+00:02:54,710 --> 00:02:59,330
+né mas assim o que é que seria de fato
+
+56
+00:02:56,719 --> 00:03:02,090
+essa atividade nesse princípio de
+
+57
+00:02:59,330 --> 00:03:04,940
+modularizar um código quebrar o código
+
+58
+00:03:02,090 --> 00:03:07,009
+em funções em classes é modularização e
+
+59
+00:03:04,939 --> 00:03:09,710
+o que mais seria a modularização sim é
+
+60
+00:03:07,009 --> 00:03:13,789
+esse processo basicamente Gustavo de
+
+61
+00:03:09,710 --> 00:03:14,640
+quebrar um problema maior um sistema
+
+62
+00:03:13,789 --> 00:03:17,340
+maior hein
+
+63
+00:03:14,639 --> 00:03:19,919
+e não dessas partes são chamadas os
+
+64
+00:03:17,340 --> 00:03:22,950
+módulos e de forma que você tem a
+
+65
+00:03:19,919 --> 00:03:25,979
+interfaces bem-definidas entre essas
+
+66
+00:03:22,949 --> 00:03:29,219
+partes que foram quebradas mas como
+
+67
+00:03:25,979 --> 00:03:31,649
+objetivo bem específico que é detalhado
+
+68
+00:03:29,219 --> 00:03:34,020
+desde esses trabalhos iniciais do par
+
+69
+00:03:31,650 --> 00:03:35,939
+nós até um pouco antes em trabalhos que
+
+70
+00:03:34,020 --> 00:03:39,209
+são referenciados até neste trabalho
+
+71
+00:03:35,939 --> 00:03:42,389
+Pioneiro do panos Tá mas com o objetivo
+
+72
+00:03:39,209 --> 00:03:45,030
+principal de você quebrar para que você
+
+73
+00:03:42,389 --> 00:03:47,819
+obtenha a possibilidade de ter o
+
+74
+00:03:45,030 --> 00:03:50,280
+desenvolvimento independente que pessoas
+
+75
+00:03:47,819 --> 00:03:52,259
+diferentes possam tá trabalhando em
+
+76
+00:03:50,280 --> 00:03:55,590
+módulos diferentes ao mesmo tempo e
+
+77
+00:03:52,259 --> 00:03:58,560
+depois consigam integrar de forma bem
+
+78
+00:03:55,590 --> 00:04:00,180
+sucedida essas partes que foram
+
+79
+00:03:58,560 --> 00:04:02,969
+desenvolvidas de maneira independente
+
+80
+00:04:00,180 --> 00:04:06,269
+Então isso é fundamental e para nos
+
+81
+00:04:02,969 --> 00:04:08,789
+motiva isso com o objetivo principal de
+
+82
+00:04:06,269 --> 00:04:10,590
+aumentar a produtividade da equipe de
+
+83
+00:04:08,789 --> 00:04:12,900
+desenvolvimento de software e o que é
+
+84
+00:04:10,590 --> 00:04:14,620
+mais comum até na literatura que a gente
+
+85
+00:04:12,900 --> 00:04:17,280
+tá mais acostumado a lei n
+
+86
+00:04:14,620 --> 00:04:20,560
+é mais clássicos em artigos mais
+
+87
+00:04:17,279 --> 00:04:25,089
+clássicos também que a ideia de você ter
+
+88
+00:04:20,560 --> 00:04:27,610
+a possibilidade de dar manutenção numa
+
+89
+00:04:25,089 --> 00:04:30,159
+determinada parte num determinado módulo
+
+90
+00:04:27,610 --> 00:04:33,040
+do sistema sem que isso atinja vários
+
+91
+00:04:30,160 --> 00:04:36,160
+outros modos né então é esse essa
+
+92
+00:04:33,040 --> 00:04:39,040
+manutenção independente também das
+
+93
+00:04:36,160 --> 00:04:40,930
+partes e por fim o entendimento
+
+94
+00:04:39,040 --> 00:04:43,419
+independente para que você tenha a
+
+95
+00:04:40,930 --> 00:04:46,449
+possibilidade de entender um determinado
+
+96
+00:04:43,418 --> 00:04:49,990
+nódulo sem precisar entrar nos detalhes
+
+97
+00:04:46,449 --> 00:04:52,930
+do outros modos entender a fundo que é
+
+98
+00:04:49,990 --> 00:04:55,840
+feito pelos outros modos A então é esse
+
+99
+00:04:52,930 --> 00:04:58,680
+processo de você quebrarem sistema
+
+100
+00:04:55,839 --> 00:05:02,319
+empartes chamadas módulos que podem ser
+
+101
+00:04:58,680 --> 00:05:04,930
+classes funções ou outros mecanismos de
+
+102
+00:05:02,319 --> 00:05:07,418
+modularização a fornecidos pela
+
+103
+00:05:04,930 --> 00:05:09,009
+linguagem de programação um esse
+
+104
+00:05:07,418 --> 00:05:12,659
+objetivo de ter desenvolvimento
+
+105
+00:05:09,009 --> 00:05:14,629
+independente entendimento independente e
+
+106
+00:05:12,660 --> 00:05:18,770
+manutenção da Independência
+
+107
+00:05:14,629 --> 00:05:22,069
+a parte e Paulo o que que não seria
+
+108
+00:05:18,769 --> 00:05:24,529
+modularização Existe alguma crença que
+
+109
+00:05:22,069 --> 00:05:26,839
+os desenvolvedores de software tem sobre
+
+110
+00:05:24,529 --> 00:05:28,369
+o que seja a modularização que eles
+
+111
+00:05:26,839 --> 00:05:30,529
+acham que estão fazendo quando na
+
+112
+00:05:28,370 --> 00:05:32,870
+verdade não estão ou então Quais são as
+
+113
+00:05:30,529 --> 00:05:34,969
+mais práticas de modularização de
+
+114
+00:05:32,870 --> 00:05:37,759
+software não sei se existe exatamente
+
+115
+00:05:34,970 --> 00:05:42,080
+uma crença mas algo que eu percebo como
+
+116
+00:05:37,759 --> 00:05:44,000
+sendo uma faia de algumas pessoas na
+
+117
+00:05:42,079 --> 00:05:46,969
+indústria quando vão modularizar um
+
+118
+00:05:44,000 --> 00:05:50,810
+determinado sistema que esse próprio
+
+119
+00:05:46,970 --> 00:05:53,330
+conceito de boa modularidade do software
+
+120
+00:05:50,810 --> 00:05:56,139
+ele é relativo ele não é um conceito
+
+121
+00:05:53,329 --> 00:05:58,639
+absoluto Então não é só uma determinada
+
+122
+00:05:56,139 --> 00:06:02,959
+estruturação a determinada quebra do
+
+123
+00:05:58,639 --> 00:06:06,219
+sistema em partes ela pode ter um
+
+124
+00:06:02,959 --> 00:06:10,219
+benefício para uma determinada situação
+
+125
+00:06:06,220 --> 00:06:13,670
+mais ser uma mais estruturação para uma
+
+126
+00:06:10,220 --> 00:06:14,639
+outra situação então o conceito de boa
+
+127
+00:06:13,670 --> 00:06:17,610
+modularidade
+
+128
+00:06:14,639 --> 00:06:20,370
+é relativo e eu acho que isso não é
+
+129
+00:06:17,610 --> 00:06:22,550
+percebido por muita gente relativo no
+
+130
+00:06:20,370 --> 00:06:25,288
+sentido de que uma determinada
+
+131
+00:06:22,550 --> 00:06:28,218
+modularização ou determinado a quebra do
+
+132
+00:06:25,288 --> 00:06:31,680
+sistema em partes ela vai favorecer
+
+133
+00:06:28,218 --> 00:06:34,259
+alguns tipos de mudanças outros tipos de
+
+134
+00:06:31,680 --> 00:06:35,639
+mudanças não vão ser favorecidos que eu
+
+135
+00:06:34,259 --> 00:06:39,509
+sou sem imagina um sistema estruturado
+
+136
+00:06:35,639 --> 00:06:43,319
+em camadas por exemplo você modificar
+
+137
+00:06:39,509 --> 00:06:46,379
+uma determinada camada é relativamente
+
+138
+00:06:43,319 --> 00:06:49,408
+simples porque as interfaces entre as
+
+139
+00:06:46,379 --> 00:06:51,900
+várias camadas estão bem definidas tá
+
+140
+00:06:49,408 --> 00:06:53,968
+então isso permite porque você é altere
+
+141
+00:06:51,899 --> 00:06:56,489
+uma determinada camada modifica uma
+
+142
+00:06:53,968 --> 00:06:59,459
+determinada camada sem afetar as outras
+
+143
+00:06:56,490 --> 00:07:03,449
+mas se nesse mesmo tipo de sistema
+
+144
+00:06:59,459 --> 00:07:05,519
+solicitação de mudança for por uma mudar
+
+145
+00:07:03,449 --> 00:07:08,419
+o comportamento de uma história de um
+
+146
+00:07:05,519 --> 00:07:11,128
+caso de uso isso é algo que vai
+
+147
+00:07:08,418 --> 00:07:13,918
+atravessar todas as camadas Então você
+
+148
+00:07:11,129 --> 00:07:14,620
+vai precisar alterar código em várias
+
+149
+00:07:13,918 --> 00:07:17,560
+camadas
+
+150
+00:07:14,620 --> 00:07:20,019
+o conceito de modularidade ele de boa
+
+151
+00:07:17,560 --> 00:07:22,990
+modularidade é relativo eu acho que
+
+152
+00:07:20,019 --> 00:07:25,689
+pouca gente percebe Paulo voltando lá
+
+153
+00:07:22,990 --> 00:07:28,360
+para o artigo do David parra ele começa
+
+154
+00:07:25,689 --> 00:07:30,939
+abre o artigo dizendo abre a fica né que
+
+155
+00:07:28,360 --> 00:07:33,400
+modalização é um mecanismo para melhorar
+
+156
+00:07:30,939 --> 00:07:36,550
+a flexibilidade e compreensão do sistema
+
+157
+00:07:33,399 --> 00:07:37,870
+e forma a diminuir o seu tempo e três
+
+158
+00:07:36,550 --> 00:07:40,120
+movimentos né pelo que a gente já
+
+159
+00:07:37,870 --> 00:07:41,560
+começou a conversar aqui agora eu
+
+160
+00:07:40,120 --> 00:07:43,959
+entendo bem nossa separação de
+
+161
+00:07:41,560 --> 00:07:45,399
+responsabilidades né mas assim que que
+
+162
+00:07:43,959 --> 00:07:47,769
+ele quer dizer com relação a
+
+163
+00:07:45,399 --> 00:07:50,439
+flexibilidade como é que a gente ganha
+
+164
+00:07:47,769 --> 00:07:52,839
+flexibilidade modularizando o sistema né
+
+165
+00:07:50,439 --> 00:07:54,969
+e de que forma eu consigo modular
+
+166
+00:07:52,839 --> 00:07:56,978
+modalizar um sistema para que eu consiga
+
+167
+00:07:54,970 --> 00:07:59,770
+ganhar por exemplo essas esses atributos
+
+168
+00:07:56,978 --> 00:08:01,569
+de flexibilidade e compreensão de código
+
+169
+00:07:59,769 --> 00:08:04,149
+não só que você habilidade justamente um
+
+170
+00:08:01,569 --> 00:08:06,668
+tópico que a gente já tocou que é só
+
+171
+00:08:04,149 --> 00:08:09,989
+pode ser vista em dois aspectos Na
+
+172
+00:08:06,668 --> 00:08:12,668
+verdade o primeiro aspecto é você
+
+173
+00:08:09,990 --> 00:08:14,629
+conseguir estruturar o sistema de forma
+
+174
+00:08:12,668 --> 00:08:18,259
+que se você precisar mudar alguns
+
+175
+00:08:14,629 --> 00:08:20,810
+e você vai mudar facilmente e o outro
+
+176
+00:08:18,259 --> 00:08:23,120
+aspecto que está atrelado Inclusive a
+
+177
+00:08:20,810 --> 00:08:25,389
+ideia de linhas de produtos de software
+
+178
+00:08:23,120 --> 00:08:30,399
+que é você fazer com que uma determinada
+
+179
+00:08:25,389 --> 00:08:33,348
+parte do sistema funcione com variações
+
+180
+00:08:30,399 --> 00:08:36,409
+implementações alternativas de uma outra
+
+181
+00:08:33,349 --> 00:08:40,700
+parte do sistema tá então a modularidade
+
+182
+00:08:36,409 --> 00:08:43,639
+ela permite isso na medida em que essas
+
+183
+00:08:40,700 --> 00:08:47,540
+partes esses módulos eles são separados
+
+184
+00:08:43,639 --> 00:08:50,389
+com interfaces claramente definidas tá
+
+185
+00:08:47,539 --> 00:08:52,939
+então você pode mais facilmente trocar
+
+186
+00:08:50,389 --> 00:08:56,059
+uma determinada a parte dessa por outra
+
+187
+00:08:52,940 --> 00:08:59,150
+e você tem um sistema que funciona de
+
+188
+00:08:56,059 --> 00:09:02,539
+uma forma diferente do que você tinha
+
+189
+00:08:59,149 --> 00:09:05,289
+antes essa estruturação do sistema em
+
+190
+00:09:02,539 --> 00:09:10,909
+partes quando feita de forma adequada
+
+191
+00:09:05,289 --> 00:09:13,519
+ela permite essa facilidade de ou mudar
+
+192
+00:09:10,909 --> 00:09:14,639
+uma parte sem afetar as outras ou de
+
+193
+00:09:13,519 --> 00:09:18,329
+fazer quando eu
+
+194
+00:09:14,639 --> 00:09:20,789
+a parte do sistema funcione com versões
+
+195
+00:09:18,330 --> 00:09:23,070
+alternativas de uma outra parte do
+
+196
+00:09:20,789 --> 00:09:26,129
+sistema aí Paulo qualquer a relação de
+
+197
+00:09:23,070 --> 00:09:28,890
+modularidade com os princípios de design
+
+198
+00:09:26,129 --> 00:09:31,080
+de software por exemplo a gente muito
+
+199
+00:09:28,889 --> 00:09:33,480
+comum hoje empregar vários princípios
+
+200
+00:09:31,080 --> 00:09:34,970
+como Solid né que a gente tem como por
+
+201
+00:09:33,480 --> 00:09:38,399
+exemplo aquele princípio de
+
+202
+00:09:34,970 --> 00:09:41,129
+responsabilidade única que uma o módulo
+
+203
+00:09:38,399 --> 00:09:43,439
+Uma clássica e somente uma única muito
+
+204
+00:09:41,129 --> 00:09:45,360
+motivo a única razão para mudar né tem
+
+205
+00:09:43,440 --> 00:09:46,980
+também aquele tem sido aberto fechado em
+
+206
+00:09:45,360 --> 00:09:49,169
+que uma classe ela é aberto para
+
+207
+00:09:46,980 --> 00:09:52,529
+inscrição porém ela é fechada Para
+
+208
+00:09:49,169 --> 00:09:55,289
+modificação né então aparentemente esses
+
+209
+00:09:52,529 --> 00:09:58,470
+princípios eles ajudam na modalidade Mas
+
+210
+00:09:55,289 --> 00:10:00,779
+tem alguma relação assim claro né Eu
+
+211
+00:09:58,470 --> 00:10:03,899
+tenho uns offer bem desenhado por um
+
+212
+00:10:00,779 --> 00:10:06,299
+design bem sofisticado isso garante que
+
+213
+00:10:03,899 --> 00:10:08,939
+eu tenho só fica bem modularizado também
+
+214
+00:10:06,299 --> 00:10:13,079
+é esses conceitos estão muito atrelados
+
+215
+00:10:08,940 --> 00:10:14,620
+né E por uma questão histórica boa parte
+
+216
+00:10:13,080 --> 00:10:17,350
+desses princípios
+
+217
+00:10:14,620 --> 00:10:20,610
+a todos do solo e de Eu considero o que
+
+218
+00:10:17,350 --> 00:10:23,170
+são princípios que tendem a favorecer um
+
+219
+00:10:20,610 --> 00:10:25,360
+fator específico de qualidade de
+
+220
+00:10:23,169 --> 00:10:27,250
+software que é a modularidade Mas quando
+
+221
+00:10:25,360 --> 00:10:29,110
+você vai projetar um sistema Quando você
+
+222
+00:10:27,250 --> 00:10:31,870
+vai fazer o design de um sistema você
+
+223
+00:10:29,110 --> 00:10:33,970
+tem que contemplar vários fatores de
+
+224
+00:10:31,870 --> 00:10:37,360
+qualidade obviamente os fatores de
+
+225
+00:10:33,970 --> 00:10:39,279
+qualidade relativos a corretude atender
+
+226
+00:10:37,360 --> 00:10:41,860
+aos requisitos que foram especificados
+
+227
+00:10:39,279 --> 00:10:44,259
+pelos clientes e stakeholders em geral
+
+228
+00:10:41,860 --> 00:10:47,620
+do sistema mas também vários outros
+
+229
+00:10:44,259 --> 00:10:49,990
+requisitos não-funcionais inclusive o
+
+230
+00:10:47,620 --> 00:10:52,419
+aspecto de modularidade mas por uma
+
+231
+00:10:49,990 --> 00:10:55,149
+questão histórica boa parte do que a
+
+232
+00:10:52,419 --> 00:10:58,349
+gente vê em livros e na literatura de
+
+233
+00:10:55,149 --> 00:11:01,199
+engenharia de software relativos à a
+
+234
+00:10:58,350 --> 00:11:04,149
+princípios de projeto eles estão
+
+235
+00:11:01,200 --> 00:11:06,250
+relacionados à modularidade mas não
+
+236
+00:11:04,149 --> 00:11:08,919
+necessariamente tem que ser assim então
+
+237
+00:11:06,250 --> 00:11:12,809
+se eu quero projetar um sistema e um
+
+238
+00:11:08,919 --> 00:11:14,629
+fator um fator de qualidade importante
+
+239
+00:11:12,809 --> 00:11:19,009
+para esse sistema
+
+240
+00:11:14,629 --> 00:11:22,460
+e é tempo real per formas Pode ser que
+
+241
+00:11:19,009 --> 00:11:25,730
+eu preciso e seguir princípios que vão
+
+242
+00:11:22,460 --> 00:11:29,090
+me levar contra modularidade Então os
+
+243
+00:11:25,730 --> 00:11:32,690
+princípios eles têm que ser alinhados
+
+244
+00:11:29,090 --> 00:11:34,910
+com os objetivos que você tem para o
+
+245
+00:11:32,690 --> 00:11:36,770
+projeto de um determinado sistema mas
+
+246
+00:11:34,909 --> 00:11:40,279
+como uma razão histórica tudo que a
+
+247
+00:11:36,769 --> 00:11:43,129
+gente vê de princípios está relacionado
+
+248
+00:11:40,279 --> 00:11:45,139
+à modularidade de software em grande
+
+249
+00:11:43,129 --> 00:11:48,049
+parte certo se você for atrás de um
+
+250
+00:11:45,139 --> 00:11:52,220
+livro de por exemplo padrões de projeto
+
+251
+00:11:48,049 --> 00:11:54,889
+para sistemas de tempo real para
+
+252
+00:11:52,220 --> 00:11:58,220
+sistemas concorrentes você vai ver ali
+
+253
+00:11:54,889 --> 00:12:01,730
+princípios implícitos né embutidos nos
+
+254
+00:11:58,220 --> 00:12:06,080
+padrões e são diferentes do que a gente
+
+255
+00:12:01,730 --> 00:12:09,680
+vê em princípios mais divulgados e mais
+
+256
+00:12:06,080 --> 00:12:12,110
+difundidos como só lhe dê o outros
+
+257
+00:12:09,679 --> 00:12:14,639
+princípios relacionados à modularidade
+
+258
+00:12:12,110 --> 00:12:19,139
+de sócio parte então você
+
+259
+00:12:14,639 --> 00:12:22,199
+é um sistema bem projetado significa que
+
+260
+00:12:19,139 --> 00:12:24,379
+ele tem uma boa modularidade em geral
+
+261
+00:12:22,200 --> 00:12:27,690
+sim mas não necessariamente tô queria
+
+262
+00:12:24,379 --> 00:12:31,919
+desacoplar essas essas duas ideias de
+
+263
+00:12:27,690 --> 00:12:35,100
+Que bom projeto é um projeto que atende
+
+264
+00:12:31,919 --> 00:12:36,959
+aos requisitos que foram especificados e
+
+265
+00:12:35,100 --> 00:12:40,500
+que são prioritários para aquele sistema
+
+266
+00:12:36,960 --> 00:12:42,990
+Mas pode ser que modularidade por alguma
+
+267
+00:12:40,500 --> 00:12:44,759
+razão específica não seja eu já
+
+268
+00:12:42,990 --> 00:12:46,980
+Participei de projetos em que
+
+269
+00:12:44,759 --> 00:12:49,470
+modularidade e não era o principal fator
+
+270
+00:12:46,980 --> 00:12:51,690
+não tinha que embarcar o software no
+
+271
+00:12:49,470 --> 00:12:55,019
+celular muita pouco muito pouco a
+
+272
+00:12:51,690 --> 00:12:57,270
+memória muito pouco mulher recursos
+
+273
+00:12:55,019 --> 00:13:00,210
+computacionais e de bateria então
+
+274
+00:12:57,269 --> 00:13:02,549
+basicamente e modularidade e não era o
+
+275
+00:13:00,210 --> 00:13:04,259
+principal fator a ser considerado é a
+
+276
+00:13:02,549 --> 00:13:06,509
+gente tinha que jogar fora isso isso
+
+277
+00:13:04,259 --> 00:13:09,120
+aqui aquilo era um mau projeto do ponto
+
+278
+00:13:06,509 --> 00:13:12,569
+de vista de modularidade e sim mas do
+
+279
+00:13:09,120 --> 00:13:14,620
+ponto de vista dos requisitos do que era
+
+280
+00:13:12,570 --> 00:13:17,440
+necessário para aquele sistema
+
+281
+00:13:14,620 --> 00:13:20,620
+o projeto mas essa discussão ela
+
+282
+00:13:17,440 --> 00:13:23,860
+torna-se um pouco confusa justamente por
+
+283
+00:13:20,620 --> 00:13:27,070
+que por razões históricas se deu muito
+
+284
+00:13:23,860 --> 00:13:31,200
+valor à modularidade então na literatura
+
+285
+00:13:27,070 --> 00:13:35,040
+é esses princípios de modularidade eles
+
+286
+00:13:31,200 --> 00:13:38,290
+têm um uma visibilidade muito Maior
+
+287
+00:13:35,039 --> 00:13:39,959
+interessante e agora a gente tem uma
+
+288
+00:13:38,289 --> 00:13:42,909
+pergunta que está relacionada com
+
+289
+00:13:39,960 --> 00:13:45,639
+conceitos que eu me lembro que eu vi na
+
+290
+00:13:42,909 --> 00:13:47,769
+minha graduação né polimorfismo o
+
+291
+00:13:45,639 --> 00:13:50,529
+information aiding que talvez uma
+
+292
+00:13:47,769 --> 00:13:52,210
+tradução seja escondimento de informação
+
+293
+00:13:50,529 --> 00:13:53,529
+esses conceitos se eles podiam ser
+
+294
+00:13:52,210 --> 00:13:56,230
+exercitados em uma linguagem de
+
+295
+00:13:53,529 --> 00:13:59,649
+programação como ser mais as linguagens
+
+296
+00:13:56,230 --> 00:14:02,710
+orientadas a objeto ser mais mais Java
+
+297
+00:13:59,649 --> 00:14:04,929
+Ruby tornaram-se eu uso mais seguro pois
+
+298
+00:14:02,710 --> 00:14:08,080
+o programador não precisa mais lidar com
+
+299
+00:14:04,929 --> 00:14:10,449
+outros e tornar esse uso desses
+
+300
+00:14:08,080 --> 00:14:13,090
+conceitos mas conveniente Mas quais
+
+301
+00:14:10,450 --> 00:14:14,629
+foram os avanços mais recentes de que
+
+302
+00:14:13,090 --> 00:14:17,480
+forma de linguagem de
+
+303
+00:14:14,629 --> 00:14:20,210
+o avançado de forma a garantir novos
+
+304
+00:14:17,480 --> 00:14:22,149
+mecanismos de modularização de software
+
+305
+00:14:20,210 --> 00:14:25,220
+é interessante essa pergunta
+
+306
+00:14:22,149 --> 00:14:27,350
+principalmente porque alguns desses
+
+307
+00:14:25,220 --> 00:14:29,300
+conceitos de modularidade e como
+
+308
+00:14:27,350 --> 00:14:31,009
+information Highway né que você falou
+
+309
+00:14:29,299 --> 00:14:33,129
+Eles foram propostos de forma
+
+310
+00:14:31,009 --> 00:14:35,629
+independente da linguagem de programação
+
+311
+00:14:33,129 --> 00:14:38,509
+então quando a gente lê este primeiro
+
+312
+00:14:35,629 --> 00:14:42,350
+artigo de pernas um de Paraitinga subiu
+
+313
+00:14:38,509 --> 00:14:44,600
+o uso do for the compositions é quando a
+
+314
+00:14:42,350 --> 00:14:46,100
+gente vai lá tem o conceito de
+
+315
+00:14:44,600 --> 00:14:50,240
+Information Highway mas ele é
+
+316
+00:14:46,100 --> 00:14:52,970
+independente de um recurso oferecido por
+
+317
+00:14:50,240 --> 00:14:56,269
+uma linguagem de programação então a um
+
+318
+00:14:52,970 --> 00:14:58,509
+conceito que não está atrelado a uma
+
+319
+00:14:56,269 --> 00:15:02,949
+linguagem de programação mas de novo
+
+320
+00:14:58,509 --> 00:15:05,360
+Muitas pessoas aprenderam Inclusive eu
+
+321
+00:15:02,950 --> 00:15:08,360
+aprenderam esse conceito de Information
+
+322
+00:15:05,360 --> 00:15:11,750
+on Hidden através de mecanismos como
+
+323
+00:15:08,360 --> 00:15:13,850
+private de linguagens de programação mas
+
+324
+00:15:11,750 --> 00:15:14,639
+essas ideias não estão necessariamente
+
+325
+00:15:13,850 --> 00:15:17,129
+atrelada
+
+326
+00:15:14,639 --> 00:15:20,039
+Você pode ter o conceito pode ter o
+
+327
+00:15:17,129 --> 00:15:23,549
+recurso na linguagem de programação tem
+
+328
+00:15:20,039 --> 00:15:25,349
+formas de você da melhor suporte a
+
+329
+00:15:23,549 --> 00:15:28,829
+modularização do sofre sem
+
+330
+00:15:25,350 --> 00:15:31,019
+necessariamente passar por mecanismos
+
+331
+00:15:28,830 --> 00:15:32,759
+linguísticos oferecidos pela linguagem
+
+332
+00:15:31,019 --> 00:15:36,809
+de programação é importante entender
+
+333
+00:15:32,759 --> 00:15:40,769
+isso dito isso a gente tem tido o avanço
+
+334
+00:15:36,809 --> 00:15:44,549
+sem novos recursos oferecidos pelas
+
+335
+00:15:40,769 --> 00:15:49,439
+Vagem programação como mecanismos como
+
+336
+00:15:44,549 --> 00:15:51,870
+três aspectos e vários desses mecanismos
+
+337
+00:15:49,440 --> 00:15:55,920
+hoje estão embutidos ou estão implícitos
+
+338
+00:15:51,870 --> 00:15:57,779
+em Frei mortos em Sistemas mais eles
+
+339
+00:15:55,919 --> 00:16:00,509
+estão disponíveis em linguagem de
+
+340
+00:15:57,779 --> 00:16:03,329
+programação tão Progresso foi nesse
+
+341
+00:16:00,509 --> 00:16:08,669
+sentido há um progresso que recentemente
+
+342
+00:16:03,330 --> 00:16:12,240
+ele não é tem sido a gente não tem tido
+
+343
+00:16:08,669 --> 00:16:14,620
+o avanço mais nessas nessas nesses
+
+344
+00:16:12,240 --> 00:16:16,690
+recursos linguísticos ajusta
+
+345
+00:16:14,620 --> 00:16:19,120
+a limpeza explorar também os recursos
+
+346
+00:16:16,690 --> 00:16:21,370
+que não são linguísticos então outras
+
+347
+00:16:19,120 --> 00:16:24,519
+pessoas começaram a explorar recursos
+
+348
+00:16:21,370 --> 00:16:28,210
+que não são linguísticos mas que vão dar
+
+349
+00:16:24,519 --> 00:16:30,460
+suporte a modularização do sistema
+
+350
+00:16:28,210 --> 00:16:33,700
+lembrando o desenvolvimento independente
+
+351
+00:16:30,460 --> 00:16:36,850
+a manutenção dependente o entendimento
+
+352
+00:16:33,700 --> 00:16:39,020
+independente não posso ter essas três
+
+353
+00:16:36,850 --> 00:16:42,700
+características
+
+354
+00:16:39,019 --> 00:16:45,730
+a independência sem necessariamente
+
+355
+00:16:42,700 --> 00:16:47,870
+passar por recursos linguísticos
+
+356
+00:16:45,730 --> 00:16:50,240
+maravilha a gente vai falar agora um
+
+357
+00:16:47,870 --> 00:16:52,159
+pouco sobre o tema que eu gosto muito de
+
+358
+00:16:50,240 --> 00:16:54,440
+que a questão da programação funcional
+
+359
+00:16:52,159 --> 00:16:57,219
+então eu antes de ir me dedicar um pouco
+
+360
+00:16:54,440 --> 00:16:59,630
+mais tudo como desenvolvedor mesmo
+
+361
+00:16:57,220 --> 00:17:03,440
+projetos Paralelos a minha atividade
+
+362
+00:16:59,629 --> 00:17:04,910
+profissional eu trabalhei com 40 só
+
+363
+00:17:03,440 --> 00:17:07,700
+trabalhava com a linguagem orientada a
+
+364
+00:17:04,910 --> 00:17:11,540
+objeto Java aí a pergunta se as técnicas
+
+365
+00:17:07,700 --> 00:17:13,338
+de modo larização são específicas a aos
+
+366
+00:17:11,539 --> 00:17:16,279
+paradigmas de programação Será que a
+
+367
+00:17:13,338 --> 00:17:18,049
+modularização de uma linguagem programa
+
+368
+00:17:16,279 --> 00:17:20,029
+de programação orientada a objeto é
+
+369
+00:17:18,049 --> 00:17:22,159
+diferente de uma linguagem de
+
+370
+00:17:20,029 --> 00:17:24,709
+programação funcional agora a gente tem
+
+371
+00:17:22,160 --> 00:17:27,800
+visto o ressurgimento da programação
+
+372
+00:17:24,709 --> 00:17:29,750
+funcional que é um paradigma Bem antigo
+
+373
+00:17:27,799 --> 00:17:35,299
+levem lado lisp mas eu lembro quando eu
+
+374
+00:17:29,750 --> 00:17:37,750
+estudei na UFPA em 94 95 a gente tinha o
+
+375
+00:17:35,299 --> 00:17:39,029
+Rafael do helinski naquela época
+
+376
+00:17:37,750 --> 00:17:40,589
+trabalhava com
+
+377
+00:17:39,029 --> 00:17:42,569
+e como é que é uma linguagem de
+
+378
+00:17:40,589 --> 00:17:44,309
+programação funcional com essa
+
+379
+00:17:42,569 --> 00:17:46,139
+popularização do paradigma de
+
+380
+00:17:44,309 --> 00:17:48,480
+programação somar os princípios de
+
+381
+00:17:46,140 --> 00:17:50,880
+modularização mudaram Ou eles são os
+
+382
+00:17:48,480 --> 00:17:53,549
+mesmos deve ser eu comecei a programar
+
+383
+00:17:50,880 --> 00:17:57,570
+em linguagem funcionais na UFPE antes
+
+384
+00:17:53,549 --> 00:17:59,309
+disso viu Adolfo então desde 88 eu
+
+385
+00:17:57,569 --> 00:18:02,549
+programei em várias linguagens de
+
+386
+00:17:59,309 --> 00:18:05,220
+programação funcional E isso também é
+
+387
+00:18:02,549 --> 00:18:09,599
+boa parte da motivação na minha carreira
+
+388
+00:18:05,220 --> 00:18:12,110
+de pesquisador veio do entusiasmo com a
+
+389
+00:18:09,599 --> 00:18:14,969
+elegância EA beleza dessas linguagens
+
+390
+00:18:12,109 --> 00:18:16,379
+hoje em dia tá tudo muito integrado né
+
+391
+00:18:14,970 --> 00:18:19,170
+então assim hoje em dia qualquer
+
+392
+00:18:16,380 --> 00:18:23,720
+Linguagem Nova por exemplo você pega tá
+
+393
+00:18:19,170 --> 00:18:26,190
+escrito ela já mescla conceitos que
+
+394
+00:18:23,720 --> 00:18:28,410
+originaram das linguagens funcionais com
+
+395
+00:18:26,190 --> 00:18:30,380
+conceitos de linguagens orientadas a
+
+396
+00:18:28,410 --> 00:18:33,269
+objeto Então tá tudo muito integrado
+
+397
+00:18:30,380 --> 00:18:35,370
+Então os princípios eu diria que eles
+
+398
+00:18:33,269 --> 00:18:39,009
+são bem genéricos Independente de
+
+399
+00:18:35,369 --> 00:18:42,939
+linguagem as técnicas eles são
+
+400
+00:18:39,009 --> 00:18:45,190
+é realmente diferente mas tem muita
+
+401
+00:18:42,940 --> 00:18:49,120
+similaridade Então você pega no agem
+
+402
+00:18:45,190 --> 00:18:52,210
+como raça o conceito de Tais classes aí
+
+403
+00:18:49,119 --> 00:18:54,969
+ele vai ter muita semelhança com os
+
+404
+00:18:52,210 --> 00:18:56,950
+mecanismos de definição de interface cem
+
+405
+00:18:54,970 --> 00:18:59,289
+linguagens orientadas a objetos são
+
+406
+00:18:56,950 --> 00:19:01,750
+técnicas diferentes mas tem uma
+
+407
+00:18:59,289 --> 00:19:04,299
+interseção relativamente grande tô sem
+
+408
+00:19:01,750 --> 00:19:10,180
+olhar também por exemplo a ideia de
+
+409
+00:19:04,299 --> 00:19:12,309
+módulo 100ml em sml na stander da ml a
+
+410
+00:19:10,180 --> 00:19:16,210
+ideia de módulos com interfaces
+
+411
+00:19:12,309 --> 00:19:19,119
+bem-definidas que chama-la de phantos né
+
+412
+00:19:16,210 --> 00:19:23,049
+que antes isso daí já veio de linguagens
+
+413
+00:19:19,119 --> 00:19:25,659
+anteriores como Clear e o BJ né que são
+
+414
+00:19:23,049 --> 00:19:28,419
+linguagens com as quais eu me empolguei
+
+415
+00:19:25,660 --> 00:19:30,970
+e trabalhei também bastante durante o
+
+416
+00:19:28,420 --> 00:19:34,090
+doutorado até um pouco antes disso daí
+
+417
+00:19:30,970 --> 00:19:36,220
+são imagens fantásticas mas se você for
+
+418
+00:19:34,089 --> 00:19:38,349
+olhar para o mecanismo de Fantasy 100ml
+
+419
+00:19:36,220 --> 00:19:39,019
+ele é muito também parecido com
+
+420
+00:19:38,349 --> 00:19:42,019
+mecanismo
+
+421
+00:19:39,019 --> 00:19:45,109
+É sim jado nem tão tem uma interseção
+
+422
+00:19:42,019 --> 00:19:47,319
+muito grande são variações das mesmas
+
+423
+00:19:45,109 --> 00:19:51,439
+técnicas eu diria os princípios gerais
+
+424
+00:19:47,319 --> 00:19:55,250
+as técnicas variam de paradigma para
+
+425
+00:19:51,440 --> 00:19:58,519
+paradigma mas todas com uma inspiração é
+
+426
+00:19:55,250 --> 00:20:02,210
+comum muito grande Paulo eu acho que é
+
+427
+00:19:58,519 --> 00:20:04,819
+hoje né 2021 já é um pouco consenso né
+
+428
+00:20:02,210 --> 00:20:07,490
+que é importante a gente utilizar desses
+
+429
+00:20:04,819 --> 00:20:10,490
+princípios de modularização e que eles
+
+430
+00:20:07,490 --> 00:20:12,799
+são até de fato não é bem comuns né até
+
+431
+00:20:10,490 --> 00:20:16,279
+porque você já falou do Solid né a gente
+
+432
+00:20:12,799 --> 00:20:17,799
+já discutiu uns minutos atrás mas eu
+
+433
+00:20:16,279 --> 00:20:21,069
+acho que ainda tem uma certa dificuldade
+
+434
+00:20:17,799 --> 00:20:23,599
+em criar sofre este fato bem
+
+435
+00:20:21,069 --> 00:20:26,240
+modularizados um exemplo tem tiver um
+
+436
+00:20:23,599 --> 00:20:30,259
+frio work de visão né a gente sabendo
+
+437
+00:20:26,240 --> 00:20:32,720
+que a gente separa um sofrem em duas
+
+438
+00:20:30,259 --> 00:20:34,700
+três em camadas a gente tem mais essas
+
+439
+00:20:32,720 --> 00:20:37,400
+camadas que usam freio morto divisão de
+
+440
+00:20:34,700 --> 00:20:39,029
+JavaScript que hoje tá na moda não tem
+
+441
+00:20:37,400 --> 00:20:41,940
+muito como fugir né e
+
+442
+00:20:39,029 --> 00:20:45,119
+a falar para algum profissional você tá
+
+443
+00:20:41,940 --> 00:20:48,150
+usando angula hoje mude para viu né
+
+444
+00:20:45,119 --> 00:20:50,819
+assim com certeza não vai ser alto com
+
+445
+00:20:48,150 --> 00:20:53,009
+certeza vai vai gerar até um estresse no
+
+446
+00:20:50,819 --> 00:20:55,859
+time porque esse é o tipo de mudança que
+
+447
+00:20:53,009 --> 00:20:58,920
+é uma mudança drástica mesmo que esteja
+
+448
+00:20:55,859 --> 00:21:02,399
+sendo em Componentes né arquiteturais
+
+449
+00:20:58,920 --> 00:21:04,529
+diferente é então é impossível estava
+
+450
+00:21:02,400 --> 00:21:06,840
+participando de um de um projeto que uma
+
+451
+00:21:04,529 --> 00:21:09,629
+empresa local que eles pararam de manter
+
+452
+00:21:06,839 --> 00:21:11,639
+no sol senhor que era em rails 3 ou 4
+
+453
+00:21:09,630 --> 00:21:14,580
+alguma coisa assim porque o house
+
+454
+00:21:11,640 --> 00:21:16,680
+evoluiu eles não o produto não evoluiu
+
+455
+00:21:14,579 --> 00:21:18,329
+junto com a evolução do raios então eles
+
+456
+00:21:16,680 --> 00:21:21,330
+chegaram no ponto que já conseguiu mais
+
+457
+00:21:18,329 --> 00:21:24,089
+fazer progresso no produto porque a
+
+458
+00:21:21,329 --> 00:21:26,069
+versão adição do sistema do Sul amor tá
+
+459
+00:21:24,089 --> 00:21:28,139
+um pouco mais avançada Então não precisa
+
+460
+00:21:26,069 --> 00:21:30,569
+necessariamente mudar de extremor
+
+461
+00:21:28,140 --> 00:21:33,480
+alimentos em baixo atualizar a versão do
+
+462
+00:21:30,569 --> 00:21:35,879
+poema que já é um passo né então é na
+
+463
+00:21:33,480 --> 00:21:38,190
+sua opinião é que se deve essa
+
+464
+00:21:35,880 --> 00:21:39,010
+dificuldade de criar sistemas de fato
+
+465
+00:21:38,190 --> 00:21:41,890
+bem
+
+466
+00:21:39,009 --> 00:21:44,589
+é o ponto de vista de modularidade né
+
+467
+00:21:41,890 --> 00:21:47,100
+fracamente acoplado o problema realmente
+
+468
+00:21:44,589 --> 00:21:51,819
+complexo né Sistema de complexos e
+
+469
+00:21:47,099 --> 00:21:54,099
+exigem soluções é que não são simples
+
+470
+00:21:51,819 --> 00:21:56,919
+não são triviais Então a gente tem que
+
+471
+00:21:54,099 --> 00:21:59,319
+ter bastante experiência bastante
+
+472
+00:21:56,920 --> 00:22:01,660
+conhecimento para lidar com isso mais um
+
+473
+00:21:59,319 --> 00:22:03,309
+ponto principal Gustavo está relacionado
+
+474
+00:22:01,660 --> 00:22:05,920
+ao que eu falei antes que modularidade
+
+475
+00:22:03,309 --> 00:22:09,669
+ela é relativo Então depende do tipo de
+
+476
+00:22:05,920 --> 00:22:12,490
+mudança só que você dificilmente sabe
+
+477
+00:22:09,670 --> 00:22:14,529
+qual o tipo de mudança mas comum que vai
+
+478
+00:22:12,490 --> 00:22:16,450
+acontecer naquele tipo de sistema Então
+
+479
+00:22:14,529 --> 00:22:19,079
+se quando tivesse projetando esse
+
+480
+00:22:16,450 --> 00:22:23,769
+sistema aí que tem angula como Frei amor
+
+481
+00:22:19,079 --> 00:22:27,929
+Jazz já existisse a perspectiva de que
+
+482
+00:22:23,769 --> 00:22:30,609
+daqui a 5 10 anos você mudaria de Angola
+
+483
+00:22:27,930 --> 00:22:34,029
+Provavelmente o projeto de sistema teria
+
+484
+00:22:30,609 --> 00:22:36,279
+sido mais cuidadoso e teria levado em
+
+485
+00:22:34,029 --> 00:22:39,019
+consideração essa possibilidade Mas
+
+486
+00:22:36,279 --> 00:22:42,019
+provavelmente quando um sistema de
+
+487
+00:22:39,019 --> 00:22:44,690
+o envolvido problema mim não com muita
+
+488
+00:22:42,019 --> 00:22:47,809
+frequência quando um sistema deixa
+
+489
+00:22:44,690 --> 00:22:52,039
+desenvolvido os desenvolvedores não tem
+
+490
+00:22:47,809 --> 00:22:54,559
+essa visão de Médio prazo nem falar de
+
+491
+00:22:52,039 --> 00:22:57,589
+longo prazo de que pode haver essa
+
+492
+00:22:54,559 --> 00:23:02,059
+mudança muitas vezes é uma experiência
+
+493
+00:22:57,589 --> 00:23:04,549
+que valoriza demais a tecnologia e isso
+
+494
+00:23:02,059 --> 00:23:07,399
+faz com que perca se um pouco essa
+
+495
+00:23:04,549 --> 00:23:09,710
+perspectiva essa visão de mais Médio
+
+496
+00:23:07,400 --> 00:23:12,259
+prazo do que é que vai acontecer naquele
+
+497
+00:23:09,710 --> 00:23:17,990
+tipo de sistema e socorre como você
+
+498
+00:23:12,259 --> 00:23:21,379
+falou em relação ao alfrey amor de fogo
+
+499
+00:23:17,990 --> 00:23:24,829
+e ao frame work de acesso a banco de
+
+500
+00:23:21,380 --> 00:23:27,290
+dados e assim por diante Então essa
+
+501
+00:23:24,829 --> 00:23:30,799
+falta de visão do que é que vai ser
+
+502
+00:23:27,289 --> 00:23:32,869
+necessário mudar e a preparação para que
+
+503
+00:23:30,799 --> 00:23:35,629
+essa mudança vem a ser feita de forma
+
+504
+00:23:32,869 --> 00:23:38,119
+mais tranquila é um problema muito
+
+505
+00:23:35,630 --> 00:23:39,030
+grande além dessa falta de visão uma
+
+506
+00:23:38,119 --> 00:23:43,889
+outra coisa que
+
+507
+00:23:39,029 --> 00:23:46,170
+é é é comum aqui às vezes as pessoas até
+
+508
+00:23:43,890 --> 00:23:48,840
+tem a visão de que aquele Freios de
+
+509
+00:23:46,170 --> 00:23:51,690
+banco de dados vai precisar se
+
+510
+00:23:48,839 --> 00:23:54,750
+atualizado vai precisar ser modificado e
+
+511
+00:23:51,690 --> 00:24:01,440
+assim por diante mas por razões de
+
+512
+00:23:54,750 --> 00:24:04,680
+performance eles não garantem no projeto
+
+513
+00:24:01,440 --> 00:24:08,330
+do sistema esse desacoplamento não tem a
+
+514
+00:24:04,680 --> 00:24:11,100
+ver com aquele trade-off entre os vários
+
+515
+00:24:08,329 --> 00:24:14,789
+fatores de qualidade que tem que ser
+
+516
+00:24:11,099 --> 00:24:18,629
+considerado então falta de visão um
+
+517
+00:24:14,789 --> 00:24:20,759
+aspecto trade-offs é outro aspecto e
+
+518
+00:24:18,630 --> 00:24:24,420
+outro aspecto muito comum que eu vejo e
+
+519
+00:24:20,759 --> 00:24:26,700
+observam em alguns projetos é justamente
+
+520
+00:24:24,420 --> 00:24:28,640
+essa questão de que às vezes as pessoas
+
+521
+00:24:26,700 --> 00:24:31,640
+usam o Freio amor
+
+522
+00:24:28,640 --> 00:24:34,840
+e de forma inadequada por falta de
+
+523
+00:24:31,640 --> 00:24:38,750
+conhecimento mesmo então no código
+
+524
+00:24:34,839 --> 00:24:42,429
+associado atrelado ao Frei morto deguy
+
+525
+00:24:38,750 --> 00:24:46,609
+eles colocam detalhes de implementação
+
+526
+00:24:42,430 --> 00:24:50,450
+que poderiam estar isolados por exemplo
+
+527
+00:24:46,609 --> 00:24:53,779
+num servidor ou num componente auxiliar
+
+528
+00:24:50,450 --> 00:24:56,059
+e não é dependente do fêmur de boi tá
+
+529
+00:24:53,779 --> 00:24:58,460
+então só um Esses são três aspectos que
+
+530
+00:24:56,059 --> 00:25:01,549
+eu considero importantes mas deve ter
+
+531
+00:24:58,460 --> 00:25:04,100
+outras outras explicações mas tudo tem a
+
+532
+00:25:01,549 --> 00:25:08,389
+ver com essa dificuldade em projetar
+
+533
+00:25:04,099 --> 00:25:11,240
+sistemas então visão conhecimento e
+
+534
+00:25:08,390 --> 00:25:14,450
+experiência a tudo isso daí tem que ser
+
+535
+00:25:11,240 --> 00:25:17,480
+levado em consideração para que
+
+536
+00:25:14,450 --> 00:25:22,090
+realmente e a gente tenha sistemas que a
+
+537
+00:25:17,480 --> 00:25:24,559
+Tragam melhor perspectiva para gente de
+
+538
+00:25:22,089 --> 00:25:26,929
+desenvolvimento independente mudança
+
+539
+00:25:24,559 --> 00:25:28,649
+independente entendimento independente
+
+540
+00:25:26,930 --> 00:25:31,500
+mas fala um desses problemas que você
+
+541
+00:25:28,650 --> 00:25:33,509
+e essa falta de visão de Médio prazo nem
+
+542
+00:25:31,500 --> 00:25:36,150
+se fala de longo prazo né mas como é que
+
+543
+00:25:33,509 --> 00:25:38,819
+a gente consegue colocar essa visão né
+
+544
+00:25:36,150 --> 00:25:41,190
+de que as coisas podem e devem mudar em
+
+545
+00:25:38,819 --> 00:25:44,009
+pouco tempo em dois três quatro cinco
+
+546
+00:25:41,190 --> 00:25:46,140
+anos dentro do bastante do projeto
+
+547
+00:25:44,009 --> 00:25:48,059
+dentro do orçamento do projeto dentro de
+
+548
+00:25:46,140 --> 00:25:50,820
+uma Sprint para a gente tem que entregar
+
+549
+00:25:48,059 --> 00:25:52,950
+valor para o cliente toda semana né como
+
+550
+00:25:50,819 --> 00:25:55,109
+é que a gente consegue justificar isso o
+
+551
+00:25:52,950 --> 00:25:56,970
+nosso gerente que nosso cliente é papel
+
+552
+00:25:55,109 --> 00:25:58,529
+do desenvolvedor que eu tenho Olha eu
+
+553
+00:25:56,970 --> 00:26:01,319
+tenho que me preocupar com isso papel do
+
+554
+00:25:58,529 --> 00:26:05,819
+arquiteto é de quem tem quem tem esse
+
+555
+00:26:01,319 --> 00:26:08,129
+chapéu aí de ficar visionando o projeto
+
+556
+00:26:05,819 --> 00:26:10,589
+com relação a essas decisões que Sem
+
+557
+00:26:08,130 --> 00:26:13,080
+dúvida nenhuma bons e feitas mais que
+
+558
+00:26:10,589 --> 00:26:15,750
+não são imediatas é o arquiteto
+
+559
+00:26:13,079 --> 00:26:18,599
+certamente né ele tem que tem que levar
+
+560
+00:26:15,750 --> 00:26:20,609
+isso em consideração eu acho que ele
+
+561
+00:26:18,599 --> 00:26:23,939
+seria o principal responsável mas
+
+562
+00:26:20,609 --> 00:26:26,189
+realmente é muito difícil você vender
+
+563
+00:26:23,940 --> 00:26:28,630
+para um gerente ou para o responsável
+
+564
+00:26:26,190 --> 00:26:31,259
+pelo projeto a ter
+
+565
+00:26:28,630 --> 00:26:35,530
+em cima de uma determinada a mudança que
+
+566
+00:26:31,259 --> 00:26:39,970
+podem não vir a se tornar realidade tá
+
+567
+00:26:35,529 --> 00:26:44,920
+mas nesse caso de freio deguy frame de
+
+568
+00:26:39,970 --> 00:26:47,829
+persistência eu considero que seria um
+
+569
+00:26:44,920 --> 00:26:50,380
+erro tem uma falha é muito grande por
+
+570
+00:26:47,829 --> 00:26:52,869
+parte do gerente não entender que isso
+
+571
+00:26:50,380 --> 00:26:55,270
+vai acontecer é isso daí eu tenho uma
+
+572
+00:26:52,869 --> 00:26:57,549
+história que mostra que isso tá
+
+573
+00:26:55,269 --> 00:27:00,879
+acontecendo o tempo todo tá então acho
+
+574
+00:26:57,549 --> 00:27:02,799
+que seria um erro bastante grande não
+
+575
+00:27:00,880 --> 00:27:07,050
+considera a isso agora para outros tipos
+
+576
+00:27:02,799 --> 00:27:10,450
+de mudança e realmente existe essa
+
+577
+00:27:07,049 --> 00:27:13,029
+discussão entre hora você vai ter
+
+578
+00:27:10,450 --> 00:27:15,130
+certeza que isso vai mudar então você
+
+579
+00:27:13,029 --> 00:27:17,710
+quer mais uma camada de software aqui
+
+580
+00:27:15,130 --> 00:27:21,700
+você quer uma estruturação mais complexa
+
+581
+00:27:17,710 --> 00:27:25,539
+para permitir que isso vai mudar ou você
+
+582
+00:27:21,700 --> 00:27:28,640
+adota a filosofia agiu por exemplo de
+
+583
+00:27:25,539 --> 00:27:30,950
+que quando chegar essa nesse
+
+584
+00:27:28,640 --> 00:27:33,290
+o que eu vou adequar meu sistema para
+
+585
+00:27:30,950 --> 00:27:35,720
+isto se realmente tem que ter um
+
+586
+00:27:33,289 --> 00:27:39,049
+equilíbrio aí de como tomar essa decisão
+
+587
+00:27:35,720 --> 00:27:41,900
+de quando tomar essa decisão mas é
+
+588
+00:27:39,049 --> 00:27:46,369
+importante a ver se a equilíbrio né o
+
+589
+00:27:41,900 --> 00:27:49,730
+seu necessariamente e você não descartar
+
+590
+00:27:46,369 --> 00:27:52,000
+todas essas possibilidades de mudança
+
+591
+00:27:49,730 --> 00:27:54,799
+mas também não necessariamente você
+
+592
+00:27:52,000 --> 00:27:56,038
+aceitar todas essas possibilidades de
+
+593
+00:27:54,799 --> 00:28:00,019
+mudança
+
+594
+00:27:56,038 --> 00:28:00,019
+E aí
+
+595
+00:28:01,960 --> 00:28:33,190
+e você Tem trabalhado mais recentemente
+
+596
+00:28:30,880 --> 00:28:35,640
+com problema de conflitos de merge você
+
+597
+00:28:33,190 --> 00:28:38,490
+pode explicar o que seria este problema
+
+598
+00:28:35,640 --> 00:28:40,680
+é essencialmente um problema de
+
+599
+00:28:38,490 --> 00:28:42,420
+integração de código e que está
+
+600
+00:28:40,680 --> 00:28:44,039
+extremamente relacionado com
+
+601
+00:28:42,420 --> 00:28:46,140
+modularidade porque lembra que como a
+
+602
+00:28:44,039 --> 00:28:47,609
+gente viu uma dualidade eu um dos
+
+603
+00:28:46,140 --> 00:28:49,759
+aspectos importantes para de
+
+604
+00:28:47,609 --> 00:28:51,959
+modularidade e você possa habilitar o
+
+605
+00:28:49,759 --> 00:28:55,589
+desenvolvimento independente das partes
+
+606
+00:28:51,960 --> 00:28:58,380
+grande problema é que se eu conseguisse
+
+607
+00:28:55,589 --> 00:29:00,029
+com frequência dividir as atividades da
+
+608
+00:28:58,380 --> 00:29:02,280
+minha equipe de desenvolvimento em
+
+609
+00:29:00,029 --> 00:29:05,250
+módulos de forma que uma determinada
+
+610
+00:29:02,279 --> 00:29:06,990
+pessoa só trabalha no módulo outro
+
+611
+00:29:05,250 --> 00:29:09,150
+determinado a pessoa só trabalho em
+
+612
+00:29:06,990 --> 00:29:11,490
+outro módulo eu nunca teria esse
+
+613
+00:29:09,150 --> 00:29:13,800
+problema de integração de código pelo
+
+614
+00:29:11,490 --> 00:29:17,970
+menos no nível sintático Mas isso não
+
+615
+00:29:13,799 --> 00:29:21,409
+acontece em muitas situações a estrutura
+
+616
+00:29:17,970 --> 00:29:25,170
+das tarefas de desenvolvimento de soft a
+
+617
+00:29:21,410 --> 00:29:28,259
+estrutura das demandas feitas pelas
+
+618
+00:29:25,170 --> 00:29:31,710
+equipes de negócio elas não estão
+
+619
+00:29:28,259 --> 00:29:34,279
+alinhadas com a estrutura dos módulos do
+
+620
+00:29:31,710 --> 00:29:35,650
+sistema Então vai chegar a necessidade
+
+621
+00:29:34,279 --> 00:29:38,349
+de
+
+622
+00:29:35,650 --> 00:29:41,700
+e terminada a tarefa naquele projeto e
+
+623
+00:29:38,349 --> 00:29:44,199
+aquela tarefa para ser realizada requer
+
+624
+00:29:41,700 --> 00:29:47,529
+mudanças em mais de um moto então não
+
+625
+00:29:44,200 --> 00:29:50,799
+existe um mapeamento um-para-um entre as
+
+626
+00:29:47,529 --> 00:29:54,420
+tarefas e os módulos do sistema como não
+
+627
+00:29:50,799 --> 00:29:57,700
+existe isso fica muito difícil você
+
+628
+00:29:54,420 --> 00:30:00,220
+garante que tarefas diferentes serão
+
+629
+00:29:57,700 --> 00:30:03,910
+dadas para pessoas diferentes e elas não
+
+630
+00:30:00,220 --> 00:30:07,390
+vão afetar os mesmos modos não vão
+
+631
+00:30:03,910 --> 00:30:09,750
+exigir mudanças nos mesmos modos e é daí
+
+632
+00:30:07,390 --> 00:30:13,570
+onde surgem os conflitos de merge
+
+633
+00:30:09,750 --> 00:30:16,750
+conflitos puramente textuais acontecem
+
+634
+00:30:13,569 --> 00:30:20,349
+quando dois desenvolvedores alteram o
+
+635
+00:30:16,750 --> 00:30:22,470
+mesmo arquivo a mesma classe ao mesmo
+
+636
+00:30:20,349 --> 00:30:25,599
+tempo né Em cada um em seus repositórios
+
+637
+00:30:22,470 --> 00:30:28,779
+Independentes mas quando vai juntar vai
+
+638
+00:30:25,599 --> 00:30:32,109
+integrar as mudanças desse desse Japão
+
+639
+00:30:28,779 --> 00:30:34,389
+se tornem Independentes os conflitos
+
+640
+00:30:32,109 --> 00:30:35,659
+aparecem tá então problema não é
+
+641
+00:30:34,390 --> 00:30:39,620
+essencialmente de má
+
+642
+00:30:35,660 --> 00:30:41,450
+E aí mas não relacionado com mecanismos
+
+643
+00:30:39,619 --> 00:30:45,199
+linguísticos das linguagens de
+
+644
+00:30:41,450 --> 00:30:47,870
+programação um problema gerencial de
+
+645
+00:30:45,200 --> 00:30:50,930
+integração Nicole tampa extremamente
+
+646
+00:30:47,869 --> 00:30:53,029
+relacionado e os conflitos textuais eles
+
+647
+00:30:50,930 --> 00:30:56,930
+que são os mais simples eles ocorrem
+
+648
+00:30:53,029 --> 00:30:59,660
+quando dois envolvedores alteram áreas
+
+649
+00:30:56,930 --> 00:31:02,769
+contíguas do mesmo arquivo de uma mesma
+
+650
+00:30:59,660 --> 00:31:06,640
+classe que aí o sistema não tem como
+
+651
+00:31:02,769 --> 00:31:10,490
+decidir como de forma não ambígua
+
+652
+00:31:06,640 --> 00:31:13,100
+escolher uma solução para gerar o
+
+653
+00:31:10,490 --> 00:31:15,079
+arquivo final que integra as mudanças
+
+654
+00:31:13,099 --> 00:31:18,019
+dos dois envolvedores então esse é o
+
+655
+00:31:15,079 --> 00:31:21,079
+problema mais simples de integração de
+
+656
+00:31:18,019 --> 00:31:23,389
+código que é o conflito de merge textual
+
+657
+00:31:21,079 --> 00:31:25,699
+mais o conflito pode ser semelhante
+
+658
+00:31:23,390 --> 00:31:28,240
+esses conflitos semânticos eles são bem
+
+659
+00:31:25,700 --> 00:31:32,059
+mais complicados eles ocorrem também
+
+660
+00:31:28,240 --> 00:31:34,910
+mesmo que a gente tivesse uma situação
+
+661
+00:31:32,059 --> 00:31:35,639
+de mapeamento um-para-um entre tarefas e
+
+662
+00:31:34,910 --> 00:31:38,670
+módulos
+
+663
+00:31:35,640 --> 00:31:40,770
+o que a interface entre os módulos ela
+
+664
+00:31:38,670 --> 00:31:43,560
+tipicamente especificada de maneira
+
+665
+00:31:40,769 --> 00:31:46,980
+puramente sintática dizendo Qual o tipo
+
+666
+00:31:43,559 --> 00:31:49,019
+do nome do serviço Qual o nome do método
+
+667
+00:31:46,980 --> 00:31:53,610
+que vai ser chamado para os parâmetros
+
+668
+00:31:49,019 --> 00:31:56,700
+que esse serviço vai receber na tipo de
+
+669
+00:31:53,609 --> 00:31:59,519
+retorno e assim por diante mas não vai
+
+670
+00:31:56,700 --> 00:32:02,370
+muito mais além disso então pode haver
+
+671
+00:31:59,519 --> 00:32:05,039
+esses problemas semânticos Mas eles
+
+672
+00:32:02,369 --> 00:32:08,359
+ocorrem também nessa situação mais comum
+
+673
+00:32:05,039 --> 00:32:11,250
+e que eu falei que a situação que
+
+674
+00:32:08,359 --> 00:32:12,659
+desenvolvedores diferentes estão mexendo
+
+675
+00:32:11,250 --> 00:32:16,589
+no mesmo arquivo ou em arquivos
+
+676
+00:32:12,660 --> 00:32:18,600
+dependentes E aí pode haver esse tipo de
+
+677
+00:32:16,589 --> 00:32:21,209
+problema bem interessante Então fica
+
+678
+00:32:18,599 --> 00:32:24,149
+claro que confio simerj tem muita
+
+679
+00:32:21,210 --> 00:32:27,090
+relação com o modularidade Mas a questão
+
+680
+00:32:24,150 --> 00:32:29,070
+que que vem à nossa mente aqui da equipe
+
+681
+00:32:27,089 --> 00:32:31,709
+do fronteiras é se os desenvolvedores
+
+682
+00:32:29,069 --> 00:32:33,720
+fossem mais disciplinados com a
+
+683
+00:32:31,710 --> 00:32:35,650
+modularidade de seu sistema será que
+
+684
+00:32:33,720 --> 00:32:38,289
+eles teriam menos problemas de Mary
+
+685
+00:32:35,650 --> 00:32:40,870
+as práticas de integração contínua não
+
+686
+00:32:38,289 --> 00:32:42,970
+deveriam diminuir estes problemas tá
+
+687
+00:32:40,869 --> 00:32:47,250
+internet então se esse é um problema
+
+688
+00:32:42,970 --> 00:32:50,079
+Adolfo que parte dele Pode até ser
+
+689
+00:32:47,250 --> 00:32:52,660
+negligência dos desenvolvedores mas com
+
+690
+00:32:50,079 --> 00:32:56,250
+frequência não é com frequência é um
+
+691
+00:32:52,660 --> 00:32:59,830
+problema de distribuição de tarefas e
+
+692
+00:32:56,250 --> 00:33:02,769
+desalinhamento de tarefas em relação à
+
+693
+00:32:59,829 --> 00:33:06,849
+estrutura modular do sistema é um
+
+694
+00:33:02,769 --> 00:33:10,240
+problema muito mais de que às vezes numa
+
+695
+00:33:06,849 --> 00:33:14,079
+determinada num determinado projeto ou
+
+696
+00:33:10,240 --> 00:33:17,650
+não consigo distribuir as tarefas de
+
+697
+00:33:14,079 --> 00:33:20,289
+forma aqui desenvolvedores diferentes
+
+698
+00:33:17,650 --> 00:33:22,750
+não mexam nos mesmos arquivos ou em
+
+699
+00:33:20,289 --> 00:33:26,859
+arquivos dependente é muito mais um
+
+700
+00:33:22,750 --> 00:33:29,410
+problema às vezes gerencial e muitas
+
+701
+00:33:26,859 --> 00:33:32,049
+vezes não é nenhum problema gerenciar um
+
+702
+00:33:29,410 --> 00:33:34,779
+problema que vem de negócio mesmo a
+
+703
+00:33:32,049 --> 00:33:35,659
+demanda de negócio que naquela situação
+
+704
+00:33:34,779 --> 00:33:39,289
+é
+
+705
+00:33:35,660 --> 00:33:42,650
+um Solitário eu implementar algumas
+
+706
+00:33:39,289 --> 00:33:46,250
+Fitness algumas funcionalidades e o
+
+707
+00:33:42,650 --> 00:33:48,259
+gerente não tem como naquela interação
+
+708
+00:33:46,250 --> 00:33:50,660
+distribuir para desenvolvedores
+
+709
+00:33:48,259 --> 00:33:53,480
+diferentes tarefas que focam em partes
+
+710
+00:33:50,660 --> 00:33:55,310
+diferentes do sistema então é inevitável
+
+711
+00:33:53,480 --> 00:33:58,579
+Em algumas situações isso porque ele não
+
+712
+00:33:55,309 --> 00:34:01,220
+tem como você pedir para o negócio mudar
+
+713
+00:33:58,579 --> 00:34:03,289
+as prioridades dele num determinado
+
+714
+00:34:01,220 --> 00:34:04,870
+contexto mas as vezes é negligência
+
+715
+00:34:03,289 --> 00:34:07,039
+também então se você tem um determinado
+
+716
+00:34:04,869 --> 00:34:11,239
+desenvolvedor que sem combinar com
+
+717
+00:34:07,039 --> 00:34:13,639
+ninguém decide renomear ou mudar toda a
+
+718
+00:34:11,239 --> 00:34:15,678
+indentação do código parte isso vai
+
+719
+00:34:13,639 --> 00:34:18,259
+gerar uma série de conflitos que
+
+720
+00:34:15,679 --> 00:34:21,019
+poderiam ter sido evitados mas muitas
+
+721
+00:34:18,260 --> 00:34:23,630
+vezes é um problema ou gerencial que a
+
+722
+00:34:21,019 --> 00:34:26,329
+distribuição de tarefas pelo gerente ou
+
+723
+00:34:23,630 --> 00:34:29,090
+pela equipe em equipes que são Auto
+
+724
+00:34:26,329 --> 00:34:31,130
+gerenciáveis ela não foi feita de
+
+725
+00:34:29,090 --> 00:34:33,559
+maneira adequada Em algumas situações
+
+726
+00:34:31,130 --> 00:34:35,640
+até inevitável ó eu conheço um pouco
+
+727
+00:34:33,559 --> 00:34:38,400
+seus trabalhos sobre esses problemas
+
+728
+00:34:35,639 --> 00:34:40,319
+o fêmur e eu sei que tem diferentes
+
+729
+00:34:38,400 --> 00:34:43,430
+tipos de problemas de conflitos de Mor
+
+730
+00:34:40,320 --> 00:34:46,890
+já né tem o meu semi-estruturado tem o
+
+731
+00:34:43,429 --> 00:34:49,319
+estruturado tem o meu G semântico mas
+
+732
+00:34:46,889 --> 00:34:51,599
+muito fracamente eu não sei bem a
+
+733
+00:34:49,320 --> 00:34:53,519
+diferença entre esses diferentes tipos
+
+734
+00:34:51,599 --> 00:34:55,110
+de nerd né você assim que poderia
+
+735
+00:34:53,519 --> 00:34:59,099
+primeiro te explicar a diferença entre
+
+736
+00:34:55,110 --> 00:35:01,590
+esses tipos de segundo eles impactam que
+
+737
+00:34:59,099 --> 00:35:03,929
+maneira diferente o programador o
+
+738
+00:35:01,590 --> 00:35:05,250
+desenvolvimento de software ou de
+
+739
+00:35:03,929 --> 00:35:07,619
+maneira geral e como transparente
+
+740
+00:35:05,250 --> 00:35:11,099
+programador Sim eles não são
+
+741
+00:35:07,619 --> 00:35:12,869
+transparentes Gustavo e é importante a
+
+742
+00:35:11,099 --> 00:35:15,539
+gente entender que o problema de
+
+743
+00:35:12,869 --> 00:35:19,349
+integração de o problema de mexe é
+
+744
+00:35:15,539 --> 00:35:20,880
+essencialmente você conciliar mudanças
+
+745
+00:35:19,349 --> 00:35:25,759
+que foram feitas por pessoas diferentes
+
+746
+00:35:20,880 --> 00:35:28,500
+de forma a você tem um programa
+
+747
+00:35:25,760 --> 00:35:31,570
+resultante que um é sintaticamente
+
+748
+00:35:28,500 --> 00:35:34,739
+inválido e 2
+
+749
+00:35:31,570 --> 00:35:38,650
+e ele preserva as mudanças semânticas
+
+750
+00:35:34,739 --> 00:35:41,369
+feitas pelos desenvolvedores Não é esse
+
+751
+00:35:38,650 --> 00:35:45,010
+o problema de forma geral é esse daí
+
+752
+00:35:41,369 --> 00:35:48,670
+agora tem várias técnicas para facilitar
+
+753
+00:35:45,010 --> 00:35:52,450
+para resolver de forma mais afetiva
+
+754
+00:35:48,670 --> 00:35:55,599
+esses problemas e as técnicas Aí sim tem
+
+755
+00:35:52,449 --> 00:35:59,379
+a ver com o mej estruturado o semi
+
+756
+00:35:55,599 --> 00:36:02,349
+estruturado E aí por diante tá então
+
+757
+00:35:59,380 --> 00:36:06,640
+mexe estruturado e sem estruturado são
+
+758
+00:36:02,349 --> 00:36:10,409
+técnicas que são baseadas na estrutura
+
+759
+00:36:06,639 --> 00:36:14,429
+sintática da linguagem de programação
+
+760
+00:36:10,409 --> 00:36:18,328
+e essa estrutura é utilizada para de
+
+761
+00:36:14,429 --> 00:36:20,519
+forma mais eficaz conciliar as mudanças
+
+762
+00:36:18,329 --> 00:36:24,298
+vão invés de entender as mudanças
+
+763
+00:36:20,519 --> 00:36:26,780
+simplesmente como linhas adicionadas e
+
+764
+00:36:24,298 --> 00:36:29,130
+removidas por um determinado
+
+765
+00:36:26,780 --> 00:36:34,010
+desenvolvedor gente passa ver as
+
+766
+00:36:29,130 --> 00:36:36,298
+mudanças como nós de árvores simpáticas
+
+767
+00:36:34,010 --> 00:36:38,369
+adicionados ou removidos por um
+
+768
+00:36:36,298 --> 00:36:41,788
+desenvolvedor a estudar uma melhor
+
+769
+00:36:38,369 --> 00:36:45,048
+acurácia na realização do México é um
+
+770
+00:36:41,789 --> 00:36:48,030
+problema ou separar ia em um problema de
+
+771
+00:36:45,048 --> 00:36:51,869
+preservar assim táxi e preservar a
+
+772
+00:36:48,030 --> 00:36:54,809
+semântica e aí tem técnicas que sim aí
+
+773
+00:36:51,869 --> 00:36:57,480
+são as ferramentas estruturadas as
+
+774
+00:36:54,809 --> 00:37:00,210
+ferramentas sem estruturadas são
+
+775
+00:36:57,480 --> 00:37:03,329
+técnicas diferentes para tentar resolver
+
+776
+00:37:00,210 --> 00:37:06,298
+esse problema de forma mais eficaz e o
+
+777
+00:37:03,329 --> 00:37:08,760
+número de semântico eu acho que esse não
+
+778
+00:37:06,298 --> 00:37:10,420
+dá não ficou muito claro é o médio e
+
+779
+00:37:08,760 --> 00:37:13,869
+semântico na verdade Denon
+
+780
+00:37:10,420 --> 00:37:17,139
+um novo tipo de ferramenta tá que tem
+
+781
+00:37:13,869 --> 00:37:19,900
+como objetivo detectar essa
+
+782
+00:37:17,139 --> 00:37:22,420
+interferência semântica entre as
+
+783
+00:37:19,900 --> 00:37:25,269
+mudanças feitas pelos desenvolvedores
+
+784
+00:37:22,420 --> 00:37:27,039
+que trabalharam de forma independente e
+
+785
+00:37:25,269 --> 00:37:29,858
+agora a gente precisa integrar o código
+
+786
+00:37:27,039 --> 00:37:32,318
+que eles fizeram o médico e textual e o
+
+787
+00:37:29,858 --> 00:37:35,259
+Maggi estruturado e o semi-estruturado
+
+788
+00:37:32,318 --> 00:37:37,480
+tem como objetivo principal obter como
+
+789
+00:37:35,260 --> 00:37:39,609
+resultado um programa que é
+
+790
+00:37:37,480 --> 00:37:42,490
+sintaticamente inválido o médico e
+
+791
+00:37:39,608 --> 00:37:45,308
+semântico ele ataca o outro aspecto que
+
+792
+00:37:42,489 --> 00:37:48,009
+é eu quero não só um programa que seja
+
+793
+00:37:45,309 --> 00:37:50,500
+sintaticamente Vale do que incorpore as
+
+794
+00:37:48,010 --> 00:37:53,260
+mudanças dos vários desenvolvedores mas
+
+795
+00:37:50,500 --> 00:37:56,108
+eu quero também tenho certeza e a
+
+796
+00:37:53,260 --> 00:37:59,619
+integração dessas mudanças não vai gerar
+
+797
+00:37:56,108 --> 00:38:02,909
+problemas semânticos no comportamento do
+
+798
+00:37:59,619 --> 00:38:06,000
+sistema no sentido de que um determinado
+
+799
+00:38:02,909 --> 00:38:08,920
+desenvolvedor pode ter por exemplo
+
+800
+00:38:06,000 --> 00:38:10,429
+alterado uma variável que vai ser lida
+
+801
+00:38:08,920 --> 00:38:12,829
+pelo código foi
+
+802
+00:38:10,429 --> 00:38:14,899
+o outro desenvolvedor e que tinha como
+
+803
+00:38:12,829 --> 00:38:16,369
+para mim só um valor diferente para
+
+804
+00:38:14,900 --> 00:38:19,190
+aquela variar Então isso é o que a gente
+
+805
+00:38:16,369 --> 00:38:21,858
+chama interferência mudança feita pelo
+
+806
+00:38:19,190 --> 00:38:25,730
+determinado desenvolvedor vai interferir
+
+807
+00:38:21,858 --> 00:38:28,730
+vai mudar o comportamento a intenção que
+
+808
+00:38:25,730 --> 00:38:30,500
+o outro desenvolvedor teve quando estava
+
+809
+00:38:28,730 --> 00:38:33,338
+realizando uma determinada mudanças no
+
+810
+00:38:30,500 --> 00:38:36,230
+código tá aí a gente tem as ferramentas
+
+811
+00:38:33,338 --> 00:38:38,750
+textuais para integração de código para
+
+812
+00:38:36,230 --> 00:38:41,269
+mês de código e ferramentas sintáticas
+
+813
+00:38:38,750 --> 00:38:43,909
+next nas estruturadas as sem
+
+814
+00:38:41,269 --> 00:38:47,389
+estruturadas e as ferramentas semânticas
+
+815
+00:38:43,909 --> 00:38:51,139
+que tentam e um passo além e detectar
+
+816
+00:38:47,389 --> 00:38:53,509
+não só essas incompatibilidades que
+
+817
+00:38:51,139 --> 00:38:56,929
+levam a um programa sintaticamente
+
+818
+00:38:53,510 --> 00:38:59,420
+inválido mas também há um programa
+
+819
+00:38:56,929 --> 00:39:03,139
+semanticamente inválido ou que não
+
+820
+00:38:59,420 --> 00:39:06,289
+respeita que não preserva as as
+
+821
+00:39:03,139 --> 00:39:08,449
+intenções das mudanças feitas pelos
+
+822
+00:39:06,289 --> 00:39:10,409
+vários desenvolvedores e Paulo você tem
+
+823
+00:39:08,449 --> 00:39:12,689
+vários trabalhos sobre esses problemas
+
+824
+00:39:10,409 --> 00:39:14,779
+o conflito de Mogi né E você tem um
+
+825
+00:39:12,690 --> 00:39:19,159
+trabalho recente chamado the Impact of
+
+826
+00:39:14,780 --> 00:39:22,470
+structure um software bim tem Street vs
+
+827
+00:39:19,159 --> 00:39:24,899
+structure virgem Você pode falar um
+
+828
+00:39:22,469 --> 00:39:26,308
+pouco sobre esse trabalho é me parece
+
+829
+00:39:24,900 --> 00:39:28,710
+que vocês fizeram um estudo empírico
+
+830
+00:39:26,309 --> 00:39:30,630
+aqui é um trabalho bem recente pode dar
+
+831
+00:39:28,710 --> 00:39:32,909
+uma descrição rápida para nossa somente
+
+832
+00:39:30,630 --> 00:39:36,298
+puxar ver esse trabalho bem interessante
+
+833
+00:39:32,909 --> 00:39:39,469
+assim eu fiquei bem satisfeito com o
+
+834
+00:39:36,298 --> 00:39:42,358
+resultado dele principalmente porque na
+
+835
+00:39:39,469 --> 00:39:45,899
+literatura de média de integração de
+
+836
+00:39:42,358 --> 00:39:49,199
+código sempre existiu a premissa de
+
+837
+00:39:45,900 --> 00:39:51,329
+quanto mais estrutura você coloca numa
+
+838
+00:39:49,199 --> 00:39:53,429
+ferramenta ele mede quanto mais
+
+839
+00:39:51,329 --> 00:39:56,400
+estrutura uma ferramenta de merge
+
+840
+00:39:53,429 --> 00:40:00,149
+explora da linguagem que você está
+
+841
+00:39:56,400 --> 00:40:03,480
+processando mais acurácia você vai ter
+
+842
+00:40:00,150 --> 00:40:06,930
+na realização do mej - falsos positivos
+
+843
+00:40:03,480 --> 00:40:09,179
+na e menos falso-negativos vão ser
+
+844
+00:40:06,929 --> 00:40:10,419
+gerados pela sua ferramenta de mexe
+
+845
+00:40:09,179 --> 00:40:13,808
+então a ideia
+
+846
+00:40:10,420 --> 00:40:17,079
+o e desse o resultado principal deste
+
+847
+00:40:13,809 --> 00:40:19,869
+trabalho é que ele mostra aqui essa
+
+848
+00:40:17,079 --> 00:40:22,480
+premissa que historicamente as pessoas
+
+849
+00:40:19,869 --> 00:40:25,210
+tinham se baseado nela por muito tempo
+
+850
+00:40:22,480 --> 00:40:27,639
+mais de 30 anos se assumir isso que
+
+851
+00:40:25,210 --> 00:40:30,579
+quanto mais estrutura você coloca na
+
+852
+00:40:27,639 --> 00:40:33,250
+ferramenta melhor é a ferramenta de mexe
+
+853
+00:40:30,579 --> 00:40:37,839
+esse trabalho vai na direção contrária e
+
+854
+00:40:33,250 --> 00:40:40,659
+mostra que sim a um certo ganho quando
+
+855
+00:40:37,838 --> 00:40:42,940
+você adiciona estrutura mas estrutura
+
+856
+00:40:40,659 --> 00:40:46,179
+demais pode atrapalhar então é esse
+
+857
+00:40:42,940 --> 00:40:49,210
+artigo ele mostra aqui as ferramentas
+
+858
+00:40:46,179 --> 00:40:51,848
+sem estruturadas que tem menos que
+
+859
+00:40:49,210 --> 00:40:55,119
+explora - estrutura que as ferramentas
+
+860
+00:40:51,849 --> 00:40:59,410
+estruturadas tem benefícios em algumas
+
+861
+00:40:55,119 --> 00:41:03,730
+situações site então isso reverte um
+
+862
+00:40:59,409 --> 00:41:06,548
+pouco a expectativa da comunidade que as
+
+863
+00:41:03,730 --> 00:41:10,429
+ferramentas estruturadas elas por
+
+864
+00:41:06,548 --> 00:41:14,889
+explorarem mais estrutura elas natural
+
+865
+00:41:10,429 --> 00:41:18,769
+os melhores seriam mais precisas nas
+
+866
+00:41:14,889 --> 00:41:22,210
+integrações de colo aí a gente faz um
+
+867
+00:41:18,769 --> 00:41:24,889
+estudo empírico para comparar essas
+
+868
+00:41:22,210 --> 00:41:27,139
+ferramentas ferramenta estruturada e a
+
+869
+00:41:24,889 --> 00:41:30,250
+semi estruturadas em estruturada foi
+
+870
+00:41:27,139 --> 00:41:33,108
+construída no nosso grupo de pesquisa a
+
+871
+00:41:30,250 --> 00:41:36,380
+estruturada construída no grupo de
+
+872
+00:41:33,108 --> 00:41:38,119
+pesquisa alemão que é que participou
+
+873
+00:41:36,380 --> 00:41:40,400
+também da elaboração desse trabalho
+
+874
+00:41:38,119 --> 00:41:45,500
+então foi isso tudo bem interessante
+
+875
+00:41:40,400 --> 00:41:48,619
+onde a gente tem não só a discussão dos
+
+876
+00:41:45,500 --> 00:41:51,500
+algoritmos e das ideias as diferenças
+
+877
+00:41:48,619 --> 00:41:55,760
+entre as ferramentas mas esse resultado
+
+878
+00:41:51,500 --> 00:41:58,369
+que vai contra um entendimento comum que
+
+879
+00:41:55,760 --> 00:42:01,309
+a gente tinha há muito tempo na área que
+
+880
+00:41:58,369 --> 00:42:03,890
+era que quanto mais estrutura a
+
+881
+00:42:01,309 --> 00:42:06,790
+ferramenta de mexe explora melhor
+
+882
+00:42:03,889 --> 00:42:06,789
+resultado
+
+883
+00:42:09,400 --> 00:42:16,829
+a fábrica de casamento
+
+884
+00:42:22,039 --> 00:42:35,059
+Oi Paulo você tem vestido recentemente
+
+885
+00:42:32,900 --> 00:42:37,430
+na criação de ferramentas que dão apoio
+
+886
+00:42:35,059 --> 00:42:40,429
+a estas atividades de resolução de
+
+887
+00:42:37,429 --> 00:42:42,799
+conflitos emerge Qual é a sua visão com
+
+888
+00:42:40,429 --> 00:42:44,750
+relação a criação destas ferramentas A
+
+889
+00:42:42,800 --> 00:42:48,170
+ideia é fortalecer a relação com a
+
+890
+00:42:44,750 --> 00:42:50,809
+prática cindo foi essas essa realmente
+
+891
+00:42:48,170 --> 00:42:53,740
+há uma forte motivação com as
+
+892
+00:42:50,809 --> 00:42:58,190
+ferramentas a gente tem a possibilidade
+
+893
+00:42:53,739 --> 00:43:00,349
+de impactar diretamente a prática de
+
+894
+00:42:58,190 --> 00:43:03,320
+integração de código na indústria mas
+
+895
+00:43:00,349 --> 00:43:07,489
+também tem uma motivação anterior isso
+
+896
+00:43:03,320 --> 00:43:10,070
+que é advali as ideias que vão surgindo
+
+897
+00:43:07,489 --> 00:43:12,379
+na nossa pesquisa que primeiro a gente
+
+898
+00:43:10,070 --> 00:43:15,500
+realizou uma série de estudos empíricos
+
+899
+00:43:12,380 --> 00:43:18,680
+para entender o problema mais uma vez o
+
+900
+00:43:15,500 --> 00:43:21,079
+problema distando entendido de no
+
+901
+00:43:18,679 --> 00:43:22,049
+sentido de Com que frequência os
+
+902
+00:43:21,079 --> 00:43:24,840
+conflitos ocorrem
+
+903
+00:43:22,050 --> 00:43:28,140
+e quais são os tipos de conflito Quais
+
+904
+00:43:24,840 --> 00:43:31,110
+são os fatores de projeto que podem
+
+905
+00:43:28,139 --> 00:43:34,710
+aumentar a chance de haver conflito de
+
+906
+00:43:31,110 --> 00:43:38,309
+mexe uma vez tendo esse entendimento a
+
+907
+00:43:34,710 --> 00:43:40,260
+gente tem o interesse em resolver o
+
+908
+00:43:38,309 --> 00:43:42,750
+problema temos um entendimento do
+
+909
+00:43:40,260 --> 00:43:45,570
+problema mas precisamos agora nessa fase
+
+910
+00:43:42,750 --> 00:43:50,510
+da pesquisa resolveu o problema e não
+
+911
+00:43:45,570 --> 00:43:53,519
+tem como a gente avaliar empiricamente a
+
+912
+00:43:50,510 --> 00:43:56,190
+capacidade o potencial da nossa solução
+
+913
+00:43:53,519 --> 00:43:59,009
+para resolver o problema sem implementar
+
+914
+00:43:56,190 --> 00:44:01,289
+uma ferramenta então processo natural de
+
+915
+00:43:59,010 --> 00:44:03,630
+primeiro realizar estudos empíricos para
+
+916
+00:44:01,289 --> 00:44:05,789
+entender o problema depois procurou uma
+
+917
+00:44:03,630 --> 00:44:08,490
+solução e essa solução necessariamente
+
+918
+00:44:05,789 --> 00:44:11,670
+passa pela criação de uma ferramenta e
+
+919
+00:44:08,489 --> 00:44:14,009
+em seguida um outro processo de estudo
+
+920
+00:44:11,670 --> 00:44:16,050
+empírico para avaliar ferramenta já
+
+921
+00:44:14,010 --> 00:44:18,630
+estão esse mais ou menos o caminho da
+
+922
+00:44:16,050 --> 00:44:21,480
+pesquisa que a gente vem realizando e eu
+
+923
+00:44:18,630 --> 00:44:22,030
+gosto de fazer o ciclo todo da pesquisa
+
+924
+00:44:21,480 --> 00:44:25,119
+desde
+
+925
+00:44:22,030 --> 00:44:28,150
+E aí Tudo problema passando pela solução
+
+926
+00:44:25,119 --> 00:44:31,389
+pela proposta da solução e avaliação da
+
+927
+00:44:28,150 --> 00:44:33,130
+solução qual você tá muitas décadas já
+
+928
+00:44:31,389 --> 00:44:35,170
+envolvido com a nossa comunidade de
+
+929
+00:44:33,130 --> 00:44:37,570
+engenharia de software né falou Deca nós
+
+930
+00:44:35,170 --> 00:44:39,789
+porque você mesmo comentou alguns anos
+
+931
+00:44:37,570 --> 00:44:42,550
+aí ele tá trabalhando com formação
+
+932
+00:44:39,789 --> 00:44:44,469
+profissional e modularidade e eu não
+
+933
+00:44:42,550 --> 00:44:46,390
+preciso nem comentar o status atual de
+
+934
+00:44:44,469 --> 00:44:49,449
+uma situação aqui mas me parece que
+
+935
+00:44:46,389 --> 00:44:50,829
+mesmo de por causa mesmo por conta de
+
+936
+00:44:49,449 --> 00:44:53,619
+tudo que tá acontecendo Outra Vez por
+
+937
+00:44:50,829 --> 00:44:55,170
+conta e tudo que tá acontecendo parece
+
+938
+00:44:53,619 --> 00:44:59,440
+que a comunidade ela tem se fortalecido
+
+939
+00:44:55,170 --> 00:45:01,780
+né Você tem alguma intuição de porque é
+
+940
+00:44:59,440 --> 00:45:04,990
+essa comunidade cresceu tanto nos
+
+941
+00:45:01,780 --> 00:45:07,750
+últimos anos até eu acho que ela tem se
+
+942
+00:45:04,989 --> 00:45:10,389
+fortalecido têm obtido uma visibilidade
+
+943
+00:45:07,750 --> 00:45:12,670
+internacional bem maior do que a gente
+
+944
+00:45:10,389 --> 00:45:16,509
+já teve antes eu acho que isso é uma
+
+945
+00:45:12,670 --> 00:45:19,860
+tendência da própria comunidade foi
+
+946
+00:45:16,510 --> 00:45:22,040
+sendo fortalecida ao longo dos anos né
+
+947
+00:45:19,860 --> 00:45:27,220
+gerações de professores
+
+948
+00:45:22,039 --> 00:45:29,929
+as dores e alunos na E aí cada vez mais
+
+949
+00:45:27,219 --> 00:45:32,539
+caminhando na direção de obter uma
+
+950
+00:45:29,929 --> 00:45:35,929
+excelência na pesquisa também com a
+
+951
+00:45:32,539 --> 00:45:39,949
+relevância e é econômica e social então
+
+952
+00:45:35,929 --> 00:45:41,139
+aqui isso é uma tendência da comunidade
+
+953
+00:45:39,949 --> 00:45:44,689
+agora eu acho que ela tem sido
+
+954
+00:45:41,139 --> 00:45:47,029
+fortalecida não necessariamente e por
+
+955
+00:45:44,690 --> 00:45:49,880
+conta da situação atual mas talvez
+
+956
+00:45:47,030 --> 00:45:54,140
+apesar da situação atual talvez se a
+
+957
+00:45:49,880 --> 00:45:56,480
+situação fosse um pouco mais favorável
+
+958
+00:45:54,139 --> 00:45:59,029
+para pesquisa a nossa comunidade tivesse
+
+959
+00:45:56,480 --> 00:46:01,519
+mais forte ainda então a minha visão é
+
+960
+00:45:59,030 --> 00:46:05,810
+mais nesse sentido de que a comunidade
+
+961
+00:46:01,519 --> 00:46:08,539
+se fortaleceu apesar dos problemas pelos
+
+962
+00:46:05,809 --> 00:46:11,719
+pais nós temos passado e apesar pelas
+
+963
+00:46:08,539 --> 00:46:15,110
+dificuldades que a gente tem tido para
+
+964
+00:46:11,719 --> 00:46:20,109
+fazer pesquisa no Brasil e eu acredito
+
+965
+00:46:15,110 --> 00:46:22,050
+isso esse crescimento da comunidade a um
+
+966
+00:46:20,110 --> 00:46:26,070
+crescimento
+
+967
+00:46:22,050 --> 00:46:29,550
+e da capacidade de fazer pesquisa de
+
+968
+00:46:26,070 --> 00:46:31,740
+excelência de se inserir imagem Na
+
+969
+00:46:29,550 --> 00:46:34,350
+Comunidade Internacional Então hoje a
+
+970
+00:46:31,739 --> 00:46:36,449
+gente tem vários professores brasileiros
+
+971
+00:46:34,349 --> 00:46:40,400
+trabalhando no exterior como próprio
+
+972
+00:46:36,449 --> 00:46:44,159
+Fábio então isso ajuda nesse processo de
+
+973
+00:46:40,400 --> 00:46:46,110
+inserção e também vários pesquisadores e
+
+974
+00:46:44,159 --> 00:46:49,259
+professores no Brasil que tentaram se
+
+975
+00:46:46,110 --> 00:46:50,849
+inserir nessas comunidades nos
+
+976
+00:46:49,260 --> 00:46:53,720
+congressos de primeira linha
+
+977
+00:46:50,849 --> 00:46:56,880
+internacional através de cooperação
+
+978
+00:46:53,719 --> 00:46:59,009
+publicações nesses congressos e assim
+
+979
+00:46:56,880 --> 00:47:01,710
+por diante e isso abriu espaço para os
+
+980
+00:46:59,010 --> 00:47:04,580
+próprios alunos terão uma formação de
+
+981
+00:47:01,710 --> 00:47:07,559
+melhor qualidade Hoje os alunos é como
+
+982
+00:47:04,579 --> 00:47:10,559
+Gustavo Leonardo aqui estão tendo a
+
+983
+00:47:07,559 --> 00:47:14,099
+oportunidade de alcançar um nível de
+
+984
+00:47:10,559 --> 00:47:17,808
+visibilidade de realização de pesquisa
+
+985
+00:47:14,099 --> 00:47:20,598
+de excelência que antes não era possível
+
+986
+00:47:17,809 --> 00:47:22,489
+e para gerações anteriores não acho que
+
+987
+00:47:20,599 --> 00:47:26,298
+isso é uma tendência natural fico muito
+
+988
+00:47:22,489 --> 00:47:29,958
+feliz com ela e tu acha que a comunidade
+
+989
+00:47:26,298 --> 00:47:32,538
+está de parabéns por ter possibilitado e
+
+990
+00:47:29,958 --> 00:47:37,058
+ter realizado esse crescimento que a
+
+991
+00:47:32,539 --> 00:47:37,059
+gente vem observando nos últimos tempos
+
+992
+00:47:41,449 --> 00:47:43,509
+E aí
+
+993
+00:47:47,268 --> 00:47:51,329
+E aí
+
+994
+00:47:49,269 --> 00:47:51,329
+E aí
+
+995
+00:47:53,619 --> 00:47:58,110
+E aí
+
+996
+00:47:54,690 --> 00:47:58,110
+[Música]
+
+997
+00:48:00,760 --> 00:48:10,140
+E aí
+
+998
+00:48:12,548 --> 00:48:22,478
+São Paulo para você qual é a próxima
+
+999
+00:48:19,659 --> 00:48:25,239
+fronteira da engenharia de software não
+
+1000
+00:48:22,478 --> 00:48:28,558
+sei exatamente eu acho que tentar prever
+
+1001
+00:48:25,239 --> 00:48:31,239
+o futuro né normalmente é um ato de você
+
+1002
+00:48:28,559 --> 00:48:33,999
+inventar o futuro ou tentar inventar o
+
+1003
+00:48:31,239 --> 00:48:37,719
+futuro e o que eu gostaria de tentar
+
+1004
+00:48:33,998 --> 00:48:39,998
+inventar seria do ponto de vista de
+
+1005
+00:48:37,719 --> 00:48:42,909
+engenharia de sofre mais relacionada à
+
+1006
+00:48:39,998 --> 00:48:45,998
+modularidade seria perspectiva a
+
+1007
+00:48:42,909 --> 00:48:49,078
+possibilidade da gente ter ferramentas
+
+1008
+00:48:45,998 --> 00:48:53,228
+ambiente desenvolvimento que permitam
+
+1009
+00:48:49,079 --> 00:48:56,499
+várias visões modulares do sistema é
+
+1010
+00:48:53,228 --> 00:48:59,828
+algo que já vem sendo pesquisado já foi
+
+1011
+00:48:56,498 --> 00:49:01,958
+proposto tempos atrás mas não virou
+
+1012
+00:48:59,829 --> 00:49:04,059
+realidade ainda então do ponto de vista
+
+1013
+00:49:01,958 --> 00:49:07,149
+de modularidade e eu gostaria de ter um
+
+1014
+00:49:04,059 --> 00:49:09,849
+ambiente e desenvolvimento em que eu
+
+1015
+00:49:07,150 --> 00:49:12,068
+solicito agora eu quero ver uma divisão
+
+1016
+00:49:09,849 --> 00:49:12,530
+no meu sistema em camadas não agora
+
+1017
+00:49:12,068 --> 00:49:16,099
+quero ver
+
+1018
+00:49:12,530 --> 00:49:19,460
+a visão do meu sistema in features eu
+
+1019
+00:49:16,099 --> 00:49:22,549
+quero ver as dependências desta Fit em
+
+1020
+00:49:19,460 --> 00:49:24,679
+relação a outras e o próprio ambiente me
+
+1021
+00:49:22,550 --> 00:49:27,289
+permite isso porque a visão atual é
+
+1022
+00:49:24,679 --> 00:49:29,719
+muito baseada nos mecanismos
+
+1023
+00:49:27,289 --> 00:49:33,139
+linguísticos das linguagens de
+
+1024
+00:49:29,719 --> 00:49:34,730
+programação não gostaria de ir além
+
+1025
+00:49:33,139 --> 00:49:37,190
+porque eu acho que internos de
+
+1026
+00:49:34,730 --> 00:49:39,199
+mecanismos linguísticos já avançamos
+
+1027
+00:49:37,190 --> 00:49:43,220
+bastante e talvez a gente tenha chegado
+
+1028
+00:49:39,199 --> 00:49:47,980
+perto de um teto aí então agora seria
+
+1029
+00:49:43,219 --> 00:49:50,899
+Perspectiva da gente ir além usando
+
+1030
+00:49:47,980 --> 00:49:52,900
+ferramentas não só ferramentas que
+
+1031
+00:49:50,900 --> 00:49:55,010
+facilitam a integração ao Hipódromo
+
+1032
+00:49:52,900 --> 00:49:57,260
+desenvolvimento independente que são
+
+1033
+00:49:55,010 --> 00:50:00,410
+essas ferramentas de Neve mas outros
+
+1034
+00:49:57,260 --> 00:50:02,720
+tipos de ferramentas que permitam os
+
+1035
+00:50:00,409 --> 00:50:04,460
+outros que cubram os outros dois
+
+1036
+00:50:02,719 --> 00:50:07,059
+aspectos que a gente comentou antes que
+
+1037
+00:50:04,460 --> 00:50:09,740
+a um entendimento independente EA
+
+1038
+00:50:07,059 --> 00:50:12,610
+modificação independente das partes do
+
+1039
+00:50:09,739 --> 00:50:16,449
+sistema Então essas ferramentas que
+
+1040
+00:50:12,610 --> 00:50:20,200
+e possibilitam que a gente tenha visões
+
+1041
+00:50:16,449 --> 00:50:25,799
+diferentes divisões modulares diferentes
+
+1042
+00:50:20,199 --> 00:50:30,389
+do sistema eu acho que é seria um bom
+
+1043
+00:50:25,800 --> 00:50:33,280
+seria um bom avanço um avanço importante
+
+1044
+00:50:30,389 --> 00:50:35,559
+nessa perspectiva de modularidade de
+
+1045
+00:50:33,280 --> 00:50:37,390
+sorte Muito obrigado Paulo Borba por
+
+1046
+00:50:35,559 --> 00:50:39,579
+esta presença aqui no Fronteiras da
+
+1047
+00:50:37,389 --> 00:50:42,789
+engenharia de software eu passo a
+
+1048
+00:50:39,579 --> 00:50:45,039
+palavra para você para você fazer suas
+
+1049
+00:50:42,789 --> 00:50:49,300
+palavras finais
+
+1050
+00:50:45,039 --> 00:50:52,150
+e Eu que agradeço Adolfo Gustavo é uma
+
+1051
+00:50:49,300 --> 00:50:54,670
+oportunidade realmente muito boa vocês
+
+1052
+00:50:52,150 --> 00:50:59,369
+estão de parabéns estou sempre
+
+1053
+00:50:54,670 --> 00:51:02,530
+disponível para eu sempre que vocês
+
+1054
+00:50:59,369 --> 00:51:06,250
+tiverem necessidade eu tiver interesse e
+
+1055
+00:51:02,530 --> 00:51:10,470
+entrevistar e eu admiro o trabalho de
+
+1056
+00:51:06,250 --> 00:51:14,019
+vocês principalmente num contexto onde a
+
+1057
+00:51:10,469 --> 00:51:16,839
+academia é cobrada muito pelas
+
+1058
+00:51:14,019 --> 00:51:21,969
+publicações Então você ter pessoas que
+
+1059
+00:51:16,840 --> 00:51:26,019
+investem em outros mecanismos de avanço
+
+1060
+00:51:21,969 --> 00:51:30,339
+como o podcast é realmente algo louvável
+
+1061
+00:51:26,019 --> 00:51:33,489
+e que eu admiro bastante e agradeço pelo
+
+1062
+00:51:30,340 --> 00:51:35,530
+esforço de vocês nessa direção que eu
+
+1063
+00:51:33,489 --> 00:51:38,859
+acho muito importante muito importante
+
+1064
+00:51:35,530 --> 00:51:41,320
+que agradece ser somos nós Paulo muito
+
+1065
+00:51:38,860 --> 00:51:43,450
+obrigado por toda essa conversa e muito
+
+1066
+00:51:41,320 --> 00:51:45,019
+obrigado por ter essa inspiração não só
+
+1067
+00:51:43,449 --> 00:51:48,379
+para mim mas acho que tá muito para nós
+
+1068
+00:51:45,018 --> 00:51:50,058
+e obrigado e para você tem na somente um
+
+1069
+00:51:48,380 --> 00:52:04,059
+abraço e até o próximo episódio do
+
+1070
+00:51:50,059 --> 00:52:15,819
+Fronteiras da engenharia de software II
+
+1071
+00:52:04,059 --> 00:52:18,430
+o Olá obrigado por escutar o Fronteiras
+
+1072
+00:52:15,818 --> 00:52:21,130
+da engenharia de software nossa equipe é
+
+1073
+00:52:18,429 --> 00:52:24,248
+formada por Adolfo Neto Eu Leonardo
+
+1074
+00:52:21,130 --> 00:52:27,548
+Fernandes Fábio petrillo Gustavo Pinto
+
+1075
+00:52:24,248 --> 00:52:30,548
+Danilo Monteiro e Ingrid Nunes estamos
+
+1076
+00:52:27,548 --> 00:52:34,469
+no Twitter e no Instagram como arroba
+
+1077
+00:52:30,548 --> 00:52:35,809
+fronteiras e essa até o próximo episódio
+
+1078
+00:52:34,469 --> 00:52:41,510
+abraços
+
+1079
+00:52:35,809 --> 00:52:41,509
+[Música]
+
+1080
+00:52:41,539 --> 00:52:45,279
+E aí
+
+1081
+00:52:42,199 --> 00:52:45,279
+[Música]

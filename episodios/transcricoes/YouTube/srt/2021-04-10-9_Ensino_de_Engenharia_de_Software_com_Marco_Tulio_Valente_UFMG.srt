@@ -1,0 +1,1999 @@
+1
+00:00:00,000 --> 00:00:25,018
+o pai um Olá o vídeo eu sou Adolfo Neto
+
+2
+00:00:22,890 --> 00:00:28,410
+professor da Universidade Tecnológica
+
+3
+00:00:25,018 --> 00:00:30,419
+Federal do Paraná e eu sou Gustavo Pinto
+
+4
+00:00:28,410 --> 00:00:32,880
+Professor aqui na Universidade Federal
+
+5
+00:00:30,420 --> 00:00:35,219
+do Pará e este éo Fronteiras da
+
+6
+00:00:32,880 --> 00:00:37,079
+engenharia de software um podcast feito
+
+7
+00:00:35,219 --> 00:00:39,629
+para refletir sobre o presente e futuro
+
+8
+00:00:37,079 --> 00:00:42,079
+da engenharia de software Fronteiras da
+
+9
+00:00:39,628 --> 00:00:44,699
+engenharia de software é um podcast
+
+10
+00:00:42,079 --> 00:00:46,950
+divulgação Científica que discutir
+
+11
+00:00:44,700 --> 00:00:49,289
+mensalmente diversificados temas da
+
+12
+00:00:46,950 --> 00:00:51,059
+engenharia do solo os episódios abordam
+
+13
+00:00:49,289 --> 00:00:53,698
+questões fundamentais Engenheiro
+
+14
+00:00:51,058 --> 00:00:57,890
+software até os mais recentes avanços na
+
+15
+00:00:53,698 --> 00:00:57,890
+área 1
+
+16
+00:00:58,100 --> 00:01:00,160
+E aí
+
+17
+00:01:02,619 --> 00:01:10,329
+olá bem-vindos ao nosso novo episódio e
+
+18
+00:01:08,590 --> 00:01:12,759
+hoje conversamos com Marco Túlio Valente
+
+19
+00:01:10,329 --> 00:01:14,500
+uma Fúria Doutor em Ciência da
+
+20
+00:01:12,759 --> 00:01:17,950
+Computação pela Federal de Minas Gerais
+
+21
+00:01:14,500 --> 00:01:20,170
+e hoje é professor associado também não
+
+22
+00:01:17,950 --> 00:01:22,600
+FG não departamento de ciência da
+
+23
+00:01:20,170 --> 00:01:24,189
+computação Marco tudo é possivelmente um
+
+24
+00:01:22,599 --> 00:01:26,228
+dos pesquisadores brasileiros mais
+
+25
+00:01:24,189 --> 00:01:28,689
+atuantes na engenharia de software hoje
+
+26
+00:01:26,228 --> 00:01:31,478
+em dia na UFMG ele coordena o grupo de
+
+27
+00:01:28,689 --> 00:01:34,390
+pesquisa applied software engineer M7
+
+28
+00:01:31,478 --> 00:01:36,819
+grupo o a segue e ele também é
+
+29
+00:01:34,390 --> 00:01:37,840
+responsável pelo Sesc ainda ex-br um
+
+30
+00:01:36,819 --> 00:01:39,728
+sistema que oferece informações
+
+31
+00:01:37,840 --> 00:01:42,250
+transparentes sobre a produção
+
+32
+00:01:39,728 --> 00:01:46,239
+científica brasileira em Ciência da
+
+33
+00:01:42,250 --> 00:01:48,700
+Computação em 2020 uma publicou 11
+
+34
+00:01:46,239 --> 00:01:51,039
+livros chamado engenharia de software
+
+35
+00:01:48,700 --> 00:01:54,310
+moderna e hoje oferece curso de extensão
+
+36
+00:01:51,039 --> 00:01:56,728
+na a temática do livro Marco Túlio Tem
+
+37
+00:01:54,310 --> 00:01:59,259
+trabalhado com diversos temas como
+
+38
+00:01:56,728 --> 00:02:02,599
+manutenção evolução e reengenharia de
+
+39
+00:01:59,259 --> 00:02:06,500
+software arquitetura e modularidade de
+
+40
+00:02:02,599 --> 00:02:09,409
+a qualidade de software Hoje vamos falar
+
+41
+00:02:06,500 --> 00:02:21,800
+sobre ensino de engenharia de software
+
+42
+00:02:09,409 --> 00:02:36,259
+Vem Com a Gente que vem você pode
+
+43
+00:02:21,800 --> 00:02:39,370
+apresentar para as pessoas que também é
+
+44
+00:02:36,259 --> 00:02:39,370
+[Música]
+
+45
+00:02:43,659 --> 00:02:46,849
+E aí
+
+46
+00:02:45,810 --> 00:02:49,140
+E aí
+
+47
+00:02:46,849 --> 00:02:53,280
+[Música]
+
+48
+00:02:49,139 --> 00:02:55,829
+oi oi Marco você escreveu recentemente
+
+49
+00:02:53,280 --> 00:02:57,530
+um livro é dinheiro só para o moderna a
+
+50
+00:02:55,830 --> 00:03:00,330
+gente vai já falar sobre esse lima daqui
+
+51
+00:02:57,530 --> 00:03:03,360
+alguns minutinhos mas antes de falar
+
+52
+00:03:00,330 --> 00:03:08,610
+sobre o livro é fala um pouco para gente
+
+53
+00:03:03,360 --> 00:03:10,560
+qual que é o desafio hoje com 21 esse lá
+
+54
+00:03:08,610 --> 00:03:12,900
+engenharia de software né são os mesmos
+
+55
+00:03:10,560 --> 00:03:16,439
+desafios tem tinha uma duas Décadas
+
+56
+00:03:12,900 --> 00:03:18,330
+atrás né o livro do prédio aí do seu meu
+
+57
+00:03:16,439 --> 00:03:20,129
+filho ainda são relevante né tem que tar
+
+58
+00:03:18,330 --> 00:03:25,290
+no dia a dia da cabeceira ali do
+
+59
+00:03:20,129 --> 00:03:27,120
+professor ou esse paradigma mudou e a
+
+60
+00:03:25,289 --> 00:03:29,400
+literatura é outra maneira de ensinar e
+
+61
+00:03:27,120 --> 00:03:30,840
+outras mas se você enxerga hoje eu mando
+
+62
+00:03:29,400 --> 00:03:37,650
+ele te ensino
+
+63
+00:03:30,840 --> 00:03:46,098
+é só eu acho que uma pergunta nada ouvir
+
+64
+00:03:37,650 --> 00:03:53,870
+mais é aqui desafios mais Rocker e
+
+65
+00:03:46,098 --> 00:03:58,818
+Chegamos aqui antes da eu acho que
+
+66
+00:03:53,870 --> 00:03:58,819
+alguns de todo o
+
+67
+00:04:14,580 --> 00:04:17,610
+[Música]
+
+68
+00:04:26,360 --> 00:04:36,520
+[Música]
+
+69
+00:04:30,848 --> 00:04:45,959
+o rei pede é Um Desafio dispositivo acho
+
+70
+00:04:36,519 --> 00:04:45,959
+mais é importante no mar ela se tornou o
+
+71
+00:04:56,660 --> 00:05:03,479
+[Música]
+
+72
+00:05:08,910 --> 00:05:11,929
+[Música]
+
+73
+00:05:30,829 --> 00:05:41,740
+a ouvir os comentários depois de umas
+
+74
+00:05:50,100 --> 00:05:53,189
+[Música]
+
+75
+00:05:55,569 --> 00:06:32,610
+ideias do aluno de graduação em
+
+76
+00:06:30,839 --> 00:06:35,159
+e para que eu queria saber de você se
+
+77
+00:06:32,610 --> 00:06:36,810
+houve alguma mudança no formato do
+
+78
+00:06:35,160 --> 00:06:39,750
+ensino de engenharia de software nos
+
+79
+00:06:36,810 --> 00:06:42,269
+últimos anos se sim Quais foram as
+
+80
+00:06:39,750 --> 00:06:44,639
+mudanças mais significativas aulas
+
+81
+00:06:42,269 --> 00:06:47,728
+expositivas que eu tive como aluno de
+
+82
+00:06:44,639 --> 00:06:52,079
+graduação de mestrado e o que eu fiz
+
+83
+00:06:47,728 --> 00:06:55,319
+como o professor ainda são padrão estão
+
+84
+00:06:52,079 --> 00:07:11,060
+como é que a gente pode entre "refatorar
+
+85
+00:06:55,319 --> 00:07:18,110
+isso aí pode pode estar trabalhando
+
+86
+00:07:11,060 --> 00:07:18,110
+tentando conectar com
+
+87
+00:07:22,910 --> 00:07:28,830
+[Música]
+
+88
+00:07:30,848 --> 00:07:49,740
+a utilização simples Alves de precisão
+
+89
+00:07:39,360 --> 00:07:49,740
+era a resposta é
+
+90
+00:08:02,740 --> 00:08:05,759
+[Música]
+
+91
+00:08:23,170 --> 00:08:26,199
+[Música]
+
+92
+00:08:30,829 --> 00:08:39,259
+e esse modelo Jeep professor falando
+
+93
+00:08:36,110 --> 00:08:45,769
+filme que é OK durante uma hora e
+
+94
+00:08:39,259 --> 00:08:48,200
+quarenta é o normal ao atingir esse
+
+95
+00:08:45,769 --> 00:08:53,149
+modelo está ultrapassado e a gente vai
+
+96
+00:08:48,200 --> 00:08:56,990
+tentar modelo era muito em algumas é uma
+
+97
+00:08:53,149 --> 00:08:59,659
+se sentir mas assim parece bastante
+
+98
+00:08:56,990 --> 00:09:01,730
+Claro falando um pouco mais de modelos
+
+99
+00:08:59,659 --> 00:09:03,379
+né a gente tem uma eterna briga aí
+
+100
+00:09:01,730 --> 00:09:05,060
+nadinha ele sofre hoje tentar se
+
+101
+00:09:03,379 --> 00:09:06,710
+aproximar da prática né a gente tem que
+
+102
+00:09:05,059 --> 00:09:08,899
+ensinar as tecnologias tem que nós
+
+103
+00:09:06,710 --> 00:09:12,350
+tremor mas também não pode largar a mão
+
+104
+00:09:08,899 --> 00:09:14,169
+da parte mais fundamental da teoria né
+
+105
+00:09:12,350 --> 00:09:17,330
+então uma disciplina de 60 horas
+
+106
+00:09:14,169 --> 00:09:20,299
+engenharia Skol como é que se divide mas
+
+107
+00:09:17,330 --> 00:09:22,040
+como é que você conseguia das forças que
+
+108
+00:09:20,299 --> 00:09:30,839
+são complementares e conflitantes com
+
+109
+00:09:22,039 --> 00:09:37,110
+seu organismo para disciplina e
+
+110
+00:09:30,840 --> 00:09:43,519
+o seu curso pode variar universais vou
+
+111
+00:09:37,110 --> 00:09:43,519
+falar o
+
+112
+00:09:50,529 --> 00:09:57,100
+[Música]
+
+113
+00:10:06,870 --> 00:10:09,940
+[Música]
+
+114
+00:10:30,850 --> 00:11:30,830
+Olá pessoal fina esta figura assim olha
+
+115
+00:10:40,269 --> 00:11:33,230
+só porque 121
+
+116
+00:11:30,830 --> 00:11:36,800
+eu comprei prints nariz entupido
+
+117
+00:11:33,230 --> 00:11:41,960
+Stephanie projeto Este Lugar todas as
+
+118
+00:11:36,799 --> 00:11:47,169
+faixas agressivas existe esse processo é
+
+119
+00:11:41,960 --> 00:11:47,170
+fácil é que é
+
+120
+00:11:53,909 --> 00:11:57,959
+[Música]
+
+121
+00:12:12,529 --> 00:12:15,589
+[Música]
+
+122
+00:12:30,840 --> 00:12:42,330
+Oi Márcia eu também tenho carro Se
+
+123
+00:12:34,919 --> 00:12:44,759
+quiser muito bom e continuando a falar
+
+124
+00:12:42,330 --> 00:12:48,090
+em prática de saber como é que você
+
+125
+00:12:44,759 --> 00:12:51,019
+escolhe as linguagens de programação C
+
+126
+00:12:48,090 --> 00:12:53,639
+amor etc a gente sabe que eles vão mudar
+
+127
+00:12:51,019 --> 00:12:55,620
+todo ano praticamente às vezes menos
+
+128
+00:12:53,639 --> 00:12:59,220
+disso né que é muito difícil para nós
+
+129
+00:12:55,620 --> 00:13:01,980
+professores uma termos atualizados todos
+
+130
+00:12:59,220 --> 00:13:04,009
+eles ao mesmo tempo a pilha de
+
+131
+00:13:01,980 --> 00:13:07,560
+tecnologia que você usa nas disciplinas
+
+132
+00:13:04,009 --> 00:13:09,960
+muda ao longo do tempo e se muda como é
+
+133
+00:13:07,559 --> 00:13:12,929
+que a gente dá apoio tecnológico aos
+
+134
+00:13:09,960 --> 00:13:15,320
+alunos também estão difícil né as
+
+135
+00:13:12,929 --> 00:13:18,509
+questões sobre esse tema é sofre na
+
+136
+00:13:15,320 --> 00:13:23,340
+relação que se faz isso eles possa e
+
+137
+00:13:18,509 --> 00:13:29,580
+totalmente fechadas proteger desafio tá
+
+138
+00:13:23,340 --> 00:13:30,850
+botei um tem problema agora é o seguinte
+
+139
+00:13:29,580 --> 00:14:09,750
+é o quê
+
+140
+00:13:30,850 --> 00:14:09,750
+em alguns se no final Pois é não é
+
+141
+00:14:11,850 --> 00:14:14,918
+[Música]
+
+142
+00:14:30,830 --> 00:14:51,259
+e é melhor salvos então não Não sai vou
+
+143
+00:14:36,950 --> 00:15:30,840
+fazer tomate ou da empresa onde empresa
+
+144
+00:14:51,259 --> 00:15:52,100
+a 1
+
+145
+00:15:30,840 --> 00:15:58,850
+é Nossa responsabilidade isso é problema
+
+146
+00:15:52,100 --> 00:16:08,159
+[Música]
+
+147
+00:15:58,850 --> 00:16:13,200
+teu você já deu entender que você usa
+
+148
+00:16:08,159 --> 00:16:18,199
+algum tem Sprint né tem essas figuras do
+
+149
+00:16:13,200 --> 00:16:25,129
+plano é o pior né É você pudesse ficar
+
+150
+00:16:18,200 --> 00:16:27,390
+difícil para gente sair elas são três
+
+151
+00:16:25,129 --> 00:16:30,330
+tomar um pouquinho pra gente cinco
+
+152
+00:16:27,389 --> 00:16:30,850
+práticas que não podem ficar de fora no
+
+153
+00:16:30,330 --> 00:17:30,829
+seu cu
+
+154
+00:16:30,850 --> 00:17:43,909
+é só querer quais seriam essas partes a
+
+155
+00:17:30,829 --> 00:18:01,240
+o projeto é citar fé sem obra estuda e
+
+156
+00:17:43,909 --> 00:18:04,390
+uma parte 1
+
+157
+00:18:01,240 --> 00:18:06,640
+e é foram alto aqui fórum para 15
+
+158
+00:18:04,390 --> 00:18:10,390
+certinho né e integração contínua né
+
+159
+00:18:06,640 --> 00:18:13,270
+eles não encaixa somente as outras que
+
+160
+00:18:10,390 --> 00:18:17,470
+você englobou never maturação testes ele
+
+161
+00:18:13,269 --> 00:18:22,089
+sai né e não ambiente né tipo de projeto
+
+162
+00:18:17,470 --> 00:18:24,610
+ágil muito bom então Marco todo esse
+
+163
+00:18:22,089 --> 00:18:28,419
+material que existe hoje disponível na
+
+164
+00:18:24,609 --> 00:18:32,439
+internet tutoriais vídeos e certo é
+
+165
+00:18:28,420 --> 00:18:34,720
+mesmo livros gratuitos é eles ajudam na
+
+166
+00:18:32,440 --> 00:18:37,000
+formação do engenheiro de software Ou
+
+167
+00:18:34,720 --> 00:18:39,490
+eles devem ser vistos como material
+
+168
+00:18:37,000 --> 00:18:42,119
+complementar enquanto a formação
+
+169
+00:18:39,490 --> 00:18:46,289
+principal continua sendo na universidade
+
+170
+00:18:42,119 --> 00:18:50,609
+chegou a formação Universitária ela é
+
+171
+00:18:46,289 --> 00:18:56,558
+imprescidível engraçados internamente
+
+172
+00:18:50,609 --> 00:19:09,148
+competente e fez um
+
+173
+00:18:56,558 --> 00:19:09,148
+eu não tenho por ela é
+
+174
+00:19:16,470 --> 00:19:19,538
+[Música]
+
+175
+00:19:27,380 --> 00:19:37,210
+e essa informação vídeos legais de bom
+
+176
+00:19:38,450 --> 00:19:46,090
+[Música]
+
+177
+00:19:44,650 --> 00:19:54,179
+aí
+
+178
+00:19:46,089 --> 00:19:54,178
+eu acho que você sabe me falar se o
+
+179
+00:19:54,519 --> 00:20:02,190
+[Música]
+
+180
+00:20:10,940 --> 00:20:14,078
+[Música]
+
+181
+00:20:46,099 --> 00:21:30,939
+a bomba mas eu acho que essa conversa de
+
+182
+00:21:24,829 --> 00:21:34,250
+prática de ensino a gente tem visto que
+
+183
+00:21:30,940 --> 00:21:37,669
+alguns professores eles tem uma
+
+184
+00:21:34,250 --> 00:21:40,700
+estratégia é um pouco diferente por
+
+185
+00:21:37,669 --> 00:21:43,580
+exemplo conheço um empresário uma
+
+186
+00:21:40,700 --> 00:21:45,259
+empresa que tá com uma dificuldade e eu
+
+187
+00:21:43,579 --> 00:21:46,079
+chamo de empresário para sala de aula
+
+188
+00:21:45,259 --> 00:21:48,419
+fazer
+
+189
+00:21:46,079 --> 00:21:51,139
+é um dos trabalhos do problema daqui
+
+190
+00:21:48,419 --> 00:21:53,850
+empresário mas sim pesado ele pode ser
+
+191
+00:21:51,140 --> 00:21:55,320
+visto como um coringa é um empresário
+
+192
+00:21:53,849 --> 00:21:56,939
+pode ser um outro professor que tem um
+
+193
+00:21:55,319 --> 00:21:59,849
+laboratório aqui que quer trocar um
+
+194
+00:21:56,940 --> 00:22:02,840
+projetinho ou o empresário poderá ser
+
+195
+00:21:59,849 --> 00:22:05,009
+visto um projeto ele software livre que
+
+196
+00:22:02,839 --> 00:22:07,379
+tá sempre aguardando o nosso
+
+197
+00:22:05,009 --> 00:22:09,480
+contribuidores né e a função dos alunos
+
+198
+00:22:07,380 --> 00:22:11,970
+é tá trabalhando no contexto da
+
+199
+00:22:09,480 --> 00:22:15,179
+disciplina né para aquelas necessidades
+
+200
+00:22:11,970 --> 00:22:17,850
+de mercado né ou para as necessidades do
+
+201
+00:22:15,179 --> 00:22:20,580
+projeto software livre né mas a minha
+
+202
+00:22:17,849 --> 00:22:22,589
+pergunta é isso até o beijo com muitas
+
+203
+00:22:20,579 --> 00:22:25,259
+implicações por exemplo a disciplina ela
+
+204
+00:22:22,589 --> 00:22:27,178
+curta né tem que conciliar um bocado de
+
+205
+00:22:25,259 --> 00:22:28,740
+carga horária de teoria você já começou
+
+206
+00:22:27,179 --> 00:22:31,440
+no final da disciplina de gerentes
+
+207
+00:22:28,740 --> 00:22:33,538
+Foster oitenta por cento da teoria né
+
+208
+00:22:31,440 --> 00:22:36,480
+outras pessoas devem é tem um monte de
+
+209
+00:22:33,538 --> 00:22:38,940
+balanceamento mas tem que conciliar de
+
+210
+00:22:36,480 --> 00:22:41,069
+alguma forma né minha pergunta é faz
+
+211
+00:22:38,940 --> 00:22:42,690
+sentido a gente trazer esses projectos
+
+212
+00:22:41,069 --> 00:22:45,079
+em que a gente vai ter te falado already
+
+213
+00:22:42,690 --> 00:22:46,090
+for aguardando a gente não vai inserindo
+
+214
+00:22:45,079 --> 00:22:50,408
+né
+
+215
+00:22:46,089 --> 00:22:53,918
+E aí é de grande para os alunos ali de
+
+216
+00:22:50,409 --> 00:22:55,690
+passei a machista seja finalmente É sim
+
+217
+00:22:53,919 --> 00:22:58,419
+lá o dia-a-dia da frase interesses tem
+
+218
+00:22:55,690 --> 00:23:01,150
+que entregar sorte o as coisas pegando
+
+219
+00:22:58,419 --> 00:23:02,950
+fogo né mas assim não contestou a
+
+220
+00:23:01,150 --> 00:23:05,409
+disciplina é isso faz sentido essas
+
+221
+00:23:02,950 --> 00:23:08,230
+práticas como é que você enxerga isso e
+
+222
+00:23:05,409 --> 00:23:10,720
+uma outra pergunta muita gente avalia
+
+223
+00:23:08,230 --> 00:23:13,089
+essas coisas e isso faz aí é fácil
+
+224
+00:23:10,720 --> 00:23:15,730
+método de avaliação né esse tipo de
+
+225
+00:23:13,089 --> 00:23:19,028
+trabalho a gente poderia considerar como
+
+226
+00:23:15,730 --> 00:23:21,180
+um projeto como uma atividade é este tem
+
+227
+00:23:19,028 --> 00:23:29,390
+condições de avaliar isso
+
+228
+00:23:21,180 --> 00:24:09,380
+e eu acho que ir buscar o próximo
+
+229
+00:23:29,390 --> 00:24:09,380
+desculpa resposta é
+
+230
+00:24:09,740 --> 00:24:12,788
+[Música]
+
+231
+00:24:17,960 --> 00:24:21,028
+[Música]
+
+232
+00:24:21,159 --> 00:24:33,359
+um pouco de criança não foi ao dentista
+
+233
+00:24:28,558 --> 00:24:33,358
+porque você já é
+
+234
+00:24:34,029 --> 00:24:37,088
+[Música]
+
+235
+00:24:42,240 --> 00:24:45,278
+[Música]
+
+236
+00:24:49,319 --> 00:24:52,358
+[Música]
+
+237
+00:24:58,410 --> 00:25:01,439
+[Música]
+
+238
+00:25:10,859 --> 00:25:13,949
+[Música]
+
+239
+00:25:14,410 --> 00:25:17,490
+E aí
+
+240
+00:25:36,630 --> 00:25:39,769
+[Música]
+
+241
+00:25:44,769 --> 00:25:47,879
+[Música]
+
+242
+00:25:53,539 --> 00:25:57,509
+[Música]
+
+243
+00:26:14,390 --> 00:26:25,270
+e para essa receita de governo só mais
+
+244
+00:26:22,269 --> 00:26:25,269
+um
+
+245
+00:26:26,130 --> 00:26:29,169
+[Música]
+
+246
+00:26:36,950 --> 00:26:40,749
+[Música]
+
+247
+00:26:58,829 --> 00:27:06,470
+[Música]
+
+248
+00:27:14,400 --> 00:27:59,830
+fala mais comigo né
+
+249
+00:27:57,190 --> 00:28:01,900
+É mas você não acha que isso seja mais a
+
+250
+00:27:59,829 --> 00:28:04,149
+nível de pós-graduação do que a nível de
+
+251
+00:28:01,900 --> 00:28:06,130
+graduação dado até a dedicação que os
+
+252
+00:28:04,150 --> 00:28:08,259
+alunos deveriam ter mas eu falo
+
+253
+00:28:06,130 --> 00:28:12,330
+pós-graduação de especialização na
+
+254
+00:28:08,259 --> 00:28:12,329
+frente mestrados doutorados em
+
+255
+00:28:23,180 --> 00:28:26,288
+[Música]
+
+256
+00:28:35,339 --> 00:28:38,389
+[Música]
+
+257
+00:28:40,839 --> 00:28:43,919
+[Música]
+
+258
+00:28:49,460 --> 00:28:52,519
+[Música]
+
+259
+00:28:57,170 --> 00:29:14,450
+se você não marco então a gente tá
+
+260
+00:29:12,529 --> 00:29:18,349
+conversando aqui para quem foram os
+
+261
+00:29:14,450 --> 00:29:21,410
+escutar no futuro começo de 2021 a gente
+
+262
+00:29:18,349 --> 00:29:23,480
+está no meio de uma pandemia o quê que
+
+263
+00:29:21,410 --> 00:29:26,960
+isso afetou ensino da engenharia de
+
+264
+00:29:23,480 --> 00:29:30,049
+software e as dificuldades de ensino
+
+265
+00:29:26,960 --> 00:29:33,740
+remotos são as mesmas na sua visão para
+
+266
+00:29:30,049 --> 00:29:39,730
+qualquer área da Computação a eu quiser
+
+267
+00:29:33,740 --> 00:29:48,920
+importa não conhecida e gastos da remota
+
+268
+00:29:39,730 --> 00:29:55,069
+o barrado o outro não uma vida física
+
+269
+00:29:48,920 --> 00:29:57,180
+trocar eu eu acho que muitos colegas
+
+270
+00:29:55,069 --> 00:30:57,189
+estudantes e não consertou
+
+271
+00:29:57,180 --> 00:31:57,170
+eu abrir Dá para nada mas é um
+
+272
+00:30:57,190 --> 00:32:56,779
+e eu vou dormir mais um trabalho é
+
+273
+00:31:57,170 --> 00:33:47,380
+em baixo qual é responder a
+
+274
+00:32:56,779 --> 00:33:47,379
+em metais e
+
+275
+00:33:51,599 --> 00:34:06,769
+[Música]
+
+276
+00:33:56,789 --> 00:34:06,769
+se você tem que pular o a maneira pornô
+
+277
+00:34:07,480 --> 00:34:19,980
+[Música]
+
+278
+00:34:09,050 --> 00:34:21,539
+aqui aproveitando esse contexto todo de
+
+279
+00:34:19,980 --> 00:34:25,079
+professores final tão satisfeito com as
+
+280
+00:34:21,539 --> 00:34:28,710
+disciplinas em qual eu e você pode ir
+
+281
+00:34:25,079 --> 00:34:31,319
+explicar um pouquinho mais do modelo da
+
+282
+00:34:28,710 --> 00:34:34,139
+disciplina remota ou melhor ainda Achou
+
+283
+00:34:31,320 --> 00:34:36,870
+as principais mudanças que você teve que
+
+284
+00:34:34,139 --> 00:34:39,509
+adotar o que meu ensinou como dizer
+
+285
+00:34:36,869 --> 00:34:41,880
+adicionar o seu fazer assim e nesse não
+
+286
+00:34:39,510 --> 00:34:46,290
+remoto eu tive que mudar esses dois três
+
+287
+00:34:41,880 --> 00:34:48,500
+agentes aqui para que ser ficar modelo
+
+288
+00:34:46,289 --> 00:34:51,440
+mais assim como você disse machuca
+
+289
+00:34:48,500 --> 00:34:56,769
+climaticamente Quais foram as mudanças
+
+290
+00:34:51,440 --> 00:34:59,170
+para falar com
+
+291
+00:34:56,769 --> 00:35:01,440
+o que faz aqui a primeira coisa que eu
+
+292
+00:34:59,170 --> 00:35:16,068
+acho que tem uma proteção
+
+293
+00:35:01,440 --> 00:35:16,068
+Oi gente assistir filme é um
+
+294
+00:35:23,150 --> 00:36:23,160
+e não Delta x azul quer dizer isso mas
+
+295
+00:35:31,039 --> 00:36:28,290
+eu acho que sim
+
+296
+00:36:23,159 --> 00:36:31,859
+a assistir nem faltar filho de uma
+
+297
+00:36:28,289 --> 00:36:34,400
+maneira de lidar ele disse desta
+
+298
+00:36:31,860 --> 00:36:38,550
+apresentação é uma prestação né
+
+299
+00:36:34,400 --> 00:36:42,110
+Professor sobre o nosso outra coisa toda
+
+300
+00:36:38,550 --> 00:36:51,530
+a senhora tem uma The Sims online via
+
+301
+00:36:42,110 --> 00:37:12,769
+unitiva e liberar sexta-feira pela
+
+302
+00:36:51,530 --> 00:37:26,140
+pontos e né semana são 21
+
+303
+00:37:12,769 --> 00:37:26,139
+o mal você tiver alguma coisa pois é
+
+304
+00:37:27,980 --> 00:37:31,050
+[Música]
+
+305
+00:37:33,309 --> 00:37:36,420
+[Música]
+
+306
+00:37:39,329 --> 00:37:45,840
+[Música]
+
+307
+00:37:53,139 --> 00:37:57,150
+[Música]
+
+308
+00:38:00,590 --> 00:38:13,160
+é e como é que você ver esse seu livro A
+
+309
+00:38:09,679 --> 00:38:15,739
+gente é o engenharia de software moderno
+
+310
+00:38:13,159 --> 00:38:17,389
+você acabou de citar né no contexto
+
+311
+00:38:15,739 --> 00:38:20,449
+atual da literatura que ensina
+
+312
+00:38:17,389 --> 00:38:23,509
+engenharia de software para ele ele para
+
+313
+00:38:20,449 --> 00:38:26,449
+você a culpa esse papel de leitura base
+
+314
+00:38:23,510 --> 00:38:29,000
+você acha que é para o seu curso que tem
+
+315
+00:38:26,449 --> 00:38:31,039
+um formato específico para deveria ser
+
+316
+00:38:29,000 --> 00:38:33,230
+para todos os cursos de gera de sofre
+
+317
+00:38:31,039 --> 00:38:34,909
+nas universidades brasileiras ou você
+
+318
+00:38:33,230 --> 00:38:44,329
+acha que ele é mais complementar a
+
+319
+00:38:34,909 --> 00:38:49,269
+outras leituras que negócio cidades mais
+
+320
+00:38:44,329 --> 00:38:49,269
+sério e
+
+321
+00:38:56,739 --> 00:38:59,849
+[Música]
+
+322
+00:39:00,599 --> 00:39:29,599
+eu não posso zap não sabe o que é mais
+
+323
+00:39:16,369 --> 00:39:40,199
+uma página é sobre você achar que ele é
+
+324
+00:39:29,599 --> 00:40:00,610
+complementar a outras leituras eu acho
+
+325
+00:39:40,199 --> 00:40:07,509
+que tem um
+
+326
+00:40:00,610 --> 00:40:12,990
+nós estamos na paz tô fazendo isso
+
+327
+00:40:07,510 --> 00:41:00,040
+descansar por meio de artigos didáticos
+
+328
+00:40:12,989 --> 00:41:02,289
+eles ele vai dessa vez ele não sabe o
+
+329
+00:41:00,039 --> 00:41:04,840
+Oi Má Colombo de toda essa conversa aqui
+
+330
+00:41:02,289 --> 00:41:06,519
+foi editado a gente falou sobre o livro
+
+331
+00:41:04,840 --> 00:41:09,130
+várias vezes né eu mesmo tenho a minha
+
+332
+00:41:06,519 --> 00:41:10,809
+conta aqui do livre e sou desses que usa
+
+333
+00:41:09,130 --> 00:41:13,300
+a parte de capítulo em algumas outras
+
+334
+00:41:10,809 --> 00:41:16,509
+disciplinas de engenharia de software né
+
+335
+00:41:13,300 --> 00:41:18,100
+é falando um pouco mais sobre o livro né
+
+336
+00:41:16,510 --> 00:41:21,340
+não mais sobre em cima de maneira geral
+
+337
+00:41:18,099 --> 00:41:23,589
+ou foi a sua inspiração Ok acordei hoje
+
+338
+00:41:21,340 --> 00:41:26,980
+de manhã vou fazer um nível que sofre
+
+339
+00:41:23,590 --> 00:41:29,890
+por ter base né da onde veio essa
+
+340
+00:41:26,980 --> 00:41:32,440
+chamado né É eu sei que você já deve ter
+
+341
+00:41:29,889 --> 00:41:35,049
+respondido isso e outros locais né mas
+
+342
+00:41:32,440 --> 00:41:36,519
+porque engenharia de software moderna O
+
+343
+00:41:35,050 --> 00:41:42,210
+que que é uma engenharia de software
+
+344
+00:41:36,519 --> 00:41:42,210
+moderna perguntas a primeira delas é
+
+345
+00:41:52,489 --> 00:42:06,500
+a verdade simples estudar não começo da
+
+346
+00:41:58,070 --> 00:42:52,470
+disciplina eu não quis assim que sabia
+
+347
+00:42:06,500 --> 00:43:52,480
+já tá você quer que já sabe que não é
+
+348
+00:42:52,469 --> 00:44:11,769
+o meu Deus esse papel e não é
+
+349
+00:43:52,480 --> 00:44:14,139
+e ele também posso mais complicada aí ó
+
+350
+00:44:11,769 --> 00:44:30,670
+o hospital
+
+351
+00:44:14,139 --> 00:44:34,598
+Olá neste momento e tal então Marcos
+
+352
+00:44:30,670 --> 00:44:37,150
+você falou essa questão do livro e eu vi
+
+353
+00:44:34,599 --> 00:44:40,990
+aqui no site daqui e foi alto e
+
+354
+00:44:37,150 --> 00:44:44,318
+publicado né começa experiência alto
+
+355
+00:44:40,989 --> 00:44:46,088
+publicado para quem não sabe mas não
+
+356
+00:44:44,318 --> 00:44:48,460
+procuram a editora uma editora não se
+
+357
+00:44:46,088 --> 00:44:51,429
+procurou para para você publicar você
+
+358
+00:44:48,460 --> 00:44:53,710
+mesmo que tomou todas a iniciativa de
+
+359
+00:44:51,429 --> 00:44:55,529
+publicar o livro e disponibilizar os
+
+360
+00:44:53,710 --> 00:45:20,059
+sites como é que foi essa experiência
+
+361
+00:44:55,530 --> 00:45:20,060
+e vamos amigos e
+
+362
+00:45:20,130 --> 00:45:23,209
+[Música]
+
+363
+00:45:31,949 --> 00:45:35,009
+[Música]
+
+364
+00:45:55,510 --> 00:46:10,590
+e é isso se inscrever no canal qualquer
+
+365
+00:46:10,739 --> 00:46:13,799
+[Música]
+
+366
+00:46:19,429 --> 00:46:22,539
+[Música]
+
+367
+00:46:29,420 --> 00:46:32,519
+[Música]
+
+368
+00:46:54,510 --> 00:47:55,530
+um
+
+369
+00:46:55,519 --> 00:48:04,538
+o áudio e
+
+370
+00:47:55,530 --> 00:49:04,548
+Oi gostosa Oi
+
+371
+00:48:04,539 --> 00:49:15,140
+e tem que comprar o material Alves a
+
+372
+00:49:04,548 --> 00:49:16,699
+o judiciário máquina uma curiosidade é
+
+373
+00:49:15,139 --> 00:49:18,858
+eu tenho visto algumas pessoas
+
+374
+00:49:16,699 --> 00:49:21,199
+comentarem que depois que você escrever
+
+375
+00:49:18,858 --> 00:49:22,670
+um livro Ou você quer escrever outro
+
+376
+00:49:21,199 --> 00:49:23,989
+correndo ou você nunca mais quer
+
+377
+00:49:22,670 --> 00:49:26,630
+escrever outro livro em qual categoria
+
+378
+00:49:23,989 --> 00:49:37,389
+você se percebe Eu acho que o sono em
+
+379
+00:49:26,630 --> 00:49:37,390
+dia as duas É isso aí não acho que eu
+
+380
+00:49:37,748 --> 00:49:48,259
+acho que você gostaria de um ótimo mas
+
+381
+00:49:43,278 --> 00:49:51,858
+dá um amor além do livro né das suas
+
+382
+00:49:48,259 --> 00:49:54,798
+aulas da UFMG você também tá capim curso
+
+383
+00:49:51,858 --> 00:49:56,630
+de extensão em engenharia de software e
+
+384
+00:49:54,798 --> 00:49:59,059
+eu acho que mais recentemente um teste
+
+385
+00:49:56,630 --> 00:50:02,449
+de software também né você consegue
+
+386
+00:49:59,059 --> 00:50:04,559
+explicar a gente Qual é o objetivo desse
+
+387
+00:50:02,449 --> 00:50:07,769
+curso qual que é o público-alvo é
+
+388
+00:50:04,559 --> 00:50:09,180
+os seus alunos da UFMG ou os
+
+389
+00:50:07,768 --> 00:50:11,698
+profissionais que querem alguma
+
+390
+00:50:09,179 --> 00:50:13,919
+atualização em alguma dessas áreas do
+
+391
+00:50:11,699 --> 00:50:18,028
+seu curso mas não enxerga lacuna que se
+
+392
+00:50:13,920 --> 00:50:20,789
+seu curso pobre só mais um segundo caso
+
+393
+00:50:18,028 --> 00:50:24,208
+entendeu segundo Senac recebe seu
+
+394
+00:50:20,789 --> 00:50:28,289
+público faz perna conte aqui tá
+
+395
+00:50:24,208 --> 00:50:35,669
+trabalhando e quer ingressar a ideia
+
+396
+00:50:28,289 --> 00:50:43,140
+surgiu no final eu acho que Deus
+
+397
+00:50:35,670 --> 00:51:04,539
+almoçando agora que a gente comentou uma
+
+398
+00:50:43,139 --> 00:51:15,088
+pessoa informática foi tão grande oferta
+
+399
+00:51:04,539 --> 00:51:15,089
+eu abrir um poço mas não é
+
+400
+00:51:19,239 --> 00:51:22,279
+[Música]
+
+401
+00:51:27,550 --> 00:51:43,199
+[Música]
+
+402
+00:51:54,309 --> 00:51:57,340
+[Música]
+
+403
+00:52:04,548 --> 00:52:14,108
+em 19x foram mais moto preço do DIU o
+
+404
+00:52:11,010 --> 00:52:14,109
+[Música]
+
+405
+00:52:17,018 --> 00:52:20,228
+mercado e
+
+406
+00:52:21,920 --> 00:52:24,999
+[Música]
+
+407
+00:52:41,239 --> 00:52:44,319
+[Música]
+
+408
+00:53:04,559 --> 00:53:11,960
+já começou essa semana que está gravando
+
+409
+00:53:07,139 --> 00:53:14,779
+sódio que é quarta aqui ontem e assim
+
+410
+00:53:11,960 --> 00:53:21,050
+não tem essa interessante porque
+
+411
+00:53:14,780 --> 00:54:04,539
+diferente contato experiência diferente
+
+412
+00:53:21,050 --> 00:54:08,979
+e aí alguns alunos comentar olha só a
+
+413
+00:54:04,539 --> 00:54:12,819
+o resultado fica essa visão manteiga de
+
+414
+00:54:08,978 --> 00:54:14,649
+ter sucesso tive da arte recebe esse
+
+415
+00:54:12,818 --> 00:54:16,389
+poder foi muito mesmo sentido assim a
+
+416
+00:54:14,650 --> 00:54:19,059
+gente postou muito também só para você
+
+417
+00:54:16,389 --> 00:54:21,879
+ter uma ideia se a taxa escrito nos
+
+418
+00:54:19,059 --> 00:54:24,699
+algumas esforço é acima de oitenta por
+
+419
+00:54:21,880 --> 00:54:27,818
+cento e é o bolso de dura duas semanas
+
+420
+00:54:24,699 --> 00:54:30,068
+tem exercício semanal toda semana tem
+
+421
+00:54:27,818 --> 00:54:33,608
+uma pequena prova final de cada módulo
+
+422
+00:54:30,068 --> 00:54:36,608
+essa prova é lícita né E algumas pessoas
+
+423
+00:54:33,608 --> 00:54:40,538
+falaram para ti ir lá mas se prepara
+
+424
+00:54:36,608 --> 00:54:45,248
+porque só um pouco referida as pessoas
+
+425
+00:54:40,539 --> 00:54:49,329
+abandonar semana e nosso poster vida que
+
+426
+00:54:45,248 --> 00:54:52,838
+eu mais certo de que alguns ou muitos as
+
+427
+00:54:49,329 --> 00:55:01,970
+duas horas depois eu acho que mostra
+
+428
+00:54:52,838 --> 00:55:04,548
+aqui só e coesão e
+
+429
+00:55:01,969 --> 00:55:12,379
+[Música]
+
+430
+00:55:04,548 --> 00:55:16,179
+tu não sabes e gostaria de saber de uma
+
+431
+00:55:12,380 --> 00:55:22,729
+maneira relativamente concentrada de 45
+
+432
+00:55:16,179 --> 00:55:26,689
+concentrados e eu posso se forma ela
+
+433
+00:55:22,728 --> 00:55:42,029
+possui bastante pessoal E essas tem que
+
+434
+00:55:26,688 --> 00:55:44,089
+fazer isso gente ó
+
+435
+00:55:42,030 --> 00:55:44,090
+E aí
+
+436
+00:55:46,119 --> 00:55:50,460
+E aí
+
+437
+00:55:52,789 --> 00:56:08,239
+a marca está caminhando já para o final
+
+438
+00:56:05,719 --> 00:56:10,669
+desse Episódio mas antes de chegar na
+
+439
+00:56:08,239 --> 00:56:12,500
+nossa última pergunta né e queria que
+
+440
+00:56:10,670 --> 00:56:14,570
+você falasse um pouco mais né da sua
+
+441
+00:56:12,500 --> 00:56:16,219
+carreira do seu trabalho como o
+
+442
+00:56:14,570 --> 00:56:17,870
+pesquisador engenharia de software é
+
+443
+00:56:16,219 --> 00:56:20,719
+esse episódio foi muito de ensino a
+
+444
+00:56:17,869 --> 00:56:23,239
+gente não não abordou muitos de seus
+
+445
+00:56:20,719 --> 00:56:24,709
+trabalhos acadêmicos como você trabalha
+
+446
+00:56:23,239 --> 00:56:26,959
+né porque é o seu carro-chefe de
+
+447
+00:56:24,710 --> 00:56:29,139
+pesquisa engenharia de software Então
+
+448
+00:56:26,960 --> 00:56:38,179
+vale mais uma hora que ele forte
+
+449
+00:56:29,139 --> 00:56:48,609
+responde mais Guarda esse a gente vai
+
+450
+00:56:38,179 --> 00:56:51,728
+dar folga para gente andar de terno e
+
+451
+00:56:48,610 --> 00:56:51,729
+[Música]
+
+452
+00:56:52,800 --> 00:57:34,050
+Boa tarde por cima sai muito trabalho de
+
+453
+00:57:07,469 --> 00:57:36,539
+Ação de Graças olhos abertos potenciais
+
+454
+00:57:34,050 --> 00:57:47,420
+alunos aí trabalhando essa área só
+
+455
+00:57:36,539 --> 00:57:49,559
+mandar beijo OK então vamos adoçar
+
+456
+00:57:47,420 --> 00:57:51,200
+pergunta que a gente sempre faz no final
+
+457
+00:57:49,559 --> 00:57:52,779
+para todos os nossos entrevistados
+
+458
+00:57:51,199 --> 00:57:55,239
+entrevistados
+
+459
+00:57:52,780 --> 00:57:59,340
+se você Marco Túlio Valente Qual é a
+
+460
+00:57:55,239 --> 00:57:59,339
+próxima fronteira da engenharia de som
+
+461
+00:58:00,150 --> 00:58:06,789
+respondidas mas eu vou puxar isso não há
+
+462
+00:58:03,039 --> 00:58:08,829
+pacientes que realmente eu acho que é
+
+463
+00:58:06,789 --> 00:58:15,420
+uma foto importante para se ele passa
+
+464
+00:58:08,829 --> 00:58:23,489
+explorada por o tema central da edição
+
+465
+00:58:15,420 --> 00:58:23,490
+oportunidade de assistir a gente faz mal
+
+466
+00:58:24,780 --> 00:58:58,730
+de algo que a gente é
+
+467
+00:58:52,789 --> 00:59:14,889
+o racional Brasil e aí você faz isso que
+
+468
+00:58:58,730 --> 00:59:45,219
+é muito especial mas vou mostrar aqui é
+
+469
+00:59:14,889 --> 00:59:48,279
+um texto é especial é eu acho que é
+
+470
+00:59:45,219 --> 00:59:48,279
+[Música]
+
+471
+00:59:52,800 --> 00:59:57,210
+é muito obrigado Marco Túlio foi um
+
+472
+00:59:54,869 --> 00:59:59,789
+prazer conversar com você você que fez
+
+473
+00:59:57,210 --> 01:00:02,099
+parte aqui no começo deste projeto aqui
+
+474
+00:59:59,789 --> 01:00:03,900
+do fronteiras engenheiro de software e
+
+475
+01:00:02,099 --> 01:00:06,659
+um passo a palavra para você para você
+
+476
+01:00:03,900 --> 01:00:09,780
+se despedir dos nossos ouvidos e o
+
+477
+01:00:06,659 --> 01:00:16,859
+Agradeço o convite a dor por isso o
+
+478
+01:00:09,780 --> 01:00:34,230
+braço dele aqui falar processo interessa
+
+479
+01:00:16,860 --> 01:00:42,570
+muito por quê Porque traz vários uma
+
+480
+01:00:34,230 --> 01:00:52,780
+visão pouco mais de fazer o acompanhar
+
+481
+01:00:42,570 --> 01:00:56,830
+ou uma coisa e ir ao ar
+
+482
+01:00:52,780 --> 01:00:59,230
+o Marcos só posso agradecer toda a
+
+483
+01:00:56,829 --> 01:01:01,449
+conversa que a gente teve hoje Fica aqui
+
+484
+01:00:59,230 --> 01:01:03,490
+mais uma vez o meu muito obrigado e para
+
+485
+01:01:01,449 --> 01:01:05,199
+você ouvir até o próximo episódio do
+
+486
+01:01:03,489 --> 01:01:08,959
+fronteiras engenheiro de software um
+
+487
+01:01:05,199 --> 01:01:10,219
+Abraço abraço abraço e
+
+488
+01:01:08,960 --> 01:01:11,449
+[Música]
+
+489
+01:01:10,219 --> 01:01:16,359
+E aí
+
+490
+01:01:11,449 --> 01:01:16,359
+[Música]
+
+491
+01:01:20,250 --> 01:01:31,710
+o Olá obrigado por escutar o Fronteiras
+
+492
+01:01:29,039 --> 01:01:34,500
+da engenharia de software nossa equipe é
+
+493
+01:01:31,710 --> 01:01:37,829
+formada por Marcelo dos Santos Leonardo
+
+494
+01:01:34,500 --> 01:01:41,039
+Fernandes Gustavo Pinto Fábio petrillo
+
+495
+01:01:37,829 --> 01:01:44,090
+Danilo Monteiro e Adolfo Neto sou eu
+
+496
+01:01:41,039 --> 01:01:48,300
+estamos no Twitter e no Instagram como
+
+497
+01:01:44,090 --> 01:01:54,769
+arroba fronteiras e até o próximo
+
+498
+01:01:48,300 --> 01:01:54,769
+episódio a gás 1
+
+499
+01:01:54,980 --> 01:01:57,039
+E aí
+
+500
+01:01:58,909 --> 01:02:00,969
+E aí
