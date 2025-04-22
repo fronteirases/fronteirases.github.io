@@ -1,0 +1,4327 @@
+1
+00:00:00,110 --> 00:00:10,160
+[Música]
+
+2
+00:00:07,360 --> 00:00:13,400
+olá esta é a continuação do episódio
+
+3
+00:00:10,160 --> 00:00:15,960
+sobre Cold Smells com Marcelo Maia se
+
+4
+00:00:13,400 --> 00:00:18,880
+você ainda não escutou a primeira parte
+
+5
+00:00:15,960 --> 00:00:21,199
+escute em nosso feed terminamos a
+
+6
+00:00:18,879 --> 00:00:24,439
+primeira parte perguntando a ele sobre
+
+7
+00:00:21,199 --> 00:00:27,279
+como priorizar Cold Smells está curioso
+
+8
+00:00:24,439 --> 00:00:30,278
+para saber a resposta escuta
+
+9
+00:00:27,278 --> 00:00:30,278
+aí
+
+10
+00:00:37,840 --> 00:00:41,960
+olha Gustavo extremamente interessante
+
+11
+00:00:40,238 --> 00:00:44,599
+isso isso olha como é que as coisas
+
+12
+00:00:41,960 --> 00:00:47,320
+fazem sentido né quer dizer se você pega
+
+13
+00:00:44,600 --> 00:00:49,800
+nesses métodos né que envolvem práticas
+
+14
+00:00:47,320 --> 00:00:52,799
+áge né as coisas são colocadas em
+
+15
+00:00:49,799 --> 00:00:56,319
+conjunto ali né por que que no XP se
+
+16
+00:00:52,799 --> 00:00:58,280
+coloca que testes automação de testes é
+
+17
+00:00:56,320 --> 00:01:00,359
+super importante ao mesmo tempo que
+
+18
+00:00:58,280 --> 00:01:01,840
+refctory também é super importante olha
+
+19
+00:01:00,359 --> 00:01:03,920
+porque você viu como é que as coisas
+
+20
+00:01:01,840 --> 00:01:05,920
+casam né porque se você for fazer refeg
+
+21
+00:01:03,920 --> 00:01:09,000
+e não tiver uma qualidade de testes
+
+22
+00:01:05,920 --> 00:01:12,400
+automatizados boa né a chance vai ser
+
+23
+00:01:09,000 --> 00:01:15,000
+maior ainda ou seja uma uma tarefa de
+
+24
+00:01:12,400 --> 00:01:18,280
+refaturação que era supostamente eh para
+
+25
+00:01:15,000 --> 00:01:21,400
+ser boa ela vai no final das contas te
+
+26
+00:01:18,280 --> 00:01:23,320
+levar a a inserção de erros então olha
+
+27
+00:01:21,400 --> 00:01:25,200
+olha como é que as coisas foram montadas
+
+28
+00:01:23,319 --> 00:01:27,039
+com com uma certa coerência e é por isso
+
+29
+00:01:25,200 --> 00:01:30,159
+que faz sentido as duas coisas andarem
+
+30
+00:01:27,040 --> 00:01:32,960
+juntas perfeitamente correto aí agora em
+
+31
+00:01:30,159 --> 00:01:34,520
+relação aí a essa questão da priorização
+
+32
+00:01:32,959 --> 00:01:36,879
+por onde eu começar bom se eu tenho
+
+33
+00:01:34,519 --> 00:01:39,640
+tantos smells assim será que é possível
+
+34
+00:01:36,879 --> 00:01:43,438
+escolher os smells mais importantes que
+
+35
+00:01:39,640 --> 00:01:46,040
+podem ser mais maléficos ao sistema olha
+
+36
+00:01:43,438 --> 00:01:48,919
+esse é um tópico de pesquisa né
+
+37
+00:01:46,040 --> 00:01:51,600
+razoavelmente quente e algumas soluções
+
+38
+00:01:48,920 --> 00:01:53,560
+já foram propostas né que é que é uma
+
+39
+00:01:51,599 --> 00:01:55,959
+área de pesquisa de priorização de
+
+40
+00:01:53,560 --> 00:01:58,320
+smells ou seja você encontra lá msmels
+
+41
+00:01:55,959 --> 00:02:00,319
+no seu código você prioriza olha o mais
+
+42
+00:01:58,319 --> 00:02:02,438
+maléfico é esse daqui depois vem
+
+43
+00:02:00,319 --> 00:02:04,279
+seguindo vem seguindo e aí você segue
+
+44
+00:02:02,438 --> 00:02:06,599
+até um ponto de corte ali onde você
+
+45
+00:02:04,280 --> 00:02:09,000
+define razoável e e você vai est
+
+46
+00:02:06,599 --> 00:02:10,679
+trabalhando em cima desses desses anel
+
+47
+00:02:09,000 --> 00:02:13,080
+veja que tudo isso nós estamos falando
+
+48
+00:02:10,679 --> 00:02:15,719
+sobre um processo de incerteza né ou
+
+49
+00:02:13,080 --> 00:02:19,800
+seja eh mesmo que existam algumas
+
+50
+00:02:15,719 --> 00:02:21,400
+soluções já propostas eh nisso daí eh
+
+51
+00:02:19,800 --> 00:02:24,120
+até hoje eu eu não conheço nenhuma
+
+52
+00:02:21,400 --> 00:02:27,400
+solução que seja matadora né até por
+
+53
+00:02:24,120 --> 00:02:30,039
+conta de da dificuldade de estabelecer
+
+54
+00:02:27,400 --> 00:02:33,200
+esse grau de malefício que o Smell pode
+
+55
+00:02:30,039 --> 00:02:35,719
+trazer não é fácil você e dimensionar eh
+
+56
+00:02:33,199 --> 00:02:38,119
+quantificar o quanto maléfico pode ser
+
+57
+00:02:35,719 --> 00:02:40,280
+um smell existem algumas alternativas
+
+58
+00:02:38,120 --> 00:02:42,959
+que vê sendo propostas é uma área de
+
+59
+00:02:40,280 --> 00:02:45,280
+pesquisa ativa e assim certamente vão
+
+60
+00:02:42,959 --> 00:02:47,479
+vão começar sendo incorporados alguns
+
+61
+00:02:45,280 --> 00:02:49,919
+resultados aí nessas ferramentas né de
+
+62
+00:02:47,479 --> 00:02:51,959
+deteção de SMEL né falei para você a
+
+63
+00:02:49,919 --> 00:02:54,119
+respeito de um trabalho que nós fizemos
+
+64
+00:02:51,959 --> 00:02:58,039
+né estudando
+
+65
+00:02:54,120 --> 00:03:00,360
+SMS de 1990 até 2017 né nesse processo
+
+66
+00:02:58,039 --> 00:03:02,959
+de revisão ele ele apontou diversos
+
+67
+00:03:00,360 --> 00:03:05,519
+achados e e alguns até aparentemente
+
+68
+00:03:02,959 --> 00:03:07,479
+contraditórios na literatura né contando
+
+69
+00:03:05,519 --> 00:03:09,519
+que SMMS alguns estudos por exemplo
+
+70
+00:03:07,479 --> 00:03:12,318
+apontavam que SMMELS interferem na
+
+71
+00:03:09,519 --> 00:03:15,120
+produtividade da manutenção ou seja eles
+
+72
+00:03:12,318 --> 00:03:17,518
+vão eh tornar um processo de manutenção
+
+73
+00:03:15,120 --> 00:03:19,599
+mais difícil enquanto outros estudos
+
+74
+00:03:17,519 --> 00:03:22,280
+mostraram: "Olha esmel que ficam lá no
+
+75
+00:03:19,598 --> 00:03:24,238
+código não necessariamente interferem na
+
+76
+00:03:22,280 --> 00:03:27,039
+produtividade de manutenção isso de
+
+77
+00:03:24,239 --> 00:03:28,878
+certa forma reforçou essa necessidade de
+
+78
+00:03:27,039 --> 00:03:30,919
+priorizar SMS dá pra gente descobrir
+
+79
+00:03:28,878 --> 00:03:32,878
+quais são olha a dificuldade disso
+
+80
+00:03:30,919 --> 00:03:34,438
+alguns estudos apontavam também né
+
+81
+00:03:32,878 --> 00:03:37,120
+quando a gente fala de propensão a
+
+82
+00:03:34,438 --> 00:03:39,519
+defeitos né que o código se tornava mais
+
+83
+00:03:37,120 --> 00:03:42,120
+propenso a defeitos e outros estudos não
+
+84
+00:03:39,519 --> 00:03:44,438
+encontraram associação de propensão a
+
+85
+00:03:42,120 --> 00:03:46,959
+defeitos dependendo do sistema eh
+
+86
+00:03:44,438 --> 00:03:49,039
+obviamente esses estudos científicos
+
+87
+00:03:46,959 --> 00:03:51,400
+todos eles têm suas limitações e ameaças
+
+88
+00:03:49,039 --> 00:03:53,719
+da validade tem seus contextos
+
+89
+00:03:51,400 --> 00:03:55,280
+específicos nos quais eles são válidos e
+
+90
+00:03:53,719 --> 00:03:57,519
+avaliar esses resultados desse trabalho
+
+91
+00:03:55,280 --> 00:04:00,000
+requer uma certa cautela né para
+
+92
+00:03:57,519 --> 00:04:03,079
+entender o quanto esses esses resultados
+
+93
+00:04:00,000 --> 00:04:05,079
+são generalizáveis no final das contas
+
+94
+00:04:03,079 --> 00:04:07,400
+eu acredito o seguinte que a experiência
+
+95
+00:04:05,079 --> 00:04:12,640
+dos desenvolvedores no seu contexto
+
+96
+00:04:07,400 --> 00:04:15,799
+específico né eh ou seja você ele vai
+
+97
+00:04:12,639 --> 00:04:17,680
+trazer melhores reflexões do que
+
+98
+00:04:15,799 --> 00:04:19,720
+eventualmente pegar uma receita
+
+99
+00:04:17,680 --> 00:04:22,439
+pré-fabricada de alguma prática que foi
+
+100
+00:04:19,720 --> 00:04:26,560
+imposta obviamente o desenvolvedor na
+
+101
+00:04:22,439 --> 00:04:29,959
+sua reflexão né ele vai precisar de um
+
+102
+00:04:26,560 --> 00:04:32,759
+de um acabouso de decisão de ferramentas
+
+103
+00:04:29,959 --> 00:04:35,079
+né para ele aplicar essa experiência
+
+104
+00:04:32,759 --> 00:04:38,199
+dele de maneira mais consciente mas é
+
+105
+00:04:35,079 --> 00:04:40,519
+assim enfim não existe ainda uma solução
+
+106
+00:04:38,199 --> 00:04:42,919
+mágica que nos ajude a priorizar com
+
+107
+00:04:40,519 --> 00:04:45,198
+alto grau de assertividade que você
+
+108
+00:04:42,918 --> 00:04:48,359
+possa confiar e fechar os olhos e falar:
+
+109
+00:04:45,199 --> 00:04:50,680
+"Beleza tô seguro né sempre é uma área
+
+110
+00:04:48,360 --> 00:04:53,439
+de trabalho onde nós existe uma série de
+
+111
+00:04:50,680 --> 00:04:55,879
+ferramentas disponíveis aí mas o essa
+
+112
+00:04:53,439 --> 00:04:57,639
+percepção final do desenvolvedor ela é
+
+113
+00:04:55,879 --> 00:04:59,839
+bastante importante né eu vejo assim
+
+114
+00:04:57,639 --> 00:05:02,319
+muito muito como essas ferramentas
+
+115
+00:04:59,839 --> 00:05:05,038
+fazendo um trabalho de de triagem de
+
+116
+00:05:02,319 --> 00:05:07,199
+ajuda ou seja para você começar do zero
+
+117
+00:05:05,038 --> 00:05:09,560
+sem nada sem nenhum norte né as
+
+118
+00:05:07,199 --> 00:05:12,080
+ferramentas já te dão alguma coisa ali
+
+119
+00:05:09,560 --> 00:05:14,918
+algo fazem algum uma espécie de triagem
+
+120
+00:05:12,079 --> 00:05:16,758
+para você e te dão pelo menos um caminho
+
+121
+00:05:14,918 --> 00:05:19,478
+inicial para começar a ser seguido tá
+
+122
+00:05:16,759 --> 00:05:21,720
+certo eu acho que é por aí então Marcelo
+
+123
+00:05:19,478 --> 00:05:24,478
+você mencionou aí o uso de algumas
+
+124
+00:05:21,720 --> 00:05:26,919
+ferramentas para facilitar na triagem né
+
+125
+00:05:24,478 --> 00:05:29,199
+pro desenvolvedor não começar do zero né
+
+126
+00:05:26,918 --> 00:05:30,959
+mas uma coisa que eu me pergunto e tem
+
+127
+00:05:29,199 --> 00:05:32,520
+uma certa dificuldade é por exemplo
+
+128
+00:05:30,959 --> 00:05:34,519
+vamos supor que você tenha um software
+
+129
+00:05:32,519 --> 00:05:37,120
+um produto de software que já enfim já
+
+130
+00:05:34,519 --> 00:05:40,799
+tenha seus anos de existência e você
+
+131
+00:05:37,120 --> 00:05:43,199
+hoje adota né uma ferramenta dessas por
+
+132
+00:05:40,800 --> 00:05:47,000
+exemplo só na cloud que vai apontar ali
+
+133
+00:05:43,199 --> 00:05:49,439
+vários eventuais badmels e outras coisas
+
+134
+00:05:47,000 --> 00:05:51,560
+que eles capturam né se você bota aquela
+
+135
+00:05:49,439 --> 00:05:54,160
+ferramenta hoje no momento em que o seu
+
+136
+00:05:51,560 --> 00:05:58,439
+software já tem 10 anos de vida ele vai
+
+137
+00:05:54,160 --> 00:06:01,400
+disparar centenas talvez até milhares de
+
+138
+00:05:58,439 --> 00:06:03,959
+warnings ali né milhares de violações
+
+139
+00:06:01,399 --> 00:06:05,918
+que ele encontra né então talvez né
+
+140
+00:06:03,959 --> 00:06:08,399
+fosse mais adequado pensar num conjunto
+
+141
+00:06:05,918 --> 00:06:09,918
+de práticas né não só se apoiar nessas
+
+142
+00:06:08,399 --> 00:06:12,519
+ferramentas mas e se a gente também
+
+143
+00:06:09,918 --> 00:06:15,120
+tivesse um conjunto de práticas que os
+
+144
+00:06:12,519 --> 00:06:18,120
+possam empregar né no seu dia a dia ali
+
+145
+00:06:15,120 --> 00:06:20,319
+para ficar longe do smell eu acho que
+
+146
+00:06:18,120 --> 00:06:22,478
+Gustavo tem um tem um aspecto bastante
+
+147
+00:06:20,319 --> 00:06:24,840
+interessante aí que é o seguinte alguns
+
+148
+00:06:22,478 --> 00:06:27,598
+estudos mostraram como que os smells
+
+149
+00:06:24,839 --> 00:06:31,038
+nascem o senso comum de uma certa forma
+
+150
+00:06:27,598 --> 00:06:33,000
+nos indicava né que os smeles vão se
+
+151
+00:06:31,038 --> 00:06:35,159
+acumulando ao longo do tempo você começa
+
+152
+00:06:33,000 --> 00:06:38,639
+o seu sistema pequeno e ali o
+
+153
+00:06:35,160 --> 00:06:42,240
+desenvolvedor consegue gerenciar eh a a
+
+154
+00:06:38,639 --> 00:06:43,960
+sua vida e e não e não colocar smells
+
+155
+00:06:42,240 --> 00:06:45,680
+ali mas à medida que o sistema vai se
+
+156
+00:06:43,959 --> 00:06:47,879
+tornando mais complexo e vai crescendo é
+
+157
+00:06:45,680 --> 00:06:50,879
+que os smells vão aparecendo teve um
+
+158
+00:06:47,879 --> 00:06:54,240
+estudo publicado em 2015 que ele mostrou
+
+159
+00:06:50,879 --> 00:06:56,120
+que boa parte dos smells certa alguns
+
+160
+00:06:54,240 --> 00:06:58,319
+bloaters né que são esses esmels de
+
+161
+00:06:56,120 --> 00:07:00,038
+inchaço e em alguns sistemas em alguns
+
+162
+00:06:58,319 --> 00:07:03,240
+casos específicos ao contrário do que o
+
+163
+00:07:00,038 --> 00:07:05,639
+senso comum eles já nascem com a
+
+164
+00:07:03,240 --> 00:07:07,960
+entidade ao invés de serem adicionados
+
+165
+00:07:05,639 --> 00:07:10,720
+ao longo do tempo classe já aparece com
+
+166
+00:07:07,959 --> 00:07:13,198
+aqueles mel ali então essa questão que
+
+167
+00:07:10,720 --> 00:07:16,080
+você comentou de eventualmente a pessoa
+
+168
+00:07:13,199 --> 00:07:18,960
+já no início de da criação da classe
+
+169
+00:07:16,079 --> 00:07:20,839
+porque não é nem criação do do comit né
+
+170
+00:07:18,959 --> 00:07:24,198
+quando a classe a entidade aparece
+
+171
+00:07:20,839 --> 00:07:26,079
+aparece o e se a gente considera que que
+
+172
+00:07:24,199 --> 00:07:28,319
+os sistemas eles por parte da manutenção
+
+173
+00:07:26,079 --> 00:07:30,758
+eles vão evoluindo aos poucos ali eh os
+
+174
+00:07:28,319 --> 00:07:32,598
+sistemas já estão andando né não vai ter
+
+175
+00:07:30,759 --> 00:07:36,639
+jeito quer dizer o sistema já tem
+
+176
+00:07:32,598 --> 00:07:39,159
+esmelos ali eh existentes e colocados né
+
+177
+00:07:36,639 --> 00:07:41,120
+então essa premissa de de aplicar os
+
+178
+00:07:39,160 --> 00:07:43,080
+princípios os padrões de projeto pro
+
+179
+00:07:41,120 --> 00:07:45,478
+design inicial das classes sem dúvida
+
+180
+00:07:43,079 --> 00:07:48,758
+vai ajudar eu acho que as ferramentas no
+
+181
+00:07:45,478 --> 00:07:50,680
+momento de criação não deixar você criar
+
+182
+00:07:48,759 --> 00:07:53,439
+alguma coisa com smells eu acho que de
+
+183
+00:07:50,680 --> 00:07:55,800
+fato eh esse esse trabalho mostrou como
+
+184
+00:07:53,439 --> 00:07:58,079
+sendo uma relevância né nesse tipo de
+
+185
+00:07:55,800 --> 00:08:00,598
+ferramenta de bloquear o desenvolvedor
+
+186
+00:07:58,079 --> 00:08:03,000
+de criar uma entidade com smells né isso
+
+187
+00:08:00,598 --> 00:08:05,120
+vai facilitar para evitar esse problema
+
+188
+00:08:03,000 --> 00:08:08,560
+que certamente um sistema que já tá
+
+189
+00:08:05,120 --> 00:08:10,399
+funcionando eles vão de fato vão ter
+
+190
+00:08:08,560 --> 00:08:12,158
+zilhões de warnings aí para para
+
+191
+00:08:10,399 --> 00:08:14,038
+seridades por outro lado se a gente
+
+192
+00:08:12,158 --> 00:08:16,959
+pensa o seguinte a partir do momento que
+
+193
+00:08:14,038 --> 00:08:20,279
+os desenvolvedores adotam práticas
+
+194
+00:08:16,959 --> 00:08:22,719
+metodologias derivadas dos dos valores e
+
+195
+00:08:20,279 --> 00:08:27,279
+princípios ágeis né a gente viu que que
+
+196
+00:08:22,720 --> 00:08:30,720
+essa tríade refactoring eh testes né e
+
+197
+00:08:27,279 --> 00:08:33,519
+smells ela elas andam juntas ali né eh o
+
+198
+00:08:30,720 --> 00:08:35,519
+refactor então ele é atividade inerente
+
+199
+00:08:33,519 --> 00:08:37,399
+ao desenvolvimento ou seja você vai
+
+200
+00:08:35,519 --> 00:08:40,120
+fazer o refector por quê por exemplo
+
+201
+00:08:37,399 --> 00:08:42,479
+quando você opta em adiar uma decisão de
+
+202
+00:08:40,120 --> 00:08:44,120
+projeto por eventualmente não ter as
+
+203
+00:08:42,479 --> 00:08:46,320
+melhores informações para tomar a
+
+204
+00:08:44,120 --> 00:08:49,919
+decisão de um dado momento isso é uma
+
+205
+00:08:46,320 --> 00:08:52,760
+prática ágil né e ao mesmo tempo eh opta
+
+206
+00:08:49,919 --> 00:08:55,240
+por fazer uma entrega rápida continuada
+
+207
+00:08:52,759 --> 00:08:56,759
+parece ter fazer sentido então que o
+
+208
+00:08:55,240 --> 00:08:59,159
+desenvolvedor ele não vai ter todos os
+
+209
+00:08:56,759 --> 00:09:01,360
+elementos para fazer o melhor design
+
+210
+00:08:59,159 --> 00:09:03,759
+naquele momento inicial da reação de uma
+
+211
+00:09:01,360 --> 00:09:06,879
+entidade e que futuramente esse design
+
+212
+00:09:03,759 --> 00:09:09,039
+vai ter vai ter que ser repensado então
+
+213
+00:09:06,879 --> 00:09:11,759
+eh eu vejo com uma certa um certo
+
+214
+00:09:09,039 --> 00:09:12,919
+desafio isso isso funcionar né porque
+
+215
+00:09:11,759 --> 00:09:15,039
+principalmente se a gente tá falando
+
+216
+00:09:12,919 --> 00:09:17,399
+desse contexto ágil onde onde o
+
+217
+00:09:15,039 --> 00:09:19,278
+refactoring ou seja ele faz parte da
+
+218
+00:09:17,399 --> 00:09:21,559
+prática esse estudo que eu que eu
+
+219
+00:09:19,278 --> 00:09:23,600
+mencionei acabei de mencionar ele mostra
+
+220
+00:09:21,559 --> 00:09:26,078
+dados até por certo ponto surpreendentes
+
+221
+00:09:23,600 --> 00:09:27,839
+né supostamente a gente espera que que
+
+222
+00:09:26,078 --> 00:09:30,519
+as equipes né de desenvolvimento
+
+223
+00:09:27,839 --> 00:09:32,800
+trabalhas em remover eh se não todos né
+
+224
+00:09:30,519 --> 00:09:36,320
+mas boa parte dos SMELs eles estudaram
+
+225
+00:09:32,799 --> 00:09:39,359
+200 sistemas em ecossistemas Android a
+
+226
+00:09:36,320 --> 00:09:42,879
+faxa epse por um tempo médio de 6 anos e
+
+227
+00:09:39,360 --> 00:09:45,440
+eles descobriram sabe o quê que 80% dos
+
+228
+00:09:42,879 --> 00:09:48,958
+mels encontrados eles não são removidos
+
+229
+00:09:45,440 --> 00:09:51,160
+do sistema eles permanecem lá 20% desses
+
+230
+00:09:48,958 --> 00:09:53,919
+que são removidos eles são removidos com
+
+231
+00:09:51,159 --> 00:09:57,199
+ref a gente faz uma pergunta puxa vida
+
+232
+00:09:53,919 --> 00:09:59,879
+9% só dos smells são removidos com ref o
+
+233
+00:09:57,200 --> 00:10:01,560
+resto permanece lá ou seja uma das
+
+234
+00:09:59,879 --> 00:10:04,399
+mensagens importantes desse trabalho que
+
+235
+00:10:01,559 --> 00:10:06,719
+faz a gente refletir é que de fato esses
+
+236
+00:10:04,399 --> 00:10:08,679
+esses desenvolvedores por alguma razão
+
+237
+00:10:06,720 --> 00:10:11,000
+uma série de razões eles vão aceitar
+
+238
+00:10:08,679 --> 00:10:14,199
+conviver com esses smells aí um tempo
+
+239
+00:10:11,000 --> 00:10:16,600
+então de novo nos parece indicar a
+
+240
+00:10:14,200 --> 00:10:18,640
+importância dessa questão da priorização
+
+241
+00:10:16,600 --> 00:10:20,879
+ou seja os smells isso nos mostra um
+
+242
+00:10:18,639 --> 00:10:22,759
+indício que nem todos os smels eles vão
+
+243
+00:10:20,879 --> 00:10:24,559
+ser de fato tão maléficos assim ou que
+
+244
+00:10:22,759 --> 00:10:26,759
+pelo menos seja possível conviver com
+
+245
+00:10:24,559 --> 00:10:29,278
+eles sem maiores consequências e outra
+
+246
+00:10:26,759 --> 00:10:31,679
+questão é que muitas vezes pode não ser
+
+247
+00:10:29,278 --> 00:10:33,200
+trivial ou simples você se livrar do
+
+248
+00:10:31,679 --> 00:10:35,679
+smel um exemplo que eu gosto muito de
+
+249
+00:10:33,200 --> 00:10:37,879
+citar é uma classe que nós estudamos ela
+
+250
+00:10:35,679 --> 00:10:39,519
+até para servir como exemplo motivador
+
+251
+00:10:37,879 --> 00:10:41,958
+de um trabalho nosso é uma classe do
+
+252
+00:10:39,519 --> 00:10:44,560
+Lucío lucínio para quem não sabe é o é a
+
+253
+00:10:41,958 --> 00:10:46,518
+certain do apach né uma classe chamada
+
+254
+00:10:44,559 --> 00:10:49,000
+index writer que que é uma classe que
+
+255
+00:10:46,519 --> 00:10:51,000
+escreve no índice né do do da máquina de
+
+256
+00:10:49,000 --> 00:10:53,078
+busca e aquela classe ela
+
+257
+00:10:51,000 --> 00:10:55,399
+induptavelmente é uma uma large clés é
+
+258
+00:10:53,078 --> 00:10:58,078
+daqueles exemplos que eu falei que são
+
+259
+00:10:55,399 --> 00:11:00,480
+extremos né inclusive é auto admitida
+
+260
+00:10:58,078 --> 00:11:03,159
+pelos próprios desenvolvedores no Lucí
+
+261
+00:11:00,480 --> 00:11:04,440
+tem uma IO lá onde eles dizem que ela é
+
+262
+00:11:03,159 --> 00:11:07,039
+uma
+
+263
+00:11:04,440 --> 00:11:10,360
+hardco eles abriram a ISO para tentar
+
+264
+00:11:07,039 --> 00:11:12,838
+refatorar a index writer do Luc e eles
+
+265
+00:11:10,360 --> 00:11:14,240
+até fizeram uma refatoração né eu vou
+
+266
+00:11:12,839 --> 00:11:16,240
+explicar essa refatoração que era uma
+
+267
+00:11:14,240 --> 00:11:19,200
+refatoração que não era não foi atômica
+
+268
+00:11:16,240 --> 00:11:21,399
+né ela levou várias releases para ser
+
+269
+00:11:19,200 --> 00:11:22,600
+para ser seguida né que é é diferente do
+
+270
+00:11:21,399 --> 00:11:25,159
+que que a gente espera de uma
+
+271
+00:11:22,600 --> 00:11:27,240
+refatoração eh usual e ela ainda
+
+272
+00:11:25,159 --> 00:11:29,519
+continuava L class mesmo depois dessa
+
+273
+00:11:27,240 --> 00:11:32,278
+refatoração por quê porque os
+
+274
+00:11:29,519 --> 00:11:34,519
+desenvolvedores simplesmente não
+
+275
+00:11:32,278 --> 00:11:36,480
+conseguiam achar uma maneira de
+
+276
+00:11:34,519 --> 00:11:39,399
+refatorar aquela classe para eles era
+
+277
+00:11:36,480 --> 00:11:42,959
+inerente ela ser large class era uma
+
+278
+00:11:39,399 --> 00:11:45,320
+classe difícil eh de de se da manutenção
+
+279
+00:11:42,958 --> 00:11:46,958
+difícil de se lidar e essa refutatoração
+
+280
+00:11:45,320 --> 00:11:48,920
+que eles fizeram que levou várias
+
+281
+00:11:46,958 --> 00:11:50,879
+releases na verdade o que eles fizeram
+
+282
+00:11:48,919 --> 00:11:53,078
+foi manter duas classes ao mesmo tempo
+
+283
+00:11:50,879 --> 00:11:55,439
+eles fizeram um extract class extraíram
+
+284
+00:11:53,078 --> 00:11:57,599
+de dentro do index writer uma parte dela
+
+285
+00:11:55,440 --> 00:11:59,160
+e criaram uma outra classe mas na hora
+
+286
+00:11:57,600 --> 00:12:01,680
+que você aplica um refactor a gente
+
+287
+00:11:59,159 --> 00:12:03,838
+aprende né você tira um conteúdo de uma
+
+288
+00:12:01,679 --> 00:12:06,159
+classe e joga para outra classe né e aí
+
+289
+00:12:03,839 --> 00:12:08,600
+no lugar ali você põe um uma referência
+
+290
+00:12:06,159 --> 00:12:10,639
+pra classe nova não eles deixaram tudo
+
+291
+00:12:08,600 --> 00:12:12,240
+que foi tirado lá ou seja de certa forma
+
+292
+00:12:10,639 --> 00:12:14,399
+o sistema ainda conviveu com a
+
+293
+00:12:12,240 --> 00:12:16,159
+duplicação ali das variáveis de
+
+294
+00:12:14,399 --> 00:12:18,879
+instância ali tanto na classe index
+
+295
+00:12:16,159 --> 00:12:20,519
+writer quanto na classe index writer
+
+296
+00:12:18,879 --> 00:12:22,000
+config né que tinha os parâmetros de
+
+297
+00:12:20,519 --> 00:12:23,720
+configuração dessa classe que foi a
+
+298
+00:12:22,000 --> 00:12:25,958
+classe que eles extraíram para quê
+
+299
+00:12:23,720 --> 00:12:28,079
+porque essa classe ela era servidora
+
+300
+00:12:25,958 --> 00:12:30,000
+fornecia serviços para uma série de
+
+301
+00:12:28,078 --> 00:12:31,799
+outras classes que dependiam dela então
+
+302
+00:12:30,000 --> 00:12:33,799
+ela simplesmente não podia ser mudada e
+
+303
+00:12:31,799 --> 00:12:36,359
+refatorado porque o impacto de você
+
+304
+00:12:33,799 --> 00:12:38,958
+alterar em outras classes era muito
+
+305
+00:12:36,360 --> 00:12:40,480
+grande você certamente corria o risco de
+
+306
+00:12:38,958 --> 00:12:41,838
+não alterar em todos os lugares
+
+307
+00:12:40,480 --> 00:12:44,000
+possíveis que eles resolveram
+
+308
+00:12:41,839 --> 00:12:45,720
+simplesmente falar bom bom vamos fazer
+
+309
+00:12:44,000 --> 00:12:47,198
+essa duplicação aqui fazer esse
+
+310
+00:12:45,720 --> 00:12:49,360
+refactoring que eu tô chamando aí de
+
+311
+00:12:47,198 --> 00:12:51,439
+refactoring de longo prazo até que as
+
+312
+00:12:49,360 --> 00:12:53,879
+pessoas colocamos isso aqui como
+
+313
+00:12:51,440 --> 00:12:55,800
+depreciados duplicate e ao longo do
+
+314
+00:12:53,879 --> 00:12:57,439
+tempo as pessoas vão nós vamos falar ó
+
+315
+00:12:55,799 --> 00:12:59,359
+vão dar um tempo aí para vocês se
+
+316
+00:12:57,440 --> 00:13:02,040
+adaptarem e removerem esses métodos daí
+
+317
+00:12:59,360 --> 00:13:04,240
+que nós vamos terminar a refatoração
+
+318
+00:13:02,039 --> 00:13:06,480
+daqui algumas releases moral da história
+
+319
+00:13:04,240 --> 00:13:08,519
+a refatoração nem sempre é um processo
+
+320
+00:13:06,480 --> 00:13:10,959
+atômico e nem sempre resolve um problema
+
+321
+00:13:08,519 --> 00:13:13,440
+do smell enfim eh infelizmente me parece
+
+322
+00:13:10,958 --> 00:13:15,278
+que não tem como ficar livre dos esmelos
+
+323
+00:13:13,440 --> 00:13:16,800
+assim como nós não consigamos ficar nós
+
+324
+00:13:15,278 --> 00:13:18,320
+estamos vivendo um momento de pandemia
+
+325
+00:13:16,799 --> 00:13:20,399
+né parece que nós não conseguimos ficar
+
+326
+00:13:18,320 --> 00:13:22,639
+livre dos vírus e bactérias mas o que a
+
+327
+00:13:20,399 --> 00:13:25,159
+gente pode fazer é criar ferramentas
+
+328
+00:13:22,639 --> 00:13:27,278
+métodos né no caso das vírus e bactérias
+
+329
+00:13:25,159 --> 00:13:29,799
+vacinas esperamos que apareça uma logo
+
+330
+00:13:27,278 --> 00:13:32,399
+né para conseguir conviver em paz com os
+
+331
+00:13:29,799 --> 00:13:34,799
+smels e fazer com que os danos fiquem em
+
+332
+00:13:32,399 --> 00:13:35,839
+padrões aceitáveis eu vejo o caminho por
+
+333
+00:13:34,799 --> 00:13:39,319
+aí
+
+334
+00:13:35,839 --> 00:13:41,600
+então você tinha falado um pouco antes
+
+335
+00:13:39,320 --> 00:13:43,160
+ferramentas de detecção de bad smells
+
+336
+00:13:41,600 --> 00:13:45,320
+então a gente queria saber elas
+
+337
+00:13:43,159 --> 00:13:47,759
+funcionam elas funcionam para smells
+
+338
+00:13:45,320 --> 00:13:49,320
+triviais ou para um grupo específico de
+
+339
+00:13:47,759 --> 00:13:52,000
+de smells como é que são essas
+
+340
+00:13:49,320 --> 00:13:53,639
+ferramentas nosso estudo eh que nós que
+
+341
+00:13:52,000 --> 00:13:55,759
+nós fizemos esse trabalho que nós
+
+342
+00:13:53,639 --> 00:13:57,680
+fizemos ele detectou por exemplo uma das
+
+343
+00:13:55,759 --> 00:13:59,759
+coisas que nós detectamos foi uma
+
+344
+00:13:57,679 --> 00:14:02,638
+carência importante de um de um ground
+
+345
+00:13:59,759 --> 00:14:04,519
+truth né ou de um benchmark né para que
+
+346
+00:14:02,639 --> 00:14:06,839
+que serve isso para permitir comparar as
+
+347
+00:14:04,519 --> 00:14:08,919
+ferramentas né ou seja o quanto que
+
+348
+00:14:06,839 --> 00:14:10,959
+essas ferramentas funcionam olha para eu
+
+349
+00:14:08,919 --> 00:14:12,958
+dar uma resposta de o quanto que uma
+
+350
+00:14:10,958 --> 00:14:15,439
+ferramenta funciona eu preciso ter
+
+351
+00:14:12,958 --> 00:14:17,198
+benchmarks bem estabelecidos para saber
+
+352
+00:14:15,440 --> 00:14:18,920
+olha é isso aqui que ela tem que achar
+
+353
+00:14:17,198 --> 00:14:20,519
+ela tá achando quanto ela deixou de
+
+354
+00:14:18,919 --> 00:14:22,439
+achar quanto dos que ela me falou que
+
+355
+00:14:20,519 --> 00:14:24,159
+são esmels quantos são verdadeiramente
+
+356
+00:14:22,440 --> 00:14:26,399
+positivos quantos são falsos positivos
+
+357
+00:14:24,159 --> 00:14:28,480
+quantos são falsos negativos né que a
+
+358
+00:14:26,399 --> 00:14:30,399
+gente chama de precisão e revocação
+
+359
+00:14:28,480 --> 00:14:32,680
+então uma ferramenta assim com baixa
+
+360
+00:14:30,399 --> 00:14:34,360
+precisão vai apontar muitos smells em
+
+361
+00:14:32,679 --> 00:14:36,000
+muitas entidades que de fato não tem um
+
+362
+00:14:34,360 --> 00:14:38,399
+smell né uma ferramenta com baixa
+
+363
+00:14:36,000 --> 00:14:40,958
+revocação ela não vai conseguir detectar
+
+364
+00:14:38,399 --> 00:14:43,879
+smells que estão lá no código então até
+
+365
+00:14:40,958 --> 00:14:46,239
+existe uma iniciativa chamada landfield
+
+366
+00:14:43,879 --> 00:14:47,919
+para estabelecer um ground para cold
+
+367
+00:14:46,240 --> 00:14:49,600
+smells né de tal forma que essas
+
+368
+00:14:47,919 --> 00:14:51,439
+ferramentas possam ser comparadas mas
+
+369
+00:14:49,600 --> 00:14:54,399
+essa iniciativa ainda é precária né
+
+370
+00:14:51,440 --> 00:14:57,600
+porque ela só tem smells para long
+
+371
+00:14:54,399 --> 00:14:59,240
+method blob e feature só três smells e
+
+372
+00:14:57,600 --> 00:15:01,639
+existe uma série de outros fato
+
+373
+00:14:59,240 --> 00:15:03,278
+interessante até agora em agosto né eu
+
+374
+00:15:01,639 --> 00:15:06,320
+participei de uma banca de mestrado na
+
+375
+00:15:03,278 --> 00:15:09,439
+UFMG de um aluno aluno da Marisa Bigonha
+
+376
+00:15:06,320 --> 00:15:11,600
+da Kess Ferreira onde o aluno propôs um
+
+377
+00:15:09,440 --> 00:15:13,920
+benchmark ou seja foi exatamente nessa
+
+378
+00:15:11,600 --> 00:15:16,120
+linha de fechar essa vacuna de falta de
+
+379
+00:15:13,919 --> 00:15:18,639
+benchmarks ele propôs um benchmark
+
+380
+00:15:16,120 --> 00:15:21,639
+curado para avaliar ferramentas de bad
+
+381
+00:15:18,639 --> 00:15:24,240
+smells e ele aplicou esse benchmark dele
+
+382
+00:15:21,639 --> 00:15:27,240
+a algumas ferramentas entre elas
+
+383
+00:15:24,240 --> 00:15:29,198
+Joderant J Spirit Find Smell e o
+
+384
+00:15:27,240 --> 00:15:30,919
+resultado que ele que ele encontrou não
+
+385
+00:15:29,198 --> 00:15:34,559
+foi bom não ele encontrou com o melhor
+
+386
+00:15:30,919 --> 00:15:34,559
+resultado foi para large
+
+387
+00:15:35,039 --> 00:15:40,360
+class measure que é uma uma medida que
+
+388
+00:15:38,078 --> 00:15:43,958
+ajusta aí para revocação e precisão de
+
+389
+00:15:40,360 --> 00:15:46,560
+06 ou seja no escala de zero a um ela
+
+390
+00:15:43,958 --> 00:15:50,359
+deu 06 onde um é o melhor e zero é o
+
+391
+00:15:46,559 --> 00:15:52,318
+pior tá 06 ou seja ainda há muito espaço
+
+392
+00:15:50,360 --> 00:15:55,318
+para melhorar isso foi o melhor o J
+
+393
+00:15:52,318 --> 00:15:58,399
+Spirit que foi o melhor pra outros
+
+394
+00:15:55,318 --> 00:16:02,278
+smells do tipo refusquest data class
+
+395
+00:15:58,399 --> 00:16:04,360
+feature o F measure ficou abaixo de 0,35
+
+396
+00:16:02,278 --> 00:16:07,519
+para esses smells então vocês vejam que
+
+397
+00:16:04,360 --> 00:16:09,759
+essas ferramentas elas ainda primeiro é
+
+398
+00:16:07,519 --> 00:16:12,078
+difícil de fazer um assessment de fazer
+
+399
+00:16:09,759 --> 00:16:14,399
+uma avaliação com segurança e e entender
+
+400
+00:16:12,078 --> 00:16:15,519
+o quanto essas ferramentas funcionam ou
+
+401
+00:16:14,399 --> 00:16:18,039
+não quer dizer você vai ter que
+
+402
+00:16:15,519 --> 00:16:20,839
+implantar e vai começar a usar e vai ver
+
+403
+00:16:18,039 --> 00:16:22,879
+o quanto mais pode estar preparado que
+
+404
+00:16:20,839 --> 00:16:24,839
+ali vão ter muitos falsos positivos e
+
+405
+00:16:22,879 --> 00:16:26,759
+também muitos falsos negativos que vão
+
+406
+00:16:24,839 --> 00:16:28,560
+ser coisas que não vão ser encontrados
+
+407
+00:16:26,759 --> 00:16:30,278
+as ferramentas elas são pouco testadas
+
+408
+00:16:28,559 --> 00:16:32,318
+por conta desses ben falta desses
+
+409
+00:16:30,278 --> 00:16:34,198
+benchmarks e e os ferramentas com os
+
+410
+00:16:32,318 --> 00:16:35,838
+benchmarks que existem não são dos
+
+411
+00:16:34,198 --> 00:16:37,679
+melhores mas não implica que essas
+
+412
+00:16:35,839 --> 00:16:39,319
+ferramentas não sejam úteis né o
+
+413
+00:16:37,679 --> 00:16:41,599
+desenvolvedor tem que ter em mente que a
+
+414
+00:16:39,318 --> 00:16:44,198
+curaça deles é limitada mas elas podem
+
+415
+00:16:41,600 --> 00:16:47,040
+ser como eu disse né ser usadas para
+
+416
+00:16:44,198 --> 00:16:49,359
+triagem é melhor ter alguma lista de
+
+417
+00:16:47,039 --> 00:16:52,360
+candidatos ali do que você começar a
+
+418
+00:16:49,360 --> 00:16:54,839
+procurar assim sem nenhum critério eu
+
+419
+00:16:52,360 --> 00:16:56,720
+acho que um um dos desafios importantes
+
+420
+00:16:54,839 --> 00:16:59,519
+aí para essa linha essa fronteira
+
+421
+00:16:56,720 --> 00:17:02,079
+avançar é a produção de mais benchmarks
+
+422
+00:16:59,519 --> 00:17:04,199
+para caracterização dessas ferramentas
+
+423
+00:17:02,078 --> 00:17:07,038
+caracterização da performance né de em
+
+424
+00:17:04,199 --> 00:17:08,959
+termos de acurác ferramentas
+
+425
+00:17:07,038 --> 00:17:11,720
+marcelo me tira uma dúvida se você tiver
+
+426
+00:17:08,959 --> 00:17:15,519
+um sistema e esse sistema tá cheio de
+
+427
+00:17:11,720 --> 00:17:18,519
+smells será que tem alguma relação do
+
+428
+00:17:15,519 --> 00:17:21,480
+número de smells com bugs ou em outras
+
+429
+00:17:18,519 --> 00:17:24,078
+palavras será que a medida que o número
+
+430
+00:17:21,480 --> 00:17:27,640
+de smells aumenta isso pode também levar
+
+431
+00:17:24,078 --> 00:17:30,720
+o meu sistema a ser mais propenso a ter
+
+432
+00:17:27,640 --> 00:17:32,799
+bugs faz sentido esse tipo de comentário
+
+433
+00:17:30,720 --> 00:17:34,319
+olha Gustavo faz total sentido inclusive
+
+434
+00:17:32,798 --> 00:17:36,319
+essa pergunta assim ela foi
+
+435
+00:17:34,319 --> 00:17:38,678
+razoavelmente explorada na literatura
+
+436
+00:17:36,319 --> 00:17:41,279
+talvez é uma das perguntas que se fazem
+
+437
+00:17:38,679 --> 00:17:43,640
+inicialmente né poxa será que eu tenho
+
+438
+00:17:41,279 --> 00:17:45,399
+uma uma associação né muitas vezes os
+
+439
+00:17:43,640 --> 00:17:47,840
+trabalhos eles são eles buscam por
+
+440
+00:17:45,400 --> 00:17:50,038
+associações o que é diferente de ser
+
+441
+00:17:47,839 --> 00:17:53,038
+causa efeito né quer dizer que implica
+
+442
+00:17:50,038 --> 00:17:54,919
+uma análise mais qualitativa né então
+
+443
+00:17:53,038 --> 00:17:58,319
+boa parte do que eu vou falar aqui são
+
+444
+00:17:54,919 --> 00:18:00,240
+trabalhos de associação onde as pessoas
+
+445
+00:17:58,319 --> 00:18:03,158
+um estudo de associação ele vai ver se o
+
+446
+00:18:00,240 --> 00:18:05,519
+risco é mais ou menos aumentado né de
+
+447
+00:18:03,159 --> 00:18:07,600
+ter ou não né ou seja com base em
+
+448
+00:18:05,519 --> 00:18:09,759
+estatística né olha mas o que não
+
+449
+00:18:07,599 --> 00:18:11,399
+significa que seja uma causa efeita nós
+
+450
+00:18:09,759 --> 00:18:13,960
+encontramos né nessa revisão que nós
+
+451
+00:18:11,400 --> 00:18:17,159
+fizemos pelo menos 11 trabalhos que
+
+452
+00:18:13,960 --> 00:18:19,759
+estudaram essa relação né de propensão a
+
+453
+00:18:17,159 --> 00:18:22,480
+a bugs né e a presença de SMELS e a
+
+454
+00:18:19,759 --> 00:18:25,558
+maioria sim apontou algum tipo maior de
+
+455
+00:18:22,480 --> 00:18:27,159
+risco de bugs associados a bad smells
+
+456
+00:18:25,558 --> 00:18:28,879
+mas é importante notar que isso não é
+
+457
+00:18:27,159 --> 00:18:30,840
+uma regra universal né um ponto
+
+458
+00:18:28,880 --> 00:18:33,520
+interessante é que alguns trabalhos
+
+459
+00:18:30,839 --> 00:18:35,879
+acharam uma variabilidade de intensidade
+
+460
+00:18:33,519 --> 00:18:38,440
+de associação em alguns casos ou ou até
+
+461
+00:18:35,880 --> 00:18:41,440
+mesmo e nenhuma associação dependendo da
+
+462
+00:18:38,440 --> 00:18:43,640
+release dependendo dos SMELS estudados
+
+463
+00:18:41,440 --> 00:18:45,720
+dependendo dos sistemas né em alguns
+
+464
+00:18:43,640 --> 00:18:47,640
+sistemas isso acontece em outros
+
+465
+00:18:45,720 --> 00:18:48,960
+sistemas não acontecem eu vou mencionar
+
+466
+00:18:47,640 --> 00:18:50,720
+aqui alguns trabalhos assim que eu
+
+467
+00:18:48,960 --> 00:18:52,480
+considero interessante né um dos
+
+468
+00:18:50,720 --> 00:18:54,519
+principais grupos de pesquisa na área de
+
+469
+00:18:52,480 --> 00:18:57,120
+SNELS está localizado na Escola
+
+470
+00:18:54,519 --> 00:18:58,839
+Politécnica de Montreal no Canadá eles
+
+471
+00:18:57,119 --> 00:19:01,239
+desenvolveram inclusive essa ferramenta
+
+472
+00:18:58,839 --> 00:19:04,038
+que eu citei o decor é a ferramenta mais
+
+473
+00:19:01,240 --> 00:19:05,120
+utilizada em estudos de badms até porque
+
+474
+00:19:04,038 --> 00:19:06,960
+muitos desses estudos foram
+
+475
+00:19:05,119 --> 00:19:09,319
+desenvolvidos por eles próprios né ou
+
+476
+00:19:06,960 --> 00:19:10,720
+parceiros de pesquisa deles o decor
+
+477
+00:19:09,319 --> 00:19:12,158
+também ele tem uma característica
+
+478
+00:19:10,720 --> 00:19:14,400
+diferencial que ele é uma ferramenta
+
+479
+00:19:12,159 --> 00:19:17,360
+capaz de detectar um grande número de
+
+480
+00:19:14,400 --> 00:19:20,320
+tipos diferentes de Smell né eh em
+
+481
+00:19:17,359 --> 00:19:23,359
+estudo em 2012 eles eles fizeram um
+
+482
+00:19:20,319 --> 00:19:26,038
+estudo com eclipse com classes eclipse
+
+483
+00:19:23,359 --> 00:19:28,839
+bad smells e eles eles chegaram à
+
+484
+00:19:26,038 --> 00:19:30,879
+conclusão né de que classes com bad
+
+485
+00:19:28,839 --> 00:19:33,439
+smell que não fossem large class e nem
+
+486
+00:19:30,880 --> 00:19:35,760
+espagetti codes que é curioso né tinha
+
+487
+00:19:33,440 --> 00:19:38,960
+um risco duas vezes mais a de apresentar
+
+488
+00:19:35,759 --> 00:19:42,558
+issos que outras classes ou seja espaget
+
+489
+00:19:38,960 --> 00:19:44,919
+code e large class não mas clássico que
+
+490
+00:19:42,558 --> 00:19:48,639
+que eram bad tinha os badmels que não
+
+491
+00:19:44,919 --> 00:19:52,320
+eram faguet code e nem large cas é o que
+
+492
+00:19:48,640 --> 00:19:54,600
+é curioso né eh tinha um risco mais alto
+
+493
+00:19:52,319 --> 00:19:56,399
+duas vezes mais alto de apresentar eh
+
+494
+00:19:54,599 --> 00:19:58,719
+issos do que as outras classes depois de
+
+495
+00:19:56,400 --> 00:20:00,280
+2015 eles fizeram outro estudo né eh
+
+496
+00:19:58,720 --> 00:20:02,919
+onde eles viram que classes com
+
+497
+00:20:00,279 --> 00:20:05,240
+dependências estáticas a classes com
+
+498
+00:20:02,919 --> 00:20:08,120
+dead smells também eram mais propensas a
+
+499
+00:20:05,240 --> 00:20:11,319
+issos ou seja você tem uma classe A que
+
+500
+00:20:08,119 --> 00:20:13,599
+tem um smell e você tem uma classe B que
+
+501
+00:20:11,319 --> 00:20:15,200
+depende estaticamente dessa classe A
+
+502
+00:20:13,599 --> 00:20:17,038
+depende estaticamente você consegue ver
+
+503
+00:20:15,200 --> 00:20:18,400
+essa dependência em tempo de compilação
+
+504
+00:20:17,038 --> 00:20:20,640
+é isso que ele quer dizer não é uma
+
+505
+00:20:18,400 --> 00:20:23,400
+dependência em tempo de execução em
+
+506
+00:20:20,640 --> 00:20:25,320
+tempo de de mudança de código quando uma
+
+507
+00:20:23,400 --> 00:20:27,280
+você muda uma você muda a outra essas
+
+508
+00:20:25,319 --> 00:20:30,000
+classes com dependências estáticas
+
+509
+00:20:27,279 --> 00:20:31,839
+também eram mais propensas a issos e de
+
+510
+00:20:30,000 --> 00:20:34,558
+maneira interessante assim classe com
+
+511
+00:20:31,839 --> 00:20:36,359
+com Smell mas com dependências a design
+
+512
+00:20:34,558 --> 00:20:38,720
+patters aí já era o contrário elas
+
+513
+00:20:36,359 --> 00:20:40,158
+tinham menos propensão a bugs do que
+
+514
+00:20:38,720 --> 00:20:42,558
+outras classes olha olha que
+
+515
+00:20:40,159 --> 00:20:44,960
+interessante ah tudo bem se são classes
+
+516
+00:20:42,558 --> 00:20:46,599
+que têm dependências estáticas com
+
+517
+00:20:44,960 --> 00:20:49,880
+classes que t smell elas são mais
+
+518
+00:20:46,599 --> 00:20:51,798
+propensas a bug desde que essas classes
+
+519
+00:20:49,880 --> 00:20:54,840
+não tenham dependências a classes com
+
+520
+00:20:51,798 --> 00:20:56,558
+design patterns então foram estudados
+
+521
+00:20:54,839 --> 00:20:58,519
+isso foi bastante estudado na literatura
+
+522
+00:20:56,558 --> 00:21:00,918
+os resultados às vezes são um pouco e
+
+523
+00:20:58,519 --> 00:21:03,319
+inconclusivos existe uma tendência a
+
+524
+00:21:00,919 --> 00:21:06,000
+apontar que existe essa associação mas
+
+525
+00:21:03,319 --> 00:21:08,279
+também essa tendência não é universal
+
+526
+00:21:06,000 --> 00:21:10,119
+tem um outro estudo publicado também na
+
+527
+00:21:08,279 --> 00:21:13,079
+transactions da de engenharia de
+
+528
+00:21:10,119 --> 00:21:16,000
+software da CM né com cinco smells menos
+
+529
+00:21:13,079 --> 00:21:19,480
+comuns menos estudados né que é o data
+
+530
+00:21:16,000 --> 00:21:22,400
+clamps o switch statement generalidade
+
+531
+00:21:19,480 --> 00:21:25,798
+especulativa messa de chas e midleman e
+
+532
+00:21:22,400 --> 00:21:27,640
+em três sistemas eles estudaram Argo UML
+
+533
+00:21:25,798 --> 00:21:30,879
+Eclipse e a Pach Comos que que esse
+
+534
+00:21:27,640 --> 00:21:34,120
+estudo mostrou mostrou que alguns desses
+
+535
+00:21:30,880 --> 00:21:36,760
+smelts apresentavam um aumento de
+
+536
+00:21:34,119 --> 00:21:38,879
+propensão a bugs em alguns sistemas
+
+537
+00:21:36,759 --> 00:21:40,640
+então alguns desses smells não tinham
+
+538
+00:21:38,880 --> 00:21:42,240
+associação com bugs mas
+
+539
+00:21:40,640 --> 00:21:44,440
+surpreendentemente também existiam
+
+540
+00:21:42,240 --> 00:21:47,278
+smells que associavam negativamente com
+
+541
+00:21:44,440 --> 00:21:49,080
+os bugs ou seja eles quanto mais qu as
+
+542
+00:21:47,278 --> 00:21:51,159
+classes que tinham aquele mel tinham
+
+543
+00:21:49,079 --> 00:21:52,720
+menos bugs então um dos resultados uma
+
+544
+00:21:51,159 --> 00:21:54,679
+das conclusões importantes até nós já
+
+545
+00:21:52,720 --> 00:21:56,640
+falamos aqui é essa importância de
+
+546
+00:21:54,679 --> 00:21:58,679
+priorização a importância de priorizar
+
+547
+00:21:56,640 --> 00:22:00,640
+os smells ou seja alguns smells eles vão
+
+548
+00:21:58,679 --> 00:22:02,600
+estar mais propensos a bugs em alguns
+
+549
+00:22:00,640 --> 00:22:05,720
+sistemas eles vão estar mais propensos a
+
+550
+00:22:02,599 --> 00:22:07,439
+bugs ou seja refatorar arbitrariamente
+
+551
+00:22:05,720 --> 00:22:10,839
+pegar a lista de bedsmels e sair
+
+552
+00:22:07,440 --> 00:22:13,558
+refatorado isso pode inclusive aumentar
+
+553
+00:22:10,839 --> 00:22:15,558
+a sua propensão a bugs né são assim
+
+554
+00:22:13,558 --> 00:22:18,678
+alguns achados interessantes aí sobre
+
+555
+00:22:15,558 --> 00:22:20,519
+bad smells então Marcelo os smells de
+
+556
+00:22:18,679 --> 00:22:23,759
+código eles também se aplicam a código
+
+557
+00:22:20,519 --> 00:22:27,119
+de teste ou são outros grupos de smells
+
+558
+00:22:23,759 --> 00:22:29,480
+sim a área de de smells de teste é um é
+
+559
+00:22:27,119 --> 00:22:32,719
+uma área inclusive à parte né para qual
+
+560
+00:22:29,480 --> 00:22:34,720
+foram definidos os próprios smells para
+
+561
+00:22:32,720 --> 00:22:37,640
+para teste né os seus respectivos smells
+
+562
+00:22:34,720 --> 00:22:40,240
+para testes afinal de contas né código
+
+563
+00:22:37,640 --> 00:22:42,520
+de teste também é código e em cima
+
+564
+00:22:40,240 --> 00:22:44,880
+daquilo que nós já falamos né tudo que é
+
+565
+00:22:42,519 --> 00:22:46,879
+código tudo que tem eventualmente uma
+
+566
+00:22:44,880 --> 00:22:48,720
+característica de design onde você pode
+
+567
+00:22:46,880 --> 00:22:50,360
+colocar uma característica de design vai
+
+568
+00:22:48,720 --> 00:22:52,159
+aparecer essa questão da possibilidade
+
+569
+00:22:50,359 --> 00:22:54,158
+de inserção de esmelos esse foi
+
+570
+00:22:52,159 --> 00:22:56,880
+inclusive um desdobramento da pesquisa
+
+571
+00:22:54,159 --> 00:23:00,159
+em smells né que nós nós achamos aí né
+
+572
+00:22:56,880 --> 00:23:02,760
+que é a proposta de smells em contextos
+
+573
+00:23:00,159 --> 00:23:05,480
+específicos ou seja existem alguns
+
+574
+00:23:02,759 --> 00:23:06,919
+smells que eles são propostos para esses
+
+575
+00:23:05,480 --> 00:23:09,079
+contextos específicos por exemplo
+
+576
+00:23:06,919 --> 00:23:11,278
+existem smells propostos especificamente
+
+577
+00:23:09,079 --> 00:23:13,720
+pro ecossistema Android enfim essa
+
+578
+00:23:11,278 --> 00:23:15,880
+metáfora de smells ela pode ser aplicada
+
+579
+00:23:13,720 --> 00:23:17,880
+onde quer que haja design sempre é
+
+580
+00:23:15,880 --> 00:23:20,799
+possível você elaborar um design
+
+581
+00:23:17,880 --> 00:23:23,000
+subótimo um código subótimo e portanto
+
+582
+00:23:20,798 --> 00:23:25,440
+com possibilidade de enxergar um padrão
+
+583
+00:23:23,000 --> 00:23:28,519
+recorrente ali e caracterizar aquilo ali
+
+584
+00:23:25,440 --> 00:23:31,038
+como um código subótimo isso é até uma
+
+585
+00:23:28,519 --> 00:23:34,480
+uma frente de pesquisa interessante né
+
+586
+00:23:31,038 --> 00:23:37,519
+de achar esses contextos eh específicos
+
+587
+00:23:34,480 --> 00:23:40,640
+e propor smells para esses contextos e
+
+588
+00:23:37,519 --> 00:23:42,918
+certamente os de teste já existem smells
+
+589
+00:23:40,640 --> 00:23:45,370
+caracterizados aí para para código de
+
+590
+00:23:42,919 --> 00:23:48,410
+teste sem dúvida
+
+591
+00:23:45,369 --> 00:23:48,409
+[Música]
+
+592
+00:23:50,679 --> 00:23:56,480
+então eh Marcelo você recentemente teve
+
+593
+00:23:53,759 --> 00:23:58,519
+uma revisão da literatura publicada
+
+594
+00:23:56,480 --> 00:24:00,440
+sobre Codes MS né então quando a gente
+
+595
+00:23:58,519 --> 00:24:03,278
+fala de revisão da literatura você mesmo
+
+596
+00:24:00,440 --> 00:24:07,640
+já mencionou um estudo muito amplo desde
+
+597
+00:24:03,278 --> 00:24:10,079
+a década de 1990 e bolinha até 2000 e
+
+598
+00:24:07,640 --> 00:24:12,840
+alguma coisinha né então explica um
+
+599
+00:24:10,079 --> 00:24:15,119
+pouco mais em detalhe né o que que são
+
+600
+00:24:12,839 --> 00:24:18,399
+esses cinco W o título de vocês tem um
+
+601
+00:24:15,119 --> 00:24:21,959
+título meio sugestivo né os cinco W que
+
+602
+00:24:18,400 --> 00:24:23,960
+são when what who e o where pode
+
+603
+00:24:21,960 --> 00:24:26,480
+explicar um pouco mais sobre esse
+
+604
+00:24:23,960 --> 00:24:28,840
+trabalho que você já mencionou é foi uma
+
+605
+00:24:26,480 --> 00:24:30,558
+revisão da literatura tudo bem mas o que
+
+606
+00:24:28,839 --> 00:24:32,959
+que mais de interessante vocês
+
+607
+00:24:30,558 --> 00:24:35,278
+encontraram nesse trabalho bom o nome
+
+608
+00:24:32,960 --> 00:24:37,600
+foi o seguinte esses cinco dados aí você
+
+609
+00:24:35,278 --> 00:24:40,240
+você tocou num ponto interessante né não
+
+610
+00:24:37,599 --> 00:24:42,199
+necessariamente todos têm talvez a mesma
+
+611
+00:24:40,240 --> 00:24:44,200
+importância paraas diferentes pessoas
+
+612
+00:24:42,200 --> 00:24:47,440
+que estão interessadas em ver esses
+
+613
+00:24:44,200 --> 00:24:49,519
+resultados né o nós estávamos querendo
+
+614
+00:24:47,440 --> 00:24:51,159
+descobrir quais os smells foram
+
+615
+00:24:49,519 --> 00:24:53,599
+estudados então por exemplo quando a
+
+616
+00:24:51,159 --> 00:24:56,520
+gente fala que nós identificamos mais de
+
+617
+00:24:53,599 --> 00:24:59,199
+100 smells eh essa é uma das partes da
+
+618
+00:24:56,519 --> 00:25:02,119
+pergunta do do Wi foi caracterizar quais
+
+619
+00:24:59,200 --> 00:25:04,840
+os smells foram estudados o é foi
+
+620
+00:25:02,119 --> 00:25:07,000
+caracterizar como que essa pesquisa veio
+
+621
+00:25:04,839 --> 00:25:09,879
+evoluindo ao longo do tempo né se ela já
+
+622
+00:25:07,000 --> 00:25:12,398
+tá esfriando se ela foi aumentando ou
+
+623
+00:25:09,880 --> 00:25:14,840
+seja quando por exemplo o interesse por
+
+624
+00:25:12,398 --> 00:25:17,278
+Smells apareceu né por exemplo a gente
+
+625
+00:25:14,839 --> 00:25:20,278
+descobre obviamente que antes de
+
+626
+00:25:17,278 --> 00:25:22,200
+1999 eh praticamente não se falava em
+
+627
+00:25:20,278 --> 00:25:24,519
+outro badmel que não fosse o código
+
+628
+00:25:22,200 --> 00:25:26,759
+duplicado clones já já o pessoal já
+
+629
+00:25:24,519 --> 00:25:28,519
+trabalhava já de longa data mas esses
+
+630
+00:25:26,759 --> 00:25:31,000
+outros SMELS com essa por conta dessa
+
+631
+00:25:28,519 --> 00:25:32,960
+nomenclatura que o Fer colocou eles só
+
+632
+00:25:31,000 --> 00:25:35,319
+foram aparecer obviamente é depois dos
+
+633
+00:25:32,960 --> 00:25:37,519
+anos 2000 onde a repercussão do livro
+
+634
+00:25:35,319 --> 00:25:40,720
+dele começou a ter um alcance maior o
+
+635
+00:25:37,519 --> 00:25:42,918
+what né então o que que esses smells
+
+636
+00:25:40,720 --> 00:25:45,919
+falam a respeito né talvez seja uma
+
+637
+00:25:42,919 --> 00:25:48,000
+parte talvez mais interessante né onde a
+
+638
+00:25:45,919 --> 00:25:49,399
+gente discute é bom algumas coisas que
+
+639
+00:25:48,000 --> 00:25:51,599
+eu falei aqui alguns estudos que eu
+
+640
+00:25:49,398 --> 00:25:53,879
+falei quais foram os principais achados
+
+641
+00:25:51,599 --> 00:25:56,199
+né quais foram as eventuais principais
+
+642
+00:25:53,880 --> 00:25:57,640
+contradições coisas que um estudo acha
+
+643
+00:25:56,200 --> 00:25:59,480
+de um jeito outro estudo acha com um
+
+644
+00:25:57,640 --> 00:26:01,799
+olhar um pouco diferente isso foi uma
+
+645
+00:25:59,480 --> 00:26:03,519
+parte interessante do trabalho também
+
+646
+00:26:01,798 --> 00:26:05,918
+onde a gente também explora quais as
+
+647
+00:26:03,519 --> 00:26:09,440
+ferramentas que foram propostas e tal e
+
+648
+00:26:05,919 --> 00:26:12,720
+o impacto disso o o e mapear as pessoas
+
+649
+00:26:09,440 --> 00:26:14,640
+né é super interessante que nós fizemos
+
+650
+00:26:12,720 --> 00:26:16,839
+uma uma clusterização baseada em redes
+
+651
+00:26:14,640 --> 00:26:19,360
+sociais lá com esse uh identificamos as
+
+652
+00:26:16,839 --> 00:26:22,439
+pessoas inclusive identificamos o nosso
+
+653
+00:26:19,359 --> 00:26:24,199
+grupo brasileiro lá bastante importante
+
+654
+00:26:22,440 --> 00:26:26,558
+dentro do contexto da pesquisa de bad
+
+655
+00:26:24,200 --> 00:26:29,159
+smells né onde a gente tem ali um nó
+
+656
+00:26:26,558 --> 00:26:30,720
+central ali um nó principal ali na
+
+657
+00:26:29,159 --> 00:26:34,120
+pesquisa que é o Alessandro Garcia da
+
+658
+00:26:30,720 --> 00:26:36,480
+PUC em conjunto lá com Arm né trabalham
+
+659
+00:26:34,119 --> 00:26:38,519
+juntos a gente mapeia também aqui no
+
+660
+00:26:36,480 --> 00:26:40,880
+Brasil quem quem pesquisou nessa área e
+
+661
+00:26:38,519 --> 00:26:43,679
+o onde que as pessoas publicaram seus
+
+662
+00:26:40,880 --> 00:26:45,840
+artigos bom isso aí explicando né por
+
+663
+00:26:43,679 --> 00:26:48,320
+que a gente resolveu colocar isso né na
+
+664
+00:26:45,839 --> 00:26:49,839
+verdade essa essas perguntas elas foram
+
+665
+00:26:48,319 --> 00:26:51,759
+aparecendo no contexto da tese do
+
+666
+00:26:49,839 --> 00:26:53,439
+doutorado de um aluno meu né o Hélder
+
+667
+00:26:51,759 --> 00:26:55,519
+Hélder sobrinho ele estava fazendo a
+
+668
+00:26:53,440 --> 00:26:57,880
+tese doutorado dele e eu falei: "Pô
+
+669
+00:26:55,519 --> 00:27:00,879
+Hélda vamos eh como era um dos primeiros
+
+670
+00:26:57,880 --> 00:27:03,159
+trabalhos meus sobre badms eu sugeria o
+
+671
+00:27:00,880 --> 00:27:04,880
+Éder pra gente ter uma uma ideia melhor
+
+672
+00:27:03,159 --> 00:27:06,559
+de qual pergunta de pesquisa seria mais
+
+673
+00:27:04,880 --> 00:27:08,640
+interessante nós atacarmos e ver o que
+
+674
+00:27:06,558 --> 00:27:10,678
+que é mais relevante até porque essas
+
+675
+00:27:08,640 --> 00:27:12,720
+perguntas as coisas que nós já falamos
+
+676
+00:27:10,679 --> 00:27:15,159
+aí anteriormente nós só fomos descobrir
+
+677
+00:27:12,720 --> 00:27:17,240
+depois de de de revisar esses trabalhos
+
+678
+00:27:15,159 --> 00:27:20,278
+né entender melhor a o contexto a
+
+679
+00:27:17,240 --> 00:27:22,240
+situação atual então o Hélder fez e foi
+
+680
+00:27:20,278 --> 00:27:24,440
+interessante que ele fez um trabalho a
+
+681
+00:27:22,240 --> 00:27:26,919
+gente obviamente não tinha pretensão de
+
+682
+00:27:24,440 --> 00:27:30,159
+chegar num trabalho dess desse porte né
+
+683
+00:27:26,919 --> 00:27:32,440
+mas o o ele fez um trabalho tão tão
+
+684
+00:27:30,159 --> 00:27:35,200
+minucioso que eu falei: "Poxa vida vamos
+
+685
+00:27:32,440 --> 00:27:39,320
+publicar isso aí vamos vamos publicar no
+
+686
+00:27:35,200 --> 00:27:41,278
+na TSE né?" E e foi uma época que foi
+
+687
+00:27:39,319 --> 00:27:44,639
+fazer o sanduíche na Itália com o
+
+688
+00:27:41,278 --> 00:27:47,278
+professor Andreia Andreia de Lutia e e
+
+689
+00:27:44,640 --> 00:27:50,278
+aí nós acabamos envolvendo o professor
+
+690
+00:27:47,278 --> 00:27:52,359
+Andreia também no no trabalho então eu
+
+691
+00:27:50,278 --> 00:27:54,278
+diria que esse paper acabou virando um
+
+692
+00:27:52,359 --> 00:27:56,479
+large paper né se a gente puder chamar
+
+693
+00:27:54,278 --> 00:27:58,599
+isso de bad smell né no final das contas
+
+694
+00:27:56,480 --> 00:28:01,079
+a gente chegou lá com mais de 400
+
+695
+00:27:58,599 --> 00:28:03,199
+referências biográficas lá no final né o
+
+696
+00:28:01,079 --> 00:28:04,639
+o artigo ele teve um diferencial
+
+697
+00:28:03,200 --> 00:28:06,080
+metodológico interessante so ponto de
+
+698
+00:28:04,640 --> 00:28:08,440
+vista de revisão sistemática para quem
+
+699
+00:28:06,079 --> 00:28:10,398
+gosta desse assunto né que nós estáamos
+
+700
+00:28:08,440 --> 00:28:12,360
+encontrando diversas limitações para
+
+701
+00:28:10,398 --> 00:28:14,678
+encontrar essa aplicar essas
+
+702
+00:28:12,359 --> 00:28:16,439
+metodologias de busca e filtragem nas
+
+703
+00:28:14,679 --> 00:28:18,038
+bases de dados e em função dessas
+
+704
+00:28:16,440 --> 00:28:20,000
+limitações que a gente inclusive até
+
+705
+00:28:18,038 --> 00:28:22,440
+explica no paper nós fizemos uma
+
+706
+00:28:20,000 --> 00:28:24,640
+metodologia diferenciada assim que a
+
+707
+00:28:22,440 --> 00:28:27,919
+chamar aí uma metodologia hardcore né
+
+708
+00:28:24,640 --> 00:28:29,759
+onde nós coletamos todos os papers de
+
+709
+00:28:27,919 --> 00:28:31,640
+venus importantes de engenharia de
+
+710
+00:28:29,759 --> 00:28:34,599
+software todos e fomos fazendo uma
+
+711
+00:28:31,640 --> 00:28:36,880
+filtragem manual dos artigos né ao invés
+
+712
+00:28:34,599 --> 00:28:39,839
+de por exemplo o enquanto tradicional é
+
+713
+00:28:36,880 --> 00:28:42,039
+você formular queries de busca né nas
+
+714
+00:28:39,839 --> 00:28:43,839
+principais dados de dados nós começamos
+
+715
+00:28:42,038 --> 00:28:46,919
+a perceber que as nossas queres elas
+
+716
+00:28:43,839 --> 00:28:48,240
+vinham incompletas não traziam todo
+
+717
+00:28:46,919 --> 00:28:50,159
+artigos importantes que nós
+
+718
+00:28:48,240 --> 00:28:52,798
+considerávamos e por mais que a gente
+
+719
+00:28:50,159 --> 00:28:55,000
+mexesse naquela query de busca a gente
+
+720
+00:28:52,798 --> 00:28:56,839
+não conseguia achar os artigos bom mas
+
+721
+00:28:55,000 --> 00:28:59,359
+enfim então a gente resolveu não adotar
+
+722
+00:28:56,839 --> 00:29:01,439
+essa alternativa olhou todos os artigos
+
+723
+00:28:59,359 --> 00:29:06,519
+depois ainda fez um snowballing e
+
+724
+00:29:01,440 --> 00:29:08,798
+chegamos a 351 artigos de 1990 a 2017 né
+
+725
+00:29:06,519 --> 00:29:11,880
+e olha que interessante 2/3 desses
+
+726
+00:29:08,798 --> 00:29:14,679
+artigos eram sobre duplicate code código
+
+727
+00:29:11,880 --> 00:29:17,600
+duplicado o clone para ter a ideia de
+
+728
+00:29:14,679 --> 00:29:20,399
+que clone é uma uma linha de pesquisa à
+
+729
+00:29:17,599 --> 00:29:23,759
+parte até enfim e aí nós optamos
+
+730
+00:29:20,398 --> 00:29:25,558
+concentrar no no 1/3 de artigos que não
+
+731
+00:29:23,759 --> 00:29:28,319
+falavam sobre clone até porque já
+
+732
+00:29:25,558 --> 00:29:30,599
+existia uma revisões importantes já a
+
+733
+00:29:28,319 --> 00:29:33,480
+respeito de con e nós queríamos então
+
+734
+00:29:30,599 --> 00:29:36,278
+entender esses essas interrelações né de
+
+735
+00:29:33,480 --> 00:29:38,440
+smells no código acabamos vendo né como
+
+736
+00:29:36,278 --> 00:29:40,038
+que os os smels lembra que eu falei no
+
+737
+00:29:38,440 --> 00:29:42,320
+início né que os smells eles se
+
+738
+00:29:40,038 --> 00:29:44,000
+manifestam de uma forma sistêmica boa
+
+739
+00:29:42,319 --> 00:29:45,960
+parte da pesquisa acabou se concentrando
+
+740
+00:29:44,000 --> 00:29:48,319
+nos smel se manifestando de uma forma
+
+741
+00:29:45,960 --> 00:29:50,519
+isolada nós queríamos entender um pouco
+
+742
+00:29:48,319 --> 00:29:52,639
+mais se existiam trabalhos que que
+
+743
+00:29:50,519 --> 00:29:54,798
+tentavam enxergar os smels se
+
+744
+00:29:52,640 --> 00:29:56,880
+manifestando de uma forma mais sistêmica
+
+745
+00:29:54,798 --> 00:29:59,639
+e aí foi foi um dos pontos que que até
+
+746
+00:29:56,880 --> 00:30:01,799
+nós decidimos enfocar na tese do Hélder
+
+747
+00:29:59,640 --> 00:30:04,399
+foi assim que que nós chegamos esses
+
+748
+00:30:01,798 --> 00:30:07,359
+resultados e ajudou o Hélder a definir a
+
+749
+00:30:04,398 --> 00:30:10,959
+tese doutorado dele muito curioso né
+
+750
+00:30:07,359 --> 00:30:13,119
+esse resultado de 2/3 dos artigos serem
+
+751
+00:30:10,960 --> 00:30:15,360
+de código duplicado porque eu acho que
+
+752
+00:30:13,119 --> 00:30:17,798
+no final das contas eh reforça bem o que
+
+753
+00:30:15,359 --> 00:30:20,558
+a gente discutiu lá no começo né de você
+
+754
+00:30:17,798 --> 00:30:23,240
+mencionar que esse é um dos esmels mais
+
+755
+00:30:20,558 --> 00:30:25,038
+importantes e vem desde que mundo é
+
+756
+00:30:23,240 --> 00:30:27,079
+mundo as pessoas estão copiando o código
+
+757
+00:30:25,038 --> 00:30:29,519
+e eu acho que coisas como Stack Overflow
+
+758
+00:30:27,079 --> 00:30:32,960
+GitHub disponibilizando o código a torta
+
+759
+00:30:29,519 --> 00:30:37,159
+e à direita facilita muito a existência
+
+760
+00:30:32,960 --> 00:30:37,159
+de smelts como esse sim
+
+761
+00:30:38,369 --> 00:30:44,058
+[Música]
+
+762
+00:30:54,359 --> 00:30:59,479
+marcelo além desse seu artigo que eu
+
+763
+00:30:56,558 --> 00:31:02,240
+acho que deve ser leitura de cabeceira
+
+764
+00:30:59,480 --> 00:31:04,480
+de qualquer programador pesquisador
+
+765
+00:31:02,240 --> 00:31:06,919
+interessado em Coach Mils né o que é que
+
+766
+00:31:04,480 --> 00:31:10,079
+você mais sugere para começar a
+
+767
+00:31:06,919 --> 00:31:13,440
+pesquisar ou entender mais cous tem
+
+768
+00:31:10,079 --> 00:31:15,879
+algum livro eh algum outro material
+
+769
+00:31:13,440 --> 00:31:18,519
+YouTube podcast
+
+770
+00:31:15,880 --> 00:31:21,200
+olha eu basicamente acho que tem dois
+
+771
+00:31:18,519 --> 00:31:24,638
+livros assim que são a leitura
+
+772
+00:31:21,200 --> 00:31:26,639
+obrigatória né tem um tem um livro do de
+
+773
+00:31:24,638 --> 00:31:30,278
+Refactoring inclusive saiu a segunda
+
+774
+00:31:26,638 --> 00:31:34,119
+edição recentemente o livro do do Martin
+
+775
+00:31:30,278 --> 00:31:36,599
+Fallow eh ele é de 1999 e e a segunda
+
+776
+00:31:34,119 --> 00:31:39,599
+edição dele se eu não me engano é de
+
+777
+00:31:36,599 --> 00:31:42,158
+2019 2020 saiu esse ano tá fresquinho aí
+
+778
+00:31:39,599 --> 00:31:43,879
+do livro dele onde ele reescreve boa
+
+779
+00:31:42,159 --> 00:31:46,120
+parte aí os conceitos são são muito
+
+780
+00:31:43,880 --> 00:31:48,159
+parecidos mas ele dá uma uma repaginada
+
+781
+00:31:46,119 --> 00:31:50,239
+boa é um livro assim obrigatório assim
+
+782
+00:31:48,159 --> 00:31:53,399
+de todo mundo que se interessa pela área
+
+783
+00:31:50,240 --> 00:31:56,558
+de coach smells e tem o o livro também
+
+784
+00:31:53,398 --> 00:31:59,759
+bastante importante né livro chamado de
+
+785
+00:31:56,558 --> 00:32:02,558
+Patterns do Brown e mais alguns outros
+
+786
+00:31:59,759 --> 00:32:06,359
+autores né então com esse com esse nome
+
+787
+00:32:02,558 --> 00:32:08,359
+Patterns e Brown Book no Google vocês
+
+788
+00:32:06,359 --> 00:32:10,558
+conseguem achar facilmente esse livro é
+
+789
+00:32:08,359 --> 00:32:13,479
+um livro também bastante importante
+
+790
+00:32:10,558 --> 00:32:17,398
+mostra ele mostra inclusive smells não
+
+791
+00:32:13,480 --> 00:32:20,278
+só cold smells né mas smells em
+
+792
+00:32:17,398 --> 00:32:21,719
+processos veja como como essa na verdade
+
+793
+00:32:20,278 --> 00:32:23,839
+aí ele não chama de smells né é
+
+794
+00:32:21,720 --> 00:32:25,839
+importante caracterizar que eles chamam
+
+795
+00:32:23,839 --> 00:32:29,519
+e esse esse nome de smells ele foi
+
+796
+00:32:25,839 --> 00:32:32,278
+caracterizado pelo fall né eh outros o o
+
+797
+00:32:29,519 --> 00:32:33,798
+conceito similar ele é ele é ele é
+
+798
+00:32:32,278 --> 00:32:37,558
+importante dizer que ele aparece com
+
+799
+00:32:33,798 --> 00:32:40,079
+outros nomes aí na literatura e também
+
+800
+00:32:37,558 --> 00:32:41,720
+tem uns sites bastante assim que eu que
+
+801
+00:32:40,079 --> 00:32:43,879
+eu passo pros alunos que é um que é uma
+
+802
+00:32:41,720 --> 00:32:46,240
+disponibilidade mais fácil de material
+
+803
+00:32:43,880 --> 00:32:48,960
+que eu tá um clique de você já já cai
+
+804
+00:32:46,240 --> 00:32:51,240
+ali no no site
+
+805
+00:32:48,960 --> 00:32:53,840
+sourcemaking.com.org né também se você
+
+806
+00:32:51,240 --> 00:32:56,038
+procurar por Badsmells no Google vai
+
+807
+00:32:53,839 --> 00:32:57,798
+esses vai vir bem ranqueado ali como um
+
+808
+00:32:56,038 --> 00:33:00,319
+dos primeiros sites onde ele faz um
+
+809
+00:32:57,798 --> 00:33:01,918
+resumo ele classifica inclusive tem um
+
+810
+00:33:00,319 --> 00:33:03,720
+trabalho de classificação interessante
+
+811
+00:33:01,919 --> 00:33:07,000
+né uma das coisas que eu que a gente
+
+812
+00:33:03,720 --> 00:33:09,639
+coloca que apareceram algumas taxonomias
+
+813
+00:33:07,000 --> 00:33:12,159
+importantes a respeito de smells uma
+
+814
+00:33:09,638 --> 00:33:15,519
+delas é esses blaters né que eu falei é
+
+815
+00:33:12,159 --> 00:33:17,480
+uma das classes dessa taxonomia existem
+
+816
+00:33:15,519 --> 00:33:20,440
+outras classes que foram propostas por
+
+817
+00:33:17,480 --> 00:33:22,319
+alguns pesquisadores lá nórdicos lá não
+
+818
+00:33:20,440 --> 00:33:24,679
+lembro exatamente qual país mas é um
+
+819
+00:33:22,319 --> 00:33:27,000
+daqueles países lá Finlândia Suécia
+
+820
+00:33:24,679 --> 00:33:30,278
+Noruega alguma coisa de lá de cima onde
+
+821
+00:33:27,000 --> 00:33:32,638
+eles propuseram essa taxonomia e esses
+
+822
+00:33:30,278 --> 00:33:35,038
+sites eles usam exatamente essa
+
+823
+00:33:32,638 --> 00:33:36,879
+taxonomia deles lá para organizar os
+
+824
+00:33:35,038 --> 00:33:39,359
+smells e e colocar esses smells de
+
+825
+00:33:36,880 --> 00:33:42,240
+maneira assim mais clara intuitiva bem
+
+826
+00:33:39,359 --> 00:33:44,678
+bem resumida né assim bastante acessível
+
+827
+00:33:42,240 --> 00:33:46,839
+esse material e efetivamente existem
+
+828
+00:33:44,679 --> 00:33:48,960
+algumas ferramentas comercial né tem
+
+829
+00:33:46,839 --> 00:33:50,558
+sonar kil que é uma ferramenta
+
+830
+00:33:48,960 --> 00:33:53,120
+importante também eu acho bastante
+
+831
+00:33:50,558 --> 00:33:55,319
+difundida aí vejo as pessoas usarem com
+
+832
+00:33:53,119 --> 00:33:57,918
+certa frequência aí na indústria né
+
+833
+00:33:55,319 --> 00:34:00,798
+sonar que também ele ele caracteriza e
+
+834
+00:33:57,919 --> 00:34:04,000
+acha os badsmels lá e faz os logs assim
+
+835
+00:34:00,798 --> 00:34:06,240
+enfim tem e tem o e aí quer dizer
+
+836
+00:34:04,000 --> 00:34:09,039
+obviamente como você disse né seguindo o
+
+837
+00:34:06,240 --> 00:34:11,480
+meu artigo vocês vão conseguir achar por
+
+838
+00:34:09,039 --> 00:34:14,000
+exemplo o link aí para essas as
+
+839
+00:34:11,480 --> 00:34:16,960
+principais ferramentas né os principais
+
+840
+00:34:14,000 --> 00:34:20,039
+trabalhos etc e tal vocês conseguem
+
+841
+00:34:16,960 --> 00:34:22,559
+acessar esse material esses ponteiros lá
+
+842
+00:34:20,039 --> 00:34:24,759
+lá pelo meu artigo né e os principais
+
+843
+00:34:22,559 --> 00:34:26,679
+grupos vai entrar nas páginas do dos
+
+844
+00:34:24,760 --> 00:34:28,440
+principais grupos para descobrir o que
+
+845
+00:34:26,679 --> 00:34:30,599
+que eles estão pesquisando o que que tá
+
+846
+00:34:28,440 --> 00:34:32,119
+saindo de novo as principais venus onde
+
+847
+00:34:30,599 --> 00:34:33,960
+que eu vou achar os os trabalhos
+
+848
+00:34:32,119 --> 00:34:36,240
+recentes que estão sendo publicados onde
+
+849
+00:34:33,960 --> 00:34:38,639
+esses onde esses trabalhos acabam sendo
+
+850
+00:34:36,239 --> 00:34:41,239
+publicados sim sem dúvida eu agradeço aí
+
+851
+00:34:38,639 --> 00:34:44,119
+apontar pro meu artigo o nosso artigo né
+
+852
+00:34:41,239 --> 00:34:47,158
+doer e do Lutia um bom guia aí também
+
+853
+00:34:44,119 --> 00:34:49,358
+para você e se empenhar por essa mata aí
+
+854
+00:34:47,159 --> 00:34:49,358
+de
+
+855
+00:34:57,500 --> 00:35:07,168
+[Música]
+
+856
+00:35:08,000 --> 00:35:13,440
+smels então Marcelo esse nosso podcast
+
+857
+00:35:11,280 --> 00:35:15,519
+aqui é um podcast para refletir sobre o
+
+858
+00:35:13,440 --> 00:35:17,159
+presente e o futuro da engenharia de
+
+859
+00:35:15,519 --> 00:35:20,039
+software então a gente sempre faz a
+
+860
+00:35:17,159 --> 00:35:22,319
+mesma pergunta no final qual é a próxima
+
+861
+00:35:20,039 --> 00:35:23,880
+fronteira da engenharia de software eu
+
+862
+00:35:22,320 --> 00:35:26,079
+confesso que eu assisti os primeiros
+
+863
+00:35:23,880 --> 00:35:27,680
+podcasts eu e eu achei essa quando
+
+864
+00:35:26,079 --> 00:35:30,119
+chegava nessa parte assim eu falei:
+
+865
+00:35:27,679 --> 00:35:31,879
+"Poxa que legal essa essa pergunta né
+
+866
+00:35:30,119 --> 00:35:33,358
+achei muito legal" é muito interessante
+
+867
+00:35:31,880 --> 00:35:36,000
+né porque eu acho por que que me chamou
+
+868
+00:35:33,358 --> 00:35:38,759
+tanta atenção essa pergunta né porque
+
+869
+00:35:36,000 --> 00:35:41,519
+nós como seres humanos nós temos uma
+
+870
+00:35:38,760 --> 00:35:43,400
+curiosidade né incrível né de saber de
+
+871
+00:35:41,519 --> 00:35:45,400
+antemão como é que vai ser o futuro qual
+
+872
+00:35:43,400 --> 00:35:47,960
+o que vai ser a tecnologia dominante
+
+873
+00:35:45,400 --> 00:35:49,960
+aqui daqui a 10 anos carros autônomos
+
+874
+00:35:47,960 --> 00:35:51,519
+vão ficar disponíveis quando para para
+
+875
+00:35:49,960 --> 00:35:53,760
+nós aqui quer dizer a gente sempre tem
+
+876
+00:35:51,519 --> 00:35:55,639
+essa essa essa certa curiosidade com o
+
+877
+00:35:53,760 --> 00:35:57,319
+futuro eu eu não sei eu acho que uma das
+
+878
+00:35:55,639 --> 00:35:59,759
+perguntas que os desenvolvedores de
+
+879
+00:35:57,318 --> 00:36:01,599
+software talvez se façam hoje em dia é:
+
+880
+00:35:59,760 --> 00:36:04,800
+"A profissão de programador vai acabar?"
+
+881
+00:36:01,599 --> 00:36:06,800
+Eu até confesso que eu que eu tenho eu
+
+882
+00:36:04,800 --> 00:36:08,760
+eu já pesquisei mais para isso eu tinha
+
+883
+00:36:06,800 --> 00:36:10,359
+essa perspectiva de pesquisar para
+
+884
+00:36:08,760 --> 00:36:12,119
+acabar com a profissão do programador
+
+885
+00:36:10,358 --> 00:36:14,239
+como ela é hoje principalmente com essa
+
+886
+00:36:12,119 --> 00:36:16,318
+com essa ferramenta que nós fazíamos que
+
+887
+00:36:14,239 --> 00:36:18,439
+propusemos lá no passado Meta J né de
+
+888
+00:36:16,318 --> 00:36:21,159
+fazer meta programação era para fazer
+
+889
+00:36:18,440 --> 00:36:23,159
+metaprogramas que que gerariam programas
+
+890
+00:36:21,159 --> 00:36:25,279
+né eu acho que provavelmente a minha
+
+891
+00:36:23,159 --> 00:36:27,000
+pesquisa não vai chegar lá e acabar com
+
+892
+00:36:25,280 --> 00:36:29,760
+a profissão do programador né
+
+893
+00:36:27,000 --> 00:36:32,440
+interessante outro dia na no Facebook um
+
+894
+00:36:29,760 --> 00:36:35,800
+colega postou uma foto do Turbo Pascal
+
+895
+00:36:32,440 --> 00:36:38,119
+né na década de 80 e olhando aquela foto
+
+896
+00:36:35,800 --> 00:36:40,039
+Pascal eu acho e tem uma recordação
+
+897
+00:36:38,119 --> 00:36:42,039
+muito boa né porque eu aprendi a
+
+898
+00:36:40,039 --> 00:36:44,480
+programar no Turbo Pascal Turbosto eu
+
+899
+00:36:42,039 --> 00:36:46,759
+vejo que os IDs de hoje obviamente tem
+
+900
+00:36:44,480 --> 00:36:49,639
+muito mais recurso do que o Tur Pascal e
+
+901
+00:36:46,760 --> 00:36:51,839
+Turbo C mas em termos estruturais eles
+
+902
+00:36:49,639 --> 00:36:54,759
+não são muito diferentes e qual que é a
+
+903
+00:36:51,838 --> 00:36:57,559
+reflexão que eu faço ou seja se não
+
+904
+00:36:54,760 --> 00:37:00,480
+houve nada que eu considere assim tão
+
+905
+00:36:57,559 --> 00:37:02,559
+disruptivo em termos de IDS né ou em
+
+906
+00:37:00,480 --> 00:37:05,400
+termos de desenvolvimento do software na
+
+907
+00:37:02,559 --> 00:37:07,960
+última década né ou seja será que houve
+
+908
+00:37:05,400 --> 00:37:09,559
+alguma algum movimento disruptivo no
+
+909
+00:37:07,960 --> 00:37:11,720
+desenvolvimento de software mas
+
+910
+00:37:09,559 --> 00:37:13,599
+certamente houve um desenvolvimento sem
+
+911
+00:37:11,719 --> 00:37:14,879
+dúvida a maneira como nós programamos
+
+912
+00:37:13,599 --> 00:37:16,960
+hoje os sistemas são muito mais
+
+913
+00:37:14,880 --> 00:37:19,519
+complexos as ferramentas são muito mais
+
+914
+00:37:16,960 --> 00:37:22,280
+poderosas mas eu não chegaria a dizer
+
+915
+00:37:19,519 --> 00:37:24,639
+numa disrupção assim num num movimento
+
+916
+00:37:22,280 --> 00:37:27,800
+né eu acho que houve um processo
+
+917
+00:37:24,639 --> 00:37:30,799
+incremental de evolução né olha nós
+
+918
+00:37:27,800 --> 00:37:33,480
+continuamos falando em código espaguete
+
+919
+00:37:30,800 --> 00:37:36,318
+50 anos depois né se fala ainda em
+
+920
+00:37:33,480 --> 00:37:38,599
+código espaguete desde a década de 80 já
+
+921
+00:37:36,318 --> 00:37:40,719
+se tinha a ideia de criar sistemas de
+
+922
+00:37:38,599 --> 00:37:42,838
+transformação que gerassem esses códigos
+
+923
+00:37:40,719 --> 00:37:45,480
+automaticamente para acabar com a
+
+924
+00:37:42,838 --> 00:37:47,679
+profissão do do do programador né não
+
+925
+00:37:45,480 --> 00:37:49,920
+pensa que é que isso se fala acabar com
+
+926
+00:37:47,679 --> 00:37:52,000
+a profissão do programador recentemente
+
+927
+00:37:49,920 --> 00:37:53,920
+né da década de 80 já se falava isso
+
+928
+00:37:52,000 --> 00:37:57,400
+tinha uma uma proposta uma ferramenta
+
+929
+00:37:53,920 --> 00:37:59,119
+chamada Draco né que era um deles né e
+
+930
+00:37:57,400 --> 00:38:01,559
+pode-se dizer que o Draco não foi assim
+
+931
+00:37:59,119 --> 00:38:04,358
+um grande sucesso né teve um sucesso
+
+932
+00:38:01,559 --> 00:38:08,239
+acadêmico mas não nada que que virasse
+
+933
+00:38:04,358 --> 00:38:10,039
+mainstream né e depois apareceu MDA né
+
+934
+00:38:08,239 --> 00:38:11,639
+que é o modelo driven architecture
+
+935
+00:38:10,039 --> 00:38:14,559
+também que fazer transformações de
+
+936
+00:38:11,639 --> 00:38:17,159
+modelos o que é usado alguns contextos
+
+937
+00:38:14,559 --> 00:38:19,838
+que na verdade o MDA na verdade foi uma
+
+938
+00:38:17,159 --> 00:38:23,159
+reparaginação do Draco com os padrões da
+
+939
+00:38:19,838 --> 00:38:27,440
+da OMG né talvez as tecnologias né de
+
+940
+00:38:23,159 --> 00:38:29,719
+reuso APIs né são quem de fato tem dado
+
+941
+00:38:27,440 --> 00:38:31,880
+assim um um ganho de produtividade muito
+
+942
+00:38:29,719 --> 00:38:34,039
+grande para na produção de software né
+
+943
+00:38:31,880 --> 00:38:37,000
+então se por um lado assim me parece que
+
+944
+00:38:34,039 --> 00:38:39,119
+nós chegamos a um a ao estado atual né
+
+945
+00:38:37,000 --> 00:38:42,039
+de uma maneira incremental que não tenha
+
+946
+00:38:39,119 --> 00:38:44,760
+sido tão disruptivo assim por outro lado
+
+947
+00:38:42,039 --> 00:38:46,039
+né conferência ano passado na I a
+
+948
+00:38:44,760 --> 00:38:48,040
+principal conferência de engenharia de
+
+949
+00:38:46,039 --> 00:38:50,000
+software que existe né o Facebook um
+
+950
+00:38:48,039 --> 00:38:52,119
+pesquisador do Facebook apresentou um
+
+951
+00:38:50,000 --> 00:38:54,880
+artigo lá mostrando que tinha colocado
+
+952
+00:38:52,119 --> 00:38:56,838
+uma ferramenta de reparo automático de
+
+953
+00:38:54,880 --> 00:38:58,960
+software em produção você fala em reparo
+
+954
+00:38:56,838 --> 00:39:01,679
+automático de software imagina que legal
+
+955
+00:38:58,960 --> 00:39:04,480
+né ou seja tem um robô ali que vai lá e
+
+956
+00:39:01,679 --> 00:39:06,799
+e conserta o seu software
+
+957
+00:39:04,480 --> 00:39:08,519
+automaticamente passou no num caso de
+
+958
+00:39:06,800 --> 00:39:10,839
+teste ele vai lá e automaticamente
+
+959
+00:39:08,519 --> 00:39:12,559
+repara olha que desafiador que bonito né
+
+960
+00:39:10,838 --> 00:39:14,559
+que que interessante né mais
+
+961
+00:39:12,559 --> 00:39:16,679
+recentemente até alguns poucos meses
+
+962
+00:39:14,559 --> 00:39:18,639
+atrás houve um burburinho grande com o
+
+963
+00:39:16,679 --> 00:39:21,559
+pessoal lá de da Califórnia São
+
+964
+00:39:18,639 --> 00:39:24,519
+Francisco eh que fizeram o
+
+965
+00:39:21,559 --> 00:39:26,880
+GPT3 né que é uma API uma ferramenta de
+
+966
+00:39:24,519 --> 00:39:28,920
+processamento de linguagem natural essa
+
+967
+00:39:26,880 --> 00:39:30,960
+ferramenta né algumas das pessoas que
+
+968
+00:39:28,920 --> 00:39:33,119
+tiveram acesso ao GPT3 ela não tá
+
+969
+00:39:30,960 --> 00:39:34,519
+disponível ainda para todo mundo mas
+
+970
+00:39:33,119 --> 00:39:37,640
+algumas pessoas que tiveram acesso a
+
+971
+00:39:34,519 --> 00:39:39,920
+essa ferramenta conseguiram gerar alguns
+
+972
+00:39:37,639 --> 00:39:42,000
+to exemplos assim de maneira que eu até
+
+973
+00:39:39,920 --> 00:39:44,318
+considerei vendo uns vídeos aí
+
+974
+00:39:42,000 --> 00:39:46,280
+considerei até bastante disruptivo a
+
+975
+00:39:44,318 --> 00:39:48,000
+maneira como ele com pouquíssima
+
+976
+00:39:46,280 --> 00:39:51,119
+informação que era traçada para ele ele
+
+977
+00:39:48,000 --> 00:39:54,039
+conseguia gerar um código que funcionava
+
+978
+00:39:51,119 --> 00:39:57,039
+razoavelmente e de maneira expressiva né
+
+979
+00:39:54,039 --> 00:39:59,079
+bom concluindo né assim para onde que eu
+
+980
+00:39:57,039 --> 00:40:01,000
+vejo que as coisas estão indo né vocês
+
+981
+00:39:59,079 --> 00:40:03,480
+já devem ter assistido esses filmes aí
+
+982
+00:40:01,000 --> 00:40:06,280
+de superheróis né homem-anha onde tinha
+
+983
+00:40:03,480 --> 00:40:08,960
+aquele vilão dentro de um exoesqueleto
+
+984
+00:40:06,280 --> 00:40:11,280
+né e que esse seu esqueleto aumentava
+
+985
+00:40:08,960 --> 00:40:13,519
+enormemente as capacidades né do do
+
+986
+00:40:11,280 --> 00:40:15,560
+vilão ou então o próprio Homem de Ferro
+
+987
+00:40:13,519 --> 00:40:18,000
+né para não falar sobre o vilão né que
+
+988
+00:40:15,559 --> 00:40:20,480
+tem aquela armadura dele né que que
+
+989
+00:40:18,000 --> 00:40:23,318
+também aumenta a capacidade aí do do de
+
+990
+00:40:20,480 --> 00:40:25,280
+um ser humano a minha próxima na próxima
+
+991
+00:40:23,318 --> 00:40:27,239
+fronteira de engenharia de software
+
+992
+00:40:25,280 --> 00:40:30,319
+esses os algoritmos de aprendizagem de
+
+993
+00:40:27,239 --> 00:40:32,318
+máquina devidamente treinados eles vão
+
+994
+00:40:30,318 --> 00:40:34,920
+fazer isso eles vão permitir essa
+
+995
+00:40:32,318 --> 00:40:37,318
+criação desse exoesqueleto pro
+
+996
+00:40:34,920 --> 00:40:39,960
+programador ou seja vai aumentar
+
+997
+00:40:37,318 --> 00:40:41,880
+significativamente a capacidade do dos
+
+998
+00:40:39,960 --> 00:40:44,280
+programadores de produzirem artefatos de
+
+999
+00:40:41,880 --> 00:40:45,838
+software de qualidade por outro lado né
+
+1000
+00:40:44,280 --> 00:40:47,560
+eu acho que é o seguinte: ah então vai
+
+1001
+00:40:45,838 --> 00:40:49,559
+acabar com os programadores não pelo
+
+1002
+00:40:47,559 --> 00:40:52,519
+contrário ou seja vai liberar os
+
+1003
+00:40:49,559 --> 00:40:55,239
+programadores dessas tarefas mais
+
+1004
+00:40:52,519 --> 00:40:56,719
+tediosas do desenvolvimento de software
+
+1005
+00:40:55,239 --> 00:40:58,679
+de tal forma que eles produzam o
+
+1006
+00:40:56,719 --> 00:41:01,439
+software com qualidade e onde o
+
+1007
+00:40:58,679 --> 00:41:03,759
+programador ele vai ter mais liberdade
+
+1008
+00:41:01,440 --> 00:41:06,200
+para exercer sua condição humana que vai
+
+1009
+00:41:03,760 --> 00:41:08,680
+ser extremamente importante né que é
+
+1010
+00:41:06,199 --> 00:41:10,719
+essa condição de criar de poder
+
+1011
+00:41:08,679 --> 00:41:14,118
+exercitar sua criação de maneira mais
+
+1012
+00:41:10,719 --> 00:41:15,879
+efetiva de maneira mais produtiva é e
+
+1013
+00:41:14,119 --> 00:41:19,119
+nós sabemos também que o desenvolvimento
+
+1014
+00:41:15,880 --> 00:41:21,800
+de software é extremamente interativo ou
+
+1015
+00:41:19,119 --> 00:41:24,640
+seja são pessoas ninguém hoje em dia
+
+1016
+00:41:21,800 --> 00:41:27,720
+ninguém faz software sozinho são equipes
+
+1017
+00:41:24,639 --> 00:41:30,759
+né times que colaboram ou seja eu vejo
+
+1018
+00:41:27,719 --> 00:41:32,838
+essas ferramentas eh cada vez mais
+
+1019
+00:41:30,760 --> 00:41:35,440
+inteligentes eh com apoio da
+
+1020
+00:41:32,838 --> 00:41:38,679
+inteligência artificial mas com esse
+
+1021
+00:41:35,440 --> 00:41:41,639
+propósito de de liberar o ser humano né
+
+1022
+00:41:38,679 --> 00:41:44,239
+para paraas suas interações mais ricas
+
+1023
+00:41:41,639 --> 00:41:47,159
+né e O que eu vejo é que o ser humano
+
+1024
+00:41:44,239 --> 00:41:50,358
+vai ter que aprender ou reender ou ou
+
+1025
+00:41:47,159 --> 00:41:52,639
+achar como fazer essas interações né e
+
+1026
+00:41:50,358 --> 00:41:55,078
+usar essas ferramentas nesse contexto
+
+1027
+00:41:52,639 --> 00:41:57,598
+onde os robôs de apoio aí ao
+
+1028
+00:41:55,079 --> 00:42:00,318
+desenvolvimento de software vão ter cada
+
+1029
+00:41:57,599 --> 00:42:03,480
+vez mais relevância né é por aí que eu
+
+1030
+00:42:00,318 --> 00:42:06,318
+vejo a próxima fronteira de engenharia
+
+1031
+00:42:03,480 --> 00:42:08,519
+de software então Marcelo muito obrigado
+
+1032
+00:42:06,318 --> 00:42:10,199
+foi um prazer conversar com você a gente
+
+1033
+00:42:08,519 --> 00:42:12,759
+vai deixar todos os links que você
+
+1034
+00:42:10,199 --> 00:42:14,759
+mencionou também link para sua página na
+
+1035
+00:42:12,760 --> 00:42:16,800
+descrição do episódio só posso agradecer
+
+1036
+00:42:14,760 --> 00:42:20,480
+o Marcelo pela excelente conversa
+
+1037
+00:42:16,800 --> 00:42:23,599
+Marcelo foi revigorante discutir desde a
+
+1038
+00:42:20,480 --> 00:42:25,159
+década de 80 70 aí até nos próximos
+
+1039
+00:42:23,599 --> 00:42:28,200
+passos da engenharia de software com
+
+1040
+00:42:25,159 --> 00:42:31,039
+você muito obrigado pessoal adolfo
+
+1041
+00:42:28,199 --> 00:42:33,480
+Gustavo todo toda a equipe aí do
+
+1042
+00:42:31,039 --> 00:42:35,519
+Fronteiras da Engenharia de Software eu
+
+1043
+00:42:33,480 --> 00:42:38,000
+tenho que agradecer esse espaço essa
+
+1044
+00:42:35,519 --> 00:42:40,199
+oportunidade foi um prazer enorme aqui
+
+1045
+00:42:38,000 --> 00:42:42,280
+poder compartilhar isso com vocês e
+
+1046
+00:42:40,199 --> 00:42:44,719
+poder inclusive refletir né quer dizer
+
+1047
+00:42:42,280 --> 00:42:46,880
+eu acho que é quando a gente começa a
+
+1048
+00:42:44,719 --> 00:42:49,239
+conversar sobre essas coisas certamente
+
+1049
+00:42:46,880 --> 00:42:52,400
+nós nos colocamos num numa posição
+
+1050
+00:42:49,239 --> 00:42:55,439
+também de reflexão né e foi um prazer
+
+1051
+00:42:52,400 --> 00:42:57,760
+enorme ter ter participado ter contído
+
+1052
+00:42:55,440 --> 00:42:59,289
+desejo sucesso e vida longa aí pro
+
+1053
+00:42:57,760 --> 00:43:03,179
+Fronteiras da Engenharia de
+
+1054
+00:42:59,289 --> 00:43:03,179
+[Música]
+
+1055
+00:43:06,630 --> 00:43:12,960
+[Música]
+
+1056
+00:43:08,559 --> 00:43:15,480
+Sorte este foi o episódio 4 do podcast
+
+1057
+00:43:12,960 --> 00:43:18,559
+Fronteiras da Engenharia de Software eu
+
+1058
+00:43:15,480 --> 00:43:20,960
+sou Adolfo Neto da UTFPR meu co-host
+
+1059
+00:43:18,559 --> 00:43:23,480
+neste episódio foi o professor Gustavo
+
+1060
+00:43:20,960 --> 00:43:25,559
+Pinto da Universidade Federal do Pará
+
+1061
+00:43:23,480 --> 00:43:27,358
+nós entrevistamos o professor Marcelo
+
+1062
+00:43:25,559 --> 00:43:29,920
+Maia da Universidade Federal de
+
+1063
+00:43:27,358 --> 00:43:31,719
+Uberlândia a equipe do Fronteiras do
+
+1064
+00:43:29,920 --> 00:43:34,519
+Engenheiro de software além de mim e do
+
+1065
+00:43:31,719 --> 00:43:37,039
+professor Gustavo nós temos Marco Túlio
+
+1066
+00:43:34,519 --> 00:43:40,800
+Valente da Universidade Federal de Minas
+
+1067
+00:43:37,039 --> 00:43:42,800
+Gerais Danilo Ribeiro da ZP Leonardo
+
+1068
+00:43:40,800 --> 00:43:45,800
+Fernandes do Instituto Federal de
+
+1069
+00:43:42,800 --> 00:43:49,079
+Alagoas Fábio Petrilho da Universidade
+
+1070
+00:43:45,800 --> 00:43:51,559
+de Quebec em Chicutimi e Marcela dos
+
+1071
+00:43:49,079 --> 00:43:54,960
+Santos também na mesma universidade de
+
+1072
+00:43:51,559 --> 00:43:56,960
+Quebec em Chicuti nós estamos no Twitter
+
+1073
+00:43:54,960 --> 00:43:59,039
+em
+
+1074
+00:43:56,960 --> 00:44:00,800
+@fronteirases e para você encontrar o
+
+1075
+00:43:59,039 --> 00:44:03,800
+nosso podcast é só procurar nas
+
+1076
+00:44:00,800 --> 00:44:06,559
+principais plataformas Spotify Apple
+
+1077
+00:44:03,800 --> 00:44:08,519
+Google Anchor Google Play como
+
+1078
+00:44:06,559 --> 00:44:11,300
+fronteiras da engenharia de software um
+
+1079
+00:44:08,519 --> 00:44:14,079
+grande abraço
+
+1080
+00:44:11,300 --> 00:44:17,480
+[Música]
+
+1081
+00:44:14,079 --> 00:44:21,200
+esse podcast foi editado pela produtora
+
+1082
+00:44:17,480 --> 00:44:21,199
+Reis m

@@ -16,6 +16,11 @@ fi
 echo "# Índice das Transcrições (em formato SRT) dos Episódios do Fronteiras da Engenharia de Software" > "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE" # Adiciona uma linha em branco para melhor formatação
 
+# Escreve um comentário
+echo "Legendas (imperfeitas) geradas automaticamente pelo YouTube." > "$OUTPUT_FILE"
+echo "" >> "$OUTPUT_FILE" # Adiciona uma linha em branco para melhor formatação
+
+
 # Controla se algum arquivo foi encontrado
 found_files=0
 

@@ -1,0 +1,4507 @@
+1
+00:00:06,599 --> 00:00:12,320
+3 4 5 6 7
+
+2
+00:00:20,518 --> 00:00:25,198
+Olá ouvintes. Eu sou Adolfo Neto,
+
+3
+00:00:22,879 --> 00:00:27,640
+professor da Universidade Tecnológica
+
+4
+00:00:25,199 --> 00:00:29,880
+Federal do Paraná. E eu sou Gustavo
+
+5
+00:00:27,640 --> 00:00:32,279
+Pinto, professor aqui na Universidade
+
+6
+00:00:29,879 --> 00:00:34,640
+Federal do Pará. E este é o Fronteiras
+
+7
+00:00:32,279 --> 00:00:36,640
+da Engenharia de Software, um podcast
+
+8
+00:00:34,640 --> 00:00:38,520
+feito para refletir sobre o presente e
+
+9
+00:00:36,640 --> 00:00:40,920
+futuro da engenharia de software.
+
+10
+00:00:38,520 --> 00:00:43,840
+Fronteiras da Engenharia de Software é
+
+11
+00:00:40,920 --> 00:00:46,359
+um podcast de divulgação científica que
+
+12
+00:00:43,840 --> 00:00:48,440
+discute mensalmente diversificados temas
+
+13
+00:00:46,359 --> 00:00:50,198
+da engenharia de software. Os episódios
+
+14
+00:00:48,439 --> 00:00:52,238
+abordam questões fundamentais da
+
+15
+00:00:50,198 --> 00:00:55,320
+engenharia de software até os mais
+
+16
+00:00:52,238 --> 00:00:55,320
+recentes avanços na
+
+17
+00:01:03,960 --> 00:01:09,840
+área. Nesse nosso sétimo episódio, nós
+
+18
+00:01:07,159 --> 00:01:12,320
+conversamos com a Silvia Bergílio, que é
+
+19
+00:01:09,840 --> 00:01:14,920
+professora titular da UFPR Federal do
+
+20
+00:01:12,319 --> 00:01:17,279
+Paraná, onde lidera o grupo de pesquisa
+
+21
+00:01:14,920 --> 00:01:18,879
+em engenharia de software, o Grace.
+
+22
+00:01:17,280 --> 00:01:20,478
+Curiosamente, eu também sou egresso
+
+23
+00:01:18,879 --> 00:01:23,798
+desse grupo de pesquisa. Eu fui mestrado
+
+24
+00:01:20,478 --> 00:01:25,438
+com a Silvia lá em 2000 bolinha e foi um
+
+25
+00:01:23,799 --> 00:01:28,118
+prazer enorme conversar com a Silvia
+
+26
+00:01:25,438 --> 00:01:28,118
+nesse episódio
+
+27
+00:01:39,399 --> 00:01:44,359
+novamente. Silvia trabalha há muitos
+
+28
+00:01:41,920 --> 00:01:47,200
+anos na área de teste de
+
+29
+00:01:44,359 --> 00:01:49,039
+software. Na última década, concentrou
+
+30
+00:01:47,200 --> 00:01:51,759
+seus esforços na área de pesquisa
+
+31
+00:01:49,040 --> 00:01:53,759
+conhecida como Search Based Software
+
+32
+00:01:51,759 --> 00:01:55,920
+Engineering, engenharia de software
+
+33
+00:01:53,759 --> 00:01:57,840
+baseada em busca, que se utiliza de
+
+34
+00:01:55,920 --> 00:02:01,159
+técnicas e algoritmos de inteligência
+
+35
+00:01:57,840 --> 00:02:04,399
+artificial em problemas da engenharia de
+
+36
+00:02:01,159 --> 00:02:06,799
+software. Neste episódio vamos falar de
+
+37
+00:02:04,399 --> 00:02:10,080
+engenharia de software baseada em busca
+
+38
+00:02:06,799 --> 00:02:13,080
+e de IA engenharia de software. Vamos a
+
+39
+00:02:10,080 --> 00:02:13,080
+episódio.
+
+40
+00:02:22,080 --> 00:02:25,160
+Tudo bem, Silvia? Você pode se
+
+41
+00:02:23,719 --> 00:02:29,560
+apresentar para as pessoas que nos
+
+42
+00:02:25,159 --> 00:02:32,680
+escutam? Tudo bem, Adolfo. Olá a todos.
+
+43
+00:02:29,560 --> 00:02:35,080
+Olá, Gustavo. Olá, toda a equipe. Em
+
+44
+00:02:32,680 --> 00:02:37,319
+primeiro lugar, eu gostaria de agradecer
+
+45
+00:02:35,080 --> 00:02:41,120
+o convite, dizer que eu fiquei muito
+
+46
+00:02:37,318 --> 00:02:43,518
+feliz quando o Gustavo me escreveu e
+
+47
+00:02:41,120 --> 00:02:46,000
+estou feliz em participar desse episódio
+
+48
+00:02:43,519 --> 00:02:48,560
+do Fronteiras da Engenharia de software
+
+49
+00:02:46,000 --> 00:02:50,719
+e também saber que um ex-aluno do nosso
+
+50
+00:02:48,560 --> 00:02:53,360
+grupo é uma das pessoas que lidera essa
+
+51
+00:02:50,719 --> 00:02:55,598
+iniciativa. Parabenizar toda a equipe.
+
+52
+00:02:53,360 --> 00:02:57,879
+Bom, eu sou a professora Silvia Regina
+
+53
+00:02:55,598 --> 00:02:59,359
+Vegílio da Universidade Federal do
+
+54
+00:02:57,878 --> 00:03:02,399
+Paraná, aqui
+
+55
+00:02:59,360 --> 00:03:06,400
+UFPR. Eu fiz graduação em ciências da
+
+56
+00:03:02,400 --> 00:03:08,480
+computação na USP em São Carlos. Na
+
+57
+00:03:06,400 --> 00:03:11,319
+época eu gostei muito de fazer a
+
+58
+00:03:08,479 --> 00:03:13,919
+disciplina de inteligência artificial.
+
+59
+00:03:11,318 --> 00:03:15,119
+Então, eu tive a oportunidade de fazer
+
+60
+00:03:13,919 --> 00:03:18,000
+iniciação
+
+61
+00:03:15,120 --> 00:03:20,200
+científica com a professora Maria
+
+62
+00:03:18,000 --> 00:03:22,840
+Carolina Munard. E na época eu
+
+63
+00:03:20,199 --> 00:03:25,560
+trabalhava com sistemas especialistas e
+
+64
+00:03:22,840 --> 00:03:28,039
+protestamento de linguagem natural.
+
+65
+00:03:25,560 --> 00:03:30,438
+Depois eu fui fazer mestrado na
+
+66
+00:03:28,039 --> 00:03:34,158
+Faculdade de Engenharia Elétrica e de
+
+67
+00:03:30,438 --> 00:03:36,280
+Comunicação, que é a FEC, lá na Unicamp,
+
+68
+00:03:34,158 --> 00:03:40,000
+e eu fiz uma matéria de engenharia de
+
+69
+00:03:36,280 --> 00:03:42,400
+software com o professor Mário Gino. As
+
+70
+00:03:40,000 --> 00:03:45,158
+aulas do professor Gino eram muito boas,
+
+71
+00:03:42,400 --> 00:03:47,438
+ele era bastante organizado. Eu acabei
+
+72
+00:03:45,158 --> 00:03:49,079
+gostando indo trabalhar com ele nessa
+
+73
+00:03:47,438 --> 00:03:51,400
+área. Aí então migrei pra área de
+
+74
+00:03:49,080 --> 00:03:54,560
+engenharia de software.
+
+75
+00:03:51,400 --> 00:03:56,799
+Eh, na época o professor José Carlos
+
+76
+00:03:54,560 --> 00:03:59,039
+Maldonado, que também tinha sido meu
+
+77
+00:03:56,799 --> 00:04:02,079
+professor lá na hospital São
+
+78
+00:03:59,039 --> 00:04:04,560
+Carlos, ele tava fazendo seu doutorado
+
+79
+00:04:02,079 --> 00:04:07,200
+com o professor Gino e aí eles me
+
+80
+00:04:04,560 --> 00:04:09,519
+introduziram a área de teste de som.
+
+81
+00:04:07,199 --> 00:04:12,359
+Esse foi o tema do meu trabalho de
+
+82
+00:04:09,519 --> 00:04:15,079
+mestrado. Eu trabalhei com determinação
+
+83
+00:04:12,360 --> 00:04:17,359
+de caminhos não executáveis na atividade
+
+84
+00:04:15,079 --> 00:04:19,439
+de teste. Esta é uma questão
+
+85
+00:04:17,358 --> 00:04:21,959
+indecidível, porque embora pro ser
+
+86
+00:04:19,439 --> 00:04:23,560
+humano possa ser relativamente fácil
+
+87
+00:04:21,959 --> 00:04:26,240
+determinar se um caminho é ou não
+
+88
+00:04:23,560 --> 00:04:28,759
+executável, não tem um algoritmo de
+
+89
+00:04:26,240 --> 00:04:31,478
+propósito geral. Então a gente teve que
+
+90
+00:04:28,759 --> 00:04:33,759
+trabalhar com heurística já nessa época
+
+91
+00:04:31,478 --> 00:04:36,719
+para auxiliar a identificação automática
+
+92
+00:04:33,759 --> 00:04:38,199
+de caminhos não executados. Depois de
+
+93
+00:04:36,720 --> 00:04:41,080
+defender o
+
+94
+00:04:38,199 --> 00:04:43,360
+mestrado, eu ainda tinha algumas dúvidas
+
+95
+00:04:41,079 --> 00:04:45,319
+com relação à carreira acadêmica. Eu
+
+96
+00:04:43,360 --> 00:04:47,639
+tinha amigos que trabalhavam em grandes
+
+97
+00:04:45,319 --> 00:04:50,199
+empresas já em São Paulo, em
+
+98
+00:04:47,639 --> 00:04:53,800
+Campinas. Mas também eu tive um grupo de
+
+99
+00:04:50,199 --> 00:04:56,759
+amigos que vieram aqui para Curitiba, se
+
+100
+00:04:53,800 --> 00:04:59,360
+tornaram professores aqui na federal. E
+
+101
+00:04:56,759 --> 00:05:01,479
+como eu só tinha o mestrado aqui, ainda
+
+102
+00:04:59,360 --> 00:05:03,840
+era uma das poucas universidades que não
+
+103
+00:05:01,478 --> 00:05:05,839
+exigiam doutorado, que não era o caso lá
+
+104
+00:05:03,839 --> 00:05:08,000
+das universidades paulistas, tá? O
+
+105
+00:05:05,839 --> 00:05:10,239
+hospedão então eu resolvi prestar
+
+106
+00:05:08,000 --> 00:05:12,879
+concurso aqui para ver se eu gostava da
+
+107
+00:05:10,240 --> 00:05:14,918
+carreira acadêmica antes de continuar
+
+108
+00:05:12,879 --> 00:05:18,000
+seguindo pro doutorado. Então eu fiquei
+
+109
+00:05:14,918 --> 00:05:20,159
+aqui dois anos como professora. Depois
+
+110
+00:05:18,000 --> 00:05:22,879
+eu retornei para Campinas para fazer o
+
+111
+00:05:20,160 --> 00:05:24,840
+doutorado, trabalhando novamente com os
+
+112
+00:05:22,879 --> 00:05:27,360
+professores Dinos também sobre a
+
+113
+00:05:24,839 --> 00:05:30,239
+orientação do professor Maldonado ainda
+
+114
+00:05:27,360 --> 00:05:32,240
+na área de teste de sol. E também tive a
+
+115
+00:05:30,240 --> 00:05:34,519
+oportunidade de fazer um estágio na
+
+116
+00:05:32,240 --> 00:05:37,478
+Universidade de Purdu, nos Estados
+
+117
+00:05:34,519 --> 00:05:40,038
+Unidos. E no meu doutorado a gente
+
+118
+00:05:37,478 --> 00:05:42,599
+utilizava alguns princípios da técnica
+
+119
+00:05:40,038 --> 00:05:45,079
+baseada em defeitos paraa geração de
+
+120
+00:05:42,600 --> 00:05:47,960
+dados de teste, para cobrir critérios de
+
+121
+00:05:45,079 --> 00:05:50,758
+teste estrutural. Então, de retorno ao
+
+122
+00:05:47,959 --> 00:05:53,478
+FPR, eu continuei trabalhando com teste
+
+123
+00:05:50,759 --> 00:05:55,919
+de software. trabalho hoje nessa área,
+
+124
+00:05:53,478 --> 00:05:58,159
+mas dado esse meu passado aí de
+
+125
+00:05:55,918 --> 00:06:02,159
+inteligência artificial, de geração de
+
+126
+00:05:58,160 --> 00:06:04,560
+dados de teste e ainda aqui eu vim
+
+127
+00:06:02,160 --> 00:06:08,160
+dividir a sala com a professora Aurora
+
+128
+00:06:04,560 --> 00:06:10,959
+Po da área de sistemas inteligentes, e
+
+129
+00:06:08,160 --> 00:06:13,479
+nós decidimos começar a trabalhar
+
+130
+00:06:10,959 --> 00:06:16,038
+juntos, trabalhamos até hoje no mesmo
+
+131
+00:06:13,478 --> 00:06:18,240
+grupo de pesquisa, a gente consegui,
+
+132
+00:06:16,038 --> 00:06:20,199
+começamos, a gente começou a explorar
+
+133
+00:06:18,240 --> 00:06:22,879
+essa área de inteligência artificial,
+
+134
+00:06:20,199 --> 00:06:25,160
+geração de dados de teste. Eu diria que
+
+135
+00:06:22,879 --> 00:06:27,399
+a professora Aurora Po é uma das
+
+136
+00:06:25,160 --> 00:06:30,800
+responsáveis aí por me introduzir na
+
+137
+00:06:27,399 --> 00:06:33,959
+área de a me manter atualizada também
+
+138
+00:06:30,800 --> 00:06:37,439
+nessa área de até hoje, né? Então, o
+
+139
+00:06:33,959 --> 00:06:39,079
+nosso grupo de pesquisa é o Gress, é o
+
+140
+00:06:37,439 --> 00:06:41,439
+grupo de pesquisa engenharia de
+
+141
+00:06:39,079 --> 00:06:46,079
+software, ó, eu
+
+142
+00:06:41,439 --> 00:06:47,918
+coordeno. a gente aplica áreas, as
+
+143
+00:06:46,079 --> 00:06:50,519
+técnicas da área de sistemas
+
+144
+00:06:47,918 --> 00:06:53,799
+inteligentes na área de teste de
+
+145
+00:06:50,519 --> 00:06:56,359
+software, principalmente nessa área, mas
+
+146
+00:06:53,800 --> 00:06:59,079
+a gente também abrange um espectro
+
+147
+00:06:56,360 --> 00:07:01,598
+grande de outras áreas da engenharia de
+
+148
+00:06:59,079 --> 00:07:04,878
+software, né, como confiabilidade de
+
+149
+00:07:01,598 --> 00:07:07,360
+software, refatoração, design,
+
+150
+00:07:04,879 --> 00:07:09,439
+otimização de arquiteturas e linha de
+
+151
+00:07:07,360 --> 00:07:12,639
+produto de soft. Muito legal a
+
+152
+00:07:09,439 --> 00:07:16,199
+introdução, Silvia, com esse seu passado
+
+153
+00:07:12,639 --> 00:07:19,439
+e presente com pé sempre um pouco de a,
+
+154
+00:07:16,199 --> 00:07:21,639
+como é que você enxerga essa relação de
+
+155
+00:07:19,439 --> 00:07:23,719
+inteligência artificial com a engenharia
+
+156
+00:07:21,639 --> 00:07:26,199
+de software? Quais são as técnicas que
+
+157
+00:07:23,720 --> 00:07:29,520
+dá pra gente utilizar, né, engenharia de
+
+158
+00:07:26,199 --> 00:07:32,720
+software? Quais são essas técnicas? E dá
+
+159
+00:07:29,519 --> 00:07:36,120
+pra gente tentar agrupar um grupo de
+
+160
+00:07:32,720 --> 00:07:37,840
+técnicas de que podem ser aplicadas em
+
+161
+00:07:36,120 --> 00:07:42,280
+diferentes problemas, né? engenharia de
+
+162
+00:07:37,839 --> 00:07:45,000
+software. Sim, eu vejo que são três
+
+163
+00:07:42,279 --> 00:07:48,119
+grupos grandes de técnicas
+
+164
+00:07:45,000 --> 00:07:50,079
+de de a, né, da área de sistemas
+
+165
+00:07:48,120 --> 00:07:52,000
+inteligentes, que geralmente são
+
+166
+00:07:50,079 --> 00:07:54,878
+aplicados na área de engenharia de
+
+167
+00:07:52,000 --> 00:07:57,360
+software. A primeira, ela tá relacionada
+
+168
+00:07:54,879 --> 00:08:00,520
+mais com a representação de conhecimento
+
+169
+00:07:57,360 --> 00:08:02,759
+de sistemas de apoio à decisão, sistemas
+
+170
+00:08:00,519 --> 00:08:06,000
+multiagentes da aplicação dessas
+
+171
+00:08:02,759 --> 00:08:08,158
+técnicas. surgiu a área conhecida como
+
+172
+00:08:06,000 --> 00:08:10,598
+knowledge based software engineering,
+
+173
+00:08:08,158 --> 00:08:13,240
+que é engenharia de software baseada em
+
+174
+00:08:10,598 --> 00:08:14,800
+conhecimento. Como exemplo de uma tarefa
+
+175
+00:08:13,240 --> 00:08:17,038
+de engenharia de software que a gente
+
+176
+00:08:14,800 --> 00:08:20,120
+pode aplicar ou pode se beneficiar com
+
+177
+00:08:17,038 --> 00:08:22,719
+uso dessas técnicas, tá a geração de
+
+178
+00:08:20,120 --> 00:08:24,840
+modelos de estimativa de custo. Por
+
+179
+00:08:22,720 --> 00:08:27,840
+exemplo, o nosso grupo aqui, a gente
+
+180
+00:08:24,839 --> 00:08:31,918
+investigou o uso de lógica fuz em
+
+181
+00:08:27,839 --> 00:08:34,519
+combinação com a métrica e os cas points
+
+182
+00:08:31,918 --> 00:08:37,439
+ou pontos por caso de uso, né? Eh, o
+
+183
+00:08:34,519 --> 00:08:39,479
+objetivo era facilitar a acomodação de
+
+184
+00:08:37,440 --> 00:08:41,880
+incertezas que a gente tem no início do
+
+185
+00:08:39,479 --> 00:08:44,480
+projeto para realizar as estimativas de
+
+186
+00:08:41,879 --> 00:08:47,320
+solo. Então, essa seria uma área. A
+
+187
+00:08:44,480 --> 00:08:51,000
+segunda área é a área de aprendizado de
+
+188
+00:08:47,320 --> 00:08:54,760
+máquina ou machine learning, né? Esta
+
+189
+00:08:51,000 --> 00:08:57,639
+área, ela tem como objetivo permitir que
+
+190
+00:08:54,759 --> 00:09:00,720
+máquinas como computadores aprendam
+
+191
+00:08:57,639 --> 00:09:03,759
+alguns padrões que são complexos e que
+
+192
+00:09:00,720 --> 00:09:07,160
+tomem decisões baseadas em alguns dados
+
+193
+00:09:03,759 --> 00:09:09,319
+empíricos. Geralmente, esses métodos de
+
+194
+00:09:07,159 --> 00:09:11,719
+aprendizado de máquina, eles se
+
+195
+00:09:09,320 --> 00:09:14,440
+classificam de acordo com o tipo de
+
+196
+00:09:11,720 --> 00:09:16,440
+dados que eles utilizam. Então, nós
+
+197
+00:09:14,440 --> 00:09:19,279
+temos o aprendizado
+
+198
+00:09:16,440 --> 00:09:22,360
+supervisionado, que utiliza dados
+
+199
+00:09:19,278 --> 00:09:25,799
+rotulados e o aprendizado não
+
+200
+00:09:22,360 --> 00:09:27,959
+supervisionado, não utiliza rótules. Eh,
+
+201
+00:09:25,799 --> 00:09:29,838
+na engenharia de software, eu acho que é
+
+202
+00:09:27,958 --> 00:09:33,119
+mais comum a utilização de métodos
+
+203
+00:09:29,839 --> 00:09:35,920
+supervisionados, né? Com esses métodos,
+
+204
+00:09:33,120 --> 00:09:39,959
+a gente constrói um modelo tendo como
+
+205
+00:09:35,919 --> 00:09:43,159
+base os dados e a resposta do que a
+
+206
+00:09:39,958 --> 00:09:46,838
+gente quer estimar, prever, classificar,
+
+207
+00:09:43,159 --> 00:09:50,240
+que já é conhecido previamente. Então
+
+208
+00:09:46,839 --> 00:09:52,399
+nós temos aí tarefas como tarefas de
+
+209
+00:09:50,240 --> 00:09:55,839
+classificação e regressão que a gente
+
+210
+00:09:52,399 --> 00:09:58,120
+utiliza esses modelos. Por exemplo, a
+
+211
+00:09:55,839 --> 00:10:01,160
+gente pode aprender um modelo para
+
+212
+00:09:58,120 --> 00:10:05,480
+predizer se um código vai conter ou não
+
+213
+00:10:01,159 --> 00:10:07,519
+um bug defeito, usando como atributos
+
+214
+00:10:05,480 --> 00:10:09,759
+alguns valores de métricas que estão
+
+215
+00:10:07,519 --> 00:10:12,639
+associados a esse código, como, por
+
+216
+00:10:09,759 --> 00:10:15,679
+exemplo, número de linhas de código, né,
+
+217
+00:10:12,639 --> 00:10:18,838
+outros atributos. E a tarefa de
+
+218
+00:10:15,679 --> 00:10:21,759
+classificação, como o próprio nome diz,
+
+219
+00:10:18,839 --> 00:10:25,120
+gera um modelo para classificar os dados
+
+220
+00:10:21,759 --> 00:10:28,799
+em categorias. por exemplo, o código tá
+
+221
+00:10:25,120 --> 00:10:31,440
+defeituoso ou não está defeituoso. E já
+
+222
+00:10:28,799 --> 00:10:34,759
+a tarefa de regressão, ela diz respeito
+
+223
+00:10:31,440 --> 00:10:37,160
+a dados contínuos. Por exemplo, gerar um
+
+224
+00:10:34,759 --> 00:10:40,278
+modelo para estimar a confiabilidade de
+
+225
+00:10:37,159 --> 00:10:43,879
+um software, a taxa de defeitos ao longo
+
+226
+00:10:40,278 --> 00:10:46,679
+de um tempo, um período. O aprendizado
+
+227
+00:10:43,879 --> 00:10:49,600
+não supervisionado, ele não tem os
+
+228
+00:10:46,679 --> 00:10:53,039
+rótulos. Então, a gente tem um conjunto
+
+229
+00:10:49,600 --> 00:10:55,920
+de observações e geralmente a gente
+
+230
+00:10:53,039 --> 00:10:58,159
+utiliza para agrupar essas
+
+231
+00:10:55,919 --> 00:11:00,679
+observações, né, em grupos que a gente
+
+232
+00:10:58,159 --> 00:11:02,439
+chama de clusters. Então, é a tá mais
+
+233
+00:11:00,679 --> 00:11:05,439
+relacionados com a tarefa de
+
+234
+00:11:02,440 --> 00:11:08,639
+clusterização. A ideia é que nos mesmos
+
+235
+00:11:05,440 --> 00:11:10,920
+clusters a gente tenha elementos que são
+
+236
+00:11:08,639 --> 00:11:13,680
+similares de acordo com algum atributo.
+
+237
+00:11:10,919 --> 00:11:16,639
+Na engenharia de software, por exemplo,
+
+238
+00:11:13,679 --> 00:11:19,239
+eu posso ter um problema lá de agrupar
+
+239
+00:11:16,639 --> 00:11:22,000
+módulos em alguns componentes, de tal
+
+240
+00:11:19,240 --> 00:11:25,680
+maneira que eu tente maximizar atributos
+
+241
+00:11:22,000 --> 00:11:29,278
+como coesão, minimizar coplamento. Então
+
+242
+00:11:25,679 --> 00:11:31,879
+eu posso utilizar nesse caso a os
+
+243
+00:11:29,278 --> 00:11:34,720
+algoritmos de cluster, por exemplo. E eu
+
+244
+00:11:31,879 --> 00:11:36,399
+ainda diria que tem uma outra eh outro
+
+245
+00:11:34,720 --> 00:11:39,680
+tipo de aprendizado que é o aprendizado
+
+246
+00:11:36,399 --> 00:11:42,120
+por reforço. Basicamente nesse tipo de
+
+247
+00:11:39,679 --> 00:11:45,638
+aprendizado, o algoritmo ele vai
+
+248
+00:11:42,120 --> 00:11:48,759
+aprendendo ao longo de um tempo. Ele vai
+
+249
+00:11:45,639 --> 00:11:50,839
+muito parecido com o ser humano, né? A
+
+250
+00:11:48,759 --> 00:11:53,240
+gente com o passar do tempo, a gente vai
+
+251
+00:11:50,839 --> 00:11:56,320
+aprendendo o que é deu certo, que deu
+
+252
+00:11:53,240 --> 00:11:58,720
+errado, né? com recompensas, com
+
+253
+00:11:56,320 --> 00:12:01,240
+punições. Então, o nosso algoritmo, ele
+
+254
+00:11:58,720 --> 00:12:04,680
+também vai aprendendo a tomar certas
+
+255
+00:12:01,240 --> 00:12:07,600
+ações baseado num em recompensas. Então,
+
+256
+00:12:04,679 --> 00:12:09,120
+aqui a gente também não usa rótulos, mas
+
+257
+00:12:07,600 --> 00:12:11,959
+a gente precisa ter uma função de
+
+258
+00:12:09,120 --> 00:12:14,240
+recompensa que estimule o algoritmo a
+
+259
+00:12:11,958 --> 00:12:16,879
+tomar as ações corretas que a gente quer
+
+260
+00:12:14,240 --> 00:12:20,120
+para resolver o problema. E uma terceira
+
+261
+00:12:16,879 --> 00:12:21,078
+área da área de sistemas inteligentes é
+
+262
+00:12:20,120 --> 00:12:23,799
+a área de
+
+263
+00:12:21,078 --> 00:12:26,439
+otimização. Essa área de otimização, ela
+
+264
+00:12:23,799 --> 00:12:29,078
+vai buscar uma melhor solução para um
+
+265
+00:12:26,440 --> 00:12:32,639
+problema dentre um conjunto de
+
+266
+00:12:29,078 --> 00:12:34,239
+alternativas. E essa busca, né, ela é
+
+267
+00:12:32,639 --> 00:12:36,799
+feita, essa procura, ela é feita por um
+
+268
+00:12:34,240 --> 00:12:39,919
+algoritmo de busca. Esse algoritmo de
+
+269
+00:12:36,799 --> 00:12:42,000
+busca vai escolher baseado em alguns
+
+270
+00:12:39,919 --> 00:12:45,000
+critérios que a gente chama de função
+
+271
+00:12:42,000 --> 00:12:47,759
+objetivo ou função de avaliação. Por
+
+272
+00:12:45,000 --> 00:12:49,078
+exemplo, eu quero encontrar a melhor
+
+273
+00:12:47,759 --> 00:12:51,879
+sequência de
+
+274
+00:12:49,078 --> 00:12:54,958
+refatorações para um um dado código, a
+
+275
+00:12:51,879 --> 00:12:58,240
+fim de minimizar também o acoplamento,
+
+276
+00:12:54,958 --> 00:13:01,039
+maximizar a coesão, né? ou eu quero
+
+277
+00:12:58,240 --> 00:13:03,320
+determinar um conjunto de casos de teste
+
+278
+00:13:01,039 --> 00:13:05,879
+que satisfaçam um dado critério de
+
+279
+00:13:03,320 --> 00:13:08,399
+teste, por exemplo, passar por todos os
+
+280
+00:13:05,879 --> 00:13:10,679
+comandos do programa. Então essa área
+
+281
+00:13:08,399 --> 00:13:12,879
+ela aplica algoritmos de busca para
+
+282
+00:13:10,679 --> 00:13:14,838
+encontrar as melhores soluções pros
+
+283
+00:13:12,879 --> 00:13:17,000
+problemas de engenharia de software. Ela
+
+284
+00:13:14,839 --> 00:13:19,600
+é conhecida como engenharia de software
+
+285
+00:13:17,000 --> 00:13:22,839
+baseada em busca, que a gente chama, né,
+
+286
+00:13:19,600 --> 00:13:26,079
+tem do inglês search based engineering,
+
+287
+00:13:22,839 --> 00:13:28,600
+que é a sigla CSBSE que a gente costuma
+
+288
+00:13:26,078 --> 00:13:30,958
+usar. No nosso grupo de pesquisa, eu
+
+289
+00:13:28,600 --> 00:13:34,800
+diria que a gente se concentrou mais na
+
+290
+00:13:30,958 --> 00:13:36,958
+última década na área de SBSE, né, nessa
+
+291
+00:13:34,799 --> 00:13:40,479
+área de otimização, mas a gente tem
+
+292
+00:13:36,958 --> 00:13:43,838
+trabalhado também com outras técnicas,
+
+293
+00:13:40,480 --> 00:13:46,519
+como aprendizagem de máquina, né, já faz
+
+294
+00:13:43,839 --> 00:13:51,440
+desde o início do nosso, das nossas
+
+295
+00:13:46,519 --> 00:13:51,440
+pesquisas aí, 20 anos atrás.
+
+296
+00:14:03,839 --> 00:14:09,199
+Silvia, dentre essas três áreas que você
+
+297
+00:14:06,039 --> 00:14:11,679
+mencionou, como você acabou de dizer,
+
+298
+00:14:09,198 --> 00:14:14,039
+você e seu grupo são bem mais ativos
+
+299
+00:14:11,679 --> 00:14:16,599
+nessa área de engenharia de software
+
+300
+00:14:14,039 --> 00:14:18,679
+baseada em busca, né? Eh, você pode
+
+301
+00:14:16,600 --> 00:14:22,120
+contar pra gente um pouco mais de
+
+302
+00:14:18,679 --> 00:14:25,758
+passado como que surgiu essa área? Eh, e
+
+303
+00:14:22,120 --> 00:14:28,440
+algumas aplicações que você vê eh talvez
+
+304
+00:14:25,759 --> 00:14:31,519
+surgindo hoje com muito mais demanda,
+
+305
+00:14:28,440 --> 00:14:34,680
+com de algoritmos de busca e otimização.
+
+306
+00:14:31,519 --> 00:14:37,440
+Essa área de SBSE, a gente pode dizer
+
+307
+00:14:34,679 --> 00:14:40,159
+que ela surgiu, né, que na verdade esse
+
+308
+00:14:37,440 --> 00:14:44,000
+nome, essa área, ela foi batizada em
+
+309
+00:14:40,159 --> 00:14:47,838
+2001 num artigo ali introdutório do
+
+310
+00:14:44,000 --> 00:14:50,720
+Harman e Jones. Mas antes disso, já, né,
+
+311
+00:14:47,839 --> 00:14:52,399
+na década de 90, diversos pesquisadores,
+
+312
+00:14:50,720 --> 00:14:54,720
+eles já
+
+313
+00:14:52,399 --> 00:14:56,480
+utilizavam algoritmos de busca para
+
+314
+00:14:54,720 --> 00:14:58,920
+resolver os problemas de engenharia de
+
+315
+00:14:56,480 --> 00:15:00,800
+software. Esses pesquisadores eram
+
+316
+00:14:58,919 --> 00:15:03,399
+principalmente da área de teste de
+
+317
+00:15:00,799 --> 00:15:05,838
+software. Dos primeiros trabalhos, eles
+
+318
+00:15:03,399 --> 00:15:08,039
+visavam essa tarefa de geração de dados
+
+319
+00:15:05,839 --> 00:15:10,920
+de teste. Então, eu acho que não foi por
+
+320
+00:15:08,039 --> 00:15:13,559
+acaso que eu com esse meu passado de
+
+321
+00:15:10,919 --> 00:15:16,958
+teste e de inteligência artificial fui
+
+322
+00:15:13,559 --> 00:15:19,359
+trabalhar com essa área de SBSE, né? e
+
+323
+00:15:16,958 --> 00:15:22,319
+mesmo antes até de conhecer o nome
+
+324
+00:15:19,360 --> 00:15:24,120
+oficial da área, mas eu acho que o que
+
+325
+00:15:22,320 --> 00:15:27,399
+contribuiu também pro desenvolvimento da
+
+326
+00:15:24,120 --> 00:15:30,519
+área de SBSE, se a gente pensar em todas
+
+327
+00:15:27,399 --> 00:15:33,078
+as áreas da engenharia de software, além
+
+328
+00:15:30,519 --> 00:15:36,120
+do teste de software, mas todas as
+
+329
+00:15:33,078 --> 00:15:38,599
+outras áreas como design, manutenção,
+
+330
+00:15:36,120 --> 00:15:40,679
+gerenciamento, a gente tem vários
+
+331
+00:15:38,600 --> 00:15:43,079
+problemas que podem ser modelados como
+
+332
+00:15:40,679 --> 00:15:45,919
+problema de otimização. E também há uma
+
+333
+00:15:43,078 --> 00:15:48,278
+grande variedade de métricas que estão
+
+334
+00:15:45,919 --> 00:15:50,838
+disponíveis para ser utilizada como uma
+
+335
+00:15:48,278 --> 00:15:53,159
+função objetiva, como uma função de
+
+336
+00:15:50,839 --> 00:15:55,920
+avaliação. Na engenharia de software tem
+
+337
+00:15:53,159 --> 00:15:58,078
+vários problemas que podem ser
+
+338
+00:15:55,919 --> 00:15:59,639
+resolvidos com algoritmos de busca. Eu
+
+339
+00:15:58,078 --> 00:16:02,679
+diria assim que a característica
+
+340
+00:15:59,639 --> 00:16:06,799
+principal desses problemas
+
+341
+00:16:02,679 --> 00:16:09,638
+são que eles precisam ter um espaço de
+
+342
+00:16:06,799 --> 00:16:11,758
+busca grande de soluções. Eles
+
+343
+00:16:09,639 --> 00:16:14,240
+geralmente não têm nenhuma solução
+
+344
+00:16:11,759 --> 00:16:16,318
+eficiente, completa, que seja conhecida
+
+345
+00:16:14,240 --> 00:16:19,639
+para resolver o problema. E são
+
+346
+00:16:16,318 --> 00:16:22,159
+necessários alguns ingredientes que o
+
+347
+00:16:19,639 --> 00:16:25,000
+professor Harman fala, né? O Mark Harman
+
+348
+00:16:22,159 --> 00:16:28,278
+fala. O primeiro que é necessário ter
+
+349
+00:16:25,000 --> 00:16:30,159
+uma representação simbólica das soluções
+
+350
+00:16:28,278 --> 00:16:32,759
+pro problema. Essa representação
+
+351
+00:16:30,159 --> 00:16:35,679
+simbólica vai ser usada pelo algoritmo
+
+352
+00:16:32,759 --> 00:16:37,959
+de busca. Segundo, ter alguns operadores
+
+353
+00:16:35,679 --> 00:16:41,078
+de busca que possam modificar essa
+
+354
+00:16:37,958 --> 00:16:43,838
+solução para gerar soluções alternativas
+
+355
+00:16:41,078 --> 00:16:46,679
+no espaço de busca. E o terceiro, ter
+
+356
+00:16:43,839 --> 00:16:50,759
+métricas para serem utilizadas em uma
+
+357
+00:16:46,679 --> 00:16:52,479
+função de avaliação. Então eu diria que
+
+358
+00:16:50,759 --> 00:16:55,159
+a engenheria de software tá cheia de
+
+359
+00:16:52,480 --> 00:16:58,159
+problemas que possuem esses três
+
+360
+00:16:55,159 --> 00:17:01,838
+ingredientes muito fáceis à mão, né?
+
+361
+00:16:58,159 --> 00:17:04,318
+Problemas de otimização e maneiras de
+
+362
+00:17:01,839 --> 00:17:07,038
+você avaliar que são essas metas. Então,
+
+363
+00:17:04,318 --> 00:17:10,879
+por isso que eu acho que a popularidade
+
+364
+00:17:07,038 --> 00:17:14,119
+dessa das técnicas de SBSE nas mais
+
+365
+00:17:10,880 --> 00:17:16,839
+diversas áreas da engenharia de software
+
+366
+00:17:14,119 --> 00:17:20,918
+cresceu muito nessas últimas décadas por
+
+367
+00:17:16,838 --> 00:17:23,519
+causa disso, né? Mas é importante que a
+
+368
+00:17:20,919 --> 00:17:26,000
+gente também tenha algum suporte
+
+369
+00:17:23,519 --> 00:17:28,798
+automatizado para poder aplicar esses
+
+370
+00:17:26,000 --> 00:17:31,240
+algoritmos. Então agora a próxima
+
+371
+00:17:28,798 --> 00:17:35,240
+pergunta, Silvia, é quais são os
+
+372
+00:17:31,240 --> 00:17:38,480
+algoritmos de busca mais conhecidos e
+
+373
+00:17:35,240 --> 00:17:40,960
+quão fácil é usá-los no meu ambiente de
+
+374
+00:17:38,480 --> 00:17:43,679
+desenvolvimento? Por exemplo, existe
+
+375
+00:17:40,960 --> 00:17:46,038
+frameworks que já implementam esses
+
+376
+00:17:43,679 --> 00:17:49,080
+algoritmos de busca e eu faço somente
+
+377
+00:17:46,038 --> 00:17:51,440
+uma chamada de método ou eu preciso eu
+
+378
+00:17:49,079 --> 00:17:54,159
+mesmo implementar boa parte desses
+
+379
+00:17:51,440 --> 00:17:56,519
+algoritmos? Bom, quais são os algoritmos
+
+380
+00:17:54,160 --> 00:17:58,640
+de busca mais conhecidos? Eu poderia
+
+381
+00:17:56,519 --> 00:18:01,119
+dizer que, quer dizer, tem vários
+
+382
+00:17:58,640 --> 00:18:04,559
+algoritmos que a gente pode
+
+383
+00:18:01,119 --> 00:18:07,279
+utilizar, desde os algoritmos clássicos
+
+384
+00:18:04,558 --> 00:18:11,599
+da programação linear, né, que lidam com
+
+385
+00:18:07,279 --> 00:18:14,279
+funções lineares e as heurísticas são
+
+386
+00:18:11,599 --> 00:18:16,879
+algoritmos não determinísticos, mas eu
+
+387
+00:18:14,279 --> 00:18:19,079
+acho que dentre os mais conhecidos, os
+
+388
+00:18:16,880 --> 00:18:20,640
+mais utilizados estão os algoritmos
+
+389
+00:18:19,079 --> 00:18:22,918
+bioinspirados.
+
+390
+00:18:20,640 --> 00:18:25,080
+A gente pode citar aí os de colônia de
+
+391
+00:18:22,919 --> 00:18:26,840
+formigas, otimização por enxame de par.
+
+392
+00:18:25,079 --> 00:18:29,000
+Esses algoritmos eles são baseados na
+
+393
+00:18:26,839 --> 00:18:31,240
+teoria da evolução de Darwin, né? Eles
+
+394
+00:18:29,000 --> 00:18:34,359
+utilizam conceitos como população,
+
+395
+00:18:31,240 --> 00:18:36,759
+geração, crossover, mutação. E os mais
+
+396
+00:18:34,359 --> 00:18:39,479
+conhecidos são os algoritmos genéticos,
+
+397
+00:18:36,759 --> 00:18:40,798
+a programação genética. Eles também
+
+398
+00:18:39,480 --> 00:18:43,200
+podem ser
+
+399
+00:18:40,798 --> 00:18:46,158
+multiobjetivos, otimizar mais de um
+
+400
+00:18:43,200 --> 00:18:49,558
+objetivo ao mesmo tempo, como o NSGA2,
+
+401
+00:18:46,159 --> 00:18:52,159
+que é um dos mais utilizados. Geralmente
+
+402
+00:18:49,558 --> 00:18:54,759
+esses objetivos eles são conflitantes
+
+403
+00:18:52,159 --> 00:18:57,520
+entre si. Por exemplo, na tarefa de
+
+404
+00:18:54,759 --> 00:19:00,000
+geração de dados de teste, eu quero
+
+405
+00:18:57,519 --> 00:19:02,119
+maximizar a cobertura de comandos, mas
+
+406
+00:19:00,000 --> 00:19:04,519
+eu quero ao mesmo tempo ter um custo
+
+407
+00:19:02,119 --> 00:19:07,000
+baixo dado pelo número de casos de
+
+408
+00:19:04,519 --> 00:19:09,599
+teste. Então eu vou ter aí mais de um
+
+409
+00:19:07,000 --> 00:19:11,759
+objetivo a otimizar, né?
+
+410
+00:19:09,599 --> 00:19:13,879
+E para implementação, foi o que você
+
+411
+00:19:11,759 --> 00:19:16,839
+perguntou, que existem também muitos
+
+412
+00:19:13,880 --> 00:19:19,720
+frameworks que auxiliam a gente a
+
+413
+00:19:16,839 --> 00:19:21,879
+implementar esses algoritmos. Eu posso
+
+414
+00:19:19,720 --> 00:19:25,200
+citar aqui que um dos frameworks mais
+
+415
+00:19:21,880 --> 00:19:28,760
+utilizados é o JMAL, mas tem outros
+
+416
+00:19:25,200 --> 00:19:31,240
+também como PISA ou ECJ.
+
+417
+00:19:28,759 --> 00:19:34,480
+Só que o que dificulta um pouco, os
+
+418
+00:19:31,240 --> 00:19:36,319
+algoritmos eles estão já de certa forma
+
+419
+00:19:34,480 --> 00:19:38,599
+implementados, mas o que dificulta um
+
+420
+00:19:36,319 --> 00:19:40,480
+pouco é que a gente precisa daqueles
+
+421
+00:19:38,599 --> 00:19:43,158
+três ingredientes que eu tava falando,
+
+422
+00:19:40,480 --> 00:19:45,599
+né? Uma formulação pro problema, uma
+
+423
+00:19:43,159 --> 00:19:48,080
+representação pro problema. a gente
+
+424
+00:19:45,599 --> 00:19:50,038
+precisa ter os operadores, escolher os
+
+425
+00:19:48,079 --> 00:19:51,599
+operadores de busca, implementar a
+
+426
+00:19:50,038 --> 00:19:53,720
+função de avaliação, isso a gente não
+
+427
+00:19:51,599 --> 00:19:56,359
+vem pronto. Isso requer um certo
+
+428
+00:19:53,720 --> 00:19:59,558
+conhecimento para implementar essas
+
+429
+00:19:56,359 --> 00:20:03,279
+partes. Mas eu diria que ultimamente,
+
+430
+00:19:59,558 --> 00:20:06,000
+né, a comunidade de SBC já tem realizado
+
+431
+00:20:03,279 --> 00:20:09,200
+um esforço para facilitar essas soluções
+
+432
+00:20:06,000 --> 00:20:12,480
+de SBSC. Eh, eu mesmo orientei aqui um
+
+433
+00:20:09,200 --> 00:20:14,798
+aluno de doutorado que como parte do
+
+434
+00:20:12,480 --> 00:20:18,120
+trabalho dele a gente implementou um
+
+435
+00:20:14,798 --> 00:20:21,918
+framework que é o Nutilus que dá suporte
+
+436
+00:20:18,119 --> 00:20:24,519
+à implementação de soluções de SBSE para
+
+437
+00:20:21,919 --> 00:20:28,440
+problemas que tenham uma formulação do
+
+438
+00:20:24,519 --> 00:20:31,319
+tipo combinatorial. E e a implementação
+
+439
+00:20:28,440 --> 00:20:33,120
+daí de uma solução SBC fica bem fácil,
+
+440
+00:20:31,319 --> 00:20:36,439
+porque ele basta instanciar algumas
+
+441
+00:20:33,119 --> 00:20:39,719
+classes relativas à função de avaliação
+
+442
+00:20:36,440 --> 00:20:42,679
+de operadores que ele deseja utilizar. E
+
+443
+00:20:39,720 --> 00:20:45,880
+o framework ele tem um oilus, né, tem
+
+444
+00:20:42,679 --> 00:20:48,519
+uma interface também bem amigável que
+
+445
+00:20:45,880 --> 00:20:51,039
+permite que ele selecione os algoritmos,
+
+446
+00:20:48,519 --> 00:20:53,158
+os parâmetros para esse algoritmo e
+
+447
+00:20:51,038 --> 00:20:55,798
+permite até a visualização de algumas
+
+448
+00:20:53,159 --> 00:20:58,520
+soluções e também oferecer algumas
+
+449
+00:20:55,798 --> 00:21:01,319
+preferências do usuário. Então, eu acho
+
+450
+00:20:58,519 --> 00:21:03,798
+que a comunidade já está voltada para
+
+451
+00:21:01,319 --> 00:21:06,720
+facilitar essas essas a implementação
+
+452
+00:21:03,798 --> 00:21:08,918
+dessas soluções. Eh, eu acho que isso
+
+453
+00:21:06,720 --> 00:21:11,440
+também é bastante importante. Então,
+
+454
+00:21:08,919 --> 00:21:14,200
+Silvia, eh quais são os desafios
+
+455
+00:21:11,440 --> 00:21:17,600
+técnicos que a gente da engenharia de
+
+456
+00:21:14,200 --> 00:21:19,120
+software encontra quando vai enveredar
+
+457
+00:21:17,599 --> 00:21:20,599
+nessa área de engenharia de software
+
+458
+00:21:19,119 --> 00:21:22,918
+baseada em busca, né? O que que a gente
+
+459
+00:21:20,599 --> 00:21:25,480
+pode fazer, né? Será que a gente tem que
+
+460
+00:21:22,919 --> 00:21:28,000
+criar novos algoritmos ou será que o
+
+461
+00:21:25,480 --> 00:21:30,558
+desafio é aplicar esses algoritmos que
+
+462
+00:21:28,000 --> 00:21:34,240
+já em outros contextos? ou o desafio
+
+463
+00:21:30,558 --> 00:21:37,918
+maior, como você mencionou, eh criar
+
+464
+00:21:34,240 --> 00:21:40,359
+datasets que sejam eh facilmente
+
+465
+00:21:37,919 --> 00:21:43,080
+manipulados por esses algoritmos. Como é
+
+466
+00:21:40,359 --> 00:21:46,038
+que você enxerga isso? Eh, eu não acho
+
+467
+00:21:43,079 --> 00:21:48,480
+que os desafios estejam em criar novos
+
+468
+00:21:46,038 --> 00:21:50,640
+algoritmos de busca. Eu acho que esse
+
+469
+00:21:48,480 --> 00:21:54,079
+também é um desafio da área de sistemas
+
+470
+00:21:50,640 --> 00:21:57,640
+inteligentes e a gente vê assim ao longo
+
+471
+00:21:54,079 --> 00:21:59,639
+do tempo existe um grande número de
+
+472
+00:21:57,640 --> 00:22:01,919
+algoritmos, eu diria um grande número
+
+473
+00:21:59,640 --> 00:22:04,360
+mesmo de algoritmos de brusca, né? cada
+
+474
+00:22:01,919 --> 00:22:06,520
+ano novas contribuições aparecem pra
+
+475
+00:22:04,359 --> 00:22:10,759
+gente utilizar, mas eu acredito que um
+
+476
+00:22:06,519 --> 00:22:13,038
+dos desafios da SBSE, da área de busca,
+
+477
+00:22:10,759 --> 00:22:14,798
+né, é que a gente precisa oferecer
+
+478
+00:22:13,038 --> 00:22:17,440
+soluções que sejam mais
+
+479
+00:22:14,798 --> 00:22:19,319
+genéricas, porque muito dos trabalhos
+
+480
+00:22:17,440 --> 00:22:21,600
+eles visam resolver uma instância
+
+481
+00:22:19,319 --> 00:22:24,240
+particular de um problema, apesar de
+
+482
+00:22:21,599 --> 00:22:27,399
+cada instância ter uma particularidade,
+
+483
+00:22:24,240 --> 00:22:29,400
+mas tem problemas que têm similaridades.
+
+484
+00:22:27,400 --> 00:22:31,320
+Então eu acho que a gente precisaria,
+
+485
+00:22:29,400 --> 00:22:34,200
+nós aqui da engenharia de software,
+
+486
+00:22:31,319 --> 00:22:36,519
+talvez oferecer algumas foco inícios da
+
+487
+00:22:34,200 --> 00:22:39,960
+engenharia de software, por exemplo, em
+
+488
+00:22:36,519 --> 00:22:41,759
+teste, em projeto, em requisitos, mas a
+
+489
+00:22:39,960 --> 00:22:43,919
+gente sabe que as decisões da engenharia
+
+490
+00:22:41,759 --> 00:22:45,319
+de software, elas são tomadas pelo
+
+491
+00:22:43,919 --> 00:22:47,320
+engenheiro de software, assim,
+
+492
+00:22:45,319 --> 00:22:49,839
+considerando todas as atividades ao
+
+493
+00:22:47,319 --> 00:22:53,079
+mesmo tempo. Então, eu acho que essa
+
+494
+00:22:49,839 --> 00:22:57,359
+integração de diversas áreas também é um
+
+495
+00:22:53,079 --> 00:23:00,319
+desafio para SPSE. Outra questão que diz
+
+496
+00:22:57,359 --> 00:23:03,519
+respeito também é a escalabilidade, a
+
+497
+00:23:00,319 --> 00:23:06,240
+robustez. A maioria dos experimentos que
+
+498
+00:23:03,519 --> 00:23:08,558
+a gente vê ali na academia não avalia
+
+499
+00:23:06,240 --> 00:23:11,720
+escalabilidade e também não realiza
+
+500
+00:23:08,558 --> 00:23:14,240
+esses experimentos na indústria. Muito
+
+501
+00:23:11,720 --> 00:23:16,000
+embora a gente conhece várias empresas,
+
+502
+00:23:14,240 --> 00:23:19,240
+por exemplo, a gente sabe que o Facebook
+
+503
+00:23:16,000 --> 00:23:21,038
+já tá adotando soluções de SBSE no seu
+
+504
+00:23:19,240 --> 00:23:24,599
+ambiente,
+
+505
+00:23:21,038 --> 00:23:26,720
+mas a gente precisa avaliações mais
+
+506
+00:23:24,599 --> 00:23:30,319
+robustas no ambiente industrial, eu
+
+507
+00:23:26,720 --> 00:23:34,440
+vejo. E talvez uma dificuldade para isso
+
+508
+00:23:30,319 --> 00:23:36,439
+é a modelagem do espaço de busca. Os
+
+509
+00:23:34,440 --> 00:23:40,080
+problemas reais, às vezes eles são
+
+510
+00:23:36,440 --> 00:23:42,519
+bastante complexos, né? E nesses casos a
+
+511
+00:23:40,079 --> 00:23:44,918
+gente tem um custo computacional grande
+
+512
+00:23:42,519 --> 00:23:46,918
+ainda para aplicar esse BSE, porque a
+
+513
+00:23:44,919 --> 00:23:49,159
+busca pode envolver um número muito
+
+514
+00:23:46,919 --> 00:23:50,799
+grande de soluções e ficar demorado.
+
+515
+00:23:49,159 --> 00:23:53,960
+Então eu acho que essa é uma questão que
+
+516
+00:23:50,798 --> 00:23:57,319
+a gente precisa avaliar, né, e pesquisar
+
+517
+00:23:53,960 --> 00:23:59,360
+e investigar mais. E outra questão que
+
+518
+00:23:57,319 --> 00:24:01,918
+eu também acho que é um desafio paraa
+
+519
+00:23:59,359 --> 00:24:04,639
+área de SBSE é considerar alguns
+
+520
+00:24:01,919 --> 00:24:07,799
+aspectos dinâmicos do desenvolvimento do
+
+521
+00:24:04,640 --> 00:24:10,320
+software, né? Os requisitos eles podem
+
+522
+00:24:07,798 --> 00:24:12,200
+mudar e acabam mudando constantemente.
+
+523
+00:24:10,319 --> 00:24:15,079
+Então as funções de avaliação que a
+
+524
+00:24:12,200 --> 00:24:17,159
+gente usa, eh, elas precisam ser mais
+
+525
+00:24:15,079 --> 00:24:18,918
+adaptáveis, elas vão ter que se adaptar
+
+526
+00:24:17,159 --> 00:24:20,799
+a mudanças, né? Então, não
+
+527
+00:24:18,919 --> 00:24:22,840
+necessariamente a solução tem que dar
+
+528
+00:24:20,798 --> 00:24:24,519
+sempre a mesma função de avaliação.
+
+529
+00:24:22,839 --> 00:24:26,759
+Dependendo das mudanças que ocorrem,
+
+530
+00:24:24,519 --> 00:24:29,960
+elas podem se adaptar. Eu acho que isso
+
+531
+00:24:26,759 --> 00:24:31,679
+é um tópico interessante também, que uma
+
+532
+00:24:29,960 --> 00:24:34,720
+necessidade que eu tô vendo nessa
+
+533
+00:24:31,679 --> 00:24:37,200
+solução. Outra outra coisa que também o
+
+534
+00:24:34,720 --> 00:24:39,120
+pessoal tá investigando bastante é que
+
+535
+00:24:37,200 --> 00:24:41,159
+como as soluções são geradas
+
+536
+00:24:39,119 --> 00:24:43,839
+automaticamente pelos algoritmos de
+
+537
+00:24:41,159 --> 00:24:46,720
+busca, o usuário, né, as pessoas que vão
+
+538
+00:24:43,839 --> 00:24:50,398
+usar essas soluções, elas não participam
+
+539
+00:24:46,720 --> 00:24:52,798
+desse processo. Então, muitas vezes eles
+
+540
+00:24:50,398 --> 00:24:55,239
+não reconhecem aquela solução como sendo
+
+541
+00:24:52,798 --> 00:24:58,000
+uma solução boa, eh, porque não
+
+542
+00:24:55,240 --> 00:25:00,558
+considerou as reais necessidades ou as
+
+543
+00:24:58,000 --> 00:25:02,839
+expectativas de quem ia utilizar. Por
+
+544
+00:25:00,558 --> 00:25:05,359
+exemplo, a gente trabalhou com
+
+545
+00:25:02,839 --> 00:25:07,599
+otimização de arquiteturas e as
+
+546
+00:25:05,359 --> 00:25:10,918
+arquiteturas que às vezes os algoritmos
+
+547
+00:25:07,599 --> 00:25:12,879
+geravam eram arquiteturas que muito boas
+
+548
+00:25:10,919 --> 00:25:16,278
+em termos de métricas de qualidade,
+
+549
+00:25:12,880 --> 00:25:18,159
+coesão, acoplamento, mas o usuário ele
+
+550
+00:25:16,278 --> 00:25:20,599
+via aquelas mudanças que a gente
+
+551
+00:25:18,159 --> 00:25:22,679
+colocou, aquelas propostas e ele achava
+
+552
+00:25:20,599 --> 00:25:26,000
+esquisito, porque não se não é um tipo
+
+553
+00:25:22,679 --> 00:25:29,000
+de arquitetura que ele geraria. Então,
+
+554
+00:25:26,000 --> 00:25:31,440
+eu acho que uma das um dos desafios é
+
+555
+00:25:29,000 --> 00:25:34,480
+considerar essas preferências do usuário
+
+556
+00:25:31,440 --> 00:25:36,840
+na hora de gerar essas soluções e
+
+557
+00:25:34,480 --> 00:25:38,839
+facilitar para ele também a tomada de
+
+558
+00:25:36,839 --> 00:25:41,798
+decisão, porque às vezes a gente oferece
+
+559
+00:25:38,839 --> 00:25:44,599
+um um conjunto de decisões muito de
+
+560
+00:25:41,798 --> 00:25:46,519
+alternativas muito grandes para ele e
+
+561
+00:25:44,599 --> 00:25:49,158
+como que ele seleciona essa melhor
+
+562
+00:25:46,519 --> 00:25:51,398
+solução. Então, se ele participou do
+
+563
+00:25:49,159 --> 00:25:52,919
+processo de busca fica mais fácil.
+
+564
+00:25:51,398 --> 00:25:55,839
+Então, acho que esses são os três
+
+565
+00:25:52,919 --> 00:26:00,278
+principais desafios aí que eu viria, né?
+
+566
+00:25:55,839 --> 00:26:03,558
+Escalabilidade, a uma adaptação, né? Ah,
+
+567
+00:26:00,278 --> 00:26:07,359
+e a incorporação de de preferências do
+
+568
+00:26:03,558 --> 00:26:09,639
+usuário. OK. Silvia, e como você enxerga
+
+569
+00:26:07,359 --> 00:26:12,479
+o relacionamento entre a área de
+
+570
+00:26:09,640 --> 00:26:14,759
+engenharia de software baseada em busca
+
+571
+00:26:12,480 --> 00:26:17,159
+e a área de aprendizado de máquina para
+
+572
+00:26:14,759 --> 00:26:19,720
+engenharia de software? Dá para traçar
+
+573
+00:26:17,159 --> 00:26:23,559
+um ponto de intersecção entre estas
+
+574
+00:26:19,720 --> 00:26:25,558
+áreas? Com certeza, né? Dá para Sim,
+
+575
+00:26:23,558 --> 00:26:27,558
+existe essa uma intersecção entre as
+
+576
+00:26:25,558 --> 00:26:31,278
+áreas, eu acho que tem uma sinergia
+
+577
+00:26:27,558 --> 00:26:33,798
+entre elas e isso pode ser bastante
+
+578
+00:26:31,278 --> 00:26:36,519
+benéfico para ambas as áreas. Tem um
+
+579
+00:26:33,798 --> 00:26:38,319
+trabalho interessante, eu não vou me
+
+580
+00:26:36,519 --> 00:26:43,398
+lembrar agora o nome de todos os
+
+581
+00:26:38,319 --> 00:26:46,278
+autores, mas eh era do Leandro Minco, o
+
+582
+00:26:43,398 --> 00:26:50,479
+Times, da conferência de Mining Software
+
+583
+00:26:46,278 --> 00:26:53,038
+Repositories, acho que de 2018, que
+
+584
+00:26:50,480 --> 00:26:55,120
+fornece vários insightes de como fazer
+
+585
+00:26:53,038 --> 00:26:58,240
+essa combinação, né, realizar essa
+
+586
+00:26:55,119 --> 00:27:00,079
+sinergia entre essas duas áes. Eh, então
+
+587
+00:26:58,240 --> 00:27:02,120
+o artigo é bastante interessante, eu
+
+588
+00:27:00,079 --> 00:27:04,038
+posso até recomendo para quem tem
+
+589
+00:27:02,119 --> 00:27:06,959
+interesse, mas para
+
+590
+00:27:04,038 --> 00:27:09,038
+exemplificar, eh, por exemplo, aí a
+
+591
+00:27:06,960 --> 00:27:11,759
+gente pode ver que técnicas de
+
+592
+00:27:09,038 --> 00:27:14,480
+aprendizado de máquina, ela elas podem
+
+593
+00:27:11,759 --> 00:27:17,798
+resolver alguns dos desafios que eu tava
+
+594
+00:27:14,480 --> 00:27:19,798
+mencionando ali na área de SBSE, né? Eh,
+
+595
+00:27:17,798 --> 00:27:21,759
+por exemplo, o aprendizado de máquina
+
+596
+00:27:19,798 --> 00:27:25,278
+pode ser utilizado para aprender as
+
+597
+00:27:21,759 --> 00:27:27,839
+preferências do usuário e exigir que ele
+
+598
+00:27:25,278 --> 00:27:31,000
+participe do processo apenas em casos
+
+599
+00:27:27,839 --> 00:27:33,879
+mais fundamentais ali para evitar que
+
+600
+00:27:31,000 --> 00:27:35,640
+ele se canse, que gere fadiga, porque se
+
+601
+00:27:33,880 --> 00:27:37,880
+ele ficar participando, interagindo com
+
+602
+00:27:35,640 --> 00:27:39,840
+a máquina, né, ele pode se cansar.
+
+603
+00:27:37,880 --> 00:27:42,559
+Então, o aprendizado de máquina pode ser
+
+604
+00:27:39,839 --> 00:27:44,599
+usado, por exemplo, para facilitar esse
+
+605
+00:27:42,558 --> 00:27:47,678
+que as soluções levem em conta as
+
+606
+00:27:44,599 --> 00:27:50,719
+preferências do usuário. Ela pode também
+
+607
+00:27:47,679 --> 00:27:53,120
+ser utilizada para estabelecer
+
+608
+00:27:50,720 --> 00:27:54,798
+prioridades, paraa gente estabelecer
+
+609
+00:27:53,119 --> 00:27:57,439
+prioridades. Por exemplo, se eu tenho
+
+610
+00:27:54,798 --> 00:28:00,079
+muitos, muitos objetivos a serem
+
+611
+00:27:57,440 --> 00:28:02,320
+otimizados, eu tenho conflitos entre
+
+612
+00:28:00,079 --> 00:28:03,678
+esses objetivos, até mesmo o usuário não
+
+613
+00:28:02,319 --> 00:28:05,839
+sabe quais são os
+
+614
+00:28:03,679 --> 00:28:08,960
+prioritários, então a aprendizado de
+
+615
+00:28:05,839 --> 00:28:11,519
+máquina pode também ser utilizado para
+
+616
+00:28:08,960 --> 00:28:14,038
+resolver, para estabelecer prioridades a
+
+617
+00:28:11,519 --> 00:28:17,519
+entre esses objetivos. Por outro lado,
+
+618
+00:28:14,038 --> 00:28:20,440
+as técnicas de SBCE também podem ser
+
+619
+00:28:17,519 --> 00:28:22,038
+utilizadas em combinação com com
+
+620
+00:28:20,440 --> 00:28:25,278
+aprendizado de máquina, por exemplo.
+
+621
+00:28:22,038 --> 00:28:28,679
+Elas podem ser utilizadas para otimizar
+
+622
+00:28:25,278 --> 00:28:31,398
+a tarefa de predição, de classificação,
+
+623
+00:28:28,679 --> 00:28:33,600
+para estabelecer parâmetros, para
+
+624
+00:28:31,398 --> 00:28:36,079
+selecionar os melhores conjuntos de
+
+625
+00:28:33,599 --> 00:28:38,480
+dados as tarefas de aprendizagem de
+
+626
+00:28:36,079 --> 00:28:41,639
+máquina, né, por exemplo, na engenharia
+
+627
+00:28:38,480 --> 00:28:46,079
+de features. Então a gente pode combinar
+
+628
+00:28:41,640 --> 00:28:49,278
+também SBSE para facilitar a aprendizado
+
+629
+00:28:46,079 --> 00:28:49,278
+de máquina.
+
+630
+00:29:05,880 --> 00:29:10,640
+Com relação ao aprendizado de máquina,
+
+631
+00:29:08,079 --> 00:29:13,000
+me parece que a barreira de entrada hoje
+
+632
+00:29:10,640 --> 00:29:16,360
+é muito pequena, né? Então a gente vê
+
+633
+00:29:13,000 --> 00:29:18,398
+vários tutoriais na internet, YouTube,
+
+634
+00:29:16,359 --> 00:29:20,798
+qualquer canal online, a gente vê alguma
+
+635
+00:29:18,398 --> 00:29:22,918
+aplicação de machine learning hoje em
+
+636
+00:29:20,798 --> 00:29:25,720
+dia. Quais foram, na sua opinião, os
+
+637
+00:29:22,919 --> 00:29:27,799
+principais avanços que facilitaram essa
+
+638
+00:29:25,720 --> 00:29:30,640
+adoção de machine learning pela
+
+639
+00:29:27,798 --> 00:29:33,398
+comunidade científica e industrial em
+
+640
+00:29:30,640 --> 00:29:35,919
+alta escala nos últimos poucos anos,
+
+641
+00:29:33,398 --> 00:29:38,678
+Silvia? É, realmente, Gustavo, a gente
+
+642
+00:29:35,919 --> 00:29:41,600
+vê muitos trabalhos na comunidade
+
+643
+00:29:38,679 --> 00:29:43,759
+científica. É, nesse ano aqui que
+
+644
+00:29:41,599 --> 00:29:45,839
+passou, a gente viu uma grande explosão
+
+645
+00:29:43,759 --> 00:29:48,759
+desses trabalhos de machine learning
+
+646
+00:29:45,839 --> 00:29:51,000
+aqui em engenharia de software, mas nem
+
+647
+00:29:48,759 --> 00:29:53,398
+sempre foi assim, né? Quando eu comecei
+
+648
+00:29:51,000 --> 00:29:55,919
+lá no início dos anos 2000 usando
+
+649
+00:29:53,398 --> 00:29:58,199
+aprendizado de máquina, a gente tinha
+
+650
+00:29:55,919 --> 00:30:03,519
+muita dificuldade
+
+651
+00:29:58,200 --> 00:30:06,038
+de obter dados, mas eu acho que hoje em
+
+652
+00:30:03,519 --> 00:30:07,440
+dia isso já não acontece mais. Então,
+
+653
+00:30:06,038 --> 00:30:10,720
+acho que isso é um dos motivos que
+
+654
+00:30:07,440 --> 00:30:12,960
+favoreceu essa explosão de trabalhos.
+
+655
+00:30:10,720 --> 00:30:14,640
+Por quê? Porque as empresas hoje ela
+
+656
+00:30:12,960 --> 00:30:17,720
+adotam esses ambientes de
+
+657
+00:30:14,640 --> 00:30:21,360
+desenvolvimento como Hit Hub, Takeo
+
+658
+00:30:17,720 --> 00:30:23,960
+Overflow, né? Plataformas como Garão de
+
+659
+00:30:21,359 --> 00:30:26,119
+código e outros ambientes aí que
+
+660
+00:30:23,960 --> 00:30:29,558
+permitem que uma grande quantidade de
+
+661
+00:30:26,119 --> 00:30:31,879
+dados seja coletada. E esses dados eles
+
+662
+00:30:29,558 --> 00:30:33,918
+auxiliam o processo de decisão e estão
+
+663
+00:30:31,880 --> 00:30:37,200
+em diversos repositórios aí pra gente
+
+664
+00:30:33,919 --> 00:30:40,120
+utilizar. Mas além disso, eu também
+
+665
+00:30:37,200 --> 00:30:43,679
+destacaria que a gente tem uma grande
+
+666
+00:30:40,119 --> 00:30:45,918
+disponibilidade de algoritmos, né? E
+
+667
+00:30:43,679 --> 00:30:49,038
+então a área de de sistemas inteligentes
+
+668
+00:30:45,919 --> 00:30:51,000
+também evoluiu e o poder computacional
+
+669
+00:30:49,038 --> 00:30:53,000
+que a gente tem hoje, que permite também
+
+670
+00:30:51,000 --> 00:30:55,880
+uma escalabilidade para trabalhar com
+
+671
+00:30:53,000 --> 00:30:58,638
+uma grande quantidade de dados e
+
+672
+00:30:55,880 --> 00:31:00,960
+problemas mais complexos. Por isso que
+
+673
+00:30:58,638 --> 00:31:03,439
+eu acho que eu tenho visto contribuições
+
+674
+00:31:00,960 --> 00:31:05,880
+daí nas mais diversas áreas da
+
+675
+00:31:03,440 --> 00:31:07,919
+engenharia de software, né? Logicamente
+
+676
+00:31:05,880 --> 00:31:09,960
+que eu não poderia falar aí da área de
+
+677
+00:31:07,919 --> 00:31:11,960
+teste de software, que é aquela que eu
+
+678
+00:31:09,960 --> 00:31:14,639
+acompanho mais de perto, mas eu também
+
+679
+00:31:11,960 --> 00:31:18,038
+vejo inúmeras aplicações aí para
+
+680
+00:31:14,638 --> 00:31:21,038
+refatoração, manutenção, evolução de
+
+681
+00:31:18,038 --> 00:31:22,359
+software, detecção de SMELs, prevenção
+
+682
+00:31:21,038 --> 00:31:24,679
+de dívidas
+
+683
+00:31:22,359 --> 00:31:27,359
+técnicas, outras relacionadas com
+
+684
+00:31:24,679 --> 00:31:30,240
+questões gerenciais também. E além
+
+685
+00:31:27,359 --> 00:31:33,199
+disso, eh, o próprio desenvolvimento
+
+686
+00:31:30,240 --> 00:31:35,359
+desses algoritmos de machine learning
+
+687
+00:31:33,200 --> 00:31:38,120
+fazem com que eles sejam aplicados nas
+
+688
+00:31:35,359 --> 00:31:41,000
+mais diversas áreas do nosso dia a dia.
+
+689
+00:31:38,119 --> 00:31:45,158
+Então, eh, requisitando que a gente
+
+690
+00:31:41,000 --> 00:31:47,398
+tenha softwares que interajam com esses
+
+691
+00:31:45,159 --> 00:31:50,320
+componentes de machine learning, né?
+
+692
+00:31:47,398 --> 00:31:53,359
+Então, eu acho que isso é que também
+
+693
+00:31:50,319 --> 00:31:55,599
+leva para o interesse na indústria, né,
+
+694
+00:31:53,359 --> 00:32:00,158
+para desenvolver esse tipo de soft. Eh,
+
+695
+00:31:55,599 --> 00:32:02,480
+Silvia, e com relação ao Si for ML, né,
+
+696
+00:32:00,159 --> 00:32:05,320
+engenharia de software para machine
+
+697
+00:32:02,480 --> 00:32:07,720
+learning, o que a engenharia de software
+
+698
+00:32:05,319 --> 00:32:10,240
+tem para oferecer para trabalhos com
+
+699
+00:32:07,720 --> 00:32:12,880
+machine learning e quais são os desafios
+
+700
+00:32:10,240 --> 00:32:15,558
+de colocar modelos de machine learning
+
+701
+00:32:12,880 --> 00:32:18,399
+em produção? É, então, como eu tava
+
+702
+00:32:15,558 --> 00:32:22,519
+respondendo na última pergunta, né, os
+
+703
+00:32:18,398 --> 00:32:25,199
+sistemas atuais eles utilizam muito uma
+
+704
+00:32:22,519 --> 00:32:28,278
+componentes da área de
+
+705
+00:32:25,200 --> 00:32:30,399
+inteligência artificial, né? Então tem
+
+706
+00:32:28,278 --> 00:32:32,159
+componentes inteligentes na maioria dos
+
+707
+00:32:30,398 --> 00:32:35,558
+sistemas que a gente tem que desenvolver
+
+708
+00:32:32,159 --> 00:32:37,559
+hoje, mas tem muitos desafios para lidar
+
+709
+00:32:35,558 --> 00:32:40,558
+com isso. Eu eu também gostaria de
+
+710
+00:32:37,558 --> 00:32:43,158
+sugerir aqui como leitura um trabalho do
+
+711
+00:32:40,558 --> 00:32:46,000
+pessoal da UFAL e da PUC do Rio. Esse
+
+712
+00:32:43,159 --> 00:32:49,399
+trabalho vai ser publicado no SBQS desse
+
+713
+00:32:46,000 --> 00:32:51,519
+ano. Eles fizeram um levantamento com
+
+714
+00:32:49,398 --> 00:32:54,000
+desenvolvedores brasileiros para
+
+715
+00:32:51,519 --> 00:32:55,638
+identificar as práticas mais comuns e
+
+716
+00:32:54,000 --> 00:32:58,240
+também as dificuldades que eles
+
+717
+00:32:55,638 --> 00:33:00,038
+encontram para desenvolver uns um
+
+718
+00:32:58,240 --> 00:33:02,558
+componente de machine learning, por
+
+719
+00:33:00,038 --> 00:33:04,158
+exemplo. Então, tem um processo para
+
+720
+00:33:02,558 --> 00:33:06,720
+fazer o desenvolvimento desse
+
+721
+00:33:04,159 --> 00:33:08,840
+componente. Esse processo geralmente
+
+722
+00:33:06,720 --> 00:33:11,038
+inclui levantamento de requisitos,
+
+723
+00:33:08,839 --> 00:33:14,119
+processar dados, fazer engenharia de
+
+724
+00:33:11,038 --> 00:33:17,519
+features, treinamento do modelo, avaliar
+
+725
+00:33:14,119 --> 00:33:21,000
+o modelo, né, e deployment. E nesse
+
+726
+00:33:17,519 --> 00:33:23,278
+artigo eles realizaram um survey, né?
+
+727
+00:33:21,000 --> 00:33:25,440
+Escrevem resultados de um survey e os
+
+728
+00:33:23,278 --> 00:33:28,880
+desenvolvedores eles relataram que para
+
+729
+00:33:25,440 --> 00:33:31,519
+eles os desafios maiores estão em
+
+730
+00:33:28,880 --> 00:33:34,080
+escolher os dados que são mais adequados
+
+731
+00:33:31,519 --> 00:33:36,000
+para compor o dataset. E outras
+
+732
+00:33:34,079 --> 00:33:38,119
+dificuldades também estão relacionadas
+
+733
+00:33:36,000 --> 00:33:41,159
+com a parte de selecionar as features,
+
+734
+00:33:38,119 --> 00:33:43,199
+né, os atributos, porque muitas vezes
+
+735
+00:33:41,159 --> 00:33:45,639
+nessa parte eles precisam dos
+
+736
+00:33:43,200 --> 00:33:47,720
+especialistas do domínio do problema.
+
+737
+00:33:45,638 --> 00:33:49,719
+Eh, e principalmente também esses
+
+738
+00:33:47,720 --> 00:33:52,319
+especialistas vão ser importantes para
+
+739
+00:33:49,720 --> 00:33:54,960
+interpretar os resultados. Então esse
+
+740
+00:33:52,319 --> 00:33:57,359
+artigo é bastante interessante, isso
+
+741
+00:33:54,960 --> 00:34:00,759
+porque mostra algumas das dificuldades
+
+742
+00:33:57,359 --> 00:34:02,519
+que os desenvolvedores têm, mas eu eu
+
+743
+00:34:00,759 --> 00:34:05,558
+acho que também tem um outro, gostaria
+
+744
+00:34:02,519 --> 00:34:08,918
+de citar também um outro trabalho que é
+
+745
+00:34:05,558 --> 00:34:11,918
+no workshop de pesquisa e aplicação de
+
+746
+00:34:08,918 --> 00:34:14,398
+engenharia de software, que eu também
+
+747
+00:34:11,918 --> 00:34:16,838
+posso deixar aqui para vocês colocarem,
+
+748
+00:34:14,398 --> 00:34:18,679
+disponibilizarem. Eles falam que a
+
+749
+00:34:16,838 --> 00:34:20,759
+atividade mais difícil para o
+
+750
+00:34:18,679 --> 00:34:23,079
+desenvolvimento de sistemas baseado em
+
+751
+00:34:20,760 --> 00:34:25,079
+machine learning é a atividade de
+
+752
+00:34:23,079 --> 00:34:27,879
+engenharia de requisitos, né? Como
+
+753
+00:34:25,079 --> 00:34:31,159
+levantar os requisitos desse sistema.
+
+754
+00:34:27,878 --> 00:34:33,960
+Christian Castner também tem vários
+
+755
+00:34:31,159 --> 00:34:35,960
+artigos relacionados à aplicação de
+
+756
+00:34:33,960 --> 00:34:37,918
+engenharia de software para sistemas
+
+757
+00:34:35,960 --> 00:34:39,480
+baseados em machim learning que são
+
+758
+00:34:37,918 --> 00:34:42,199
+bastante interessantes, onde eles
+
+759
+00:34:39,480 --> 00:34:44,519
+colocam, ele coloca vários desafios, mas
+
+760
+00:34:42,199 --> 00:34:47,398
+para mim assim no meu ponto de vista eu
+
+761
+00:34:44,519 --> 00:34:49,679
+vejo que o grande desafio e desenvolver
+
+762
+00:34:47,398 --> 00:34:52,319
+sistemas baseados em machine learning e
+
+763
+00:34:49,679 --> 00:34:54,800
+aqui eu também vou extrapolar porque
+
+764
+00:34:52,320 --> 00:34:57,640
+para qualquer outro sistema que utiliza
+
+765
+00:34:54,800 --> 00:35:00,119
+um componente inteligente que implemente
+
+766
+00:34:57,639 --> 00:35:01,920
+Qualquer uma dessas técnicas da área de
+
+767
+00:35:00,119 --> 00:35:04,519
+sistemas inteligentes que eu tava, a
+
+768
+00:35:01,920 --> 00:35:06,838
+gente tava mencionando, é que esses
+
+769
+00:35:04,519 --> 00:35:09,639
+componentes, por assim dizer,
+
+770
+00:35:06,838 --> 00:35:12,639
+inteligentes, eles fazem parte de um
+
+771
+00:35:09,639 --> 00:35:15,000
+sistema maior no qual o componente de
+
+772
+00:35:12,639 --> 00:35:17,879
+machine learning vai ser integrado. Eu
+
+773
+00:35:15,000 --> 00:35:20,280
+acho que a integração não é tão difícil
+
+774
+00:35:17,880 --> 00:35:22,880
+de fazer, né? Porque a gente tem as
+
+775
+00:35:20,280 --> 00:35:25,519
+APIs, os parâmetros, mas eu acho que a
+
+776
+00:35:22,880 --> 00:35:27,760
+grande questão aqui é que se a gente
+
+777
+00:35:25,519 --> 00:35:30,079
+pensa na engenharia tradicional, a gente
+
+778
+00:35:27,760 --> 00:35:32,320
+tem lá nossos clientes, os requisitos,
+
+779
+00:35:30,079 --> 00:35:35,320
+os times de desenvolvedores, o processo
+
+780
+00:35:32,320 --> 00:35:37,119
+tradicional, a gente vai ter um processo
+
+781
+00:35:35,320 --> 00:35:39,320
+diferente para desenvolver esse
+
+782
+00:35:37,119 --> 00:35:41,880
+componente de machine learning, né? tem
+
+783
+00:35:39,320 --> 00:35:44,920
+algumas diferenças, inclusive requer
+
+784
+00:35:41,880 --> 00:35:48,800
+outros perfis, o cientista de dados.
+
+785
+00:35:44,920 --> 00:35:51,800
+Então, o que eh eu acho que pode dar uma
+
+786
+00:35:48,800 --> 00:35:54,640
+certa dificuldade seria a integração
+
+787
+00:35:51,800 --> 00:35:56,960
+desses componentes que são baseados em
+
+788
+00:35:54,639 --> 00:35:59,879
+machine learning e dos que não são. Que
+
+789
+00:35:56,960 --> 00:36:02,159
+por exemplo um um componente de machine
+
+790
+00:35:59,880 --> 00:36:06,519
+learning, ele vai ter como requisito
+
+791
+00:36:02,159 --> 00:36:09,239
+algumas medidas de eh acurácia, recol,
+
+792
+00:36:06,519 --> 00:36:11,719
+né, que são desejadas para ele. outras
+
+793
+00:36:09,239 --> 00:36:14,118
+medidas também como
+
+794
+00:36:11,719 --> 00:36:16,639
+interpretabilidade, explicabilidade, né,
+
+795
+00:36:14,119 --> 00:36:19,559
+relacionada aos modelos. Mas o que
+
+796
+00:36:16,639 --> 00:36:22,159
+acontece com esses modelos, eles nem
+
+797
+00:36:19,559 --> 00:36:24,719
+sempre vão acertar as suas estimativas,
+
+798
+00:36:22,159 --> 00:36:26,960
+né? Eh, tem algum momento em que não vai
+
+799
+00:36:24,719 --> 00:36:29,118
+dar, não vai ser aquele resultado como a
+
+800
+00:36:26,960 --> 00:36:31,880
+gente queria. Como é que a gente explica
+
+801
+00:36:29,119 --> 00:36:33,880
+isso pro nosso cliente? Será que ele é
+
+802
+00:36:31,880 --> 00:36:37,559
+capaz de entender esses conceitos de
+
+803
+00:36:33,880 --> 00:36:39,640
+acurác de interpretabilidade, né, na
+
+804
+00:36:37,559 --> 00:36:42,799
+hora da gente estabelecer os requisitos
+
+805
+00:36:39,639 --> 00:36:44,118
+do nosso sistema. Eh, então acho que o
+
+806
+00:36:42,800 --> 00:36:46,318
+engenheiro de software vai ter que ter
+
+807
+00:36:44,119 --> 00:36:48,680
+essa habilidade para ajudar o cliente a
+
+808
+00:36:46,318 --> 00:36:50,639
+definir de forma razoável os requisitos
+
+809
+00:36:48,679 --> 00:36:53,480
+que ele quer com relação a esses tipos
+
+810
+00:36:50,639 --> 00:36:56,159
+de componentes, né, inteligentes. Eh,
+
+811
+00:36:53,480 --> 00:36:59,280
+outros desafios que eu vejo também são
+
+812
+00:36:56,159 --> 00:37:01,639
+relacionados à repetibilidade, porque a
+
+813
+00:36:59,280 --> 00:37:03,880
+machine learning, né, é um um processo,
+
+814
+00:37:01,639 --> 00:37:06,400
+é um processo mais de experimentação.
+
+815
+00:37:03,880 --> 00:37:09,160
+Então, como é que a gente reproduz, como
+
+816
+00:37:06,400 --> 00:37:10,559
+é que a gente reusa esses sistemas?
+
+817
+00:37:09,159 --> 00:37:13,199
+Então são coisas que a engenharia de
+
+818
+00:37:10,559 --> 00:37:15,358
+software talvez tenha que pensar aí. E
+
+819
+00:37:13,199 --> 00:37:19,519
+não poderia deixar de falar, lógico, na
+
+820
+00:37:15,358 --> 00:37:22,199
+minha área de teste, é a ideia de de que
+
+821
+00:37:19,519 --> 00:37:24,719
+do que que é um bug para um componente
+
+822
+00:37:22,199 --> 00:37:26,799
+baseado em machine learning. E é uma
+
+823
+00:37:24,719 --> 00:37:28,759
+outra questão também que o professor
+
+824
+00:37:26,800 --> 00:37:31,560
+Herman lhe coloca ali, que é a questão
+
+825
+00:37:28,760 --> 00:37:33,359
+do oráculo em testes de componentes
+
+826
+00:37:31,559 --> 00:37:35,519
+basead em machine learning, porque qual
+
+827
+00:37:33,358 --> 00:37:37,639
+que seria a saída esperada? Porque
+
+828
+00:37:35,519 --> 00:37:39,400
+geralmente, né, a gente pode pensar
+
+829
+00:37:37,639 --> 00:37:43,440
+assim: "Ah, eu tenho uma precisão muito
+
+830
+00:37:39,400 --> 00:37:45,559
+baixa desse componente". Mas a precisão
+
+831
+00:37:43,440 --> 00:37:47,200
+baixa às vezes não diz respeito a
+
+832
+00:37:45,559 --> 00:37:49,759
+problemas no desenvolvimento desse
+
+833
+00:37:47,199 --> 00:37:52,239
+componente, mas sim em outras fases de
+
+834
+00:37:49,760 --> 00:37:55,119
+especificação, inclusive da
+
+835
+00:37:52,239 --> 00:37:57,719
+especificação dos componentes que não
+
+836
+00:37:55,119 --> 00:38:00,240
+são baseados em machim. Então eu acho
+
+837
+00:37:57,719 --> 00:38:04,239
+que todas essas características aí
+
+838
+00:38:00,239 --> 00:38:06,598
+trazem certos desafios que estão
+
+839
+00:38:04,239 --> 00:38:08,318
+relacionados, que a gente tem que ainda
+
+840
+00:38:06,599 --> 00:38:10,760
+pensar e eu acho que a engenharia de
+
+841
+00:38:08,318 --> 00:38:13,159
+software tem que contribuir para essas
+
+842
+00:38:10,760 --> 00:38:16,280
+áreas pra gente conseguir resolver esses
+
+843
+00:38:13,159 --> 00:38:18,480
+desafios, né? E lógico que outros ainda
+
+844
+00:38:16,280 --> 00:38:20,400
+que a gente pode pensar de que esses
+
+845
+00:38:18,480 --> 00:38:24,400
+sistemas vão ter algumas características
+
+846
+00:38:20,400 --> 00:38:26,200
+particulares para evolução, manutenção,
+
+847
+00:38:24,400 --> 00:38:28,440
+refatoração. Então a engenharia de
+
+848
+00:38:26,199 --> 00:38:33,480
+software com certeza tem muito a
+
+849
+00:38:28,440 --> 00:38:33,480
+oferecer para esses tipos de sistema.
+
+850
+00:38:41,920 --> 00:38:47,838
+Se sendo mais específico em um dos seus
+
+851
+00:38:45,639 --> 00:38:51,078
+últimos trabalhos, né, você tem um
+
+852
+00:38:47,838 --> 00:38:54,318
+trabalho sobre aprendizado por reforço
+
+853
+00:38:51,079 --> 00:38:57,079
+para priorização de casos de testes em
+
+854
+00:38:54,318 --> 00:38:59,000
+ambientes de integração contínua, né? Eu
+
+855
+00:38:57,079 --> 00:39:02,240
+acho que a gente já falou sobre cada uma
+
+856
+00:38:59,000 --> 00:39:04,358
+dessas palavras, né, nesse episódio, né,
+
+857
+00:39:02,239 --> 00:39:06,000
+é aprendizado por reforço, casos de
+
+858
+00:39:04,358 --> 00:39:08,318
+testes, né, integração contínua a gente
+
+859
+00:39:06,000 --> 00:39:09,920
+não falou, mas falou de refatoração, né,
+
+860
+00:39:08,318 --> 00:39:12,719
+falou de teste, falou de muitas outras
+
+861
+00:39:09,920 --> 00:39:14,240
+coisas, né? Você pode explicar eh
+
+862
+00:39:12,719 --> 00:39:15,799
+rapidamente pra gente o que que é esse
+
+863
+00:39:14,239 --> 00:39:18,239
+trabalho, qual foi a ideia desse
+
+864
+00:39:15,800 --> 00:39:20,920
+trabalho? Eh, o que é que o que que é
+
+865
+00:39:18,239 --> 00:39:23,479
+priorizar, né, um caso de teste e como é
+
+866
+00:39:20,920 --> 00:39:26,119
+que essas coisas todas se juntam numa
+
+867
+00:39:23,480 --> 00:39:29,400
+atividade de integração contínua. Esse
+
+868
+00:39:26,119 --> 00:39:32,880
+trabalho ele é resultado de um trabalho
+
+869
+00:39:29,400 --> 00:39:37,280
+de doutorado do meu aluno Jackson do
+
+870
+00:39:32,880 --> 00:39:39,358
+Prado Lima. Ele trata como falando de
+
+871
+00:39:37,280 --> 00:39:42,400
+priorização de casos de teste em
+
+872
+00:39:39,358 --> 00:39:44,598
+ambiente de integração contínua. O que
+
+873
+00:39:42,400 --> 00:39:47,960
+que é priorização de caso de teste? É
+
+874
+00:39:44,599 --> 00:39:49,720
+uma técnica utilizada para a gente para
+
+875
+00:39:47,960 --> 00:39:51,358
+ver se nenhum problema foi introduzido,
+
+876
+00:39:49,719 --> 00:39:54,239
+se tudo que tava funcionando antes
+
+877
+00:39:51,358 --> 00:39:56,318
+continua funcionando agora. Então, é
+
+878
+00:39:54,239 --> 00:39:59,118
+lógico que o ideal seria que eu
+
+879
+00:39:56,318 --> 00:40:01,318
+refizesse todos os testes que estão
+
+880
+00:39:59,119 --> 00:40:05,200
+disponíveis, que é o que a gente chama
+
+881
+00:40:01,318 --> 00:40:08,159
+de reste all, né? Mas nem sempre isso é
+
+882
+00:40:05,199 --> 00:40:11,559
+possível, ainda mais num ambiente de
+
+883
+00:40:08,159 --> 00:40:13,639
+integração contínua, que é uma prática
+
+884
+00:40:11,559 --> 00:40:16,838
+bastante adotada no desenvolvimento
+
+885
+00:40:13,639 --> 00:40:20,199
+ágil, onde o software é modificado,
+
+886
+00:40:16,838 --> 00:40:22,960
+integrado e testado várias vezes ao dia.
+
+887
+00:40:20,199 --> 00:40:26,480
+E então eu tenho sempre milhares de
+
+888
+00:40:22,960 --> 00:40:28,880
+testes para executar. E além disso, eu
+
+889
+00:40:26,480 --> 00:40:30,719
+tenho algumas restrições de tempo, né,
+
+890
+00:40:28,880 --> 00:40:32,480
+para executar esses testes nesse
+
+891
+00:40:30,719 --> 00:40:34,598
+ambiente de integração. Às vezes um
+
+892
+00:40:32,480 --> 00:40:37,838
+ambiente tá meio desenvolvido em eh
+
+893
+00:40:34,599 --> 00:40:39,920
+utilizado por outros projetos na mesma
+
+894
+00:40:37,838 --> 00:40:42,599
+empresa. Então eu tenho o que a gente
+
+895
+00:40:39,920 --> 00:40:44,920
+chama ali de teste de budget, né, uma
+
+896
+00:40:42,599 --> 00:40:48,720
+restrição de tempo paraa execução desses
+
+897
+00:40:44,920 --> 00:40:52,480
+testes. Então, a ideia é priorizar os
+
+898
+00:40:48,719 --> 00:40:55,838
+casos de teste para aqueles que têm mais
+
+899
+00:40:52,480 --> 00:40:58,838
+uma outra, diria ali, probabilidade de
+
+900
+00:40:55,838 --> 00:41:01,880
+falhar para que esses casos de teste
+
+901
+00:40:58,838 --> 00:41:04,279
+sejam executados primeiro e assim eu
+
+902
+00:41:01,880 --> 00:41:07,000
+interrompo o teste já o mais rápido
+
+903
+00:41:04,280 --> 00:41:09,200
+possível e eu diminuo os custos e o
+
+904
+00:41:07,000 --> 00:41:11,400
+tempo de execução e libero o ambiente
+
+905
+00:41:09,199 --> 00:41:14,078
+paraa execução de outros CAS teste,
+
+906
+00:41:11,400 --> 00:41:16,599
+outros projetos. Então esse seria um
+
+907
+00:41:14,079 --> 00:41:19,800
+problema de otimização, né? Estabelecer
+
+908
+00:41:16,599 --> 00:41:21,880
+essa ordem de casos de teste. E
+
+909
+00:41:19,800 --> 00:41:23,760
+geralmente esses problemas de
+
+910
+00:41:21,880 --> 00:41:26,760
+priorização de caso de teste são
+
+911
+00:41:23,760 --> 00:41:29,640
+resolvidos com algoritmos de otimização,
+
+912
+00:41:26,760 --> 00:41:32,440
+de busca, como os algoritmos genéticos.
+
+913
+00:41:29,639 --> 00:41:34,358
+Mas o que que acontece? Esses algoritmos
+
+914
+00:41:32,440 --> 00:41:36,920
+eles gastam um certo tempo para
+
+915
+00:41:34,358 --> 00:41:39,159
+executar. E esse tempo que a gente vai
+
+916
+00:41:36,920 --> 00:41:41,960
+gastar para executar esse algoritmo para
+
+917
+00:41:39,159 --> 00:41:43,960
+realizar a priorização, é um tempo que
+
+918
+00:41:41,960 --> 00:41:46,240
+eu tô desperdiçando em que eu poderia
+
+919
+00:41:43,960 --> 00:41:48,880
+utilizar no ambiente de integração
+
+920
+00:41:46,239 --> 00:41:51,199
+contínua para ter fazer os meus testes.
+
+921
+00:41:48,880 --> 00:41:54,079
+Então eles não são muito adequados para
+
+922
+00:41:51,199 --> 00:41:57,159
+esse tipo de de ambiente. Aí então a
+
+923
+00:41:54,079 --> 00:42:00,318
+gente propôs essa técnica, né, essa
+
+924
+00:41:57,159 --> 00:42:02,879
+abordagem aí de aprendizado do reforço
+
+925
+00:42:00,318 --> 00:42:06,480
+para priorizar os casos de teste. Então
+
+926
+00:42:02,880 --> 00:42:10,240
+a ideia é que eu vou priorizar os casos
+
+927
+00:42:06,480 --> 00:42:13,480
+de teste, que já tem uma história de
+
+928
+00:42:10,239 --> 00:42:16,199
+defeitos ao longo de outras integrações,
+
+929
+00:42:13,480 --> 00:42:18,199
+de outros comites. Então a gente
+
+930
+00:42:16,199 --> 00:42:20,960
+pressupõe que casos de teste que
+
+931
+00:42:18,199 --> 00:42:22,639
+falharam no passado, eles também têm
+
+932
+00:42:20,960 --> 00:42:25,599
+alta probabilidade de vir a falhar
+
+933
+00:42:22,639 --> 00:42:28,400
+novamente. Então, a gente usa uma
+
+934
+00:42:25,599 --> 00:42:31,318
+aprendizagem pro reforço, que a gente é
+
+935
+00:42:28,400 --> 00:42:33,400
+uma técnica de reenforcement learning,
+
+936
+00:42:31,318 --> 00:42:37,279
+aí que a gente chama, a gente usa o
+
+937
+00:42:33,400 --> 00:42:40,318
+Multiarm Bandit e ele, os casos de teste
+
+938
+00:42:37,280 --> 00:42:43,440
+eles vão ser recompensados aí,
+
+939
+00:42:40,318 --> 00:42:45,800
+reforçados por uma função de recompensa
+
+940
+00:42:43,440 --> 00:42:48,240
+que também considera algumas mudanças no
+
+941
+00:42:45,800 --> 00:42:50,280
+ambiente, porque a gente sabe ali que
+
+942
+00:42:48,239 --> 00:42:52,558
+novos casos de teste podem ser
+
+943
+00:42:50,280 --> 00:42:54,720
+adicionados, podem ser removidos de um
+
+944
+00:42:52,559 --> 00:42:56,880
+convite pro outro. Então ele vai
+
+945
+00:42:54,719 --> 00:42:58,879
+privilegiar o que a gente chama de
+
+946
+00:42:56,880 --> 00:43:00,640
+intensidade, quer dizer, casos de teste
+
+947
+00:42:58,880 --> 00:43:03,200
+com alta probabilidade de ver lá
+
+948
+00:43:00,639 --> 00:43:06,358
+defeitos, porque eles já falharam no
+
+949
+00:43:03,199 --> 00:43:09,199
+passado, mas ao mesmo tempo também a
+
+950
+00:43:06,358 --> 00:43:11,078
+gente vai privilegiar a diversidade de
+
+951
+00:43:09,199 --> 00:43:13,239
+casos de teste, porque novos casos de
+
+952
+00:43:11,079 --> 00:43:16,119
+teste podem estar entrando e outros
+
+953
+00:43:13,239 --> 00:43:18,558
+ficaram obsoletos, né?
+
+954
+00:43:16,119 --> 00:43:21,400
+Então, nos nossos experimentos, essa
+
+955
+00:43:18,559 --> 00:43:25,000
+abordagem, ela teve bons resultados com
+
+956
+00:43:21,400 --> 00:43:27,280
+relação à detecção de defeitos e o que é
+
+957
+00:43:25,000 --> 00:43:29,199
+bom que ela levou no pior casos menos
+
+958
+00:43:27,280 --> 00:43:31,400
+que um segundo para executar. Então, ela
+
+959
+00:43:29,199 --> 00:43:33,439
+se mostrou bastante adequada às
+
+960
+00:43:31,400 --> 00:43:36,440
+restrições do ambiente de integração
+
+961
+00:43:33,440 --> 00:43:36,440
+contínua.
+
+962
+00:43:42,719 --> 00:43:46,959
+Legal, Silvia. a gente vai depois
+
+963
+00:43:44,719 --> 00:43:49,318
+colocar o link desse seu artigo na
+
+964
+00:43:46,960 --> 00:43:51,720
+descrição do podcast e a gente tá
+
+965
+00:43:49,318 --> 00:43:54,239
+caminhando aqui pros finalmentes. E
+
+966
+00:43:51,719 --> 00:43:56,239
+antes de chegar na nossa última
+
+967
+00:43:54,239 --> 00:43:58,318
+pergunta, eu queria saber se você tem
+
+968
+00:43:56,239 --> 00:44:00,279
+alguma indicação pro nosso ouvinte que
+
+969
+00:43:58,318 --> 00:44:02,838
+queira entender mais
+
+970
+00:44:00,280 --> 00:44:05,200
+sobre machine learning para engenharia
+
+971
+00:44:02,838 --> 00:44:07,159
+de software ou inverso, engenharia de
+
+972
+00:44:05,199 --> 00:44:09,679
+software para machine learning ou
+
+973
+00:44:07,159 --> 00:44:12,838
+engenharia de software baseada em busca.
+
+974
+00:44:09,679 --> 00:44:16,000
+você tem um, dois, eh, artigos em mente
+
+975
+00:44:12,838 --> 00:44:18,199
+que você acha que seria fundamental para
+
+976
+00:44:16,000 --> 00:44:21,159
+alguém que tem interesse entrar nessa
+
+977
+00:44:18,199 --> 00:44:24,558
+área ou livro ou algum material que você
+
+978
+00:44:21,159 --> 00:44:26,719
+acha muito interessante? Eh, tem um
+
+979
+00:44:24,559 --> 00:44:29,880
+livro, não é bem um livro, né? Na
+
+980
+00:44:26,719 --> 00:44:31,838
+verdade, é um tutorial do professor Mark
+
+981
+00:44:29,880 --> 00:44:34,480
+Harman e outros
+
+982
+00:44:31,838 --> 00:44:38,078
+autores sobre engenharia de software
+
+983
+00:44:34,480 --> 00:44:40,559
+baseada em busca, que ele fala de como
+
+984
+00:44:38,079 --> 00:44:43,039
+que você pode montar uma solução baseada
+
+985
+00:44:40,559 --> 00:44:45,680
+em busca. Eu acho bastante
+
+986
+00:44:43,039 --> 00:44:48,000
+interessante para quem tem interesse. A
+
+987
+00:44:45,679 --> 00:44:49,318
+gente tem um mapeamento sistemático na
+
+988
+00:44:48,000 --> 00:44:52,920
+área de
+
+989
+00:44:49,318 --> 00:44:55,920
+SBSE, onde a gente detalha as a as
+
+990
+00:44:52,920 --> 00:44:58,119
+atividades, os algoritmos.
+
+991
+00:44:55,920 --> 00:45:01,318
+Então eu acho que esse também vale a
+
+992
+00:44:58,119 --> 00:45:04,680
+pena, que dá uma visão bem geral da
+
+993
+00:45:01,318 --> 00:45:07,759
+área. Tem aquele artigo, né, do Leandro
+
+994
+00:45:04,679 --> 00:45:10,719
+Mink, do Team Menses, que a gente tava
+
+995
+00:45:07,760 --> 00:45:14,280
+falando da combinação entre SBSE e
+
+996
+00:45:10,719 --> 00:45:18,318
+machine learning. Tem. E com relação à
+
+997
+00:45:14,280 --> 00:45:20,920
+aplicação de engenharia de software para
+
+998
+00:45:18,318 --> 00:45:25,719
+componentes inteligentes, eu acho que
+
+999
+00:45:20,920 --> 00:45:32,318
+tenho também um survei do do Zang e do
+
+1000
+00:45:25,719 --> 00:45:35,719
+Mark Harman na no i3e TSE de 2019, que
+
+1001
+00:45:32,318 --> 00:45:37,599
+ele fala sobre machine learning para
+
+1002
+00:45:35,719 --> 00:45:40,279
+machine learning testing. Eu acho que
+
+1003
+00:45:37,599 --> 00:45:44,838
+isso é bastante interessante. E tem
+
+1004
+00:45:40,280 --> 00:45:46,400
+alguns outros artigos do Christian Kner
+
+1005
+00:45:44,838 --> 00:45:49,119
+que eu acho que são bastante
+
+1006
+00:45:46,400 --> 00:45:52,318
+interessante, que ele fala sobre
+
+1007
+00:45:49,119 --> 00:45:54,640
+building intelligent systems, né, a
+
+1008
+00:45:52,318 --> 00:45:57,079
+guide to machine learning engineering.
+
+1009
+00:45:54,639 --> 00:46:00,799
+Eu acho que isso é bastante, esse é um,
+
+1010
+00:45:57,079 --> 00:46:03,079
+ele tem outros, outros outros trabalhos
+
+1011
+00:46:00,800 --> 00:46:05,599
+que vale a pena, se vocês procurarem no
+
+1012
+00:46:03,079 --> 00:46:08,079
+Google por ele, né, Christian Kner, mas
+
+1013
+00:46:05,599 --> 00:46:10,240
+a gente, eu deixo aqui a indicação para
+
+1014
+00:46:08,079 --> 00:46:12,318
+vocês verem, eles t ele tem bastante
+
+1015
+00:46:10,239 --> 00:46:14,000
+trabalho que ele também trata de teste,
+
+1016
+00:46:12,318 --> 00:46:16,519
+de ingéria de
+
+1017
+00:46:14,000 --> 00:46:19,358
+requisitos para sistemas baseado em
+
+1018
+00:46:16,519 --> 00:46:21,239
+machine learning. E eu acho que vale a
+
+1019
+00:46:19,358 --> 00:46:23,960
+pena também para nós professores, se
+
+1020
+00:46:21,239 --> 00:46:26,318
+tivermos interesse, ele também tem um
+
+1021
+00:46:23,960 --> 00:46:29,440
+artigo do IX, né, na trilha de educação
+
+1022
+00:46:26,318 --> 00:46:31,838
+do Ix, onde ele fala sobre o ensino de
+
+1023
+00:46:29,440 --> 00:46:34,440
+engenharia de software para sistemas
+
+1024
+00:46:31,838 --> 00:46:36,039
+baseados em componentes inteligentes.
+
+1025
+00:46:34,440 --> 00:46:40,318
+Então, acho que esse também é uma boa
+
+1026
+00:46:36,039 --> 00:46:40,318
+referência assim para nosso professor.
+
+1027
+00:46:47,280 --> 00:46:52,440
+Silvia, para fechar o nosso episódio, a
+
+1028
+00:46:50,559 --> 00:46:54,519
+gente faz sempre uma pergunta aqui aos
+
+1029
+00:46:52,440 --> 00:46:57,318
+nossos entrevistados, que é a seguinte:
+
+1030
+00:46:54,519 --> 00:47:00,480
+para você, qual é a próxima fronteira da
+
+1031
+00:46:57,318 --> 00:47:02,679
+engenharia de software? Eu vejo que
+
+1032
+00:47:00,480 --> 00:47:04,800
+nessas últimas décadas, né, desde a
+
+1033
+00:47:02,679 --> 00:47:07,519
+minha entrada na área de engenharia de
+
+1034
+00:47:04,800 --> 00:47:09,280
+software, a maneira como a gente tem
+
+1035
+00:47:07,519 --> 00:47:12,519
+desenvolvido o
+
+1036
+00:47:09,280 --> 00:47:15,040
+software vem mudando bastante, né? E
+
+1037
+00:47:12,519 --> 00:47:18,079
+logicamente eu vejo que ela vai mudar
+
+1038
+00:47:15,039 --> 00:47:20,318
+muito ainda. Então eu não sei dizer
+
+1039
+00:47:18,079 --> 00:47:22,960
+exatamente qual que é a próxima
+
+1040
+00:47:20,318 --> 00:47:25,400
+fronteira da engenharia de software. Eu
+
+1041
+00:47:22,960 --> 00:47:28,079
+até estive pensando aqui que como o
+
+1042
+00:47:25,400 --> 00:47:30,318
+nosso tema é sobre aprendizado de
+
+1043
+00:47:28,079 --> 00:47:32,880
+máquina, de repente um algoritmo de
+
+1044
+00:47:30,318 --> 00:47:34,719
+aprendizado poderia gerar um modelo aí
+
+1045
+00:47:32,880 --> 00:47:37,519
+para prever quais são as mudanças que
+
+1046
+00:47:34,719 --> 00:47:39,759
+vem por aí. Mas puxando um pouco assim a
+
+1047
+00:47:37,519 --> 00:47:43,000
+sardinha aqui pro paraa minha área de
+
+1048
+00:47:39,760 --> 00:47:46,200
+pesquisa, eu acho que eu gostaria de
+
+1049
+00:47:43,000 --> 00:47:48,358
+colocar duas dois pontos principais aí.
+
+1050
+00:47:46,199 --> 00:47:51,118
+Acho que o primeiro é que o tipo de
+
+1051
+00:47:48,358 --> 00:47:53,239
+software que a gente vai desenvolver já
+
+1052
+00:47:51,119 --> 00:47:56,440
+está mudando, né? E vai mudar cada vez
+
+1053
+00:47:53,239 --> 00:47:58,000
+mais. Então, cada vez mais e esses tipos
+
+1054
+00:47:56,440 --> 00:47:59,358
+de software eles vão envolver
+
+1055
+00:47:58,000 --> 00:48:01,880
+componentes
+
+1056
+00:47:59,358 --> 00:48:04,639
+inteligentes. Eh, então a gente tem que
+
+1057
+00:48:01,880 --> 00:48:07,880
+se preparar para isso. Nós temos que
+
+1058
+00:48:04,639 --> 00:48:10,799
+criar perfil de aluno, nossos alunos têm
+
+1059
+00:48:07,880 --> 00:48:14,440
+que estar preparados para isso. E por um
+
+1060
+00:48:10,800 --> 00:48:16,559
+outro lado também eu eu vejo que o
+
+1061
+00:48:14,440 --> 00:48:19,200
+engenheiro de software ele também vai
+
+1062
+00:48:16,559 --> 00:48:21,040
+poder contar com ferramentas cada vez
+
+1063
+00:48:19,199 --> 00:48:23,799
+mais inteligentes para desenvolver o
+
+1064
+00:48:21,039 --> 00:48:26,759
+soft. Então isso vai facilitar bastante
+
+1065
+00:48:23,800 --> 00:48:29,440
+a vida dos
+
+1066
+00:48:26,760 --> 00:48:32,559
+desenvolvedores, vai mudar relações
+
+1067
+00:48:29,440 --> 00:48:35,960
+interpessoais de trabalho, com certeza.
+
+1068
+00:48:32,559 --> 00:48:39,200
+em 2001, né, aquele artigo inaugural da
+
+1069
+00:48:35,960 --> 00:48:42,159
+área de SBSE, quando foi publicado esse
+
+1070
+00:48:39,199 --> 00:48:45,279
+artigo, o professor Mark Harman, ele já
+
+1071
+00:48:42,159 --> 00:48:49,838
+dizia lá que uma das premissas da área
+
+1072
+00:48:45,280 --> 00:48:52,880
+era que a gente podia, eh, vamos eh
+
+1073
+00:48:49,838 --> 00:48:54,400
+pensar aqui, né, e vamos estender também
+
+1074
+00:48:52,880 --> 00:48:57,720
+paraa machine learning, não só paraa
+
+1075
+00:48:54,400 --> 00:49:01,480
+área de SBSE, é que a gente poderia
+
+1076
+00:48:57,719 --> 00:49:04,879
+deixar o computador encapsular os nossos
+
+1077
+00:49:01,480 --> 00:49:07,358
+sentimentos. as intuições, as nossas
+
+1078
+00:49:04,880 --> 00:49:10,920
+suposições, tudo que é típico do nosso
+
+1079
+00:49:07,358 --> 00:49:13,598
+modo de agir, né, e deixar paraa máquina
+
+1080
+00:49:10,920 --> 00:49:17,318
+realizar algumas tarefas que requerem
+
+1081
+00:49:13,599 --> 00:49:19,720
+esforço, que são repetitivas pra gente e
+
+1082
+00:49:17,318 --> 00:49:22,440
+que nós, seres humanos, nós ficaríamos
+
+1083
+00:49:19,719 --> 00:49:25,279
+assim mais livres para tarefas mais
+
+1084
+00:49:22,440 --> 00:49:27,798
+criativas, mais prazerosas.
+
+1085
+00:49:25,280 --> 00:49:30,160
+Então, apesar desse artigo ser de duas
+
+1086
+00:49:27,798 --> 00:49:32,358
+décadas atrás, eu acredito que nós
+
+1087
+00:49:30,159 --> 00:49:35,118
+estamos caminhando cada vez mais nessa
+
+1088
+00:49:32,358 --> 00:49:38,159
+direção. Então, nós vamos ter tarefas
+
+1089
+00:49:35,119 --> 00:49:41,400
+mais criativas para fazer e dentro da
+
+1090
+00:49:38,159 --> 00:49:44,118
+engenharia de software e essas outras
+
+1091
+00:49:41,400 --> 00:49:47,280
+tarefas serão feitas
+
+1092
+00:49:44,119 --> 00:49:49,920
+automaticamente com esses algoritmos
+
+1093
+00:49:47,280 --> 00:49:52,200
+inteligentes, né, da área de SPSE, de
+
+1094
+00:49:49,920 --> 00:49:54,119
+machiniler. É assim que eu vejo nós
+
+1095
+00:49:52,199 --> 00:49:56,279
+estamos caminhando para essa direção.
+
+1096
+00:49:54,119 --> 00:49:58,000
+Ok, Silva, então, muito obrigado pela
+
+1097
+00:49:56,280 --> 00:49:59,839
+participação no Fronteiras da Engenheira
+
+1098
+00:49:58,000 --> 00:50:01,639
+de Software. Eu passo a palavra para
+
+1099
+00:49:59,838 --> 00:50:03,279
+você, para você se despedir dos nossos
+
+1100
+00:50:01,639 --> 00:50:06,039
+ouvintes.
+
+1101
+00:50:03,280 --> 00:50:08,280
+Olha, eu que gostaria de agradecer, né?
+
+1102
+00:50:06,039 --> 00:50:11,920
+Gostaria de agradecer mais uma vez o
+
+1103
+00:50:08,280 --> 00:50:15,040
+convite, parabenizar a todos da equipe
+
+1104
+00:50:11,920 --> 00:50:17,159
+pela iniciativa do Fronteiras.
+
+1105
+00:50:15,039 --> 00:50:20,558
+Eh, eu fico muito feliz de ver as
+
+1106
+00:50:17,159 --> 00:50:24,440
+realizações do Gustavo, né, um ex-aluno
+
+1107
+00:50:20,559 --> 00:50:27,440
+nosso aqui. Eu poderia deixar de citar
+
+1108
+00:50:24,440 --> 00:50:30,280
+isso. E eu gostaria de desejar muito
+
+1109
+00:50:27,440 --> 00:50:33,039
+sucesso para vocês, para toda a equipe
+
+1110
+00:50:30,280 --> 00:50:34,920
+do Fronteiras da Engenharia de Soft.
+
+1111
+00:50:33,039 --> 00:50:37,639
+Obrigado, Silvio. Foi um prazer enorme
+
+1112
+00:50:34,920 --> 00:50:37,639
+conversar com a
+
+1113
+00:50:39,199 --> 00:50:42,199
+senhora.
+
+1114
+00:50:47,318 --> 00:50:53,440
+Olá, obrigado por escutar o Fronteiras
+
+1115
+00:50:50,719 --> 00:50:56,439
+da Engenharia de Software. Nossa equipe
+
+1116
+00:50:53,440 --> 00:50:59,200
+é formada por Leonardo Fernandes,
+
+1117
+00:50:56,440 --> 00:51:02,838
+Gustavo Pinto, Fábio Petrilo, Danilo
+
+1118
+00:50:59,199 --> 00:51:05,558
+Monteiro e Adolfo Neto, que sou eu.
+
+1119
+00:51:02,838 --> 00:51:08,558
+Estamos no Twitter e no Instagram como
+
+1120
+00:51:05,559 --> 00:51:08,559
+@fronteiras.
+
+1121
+00:51:09,358 --> 00:51:13,598
+Nosso e-mail é fronteirasww@gmail.com.
+
+1122
+00:51:15,559 --> 00:51:19,960
+Se você tem interesse em colaborar com
+
+1123
+00:51:17,519 --> 00:51:22,159
+fronteiras da engenharia de software,
+
+1124
+00:51:19,960 --> 00:51:26,039
+entra em contato. Até o próximo
+
+1125
+00:51:22,159 --> 00:51:26,039
+episódio. Abraço.
+
+1126
+00:51:44,119 --> 00:51:49,960
+Esse podcast foi editado pela produtora
+
+1127
+00:51:46,960 --> 00:51:49,960
+Reis.

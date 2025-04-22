@@ -1,0 +1,4983 @@
+1
+00:00:06,679 --> 00:00:12,399
+3 4 5 6 7
+
+2
+00:00:13,669 --> 00:00:17,890
+[Música]
+
+3
+00:00:20,600 --> 00:00:25,279
+Olá ouvintes Eu sou Adolfo Neto
+
+4
+00:00:22,960 --> 00:00:28,320
+professor da Universidade Tecnológica
+
+5
+00:00:25,278 --> 00:00:30,278
+Federal do Paraná E eu sou Gustavo Pinto
+
+6
+00:00:28,320 --> 00:00:32,599
+professor aqui na Universidade Federal
+
+7
+00:00:30,278 --> 00:00:35,000
+do Pará E este é o Fronteiras da
+
+8
+00:00:32,598 --> 00:00:37,039
+Engenharia de Software um podcast feito
+
+9
+00:00:35,000 --> 00:00:39,280
+para refletir sobre o presente e futuro
+
+10
+00:00:37,039 --> 00:00:42,119
+da engenharia de software Fronteiras da
+
+11
+00:00:39,280 --> 00:00:44,439
+Engenharia de Software é um podcast de
+
+12
+00:00:42,119 --> 00:00:46,599
+divulgação científica que discute
+
+13
+00:00:44,439 --> 00:00:48,519
+mensalmente diversificados temas da
+
+14
+00:00:46,600 --> 00:00:50,280
+engenharia de software Os episódios
+
+15
+00:00:48,520 --> 00:00:52,320
+abordam questões fundamentais da
+
+16
+00:00:50,280 --> 00:00:53,460
+engenharia do software até os mais
+
+17
+00:00:52,320 --> 00:01:00,340
+recentes avanços na
+
+18
+00:00:53,460 --> 00:01:03,459
+[Música]
+
+19
+00:01:00,340 --> 00:01:03,459
+[Aplausos]
+
+20
+00:01:05,290 --> 00:01:16,880
+[Música]
+
+21
+00:01:14,079 --> 00:01:18,719
+área Esse já é o nosso sexto episódio e
+
+22
+00:01:16,879 --> 00:01:21,798
+hoje a gente conta com a presença do
+
+23
+00:01:18,719 --> 00:01:24,759
+Iraculesa que é professor na UFRN
+
+24
+00:01:21,799 --> 00:01:27,159
+Federal do Rio Grande do Norte onde
+
+25
+00:01:24,759 --> 00:01:29,478
+lidera o grupo de pesquisa CASE
+
+26
+00:01:27,159 --> 00:01:32,320
+Colaborative and Automated Software
+
+27
+00:01:29,478 --> 00:01:34,359
+Engineering Nos últimos anos o IR tem
+
+28
+00:01:32,319 --> 00:01:37,758
+trabalhado bastante com integração
+
+29
+00:01:34,359 --> 00:01:37,759
+contínua Vem com a
+
+30
+00:01:42,000 --> 00:01:47,040
+gente Tudo bem você pode se apresentar
+
+31
+00:01:45,078 --> 00:01:48,679
+para as pessoas que nos escutam olá
+
+32
+00:01:47,040 --> 00:01:50,359
+pessoal É um prazer estar participando
+
+33
+00:01:48,680 --> 00:01:52,840
+do Fronteiras de Engenharia de Sorte
+
+34
+00:01:50,359 --> 00:01:54,560
+Muito obrigado pelo convite E eu sou
+
+35
+00:01:52,840 --> 00:01:56,280
+professor associado da Universidade
+
+36
+00:01:54,560 --> 00:01:58,840
+Federal do Rio Grande do Norte há cerca
+
+37
+00:01:56,280 --> 00:02:01,478
+de 12 anos Antes disso eu fiz meu
+
+38
+00:01:58,840 --> 00:02:04,240
+doutorado na PUC do Rio meu mestrado na
+
+39
+00:02:01,478 --> 00:02:05,959
+Universidade de São Paulo capital e meu
+
+40
+00:02:04,239 --> 00:02:08,280
+minha graduação na Universidade Federal
+
+41
+00:02:05,959 --> 00:02:10,758
+de Campina Grande Eu também atuei por
+
+42
+00:02:08,280 --> 00:02:12,680
+cerca de 4 anos em várias spinoffs do
+
+43
+00:02:10,758 --> 00:02:16,719
+Centro de Estudos Temas Avançados do
+
+44
+00:02:12,680 --> 00:02:19,120
+Recife E atualmente eu lidero o grupo de
+
+45
+00:02:16,719 --> 00:02:22,000
+pesquisa e laboratório Case Colaborative
+
+46
+00:02:19,120 --> 00:02:23,599
+and Automated Soft Engineering Group
+
+47
+00:02:22,000 --> 00:02:26,000
+aqui na Universidade Federal do Rio
+
+48
+00:02:23,598 --> 00:02:28,719
+Grande do Norte conduzindo pesquisas na
+
+49
+00:02:26,000 --> 00:02:30,959
+área de evolução de software e vários
+
+50
+00:02:28,719 --> 00:02:33,319
+estudos relacionados à mineração de
+
+51
+00:02:30,959 --> 00:02:39,990
+repositórios
+
+52
+00:02:33,319 --> 00:02:39,989
+[Música]
+
+53
+00:02:43,080 --> 00:02:47,560
+Ira eh dentre essas atividades de
+
+54
+00:02:45,120 --> 00:02:50,039
+pesquisa de evolução de software parece
+
+55
+00:02:47,560 --> 00:02:52,239
+que você tem trabalhado recentemente
+
+56
+00:02:50,039 --> 00:02:53,919
+sobre integração contínua Você pode
+
+57
+00:02:52,239 --> 00:02:56,480
+explicar pra gente o que que seria
+
+58
+00:02:53,919 --> 00:02:57,719
+integração contínua bom integração
+
+59
+00:02:56,479 --> 00:02:59,399
+contínua é uma prática de
+
+60
+00:02:57,719 --> 00:03:02,280
+desenvolvimento software que ela promove
+
+61
+00:02:59,400 --> 00:03:04,840
+a integração frequente do código fonte
+
+62
+00:03:02,280 --> 00:03:07,158
+produzido por equipes de desenvolvimento
+
+63
+00:03:04,840 --> 00:03:10,239
+através da automação do processo de
+
+64
+00:03:07,158 --> 00:03:12,479
+compilação e integração e teste de novas
+
+65
+00:03:10,239 --> 00:03:14,319
+tarefas que são desenvolvidas
+
+66
+00:03:12,479 --> 00:03:16,119
+Particularmente a integração contínua
+
+67
+00:03:14,318 --> 00:03:18,158
+ela foi proposta como parte da
+
+68
+00:03:16,120 --> 00:03:20,158
+metodologia de desenvolvimento Extreme
+
+69
+00:03:18,158 --> 00:03:23,079
+Programming né que foi inventada por
+
+70
+00:03:20,158 --> 00:03:25,959
+Kentbeck no final do século passado mas
+
+71
+00:03:23,080 --> 00:03:28,120
+ela com o tempo se popularizou e hoje
+
+72
+00:03:25,959 --> 00:03:30,719
+ela é usada de forma independente pelas
+
+73
+00:03:28,120 --> 00:03:34,039
+principais empresas de software do mundo
+
+74
+00:03:30,719 --> 00:03:37,080
+assim como um grande número de projetos
+
+75
+00:03:34,039 --> 00:03:39,479
+open source O que que eu preciso de
+
+76
+00:03:37,080 --> 00:03:41,120
+ferramentas artefatos práticas que eu
+
+77
+00:03:39,479 --> 00:03:43,000
+possa ter um ambiente de integração
+
+78
+00:03:41,120 --> 00:03:45,158
+contínua no meu trabalho na minha
+
+79
+00:03:43,000 --> 00:03:47,479
+empresa eh no meu laboratório qual que
+
+80
+00:03:45,158 --> 00:03:48,919
+são qual que seria o setup ideal para eu
+
+81
+00:03:47,479 --> 00:03:50,959
+poder ter essa prática funcionando
+
+82
+00:03:48,919 --> 00:03:53,559
+adequadamente bom se a gente for olhar
+
+83
+00:03:50,959 --> 00:03:55,199
+assim talvez uma das formas mais fáceis
+
+84
+00:03:53,560 --> 00:03:57,400
+de entender o processo de integração
+
+85
+00:03:55,199 --> 00:03:58,958
+contínua seja entender o workflow e
+
+86
+00:03:57,400 --> 00:04:00,599
+atividades que acontecem entre uma
+
+87
+00:03:58,959 --> 00:04:03,878
+equipe de desenvolvimento quando ela tá
+
+88
+00:04:00,598 --> 00:04:05,238
+usando essa prática né então basicamente
+
+89
+00:04:03,878 --> 00:04:06,919
+como a maior parte das equipes de
+
+90
+00:04:05,239 --> 00:04:08,640
+desenvolvimento hoje em dia ela
+
+91
+00:04:06,919 --> 00:04:10,798
+pressupõe o uso de um repositório
+
+92
+00:04:08,639 --> 00:04:13,399
+central eh os desenvolvedores que
+
+93
+00:04:10,799 --> 00:04:15,200
+participam do desenvolvimento baixam né
+
+94
+00:04:13,400 --> 00:04:16,879
+o código desse repositório central
+
+95
+00:04:15,199 --> 00:04:18,759
+paraas suas máquinas para fazer seus
+
+96
+00:04:16,879 --> 00:04:20,839
+desenvolvimentos individuais novas
+
+97
+00:04:18,759 --> 00:04:24,080
+features correções de bugs e
+
+98
+00:04:20,839 --> 00:04:26,119
+posteriormente eles submetem esse código
+
+99
+00:04:24,079 --> 00:04:28,560
+novamente para esse repositório central
+
+100
+00:04:26,120 --> 00:04:31,038
+Existe uma observação importante que
+
+101
+00:04:28,560 --> 00:04:33,399
+antes de durante a produção do código
+
+102
+00:04:31,038 --> 00:04:35,759
+individual e antes de submeter o código
+
+103
+00:04:33,399 --> 00:04:37,599
+pro repositório central tipicamente ele
+
+104
+00:04:35,759 --> 00:04:39,919
+deveria produzir algum teste
+
+105
+00:04:37,600 --> 00:04:41,639
+automatizado né para testar as novas
+
+106
+00:04:39,918 --> 00:04:43,680
+features que ele tá fazendo e também
+
+107
+00:04:41,639 --> 00:04:45,120
+executar os testes já existentes
+
+108
+00:04:43,680 --> 00:04:47,800
+Normalmente teste de unidade de
+
+109
+00:04:45,120 --> 00:04:50,918
+integração Ele antes também de comitar o
+
+110
+00:04:47,800 --> 00:04:53,439
+código deveria integrar internamente na
+
+111
+00:04:50,918 --> 00:04:55,319
+sua máquina todo esse código né e
+
+112
+00:04:53,439 --> 00:04:57,240
+reexecutar todos os testes e resolver
+
+113
+00:04:55,319 --> 00:04:59,879
+eventuais conflitos que tenham tido pela
+
+114
+00:04:57,240 --> 00:05:01,600
+produção de novas evoluções na mainline
+
+115
+00:04:59,879 --> 00:05:03,959
+que tá no repositório central E aí
+
+116
+00:05:01,600 --> 00:05:06,720
+finalmente ele pode então atualizar seu
+
+117
+00:05:03,959 --> 00:05:10,599
+código através de um pull request um me
+
+118
+00:05:06,720 --> 00:05:12,520
+request no repositório central Bom feito
+
+119
+00:05:10,600 --> 00:05:15,280
+isso dentro do repositório central
+
+120
+00:05:12,519 --> 00:05:18,359
+também podem existir pipelines né de
+
+121
+00:05:15,279 --> 00:05:20,879
+execução de de build de integração e
+
+122
+00:05:18,360 --> 00:05:24,080
+execução de testes automados do sistemas
+
+123
+00:05:20,879 --> 00:05:26,360
+Eh normalmente pelo menos um pipeline é
+
+124
+00:05:24,079 --> 00:05:28,839
+executado para gerar uma versão
+
+125
+00:05:26,360 --> 00:05:31,479
+executável do sistema e rodar por
+
+126
+00:05:28,839 --> 00:05:34,159
+exemplo teste de unidade integração Mas
+
+127
+00:05:31,478 --> 00:05:36,318
+em ambientes mais sofisticados né mais
+
+128
+00:05:34,160 --> 00:05:38,960
+de um pipe mais de uma etapa pode
+
+129
+00:05:36,319 --> 00:05:41,280
+existir nesse pipeline para executar por
+
+130
+00:05:38,959 --> 00:05:43,918
+exemplo posteriormente uma bateria de
+
+131
+00:05:41,279 --> 00:05:46,038
+testes não apenas de unidade de sistema
+
+132
+00:05:43,918 --> 00:05:48,959
+né que não envolve a instalação num
+
+133
+00:05:46,038 --> 00:05:51,759
+sistema num ambiente próximo ao ambiente
+
+134
+00:05:48,959 --> 00:05:53,638
+de produção mas fazer a instalação
+
+135
+00:05:51,759 --> 00:05:57,000
+também no ambiente próximo do ambiente
+
+136
+00:05:53,639 --> 00:05:59,519
+de produção e instalação e executar uma
+
+137
+00:05:57,000 --> 00:06:01,519
+bateria de teste mais sofisticada que é
+
+138
+00:05:59,519 --> 00:06:03,799
+como por exemplo testes e sistemas que
+
+139
+00:06:01,519 --> 00:06:06,478
+precisam de um de um ambiente completo
+
+140
+00:06:03,800 --> 00:06:08,400
+rodando né incluindo bank dados etc
+
+141
+00:06:06,478 --> 00:06:11,199
+Então o IR quais são os principais
+
+142
+00:06:08,399 --> 00:06:13,359
+benefícios da integração contínua por
+
+143
+00:06:11,199 --> 00:06:15,400
+que eu devo praticar integração contínua
+
+144
+00:06:13,360 --> 00:06:17,720
+na minha empresa o principal benefício
+
+145
+00:06:15,399 --> 00:06:20,758
+associado com integração contínua já
+
+146
+00:06:17,720 --> 00:06:22,800
+desde seu início né desde que Hentbeck
+
+147
+00:06:20,759 --> 00:06:24,680
+propôs essa prática lá em Extreme
+
+148
+00:06:22,800 --> 00:06:27,240
+Programming é reduzir problemas de
+
+149
+00:06:24,680 --> 00:06:30,160
+integração de código né então já desde
+
+150
+00:06:27,240 --> 00:06:31,840
+aquela época com um Advento de Extreme
+
+151
+00:06:30,160 --> 00:06:34,120
+Programming que foi que é uma
+
+152
+00:06:31,839 --> 00:06:37,318
+metodologia de desenvolvimento com
+
+153
+00:06:34,120 --> 00:06:38,639
+práticas bastante dissonantes né do que
+
+154
+00:06:37,319 --> 00:06:41,598
+existia até então na engenharia de
+
+155
+00:06:38,639 --> 00:06:43,280
+software no final da década de 90 que se
+
+156
+00:06:41,598 --> 00:06:45,399
+percebeu a necessidade do mercado de
+
+157
+00:06:43,279 --> 00:06:47,719
+produzir software cada vez mais rápido e
+
+158
+00:06:45,399 --> 00:06:50,839
+com requisitos mudantes então eh que
+
+159
+00:06:47,720 --> 00:06:52,639
+mudam o tempo todo Então se percebeu que
+
+160
+00:06:50,839 --> 00:06:54,239
+em função disso foi criada a prática de
+
+161
+00:06:52,639 --> 00:06:56,120
+integração contínua para reduzir
+
+162
+00:06:54,240 --> 00:06:58,120
+problemas de integração de código que
+
+163
+00:06:56,120 --> 00:07:00,160
+aconteciam quando vários desenvolvedores
+
+164
+00:06:58,120 --> 00:07:02,000
+submam para o mesmo repositório Então o
+
+165
+00:07:00,160 --> 00:07:03,720
+principal benefício eu diria é esse de
+
+166
+00:07:02,000 --> 00:07:06,199
+reduzir problemas de integração de
+
+167
+00:07:03,720 --> 00:07:08,199
+código numa equipe de desenvolvimento
+
+168
+00:07:06,199 --> 00:07:10,120
+Mas um outro benefício que se observa
+
+169
+00:07:08,199 --> 00:07:12,478
+bastante principalmente por causa da
+
+170
+00:07:10,120 --> 00:07:15,639
+presença do uso de testes automatizados
+
+171
+00:07:12,478 --> 00:07:17,439
+é que ele antecipa e melhora e reduz a
+
+172
+00:07:15,639 --> 00:07:20,240
+quantidade de bugs que existem num
+
+173
+00:07:17,439 --> 00:07:22,918
+sistema Então naturalmente usando
+
+174
+00:07:20,240 --> 00:07:25,038
+integração contínua você vai reduzir
+
+175
+00:07:22,918 --> 00:07:26,959
+seja problemas bugs esse que eram
+
+176
+00:07:25,038 --> 00:07:29,878
+gerados durante a integração ou sejam
+
+177
+00:07:26,959 --> 00:07:31,758
+problemas de bugs normais já que agora
+
+178
+00:07:29,879 --> 00:07:34,160
+por fazer teste automatizado você vai
+
+179
+00:07:31,759 --> 00:07:35,919
+ter uma um cuidado maior com o seu
+
+180
+00:07:34,160 --> 00:07:38,039
+código né então pelo que eu tô
+
+181
+00:07:35,918 --> 00:07:40,399
+entendendo só confirma para mim esses
+
+182
+00:07:38,038 --> 00:07:42,360
+benefícios eles fazem sentido também
+
+183
+00:07:40,399 --> 00:07:44,158
+quando eu trabalho num grupo pequeno
+
+184
+00:07:42,360 --> 00:07:46,000
+quando eu trabalho sozinho Sim os
+
+185
+00:07:44,158 --> 00:07:48,279
+benefícios são mais visíveis quando você
+
+186
+00:07:46,000 --> 00:07:51,120
+trabalha em equipes grandes de fato né e
+
+187
+00:07:48,279 --> 00:07:52,839
+com intenso trabalho e mudanças
+
+188
+00:07:51,120 --> 00:07:54,560
+diariamente que eu diria que é realidade
+
+189
+00:07:52,839 --> 00:07:56,878
+para boa parte dos projetos que a gente
+
+190
+00:07:54,560 --> 00:07:59,399
+tem hoje Claro que um projeto com uma
+
+191
+00:07:56,879 --> 00:08:01,360
+duas pessoas vai se beneficiar menos mas
+
+192
+00:07:59,399 --> 00:08:03,000
+ainda assim se beneficia a partir do
+
+193
+00:08:01,360 --> 00:08:05,560
+momento que não é mais uma pessoa no
+
+194
+00:08:03,000 --> 00:08:08,158
+projeto e e a quantidade e intensidade
+
+195
+00:08:05,560 --> 00:08:10,759
+de mudanças é grande né de comits no
+
+196
+00:08:08,158 --> 00:08:12,719
+sistema de contribuições Então qualquer
+
+197
+00:08:10,759 --> 00:08:15,158
+equipe pode se beneficiar até mesmo
+
+198
+00:08:12,720 --> 00:08:17,680
+equipe de um projeto na universidade por
+
+199
+00:08:15,158 --> 00:08:20,319
+exemplo Eu irá eu imagino que nem tudo
+
+200
+00:08:17,680 --> 00:08:23,120
+sejam flores né então tem alguns
+
+201
+00:08:20,319 --> 00:08:24,720
+desafios que essa prática de integração
+
+202
+00:08:23,120 --> 00:08:27,000
+contínua pode trazer para
+
+203
+00:08:24,720 --> 00:08:29,599
+desenvolvedores Uma coisa que eu imagino
+
+204
+00:08:27,000 --> 00:08:31,158
+é que a gente vai ter que fazer merge o
+
+205
+00:08:29,598 --> 00:08:33,240
+tempo todo né porque as pessoas vão
+
+206
+00:08:31,158 --> 00:08:35,519
+estar trabalhando ali nas suas branch
+
+207
+00:08:33,240 --> 00:08:38,560
+individuais Então eu imagino que
+
+208
+00:08:35,519 --> 00:08:40,918
+integração contínua tenta facilitar essa
+
+209
+00:08:38,559 --> 00:08:43,119
+esse merge de branch mas eu acredito que
+
+210
+00:08:40,918 --> 00:08:46,559
+também passe a ser mais comum esse tipo
+
+211
+00:08:43,120 --> 00:08:48,399
+de problema Então tem eh outros desafios
+
+212
+00:08:46,559 --> 00:08:50,278
+né que a integração contínua faz e esse
+
+213
+00:08:48,399 --> 00:08:53,039
+desafio que eu falei de fazer merge o
+
+214
+00:08:50,278 --> 00:08:55,480
+tempo todo faz sentido então na verdade
+
+215
+00:08:53,039 --> 00:08:58,078
+o problema de integração de código ou de
+
+216
+00:08:55,480 --> 00:09:00,079
+conflitos de integração de código né
+
+217
+00:08:58,078 --> 00:09:02,039
+eles são inerentes a qualquer projeto
+
+218
+00:09:00,078 --> 00:09:03,799
+que use um repositório central de
+
+219
+00:09:02,039 --> 00:09:05,319
+software Toda vez que você tiver vários
+
+220
+00:09:03,799 --> 00:09:07,240
+desenvolvedores contribuindo para um
+
+221
+00:09:05,320 --> 00:09:10,519
+repositório central esses conflitos
+
+222
+00:09:07,240 --> 00:09:13,440
+podem acontecer A integração contínua é
+
+223
+00:09:10,519 --> 00:09:15,959
+um mecanismo inventado para justamente
+
+224
+00:09:13,440 --> 00:09:18,640
+antecipar esses conflitos para que eles
+
+225
+00:09:15,958 --> 00:09:20,919
+não ocorram eh mais do que diariamente
+
+226
+00:09:18,639 --> 00:09:22,039
+né então quando esses a medida que a
+
+227
+00:09:20,919 --> 00:09:24,000
+gente vai integrando o código
+
+228
+00:09:22,039 --> 00:09:26,480
+diariamente ou frequentemente com a
+
+229
+00:09:24,000 --> 00:09:28,200
+periodicidade até menor que um dia esses
+
+230
+00:09:26,480 --> 00:09:30,200
+conflitos já vão aparecendo e
+
+231
+00:09:28,200 --> 00:09:32,399
+necessariamente precisam ser resolvidos
+
+232
+00:09:30,200 --> 00:09:34,720
+para que o código seja integrado na
+
+233
+00:09:32,399 --> 00:09:36,639
+máquina central A prática de integração
+
+234
+00:09:34,720 --> 00:09:39,040
+contínua é um dos mecanismos mais usados
+
+235
+00:09:36,639 --> 00:09:41,399
+para combater os problemas de resolução
+
+236
+00:09:39,039 --> 00:09:43,559
+de conflitos de MH Mas eu diria que um
+
+237
+00:09:41,399 --> 00:09:46,000
+dos maiores desafios atuais da área de
+
+238
+00:09:43,559 --> 00:09:48,799
+integração contínua é ter disciplina
+
+239
+00:09:46,000 --> 00:09:50,639
+para produzir testes automatizados Teste
+
+240
+00:09:48,799 --> 00:09:52,479
+de unidade integração é ainda muito
+
+241
+00:09:50,639 --> 00:09:54,958
+pouco atacado por muitas equipes de
+
+242
+00:09:52,480 --> 00:09:57,560
+desenvolvimento em projetos mundo afora
+
+243
+00:09:54,958 --> 00:10:00,319
+E a automação de teste de sistema já já
+
+244
+00:09:57,559 --> 00:10:03,078
+é hoje em dia mais comum mas já tem sido
+
+245
+00:10:00,320 --> 00:10:05,200
+atacado por muito mais equipes mas é não
+
+246
+00:10:03,078 --> 00:10:07,599
+é difícil você encontrar muitos projetos
+
+247
+00:10:05,200 --> 00:10:10,079
+que ainda usem integração contínua e não
+
+248
+00:10:07,600 --> 00:10:11,759
+façam uso e de qualquer forma de
+
+249
+00:10:10,078 --> 00:10:14,359
+automação de teste Então isso é um
+
+250
+00:10:11,759 --> 00:10:16,600
+problema à parte é um desafio bastante
+
+251
+00:10:14,360 --> 00:10:18,639
+grande Então eu diria que produzir
+
+252
+00:10:16,600 --> 00:10:21,079
+testes gradativamente à medida que você
+
+253
+00:10:18,639 --> 00:10:23,439
+vai produzindo código esse é o principal
+
+254
+00:10:21,078 --> 00:10:25,319
+desafio hoje pra integração contínua
+
+255
+00:10:23,440 --> 00:10:27,640
+Inclusive esse problema de codificar
+
+256
+00:10:25,320 --> 00:10:29,920
+test hoje em dia como um problema pela
+
+257
+00:10:27,639 --> 00:10:31,720
+própria comunidade científica que atua
+
+258
+00:10:29,919 --> 00:10:33,439
+nessa área de testes né eles estão
+
+259
+00:10:31,720 --> 00:10:35,759
+produzindo várias estratégias para
+
+260
+00:10:33,440 --> 00:10:38,040
+tentar estimular isso como por exemplo
+
+261
+00:10:35,759 --> 00:10:40,759
+ferramentas de gamificação Existem
+
+262
+00:10:38,039 --> 00:10:43,360
+outros desafios técnicos inerentes né
+
+263
+00:10:40,759 --> 00:10:45,519
+integração contínua como produzir
+
+264
+00:10:43,360 --> 00:10:48,159
+pipelines builds
+
+265
+00:10:45,519 --> 00:10:49,799
+virtualização Eles também são desafios
+
+266
+00:10:48,159 --> 00:10:51,399
+na área de integração mas eu diria que
+
+267
+00:10:49,799 --> 00:10:53,240
+esses são mais problemas técnicos
+
+268
+00:10:51,399 --> 00:10:55,120
+inclusive a gente encontra eles muito
+
+269
+00:10:53,240 --> 00:10:57,399
+mais bem resolvidos em boa parte das
+
+270
+00:10:55,120 --> 00:10:59,919
+equipes do que a parte de teste que é
+
+271
+00:10:57,399 --> 00:11:04,000
+muito mais cultural e merece muito mais
+
+272
+00:10:59,919 --> 00:11:07,599
+atenção Ira mas voltando nessa ideia de
+
+273
+00:11:04,000 --> 00:11:09,839
+problemas de como é que você vê eh as
+
+274
+00:11:07,600 --> 00:11:11,480
+ferramentas né não só as ferramentas de
+
+275
+00:11:09,839 --> 00:11:14,480
+integração contínua mas as ferramentas
+
+276
+00:11:11,480 --> 00:11:18,120
+que apoiam né eh resolução de conflitos
+
+277
+00:11:14,480 --> 00:11:19,680
+elas funcionam bem né eu que muito desse
+
+278
+00:11:18,120 --> 00:11:21,919
+trabalho de relação de conflitos é é
+
+279
+00:11:19,679 --> 00:11:23,638
+manual né eh mas elas funcionam
+
+280
+00:11:21,919 --> 00:11:26,078
+decentemente Dá para confiar nelas no
+
+281
+00:11:23,639 --> 00:11:28,399
+dia a dia dá para usar eh sem ter mais
+
+282
+00:11:26,078 --> 00:11:30,078
+dor de cabeça que os conflitos trazem
+
+283
+00:11:28,399 --> 00:11:32,639
+Boa parte das ferramentas que a gente
+
+284
+00:11:30,078 --> 00:11:34,519
+tem atualmente para fazer MEG de
+
+285
+00:11:32,639 --> 00:11:35,959
+integração de COD para resolução de
+
+286
+00:11:34,519 --> 00:11:37,600
+conflitos são chamados ferramentas de
+
+287
+00:11:35,958 --> 00:11:39,958
+merge não estruturados né ou
+
+288
+00:11:37,600 --> 00:11:41,920
+simplesmente baseado na análise textual
+
+289
+00:11:39,958 --> 00:11:44,518
+do código do sistema né existe algumas
+
+290
+00:11:41,919 --> 00:11:47,159
+ferramentas acadêmicas sendo propostas
+
+291
+00:11:44,519 --> 00:11:49,720
+que olham mais pra estrutura né
+
+292
+00:11:47,159 --> 00:11:51,958
+sintática do programa para tentar
+
+293
+00:11:49,720 --> 00:11:54,600
+capturar melhor esses conflitos e
+
+294
+00:11:51,958 --> 00:11:57,078
+alertar só aqueles realmentos mais
+
+295
+00:11:54,600 --> 00:12:00,040
+importantes Mas a grande maioria das que
+
+296
+00:11:57,078 --> 00:12:02,638
+vêm sendo usadas de fato são de análise
+
+297
+00:12:00,039 --> 00:12:05,360
+textual Então a gente tem que esperar o
+
+298
+00:12:02,639 --> 00:12:07,720
+avanço aí dessa dessas ferramentas que
+
+299
+00:12:05,360 --> 00:12:09,959
+estão sendo produzidas pela academia e
+
+300
+00:12:07,720 --> 00:12:12,759
+validadas né com projetos da indústria
+
+301
+00:12:09,958 --> 00:12:14,879
+para ver o quão elas vão ficar afinadas
+
+302
+00:12:12,759 --> 00:12:16,759
+aí no futuro para ajudar nesse problema
+
+303
+00:12:14,879 --> 00:12:18,600
+de resolução de conflito De toda forma
+
+304
+00:12:16,759 --> 00:12:21,240
+como a gente comentou antes né a
+
+305
+00:12:18,600 --> 00:12:23,680
+integração de código diária e frequente
+
+306
+00:12:21,240 --> 00:12:26,399
+pode ajudar a reduzir essa quantidade de
+
+307
+00:12:23,679 --> 00:12:28,439
+conflitos né atualmente né na indústria
+
+308
+00:12:26,399 --> 00:12:30,240
+o que é que se usa testes automatizados
+
+309
+00:12:28,440 --> 00:12:32,199
+Então quer dizer os testes automatizados
+
+310
+00:12:30,240 --> 00:12:34,600
+eles também são um alerta que uma
+
+311
+00:12:32,198 --> 00:12:36,479
+eventual integração de código uma
+
+312
+00:12:34,600 --> 00:12:39,040
+eventual resolução de conflito deu
+
+313
+00:12:36,480 --> 00:12:41,720
+errada né então você pode desfazer né e
+
+314
+00:12:39,039 --> 00:12:43,679
+tentar refazer aquele merge de código
+
+315
+00:12:41,720 --> 00:12:46,120
+toda vez que por exemplo um código foi
+
+316
+00:12:43,679 --> 00:12:48,000
+alertado de algum erro né pelo código
+
+317
+00:12:46,120 --> 00:12:50,679
+automatizado seja ele de unidade ou de
+
+318
+00:12:48,000 --> 00:12:53,278
+sistema Inclusive essa é uma coisa que
+
+319
+00:12:50,679 --> 00:12:55,319
+eu esqueci de observar anteriormente né
+
+320
+00:12:53,278 --> 00:12:57,559
+que é extremamente recomendado que toda
+
+321
+00:12:55,320 --> 00:13:00,399
+vez que haja um erro seja ele de teste e
+
+322
+00:12:57,559 --> 00:13:02,359
+unidade integração ou também de sistema
+
+323
+00:13:00,399 --> 00:13:03,879
+que a equipe toda pare tudo que tá
+
+324
+00:13:02,360 --> 00:13:05,639
+fazendo e busque resolver aquele
+
+325
+00:13:03,879 --> 00:13:07,919
+conflito Então isso é um princípio na
+
+326
+00:13:05,639 --> 00:13:09,919
+integração contínua né uma prática
+
+327
+00:13:07,919 --> 00:13:12,399
+dentro uma subprática dentro da prática
+
+328
+00:13:09,919 --> 00:13:14,919
+de integração contínua Toda vez que algo
+
+329
+00:13:12,399 --> 00:13:16,919
+atrapalha meu build algum erro é
+
+330
+00:13:14,919 --> 00:13:19,599
+levantado toda a equipe deveria parar
+
+331
+00:13:16,919 --> 00:13:22,039
+tudo e priorizar a resolução daquele
+
+332
+00:13:19,600 --> 00:13:24,399
+erro né então essas são as formas que a
+
+333
+00:13:22,039 --> 00:13:27,000
+gente tem para resolver esse conflito
+
+334
+00:13:24,399 --> 00:13:28,919
+Ferramentas textuais que ainda são
+
+335
+00:13:27,000 --> 00:13:32,360
+bastante limitadas ferramentas no
+
+336
+00:13:28,919 --> 00:13:35,879
+horizonte aí de eh usando
+
+337
+00:13:32,360 --> 00:13:38,120
+análise baseada na sintaxe do código e
+
+338
+00:13:35,879 --> 00:13:40,519
+finalmente testes automatizados que é
+
+339
+00:13:38,120 --> 00:13:42,759
+uma coisa que já é bastante usada que
+
+340
+00:13:40,519 --> 00:13:45,480
+pode eventualmente levantar algum
+
+341
+00:13:42,759 --> 00:13:48,439
+problema semântico né e existe alguma
+
+342
+00:13:45,480 --> 00:13:51,600
+regra de ouro uma como se diz em inglês
+
+343
+00:13:48,440 --> 00:13:55,279
+rule of thumb de um limite de tempo que
+
+344
+00:13:51,600 --> 00:13:57,040
+eu preciso integrar a o a minha branch
+
+345
+00:13:55,278 --> 00:14:00,159
+com onde eu tô trabalhando numa
+
+346
+00:13:57,039 --> 00:14:03,958
+funcionalidade com a branch principal eh
+
+347
+00:14:00,159 --> 00:14:06,039
+15 dias 7 dias 3 dias ou será que isso
+
+348
+00:14:03,958 --> 00:14:08,239
+varia de projeto para projeto de
+
+349
+00:14:06,039 --> 00:14:10,559
+organização para organização bom até
+
+350
+00:14:08,240 --> 00:14:12,440
+onde eu sei é a prática de integração
+
+351
+00:14:10,559 --> 00:14:15,319
+contínua que quando foi inventada ela
+
+352
+00:14:12,440 --> 00:14:18,000
+promovia e motivava a integração
+
+353
+00:14:15,320 --> 00:14:21,079
+contínua diariamente né mas hoje em dia
+
+354
+00:14:18,000 --> 00:14:23,958
+o que a gente vê é uma maior intensidade
+
+355
+00:14:21,078 --> 00:14:26,239
+nisso é com a integração praticamente de
+
+356
+00:14:23,958 --> 00:14:28,518
+novos comits que são lançadas Eu diria
+
+357
+00:14:26,240 --> 00:14:30,959
+que em projetos open so é muito comum né
+
+358
+00:14:28,519 --> 00:14:33,278
+você ver essa integração contínua a cada
+
+359
+00:14:30,958 --> 00:14:36,399
+comite novo que é lançado eventualmente
+
+360
+00:14:33,278 --> 00:14:38,399
+com autorização de desenvolvedores core
+
+361
+00:14:36,399 --> 00:14:40,320
+né que dominam aquele projeto que
+
+362
+00:14:38,399 --> 00:14:42,399
+controlam aquele projeto Mas numa
+
+363
+00:14:40,320 --> 00:14:44,320
+empresa industrial ou mesmo num projeto
+
+364
+00:14:42,399 --> 00:14:46,559
+opensoral você pode ter essa criação de
+
+365
+00:14:44,320 --> 00:14:48,600
+diferentes branches aí minor ou mail
+
+366
+00:14:46,559 --> 00:14:50,919
+release para ajudar nesse controle Eu
+
+367
+00:14:48,600 --> 00:14:53,720
+diria que com a integração contínua pelo
+
+368
+00:14:50,919 --> 00:14:55,919
+menos uma integração diária recomendada
+
+369
+00:14:53,720 --> 00:14:57,360
+embora eh eu não sei exatamente quais
+
+370
+00:14:55,919 --> 00:14:59,759
+são as práticas por exemplo em relação à
+
+371
+00:14:57,360 --> 00:15:01,680
+branch principal né mas eu diria que
+
+372
+00:14:59,759 --> 00:15:04,320
+quanto mais você demorar para fazer essa
+
+373
+00:15:01,679 --> 00:15:06,719
+integração mais problemas vão tender a
+
+374
+00:15:04,320 --> 00:15:09,959
+ocorrer O Irai e com relação à
+
+375
+00:15:06,720 --> 00:15:11,839
+terminologia né eh tem alguns outros
+
+376
+00:15:09,958 --> 00:15:14,638
+conceitos ou práticas que tem nomes
+
+377
+00:15:11,839 --> 00:15:15,720
+similar assim à integração contínua como
+
+378
+00:15:14,639 --> 00:15:18,959
+entrega
+
+379
+00:15:15,720 --> 00:15:21,959
+contínua eh ou até mesmo deployment
+
+380
+00:15:18,958 --> 00:15:24,799
+contínuo Eles são coisas similares eh
+
+381
+00:15:21,958 --> 00:15:26,838
+eles têm um um o mesmo propósito são
+
+382
+00:15:24,799 --> 00:15:28,479
+atividades relacionadas Você você
+
+383
+00:15:26,839 --> 00:15:30,600
+consegue ver uma diferença entre esses
+
+384
+00:15:28,480 --> 00:15:32,399
+termos sim esses conceitos são
+
+385
+00:15:30,600 --> 00:15:34,360
+diferentes mas eles são fortemente
+
+386
+00:15:32,399 --> 00:15:36,360
+relacionados né nós vimos aqui que a
+
+387
+00:15:34,360 --> 00:15:37,919
+integração contínua é uma prática de
+
+388
+00:15:36,360 --> 00:15:40,399
+engenharia de software que motiva a
+
+389
+00:15:37,919 --> 00:15:43,159
+integração diária ou frequente né do
+
+390
+00:15:40,399 --> 00:15:45,278
+código produzido por uma equipe e que em
+
+391
+00:15:43,159 --> 00:15:47,919
+seguida ele passa no repositório central
+
+392
+00:15:45,278 --> 00:15:50,198
+por um processo de compilação integração
+
+393
+00:15:47,919 --> 00:15:52,799
+e teste automático das novas tarefas
+
+394
+00:15:50,198 --> 00:15:55,439
+envolvidas ou correções de bugs ou
+
+395
+00:15:52,799 --> 00:15:57,919
+pequenas melhorias realizadas A entrega
+
+396
+00:15:55,440 --> 00:16:00,120
+contínua ou continuous delivery ela
+
+397
+00:15:57,919 --> 00:16:02,639
+objetiva garantir que a tua aplicação
+
+398
+00:16:00,120 --> 00:16:04,799
+que é integrada ela sempre esteja no
+
+399
+00:16:02,639 --> 00:16:06,440
+estado pronto para produção depois de
+
+400
+00:16:04,799 --> 00:16:08,278
+passar para uma série de testes
+
+401
+00:16:06,440 --> 00:16:11,160
+automatizados inclusive os testes de
+
+402
+00:16:08,278 --> 00:16:13,318
+aceitação Então a entrega contínua ela
+
+403
+00:16:11,159 --> 00:16:16,559
+faz o deployment do teu sistema em
+
+404
+00:16:13,318 --> 00:16:18,799
+servidores internos e em seguida executa
+
+405
+00:16:16,559 --> 00:16:20,879
+uma bateria considerável de teste para
+
+406
+00:16:18,799 --> 00:16:23,439
+garantir que ela tá que a sua aplicação
+
+407
+00:16:20,879 --> 00:16:25,799
+tá sempre pronta para ir pra produção
+
+408
+00:16:23,440 --> 00:16:28,680
+Finalmente o continuous deployment ou
+
+409
+00:16:25,799 --> 00:16:30,838
+instalação contínua ela de fato leva a
+
+410
+00:16:28,679 --> 00:16:32,519
+tua aplicação para os servidores de
+
+411
+00:16:30,839 --> 00:16:34,920
+produção final né então ela é uma
+
+412
+00:16:32,519 --> 00:16:36,759
+evolução da entrega contínua né a
+
+413
+00:16:34,919 --> 00:16:39,198
+entrega contínua é uma evolução da
+
+414
+00:16:36,759 --> 00:16:41,560
+integração contínua e o deployment
+
+415
+00:16:39,198 --> 00:16:43,599
+contínuo De fato a instalação final do
+
+416
+00:16:41,559 --> 00:16:45,679
+software automaticamente nas máquinas de
+
+417
+00:16:43,600 --> 00:16:47,920
+produção Então toda vez que commits são
+
+418
+00:16:45,679 --> 00:16:50,919
+submetidos para os servidores passam por
+
+419
+00:16:47,919 --> 00:16:53,078
+um processo rigoroso né de qualidade de
+
+420
+00:16:50,919 --> 00:16:56,278
+avaliação de qualidade centrado
+
+421
+00:16:53,078 --> 00:16:57,799
+sobretudo no na execução de um volume
+
+422
+00:16:56,278 --> 00:16:59,799
+bastante considerável de testes
+
+423
+00:16:57,799 --> 00:17:01,838
+automatizados sejam eles de unidade
+
+424
+00:16:59,799 --> 00:17:03,639
+integração ao sistema para garantir a
+
+425
+00:17:01,839 --> 00:17:05,360
+qualidade do sistema Então uma coisa
+
+426
+00:17:03,639 --> 00:17:07,279
+interessante da gente observar aqui é
+
+427
+00:17:05,359 --> 00:17:09,438
+que a entregue e o deployment contínuo
+
+428
+00:17:07,279 --> 00:17:12,119
+ele é totalmente fundamentado na prática
+
+429
+00:17:09,439 --> 00:17:14,360
+de integração contínua Ou seja você não
+
+430
+00:17:12,119 --> 00:17:17,198
+vai conseguir fazer continuous delivery
+
+431
+00:17:14,359 --> 00:17:19,399
+ou deployment sem usar a prática de
+
+432
+00:17:17,199 --> 00:17:20,959
+continuous integration de forma sólida
+
+433
+00:17:19,400 --> 00:17:22,559
+incluindo aí a parte de teste
+
+434
+00:17:20,959 --> 00:17:24,798
+automatizado que é uma das maiores
+
+435
+00:17:22,558 --> 00:17:27,359
+carências como a gente comentou Existem
+
+436
+00:17:24,798 --> 00:17:30,480
+elementos que são específicos aí da
+
+437
+00:17:27,359 --> 00:17:32,879
+integra contínua né a e da deployment
+
+438
+00:17:30,480 --> 00:17:34,839
+contínuo que vão além da integração
+
+439
+00:17:32,880 --> 00:17:38,320
+contínua embora a integração contínua
+
+440
+00:17:34,839 --> 00:17:40,359
+como a gente disse é a base né mas a
+
+441
+00:17:38,319 --> 00:17:41,918
+integra contínua ela pressupõe por
+
+442
+00:17:40,359 --> 00:17:44,839
+exemplo que a sua arquitetura seja
+
+443
+00:17:41,919 --> 00:17:46,480
+modularizada em unidades menores né em
+
+444
+00:17:44,839 --> 00:17:48,399
+módulos menores os chamados
+
+445
+00:17:46,480 --> 00:17:50,759
+microsserviços de forma que você possa
+
+446
+00:17:48,400 --> 00:17:53,440
+atualizar essas partes menores esses
+
+447
+00:17:50,759 --> 00:17:55,640
+módulos específicos eh durante essas
+
+448
+00:17:53,440 --> 00:17:57,440
+atualizações frequentes que acontecem no
+
+449
+00:17:55,640 --> 00:17:59,880
+seu ambiente de produção Também
+
+450
+00:17:57,440 --> 00:18:02,440
+normalmente continuous delivery
+
+451
+00:17:59,880 --> 00:18:05,720
+deployment eles têm pipeline de tarefas
+
+452
+00:18:02,440 --> 00:18:08,759
+bem mais sofisticados né porque você vai
+
+453
+00:18:05,720 --> 00:18:11,200
+agora fazer a instalação do das
+
+454
+00:18:08,759 --> 00:18:13,158
+atualizações em servidores de produção
+
+455
+00:18:11,200 --> 00:18:15,038
+Então esse pipeline de tarefas é bem
+
+456
+00:18:13,159 --> 00:18:16,760
+mais sofisticado os testes também são
+
+457
+00:18:15,038 --> 00:18:18,720
+bem mais rigorosos para que isso
+
+458
+00:18:16,759 --> 00:18:20,359
+aconteça É interessante essa pergunta
+
+459
+00:18:18,720 --> 00:18:22,679
+que vocês fizeram também porque eu já
+
+460
+00:18:20,359 --> 00:18:24,678
+conversei assim com com amigos né
+
+461
+00:18:22,679 --> 00:18:26,919
+colegas que trabalham em empresas todos
+
+462
+00:18:24,679 --> 00:18:29,360
+eles diziam que já estavam fazendo
+
+463
+00:18:26,919 --> 00:18:31,038
+continuous deliver né deployment E aí eu
+
+464
+00:18:29,359 --> 00:18:33,558
+fui conversar com ele um pouco mais a
+
+465
+00:18:31,038 --> 00:18:35,720
+respeito dos testes automatizados que
+
+466
+00:18:33,558 --> 00:18:38,558
+eram realizados naqueles sistemas né e
+
+467
+00:18:35,720 --> 00:18:40,440
+aí eles diziam que nem muitos testes
+
+468
+00:18:38,558 --> 00:18:42,918
+automatizados eram feitos E isso me
+
+469
+00:18:40,440 --> 00:18:44,600
+intrigou realmente porque falei: "Ah mas
+
+470
+00:18:42,919 --> 00:18:46,520
+e aí como é que você consegue jogar pra
+
+471
+00:18:44,599 --> 00:18:49,319
+produção esse COD se você não tem tanta
+
+472
+00:18:46,519 --> 00:18:51,519
+confiança é nas alterações que você tá
+
+473
+00:18:49,319 --> 00:18:53,918
+fazendo né?" Então de certa forma eu
+
+474
+00:18:51,519 --> 00:18:56,158
+rebati para eles a colocação e a gente
+
+475
+00:18:53,919 --> 00:19:00,520
+sabe que os as grandes empresas do mundo
+
+476
+00:18:56,159 --> 00:19:02,799
+né os grandes Facebook Google as grandes
+
+477
+00:19:00,519 --> 00:19:05,079
+empresas que que vêm que tem a maior
+
+478
+00:19:02,798 --> 00:19:08,359
+quantidade de clientes e usuários e
+
+479
+00:19:05,079 --> 00:19:11,720
+realmente funcionam 24x7 elas têm
+
+480
+00:19:08,359 --> 00:19:13,798
+processo bem rigoroso para eh realizar
+
+481
+00:19:11,720 --> 00:19:16,000
+os testes automatizados seus sistemas e
+
+482
+00:19:13,798 --> 00:19:18,879
+garantir a qualidade deles Então isso já
+
+483
+00:19:16,000 --> 00:19:20,599
+é uma prática bastante forte claro da
+
+484
+00:19:18,880 --> 00:19:22,280
+parte da estruturação da arquitetura em
+
+485
+00:19:20,599 --> 00:19:30,328
+módulos menores
+
+486
+00:19:22,279 --> 00:19:30,328
+[Música]
+
+487
+00:19:39,519 --> 00:19:45,480
+Eh então o Irá seguindo em diante eh a
+
+488
+00:19:43,119 --> 00:19:47,519
+gente se a gente você mencionou né que
+
+489
+00:19:45,480 --> 00:19:50,319
+uma dessas práticas vem lá do do livro
+
+490
+00:19:47,519 --> 00:19:52,400
+do Quentbeck né o livro do Quentbeck tem
+
+491
+00:19:50,319 --> 00:19:55,000
+15 anos né tem mais de 15 anos que ele
+
+492
+00:19:52,400 --> 00:19:57,919
+foi publicado E ele já falava ali sobre
+
+493
+00:19:55,000 --> 00:20:00,919
+testar e integrar código em intervalos
+
+494
+00:19:57,919 --> 00:20:05,240
+menores né mas curiosamente umas
+
+495
+00:20:00,919 --> 00:20:07,240
+ferramentas como Traves e Corci elas
+
+496
+00:20:05,240 --> 00:20:09,079
+elas vêm apoiando essa prática de
+
+497
+00:20:07,240 --> 00:20:10,640
+integração contínua já algum tempo né
+
+498
+00:20:09,079 --> 00:20:13,240
+não que eu precise essas ferramentas
+
+499
+00:20:10,640 --> 00:20:14,880
+para que exista né uma atividade de
+
+500
+00:20:13,240 --> 00:20:16,759
+integração contínua mas eu já tenho esse
+
+501
+00:20:14,880 --> 00:20:20,799
+suporte de ferramenta há algum tempo O
+
+502
+00:20:16,759 --> 00:20:25,200
+Jis por exemplo eh ele enfim tem mais de
+
+503
+00:20:20,798 --> 00:20:28,079
+10 anos né de existência né curiosamente
+
+504
+00:20:25,200 --> 00:20:30,600
+no área de pesquisa e integração
+
+505
+00:20:28,079 --> 00:20:32,720
+contínua parece que houve um uma onda
+
+506
+00:20:30,599 --> 00:20:37,399
+recente de trabalhos nos últimos 2 tr
+
+507
+00:20:32,720 --> 00:20:40,319
+anos você tem alguma intuição de porque
+
+508
+00:20:37,400 --> 00:20:42,038
+eh o interesse em pesquisa veio mais
+
+509
+00:20:40,319 --> 00:20:43,599
+recentemente assim eu acredito que tenha
+
+510
+00:20:42,038 --> 00:20:45,359
+vários outros trabalhos que vieram sendo
+
+511
+00:20:43,599 --> 00:20:47,000
+publicados assim na ao longo da última
+
+512
+00:20:45,359 --> 00:20:48,839
+década mas muito recentemente
+
+513
+00:20:47,000 --> 00:20:50,960
+aconteceram muitos trabalhos Você tem
+
+514
+00:20:48,839 --> 00:20:53,240
+alguma sugestão bom a integração
+
+515
+00:20:50,960 --> 00:20:55,440
+contínua foi proposta formalmente no
+
+516
+00:20:53,240 --> 00:20:57,599
+final do século passado né dentro da
+
+517
+00:20:55,440 --> 00:21:00,640
+metodologia Streaming Programming junto
+
+518
+00:20:57,599 --> 00:21:03,719
+com várias outras práticas proposta aí
+
+519
+00:21:00,640 --> 00:21:07,000
+pelo Kentback E aí já no começo desse
+
+520
+00:21:03,720 --> 00:21:08,880
+século com a adoção da da metodologia
+
+521
+00:21:07,000 --> 00:21:10,798
+extreme programming também com um
+
+522
+00:21:08,880 --> 00:21:12,799
+advento com bastante força das
+
+523
+00:21:10,798 --> 00:21:15,240
+metodologias ágeis né a prática de
+
+524
+00:21:12,798 --> 00:21:18,158
+integração contínua passou a ser
+
+525
+00:21:15,240 --> 00:21:21,319
+bastante adotada né em termos de
+
+526
+00:21:18,159 --> 00:21:25,520
+ferramenta nós e foi até legal você ter
+
+527
+00:21:21,319 --> 00:21:28,439
+mencionado Jens porque antes mesmo do
+
+528
+00:21:25,519 --> 00:21:30,519
+Jens ou da Travci essas ferramentas
+
+529
+00:21:28,440 --> 00:21:32,360
+online de uso de integração contínua
+
+530
+00:21:30,519 --> 00:21:34,839
+integradas com repous repositório Hoje
+
+531
+00:21:32,359 --> 00:21:36,839
+em dia a gente teve a ferramenta por
+
+532
+00:21:34,839 --> 00:21:39,599
+exemplo cruise control né eu lembro que
+
+533
+00:21:36,839 --> 00:21:41,678
+a gente começou a usar lá no César há
+
+534
+00:21:39,599 --> 00:21:43,119
+muito tempo atrás quando o extreme
+
+535
+00:21:41,679 --> 00:21:46,720
+programmente
+
+536
+00:21:43,119 --> 00:21:49,319
+tava chegando e chegando com força né
+
+537
+00:21:46,720 --> 00:21:51,558
+agora em termos de pesquisa que que
+
+538
+00:21:49,319 --> 00:21:55,038
+aconteceu ao longo dessas duas décadas
+
+539
+00:21:51,558 --> 00:21:57,200
+né no na primeira década houve muitos
+
+540
+00:21:55,038 --> 00:21:59,158
+relatos de experiências reportados em
+
+541
+00:21:57,200 --> 00:22:01,278
+conferências que têm mais proximidade
+
+542
+00:21:59,159 --> 00:22:04,360
+com a indústria com a comunidade ágil
+
+543
+00:22:01,278 --> 00:22:07,599
+como a a própria conferência Extreme
+
+544
+00:22:04,359 --> 00:22:09,439
+Programming e a GI Conference né
+
+545
+00:22:07,599 --> 00:22:11,278
+internacionais Então houve bastante
+
+546
+00:22:09,440 --> 00:22:14,640
+relatos de experiências do uso de
+
+547
+00:22:11,278 --> 00:22:18,000
+integração contínua nessa época Agora o
+
+548
+00:22:14,640 --> 00:22:21,120
+aumento significativo de pesquisas e
+
+549
+00:22:18,000 --> 00:22:24,880
+trabalhos na nossa área aumentou
+
+550
+00:22:21,119 --> 00:22:26,879
+bastante porque eh pela disponibilidade
+
+551
+00:22:24,880 --> 00:22:29,600
+quando a comunidade surgiram esses
+
+552
+00:22:26,880 --> 00:22:34,720
+servidores online né de integração
+
+553
+00:22:29,599 --> 00:22:36,639
+contínua como Travis como Circle C E aí
+
+554
+00:22:34,720 --> 00:22:39,480
+os projetos open source que tão
+
+555
+00:22:36,640 --> 00:22:41,880
+disponíveis passaram a tá disp eh se
+
+556
+00:22:39,480 --> 00:22:43,640
+passou a observar que o momento em que
+
+557
+00:22:41,880 --> 00:22:46,120
+eles estavam adotando esses servidores
+
+558
+00:22:43,640 --> 00:22:48,960
+de integração contínua e aí muita
+
+559
+00:22:46,119 --> 00:22:51,719
+pesquisa foi realizada em cima do que
+
+560
+00:22:48,960 --> 00:22:53,400
+foi produzido em termos de código e o
+
+561
+00:22:51,720 --> 00:22:57,159
+uso da com o uso da prática de
+
+562
+00:22:53,400 --> 00:22:59,519
+integração contínua né eh nesses últimos
+
+563
+00:22:57,159 --> 00:23:01,840
+anos Então a especificamente a
+
+564
+00:22:59,519 --> 00:23:04,599
+comunidade de mineração de repositório
+
+565
+00:23:01,839 --> 00:23:06,240
+de software explorou bastante isso nos
+
+566
+00:23:04,599 --> 00:23:09,199
+últimos anos Então vários trabalhos
+
+567
+00:23:06,240 --> 00:23:12,640
+surgiram inclusive os que a gente
+
+568
+00:23:09,200 --> 00:23:14,519
+desenvolveu aqui na UFRN né houve uma
+
+569
+00:23:12,640 --> 00:23:16,600
+explosão realmente de trabalhos com
+
+570
+00:23:14,519 --> 00:23:18,759
+resultados bastante significativos e num
+
+571
+00:23:16,599 --> 00:23:21,519
+volume de análise de projeto bastante
+
+572
+00:23:18,759 --> 00:23:24,319
+maior que a década passada Então
+
+573
+00:23:21,519 --> 00:23:26,558
+basicamente é isso que eu atribuo esse
+
+574
+00:23:24,319 --> 00:23:30,960
+crescimento aí dos trabalhos na área da
+
+575
+00:23:26,558 --> 00:23:32,599
+gente Assim vale lembrar também que além
+
+576
+00:23:30,960 --> 00:23:34,960
+desses estudos de mineração de
+
+577
+00:23:32,599 --> 00:23:36,759
+repositório também foram realizados
+
+578
+00:23:34,960 --> 00:23:42,919
+muitos estudos de
+
+579
+00:23:36,759 --> 00:23:45,558
+survey entrevistas né com empresas eh
+
+580
+00:23:42,919 --> 00:23:47,240
+com empresas que desenvolvem sistemas
+
+581
+00:23:45,558 --> 00:23:49,440
+bastante grandes Então tivemos algumas
+
+582
+00:23:47,240 --> 00:23:52,159
+pesquisas aí recentes principalmente
+
+583
+00:23:49,440 --> 00:23:53,880
+desenvolvida pelo pesquisadores
+
+584
+00:23:52,159 --> 00:23:57,080
+americanos né que
+
+585
+00:23:53,880 --> 00:23:59,320
+ressaltam eh vão de encontro aí a olhar
+
+586
+00:23:57,079 --> 00:24:01,399
+os benefícios através de server
+
+587
+00:23:59,319 --> 00:24:04,278
+entrevistas que essas empresas
+
+588
+00:24:01,400 --> 00:24:06,720
+observaram aí ao longo do período em que
+
+589
+00:24:04,278 --> 00:24:08,759
+elas adotaram Se há Então essa é uma
+
+590
+00:24:06,720 --> 00:24:10,720
+outra gama de pesquisas que é inferior à
+
+591
+00:24:08,759 --> 00:24:13,278
+quantidade de pesquisas e mineração de
+
+592
+00:24:10,720 --> 00:24:16,400
+repositório mas que também é
+
+593
+00:24:13,278 --> 00:24:19,159
+significativa e recente Aí bastante
+
+594
+00:24:16,400 --> 00:24:22,159
+interessante Dá uma olhada O irá A
+
+595
+00:24:19,159 --> 00:24:24,600
+integração contínua tem algum impacto
+
+596
+00:24:22,159 --> 00:24:26,640
+seja positivo ou negativo em alguma
+
+597
+00:24:24,599 --> 00:24:29,038
+outra atividade de desenvolvimento de
+
+598
+00:24:26,640 --> 00:24:32,038
+software por exemplo será que o número
+
+599
+00:24:29,038 --> 00:24:34,440
+de bugs diminui após adotar a integração
+
+600
+00:24:32,038 --> 00:24:36,960
+contínua será que eu consigo ter
+
+601
+00:24:34,440 --> 00:24:39,679
+entregas mais rápidas depois de adotar
+
+602
+00:24:36,960 --> 00:24:42,159
+integração contínua sim é verdade Nós
+
+603
+00:24:39,679 --> 00:24:44,440
+temos várias pesquisas que tem mostrado
+
+604
+00:24:42,159 --> 00:24:47,039
+os benefícios o impacto que continuous
+
+605
+00:24:44,440 --> 00:24:49,880
+integration pode trazer a
+
+606
+00:24:47,038 --> 00:24:52,879
+produtividade do desenvolvedor né para
+
+607
+00:24:49,880 --> 00:24:56,039
+lidar com o número maior de tarefas
+
+608
+00:24:52,880 --> 00:24:57,760
+Então C impacta positivamente na
+
+609
+00:24:56,038 --> 00:25:00,519
+produtividade do desenvolvedor e nós
+
+610
+00:24:57,759 --> 00:25:02,960
+temos também pesquisas mostrando que se
+
+611
+00:25:00,519 --> 00:25:05,960
+traz grande melhorias na qualidade do
+
+612
+00:25:02,960 --> 00:25:07,480
+software produzido né então se for se
+
+613
+00:25:05,960 --> 00:25:10,038
+fosse para citar por exemplo uma
+
+614
+00:25:07,480 --> 00:25:12,519
+pesquisa nessa linha a gente pode citar
+
+615
+00:25:10,038 --> 00:25:15,558
+alguns trabalhos do pesquisador Bogdan
+
+616
+00:25:12,519 --> 00:25:17,440
+Basilesco lá do Carnet M University né
+
+617
+00:25:15,558 --> 00:25:19,678
+nos Estados Unidos em que ele por
+
+618
+00:25:17,440 --> 00:25:22,240
+exemplo desenvolveu um estudo em que ele
+
+619
+00:25:19,679 --> 00:25:25,159
+eles conseguiram descobrir que houve
+
+620
+00:25:22,240 --> 00:25:27,558
+analisando vários projetos Open Sociub
+
+621
+00:25:25,159 --> 00:25:29,200
+eles perceberam que houve uma redução no
+
+622
+00:25:27,558 --> 00:25:31,798
+número de bugs reportado por
+
+623
+00:25:29,200 --> 00:25:34,278
+desenvolvedores core né desenvolvedores
+
+624
+00:25:31,798 --> 00:25:36,599
+principais de projetos Open Soci Houve
+
+625
+00:25:34,278 --> 00:25:39,000
+uma melhoria aí na qualidade em termos
+
+626
+00:25:36,599 --> 00:25:39,959
+de número de bugs redução do número de
+
+627
+00:25:39,000 --> 00:25:42,240
+bugs
+
+628
+00:25:39,960 --> 00:25:45,159
+reportados Também nesse estudo eles
+
+629
+00:25:42,240 --> 00:25:47,720
+mostraram que houve uma integração mais
+
+630
+00:25:45,159 --> 00:25:50,240
+rápida de por requests né então houve
+
+631
+00:25:47,720 --> 00:25:52,960
+uma uma mais por requests foram
+
+632
+00:25:50,240 --> 00:25:56,519
+integrados foram feito merge né do
+
+633
+00:25:52,960 --> 00:25:59,240
+branch principal de por requests
+
+634
+00:25:56,519 --> 00:26:02,038
+aumentando assim a produtividade também
+
+635
+00:25:59,240 --> 00:26:04,440
+de desenvolvedores do núcleo antes e
+
+636
+00:26:02,038 --> 00:26:07,000
+após a doação de integração contínua
+
+637
+00:26:04,440 --> 00:26:08,640
+Então as pesquisas têm mostrado sim os
+
+638
+00:26:07,000 --> 00:26:11,319
+benefícios que se traz paraa
+
+639
+00:26:08,640 --> 00:26:12,840
+produtividade paraa qualidade Só que por
+
+640
+00:26:11,319 --> 00:26:14,960
+outro lado a gente também tem pesquisas
+
+641
+00:26:12,839 --> 00:26:16,918
+mostrando que aí ainda existem vários
+
+642
+00:26:14,960 --> 00:26:20,399
+desafios né para desenvolvedores para
+
+643
+00:26:16,919 --> 00:26:21,960
+organizações para adotar CI Eh se há
+
+644
+00:26:20,398 --> 00:26:25,759
+inevitavelmente adiciona uma
+
+645
+00:26:21,960 --> 00:26:27,640
+complexidade extra sobretudo cultural né
+
+646
+00:26:25,759 --> 00:26:30,839
+como a gente já mencionou na parte de
+
+647
+00:26:27,640 --> 00:26:33,000
+tests e também de do da necessidade do
+
+648
+00:26:30,839 --> 00:26:35,720
+aumento da colaboração entre a equipe né
+
+649
+00:26:33,000 --> 00:26:38,000
+que a equipe precisa est constantemente
+
+650
+00:26:35,720 --> 00:26:40,159
+em comunicação ter mecanismos de
+
+651
+00:26:38,000 --> 00:26:43,720
+conversa de interação para que possa
+
+652
+00:26:40,159 --> 00:26:46,679
+resolver conflitos de integração ou
+
+653
+00:26:43,720 --> 00:26:48,600
+problemas e erros eh que ocorrem durante
+
+654
+00:26:46,679 --> 00:26:51,159
+a execução dos testes automatizados ou
+
+655
+00:26:48,599 --> 00:26:52,839
+geração de builds para serem resolvidos
+
+656
+00:26:51,159 --> 00:26:55,480
+O IR vocês tiveram um trabalho recente
+
+657
+00:26:52,839 --> 00:26:58,240
+sobre integração contínua e evolução de
+
+658
+00:26:55,480 --> 00:27:00,240
+código de teste né o nome do artigo é
+
+659
+00:26:58,240 --> 00:27:02,038
+inclusive empirical study on the
+
+660
+00:27:00,240 --> 00:27:05,079
+relationship between continuous
+
+661
+00:27:02,038 --> 00:27:07,519
+integration and test code evolution Eh
+
+662
+00:27:05,079 --> 00:27:11,359
+parece um nome bem sugestivo né uma
+
+663
+00:27:07,519 --> 00:27:13,519
+coisa tem interferência na outra Eh você
+
+664
+00:27:11,359 --> 00:27:15,398
+falou do trabalho do do Bogdan agora mas
+
+665
+00:27:13,519 --> 00:27:17,798
+o seu trabalho ele achou alguma coisa
+
+666
+00:27:15,398 --> 00:27:19,959
+similar você pode explicar pra gente o
+
+667
+00:27:17,798 --> 00:27:21,639
+que que vocês encontraram nesse trabalho
+
+668
+00:27:19,960 --> 00:27:25,360
+sim esse é um trabalho bem interessante
+
+669
+00:27:21,640 --> 00:27:28,799
+que nós publicamos ano passado no ICSME
+
+670
+00:27:25,359 --> 00:27:30,639
+né no conferência C Software Maintenance
+
+671
+00:27:28,798 --> 00:27:33,359
+and Evolution uma das
+
+672
+00:27:30,640 --> 00:27:35,799
+principais do mundo Ele fez parte do
+
+673
+00:27:33,359 --> 00:27:37,558
+doutorado de Gustavo Cisílio e foi
+
+674
+00:27:35,798 --> 00:27:39,720
+orientado juntamente com o professor
+
+675
+00:27:37,558 --> 00:27:42,079
+Daniel Alencar da Universidade de Otávo
+
+676
+00:27:39,720 --> 00:27:44,399
+Nova Zelândia Basicamente nesse projeto
+
+677
+00:27:42,079 --> 00:27:47,918
+o que a gente fez foi comparar projetos
+
+678
+00:27:44,398 --> 00:27:50,918
+que pass que adotaram C versus projetos
+
+679
+00:27:47,919 --> 00:27:53,919
+que não adotaram C e se o volume de
+
+680
+00:27:50,919 --> 00:27:56,559
+teste para esses projetos aumentou
+
+681
+00:27:53,919 --> 00:27:58,480
+durante a adoção de CI ou ao longo do
+
+682
+00:27:56,558 --> 00:28:01,480
+ciclo de vida para projetos que não
+
+683
+00:27:58,480 --> 00:28:03,480
+adotaram CI né não apenas o volume de
+
+684
+00:28:01,480 --> 00:28:05,360
+testes mas também a cobertura de testes
+
+685
+00:28:03,480 --> 00:28:07,319
+A gente fez análise para um subconjunto
+
+686
+00:28:05,359 --> 00:28:09,918
+desses projetos Entrando em um pouco
+
+687
+00:28:07,319 --> 00:28:12,918
+mais detalhes dessa pesquisa né que foi
+
+688
+00:28:09,919 --> 00:28:16,320
+realizada nós analisamos 82 projetos que
+
+689
+00:28:12,919 --> 00:28:18,880
+usam CI 82 projetos que não usam CI Nós
+
+690
+00:28:16,319 --> 00:28:21,240
+fizemos o confronto entre esses 82
+
+691
+00:28:18,880 --> 00:28:23,360
+projetos de um lado e 82 do outro Esses
+
+692
+00:28:21,240 --> 00:28:26,240
+projetos foram selecionados de forma
+
+693
+00:28:23,359 --> 00:28:28,119
+rigorosa né são todos projetos
+
+694
+00:28:26,240 --> 00:28:30,440
+estrelados e bastante populares do
+
+695
+00:28:28,119 --> 00:28:33,439
+GitHub Nós selecionamos inicialmente os
+
+696
+00:28:30,440 --> 00:28:36,320
+3000 mais estrelados Depois nós
+
+697
+00:28:33,440 --> 00:28:38,759
+filtramos em dois conjuntos conjuntos de
+
+698
+00:28:36,319 --> 00:28:41,879
+projetos que adotaram servidores de
+
+699
+00:28:38,759 --> 00:28:43,919
+integração contínua notadamente o travci
+
+700
+00:28:41,880 --> 00:28:46,159
+e projetos que não tinham indícios de
+
+701
+00:28:43,919 --> 00:28:48,720
+uso de nenhum servidor de integração
+
+702
+00:28:46,159 --> 00:28:51,039
+contínua Também buscamos projetos que
+
+703
+00:28:48,720 --> 00:28:53,038
+estavam antigos com mais ou 4 anos de
+
+704
+00:28:51,038 --> 00:28:55,440
+existência e que tinham um volume
+
+705
+00:28:53,038 --> 00:28:58,679
+considerável de artefatos de teste
+
+706
+00:28:55,440 --> 00:29:00,798
+produzidos E nós analisamos projetos das
+
+707
+00:28:58,679 --> 00:29:05,880
+cinco linguagens mais populares do mundo
+
+708
+00:29:00,798 --> 00:29:08,319
+né java Python Ruby PHP e JavaScript
+
+709
+00:29:05,880 --> 00:29:12,880
+Então uma vez definido esse
+
+710
+00:29:08,319 --> 00:29:15,480
+data né nós selecionamos 24 meses de
+
+711
+00:29:12,880 --> 00:29:17,720
+análise desses projetos para analisar o
+
+712
+00:29:15,480 --> 00:29:21,038
+comportamento dos artefatos de teste
+
+713
+00:29:17,720 --> 00:29:24,240
+nesse projeto Nos projetos que adotaram
+
+714
+00:29:21,038 --> 00:29:26,839
+CI eh nós olhamos projetos que passaram
+
+715
+00:29:24,240 --> 00:29:30,440
+a adotar o Travis C a partir de um dado
+
+716
+00:29:26,839 --> 00:29:32,959
+momento Nos projetos que não adotaram CI
+
+717
+00:29:30,440 --> 00:29:35,038
+nós olhamos a mediana no tempo dos
+
+718
+00:29:32,960 --> 00:29:37,558
+projetos que adotaram CI no ciclo de
+
+719
+00:29:35,038 --> 00:29:40,240
+vida deles e aplicamos essa mesma
+
+720
+00:29:37,558 --> 00:29:42,158
+mediana no tempo do ciclo de vida para
+
+721
+00:29:40,240 --> 00:29:44,440
+os projetos que não adotaram CI de forma
+
+722
+00:29:42,159 --> 00:29:47,039
+a ter um
+
+723
+00:29:44,440 --> 00:29:49,320
+parâmetro e justo de
+
+724
+00:29:47,038 --> 00:29:51,599
+comparação E aí nós analisamos
+
+725
+00:29:49,319 --> 00:29:54,599
+inicialmente a a primeira a seguinte
+
+726
+00:29:51,599 --> 00:29:56,639
+métrica o test rati né o test rate
+
+727
+00:29:54,599 --> 00:29:59,038
+basicamente é o volume do código de
+
+728
+00:29:56,640 --> 00:30:01,080
+teste produzido divid pelo volume de
+
+729
+00:29:59,038 --> 00:30:04,558
+código do sistema produzido no mesmo
+
+730
+00:30:01,079 --> 00:30:07,398
+período né então nós fizemos essa este
+
+731
+00:30:04,558 --> 00:30:09,918
+ratal de forma a normalizar os dados
+
+732
+00:30:07,398 --> 00:30:11,798
+para promover a comparação entre os
+
+733
+00:30:09,919 --> 00:30:14,559
+projetos de diferentes
+
+734
+00:30:11,798 --> 00:30:17,480
+naturezas né nós usamos uma técnica de
+
+735
+00:30:14,558 --> 00:30:19,759
+análise da tendência de crescimento ao
+
+736
+00:30:17,480 --> 00:30:22,720
+longo do tempo do test rate Uma técnica
+
+737
+00:30:19,759 --> 00:30:25,079
+estatística chamada dynamic time warp
+
+738
+00:30:22,720 --> 00:30:27,720
+match E basicamente o que a gente
+
+739
+00:30:25,079 --> 00:30:31,278
+encontrou nessa primeira investigação
+
+740
+00:30:27,720 --> 00:30:34,440
+foi que todos os projetos analisados CI
+
+741
+00:30:31,278 --> 00:30:36,640
+nós observamos que 40% dos projetos que
+
+742
+00:30:34,440 --> 00:30:39,640
+usaram CI tiveram uma tendência de
+
+743
+00:30:36,640 --> 00:30:42,679
+crescimento do test rate enquanto nos
+
+744
+00:30:39,640 --> 00:30:45,200
+projetos que não adotaram CI apenas 17%
+
+745
+00:30:42,679 --> 00:30:47,120
+tiveram essa mesma tendência nos de
+
+746
+00:30:45,200 --> 00:30:49,440
+aumento nos artefatos de teste Então
+
+747
+00:30:47,119 --> 00:30:51,879
+isso já foi um resultado interessante
+
+748
+00:30:49,440 --> 00:30:54,919
+bastante contundente aí dos benefícios
+
+749
+00:30:51,880 --> 00:30:57,000
+de adoção do CI Nós também
+
+750
+00:30:54,919 --> 00:30:59,679
+observamos que houve um aumento
+
+751
+00:30:57,000 --> 00:31:01,919
+consistente no teste ratal dos projetos
+
+752
+00:30:59,679 --> 00:31:04,000
+C em comparação com os projetos que não
+
+753
+00:31:01,919 --> 00:31:06,120
+adotaram C Então através de teste
+
+754
+00:31:04,000 --> 00:31:08,638
+estatístico nós vimos que os projetos
+
+755
+00:31:06,119 --> 00:31:11,879
+que adotaram C tiveram um aumento muito
+
+756
+00:31:08,638 --> 00:31:14,678
+mais consistente no test ratal ao longo
+
+757
+00:31:11,880 --> 00:31:16,639
+do seu ciclo de vida Finalmente uma
+
+758
+00:31:14,679 --> 00:31:19,080
+última comparação que a gente promoveu
+
+759
+00:31:16,638 --> 00:31:21,439
+foi em relação à cobertura dos testes né
+
+760
+00:31:19,079 --> 00:31:23,678
+porque tudo bem que o volume dos testes
+
+761
+00:31:21,440 --> 00:31:25,759
+estava maior para se mais em relação à
+
+762
+00:31:23,679 --> 00:31:28,080
+qualidade deles né então cobertura de
+
+763
+00:31:25,759 --> 00:31:30,158
+testes é um critério para avaliar a
+
+764
+00:31:28,079 --> 00:31:32,720
+qualidade dos seus testes Então nós
+
+765
+00:31:30,159 --> 00:31:36,840
+coletamos a cobertura dos testes pros
+
+766
+00:31:32,720 --> 00:31:40,038
+projetos antes e após adotar CI né
+
+767
+00:31:36,839 --> 00:31:42,119
+e antes e após o mesmo período de tempo
+
+768
+00:31:40,038 --> 00:31:46,079
+a projetos que não adotaram CI antes e
+
+769
+00:31:42,119 --> 00:31:47,959
+após um e 12 meses antes e 12 meses após
+
+770
+00:31:46,079 --> 00:31:51,199
+um determinado momento no seu ciclo de
+
+771
+00:31:47,960 --> 00:31:54,679
+vida selecionamos 10 projetos de cada um
+
+772
+00:31:51,200 --> 00:31:57,000
+do dos 82 de cada grupo né por que que a
+
+773
+00:31:54,679 --> 00:31:58,200
+gente só selecionou 10 projetos porque
+
+774
+00:31:57,000 --> 00:32:00,880
+como a gente tinha que analisar a
+
+775
+00:31:58,200 --> 00:32:03,159
+cobertura ao longo de 12 meses então
+
+776
+00:32:00,880 --> 00:32:05,440
+para cada projeto a gente teve que gerar
+
+777
+00:32:03,159 --> 00:32:09,880
+14 baixar né
+
+778
+00:32:05,440 --> 00:32:14,080
+14 o código fonte de desculpa de 24
+
+779
+00:32:09,880 --> 00:32:16,200
+meses né daquele projeto gerar o build e
+
+780
+00:32:14,079 --> 00:32:18,319
+executar os testes para ver a cobertura
+
+781
+00:32:16,200 --> 00:32:21,038
+do teste para aqueles 24 meses Então
+
+782
+00:32:18,319 --> 00:32:23,200
+para cada um do 10 projetos de C e 10
+
+783
+00:32:21,038 --> 00:32:25,599
+projetos não seis nós fizemos isso
+
+784
+00:32:23,200 --> 00:32:28,519
+Gustavo liderou né obviamente essas
+
+785
+00:32:25,599 --> 00:32:30,959
+configurações esse todo esse aspecto de
+
+786
+00:32:28,519 --> 00:32:33,079
+coletar a cobertura E após aplicar
+
+787
+00:32:30,960 --> 00:32:35,679
+testes estatísticos nós observamos que
+
+788
+00:32:33,079 --> 00:32:38,319
+dos de dos 10 projetos analisaram que
+
+789
+00:32:35,679 --> 00:32:40,720
+adotaram C nove deles mantiveram ou
+
+790
+00:32:38,319 --> 00:32:43,079
+aumentaram a cobertura de teste apenas
+
+791
+00:32:40,720 --> 00:32:45,399
+um reduziu a cobertura tá certo então
+
+792
+00:32:43,079 --> 00:32:47,480
+foi um resultado aí que de 10 projetos
+
+793
+00:32:45,398 --> 00:32:49,719
+novos mantiveram ou aumentaram a
+
+794
+00:32:47,480 --> 00:32:52,399
+cobertura Enquanto dos projetos que não
+
+795
+00:32:49,720 --> 00:32:55,480
+adotaram CI apenas quatro mantiveram
+
+796
+00:32:52,398 --> 00:32:58,439
+aumentaram o nível de cobertura e cinco
+
+797
+00:32:55,480 --> 00:33:01,000
+deles reduziram a cobertura tá certo
+
+798
+00:32:58,440 --> 00:33:03,639
+então foi um resultado aí bastante
+
+799
+00:33:01,000 --> 00:33:06,480
+contundente também das vantagens aí que
+
+800
+00:33:03,638 --> 00:33:09,278
+se aí trou para aumento da cobertura dos
+
+801
+00:33:06,480 --> 00:33:11,399
+testes de um dataset um pouco menor mas
+
+802
+00:33:09,278 --> 00:33:14,919
+com o resultado já bastante contundente
+
+803
+00:33:11,398 --> 00:33:17,239
+aí para mostrar as vantagens de CI
+
+804
+00:33:14,919 --> 00:33:18,919
+também pra melhoria da produção dos seus
+
+805
+00:33:17,240 --> 00:33:21,880
+testes automatizados Então a gente
+
+806
+00:33:18,919 --> 00:33:24,360
+observou essa correlação Então um outro
+
+807
+00:33:21,880 --> 00:33:28,120
+incentivo pro desenvolvedor que tá
+
+808
+00:33:24,359 --> 00:33:31,519
+interessado em convencer o seu gerente
+
+809
+00:33:28,119 --> 00:33:33,719
+seu product o do benefício de integração
+
+810
+00:33:31,519 --> 00:33:36,079
+contínua é que implicitamente a
+
+811
+00:33:33,720 --> 00:33:38,839
+qualidade do código vai melhorar através
+
+812
+00:33:36,079 --> 00:33:41,918
+da criação de testes
+
+813
+00:33:38,839 --> 00:33:45,158
+automatizados do aumento da cobertura
+
+814
+00:33:41,919 --> 00:33:47,600
+que não necessariamente tá ali
+
+815
+00:33:45,159 --> 00:33:50,679
+explicitamente escrito nos manuais e
+
+816
+00:33:47,599 --> 00:33:53,839
+livrinhos né muito legal Irá outro
+
+817
+00:33:50,679 --> 00:33:56,440
+trabalho interessante que você fez né é
+
+818
+00:33:53,839 --> 00:33:59,599
+sobre o impacto da integração contínua
+
+819
+00:33:56,440 --> 00:34:02,080
+no tempo de vida do P request Qual foi a
+
+820
+00:33:59,599 --> 00:34:04,319
+ideia deste trabalho o uso da integração
+
+821
+00:34:02,079 --> 00:34:06,960
+contínua acelera o tempo de vida do P
+
+822
+00:34:04,319 --> 00:34:10,039
+request Bom esse trabalho fez parte do
+
+823
+00:34:06,960 --> 00:34:11,639
+mestrado de João Wellé aqui na UFRN que
+
+824
+00:34:10,039 --> 00:34:13,759
+foi orientado conjuntamente com o
+
+825
+00:34:11,639 --> 00:34:16,200
+professor Daniel Alencar da Nova
+
+826
+00:34:13,760 --> 00:34:19,000
+Zelândia Eh e a questão central que a
+
+827
+00:34:16,199 --> 00:34:21,398
+gente investigou nesse trabalho foi se a
+
+828
+00:34:19,000 --> 00:34:24,398
+adoção de CI contribui para melhorar o
+
+829
+00:34:21,398 --> 00:34:26,598
+tempo de entrega de um purquest de um
+
+830
+00:34:24,398 --> 00:34:29,878
+projeto Então a gente tava investigando
+
+831
+00:34:26,599 --> 00:34:32,480
+aqui não mais se um request ele era
+
+832
+00:34:29,878 --> 00:34:34,159
+merged integrado mais rapidamente mas
+
+833
+00:34:32,480 --> 00:34:36,960
+também se ele era entregue mais
+
+834
+00:34:34,159 --> 00:34:38,960
+rapidamente numa release futura ou seja
+
+835
+00:34:36,960 --> 00:34:41,599
+algo totalmente relacionado com
+
+836
+00:34:38,960 --> 00:34:44,079
+continuous delivery né então nesse
+
+837
+00:34:41,599 --> 00:34:46,919
+projeto basicamente teve um setting
+
+838
+00:34:44,079 --> 00:34:49,119
+parecido né com trabalho de teste que eu
+
+839
+00:34:46,918 --> 00:34:52,158
+descrevi anteriormente mas nós
+
+840
+00:34:49,119 --> 00:34:54,960
+analisamos aqui 87 projetos que adotaram
+
+841
+00:34:52,159 --> 00:34:58,480
+CI ao longo do tempo especificamente
+
+842
+00:34:54,960 --> 00:35:01,240
+eles passaram a adotar o Travis CI num
+
+843
+00:34:58,480 --> 00:35:04,039
+dado momento do seu ciclo de vida E nós
+
+844
+00:35:01,239 --> 00:35:06,559
+analisamos 12 meses antes e 12 meses
+
+845
+00:35:04,039 --> 00:35:09,039
+após aspectos como o ciclo de vida de um
+
+846
+00:35:06,559 --> 00:35:12,960
+po request Em que tempo ele é merged ele
+
+847
+00:35:09,039 --> 00:35:14,759
+é integrado né numa numa branch do
+
+848
+00:35:12,960 --> 00:35:17,480
+principal do sistema em que em que
+
+849
+00:35:14,760 --> 00:35:19,880
+momento também esse B request é entregue
+
+850
+00:35:17,480 --> 00:35:21,599
+de fato numa release que vai ser
+
+851
+00:35:19,880 --> 00:35:23,519
+disponibilizada pro usuário Então nós
+
+852
+00:35:21,599 --> 00:35:25,079
+analisamos esses dois tempos e
+
+853
+00:35:23,519 --> 00:35:27,280
+basicamente o que a gente encontrou
+
+854
+00:35:25,079 --> 00:35:29,359
+inicialmente foi uma coisa interessante
+
+855
+00:35:27,280 --> 00:35:32,720
+que a gente descobriu que apenas cerca
+
+856
+00:35:29,358 --> 00:35:34,400
+de 51% dos projetos eles entregaram os
+
+857
+00:35:32,719 --> 00:35:36,519
+por request numa release mais
+
+858
+00:35:34,400 --> 00:35:38,358
+rapidamente após a adoção de se então
+
+859
+00:35:36,519 --> 00:35:40,280
+houve um bom equilíbrio aí entre a
+
+860
+00:35:38,358 --> 00:35:43,119
+quantidade de projetos que entregou
+
+861
+00:35:40,280 --> 00:35:46,040
+esses por requests em releases antes e
+
+862
+00:35:43,119 --> 00:35:48,200
+após a adoção de CI né apenas 51%
+
+863
+00:35:46,039 --> 00:35:52,440
+entregaram mais rápido após a adoção do
+
+864
+00:35:48,199 --> 00:35:54,838
+CI Nós também descobrimos que 50 em 54%
+
+865
+00:35:52,440 --> 00:35:57,559
+dos projetos analisados o ciclo de vida
+
+866
+00:35:54,838 --> 00:36:00,639
+de merge deliver do request foi mais
+
+867
+00:35:57,559 --> 00:36:02,719
+longo após a adoção de novamente um um
+
+868
+00:36:00,639 --> 00:36:05,400
+certo equilíbrio aí pros projetos antes
+
+869
+00:36:02,719 --> 00:36:08,239
+e após a adoção de se em seguida nós
+
+870
+00:36:05,400 --> 00:36:10,519
+fomos analisar a questão do volume de
+
+871
+00:36:08,239 --> 00:36:12,879
+request analisado nesse mesmo período
+
+872
+00:36:10,519 --> 00:36:15,280
+antes e após adoção né nos 12 meses
+
+873
+00:36:12,880 --> 00:36:17,358
+antes e após a adoção de CI E nós
+
+874
+00:36:15,280 --> 00:36:21,079
+percebemos então que
+
+875
+00:36:17,358 --> 00:36:23,039
+71 71% dos projetos aumentaram a entrega
+
+876
+00:36:21,079 --> 00:36:26,318
+de submissões de por requests após a
+
+877
+00:36:23,039 --> 00:36:29,759
+adoção E vimos então que boa parte dos
+
+878
+00:36:26,318 --> 00:36:33,358
+projetos tenderam a entregar 3.4 vezes
+
+879
+00:36:29,760 --> 00:36:36,119
+mais por requests após a adoção de
+
+880
+00:36:33,358 --> 00:36:38,239
+continuous integration por releases tá
+
+881
+00:36:36,119 --> 00:36:41,480
+certo bom para cada release após a
+
+882
+00:36:38,239 --> 00:36:43,239
+adoção se entregou 3.4 vezes mais por
+
+883
+00:36:41,480 --> 00:36:45,119
+request por projeto Isso foi uma
+
+884
+00:36:43,239 --> 00:36:46,838
+conclusão bastante interessante Apesar
+
+885
+00:36:45,119 --> 00:36:49,240
+do tempo de entrega ser bastante
+
+886
+00:36:46,838 --> 00:36:53,199
+equilibrado antes e após a adoção de
+
+887
+00:36:49,239 --> 00:36:56,559
+SIAR né 50% para cada lado a quantidade
+
+888
+00:36:53,199 --> 00:36:59,598
+de pull request entregue após o a adoção
+
+889
+00:36:56,559 --> 00:37:02,400
+foi 3.4 vezes maior na mediana Então
+
+890
+00:36:59,599 --> 00:37:05,039
+realmente uma quantidade aí
+
+891
+00:37:02,400 --> 00:37:07,599
+considerável do das vantagens de usar
+
+892
+00:37:05,039 --> 00:37:09,679
+SIA A gente até observou também como se
+
+893
+00:37:07,599 --> 00:37:11,280
+a promete entregar normalmente mais
+
+894
+00:37:09,679 --> 00:37:13,719
+releases no mesmo período de tempo A
+
+895
+00:37:11,280 --> 00:37:15,960
+gente verificou se haviam de fato mais
+
+896
+00:37:13,719 --> 00:37:18,199
+releases sendo entregues após a adoção
+
+897
+00:37:15,960 --> 00:37:20,039
+no Cai e a gente viu que havido
+
+898
+00:37:18,199 --> 00:37:22,639
+equilíbrio nessa frequência de release
+
+899
+00:37:20,039 --> 00:37:24,519
+por ano entre os projetos Ou seja de
+
+900
+00:37:22,639 --> 00:37:27,279
+fato entregou a mesma quantidade de
+
+901
+00:37:24,519 --> 00:37:30,440
+release mas esse release novamente
+
+902
+00:37:27,280 --> 00:37:32,560
+sempre 3.4 vezes mais por request após a
+
+903
+00:37:30,440 --> 00:37:36,240
+adoção de Cai do que antes da adoção
+
+904
+00:37:32,559 --> 00:37:38,358
+Então esse foi um trabalho interessante
+
+905
+00:37:36,239 --> 00:37:40,078
+Esse trabalho também foi uma coisa
+
+906
+00:37:38,358 --> 00:37:42,679
+interessante foi que ele foi replicado
+
+907
+00:37:40,079 --> 00:37:44,760
+né por um grupo da Alemanha usando um
+
+908
+00:37:42,679 --> 00:37:46,519
+arsenal estatístico diferente do que a
+
+909
+00:37:44,760 --> 00:37:48,680
+gente usou no projeto Então eles
+
+910
+00:37:46,519 --> 00:37:51,639
+reconduziram refizeram o estudo né com o
+
+911
+00:37:48,679 --> 00:37:53,919
+mesmo datas set entraram em contato etc
+
+912
+00:37:51,639 --> 00:37:55,440
+chegaram às mesmas conclusões atestar
+
+913
+00:37:53,920 --> 00:37:57,639
+essas mesmas conclusões que a gente
+
+914
+00:37:55,440 --> 00:38:00,039
+chegou Então foi uma um resultado bem
+
+915
+00:37:57,639 --> 00:38:02,960
+interessante aí que a gente teve Eh uma
+
+916
+00:38:00,039 --> 00:38:05,039
+coisa interessante é que atualmente e
+
+917
+00:38:02,960 --> 00:38:07,358
+João L já como parte do seu doutorado
+
+918
+00:38:05,039 --> 00:38:09,358
+ele tá estudando fazendo estudos
+
+919
+00:38:07,358 --> 00:38:11,078
+complementares né nós estamos mostrando
+
+920
+00:38:09,358 --> 00:38:12,799
+esses dados que foram encontrados nesses
+
+921
+00:38:11,079 --> 00:38:15,519
+projetos para as equipes desenvolvimento
+
+922
+00:38:12,800 --> 00:38:19,119
+desses 87 projetos nós apresentamos
+
+923
+00:38:15,519 --> 00:38:22,519
+dados encontrados e ele existe uma certa
+
+924
+00:38:19,119 --> 00:38:25,200
+dicotomia aí em dar razão a se ou não
+
+925
+00:38:22,519 --> 00:38:27,880
+para esse aumento no volume de por por
+
+926
+00:38:25,199 --> 00:38:30,679
+requests entregues né após o a cada
+
+927
+00:38:27,880 --> 00:38:33,519
+release após a adoção de C Então alguns
+
+928
+00:38:30,679 --> 00:38:35,279
+atribuem esse ganho a ao aumento da
+
+929
+00:38:33,519 --> 00:38:37,480
+popularidade do projeto e outros
+
+930
+00:38:35,280 --> 00:38:39,880
+atribuem esse ganho de fato a CA é um
+
+931
+00:38:37,480 --> 00:38:41,358
+bom equilíbrio aí nessa resposta né nos
+
+932
+00:38:39,880 --> 00:38:43,880
+dados preliminares que a gente tá
+
+933
+00:38:41,358 --> 00:38:46,039
+analisando Mas de fato mesmo o pessoal
+
+934
+00:38:43,880 --> 00:38:48,519
+que atribui ao aumento da popularidade
+
+935
+00:38:46,039 --> 00:38:50,800
+do projeto esse aumento de por requests
+
+936
+00:38:48,519 --> 00:38:52,880
+eles concordam que a adoção da prática
+
+937
+00:38:50,800 --> 00:38:54,800
+de CI contribuiu para lidar com esse
+
+938
+00:38:52,880 --> 00:38:58,160
+aumento da popularidade Ou seja em ambos
+
+939
+00:38:54,800 --> 00:39:00,200
+os casos eles concordam que continuous
+
+940
+00:38:58,159 --> 00:39:02,199
+integration de fato para lidar com esse
+
+941
+00:39:00,199 --> 00:39:05,559
+aumento do volume do projeto ou tá
+
+942
+00:39:02,199 --> 00:39:07,679
+diretamente relacionado com esse aumento
+
+943
+00:39:05,559 --> 00:39:09,679
+a capacidade de uma equipe poder lidar
+
+944
+00:39:07,679 --> 00:39:11,759
+com request Então trabalho bem
+
+945
+00:39:09,679 --> 00:39:14,639
+interessante aí que a gente conduziu que
+
+946
+00:39:11,760 --> 00:39:16,839
+atesta ainda mais aí as vantagens que se
+
+947
+00:39:14,639 --> 00:39:19,440
+aí pode trazer né ir a gente já falou
+
+948
+00:39:16,838 --> 00:39:21,358
+aqui sobre né várias atividades e
+
+949
+00:39:19,440 --> 00:39:23,280
+práticas que apoiam né o uso de
+
+950
+00:39:21,358 --> 00:39:25,799
+integração contínua no ambiente de
+
+951
+00:39:23,280 --> 00:39:29,079
+desenvolvimento Mas se você pudesse dar
+
+952
+00:39:25,800 --> 00:39:32,039
+alguma recomendação né alguma dica né
+
+953
+00:39:29,079 --> 00:39:34,839
+para alguma equipe que ainda não tá
+
+954
+00:39:32,039 --> 00:39:38,159
+praticando qual que seria né eh suas
+
+955
+00:39:34,838 --> 00:39:40,880
+principais sugestões para essa equipe né
+
+956
+00:39:38,159 --> 00:39:43,279
+o que que qual é o arsenal eh de
+
+957
+00:39:40,880 --> 00:39:45,000
+práticas técnicas e ferramentas que essa
+
+958
+00:39:43,280 --> 00:39:46,880
+equipe precisa ter para praticar
+
+959
+00:39:45,000 --> 00:39:49,800
+integração contínua
+
+960
+00:39:46,880 --> 00:39:53,559
+bom em termos de dicas sugestões para
+
+961
+00:39:49,800 --> 00:39:56,280
+implantar C e uma equipe é óbvio que
+
+962
+00:39:53,559 --> 00:39:58,400
+inicialmente você tem que ter um um bom
+
+963
+00:39:56,280 --> 00:39:59,800
+conhecimento técnico né de como por
+
+964
+00:39:58,400 --> 00:40:03,079
+exemplo montar
+
+965
+00:39:59,800 --> 00:40:06,640
+pipeline nesses servidores né como
+
+966
+00:40:03,079 --> 00:40:08,200
+configurar e escrever pipelines nesses
+
+967
+00:40:06,639 --> 00:40:11,719
+servidores de
+
+968
+00:40:08,199 --> 00:40:15,000
+forma eh que atenda né suas
+
+969
+00:40:11,719 --> 00:40:17,759
+necessidades etc Então procurar cursos
+
+970
+00:40:15,000 --> 00:40:20,000
+técnicos tecnológicos na internet que
+
+971
+00:40:17,760 --> 00:40:21,720
+atendam isso é bom E tá procurando
+
+972
+00:40:20,000 --> 00:40:23,880
+grupos de discussão que você possa
+
+973
+00:40:21,719 --> 00:40:26,000
+interagir com pessoas especialistas né
+
+974
+00:40:23,880 --> 00:40:28,079
+seja na rede seja na própria empresa que
+
+975
+00:40:26,000 --> 00:40:30,318
+você trabalha para você conhecer é
+
+976
+00:40:28,079 --> 00:40:32,880
+fundamental Então esse eu diria que são
+
+977
+00:40:30,318 --> 00:40:34,599
+as dicas do lado técnico né mas assim do
+
+978
+00:40:32,880 --> 00:40:37,318
+ponto de vista cultural eu acho que tem
+
+979
+00:40:34,599 --> 00:40:40,000
+muito mais desafios em buscar implantar
+
+980
+00:40:37,318 --> 00:40:42,920
+C em sua totalidade Então a gente já vê
+
+981
+00:40:40,000 --> 00:40:44,719
+hoje muitos projetos que utilizam CI no
+
+982
+00:40:42,920 --> 00:40:47,800
+que se refere a ter um pipeline que
+
+983
+00:40:44,719 --> 00:40:49,959
+integra o código e gera builds para eles
+
+984
+00:40:47,800 --> 00:40:52,800
+né então faz essa parte de compilação
+
+985
+00:40:49,960 --> 00:40:54,400
+geração de builds mas a gente percebe
+
+986
+00:40:52,800 --> 00:40:56,359
+que muitas equipes ainda não dão a
+
+987
+00:40:54,400 --> 00:40:58,599
+devida atenção à parte de automação de
+
+988
+00:40:56,358 --> 00:41:00,719
+teste que faz parte sim do ciclo de
+
+989
+00:40:58,599 --> 00:41:02,880
+integração contínua né sejam esses
+
+990
+00:41:00,719 --> 00:41:05,039
+testes de unidade integração ou até
+
+991
+00:41:02,880 --> 00:41:07,000
+mesmo sistemas Então considerando a
+
+992
+00:41:05,039 --> 00:41:09,440
+dificuldade que muitas vezes uma equipe
+
+993
+00:41:07,000 --> 00:41:11,800
+tem para adotar de cara teste de unidade
+
+994
+00:41:09,440 --> 00:41:13,679
+integração o que eu recomendo é iniciar
+
+995
+00:41:11,800 --> 00:41:16,359
+com a automação de alguns testes de
+
+996
+00:41:13,679 --> 00:41:18,480
+sistema aceitação que garantem uma certa
+
+997
+00:41:16,358 --> 00:41:21,679
+qualidade pro sistema né teste de
+
+998
+00:41:18,480 --> 00:41:23,679
+regressão smoked test a seleção de um
+
+999
+00:41:21,679 --> 00:41:26,239
+conjunto de funcionalidades relevantes e
+
+1000
+00:41:23,679 --> 00:41:28,199
+críticas que devem ser testad
+
+1001
+00:41:26,239 --> 00:41:29,879
+continuamente toda vez que um release do
+
+1002
+00:41:28,199 --> 00:41:31,838
+software é liberado né então aquelas
+
+1003
+00:41:29,880 --> 00:41:33,519
+funcionalidades que são mais críticas e
+
+1004
+00:41:31,838 --> 00:41:35,400
+que são mais usadas para uma equipe de
+
+1005
+00:41:33,519 --> 00:41:37,800
+desenvolvimento Então automatizar esses
+
+1006
+00:41:35,400 --> 00:41:40,240
+testes de sistema ou aceitação com
+
+1007
+00:41:37,800 --> 00:41:42,440
+ferramentas como Selenium ou Behave e
+
+1008
+00:41:40,239 --> 00:41:44,559
+outras ferramentas de BDD Acho que é um
+
+1009
+00:41:42,440 --> 00:41:46,358
+primeiro passo aí bem interessante pra
+
+1010
+00:41:44,559 --> 00:41:48,279
+equipe avançar tendo em vista a
+
+1011
+00:41:46,358 --> 00:41:50,440
+dificuldade de muitas vezes adotar de
+
+1012
+00:41:48,280 --> 00:41:53,160
+cara teste de unidade integração mas que
+
+1013
+00:41:50,440 --> 00:41:55,720
+deve também ser trabalhado em seguida E
+
+1014
+00:41:53,159 --> 00:41:58,000
+aí você inclui esses testes de automação
+
+1015
+00:41:55,719 --> 00:41:59,919
+de sistemas para serem executados por
+
+1016
+00:41:58,000 --> 00:42:02,119
+exemplo pelo menos uma vez por semana ou
+
+1017
+00:41:59,920 --> 00:42:04,159
+duas vezes por semana eh em um
+
+1018
+00:42:02,119 --> 00:42:06,000
+determinado pipeline né então o software
+
+1019
+00:42:04,159 --> 00:42:08,199
+vai ser instalado em uma máquina né
+
+1020
+00:42:06,000 --> 00:42:10,800
+devidamente configurada eventualmente
+
+1021
+00:42:08,199 --> 00:42:13,078
+virtualizada para com a virtualização do
+
+1022
+00:42:10,800 --> 00:42:15,039
+sistema para executar essa bateria de
+
+1023
+00:42:13,079 --> 00:42:17,839
+teste de sistemas Bom é importante
+
+1024
+00:42:15,039 --> 00:42:20,599
+lembrar que apenas após a adoção de CI
+
+1025
+00:42:17,838 --> 00:42:23,078
+de forma sólida com teste automatizado é
+
+1026
+00:42:20,599 --> 00:42:25,160
+que você de fato vai conseguir migrar
+
+1027
+00:42:23,079 --> 00:42:27,240
+seu projeto para também adotar a prática
+
+1028
+00:42:25,159 --> 00:42:29,879
+de continuous delivery Então hoje em dia
+
+1029
+00:42:27,239 --> 00:42:32,519
+é fundamental que você adote passe
+
+1030
+00:42:29,880 --> 00:42:34,640
+também a incluir a parte de teste
+
+1031
+00:42:32,519 --> 00:42:36,880
+automatizado na tua integração contínua
+
+1032
+00:42:34,639 --> 00:42:39,679
+Caso contrário o teu continuous delivery
+
+1033
+00:42:36,880 --> 00:42:41,559
+não vai ser sólido né não vai dar aquele
+
+1034
+00:42:39,679 --> 00:42:43,919
+grau de confiança que se espera para se
+
+1035
+00:42:41,559 --> 00:42:46,800
+fazer continuous delivering ou
+
+1036
+00:42:43,920 --> 00:42:49,000
+deployment Então eh não adianta nada ser
+
+1037
+00:42:46,800 --> 00:42:50,720
+tu ter tua arquitetura totalmente
+
+1038
+00:42:49,000 --> 00:42:53,440
+estruturada em termos de
+
+1039
+00:42:50,719 --> 00:42:55,199
+microsserviços ter pipeline sofisticado
+
+1040
+00:42:53,440 --> 00:42:56,920
+se os teus testes automatizados não
+
+1041
+00:42:55,199 --> 00:42:59,279
+garantir a qualidade do que vai pra
+
+1042
+00:42:56,920 --> 00:43:01,519
+produção de forma automática ou quase
+
+1043
+00:42:59,280 --> 00:43:03,680
+automática de nada vai adiantar seu
+
+1044
+00:43:01,519 --> 00:43:06,559
+esforço Então essa é uma dica bastante
+
+1045
+00:43:03,679 --> 00:43:09,000
+importante Corram atrás da parte técnica
+
+1046
+00:43:06,559 --> 00:43:11,559
+mas não esqueçam desse lado cultural
+
+1047
+00:43:09,000 --> 00:43:14,199
+dessas práticas de teste automatizado
+
+1048
+00:43:11,559 --> 00:43:16,599
+que tem quem é necessariamente ser
+
+1049
+00:43:14,199 --> 00:43:19,558
+seguir Agora que você
+
+1050
+00:43:16,599 --> 00:43:22,000
+falou sugestões para quem quer implantar
+
+1051
+00:43:19,559 --> 00:43:24,280
+C em sua equipe Agora um uma pergunta
+
+1052
+00:43:22,000 --> 00:43:26,838
+que vai satisfazer os nossos ouvintes
+
+1053
+00:43:24,280 --> 00:43:29,480
+mais da academia Quais são os problemas
+
+1054
+00:43:26,838 --> 00:43:31,400
+científicos em aberto quando se fala de
+
+1055
+00:43:29,480 --> 00:43:34,318
+integração contínua eu acho que ainda
+
+1056
+00:43:31,400 --> 00:43:36,358
+existe bastante espaço para conduzir
+
+1057
+00:43:34,318 --> 00:43:39,599
+pesquisas e estudos empíricos que
+
+1058
+00:43:36,358 --> 00:43:41,719
+reforcem e atestem né os benefícios que
+
+1059
+00:43:39,599 --> 00:43:43,519
+a integração contínua traz Então
+
+1060
+00:43:41,719 --> 00:43:45,719
+procurar investigar outros benefícios
+
+1061
+00:43:43,519 --> 00:43:47,719
+que têm sido reportado por artigos e às
+
+1062
+00:43:45,719 --> 00:43:49,480
+vezes não tem sido devidamente
+
+1063
+00:43:47,719 --> 00:43:51,598
+investigado com a profundidade que
+
+1064
+00:43:49,480 --> 00:43:54,599
+merece né um outro tipo de pesquisa
+
+1065
+00:43:51,599 --> 00:43:56,359
+possível também e averiguar a
+
+1066
+00:43:54,599 --> 00:43:58,318
+dificuldade de adotar práticas de
+
+1067
+00:43:56,358 --> 00:44:00,838
+integração contínua em diferentes tipos
+
+1068
+00:43:58,318 --> 00:44:03,358
+de ambiente em spinoffs empresas
+
+1069
+00:44:00,838 --> 00:44:05,679
+públicas né já que no desenvolvimento
+
+1070
+00:44:03,358 --> 00:44:08,119
+open source em grandes empresas essa
+
+1071
+00:44:05,679 --> 00:44:10,719
+prática tá muito bem consolidada Mas sem
+
+1072
+00:44:08,119 --> 00:44:12,880
+dúvida nenhuma uma das principais áreas
+
+1073
+00:44:10,719 --> 00:44:15,919
+abertas aí para pesquisa integração
+
+1074
+00:44:12,880 --> 00:44:18,838
+contínua na verdade entrega contínua e
+
+1075
+00:44:15,920 --> 00:44:21,119
+deployment contínuo né então existe
+
+1076
+00:44:18,838 --> 00:44:24,838
+muita pesquisa para ser feita nessa área
+
+1077
+00:44:21,119 --> 00:44:26,920
+Aí a indústria tá conduzindo e dando as
+
+1078
+00:44:24,838 --> 00:44:29,960
+cartas né nesse sentido Aí acho que a
+
+1079
+00:44:26,920 --> 00:44:32,920
+academia tem como apoiar e buscar
+
+1080
+00:44:29,960 --> 00:44:34,519
+validar conduzir estudos que validem as
+
+1081
+00:44:32,920 --> 00:44:37,400
+práticas que estão sendo
+
+1082
+00:44:34,519 --> 00:44:39,800
+usadas ajudar nesse aprimoramento do que
+
+1083
+00:44:37,400 --> 00:44:41,720
+já vem sendo proposto e utilizado por
+
+1084
+00:44:39,800 --> 00:44:44,519
+eles como é que pode ser adaptado para
+
+1085
+00:44:41,719 --> 00:44:46,439
+diferentes contextos e por aí vai Então
+
+1086
+00:44:44,519 --> 00:44:48,800
+existe bastante espaço nessa área
+
+1087
+00:44:46,440 --> 00:44:50,880
+Finalmente um outro nicho de pesquisa
+
+1088
+00:44:48,800 --> 00:44:53,599
+que existe nessa área de integração e
+
+1089
+00:44:50,880 --> 00:44:55,519
+entrega contínua é a parte de educação
+
+1090
+00:44:53,599 --> 00:44:57,440
+né então é importante que as novas
+
+1091
+00:44:55,519 --> 00:45:00,480
+gerações venham cada vez melhores
+
+1092
+00:44:57,440 --> 00:45:03,039
+formadas né nessas práticas e que elas
+
+1093
+00:45:00,480 --> 00:45:05,880
+se habituem com elas e se familiarizem
+
+1094
+00:45:03,039 --> 00:45:09,000
+já desde os cursos de graduação Então
+
+1095
+00:45:05,880 --> 00:45:10,760
+desde a formação a formação em teste de
+
+1096
+00:45:09,000 --> 00:45:13,358
+software por exemplo tem que ser muito
+
+1097
+00:45:10,760 --> 00:45:15,079
+bem destacada né dada a importância que
+
+1098
+00:45:13,358 --> 00:45:17,199
+ela tem todo esse contexto A gente
+
+1099
+00:45:15,079 --> 00:45:19,119
+conversou bastante sobre isso E nesse
+
+1100
+00:45:17,199 --> 00:45:21,558
+contexto assim até aproveito para fazer
+
+1101
+00:45:19,119 --> 00:45:24,280
+a propaganda que a gente tá começando um
+
+1102
+00:45:21,559 --> 00:45:27,800
+projeto para enfatizar essa parte de
+
+1103
+00:45:24,280 --> 00:45:30,960
+educação deops né e educação de técnicas
+
+1104
+00:45:27,800 --> 00:45:32,920
+que envolve a entrega contínua Então é
+
+1105
+00:45:30,960 --> 00:45:34,800
+uma área bastante interessante aí tem
+
+1106
+00:45:32,920 --> 00:45:36,720
+bastante espaço pra pesquisa
+
+1107
+00:45:34,800 --> 00:45:38,559
+Inicialmente com coisas de integração
+
+1108
+00:45:36,719 --> 00:45:40,439
+contínua mas agora com a chegada de
+
+1109
+00:45:38,559 --> 00:45:42,960
+integra contínua os desafios vão se
+
+1110
+00:45:40,440 --> 00:45:44,119
+ampliar ainda
+
+1111
+00:45:42,960 --> 00:45:57,588
+mais
+
+1112
+00:45:44,119 --> 00:45:57,588
+[Música]
+
+1113
+00:46:02,079 --> 00:46:07,559
+Eu acho que foi um excelente fechamento
+
+1114
+00:46:04,599 --> 00:46:09,400
+agora né o IR com esse eh nosso meia
+
+1115
+00:46:07,559 --> 00:46:11,880
+culpa aí para trazer mais integração
+
+1116
+00:46:09,400 --> 00:46:14,838
+contínua para pra sala de aula para
+
+1117
+00:46:11,880 --> 00:46:16,960
+ambientes né não só de equipe de
+
+1118
+00:46:14,838 --> 00:46:19,119
+desenvolvimento até pra gente fazer com
+
+1119
+00:46:16,960 --> 00:46:22,639
+que a nossa essa próxima geração né já
+
+1120
+00:46:19,119 --> 00:46:26,000
+saia né da graduação né da pós-graduação
+
+1121
+00:46:22,639 --> 00:46:30,078
+já muito bem alinhado com que assim as
+
+1122
+00:46:26,000 --> 00:46:32,719
+práticas são padrões né eh dito isso eh
+
+1123
+00:46:30,079 --> 00:46:35,480
+qual é a recomendação que você poderia
+
+1124
+00:46:32,719 --> 00:46:37,879
+indicar né assim para nós professores
+
+1125
+00:46:35,480 --> 00:46:42,559
+para nós alunos né para nós praticantes
+
+1126
+00:46:37,880 --> 00:46:44,640
+de leitura deh de material de vídeo você
+
+1127
+00:46:42,559 --> 00:46:46,519
+comentou alguma coisa mas tem aquela
+
+1128
+00:46:44,639 --> 00:46:49,358
+pedra fundamental ali que não pode
+
+1129
+00:46:46,519 --> 00:46:51,400
+passar batido tem aquele livro que todo
+
+1130
+00:46:49,358 --> 00:46:54,480
+mundo devia ter na sua cabeceira Qual
+
+1131
+00:46:51,400 --> 00:46:57,200
+Qual que é a sua sugestão de material de
+
+1132
+00:46:54,480 --> 00:46:59,440
+integração contínua bom em termos de
+
+1133
+00:46:57,199 --> 00:47:01,159
+materiais disponíveis pra área de
+
+1134
+00:46:59,440 --> 00:47:04,599
+integração contínua eu recomendo a
+
+1135
+00:47:01,159 --> 00:47:06,639
+leitura inicial dos posts do Martin Fer
+
+1136
+00:47:04,599 --> 00:47:09,440
+sobre continuous integration fazendo
+
+1137
+00:47:06,639 --> 00:47:12,759
+essa busca no Google você vai facilmente
+
+1138
+00:47:09,440 --> 00:47:14,800
+encontrar os posts dele e ele fala de
+
+1139
+00:47:12,760 --> 00:47:17,440
+forma bastante interessante sobre o tema
+
+1140
+00:47:14,800 --> 00:47:19,760
+e organiza também muito material
+
+1141
+00:47:17,440 --> 00:47:21,240
+bibliográfico em torno do que ele fala
+
+1142
+00:47:19,760 --> 00:47:24,000
+né e do que
+
+1143
+00:47:21,239 --> 00:47:25,959
+ele reporta sobre que ele conhece de
+
+1144
+00:47:24,000 --> 00:47:29,079
+integração contínua inclusive na empresa
+
+1145
+00:47:25,960 --> 00:47:32,318
+dele Uma outra referência bastante boa
+
+1146
+00:47:29,079 --> 00:47:34,079
+pra Continuous Delivery é o Jazz Rumble
+
+1147
+00:47:32,318 --> 00:47:36,000
+né ele também mantém um site com
+
+1148
+00:47:34,079 --> 00:47:38,119
+bastante informação sobre continuous
+
+1149
+00:47:36,000 --> 00:47:42,440
+delivery Ele tem um dos principais
+
+1150
+00:47:38,119 --> 00:47:47,680
+livros também da área Outras dicas é
+
+1151
+00:47:42,440 --> 00:47:51,079
+acompanhar sites de coisas práticas né
+
+1152
+00:47:47,679 --> 00:47:53,078
+sobre engenharia de software então sites
+
+1153
+00:47:51,079 --> 00:47:55,359
+comunidade de desenvolvedores mesmo Um
+
+1154
+00:47:53,079 --> 00:47:58,200
+dos mais interessantes que eu acho é o
+
+1155
+00:47:55,358 --> 00:48:00,159
+Infocube então bastante legal para
+
+1156
+00:47:58,199 --> 00:48:02,679
+seguir mas existem outros
+
+1157
+00:48:00,159 --> 00:48:05,118
+similares E
+
+1158
+00:48:02,679 --> 00:48:07,078
+finalmente para toda a parte de teste
+
+1159
+00:48:05,119 --> 00:48:10,800
+configuração de
+
+1160
+00:48:07,079 --> 00:48:12,480
+pipelines é outras tecnologias de
+
+1161
+00:48:10,800 --> 00:48:15,240
+continuous delivery é interessante para
+
+1162
+00:48:12,480 --> 00:48:18,960
+você pode por exemplo fazer cursos da
+
+1163
+00:48:15,239 --> 00:48:20,279
+UDM né existem cursos online disponíveis
+
+1164
+00:48:18,960 --> 00:48:23,960
+a preços
+
+1165
+00:48:20,280 --> 00:48:26,160
+acessíveis ou até mesmo gratuito Então
+
+1166
+00:48:23,960 --> 00:48:29,599
+são fontes também bastante interessantes
+
+1167
+00:48:26,159 --> 00:48:32,879
+e que mostram como usar tal tais
+
+1168
+00:48:29,599 --> 00:48:35,010
+tecnologias sobretudo no em caráter
+
+1169
+00:48:32,880 --> 00:48:39,369
+inicial no introdutório
+
+1170
+00:48:35,010 --> 00:48:39,369
+[Música]
+
+1171
+00:48:43,920 --> 00:48:48,119
+O Irá para você qual é a próxima
+
+1172
+00:48:46,159 --> 00:48:49,920
+fronteira da engenharia de software qual
+
+1173
+00:48:48,119 --> 00:48:52,160
+é a próxima fronteira da engenharia de
+
+1174
+00:48:49,920 --> 00:48:53,720
+software acho que sem dúvida alguma a
+
+1175
+00:48:52,159 --> 00:48:56,879
+próxima fronteira da engenharia de
+
+1176
+00:48:53,719 --> 00:48:58,798
+software é adaptar ajustar a engenharia
+
+1177
+00:48:56,880 --> 00:49:01,480
+de software paraa produção de sistemas
+
+1178
+00:48:58,798 --> 00:49:04,519
+inteligentes né a gente tá vendo em
+
+1179
+00:49:01,480 --> 00:49:07,679
+todas as conferências em todo mundo a
+
+1180
+00:49:04,519 --> 00:49:10,079
+necessidade né de os softwares cada vez
+
+1181
+00:49:07,679 --> 00:49:11,879
+mais adquirirem funcionalidades de
+
+1182
+00:49:10,079 --> 00:49:14,119
+machine learning de técnicas de
+
+1183
+00:49:11,880 --> 00:49:16,640
+inteligência artificial Então sem dúvida
+
+1184
+00:49:14,119 --> 00:49:19,119
+isso já é uma tendência hoje em dia Cada
+
+1185
+00:49:16,639 --> 00:49:20,719
+vez mais essa tendência vai ser forte
+
+1186
+00:49:19,119 --> 00:49:23,240
+Óbvio que tudo o que foi proposto
+
+1187
+00:49:20,719 --> 00:49:25,798
+anteriormente vai continuar valendo né
+
+1188
+00:49:23,239 --> 00:49:28,318
+porque nem toda as partes dos sistemas
+
+1189
+00:49:25,798 --> 00:49:30,239
+produzidas vão vão ser inteligentes mas
+
+1190
+00:49:28,318 --> 00:49:32,719
+o que vai haver de mais desafiante sem
+
+1191
+00:49:30,239 --> 00:49:35,959
+dúvida nos próximos anos é a parte de
+
+1192
+00:49:32,719 --> 00:49:38,239
+engenharia de sistemas inteligentes e o
+
+1193
+00:49:35,960 --> 00:49:41,519
+próprio uso dessas técnicas de machine
+
+1194
+00:49:38,239 --> 00:49:43,039
+learning e para apoiar atividades de
+
+1195
+00:49:41,519 --> 00:49:45,159
+engenharia de software como por exemplo
+
+1196
+00:49:43,039 --> 00:49:47,759
+já é usado em mineração de repositório
+
+1197
+00:49:45,159 --> 00:49:50,639
+de software ou em outras áreas aí
+
+1198
+00:49:47,760 --> 00:49:52,240
+relacionadas Mas um outro uma outra
+
+1199
+00:49:50,639 --> 00:49:54,000
+fronteira um outro desafio que eu acho
+
+1200
+00:49:52,239 --> 00:49:55,679
+que vai ser contínuo sempre paraa área
+
+1201
+00:49:54,000 --> 00:49:58,838
+da gente acho que a gente melhorou e
+
+1202
+00:49:55,679 --> 00:50:01,039
+avançou bastante nisso é a interação com
+
+1203
+00:49:58,838 --> 00:50:02,960
+a indústria né então a gente tem
+
+1204
+00:50:01,039 --> 00:50:05,239
+melhorado bastante a interação com a
+
+1205
+00:50:02,960 --> 00:50:07,639
+indústria tanto com a comunidade open
+
+1206
+00:50:05,239 --> 00:50:10,399
+source né através da de uma maior
+
+1207
+00:50:07,639 --> 00:50:12,679
+interação e uma maior melhor análise dos
+
+1208
+00:50:10,400 --> 00:50:14,838
+projetos que lá existem sobre
+
+1209
+00:50:12,679 --> 00:50:17,558
+desenvolvimento open source assim como
+
+1210
+00:50:14,838 --> 00:50:20,798
+também num contato maior através de
+
+1211
+00:50:17,559 --> 00:50:23,280
+pesquisas eh que promovem uma interação
+
+1212
+00:50:20,798 --> 00:50:26,039
+maior com membros da membros da
+
+1213
+00:50:23,280 --> 00:50:28,319
+indústria desenvolvedores etc Então esse
+
+1214
+00:50:26,039 --> 00:50:29,838
+é um aspecto muito importante para quem
+
+1215
+00:50:28,318 --> 00:50:31,838
+desenvolve pesquisa engenharia de
+
+1216
+00:50:29,838 --> 00:50:33,679
+software tá sempre próximo procurando se
+
+1217
+00:50:31,838 --> 00:50:36,440
+aproximar da indústria seja para
+
+1218
+00:50:33,679 --> 00:50:38,598
+descobrir o problema seja para expor as
+
+1219
+00:50:36,440 --> 00:50:41,119
+soluções do que ele vem propondo né
+
+1220
+00:50:38,599 --> 00:50:43,359
+então eu diria que esses dois aspectos
+
+1221
+00:50:41,119 --> 00:50:45,960
+são muito importante aí engenharia de
+
+1222
+00:50:43,358 --> 00:50:48,000
+software de sistemas inteligentes e a
+
+1223
+00:50:45,960 --> 00:50:50,440
+interação melhorar cada vez mais a
+
+1224
+00:50:48,000 --> 00:50:53,199
+interação com a indústria Então irá
+
+1225
+00:50:50,440 --> 00:50:55,358
+muito obrigado por mais esta entrevista
+
+1226
+00:50:53,199 --> 00:50:57,838
+Foi foi um prazer conversar com você E
+
+1227
+00:50:55,358 --> 00:51:01,119
+um grande abraço Um abraço também Eu que
+
+1228
+00:50:57,838 --> 00:51:03,039
+agradeço o convite e sucesso aí no
+
+1229
+00:51:01,119 --> 00:51:05,519
+podcast de vocês Tô sempre acompanhando
+
+1230
+00:51:03,039 --> 00:51:07,079
+e assistindo e aprendendo aí Assistir os
+
+1231
+00:51:05,519 --> 00:51:09,039
+primeiros Vou assistir com certeza todos
+
+1232
+00:51:07,079 --> 00:51:12,039
+os próximos Obrigado Irá Tchau Tchau
+
+1233
+00:51:09,039 --> 00:51:12,039
+pessoal
+
+1234
+00:51:13,809 --> 00:51:29,078
+[Música]
+
+1235
+00:51:26,119 --> 00:51:31,400
+Olá obrigado por escutar o Fronteiras da
+
+1236
+00:51:29,079 --> 00:51:34,119
+Engenharia de Software Nossa equipe é
+
+1237
+00:51:31,400 --> 00:51:36,599
+formada por Marco Túlio Valente Marcela
+
+1238
+00:51:34,119 --> 00:51:39,119
+dos Santos Leonardo Fernandes Gustavo
+
+1239
+00:51:36,599 --> 00:51:42,240
+Pinto Fábio Petrilo Danilo Monteiro e
+
+1240
+00:51:39,119 --> 00:51:45,240
+Adolfo Neto Sou eu Estamos no Twitter e
+
+1241
+00:51:42,239 --> 00:51:47,798
+no Instagram como
+
+1242
+00:51:45,239 --> 00:51:50,798
+@fronteirases Até o próximo episódio
+
+1243
+00:51:47,798 --> 00:51:50,798
+Abraços
+
+1244
+00:51:51,800 --> 00:52:00,159
+[Música]
+
+1245
+00:52:01,239 --> 00:52:07,039
+Esse podcast foi editado pela produtora
+
+1246
+00:52:04,039 --> 00:52:07,039
+Reis

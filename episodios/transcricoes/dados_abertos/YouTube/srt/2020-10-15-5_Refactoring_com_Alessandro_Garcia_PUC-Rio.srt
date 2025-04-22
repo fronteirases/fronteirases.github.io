@@ -1,0 +1,6447 @@
+1
+00:00:06,599 --> 00:00:12,320
+3 4 5 6 7
+
+2
+00:00:13,599 --> 00:00:17,809
+[Música]
+
+3
+00:00:20,518 --> 00:00:25,198
+Olá ouvintes eu sou Adolfo Neto
+
+4
+00:00:22,879 --> 00:00:28,239
+professor da Universidade Tecnológica
+
+5
+00:00:25,199 --> 00:00:30,199
+Federal do Paraná e eu sou Gustavo Pinto
+
+6
+00:00:28,239 --> 00:00:32,519
+professor aqui na Universidade Federal
+
+7
+00:00:30,199 --> 00:00:34,920
+do Pará e este é o Fronteiras da
+
+8
+00:00:32,520 --> 00:00:36,960
+Engenharia de Software um podcast feito
+
+9
+00:00:34,920 --> 00:00:39,200
+para refletir sobre o presente e futuro
+
+10
+00:00:36,960 --> 00:00:42,000
+da engenharia de software fronteiras da
+
+11
+00:00:39,200 --> 00:00:44,359
+Engenharia de Software é um podcast de
+
+12
+00:00:42,000 --> 00:00:46,519
+divulgação científica que discute
+
+13
+00:00:44,359 --> 00:00:48,439
+mensalmente diversificados temas da
+
+14
+00:00:46,520 --> 00:00:50,199
+engenharia de software os episódios
+
+15
+00:00:48,439 --> 00:00:52,238
+abordam questões fundamentais da
+
+16
+00:00:50,198 --> 00:00:53,359
+engenharia de software até os mais
+
+17
+00:00:52,238 --> 00:01:05,840
+recentes avanços na
+
+18
+00:00:53,359 --> 00:01:09,280
+[Música]
+
+19
+00:01:05,840 --> 00:01:11,719
+área para esse nosso quinto episódio nós
+
+20
+00:01:09,280 --> 00:01:14,599
+conversamos com Alessandro Garcia que é
+
+21
+00:01:11,719 --> 00:01:19,158
+professor na PUC no Rio de Janeiro onde
+
+22
+00:01:14,599 --> 00:01:19,158
+também lidera o Opus Research Group
+
+23
+00:01:21,359 --> 00:01:26,039
+nos últimos anos Alessandro tem
+
+24
+00:01:23,519 --> 00:01:27,879
+trabalhado bastante com degradação de
+
+25
+00:01:26,040 --> 00:01:30,920
+design e
+
+26
+00:01:27,879 --> 00:01:33,438
+[Música]
+
+27
+00:01:30,920 --> 00:01:35,399
+refatoração então se você escutou e
+
+28
+00:01:33,438 --> 00:01:37,719
+gostou do último episódio de Marcelo
+
+29
+00:01:35,399 --> 00:01:41,478
+Maia sobre Codes Mells deve também
+
+30
+00:01:37,719 --> 00:01:43,959
+gostar deste sobre refatoração e como
+
+31
+00:01:41,478 --> 00:01:51,180
+evitar Cold Mells vem com a
+
+32
+00:01:43,959 --> 00:01:54,298
+[Música]
+
+33
+00:01:51,180 --> 00:01:54,299
+[Aplausos]
+
+34
+00:01:55,920 --> 00:02:00,960
+gente olá ouvintes para este quarto
+
+35
+00:01:58,799 --> 00:02:03,799
+episódio contamos com a presença de
+
+36
+00:02:00,959 --> 00:02:06,359
+Alessandro Garcia que é professor na PUC
+
+37
+00:02:03,799 --> 00:02:07,759
+Rio tudo bem Alessandro você pode se
+
+38
+00:02:06,359 --> 00:02:09,360
+apresentar para as pessoas que nos
+
+39
+00:02:07,759 --> 00:02:12,520
+escutam
+
+40
+00:02:09,360 --> 00:02:15,280
+tudo bem Adolfo gostaria de agradecer aí
+
+41
+00:02:12,520 --> 00:02:17,319
+o convite né para participar desse
+
+42
+00:02:15,280 --> 00:02:20,239
+episódio foi com muita alegria que eu
+
+43
+00:02:17,318 --> 00:02:21,479
+recebi eh esse convite para participar
+
+44
+00:02:20,239 --> 00:02:22,920
+desse episódio de fronteiras da
+
+45
+00:02:21,479 --> 00:02:24,199
+engenheiri de software gostaria de
+
+46
+00:02:22,919 --> 00:02:26,518
+parabanizar a equipe toda pela
+
+47
+00:02:24,199 --> 00:02:30,039
+iniciativa né que eu acho uma iniciativa
+
+48
+00:02:26,519 --> 00:02:33,560
+muito importante então é um prazer tá
+
+49
+00:02:30,039 --> 00:02:34,919
+aqui bom sobre me apresentar a minha
+
+50
+00:02:33,560 --> 00:02:37,560
+vida na computação começou quando eu
+
+51
+00:02:34,919 --> 00:02:39,559
+tinha 12 anos né a minha imersão em
+
+52
+00:02:37,560 --> 00:02:43,039
+desenvolvimento de software começou tão
+
+53
+00:02:39,560 --> 00:02:44,439
+cedo quanto eh eu tinha 12 anos de idade
+
+54
+00:02:43,039 --> 00:02:47,479
+foi no ano de
+
+55
+00:02:44,439 --> 00:02:49,479
+1989 quando eu comecei a fazer cursos eh
+
+56
+00:02:47,479 --> 00:02:51,518
+de programação né sobre desenvolvimento
+
+57
+00:02:49,479 --> 00:02:53,840
+de programas mas com foco em aprender as
+
+58
+00:02:51,519 --> 00:02:55,680
+linguagens de programação né e
+
+59
+00:02:53,840 --> 00:02:59,200
+desenvolver com essas linguagens que na
+
+60
+00:02:55,680 --> 00:03:03,799
+época era coball baser e também
+
+61
+00:02:59,199 --> 00:03:06,119
+participei na época eh eh de concursos
+
+62
+00:03:03,799 --> 00:03:10,879
+competições de regionais de
+
+63
+00:03:06,120 --> 00:03:12,920
+programação então h foi nesse momento
+
+64
+00:03:10,878 --> 00:03:15,598
+que a computação começou a despertar
+
+65
+00:03:12,919 --> 00:03:19,039
+interesse em mim porque até então
+
+66
+00:03:15,598 --> 00:03:22,199
+minha meu meus objetivos era ser
+
+67
+00:03:19,039 --> 00:03:25,479
+profissional em educação física né mas
+
+68
+00:03:22,199 --> 00:03:27,399
+aí aos poucos né com essa aptidão sendo
+
+69
+00:03:25,479 --> 00:03:29,280
+desenvolvida desde os 12 anos acabei
+
+70
+00:03:27,400 --> 00:03:32,360
+indo pra área de ciência e computação
+
+71
+00:03:29,280 --> 00:03:34,878
+então com 16 anos eu ingressei no curso
+
+72
+00:03:32,360 --> 00:03:36,640
+de computação a principal coisa que eu
+
+73
+00:03:34,878 --> 00:03:38,359
+diria que aconteceu na minha graduação
+
+74
+00:03:36,639 --> 00:03:41,158
+que eu gostei muito foi muito importante
+
+75
+00:03:38,360 --> 00:03:44,760
+para minha formação ser um membro do
+
+76
+00:03:41,158 --> 00:03:46,639
+grupo PET né financiado pela CAPS o PET
+
+77
+00:03:44,759 --> 00:03:48,878
+é programa especial de treinamento eu
+
+78
+00:03:46,639 --> 00:03:50,518
+recebi uma bolsa de iniciação científica
+
+79
+00:03:48,878 --> 00:03:52,479
+e o que era interessante no PET é que
+
+80
+00:03:50,519 --> 00:03:54,599
+você além de fazer as atividades de
+
+81
+00:03:52,479 --> 00:03:56,280
+iniciação científica você também realiza
+
+82
+00:03:54,598 --> 00:03:59,438
+uma série de atividades são
+
+83
+00:03:56,280 --> 00:04:01,479
+complementares a formação de um aluno de
+
+84
+00:03:59,438 --> 00:04:03,639
+graduação né então a gente trabalha
+
+85
+00:04:01,479 --> 00:04:05,719
+trabalha muito em atividades em pró da
+
+86
+00:04:03,639 --> 00:04:08,679
+sociedade né eu lembro que na verdade
+
+87
+00:04:05,719 --> 00:04:10,560
+meu tema de iniciação científica era uma
+
+88
+00:04:08,680 --> 00:04:13,640
+metodologia propor uma metodologia
+
+89
+00:04:10,560 --> 00:04:16,798
+baseado na antiga linguagem logo para
+
+90
+00:04:13,639 --> 00:04:19,199
+auxiliar ensino de programação para
+
+91
+00:04:16,798 --> 00:04:23,319
+pessoas com portadoras de necessidades
+
+92
+00:04:19,199 --> 00:04:25,680
+especiais né necessidades especiais eh
+
+93
+00:04:23,319 --> 00:04:28,000
+sobre ótica auditiva mental portadores
+
+94
+00:04:25,680 --> 00:04:30,959
+de síndrome de Dal e aí a gente criou um
+
+95
+00:04:28,000 --> 00:04:33,319
+laboratório onde a gente trazia essas
+
+96
+00:04:30,959 --> 00:04:35,719
+pessoas para aprenderem programação
+
+97
+00:04:33,319 --> 00:04:37,918
+usando a nossa metodologia então estar
+
+98
+00:04:35,720 --> 00:04:39,919
+no pet muito legal minha carreira porque
+
+99
+00:04:37,918 --> 00:04:42,038
+ajudou a mostrar a importância da gente
+
+100
+00:04:39,918 --> 00:04:44,120
+estar contribuindo diretamente para a
+
+101
+00:04:42,038 --> 00:04:45,879
+sociedade isso foi importante porque
+
+102
+00:04:44,120 --> 00:04:48,038
+quando você se torna um pesquisador
+
+103
+00:04:45,879 --> 00:04:50,839
+engenheiro de software a principal
+
+104
+00:04:48,038 --> 00:04:53,360
+audiência né tem outras obviamente tem
+
+105
+00:04:50,839 --> 00:04:54,719
+os usuários do sistema mas muitas vezes
+
+106
+00:04:53,360 --> 00:04:56,879
+pelo menos na mesma pesquisa a gente tá
+
+107
+00:04:54,720 --> 00:05:00,639
+auxiliando ou engenheiro de software que
+
+108
+00:04:56,879 --> 00:05:02,719
+é um uma parte reduzida né da da do
+
+109
+00:05:00,639 --> 00:05:05,240
+conjunto de profissionais da nossa
+
+110
+00:05:02,720 --> 00:05:07,560
+sociedade então o PET teve essa marca né
+
+111
+00:05:05,240 --> 00:05:09,160
+de eh trazer a consciência da
+
+112
+00:05:07,560 --> 00:05:11,199
+importância de trabalhar para a
+
+113
+00:05:09,160 --> 00:05:13,320
+sociedade sempre pensando no outro isso
+
+114
+00:05:11,199 --> 00:05:14,720
+foi muito legal e aí a decisão sobre
+
+115
+00:05:13,319 --> 00:05:16,959
+engenheiro de software foi que durante a
+
+116
+00:05:14,720 --> 00:05:19,000
+minha graduação ocorreu o primeiro um
+
+117
+00:05:16,959 --> 00:05:21,120
+simpósio para brasileiro de software na
+
+118
+00:05:19,000 --> 00:05:24,240
+cidade onde eu morava onde eu onde eu
+
+119
+00:05:21,120 --> 00:05:27,000
+cursava se computação foi em Maringá e
+
+120
+00:05:24,240 --> 00:05:29,439
+aí participando do ISBS né principal
+
+121
+00:05:27,000 --> 00:05:32,639
+evento nacional aí de ger de software
+
+122
+00:05:29,439 --> 00:05:34,759
+acabei eh decidindo eh investir na área
+
+123
+00:05:32,639 --> 00:05:38,720
+de geria de software aí fui pro mestrado
+
+124
+00:05:34,759 --> 00:05:40,639
+na Unicamp lá eu trabalhei na interseção
+
+125
+00:05:38,720 --> 00:05:42,680
+em algum problema que era a interseção
+
+126
+00:05:40,639 --> 00:05:45,199
+da engenheira de software com outras
+
+127
+00:05:42,680 --> 00:05:47,319
+três áreas que é linguagem programação
+
+128
+00:05:45,199 --> 00:05:51,160
+sistemas concorrentes distribuídos e
+
+129
+00:05:47,319 --> 00:05:53,039
+tolerância falhas eh o tema era eh a
+
+130
+00:05:51,160 --> 00:05:55,680
+proposição de um mecanismo de tratamento
+
+131
+00:05:53,038 --> 00:05:58,959
+de exceções para sistemas concorrentes
+
+132
+00:05:55,680 --> 00:06:00,879
+sistemas distribuídos né eh porque as
+
+133
+00:05:58,959 --> 00:06:04,519
+linguagens na época elas davam apoio
+
+134
+00:06:00,879 --> 00:06:09,918
+para tratamento de sessões ainda hoje eh
+
+135
+00:06:04,519 --> 00:06:12,478
+o apoio é mais voltado a a a à parte não
+
+136
+00:06:09,918 --> 00:06:15,079
+concorrente do sistema né onde não há
+
+137
+00:06:12,478 --> 00:06:16,639
+concorrência então lá o objetivo era
+
+138
+00:06:15,079 --> 00:06:19,318
+isso construir um mecanismo que desse
+
+139
+00:06:16,639 --> 00:06:21,918
+apoio a a tratamento de sessões que
+
+140
+00:06:19,319 --> 00:06:24,360
+ocorrem paralelamente na nas
+
+141
+00:06:21,918 --> 00:06:26,758
+tradução de um programa que muitas vezes
+
+142
+00:06:24,360 --> 00:06:28,520
+a ocorrência dessas exceções em conjunto
+
+143
+00:06:26,759 --> 00:06:31,038
+em paralelo significa que há um problema
+
+144
+00:06:28,519 --> 00:06:32,478
+um erro mais grave no sistema então a
+
+145
+00:06:31,038 --> 00:06:35,240
+gente trabalhou com isso e para
+
+146
+00:06:32,478 --> 00:06:36,918
+implementar esse mecanismo a gente usou
+
+147
+00:06:35,240 --> 00:06:39,000
+uma arquitetura reflexiva a gente usou
+
+148
+00:06:36,918 --> 00:06:42,240
+reflexão computacional para estender a
+
+149
+00:06:39,000 --> 00:06:44,918
+linguagem né a linguagem Java no caso
+
+150
+00:06:42,240 --> 00:06:47,120
+com eh adotando possibilitando o uso do
+
+151
+00:06:44,918 --> 00:06:48,598
+nosso mecanismo de tratamento exensão aí
+
+152
+00:06:47,120 --> 00:06:49,918
+no doutorado eu fui quando realmente
+
+153
+00:06:48,598 --> 00:06:51,918
+tive um foco muito grande de engenharia
+
+154
+00:06:49,918 --> 00:06:55,918
+de software
+
+155
+00:06:51,918 --> 00:06:58,519
+e ali eh o o a grande a subárea que eu
+
+156
+00:06:55,918 --> 00:07:00,639
+escolhi foi programação aspectos porque
+
+157
+00:06:58,519 --> 00:07:03,878
+uma das razões porque tem uma
+
+158
+00:07:00,639 --> 00:07:06,400
+proximidade à programação reflexiva os
+
+159
+00:07:03,879 --> 00:07:08,080
+objetivos t relação os objetivos de
+
+160
+00:07:06,399 --> 00:07:10,478
+programação reflexiva programação
+
+161
+00:07:08,079 --> 00:07:14,318
+aspectos porque são diferentes formas de
+
+162
+00:07:10,478 --> 00:07:15,519
+você separar interesses transversais e o
+
+163
+00:07:14,319 --> 00:07:17,520
+interessante programação orientado
+
+164
+00:07:15,519 --> 00:07:20,318
+aspectos é que as construções da
+
+165
+00:07:17,519 --> 00:07:22,159
+linguagem você você tinha um apoio à
+
+166
+00:07:20,319 --> 00:07:23,479
+separação desses interesses transversais
+
+167
+00:07:22,160 --> 00:07:25,520
+que no caso da minha dissertação de
+
+168
+00:07:23,478 --> 00:07:27,839
+mestrado interesse transversal o foca
+
+169
+00:07:25,519 --> 00:07:28,878
+sessão é apoiado por construções da
+
+170
+00:07:27,839 --> 00:07:30,239
+linguagem não é uma linguagem de
+
+171
+00:07:28,879 --> 00:07:33,599
+programação linguagem aspectos você tem
+
+172
+00:07:30,240 --> 00:07:35,439
+lá construção aspecto pode cants etc mas
+
+173
+00:07:33,598 --> 00:07:37,038
+tirando isso é o domínio aí eu trabalhei
+
+174
+00:07:35,439 --> 00:07:39,199
+no domínio de aplicação específico
+
+175
+00:07:37,038 --> 00:07:41,240
+porque na época o que as pessoas vinham
+
+176
+00:07:39,199 --> 00:07:42,879
+estudando com relação aos benefícios de
+
+177
+00:07:41,240 --> 00:07:46,319
+programação orientada aspectos era para
+
+178
+00:07:42,879 --> 00:07:48,479
+modularizar funcionalidades transversais
+
+179
+00:07:46,319 --> 00:07:51,319
+mais gerais que sempre ocorrem nos
+
+180
+00:07:48,478 --> 00:07:52,800
+programas então é loging auditoria ou
+
+181
+00:07:51,319 --> 00:07:55,280
+tratamento de erros tratamento de
+
+182
+00:07:52,800 --> 00:07:56,800
+excessão né e aí a gente tentou aplicar
+
+183
+00:07:55,279 --> 00:07:59,239
+a programação oriental aspectos ver os
+
+184
+00:07:56,800 --> 00:08:01,319
+benefícios desvantagens em sistemas
+
+185
+00:07:59,240 --> 00:08:03,319
+multiagentes sistemas que são dotados de
+
+186
+00:08:01,319 --> 00:08:04,879
+alguma inteligência né são sistemas
+
+187
+00:08:03,319 --> 00:08:07,560
+distribuídos contratados de alguma
+
+188
+00:08:04,879 --> 00:08:09,319
+inteligência e viu se o aspectos era
+
+189
+00:08:07,560 --> 00:08:11,560
+realmente que a programação aspecto
+
+190
+00:08:09,319 --> 00:08:13,680
+surgiu com propósito geral de resolver o
+
+191
+00:08:11,560 --> 00:08:16,598
+problema de transversionalidade do
+
+192
+00:08:13,680 --> 00:08:18,720
+interesse em programas e aí a gente foi
+
+193
+00:08:16,598 --> 00:08:20,120
+bom tá todo mundo estudando eh eh
+
+194
+00:08:18,720 --> 00:08:21,879
+interesses transversais que são
+
+195
+00:08:20,120 --> 00:08:24,240
+relativamente mais fáceis de serem
+
+196
+00:08:21,879 --> 00:08:26,240
+separados vamos olhar para um conjunto
+
+197
+00:08:24,240 --> 00:08:28,000
+de interesses transversais que talvez
+
+198
+00:08:26,240 --> 00:08:30,879
+não sejam tão fáceis de serem
+
+199
+00:08:28,000 --> 00:08:32,639
+modularizados mas que haveria benefícios
+
+200
+00:08:30,879 --> 00:08:34,080
+do ponto de vista da evolução manutenção
+
+201
+00:08:32,639 --> 00:08:37,080
+do sistema multiagente então
+
+202
+00:08:34,080 --> 00:08:40,200
+comportamentos como eh autonomia
+
+203
+00:08:37,080 --> 00:08:43,719
+mobilidade e etc e aí foi isso aí depois
+
+204
+00:08:40,200 --> 00:08:45,920
+do doutorado eh eu fui para trabalhar na
+
+205
+00:08:43,719 --> 00:08:47,560
+Inglaterra meu primeiro trabalho como
+
+206
+00:08:45,919 --> 00:08:51,519
+professor assistente foi na Universidade
+
+207
+00:08:47,559 --> 00:08:53,479
+de Lancaster na Inglaterra e lá tinha eh
+
+208
+00:08:51,519 --> 00:08:56,000
+o grupo de trabalho era muito bom tinha
+
+209
+00:08:53,480 --> 00:08:58,920
+o Willan Sbervillew que é né escreveu um
+
+210
+00:08:56,000 --> 00:09:00,879
+dos livros mais usados né em aulas de
+
+211
+00:08:58,919 --> 00:09:02,799
+engenharia de software em décadas
+
+212
+00:09:00,879 --> 00:09:04,240
+anteriores tinha o Pit Sawer que era um
+
+213
+00:09:02,799 --> 00:09:06,278
+cara bastante famoso em ger de
+
+214
+00:09:04,240 --> 00:09:07,879
+requisitos e uma vez Rashit que liderava
+
+215
+00:09:06,278 --> 00:09:09,078
+uma rede de excelência em
+
+216
+00:09:07,879 --> 00:09:11,519
+desenvolvimento software orientado
+
+217
+00:09:09,078 --> 00:09:13,799
+aspectos na época e aí eu fui para lá
+
+218
+00:09:11,519 --> 00:09:16,000
+fiquei 4 anos na Inglaterra e aí eu
+
+219
+00:09:13,799 --> 00:09:19,799
+voltei pro Brasil em
+
+220
+00:09:16,000 --> 00:09:22,839
+1999 e como professor na PUC R onde eu
+
+221
+00:09:19,799 --> 00:09:24,759
+tô até hoje atuando como pesquisador
+
+222
+00:09:22,839 --> 00:09:27,200
+professor
+
+223
+00:09:24,759 --> 00:09:30,759
+alessandro nesse meio tempo aí né nesses
+
+224
+00:09:27,200 --> 00:09:32,800
+últimos 20 anos você acabou que mexeu em
+
+225
+00:09:30,759 --> 00:09:35,720
+muita coisa né tratamento de erros
+
+226
+00:09:32,799 --> 00:09:37,599
+aspectos design mais recentemente você
+
+227
+00:09:35,720 --> 00:09:40,959
+também tem um parece um interesse em
+
+228
+00:09:37,600 --> 00:09:42,759
+microsserviços se você fosse considerar
+
+229
+00:09:40,958 --> 00:09:45,119
+uma parte da engenharia de software que
+
+230
+00:09:42,759 --> 00:09:47,720
+você mais concentra os seus esforços
+
+231
+00:09:45,120 --> 00:09:50,278
+recentemente qual qual área seria essa
+
+232
+00:09:47,720 --> 00:09:52,240
+bom antes de mais nada confirmo isso né
+
+233
+00:09:50,278 --> 00:09:54,600
+que meu interesse tem sido
+
+234
+00:09:52,240 --> 00:09:56,600
+diversificados aí ao longo desses vários
+
+235
+00:09:54,600 --> 00:09:59,040
+anos quando eu vim paraa PUC para fazer
+
+236
+00:09:56,600 --> 00:10:01,920
+o doutorado né eu trabalhava no mestrado
+
+237
+00:09:59,039 --> 00:10:04,078
+eu tinha um tema bem específico bem
+
+238
+00:10:01,919 --> 00:10:06,199
+definido e sempre trabalhando nas
+
+239
+00:10:04,078 --> 00:10:07,599
+minúncias daquele daquele tema tão
+
+240
+00:10:06,200 --> 00:10:09,839
+específico que era tratamento de sessões
+
+241
+00:10:07,600 --> 00:10:11,278
+e temas concorrentes e aí eu como
+
+242
+00:10:09,839 --> 00:10:12,480
+curioso né a primeira coisa que eu
+
+243
+00:10:11,278 --> 00:10:15,200
+perguntei pro meu orientador de
+
+244
+00:10:12,480 --> 00:10:17,278
+doutorado foi qual que era o tema
+
+245
+00:10:15,200 --> 00:10:19,440
+principal os temas principais da área
+
+246
+00:10:17,278 --> 00:10:21,480
+dele ele disse que estudava engenharia
+
+247
+00:10:19,440 --> 00:10:24,000
+de soft que ele é um pesquisador
+
+248
+00:10:21,480 --> 00:10:26,079
+engenharia de soft então qual quaisquer
+
+249
+00:10:24,000 --> 00:10:28,480
+desafios interessantes que se
+
+250
+00:10:26,078 --> 00:10:31,519
+apresentavam para ele na engenheira de
+
+251
+00:10:28,480 --> 00:10:33,278
+software ele comprava aquele problema
+
+252
+00:10:31,519 --> 00:10:34,720
+estudava aquele problema e acabava
+
+253
+00:10:33,278 --> 00:10:36,958
+trabalhando naquela área então era muito
+
+254
+00:10:34,720 --> 00:10:38,639
+difícil para ele pontuar interesses
+
+255
+00:10:36,958 --> 00:10:40,479
+específicos tanto que é um cara que de
+
+256
+00:10:38,639 --> 00:10:43,600
+fato professor Carlos Lucena meu
+
+257
+00:10:40,480 --> 00:10:47,200
+ex-orientador que trabalhou em frames
+
+258
+00:10:43,600 --> 00:10:49,600
+padrões de projetos eh até hoje em dia
+
+259
+00:10:47,200 --> 00:10:53,000
+esse tema tão na moda que é engenheiro
+
+260
+00:10:49,600 --> 00:10:55,399
+de software para eh IA ele foi o cara
+
+261
+00:10:53,000 --> 00:10:57,320
+que escreveu o primeiro livro não sei se
+
+262
+00:10:55,399 --> 00:11:00,399
+no mundo mas pelo menos no Brasil com
+
+263
+00:10:57,320 --> 00:11:04,519
+certeza sobre o tema né tem um livro que
+
+264
+00:11:00,399 --> 00:11:06,759
+ele me mostrou uma vez uma capa amarela
+
+265
+00:11:04,519 --> 00:11:08,759
+datilografado sobre essa temática de
+
+266
+00:11:06,759 --> 00:11:11,759
+giro de software para sistemas
+
+267
+00:11:08,759 --> 00:11:14,278
+inteligentes e hoje a gente vê que eh
+
+268
+00:11:11,759 --> 00:11:15,480
+frequentemente temos usado o IA para
+
+269
+00:11:14,278 --> 00:11:17,919
+tratar problemas de engenharia de
+
+270
+00:11:15,480 --> 00:11:19,278
+software mas mais recentemente como que
+
+271
+00:11:17,919 --> 00:11:21,679
+a gente pode usar engenharia de software
+
+272
+00:11:19,278 --> 00:11:25,159
+para melhorar a manetabilidade outros
+
+273
+00:11:21,679 --> 00:11:27,919
+aspectos de sistemas que são eh que
+
+274
+00:11:25,159 --> 00:11:30,399
+adotam algum tipo de técnica de a como
+
+275
+00:11:27,919 --> 00:11:32,559
+aprendizagem de máquina e aí ele disse
+
+276
+00:11:30,399 --> 00:11:34,078
+que né que era qualquer coisa qualquer
+
+277
+00:11:32,559 --> 00:11:36,679
+desafio interessante para mim aquilo não
+
+278
+00:11:34,078 --> 00:11:39,399
+foi muito compreensível na época porque
+
+279
+00:11:36,679 --> 00:11:42,439
+eu entendia né que como pesquisador na
+
+280
+00:11:39,399 --> 00:11:45,559
+época jovem eh eh eu deveria ser capaz
+
+281
+00:11:42,440 --> 00:11:48,279
+de pontuar ali um outro eh tema de
+
+282
+00:11:45,559 --> 00:11:50,599
+interesse hoje em dia eu entendo mais a
+
+283
+00:11:48,278 --> 00:11:55,799
+resposta dele e acho que acontece muito
+
+284
+00:11:50,600 --> 00:11:58,879
+na nossa carreira é que e
+
+285
+00:11:55,799 --> 00:12:01,199
+exe leva para direções diferentes embora
+
+286
+00:11:58,879 --> 00:12:03,799
+eu tenha trabalhado com refatoração
+
+287
+00:12:01,200 --> 00:12:05,959
+degradação de design microsserviço
+
+288
+00:12:03,799 --> 00:12:07,479
+detecção de funilidades arquitetura de
+
+289
+00:12:05,958 --> 00:12:08,958
+software sistemas recomendadores
+
+290
+00:12:07,480 --> 00:12:11,159
+programação colaborativa revisão de
+
+291
+00:12:08,958 --> 00:12:13,679
+código etc todos esses temas eu acredito
+
+292
+00:12:11,159 --> 00:12:15,278
+que eles acabam tendo toda uma relação
+
+293
+00:12:13,679 --> 00:12:17,519
+entre eles eu acho que todos esses temas
+
+294
+00:12:15,278 --> 00:12:19,360
+que eu estudei tem relação com um ou
+
+295
+00:12:17,519 --> 00:12:21,759
+outro tema direto que eu estudei nos
+
+296
+00:12:19,360 --> 00:12:23,600
+meus 8 anos de pesquisa eu acho que
+
+297
+00:12:21,759 --> 00:12:27,000
+atueei lá em uma série de tópicos
+
+298
+00:12:23,600 --> 00:12:29,839
+naqueles 8 anos que seria eh mestrado
+
+299
+00:12:27,000 --> 00:12:32,240
+doutorado e ali um ano de pósdoc antes
+
+300
+00:12:29,839 --> 00:12:35,360
+de ir pra Inglaterra e acho que esses
+
+301
+00:12:32,240 --> 00:12:38,120
+temas todos estão relacionados eu diria
+
+302
+00:12:35,360 --> 00:12:40,680
+que eu assim os os grandes temas de
+
+303
+00:12:38,120 --> 00:12:43,879
+interesse meus são entender como
+
+304
+00:12:40,679 --> 00:12:46,559
+identificar problemas que não sejam eh
+
+305
+00:12:43,879 --> 00:12:47,720
+problemas de software que variam desde
+
+306
+00:12:46,559 --> 00:12:50,119
+smells
+
+307
+00:12:47,720 --> 00:12:51,920
+vulnerabilidades a bugs entender esse
+
+308
+00:12:50,120 --> 00:12:55,560
+processo como ele ocorre como que a
+
+309
+00:12:51,919 --> 00:12:58,479
+identificação ocorre e eh estudar como
+
+310
+00:12:55,559 --> 00:13:00,159
+esses problemas eles acabam prevalecendo
+
+311
+00:12:58,480 --> 00:13:02,199
+por que eles acabam prevalecendo no
+
+312
+00:13:00,159 --> 00:13:04,480
+código forte até o ponto em que eles são
+
+313
+00:13:02,198 --> 00:13:06,679
+removidos eu diria que uma uma grande
+
+314
+00:13:04,480 --> 00:13:09,079
+área do trabalho de interesse minha essa
+
+315
+00:13:06,679 --> 00:13:12,039
+questão do apoio à identificação de
+
+316
+00:13:09,078 --> 00:13:13,638
+problemas seja de design de arquitetura
+
+317
+00:13:12,039 --> 00:13:16,399
+eh problemas relacionados a algum
+
+318
+00:13:13,639 --> 00:13:18,278
+requisito não funcional como segurança
+
+319
+00:13:16,399 --> 00:13:21,919
+eh robustez como caso de tratamento
+
+320
+00:13:18,278 --> 00:13:23,360
+exessão isso tá ligado com a minha como
+
+321
+00:13:21,919 --> 00:13:24,759
+eu falei no início da minha carreira eu
+
+322
+00:13:23,360 --> 00:13:26,959
+trabalhei aí com modularização de
+
+323
+00:13:24,759 --> 00:13:29,879
+interesses transversais interess
+
+324
+00:13:26,958 --> 00:13:32,518
+transais traz problemas não só como a
+
+325
+00:13:29,879 --> 00:13:35,078
+modularização mas também como traz
+
+326
+00:13:32,519 --> 00:13:37,799
+ameaças à segurança e uma série de
+
+327
+00:13:35,078 --> 00:13:39,958
+outros outros fatores e aí outra grande
+
+328
+00:13:37,799 --> 00:13:42,198
+temática é a compreensão e o apoio a
+
+329
+00:13:39,958 --> 00:13:44,399
+boas práticas de design na forma de
+
+330
+00:13:42,198 --> 00:13:46,799
+catálogos como apoiar o desenvolvedor em
+
+331
+00:13:44,399 --> 00:13:48,480
+fazer bom design catálogos padrões de
+
+332
+00:13:46,799 --> 00:13:52,159
+projetos linguagem linguagem linguagem
+
+333
+00:13:48,480 --> 00:13:54,159
+padrões de projeto frameworks né insites
+
+334
+00:13:52,159 --> 00:13:56,399
+a partir de direcionamentos a partir de
+
+335
+00:13:54,159 --> 00:13:58,879
+estudos experimentais e a terceira e
+
+336
+00:13:56,399 --> 00:14:01,278
+última grande área é apoio a compreensão
+
+337
+00:13:58,879 --> 00:14:02,919
+e apoio à atividade de remoção do
+
+338
+00:14:01,278 --> 00:14:05,600
+problema problemas dos problemas tanto
+
+339
+00:14:02,919 --> 00:14:07,799
+de aqueles que me ensinou em antes mels
+
+340
+00:14:05,600 --> 00:14:11,519
+vulnerabilidades etc
+
+341
+00:14:07,799 --> 00:14:13,120
+até eh bugs então eu tenho trabalhado
+
+342
+00:14:11,519 --> 00:14:14,399
+mais especificamente com coisas
+
+343
+00:14:13,120 --> 00:14:16,759
+recentemente como
+
+344
+00:14:14,399 --> 00:14:19,278
+refatoração e também como sistemas de
+
+345
+00:14:16,759 --> 00:14:21,919
+reparo de programas mais especificamente
+
+346
+00:14:19,278 --> 00:14:24,439
+de bugs de tratamento de sessões essa
+
+347
+00:14:21,919 --> 00:14:27,000
+seria as três direções de pesquisa os
+
+348
+00:14:24,440 --> 00:14:30,320
+três grandes interesses que eu tenho que
+
+349
+00:14:27,000 --> 00:14:34,600
+vão desde entender a a identificação do
+
+350
+00:14:30,320 --> 00:14:36,440
+problema né a a a boa prática práticas
+
+351
+00:14:34,600 --> 00:14:38,399
+que evitam a introdução do problema e
+
+352
+00:14:36,440 --> 00:14:40,519
+ajudar o desenvolvedor a remover os
+
+353
+00:14:38,399 --> 00:14:42,958
+problemas lógico que não em todos os
+
+354
+00:14:40,519 --> 00:14:45,639
+aspectos de cada uma dessas três
+
+355
+00:14:42,958 --> 00:14:47,799
+temáticas mas em alguns aspectos né
+
+356
+00:14:45,639 --> 00:14:50,039
+então é o que eu acho agora entendendo a
+
+357
+00:14:47,799 --> 00:14:52,359
+resposta do meu orientador de doutorado
+
+358
+00:14:50,039 --> 00:14:54,679
+o que eu o que eu acho que a gente como
+
+359
+00:14:52,360 --> 00:14:57,399
+pesquisador muitos dos problemas
+
+360
+00:14:54,679 --> 00:14:59,638
+específicos eles acabam se representando
+
+361
+00:14:57,399 --> 00:15:01,120
+com sabor diferente ao longo da nossa
+
+362
+00:14:59,639 --> 00:15:03,680
+carreira quando eu comecei a trabalhar
+
+363
+00:15:01,120 --> 00:15:06,799
+com identificação de vulnerabilidades em
+
+364
+00:15:03,679 --> 00:15:08,519
+código fonte muito do que eu conhecia o
+
+365
+00:15:06,799 --> 00:15:10,039
+problema tinha uma cara muito parecida
+
+366
+00:15:08,519 --> 00:15:13,000
+da identificação de smells ou
+
+367
+00:15:10,039 --> 00:15:14,958
+identificação de locais onde podem estar
+
+368
+00:15:13,000 --> 00:15:17,198
+eh bugs no programa então eu acho que a
+
+369
+00:15:14,958 --> 00:15:19,679
+gente tem metaproblemas engenharia de
+
+370
+00:15:17,198 --> 00:15:21,278
+software que a gente ao longo da
+
+371
+00:15:19,679 --> 00:15:22,679
+carreira quando não são apresentados
+
+372
+00:15:21,278 --> 00:15:24,600
+novos desafios que a gente tem um
+
+373
+00:15:22,679 --> 00:15:26,319
+conhecimento prévio de problemas
+
+374
+00:15:24,600 --> 00:15:29,879
+parecidos instâncias desse método
+
+375
+00:15:26,320 --> 00:15:31,079
+problema no passado né então eh eu acho
+
+376
+00:15:29,879 --> 00:15:33,639
+que a gente tá sempre lidando com
+
+377
+00:15:31,078 --> 00:15:36,318
+problemas que aparentemente diferentes
+
+378
+00:15:33,639 --> 00:15:37,959
+eles são muito
+
+379
+00:15:36,318 --> 00:15:40,759
+relacionados
+
+380
+00:15:37,958 --> 00:15:43,000
+então ainda a questão da diversidade nos
+
+381
+00:15:40,759 --> 00:15:46,000
+temas embora tenham focado nessas três
+
+382
+00:15:43,000 --> 00:15:48,759
+grandes temáticas né e acreditar que
+
+383
+00:15:46,000 --> 00:15:50,759
+eles são e na verdade metaproas que a
+
+384
+00:15:48,759 --> 00:15:52,240
+gente tá sempre resolver especializações
+
+385
+00:15:50,759 --> 00:15:55,519
+desse problema eu acho que a
+
+386
+00:15:52,240 --> 00:15:58,120
+diversificação é algo natural um
+
+387
+00:15:55,519 --> 00:16:00,000
+pesquisador por quê por exemplo hoje
+
+388
+00:15:58,120 --> 00:16:02,480
+trabalhando num grande centro como o Rio
+
+389
+00:16:00,000 --> 00:16:05,120
+de Janeiro a sociedade toda hora tá
+
+390
+00:16:02,480 --> 00:16:08,120
+batendo na sua porta para eh resolver
+
+391
+00:16:05,120 --> 00:16:09,919
+problemas diferentes então eh no Rio
+
+392
+00:16:08,120 --> 00:16:12,360
+existem muitas indústrias e no
+
+393
+00:16:09,919 --> 00:16:14,838
+ecossistema da PUC nós temos muito
+
+394
+00:16:12,360 --> 00:16:16,879
+muitos laboratórios que atendem demandas
+
+395
+00:16:14,839 --> 00:16:18,959
+né das empresas tal então a gente tem o
+
+396
+00:16:16,879 --> 00:16:20,360
+LES laboratório engenheiro de software a
+
+397
+00:16:18,958 --> 00:16:22,359
+gente tem o Techgrafh né o Instituto
+
+398
+00:16:20,360 --> 00:16:27,240
+Techgraf que trabalha muito com a
+
+399
+00:16:22,360 --> 00:16:30,039
+Petrobras e e aí acaba que você eh tem
+
+400
+00:16:27,240 --> 00:16:32,039
+você tem os problemas à sua frente e
+
+401
+00:16:30,039 --> 00:16:35,000
+esses problemas são apresentados a você
+
+402
+00:16:32,039 --> 00:16:36,639
+e você tem o desejo de resolvê-los né o
+
+403
+00:16:35,000 --> 00:16:38,559
+que é um pouquinho diferente é
+
+404
+00:16:36,639 --> 00:16:40,919
+complementar na verdade quando você vai
+
+405
+00:16:38,559 --> 00:16:42,919
+lá na literatura você vê que um
+
+406
+00:16:40,919 --> 00:16:45,318
+pesquisador deixou na área que você
+
+407
+00:16:42,919 --> 00:16:47,318
+trabalha alguma aresta que precisa ser
+
+408
+00:16:45,318 --> 00:16:49,159
+removida isso também influencia na na
+
+409
+00:16:47,318 --> 00:16:50,399
+nas escolha dos nossos temas mas acho
+
+410
+00:16:49,159 --> 00:16:52,039
+que essa questão principal engenheira de
+
+411
+00:16:50,399 --> 00:16:54,399
+software que é uma área tão aplicada
+
+412
+00:16:52,039 --> 00:16:55,958
+essa questão das demandas da sociedade
+
+413
+00:16:54,399 --> 00:16:58,278
+ao longo da nossa carreira ela vai
+
+414
+00:16:55,958 --> 00:17:01,479
+influenciando e a gente acaba estudando
+
+415
+00:16:58,278 --> 00:17:04,400
+tópicos diferentes e na realidade num
+
+416
+00:17:01,480 --> 00:17:07,038
+grande centro também no Rio acho que São
+
+417
+00:17:04,400 --> 00:17:09,360
+Paulo isso acontece Recife né grandes
+
+418
+00:17:07,038 --> 00:17:11,720
+capitais é que muitas vezes os alunos
+
+419
+00:17:09,359 --> 00:17:14,198
+eles vêm para fazer um mestrado ou mesmo
+
+420
+00:17:11,720 --> 00:17:16,400
+um doutorado em tempo parcial e com uma
+
+421
+00:17:14,199 --> 00:17:19,839
+temática específica ele trabalha na
+
+422
+00:17:16,400 --> 00:17:22,439
+empresa X o dono da empresa liberou ele
+
+423
+00:17:19,838 --> 00:17:25,159
+para ir fazer mestrado doutorado ele e
+
+424
+00:17:22,439 --> 00:17:27,120
+ele meio que já chega com tema né então
+
+425
+00:17:25,160 --> 00:17:29,400
+isso também ocorre isso o aluno é muito
+
+426
+00:17:27,119 --> 00:17:32,000
+bom né você aceita o aluno aluno muito
+
+427
+00:17:29,400 --> 00:17:35,759
+bom é importante que você também se
+
+428
+00:17:32,000 --> 00:17:39,759
+adapte né a à motivação que o aluno tem
+
+429
+00:17:35,759 --> 00:17:41,160
+né a bagagem que o aluno tem e no fim o
+
+430
+00:17:39,759 --> 00:17:43,240
+fato de trabalhar em tantos temas é
+
+431
+00:17:41,160 --> 00:17:45,360
+porque eu gosto de trabalhar com pessoas
+
+432
+00:17:43,240 --> 00:17:47,279
+eu acho que na carreira de pesquisadora
+
+433
+00:17:45,359 --> 00:17:49,759
+eu acho que a gente tá sempre aprendendo
+
+434
+00:17:47,279 --> 00:17:52,720
+e trabalhar com gente legal trabalhar
+
+435
+00:17:49,759 --> 00:17:56,319
+com gente inteligente eu acho que a
+
+436
+00:17:52,720 --> 00:17:58,400
+gente tá sempre crescendo né e eu acho
+
+437
+00:17:56,319 --> 00:18:00,558
+que o processo de pesquisa o resultado é
+
+438
+00:17:58,400 --> 00:18:02,360
+muito interessante mas a jornada é tão
+
+439
+00:18:00,558 --> 00:18:04,359
+quanto interessante talvez até mais
+
+440
+00:18:02,359 --> 00:18:07,038
+interessante e eu acho que um uma um
+
+441
+00:18:04,359 --> 00:18:08,519
+desses aspectos é a possibilidade de
+
+442
+00:18:07,038 --> 00:18:10,720
+trabalhar com pessoas com pessoas
+
+443
+00:18:08,519 --> 00:18:13,079
+inteligentes dedicadas com o mesmo
+
+444
+00:18:10,720 --> 00:18:14,640
+propósito então isso explico assim assim
+
+445
+00:18:13,079 --> 00:18:17,158
+a minha grande diversidade mas eu acho
+
+446
+00:18:14,640 --> 00:18:19,799
+que algo que acontece na vida de
+
+447
+00:18:17,159 --> 00:18:21,480
+qualquer pesquisador que mora num grande
+
+448
+00:18:19,798 --> 00:18:24,158
+centro eu trabalho num universidade
+
+449
+00:18:21,480 --> 00:18:27,679
+inserida no grande centro eu eu
+
+450
+00:18:24,159 --> 00:18:29,960
+compartilho de boa parte da sua fala né
+
+451
+00:18:27,679 --> 00:18:32,480
+eh principalmente nessa parte de
+
+452
+00:18:29,960 --> 00:18:34,319
+trabalhar com outras pessoas que você né
+
+453
+00:18:32,480 --> 00:18:36,839
+tem uma certa admiração que você aprende
+
+454
+00:18:34,319 --> 00:18:39,079
+junto a gente acaba que moldado também
+
+455
+00:18:36,839 --> 00:18:40,839
+pelos próprios interesses dos colegas né
+
+456
+00:18:39,079 --> 00:18:42,769
+então a gente vai abrangindo nossa área
+
+457
+00:18:40,839 --> 00:18:47,889
+pelas próprias interações com os
+
+458
+00:18:42,769 --> 00:18:47,889
+[Música]
+
+459
+00:18:52,049 --> 00:18:55,180
+[Música]
+
+460
+00:18:56,720 --> 00:19:03,600
+colegas você mencionou que parte do seu
+
+461
+00:18:59,200 --> 00:19:06,319
+interesse é em eh refatoração né remover
+
+462
+00:19:03,599 --> 00:19:09,119
+algum desses problemas né que acontecem
+
+463
+00:19:06,319 --> 00:19:11,399
+no código do desenvolvedor né explica
+
+464
+00:19:09,119 --> 00:19:15,519
+pra gente o que que seria refatorar um
+
+465
+00:19:11,400 --> 00:19:17,440
+código então refatoração é um processo
+
+466
+00:19:15,519 --> 00:19:19,200
+que a gente realiza durante
+
+467
+00:19:17,440 --> 00:19:21,880
+desenvolvimento ou mesmo durante
+
+468
+00:19:19,200 --> 00:19:24,200
+manutenção e evolução é um processo de
+
+469
+00:19:21,880 --> 00:19:27,960
+reestruturação do software tendo em
+
+470
+00:19:24,200 --> 00:19:31,038
+vista a a melhoria do seu design do seu
+
+471
+00:19:27,960 --> 00:19:33,360
+desenho e a reestruturação consiste de
+
+472
+00:19:31,038 --> 00:19:35,798
+uma série de transformações no artefato
+
+473
+00:19:33,359 --> 00:19:38,759
+que você tá refatorando que pode ser o
+
+474
+00:19:35,798 --> 00:19:40,918
+código fonte mas pode ser próprio o
+
+475
+00:19:38,759 --> 00:19:43,079
+próprio modelo do design pode ser um
+
+476
+00:19:40,919 --> 00:19:45,280
+modelo conceitual de um esquema de banco
+
+477
+00:19:43,079 --> 00:19:47,359
+de dados né então ela consiste uma série
+
+478
+00:19:45,279 --> 00:19:49,879
+de transformações que após
+
+479
+00:19:47,359 --> 00:19:52,279
+aplicadas espera-se uma melhora na
+
+480
+00:19:49,880 --> 00:19:55,360
+qualidade do design né espera-se porque
+
+481
+00:19:52,279 --> 00:19:58,399
+também é ter o papel do desenvolvedor em
+
+482
+00:19:55,359 --> 00:20:00,399
+escolher as refaturações apropriadas
+
+483
+00:19:58,400 --> 00:20:02,080
+para que ele para resolver o problema
+
+484
+00:20:00,400 --> 00:20:05,080
+estrutural que ele tá tentando resolver
+
+485
+00:20:02,079 --> 00:20:07,879
+com a refaturação e então a refaturação
+
+486
+00:20:05,079 --> 00:20:11,798
+diferente de outras mudanças ela não
+
+487
+00:20:07,880 --> 00:20:14,720
+visa aumentar funcionalidades ao sistema
+
+488
+00:20:11,798 --> 00:20:18,359
+ou corrigir um bug né ela tem o objetivo
+
+489
+00:20:14,720 --> 00:20:22,038
+de reestruturar o software tentando
+
+490
+00:20:18,359 --> 00:20:25,158
+melhorar o design atual do do sistema a
+
+491
+00:20:22,038 --> 00:20:27,440
+definição do Faller né tem a definição
+
+492
+00:20:25,159 --> 00:20:30,240
+as definições mais antigas da década de
+
+493
+00:20:27,440 --> 00:20:34,480
+80 depois no livro do Fmer que foi o
+
+494
+00:20:30,240 --> 00:20:36,599
+livro popular né que ajudou a aumentar o
+
+495
+00:20:34,480 --> 00:20:39,360
+interesse na área conscientizar sobre a
+
+496
+00:20:36,599 --> 00:20:42,480
+importância dessa área na definição dele
+
+497
+00:20:39,359 --> 00:20:45,038
+ele fazer uma associação eh do termo do
+
+498
+00:20:42,480 --> 00:20:47,360
+termo refatoração com a melhoria do
+
+499
+00:20:45,038 --> 00:20:49,759
+design do ponto de vista de mais de
+
+500
+00:20:47,359 --> 00:20:51,639
+compreensidade ou de
+
+501
+00:20:49,759 --> 00:20:55,158
+manutenibilidade mas quando a gente fala
+
+502
+00:20:51,640 --> 00:20:57,280
+de design melhoria no design é design
+
+503
+00:20:55,159 --> 00:20:59,320
+leva em consideração vários atributos
+
+504
+00:20:57,279 --> 00:21:01,720
+não funcionais então você a gente pode
+
+505
+00:20:59,319 --> 00:21:03,839
+ter processos de reestruturação que
+
+506
+00:21:01,720 --> 00:21:06,919
+visam na melhoria do design mais voltada
+
+507
+00:21:03,839 --> 00:21:09,199
+à compreensão a manutenibilidade mas
+
+508
+00:21:06,919 --> 00:21:11,080
+também pode pensar em melhoria do design
+
+509
+00:21:09,200 --> 00:21:13,600
+do ponto de vista de outros requisitos
+
+510
+00:21:11,079 --> 00:21:16,240
+não funcionais né como de fato a gente
+
+511
+00:21:13,599 --> 00:21:20,119
+tem visto mais recentemente o interesse
+
+512
+00:21:16,240 --> 00:21:22,880
+de eh construir padrões né ou mecânicas
+
+513
+00:21:20,119 --> 00:21:24,678
+de refaturações mecânicas de refaturação
+
+514
+00:21:22,880 --> 00:21:26,480
+tendo em vista a melhoria do design
+
+515
+00:21:24,679 --> 00:21:28,720
+sobre a ótica de performance sobre ótica
+
+516
+00:21:26,480 --> 00:21:30,880
+de segurança sobre a ótica de consumo de
+
+517
+00:21:28,720 --> 00:21:31,720
+energia então mas no geral é isso a
+
+518
+00:21:30,880 --> 00:21:33,200
+refaturação é um processo de
+
+519
+00:21:31,720 --> 00:21:35,679
+reestruturação de software que tem em
+
+520
+00:21:33,200 --> 00:21:37,440
+vista melhorar o seu design e quando a
+
+521
+00:21:35,679 --> 00:21:39,038
+gente tá falando melhoria do design
+
+522
+00:21:37,440 --> 00:21:41,200
+outra coisa que é bastante importante
+
+523
+00:21:39,038 --> 00:21:44,119
+nessa definição é que muitas vezes a
+
+524
+00:21:41,200 --> 00:21:46,278
+gente de forma artificial eh até para
+
+525
+00:21:44,119 --> 00:21:48,599
+ser mais didático mesmo a gente associa
+
+526
+00:21:46,278 --> 00:21:50,079
+o design com as grandes decisões de
+
+527
+00:21:48,599 --> 00:21:51,918
+design por exemplo no contexto do
+
+528
+00:21:50,079 --> 00:21:53,918
+programa orientado a objetos como você
+
+529
+00:21:51,919 --> 00:21:56,720
+decompõe em classes como você decompõe
+
+530
+00:21:53,919 --> 00:21:59,200
+uma classe em métodos eh ou no contexto
+
+531
+00:21:56,720 --> 00:22:02,240
+mesmo arquitetural como você como você
+
+532
+00:21:59,200 --> 00:22:05,000
+decompõe sistemas e subsistemas mas
+
+533
+00:22:02,240 --> 00:22:07,038
+design na verdade tá associado a
+
+534
+00:22:05,000 --> 00:22:09,319
+qualquer atividade de desenvolvimento
+
+535
+00:22:07,038 --> 00:22:12,200
+então mesmo no código fonte então quando
+
+536
+00:22:09,319 --> 00:22:15,759
+você escolhe uma estrutura de dados
+
+537
+00:22:12,200 --> 00:22:17,319
+entre sei lá uma hashmap ou um vetor
+
+538
+00:22:15,759 --> 00:22:19,440
+você tá fazendo uma escolha você tá
+
+539
+00:22:17,319 --> 00:22:21,399
+tomando uma decisão né design é tomar
+
+540
+00:22:19,440 --> 00:22:24,320
+decisões então você a gente também
+
+541
+00:22:21,400 --> 00:22:27,120
+realiza design no interior do método na
+
+542
+00:22:24,319 --> 00:22:30,278
+escolha dos tipos são todas atividades
+
+543
+00:22:27,119 --> 00:22:31,319
+de design que usualmente a gente não usa
+
+544
+00:22:30,278 --> 00:22:33,200
+muito frequentemente quando a gente
+
+545
+00:22:31,319 --> 00:22:35,558
+ensina design o que que é design que é
+
+546
+00:22:33,200 --> 00:22:37,360
+padrões de design a gente não usa muito
+
+547
+00:22:35,558 --> 00:22:39,599
+termo para essas atividades de design
+
+548
+00:22:37,359 --> 00:22:41,199
+código fonte para ter uma melhorar a
+
+549
+00:22:39,599 --> 00:22:43,079
+classificação né ah eu tô trabalhando
+
+550
+00:22:41,200 --> 00:22:45,278
+design no nível arquitetural trabalhando
+
+551
+00:22:43,079 --> 00:22:47,000
+em design então design design mais
+
+552
+00:22:45,278 --> 00:22:49,278
+detalhado eu tô trabalhando com design
+
+553
+00:22:47,000 --> 00:22:51,278
+do código geralmente tá melhorando o
+
+554
+00:22:49,278 --> 00:22:52,960
+código mas fala mas tudo isso é design
+
+555
+00:22:51,278 --> 00:22:55,278
+todas as decisões que a gente toma
+
+556
+00:22:52,960 --> 00:22:57,759
+levando em consideração os requisitos ou
+
+557
+00:22:55,278 --> 00:23:00,440
+outros fatores é design então a
+
+558
+00:22:57,759 --> 00:23:02,440
+refatoração é isso o processo de
+
+559
+00:23:00,440 --> 00:23:03,880
+reestruturação do software quaisquer
+
+560
+00:23:02,440 --> 00:23:06,440
+artefatos né do software não
+
+561
+00:23:03,880 --> 00:23:09,120
+necessariamente o código fonte que visa
+
+562
+00:23:06,440 --> 00:23:11,600
+melhorar o design quem trabalha com
+
+563
+00:23:09,119 --> 00:23:13,199
+sistemas configuráveis linhas de produto
+
+564
+00:23:11,599 --> 00:23:15,599
+que são sistemas que a gente permitem
+
+565
+00:23:13,200 --> 00:23:17,600
+gerar diferentes programas né ou fazer
+
+566
+00:23:15,599 --> 00:23:19,639
+configurações que levem a um programa
+
+567
+00:23:17,599 --> 00:23:22,480
+adaptado a um programa diferente você
+
+568
+00:23:19,640 --> 00:23:24,799
+pode fazer refatoração até no no modelo
+
+569
+00:23:22,480 --> 00:23:26,798
+de de features no modelo você tem um
+
+570
+00:23:24,798 --> 00:23:27,720
+modelo que representa as configurações
+
+571
+00:23:26,798 --> 00:23:29,359
+tem um modelo que representa as
+
+572
+00:23:27,720 --> 00:23:31,640
+funcionalidades né os feit e as
+
+573
+00:23:29,359 --> 00:23:33,199
+possíveis configurações do daquele
+
+574
+00:23:31,640 --> 00:23:35,559
+programa você pode fazer a refaturação
+
+575
+00:23:33,200 --> 00:23:37,519
+no modelo de fatures né tendo em vista
+
+576
+00:23:35,558 --> 00:23:39,918
+melhorar o design do modelo de fatos
+
+577
+00:23:37,519 --> 00:23:42,759
+então é importante eh eu acho que eh ter
+
+578
+00:23:39,919 --> 00:23:45,919
+esse entendimento mais global né a gente
+
+579
+00:23:42,759 --> 00:23:47,599
+fala muito de refatoração de código mas
+
+580
+00:23:45,919 --> 00:23:49,799
+refatoração ela pode ocorrer em
+
+581
+00:23:47,599 --> 00:23:51,519
+diferentes níveis de abstração e a
+
+582
+00:23:49,798 --> 00:23:53,200
+questão de melhoria do design não
+
+583
+00:23:51,519 --> 00:23:54,519
+necessariamente precisa estar atrelada
+
+584
+00:23:53,200 --> 00:23:56,319
+com a questão de facilidade de
+
+585
+00:23:54,519 --> 00:23:58,879
+compreensão só a facilidade de
+
+586
+00:23:56,319 --> 00:24:00,918
+manutenção mas também com melhorar o
+
+587
+00:23:58,880 --> 00:24:03,120
+design tendo em vista outros atributos
+
+588
+00:24:00,919 --> 00:24:04,759
+não funcionais
+
+589
+00:24:03,119 --> 00:24:06,519
+então Alessandra você tava explicando né
+
+590
+00:24:04,759 --> 00:24:09,319
+que acho que parte da ideia da
+
+591
+00:24:06,519 --> 00:24:11,278
+refatoração é você poder né melhorar um
+
+592
+00:24:09,319 --> 00:24:15,319
+problema de design seja lá o que esse
+
+593
+00:24:11,278 --> 00:24:18,599
+problema de design seja né eh mas me
+
+594
+00:24:15,319 --> 00:24:20,278
+explicam você tem alguma ideia de por
+
+595
+00:24:18,599 --> 00:24:23,000
+exemplo eu fiz uma consulta rápida no
+
+596
+00:24:20,278 --> 00:24:25,919
+Google agora sobre refactoring e teve
+
+597
+00:24:23,000 --> 00:24:28,798
+mais de 11 milhões de registros né no
+
+598
+00:24:25,919 --> 00:24:31,440
+Google né e você falou que a refactory
+
+599
+00:24:28,798 --> 00:24:33,879
+foi popularizado parte por causa daquele
+
+600
+00:24:31,440 --> 00:24:37,480
+livro do Martin Fler né mesmo ele tenha
+
+601
+00:24:33,880 --> 00:24:40,240
+sido introduzido lá na na década de 80
+
+602
+00:24:37,480 --> 00:24:42,038
+por uma tese de doutorado lá em Urubana
+
+603
+00:24:40,240 --> 00:24:44,120
+Champan o que que você tem alguma
+
+604
+00:24:42,038 --> 00:24:45,960
+sugestão de por que houve todo esse
+
+605
+00:24:44,119 --> 00:24:47,798
+sucesso de refatoração né o que que
+
+606
+00:24:45,960 --> 00:24:49,360
+propiciou todo esse avanço que hoje em
+
+607
+00:24:47,798 --> 00:24:51,759
+dia a gente vai numa mesa de barro todo
+
+608
+00:24:49,359 --> 00:24:54,398
+mundo sabe o que é refatoração né os
+
+609
+00:24:51,759 --> 00:24:56,440
+desenvolvedores pregam refatoração quase
+
+610
+00:24:54,398 --> 00:24:58,439
+que diariamente senão diariamente né
+
+611
+00:24:56,440 --> 00:25:01,320
+então artigos de refatoração a gente tem
+
+612
+00:24:58,440 --> 00:25:04,519
+aos milhares né eu tenho uma sugestão do
+
+613
+00:25:01,319 --> 00:25:07,480
+por do por se popularizou tanto então eu
+
+614
+00:25:04,519 --> 00:25:10,079
+acho que na verdade sempre foi um terma
+
+615
+00:25:07,480 --> 00:25:12,759
+popular independente o ponto não é
+
+616
+00:25:10,079 --> 00:25:14,519
+popular né não se usava a palavra mas
+
+617
+00:25:12,759 --> 00:25:17,759
+essa questão de
+
+618
+00:25:14,519 --> 00:25:20,918
+reestruturação ela é meio uma atividade
+
+619
+00:25:17,759 --> 00:25:23,798
+básica né na no desenvolvimento na
+
+620
+00:25:20,919 --> 00:25:27,919
+manutenção evolução do sistema mesmo
+
+621
+00:25:23,798 --> 00:25:29,918
+quando a gente não eh usava o nome
+
+622
+00:25:27,919 --> 00:25:31,600
+formalmente refaturações iam sistemas
+
+623
+00:25:29,919 --> 00:25:34,600
+sistemas grandes elefantes brancos com
+
+624
+00:25:31,599 --> 00:25:36,480
+que com uma certa rotina ou não era
+
+625
+00:25:34,599 --> 00:25:38,199
+necessário fazer alguma reestruturação
+
+626
+00:25:36,480 --> 00:25:40,720
+então primeira coisa que eu acho que
+
+627
+00:25:38,200 --> 00:25:42,919
+contribuiu antes de mais nada até antes
+
+628
+00:25:40,720 --> 00:25:45,120
+do nível da tese de doutorado que você
+
+629
+00:25:42,919 --> 00:25:48,000
+citou foi o fato de que é um uma é uma é
+
+630
+00:25:45,119 --> 00:25:50,678
+uma atividade comum por exemplo assim
+
+631
+00:25:48,000 --> 00:25:52,960
+como padrões de projeto né o padrões de
+
+632
+00:25:50,679 --> 00:25:56,278
+projeto surgiu lá com o livro do Gama
+
+633
+00:25:52,960 --> 00:25:58,038
+tal né o sei o termo as palavras mas a
+
+634
+00:25:56,278 --> 00:26:01,159
+transferência de conhecimento de boas
+
+635
+00:25:58,038 --> 00:26:03,278
+práticas né para problemas recorrentes é
+
+636
+00:26:01,159 --> 00:26:06,919
+uma coisa que o desenvolvedor experiente
+
+637
+00:26:03,278 --> 00:26:08,558
+ele tá fazendo o tempo todo né
+
+638
+00:26:06,919 --> 00:26:10,038
+então no caso acho que esse é o primeiro
+
+639
+00:26:08,558 --> 00:26:11,960
+aspecto né que refaturação é uma
+
+640
+00:26:10,038 --> 00:26:14,398
+atividade meí intrínseca ao
+
+641
+00:26:11,960 --> 00:26:16,399
+desenvolvimento manutenção e evolução né
+
+642
+00:26:14,398 --> 00:26:18,759
+pode ser que alguns sistemas não se faça
+
+643
+00:26:16,398 --> 00:26:20,879
+reestruturação nenhuma mas para alguns
+
+644
+00:26:18,759 --> 00:26:23,038
+sistemas para sistemas que você quer que
+
+645
+00:26:20,880 --> 00:26:25,240
+tem ele tem a equipe a organização
+
+646
+00:26:23,038 --> 00:26:27,519
+precisa que ele tenha uma certa
+
+647
+00:26:25,240 --> 00:26:29,399
+longevidade a atividade de
+
+648
+00:26:27,519 --> 00:26:31,278
+reestruturação vai aparecer aqui ou não
+
+649
+00:26:29,398 --> 00:26:32,599
+tanto que as atividades eh de acordo com
+
+650
+00:26:31,278 --> 00:26:34,640
+estudos que nós fizemos mas também
+
+651
+00:26:32,599 --> 00:26:37,480
+outros pesquisadores fizeram e
+
+652
+00:26:34,640 --> 00:26:40,080
+refaturação ocorre comumente eh em
+
+653
+00:26:37,480 --> 00:26:42,440
+mudanças onde o objetivo é adicionar uma
+
+654
+00:26:40,079 --> 00:26:44,599
+funcionalidade então mesmo para você
+
+655
+00:26:42,440 --> 00:26:46,399
+quando você tá com objetivo de adicionar
+
+656
+00:26:44,599 --> 00:26:48,678
+uma nova funcionalidade pode ser
+
+657
+00:26:46,398 --> 00:26:50,439
+necessário alguma reestruturação para
+
+658
+00:26:48,679 --> 00:26:52,519
+que o design da classe o design do
+
+659
+00:26:50,440 --> 00:26:55,558
+método possa acomodar aquela as
+
+660
+00:26:52,519 --> 00:26:58,278
+modificações daquela nova funcionalidade
+
+661
+00:26:55,558 --> 00:27:01,440
+então é tem essa questão tem a questão
+
+662
+00:26:58,278 --> 00:27:04,839
+do livro como você mencionou é um livro
+
+663
+00:27:01,440 --> 00:27:07,360
+didático é um livro muito fácil de ler é
+
+664
+00:27:04,839 --> 00:27:09,798
+um livro que vai introduzindo aos poucos
+
+665
+00:27:07,359 --> 00:27:12,319
+o conceito é um exemplo um exemplo
+
+666
+00:27:09,798 --> 00:27:14,319
+running example onde você para
+
+667
+00:27:12,319 --> 00:27:17,319
+apresentar os alunos sobre a questão de
+
+668
+00:27:14,319 --> 00:27:21,558
+treinamento de de
+
+669
+00:27:17,319 --> 00:27:24,319
+de ensino é um livro que apoia assim
+
+670
+00:27:21,558 --> 00:27:26,599
+muito bem as atividades do quem tá
+
+671
+00:27:24,319 --> 00:27:29,720
+fazendo treinamento professor né do
+
+672
+00:27:26,599 --> 00:27:31,678
+tutor então ele é um ele é um livro eh
+
+673
+00:27:29,720 --> 00:27:32,798
+muito bem escrito por pessoa que o
+
+674
+00:27:31,679 --> 00:27:34,960
+follower é uma pessoa que tinha muita
+
+675
+00:27:32,798 --> 00:27:37,359
+experiência né fácil de ler fácil de
+
+676
+00:27:34,960 --> 00:27:38,919
+gerir outra coisa que ajuda em gerir de
+
+677
+00:27:37,359 --> 00:27:41,879
+software em qualquer área é a presença
+
+678
+00:27:38,919 --> 00:27:44,360
+de catálogos né ele tem lá uma definição
+
+679
+00:27:41,880 --> 00:27:47,120
+que tudo bem não é de refatoração que
+
+680
+00:27:44,359 --> 00:27:50,519
+não é a definição mais abrangente do que
+
+681
+00:27:47,119 --> 00:27:53,278
+a gente vê hoje sobre refatoração mas
+
+682
+00:27:50,519 --> 00:27:54,960
+tinha uma definição e ele o que que era
+
+683
+00:27:53,278 --> 00:27:57,798
+interessante naquele livro é que ele
+
+684
+00:27:54,960 --> 00:28:00,120
+tinha eh para cada tipo de refaturação
+
+685
+00:27:57,798 --> 00:28:04,119
+por exemplo movimentar um método extrair
+
+686
+00:28:00,119 --> 00:28:07,199
+um método ele tinha mecânica como passo
+
+687
+00:28:04,119 --> 00:28:08,639
+a passo fazer aquilo então como se
+
+688
+00:28:07,200 --> 00:28:11,399
+tivesse entregando para quem tá
+
+689
+00:28:08,640 --> 00:28:13,799
+aprendendo mastigadinho como fazer
+
+690
+00:28:11,398 --> 00:28:15,639
+aquela atividade e a outra coisa
+
+691
+00:28:13,798 --> 00:28:19,519
+interessante do livro é que ele
+
+692
+00:28:15,640 --> 00:28:22,080
+apresenta eh eh sugestões eh algumas
+
+693
+00:28:19,519 --> 00:28:24,200
+sugestões de onde aplicar a refatoração
+
+694
+00:28:22,079 --> 00:28:27,158
+então aí ele fala assim: "Ah aquela
+
+695
+00:28:24,200 --> 00:28:30,919
+catálogo lá de melsus de mau cheiros né
+
+696
+00:28:27,159 --> 00:28:34,039
+que foi o tema eh deuns um dois dois
+
+697
+00:28:30,919 --> 00:28:35,960
+episódios aí anteriores né eh você tem
+
+698
+00:28:34,038 --> 00:28:39,398
+lá um catálogo de manchers um catálogo
+
+699
+00:28:35,960 --> 00:28:41,919
+de smells e ele faz um link né ele diz:
+
+700
+00:28:39,398 --> 00:28:44,239
+"Olha quando você tem um uma feature
+
+701
+00:28:41,919 --> 00:28:45,880
+envie uma característica estrangeira um
+
+702
+00:28:44,240 --> 00:28:47,759
+código que tá mais interessado em dados
+
+703
+00:28:45,880 --> 00:28:50,600
+de outra classe do que nos dados da
+
+704
+00:28:47,759 --> 00:28:53,599
+classe que ele pertence aplique primeiro
+
+705
+00:28:50,599 --> 00:28:55,439
+extraia um método e depois movimente o
+
+706
+00:28:53,599 --> 00:28:56,918
+método." E para cada uma dessas
+
+707
+00:28:55,440 --> 00:28:58,960
+transformações ele tem lá as
+
+708
+00:28:56,919 --> 00:29:02,880
+modificações como extrair o método tá lá
+
+709
+00:28:58,960 --> 00:29:04,840
+A B C D né e a mesma coisa então eu acho
+
+710
+00:29:02,880 --> 00:29:07,080
+que é um livro que tem todas essas
+
+711
+00:29:04,839 --> 00:29:09,000
+características que acho que propiciaram
+
+712
+00:29:07,079 --> 00:29:11,798
+o entendimento a facilidade de
+
+713
+00:29:09,000 --> 00:29:14,000
+entendimento e também a facil facilitar
+
+714
+00:29:11,798 --> 00:29:17,440
+a execução por quem tem pouca
+
+715
+00:29:14,000 --> 00:29:19,200
+experiência em reestruturar software e
+
+716
+00:29:17,440 --> 00:29:20,798
+aquelas refatorações que estão lá no
+
+717
+00:29:19,200 --> 00:29:23,399
+livro de fato são fer refaturações que a
+
+718
+00:29:20,798 --> 00:29:25,000
+gente não todas elas mas algumas delas
+
+719
+00:29:23,398 --> 00:29:28,439
+são muito frequentes como o caso de
+
+720
+00:29:25,000 --> 00:29:31,398
+renomear como o caso de eh extrair
+
+721
+00:29:28,440 --> 00:29:33,519
+método movimentar método subir um método
+
+722
+00:29:31,398 --> 00:29:35,798
+pra superclasse descer o método pra
+
+723
+00:29:33,519 --> 00:29:37,759
+subclasse realmente são atividades muito
+
+724
+00:29:35,798 --> 00:29:40,200
+rotineiras em estudos que analisam
+
+725
+00:29:37,759 --> 00:29:42,599
+projetos open source projetos eh de
+
+726
+00:29:40,200 --> 00:29:46,000
+código aberto e ver que ess realmente
+
+727
+00:29:42,599 --> 00:29:49,439
+essas refaturações são muito frequentes
+
+728
+00:29:46,000 --> 00:29:51,880
+do ponto de vista de pesquisa eu eh eu
+
+729
+00:29:49,440 --> 00:29:55,080
+acho que teve a questão do livro mas
+
+730
+00:29:51,880 --> 00:29:56,799
+também é porque embora a refaturação
+
+731
+00:29:55,079 --> 00:29:58,359
+vamos dizer assim parece que é simples
+
+732
+00:29:56,798 --> 00:30:00,319
+ah um conjunto de modificações que eu
+
+733
+00:29:58,359 --> 00:30:03,240
+vou fazer para melhorar o design mas a
+
+734
+00:30:00,319 --> 00:30:05,639
+definição de refaturação mesmo ela é
+
+735
+00:30:03,240 --> 00:30:09,359
+ampla ela é o processo que inclui essas
+
+736
+00:30:05,640 --> 00:30:11,640
+modificações então a refatoração inclui
+
+737
+00:30:09,359 --> 00:30:13,759
+primeiramente eh como que você prepara
+
+738
+00:30:11,640 --> 00:30:16,278
+os testes tá mudando o código fone então
+
+739
+00:30:13,759 --> 00:30:18,960
+para você realmente fazer refaturação
+
+740
+00:30:16,278 --> 00:30:20,480
+com com sucesso é importante que você
+
+741
+00:30:18,960 --> 00:30:23,159
+prepare os casos de teste mas como
+
+742
+00:30:20,480 --> 00:30:25,519
+escolher esses casos de teste e aí você
+
+743
+00:30:23,159 --> 00:30:27,440
+aplica a refatoração executa os casos de
+
+744
+00:30:25,519 --> 00:30:30,000
+teste mas pode ser que o design
+
+745
+00:30:27,440 --> 00:30:32,600
+alcançado com a reestruturação não tem
+
+746
+00:30:30,000 --> 00:30:35,079
+os benefícios que você planejava ter com
+
+747
+00:30:32,599 --> 00:30:37,359
+aquele resultado e isso pode virar um
+
+748
+00:30:35,079 --> 00:30:40,278
+ciclo e pode ser que a sua refaturação
+
+749
+00:30:37,359 --> 00:30:44,278
+se você eh inclua na base do código do
+
+750
+00:30:40,278 --> 00:30:46,079
+projeto né faça parte da da da master
+
+751
+00:30:44,278 --> 00:30:48,480
+brand da da brand principal do projeto
+
+752
+00:30:46,079 --> 00:30:51,079
+de fato ela traga para outros problemas
+
+753
+00:30:48,480 --> 00:30:54,000
+de design que vão requerer refatoração
+
+754
+00:30:51,079 --> 00:30:56,000
+né então eh o termo a definição do
+
+755
+00:30:54,000 --> 00:30:58,960
+folder fala do processo né então acho
+
+756
+00:30:56,000 --> 00:31:00,599
+que é por isso que a gente tem eh tanta
+
+757
+00:30:58,960 --> 00:31:03,319
+pesquisa associada porque é algo não
+
+758
+00:31:00,599 --> 00:31:05,278
+trivial né eh e também não passa só para
+
+759
+00:31:03,319 --> 00:31:07,638
+as atividades que eu mencionei já começa
+
+760
+00:31:05,278 --> 00:31:09,839
+por identificar onde refatorar então tem
+
+761
+00:31:07,638 --> 00:31:11,398
+muitos subproblemas associados com
+
+762
+00:31:09,839 --> 00:31:13,720
+processo de refatoração que eles
+
+763
+00:31:11,398 --> 00:31:17,158
+sozinhos já são difíceis eh vamos dizer
+
+764
+00:31:13,720 --> 00:31:19,399
+assim de serem tratados e as ids né
+
+765
+00:31:17,159 --> 00:31:22,600
+certamente eh uma outra coisa que
+
+766
+00:31:19,398 --> 00:31:25,278
+contribuiu pra rupularização foi a
+
+767
+00:31:22,599 --> 00:31:27,839
+incorporação de apoio automatizado
+
+768
+00:31:25,278 --> 00:31:29,759
+semiautomatizado de tipos de refaturação
+
+769
+00:31:27,839 --> 00:31:33,798
+populares como
+
+770
+00:31:29,759 --> 00:31:38,319
+extracto renomear método eh movimentar
+
+771
+00:31:33,798 --> 00:31:40,440
+método e isso é é interessante porque
+
+772
+00:31:38,319 --> 00:31:42,918
+até vou deixar para falar isso mais
+
+773
+00:31:40,440 --> 00:31:45,200
+tarde mas eh os desenvolvedores
+
+774
+00:31:42,919 --> 00:31:47,480
+frequentemente citam que usam ideias
+
+775
+00:31:45,200 --> 00:31:49,840
+para refaturar mas isso que significa
+
+776
+00:31:47,480 --> 00:31:51,558
+que a ideia pelo menos teve objetivo de
+
+777
+00:31:49,839 --> 00:31:54,240
+ajudar a popularizar mas não
+
+778
+00:31:51,558 --> 00:31:56,278
+necessariamente como falar mais tarde
+
+779
+00:31:54,240 --> 00:31:57,679
+daqui a pouco eh a depender das
+
+780
+00:31:56,278 --> 00:31:59,919
+perguntas que vocês façam não
+
+781
+00:31:57,679 --> 00:32:01,440
+necessariamente ele aplica com uso de
+
+782
+00:31:59,919 --> 00:32:04,360
+ideias mas as ideias certamente
+
+783
+00:32:01,440 --> 00:32:06,960
+contribuíram também para popularização
+
+784
+00:32:04,359 --> 00:32:09,000
+todos esses fatores contribuíram aí para
+
+785
+00:32:06,960 --> 00:32:10,319
+essa grande popularidade né é
+
+786
+00:32:09,000 --> 00:32:15,480
+interessante gostaria de citar uma
+
+787
+00:32:10,319 --> 00:32:19,119
+revisão sistemática que foi eh do Danny
+
+788
+00:32:15,480 --> 00:32:21,599
+Dick e outros pesquisadores eh sobre
+
+789
+00:32:19,119 --> 00:32:24,678
+refaturação 30 anos de refaturação então
+
+790
+00:32:21,599 --> 00:32:26,839
+ele ora que tem sido feito em pesquisa e
+
+791
+00:32:24,679 --> 00:32:29,000
+lá de fato isso que o Gustavo mencionou
+
+792
+00:32:26,839 --> 00:32:30,798
+você vê artigos cobrindo refatoração em
+
+793
+00:32:29,000 --> 00:32:33,519
+todas praticamente todas as etapas do
+
+794
+00:32:30,798 --> 00:32:35,398
+ciclo de desenvolvimento e refatorações
+
+795
+00:32:33,519 --> 00:32:38,359
+com foco em melhorar de design com
+
+796
+00:32:35,398 --> 00:32:40,359
+diferentes eh eh objetivos de melhoria
+
+797
+00:32:38,359 --> 00:32:42,319
+de requisitos não funcionais né mais
+
+798
+00:32:40,359 --> 00:32:44,158
+recentemente como mencionei antes
+
+799
+00:32:42,319 --> 00:32:46,398
+desempenho segurança então acho que tem
+
+800
+00:32:44,159 --> 00:32:48,120
+muita muitos subproblemas interessantes
+
+801
+00:32:46,398 --> 00:32:50,479
+aí para serem resolvidos e a
+
+802
+00:32:48,119 --> 00:32:52,599
+popularização do tema é natural né que
+
+803
+00:32:50,480 --> 00:32:54,639
+são problemas reais e a gente precisa
+
+804
+00:32:52,599 --> 00:32:57,319
+entender esse processo e ajudar o
+
+805
+00:32:54,638 --> 00:33:00,719
+desenvolvedor nesse processo de
+
+806
+00:32:57,319 --> 00:33:04,000
+refatoração certo Alessandro e aí tem
+
+807
+00:33:00,720 --> 00:33:06,720
+três perguntas que eu imagino que vão
+
+808
+00:33:04,000 --> 00:33:09,359
+passar pela cabeça do desenvolvedor ou
+
+809
+00:33:06,720 --> 00:33:12,278
+desenvolvedora que por acaso tenha que
+
+810
+00:33:09,359 --> 00:33:15,519
+explicar isso para alguém é que você já
+
+811
+00:33:12,278 --> 00:33:17,880
+falou bastante sobre isso mas então por
+
+812
+00:33:15,519 --> 00:33:20,120
+exemplo por que que a refatoração é
+
+813
+00:33:17,880 --> 00:33:23,039
+importante você falou aí sobre a questão
+
+814
+00:33:20,119 --> 00:33:24,599
+de melhorar o design né quando eu sei
+
+815
+00:33:23,038 --> 00:33:27,519
+que é o momento de refaturar o meu
+
+816
+00:33:24,599 --> 00:33:30,158
+código você explicou que por exemplo o
+
+817
+00:33:27,519 --> 00:33:33,159
+livro do Martin Fer ele te dá várias
+
+818
+00:33:30,159 --> 00:33:35,679
+indicações né de desse momento aí tem
+
+819
+00:33:33,159 --> 00:33:37,720
+essa questão sempre que você identifica
+
+820
+00:33:35,679 --> 00:33:41,120
+um um problema que dá para refatorar
+
+821
+00:33:37,720 --> 00:33:44,720
+você deve refatorar então nesse sentido
+
+822
+00:33:41,119 --> 00:33:47,638
+eu acho que tem dois aspectos aí eh tem
+
+823
+00:33:44,720 --> 00:33:49,480
+um aspecto que é tem a ver muito com
+
+824
+00:33:47,638 --> 00:33:51,719
+treinamento e mesmo o perfil do
+
+825
+00:33:49,480 --> 00:33:54,319
+desenvolvedor que é aquele desenvolvedor
+
+826
+00:33:51,720 --> 00:33:56,679
+que refatora de forma proativa ele
+
+827
+00:33:54,319 --> 00:33:59,678
+aprende as boas práticas ele encarna as
+
+828
+00:33:56,679 --> 00:34:01,960
+boas práticas e nas atividades que ele
+
+829
+00:33:59,679 --> 00:34:04,200
+realiza naturalmente modificação
+
+830
+00:34:01,960 --> 00:34:07,079
+evolução manutenção do código
+
+831
+00:34:04,200 --> 00:34:09,000
+constantemente ele está preocupado não
+
+832
+00:34:07,079 --> 00:34:10,239
+significa que ele não vai deixar dívidas
+
+833
+00:34:09,000 --> 00:34:12,519
+técnicas não significa que ele não vai
+
+834
+00:34:10,239 --> 00:34:14,878
+deixar problemas estruturais mas ele por
+
+835
+00:34:12,519 --> 00:34:16,918
+definição um cara proativo com relação a
+
+836
+00:34:14,878 --> 00:34:20,239
+refatorar ele viu que a primeira
+
+837
+00:34:16,918 --> 00:34:21,759
+tentativa não foi eh uma boa escolha da
+
+838
+00:34:20,239 --> 00:34:24,279
+estruturação dos métodos estruturação
+
+839
+00:34:21,760 --> 00:34:28,040
+das classes ou seja o que for a questão
+
+840
+00:34:24,280 --> 00:34:30,480
+de do design aí e ele vai lá e refatora
+
+841
+00:34:28,039 --> 00:34:32,759
+mas esse não esse cara eu acredito que
+
+842
+00:34:30,480 --> 00:34:34,599
+tem é para que seja possível a gente
+
+843
+00:34:32,760 --> 00:34:36,839
+aumentar o número de pessoas com esse
+
+844
+00:34:34,599 --> 00:34:39,639
+perfil realmente a educação o
+
+845
+00:34:36,838 --> 00:34:42,039
+treinamento tem um papel importante mas
+
+846
+00:34:39,639 --> 00:34:43,800
+um cenário mais frequente eu vejo isso
+
+847
+00:34:42,039 --> 00:34:47,679
+acontecendo tanto em projetos de código
+
+848
+00:34:43,800 --> 00:34:50,560
+aberto como projetos fechados você vai
+
+849
+00:34:47,679 --> 00:34:52,960
+fazer refatoração quando aquilo tem um
+
+850
+00:34:50,559 --> 00:34:54,398
+benefício claro no momento que você tá
+
+851
+00:34:52,960 --> 00:34:57,880
+fazendo uma alteração no momento que
+
+852
+00:34:54,398 --> 00:35:00,719
+você tá realizando um comite ou a curto
+
+853
+00:34:57,880 --> 00:35:03,680
+médio longo prazo né mas é importante
+
+854
+00:35:00,719 --> 00:35:06,118
+que você saiba qual é o benefício porque
+
+855
+00:35:03,679 --> 00:35:07,960
+se você não souber qual é o benefício
+
+856
+00:35:06,119 --> 00:35:09,838
+pode acontecer coisas do tipo da
+
+857
+00:35:07,960 --> 00:35:11,679
+refaturação introduzir outros problemas
+
+858
+00:35:09,838 --> 00:35:13,960
+dá um caso bem clássico que a gente vê
+
+859
+00:35:11,679 --> 00:35:16,199
+ocorrendo até em projetos open source
+
+860
+00:35:13,960 --> 00:35:18,920
+bastante populares né e que os
+
+861
+00:35:16,199 --> 00:35:23,319
+pesquisadores estudam bastante é
+
+862
+00:35:18,920 --> 00:35:25,480
+frequente a tarefa do o programador eh
+
+863
+00:35:23,320 --> 00:35:27,880
+extrair superclasse então quer dizer ele
+
+864
+00:35:25,480 --> 00:35:29,960
+tá criando uma nova abstração então ele
+
+865
+00:35:27,880 --> 00:35:32,519
+eh a ideia dele é aumentar a
+
+866
+00:35:29,960 --> 00:35:34,838
+flexibilidade do design né para que você
+
+867
+00:35:32,519 --> 00:35:36,400
+crie não tenha só aquela classe concreta
+
+868
+00:35:34,838 --> 00:35:38,039
+aquela abstração concreta você ter uma
+
+869
+00:35:36,400 --> 00:35:40,680
+abstração você tem uma classe mais
+
+870
+00:35:38,039 --> 00:35:42,358
+abstrata e ela vai poder ser reusada e
+
+871
+00:35:40,679 --> 00:35:44,440
+estendida ao longo do tempo é como se o
+
+872
+00:35:42,358 --> 00:35:47,480
+desenvolvedor já antecipando e querendo
+
+873
+00:35:44,440 --> 00:35:49,358
+guiar para que futuras subclasses sejam
+
+874
+00:35:47,480 --> 00:35:51,480
+criados com aquele formato com aquele
+
+875
+00:35:49,358 --> 00:35:53,279
+template da superclasse né com aquele
+
+876
+00:35:51,480 --> 00:35:55,079
+comportamento aquela estrutura que vai
+
+877
+00:35:53,280 --> 00:35:57,200
+ser dada da superclasse só que a gente
+
+878
+00:35:55,079 --> 00:35:59,839
+observa que muitas extrações de
+
+879
+00:35:57,199 --> 00:36:01,358
+superclasse ocorrem duas coisas o
+
+880
+00:35:59,838 --> 00:36:03,559
+desenvolvedor acaba não usando a
+
+881
+00:36:01,358 --> 00:36:05,239
+superclasse você não vê acesso à
+
+882
+00:36:03,559 --> 00:36:07,920
+superclasse é uma melhoria que ele faz
+
+883
+00:36:05,239 --> 00:36:10,078
+para pensando no médio prazo longo prazo
+
+884
+00:36:07,920 --> 00:36:11,960
+a gente não sabe não sabe se é porque
+
+885
+00:36:10,079 --> 00:36:13,960
+realmente o sistema ia precisar evoluir
+
+886
+00:36:11,960 --> 00:36:15,440
+daquela forma ou se foi algo que ele ah
+
+887
+00:36:13,960 --> 00:36:17,880
+eu acho que isso aqui é uma deveria ter
+
+888
+00:36:15,440 --> 00:36:20,639
+uma superclasse aí estrai né e acaba não
+
+889
+00:36:17,880 --> 00:36:22,599
+criando também subclasses então na
+
+890
+00:36:20,639 --> 00:36:25,279
+verdade você acabou sem um objetivo
+
+891
+00:36:22,599 --> 00:36:27,240
+claro sem um propósito bem claro que
+
+892
+00:36:25,280 --> 00:36:29,519
+aquilo ia ser útil você pode estar
+
+893
+00:36:27,239 --> 00:36:32,318
+complicando o design então a primeira
+
+894
+00:36:29,519 --> 00:36:34,559
+coisa que é importante saber na hora que
+
+895
+00:36:32,318 --> 00:36:37,639
+escolher quando refatorar é que tem um
+
+896
+00:36:34,559 --> 00:36:40,318
+objetivo tangível para aquela atividade
+
+897
+00:36:37,639 --> 00:36:42,159
+de refatoração aí eu vou citar algumas
+
+898
+00:36:40,318 --> 00:36:43,960
+as clássicas né eh por que que você quer
+
+899
+00:36:42,159 --> 00:36:46,759
+facilitar a manutenção ou seja sabe que
+
+900
+00:36:43,960 --> 00:36:48,480
+no mesmo comit você vai incluir eh você
+
+901
+00:36:46,760 --> 00:36:50,520
+vai melhorar uma ficha e você precisa
+
+902
+00:36:48,480 --> 00:36:52,639
+reestruturar ou porque nos próximos
+
+903
+00:36:50,519 --> 00:36:55,358
+comites na sua agenda de eixos a serem
+
+904
+00:36:52,639 --> 00:36:57,159
+de tarefas a serem resolvidas você vai
+
+905
+00:36:55,358 --> 00:36:59,960
+precisar daquela reestruturação para
+
+906
+00:36:57,159 --> 00:37:02,879
+facilitar modificações que vem a seguir
+
+907
+00:36:59,960 --> 00:37:06,079
+facilitar compreensão por quê porque se
+
+908
+00:37:02,880 --> 00:37:09,000
+você trabalha no método na na classe
+
+909
+00:37:06,079 --> 00:37:11,760
+você trabalha outros desenvolvedores eh
+
+910
+00:37:09,000 --> 00:37:14,719
+vão ler o código fonte e vão alterar o
+
+911
+00:37:11,760 --> 00:37:17,240
+código fonte né você não é o único owner
+
+912
+00:37:14,719 --> 00:37:21,239
+daquela classe é importante que você
+
+913
+00:37:17,239 --> 00:37:24,598
+documente bem estruture bem e senão para
+
+914
+00:37:21,239 --> 00:37:26,759
+ele ele já vê o o atrapalhar logo cedo
+
+915
+00:37:24,599 --> 00:37:28,838
+perder em produtividade porque o colega
+
+916
+00:37:26,760 --> 00:37:30,680
+vai questionar o propósito daquela
+
+917
+00:37:28,838 --> 00:37:31,880
+classe ou daquele daquele método então
+
+918
+00:37:30,679 --> 00:37:35,318
+tem a questão da facilidade de
+
+919
+00:37:31,880 --> 00:37:37,960
+compreensão também um outro objetivo que
+
+920
+00:37:35,318 --> 00:37:39,880
+assim talvez não seja tão tangível mas
+
+921
+00:37:37,960 --> 00:37:41,240
+que o desenvolvedor proativo aquele
+
+922
+00:37:39,880 --> 00:37:43,559
+primeiro personagem aquela primeira
+
+923
+00:37:41,239 --> 00:37:45,399
+pessoa aquele primeiro tipo de
+
+924
+00:37:43,559 --> 00:37:47,759
+refatorador que eu mencionei que é o
+
+925
+00:37:45,400 --> 00:37:50,680
+proativo ele também sabe que a
+
+926
+00:37:47,760 --> 00:37:53,160
+refaturação ela pode reduzir a a
+
+927
+00:37:50,679 --> 00:37:55,318
+probabilidade de bugs né então um dos
+
+928
+00:37:53,159 --> 00:37:59,279
+benefícios que o Fler fala no livro é
+
+929
+00:37:55,318 --> 00:38:02,039
+que a refaturação ela reduz a
+
+930
+00:37:59,280 --> 00:38:04,880
+possibilidade de introdução de bugs
+
+931
+00:38:02,039 --> 00:38:07,400
+então você pode estar com esse objetivo
+
+932
+00:38:04,880 --> 00:38:09,760
+né seu código anda muito manifestando
+
+933
+00:38:07,400 --> 00:38:12,440
+muitos bugs e você percebe que uma das
+
+934
+00:38:09,760 --> 00:38:14,520
+coisas é a má estruturação então de
+
+935
+00:38:12,440 --> 00:38:16,800
+forma contorna isso então vou refaturar
+
+936
+00:38:14,519 --> 00:38:19,079
+o código para deixar ele menos propenso
+
+937
+00:38:16,800 --> 00:38:20,880
+a continuar tendo muitos bugs no futuro
+
+938
+00:38:19,079 --> 00:38:22,440
+a outra coisa que eu já mencionei é
+
+939
+00:38:20,880 --> 00:38:24,000
+facilitar a inclusão de uma nova
+
+940
+00:38:22,440 --> 00:38:26,280
+funcionalidade né como eu tava dizendo
+
+941
+00:38:24,000 --> 00:38:29,199
+70% das refatorações de acordo com os
+
+942
+00:38:26,280 --> 00:38:31,079
+estudos ocorrem em conjunto com mudanças
+
+943
+00:38:29,199 --> 00:38:33,559
+onde você tá o objetivo principal é
+
+944
+00:38:31,079 --> 00:38:35,680
+incluir uma nova funcionalidade você
+
+945
+00:38:33,559 --> 00:38:38,199
+pode reorganizar seu código também
+
+946
+00:38:35,679 --> 00:38:40,199
+quando você tá vendo que a testabilidade
+
+947
+00:38:38,199 --> 00:38:42,679
+do seu código que você vai alterar ela é
+
+948
+00:38:40,199 --> 00:38:44,759
+ruim dificulta a implementação dos
+
+949
+00:38:42,679 --> 00:38:47,838
+testes então você pode por exemplo
+
+950
+00:38:44,760 --> 00:38:52,040
+quebrar um método longo em vários
+
+951
+00:38:47,838 --> 00:38:54,480
+métodos para facilitar a criação de eh
+
+952
+00:38:52,039 --> 00:38:56,559
+testes para cada um desses métodos ao
+
+953
+00:38:54,480 --> 00:38:59,358
+invés de ter o caso de teste que vai
+
+954
+00:38:56,559 --> 00:39:01,838
+exercitar todas as possibilidades ali da
+
+955
+00:38:59,358 --> 00:39:04,239
+daquele método é difícil porque como ele
+
+956
+00:39:01,838 --> 00:39:05,880
+é fácil difícil de compreender eh pode
+
+957
+00:39:04,239 --> 00:39:07,399
+até dificultar você checar se você tá
+
+958
+00:39:05,880 --> 00:39:09,800
+cobrindo todos os casos então você
+
+959
+00:39:07,400 --> 00:39:11,639
+também pode eh no na com os casos de
+
+960
+00:39:09,800 --> 00:39:13,640
+teste né então você pode reestruturar
+
+961
+00:39:11,639 --> 00:39:16,279
+para melhorar ter estabilidade você
+
+962
+00:39:13,639 --> 00:39:18,679
+também pode ter casos onde como a
+
+963
+00:39:16,280 --> 00:39:20,079
+melhoria do design pode ter relação com
+
+964
+00:39:18,679 --> 00:39:21,879
+outro requisito não funcional que não
+
+965
+00:39:20,079 --> 00:39:23,839
+seja testabilidade compreensividade
+
+966
+00:39:21,880 --> 00:39:27,119
+monitoridade você pode fazer uma
+
+967
+00:39:23,838 --> 00:39:29,679
+reestruturação porque você tem um um uma
+
+968
+00:39:27,119 --> 00:39:31,680
+decisão de design código que tá eh
+
+969
+00:39:29,679 --> 00:39:33,838
+levando a queda de desempenho então uma
+
+970
+00:39:31,679 --> 00:39:35,838
+vez um aluno meu aluno na disciplina não
+
+971
+00:39:33,838 --> 00:39:38,199
+meu aluno mas ele tava fazendo a minha
+
+972
+00:39:35,838 --> 00:39:40,400
+disciplina em técnicas de modularização
+
+973
+00:39:38,199 --> 00:39:44,279
+e ele veio ele é era desenvolvedor ele é
+
+974
+00:39:40,400 --> 00:39:46,680
+dono de uma empresa e ele começou ele
+
+975
+00:39:44,280 --> 00:39:49,440
+ele falou que o o design dele tava
+
+976
+00:39:46,679 --> 00:39:51,159
+degradado sobre a ótica de performance e
+
+977
+00:39:49,440 --> 00:39:53,079
+tal e é um dos problemas que ele
+
+978
+00:39:51,159 --> 00:39:55,639
+estruturais que ele descobriu problemas
+
+979
+00:39:53,079 --> 00:39:59,039
+de um design de um método é que uma
+
+980
+00:39:55,639 --> 00:40:01,879
+consulta ao banco ela seria muito mais
+
+981
+00:39:59,039 --> 00:40:04,440
+rápida se ela tiver tivesse fora do laço
+
+982
+00:40:01,880 --> 00:40:06,480
+de um loop do que dentro do laço então
+
+983
+00:40:04,440 --> 00:40:08,358
+ele fez essa transformação né o
+
+984
+00:40:06,480 --> 00:40:10,880
+resultado gerado pelo método seria o
+
+985
+00:40:08,358 --> 00:40:13,078
+mesmo mas ele ganharia em termos de
+
+986
+00:40:10,880 --> 00:40:15,240
+tempo de execução colocando essa
+
+987
+00:40:13,079 --> 00:40:17,400
+consulta fora do código dentro de um
+
+988
+00:40:15,239 --> 00:40:19,639
+laço então você pode melhorar ter em
+
+989
+00:40:17,400 --> 00:40:22,039
+vista eu ten um problema claro aqui de
+
+990
+00:40:19,639 --> 00:40:24,598
+desempenho então eu vou refaturar para
+
+991
+00:40:22,039 --> 00:40:26,239
+melhorar esse problema de desempenho e
+
+992
+00:40:24,599 --> 00:40:28,359
+também isso pode estar como eu di como
+
+993
+00:40:26,239 --> 00:40:30,838
+eu como eu disse que refatoração pode
+
+994
+00:40:28,358 --> 00:40:32,039
+ocorrer em diferentes artefatos você
+
+995
+00:40:30,838 --> 00:40:34,480
+pode notar que você tá tendo muita
+
+996
+00:40:32,039 --> 00:40:36,440
+dificuldade de fazer manutenção ao seu
+
+997
+00:40:34,480 --> 00:40:38,318
+banco de dados e pode ser que o problema
+
+998
+00:40:36,440 --> 00:40:39,720
+seja o próprio esquema conceitual do
+
+999
+00:40:38,318 --> 00:40:42,239
+banco de dados então você tem um
+
+1000
+00:40:39,719 --> 00:40:44,399
+problema claro que é uma má decomposição
+
+1001
+00:40:42,239 --> 00:40:45,598
+dos dados no modelo de dados e aí você
+
+1002
+00:40:44,400 --> 00:40:48,318
+vai fazer uma reestruturação com o
+
+1003
+00:40:45,599 --> 00:40:51,160
+objetivo de melhorar a manutenção do
+
+1004
+00:40:48,318 --> 00:40:53,039
+banco do eh as alterações que vão ser
+
+1005
+00:40:51,159 --> 00:40:54,559
+feitas no futuro sobre bancos de dados
+
+1006
+00:40:53,039 --> 00:40:57,079
+presente ou futuro sobre bancos de dados
+
+1007
+00:40:54,559 --> 00:40:59,880
+o que que determina a importância quando
+
+1008
+00:40:57,079 --> 00:41:02,119
+é quando você realmente tem um objetivo
+
+1009
+00:40:59,880 --> 00:41:04,838
+muito claro na graduação eu dou uma
+
+1010
+00:41:02,119 --> 00:41:08,880
+disciplina onde os alunos uma das
+
+1011
+00:41:04,838 --> 00:41:10,719
+tarefas é realizar eh refatoração em
+
+1012
+00:41:08,880 --> 00:41:12,480
+projetos código aberto então no semestre
+
+1013
+00:41:10,719 --> 00:41:15,679
+passado eles usaram dois projetos o
+
+1014
+00:41:12,480 --> 00:41:19,400
+Elastic Search e o Press DB e aí foi
+
+1015
+00:41:15,679 --> 00:41:22,279
+engraçado que assim eh teve casos de
+
+1016
+00:41:19,400 --> 00:41:24,400
+issos de por requests aceitos mas teve
+
+1017
+00:41:22,280 --> 00:41:26,400
+uma refaturação que o aluno fez que
+
+1018
+00:41:24,400 --> 00:41:29,240
+tinha o seu mérito vamos dizer assim ela
+
+1019
+00:41:26,400 --> 00:41:32,318
+melhorava a compreensão ligeiramente do
+
+1020
+00:41:29,239 --> 00:41:34,279
+código fonte só que era uma classe nada
+
+1021
+00:41:32,318 --> 00:41:36,679
+tocado só uma pessoa era responsável
+
+1022
+00:41:34,280 --> 00:41:38,800
+fazia modificação nela e assim melhorava
+
+1023
+00:41:36,679 --> 00:41:41,118
+um pouquinho a compreensão mas aí o acho
+
+1024
+00:41:38,800 --> 00:41:42,800
+que era do Elastic Surge ó o o revisor
+
+1025
+00:41:41,119 --> 00:41:45,480
+do código fonte o revisor da
+
+1026
+00:41:42,800 --> 00:41:48,599
+contribuição ele disse o seguinte: "Olha
+
+1027
+00:41:45,480 --> 00:41:51,800
+a refatoração tecnicamente tá correta
+
+1028
+00:41:48,599 --> 00:41:54,559
+mas a inclusão dela não traz um
+
+1029
+00:41:51,800 --> 00:41:56,960
+benefício grande porque não vai não vai
+
+1030
+00:41:54,559 --> 00:41:59,400
+aumentar a produtividade de quem de fato
+
+1031
+00:41:56,960 --> 00:42:01,920
+mantém esse código fonte não vai então é
+
+1032
+00:41:59,400 --> 00:42:05,280
+importante isso caracterizar os
+
+1033
+00:42:01,920 --> 00:42:08,039
+benefícios da refatoração a gente vê que
+
+1034
+00:42:05,280 --> 00:42:10,359
+em estudos que a vasta a maioria dos
+
+1035
+00:42:08,039 --> 00:42:13,519
+macheiros dos esmelos dos problemas
+
+1036
+00:42:10,358 --> 00:42:16,199
+micro e macroproas estruturais do código
+
+1037
+00:42:13,519 --> 00:42:18,639
+fonte eles não são refatorados e aí a
+
+1038
+00:42:16,199 --> 00:42:20,919
+gente vê duas atitudes que geralmente o
+
+1039
+00:42:18,639 --> 00:42:23,039
+desenvolvedor ele vai ele tende a
+
+1040
+00:42:20,920 --> 00:42:25,318
+aplicar as atividades de refaturação em
+
+1041
+00:42:23,039 --> 00:42:27,960
+código com múltipla com múltiplos
+
+1042
+00:42:25,318 --> 00:42:30,480
+problemas estruturais por exemplo god
+
+1043
+00:42:27,960 --> 00:42:32,519
+classure envou métodos com múltiplos
+
+1044
+00:42:30,480 --> 00:42:36,920
+problemas além de ser longo ele tem uma
+
+1045
+00:42:32,519 --> 00:42:38,880
+fit env então eh propositadamente ou não
+
+1046
+00:42:36,920 --> 00:42:41,318
+porque a gente não sabe a intenção do
+
+1047
+00:42:38,880 --> 00:42:44,200
+desenvolvedor mas a gente vê que a
+
+1048
+00:42:41,318 --> 00:42:47,480
+maioria das refatizações elas incidem
+
+1049
+00:42:44,199 --> 00:42:50,078
+sobre classes métodos ou pacotes que têm
+
+1050
+00:42:47,480 --> 00:42:53,358
+múltiplos problemas estruturais uma das
+
+1051
+00:42:50,079 --> 00:42:54,559
+nossas hipóteses é que cada tipo de
+
+1052
+00:42:53,358 --> 00:42:57,598
+problema estrutural por exemplo pega um
+
+1053
+00:42:54,559 --> 00:43:00,160
+long method e aí pega um feature inv ele
+
+1054
+00:42:57,599 --> 00:43:02,039
+junto quando ocorre junto significa um
+
+1055
+00:43:00,159 --> 00:43:04,078
+problema mais sério então por exemplo no
+
+1056
+00:43:02,039 --> 00:43:06,039
+caso do long method o método ele pode
+
+1057
+00:43:04,079 --> 00:43:08,280
+ser longo ele pode ter muitas linhas mas
+
+1058
+00:43:06,039 --> 00:43:10,079
+se você raciocinasse só sobre ele você
+
+1059
+00:43:08,280 --> 00:43:11,599
+poderia chegar à conclusão que olha um
+
+1060
+00:43:10,079 --> 00:43:13,359
+método longo mas o algoritmo ele tem que
+
+1061
+00:43:11,599 --> 00:43:16,359
+ficar aí o algoritmo você consegue
+
+1062
+00:43:13,358 --> 00:43:19,400
+compreender bem se ele fica aí dentro
+
+1063
+00:43:16,358 --> 00:43:21,440
+até 100 linhas de código 50 a lógica tá
+
+1064
+00:43:19,400 --> 00:43:24,480
+aí e agora quando você tem uma feature
+
+1065
+00:43:21,440 --> 00:43:26,760
+em V já é um indício extra de que tem
+
+1066
+00:43:24,480 --> 00:43:29,280
+algo errado de fato errado com aquele
+
+1067
+00:43:26,760 --> 00:43:32,000
+método aquele método não é só longo
+
+1068
+00:43:29,280 --> 00:43:34,000
+fisicamente mas ele tá usando muitos
+
+1069
+00:43:32,000 --> 00:43:36,880
+dados de outra classe e não daquela
+
+1070
+00:43:34,000 --> 00:43:40,280
+classe então eu acredito que tem esse
+
+1071
+00:43:36,880 --> 00:43:42,640
+fator não é só o único fator que explica
+
+1072
+00:43:40,280 --> 00:43:45,519
+mas há uma tendência do desenvolvedor
+
+1073
+00:43:42,639 --> 00:43:50,318
+refatorar eh classes que métodos que não
+
+1074
+00:43:45,519 --> 00:43:53,280
+tem só um smell mas múltiplos smells
+
+1075
+00:43:50,318 --> 00:43:56,000
+eh Alessandro você já comentou isso no
+
+1076
+00:43:53,280 --> 00:43:58,079
+outra resposta mas só estendendo um
+
+1077
+00:43:56,000 --> 00:44:00,519
+pouco a discussão né é já deu para
+
+1078
+00:43:58,079 --> 00:44:03,280
+entender que um design o design ele não
+
+1079
+00:44:00,519 --> 00:44:05,719
+necessariamente é uma classe ele não é
+
+1080
+00:44:03,280 --> 00:44:07,880
+um método ou é uma feature né como você
+
+1081
+00:44:05,719 --> 00:44:11,279
+mencionou em linhas de produtos né
+
+1082
+00:44:07,880 --> 00:44:13,920
+design abstração então nesse contexto eu
+
+1083
+00:44:11,280 --> 00:44:17,319
+posso dizer que refatorações por exemplo
+
+1084
+00:44:13,920 --> 00:44:20,240
+mais grandiosas como vou extrair um
+
+1085
+00:44:17,318 --> 00:44:22,079
+serviço do meu código né tenho esse meu
+
+1086
+00:44:20,239 --> 00:44:24,799
+projeto eu quero extrair um serviço e
+
+1087
+00:44:22,079 --> 00:44:27,079
+torná-lo um microsserviço esse tipo de
+
+1088
+00:44:24,800 --> 00:44:30,440
+modificação a gente pode também chamar
+
+1089
+00:44:27,079 --> 00:44:31,680
+de refatoração ou terminologicamente não
+
+1090
+00:44:30,440 --> 00:44:35,760
+faz
+
+1091
+00:44:31,679 --> 00:44:39,318
+sentido então eh Gustavo boa pergunta eh
+
+1092
+00:44:35,760 --> 00:44:41,640
+cada refatoração ela é um conjunto de
+
+1093
+00:44:39,318 --> 00:44:45,000
+modificações que realmente a gente visa
+
+1094
+00:44:41,639 --> 00:44:46,879
+melhorar o design né a gente pode ser o
+
+1095
+00:44:45,000 --> 00:44:49,159
+design tem a ver com decisões né você
+
+1096
+00:44:46,880 --> 00:44:51,800
+depõe depõe também em termos de
+
+1097
+00:44:49,159 --> 00:44:53,519
+componentes a decisão de usar um estilo
+
+1098
+00:44:51,800 --> 00:44:56,200
+arquitetural então você quando escolhe
+
+1099
+00:44:53,519 --> 00:44:58,119
+por exemplo você pode escolher o MVC mas
+
+1100
+00:44:56,199 --> 00:45:01,118
+você pode escolher o estilo arquitetural
+
+1101
+00:44:58,119 --> 00:45:03,160
+em camadas e essa decisão pode se provar
+
+1102
+00:45:01,119 --> 00:45:06,280
+errada com o tempo parece ser a melhor
+
+1103
+00:45:03,159 --> 00:45:08,118
+escolha a melhor decisão né a melhor
+
+1104
+00:45:06,280 --> 00:45:11,040
+decisão de design naquele momento mas
+
+1105
+00:45:08,119 --> 00:45:13,079
+com o tempo ela pode se mostrar incerta
+
+1106
+00:45:11,039 --> 00:45:14,759
+né muitas pessoas usam o estilo
+
+1107
+00:45:13,079 --> 00:45:17,359
+arquitetural porque tá na moda por
+
+1108
+00:45:14,760 --> 00:45:20,119
+exemplo você citou eh microsserviços
+
+1109
+00:45:17,358 --> 00:45:23,400
+serviços né aí você tem muitas empresas
+
+1110
+00:45:20,119 --> 00:45:26,240
+que assim adaptarem as novas tecnologias
+
+1111
+00:45:23,400 --> 00:45:29,240
+acabam migrando para uma arquitetura de
+
+1112
+00:45:26,239 --> 00:45:32,959
+microsserviços às vezes sem uma análise
+
+1113
+00:45:29,239 --> 00:45:35,838
+ampla né da das vantagens e desvantagens
+
+1114
+00:45:32,960 --> 00:45:38,800
+dessa escolha mas o que a gente observa
+
+1115
+00:45:35,838 --> 00:45:42,279
+em projetos é que existem sim essas
+
+1116
+00:45:38,800 --> 00:45:45,760
+refatorações maiores se são eh um
+
+1117
+00:45:42,280 --> 00:45:48,599
+conjunto de modificações onde se visa
+
+1118
+00:45:45,760 --> 00:45:50,960
+melhorar só o design então a gente pode
+
+1119
+00:45:48,599 --> 00:45:54,359
+enxergar ela com uma refaturação mais
+
+1120
+00:45:50,960 --> 00:45:57,639
+complexa decomposta um conjunto de
+
+1121
+00:45:54,358 --> 00:46:00,598
+refatorações menores se você vai extrair
+
+1122
+00:45:57,639 --> 00:46:02,239
+um microsserviço o que que acontece
+
+1123
+00:46:00,599 --> 00:46:04,800
+muitas vezes é quer na verdade o
+
+1124
+00:46:02,239 --> 00:46:06,558
+comportamento é o mesmo mas você quer
+
+1125
+00:46:04,800 --> 00:46:08,880
+reestruturar oferecer aquela
+
+1126
+00:46:06,559 --> 00:46:11,640
+funcionalidade como um serviço
+
+1127
+00:46:08,880 --> 00:46:13,440
+obviamente vão haver novas decisões de
+
+1128
+00:46:11,639 --> 00:46:15,039
+design que a forma de modularizar como
+
+1129
+00:46:13,440 --> 00:46:17,920
+serviço não é a mesma forma de como
+
+1130
+00:46:15,039 --> 00:46:20,279
+modularizar orientado objetos em classes
+
+1131
+00:46:17,920 --> 00:46:22,760
+então pode ter decisões peculiares aí
+
+1132
+00:46:20,280 --> 00:46:25,640
+mas vão ser transformações ainda o o a
+
+1133
+00:46:22,760 --> 00:46:28,559
+interface que era provida por aquele
+
+1134
+00:46:25,639 --> 00:46:30,558
+módulo aquela funcionalidade é é a mesma
+
+1135
+00:46:28,559 --> 00:46:33,280
+mas agora é uma interface direta
+
+1136
+00:46:30,559 --> 00:46:35,280
+disponível no contexto distribuído então
+
+1137
+00:46:33,280 --> 00:46:37,920
+ele pode ser sim visto como a
+
+1138
+00:46:35,280 --> 00:46:40,160
+refatoração deixa de ser refatoração na
+
+1139
+00:46:37,920 --> 00:46:42,358
+minha opinião quando você quer na
+
+1140
+00:46:40,159 --> 00:46:43,960
+verdade é é você vai ter fazer umas
+
+1141
+00:46:42,358 --> 00:46:46,358
+reestruturações mas o objetivo é
+
+1142
+00:46:43,960 --> 00:46:48,079
+aumentar a funcionalidade incluir nova
+
+1143
+00:46:46,358 --> 00:46:50,838
+funcionalidade tão uma funcionalidade de
+
+1144
+00:46:48,079 --> 00:46:53,200
+X sei lá de auditoria que você vai
+
+1145
+00:46:50,838 --> 00:46:55,358
+tornar ele um microsserviço mas você
+
+1146
+00:46:53,199 --> 00:46:57,598
+também tá fazendo isso porque você quer
+
+1147
+00:46:55,358 --> 00:47:01,119
+colocar mais funcionalidades o cara ele
+
+1148
+00:46:57,599 --> 00:47:03,720
+tá querendo eh na verdade dispor de mais
+
+1149
+00:47:01,119 --> 00:47:05,960
+métodos na interface né então quando a
+
+1150
+00:47:03,719 --> 00:47:09,000
+intenção é essa não é bem melhorar o
+
+1151
+00:47:05,960 --> 00:47:12,358
+design é mais vamos dizer assim oferecer
+
+1152
+00:47:09,000 --> 00:47:14,639
+mais possibilidades pro pro programador
+
+1153
+00:47:12,358 --> 00:47:17,480
+mais funcionalidade pro programador
+
+1154
+00:47:14,639 --> 00:47:19,719
+outro caso é troca de frameworks né por
+
+1155
+00:47:17,480 --> 00:47:21,000
+exemplo se você tem um um framework caso
+
+1156
+00:47:19,719 --> 00:47:22,959
+do framework é interessante porque o
+
+1157
+00:47:21,000 --> 00:47:25,358
+framework ele tem um grande impacto
+
+1158
+00:47:22,960 --> 00:47:26,880
+sobre a arquitetura o design ele gera
+
+1159
+00:47:25,358 --> 00:47:28,838
+restrições ao design então quando você
+
+1160
+00:47:26,880 --> 00:47:30,880
+escolhe um framework junto você tá
+
+1161
+00:47:28,838 --> 00:47:33,078
+reusando as decisões de design as
+
+1162
+00:47:30,880 --> 00:47:35,720
+decisões de arquiteturais daquele framer
+
+1163
+00:47:33,079 --> 00:47:39,079
+aí eu vejo dois casos se a troca do
+
+1164
+00:47:35,719 --> 00:47:42,318
+frame eh basicamente oferece os mesmos
+
+1165
+00:47:39,079 --> 00:47:44,519
+serviços mas a arquitetura imposta as
+
+1166
+00:47:42,318 --> 00:47:47,800
+decisões de design impostas por aquele
+
+1167
+00:47:44,519 --> 00:47:49,880
+frame se mostram inadequadas em algum
+
+1168
+00:47:47,800 --> 00:47:52,160
+momento ao longo da evolução aí você
+
+1169
+00:47:49,880 --> 00:47:55,400
+troca o framework com objetivo de
+
+1170
+00:47:52,159 --> 00:47:58,318
+melhorar o design mas sem querer mudar
+
+1171
+00:47:55,400 --> 00:48:01,440
+comportamento aí é uma refaturação agora
+
+1172
+00:47:58,318 --> 00:48:03,800
+quando você é troca um frameor porque
+
+1173
+00:48:01,440 --> 00:48:05,720
+ele tem novas funcionalidades porque ele
+
+1174
+00:48:03,800 --> 00:48:08,240
+permite outros usava um frameor de
+
+1175
+00:48:05,719 --> 00:48:10,279
+persistência X agora você vai usar um Y
+
+1176
+00:48:08,239 --> 00:48:11,799
+mas não porque a arquitetura daquele
+
+1177
+00:48:10,280 --> 00:48:13,920
+framer quer dizer as decisões de design
+
+1178
+00:48:11,800 --> 00:48:17,160
+daquele framework é ruins mas porque ele
+
+1179
+00:48:13,920 --> 00:48:20,240
+fornece mais eh possibilidade de formas
+
+1180
+00:48:17,159 --> 00:48:22,598
+de automatizar transação fazer rollback
+
+1181
+00:48:20,239 --> 00:48:24,358
+de que o anterior era muito primitivo
+
+1182
+00:48:22,599 --> 00:48:26,318
+não tinha essas funcionalidades não
+
+1183
+00:48:24,358 --> 00:48:28,358
+tinha essas possibilidades aí eu diria
+
+1184
+00:48:26,318 --> 00:48:30,838
+que obviamente vai ter um impacto no
+
+1185
+00:48:28,358 --> 00:48:33,400
+design mas é o objetivo não foi melhorar
+
+1186
+00:48:30,838 --> 00:48:36,358
+o design então eu vejo esses casos como
+
+1187
+00:48:33,400 --> 00:48:39,160
+um outro cenário é extração do de um
+
+1188
+00:48:36,358 --> 00:48:41,799
+módulo né do seu código se não é código
+
+1189
+00:48:39,159 --> 00:48:44,399
+morto eu eu diria que você tá retirando
+
+1190
+00:48:41,800 --> 00:48:46,318
+funcionalidade você pode até que faz
+
+1191
+00:48:44,400 --> 00:48:49,358
+aplicar algumas transformações
+
+1192
+00:48:46,318 --> 00:48:51,639
+estruturais mas ali o seu objetivo era
+
+1193
+00:48:49,358 --> 00:48:54,119
+tirar uma funcionalidade pode ser que é
+
+1194
+00:48:51,639 --> 00:48:57,118
+parte desse processo tenha algumas
+
+1195
+00:48:54,119 --> 00:48:59,280
+refatorações mas o objetivo ali era
+
+1196
+00:48:57,119 --> 00:49:02,519
+reduzir funcionalidade então não diria
+
+1197
+00:48:59,280 --> 00:49:04,119
+que tirar o módulo ele pelo fato de
+
+1198
+00:49:02,519 --> 00:49:07,239
+distinguir aquela funcionalidade do
+
+1199
+00:49:04,119 --> 00:49:09,160
+código fonte ela seja uma refaturação é
+
+1200
+00:49:07,239 --> 00:49:11,719
+atrelado a esses comentários que eu fiz
+
+1201
+00:49:09,159 --> 00:49:14,480
+é importante notar que às vezes é
+
+1202
+00:49:11,719 --> 00:49:16,639
+realmente difícil segregar quando eu tô
+
+1203
+00:49:14,480 --> 00:49:19,240
+fazendo refatoração e quando eu tô
+
+1204
+00:49:16,639 --> 00:49:21,838
+fazendo outras atividades de mudança
+
+1205
+00:49:19,239 --> 00:49:23,199
+porque o que acontece muitas vezes é que
+
+1206
+00:49:21,838 --> 00:49:26,239
+a gente tá fazendo as duas coisas ao
+
+1207
+00:49:23,199 --> 00:49:28,879
+mesmo tempo talvez um objetivo dominante
+
+1208
+00:49:26,239 --> 00:49:31,199
+né que seja sei lá incluir uma nova
+
+1209
+00:49:28,880 --> 00:49:32,640
+funcionalidade mas pode ser que ao longo
+
+1210
+00:49:31,199 --> 00:49:34,439
+do processo porque tem mudanças que às
+
+1211
+00:49:32,639 --> 00:49:37,358
+vezes duram meses né você vê você estuda
+
+1212
+00:49:34,440 --> 00:49:39,679
+os projetos open source empurre quest
+
+1213
+00:49:37,358 --> 00:49:43,000
+até ele ser aceito leva 2 meses 3 meses
+
+1214
+00:49:39,679 --> 00:49:45,000
+4 meses né desde que começou alguém o
+
+1215
+00:49:43,000 --> 00:49:46,400
+proponente houve uma primeira proposição
+
+1216
+00:49:45,000 --> 00:49:49,679
+de uma mudança para resolver aquela
+
+1217
+00:49:46,400 --> 00:49:51,680
+tarefa até o currículo demorar meses a
+
+1218
+00:49:49,679 --> 00:49:52,838
+gente fez um estudo onde a gente ficou
+
+1219
+00:49:51,679 --> 00:49:54,719
+analisando as discussões dos
+
+1220
+00:49:52,838 --> 00:49:56,960
+desenvolvedores desde o início da
+
+1221
+00:49:54,719 --> 00:49:59,279
+mudança primeira proposta de mudança até
+
+1222
+00:49:56,960 --> 00:50:02,519
+a aceitação do P request é muito
+
+1223
+00:49:59,280 --> 00:50:04,599
+interessante como na ISO objetivo era um
+
+1224
+00:50:02,519 --> 00:50:07,000
+claro sei lá era adicionar uma nova
+
+1225
+00:50:04,599 --> 00:50:09,280
+feature ou corrigir um bug e ao longo do
+
+1226
+00:50:07,000 --> 00:50:11,318
+processo desenvolvedores vão observando
+
+1227
+00:50:09,280 --> 00:50:13,359
+outros problemas no Código fonte
+
+1228
+00:50:11,318 --> 00:50:14,838
+observando que outras tarefas como
+
+1229
+00:50:13,358 --> 00:50:16,558
+refaturação são necessárias para
+
+1230
+00:50:14,838 --> 00:50:18,159
+alcançar aquele macroobjetivo ou pode
+
+1231
+00:50:16,559 --> 00:50:20,760
+ser que você tenha três objetivos em
+
+1232
+00:50:18,159 --> 00:50:24,078
+paralelo mesmo né que vão além do que tá
+
+1233
+00:50:20,760 --> 00:50:27,200
+na na ISO lógico a boa prática diz que
+
+1234
+00:50:24,079 --> 00:50:30,119
+você deveria fazer um comiteta para
+
+1235
+00:50:27,199 --> 00:50:32,199
+resolver aquela aquela tarefa mas
+
+1236
+00:50:30,119 --> 00:50:34,318
+naturalmente acontece de que você vai
+
+1237
+00:50:32,199 --> 00:50:37,358
+introduzir um código fonte aí você
+
+1238
+00:50:34,318 --> 00:50:40,000
+estrutura mal o código fonte e chegou um
+
+1239
+00:50:37,358 --> 00:50:42,078
+revisor um colaborador e diz: "Não você
+
+1240
+00:50:40,000 --> 00:50:44,000
+tem que reestruturar porque é dessa
+
+1241
+00:50:42,079 --> 00:50:45,960
+forma não tá bem decomposto os métodos
+
+1242
+00:50:44,000 --> 00:50:48,719
+dessa classe e tal" eu diria assim que
+
+1243
+00:50:45,960 --> 00:50:50,519
+não é é possível desassociar essas
+
+1244
+00:50:48,719 --> 00:50:52,399
+coisas então as pessoas fazem
+
+1245
+00:50:50,519 --> 00:50:56,079
+modificações com objetivo de melhorar o
+
+1246
+00:50:52,400 --> 00:50:57,760
+design mas às vezes eh não dá para ser
+
+1247
+00:50:56,079 --> 00:51:00,359
+se você olha para um comite você vai
+
+1248
+00:50:57,760 --> 00:51:02,240
+falar se teve refatoração ou não sem
+
+1249
+00:51:00,358 --> 00:51:04,159
+participar do processo muitas vezes até
+
+1250
+00:51:02,239 --> 00:51:05,598
+difícil desassociar porque ele pode ter
+
+1251
+00:51:04,159 --> 00:51:07,838
+feito ali
+
+1252
+00:51:05,599 --> 00:51:10,280
+refatorações mas como você vê a sua
+
+1253
+00:51:07,838 --> 00:51:11,759
+janela o código final gerado você não
+
+1254
+00:51:10,280 --> 00:51:15,240
+vai saber porque realmente muitas vezes
+
+1255
+00:51:11,760 --> 00:51:17,400
+a a refatoração entrecorta as outras
+
+1256
+00:51:15,239 --> 00:51:19,039
+modificações que são feitas né no mesmo
+
+1257
+00:51:17,400 --> 00:51:21,920
+comite
+
+1258
+00:51:19,039 --> 00:51:24,558
+então Alessandro por tudo que você falou
+
+1259
+00:51:21,920 --> 00:51:27,358
+pra gente até agora né fica claro que
+
+1260
+00:51:24,559 --> 00:51:29,480
+refator tá na agenda do desenvolvedor né
+
+1261
+00:51:27,358 --> 00:51:30,639
+pelo que você observa nos seus trabalhos
+
+1262
+00:51:29,480 --> 00:51:33,079
+refaturar está na agenda do
+
+1263
+00:51:30,639 --> 00:51:36,118
+desenvolvedor mas o quão comum é os
+
+1264
+00:51:33,079 --> 00:51:38,400
+desenvolvedores refatorem código ou será
+
+1265
+00:51:36,119 --> 00:51:39,960
+que se fala muito e se faz pouco eu
+
+1266
+00:51:38,400 --> 00:51:43,039
+acredito que muitas vezes tá na agenda
+
+1267
+00:51:39,960 --> 00:51:45,760
+do desenvolvedor né eh hoje com boa
+
+1268
+00:51:43,039 --> 00:51:47,239
+parte das empresas adotando métodos
+
+1269
+00:51:45,760 --> 00:51:49,880
+ágeis e também
+
+1270
+00:51:47,239 --> 00:51:52,879
+adotando esse modelo de
+
+1271
+00:51:49,880 --> 00:51:55,039
+desenvolvimento a Laget Hubas Software
+
+1272
+00:51:52,880 --> 00:51:56,798
+Development quando você tem pessoas
+
+1273
+00:51:55,039 --> 00:51:58,880
+múltiplas múltiplos desenvolvedores
+
+1274
+00:51:56,798 --> 00:52:01,119
+contribuindo para uma única modificação
+
+1275
+00:51:58,880 --> 00:52:03,960
+para um único comite revisando o código
+
+1276
+00:52:01,119 --> 00:52:07,280
+fonte acaba se tornando parte da agência
+
+1277
+00:52:03,960 --> 00:52:09,519
+não explicitamente mas de forma reativa
+
+1278
+00:52:07,280 --> 00:52:11,079
+também porque vai ter outros olhos
+
+1279
+00:52:09,519 --> 00:52:11,960
+olhando para aquele código fonte
+
+1280
+00:52:11,079 --> 00:52:14,240
+julgando
+
+1281
+00:52:11,960 --> 00:52:16,599
+ou não e é engraçado que tem tem um
+
+1282
+00:52:14,239 --> 00:52:18,959
+estudo não muito recente mas um estudo
+
+1283
+00:52:16,599 --> 00:52:21,318
+que foi publicado pelo pessoal da FMG
+
+1284
+00:52:18,960 --> 00:52:23,960
+Marco Tul colegas no sistema brasileiro
+
+1285
+00:52:21,318 --> 00:52:27,279
+de sistema de informação que ele que
+
+1286
+00:52:23,960 --> 00:52:30,119
+eles mostram que a maioria das se eu não
+
+1287
+00:52:27,280 --> 00:52:33,640
+me engano cerca de 40% se eu não me
+
+1288
+00:52:30,119 --> 00:52:35,440
+engano das da das razões por rejeição de
+
+1289
+00:52:33,639 --> 00:52:37,719
+por request estão relacionados com
+
+1290
+00:52:35,440 --> 00:52:40,798
+design então para quem trabalha nesse
+
+1291
+00:52:37,719 --> 00:52:43,558
+modo desenvolvimento colaborativo acaba
+
+1292
+00:52:40,798 --> 00:52:45,759
+isso sendo parte natural da agenda agora
+
+1293
+00:52:43,559 --> 00:52:47,960
+existem diferentes situações tem
+
+1294
+00:52:45,760 --> 00:52:50,319
+sistemas que eu conheço que eles são
+
+1295
+00:52:47,960 --> 00:52:52,440
+construídos para realmente já serem
+
+1296
+00:52:50,318 --> 00:52:54,920
+usados por uma única pessoa e serem
+
+1297
+00:52:52,440 --> 00:52:57,599
+usados a curto prazo por exemplo tem
+
+1298
+00:52:54,920 --> 00:52:59,480
+projetos que a gente eh realiza não vou
+
+1299
+00:52:57,599 --> 00:53:02,160
+falar o nome da empresa mas é uma
+
+1300
+00:52:59,480 --> 00:53:05,519
+empresa grande onde ela tem um setor
+
+1301
+00:53:02,159 --> 00:53:07,239
+onde ela faz muito projetos com academia
+
+1302
+00:53:05,519 --> 00:53:10,920
+e tem muitos sistemas são construídos
+
+1303
+00:53:07,239 --> 00:53:13,479
+para durar 6 meses para durar um ano ou
+
+1304
+00:53:10,920 --> 00:53:15,680
+ele é parte de um projeto de pesquisa
+
+1305
+00:53:13,480 --> 00:53:17,559
+ele de fato vai ser concluído naquele
+
+1306
+00:53:15,679 --> 00:53:20,358
+espaço de tempo um mês 2 meses três
+
+1307
+00:53:17,559 --> 00:53:22,519
+meses então no caso desses
+
+1308
+00:53:20,358 --> 00:53:25,239
+desenvolvedores não necessariamente a
+
+1309
+00:53:22,519 --> 00:53:27,440
+refatoração é parte da agenda eu também
+
+1310
+00:53:25,239 --> 00:53:29,639
+vejo um outro cenário seguinte que já
+
+1311
+00:53:27,440 --> 00:53:32,280
+aconteceu em aluno com aluno meu
+
+1312
+00:53:29,639 --> 00:53:35,239
+trabalhando de caso numa startup aqui no
+
+1313
+00:53:32,280 --> 00:53:37,559
+Rio de Janeiro de eh sistema ser
+
+1314
+00:53:35,239 --> 00:53:40,078
+construído sem qualquer preocupação em
+
+1315
+00:53:37,559 --> 00:53:41,839
+manter a saúde do design vai virando um
+
+1316
+00:53:40,079 --> 00:53:44,440
+monolito um sistema muito mal
+
+1317
+00:53:41,838 --> 00:53:47,719
+estruturado aí a empresa que contratou o
+
+1318
+00:53:44,440 --> 00:53:50,079
+desenvolvimento a usuário ou cliente
+
+1319
+00:53:47,719 --> 00:53:52,439
+contratou o desenvolvimento tá vendo que
+
+1320
+00:53:50,079 --> 00:53:54,599
+a empresa que desenvolveu tá demorando
+
+1321
+00:53:52,440 --> 00:53:57,639
+muito para atender as demandas de
+
+1322
+00:53:54,599 --> 00:54:00,280
+manutenção resolver as e começa a
+
+1323
+00:53:57,639 --> 00:54:02,318
+questionar a eficácia eficiência daquela
+
+1324
+00:54:00,280 --> 00:54:04,559
+organização então ocorre casos por
+
+1325
+00:54:02,318 --> 00:54:07,358
+exemplo como caso dessa startup dela
+
+1326
+00:54:04,559 --> 00:54:09,400
+receber um projeto que foi desenvolvido
+
+1327
+00:54:07,358 --> 00:54:11,558
+aparente com pouca nenhuma preocupação
+
+1328
+00:54:09,400 --> 00:54:14,519
+com a qualidade do design mas um código
+
+1329
+00:54:11,559 --> 00:54:18,519
+assim realmente monolito mal estruturado
+
+1330
+00:54:14,519 --> 00:54:20,239
+código espaguete e ela é paga ela é é e
+
+1331
+00:54:18,519 --> 00:54:22,400
+o investimento daquela organização é
+
+1332
+00:54:20,239 --> 00:54:24,318
+justamente para rejuvenescer o código
+
+1333
+00:54:22,400 --> 00:54:26,039
+fonte que é de um sistema que foi
+
+1334
+00:54:24,318 --> 00:54:28,440
+construído com com desenvolvedores
+
+1335
+00:54:26,039 --> 00:54:29,838
+aparentemente sem refatoração na agenda
+
+1336
+00:54:28,440 --> 00:54:32,639
+então eu diria assim que nem sempre tá
+
+1337
+00:54:29,838 --> 00:54:34,880
+na agenda do desenvolvedor mas eu acho
+
+1338
+00:54:32,639 --> 00:54:37,039
+que bons engenheiros de software na
+
+1339
+00:54:34,880 --> 00:54:38,920
+maioria dos contextos onde a ideia que o
+
+1340
+00:54:37,039 --> 00:54:41,679
+software dure por muito tempo tem um
+
+1341
+00:54:38,920 --> 00:54:43,680
+tempo de vida longo é isso acaba eh de
+
+1342
+00:54:41,679 --> 00:54:46,078
+uma forma de outra fazendo parte da
+
+1343
+00:54:43,679 --> 00:54:48,118
+agenda eu vejo muitos sistemas fechados
+
+1344
+00:54:46,079 --> 00:54:50,119
+que diferente de projetos open source
+
+1345
+00:54:48,119 --> 00:54:53,440
+onde refaturação aparece de forma
+
+1346
+00:54:50,119 --> 00:54:56,280
+homogênea ao longo do da história né dos
+
+1347
+00:54:53,440 --> 00:54:58,440
+comites do do sistema eu vejo
+
+1348
+00:54:56,280 --> 00:55:01,000
+organizações que não se preocupam com o
+
+1349
+00:54:58,440 --> 00:55:04,720
+design ou refatorar até um determinado
+
+1350
+00:55:01,000 --> 00:55:06,280
+ponto mas aí não tem jeito aí vai mexer
+
+1351
+00:55:04,719 --> 00:55:08,000
+num código que ele imaginava que num
+
+1352
+00:55:06,280 --> 00:55:09,920
+modo que ele imaginava que não ia mexer
+
+1353
+00:55:08,000 --> 00:55:12,719
+mas os requisitos são difíceis de serem
+
+1354
+00:55:09,920 --> 00:55:15,318
+preditos né então aí acaba que tem que
+
+1355
+00:55:12,719 --> 00:55:17,558
+acabar eh eh gastando bastante tempo
+
+1356
+00:55:15,318 --> 00:55:20,279
+reestruturando parte do software não era
+
+1357
+00:55:17,559 --> 00:55:21,599
+parte da agenda antes mas devido à novas
+
+1358
+00:55:20,280 --> 00:55:23,760
+demandas devido os requisitos que
+
+1359
+00:55:21,599 --> 00:55:26,559
+aparecem acaba fazendo parte da agenda
+
+1360
+00:55:23,760 --> 00:55:28,599
+eu eu eu diria assim se é comum os
+
+1361
+00:55:26,559 --> 00:55:30,400
+desenvolvedores refatorarem o código
+
+1362
+00:55:28,599 --> 00:55:32,760
+fonte acho que varia de projeto para
+
+1363
+00:55:30,400 --> 00:55:35,240
+projeto e de novo tá muito relacionado
+
+1364
+00:55:32,760 --> 00:55:38,079
+com o quão o desenvolvedor já sabe que
+
+1365
+00:55:35,239 --> 00:55:40,000
+vai manter vai ter que modificar aquele
+
+1366
+00:55:38,079 --> 00:55:43,240
+código fonte ou aquele código vai ser
+
+1367
+00:55:40,000 --> 00:55:45,159
+lido por alguém as razões para refatorar
+
+1368
+00:55:43,239 --> 00:55:48,000
+como eu disse os objetivos são os mais
+
+1369
+00:55:45,159 --> 00:55:50,519
+variados mas acho que um uma coisa que
+
+1370
+00:55:48,000 --> 00:55:51,920
+tem que ser esclarecida principalmente
+
+1371
+00:55:50,519 --> 00:55:53,920
+para as pessoas que estão entrando na
+
+1372
+00:55:51,920 --> 00:55:55,200
+área ou desenvolvedores talvez não tenha
+
+1373
+00:55:53,920 --> 00:55:59,358
+tanto experiência desenvolvedores
+
+1374
+00:55:55,199 --> 00:56:01,879
+novatos é que eh não é assim não precisa
+
+1375
+00:55:59,358 --> 00:56:03,358
+necessariamente ter um smell de CO um
+
+1376
+00:56:01,880 --> 00:56:05,760
+dos conhecidos por exemplo catálogo do
+
+1377
+00:56:03,358 --> 00:56:08,679
+follow uma classe grande um mestro
+
+1378
+00:56:05,760 --> 00:56:10,000
+grande não precisa ser o problema
+
+1379
+00:56:08,679 --> 00:56:12,399
+estrutural o problema do design não
+
+1380
+00:56:10,000 --> 00:56:15,079
+precisa ser Smel catalogado porque tem
+
+1381
+00:56:12,400 --> 00:56:18,358
+muitos problemas de design mesmo gerais
+
+1382
+00:56:15,079 --> 00:56:21,599
+que não estão catalogados na web ou não
+
+1383
+00:56:18,358 --> 00:56:24,880
+ou não tão num livro mas talvez um esmel
+
+1384
+00:56:21,599 --> 00:56:27,920
+específico ali do do tipo de arquitetura
+
+1385
+00:56:24,880 --> 00:56:30,798
+do domínio né um esmel do domínio então
+
+1386
+00:56:27,920 --> 00:56:32,920
+a refaturação ela pode ocorrer não
+
+1387
+00:56:30,798 --> 00:56:34,159
+necessariamente quando é para resolver
+
+1388
+00:56:32,920 --> 00:56:37,358
+um problema de design associado com
+
+1389
+00:56:34,159 --> 00:56:39,719
+problemas com eh smells clássicos ou tão
+
+1390
+00:56:37,358 --> 00:56:41,838
+catalogados em algum lugar
+
+1391
+00:56:39,719 --> 00:56:44,159
+então Alessandro conversando com o
+
+1392
+00:56:41,838 --> 00:56:46,159
+Marcelo Maia no nosso último episódio a
+
+1393
+00:56:44,159 --> 00:56:48,759
+gente falou bastante sobre Code Smells
+
+1394
+00:56:46,159 --> 00:56:51,000
+né que refatoração tá muito alinhado ali
+
+1395
+00:56:48,760 --> 00:56:53,799
+com Cels e uma das coisas que o Marcelo
+
+1396
+00:56:51,000 --> 00:56:56,960
+mencionou era que se o desenvolvedor não
+
+1397
+00:56:53,798 --> 00:56:59,400
+tiver apoiado por testes automatizados
+
+1398
+00:56:56,960 --> 00:57:01,720
+uma refatoração para remover um possível
+
+1399
+00:56:59,400 --> 00:57:04,358
+coach mel pode acabar sendo um tiro no
+
+1400
+00:57:01,719 --> 00:57:06,639
+pé né o cara vai refatorar e acaba que
+
+1401
+00:57:04,358 --> 00:57:09,358
+insere um bug por que que isso acontece
+
+1402
+00:57:06,639 --> 00:57:12,920
+né é difícil refaturar tem refatorações
+
+1403
+00:57:09,358 --> 00:57:12,920
+que são desafiadoras
+
+1404
+00:57:13,519 --> 00:57:18,639
+excelente pergunta eu diria antes de de
+
+1405
+00:57:16,280 --> 00:57:21,160
+mais nada que qualquer modificação que
+
+1406
+00:57:18,639 --> 00:57:24,078
+você faça no programa sem a presença de
+
+1407
+00:57:21,159 --> 00:57:26,598
+teste traz risco pode ser refatoração
+
+1408
+00:57:24,079 --> 00:57:28,680
+pode ser você incluir uma nova feature
+
+1409
+00:57:26,599 --> 00:57:31,599
+pode ser você corrigir um bug toda e
+
+1410
+00:57:28,679 --> 00:57:34,118
+qualquer mudança ela traz risco se você
+
+1411
+00:57:31,599 --> 00:57:36,200
+não tem os testes adequados para eh
+
+1412
+00:57:34,119 --> 00:57:38,079
+garantir que o comportamento real do
+
+1413
+00:57:36,199 --> 00:57:40,239
+programa as após as
+
+1414
+00:57:38,079 --> 00:57:42,318
+modificações eh ela corresponde ao
+
+1415
+00:57:40,239 --> 00:57:44,558
+comportamento esperado então isso é meio
+
+1416
+00:57:42,318 --> 00:57:47,119
+que inerente a qualquer mudança o lado
+
+1417
+00:57:44,559 --> 00:57:49,680
+dessa pergunta é: será que a refatoração
+
+1418
+00:57:47,119 --> 00:57:52,039
+sem testes sem a presença de testes que
+
+1419
+00:57:49,679 --> 00:57:54,879
+cobrem o código a ser refatorado são
+
+1420
+00:57:52,039 --> 00:57:57,480
+adequados ão a cobertura razoável código
+
+1421
+00:57:54,880 --> 00:58:01,160
+sendo refaturado ela é mais arriscada do
+
+1422
+00:57:57,480 --> 00:58:03,318
+que outros tipos de mudança eu diria que
+
+1423
+00:58:01,159 --> 00:58:05,960
+primeiro realmente tem que ter teste é
+
+1424
+00:58:03,318 --> 00:58:07,838
+tanto que se você e isso também acontece
+
+1425
+00:58:05,960 --> 00:58:10,199
+com os alunos lá da graduação que
+
+1426
+00:58:07,838 --> 00:58:12,400
+trabalham em adicionar se você não tem
+
+1427
+00:58:10,199 --> 00:58:15,000
+os testes se você escreve se você
+
+1428
+00:58:12,400 --> 00:58:17,280
+refatória o código e você não reflete
+
+1429
+00:58:15,000 --> 00:58:19,079
+antes o que precisa ser alterado no
+
+1430
+00:58:17,280 --> 00:58:21,920
+código de teste devido aquela
+
+1431
+00:58:19,079 --> 00:58:23,960
+reestruturação ou não e não cria novos
+
+1432
+00:58:21,920 --> 00:58:26,318
+casos de teste que são necessários o seu
+
+1433
+00:58:23,960 --> 00:58:28,679
+a sua contribuição vai ser rejeitada
+
+1434
+00:58:26,318 --> 00:58:31,159
+então é super importante mais nada na
+
+1435
+00:58:28,679 --> 00:58:33,879
+minha opinião bom engenheiro ele tem que
+
+1436
+00:58:31,159 --> 00:58:36,279
+primeiro antes de começar a executar
+
+1437
+00:58:33,880 --> 00:58:38,720
+isso como qualquer na minha opinião como
+
+1438
+00:58:36,280 --> 00:58:40,039
+programação em geral né qualquer
+
+1439
+00:58:38,719 --> 00:58:41,639
+modificação qualquer módulo que você
+
+1440
+00:58:40,039 --> 00:58:43,960
+inclui eu acho que você deve pensar na
+
+1441
+00:58:41,639 --> 00:58:46,798
+específica porque o teste não é
+
+1442
+00:58:43,960 --> 00:58:49,199
+especificação né mas o teste ele traz
+
+1443
+00:58:46,798 --> 00:58:51,038
+traz alguns exemplos associados com a
+
+1444
+00:58:49,199 --> 00:58:52,838
+especificação daquele módulo então uma
+
+1445
+00:58:51,039 --> 00:58:55,039
+especificação vamos dizer assim parcial
+
+1446
+00:58:52,838 --> 00:58:58,318
+então acho que é importante escrever eh
+
+1447
+00:58:55,039 --> 00:59:00,280
+os testes os testes antes né e ter
+
+1448
+00:58:58,318 --> 00:59:02,440
+testes primo que eu escreva antes ela
+
+1449
+00:59:00,280 --> 00:59:04,119
+refator primeiro mas em algum momento
+
+1450
+00:59:02,440 --> 00:59:07,639
+mas o ideal acho que era primeiro mais
+
+1451
+00:59:04,119 --> 00:59:10,000
+nada pensar sobre os testes até porque
+
+1452
+00:59:07,639 --> 00:59:12,318
+se eh isso é importante porque antes de
+
+1453
+00:59:10,000 --> 00:59:14,480
+começar a fazer a refaturação se você já
+
+1454
+00:59:12,318 --> 00:59:16,798
+planeja os testes você pode chegar à
+
+1455
+00:59:14,480 --> 00:59:19,039
+conclusão que é difícil escrever os
+
+1456
+00:59:16,798 --> 00:59:20,798
+testes para para devido aquela nova
+
+1457
+00:59:19,039 --> 00:59:23,119
+reestruturação e num tempo que eu tenho
+
+1458
+00:59:20,798 --> 00:59:24,599
+disponível né então primeiro é
+
+1459
+00:59:23,119 --> 00:59:27,160
+importante planejar os testes é
+
+1460
+00:59:24,599 --> 00:59:29,200
+importante escrever os testes e isso
+
+1461
+00:59:27,159 --> 00:59:31,759
+pode até eh ser um
+
+1462
+00:59:29,199 --> 00:59:34,000
+impeditivo eh por exemplo se a cobertura
+
+1463
+00:59:31,760 --> 00:59:35,280
+tem que ser maior ou pode ser um
+
+1464
+00:59:34,000 --> 00:59:37,318
+impeditivo o desenvolvedor falou: "Ó
+
+1465
+00:59:35,280 --> 00:59:39,839
+isso aqui talvez o o custo que eu vou
+
+1466
+00:59:37,318 --> 00:59:42,519
+ter reestruturando mais escrever os
+
+1467
+00:59:39,838 --> 00:59:44,558
+testes não compensa o benefício que eu
+
+1468
+00:59:42,519 --> 00:59:47,400
+gostaria de ter." Então esse é algo
+
+1469
+00:59:44,559 --> 00:59:50,960
+importante tem alguns estudos aí que
+
+1470
+00:59:47,400 --> 00:59:53,240
+dizem que alguns tipos de refaturação
+
+1471
+00:59:50,960 --> 00:59:55,039
+induzem ou introduzem bugs com
+
+1472
+00:59:53,239 --> 00:59:56,598
+frequência eu diria assim que esses
+
+1473
+00:59:55,039 --> 00:59:58,720
+estudos são interessantes mas eu acho
+
+1474
+00:59:56,599 --> 01:00:01,400
+que a gente tem ainda uma longa
+
+1475
+00:59:58,719 --> 01:00:04,038
+trajetória para entender isso por quê a
+
+1476
+01:00:01,400 --> 01:00:07,358
+metodologia que esses estudos usam para
+
+1477
+01:00:04,039 --> 01:00:09,039
+relacionar o bug com a refaturação são
+
+1478
+01:00:07,358 --> 01:00:10,598
+ainda e é importante que tenham essas
+
+1479
+01:00:09,039 --> 01:00:12,480
+metodologias mas a gente precisa de
+
+1480
+01:00:10,599 --> 01:00:14,680
+aperfeiçoar para realmente saber se as
+
+1481
+01:00:12,480 --> 01:00:16,358
+refaturações introduzem bugs geralmente
+
+1482
+01:00:14,679 --> 01:00:19,199
+eles são eh eles olham pro seguinte: ah
+
+1483
+01:00:16,358 --> 01:00:22,119
+se ocorreu um bug naquele elemento que
+
+1484
+01:00:19,199 --> 01:00:24,118
+foi fatorado então independente do ponto
+
+1485
+01:00:22,119 --> 01:00:27,000
+da história então tem relação tem outras
+
+1486
+01:00:24,119 --> 01:00:30,318
+metodologias que olham a ocorrência ah
+
+1487
+01:00:27,000 --> 01:00:32,838
+eh se ocorreu no mesmo comit o bug então
+
+1488
+01:00:30,318 --> 01:00:35,038
+o o refatoração induziu às vezes usa até
+
+1489
+01:00:32,838 --> 01:00:36,880
+a palavra introduziu o bug como a gente
+
+1490
+01:00:35,039 --> 01:00:39,160
+sabe por exemplo pega o extract method o
+
+1491
+01:00:36,880 --> 01:00:41,798
+extract method que é um dos estudos diz
+
+1492
+01:00:39,159 --> 01:00:44,838
+que é uma refatoração que e induz ou
+
+1493
+01:00:41,798 --> 01:00:46,960
+introduz bug é questionável de acordo
+
+1494
+01:00:44,838 --> 01:00:50,440
+com essa metodologia utilizada se foi
+
+1495
+01:00:46,960 --> 01:00:53,318
+ele que de fato que introduziu porque o
+
+1496
+01:00:50,440 --> 01:00:56,960
+Strack Métod de acordo com estudos ele é
+
+1497
+01:00:53,318 --> 01:00:58,838
+o que ocorre praticamente não vou dizer
+
+1498
+01:00:56,960 --> 01:01:01,440
+todas as vezes mas 80% das vezes que
+
+1499
+01:00:58,838 --> 01:01:03,159
+você usa extract method é numa mudança
+
+1500
+01:01:01,440 --> 01:01:05,400
+que tem um outro propósito que não
+
+1501
+01:01:03,159 --> 01:01:07,798
+melhorar o design é introduzir uma
+
+1502
+01:01:05,400 --> 01:01:10,400
+feature é ajudar na correção de um bug
+
+1503
+01:01:07,798 --> 01:01:13,000
+então só pelo fato de ter ocorrido no
+
+1504
+01:01:10,400 --> 01:01:14,480
+mesmo comit eu não sei a minha opinião é
+
+1505
+01:01:13,000 --> 01:01:18,239
+que não dá para afirmar que o extract
+
+1506
+01:01:14,480 --> 01:01:20,199
+method é a o mecânicas os passos que se
+
+1507
+01:01:18,239 --> 01:01:22,759
+segue para implementar o stract method
+
+1508
+01:01:20,199 --> 01:01:25,038
+que é selecionar o código fonte do o
+
+1509
+01:01:22,760 --> 01:01:27,559
+método de origem que vai ser extraído
+
+1510
+01:01:25,039 --> 01:01:30,240
+criar declarar um novo método e e
+
+1511
+01:01:27,559 --> 01:01:32,720
+arrastar mover o código que foi
+
+1512
+01:01:30,239 --> 01:01:35,358
+selecionado pro novo método e atualizar
+
+1513
+01:01:32,719 --> 01:01:36,959
+os clientes e isso foi o que introduziu
+
+1514
+01:01:35,358 --> 01:01:38,598
+bug se ele tá ocorrendo com outras
+
+1515
+01:01:36,960 --> 01:01:41,880
+mudanças né então isso é muito difícil
+
+1516
+01:01:38,599 --> 01:01:44,838
+de dizer um estudo que uma aluna minha
+
+1517
+01:01:41,880 --> 01:01:47,838
+realizou no passado ela tentou replicar
+
+1518
+01:01:44,838 --> 01:01:50,719
+a gente não confiava muito na
+
+1519
+01:01:47,838 --> 01:01:52,759
+metodologia e a gente tentou replicar o
+
+1520
+01:01:50,719 --> 01:01:56,679
+estudo mas aí tendo uma análise caso a
+
+1521
+01:01:52,760 --> 01:01:58,960
+caso tipo pegava lá o o a a a mudança
+
+1522
+01:01:56,679 --> 01:02:01,159
+que incluia o refactoring ou só o ref se
+
+1523
+01:01:58,960 --> 01:02:04,358
+fosse uma um comit que só envolvia
+
+1524
+01:02:01,159 --> 01:02:07,798
+refactoring via a descrição do bug e vi
+
+1525
+01:02:04,358 --> 01:02:10,000
+e entendia olhava pra correção e via
+
+1526
+01:02:07,798 --> 01:02:12,920
+essa refaturação de tinha uma relação na
+
+1527
+01:02:10,000 --> 01:02:16,599
+maioria dos casos que a gente pegou foi
+
+1528
+01:02:12,920 --> 01:02:20,318
+uma amostra pequena de 200 300 casos mas
+
+1529
+01:02:16,599 --> 01:02:23,838
+a gente não via essa relação né no nos
+
+1530
+01:02:20,318 --> 01:02:26,038
+mesmos projetos que um um estudo eh
+
+1531
+01:02:23,838 --> 01:02:29,358
+tinha sido feito anteriormente aí a
+
+1532
+01:02:26,039 --> 01:02:31,319
+gente que acabou bom então é difícil
+
+1533
+01:02:29,358 --> 01:02:32,480
+dizer aparentemente pode ser que não
+
+1534
+01:02:31,318 --> 01:02:34,038
+tenha acontecido o que que a gente fez a
+
+1535
+01:02:32,480 --> 01:02:37,240
+gente seguiu uma metodologia diferente
+
+1536
+01:02:34,039 --> 01:02:40,240
+olha vamos ver no fall o folder diz o
+
+1537
+01:02:37,239 --> 01:02:41,919
+seguinte fer diz que um dos objetivos de
+
+1538
+01:02:40,239 --> 01:02:44,318
+refaturar que eu falei mencionei
+
+1539
+01:02:41,920 --> 01:02:46,720
+mencione anteriormente é reduzir a
+
+1540
+01:02:44,318 --> 01:02:49,440
+propensão de bugs no futuro então em vez
+
+1541
+01:02:46,719 --> 01:02:52,278
+de dizer coisas do tipo ah o refactor
+
+1542
+01:02:49,440 --> 01:02:53,838
+introduziu bug ou induziu um bug de
+
+1543
+01:02:52,278 --> 01:02:56,679
+acordo com as metodologias existentes
+
+1544
+01:02:53,838 --> 01:02:59,358
+era muito difícil dizer vamos comparar
+
+1545
+01:02:56,679 --> 01:03:02,078
+as classes que sofreram refatoração com
+
+1546
+01:02:59,358 --> 01:03:04,239
+as que não sofreram refatoração e ver a
+
+1547
+01:03:02,079 --> 01:03:06,400
+distância em termos de números de comits
+
+1548
+01:03:04,239 --> 01:03:09,519
+que tocaram naquelas classes com a
+
+1549
+01:03:06,400 --> 01:03:12,278
+ocorrência de um bug e a gente viu que a
+
+1550
+01:03:09,519 --> 01:03:17,199
+distância do comit onde foi introduzido
+
+1551
+01:03:12,278 --> 01:03:21,719
+o bug para a a o a a refatoração da
+
+1552
+01:03:17,199 --> 01:03:23,118
+classe era muito maior do que eh a a
+
+1553
+01:03:21,719 --> 01:03:25,759
+você pegasse uma classe que não foi
+
+1554
+01:03:23,119 --> 01:03:29,400
+refatorada você observava o bug e olhava
+
+1555
+01:03:25,760 --> 01:03:31,200
+pras pras últimas mudanças né então a a
+
+1556
+01:03:29,400 --> 01:03:33,960
+distância era muito grande então a gente
+
+1557
+01:03:31,199 --> 01:03:36,358
+praticamente não encontrou caso muito
+
+1558
+01:03:33,960 --> 01:03:38,798
+pouco caso com distância um ou dois se
+
+1559
+01:03:36,358 --> 01:03:41,440
+número de comites refaturou no commit aí
+
+1560
+01:03:38,798 --> 01:03:44,679
+no próximo comit observou um bug um bug
+
+1561
+01:03:41,440 --> 01:03:47,079
+foi introduzido ou a cada depois de dois
+
+1562
+01:03:44,679 --> 01:03:49,000
+comites geralmente a distância era muito
+
+1563
+01:03:47,079 --> 01:03:51,680
+grande a classe recebia várias
+
+1564
+01:03:49,000 --> 01:03:53,639
+modificações sei lá sete oito e aí assim
+
+1565
+01:03:51,679 --> 01:03:56,440
+então a gente não ainda assim o nosso
+
+1566
+01:03:53,639 --> 01:03:58,558
+método não dá para dizer que tem as suas
+
+1567
+01:03:56,440 --> 01:04:01,119
+imperfeições né tem seus problemas não
+
+1568
+01:03:58,559 --> 01:04:04,240
+dá para dizer que refaturação de fato eh
+
+1569
+01:04:01,119 --> 01:04:06,200
+reduz a probabilidade de bugs mas esse
+
+1570
+01:04:04,239 --> 01:04:09,439
+estudo inicial que foi publicado como
+
+1571
+01:04:06,199 --> 01:04:11,439
+poster aí a Luna teve foi para foi pro
+
+1572
+01:04:09,440 --> 01:04:14,480
+Canadá e a gente tem um artigo de jorno
+
+1573
+01:04:11,440 --> 01:04:17,079
+pronto que falta na verdade submetê-lo
+
+1574
+01:04:14,480 --> 01:04:19,880
+mas tem que fazer ajuste é a gente
+
+1575
+01:04:17,079 --> 01:04:21,839
+observou isso que a distância entre a
+
+1576
+01:04:19,880 --> 01:04:23,720
+introdução de bug em termos de número de
+
+1577
+01:04:21,838 --> 01:04:25,519
+comit que tocaram a classe e aquela
+
+1578
+01:04:23,719 --> 01:04:28,318
+classe quando aquela classe foi
+
+1579
+01:04:25,519 --> 01:04:32,358
+refaturada é bastante extenso então eu
+
+1580
+01:04:28,318 --> 01:04:34,960
+eu diria que hoje eu não posso confiar
+
+1581
+01:04:32,358 --> 01:04:37,679
+ter muita confiança sobre essa afirmação
+
+1582
+01:04:34,960 --> 01:04:41,599
+que refatorações são tipos de mudanças
+
+1583
+01:04:37,679 --> 01:04:43,159
+que eh introduzem bugs no sentido de
+
+1584
+01:04:41,599 --> 01:04:44,680
+mais do que outras porque qualquer
+
+1585
+01:04:43,159 --> 01:04:49,038
+mudança tem risco de se introduzirem
+
+1586
+01:04:44,679 --> 01:04:50,679
+mudança então eh eu diria isso mas o o
+
+1587
+01:04:49,039 --> 01:04:52,400
+ponto que o que é diferente do que o
+
+1588
+01:04:50,679 --> 01:04:54,399
+Marcelo falou de fato eu concordo com
+
+1589
+01:04:52,400 --> 01:04:56,798
+ele se você não tem os testes
+
+1590
+01:04:54,400 --> 01:04:58,358
+automatizados é um risco muito alto mas
+
+1591
+01:04:56,798 --> 01:05:02,239
+é isso na minha opinião é para qualquer
+
+1592
+01:04:58,358 --> 01:05:04,838
+mudança alessandro quais práticas de
+
+1593
+01:05:02,239 --> 01:05:06,838
+desenvolvimento de software podem apoiar
+
+1594
+01:05:04,838 --> 01:05:10,038
+os desenvolvedores que gostam de
+
+1595
+01:05:06,838 --> 01:05:12,358
+refaturar código e qual é o status atual
+
+1596
+01:05:10,039 --> 01:05:14,720
+das ferramentas de refatoração dá para
+
+1597
+01:05:12,358 --> 01:05:17,960
+confiar nelas será que elas dão mais
+
+1598
+01:05:14,719 --> 01:05:20,038
+trabalho do que ajudam
+
+1599
+01:05:17,960 --> 01:05:22,000
+e aí tá gostando do nosso bate-papo
+
+1600
+01:05:20,039 --> 01:05:24,960
+sobre refatoração com o Alessandro
+
+1601
+01:05:22,000 --> 01:05:28,400
+Garcia essa primeira parte foi mais
+
+1602
+01:05:24,960 --> 01:05:30,119
+introdutória e motivacional na segunda
+
+1603
+01:05:28,400 --> 01:05:33,720
+parte vamos falar de algumas coisas mais
+
+1604
+01:05:30,119 --> 01:05:36,200
+avançadas como práticas que apoiam
+
+1605
+01:05:33,719 --> 01:05:39,118
+refatoração o status atual das
+
+1606
+01:05:36,199 --> 01:05:41,838
+ferramentas de refatoração inclusive um
+
+1607
+01:05:39,119 --> 01:05:44,480
+negócio chamado bat refactoring você
+
+1608
+01:05:41,838 --> 01:05:46,358
+sabe o que que é um batoring fica ligado
+
+1609
+01:05:44,480 --> 01:05:50,119
+na segunda parte que a gente vai
+
+1610
+01:05:46,358 --> 01:05:50,119
+explicar ciao ciao
+
+1611
+01:06:01,358 --> 01:06:08,480
+esse podcast foi editado pela produtora
+
+1612
+01:06:04,760 --> 01:06:08,480
+Reis m

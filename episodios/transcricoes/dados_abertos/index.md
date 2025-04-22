@@ -1,12 +1,15 @@
-# Índice das Transcrições (em formato SRT) dos Episódios do Fronteiras da Engenharia de Software
+Legendas (imperfeitas) geradas automaticamente pelo YouTube.
 
 - [2020-06-19-Métodos\_Ágeis\_com\_Prof\_Fabio\_Kon\_IMEUSP](./YouTube/srt/2020-06-19-Métodos_Ágeis_com_Prof_Fabio_Kon_IMEUSP.srt)
 - [2020-07-15-Desenvolvimento\_de\_Software\_Distribuído\_com\_Prof\_Rafael\_Prikladnicki\_PUCRS](./YouTube/srt/2020-07-15-Desenvolvimento_de_Software_Distribuído_com_Prof_Rafael_Prikladnicki_PUCRS.srt)
-- [2020-08-17-Daniela\_Cruzes\_responde\_qual\_é\_a\_próxima\_fronteira\_da\_Engenharia\_de\_Software](./YouTube/srt/2020-08-17-Daniela_Cruzes_responde_qual_é_a_próxima_fronteira_da_Engenharia_de_Software.srt)
 - [2020-09-23-Segurança\_em\_DevOps\_com\_Daniela\_S\_Cruzes\_SINTEFNTNU](./YouTube/srt/2020-09-23-Segurança_em_DevOps_com_Daniela_S_Cruzes_SINTEFNTNU.srt)
 - [2020-09-24-Code\_smells\_com\_Marcelo\_Maia\_UFU\_-\_Parte\_1](./YouTube/srt/2020-09-24-Code_smells_com_Marcelo_Maia_UFU_-_Parte_1.srt)
+- [2020-09-30-4\_Code\_smells\_com\_Marcelo\_Maia\_UFU\_-\_Parte\_2](./YouTube/srt/2020-09-30-4_Code_smells_com_Marcelo_Maia_UFU_-_Parte_2.srt)
+- [2020-10-15-5\_Refactoring\_com\_Alessandro\_Garcia\_PUC-Rio](./YouTube/srt/2020-10-15-5_Refactoring_com_Alessandro_Garcia_PUC-Rio.srt)
 - [2020-10-15-Alessandro\_Garcia\_responde\_Qual\_é\_a\_próxima\_Fronteira\_da\_Engenharia\_de\_Software](./YouTube/srt/2020-10-15-Alessandro_Garcia_responde_Qual_é_a_próxima_Fronteira_da_Engenharia_de_Software.srt)
-- [2021-03-24-10\_User\_Experience\_UX\_com\_Tayana\_Conte\_UFAM](./YouTube/srt/2021-03-24-10_User_Experience_UX_com_Tayana_Conte_UFAM.srt)
+- [2020-11-23-6\_Integração\_Contínua\_com\_Uirá\_Kulesza\_UFRN](./YouTube/srt/2020-11-23-6_Integração_Contínua_com_Uirá_Kulesza_UFRN.srt)
+- [2020-12-16-7\_IA\_na\_Engenharia\_de\_Software\_com\_Silvia\_Regina\_Vergilio\_UFPR](./YouTube/srt/2020-12-16-7_IA_na_Engenharia_de_Software_com_Silvia_Regina_Vergilio_UFPR.srt)
+- [2021-03-18-10\_User\_Experience\_UX\_com\_Tayana\_Conte\_UFAM](./YouTube/srt/2021-03-18-10_User_Experience_UX_com_Tayana_Conte_UFAM.srt)
 - [2021-04-03-8\_Arquitetura\_de\_Software\_com\_Ingrid\_Nunes\_UFRGS](./YouTube/srt/2021-04-03-8_Arquitetura_de_Software_com_Ingrid_Nunes_UFRGS.srt)
 - [2021-04-10-9\_Ensino\_de\_Engenharia\_de\_Software\_com\_Marco\_Tulio\_Valente\_UFMG](./YouTube/srt/2021-04-10-9_Ensino_de_Engenharia_de_Software_com_Marco_Tulio_Valente_UFMG.srt)
 - [2021-04-25-11\_Reuso\_de\_Software\_com\_Eduardo\_Almeida\_UFBA](./YouTube/srt/2021-04-25-11_Reuso_de_Software_com_Eduardo_Almeida_UFBA.srt)
@@ -41,8 +44,8 @@
 - [2023-10-17-40\_Versionamento\_de\_Software\_com\_Leonardo\_Murta\_UFF](./YouTube/srt/2023-10-17-40_Versionamento_de_Software_com_Leonardo_Murta_UFF.srt)
 - [2023-11-13-41\_Lean\_e\_Verificação\_de\_Software\_com\_Leonardo\_de\_Moura\_AWS](./YouTube/srt/2023-11-13-41_Lean_e_Verificação_de_Software_com_Leonardo_de_Moura_AWS.srt)
 - [2023-12-19-42\_Arquiteturas\_de\_Referência\_com\_Pablo\_Antonino\_Fraunhofer\_IESE](./YouTube/srt/2023-12-19-42_Arquiteturas_de_Referência_com_Pablo_Antonino_Fraunhofer_IESE.srt)
-- [2024-01-16-Itana\_Gimenes\_pioneira\_da\_Engenharia\_de\_Software](./YouTube/srt/2024-01-16-Itana_Gimenes_pioneira_da_Engenharia_de_Software.srt)
 - [2024-02-20-43\_Engenharia\_de\_Software\_para\_Cidades\_Inteligentes\_com\_Thais\_Batista\_UFRN](./YouTube/srt/2024-02-20-43_Engenharia_de_Software_para_Cidades_Inteligentes_com_Thais_Batista_UFRN.srt)
+- [2024-02-27-Testes\_manuais\_cheiram\_mal\_Catalogando\_e\_identificando\_test\_smells\_em\_língua\_natural\_Elvys\_Soares](./YouTube/srt/2024-02-27-Testes_manuais_cheiram_mal_Catalogando_e_identificando_test_smells_em_língua_natural_Elvys_Soares.srt)
 - [2024-03-19-44\_Como\_se\_faz\_DevOps\_com\_Leonardo\_Leite\_Paulo\_Meirelles\_e\_Fabio\_Kon](./YouTube/srt/2024-03-19-44_Como_se_faz_DevOps_com_Leonardo_Leite_Paulo_Meirelles_e_Fabio_Kon.srt)
 - [2024-04-16-45\_Formação\_de\_Recursos\_Humanos\_de\_Excelência\_com\_Ana\_Regina\_Cavalcanti\_da\_Rocha\_COPPE\_UFRJ](./YouTube/srt/2024-04-16-45_Formação_de_Recursos_Humanos_de_Excelência_com_Ana_Regina_Cavalcanti_da_Rocha_COPPE_UFRJ.srt)
 - [2024-05-14-46\_Localização\_de\_Falhas\_de\_Software\_com\_Rui\_Maranhão\_Abreu\_Universidade\_do\_Porto\_e\_Meta](./YouTube/srt/2024-05-14-46_Localização_de_Falhas_de_Software_com_Rui_Maranhão_Abreu_Universidade_do_Porto_e_Meta.srt)
