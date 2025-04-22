@@ -4,7 +4,7 @@
 - [2020-07-15-Desenvolvimento_de_Software_Distribuído_com_Prof_Rafael_Prikladnicki_PUCRS](./YouTube/srt/2020-07-15-Desenvolvimento_de_Software_Distribuído_com_Prof_Rafael_Prikladnicki_PUCRS.srt)
 - [2020-08-17-Daniela_Cruzes_responde_qual_é_a_próxima_fronteira_da_Engenharia_de_Software](./YouTube/srt/2020-08-17-Daniela_Cruzes_responde_qual_é_a_próxima_fronteira_da_Engenharia_de_Software.srt)
 - [2020-09-23-Segurança_em_DevOps_com_Daniela_S_Cruzes_SINTEFNTNU](./YouTube/srt/2020-09-23-Segurança_em_DevOps_com_Daniela_S_Cruzes_SINTEFNTNU.srt)
-- [2020-09-24-Code_smells_com_Marcelo_Maia_UFU_-_Parte_1](./YouTube/srt/2020-09-24-Code_smells_com_Marcelo_Maia_UFU_-_Parte_1.srt)
+- [2020-09-24-Code_smells_com_Marcelo_Maia_UFU_-Parte_1](./YouTube/srt/2020-09-24-Code_smells_com_Marcelo_Maia_UFU_-Parte_1.srt)
 - [2020-10-15-Alessandro_Garcia_responde_Qual_é_a_próxima_Fronteira_da_Engenharia_de_Software](./YouTube/srt/2020-10-15-Alessandro_Garcia_responde_Qual_é_a_próxima_Fronteira_da_Engenharia_de_Software.srt)
 - [2021-03-24-10_User_Experience_UX_com_Tayana_Conte_UFAM](./YouTube/srt/2021-03-24-10_User_Experience_UX_com_Tayana_Conte_UFAM.srt)
 - [2021-04-03-8_Arquitetura_de_Software_com_Ingrid_Nunes_UFRGS](./YouTube/srt/2021-04-03-8_Arquitetura_de_Software_com_Ingrid_Nunes_UFRGS.srt)
