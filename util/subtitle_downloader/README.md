@@ -4,6 +4,12 @@ A simple Python script to download subtitles from YouTube videos and playlists.
 
 ## Installation
 
+### v1
+
+python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+
+### v2
+
 1. Make sure you have Python 3.6+ installed
 2. Create and activate a virtual environment:
 ```bash
