@@ -1,4 +1,4 @@
-# Índice das Transcrições dos Episódios do Fronteiras da Engenharia de Software
+# Índice das Transcrições (em formato SRT) dos Episódios do Fronteiras da Engenharia de Software
 
 - [2020-06-19-Métodos\_Ágeis\_com\_Prof\_Fabio\_Kon\_IMEUSP](./YouTube/srt/2020-06-19-Métodos_Ágeis_com_Prof_Fabio_Kon_IMEUSP.srt)
 - [2020-07-15-Desenvolvimento\_de\_Software\_Distribuído\_com\_Prof\_Rafael\_Prikladnicki\_PUCRS](./YouTube/srt/2020-07-15-Desenvolvimento_de_Software_Distribuído_com_Prof_Rafael_Prikladnicki_PUCRS.srt)

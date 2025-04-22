@@ -13,7 +13,7 @@ if [ ! -d "$SRT_DIR" ]; then
 fi
 
 # Escreve o cabeçalho no arquivo de saída (sobrescreve se já existir)
-echo "# Índice das Transcrições dos Episódios do Fronteiras da Engenharia de Software" > "$OUTPUT_FILE"
+echo "# Índice das Transcrições (em formato SRT) dos Episódios do Fronteiras da Engenharia de Software" > "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE" # Adiciona uma linha em branco para melhor formatação
 
 # Controla se algum arquivo foi encontrado
