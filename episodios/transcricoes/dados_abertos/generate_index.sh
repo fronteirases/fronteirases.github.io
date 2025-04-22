@@ -20,7 +20,6 @@ echo "" >> "$OUTPUT_FILE" # Adiciona uma linha em branco para melhor formataçã
 found_files=0
 
 # Itera sobre todos os arquivos .srt no diretório especificado
-# shopt -s nullglob garante que o loop não execute se nenhum arquivo for encontrado
 shopt -s nullglob
 for filepath in "$SRT_DIR"/*.srt; do
   # Marca que pelo menos um arquivo foi encontrado
@@ -29,14 +28,20 @@ for filepath in "$SRT_DIR"/*.srt; do
   # Extrai apenas o nome do arquivo (ex: 2020-06-19-Metodos_Ageis....srt)
   filename=$(basename "$filepath")
 
-  # Remove a extensão .srt do nome do arquivo para usar como texto do link
-  link_text="${filename%.srt}"
+  # Remove a extensão .srt do nome do arquivo
+  link_text_raw="${filename%.srt}"
+
+  # --- NOVO: Escapa os underscores no texto do link ---
+  # Substitui todas as ocorrências de '_' por '\_' no texto que será exibido
+  # A dupla barra invertida '\\' é necessária para que o shell interprete como uma barra invertida literal antes do underscore
+  escaped_link_text="${link_text_raw//_/\\_}"
+  # ----------------------------------------------------
 
   # Adiciona a linha formatada em Markdown ao arquivo de saída
-  # O caminho do link é relativo ao local onde o index.md será criado
-  echo "- [${link_text}](./${filepath})" >> "$OUTPUT_FILE"
+  # Usa o texto com underscores escapados [entre colchetes]
+  # Mantém o caminho original (sem escapar) para o link (entre parênteses)
+  echo "- [${escaped_link_text}](./${filepath})" >> "$OUTPUT_FILE"
 done
-# Desativa o nullglob para restaurar o comportamento padrão
 shopt -u nullglob
 
 # Informa o usuário sobre o resultado
