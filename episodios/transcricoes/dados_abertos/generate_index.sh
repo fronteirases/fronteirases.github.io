@@ -17,7 +17,7 @@ echo "# Índice das Transcrições (em formato SRT) dos Episódios do Fronteiras
 echo "" >> "$OUTPUT_FILE" # Adiciona uma linha em branco para melhor formatação
 
 # Escreve um comentário
-echo >> "Legendas (imperfeitas) geradas automaticamente pelo YouTube." > "$OUTPUT_FILE"
+echo "Legendas (imperfeitas) geradas automaticamente pelo YouTube." >> "$OUTPUT_FILE"
 echo "" >> "$OUTPUT_FILE" # Adiciona uma linha em branco para melhor formatação
 
 
