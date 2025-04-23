@@ -160,7 +160,13 @@ Anunciamos as nossas próximas lives em nossa conta no Twitter [https://twitter.
 - e muito mais...
 
 
-## FAQ para pessoas convidadas
+## Dados Abertos
+
+- [Roteiros](https://fronteirases.github.io/episodios/roteiros/dados_abertos/)
+- [Transcrições](https://fronteirases.github.io/episodios/transcricoes/dados_abertos/)
+
+
+## FAQ para pessoas convidadas (desatualizado)
 
 Neste documento listamos algumas recomendações para as pessoas convidadas por nós: [FAQ](https://fronteirases.github.io/faq/faq.html).
 
