@@ -54,3 +54,4 @@
 - [52_RobertoIerusalimschy](docx/52_RobertoIerusalimschy.docx)
 - [53_KievGama](docx/53_KievGama.docx)
 - [54_JoséValim](docx/54_JoséValim.docx)
+- [55_JorgeMelegati](docx/55_JorgeMelegati.docx)
