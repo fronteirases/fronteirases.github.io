@@ -21,12 +21,12 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 ## Áudio/vídeo no Spotify
 
 
-{% include spotify.html id="0cCqI2NB7YC57rLMQcGyDn" %}
+{% include spotify.html id="1EJhHfCzI7CRltAy0HjuRv" %}
 
 
 ## Vídeo no YouTube
 
-{% include youtube.html id="qghdjPnVxW4" %}  
+{% include youtube.html id="wq6zqmDF3Is" %}  
 
 ## Próximos episódios
 
@@ -35,7 +35,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
-
+- [57: Code Smells e Refatoração em Elixir, com Lucas Vegi (UFV)](episodios/paginas/57)
 - [56: Engenharia de missões robóticas, com Genaína Rodrigues (UnB)](episodios/paginas/56)
 - [55: Pesquisas Qualitativas na Engenharia de Software, com Jorge Melegati (Free University of Bozen-Bolzano)](episodios/paginas/55)
 - [54: A linguagem de programação Elixir, com José Valim (Dashbit)](episodios/paginas/54)
