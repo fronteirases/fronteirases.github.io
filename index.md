@@ -18,15 +18,17 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 ## Nosso episódio mais recente
 
 
+
 ## Áudio/vídeo no Spotify
 
 
-{% include spotify.html id="1EJhHfCzI7CRltAy0HjuRv" %}
+{% include spotify.html id="3tqGHSOd8Qf9IOVkqxyVsp" %}
+
 
 
 ## Vídeo no YouTube
 
-{% include youtube.html id="wq6zqmDF3Is" %}  
+{% include youtube.html id="zYfuMsiACFU" %}  
 
 ## Próximos episódios
 
@@ -35,6 +37,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [58: Gerência de Dívida Técnica, com Daniel Feitosa (Universidade de Groningen)](episodios/paginas/58)
 - [57: Code Smells e Refatoração em Elixir, com Lucas Vegi (UFV)](episodios/paginas/57)
 - [56: Engenharia de missões robóticas, com Genaína Rodrigues (UnB)](episodios/paginas/56)
 - [55: Pesquisas Qualitativas na Engenharia de Software, com Jorge Melegati (Free University of Bozen-Bolzano)](episodios/paginas/55)
