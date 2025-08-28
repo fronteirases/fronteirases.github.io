@@ -37,6 +37,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [59: Assistentes Conversacionais em Engenharia de Software, com Mairieli Wessel (Radboud University)](episodios/paginas/59)
 - [58: Gerência de Dívida Técnica, com Daniel Feitosa (Universidade de Groningen)](episodios/paginas/58)
 - [57: Code Smells e Refatoração em Elixir, com Lucas Vegi (UFV)](episodios/paginas/57)
 - [56: Engenharia de missões robóticas, com Genaína Rodrigues (UnB)](episodios/paginas/56)
