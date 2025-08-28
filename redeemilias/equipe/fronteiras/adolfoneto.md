@@ -2,7 +2,6 @@
 
 
 
-
 Adolfo Neto é co-criador, coordenador e apresentador (host) do podcast Fronteiras da Engenharia de Software desde sua temporada 1. 
 Ele é professora do [Departamento Acadêmico de Informática (DAINF)](https://utfpr.curitiba.br/dainf) da [UTFPR Curitiba](https://www.utfpr.edu.br/campus/curitiba). Seus interesses de pesquisa são Comunidades de desenvolvimento de software, Troca de conhecimento em engenharia de software e Métodos ágeis.
 
