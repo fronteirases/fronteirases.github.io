@@ -1,5 +1,6 @@
 # Adolfo Neto
 
+<img width="96" height="96" alt="image" src="https://adolfont.github.io/images/AdolfoNeto_240x240.jpg" />
 
 
 Adolfo Neto é co-criador, coordenador e apresentador (host) do podcast Fronteiras da Engenharia de Software desde sua temporada 1. 
