@@ -11,13 +11,12 @@ Esta rede tem os seguintes podcasts:
 - [Professor Adolfo Neto](https://adolfont.github.io/extension/podcasts/adolfont)
 - [Hello, Erlang!](https://helloerlang.github.io/)
 
-Estamos nas seguintes redes:
-  - [Mastodon](http://bertha.social/@redeemilias)
-  - [Bluesky](https://bsky.app/profile/redeemilias.bsky.social) 
 
-Equipe:
-- Coordenador da Rede Emílias de Podcasts: [Adolfo Neto](https://adolfont.github.io/)
-- Coordenadora do Programa de Extensão "Emílias - Armação em Bits": [Maria Claudia Emer](http://lattes.cnpq.br/8275326076771841)
+## Equipe
+
+- Coordenador da Rede Emílias de Podcasts: [Adolfo Neto](https://bit.ly/FES_AdolfoNeto)
+- Coordenadora do Programa de Extensão "Emílias - Armação em Bits": [Maria Claudia Emer](https://bit.ly/FES_MariaClaudia)
+
 
 ## Sobre nossos podcasts
 
@@ -30,6 +29,32 @@ O podcast [Fronteiras da Engenharia de Software](https://fronteirases.github.io/
 [Professor Adolfo Neto](https://adolfont.github.io/extension/podcasts/adolfont), criado em 2019 e reformulado em 2023, é um podcast em inglês em que [Adolfo Neto](https://adolfont.github.io/) entrevista profissionais da área da computação e de áreas afins. O objetivo é entender melhor como esses profissionais se interessaram por suas respectivas profissões, como é o dia a dia deles e quais são suas motivações, dificuldades e desafios. É um espaço de troca de experiências e aprendizados para todos que desejam se aprofundar na área de tecnologia.
 
 [Hello, Erlang!](https://helloerlang.github.io/), criado em 2022, é um podcast em inglês focado na comunidade de programação Erlang. Neste show, discutimos tópicos relacionados ao [ecossistema de Erlang](https://bit.ly/3Sl8XTO) e à BEAM, sempre com pessoas dispostas a compartilhar seus conhecimentos e suas experiências. É o ponto de encontro perfeito para quem quer mergulhar no universo Erlang e aprender com os melhores.
+
+## Redes Sociais
+
+
+### Rede Emílias 
+
+  - [Rede Emílias no Mastodon](http://bertha.social/@redeemilias)
+  - [Rede Emílias no Bluesky](https://bsky.app/profile/redeemilias.bsky.social) 
+  - [Rede Emílias no Linkedin](https://www.linkedin.com/company/em%C3%ADlias-podcast) 
+
+### Emílias - Armação em Bits
+  - [Emílias - Armação em Bits no Instagram](https://www.instagram.com/emilias_utfpr)
+  - [Emílias - Armação em Bits no Linkedin](https://www.linkedin.com/company/em%C3%ADlias)
+
+### Fronteiras da Engenharia de Software
+  - [Fronteiras da Engenharia de Software no Instagram](https://www.instagram.com/@fronteirases)
+  - [Fronteiras da Engenharia de Software no Bluesky](https://fronteirases.bsky.social/)
+  - [Fronteiras da Engenharia de Software no X](http://x.com/fronteirases)
+  - [Fronteiras da Engenharia de Software no Threads](https://www.threads.com/@fronteirases)
+  - [Fronteiras da Engenharia de Software no Linkedin](https://www.linkedin.com/company/fronteirases)
+
+### Elixir em Foco
+
+- [Elixir em Foco no Linkedin](https://www.linkedin.com/company/elixiremfoco)
+- [Elixir em Foco no X](http://x.com/elixiremfoco)
+
 
 
 ## Criação da rede
