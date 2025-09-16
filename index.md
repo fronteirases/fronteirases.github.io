@@ -37,6 +37,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [Mitos e Realidades no Desenvolvimento de Software com IA, Paulo Borba (Cin UFPE) - Esquenta SE4FP](https://www.youtube.com/live/rXP4YUGeIJk?si=2pP8Md9LNhIT0sNI)
 - [59: Assistentes Conversacionais em Engenharia de Software, com Mairieli Wessel (Radboud University)](episodios/paginas/59)
 - [58: Gerência de Dívida Técnica, com Daniel Feitosa (Universidade de Groningen)](episodios/paginas/58)
 - [57: Code Smells e Refatoração em Elixir, com Lucas Vegi (UFV)](episodios/paginas/57)
