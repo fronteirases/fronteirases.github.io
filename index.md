@@ -185,3 +185,5 @@ Quer nos apoiar e ter seu nome divugado em nosso podcast? Envie-nos um email par
 
 Quer divulgar um projeto sem fins lucrativos em nossas redes sociais? Entre em contato pelo Twitter.
 
+O projeto deste site usa o Github Pages e está aberto em <https://github.com/fronteirases/fronteirases.github.io/>.
+
