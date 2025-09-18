@@ -51,6 +51,19 @@
 - A partir do 51 paramos de colocar número no título do episódio
 - Quantidade de convidados: ???
 
+
+## Apresentadores
+
+- Adolfo Neto (todos os episódios regulares)
+- Gustavo Pinto (temporada 1)
+- Ingrid Nunes (temporada 2)
+- Maria Claudia Emer (temporada 3 em diante, quase todos os episódios)
+- Zoey Pessanha (2 episódios conjuntos com Elixir em Foco: José Valim e Lucas Vegi)
+- Herminio Torres  (2 episódios conjuntos com Elixir em Foco: José Valim e Lucas Vegi)
+- Gilmar Gomes do Nascimento (Próxima Fronteira 2024, 60, 61)
+- Andreia Farias (60)
+
 ## Palestras no YouTube
 
 A fazer.
+
