@@ -21,12 +21,12 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 ## Áudio/vídeo no Spotify
 
 
-{% include spotify.html id="6Go4dcCorKvZMzGeX2MTYU" %}
+{% include spotify.html id="0BuGl99ScBX3ufKEqLXvLF" %}
 
 
 ## Vídeo no YouTube
 
-{% include youtube.html id="7lbcCWR6vgE" %}  
+{% include youtube.html id="ZM77VScNNPc" %}   
 
 
 
@@ -37,6 +37,7 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+- [60: Engenharia de Software Moderna, com Marco Tulio Valente (UFMG)](episodios/paginas/60)
 - [Mitos e Realidades no Desenvolvimento de Software com IA, Paulo Borba (Cin UFPE) - Esquenta SE4FP](https://www.youtube.com/live/rXP4YUGeIJk?si=2pP8Md9LNhIT0sNI)
 - [59: Assistentes Conversacionais em Engenharia de Software, com Mairieli Wessel (Radboud University)](episodios/paginas/59)
 - [58: Gerência de Dívida Técnica, com Daniel Feitosa (Universidade de Groningen)](episodios/paginas/58)
