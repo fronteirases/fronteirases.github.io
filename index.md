@@ -37,6 +37,8 @@ Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail f
 
 ## Episódios recentes
 
+
+- [61: ADoTe: abordagem para o ensino e aprendizagem de critérios de teste da técnica funcional apoiada por dojo de teste, Vladimir Belinski (PPGCA UTFPR)](episodios/paginas/61)
 - [60: Engenharia de Software Moderna, com Marco Tulio Valente (UFMG)](episodios/paginas/60)
 - [Mitos e Realidades no Desenvolvimento de Software com IA, Paulo Borba (Cin UFPE) - Esquenta SE4FP](https://www.youtube.com/live/rXP4YUGeIJk?si=2pP8Md9LNhIT0sNI)
 - [59: Assistentes Conversacionais em Engenharia de Software, com Mairieli Wessel (Radboud University)](episodios/paginas/59)
