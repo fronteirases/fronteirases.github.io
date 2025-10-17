@@ -5,15 +5,15 @@ import feedparser
 from datetime import datetime
 import sys
 
-if len(sys.argv) < 2 or len(sys.argv) > 6:
-    print("Uso: python3 merge_rss.py rss1 [rss2 rss3 rss4 rss5]")
-    sys.exit(1)
-
-FEEDS = sys.argv[1:]
 MAX_ITEMS = 50
 CHANNEL_LINK = "https://fronteirases.github.io/redeemilias/"
 OUTPUT_FILE = "rede-emilias.xml"
 
+if len(sys.argv) < 2 or len(sys.argv) > 6:
+    print("Uso: python3 merge_rss_final.py rss1 [rss2 rss3 rss4 rss5]")
+    sys.exit(1)
+
+FEEDS = sys.argv[1:]
 all_items = []
 
 for url in FEEDS:
@@ -23,22 +23,36 @@ for url in FEEDS:
     for entry in d.entries:
         title = entry.get("title", "Sem título")
         link = entry.get("link", "")
-        # Tenta obter pubDate ou published ou updated
-        pubdate = entry.get("published", entry.get("updated", ""))
-        if pubdate:
-            try:
-                # Converte para RFC-2822
-                parsed_date = datetime(*entry.published_parsed[:6])
-            except Exception:
-                parsed_date = datetime.now()
+        description = entry.get("summary", "")
+        pubdate_str = entry.get("published", entry.get("updated", ""))
+        if pubdate_str and hasattr(entry, "published_parsed"):
+            pubdate = datetime(*entry.published_parsed[:6])
         else:
-            parsed_date = datetime.now()
-        all_items.append((parsed_date, podcast_title, title, link))
+            pubdate = datetime.now()
 
-# Ordena por data desc
-all_items.sort(reverse=True)
+        # Pega enclosure se existir
+        enclosure = None
+        if "enclosures" in entry and len(entry.enclosures) > 0:
+            enc = entry.enclosures[0]
+            # Garante que temos url, type e length se disponíveis
+            url_enc = enc.get("href") or ""
+            type_enc = enc.get("type") or "audio/mpeg"
+            length_enc = enc.get("length") or "0"
+            enclosure = (url_enc, type_enc, length_enc)
 
-# Monta RSS
+        all_items.append({
+            "pubdate": pubdate,
+            "podcast_title": podcast_title,
+            "title": title,
+            "link": link,
+            "description": description,
+            "enclosure": enclosure
+        })
+
+# Ordena por data descendente
+all_items.sort(key=lambda x: x["pubdate"], reverse=True)
+
+# Gera RSS
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
     f.write('<rss version="2.0">\n')
@@ -50,12 +64,15 @@ with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     f.write(f'  <lastBuildDate>{datetime.now().strftime("%a, %d %b %Y %H:%M:%S %z")}</lastBuildDate>\n')
 
     for item in all_items[:MAX_ITEMS]:
-        date, podcast_title, title, link = item
         f.write('  <item>\n')
-        f.write(f'    <title><![CDATA[{title}]]></title>\n')
-        f.write(f'    <link>{link}</link>\n')
-        f.write(f'    <pubDate>{date.strftime("%a, %d %b %Y %H:%M:%S %z")}</pubDate>\n')
-        f.write(f'    <description><![CDATA[Publicado originalmente em {podcast_title}]]></description>\n')
+        f.write(f'    <title><![CDATA[{item["title"]}]]></title>\n')
+        f.write(f'    <link>{item["link"]}</link>\n')
+        f.write(f'    <pubDate>{item["pubdate"].strftime("%a, %d %b %Y %H:%M:%S %z")}</pubDate>\n')
+        f.write(f'    <description><![CDATA[Publicado originalmente em {item["podcast_title"]}]]></description>\n')
+        # Adiciona enclosure se disponível
+        if item["enclosure"]:
+            url_enc, type_enc, length_enc = item["enclosure"]
+            f.write(f'    <enclosure url="{url_enc}" type="{type_enc}" length="{length_enc}"/>\n')
         f.write('  </item>\n')
 
     f.write('</channel>\n')
