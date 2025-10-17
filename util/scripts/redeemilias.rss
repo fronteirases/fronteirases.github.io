@@ -1,0 +1,2691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>Rede Emílias de Podcasts</title>
+  <link>https://emiliaspodcasts.example.org</link>
+  <description>Feed combinado da Rede Emílias de Podcasts</description>
+  <language>pt-BR</language>
+  <lastBuildDate>Fri, 17 Oct 2025 12:20:15 -0300</lastBuildDate>
+  <item>
+    <title>Zotonic with Marc Worrell</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 25 Oct 2022 15:34:21 GMT;;Hello, Erlang!</description>
+    <source>;Tue, 25 Oct 2022 15:34:21 GMT;;Hello, Erlang!</source>
+  </item>
+  <item>
+    <title>Yuri Zhloba (Wargaming)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 17 Feb 2022 18:17:18 GMT;;Hello, Erlang!</description>
+    <source>;Thu, 17 Feb 2022 18:17:18 GMT;;Hello, Erlang!</source>
+  </item>
+  <item>
+    <title>Nova Web Framework, with Daniel Widgren and Niclas Axelsson</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 19 Dec 2023 18:55:43 GMT;;Hello, Erlang!</description>
+    <source>;Tue, 19 Dec 2023 18:55:43 GMT;;Hello, Erlang!</source>
+  </item>
+  <item>
+    <title>Episode 0: Slava and Adolfo</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 10 Feb 2022 18:18:07 GMT;;Hello, Erlang!</description>
+    <source>;Thu, 10 Feb 2022 18:18:07 GMT;;Hello, Erlang!</source>
+  </item>
+  <item>
+    <title>Um Catálogo de Antipadrões de Micro Frontends, Nabson Silva</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 22 Jan 2025 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 22 Jan 2025 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>The AI Con and Brazil - a conversation with Emily M. Bender and Alex Hanna about the problems and dangers of ‘Artificial Intelligence’</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 03 Oct 2025 18:51:40 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 03 Oct 2025 18:51:40 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Testes manuais cheiram mal! Catalogando e identificando test smells em língua natural, Elvys Soares</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 28 Feb 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 28 Feb 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>SE4FP e Gambiconf</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 20 May 2025 15:50:30 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Tue, 20 May 2025 15:50:30 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Pesquisas Qualitativas na Engenharia de Software, com Jorge Melegati (Free University of Bozen-Bolzano)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 16 Apr 2025 03:01:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 16 Apr 2025 03:01:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Participe da Escola de Estudos Empíricos em Engenharia de Software 2026!</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 Oct 2025 14:59:38 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 02 Oct 2025 14:59:38 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Ontologias em Engenharia de Software, com Giancarlo Guizzardi (University of Twente)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 16 Oct 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 16 Oct 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Mitos e Realidades no Desenvolvimento de Software com IA, Paulo Borba (Cin UFPE)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 04 Sep 2025 17:38:45 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 04 Sep 2025 17:38:45 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Itana Gimenes: pioneira da Engenharia de Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Sun, 18 Feb 2024 11:43:08 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Sun, 18 Feb 2024 11:43:08 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Gerência de Dívida Técnica, com Daniel Feitosa (Universidade de Groningen)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 31 Jul 2025 15:04:54 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 31 Jul 2025 15:04:54 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>FSE 2024 em Porto de Galinhas!</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 11 Aug 2023 14:48:01 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 11 Aug 2023 14:48:01 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Engenharia de Software Moderna, com Marco Tulio Valente (UFMG)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 17 Sep 2025 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 17 Sep 2025 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Engenharia de missões robóticas, com Genaína Rodrigues (UnB)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 21 May 2025 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 21 May 2025 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Diversidade e Inclusão em Engenharia de Software, com Kiev Gama (CIn UFPE)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 19 Feb 2025 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 19 Feb 2025 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Code Smells e Refatoração em Elixir, com Lucas Vegi (UFV)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 18 Jun 2025 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 18 Jun 2025 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Aviso sobre o próximo episódio (36) do Fronteiras da Engenharia de Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 07 Jun 2023 20:38:07 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 07 Jun 2023 20:38:07 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Assistentes Conversacionais em Engenharia de Software, com Mairieli Wessel (Radboud University)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 29 Aug 2025 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 29 Aug 2025 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>A Próxima Fronteira: Reflexões de 2024 na Engenharia de Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 18 Dec 2024 04:01:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 18 Dec 2024 04:01:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>A linguagem de programação Lua (e seu impacto na Engenharia de Software)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 19 Nov 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Tue, 19 Nov 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>A linguagem de programação Elixir, com José Valim (Dashbit)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 19 Mar 2025 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 19 Mar 2025 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Alessandro Garcia responde: "Qual é a próxima Fronteira da Engenharia de Software?"</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 30 Oct 2023 12:51:35 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Mon, 30 Oct 2023 12:51:35 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>ADoTe: abordagem para o ensino e aprendizagem de critérios de teste da técnica funcional apoiada por dojo de teste, Vladimir Belinski (PPGCA UTFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 17 Oct 2025 08:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 17 Oct 2025 08:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#9. Ensino de Engenharia de Software com Marco Tulio Valente (UFMG)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 18 Feb 2021 07:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 18 Feb 2021 07:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#8. Arquitetura de Software com Ingrid Nunes (UFRGS)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 19 Jan 2021 07:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Tue, 19 Jan 2021 07:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#7. IA na Engenharia de Software com Silvia Regina Vergilio (UFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:15 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 16 Dec 2020 13:34:25 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 16 Dec 2020 13:34:25 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#6. Integração Contínua com Uirá Kulesza (UFRN)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 23 Nov 2020 07:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Mon, 23 Nov 2020 07:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#5. Refactoring com Alessandro Garcia (PUC-Rio)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 15 Oct 2020 07:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 15 Oct 2020 07:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>50: Arquitetura de Software e Sistemas Adaptativos, com Cecília Rubira (UNICAMP)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 20 Sep 2024 18:24:59 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 20 Sep 2024 18:24:59 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#4. Code smells com Marcelo Maia (UFU) - Parte 2</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 30 Sep 2020 12:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 30 Sep 2020 12:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#4. Code smells com Marcelo Maia (UFU) - Parte 1</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 15 Sep 2020 06:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Tue, 15 Sep 2020 06:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>49: Ciência Aberta em Engenharia de Software, com Edson Oliveira Junior (UEM)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 22 Aug 2024 11:49:06 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 22 Aug 2024 11:49:06 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>48: Educação em Engenharia de Software, com Davi Viana (UFMA)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 17 Jul 2024 03:01:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 17 Jul 2024 03:01:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>47: Reparo automático de programas, com Fernanda Madeiral (Vrije Universiteit Amsterdam)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 19 Jun 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 19 Jun 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>46: Localização de Falhas de Software, com Rui Maranhão Abreu (Universidade do Porto e Meta)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 15 May 2024 08:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 15 May 2024 08:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>45: Formação de Recursos Humanos de Excelência, com Ana Regina Cavalcanti da Rocha (COPPE UFRJ)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 17 Apr 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 17 Apr 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>44: Como se faz DevOps, com Leonardo Leite, Paulo Meirelles e Fabio Kon</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 20 Mar 2024 04:13:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 20 Mar 2024 04:13:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>43: Engenharia de Software para Cidades Inteligentes, com Thais Batista (UFRN)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 21 Feb 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 21 Feb 2024 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>42: Arquiteturas de Referência, com Pablo Antonino (Fraunhofer IESE)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 29 Jan 2024 15:50:37 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Mon, 29 Jan 2024 15:50:37 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>41: Lean e Verificação de Software, com Leonardo de Moura (AWS)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 29 Jan 2024 15:50:48 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Mon, 29 Jan 2024 15:50:48 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>40: Versionamento de Software, com Leonardo Murta (UFF)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 18 Oct 2023 03:11:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 18 Oct 2023 03:11:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#3. Segurança em DevOps com Daniela S. Cruzes (SINTEF/NTNU)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 14 Aug 2020 06:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 14 Aug 2020 06:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>39: Pesquisa na Indústria, com Bruno Cartaxo (IFPE e StackSpot)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 20 Sep 2023 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 20 Sep 2023 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>38: Anotações de Código (e frameworks que as usam), com Eduardo Guerra (UniBZ)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 16 Aug 2023 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 16 Aug 2023 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>37: Medição de Software, com Monalessa Barcellos (UFES)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 19 Jul 2023 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 19 Jul 2023 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>36: Software Security with Laurie Williams (North Carolina State University)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 21 Jun 2023 03:00:09 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 21 Jun 2023 03:00:09 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>35: Modernização de Software, com Wesley Klewerton</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 17 May 2023 05:00:47 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 17 May 2023 05:00:47 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>34: Interação da pesquisa com a indústria, com Sérgio Soares (CIn UFPE)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 19 Apr 2023 03:01:10 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 19 Apr 2023 03:01:10 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>33: Engenharia de Sistemas de Software Contemporâneos, com Guilherme Horta Travassos (COPPE/UFRJ)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 15 Mar 2023 03:00:57 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 15 Mar 2023 03:00:57 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>32: Cognitive-Driven Development, com Gustavo Pinto (Zup Innovation e UFPA)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 15 Feb 2023 03:00:32 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 15 Feb 2023 03:00:32 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>31: UX design em startups de software, com Luciana Zaina (UFSCAR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 16 Jan 2023 03:00:33 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Mon, 16 Jan 2023 03:00:33 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>30: Ecossistemas de software na indústria, com Rodrigo Santos (UNIRIO)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 15 Dec 2022 03:00:13 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 15 Dec 2022 03:00:13 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#2. Desenvolvimento de Software Distribuído com Prof. Rafael Prikladnicki (PUCRS)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 15 Jul 2020 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 15 Jul 2020 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>29: Sustentabilidade em Engenharia de Software, com Leticia Duboc (La Salle)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 16 Nov 2022 03:00:12 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 16 Nov 2022 03:00:12 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>28: Sistemas Altamente Configuráveis, com Márcio Ribeiro (UFAL)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 14 Oct 2022 03:00:30 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 14 Oct 2022 03:00:30 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>27: PARTE 2 de Contribuição em Projetos de Código Aberto, com Igor Steinmacher (Northern Arizona University)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 15 Sep 2022 03:00:21 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 15 Sep 2022 03:00:21 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>26: Contribuição em Projetos de Código Aberto (PARTE 1), com Igor Steinmacher (Northern Arizona University)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 15 Aug 2022 03:15:17 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Mon, 15 Aug 2022 03:15:17 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>25: Estudos Secundários em Engenharia de Software, com Katia Felizardo (UTFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 15 Jun 2022 20:28:49 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 15 Jun 2022 20:28:49 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>24: Engenharia de Requisitos, com Marcos Kalinowski (PUC-Rio)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 13 May 2022 11:50:52 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 13 May 2022 11:50:52 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>23: DevRel, com Awdren Fontão (UFMS)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 18 Apr 2022 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Mon, 18 Apr 2022 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>22: Segurança em Engenharia de Software, com Joanna C.S. Santos (University of Notre Dame)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 15 Mar 2022 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Tue, 15 Mar 2022 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>21: Linguagens de Programação, com Fernando Quintão (UFMG)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 15 Feb 2022 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Tue, 15 Feb 2022 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>20: Motivação e Satisfação de Engenheiros de Software, com César França (UFRPE e CESAR School)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 14 Jan 2022 11:01:03 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 14 Jan 2022 11:01:03 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#1. Métodos Ágeis com Prof. Fabio Kon (IME/USP)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 15 Jun 2020 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Mon, 15 Jun 2020 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>19: Teste de Software com Simone Souza (ICMC-USP)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 15 Dec 2021 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 15 Dec 2021 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>18: Aprendizado de Máquina em Engenharia de Software, com Maurício Aniche (TU Delft)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 17 Nov 2021 12:09:17 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 17 Nov 2021 12:09:17 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>17: Desenvolvimento de Software Livre com Igor Wiese (UTFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 15 Oct 2021 03:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 15 Oct 2021 03:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>16: Desenvolvimento de Software no Setor Público com Edna Dias Canedo (UnB)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 17 Sep 2021 10:55:35 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Fri, 17 Sep 2021 10:55:35 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>15: Síntese de programas com Gustavo Soares (Microsoft)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 16 Aug 2021 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Mon, 16 Aug 2021 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>14: Estimativas de Software com Emilia Mendes (Blekinge Institute of Technology)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 15 Jul 2021 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 15 Jul 2021 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>13: Compreensão de Código com Fernando Castor (UFPE)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 17 Jun 2021 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 17 Jun 2021 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>12: Modularidade de Software com Paulo Borba (UFPE)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Sat, 22 May 2021 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Sat, 22 May 2021 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#11. Reuso de Software com Eduardo Almeida (UFBA)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 21 Apr 2021 04:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Wed, 21 Apr 2021 04:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#10. User Experience (UX) com Tayana Conte (UFAM)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 18 Mar 2021 07:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Thu, 18 Mar 2021 07:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>#0. Teaser Fronteiras da Engenharia de Sofware Podcast</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 09 Jun 2020 20:00:00 GMT;;Fronteiras da Engenharia de Software</description>
+    <source>;Tue, 09 Jun 2020 20:00:00 GMT;;Fronteiras da Engenharia de Software</source>
+  </item>
+  <item>
+    <title>Vanessa Romankiv: Fundadora do Tech Ladies e Empreendedora em Desenvolvimento de Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 22 Jul 2020 05:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 22 Jul 2020 05:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>UX design em startups de software, com Luciana Zaina (UFSCAR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 28 Dec 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 28 Dec 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Trajetória, Desafios e Políticas para Liderança em STEM com Camila Rowan, Diretora na Minsait</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 13 Feb 2025 15:24:27 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 13 Feb 2025 15:24:27 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Thais Batista (UFRN) responde se enfrentou dificuldades por ser mulher</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 22 Feb 2024 11:10:56 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 22 Feb 2024 11:10:56 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Thais Batista, Professora Titular da Universidade Federal do Rio Grande do Norte (UFRN) e Presidente da Sociedade Brasileira de Computação</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 03 Feb 2025 15:29:08 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Mon, 03 Feb 2025 15:29:08 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Sílvia Amélia Bim, professora da UTFPR (republicação)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 27 Jul 2023 04:31:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 27 Jul 2023 04:31:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>SISU 2023 na UTFPR para Cursos da Computação</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 09 Feb 2023 22:04:10 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 09 Feb 2023 22:04:10 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Silvia Coelho: Fundadora do Elas Programam</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 21 Oct 2020 20:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 21 Oct 2020 20:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Seja Parte da Solução: Mirella Moro (UFMG e Meninas Digitais) fala sobre Diversidade na Tecnologia</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 10 Oct 2024 17:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 10 Oct 2024 17:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Samanta de Araújo no Elixir em Foco (republicação)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 11 Jul 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 11 Jul 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Samanta de Araújo: Desenvolvedora de Software em Portugal</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 29 Apr 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 29 Apr 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Roda de Conversa: O Multiverso das Egressas do Bacharelado em Sistemas de Informação da UTFPR Curitiba</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 17 Mar 2022 20:52:14 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 17 Mar 2022 20:52:14 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Rita Berardi e Sílvia Amélia Bim falam sobre o projeto TIChers</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 04 Nov 2020 14:15:25 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 04 Nov 2020 14:15:25 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Revisão bibliográfica sobre gênero em aplicações de Inteligência Artificial, Larissa Behrens Soares</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 30 Nov 2023 17:24:50 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 30 Nov 2023 17:24:50 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Reparo automático de programas, com Fernanda Madeiral</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 25 Dec 2024 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 25 Dec 2024 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Prêmio Empreendedora Curitibana 2021, com Ana Clara Dias</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 21 Jul 2021 18:05:51 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 21 Jul 2021 18:05:51 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Priscila Benavides: Analista e Desenvolvedora de Software na ateliware</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 25 Mar 2020 19:21:36 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 25 Mar 2020 19:21:36 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Parte 2 de "O que você diria para meninas e mulheres que desejam seguir carreira na Computação?"</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 21 Jan 2021 14:27:01 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 21 Jan 2021 14:27:01 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>O que você diria para meninas e mulheres que desejam seguir carreira na computação? Com Ana Waleska Araújo, Carla Vieira, Dandara Sousa e Debora Duarte</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 28 Dec 2020 07:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Mon, 28 Dec 2020 07:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>O mundo da ilustração e a relação entre IA e Arte, com a ilustradora Ursula Dorada, a Sula Moon</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 23 Jun 2025 03:01:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Mon, 23 Jun 2025 03:01:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Novembro Azul 2021</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 25 Nov 2021 09:14:45 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 25 Nov 2021 09:14:45 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Natália Teruel: Doutoranda na Universidade de Montreal</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 Sep 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 02 Sep 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Myriam Delgado: Professora Titular de Inteligência Artificial no DAINF - UTFPR</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 27 Dec 2021 12:39:58 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Mon, 27 Dec 2021 12:39:58 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Melissa Weber Mendonça: matemática e desenvolvedora de software na Quansight</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 08 Jul 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 08 Jul 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Melina Deraldo: Engenheira de Software no Nubank</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 24 Jun 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 24 Jun 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Medição de Software, com Monalessa Barcellos (UFES)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 11 Jan 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 11 Jan 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>MDC em Casa com Maria Cláudia Emer: "Emíli@s e a Pílula Falante"</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 09 Jun 2020 13:39:44 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Tue, 09 Jun 2020 13:39:44 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Maria Fernanda Azolin: aluna de Engenharia da Computação da UTFPR Curitiba</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 Jul 2020 16:49:58 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 02 Jul 2020 16:49:58 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Mairieli Wessel: Doutoranda em Ciência da Computação na Universidade de São Paulo</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 01 Dec 2020 14:15:31 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Tue, 01 Dec 2020 14:15:31 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Lívia Almeida Barbosa (Remote) no Elixir em Foco</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 09 Jan 2025 12:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 09 Jan 2025 12:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ludmilla Galvão: Doutoranda em Jogos Inclusivos na UFPR</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 16 Sep 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 16 Sep 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Linnyer Beatrys Ruiz Aylon: Professora da UEM e Presidente da SBMicro</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 07 Oct 2020 09:39:27 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 07 Oct 2020 09:39:27 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Leticia dos Santos Machado: Doutora em Ciência da Computação e Embaixadora do Parent in Science.</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 29 Jun 2021 20:04:39 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Tue, 29 Jun 2021 20:04:39 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Letícia Silva: Head de Ciência de Dados na 2MI (parte 2)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 30 Apr 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 30 Apr 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Letícia Silva: Head de Ciência de Dados na 2MI (parte 1)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 23 Apr 2020 05:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 23 Apr 2020 05:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Juliany Raiol: Embaixadora de Inovação Cívica da Open Knowledge Brasil</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 22 Sep 2020 11:23:34 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Tue, 22 Sep 2020 11:23:34 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ingrid Nunes: Professora da UFRGS</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 27 May 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 27 May 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Império da Inteligência Artificial (Empire of AI, Karen Hao): Um bate-papo com Renata Gomes (UFRB)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 16 Sep 2025 10:30:02 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Tue, 16 Sep 2025 10:30:02 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Giselle Reis: Professora na Carnegie Mellon University no Catar</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 20 Jan 2021 15:34:21 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 20 Jan 2021 15:34:21 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Gisele Lasserre: Fundadora Tech Girls e Especialista em Tecnologia da Informação na Zup Innovation</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 22 Jul 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 22 Jul 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Gestão de Processos de Negócios (BPM), com Andréa Magalhães (dheka)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 Oct 2025 19:24:43 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 02 Oct 2025 19:24:43 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Gabriela Agustini: Fundadora e Diretora Executiva do Olabi e apresentadora do Conexão Maker</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 13 May 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 13 May 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Etiene Dalcol: Engenheira de Software, Empreendedora e Pesquisadora em Linguística Computacional</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 10 Jun 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 10 Jun 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Estudos Secundários em Engenharia de Software, com Katia Felizardo (UTFPR) - retransmissão Fronteiras da Engenharia de Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 29 Dec 2022 03:00:12 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 29 Dec 2022 03:00:12 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Este é o Emílias Podcast (Trailer)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 27 Apr 2020 14:25:49 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Mon, 27 Apr 2020 14:25:49 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Especial de Dia das Mães com Ana Paula Chaves</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 17 Jun 2021 10:54:51 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 17 Jun 2021 10:54:51 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ep. Extra - Entrevista com Ana Paula Chaves (UTFPR Campo Mourão) sobre seu Doutorado na Northern Arizona University</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 25 Mar 2021 05:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 25 Mar 2021 05:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ep. 39 - Tayana Conte: Professora da UFAM</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 15 Apr 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 15 Apr 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ep. 38 - Meela Ribeiro: UX Designer</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 01 Apr 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 01 Apr 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ep. 37 - Mariangela Gomes Setti: Professora do DAINF-UTFPR</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 18 Mar 2021 07:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 18 Mar 2021 07:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ep. 36 - Elisa Capololo: Engenheira de Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 04 Mar 2021 07:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 04 Mar 2021 07:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ep. 35 - Itana Gimenes: Pioneira da Computação e da Engenharia de Software no Brasil</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 18 Feb 2021 07:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 18 Feb 2021 07:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ep. 34 - Valeria de Paiva: Lógica e Pesquisadora em Inteligência Artificial</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 04 Feb 2021 10:42:12 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 04 Feb 2021 10:42:12 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Empregabilidade em Tecnologia da Informação (TI), com Marcella Scoczynski</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 24 Oct 2024 13:19:13 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 24 Oct 2024 13:19:13 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Emílias - Armação em Bits no Fórum de Programas de Pós-Graduação em Computação do Paraná</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 06 Aug 2024 17:32:14 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Tue, 06 Aug 2024 17:32:14 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Elloá Guedes: Professora e Entusiasta Python</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 21 May 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 21 May 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Elixir em Produção com Elaine Naomi Watanabe, Engenharia de Software na The RealReal - retransmissão Elixir em Foco</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 12 Jan 2023 03:00:32 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 12 Jan 2023 03:00:32 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Elaine Pimentel: Professora do Departamento de Matemática da UFRN</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 10 Jun 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 10 Jun 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Eduarda Linhares Mello e João Raffs falam sobre a Apple Developer Academy</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 09 Sep 2020 18:51:48 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 09 Sep 2020 18:51:48 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Divulgação do UTF.c 2023</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 24 Nov 2023 12:40:42 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Fri, 24 Nov 2023 12:40:42 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Dia Internacional da Mulher 2022: Multiverso das Emílias</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 03 Mar 2022 19:05:37 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 03 Mar 2022 19:05:37 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Débora Duarte, Digital Specialist</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 19 Mar 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 19 Mar 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Danielle Monteiro: Engenheira de Dados na XP</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 06 Aug 2020 06:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 06 Aug 2020 06:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Daniele Pishinin: Inspirando Mulheres na Tecnologia e no Front-end</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 27 Mar 2025 15:22:01 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 27 Mar 2025 15:22:01 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Dandara Sousa: Mestranda em Ciência da Computação pela UFCG</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 Apr 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 02 Apr 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Da graduação tecnológica ao doutorado: a trajetória da professora Simone Dominico na Computação</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 15 May 2025 12:32:42 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 15 May 2025 12:32:42 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Criando conteúdo em desenvolvimento de software, com Giulia Bordignon (SpaceCoding)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 14 Nov 2024 03:01:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 14 Nov 2024 03:01:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Conversando com Priscila Benavides: Liderança, Inovação e Representatividade Feminina na Tecnologia</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 13 Mar 2025 15:46:55 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 13 Mar 2025 15:46:55 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Conectando Emílias: um Encontro de Inspiração e Tecnologia - Evento do Dia Internacional da Mulher</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 Mar 2023 19:42:48 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 02 Mar 2023 19:42:48 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Conectadas, com Josiane Pinheiro (professora da UEM)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 27 Feb 2025 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 27 Feb 2025 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Como Construir uma Carreira Internacional em Tecnologia Trabalhando Remotamente, com Ana Neri</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 28 Nov 2024 12:51:24 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 28 Nov 2024 12:51:24 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Carla Vieira: Engenheira de Software e Organizadora do perifaCode (republicação 2020)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 13 Jul 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 13 Jul 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Carla Vieira: Engenheira de Software e Organizadora do perifaCode</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 08 Jul 2020 06:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 08 Jul 2020 06:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Camilla Martins: a Punk do DevOps</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 07 May 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 07 May 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>A trajetória de Emilcy Hernández-Leal na ciência de dados e no apoio a mulheres na tecnologia</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 08 Sep 2025 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Mon, 08 Sep 2025 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Arquitetura de Software com Ingrid Nunes - retransmissão Fronteiras da Engenharia de Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 26 Jan 2023 03:09:18 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 26 Jan 2023 03:09:18 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Andreza Rocha: Gestora de Operações da BrazilJS</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 16 Apr 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 16 Apr 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ana Waleska Araújo: Especialista em Proteção de Dados</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 28 May 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 28 May 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>A Máquina da Natureza, André L. Vignatti (UFPR) - livro vencedor do Jabuti Acadêmico Computação 2025</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 07 Oct 2025 10:54:47 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Tue, 07 Oct 2025 10:54:47 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Além dos Dados - Impacto e responsabilidade da Engenharia de Dados, Juliana Rodrigues Viscenheski</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 17 Apr 2025 11:11:21 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 17 Apr 2025 11:11:21 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>A linguagem de programação Lean, com Algebraic Sofia e Algebraic Gabi</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 25 Jan 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 25 Jan 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Aline Macohin: Doutoranda em Direito na UFPR e Analista de Sistemas no Serpro</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 30 Sep 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 30 Sep 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Aline Borges: Engenheira de Software (iOS) na Uber</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 16 Nov 2020 20:46:04 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Mon, 16 Nov 2020 20:46:04 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Aletéia Araújo: Professora da UnB e uma das coordenadoras do Meninas.Comp</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 01 Sep 2020 08:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Tue, 01 Sep 2020 08:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Alane Marie, Doutoranda em Ciência da Computação na UFPR</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 14 May 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 14 May 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>A Força da Mulher na Computação e a Jornada da Indústria à Academia, com Marcia Hino (UTFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 14 Aug 2025 16:47:56 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 14 Aug 2025 16:47:56 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Ada Lovelace, Turing e o Futuro da Computação: De Teorias à Realidade, com Alane Marie de Lima (UTFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 12 Dec 2024 12:53:57 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 12 Dec 2024 12:53:57 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>99: Trilhando o Caminho: Mulheres na Computação com Anne Lesinhovski, a Tech Anne</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 14 Feb 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 14 Feb 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>98: Maratonistas de Programação, com Larissa Behrens Soares, Maria Luiza Jaszczerski e Thaís Say de Carvalho</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 14 Dec 2023 08:51:05 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 14 Dec 2023 08:51:05 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>97: Conheça o Emílias - Time Eventos</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 23 Nov 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 23 Nov 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>96: Conheça o Emílias - Time Oficinas</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 09 Nov 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 09 Nov 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>95: Conheça o Emílias - Time Website</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 26 Oct 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 26 Oct 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>94: Pesquisa na Indústria, com Adeline Silva Schäffer (Fraunhofer IESE)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 11 Oct 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 11 Oct 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>93: Vídeos Breves, Discussões Poderosas: Mulheres na Tecnologia</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 28 Sep 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 28 Sep 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>92: LGPD na Engenharia de Software, com Juliana Saraiva (UFPB)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 06 Sep 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 06 Sep 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>91: Karine Liuti, Engenheira de Software em uma empresa do Vale do Silício</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 24 Aug 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 24 Aug 2023 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>90: Gabriela Michelon, Doutora em Ciência da Computação e Engenheira de Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 10 Aug 2023 09:53:06 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 10 Aug 2023 09:53:06 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>8: Fran Moro - Doutoranda em Informática na Educação</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 13 Mar 2020 11:12:57 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Fri, 13 Mar 2020 11:12:57 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>89: Laurie Williams, Professora na Universidade Estadual da Carolina do Norte</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 29 Jun 2023 04:02:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 29 Jun 2023 04:02:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>88: Agilidade com Érika Spadêto</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 15 Jun 2023 03:00:48 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 15 Jun 2023 03:00:48 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>87: Roda de conversa - Inspiração e Tecnologia com Erica Marques, Patricia Moreira e Aline Macohin</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 01 Jun 2023 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 01 Jun 2023 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>86: IA na seleção de currículos com Bianca Ximenes, Especialista em Machine Learning</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 18 May 2023 05:00:46 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 18 May 2023 05:00:46 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>85: Stephany Dionysio, Vice-presidente de Engenharia na Aikon e Mestre em Computação Aplicada pelo PPGCA</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 04 May 2023 03:00:29 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 04 May 2023 03:00:29 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>84: Códigos do Amanhã com Jéssica dos Santos Paiva</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 20 Apr 2023 03:00:02 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 20 Apr 2023 03:00:02 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>83: Meninas da Geotecnologia, com Tatiana Pará (IFPA)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 06 Apr 2023 03:00:58 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 06 Apr 2023 03:00:58 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>82: Eduarda Chagas, Consultora de Ciência de Dados e Doutoranda em Ciência da Computação na UFMG</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 23 Mar 2023 14:37:45 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 23 Mar 2023 14:37:45 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>81: Meninas Olímpicas do Brasil com Nara Martini Bigolin (UFSM)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 09 Mar 2023 03:00:45 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 09 Mar 2023 03:00:45 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>80: Claudia Regina Xavier, Pró-Reitora de Pesquisa e Pós-Graduação da UTFPR</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 23 Feb 2023 03:00:47 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 23 Feb 2023 03:00:47 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>7: Marihelen Santos, Gerente de Sistemas na Contabilizei</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 06 Mar 2020 13:52:37 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Fri, 06 Mar 2020 13:52:37 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>79: Rede Brasileira de Mulheres Cientistas com Sueli Sampaio Damin Custódio (ITA)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 09 Feb 2023 03:00:48 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 09 Feb 2023 03:00:48 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>78: Teoria dos Grafos com Sheila Morais de Almeida (UTFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 15 Dec 2022 03:00:17 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 15 Dec 2022 03:00:17 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>77: Memes Algorítmicos e TikTok, com Alane Marie (Doutora pela UFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 01 Dec 2022 03:00:50 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 01 Dec 2022 03:00:50 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>76: Thayana Mamoré - Gerente de Comunidade da DevsNorte e Desenvolvedora Pleno na Compass.uol</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 17 Nov 2022 03:13:05 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 17 Nov 2022 03:13:05 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>75: Gamificação com Isabela Gasparini (UDESC) - PARTE 2</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 03 Nov 2022 03:13:38 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 03 Nov 2022 03:13:38 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>74: Gamificação com Isabela Gasparini (UDESC) - PARTE 1</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 20 Oct 2022 03:01:04 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 20 Oct 2022 03:01:04 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>73: Poesia Compilada com Soraya Roberta (PARTE 2)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 06 Oct 2022 03:13:41 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 06 Oct 2022 03:13:41 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>72: Poesia Compilada com Soraya Roberta (PARTE 1)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 22 Sep 2022 03:00:57 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 22 Sep 2022 03:00:57 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>71: Infraestrutura de TI com Beatriz Oliveira (SysAdminas)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 08 Sep 2022 03:13:36 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 08 Sep 2022 03:13:36 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>70: Migração de carreira com Larissa Monteiro, Desenvolvedora de Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 25 Aug 2022 03:00:04 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 25 Aug 2022 03:00:04 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>6: Aline Jordão, Especialista em Operação de Redes</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 27 Feb 2020 11:29:40 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 27 Feb 2020 11:29:40 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>69: Luana Pimentel, Senior Staff Software Engineer na OLX Brasil</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 11 Aug 2022 03:01:32 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 11 Aug 2022 03:01:32 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>68: Além da Matemática, com Marina Groshaus (UTFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 28 Jul 2022 08:10:28 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 28 Jul 2022 08:10:28 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>67: Design de Sistemas de Informação, com Juliana Bueno (UFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 07 Jul 2022 03:00:30 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 07 Jul 2022 03:00:30 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>66: Episódio interno (integrantes do projeto)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 23 Jun 2022 03:13:56 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 23 Jun 2022 03:13:56 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>65: Engenharia de Firmware com Kaya Abe (Garmin)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 09 Jun 2022 03:00:57 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 09 Jun 2022 03:00:57 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>64: Engenharia de Dados com Hellen Ruthes</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 26 May 2022 03:00:23 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 26 May 2022 03:00:23 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>63: Recrutamento em TI no Brasil, com Jéssica Mendes</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 12 May 2022 08:38:44 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 12 May 2022 08:38:44 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>62: Recrutamento Internacional em TI com Ingrid Viana (Auguri Consult e AuguriTech)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 28 Apr 2022 03:00:44 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 28 Apr 2022 03:00:44 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>61: Programadoras da ARVORE: Ana Ribeiro, Alessandra Fernandes e Gabriela Matias</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 14 Apr 2022 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 14 Apr 2022 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>60: Damaris Mendes Ferreira: da UTFPR ao Google</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 31 Mar 2022 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 31 Mar 2022 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>5: Pyettra Ferreira, aluna do BSI-UTFPR e da Apple Developer Academy</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 20 Feb 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 20 Feb 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>59: Inovação na Tecnologia com Giuliana Veronese (Stefanini Europa)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 17 Feb 2022 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 17 Feb 2022 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>58: Vera Werneck, Professora Titular de Engenharia de Software na UERJ</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 03 Feb 2022 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 03 Feb 2022 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>57: Joanna C. S. Santos: professora assistente na Universidade de Notre Dame</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 16 Dec 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 16 Dec 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>56: Karina Kohl: Group Product Manager na OLX Brasil</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 Dec 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 02 Dec 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>55: Letícia Wapniarz Sartorelli: Scrum Master na ExxonMobil</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 18 Nov 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 18 Nov 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>54: Karine Silveira, Co-fundadora e Diretora de Operações na Impulso</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 04 Nov 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 04 Nov 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>53: Marihelen Santos, Gerente de TI na Timely, Canadá</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 21 Oct 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 21 Oct 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>4: Myrian Noguera, consultora e Mestre em Computação Aplicada pela UTFPR</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 13 Feb 2020 08:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 13 Feb 2020 08:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>49: Vivian Motti, Professora em Interação Humano-Computador na George Mason University</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 19 Aug 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 19 Aug 2021 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>48: Selenê Cavalcanti, ex-Analista de Sistemas Senior da Cobra Computadores</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 05 Aug 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 05 Aug 2021 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>3: Karen Tabatini: Analista e Desenvolvedora de Software e voluntária na NASA Space Apps Challenge</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 06 Feb 2020 13:50:51 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 06 Feb 2020 13:50:51 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>33: Caroline Dantas, Cientista de Dados</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 17 Dec 2020 11:35:44 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 17 Dec 2020 11:35:44 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>2: Elaine Naomi Watanabe, Desenvolvedora de Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 18 Oct 2019 19:42:37 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Fri, 18 Oct 2019 19:42:37 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>25: Anicely Santos, Analista de Dados e Colaboradora no InspirAda na Computação</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 19 Aug 2020 06:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 19 Aug 2020 06:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>1: Sílvia Amélia Bim, Professora da UTFPR</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Sat, 12 Oct 2019 20:35:49 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Sat, 12 Oct 2019 20:35:49 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>12: Erika Carvalho, Organizadora do Women Techmakers Curitiba</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 09 Apr 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 09 Apr 2020 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>113: Gestão e Empoderamento: Habilidades Emocionais na Carreira com Cláudia Silva (CISCO)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 26 Sep 2024 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 26 Sep 2024 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>112: Mariangela Setti apresenta "Emílias: conectando mulheres, potencializando ideias"</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 12 Sep 2024 03:01:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 12 Sep 2024 03:01:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>111. Garota Sem Fio: Bia Kunze fala sobre Tecnologia, Produtividade e Inspirações</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 28 Aug 2024 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Wed, 28 Aug 2024 03:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>110: Rosy Isaias (UFMG), primeira pesquisadora mulher e negra a atingir o nível 1A do CNPq</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 15 Aug 2024 16:21:34 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 15 Aug 2024 16:21:34 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>109: Heróis da Luz: Ingrid Mendes e o Impacto dos Jogos Sérios na Saúde</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 25 Jul 2024 13:42:17 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 25 Jul 2024 13:42:17 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>108: Participação feminina nos cursos da área de computação, com Maria Teresa Silva Santos</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 27 Jun 2024 14:17:35 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 27 Jun 2024 14:17:35 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>107: Conheça o Emílias - Time Podcast</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 13 Jun 2024 15:37:45 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 13 Jun 2024 15:37:45 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>106: Inteligência Artificial, com Marcella Scoczynski (UTFPR Ponta Grossa)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 23 May 2024 07:44:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 23 May 2024 07:44:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>105: Conheça o Emílias - Time Redes Sociais</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 09 May 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 09 May 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>104: concat(Gurias) com Rachel Reis (UFPR)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 25 Apr 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 25 Apr 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>103: Engenharia de Dados, com Juliana Rodrigues Viscenheski</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 11 Apr 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 11 Apr 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>102: Conheça o Emílas - Time Organização</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 28 Mar 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 28 Mar 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>101: Caminhos Inspiradores - Mulheres que Transformam a Engenharia com a SWE</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 14 Mar 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 14 Mar 2024 04:00:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>100: Conheça o Emílias - Time Pesquisa</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 29 Feb 2024 03:08:00 GMT;;Emílias Podcast - Mulheres na Computação</description>
+    <source>;Thu, 29 Feb 2024 03:08:00 GMT;;Emílias Podcast - Mulheres na Computação</source>
+  </item>
+  <item>
+    <title>Trailer do Elixir em Foco</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 30 Mar 2021 14:34:55 GMT;;Elixir em Foco</description>
+    <source>;Tue, 30 Mar 2021 14:34:55 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Swap abre 30 vagas para área de tecnologia e faz processo seletivo exclusivo para pessoas inscritas no Elixir Brasil 2021</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 24 Nov 2021 19:24:47 GMT;;Elixir em Foco</description>
+    <source>;Wed, 24 Nov 2021 19:24:47 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>SE4FP e Gambiconf</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 20 May 2025 15:48:08 GMT;;Elixir em Foco</description>
+    <source>;Tue, 20 May 2025 15:48:08 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Retrospectiva 2024: Eventos, Aprendizados e Tendências no Mundo Elixir</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 01 Jan 2025 04:01:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 01 Jan 2025 04:01:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>RefactorEx: Refatoração em Elixir, com Gabriel Pereira</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 07 May 2025 21:02:28 GMT;;Elixir em Foco</description>
+    <source>;Wed, 07 May 2025 21:02:28 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Paulo Valente 2 - A Missão: IA e Machine Learning em Elixir com Nx</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 02 Oct 2024 03:01:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 02 Oct 2024 03:01:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Participe da SpawnFest 2021!</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 24 Aug 2021 14:34:02 GMT;;Elixir em Foco</description>
+    <source>;Tue, 24 Aug 2021 14:34:02 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Participe da Code BEAM BR 2022!</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 09 Aug 2022 15:00:56 GMT;;Elixir em Foco</description>
+    <source>;Tue, 09 Aug 2022 15:00:56 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Palestra Esquenta SE4FP: Leonardo Lucena apresenta Potigol</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 22 Sep 2025 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Mon, 22 Sep 2025 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Palestra Esquenta SE4FP: A linguagem de programação funcional e provador de teoremas Lean com Sofia Rodrigues</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 02 Jul 2025 04:01:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 02 Jul 2025 04:01:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Mitos e Realidades no Desenvolvimento de Software com IA, Paulo Borba (Cin UFPE)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 04 Sep 2025 17:31:27 GMT;;Elixir em Foco</description>
+    <source>;Thu, 04 Sep 2025 17:31:27 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Mesa Redonda com Pedro Castilho, Vitor Leal e Elaine Naomi Watanabe</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 20 Oct 2021 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 20 Oct 2021 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>José Valim (reprise)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 05 Feb 2025 16:58:51 GMT;;Elixir em Foco</description>
+    <source>;Wed, 05 Feb 2025 16:58:51 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Introdução à Linguagem de Especificação Formal Quint | Esquenta SE4FP 2025 com Gabriela Moreira</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 20 Aug 2025 03:01:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 20 Aug 2025 03:01:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Gleam em Produção na Uncover, com Georges Boris</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 12 Mar 2025 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 12 Mar 2025 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>GambiConf 2024</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 14 May 2024 12:58:08 GMT;;Elixir em Foco</description>
+    <source>;Tue, 14 May 2024 12:58:08 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>From Diplomacy to OTP: Mackenzie Morgan's Path to Erlang and Elixir</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 10 Oct 2025 18:26:41 GMT;;Elixir em Foco</description>
+    <source>;Fri, 10 Oct 2025 18:26:41 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Elixir Extra com José Valim na Elixir Brasil 2021</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 29 Nov 2021 16:54:27 GMT;;Elixir em Foco</description>
+    <source>;Mon, 29 Nov 2021 16:54:27 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Elixir em Produção na Trio Pagamentos, com David Alencar</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 04 Dec 2024 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 04 Dec 2024 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Elixir em Produção na Remote, com Lívia Almeida Barbosa</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 06 Nov 2024 03:01:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 06 Nov 2024 03:01:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Elixir em produção na MeetRox, com Ana Dubas e Thiago Zattar da Silveira</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 09 Apr 2025 18:39:10 GMT;;Elixir em Foco</description>
+    <source>;Wed, 09 Apr 2025 18:39:10 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Elixir em Foco na Code BEAM Brasil 2022 com Alexandre de Souza (Dashbit)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 23 Aug 2023 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 23 Aug 2023 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Code Smells e Refatoração em Elixir, com Lucas Vegi (UFV)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 18 Jun 2025 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 18 Jun 2025 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Code BEAM BR 2021</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 29 Jun 2021 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Tue, 29 Jun 2021 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>A linguagem de programação funcional Clojure (Esquenta SE4FP) , com Nelkisa Matias</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 12 Aug 2025 14:45:09 GMT;;Elixir em Foco</description>
+    <source>;Tue, 12 Aug 2025 14:45:09 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>A linguagem de programação Elixir, com José Valim (Dashbit)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 19 Mar 2025 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 19 Mar 2025 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>9. Elixir em Produção com Danilo Gonçalves e Jomaro Rodrigues (EBANX)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 01 Dec 2021 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 01 Dec 2021 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>8. Elixir em Produção com Willian Frantz (Trybe) e Letícia Silva</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 03 Nov 2021 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 03 Nov 2021 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>7. Elixir em Produção com Daniel Pilon, Gerente de Engenharia na SumUp</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 06 Oct 2021 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 06 Oct 2021 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>6. Elixir em Produção com Jader Correa e Anderson Konzen, da Árvore</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 01 Sep 2021 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 01 Sep 2021 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>5. Elixir em Produção com Rachel Curioso, Consultora na Erlang Solutions</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 04 Aug 2021 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 04 Aug 2021 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>4. Elixir em Produção com Paulo Valente, Backend Tech Leader na Stone</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 30 Jun 2021 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 30 Jun 2021 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>42. Iago Effting: Explorando Elixir em Produção na Finbits e a jornada da newsletter Café com Elixir</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 04 Sep 2024 03:01:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 04 Sep 2024 03:01:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>41. Explorando Elixir: A Trajetória de George Guimarães (CloudWalk e ex-Plataformatec) e suas Contribuições</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 07 Aug 2024 06:33:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 07 Aug 2024 06:33:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>40. BEAM em Produção na Ekinops (Fabian van 't Hooft e João Henrique Freitas)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 03 Jul 2024 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 03 Jul 2024 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>3. Elixir em Produção com Elaine Naomi Watanabe, Engenharia de Software na The RealReal</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 02 Jun 2021 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 02 Jun 2021 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>39. Migração para Elixir: Experiências e Desafios com Samanta de Araújo</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 05 Jun 2024 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 05 Jun 2024 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>38. Elixir em Produção na Minha Biblioteca, com Thiago Leite Luiz</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 May 2024 10:18:07 GMT;;Elixir em Foco</description>
+    <source>;Thu, 02 May 2024 10:18:07 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>37. Explorando a Jornada de Bernardo Amorim: Experiências, Contribuições Open Source e Palestras</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 03 Apr 2024 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 03 Apr 2024 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>36. Da Supabase ao Elixir: Explorando Linguagens e Open Source com Filipe Cabaço</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 06 Mar 2024 09:30:57 GMT;;Elixir em Foco</description>
+    <source>;Wed, 06 Mar 2024 09:30:57 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>35. Explorando o Universo Elixir com Cherry Ramatis: Desenvolvimento, Comunidade e Conhecimento</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 07 Feb 2024 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 07 Feb 2024 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>34. Empregos, países e projetos: as novidades da equipe Elixir em Foco</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 03 Jan 2024 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 03 Jan 2024 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>33. Beacon CMS, com Leandro Pereira (DockYard)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 06 Dec 2023 04:11:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 06 Dec 2023 04:11:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>32. A linguagem Lean, com Algebraic Sofia e Algebraic Gabi</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 01 Nov 2023 04:20:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 01 Nov 2023 04:20:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>31: Elixir Fortaleza</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 04 Oct 2023 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 04 Oct 2023 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>30. Honey Potion (backend eBPF p/Elixir), com Fernando Quintão, Vinícius Pacheco, Kael Soares (UFMG)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 06 Sep 2023 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 06 Sep 2023 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>2. Elixir em Produção com Vitor Leal, CTO da Solfácil</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 05 May 2021 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 05 May 2021 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>29. Redes Neurais com Nx em Elixir, com Lucas Tavano (SWAP)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 02 Aug 2023 04:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 02 Aug 2023 04:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>28. Erlang com Vítor Andriotti (Riot Games via X-Team)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 05 Jul 2023 03:15:18 GMT;;Elixir em Foco</description>
+    <source>;Wed, 05 Jul 2023 03:15:18 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>27. Elixir em Produção na Favu com Felippe José e Rodrigo Moretto</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 07 Jun 2023 05:30:45 GMT;;Elixir em Foco</description>
+    <source>;Wed, 07 Jun 2023 05:30:45 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>26. Fly.io com João Ferreira, o Lubien</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 03 May 2023 03:00:02 GMT;;Elixir em Foco</description>
+    <source>;Wed, 03 May 2023 03:00:02 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>25. Elixir em Produção com Rodolfo Silva (CTO da Infleet)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 05 Apr 2023 03:00:08 GMT;;Elixir em Foco</description>
+    <source>;Wed, 05 Apr 2023 03:00:08 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>24. Elixir Radar com Hugo Baraúna</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 01 Mar 2023 03:00:05 GMT;;Elixir em Foco</description>
+    <source>;Wed, 01 Mar 2023 03:00:05 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>23. Clojure com Camilo Cunha de Azevedo e Márcio Lopes de Faria</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 01 Feb 2023 03:00:35 GMT;;Elixir em Foco</description>
+    <source>;Wed, 01 Feb 2023 03:00:35 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>22. Projeto Spawn e comunidade eigr com Adriano Santos</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 04 Jan 2023 03:00:51 GMT;;Elixir em Foco</description>
+    <source>;Wed, 04 Jan 2023 03:00:51 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>21. TLA+ e Elixir com Gabriela Moreira, Engenheira de Pesquisa na Informal Systems, Mestre em Computação pela UDESC</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 07 Dec 2022 03:00:44 GMT;;Elixir em Foco</description>
+    <source>;Wed, 07 Dec 2022 03:00:44 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>20. Transição de carreira para Elixir, com Julia Mathias, Engenheira de Software na Hightop</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 26 Oct 2022 03:13:47 GMT;;Elixir em Foco</description>
+    <source>;Wed, 26 Oct 2022 03:13:47 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>1. Elixir em Produção com Pedro Castilho, CTO da Comadre</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:16 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 07 Apr 2021 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 07 Apr 2021 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>19. Aprendizado e Comunidade, com Bianca Cesarino e Fernanda Bernardo (Cumbuca)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 05 Oct 2022 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 05 Oct 2022 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>18. Giorgio Torres, Desenvolvedor Elixir</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 06 Sep 2022 03:00:25 GMT;;Elixir em Foco</description>
+    <source>;Tue, 06 Sep 2022 03:00:25 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>17. Ulisses Almeida, Engenheiro de Software na Duffel</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 03 Aug 2022 03:00:02 GMT;;Elixir em Foco</description>
+    <source>;Wed, 03 Aug 2022 03:00:02 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>16. Atualizações da Equipe Elixir em Foco: Cris, Adolfo, Zoey e Herminio</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 06 Jul 2022 03:00:23 GMT;;Elixir em Foco</description>
+    <source>;Wed, 06 Jul 2022 03:00:23 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>15. Elixir Code Smells com Lucas Vegi (UFV) e Marco Tulio Valente (UFMG)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 01 Jun 2022 03:00:04 GMT;;Elixir em Foco</description>
+    <source>;Wed, 01 Jun 2022 03:00:04 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>14. Elixir Protobuf com João Britto (e Elixir Brasil com João e Alda Rocha)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 04 May 2022 03:00:39 GMT;;Elixir em Foco</description>
+    <source>;Wed, 04 May 2022 03:00:39 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>13. Surface com Marlus Saraiva</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 06 Apr 2022 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 06 Apr 2022 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>12. Elixir em Produção, com José Valim (Dashbit)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 02 Mar 2022 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 02 Mar 2022 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>10. Elixir em Produção com Renan "Milhouse" Ranelli (Podium)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 05 Jan 2022 03:00:00 GMT;;Elixir em Foco</description>
+    <source>;Wed, 05 Jan 2022 03:00:00 GMT;;Elixir em Foco</source>
+  </item>
+  <item>
+    <title>Walter Carnielli: Professor de Lógica da UNICAMP</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 25 Jun 2021 19:44:28 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 25 Jun 2021 19:44:28 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Walter Carnielli comenta e indica dois livros de Lógica</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 30 Jun 2021 15:39:44 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 30 Jun 2021 15:39:44 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Valdemar W. Setzer em "IA - Inteligência Artificial ou Imbecilidade Automática? Máquinas pode pensar e sentir?</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 07 Oct 2021 10:59:09 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 07 Oct 2021 10:59:09 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Unsafe Impedance: Safe Languages and Safe by Design Software</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Sun, 13 Oct 2024 00:04:42 GMT;;Professor Adolfo Neto</description>
+    <source>;Sun, 13 Oct 2024 00:04:42 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Ética no Desenvolvimento de Software &amp;amp</title>
+    <link> Elixir, com Ruan Brandão</link>
+    <pubDate>Fri, 17 Oct 2025 00:00:00 -0300</pubDate>
+    <description>Publicado originalmente em https://podcasters.spotify.com/pod/show/adolfont/episodes/tica-no-Desenvolvimento-de-Software--Elixir--com-Ruan-Brando-eie3l1;;Thu, 20 Aug 2020 19:50:39 GMT;;Professor Adolfo Neto</description>
+    <source>https://podcasters.spotify.com/pod/show/adolfont/episodes/tica-no-Desenvolvimento-de-Software--Elixir--com-Ruan-Brando-eie3l1;;Thu, 20 Aug 2020 19:50:39 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Spawnfest 2021, com Filipe Varjão e Paulo F. Oliveira</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 04 May 2021 17:41:14 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 04 May 2021 17:41:14 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Sobre o Guia do Scrum</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 23 Mar 2020 21:41:27 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 23 Mar 2020 21:41:27 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>RS Entrevista Professor Adolfo Neto</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Sun, 06 Mar 2022 14:15:52 GMT;;Professor Adolfo Neto</description>
+    <source>;Sun, 06 Mar 2022 14:15:52 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Republicação FES: Aprendizado de Máquina em Engenharia de Software com Mauricio Aniche</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 08 Dec 2023 11:31:03 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 08 Dec 2023 11:31:03 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Raciocínio Automatizado com Leonardo de Moura, Pesquisador na Microsoft Research</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 23 Nov 2021 19:52:43 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 23 Nov 2021 19:52:43 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Q&amp;amp</title>
+    <link>A with Brujo Benavides - Introduction to Functional Programming</link>
+    <pubDate>Fri, 17 Oct 2025 00:00:00 -0300</pubDate>
+    <description>Publicado originalmente em https://podcasters.spotify.com/pod/show/adolfont/episodes/QA-with-Brujo-Benavides---Introduction-to-Functional-Programming-emdeg1;;Thu, 12 Nov 2020 22:17:51 GMT;;Professor Adolfo Neto</description>
+    <source>https://podcasters.spotify.com/pod/show/adolfont/episodes/QA-with-Brujo-Benavides---Introduction-to-Functional-Programming-emdeg1;;Thu, 12 Nov 2020 22:17:51 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Por que usar @typespecs em seu código Elixir?, por Rômulo Silva</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 28 Feb 2023 20:30:16 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 28 Feb 2023 20:30:16 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Podcurso de Elixir - Aula 1 - Parte 2 - Básico</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 27 Apr 2022 19:18:05 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 27 Apr 2022 19:18:05 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Podcurso de Elixir - Aula 1 - Parte 1 - Básico</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 25 Apr 2022 20:04:36 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 25 Apr 2022 20:04:36 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Podcast Diálogo Ágil - Episódio #3 - Gustavo Tenius</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 13 Jul 2023 13:05:27 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 13 Jul 2023 13:05:27 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Podcast Diálogo Ágil - Episódio #2 - Robson Valentim</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 09 Aug 2023 15:38:50 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 09 Aug 2023 15:38:50 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Painel de debate - Comunicação entre a academia e a indústria</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 15 Jun 2023 14:15:48 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 15 Jun 2023 14:15:48 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Novos episódios dos podcasts Elixir em Foco, Fronteiras da Engenharia de Software e Emílias Podcast</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 16 Jul 2021 12:24:04 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 16 Jul 2021 12:24:04 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>"No, AI is not Making Engineers 10x as Productive", Colton Voege</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 07 Aug 2025 14:09:58 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 07 Aug 2025 14:09:58 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Meu tempo em Raleigh: participação em Meetups</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 24 Oct 2022 23:58:53 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 24 Oct 2022 23:58:53 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Maurício Aniche: Professor da Universidade de Delft, na Holanda</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 04 Jun 2020 16:45:33 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 04 Jun 2020 16:45:33 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Learning Lean in the Age of Artificial Intelligence</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 04 Apr 2025 14:26:54 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 04 Apr 2025 14:26:54 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Learning Elixir with ELXPRO - Gustavo Oliveira</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 18 Dec 2023 18:43:35 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 18 Dec 2023 18:43:35 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Lean FRO Year 3 Roadmap</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 05 Aug 2025 20:14:44 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 05 Aug 2025 20:14:44 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>José Valim no Elixir em Foco</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 02 Mar 2022 19:29:04 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 02 Mar 2022 19:29:04 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>João Maia: Engenheiro DevOps na Pagar.me</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 09 Apr 2020 22:18:52 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 09 Apr 2020 22:18:52 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Jean Rangel: Programador na i-Cherry</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 27 Mar 2020 16:41:48 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 27 Mar 2020 16:41:48 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Iván Álvarez, Software Developer at Resuelve tu Deuda, México (EN)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 15 Jun 2022 12:20:43 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 15 Jun 2022 12:20:43 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Introdução à Programação Funcional 2019</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 27 Nov 2019 20:23:29 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 27 Nov 2019 20:23:29 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Inteligência Artificial com Marcelo Finger, Professor Titular da USP</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 17 Mar 2021 15:51:44 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 17 Mar 2021 15:51:44 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Inside the Scheme Workshop 2024 with Kris Micinski</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 03 Jun 2024 21:06:12 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 03 Jun 2024 21:06:12 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Informações Iniciais sobre Introdução à Lógica para a Computação (versão 2022)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 22 Mar 2022 12:17:04 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 22 Mar 2022 12:17:04 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Império da IA, com Renata Gomes (UFRB) - republicação Emílias</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 16 Sep 2025 15:40:33 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 16 Sep 2025 15:40:33 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>"Há limites para a Inteligência Artificial? Sobre a Filosofia no caso ChatGPT", com Walter Carnielli e mediação de Marcos Silva</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 20 Mar 2023 16:51:08 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 20 Mar 2023 16:51:08 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Gustavo Pinto: Professor da Universidade Federal do Pará</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 28 Apr 2020 04:00:00 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 28 Apr 2020 04:00:00 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Guilherme de Maio: Desenvolvedor com foco em Back-End e um dos organizadores do ELUG São Paulo</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 03 Sep 2020 14:11:28 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 03 Sep 2020 14:11:28 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>From Diplomacy to OTP: Mackenzie Morgan's Path to Erlang and Elixir</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 10 Oct 2025 18:31:16 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 10 Oct 2025 18:31:16 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Francisco Antonio Dória, Professor Emérito da UFRJ</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 16 Feb 2023 03:00:02 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 16 Feb 2023 03:00:02 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Filipe Varjão: Engenheiro de Software na Erlang Solutions</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 27 May 2020 21:45:18 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 27 May 2020 21:45:18 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>FES 41: Lean e Verificação de Software, com Leonardo de Moura (AWS) - republicação</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 21 Nov 2023 04:00:00 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 21 Nov 2023 04:00:00 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Fernando Kenji Kamei: Professor do IFAL</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 12 May 2020 16:18:14 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 12 May 2020 16:18:14 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Fake News (rebroadcast)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 Apr 2020 12:58:24 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 02 Apr 2020 12:58:24 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Exploring Erlang, Elixir and Beyond: A Conversation with Professor Laura Castro</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 18 Mar 2024 19:06:29 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 18 Mar 2024 19:06:29 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Ethics in Software Engineering with Brittany Johnson-Matthews (George Mason University)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 18 Jun 2024 15:59:06 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 18 Jun 2024 15:59:06 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Esper Cavalheiro: Habilidades de um doutor (Revista FAPESP)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 05 Oct 2022 12:11:10 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 05 Oct 2022 12:11:10 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Erlang Workshop, Erlang, and OTP with Kiko Fernandez-Reyes</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 08 May 2024 16:33:37 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 08 May 2024 16:33:37 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Erlang Ecosystem Foundation GPTs for learning Elixir, Erlang and OTP</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 02 Jul 2025 18:05:56 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 02 Jul 2025 18:05:56 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Entrevista com a equipe da UTFPR Curitiba classificada para a Final da Maratona de Programação</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 08 Dec 2021 18:55:57 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 08 Dec 2021 18:55:57 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Empowering Learning: Peter Ullrich's Journey from Psychology to Indie Courses</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 30 Apr 2024 04:00:00 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 30 Apr 2024 04:00:00 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Emotions in Software Engineering, with Nicole Novielli (Uniba)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 28 Aug 2024 16:39:05 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 28 Aug 2024 16:39:05 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>"Elixir, sete passos para iniciar sua viagem", de Lorena Mireles</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 13 Feb 2023 21:47:05 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 13 Feb 2023 21:47:05 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Elixir Enthusiasm: Insights from Senior Software Engineer Eduardo Borsa</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 03 Apr 2024 18:13:33 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 03 Apr 2024 18:13:33 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Elixir e Empreendedorismo com Alfred Reinold Baudisch</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 14 Apr 2021 14:53:32 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 14 Apr 2021 14:53:32 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Elixir, Education, and Beyond: A Conversation with Rickson Oliveira, Software Engineer at ateliware</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 19 Feb 2024 04:00:00 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 19 Feb 2024 04:00:00 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Edward Petkovicz - Program Manager na Amazon (Egressos do DAINF)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 21 Jun 2022 15:08:50 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 21 Jun 2022 15:08:50 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Diversity and Inclusion in Software Engineering, with Alexander Serebrenik (TU/e)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 06 Aug 2024 22:00:00 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 06 Aug 2024 22:00:00 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Diego Aranha: Professor na Universidade de Aarhus, Dinamarca</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 09 Sep 2020 21:20:08 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 09 Sep 2020 21:20:08 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Danilo Monteiro: Doutorando em Ciência da Computação na UFPE</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 Apr 2020 22:55:13 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 02 Apr 2020 22:55:13 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Curso de Elixir Sequencial - Março 2022</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 28 Feb 2022 16:28:36 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 28 Feb 2022 16:28:36 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Conceitos básicos para programação funcional</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 26 Oct 2022 15:29:29 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 26 Oct 2022 15:29:29 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Computação evolucionária de alto desempenho com aceleração baseada em tensores</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 14 Jul 2022 14:08:37 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 14 Jul 2022 14:08:37 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Charlotte de Oliveira: Engenheira de Software Senior especialista em Elixir</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 09 Oct 2020 14:23:09 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 09 Oct 2020 14:23:09 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Bruno da Silva: Professor de Engenharia de Software na Cal Poly San Luis Obispo</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 05 Aug 2020 22:16:30 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 05 Aug 2020 22:16:30 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Bruno Cartaxo: Professor do IFPE</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 17 Apr 2020 04:00:00 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 17 Apr 2020 04:00:00 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Barack Obama usa Elixir? Mensagens sociais com Elixir na empresa Community</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 22 Sep 2021 18:34:21 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 22 Sep 2021 18:34:21 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>A Semana de Trabalho de um Dia de Edsger Dijkstra</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 11 Aug 2023 17:34:37 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 11 Aug 2023 17:34:37 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Arthur Schopenhauer seguiu a mesma rotina todo dia por 27 anos</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 10 Mar 2021 12:42:24 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 10 Mar 2021 12:42:24 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Arte-educação com Alexandre Villares</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 02 Jul 2020 17:42:59 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 02 Jul 2020 17:42:59 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>Arnaldo Carvalho de Melo: Senior Principal Software Engineer na Red Hat e um dos fundadores da Conectiva</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 17 Dec 2020 09:34:01 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 17 Dec 2020 09:34:01 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>An interview with Sophie DeBenedetto at Code BEAM America 2022</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 04 Mar 2024 18:16:37 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 04 Mar 2024 18:16:37 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>An interview with Mackenzie Morgan at Code BEAM America 2022</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Wed, 28 Feb 2024 18:00:56 GMT;;Professor Adolfo Neto</description>
+    <source>;Wed, 28 Feb 2024 18:00:56 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>An interview with Lee Barney at Code BEAM America 2022</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Thu, 05 Sep 2024 03:00:00 GMT;;Professor Adolfo Neto</description>
+    <source>;Thu, 05 Sep 2024 03:00:00 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>An interview with Herminio Torres at Code BEAM America 2022 (in Portuguese)</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Mon, 13 May 2024 17:25:47 GMT;;Professor Adolfo Neto</description>
+    <source>;Mon, 13 May 2024 17:25:47 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>An interview with Dave Lucia at Code BEAM America 2022</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 06 Sep 2024 11:22:26 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 06 Sep 2024 11:22:26 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>An interview with Carlo Gilmar at Code BEAM America 2022</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 30 Jan 2024 16:01:27 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 30 Jan 2024 16:01:27 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>A Máquina da Natureza - Conversa com André L. Vignatti (UFPR), autor do livro vencedor do Jabuti Acadêmico Computação 2025</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Fri, 03 Oct 2025 14:30:40 GMT;;Professor Adolfo Neto</description>
+    <source>;Fri, 03 Oct 2025 14:30:40 GMT;;Professor Adolfo Neto</source>
+  </item>
+  <item>
+    <title>A linguagem de programação Lean - Trecho do episódio 32 do podcast Elixir em Foco</title>
+    <link></link>
+    <pubDate>Fri, 17 Oct 2025 12:20:17 -0300</pubDate>
+    <description>Publicado originalmente em ;Tue, 31 Oct 2023 18:53:09 GMT;;Professor Adolfo Neto</description>
+    <source>;Tue, 31 Oct 2023 18:53:09 GMT;;Professor Adolfo Neto</source>
+  </item>
+</channel>
+</rss>
