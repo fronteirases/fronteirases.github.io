@@ -18,7 +18,6 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 ## Nosso episódio mais recente
 
 
-
 ## Áudio/vídeo no Spotify
 
 
@@ -30,15 +29,7 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 {% include youtube.html id="5nly6yauyFI" %}  
   
 
-
-
-## Próximos episódios
-
-Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
-
-
-
-Escute todos os episódios em:
+## Escute-nos em várias plataformas
 
 - [Spotify for Podcasters: https://podcasters.spotify.com/pod/show/fronteirases](https://podcasters.spotify.com/pod/show/fronteirases)
 - [Fronteiras da Engenharia de Software no YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
@@ -46,9 +37,14 @@ Escute todos os episódios em:
 - [Fronteiras da Engenharia de Software na Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
 - [Fronteiras da Engenharia de Software no Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yNDhjMDU2OC9wb2RjYXN0L3Jzcw==)
 - [Fronteiras da Engenharia de Software na Amazon Music](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
+- [Fronteiras da Engenharia de Software no PocketCasts](https://pocketcasts.com/podcast/fronteiras-da-engenharia-de-software/27e964c0-8cba-0138-ee52-0acc26574db2)
 - [Fronteiras da Engenharia de Software no Headliner](https://play.headliner.app/podcast/23829)
 
 
 Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário](https://forms.gle/E5QxpzgK28aaRfFX7).
 
+
+Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
+
+[Mais informações](/paginas_extras/)
 
