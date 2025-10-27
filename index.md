@@ -46,9 +46,6 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 - [Fronteiras da Engenharia de Software no Headliner](https://play.headliner.app/podcast/23829)
 
 
-Se quiser receber e-mails do Fronteiras, preencha seus dados [neste formulário](https://forms.gle/E5QxpzgK28aaRfFX7).
-
-
 Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
 
 [Mais informações](/paginas_extras/)
