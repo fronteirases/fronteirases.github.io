@@ -6,7 +6,7 @@ plugins:
   - jekyll-avatar
 logo: /logo.png
 title: Fronteiras da Engenharia de Software
-description: Um podcast de divulgação científica associado ao Programa de Pós-Graduação em Computação Aplicada (PPGCA) da UTFPR Curitiba e ao Emílias - Armação em Bits (somos parte da Rede Emílias de Podcasts).
+description: Um podcast de divulgação científica associado ao Programa de Pós-Graduação em Computação Aplicada (PPGCA) da UTFPR Curitiba e ao Emílias - Armação em Bits (integrante da Rede Emílias de Podcasts).
  
 twitter_username: fronteirases # DO NOT include the @ character, or else the build will fail!
 github_username:  fronteirases # DO NOT include the @ character, or else the build will fail!
