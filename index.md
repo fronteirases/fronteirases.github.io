@@ -36,14 +36,12 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 
 ## Escute-nos em várias plataformas
 
-- [Spotify for Podcasters: https://podcasters.spotify.com/pod/show/fronteirases](https://podcasters.spotify.com/pod/show/fronteirases)
-- [Fronteiras da Engenharia de Software no YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
-- [Fronteiras da Engenharia de Software no Spotify](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
-- [Fronteiras da Engenharia de Software na Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
-- [Fronteiras da Engenharia de Software no Google Podcasts](https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8yNDhjMDU2OC9wb2RjYXN0L3Jzcw==)
-- [Fronteiras da Engenharia de Software na Amazon Music](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
-- [Fronteiras da Engenharia de Software no PocketCasts](https://pocketcasts.com/podcast/fronteiras-da-engenharia-de-software/27e964c0-8cba-0138-ee52-0acc26574db2)
-- [Fronteiras da Engenharia de Software no Headliner](https://play.headliner.app/podcast/23829)
+- [Spotify](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
+- [YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
+- [PocketCasts](https://pocketcasts.com/podcast/fronteiras-da-engenharia-de-software/27e964c0-8cba-0138-ee52-0acc26574db2)
+- [Spotify for Creators](https://creators.spotify.com/pod/profile/fronteirases/) - contém link para outras plataformas
+- [Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
+- [Amazon Music](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
 
 
 Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
