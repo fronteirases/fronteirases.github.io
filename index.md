@@ -24,9 +24,14 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 {% include spotify.html id="6bh7c4Yj3Ka5SXPqzj1HNe" %}
 
 
+---
+
 ## Vídeo no YouTube
 
 {% include youtube.html id="5nly6yauyFI" %}  
+
+
+---
   
 
 ## Escute-nos em várias plataformas
