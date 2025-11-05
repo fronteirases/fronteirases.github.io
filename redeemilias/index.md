@@ -32,6 +32,7 @@ O podcast [Fronteiras da Engenharia de Software](https://fronteirases.github.io/
 
 ## Redes Sociais
 
+<!--
 
 ### Rede Emílias 
 
@@ -39,21 +40,26 @@ O podcast [Fronteiras da Engenharia de Software](https://fronteirases.github.io/
   - [Rede Emílias no Bluesky](https://bsky.app/profile/redeemilias.bsky.social) 
   - [Rede Emílias no Linkedin](https://www.linkedin.com/company/em%C3%ADlias-podcast) 
 
+-->
+
 ### Emílias - Armação em Bits
   - [Emílias - Armação em Bits no Instagram](https://www.instagram.com/emilias_utfpr)
-  - [Emílias - Armação em Bits no Linkedin](https://www.linkedin.com/company/em%C3%ADlias)
+<!--   - [Emílias - Armação em Bits no Linkedin](https://www.linkedin.com/company/em%C3%ADlias) -->
 
 ### Fronteiras da Engenharia de Software
   - [Fronteiras da Engenharia de Software no Instagram](https://www.instagram.com/@fronteirases)
-  - [Fronteiras da Engenharia de Software no Bluesky](https://fronteirases.bsky.social/)
+<!--   - [Fronteiras da Engenharia de Software no Bluesky](https://fronteirases.bsky.social/)
   - [Fronteiras da Engenharia de Software no X](http://x.com/fronteirases)
   - [Fronteiras da Engenharia de Software no Threads](https://www.threads.com/@fronteirases)
   - [Fronteiras da Engenharia de Software no Linkedin](https://www.linkedin.com/company/fronteirases)
+-->
 
+<!--
 ### Elixir em Foco
 
 - [Elixir em Foco no Linkedin](https://www.linkedin.com/company/elixiremfoco)
 - [Elixir em Foco no X](http://x.com/elixiremfoco)
+-->
 
 
 
