@@ -52,8 +52,10 @@ O podcast [Fronteiras da Engenharia de Software](https://fronteirases.github.io/
 <!--   - [Emílias - Armação em Bits no Linkedin](https://www.linkedin.com/company/em%C3%ADlias) -->
 
 ### Fronteiras da Engenharia de Software
-  - [Fronteiras da Engenharia de Software no Instagram](https://www.instagram.com/@fronteirases)
-<!--   - [Fronteiras da Engenharia de Software no Bluesky](https://fronteirases.bsky.social/)
+  - [Fronteiras da Engenharia de Software no Instagram](https://www.instagram.com/fronteirases)
+
+<!--   
+  - [Fronteiras da Engenharia de Software no Bluesky](https://fronteirases.bsky.social/)
   - [Fronteiras da Engenharia de Software no X](http://x.com/fronteirases)
   - [Fronteiras da Engenharia de Software no Threads](https://www.threads.com/@fronteirases)
   - [Fronteiras da Engenharia de Software no Linkedin](https://www.linkedin.com/company/fronteirases)
