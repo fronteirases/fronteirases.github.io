@@ -32,6 +32,11 @@ O podcast [Fronteiras da Engenharia de Software](https://fronteirases.github.io/
 
 ## Redes Sociais
 
+### Perfis do Coordenador da Rede
+
+- [Adolfo Neto no Bluesky](https://bsky.app/profile/adolfont.github.io)
+- [Adolfo Neto no Linkedin](https://www.linkedin.com/in/adolfont/)
+
 <!--
 
 ### Rede Emílias 
