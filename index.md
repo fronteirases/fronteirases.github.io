@@ -18,16 +18,15 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 ## Nosso episódio mais recente
 
 
-## Áudio/vídeo no Spotify
-
-
-{% include spotify.html id="36v844vTH4PCnLRcYpriYZ" %}
-
-
 
 ## Vídeo no YouTube
 
 {% include youtube.html id="WHf8c4ZlB6M" %}  
+
+## Áudio/vídeo no Spotify
+
+
+{% include spotify.html id="36v844vTH4PCnLRcYpriYZ" %}
 
 
 
