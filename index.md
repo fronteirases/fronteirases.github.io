@@ -28,6 +28,13 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 
 {% include spotify.html id="36v844vTH4PCnLRcYpriYZ" %}
 
+## Três episódios mais recentes
+
+- [62: Qualidade e Manutenção de Software, com Carla Bezerra (UFC Quixadá)](../episodios/paginas/62)
+- [61: ADoTe: abordagem para o ensino e aprendizagem de critérios de teste da técnica funcional apoiada por dojo de teste, Vladimir Belinski (PPGCA UTFPR)](../episodios/paginas/61)
+- [60: Engenharia de Software Moderna, com Marco Tulio Valente (UFMG)](../episodios/paginas/60)
+
+[Clique para ver mais](/paginas_extras/) 
 
 
 ---
