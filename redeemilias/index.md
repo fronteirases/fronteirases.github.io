@@ -74,3 +74,7 @@ O podcast [Fronteiras da Engenharia de Software](https://fronteirases.github.io/
 
 A rede foi criada em agosto de 2024, unindo podcasts já existentes. Veja [números da Rede Emílias de Podcasts.](https://fronteirases.github.io/redeemilias/numeros)
 
+
+## Como citar
+
+NETO, A.; EMER, M. C. Rede Emílias de Podcasts. Página inicial. Disponível em: <https://fronteirases.github.io/redeemilias/>. Acesso em: 25 nov. 2025.
