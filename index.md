@@ -21,20 +21,22 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 
 
 
+
 ## Vídeo no YouTube
 
-{% include youtube.html id="WHf8c4ZlB6M" %}  
+{% include youtube.html id="Bm4V_F92kFw" %}  
 
 ## Áudio/vídeo no Spotify
 
 
-{% include spotify.html id="36v844vTH4PCnLRcYpriYZ" %}
+{% include spotify.html id="39kVvSU83SU3amJJDvDlPd" %}
+
 
 ## Três episódios mais recentes
 
+- [# 63: Teaching Software Engineering at Scale, with Armando Fox (UC Berkeley)](../episodios/paginas/63)
 - [62: Qualidade e Manutenção de Software, com Carla Bezerra (UFC Quixadá)](../episodios/paginas/62)
 - [61: ADoTe: abordagem para o ensino e aprendizagem de critérios de teste da técnica funcional apoiada por dojo de teste, Vladimir Belinski (PPGCA UTFPR)](../episodios/paginas/61)
-- [60: Engenharia de Software Moderna, com Marco Tulio Valente (UFMG)](../episodios/paginas/60)
 
 [Clique para ver mais](/paginas_extras/) 
 
