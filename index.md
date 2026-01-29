@@ -1,6 +1,8 @@
 #  Fronteiras da Engenharia de Software 
 
-Fronteiras da Engenharia de Software é um podcast para refletir sobre o presente e o futuro da engenharia de software. Publicamos episódios mensais em que entrevistamos pessoas pesquisadoras da área. Este podcast é uma atividade de divulgação científica associada ao [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba](http://bit.ly/3mVfjhF) e ao [Emílias - Armação em Bits](https://utfpr.curitiba.br/emilias). Somos parte da [Rede Emílias de Podcasts](https://bit.ly/redeemilias).
+Fronteiras da Engenharia de Software é um podcast para refletir sobre o presente e o futuro da engenharia de software. Publicamos episódios mensais em que entrevistamos pessoas pesquisadoras da área. Este podcast é uma atividade de divulgação científica associada ao [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba](http://bit.ly/3mVfjhF) e ao [Emílias - Armação em Bits](https://utfpr.curitiba.br/emilias). 
+
+**Somos parte da [Rede Emílias de Podcasts](https://bit.ly/redeemilias).**
 
 Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Software? Será avisado(a) do lançamento de cada episódio e também de outras atividades em que estivermos envolvidos. Se sim, preencha seus dados [neste formulário](https://bit.ly/3N7brVL). 
 
@@ -18,15 +20,25 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 ## Nosso episódio mais recente
 
 
-## Áudio/vídeo no Spotify
-
-
-{% include spotify.html id="6bh7c4Yj3Ka5SXPqzj1HNe" %}
 
 
 ## Vídeo no YouTube
 
-{% include youtube.html id="5nly6yauyFI" %}  
+{% include youtube.html id="Bm4V_F92kFw" %}  
+
+## Áudio/vídeo no Spotify
+
+
+{% include spotify.html id="39kVvSU83SU3amJJDvDlPd" %}
+
+
+## Três episódios mais recentes
+
+- [# 63: Teaching Software Engineering at Scale, with Armando Fox (UC Berkeley)](../episodios/paginas/63)
+- [62: Qualidade e Manutenção de Software, com Carla Bezerra (UFC Quixadá)](../episodios/paginas/62)
+- [61: ADoTe: abordagem para o ensino e aprendizagem de critérios de teste da técnica funcional apoiada por dojo de teste, Vladimir Belinski (PPGCA UTFPR)](../episodios/paginas/61)
+
+[Clique para ver mais](/paginas_extras/) 
 
 
 ---
