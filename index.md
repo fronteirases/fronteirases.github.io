@@ -58,6 +58,7 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 - [Spotify for Creators](https://creators.spotify.com/pod/profile/fronteirases/) - contém link para outras plataformas
 - [Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
 - [Amazon Music](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
+- [RSS - link para ouvir em qualquer aplicativo de áudio](https://anchor.fm/s/248c0568/podcast/rss)
 
 
 Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
