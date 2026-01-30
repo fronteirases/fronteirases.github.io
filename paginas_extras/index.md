@@ -6,6 +6,7 @@
 
 ## Episódios recentes
 
+- [64: Qual é a próxima fronteira da Engenharia de Software? Edição 2025 da Retrospectiva](../episodios/paginas/64)
 - [63: Teaching Software Engineering at Scale, with Armando Fox (UC Berkeley)](../episodios/paginas/63)
 - [62: Qualidade e Manutenção de Software, com Carla Bezerra (UFC Quixadá)](../episodios/paginas/62)
 - [61: ADoTe: abordagem para o ensino e aprendizagem de critérios de teste da técnica funcional apoiada por dojo de teste, Vladimir Belinski (PPGCA UTFPR)](../episodios/paginas/61)
