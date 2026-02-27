@@ -25,17 +25,20 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 
 ## Vídeo no YouTube
 
-{% include youtube.html id="qNN8KEN_HZM" %}  
+{% include youtube.html id="9VDuu5YP8AA" %}  
 
 ## Áudio/vídeo no Spotify
 
 
-{% include spotify.html id="11yOeSTkRe4Z755qht2t9j" %}
+https://open.spotify.com/episode/
+
+{% include spotify.html id="5okpZDotADvPRCH2397nru" %}
 
 
 
 ## Episódios mais recentes
 
+- [64b: Evolução da Engenharia de Software Experimental, com Guilherme H. Travassos (COPPE/UFRJ)](../episodios/paginas/64b)
 - [64: Qual é a próxima fronteira da Engenharia de Software? Edição 2025 da Retrospectiva](../episodios/paginas/64)
 - [63: Teaching Software Engineering at Scale, with Armando Fox (UC Berkeley)](../episodios/paginas/63)
 - [62: Qualidade e Manutenção de Software, com Carla Bezerra (UFC Quixadá)](../episodios/paginas/62)
