@@ -34,7 +34,7 @@
   </div>
 
   <div style="text-align: center; width: 200px;">
-    <img src="images/maria-claudia-emer.jpg" alt="Maria Claudia Emer" width="200" height="200" style="object-fit: cover; border-radius: 8px;" onerror="this.src='image.jpg'">
+    <img src="images/maria-claudia-emer.png" alt="Maria Claudia Emer" width="200" height="200" style="object-fit: cover; border-radius: 8px;" onerror="this.src='image.jpg'">
     <p><strong>Maria Claudia Emer</strong><br>Apresentadora do Fronteiras da Engenharia de Software<br><em>Desde 01/08/2022</em></p>
   </div>
 
