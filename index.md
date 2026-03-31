@@ -1,10 +1,22 @@
 #  Fronteiras da Engenharia de Software 
 
-Fronteiras da Engenharia de Software é um podcast para refletir sobre o presente e o futuro da engenharia de software. Publicamos episódios mensais em que entrevistamos pessoas pesquisadoras da área. Este podcast é uma atividade de divulgação científica associada ao [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba](http://bit.ly/3mVfjhF) e ao [Emílias - Armação em Bits](https://utfpr.curitiba.br/emilias). 
+Fronteiras da Engenharia de Software é um podcast para refletir sobre o presente e o futuro da **Engenharia de Software**. Publicamos episódios com pessoas pesquisadoras da área, em formato de entrevista, palestra (gravada ou ao vivo) ou conversa. Este podcast é uma atividade de **divulgação científica** associada ao [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba](http://bit.ly/3mVfjhF) e ao [Emílias - Armação em Bits](https://utfpr.curitiba.br/emilias). 
 
 **Somos parte da [Rede Emílias de Podcasts](https://bit.ly/redeemilias).**
 
-Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Software? Será avisado(a) do lançamento de cada episódio e também de outras atividades em que estivermos envolvidos. Se sim, preencha seus dados [neste formulário](https://bit.ly/3N7brVL). 
+## Assista-nos ou escute-nos em várias plataformas
+
+- [Spotify (áudio e vídeo)](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
+- [YouTube (vídeo)](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
+- [PocketCasts (áudio)](https://pocketcasts.com/podcast/fronteiras-da-engenharia-de-software/27e964c0-8cba-0138-ee52-0acc26574db2)
+- [Spotify for Creators (áudio)](https://creators.spotify.com/pod/profile/fronteirases/) - contém link para outras plataformas
+- [Apple Podcasts (áudio)](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
+- [Amazon Music (áudio)](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
+- [RSS - link para ouvir em qualquer aplicativo de áudio](https://anchor.fm/s/248c0568/podcast/rss)
+
+## Receba as novidades
+
+Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Software? Será avisado(a) do lançamento de cada episódio e também de outras atividades em que estivermos envolvidos. Se sim, preencha seus dados [neste formulário](https://bit.ly/3N7brVL). Enviaremos também convite para nosso grupo no WhatsApp. Sugira nomes de pessoas pesquisadoras para estar em nosso podcast pelo e-mail fronteirasesw@gmail.com.
 
 <!-- Se quiser nos ajudar, entre em nosso [Apoia-se](https://apoia.se/fronteirases). -->
 
@@ -52,18 +64,5 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 
 
 
-## Escute-nos em várias plataformas
-
-- [Spotify](https://open.spotify.com/show/1Ik3QFLLS9KThpSE9l8fX3)
-- [YouTube](https://www.youtube.com/channel/UCoMR6kQkALsrDIpbu3nB9tw)
-- [PocketCasts](https://pocketcasts.com/podcast/fronteiras-da-engenharia-de-software/27e964c0-8cba-0138-ee52-0acc26574db2)
-- [Spotify for Creators](https://creators.spotify.com/pod/profile/fronteirases/) - contém link para outras plataformas
-- [Apple Podcasts](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
-- [Amazon Music](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
-- [RSS - link para ouvir em qualquer aplicativo de áudio](https://anchor.fm/s/248c0568/podcast/rss)
-
-
-Sugira nomes enviando mensagens diretas em nossas redes sociais ou pelo e-mail fronteirasesw@gmail.com.
-
-[Mais informações](/paginas_extras/)
+## [Mais informações](/paginas_extras/)
 
