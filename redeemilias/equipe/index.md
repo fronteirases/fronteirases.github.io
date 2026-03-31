@@ -15,7 +15,7 @@
   </div>
 
   <div style="text-align: center; width: 200px;">
-    <img src="images/carolina-vitoriah.jpg" alt="Carolina Vitoriah Ferreira Bruno" width="200" height="200" style="object-fit: cover; border-radius: 8px;" onerror="this.src='image.jpg'">
+    <img src="images/carolina-vitoriah.png" alt="Carolina Vitoriah Ferreira Bruno" width="200" height="200" style="object-fit: cover; border-radius: 8px;" onerror="this.src='image.jpg'">
     <p><strong>Carolina Vitoriah Ferreira Bruno</strong><br>Bolsista<br><em>Desde 26/08/2025</em></p>
   </div>
 
