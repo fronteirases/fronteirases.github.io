@@ -1,11 +1,9 @@
 # Equipe da Rede Emílias de Podcasts
 
+
+
+
 ## Atual
-
-
-
-
-## Atul com imagens
 
 <div style="display: flex; flex-wrap: wrap; gap: 24px; margin-top: 16px;">
 
