@@ -1,7 +1,7 @@
+
 # Media Kit da Rede Emílias de Podcasts
 
-(Em construção)
-
+Contato: fronteiraesw@gmail.com
 
 ## Fronteiras da Engenharia de Software
 
@@ -17,3 +17,13 @@ Data dos dados: 02/04/2026
   - Novos inscritos no YouTube nos últimos 90 dias: 170
 - Visualizações no YouTube nos últimos 90 dias: 3414 
 - Horas de consumo no YouTube nos últimos 90 dias: 451,1
+
+## Emílias Podcast - Mulheres na Computação
+
+
+(Em construção)
+
+## Elixir em Foco
+
+
+(Em construção)
