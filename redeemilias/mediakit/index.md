@@ -12,7 +12,7 @@ Data dos dados: 02/04/2026
   - Novos seguidores no Spotify nos últimos 90 dias: 67
 - Reproduções no Spotify nos últimos 90 dias: 2386
 - Horas de consumo no Spotify nos últimos 90 dias: 324
-- Stream e downloads em todas as plataformas de áudio nos últimos 90 dias: 1814 <!-- 765+827+222 -->
+- Streams e downloads em todas as plataformas de áudio nos últimos 90 dias: 1814 <!-- 765+827+222 -->
 - Inscritos no YouTube: 1455
   - Novos inscritos no YouTube nos últimos 90 dias: 170
 - Visualizações no YouTube nos últimos 90 dias: 3414 
