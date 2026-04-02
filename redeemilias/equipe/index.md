@@ -2,9 +2,6 @@
 
 
 
-
-## Atual
-
 <div style="display: flex; flex-wrap: wrap; gap: 24px; margin-top: 16px;">
 
   <div style="text-align: center; width: 200px;">
