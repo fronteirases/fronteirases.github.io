@@ -9,14 +9,23 @@ Esta rede tem os seguintes podcasts:
 - [Fronteiras da Engenharia de Software](https://fronteirases.github.io/)
 - [Elixir em Foco](https://www.elixiremfoco.com/)
 - [Professor Adolfo Neto](https://adolfont.github.io/extension/podcasts/adolfont)
-- [Hello, Erlang!](https://helloerlang.github.io/)
+- [Hello, Erlang!](https://helloerlang.github.io/) - em pausa
 
 
 ## Equipe
 
 - Coordenador da Rede Emílias de Podcasts: [Adolfo Neto](https://bit.ly/FES_AdolfoNeto)
 - Coordenadora do Programa de Extensão "Emílias - Armação em Bits": [Maria Claudia Emer](https://bit.ly/FES_MariaClaudia)
-
+- Zoey Pessanha - Apresentadora do Elixir em Foco
+- Herminio Torres - Apresentador do Elixir em Foco
+- Carolina Bruno - Bolsista 
+- Fernanda Augusta dos Santos - Voluntária (área de roteiros) 
+- Ingrid Mendes - Voluntária
+- Nathálya Chaves - Voluntária
+- Andreia Farias - Voluntária
+- Daniel - Voluntário
+- João Pedro dos Anjos Coelho - Voluntário desde 04/2026 
+- Lais Yumi Aguero Ito - Voluntário desde 04/2026
 
 ## Sobre nossos podcasts
 
