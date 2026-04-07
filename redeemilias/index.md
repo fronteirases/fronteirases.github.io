@@ -23,7 +23,7 @@ Esta rede tem os seguintes podcasts:
 - Ingrid Mendes - Voluntária
 - Nathálya Chaves - Voluntária
 - Andreia Farias - Voluntária
-- Daniel - Voluntário
+- Daniel Pego - Voluntário
 - João Pedro dos Anjos Coelho - Voluntário desde 04/2026 
 - Lais Yumi Aguero Ito - Voluntário desde 04/2026
 
