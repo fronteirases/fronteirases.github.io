@@ -29,8 +29,10 @@ Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Softw
 
 Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www.youtube.com/@CortesDoFronteiras)
 
-## Nosso episódio mais recente
 
+<!--
+CANSEI DE ATUALIZAR
+## Nosso episódio mais recente
 
 
 ## Vídeo no YouTube
@@ -44,11 +46,12 @@ Nosso canal de cortes: [https://www.youtube.com/@CortesDoFronteiras](https://www
 
 
 
-
+-->
 
 
 ## Episódios mais recentes
 
+- [66: GABI: um framework para o desenvolvimento de software financeiro inclusivo para idosos, com Lara Lima (UFC Quixadá e ICMC/USP)](../episodios/paginas/66)
 - [65: Empatia na Engenharia de Software, com Lidiany Cerqueira (UFS/UFBA)](../episodios/paginas/65)
 - [64b: Evolução da Engenharia de Software Experimental, com Guilherme H. Travassos (COPPE/UFRJ)](../episodios/paginas/64b)
 - [64: Qual é a próxima fronteira da Engenharia de Software? Edição 2025 da Retrospectiva](../episodios/paginas/64)
