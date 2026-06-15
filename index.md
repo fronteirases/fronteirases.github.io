@@ -51,6 +51,7 @@ CANSEI DE ATUALIZAR
 
 ## Episódios mais recentes
 
+- [67: Uso de algoritmos de otimização na modernização de sistemas monolíticos, Thelma Colanzi (UEM)](../episodios/paginas/67)
 - [66: GABI: um framework para o desenvolvimento de software financeiro inclusivo para idosos, com Lara Lima (UFC Quixadá e ICMC/USP)](../episodios/paginas/66)
 - [65: Empatia na Engenharia de Software, com Lidiany Cerqueira (UFS/UFBA)](../episodios/paginas/65)
 - [64b: Evolução da Engenharia de Software Experimental, com Guilherme H. Travassos (COPPE/UFRJ)](../episodios/paginas/64b)
