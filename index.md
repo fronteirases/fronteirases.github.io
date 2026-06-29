@@ -12,6 +12,7 @@ Fronteiras da Engenharia de Software é um podcast para refletir sobre o present
 - [Spotify for Creators (áudio)](https://creators.spotify.com/pod/profile/fronteirases/) - contém link para outras plataformas
 - [Apple Podcasts (áudio)](https://podcasts.apple.com/us/podcast/fronteiras-da-engenharia-de-software/id1517697751)
 - [Amazon Music (áudio)](https://music.amazon.com.br/podcasts/3b9acc31-7f04-4f8d-b397-442a49cd63b2/fronteiras-da-engenharia-de-software)
+- [Fronteiras da Engenharia de Software no Índice Brasileiro de Podcasts](https://index.castnews.com.br/podcast/482046)
 - [RSS - link para ouvir em qualquer aplicativo de áudio](https://anchor.fm/s/248c0568/podcast/rss)
 
 ## Receba as novidades
