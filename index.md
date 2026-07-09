@@ -2,7 +2,7 @@
 
 Fronteiras da Engenharia de Software é um podcast para refletir sobre o presente e o futuro da **Engenharia de Software**. Publicamos episódios com pessoas pesquisadoras da área, em formato de entrevista, palestra (gravada ou ao vivo) ou conversa. Este podcast é uma atividade de **divulgação científica** associada ao [Programa de Pós-Graduação em Computação Aplicada da UTFPR Curitiba](http://bit.ly/3mVfjhF) e ao [Emílias - Armação em Bits](https://utfpr.curitiba.br/emilias). 
 
-**Somos parte da [Rede Emílias de Podcasts](https://bit.ly/redeemilias).**
+**Somos parte da [Rede Emílias de Podcasts](https://fronteirases.github.io/redeemilias/).**
 
 ## Assista-nos ou escute-nos em várias plataformas
 
