@@ -15,6 +15,13 @@ Fronteiras da Engenharia de Software é um podcast para refletir sobre o present
 - [Fronteiras da Engenharia de Software no Índice Brasileiro de Podcasts](https://index.castnews.com.br/podcast/482046)
 - [RSS - link para ouvir em qualquer aplicativo de áudio](https://anchor.fm/s/248c0568/podcast/rss)
 
+## Siga nosso perfil no Bluesky
+
+<!-- BlueskyTimeline Widget -->
+<bst-widget data-handle="fronteirases.bsky.social" data-theme="light" data-width="420px" data-height="500px" data-lang="en" data-ui="0" data-pin="0" data-rp="0" data-thread="0" data-prof="0"></bst-widget>
+<script src="https://blueskytimeline.com/v2/timeline.js" type="module" defer></script>
+<!-- /BlueskyTimeline Widget -->
+
 ## Receba as novidades
 
 Você tem interesse em receber e-mails sobre o Fronteiras da Engenharia de Software? Será avisado(a) do lançamento de cada episódio e também de outras atividades em que estivermos envolvidos. Se sim, preencha seus dados [neste formulário](https://bit.ly/3N7brVL). Enviaremos também convite para nosso grupo no WhatsApp. Sugira nomes de pessoas pesquisadoras para estar em nosso podcast pelo e-mail fronteirasesw@gmail.com.
