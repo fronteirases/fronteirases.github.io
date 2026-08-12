@@ -61,8 +61,10 @@ CANSEI DE ATUALIZAR
 
 ## Episódios mais recentes
 
-- [68: Edge UFAL: inovação, pesquisa e desenvolvimento em Engenharia de Software, com Armando Davino](../episodios/paginas/68)
+- [69: PD&I e Engenharia de Software no EASY UFAL: Uma Conversa com Márcio Ribeiro (UFAL)](../episodios/paginas/69)
+- [Extra: IA na Engenharia de Software (o lado ruim), com Adolfo Neto](https://creators.spotify.com/pod/profile/fronteirases/episodes/Inteligncia-Artificial-IA-em-Engenharia-de-Software-o-lado-ruim--Adolfo-Neto-EsquentaSe4FP-e3mm032/a-acps9gf)
 
+- [68: Edge UFAL: inovação, pesquisa e desenvolvimento em Engenharia de Software, com Armando Davino](../episodios/paginas/68)
 - [67: Uso de algoritmos de otimização na modernização de sistemas monolíticos, Thelma Colanzi (UEM)](../episodios/paginas/67)
 - [66: GABI: um framework para o desenvolvimento de software financeiro inclusivo para idosos, com Lara Lima (UFC Quixadá e ICMC/USP)](../episodios/paginas/66)
 - [65: Empatia na Engenharia de Software, com Lidiany Cerqueira (UFS/UFBA)](../episodios/paginas/65)
