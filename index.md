@@ -61,6 +61,7 @@ CANSEI DE ATUALIZAR
 
 ## Episódios mais recentes
 
+- [70: XP 2026 no Brasil: um relato sobre uma das mais importantes conferências de métodos ágeis, com Dra. Graziela Simone Tonin (INSPER)](../episodios/paginas/70)
 - [69: PD&I e Engenharia de Software no EASY UFAL: Uma Conversa com Márcio Ribeiro (UFAL)](../episodios/paginas/69)
 - [Extra: IA na Engenharia de Software (o lado ruim), com Adolfo Neto](https://creators.spotify.com/pod/profile/fronteirases/episodes/Inteligncia-Artificial-IA-em-Engenharia-de-Software-o-lado-ruim--Adolfo-Neto-EsquentaSe4FP-e3mm032/a-acps9gf)
 
@@ -70,9 +71,7 @@ CANSEI DE ATUALIZAR
 - [65: Empatia na Engenharia de Software, com Lidiany Cerqueira (UFS/UFBA)](../episodios/paginas/65)
 - [64b: Evolução da Engenharia de Software Experimental, com Guilherme H. Travassos (COPPE/UFRJ)](../episodios/paginas/64b)
 - [64: Qual é a próxima fronteira da Engenharia de Software? Edição 2025 da Retrospectiva](../episodios/paginas/64)
-- [63: Teaching Software Engineering at Scale, with Armando Fox (UC Berkeley)](../episodios/paginas/63)
-- [62: Qualidade e Manutenção de Software, com Carla Bezerra (UFC Quixadá)](../episodios/paginas/62)
-- [61: ADoTe: abordagem para o ensino e aprendizagem de critérios de teste da técnica funcional apoiada por dojo de teste, Vladimir Belinski (PPGCA UTFPR)](../episodios/paginas/61)
+
 
 [Clique para ver mais](/paginas_extras/) 
 
