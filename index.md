@@ -63,6 +63,7 @@ CANSEI DE ATUALIZAR
 
 [Página com episódios](episodios/)
 
+= [71: Uma estrutura de descoberta para projetos de inovação em IA, Mariana Crisostomo Martins](../episodios/paginas/71)
 - [70: XP 2026 no Brasil: um relato sobre uma das mais importantes conferências de métodos ágeis, com Dra. Graziela Simone Tonin (INSPER)](../episodios/paginas/70)
 - [69: PD&I e Engenharia de Software no EASY UFAL: Uma Conversa com Márcio Ribeiro (UFAL)](../episodios/paginas/69)
 - [Extra: IA na Engenharia de Software (o lado ruim), com Adolfo Neto](https://creators.spotify.com/pod/profile/fronteirases/episodes/Inteligncia-Artificial-IA-em-Engenharia-de-Software-o-lado-ruim--Adolfo-Neto-EsquentaSe4FP-e3mm032/a-acps9gf)
