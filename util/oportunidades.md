@@ -25,4 +25,12 @@ As 40 horas semanais incluem ensino, pesquisa, orientação e outras atividades 
 -   Graduação: provas objetiva, didática e de títulos.
 -   Pós-graduação: avaliação de títulos e memorial acadêmico com plano de atuação.
 
-**Onde me inscrevo?** [https://www.concursos.ufms.br](https://www.concursos.ufms.br/ "https://www.concursos.ufms.br") **EDITAIS COMPLETOS** Graduação: [https://www.facom.ufms.br/graduacao-divulgados-editais-para-contratacao-de-professor-visitante/](https://www.facom.ufms.br/graduacao-divulgados-editais-para-contratacao-de-professor-visitante/ "https://www.facom.ufms.br/graduacao-divulgados-editais-para-contratacao-de-professor-visitante/") Pós-graduação: [https://www.facom.ufms.br/pos-graduacao-publicados-editais-do-processo-seletivo-para-contratacao-de-professor-visitante/](https://www.facom.ufms.br/pos-graduacao-publicados-editais-do-processo-seletivo-para-contratacao-de-professor-visitante/ "https://www.facom.ufms.br/pos-graduacao-publicados-editais-do-processo-seletivo-para-contratacao-de-professor-visitante/") **Compartilhe com doutores e pesquisadores da área de Computação!**
+**Onde me inscrevo?** [https://www.concursos.ufms.br](https://www.concursos.ufms.br/ "https://www.concursos.ufms.br") 
+
+**EDITAIS COMPLETOS** 
+
+Graduação: [https://www.facom.ufms.br/graduacao-divulgados-editais-para-contratacao-de-professor-visitante/](https://www.facom.ufms.br/graduacao-divulgados-editais-para-contratacao-de-professor-visitante/ "https://www.facom.ufms.br/graduacao-divulgados-editais-para-contratacao-de-professor-visitante/") 
+
+Pós-graduação: [https://www.facom.ufms.br/pos-graduacao-publicados-editais-do-processo-seletivo-para-contratacao-de-professor-visitante/](https://www.facom.ufms.br/pos-graduacao-publicados-editais-do-processo-seletivo-para-contratacao-de-professor-visitante/ "https://www.facom.ufms.br/pos-graduacao-publicados-editais-do-processo-seletivo-para-contratacao-de-professor-visitante/") 
+
+**Compartilhe com doutores e pesquisadores da área de Computação!**
