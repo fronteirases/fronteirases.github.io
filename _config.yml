@@ -1,5 +1,6 @@
 #theme:  jekyll-theme-leap-day  # tentei minimal mas não deu certo
 
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
@@ -19,3 +20,5 @@ include:
   - index.md
 
 
+- name: Markdown Table of Contents Generator
+  uses: Sceleratis/markdown-table-of-contents-generator-action@v1.0.4
