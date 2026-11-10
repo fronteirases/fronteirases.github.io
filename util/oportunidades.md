@@ -1,8 +1,6 @@
 # Oportunidades
 
-## 10/11/2026
-
-OPORTUNIDADE PARA DOUTORES EM COMPUTAÇÃO – VENHA FAZER PARTE DA FACOM/UFMS!
+## 10/11/2026 - OPORTUNIDADE PARA DOUTORES EM COMPUTAÇÃO – VENHA FAZER PARTE DA FACOM/UFMS!
 
 Quer desenvolver pesquisas, participar de projetos inovadores e atuar no ensino superior em uma universidade federal? A Faculdade de Computação da UFMS, em Campo Grande/MS, está selecionando **5 professores visitantes**, com remuneração de **R$ 14.945,96 mensais** (incluindo auxílio-alimentação). **Inscrições:** até 13/11/2026, gratuitas. **Regime:** 40 horas semanais, com dedicação exclusiva. **VAGAS PARA GRADUAÇÃO (3)**
 
