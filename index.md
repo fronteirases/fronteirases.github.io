@@ -68,6 +68,7 @@ CANSEI DE ATUALIZAR
 
 [Página com episódios](episodios/)
 
+- [72: # Programa Unico Academia: uma Visão Geral, José Carlos Maldonado e Roger Granada](../episodios/paginas/72)
 - [71: Uma estrutura de descoberta para projetos de inovação em IA, Mariana Crisostomo Martins](../episodios/paginas/71)
 - [70: XP 2026 no Brasil: um relato sobre uma das mais importantes conferências de métodos ágeis, com Dra. Graziela Simone Tonin (INSPER)](../episodios/paginas/70)
 - [69: PD&I e Engenharia de Software no EASY UFAL: Uma Conversa com Márcio Ribeiro (UFAL)](../episodios/paginas/69)
