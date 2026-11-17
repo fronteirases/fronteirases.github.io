@@ -2,6 +2,8 @@
 
 Página do podcast Fronteiras da Engenharia de Software em http://fronteirases.github.io
 
+[Rede Emílias de Podcasts](https://fronteirases.github.io/redeemilias/)
+
 <!-- 
 Capa YouTube 2026 https://canva.link/66t3dr3mmi85xm0
 
